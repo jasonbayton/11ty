@@ -181,11 +181,15 @@ Where historically EMMs have needed to import applications from Google Play, the
 
 <figure class="wp-block-image alignnone is-resized">
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)<figcaption>Source: bayton.org, photo: MobileIron Core 9.4 (cropped) app management</figcaption></figure>The benefit of utilising an EMM platform for app management is managed app configs, making it extremely easy to tailor applications to the business for immediate use on deployment, no additional end-user configuration required:
+[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)
+
+<figcaption>Source: bayton.org, photo: MobileIron Core 9.4 (cropped) app management</figcaption></figure>The benefit of utilising an EMM platform for app management is managed app configs, making it extremely easy to tailor applications to the business for immediate use on deployment, no additional end-user configuration required:
 
 <figure class="wp-block-image alignnone">
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)<figcaption>Source: bayton.org, photo: MobileIron Core 9.2</figcaption></figure>For EMM admins the above config may look familiar, though apps like Chrome offer far more granular functionality around permitted domains, browser functionality and more.
+[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)
+
+<figcaption>Source: bayton.org, photo: MobileIron Core 9.2</figcaption></figure>For EMM admins the above config may look familiar, though apps like Chrome offer far more granular functionality around permitted domains, browser functionality and more.
 
 Even better, because Android Enterprise (via the EMM) takes care of the accounts via managed Google Play accounts, there’s no need for a per-user or shared Google account to be on the device, and applications can be pushed down silently!
 
