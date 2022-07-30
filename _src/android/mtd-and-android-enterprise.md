@@ -36,7 +36,7 @@ Here’s a breakdown of visibility per deployment scenario:
 Work-managed (fully managed)
 ----------------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/wm.png)](/wp-content/uploads/2018/10/wm.png)</figure></div>The simplest and therefore easiest to begin with. A fully managed (COBO) device for all intents and purposes acts similarly to a legacy-managed Android handset where MTD is concerned.
+<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/wm.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/wm.png)</figure></div>The simplest and therefore easiest to begin with. A fully managed (COBO) device for all intents and purposes acts similarly to a legacy-managed Android handset where MTD is concerned.
 
 The organisation distributes the MTD agent to the device directly and, as the MTD resides within the only profile on the device, it detects:
 
@@ -50,7 +50,7 @@ As a fully managed device, there are no concerns over lack of visibility, and sh
 COSU (dedicated device)
 -----------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/cosu2-1.png)](/wp-content/uploads/2018/10/cosu2.png)</figure></div>A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
+<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/cosu2-1.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/cosu2.png)</figure></div>A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
 
 Much like the fully managed device, deploying MTD to a COSU device will provide full access akin to a legacy enrolment, and can see:
 
@@ -64,7 +64,7 @@ There’s only one caveat; as most MTD solutions cannot auto-activate on Android
 Work profile (BYOD)
 -------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/workprofile.png)](/wp-content/uploads/2018/10/workprofile.png)</figure></div>**NB: From Android 11 the below work profile considerations also apply to COPE!**
+<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/workprofile.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/workprofile.png)</figure></div>**NB: From Android 11 the below work profile considerations also apply to COPE!**
 
 Work profile is designed for Bring Your Own Device (BYOD) deployments, however in reality and unfortunately work profile is utilised on many, many corporately owned devices across the world, which in general is less than ideal, but in the case of MTD is definitely not a particularly good thing.
 
@@ -88,7 +88,9 @@ The less-than-ideal workaround for this would be to deploy the MTD into the pare
 Managed devices with work profiles (COPE)
 -----------------------------------------
 
-<div class="wp-block-image inline-responsive-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/wmwp.png)</div>**NB: The below considerations should be applied only to Android 8.0-10. Android 11 utilises a BYOD style COPE implementation.**
+<div class="wp-block-image inline-responsive-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/wmwp.png)</div>
+
+**NB: The below considerations should be applied only to Android 8.0-10. Android 11 utilises a BYOD style COPE implementation.**
 
 The COPE approach, on paper, technically has the capability to add the missing management aspect to the above BYOD deployment scenario.
 

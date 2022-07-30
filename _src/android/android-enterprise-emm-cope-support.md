@@ -16,10 +16,14 @@ discourse_permalink:
 publish_post_category:
     - '14'
 ---
-<div class="callout callout-warning">The future of COPE
+<div class="callout callout-warning">
+
+The future of COPE
 ------------------
 
- How Android Enterprise implements COPE is changing, requiring all of the below EMMs who’ve worked to bring support for the solution set to market to rework COPE support once more from Android 11. [Read more](/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/)</div>Work profiles on fully managed devices (COPE) debuted with Android Oreo on the 21st of August, 2017. In the *extortionate* amount of time since then there are still a number of EMMs in the market which do not support this perfect middle-ground between the loss of control on work profile devices, and lack of support for personal use on fully managed devices.
+ How Android Enterprise implements COPE is changing, requiring all of the below EMMs who’ve worked to bring support for the solution set to market to rework COPE support once more from Android 11. [Read more](/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/)</div>
+ 
+Work profiles on fully managed devices (COPE) debuted with Android Oreo on the 21st of August, 2017. In the *extortionate* amount of time since then there are still a number of EMMs in the market which do not support this perfect middle-ground between the loss of control on work profile devices, and lack of support for personal use on fully managed devices.
 
 With advancements in Android Enterprise solutions to date, in particular OEMConfig, the workload for EMM vendors today has in theory shrunk. OEMs like Samsung and Zebra have fully embraced OEMConfig, with the former recommending the adoption of Android Enterprise over legacy DA-period SAFE APIs.
 

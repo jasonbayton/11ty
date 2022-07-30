@@ -30,7 +30,7 @@ The below video was published prior to the recent WannaCry/NotPetya global ranso
 
 `min protocol = SMB2`
 
-[![](../../../../../uploads/2017/06/disable_smbv1.png)](/wp-content/uploads/2017/06/disable_smbv1.png)
+[![](../../../../../uploads/2017/06/disable_smbv1.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/06/disable_smbv1.png)
 
 Ensure Samba is restarted in order to apply the change:
 
@@ -95,19 +95,19 @@ Open the `smb.conf` file. This will allow you to edit the Samba workgroup (if re
 
 `sudo vim /etc/samba/smb.conf`
 
-[![](../../../../../uploads/2017/01/sambaconf.png)](/wp-content/uploads/2017/01/sambaconf.png)
+[![](../../../../../uploads/2017/01/sambaconf.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/sambaconf.png)
 
 If you use a DOMAIN/WORKGROUP, edit the following line, otherwise, skip down to near the bottom of the file:
 
 `workgroup = <strong>WORKGROUP</strong>`
 
-[![](../../../../../uploads/2017/01/workgroup.png)](/wp-content/uploads/2017/01/workgroup.png)
+[![](../../../../../uploads/2017/01/workgroup.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/workgroup.png)
 
 `WORKGROUP` can be substituted for a domain (such as bytn.uk shown in my video) or a custom workgroup name.
 
 Now head down to the end of the file, and add your share like so:
 
-[![](../../../../../uploads/2017/01/shareinsert.png)](/wp-content/uploads/2017/01/shareinsert.png)
+[![](../../../../../uploads/2017/01/shareinsert.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/shareinsert.png)
 
 Here’s a handy template to copy/paste:
 
@@ -133,7 +133,7 @@ Next, as the share requires authentication you’ll need usernames and passwords
 
 `sudo smbpasswd -a <strong>jason</strong>`
 
-[![](../../../../../uploads/2017/01/passwd.png)](/wp-content/uploads/2017/01/passwd.png)
+[![](../../../../../uploads/2017/01/passwd.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/passwd.png)
 
 The password doesn’t have to match that of your Ubuntu user account, it can be totally unique to Samba (which isn’t a bad idea!).
 

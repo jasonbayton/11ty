@@ -23,4 +23,4 @@ If you haven’t heard just yet, the way we manage Android devices is changing; 
 
 Click the below image to read a PDF version of this infobyte.
 
-<figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/Did-you-know_-Infobyte-DADEP.png)](/download/doc/ae-general/infobytes/DYK_DADEP.pdf)</figure>
+<figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/Did-you-know_-Infobyte-DADEP.png)](/download/doc/ae-general/infobytes/DYK_DADEP.pdf)</figure>

@@ -46,7 +46,9 @@ And that’s really how it’d been until 2016, when it seems Google had taken n
 Enter Android Enterprise
 ------------------------
 
-<div class="callout callout-info">### Android vs Android Enterprise
+<div class="callout callout-info">
+
+### Android vs Android Enterprise
 
 Android and Android Enterprise are not separate products; unlike Android TV (now Google TV), Android Auto, Android Automotive, Android Wear (WearOS) or other Android editions, Android Enterprise as a solution is simply a part of Android. Furthermore, Android Enterprise isn’t Android management in and of itself, it’s a set of APIs that require a modern EMM in order to properly manage them. </div>*Or, as it was until 2016, Android for Work.*
 
@@ -67,7 +69,7 @@ Android Enterprise (AE) offers a few things:
 
 Here’s a breakdown of the management scenarios Android Enterprise supports:
 
-<figure class="wp-block-image alignnone size-large">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2020/02/AEtypes11-Page-6-1.png)](/wp-content/uploads/2020/02/AEtypes11-Page-6-1.png)</figure>As can be seen, there’s a lot of flexibility for supporting most business requirements baked right in, with the additional – the most common – management scenario, where the organisation owns the device but permits some personal usage (COPE), available with Android 8.0. All of these scenarios are available at no cost as soon as Android Enterprise has been bound with the EMM platform of choice.
+<figure class="wp-block-image alignnone size-large">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/02/AEtypes11-Page-6-1.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/02/AEtypes11-Page-6-1.png)</figure>As can be seen, there’s a lot of flexibility for supporting most business requirements baked right in, with the additional – the most common – management scenario, where the organisation owns the device but permits some personal usage (COPE), available with Android 8.0. All of these scenarios are available at no cost as soon as Android Enterprise has been bound with the EMM platform of choice.
 
 Enabling Android Enterprise
 ---------------------------
@@ -83,7 +85,7 @@ BYOD and work profile
 
 With the introduction of Android 5.0 Google made user profiles available to phones in addition to tablets already leveraging them. Using the same underlying functionality, Android Enterprise is able to create a managed user profile that although sits entirely separately encrypted on disk (and as of Android 7.0, utilises completely different encryption keys for work/personal), integrates directly with the current user on the device in order to provide both personal and work applications in the same app drawer – the latter indicated by a briefcase:
 
-<figure class="wp-block-image alignnone">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/04/Screenshot_20170728-175602.png)](/wp-content/uploads/2017/04/Screenshot_20170728-175602.png)<figcaption>Source: bayton.org, photo: Android Enterprise work profile, this will change in Android Pie</figcaption></figure>The mix of work and personal apps together on the above BYOD handset demonstrates the level of integration; as an end-user it feels like just another few apps installed, despite the underlying profile configurations working to separate and secure the corporate data. DLP policies can prevent the transfer of enterprise information outside of the work profile or vice versa, and should an enterprise wipe be issued, it simply removes the work profile and leaves all user data untouched.
+<figure class="wp-block-image alignnone">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/Screenshot_20170728-175602.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/Screenshot_20170728-175602.png)<figcaption>Source: bayton.org, photo: Android Enterprise work profile, this will change in Android Pie</figcaption></figure>The mix of work and personal apps together on the above BYOD handset demonstrates the level of integration; as an end-user it feels like just another few apps installed, despite the underlying profile configurations working to separate and secure the corporate data. DLP policies can prevent the transfer of enterprise information outside of the work profile or vice versa, and should an enterprise wipe be issued, it simply removes the work profile and leaves all user data untouched.
 
 In addition for the work profile, Google have added work profile authentication; it’s essentially a secondary passcode requirement in order to access the corporate applications within the profile much like that of which BlackBerry’s Good, MobileIron’s Apps@Work or AirWatch’s Container have supported for many years.
 
@@ -93,11 +95,15 @@ The biggest limitation with the whole BYOD approach from an administrator’s po
 
 As of Knox 3.0, Samsung offer Knox Workspace as an alternative to the native work profile. Overall the UX is similar, but there are some quirks and differences to be aware of. The key benefit with this implementation is the capability to uplift to Knox Premium (for a price) to leverage a much broader set of management APIs over and above Android Enterprise.
 
-<div class="callout callout-success">### Provisioning guides
+<div class="callout callout-success">
+
+### Provisioning guides
 
 Provisioning guides for the work profile deployment scenario can be found here: [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/)
 
-</div>Diving deeper with fully managed devices
+</div>
+
+Diving deeper with fully managed devices
 ----------------------------------------
 
 With fully managed devices there is normally no user usage provisioned. As the intended use is for wholly company-owned devices, the process of provisioning a fully managed device removes any typically BYOD or COPE (Corporately Owned, Personally Enabled) scenarios and locks the device down strictly to the environment set by the EMM administrator. As of Android 8.0 however, the COPE scenario was been introduced with support for work profiles on fully managed devices, however later
@@ -143,9 +149,11 @@ Utilising this method foregoes the need for the device to be local to administra
 
 In Android 7.0 Nougat, the ability to provision a device with a QR code was introduced for both local and remote provisioning for OEMs who choose to support it (most do). By tapping on **Welcome** 6 times when the device boots into the setup Wizard, it will prompt the device to connect to WiFi and start QR enrolment, downloading a QR reader with which to scan an EMM enrolment code such as this one for MobileIron (and it will scan, if you’d like to try, however you’ll need a MobileIron Core to complete enrolment):
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/static_qr_code_without_logo-5.png)In Android 9.0 Pie, the QR package is bundled into the system and therefore doesn’t require a download. This offers much faster provisioning as the device no longer needs to connect to the internet to download the QR package. New in 9 also is the ability to add WiFi credentials to the QR, thus removing one further step from the process. It easily provisions 3x faster than in older Android versions.
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/static_qr_code_without_logo-5.png)In Android 9.0 Pie, the QR package is bundled into the system and therefore doesn’t require a download. This offers much faster provisioning as the device no longer needs to connect to the internet to download the QR package. New in 9 also is the ability to add WiFi credentials to the QR, thus removing one further step from the process. It easily provisions 3x faster than in older Android versions.
 
-<div class="callout callout-success">### Provisioning guides
+<div class="callout callout-success">
+
+### Provisioning guides
 
 Guides for all three of the above fully managed provisioning methods can be found here: [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/)
 
@@ -169,9 +177,9 @@ App management
 
 Where historically EMMs have needed to import applications from Google Play, then manage the install process accordingly (with varied success again due to availability of APIs), with Android Enterprise Google introduced the managed Google Play Store, an enterprise alternative for Google Play on devices allowing only applications explicitly whitelisted for installation by administrators.
 
-<figure class="wp-block-image alignnone is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)](/wp-content/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)<figcaption>Source: bayton.org, photo: MobileIron Core 9.4 (cropped) app management</figcaption></figure>The benefit of utilising an EMM platform for app management is managed app configs, making it extremely easy to tailor applications to the business for immediate use on deployment, no additional end-user configuration required:
+<figure class="wp-block-image alignnone is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)<figcaption>Source: bayton.org, photo: MobileIron Core 9.4 (cropped) app management</figcaption></figure>The benefit of utilising an EMM platform for app management is managed app configs, making it extremely easy to tailor applications to the business for immediate use on deployment, no additional end-user configuration required:
 
-<figure class="wp-block-image alignnone">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](/wp-content/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)<figcaption>Source: bayton.org, photo: MobileIron Core 9.2</figcaption></figure>For EMM admins the above config may look familiar, though apps like Chrome offer far more granular functionality around permitted domains, browser functionality and more.
+<figure class="wp-block-image alignnone">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)<figcaption>Source: bayton.org, photo: MobileIron Core 9.2</figcaption></figure>For EMM admins the above config may look familiar, though apps like Chrome offer far more granular functionality around permitted domains, browser functionality and more.
 
 Even better, because Android Enterprise (via the EMM) takes care of the accounts via managed Google Play accounts, there’s no need for a per-user or shared Google account to be on the device, and applications can be pushed down silently!
 

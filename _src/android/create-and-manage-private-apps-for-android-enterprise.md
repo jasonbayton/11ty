@@ -50,17 +50,17 @@ The following is demonstrated in VMware Workspace One UEM, but the process is id
 
 Within **Apps &amp; Books &gt; Apps &gt; Public**, add a new app. No name is required, despite it showing the asterisk\*:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/12/2018-12-27-17.07.23.gif)Once the iFrame opens, hover the mouse on the left hand side to display the sidebar menu, and click **Private apps**. You may need to scroll down in the empty private apps page to locate the new icon, but once located click it:
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-17.07.23.gif) Once the iFrame opens, hover the mouse on the left hand side to display the sidebar menu, and click **Private apps**. You may need to scroll down in the empty private apps page to locate the new icon, but once located click it:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/12/2018-12-27-17.08.01.gif)You’re now creating a new private app. Add a name and upload the APK:
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-17.08.01.gif)You’re now creating a new private app. Add a name and upload the APK:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/12/2018-12-27-17.08.34.gif)Once complete, click **Create**:
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-17.08.34.gif)Once complete, click **Create**:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/12/2018-12-27-17.09.08.gif)The private app will be available normally within a few minutes (note the **Not available yet** message under the app after creating it, this will vanish when it’s ready).
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-17.09.08.gif)The private app will be available normally within a few minutes (note the **Not available yet** message under the app after creating it, this will vanish when it’s ready).
 
 If you click the app, you’ll be taken into the details view for it, where you’ll be able to edit the name, upload new versions, and also see a link to Google Play to add more information:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/12/2018-12-27-17.29.55.gif)![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/12/image-4.png)Some UEMs will import private apps automatically. Others will not. For the latter, simply add an app as you normally would, switch to the private apps tab in the iFrame, click the app in question and click **Select**. Alternatively if the UEM supports it, run an import from Play to get it.
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-17.29.55.gif)![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-4.png)Some UEMs will import private apps automatically. Others will not. For the latter, simply add an app as you normally would, switch to the private apps tab in the iFrame, click the app in question and click **Select**. Alternatively if the UEM supports it, run an import from Play to get it.
 
 Conclusion
 ----------

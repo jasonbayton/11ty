@@ -75,7 +75,7 @@ C. No work app folder is created on the home screen
 
 D. Work applications show placeholder icons:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../../uploads/2018/11/Screenshot_2018-11-14-12-12-26-433_com.mi_.android.globallauncher-e1542232766860.png)### 3.3. Fully managed with work profile
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/11/Screenshot_2018-11-14-12-12-26-433_com.mi_.android.globallauncher-e1542232766860.png)### 3.3. Fully managed with work profile
 
 Unable to test due to provisioning issues.
 

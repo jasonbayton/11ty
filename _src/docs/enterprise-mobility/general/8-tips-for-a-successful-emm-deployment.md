@@ -23,7 +23,7 @@ That is by no means an insignificant number, one that’s likely already increas
 
 And that’s a problem.
 
-While employees are ready to leverage Enterprise Mobility to improve productivity, enhance their work experience and make their lives easier, businesses in many cases simply aren’t keeping up; a recent [study by Synchronoss](/wp-content/uploads/2017/04/The_State_of_Enterprise_Mobility_Whitepaper.pdf) (via[ CWSI](http://cwsi.ie/the-state-of-enterprise-mobility/)) delved into the state of Enterprise Mobility in 2017 across organisations in the UK and US and highlights how alarmingly unprepared many organisations are – 38% of those asked are yet to implement basic measures to safeguard corporate data such as enforced device security, restricted access to corporate resources or even basic visibility\* of who is connecting in and to what.
+While employees are ready to leverage Enterprise Mobility to improve productivity, enhance their work experience and make their lives easier, businesses in many cases simply aren’t keeping up; a recent [study by Synchronoss](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/The_State_of_Enterprise_Mobility_Whitepaper.pdf) (via[ CWSI](http://cwsi.ie/the-state-of-enterprise-mobility/)) delved into the state of Enterprise Mobility in 2017 across organisations in the UK and US and highlights how alarmingly unprepared many organisations are – 38% of those asked are yet to implement basic measures to safeguard corporate data such as enforced device security, restricted access to corporate resources or even basic visibility\* of who is connecting in and to what.
 
 <span style="font-size: small;">\* ActiveSync logs notwithstanding</span>
 

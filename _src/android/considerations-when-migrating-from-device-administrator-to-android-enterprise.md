@@ -20,7 +20,9 @@ discourse_permalink:
 FeaturedBackground:
     - android
 ---
-<div class="callout callout-success">### What is Android Enterprise?
+<div class="callout callout-success">
+
+### What is Android Enterprise?
 
 For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
 
@@ -46,13 +48,17 @@ Android Enterprise became mandatory with 6.0, Marshmallow. Although 5.0 *should*
 
 With a large enough split between supported and unsupported devices, a hybrid legacy/AE environment may be the best option whilst the unsupported devices are phased out; many EMM platforms can support a hybrid environment, though this will naturally result in a mix of [enrolment guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/), additional overhead for support teams and a more complex EMM deployment, though only temporarily. In future, device administrator enrolment [will not be possible at all](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), meaning if legacy enrolment is still being utilised in 2020, a hybrid environment will be a requirement, rather than an option.
 
-<div class="callout callout-danger">### Planning required!
+<div class="callout callout-danger">
+
+### Planning required!
 
 Deploying a hybrid environment incorrectly may (depending on the EMM) result in all Android Enterprise-capable devices being targeted by the relevant profiles/configurations and lead to a mass work profile roll-out. Though this can be postponed by the user, it is likely to be highly disruptive.
 
 Always ensure in a hybrid scenario Android Enterprise is configured below the top-level in a hierarchical EMM, or to a dedicated group/label for others where it cannot impact more devices than explicitly required until such time legacy devices are retired from the platform, unless your EMM vendor explicitly states there is no concern. Active Directory groups may also offer an excellent, simple way of managing this.
 
-</div>Supported features
+</div>
+
+Supported features
 ------------------
 
 Like iOS and legacy Android (Samsung in particular with Knox), with each major Android version, additional functionality is often added. This is equally no different in an enterprise context. Depending on the functionality required for various areas of an organisation, it may make sense to refresh some devices sooner rather than later. The full list of supported functionality per OS version can be found [here](https://developers.google.com/android/work/requirements/features), however as a very brief example:
@@ -120,14 +126,20 @@ As well as binding the EMM with Google, applications will need to be (re)importe
 
 Additionally, segregation between the legacy device configurations/profiles and the Android Enterprise-enabled devices should be undertaken. I feel this is rather important; often I see legacy policies/configs applied to an entire estate, perhaps as an “all devices” or “Android” assignment which will obviously also target Android Enterprise devices. While these configurations and profiles for the most part won’t apply, it will make it more difficult to troubleshoot issues with EMM logs full of partially applied or entirely failed attempts to push legacy configs.
 
-<div class="callout callout-info">### Tip!
+<div class="callout callout-info">
+
+### Tip!
 
 A general piece of advice is not to assign apps/configs/policies/etc to such far-reaching groups/labels or at the top of a hierarchical structure and instead focus them more towards active directory/system groups that can be tweaked, changed or have devices easily excluded from them with little effort. This is not limited to Android Enterprise prep, but can also apply to VPP, DEP, differing authentication methods and more.
 
-</div>Undertaking a work profile migration
+</div>
+
+Undertaking a work profile migration
 ------------------------------------
 
-<div class="callout callout-success">### What is a work profile?
+<div class="callout callout-success">
+
+### What is a work profile?
 
 An overview of work profile can be found [here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile).
 
@@ -145,7 +157,9 @@ This isn’t, however, a comparable deployment. By switching from device adminis
 Undertaking a fully managed migration
 -------------------------------------
 
-<div class="callout callout-success">### What is a fully managed device?
+<div class="callout callout-success">
+
+### What is a fully managed device?
 
 An overview of fully managed can be found [here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices).
 

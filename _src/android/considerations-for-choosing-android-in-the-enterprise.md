@@ -16,11 +16,15 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-for-choosing-android-in-the-enterprise/272'
 ---
-<div class="callout callout-success">### What is Android Enterprise?
+<div class="callout callout-success">
+
+### What is Android Enterprise?
 
 The below document covers off a number of both Android and Android Enterprise features, so some understanding of Android Enterprise is required. To learn more about Android Enterprise, [click here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/).
 
-</div>Android is secure
+</div>
+
+Android is secure
 -----------------
 
 The perception of Android security being subpar has long been proven incorrect. From Google’s pivot to enterprise in Android 5.0 Lollipop to today, security has been a key focus of every release.
@@ -29,7 +33,7 @@ Not convinced?
 
 From 2016-2019 Gartner has ranked Android higher than iOS in a number of areas, including kernel security, exploit protection, network security, workspace isolation and more; the results of which can be found in [this report](https://www.gartner.com/doc/3840064/mobile-oss-device-security-comparison) (12/2017) and [this report](https://www.gartner.com/document/3913286?ref=solrAll&refval=221750465&qid=dd391fbb8659244bf) (2019) should you have a Gartner subscription, if not here’s an overview:
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/02/image.png)<figcaption>Source: Gartner, December 2017. Thanks to [Samsung](http://s7d2.scene7.com/is/content/SamsungUS/samsungbusiness/solutions/samsung-knox/pdf/MobileDeviceSecurity-AComparisonofPlatforms-Feb12-2.pdf) for making this available on the public internet!</figcaption></figure><figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/05/Gartner-Comparison-of-Security-Controls-2019.jpg)<figcaption>Source: Gartner, January 2019. Adapted from[ this source](https://youtu.be/zRhSmH4vSE0).</figcaption></figure>Let’s dive a little deeper into Android security:
+<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/02/image.png)<figcaption>Source: Gartner, December 2017. Thanks to [Samsung](http://s7d2.scene7.com/is/content/SamsungUS/samsungbusiness/solutions/samsung-knox/pdf/MobileDeviceSecurity-AComparisonofPlatforms-Feb12-2.pdf) for making this available on the public internet!</figcaption></figure><figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/05/Gartner-Comparison-of-Security-Controls-2019.jpg)<figcaption>Source: Gartner, January 2019. Adapted from[ this source](https://youtu.be/zRhSmH4vSE0).</figcaption></figure>Let’s dive a little deeper into Android security:
 
 ### Corporate/personal data separation
 
@@ -85,7 +89,9 @@ The days of bringing devices on board and hoping the exchange profile applies su
 
 Even today things are improving still, with the [introduction of OEMConfig](/docs/enterprise-mobility/android/what-is-oemconfig/) OEMs can extend on the base set of Android Enterprise APIs in order to deliver bespoke management capabilities in a way that’s faster and more reliable than ever before. OEMConfig offers zero-day support for new features and capabilities without EMM vendors having to lift a finger.
 
-<div class="callout callout-info">### Did you know?
+<div class="callout callout-info">
+
+### Did you know?
 
 OEMs such as Samsung and Zebra have &gt;1000 APIs available in addition to fundamental Android Enterprise capabilities for incredibly granular management. Through OEMConfig, these APIs can be (and are for Zebra) exposed for simple, zero-day support of every new feature published. More and more OEMs will build out their unique management capabilities as OEMConfig evolves. </div>Check out the [linked article](/docs/enterprise-mobility/android/what-is-oemconfig/) to understand how OEMConfig will transform Android management.
 
@@ -98,7 +104,9 @@ Organisations demand flexibility; in process, use-case, form factor and budget. 
 
 Considering BYOD? Dedicated? Something in between? With four individual solution sets to choose from, Android offers a management scenario to suit all applications.
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/04/AEtypes-Page-6.png)<figcaption>From: [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)</figcaption></figure>The in-depth document [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#enter-android-enterprise) outlines these deployment scenarios and their applications, while this [infographic](/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/) offers a deep-dive on each deployment scenario specifically.
+<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/AEtypes-Page-6.png)<figcaption>
+
+From: [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)</figcaption></figure>The in-depth document [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#enter-android-enterprise) outlines these deployment scenarios and their applications, while this [infographic](/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/) offers a deep-dive on each deployment scenario specifically.
 
 Whether your organisation wants to permit personal devices whilst managing corporate data on a secure, isolated, separately encrypted profile, or desires full control over the device, Android Enterprise offers all of this in a way that is quick and simple to manage.
 
@@ -152,7 +160,7 @@ Taking Gartner’s research into consideration, highlighting Android’s clear l
 
 A corporate version of Google Play permitting only applications approved by administrators; the primary Play Store on fully managed devices, or the badged Play Store for work profile-enabled devices.
 
-<div class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/01/Screenshot_20190131-174333.png)</div>Managed Google Play offers complete control over the applications permitted on a managed device without affecting the native look and feel of the device.
+<div class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/Screenshot_20190131-174333.png)</div>Managed Google Play offers complete control over the applications permitted on a managed device without affecting the native look and feel of the device.
 
 In conjunction with managed Google or Google Play accounts, applications can be distributed silently and simply, updated automatically, restricted from uninstallation and more.
 

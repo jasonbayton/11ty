@@ -26,7 +26,9 @@ FeaturedBackground:
 
 Just looking for details of devices tested? Head back to [Android Enterprise device support](/docs/enterprise-mobility/android/android-enterprise-device-support/).
 
-</div><div class="callout callout-info">### OEM or reseller?
+</div><div class="callout callout-info">
+
+### OEM or reseller?
 
 If you’re interested in knowing more about the project as a whole and the background around it, jump to [project information](#project-information). Otherwise, [success criteria](#success-criteria) outlines exactly what is expected during the provisioning of an Android Enterprise-compatible device.
 
@@ -54,7 +56,9 @@ Should you wish to see first-hand the policies/configs/profiles utilised to vali
 
 #### MobileIron Core
 
-<div class="wp-block-file">[MobileIron Policies](/wp-content/uploads/2019/01/MI_AEvalidation.zip)[Download](/wp-content/uploads/2019/01/MI_AEvalidation.zip)</div>#### VMware Workspace ONE UEM
+[MobileIron Policies](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/MI_AEvalidation.zip)[Download](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/MI_AEvalidation.zip)
+
+#### VMware Workspace ONE UEM
 
 Coming soon
 

@@ -20,9 +20,9 @@ If you’ve read [What is Android Enterprise and why is it used?](/docs/enterpri
 
 A recurring query when discussing Android Enterprise is, as might be expected:
 
-<figure class="wp-block-pullquote">> *How is it different from legacy (device administrator) enrolment?*
+*How is it different from legacy (device administrator) enrolment?*
 
-</figure>That question used to depend on whether we were referring to vanilla Android or Samsung &amp; Knox; today with Samsung’s Android Enterprise unification and capabilities sitting comfortably atop the base layer of Android Enterprise APIs, it’s no longer necessary to decide between them, they can be leveraged together (though there will be references below).
+That question used to depend on whether we were referring to vanilla Android or Samsung &amp; Knox; today with Samsung’s Android Enterprise unification and capabilities sitting comfortably atop the base layer of Android Enterprise APIs, it’s no longer necessary to decide between them, they can be leveraged together (though there will be references below).
 
 What is Device Admin?
 ---------------------
@@ -58,7 +58,7 @@ Some OEMs have over the years implemented their own APIs for various capabilitie
 
 When EMMs do implement these bespoke APIs, in addition to having to request *device administrator* permissions for the EMM agent, it’s highly likely the EMM would also require an additional, per-OEM, application installed on the device to better utilise them; SOTI is most notable for having over 170 of OEM plugins, but the act of installing one involves enabling unknown sources and sideloading APKs. [Not very secure](/docs/enterprise-mobility/android/why-you-shouldnt-install-apps-from-unknown-sources/).
 
-<div class="wp-block-image wp-image-4768 size-full"><figure class="alignleft">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/10/apisupport-e1507840615305.png)<figcaption>*AirWatch restriction support by different OEMs*</figcaption></figure></div>Beyond basic security policies and perhaps a simple email/WiFi/etc configuration then, outside of the bigger OEMs (Samsung, Huawei, Sony, others to a lesser degree), there’s not a lot administrators can manipulate and control with a legacy-managed Android device, which already makes them rather unappealing for use in an enterprise setting.
+<div class="wp-block-image wp-image-4768 size-full"><figure class="alignleft">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/10/apisupport-e1507840615305.png)<figcaption>*AirWatch restriction support by different OEMs*</figcaption></figure></div>Beyond basic security policies and perhaps a simple email/WiFi/etc configuration then, outside of the bigger OEMs (Samsung, Huawei, Sony, others to a lesser degree), there’s not a lot administrators can manipulate and control with a legacy-managed Android device, which already makes them rather unappealing for use in an enterprise setting.
 
 The exception, as mentioned above, is Samsung. When a Samsung device is enrolled normally (as in, not via Knox Premium), EMM administrators have management over the device to a degree similar to that of an Android Enterprise [fully managed](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) device; there are an abundance of restrictions available and excellent visibility of device posture. Samsung’s DA offering isn’t perfect however, and encounters many of the other shortfalls of DA.
 

@@ -24,7 +24,9 @@ FeaturedBackground:
 
 For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
 
-</div>What it is
+</div>
+
+What it is
 ----------
 
 Zero-touch enrolment enables out-of-box EMM enrolment, without the manual processes traditionally associated with Android provisioning, for devices running Android 8.0 where the OEM has opted in, or [all GMS certified devices running 9.0 or above](/2020/11/google-announce-big-changes-to-zero-touch/). If you’re familiar with Samsung’s [KNOX Mobile Enrolment](https://www.samsungknox.com/en/solutions/mobile-enrollment) or Apple’s [Device Enrolment Programme](https://deploy.apple.com), Android’s zero-touch enrolment will not be a new concept.
@@ -34,7 +36,7 @@ Zero-touch as a solution has been available since the original Pixel, with [docu
 How it works
 ------------
 
-<div class="wp-block-image"><figure class="alignright">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/09/ZT-Demo-Gif_pixel.gif)](/wp-content/uploads/2017/09/ZT-Demo-Gif_pixel.gif)</figure></div>With zero-touch, organisations purchase their Android 8.0+ devices from an authorised reseller. After which, the reseller creates a [zero-touch console](https://partner.android.com/zerotouch) customer accounts for the organisation and imports the devices. From there, the organisation can then log into the console and associate these devices to one of any of the EMMs that currently support a fully managed deployment scenario (Device Owner mode) via a configuration. These configurations also support [DPC extras](/docs/enterprise-mobility/android/android-enterprise-zero-touch-dpc-extras-collection/), which allow organisations to pre-configure items like server URL and username.
+<div class="wp-block-image"><figure class="alignright">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/09/ZT-Demo-Gif_pixel.gif)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/09/ZT-Demo-Gif_pixel.gif)</figure></div>With zero-touch, organisations purchase their Android 8.0+ devices from an authorised reseller. After which, the reseller creates a [zero-touch console](https://partner.android.com/zerotouch) customer accounts for the organisation and imports the devices. From there, the organisation can then log into the console and associate these devices to one of any of the EMMs that currently support a fully managed deployment scenario (Device Owner mode) via a configuration. These configurations also support [DPC extras](/docs/enterprise-mobility/android/android-enterprise-zero-touch-dpc-extras-collection/), which allow organisations to pre-configure items like server URL and username.
 
 The DPC (EMM Agent) will be pulled down automatically along with any defined configurations when the device first boots or is factory reset, as demonstrated in the above GIF.
 

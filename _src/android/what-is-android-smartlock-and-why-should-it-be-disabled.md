@@ -37,7 +37,7 @@ Used correctly it can indeed offer a balance between security and convenience in
 
 ### Trusted places
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/08/Screenshot_20180807-104018.png)<figcaption>Selecting a trusted location on a map</figcaption></figure>If you’re at home, at your parents or a close friend’s home, you’re in a location you trust. It’s unlikely (though not impossible) an unknown bad actor is going to walk into the living room and steal your phone.
+<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/08/Screenshot_20180807-104018.png)<figcaption>Selecting a trusted location on a map</figcaption></figure>If you’re at home, at your parents or a close friend’s home, you’re in a location you trust. It’s unlikely (though not impossible) an unknown bad actor is going to walk into the living room and steal your phone.
 
 It’s fair to assume with the environment considered safe, *trusted*, you might not need to make use of authentication to gain access to your device.
 
@@ -49,7 +49,7 @@ When a device is not locked, it can be stolen and very easily accessed if it’s
 
 ### Trusted accessories
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/08/Screenshot_20180807-105048.png)<figcaption>Selecting a trusted device from paired Bluetooth devices</figcaption></figure>When entering a car, your device might automatically connect up to your Bluetooth system. When out for and about perhaps you have wireless headphones or at home connect up a keyboard and mouse wirelessly for typing up reports.
+<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/08/Screenshot_20180807-105048.png)<figcaption>Selecting a trusted device from paired Bluetooth devices</figcaption></figure>When entering a car, your device might automatically connect up to your Bluetooth system. When out for and about perhaps you have wireless headphones or at home connect up a keyboard and mouse wirelessly for typing up reports.
 
 Trusted accessories allows you to reduce the frequency of inputting the passcode when a device is paired to particular Bluetooth devices.
 
@@ -57,7 +57,7 @@ Once again, since any Bluetooth accessory can be deemed trusted under any circum
 
 ### On-body detection
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/08/Screenshot_20180807-103854.png)<figcaption>Enabling on-body detection</figcaption></figure>An Android device is exceptionally smart. It knows when it’s static, when it’s picked up and even when it’s in motion. Using the latter, if your device detects you moving, it can make the assumption it is on your person and therefore safe.
+<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/08/Screenshot_20180807-103854.png)<figcaption>Enabling on-body detection</figcaption></figure>An Android device is exceptionally smart. It knows when it’s static, when it’s picked up and even when it’s in motion. Using the latter, if your device detects you moving, it can make the assumption it is on your person and therefore safe.
 
 With on-body detection, as long as the device feels a movement that isn’t dissimilar to the typical bumps, jumps and shakes any device would feel in someone’s pocket or bag, it can remain unlocked.
 
@@ -76,13 +76,13 @@ Smartlock can be disabled across all modern UEM solutions either in part (on an 
 
 Referred to as *Keyguard Trust Agent State*
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/09/2018-09-08-20.16.12.gif)### Disabling Smartlock for MobileIron Core
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/09/2018-09-08-20.16.12.gif)### Disabling Smartlock for MobileIron Core
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/09/2018-09-08-20.08.14.gif)### Disabling Smartlock for Maas360
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/09/2018-09-08-20.08.14.gif)### Disabling Smartlock for Maas360
 
 Again referred to as *Allow Trust agents*. Do take note of where this setting is as by default the policy opens within **Android Settings** and not **Android Enterprise Settings.**
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/09/2018-09-08-20.28.24.gif)Conclusion
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/09/2018-09-08-20.28.24.gif)Conclusion
 ----------
 
 If your organisation allows the use of Smartlock today, consider turning it off sooner rather than later. It *is* a common feature popular among Android users so do expect to justify its disablement, however hopefully the above will provide the necessary information for organisations to do just that.

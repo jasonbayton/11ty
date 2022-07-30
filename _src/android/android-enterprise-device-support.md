@@ -18,7 +18,9 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-device-testing/28'
 ---
-<div class="callout callout-warning">### No longer maintained
+<div class="callout callout-warning">
+
+### No longer maintained
 
  While I am still actively testing devices, I no longer publish them here. Consider the below to be historical, including the advanced testing, and not to be taken as current status of a device. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. </div>The devices listed below have been tested against a current, Android Enterprise-compatible Enterprise Mobility Management (EMM) platform for one or more of the following:
 
@@ -28,13 +30,17 @@ discourse_permalink:
 - Android Enterprise dedicated (COSU or kiosk)
 - Multiple provisioning methods, including [zero-touch enrolment](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/)
 
-<div class="callout callout-info">### OEM or reseller?
+<div class="callout callout-info">
+
+### OEM or reseller?
 
 I welcome additional devices for testing! If you’re an **OEM** or **reseller** of Android devices, you can join **Sony**, **Nokia**, **Huawei** and others in lending me anything from Android 6.0.1 or later to independently test. This is a free service, devices can be returned within a week or so. Use my [contact](/contact/) page to get in touch or [email me directly](mailto:jason@bayton.org).
 
 For more information on what’s involved in testing, please head to: [Android Enterprise independent validation process and information](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/).
 
-</div>Advanced testing
+</div>
+
+Advanced testing
 ----------------
 
 The following devices have undergone advanced testing. Introduced in June 2019, advanced testing follows the same [process](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/) as standard testing, but each individual restriction/function is documented and verified irrespective of outcome across at least two EMMs.
@@ -53,13 +59,15 @@ The following devices have undergone standard testing. Standard testing involves
 For each of these use-cases, the device will be provided a pass (), a warning ( / ), a fail () or untested (), along with the party who verified the functionality (as some information may be externally sourced). The OS version (if) listed is valid at the time of testing. It’s normally safe to assume newer OS versions will support *at a minimum* the below tested functionality.
 
 BQ
---
+---
 
 ### Aquaris X2 Pro
 
 Tested August 2018, build 1.3.0
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/bqax2pro.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/bqax2pro.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.1.0  
 5.6 inch FHD display  
@@ -70,7 +78,9 @@ Snapdragon 660
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -81,14 +91,18 @@ Snapdragon 660
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>CAT
+</div></div></div></div>
+
+CAT
 ---
 
 ### CAT S61
 
 Tested Feb 2019, build LTE\_D0201121.0\_S61\_0.053.02
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/01/s61.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/s61.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.1  
 5.2 inch FHD display  
@@ -99,7 +113,9 @@ Snapdragon 630
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -119,7 +135,9 @@ Google
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/nexus-intro-phone-1-e1506902903947.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nexus-intro-phone-1-e1506902903947.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.1.2  
 5.2 inch FHD display  
@@ -130,7 +148,9 @@ Snapdragon 808
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -145,7 +165,9 @@ Snapdragon 808
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/pixel2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/pixel2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.1.0  
 5.0 inch FHD display  
@@ -156,7 +178,9 @@ Snapdragon 835
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -167,14 +191,18 @@ Snapdragon 835
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>Huawei
+</div></div></div></div>
+
+Huawei
 ------
 
 ### Huawei MediaPad M5 (8.0)
 
 Tested June 2018, build 8.0.0.151
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/m5.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/m5.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 8.4 inch QHD display  
@@ -185,7 +213,9 @@ HiSilicon Kirin 960s
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -202,7 +232,9 @@ HiSilicon Kirin 960s
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/p10-listimage-black.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/p10-listimage-black.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.0  
 5.1 inch FHD display  
@@ -213,7 +245,9 @@ HiSilicon Kirin 960
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -231,7 +265,9 @@ Motorola
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/Motorola-Moto-Z-Force-Gold-Front-e1506902735436.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/Motorola-Moto-Z-Force-Gold-Front-e1506902735436.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.0  
 5.5 inch QHD display  
@@ -242,7 +278,9 @@ Snapdragon 820
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -256,7 +294,9 @@ Snapdragon 820
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/moto-zplay.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/moto-zplay.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.0  
 5.5 inch HD display  
@@ -267,7 +307,9 @@ Snapdragon 625
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -281,7 +323,9 @@ Snapdragon 625
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/motorola-moto-c-plus.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/motorola-moto-c-plus.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.0  
 5.0 inch HD display  
@@ -292,7 +336,9 @@ Mediatek MT6737
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -306,7 +352,9 @@ Mediatek MT6737
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/09/moto-e4-plus-e1504776790376.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/09/moto-e4-plus-e1504776790376.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.1.1  
 5.5 inch HD display  
@@ -317,7 +365,9 @@ Mediatek MT6737
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -331,7 +381,9 @@ Mediatek MT6737
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/moto-g5-to-arrive-in-sapphire-blue-color-option-514160-3-e1506902563348.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/moto-g5-to-arrive-in-sapphire-blue-color-option-514160-3-e1506902563348.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.0  
 5.0 inch FHD display  
@@ -342,7 +394,9 @@ Snapdragon 430
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -356,7 +410,9 @@ Snapdragon 430
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/motorola-moto-g4-play-boltmobile-sasktel-saskatoon-smartphone-front-e1506902178433.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/motorola-moto-g4-play-boltmobile-sasktel-saskatoon-smartphone-front-e1506902178433.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 6.0.1  
 5.0 inch HD display  
@@ -367,7 +423,9 @@ Snapdragon 410
  NFC support (varies)  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -384,7 +442,9 @@ Nokia
 
 Oreo Go edition, tested on release 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/nokia1-1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia1-1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.1  
 4.5 inch display  
@@ -395,7 +455,9 @@ Mediatek MT6737M
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -412,7 +474,9 @@ Mediatek MT6737M
 
 Tested on release 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/nokia-2-pewter-black-front-30747.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia-2-pewter-black-front-30747.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.1.1  
 5.0 inch HD display  
@@ -423,7 +487,9 @@ Snapdragon 212
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -438,7 +504,9 @@ Snapdragon 212
 
 Tested March 2018, build 00WW\_3\_250
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/Nokia-3-Silver-Front-e1506901438141.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/Nokia-3-Silver-Front-e1506901438141.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.0 inch HD display  
@@ -449,7 +517,9 @@ MediaTek MT6737
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -466,7 +536,9 @@ MediaTek MT6737
 
 Tested Nov 2018, build 00WW\_0\_46E\_SP02
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/nokia3.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia3.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.2 inch HD display  
@@ -477,7 +549,9 @@ Mediatek MT6750
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -488,11 +562,15 @@ Mediatek MT6750
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>### Nokia 3.2
+</div></div></div></div>
+
+### Nokia 3.2
 
 Tested May 2019, build 00EEA\_1\_03D
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/05/nokia3.2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/05/nokia3.2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 9.0  
 6.26 inch HD display  
@@ -503,7 +581,9 @@ Snapdragon 429
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -520,7 +600,9 @@ Snapdragon 429
 
 Tested May 2019, build 00EEA\_1\_17I
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/05/nokia4.2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/05/nokia4.2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 9.0  
 5.71 inch HD display  
@@ -531,7 +613,9 @@ Snapdragon 439
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -548,7 +632,9 @@ Snapdragon 439
 
 Tested March 2018, build 00WW\_5\_22A\_SP01
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/nokia5-silver-front.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia5-silver-front.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.2 inch HD display  
@@ -559,7 +645,9 @@ Snapdragon 430
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -576,7 +664,9 @@ Snapdragon 430
 
 Tested Nov 2018, build 00WW\_0\_38E\_SP03
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/nokia5.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia5.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.5 inch FHD display  
@@ -587,7 +677,9 @@ MediaTek Helio P18
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -598,11 +690,15 @@ MediaTek Helio P18
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>### Nokia 6
+</div></div></div></div>
+
+### Nokia 6
 
 Tested June 2018, build 00WW\_5\_600\_SP01
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/nokia-6-front-chile.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia-6-front-chile.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.5 inch FHD display  
@@ -613,7 +709,9 @@ Snapdragon 430
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -630,7 +728,9 @@ Snapdragon 430
 
 Android One – Tested March 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/n62018.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/n62018.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.5 inch FHD display  
@@ -641,7 +741,9 @@ Snapdragon 630
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -658,7 +760,9 @@ Snapdragon 630
 
 Android One – Tested December 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/01/7.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/7.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.1  
 5.84 inch FHD display  
@@ -669,7 +773,9 @@ Dual 12/5MP + 8MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -680,11 +786,15 @@ Dual 12/5MP + 8MP Cameras
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>### Nokia 7 Plus
+</div></div></div></div>
+
+### Nokia 7 Plus
 
 Android One – Tested March 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/n7plus.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/n7plus.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 6.0 inch 2K display  
@@ -695,7 +805,9 @@ Dual 12/16MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -706,11 +818,15 @@ Dual 12/16MP Cameras
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>### Nokia 8
+</div></div></div></div>
+
+### Nokia 8
 
 Tested March 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/zoom_front_nokia8_silver.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/zoom_front_nokia8_silver.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.1  
 5.3 inch 2K display  
@@ -721,7 +837,9 @@ Dual 13/13MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -738,7 +856,9 @@ Dual 13/13MP Cameras
 
 Successor to the 7 Plus, not the 8. Tested Jan 2019, build 00WW\_2\_47A
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/01/nokia_8_1_ROW1-front_blue.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/nokia_8_1_ROW1-front_blue.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 9.0  
 6.18 inch FHD display  
@@ -749,7 +869,9 @@ Dual 12/13MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -760,11 +882,15 @@ Dual 12/13MP Cameras
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>### Nokia 8 Sirocco
+</div></div></div></div>
+
+### Nokia 8 Sirocco
 
 Android One – Tested March 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/sirocco.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/sirocco.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.5 inch 2K display  
@@ -775,7 +901,9 @@ Dual 12/5MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -792,7 +920,9 @@ Dual 12/5MP Cameras
 
 Tested May 2019, build 00WW\_4\_22C
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/05/nokia9.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/05/nokia9.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 9.0  
 5.99 inch FHD display  
@@ -803,7 +933,9 @@ Penta 12/20MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -823,7 +955,9 @@ OnePlus
 
 Tested November 2018, build ONEPLUS A6013\_41\_181024
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/01/oneplus-6t-mirror-black-1OP828RBN-sku-header-new.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/oneplus-6t-mirror-black-1OP828RBN-sku-header-new.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 9.0  
 6.41 inch FHD display  
@@ -834,7 +968,9 @@ Dual 16/20MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -854,7 +990,9 @@ Pocophone
 
 Tested November 2018, build OPM1.171019.026
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/01/poco.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/poco.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.1  
 6.18 inch FHD display  
@@ -865,7 +1003,9 @@ Dual 12/5MP + 20MP Front cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -885,7 +1025,9 @@ Samsung
 
 Dual N950FD, tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/note8.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/note8.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 6.3 inch 2K display  
@@ -896,7 +1038,9 @@ Dual 12/8MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -916,7 +1060,9 @@ Sony
 
 I3113, tested March 2019, build 53.0.A.4.74
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/03/x10.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/03/x10.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 9.0  
 6.0 inch FHD display  
@@ -927,7 +1073,9 @@ Dual 13/5MP + 8MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -944,7 +1092,9 @@ Dual 13/5MP + 8MP Cameras
 
 Dual G3312, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/10/xperial1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/10/xperial1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.0  
 5.5 inch HD display  
@@ -955,7 +1105,9 @@ MediaTek MT6737T
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -970,7 +1122,9 @@ MediaTek MT6737T
 
 I3312, build 54.0.A.3.94, tested March 2019
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/03/xperial3.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/03/xperial3.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.1  
 5.7 inch HD display  
@@ -981,7 +1135,9 @@ Dual 13/2MP + 8MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (Corp)  
@@ -998,7 +1154,9 @@ Dual 13/2MP + 8MP Cameras
 
 Dual G3121, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/xa1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/xa1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.0  
 5.0 inch HD display  
@@ -1009,7 +1167,9 @@ Mediatek MT6757 Helio P20
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1024,7 +1184,9 @@ Mediatek MT6757 Helio P20
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/xa2-1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/xa2-1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.2 inch FHD display  
@@ -1035,7 +1197,9 @@ Snapdragon 630
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1052,7 +1216,9 @@ Snapdragon 630
 
 Dual G8142, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/10/xperiaxzpremium.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/10/xperiaxzpremium.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.5 inch QHD display  
@@ -1063,7 +1229,9 @@ Snapdragon 835
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1078,7 +1246,9 @@ Snapdragon 835
 
 G8341, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/10/xperiaxz1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/10/xperiaxz1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.2 inch FHD display  
@@ -1089,7 +1259,9 @@ Snapdragon 835
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1106,7 +1278,9 @@ Snapdragon 835
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/xz1compact.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/xz1compact.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 4.6 inch HD display  
@@ -1117,7 +1291,9 @@ Snapdragon 835
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1134,7 +1310,9 @@ Snapdragon 835
 
 Tested June 2018, build 51.1.A.4.173
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/xz2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/xz2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.7 inch FHD+ display  
@@ -1145,7 +1323,9 @@ Snapdragon 835
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1162,7 +1342,9 @@ Snapdragon 835
 
 Tested January 2019, build 52.0.A.3.163
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/01/sony.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/sony.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 9.0  
 6.0 inch 2K display  
@@ -1173,7 +1355,9 @@ Snapdragon 845
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1193,7 +1377,9 @@ Wileyfox
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/SWIFT_2X_CHAMPAGNE_FRONT_BACK-e1506901949774.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/SWIFT_2X_CHAMPAGNE_FRONT_BACK-e1506901949774.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.1.2  
 5.2 inch FHD display  
@@ -1204,7 +1390,9 @@ Snapdragon 430
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1222,7 +1410,9 @@ Xiaomi
 
 Android One, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/mia1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/mia1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 8.0  
 5.5 inch FHD display  
@@ -1233,7 +1423,9 @@ Dual 12/5MP Cameras
  NFC support  
  Fingerprint support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1252,7 +1444,9 @@ Zebra
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/zebratc25.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/zebratc25.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.1.2  
 4.3 inch display  
@@ -1262,7 +1456,9 @@ APQ8037 8-Core
 8MP Camera  
  NFC support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
@@ -1277,7 +1473,9 @@ APQ8037 8-Core
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/07/zebratc56.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">##### Tech specs
+<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/zebratc56.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+
+##### Tech specs
 
 Android 7.1.2  
 5.0 inch HD display  
@@ -1287,7 +1485,9 @@ Snapdragon 650
 13MP Camera  
  NFC support
 
-</div><div class="col-sm-7">##### Android Enterprise support
+</div><div class="col-sm-7">
+
+##### Android Enterprise support
 
  Work profile (BYOD)  
  Fully managed (COBO)  
