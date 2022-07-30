@@ -76,9 +76,10 @@
                             </summary>
                         <ul>
                             {%- for entry in collections['Getting started'] -%}
-                            <li><a href="{{ entry.data.url }}">{{ entry.data.title }}</a></li>
+                            <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
                             {%- endfor -%}
                         </ul>
+
                     </details>
                     <details {% if tags.includes("Diving deeper") %} open="" {% endif %} >
                         <summary class="docnav-topic-title">
@@ -86,7 +87,7 @@
                             </summary>
                         <ul>
                             {%- for post in collections['Diving deeper'] -%}
-                            <li><a href="{{ post.data.url }}">{{ post.data.title }}</a></li>
+                            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
                             {%- endfor -%}
                         </ul>
                     </details>
@@ -96,7 +97,17 @@
                             </summary>
                         <ul>
                             {%- for post in collections['Resources'] -%}
-                            <li><a href="{{ post.data.url }}">{{ post.data.title }}</a></li>
+                            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+                            {%- endfor -%}
+                        </ul>
+                    </details>
+                    <details {% if tags.includes("Hardware validation") %} open="" {% endif %} >
+                        <summary class="docnav-topic-title">
+                                Hardware validation        
+                            </summary>
+                        <ul>
+                            {%- for post in collections['Hardware validation'] -%}
+                            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
                             {%- endfor -%}
                         </ul>
                     </details>

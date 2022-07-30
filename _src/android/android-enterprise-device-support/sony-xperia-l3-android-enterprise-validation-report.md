@@ -6,7 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Getting started
+    - Hardware validation
 layout: base.njk
 id: 8560
 doccats:

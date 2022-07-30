@@ -11,9 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-navigation": "^0.3.3",
+    "eleventy-plugin-time-to-read": "^1.2.0",
     "markdown-it-anchor": "^8.6.4"
-  },
-  "dependencies": {
-    "eleventy-plugin-time-to-read": "^1.2.0"
   }
 }
