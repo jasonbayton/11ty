@@ -63,69 +63,51 @@
                     <h2>Contents</h2>
                 </div>
                 <div id="article_contents_list" class="js-toc">
-    <!-- Taken care of by Tocbot -->
-  </div>    
-                  <div id="aside_docs">
+                    <!-- Taken care of by Tocbot -->
+                </div> 
+                {% if type.includes("documentation") %}
+                <div id="aside_docs">
                     <div class="aside-title">
-                      <h2>Android</h2>
+                      <h2>Docs</h2>
                     </div>
-                    <details {%- for post in collections['banana'] -%}
-                     {% if page.tags == post.tags %} open="" {% endif %}
+                    <details {%- for post in collections['Getting started'] -%}
+                    {% if page.tags == post.tags %} open="" {% endif %}
                     {%- endfor -%} >
-                    <summary class="docnav-topic-title">
-                            Getting started        
-                        </summary>
-                    <ul>
-                        {%- for post in collections['Getting started'] -%}
-                        <li>{{ post.data.title }}</li>
-                        {%- endfor -%}
-                    </ul>
-                    <ul>
-                        {%- for post in collections.doc -%}
-                        <li><a href="{{post.data.url}}">{{ post.data.title }}</a></li>
-                        {%- endfor -%}
-                    </ul>
-                    </details>
-                    <details open="" class="docnav-topic">
                         <summary class="docnav-topic-title">
-                            Getting started        
-                        </summary>
+                                Getting started        
+                            </summary>
                         <ul>
-                            <li><!--0-->
-                                <a href="/docs/android/what-is-android-enterprise-and-why-is-it-used">What is Android Enterprise?</a></li><li><!--1--><a href="/docs/android/considerations-for-choosing-android-in-the-enterprise">Considerations for choosing Android in the Enterprise</a></li><li><!--1--><a href="/docs/android/android-enterprise-faq">Android Enterprise FAQ</a></li><li><!--2--><a href="/docs/android/android-glossary">Android glossary</a></li><li><!--3--><a href="/docs/android/what-is-android-enterprise-recommended">What is Android Enterprise Recommended?</a></li><li><!--4--><a href="/docs/android/what-is-oemconfig">What is OEMConfig?</a></li><li><!--5--><a href="/docs/android/what-is-android-one">What is Android One?</a></li>        
+                            {%- for entry in collections['Getting started'] -%}
+                            <li><a href="{{ entry.data.url }}">{{ entry.data.title }}</a></li>
+                            {%- endfor -%}
                         </ul>
                     </details>
-                    <details class="docnav-topic" open="">
+                    <details {%- for post in collections['Diving deeper'] -%}
+                    {% if page.tags == post.tags %} open="" {% endif %}
+                    {%- endfor -%} >
                         <summary class="docnav-topic-title">
-                            Diving deeper        </summary>
-                            <ul>
-                                <li><!--0--><a href="/docs/android/create-and-manage-private-apps-for-android-enterprise">Create and manage private apps for Android Enterprise</a></li><li><!--0--><a href="/docs/android/create-and-manage-web-apps-for-android-enterprise">Create and manage web apps for Android Enterprise</a></li><li><!--0--><a href="/docs/android/feature-spotlight-block-unknown-sources-on-work-profile-deployments">Feature spotlight: Block unknown sources on work profile deployments</a></li><li><!--0--><a href="/docs/android/mtd-and-android-enterprise">Considerations when deploying MTD with Android Enterprise</a></li><li><!--0--><a href="/docs/android/android-enterprise-vs-device-administrator-legacy-enrolment">Android Enterprise vs Device Admin: Why DA is no longer suitable</a></li><li><!--0--><a href="/docs/android/android-11-cope-changes">Android 11 COPE changes</a></li><li><!--0--><a href="/docs/android/android-enterprise-emm-cope-support">Android Enterprise EMM COPE support</a></li><li><!--0--><a href="/docs/android/how-to-submit-a-device-for-android-enterprise-recommended-validation">How to submit a device for Android Enterprise Recommended validation</a></li><li><!--0--><a href="/docs/android/feature-spotlight-factory-reset-protection">Feature spotlight: Factory Reset Protection</a></li><li><!--0--><a href="/docs/android/what-is-android-smartlock-and-why-should-it-be-disabled">Feature spotlight: Android Smartlock</a></li><li><!--0--><a href="/docs/android/considerations-when-migrating-from-device-administrator-to-android-enterprise">Considerations when migrating from device administrator to Android Enterprise</a></li>        </ul>
+                                Diving deeper        
+                            </summary>
+                        <ul>
+                            {%- for post in collections['Diving deeper'] -%}
+                            <li><a href="{{ post.data.url }}">{{ post.data.title }}</a></li>
+                            {%- endfor -%}
+                        </ul>
                     </details>
-                    <details class="docnav-topic" open="">
+                    <details {%- for post in collections['Resources'] -%}
+                    {% if page.tags == post.tags %} open="" {% endif %}
+                    {%- endfor -%} >
                         <summary class="docnav-topic-title">
-                            App management        </summary>
-                            <ul>
-                              <li><!--0--><a href="/docs/android/why-you-shouldnt-install-apps-from-unknown-sources">Why you shouldn't install apps from unknown sources</a></li><li><!--0--><a href="/docs/android/how-to-locate-an-android-private-app-assigned-to-an-organisation-id">How to locate a private Android app assigned to an organisation ID</a></li><li><!--0--><a href="/docs/android/managed-google-play-whitelist-or-blacklist">Managed Google Play, whitelist or blacklist?</a></li>        </ul>
-                    </details>
-                    <details class="docnav-topic">
-                        <summary class="docnav-topic-title">
-                            Zero-touch        </summary>
-                            <ul>
-                                <li><!--0--><a href="/docs/android/android-enterprise-zero-touch-dpc-extras-collection">Android Enterprise zero-touch DPC extras collection</a></li><li><!--0--><a href="/docs/android/how-to-become-a-zero-touch-enrolment-reseller">How to become a zero-touch enrolment reseller</a></li><li><!--0--><a href="/docs/android/what-is-android-zero-touch-enrolment">What is Android zero-touch enrolment?</a></li><li><!--0--><a href="/docs/android/android-enterprise-zero-touch-console-device-guide">Android Enterprise zero-touch console administration guide</a></li>        </ul>
-                    </details>
-                    <details class="docnav-topic">
-                        <summary class="docnav-topic-title">
-                            Vendor specific        </summary>
-                            <ul>
-                                <li><!--0--><a href="/docs/android/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron">Manual Android Enterprise work-managed QR code generation for MobileIron</a></li><li><!--1--><a href="/docs/android/setup-kerberos-authentication-on-mobileiron-core-for-android-enterprise">Setup Kerberos Authentication on MobileIron Core for Android Enterprise</a></li>        </ul>
-                    </details>
-                    <details class="docnav-topic">
-                        <summary class="docnav-topic-title">
-                            Resources        </summary>
-                            <ul>
-                                <li><!--0--><a href="/docs/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods">Infobyte - Did you know? Android Enterprise fully managed provisioning methods</a></li><li><!--0--><a href="/docs/android/infobyte-did-you-know-android-enterprise-deployment-scenarios">Infobyte - Did you know? Android Enterprise deployment scenarios</a></li><li><!--0--><a href="/docs/android/infobyte-did-you-know-device-admin-deprecation">Infobyte - Did you know? Device Admin deprecation</a></li><li><!--0--><a href="/docs/android/gartner-comparison-of-security-controls-for-mobile-devices-2019">Gartner comparison of security controls for mobile devices 2019</a></li><li><!--0--><a href="/docs/android/android-version-evolution-graphics">Android version evolution graphics</a></li><li><!--0--><a href="/docs/android/android-enterprise-provisioning-guides">Android Enterprise provisioning guides</a></li><li><!--0--><a href="/docs/android/android-enterprise-dpc-identifier-collection">Android Enterprise DPC identifier collection</a></li>        </ul>
+                                Resources        
+                            </summary>
+                        <ul>
+                            {%- for post in collections['Resources'] -%}
+                            <li><a href="{{ post.data.url }}">{{ post.data.title }}</a></li>
+                            {%- endfor -%}
+                        </ul>
                     </details>
                 </div>
+                {% endif %}
             </section>
             <section id="page_content">
                 <div class="post-meta">
