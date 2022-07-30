@@ -80,8 +80,7 @@
                             {%- endfor -%}
                         </ul>
                     </details>
-                    <details {% if page.tags.includes("Diving deeper") %} open="" {% endif %} >                    {% if page.tags == post.tags %} open="" {% endif %}
-                    {%- endfor -%} >
+                    <details {% if page.tags.includes("Diving deeper") %} open="" {% endif %} >
                         <summary class="docnav-topic-title">
                                 Diving deeper        
                             </summary>
@@ -91,9 +90,7 @@
                             {%- endfor -%}
                         </ul>
                     </details>
-                    <details {% if page.tags.includes("Resources") %} open="" {% endif %} >                    {% if page.tags == post.tags %} open="" {% endif %}
-                    {% if page.tags == post.tags %} open="" {% endif %}
-                    {%- endfor -%} >
+                    <details {% if page.tags.includes("Resources") %} open="" {% endif %} >
                         <summary class="docnav-topic-title">
                                 Resources        
                             </summary>
