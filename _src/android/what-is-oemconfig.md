@@ -25,7 +25,7 @@ Announced at the [Android Enterprise Summit 2018](/2018/05/android-enterprise-su
 History
 -------
 
-The following will sound familiar to anyone who has read [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) Check out the introduction to Android Enterprise for the full story.
+The following will sound familiar to anyone who has read [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/) Check out the introduction to Android Enterprise for the full story.
 
 In the beginning and prior to the introduction of Android Enterprise with Android 5.0, the Android management landscape was fragmented and inconsistent. As Google remained mostly hands-off beyond introducing the Device Administrator APIs in Android 2.2 (which weren’t technically for enterprise use, either), OEMs were left to form their own enterprise strategies and thus, their own management APIs. How that turned out is pretty well known today – Samsung emerged above the rest of the market, with OEMs such as Sony, LG and Huawei following behind.
 

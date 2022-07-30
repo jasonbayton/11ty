@@ -22,7 +22,7 @@ publish_post_category:
 **Build**: 9.0.0.161   
 **Security**: 1 Jan 2019
 
-This device has been tested against the public [validation process](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/), and the following mix of (non-exhaustive) issues and recommendations have been noted:
+This device has been tested against the public [validation process](/android/android-enterprise-device-support/validation-process-and-information/), and the following mix of (non-exhaustive) issues and recommendations have been noted:
 
 1. Notable problems
 -------------------
@@ -35,7 +35,7 @@ When retrospectively applying a policy to disable the bluetooth radio as a fully
 
 ### 1.2. Face unlock restriction not enforced
 
-Despite being restricted in two ways – an API for [Smartlock](/docs/enterprise-mobility/android/what-is-android-smartlock-and-why-should-it-be-disabled/) and APIs for Samsung/Android 9.0, Huawei’s face unlock implementation ignores both.
+Despite being restricted in two ways – an API for [Smartlock](/android/what-is-android-smartlock-and-why-should-it-be-disabled/) and APIs for Samsung/Android 9.0, Huawei’s face unlock implementation ignores both.
 
 ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/03/image-3.png)As such, the basic and arguably insecure implementation on the Honor Play is able to be used against policy.
 

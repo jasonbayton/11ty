@@ -24,7 +24,7 @@ FeaturedBackground:
 
  While I am still actively testing devices, I no longer publish them here. Consider the below to be historical, including the advanced testing, and not to be taken as current status of a device. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. </div><div class="callout callout-success">### Return to device support
 
-Just looking for details of devices tested? Head back to [Android Enterprise device support](/docs/enterprise-mobility/android/android-enterprise-device-support/).
+Just looking for details of devices tested? Head back to [Android Enterprise device support](/android/android-enterprise-device-support/).
 
 </div><div class="callout callout-info">
 
@@ -48,7 +48,7 @@ In order to validate the implementation of Android Enterprise on a device, I und
 - Attempt to enrol into an EMM after normal setup to generate a work profile.
 - If supported, attempt to enrol using zero-touch provisioning.
 
-The above provisioning tasks (with the exception of the GSuite enrolment currently) are documented here: [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/). Testing may be completed on EMM platforms other than those mentioned above for any task at any time.
+The above provisioning tasks (with the exception of the GSuite enrolment currently) are documented here: [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/). Testing may be completed on EMM platforms other than those mentioned above for any task at any time.
 
 ### EMM configuration files
 
@@ -146,7 +146,7 @@ These are not “fails”, however the following I consider to either need polis
 
 ### Reporting
 
-Once all tests are completed, a report will be generated to the nominated contact. This can be notes in an email or a headed PDF on request. Summarised results with a few lines of notes (where appropriate) will also be published against the device on [Android Enterprise device support](/docs/enterprise-mobility/android/android-enterprise-device-support/). Where possible, publishing of results can be postponed for the period of time I have the devices should a patch be pushed, however once the devices are returned the results will be published.
+Once all tests are completed, a report will be generated to the nominated contact. This can be notes in an email or a headed PDF on request. Summarised results with a few lines of notes (where appropriate) will also be published against the device on [Android Enterprise device support](/android/android-enterprise-device-support/). Where possible, publishing of results can be postponed for the period of time I have the devices should a patch be pushed, however once the devices are returned the results will be published.
 
 The in-depth results provided to the nominated contact will remain private, however I may request permission to use them as a reference for future website promotions (which can be granted or denied, no problem).
 
@@ -173,7 +173,7 @@ Project information
 
 ### Who am I?
 
-I’m a senior EMM consultant and subject matter expert (SME) for Android and Android Enterprise. I’ve been working with enterprise mobile solutions for a [number of years](https://linkedin.com/in/jasonbayton) and have an [in-depth knowledge of Android Enterprise](/docs/enterprise-mobility/android/) so I know how an ideal implementation looks and behaves. My work has been referenced by MobileIron, Wandera, BrianMadden.com and others. Check out my [about](/about/) page for examples.
+I’m a senior EMM consultant and subject matter expert (SME) for Android and Android Enterprise. I’ve been working with enterprise mobile solutions for a [number of years](https://linkedin.com/in/jasonbayton) and have an [in-depth knowledge of Android Enterprise](/android/) so I know how an ideal implementation looks and behaves. My work has been referenced by MobileIron, Wandera, BrianMadden.com and others. Check out my [about](/about/) page for examples.
 
 <figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> Digging the new Android zero-touch guide from [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw), the best independent resource for Android enterprise.   
 >  <https://t.co/BFTZfKFsrg>
@@ -186,7 +186,7 @@ Android Enterprise is becoming popular, however not all OEMs fully support and/o
 
 As an example:
 
-The Motorola [Moto Z](/docs/enterprise-mobility/android/android-enterprise-device-support/#motorola-moto-z) and [Moto Z Play](/docs/enterprise-mobility/android/android-enterprise-device-support/#motorola-moto-z-play) both run Android 7.0 (at the time of testing), look, feel and behave in the exact same way, however while the Moto Z supports the full range of provisioning options, the Moto Z Play doesn’t provision via NFC correctly.
+The Motorola [Moto Z](/android/android-enterprise-device-support/#motorola-moto-z) and [Moto Z Play](/android/android-enterprise-device-support/#motorola-moto-z-play) both run Android 7.0 (at the time of testing), look, feel and behave in the exact same way, however while the Moto Z supports the full range of provisioning options, the Moto Z Play doesn’t provision via NFC correctly.
 
 These types of experiences are beneficial for organisations looking to purchase devices, ensuring only those fully supported are taken into consideration (or at the very least, understanding where devices are known to fall short).
 

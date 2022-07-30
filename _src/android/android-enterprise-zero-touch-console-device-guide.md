@@ -24,7 +24,7 @@ FeaturedBackground:
 
 ### What is zero-touch enrolment?
 
-Zero-touch enrolment has been covered in depth in [What is Android zero-touch enrolment?](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/) This document offers a good overview of what it is and why zero-touch is the future of Android management.
+Zero-touch enrolment has been covered in depth in [What is Android zero-touch enrolment?](/android/what-is-android-zero-touch-enrolment/) This document offers a good overview of what it is and why zero-touch is the future of Android management.
 
 </div><div class="callout callout-info">
 
@@ -67,7 +67,7 @@ Click the **+** icon on the right-hand side of **Configurations** to create a ne
 
 To start, simply provide a configuration name, and then from the dropdown, a DPC (or EMM agent).
 
-Following that is DPC extras, within this field you can paste in DPC-specific key-value pairs that add additional functionality. The key-value pairs differ by EMM so it’s best to validate before pasting anything here, leaving it blank is also fine. An example of what could go there for a MobileIron Core is as follows and more examples can be found on the [zero-touch FAQ](/docs/enterprise-mobility/android/android-enterprise-zero-touch-faq/#what-should-i-put-in-dpc-extras):
+Following that is DPC extras, within this field you can paste in DPC-specific key-value pairs that add additional functionality. The key-value pairs differ by EMM so it’s best to validate before pasting anything here, leaving it blank is also fine. An example of what could go there for a MobileIron Core is as follows and more examples can be found on the [zero-touch FAQ](/android/android-enterprise-zero-touch-faq/#what-should-i-put-in-dpc-extras):
 
 ```
 {

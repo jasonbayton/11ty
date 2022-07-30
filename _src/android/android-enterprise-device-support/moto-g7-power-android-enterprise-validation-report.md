@@ -63,7 +63,7 @@ Snapdragon 632 - - - - - -
 </div></div>3. In-depth testing report
 --------------------------
 
-**How to read this report**. This device has been tested against the public [validation process](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/), in which all provisioning methods and deployment scenarios have been tested across at least two EMM platforms.
+**How to read this report**. This device has been tested against the public [validation process](/android/android-enterprise-device-support/validation-process-and-information/), in which all provisioning methods and deployment scenarios have been tested across at least two EMM platforms.
 
 Where a feature works with one EMM, but does not with another (consider **Enforce max failed attempts** in the report below) this is considered a pass (green) as it’s likely an EMM issue. Where it does not work, partly or fully, across two or more EMMs this will be flagged as a warn (yellow), or a fail (red).
 

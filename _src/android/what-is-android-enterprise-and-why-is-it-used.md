@@ -52,7 +52,7 @@ Enter Android Enterprise
 
 Android and Android Enterprise are not separate products; unlike Android TV (now Google TV), Android Auto, Android Automotive, Android Wear (WearOS) or other Android editions, Android Enterprise as a solution is simply a part of Android. Furthermore, Android Enterprise isn’t Android management in and of itself, it’s a set of APIs that require a modern EMM in order to properly manage them. </div>*Or, as it was until 2016, Android for Work.*
 
-Android Enterprise debuted with 5.0 (Lollipop) in 2014 as an optional\* solution manufacturers could integrate in order to provide a common set of device management APIs. From 6.0 (Marshmallow) it was no longer optional and has since been a mandatory component for all [GMS-certified](/docs/enterprise-mobility/android/android-glossary/#gms-certified-certification) manufacturers. There are still *some* optional components for Android Enterprise today and the occasional feature released only for newer versions of Android, however these have little impact on core management, and in some instances these features even find their way into Google Play services, allowing them to be deployed without direct OEM support.
+Android Enterprise debuted with 5.0 (Lollipop) in 2014 as an optional\* solution manufacturers could integrate in order to provide a common set of device management APIs. From 6.0 (Marshmallow) it was no longer optional and has since been a mandatory component for all [GMS-certified](/android/android-glossary/#gms-certified-certification) manufacturers. There are still *some* optional components for Android Enterprise today and the occasional feature released only for newer versions of Android, however these have little impact on core management, and in some instances these features even find their way into Google Play services, allowing them to be deployed without direct OEM support.
 
 Android Enterprise (AE) offers a few things:
 
@@ -99,7 +99,7 @@ As of Knox 3.0, Samsung offer Knox Workspace as an alternative to the native wor
 
 ### Provisioning guides
 
-Provisioning guides for the work profile deployment scenario can be found here: [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/)
+Provisioning guides for the work profile deployment scenario can be found here: [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/)
 
 </div>
 
@@ -112,7 +112,7 @@ With fully managed devices there is normally no user usage provisioned. As the i
 
 ### Work profiles on fully managed devices deprecated
 
-From Android 11, the COPE experience has changed. Work profiles on fully managed devices, the process of spinning up a work profile atop a fully managed device offering complete device control and visibility was completely deprecated in Android 11 in favour of work profiles on company owned devices, a work profile derived experience with additional device control, and enhanced end-user privacy. Find out what that means [here](/docs/enterprise-mobility/android/android-11-cope-changes/).
+From Android 11, the COPE experience has changed. Work profiles on fully managed devices, the process of spinning up a work profile atop a fully managed device offering complete device control and visibility was completely deprecated in Android 11 in favour of work profiles on company owned devices, a work profile derived experience with additional device control, and enhanced end-user privacy. Find out what that means [here](/android/android-11-cope-changes/).
 
 </div>Provisioning a fully managed device by default strips out almost all non-critical system applications unless white-listed, and instead provides access only to authorised apps via managed Google Play. Nothing more. This means should an app require the Camera to function, for example, a Camera app would need to also be authorised or white-listed for use by the business. There is support for enabling system applications, however this will include all of the OEM/carrier bloat most would want to see removed and will therefore require particular apps be disabled, rather than enabled as described above.
 
@@ -143,7 +143,7 @@ Otherwise referred to as EMM token, the arguably more flexible but *geekier* opt
 - **afw#airwatch** for AirWatch
 - **afw#maas360** for MaaS360
 
-[And others, naturally](/docs/enterprise-mobility/android/android-enterprise-emm-token-collection/).
+[And others, naturally](/android/android-enterprise-emm-token-collection/).
 
 Utilising this method foregoes the need for the device to be local to administrators and requires no additional provisioning device. It is however less straightforward and more prone to user-error, so clear communications need to be in place to minimise support requests when users are typing *awf#dpc* or other simple typos. Furthermore, there is no system app control with this provisioning method; system applications are disabled with no capability of enabling them in most EMMs beyond whitelisting any desired system application manually.
 
@@ -157,7 +157,7 @@ In Android 7.0 Nougat, the ability to provision a device with a QR code was intr
 
 ### Provisioning guides
 
-Guides for all three of the above fully managed provisioning methods can be found here: [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/)
+Guides for all three of the above fully managed provisioning methods can be found here: [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/)
 
 </div>Furthermore:
 
@@ -168,11 +168,11 @@ Pro-tip: If the device states provisioning has failed and a reset is required, s
 
 ### Zero-touch provisioning
 
-As of Android 8.0, zero-touch has been introduced as a comparable solution to Apple’s DEP and Samsung KME. Devices are purchased through authorised resellers, assigned to a [zero-touch console](/docs/enterprise-mobility/android/android-enterprise-zero-touch-faq/) and later, when the end-user first takes the device freshly out of the box, will be ready to enrol as a fully managed device straight away; using this method administrators can now finally send devices directly to end-users without the worry of devices not being provisioned due to the number of steps required in the above deployment scenarios. More about zero touch can be read [here](/2017/09/android-zero-touch-enrolment-has-landed/).
+As of Android 8.0, zero-touch has been introduced as a comparable solution to Apple’s DEP and Samsung KME. Devices are purchased through authorised resellers, assigned to a [zero-touch console](/android/android-enterprise-zero-touch-faq/) and later, when the end-user first takes the device freshly out of the box, will be ready to enrol as a fully managed device straight away; using this method administrators can now finally send devices directly to end-users without the worry of devices not being provisioned due to the number of steps required in the above deployment scenarios. More about zero touch can be read [here](/2017/09/android-zero-touch-enrolment-has-landed/).
 
 In Android 10, it’s now also possible to provision a corporate-owned device through zero-touch to deploy a work profile only. Devices provisioned in this way will **not** be fully managed.
 
-The above provisioning methods are also available in a [handy infobyte](/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/).
+The above provisioning methods are also available in a [handy infobyte](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/).
 
 App management
 --------------
@@ -195,9 +195,9 @@ Even better, because Android Enterprise (via the EMM) takes care of the accounts
 
 Furthermore, introduced in 2018, managed Google Play also offers support for both in-house applications and web-apps.
 
-In-house application support offers a fast-tracked, simple and free solution for distributing corporate applications, typically uploaded to the EMM as an APK file, to be instead uploaded directly to Google Play. Benefits of this include app track support for multiple concurrent versions under test, a global distribution network offering a download experience not subject to latency and slow downloads as can be the case with an APK uploaded in one server servicing an entire global device estate, and delta updates, reducing download sizes automatically. Read[ more about private app management](/docs/enterprise-mobility/android/create-and-manage-private-apps-for-android-enterprise/).
+In-house application support offers a fast-tracked, simple and free solution for distributing corporate applications, typically uploaded to the EMM as an APK file, to be instead uploaded directly to Google Play. Benefits of this include app track support for multiple concurrent versions under test, a global distribution network offering a download experience not subject to latency and slow downloads as can be the case with an APK uploaded in one server servicing an entire global device estate, and delta updates, reducing download sizes automatically. Read[ more about private app management](/android/create-and-manage-private-apps-for-android-enterprise/).
 
-Web app support has been an oft-requested feature for a number of years, particularly as once organisations migrated to Android Enterprise, any existing web clip policies (the legacy term for shortcuts to webpages placed on the home screen) could not be distributed to devices. Web app management introduced in managed Google Play allows administrators to create an application out of any website on the internet, and install it onto devices just like an app (because, technically, they are apps!). [Read more about web app](/docs/enterprise-mobility/android/create-and-manage-web-apps-for-android-enterprise/) management.
+Web app support has been an oft-requested feature for a number of years, particularly as once organisations migrated to Android Enterprise, any existing web clip policies (the legacy term for shortcuts to webpages placed on the home screen) could not be distributed to devices. Web app management introduced in managed Google Play allows administrators to create an application out of any website on the internet, and install it onto devices just like an app (because, technically, they are apps!). [Read more about web app](/android/create-and-manage-web-apps-for-android-enterprise/) management.
 
 Conclusion
 ----------
@@ -216,7 +216,7 @@ If your organisation has struggled managing your Android estate, is tired of dea
 
 If you’re still on the fence, take a look at some of these further reading articles:
 
-[Considerations for choosing Android in the enterprise](/docs/enterprise-mobility/android/considerations-for-choosing-android-in-the-enterprise/)  
+[Considerations for choosing Android in the enterprise](/android/considerations-for-choosing-android-in-the-enterprise/)  
 [The Decade that redefined Android in the enterprise](/2020/01/the-decade-that-redefined-android-in-the-enterprise/)
 
 NB: As of 2019, Android Enterprise has [become the default means of managing Android 10 and later devices](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/). Both [VMware](/2020/10/vmware-announces-end-of-support-for-device-admin/) and MobileIron have announced changes to default enrolment and limited and/or end of support for Device Administrator over the coming years.

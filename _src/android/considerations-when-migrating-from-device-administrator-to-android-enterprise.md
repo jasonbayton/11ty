@@ -24,7 +24,7 @@ FeaturedBackground:
 
 ### What is Android Enterprise?
 
-For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
+For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)
 
 </div>A majority of organisations looking at Android Enterprise today will very likely already have a mature Android management process in place centred around the legacy *device administrator* enrolment model. With this model being [deprecated partially with Android P and fully in Android Q](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), now is the time to start thinking about planning a migration.
 
@@ -46,7 +46,7 @@ Android OS version
 
 Android Enterprise became mandatory with 6.0, Marshmallow. Although 5.0 *should* support Android Enterprise (work profile, at least), there’s a good chance this will not be the case and for that reason is arguably not worth including in migration plans due to foregoing features and the additional testing required to validate compatibility. Any devices running a version of Android under 5.0 are not natively supported and should not be considered for migration.
 
-With a large enough split between supported and unsupported devices, a hybrid legacy/AE environment may be the best option whilst the unsupported devices are phased out; many EMM platforms can support a hybrid environment, though this will naturally result in a mix of [enrolment guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/), additional overhead for support teams and a more complex EMM deployment, though only temporarily. In future, device administrator enrolment [will not be possible at all](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), meaning if legacy enrolment is still being utilised in 2020, a hybrid environment will be a requirement, rather than an option.
+With a large enough split between supported and unsupported devices, a hybrid legacy/AE environment may be the best option whilst the unsupported devices are phased out; many EMM platforms can support a hybrid environment, though this will naturally result in a mix of [enrolment guides](/android/android-enterprise-provisioning-guides/), additional overhead for support teams and a more complex EMM deployment, though only temporarily. In future, device administrator enrolment [will not be possible at all](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), meaning if legacy enrolment is still being utilised in 2020, a hybrid environment will be a requirement, rather than an option.
 
 <div class="callout callout-danger">
 
@@ -87,9 +87,9 @@ Android Enterprise launched with NFC for fully managed provisioning. With each m
 - Android 6.0 Marshmallow: managed Google account, NFC, DPC identifier
 - Android 5.0 Lollipop: NFC
 
-QR code and zero-touch provisioning methods are considered optional and may not be supported by all OEMs unless the devices are [Android Enterprise Recommended](/docs/enterprise-mobility/android/what-is-android-enterprise-recommended/), though from the end of 2020 all Android 9 and above devices [support zero-touch by default](/2020/11/google-announce-big-changes-to-zero-touch/). Huawei, for example, did not support QR code enrolment prior to EMUI 5.2 (and today their devices without GMS don’t support AE at all). Furthermore, NFC naturally requires an NFC radio is present on the devices to be migrated; 5.x devices without an NFC radio cannot therefore be supported.
+QR code and zero-touch provisioning methods are considered optional and may not be supported by all OEMs unless the devices are [Android Enterprise Recommended](/android/what-is-android-enterprise-recommended/), though from the end of 2020 all Android 9 and above devices [support zero-touch by default](/2020/11/google-announce-big-changes-to-zero-touch/). Huawei, for example, did not support QR code enrolment prior to EMUI 5.2 (and today their devices without GMS don’t support AE at all). Furthermore, NFC naturally requires an NFC radio is present on the devices to be migrated; 5.x devices without an NFC radio cannot therefore be supported.
 
-More information about provisioning methods can be found [here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#nfc-provisioning).
+More information about provisioning methods can be found [here](/android/what-is-android-enterprise-and-why-is-it-used/#nfc-provisioning).
 
 Deployment scenarios
 --------------------
@@ -141,9 +141,9 @@ Undertaking a work profile migration
 
 ### What is a work profile?
 
-An overview of work profile can be found [here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile).
+An overview of work profile can be found [here](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile).
 
-</div>The simplest, most straightforward migration route from device administrator to Android Enterprise is [work profile](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile). This is because it can be achieved with an OTA configuration change which will (on supported EMMs):
+</div>The simplest, most straightforward migration route from device administrator to Android Enterprise is [work profile](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile). This is because it can be achieved with an OTA configuration change which will (on supported EMMs):
 
 - Initiate the creation of a work profile on the device
 - Remove the device administrator
@@ -161,11 +161,11 @@ Undertaking a fully managed migration
 
 ### What is a fully managed device?
 
-An overview of fully managed can be found [here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices).
+An overview of fully managed can be found [here](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices).
 
 </div>The migration from device administrator to a fully managed deployment scenario is a disruptive one as it requires a device is factory reset.
 
-Whether this can be done by end-users or requires a visit back to base entirely depends on the technical abilities of the workforce. Typically it’s a bit of a mix and therefore some will be happy to follow an [informative provisioning guide](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/) while others will need to book an appointment with IT. The work-effort can only really therefore be estimated by the organisation, not forgetting to add in time to back up any unsaved data as this will be lost during the transition; again some users may be able to do this, others may not.
+Whether this can be done by end-users or requires a visit back to base entirely depends on the technical abilities of the workforce. Typically it’s a bit of a mix and therefore some will be happy to follow an [informative provisioning guide](/android/android-enterprise-provisioning-guides/) while others will need to book an appointment with IT. The work-effort can only really therefore be estimated by the organisation, not forgetting to add in time to back up any unsaved data as this will be lost during the transition; again some users may be able to do this, others may not.
 
 If new devices are replacing old (arguably the easiest way of transitioning from device admin to Android Enterprise), these can also be pre-enrolled potentially to a staging user and shipped to end-users, however if provisioning only, after a period of time without enrolling the device will automatically factory reset (a protective feature that ensures a device can’t be used unless it’s managed).
 
@@ -205,6 +205,6 @@ Final words
 
 If it isn’t clear already, a migration from a legacy deployment to that of Android Enterprise for anything other than work profile is not to be taken lightly, even a work profile migration requires thought and attention (and a lot of testing) to ensure it can be undertaken with the least amount of disruption.
 
-Most importantly however, there’s no need to rush into this. For organisations with deployments comprising majoritively of Android 5.x or lower it makes far more sense to hold off until the next hardware refresh (which, on Android versions that old, should be considered sooner rather than later). When the time is right and the new hardware is ready, a switch to Android Enterprise will then be vastly simpler to undertake as well as undoubtedly benefiting from such options as [zero-touch enrolment](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/).
+Most importantly however, there’s no need to rush into this. For organisations with deployments comprising majoritively of Android 5.x or lower it makes far more sense to hold off until the next hardware refresh (which, on Android versions that old, should be considered sooner rather than later). When the time is right and the new hardware is ready, a switch to Android Enterprise will then be vastly simpler to undertake as well as undoubtedly benefiting from such options as [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/).
 
 Either way, a migration *should be* on the agenda for organisations; while device administrator enrolments may still hold some benefits currently (some functionality being yet to find its way into the Android Enterprise solution set), Google is clearly investing their time and effort into Android Enterprise as the de facto long-term solution for Android management, and migrating sooner rather than later will ensure organisations today benefit from that investment.

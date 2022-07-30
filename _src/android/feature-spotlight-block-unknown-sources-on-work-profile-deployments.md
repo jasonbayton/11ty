@@ -40,7 +40,7 @@ Why this matters
 
 Unfortunately, while many PHAs aren’t massively harmful, many more do have the ability to be quite disruptive. They can target the SIM, network, device, leverage vulnerabilities, abuse permissions and more.
 
-Even with corporate data securely isolated and separately encrypted from the parent profile, there are other means of causing harm to the organisation without gaining direct access to data on disk; while the EMM can often detect device-based attacks (compromised status), [without an MTD](/docs/enterprise-mobility/android/mtd-and-android-enterprise/) on the device, other attacks may go unnoticed.
+Even with corporate data securely isolated and separately encrypted from the parent profile, there are other means of causing harm to the organisation without gaining direct access to data on disk; while the EMM can often detect device-based attacks (compromised status), [without an MTD](/android/mtd-and-android-enterprise/) on the device, other attacks may go unnoticed.
 
 Without a way of preventing PHAs from being sideloaded, there is a level of risk which entirely relies on the end-user as the last line of defence.
 

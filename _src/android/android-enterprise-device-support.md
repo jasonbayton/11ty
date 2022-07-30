@@ -28,7 +28,7 @@ discourse_permalink:
 - Android Enterprise fully managed (work-managed)
 - Android Enterprise work profile on a fully managed device (COPE/COMP)
 - Android Enterprise dedicated (COSU or kiosk)
-- Multiple provisioning methods, including [zero-touch enrolment](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/)
+- Multiple provisioning methods, including [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/)
 
 <div class="callout callout-info">
 
@@ -36,25 +36,25 @@ discourse_permalink:
 
 I welcome additional devices for testing! If you’re an **OEM** or **reseller** of Android devices, you can join **Sony**, **Nokia**, **Huawei** and others in lending me anything from Android 6.0.1 or later to independently test. This is a free service, devices can be returned within a week or so. Use my [contact](/contact/) page to get in touch or [email me directly](mailto:jason@bayton.org).
 
-For more information on what’s involved in testing, please head to: [Android Enterprise independent validation process and information](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/).
+For more information on what’s involved in testing, please head to: [Android Enterprise independent validation process and information](/android/android-enterprise-device-support/validation-process-and-information/).
 
 </div>
 
 Advanced testing
 ----------------
 
-The following devices have undergone advanced testing. Introduced in June 2019, advanced testing follows the same [process](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/) as standard testing, but each individual restriction/function is documented and verified irrespective of outcome across at least two EMMs.
+The following devices have undergone advanced testing. Introduced in June 2019, advanced testing follows the same [process](/android/android-enterprise-device-support/validation-process-and-information/) as standard testing, but each individual restriction/function is documented and verified irrespective of outcome across at least two EMMs.
 
 A report containing 700+ touch points is provided to the OEM on completion along with any recommendations.
 
-- [Google Pixel 3a Android Enterprise validation report](/docs/enterprise-mobility/android/android-enterprise-device-support/google-pixel-3a-validation-report/)
-- [Moto G7 Power Android Enterprise validation report](/docs/enterprise-mobility/android/android-enterprise-device-support/moto-g7-power-android-enterprise-validation-report/)
-- [Sony Xperia L3 Android Enterprise validation report](/docs/enterprise-mobility/android/android-enterprise-device-support/sony-xperia-l3-android-enterprise-validation-report/)
+- [Google Pixel 3a Android Enterprise validation report](/android/android-enterprise-device-support/google-pixel-3a-validation-report/)
+- [Moto G7 Power Android Enterprise validation report](/android/android-enterprise-device-support/moto-g7-power-android-enterprise-validation-report/)
+- [Sony Xperia L3 Android Enterprise validation report](/android/android-enterprise-device-support/sony-xperia-l3-android-enterprise-validation-report/)
 
 Standard testing
 ----------------
 
-The following devices have undergone standard testing. Standard testing involves the same [process](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/) as advanced testing, but without in-depth documentation and additional verification across multiple EMMs.
+The following devices have undergone standard testing. Standard testing involves the same [process](/android/android-enterprise-device-support/validation-process-and-information/) as advanced testing, but without in-depth documentation and additional verification across multiple EMMs.
 
 For each of these use-cases, the device will be provided a pass (), a warning ( / ), a fail () or untested (), along with the party who verified the functionality (as some information may be externally sourced). The OS version (if) listed is valid at the time of testing. It’s normally safe to assume newer OS versions will support *at a minimum* the below tested functionality.
 
@@ -850,7 +850,7 @@ Dual 13/13MP Cameras
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>Notes: A prompt to join the Nokia improvement program will pop up after provisioning. This can be declined. The 8 series is the first to support Android [zero-touch enrolment](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/).
+</div></div></div></div>Notes: A prompt to join the Nokia improvement program will pop up after provisioning. This can be declined. The 8 series is the first to support Android [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/).
 
 ### Nokia 8.1
 
@@ -981,7 +981,7 @@ Dual 16/20MP Cameras
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>Notes: This device has an in-depth, public report documented [here](/docs/enterprise-mobility/android/android-enterprise-device-support/oneplus-6t-validation-report/).
+</div></div></div></div>Notes: This device has an in-depth, public report documented [here](/android/android-enterprise-device-support/oneplus-6t-validation-report/).
 
 Pocophone
 ---------
@@ -1016,7 +1016,7 @@ Dual 12/5MP + 20MP Front cameras
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>Notes: An in-depth report on this device can be found [here](/docs/enterprise-mobility/android/android-enterprise-device-support/poco-f1-android-enterprise-validation-report/).
+</div></div></div></div>Notes: An in-depth report on this device can be found [here](/android/android-enterprise-device-support/poco-f1-android-enterprise-validation-report/).
 
 Samsung
 -------
@@ -1272,7 +1272,7 @@ Snapdragon 835
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>Notes: The XZ series is the first to support Android [zero-touch enrolment](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/). Will prompt a signup request from Swiftkey, the default keyboard on this device. Request should be declined.
+</div></div></div></div>Notes: The XZ series is the first to support Android [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/). Will prompt a signup request from Swiftkey, the default keyboard on this device. Request should be declined.
 
 ### Sony Xperia XZ1 Compact
 
@@ -1304,7 +1304,7 @@ Snapdragon 835
  QR provisioning  
  Zero-touch enrolment
 
-</div></div></div></div>Notes: The XZ series is the first to support Android [zero-touch enrolment](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/). Will prompt a signup request from Swiftkey, the default keyboard on this device. Request should be declined.
+</div></div></div></div>Notes: The XZ series is the first to support Android [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/). Will prompt a signup request from Swiftkey, the default keyboard on this device. Request should be declined.
 
 ### Sony Xperia XZ2
 

@@ -24,11 +24,11 @@ PHAs are rife across the internet, and as mentioned in another document on the s
 
 > Unfortunately, while many PHAs aren’t massively harmful, many more do have the ability to be quite disruptive. They can target the SIM, network, device, leverage vulnerabilities, abuse permissions and more.
 > 
-> Even with corporate data securely isolated and separately encrypted from the parent profile \[in a work profile deployment\], there are other means of causing harm to the organisation without gaining direct access to data on disk; while the EMM can often detect device-based attacks (compromised status), [without an MTD](/docs/enterprise-mobility/android/mtd-and-android-enterprise/) on the device, other attacks may go unnoticed
+> Even with corporate data securely isolated and separately encrypted from the parent profile \[in a work profile deployment\], there are other means of causing harm to the organisation without gaining direct access to data on disk; while the EMM can often detect device-based attacks (compromised status), [without an MTD](/android/mtd-and-android-enterprise/) on the device, other attacks may go unnoticed
 > 
 > Without a way of preventing PHAs from being sideloaded, there is a level of risk which entirely relies on the end-user as the last line of defence.
 > 
-> <cite>[Feature spotlight: Block unknown sources on work profile deployments](/docs/enterprise-mobility/android/feature-spotlight-block-unknown-sources-on-work-profile-deployments/)</cite>
+> <cite>[Feature spotlight: Block unknown sources on work profile deployments](/android/feature-spotlight-block-unknown-sources-on-work-profile-deployments/)</cite>
 
 The risk is real
 ----------------
@@ -55,7 +55,7 @@ A headache for enterprise
 
 Corporate devices will normally have unknown sources disabled by default, but not always. Particularly with legacy Android deployments where unknown sources was utilised to silently install EMM-related and in-house, corporate applications, devices would ship to users with the capability enabled, though some organisations would restrict it at a later date.
 
-As Android Enterprise replaces Device Admin deployments, there’s almost zero need to make use of unknown sources within an organisation at all, in recent months it’s even now possible to disable it on BYO devices utilising only a work profile. Why this is a good thing is documented in [Feature spotlight: Block unknown sources on work profile deployments](/docs/enterprise-mobility/android/feature-spotlight-block-unknown-sources-on-work-profile-deployments/). This is in addition to the dramatically simplified [private app upload](/docs/enterprise-mobility/android/create-and-manage-private-apps-for-android-enterprise/) process and [web app support](/docs/enterprise-mobility/android/create-and-manage-web-apps-for-android-enterprise/) also recently published.
+As Android Enterprise replaces Device Admin deployments, there’s almost zero need to make use of unknown sources within an organisation at all, in recent months it’s even now possible to disable it on BYO devices utilising only a work profile. Why this is a good thing is documented in [Feature spotlight: Block unknown sources on work profile deployments](/android/feature-spotlight-block-unknown-sources-on-work-profile-deployments/). This is in addition to the dramatically simplified [private app upload](/android/create-and-manage-private-apps-for-android-enterprise/) process and [web app support](/android/create-and-manage-web-apps-for-android-enterprise/) also recently published.
 
 It’s not worth it
 -----------------

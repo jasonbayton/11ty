@@ -109,7 +109,7 @@ An technical term for what is now mostly referenced as [work profile](#work-prof
 Provisioning
 ------------
 
-The act of preparing a device for enrolment. During provisioning the device will download and install a [DPC](#dpc-device-policy-controller), then set the device as [work-managed](#work-managed) before landing on the home screen (or just before depending on when EMM enrolment is prompted). In the [provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/), provisioning and enrolment are clearly referred to as two separate tasks for deploying a device. Once provisioning completes, the user can then enrol through the [DPC.](#dpc-device-policy-controller)
+The act of preparing a device for enrolment. During provisioning the device will download and install a [DPC](#dpc-device-policy-controller), then set the device as [work-managed](#work-managed) before landing on the home screen (or just before depending on when EMM enrolment is prompted). In the [provisioning guides](/android/android-enterprise-provisioning-guides/), provisioning and enrolment are clearly referred to as two separate tasks for deploying a device. Once provisioning completes, the user can then enrol through the [DPC.](#dpc-device-policy-controller)
 
 Unknown sources
 ---------------
@@ -124,19 +124,19 @@ A secondary passcode requirement for BYOD [work profile](#work-profile) devices.
 Work-managed
 ------------
 
-Please see [What is Android Enterprise and why is it used &gt; Diving deeper with work-managed devices](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) for information on work-managed.
+Please see [What is Android Enterprise and why is it used &gt; Diving deeper with work-managed devices](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) for information on work-managed.
 
 Work profile
 ------------
 
-Please see [What is Android Enterprise and why is it used &gt; BYOD and work profile](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile) for information on work profile.
+Please see [What is Android Enterprise and why is it used &gt; BYOD and work profile](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile) for information on work profile.
 
 Fully managed devices with work profiles
 ----------------------------------------
 
-Please see [What is Android Enterprise and why is it used &gt; Diving deeper with work-managed devices](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) for information on fully managed devices with work profiles.
+Please see [What is Android Enterprise and why is it used &gt; Diving deeper with work-managed devices](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) for information on fully managed devices with work profiles.
 
 Zero-touch
 ----------
 
-Please see [What is Android zero-touch enrolment?](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/) for information on zero-touch.
+Please see [What is Android zero-touch enrolment?](/android/what-is-android-zero-touch-enrolment/) for information on zero-touch.

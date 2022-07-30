@@ -43,7 +43,7 @@ This question comes up often and isn’t always simple to answer.
 
 Organisations ideally need to understand the use case for the devices to be selected. This could be normal knowledge worker devices for employees needing a corporate phone, something tough (doesn’t need to be rugged) to withstand harsher environments, or something bespoke such as a kiosk on a reception desk used for checking in or something with an integrated printer/scanner.
 
-After this, the minimum OS required for what the organisation wants to do, for example setting a passcode on a work profile (a *challenge*) requires Android 7.0, ensuring that passcode cannot be the same as the device passcode requires 9.0. More of these comparisons are made in [considerations when migrating from device administrator to Android Enterprise](/docs/enterprise-mobility/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/).
+After this, the minimum OS required for what the organisation wants to do, for example setting a passcode on a work profile (a *challenge*) requires Android 7.0, ensuring that passcode cannot be the same as the device passcode requires 9.0. More of these comparisons are made in [considerations when migrating from device administrator to Android Enterprise](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/).
 
 Once determined, the best place to start looking is the [Android Enterprise Recommended list](https://androidenterprisepartners.withgoogle.com/devices/#!?AER). If nothing suits requirements, get in touch and I’ll try to help out!
 
@@ -57,8 +57,8 @@ In other words, Marshmallow is chosen as a reasonably reliable reference point f
 
 For an in-depth take on this, check out:
 
-- [Android Enterprise vs Device Admin: Why DA is no longer suitable](/docs/enterprise-mobility/android/android-enterprise-vs-device-administrator-legacy-enrolment/)
-- [What is Android Enterprise?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
+- [Android Enterprise vs Device Admin: Why DA is no longer suitable](/android/android-enterprise-vs-device-administrator-legacy-enrolment/)
+- [What is Android Enterprise?](/android/what-is-android-enterprise-and-why-is-it-used/)
 
 In a nutshell, device admin was introduced with Android 2.2 as a means of granting admin permissions to applications. Any number of admins can sit on a device and have excessive, often unnecessary control. It has been widely abused by PHAs (malware, etc) and is very limited in scope of capability, leaving each OEM to build upon it in a fragmented and difficult to support manner.
 
@@ -80,7 +80,7 @@ AER is Google’s validation programme for devices, EMMs, Carriers and MSPs.
 
 Each of the above will have a [list of requirements](https://www.android.com/enterprise/recommended/requirements/) to meet in order to validate, and will re-validate on an annual basis.
 
-More details: [What is Android Enterprise Recommended?](/docs/enterprise-mobility/android/what-is-android-enterprise-recommended/)
+More details: [What is Android Enterprise Recommended?](/android/what-is-android-enterprise-recommended/)
 
 ### My AER device doesn’t work properly with Android Enterprise, what should I do?
 
@@ -161,7 +161,7 @@ As of Android 11 this answer also applies to COPE, work profiles on company owne
 
 ### Can organisations deploy applications to the parent profile in a work profile deployment?
 
-No. It is not possible to deploy applications into the parent profile (or, the device outside of the work profile) in a work profile deployment. This is covered, as well as other aspects of this use case, with [considerations when deploying MTD with Android Enterprise](/docs/enterprise-mobility/android/mtd-and-android-enterprise/)
+No. It is not possible to deploy applications into the parent profile (or, the device outside of the work profile) in a work profile deployment. This is covered, as well as other aspects of this use case, with [considerations when deploying MTD with Android Enterprise](/android/mtd-and-android-enterprise/)
 
 As of Android 11 this answer also applies to COPE, work profiles on company owned devices.
 
@@ -214,7 +214,7 @@ There are several options for provisioning into any fully managed deployment sce
 
 - **NFC** (5.0+): With the use of a provisioning app provided by your EMM of choice on a spare device, simply input basic environment details and bump NFC radios with a freshly factory reset (or brand new out of box) device to begin provisioning.
 - **Managed Google account** (6.0+): Begin setting up a device as normal (including connecting to a network) and at the Google account prompt, enter the managed Google account (G Suite, Google Cloud Identity) address and authenticate as normal.
-- **DPC identifier** (6.0+): Begin setting up a device as normal (including connecting to a network), but at the prompt to enter a Google account opt instead to input the DPC identifier of your EMM, plenty of examples are available [here](/docs/enterprise-mobility/android/android-enterprise-dpc-identifier-collection/).
+- **DPC identifier** (6.0+): Begin setting up a device as normal (including connecting to a network), but at the prompt to enter a Google account opt instead to input the DPC identifier of your EMM, plenty of examples are available [here](/android/android-enterprise-dpc-identifier-collection/).
 - **QR code** (8.0+): With a QR code provided by either the EMM solution or a counterpart provisioning app (the same potentially used to provision via NFC), simply tap 6 times on the welcome screen to be download the QR reader (8.0) or switch to it automatically (9.0). WiFi details are required unless provided within the QR for 9.0 devices.
 - **Zero-touch** (8.0+): Devices purchased through an authorised reseller may be assigned to a zero-touch customer account, and with a configuration created and assigned the device with automatically begin zero-touch provisioning as soon as network connectivity is established.
 - **KME** (Knox 2.8+): Samsung devices running Knox 2.8 or above are compatible with Android Enterprise provisioning via KME. Devices added to the KME portal with a profile assigned will begin KME provisioning from a factory reset state.
@@ -222,8 +222,8 @@ There are several options for provisioning into any fully managed deployment sce
 
 More details:
 
-- [Did you know? Android Enterprise fully managed provisioning methods](/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/)
-- [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/)
+- [Did you know? Android Enterprise fully managed provisioning methods](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/)
+- [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/)
 
 ### Is it possible to “retire” (or enterprise wipe) a fully managed device?
 
@@ -243,7 +243,7 @@ Not normally by default, though do validate with your EMM vendor. If confirmed d
 
 If so desired, whitelisted Factory Reset Protection is available and offers a simple, albeit caveated means of ensuring devices can’t simply be wiped and re-setup without Android Enterprise provisioning taking place. For zero-touch devices there’s no need to leverage it.
 
-More: [Feature spotlight: Factory Reset Protection](/docs/enterprise-mobility/android/feature-spotlight-factory-reset-protection/).
+More: [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-factory-reset-protection/).
 
 ### Is it possible to migrate fully managed devices between EMM solutions?
 
@@ -254,7 +254,7 @@ Work profiles on fully managed devices, work profiles on company owned devices (
 
 ### How has COPE changed in Android 11?
 
-For details on th changes to COPE in Android 11, please read [Android 11 COPE changes](/docs/enterprise-mobility/android/android-11-cope-changes/).
+For details on th changes to COPE in Android 11, please read [Android 11 COPE changes](/android/android-11-cope-changes/).
 
 ### Does Intune support COPE?
 
@@ -288,7 +288,7 @@ Organisations are providing a device provisioned for personal use, and as such t
 
 Most EMMs support the ad-hoc management of system applications, so there’s no reason bloatware can’t still be disabled, but things like system gallery, calculator, health apps and other OEM app suites being enabled should be harmless outside of the secure work profile.
 
-**Android 11+** – While there is still [application management to a degree](/docs/enterprise-mobility/android/android-11-cope-changes/), the act of enabling or disabling system applications during provisioning is no longer supported.
+**Android 11+** – While there is still [application management to a degree](/android/android-11-cope-changes/), the act of enabling or disabling system applications during provisioning is no longer supported.
 
 Zero-touch
 ----------
@@ -399,7 +399,7 @@ Yes, via the CSV template provided, or the [customer API](https://developers.goo
 
 ### Is it possible to change resellers?
 
-Yes, either by requesting a new account from a new reseller, or [adding a new reseller through the existing console](/docs/enterprise-mobility/android/android-enterprise-zero-touch-console-device-guide/#adding-resellers).
+Yes, either by requesting a new account from a new reseller, or [adding a new reseller through the existing console](/android/android-enterprise-zero-touch-console-device-guide/#adding-resellers).
 
 ### Are all zero-touch devices Android Enterprise Recommended?
 
@@ -411,7 +411,7 @@ These are a selection of DPC-specific key-pairs which manipulate the enrolment e
 
 ### What should I put in DPC extras?
 
-A collection of DPC extras for various EMM/UEM vendors can be found here: [Android Enterprise zero-touch DPC extras collection](/docs/enterprise-mobility/android/android-enterprise-zero-touch-dpc-extras-collection/).
+A collection of DPC extras for various EMM/UEM vendors can be found here: [Android Enterprise zero-touch DPC extras collection](/android/android-enterprise-zero-touch-dpc-extras-collection/).
 
 As EMM vendors begin supporting the zero-touch iFrame introduced in late 2020, manual editing of DPC extras should diminish as EMMs will handle it automatically.
 
@@ -448,7 +448,7 @@ For all EMMs that support it, the Google Play iFrame now supports the simple, fe
 
 Unlike adding an APK directly into the UEM console, uploading to Google Play is safer, easier to manage and less likely to lead to issues compared with pushing APKs directly.
 
-More information: [Create and manage private apps for Android Enterprise](/docs/enterprise-mobility/android/create-and-manage-private-apps-for-android-enterprise/)
+More information: [Create and manage private apps for Android Enterprise](/android/create-and-manage-private-apps-for-android-enterprise/)
 
 Where the Play iFrame isn’t supported, it’s possible to upload and distribute through the [Google Play Console](https://play.google.com/apps/publish/) but keep in mind there’s a $25 fee to set up a developer account.
 
@@ -458,7 +458,7 @@ No. App shortcuts supported with device admin are not available for Android Ente
 
 Instead of a bookmark/shortcut that opens in the default browser, web apps are legitimate applications that open with Google Chrome.
 
-More information: [Create and manage web apps for Android Enterprise](/docs/enterprise-mobility/android/create-and-manage-web-apps-for-android-enterprise/)
+More information: [Create and manage web apps for Android Enterprise](/android/create-and-manage-web-apps-for-android-enterprise/)
 
 ### The Google Play iFrame is missing a feature in my UEM. How do I enable it?
 

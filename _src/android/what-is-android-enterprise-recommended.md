@@ -38,7 +38,7 @@ Devices submitted for certification will be thoroughly tested against Google’s
 
 .. and more. The full list of requirements can be found [here](https://www.android.com/enterprise/recommended/requirements/).
 
-This certification process is per-device rather than per-OEM, meaning each individual device an OEM releases will need to be tested and certified. This is important as an OEM can release devices targeting many audiences, such as HMD Global with their [Nokia 1](/docs/enterprise-mobility/android/android-enterprise-device-support/#nokia-1) and [Nokia 2](/docs/enterprise-mobility/android/android-enterprise-device-support/#nokia-2) or Samsung with their Galaxy J1; these are not intended for enterprise use and as such wouldn’t make sense to suggest otherwise with an OEM AER badge.
+This certification process is per-device rather than per-OEM, meaning each individual device an OEM releases will need to be tested and certified. This is important as an OEM can release devices targeting many audiences, such as HMD Global with their [Nokia 1](/android/android-enterprise-device-support/#nokia-1) and [Nokia 2](/android/android-enterprise-device-support/#nokia-2) or Samsung with their Galaxy J1; these are not intended for enterprise use and as such wouldn’t make sense to suggest otherwise with an OEM AER badge.
 
 When buying devices for enterprise use, organisations need only look for the Android Enterprise Recommended badge to know the devices have been thoroughly vetted against the above (and more) best practices and requirements from the company that develops Android and the Android Enterprise solution. It’ll help to ensure organisations align expectations (and potentially budgets) accordingly to ensure the devices being considered will:
 
