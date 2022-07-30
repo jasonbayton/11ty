@@ -1,3 +1,4 @@
 /docs/enterprise-mobility/android /android 301
 /docs/enterprise-mobility/android/* /android/:splat 301
 /20* /blog/20:splat 301
+/category/* /tag/:splat 301
