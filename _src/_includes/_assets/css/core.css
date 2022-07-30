@@ -1,7 +1,7 @@
 /*core*/
 
 :root {
-  --light: #f6f6f6;
+  --light: #c9c9c9;
   --dark: #333333;
   --bright: #ffffff;
   --text: #333333;
@@ -9,7 +9,7 @@
 }
 
 [data-theme="dark"] {
-  --light: #333333;
+  --light: #2d2d2d;
   --dark: #292929;
   --bright: #CFCFCF;
   --text: #cfcfcf;
@@ -18,7 +18,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --light: #333333;
+    --light: #2d2d2d;
     --dark: #292929;
     --bright: #CFCFCF;
     --text: #cfcfcf;
@@ -26,7 +26,7 @@
 }
 
   [data-theme="light"] {
-    --light: #f6f6f6;
+    --light: #c9c9c9;
     --dark: #333333;
     --bright: #ffffff;
     --text: #333333;
@@ -36,7 +36,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --light: #f6f6f6;
+    --light: #c9c9c9;
     --dark: #333333;
     --bright: #ffffff;
     --text: #333333;
@@ -44,7 +44,7 @@
   }
 
   [data-theme="dark"] {
-    --light: #333333;
+    --light: #2d2d2d;
     --dark: #292929;
     --bright: #CFCFCF;
     --text: #cfcfcf;
@@ -208,6 +208,11 @@ button {
   border: 0;
 }
 
+#bayton_logo, #darktoggle {
+  justify-self: center;
+  align-self: center;
+}
+
 #bayton_text {
   font-family: 'Parisienne', cursive;
   font-weight: 300;
@@ -219,7 +224,7 @@ button {
 
 #navbar {
   display: grid;
-  padding: 10px 0;
+  padding: 10px 0 15px;
   border-bottom: 2px solid var(--text);
   grid-template-columns: 1fr 5fr 2fr 1fr;
   color: var(--text);
@@ -593,7 +598,14 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   #darktoggle {
     justify-self: end;
     cursor: pointer;
-    
+  }
+
+  #banner_statement {
+    font-size: 14px;
+  }
+
+  #bayton_logo {
+    justify-self: start;
   }
 
   #navbar {
