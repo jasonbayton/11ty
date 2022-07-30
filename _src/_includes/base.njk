@@ -70,7 +70,7 @@
                     <div class="aside-title">
                       <h2>Docs</h2>
                     </div>
-                    <details {% if page.tags.includes("Getting started") %} open="" {% endif %} >
+                    <details {% if tags.includes("Getting started") %} open="" {% endif %} >
                         <summary class="docnav-topic-title">
                                 Getting started        
                             </summary>
@@ -80,7 +80,7 @@
                             {%- endfor -%}
                         </ul>
                     </details>
-                    <details {% if page.tags.includes("Diving deeper") %} open="" {% endif %} >
+                    <details {% if tags.includes("Diving deeper") %} open="" {% endif %} >
                         <summary class="docnav-topic-title">
                                 Diving deeper        
                             </summary>
@@ -90,7 +90,7 @@
                             {%- endfor -%}
                         </ul>
                     </details>
-                    <details {% if page.tags.includes("Resources") %} open="" {% endif %} >
+                    <details {% if tags.includes("Resources") %} open="" {% endif %} >
                         <summary class="docnav-topic-title">
                                 Resources        
                             </summary>
