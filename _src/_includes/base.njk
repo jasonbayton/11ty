@@ -70,9 +70,7 @@
                     <div class="aside-title">
                       <h2>Docs</h2>
                     </div>
-                    <details {%- for post in collections['Getting started'] -%}
-                    {% if page.tags == post.tags %} open="" {% endif %}
-                    {%- endfor -%} >
+                    <details {% if page.tags.includes("Getting started") %} open="" {% endif %} >
                         <summary class="docnav-topic-title">
                                 Getting started        
                             </summary>
@@ -82,8 +80,7 @@
                             {%- endfor -%}
                         </ul>
                     </details>
-                    <details {%- for post in collections['Diving deeper'] -%}
-                    {% if page.tags == post.tags %} open="" {% endif %}
+                    <details {% if page.tags.includes("Diving deeper") %} open="" {% endif %} >                    {% if page.tags == post.tags %} open="" {% endif %}
                     {%- endfor -%} >
                         <summary class="docnav-topic-title">
                                 Diving deeper        
@@ -94,7 +91,7 @@
                             {%- endfor -%}
                         </ul>
                     </details>
-                    <details {%- for post in collections['Resources'] -%}
+                    <details {% if page.tags.includes("Resources") %} open="" {% endif %} >                    {% if page.tags == post.tags %} open="" {% endif %}
                     {% if page.tags == post.tags %} open="" {% endif %}
                     {%- endfor -%} >
                         <summary class="docnav-topic-title">
