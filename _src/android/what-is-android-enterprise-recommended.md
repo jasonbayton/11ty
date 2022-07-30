@@ -38,7 +38,7 @@ Devices submitted for certification will be thoroughly tested against Google’s
 
 .. and more. The full list of requirements can be found [here](https://www.android.com/enterprise/recommended/requirements/).
 
-This certification process is per-device rather than per-OEM, meaning each individual device an OEM releases will need to be tested and certified. This is important as an OEM can release devices targeting many audiences, such as HMD Global with their [Nokia 1](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/#nokia-1) and [Nokia 2](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/#nokia-2) or Samsung with their Galaxy J1; these are not intended for enterprise use and as such wouldn’t make sense to suggest otherwise with an OEM AER badge.
+This certification process is per-device rather than per-OEM, meaning each individual device an OEM releases will need to be tested and certified. This is important as an OEM can release devices targeting many audiences, such as HMD Global with their [Nokia 1](/docs/enterprise-mobility/android/android-enterprise-device-support/#nokia-1) and [Nokia 2](/docs/enterprise-mobility/android/android-enterprise-device-support/#nokia-2) or Samsung with their Galaxy J1; these are not intended for enterprise use and as such wouldn’t make sense to suggest otherwise with an OEM AER badge.
 
 When buying devices for enterprise use, organisations need only look for the Android Enterprise Recommended badge to know the devices have been thoroughly vetted against the above (and more) best practices and requirements from the company that develops Android and the Android Enterprise solution. It’ll help to ensure organisations align expectations (and potentially budgets) accordingly to ensure the devices being considered will:
 
@@ -52,7 +52,7 @@ Since the introduction of Android Enterprise Recommended, over 70 additional dev
 
 Notably absent from the program are Samsung. Samsung are not joining the programme at this time despite invitation from Google.
 
-More information can be found on this [dedicated article](https://bayton.org/2018/02/enterprise-ready-google-launch-android-enterprise-recommended/).
+More information can be found on this [dedicated article](/2018/02/enterprise-ready-google-launch-android-enterprise-recommended/).
 
 Android Enterprise Recommended EMMs
 -----------------------------------
@@ -72,7 +72,7 @@ In a nutshell, Google are going to validate EMMs who demonstrably put Android En
 
 [Validated vendors](https://androidenterprisepartners.withgoogle.com/emm/) will receive their own badge for marketing and promotional purposes to demonstrate heightened compatibility with Android Enterprise.
 
-More information is available on this [dedicated article](https://bayton.org/2019/01/aer-expands-android-enterprise-recommended-for-emms/).
+More information is available on this [dedicated article](/2019/01/aer-expands-android-enterprise-recommended-for-emms/).
 
 Android Enterprise Recommended MSPs
 -----------------------------------
@@ -81,7 +81,7 @@ The Android Enterprise Recommended MSP programme validates managed service provi
 
 It’s fine having recommended devices and solutions, but without a competent partner with proven ability to advise on devices, deploy chosen solutions and provide ongoing support, it would be all too easy to end up in a situation where customers aren’t fully, or properly, leveraging devices and services.
 
-In order to qualify for the programme, MSPs must have a minimum number of [validated experts](https://bayton.org/2019/03/joining-the-android-enterprise-experts-community/) within their organisation, a proven track record of successful deployments and more.
+In order to qualify for the programme, MSPs must have a minimum number of [validated experts](/2019/03/joining-the-android-enterprise-experts-community/) within their organisation, a proven track record of successful deployments and more.
 
 The full list of requirements can be found [](https://www.android.com/enterprise/recommended/requirements/)[here](https://androidenterprisepartners.withgoogle.com/glossary/msp/) with an overview [here](https://www.android.com/enterprise/recommended/requirements/).
 

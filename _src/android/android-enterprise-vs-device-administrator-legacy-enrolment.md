@@ -16,7 +16,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-vs-device-admin-why-da-is-no-longer-suitable/26'
 ---
-If you’ve read [What is Android Enterprise and why is it used?](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/), you’ll know Android Enterprise (AE) offers several rather useful features and deployment scenarios to suit many business requirements. If you haven’t read the above document, please do so either before or after this to compare.
+If you’ve read [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/), you’ll know Android Enterprise (AE) offers several rather useful features and deployment scenarios to suit many business requirements. If you haven’t read the above document, please do so either before or after this to compare.
 
 A recurring query when discussing Android Enterprise is, as might be expected:
 
@@ -46,7 +46,7 @@ Below are a collection of challenges associated with device administrator, or *l
 
 Without provisioning methods, DA device enrolment has always been a long, fragmented, and inconsistent process requiring an end-user works through the whole setup wizard, manually downloads the EMM agent via Google Play or sideloads (the latter requiring enabling unknown sources, though this is often required anyway) and accepts various permissions.
 
-There are a number of opportunities for error, such as skipping the adding of a Google account, denying permissions, downloading the wrong EMM agent and more; an example of this process on a Nexus 5 is documented [here](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/#legacy-enrolment). It’s worth noting the Nexus 5 shipped without the typical array of additional OEM setup wizard screens and services which often add many more steps to the process.
+There are a number of opportunities for error, such as skipping the adding of a Google account, denying permissions, downloading the wrong EMM agent and more; an example of this process on a Nexus 5 is documented [here](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/#legacy-enrolment). It’s worth noting the Nexus 5 shipped without the typical array of additional OEM setup wizard screens and services which often add many more steps to the process.
 
 With the exception of Samsung who have developed and leveraged Knox Mobile Enrolment (KME) for a number of years to ease DA EMM enrolment, for organisations who didn’t or couldn’t use it, Android enrolment has been consistently complex and error-prone.
 
@@ -56,11 +56,11 @@ Out of the box, Android as provided by many OEMs offers very few management APIs
 
 Some OEMs have over the years implemented their own APIs for various capabilities that make for a partially (or in Samsung’s case, very) manageable device, however this equally requires that EMMs choose to implement the respective bespoke APIs for the functionality offered, which hasn’t always been the case.
 
-When EMMs do implement these bespoke APIs, in addition to having to request *device administrator* permissions for the EMM agent, it’s highly likely the EMM would also require an additional, per-OEM, application installed on the device to better utilise them; SOTI is most notable for having over 170 of OEM plugins, but the act of installing one involves enabling unknown sources and sideloading APKs. [Not very secure](https://bayton.org/docs/enterprise-mobility/android/why-you-shouldnt-install-apps-from-unknown-sources/).
+When EMMs do implement these bespoke APIs, in addition to having to request *device administrator* permissions for the EMM agent, it’s highly likely the EMM would also require an additional, per-OEM, application installed on the device to better utilise them; SOTI is most notable for having over 170 of OEM plugins, but the act of installing one involves enabling unknown sources and sideloading APKs. [Not very secure](/docs/enterprise-mobility/android/why-you-shouldnt-install-apps-from-unknown-sources/).
 
 <div class="wp-block-image wp-image-4768 size-full"><figure class="alignleft">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/10/apisupport-e1507840615305.png)<figcaption>*AirWatch restriction support by different OEMs*</figcaption></figure></div>Beyond basic security policies and perhaps a simple email/WiFi/etc configuration then, outside of the bigger OEMs (Samsung, Huawei, Sony, others to a lesser degree), there’s not a lot administrators can manipulate and control with a legacy-managed Android device, which already makes them rather unappealing for use in an enterprise setting.
 
-The exception, as mentioned above, is Samsung. When a Samsung device is enrolled normally (as in, not via Knox Premium), EMM administrators have management over the device to a degree similar to that of an Android Enterprise [fully managed](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) device; there are an abundance of restrictions available and excellent visibility of device posture. Samsung’s DA offering isn’t perfect however, and encounters many of the other shortfalls of DA.
+The exception, as mentioned above, is Samsung. When a Samsung device is enrolled normally (as in, not via Knox Premium), EMM administrators have management over the device to a degree similar to that of an Android Enterprise [fully managed](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) device; there are an abundance of restrictions available and excellent visibility of device posture. Samsung’s DA offering isn’t perfect however, and encounters many of the other shortfalls of DA.
 
 ### A poor app management experience
 
@@ -82,9 +82,9 @@ Assuming the APK is safe, but not appropriate for the device, the organisation m
 
 If taking the more sensible approach to application management by utilising Google Play, a Google account is required on the device and users of legacy-managed devices will simply be prompted, often repeatedly, to go and install it manually from Google Play as mentioned above. When retiring the device (as in, enterprise wipe – not a full reset) there’s no consistent guarantee those download applications and their accounts will be removed with it, potentially leaving corporate data on an unmanaged device.
 
-Further complicating things, the introduction of [Factory Reset Protection](https://bayton.org/docs/enterprise-mobility/android/feature-spotlight-factory-reset-protection/) (FRP) means wiping a device without first removing the users’ Google account may render the device unusable. Really not an ideal situation to end up in as without end-user cooperation, it can be costly to send devices off for repair, a necessity if the device is to be re-deployed.
+Further complicating things, the introduction of [Factory Reset Protection](/docs/enterprise-mobility/android/feature-spotlight-factory-reset-protection/) (FRP) means wiping a device without first removing the users’ Google account may render the device unusable. Really not an ideal situation to end up in as without end-user cooperation, it can be costly to send devices off for repair, a necessity if the device is to be re-deployed.
 
-This is not to say these devices have *no place* in an enterprise setting. Organisations that support a Bring Your Own Device (BYOD) initiative will find most EMMs have containerisation solutions permitting the use of corporate applications within an encrypted, sandboxed environment. In the case of Samsung these solutions are again built in! Assuming the organisation doesn’t want to control the devices, rather only the corporate data on those devices, it’s possible to support legacy Android, at least until Android Q when [DA is deprecated](https://bayton.org/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/).
+This is not to say these devices have *no place* in an enterprise setting. Organisations that support a Bring Your Own Device (BYOD) initiative will find most EMMs have containerisation solutions permitting the use of corporate applications within an encrypted, sandboxed environment. In the case of Samsung these solutions are again built in! Assuming the organisation doesn’t want to control the devices, rather only the corporate data on those devices, it’s possible to support legacy Android, at least until Android Q when [DA is deprecated](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/).
 
 ### Permissions – management and abuse
 
@@ -114,8 +114,8 @@ Even if DA was considered passable today, there is no future for legacy device m
 
 For more information on DA deprecation, check out the following resources:
 
-- [Infobyte – Did you know? Device Admin deprecation](https://bayton.org/docs/enterprise-mobility/android/infobyte-did-you-know-device-admin-deprecation/)
-- [Google is deprecating device admin in favour of Android Enterprise](https://bayton.org/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/)
+- [Infobyte – Did you know? Device Admin deprecation](/docs/enterprise-mobility/android/infobyte-did-you-know-device-admin-deprecation/)
+- [Google is deprecating device admin in favour of Android Enterprise](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/)
 
 How Android Enterprise compares
 -------------------------------
@@ -128,9 +128,9 @@ How Android Enterprise compares
 
 All of these aspects of Android Enterprise are explained in detail in the following documents:
 
-- [What is Android Enterprise?](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
-- [Considerations when migrating from device administrator to Android Enterprise](https://bayton.org/docs/enterprise-mobility/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/)
-- [Considerations for choosing Android in the enterprise ](https://bayton.org/docs/enterprise-mobility/android/considerations-for-choosing-android-in-the-enterprise/)
+- [What is Android Enterprise?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
+- [Considerations when migrating from device administrator to Android Enterprise](/docs/enterprise-mobility/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/)
+- [Considerations for choosing Android in the enterprise ](/docs/enterprise-mobility/android/considerations-for-choosing-android-in-the-enterprise/)
 
 Conclusion
 ----------

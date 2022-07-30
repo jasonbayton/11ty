@@ -30,13 +30,13 @@ Who supports COPE today?
 
 ### MobileIron – 2018
 
-MobileIron was the [first to launch](https://bayton.org/2018/03/mobileiron-launch-android-enterprise-work-profiles-on-fully-managed-devices/) support for work profiles on fully managed devices with MobileIron Core 9.7 in early 2018. It would be several months before their other UEM, MobileIron Cloud, [gained support](https://bayton.org/2018/12/mobileiron-cloud-r58-supports-android-enterprise-fully-managed-devices-with-work-profiles/) in late 2018 with R58.
+MobileIron was the [first to launch](/2018/03/mobileiron-launch-android-enterprise-work-profiles-on-fully-managed-devices/) support for work profiles on fully managed devices with MobileIron Core 9.7 in early 2018. It would be several months before their other UEM, MobileIron Cloud, [gained support](/2018/12/mobileiron-cloud-r58-supports-android-enterprise-fully-managed-devices-with-work-profiles/) in late 2018 with R58.
 
 MobileIron’s implementation isn’t bad, but their approach in deciding how admins should be able to manage the parent profile (by limiting available restrictions) has been a point of contention from the beginning.
 
 ### VMware Workspace ONE UEM (AirWatch) – 2018
 
-In late 2018 VMware also [introduced support](https://bayton.org/2018/10/workspace-one-uem-1810-introduces-support-for-android-enterprise-fully-managed-devices-with-work-profiles/) for COPE with version 1810.
+In late 2018 VMware also [introduced support](/2018/10/workspace-one-uem-1810-introduces-support-for-android-enterprise-fully-managed-devices-with-work-profiles/) for COPE with version 1810.
 
 VMware equally uniquely provision managed Google Play accounts in both the work and parent profiles, leading to the possibility in future of deploying applications to both profiles as opposed to the work profile only.
 
@@ -58,7 +58,7 @@ A particularly nice capability which all EMMs should support is the ability to E
 
 ### Intune (AMAPI) – 2020 
 
-Following the [announcement](https://bayton.org/2020/07/googles-android-management-api-will-soon-support-cope/) of support for COPE in AMAPI, Intune went into preview in late 2020.
+Following the [announcement](/2020/07/googles-android-management-api-will-soon-support-cope/) of support for COPE in AMAPI, Intune went into preview in late 2020.
 
 And everyone else?
 ------------------

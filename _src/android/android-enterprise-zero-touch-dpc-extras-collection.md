@@ -37,7 +37,7 @@ Unless the username and password are stipulated for the purpose of **staging**, 
 </div>Google announces zero-touch EMM integration 
 --------------------------------------------
 
-For those who consider copying and pasting JSON code a bit of a pain, you’re in luck; Google announced the zero-touch iFrame, allowing EMMs to integrate with a customer zero-touch account, allowing – [amongst other features](https://bayton.org/2020/11/google-announce-big-changes-to-zero-touch/) – the ability to manage DPC extras automatically.
+For those who consider copying and pasting JSON code a bit of a pain, you’re in luck; Google announced the zero-touch iFrame, allowing EMMs to integrate with a customer zero-touch account, allowing – [amongst other features](/2020/11/google-announce-big-changes-to-zero-touch/) – the ability to manage DPC extras automatically.
 
 Reach out to your vendor to ask when this functionality will be available.
 

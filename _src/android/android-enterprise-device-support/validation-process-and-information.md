@@ -24,7 +24,7 @@ FeaturedBackground:
 
  While I am still actively testing devices, I no longer publish them here. Consider the below to be historical, including the advanced testing, and not to be taken as current status of a device. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. </div><div class="callout callout-success">### Return to device support
 
-Just looking for details of devices tested? Head back to [Android Enterprise device support](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/).
+Just looking for details of devices tested? Head back to [Android Enterprise device support](/docs/enterprise-mobility/android/android-enterprise-device-support/).
 
 </div><div class="callout callout-info">### OEM or reseller?
 
@@ -38,7 +38,7 @@ If you’re interested in knowing more about the project as a whole and the back
 In order to validate the implementation of Android Enterprise on a device, I undertake the following:
 
 - Attempt to perform an NFC-bump using a provisioning application supplied by either [MobileIron](https://play.google.com/store/apps/details?id=com.mobileiron.client.android.nfcprovisioner) or [AirWatch](https://play.google.com/store/apps/details?id=com.airwatch.relay) (normally both).
-- Attempt to perform a QR scan based on codes generated [manually](https://bayton.org/docs/enterprise-mobility/mobileiron/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/) ([WS1 source](https://my.air-watch.com/help/9.1/en/Content/Platform_Guides/Android_Work/C/Enrollment_Overview.htm)) or [automatically](https://play.google.com/store/apps/details?id=com.mobileiron.client.android.nfcprovisioner).
+- Attempt to perform a QR scan based on codes generated [manually](/docs/enterprise-mobility/mobileiron/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/) ([WS1 source](https://my.air-watch.com/help/9.1/en/Content/Platform_Guides/Android_Work/C/Enrollment_Overview.htm)) or [automatically](https://play.google.com/store/apps/details?id=com.mobileiron.client.android.nfcprovisioner).
 - Attempt to enrol using the DPC identifier in the Google account prompt, normally *afw#mobileiron.core*, *afw#mobileiron.cloud* or *afw#hub*.
 - Attempt to enrol using a GSuite address and the Google [Device Policy Management](https://play.google.com/store/apps/details?id=com.google.android.apps.enterprise.dmagent) DPC.
 - Utilise any of the above provisioning methods to deploy a COSU (kiosk) environment.
@@ -46,7 +46,7 @@ In order to validate the implementation of Android Enterprise on a device, I und
 - Attempt to enrol into an EMM after normal setup to generate a work profile.
 - If supported, attempt to enrol using zero-touch provisioning.
 
-The above provisioning tasks (with the exception of the GSuite enrolment currently) are documented here: [Android Enterprise provisioning guides](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/). Testing may be completed on EMM platforms other than those mentioned above for any task at any time.
+The above provisioning tasks (with the exception of the GSuite enrolment currently) are documented here: [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/). Testing may be completed on EMM platforms other than those mentioned above for any task at any time.
 
 ### EMM configuration files
 
@@ -54,7 +54,7 @@ Should you wish to see first-hand the policies/configs/profiles utilised to vali
 
 #### MobileIron Core
 
-<div class="wp-block-file">[MobileIron Policies](https://bayton.org/wp-content/uploads/2019/01/MI_AEvalidation.zip)[Download](https://bayton.org/wp-content/uploads/2019/01/MI_AEvalidation.zip)</div>#### VMware Workspace ONE UEM
+<div class="wp-block-file">[MobileIron Policies](/wp-content/uploads/2019/01/MI_AEvalidation.zip)[Download](/wp-content/uploads/2019/01/MI_AEvalidation.zip)</div>#### VMware Workspace ONE UEM
 
 Coming soon
 
@@ -142,7 +142,7 @@ These are not “fails”, however the following I consider to either need polis
 
 ### Reporting
 
-Once all tests are completed, a report will be generated to the nominated contact. This can be notes in an email or a headed PDF on request. Summarised results with a few lines of notes (where appropriate) will also be published against the device on [Android Enterprise device support](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/). Where possible, publishing of results can be postponed for the period of time I have the devices should a patch be pushed, however once the devices are returned the results will be published.
+Once all tests are completed, a report will be generated to the nominated contact. This can be notes in an email or a headed PDF on request. Summarised results with a few lines of notes (where appropriate) will also be published against the device on [Android Enterprise device support](/docs/enterprise-mobility/android/android-enterprise-device-support/). Where possible, publishing of results can be postponed for the period of time I have the devices should a patch be pushed, however once the devices are returned the results will be published.
 
 The in-depth results provided to the nominated contact will remain private, however I may request permission to use them as a reference for future website promotions (which can be granted or denied, no problem).
 
@@ -169,7 +169,7 @@ Project information
 
 ### Who am I?
 
-I’m a senior EMM consultant and subject matter expert (SME) for Android and Android Enterprise. I’ve been working with enterprise mobile solutions for a [number of years](https://linkedin.com/in/jasonbayton) and have an [in-depth knowledge of Android Enterprise](https://bayton.org/docs/enterprise-mobility/android/) so I know how an ideal implementation looks and behaves. My work has been referenced by MobileIron, Wandera, BrianMadden.com and others. Check out my [about](https://bayton.org/about/) page for examples.
+I’m a senior EMM consultant and subject matter expert (SME) for Android and Android Enterprise. I’ve been working with enterprise mobile solutions for a [number of years](https://linkedin.com/in/jasonbayton) and have an [in-depth knowledge of Android Enterprise](/docs/enterprise-mobility/android/) so I know how an ideal implementation looks and behaves. My work has been referenced by MobileIron, Wandera, BrianMadden.com and others. Check out my [about](/about/) page for examples.
 
 <figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> Digging the new Android zero-touch guide from [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw), the best independent resource for Android enterprise.   
 >  <https://t.co/BFTZfKFsrg>
@@ -182,7 +182,7 @@ Android Enterprise is becoming popular, however not all OEMs fully support and/o
 
 As an example:
 
-The Motorola [Moto Z](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/#motorola-moto-z) and [Moto Z Play](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/#motorola-moto-z-play) both run Android 7.0 (at the time of testing), look, feel and behave in the exact same way, however while the Moto Z supports the full range of provisioning options, the Moto Z Play doesn’t provision via NFC correctly.
+The Motorola [Moto Z](/docs/enterprise-mobility/android/android-enterprise-device-support/#motorola-moto-z) and [Moto Z Play](/docs/enterprise-mobility/android/android-enterprise-device-support/#motorola-moto-z-play) both run Android 7.0 (at the time of testing), look, feel and behave in the exact same way, however while the Moto Z supports the full range of provisioning options, the Moto Z Play doesn’t provision via NFC correctly.
 
 These types of experiences are beneficial for organisations looking to purchase devices, ensuring only those fully supported are taken into consideration (or at the very least, understanding where devices are known to fall short).
 
@@ -190,7 +190,7 @@ These types of experiences are beneficial for organisations looking to purchase 
 
 Devices listed to date have either been purchased privately or loaned to me by an OEM or reseller. How I obtain the devices has zero impact on the results, however those I purchase myself generally receive [far more in-depth public reporting](https://plus.google.com/+JasonBaytonX/posts/4aY2cvziZDB) than those loaned to me with a nominated contact I can report my findings to.
 
-Clearly I cannot afford to buy every device on the market for testing, so I’m hugely reliant on support from OEMS and resellers interested in having devices independently validated. To date **Sony**, **Nokia**, **Huawei**, **CAT**, **BQ** and others have been supportive of this project. I’m currently seeking to make contact with HTC, LG, Lenovo (Motorola), Asus, BlackBerry, and *any other GMS-certified OEMs* to grow the list. If you’re an **OEM** or **reseller** of Android devices, I’d accept any device, appliance or custom hardware running Android 6.0.1 or later to independently test. Devices can be returned within a week or so. Use my [contact](https://bayton.org/contact/) page to get in touch or [email me directly](mailto:jason@bayton.org).
+Clearly I cannot afford to buy every device on the market for testing, so I’m hugely reliant on support from OEMS and resellers interested in having devices independently validated. To date **Sony**, **Nokia**, **Huawei**, **CAT**, **BQ** and others have been supportive of this project. I’m currently seeking to make contact with HTC, LG, Lenovo (Motorola), Asus, BlackBerry, and *any other GMS-certified OEMs* to grow the list. If you’re an **OEM** or **reseller** of Android devices, I’d accept any device, appliance or custom hardware running Android 6.0.1 or later to independently test. Devices can be returned within a week or so. Use my [contact](/contact/) page to get in touch or [email me directly](mailto:jason@bayton.org).
 
 If you’re an **organisation** evaluating devices for deployment and wish to have them externally tested, you are also by all means welcome to contact me to discuss this also.
 
@@ -208,4 +208,4 @@ Yes, this information could be sourced elsewhere, however it is:
 Contact
 -------
 
-For more information, or to speak to me directly about Android Enterprise validation, please use my [contact](https://bayton.org/contact/) page, [email](mailto:jason@bayton.org) me or give me a call on [+447975537754](tel:+447975537754).
+For more information, or to speak to me directly about Android Enterprise validation, please use my [contact](/contact/) page, [email](mailto:jason@bayton.org) me or give me a call on [+447975537754](tel:+447975537754).

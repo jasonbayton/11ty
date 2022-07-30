@@ -20,7 +20,7 @@ Mobile Threat Defence (MTD) is an increasingly popular point of discussion for e
 
 As Android Enterprise adoption continues to grow, an important question arises more and more frequently: *how does MTD work with the various Android Enterprise deployment scenarios?*
 
-Compared to legacy Android management, where organisations leveraged the [now deprecated](https://bayton.org/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) device administrator APIs to gain control over a device and push corporate applications out alongside personal (preferably containerised), Android Enterprise with its stronger focus on user privacy and corporate data protection does pose an interesting challenge.
+Compared to legacy Android management, where organisations leveraged the [now deprecated](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) device administrator APIs to gain control over a device and push corporate applications out alongside personal (preferably containerised), Android Enterprise with its stronger focus on user privacy and corporate data protection does pose an interesting challenge.
 
 The goal for an MTD is full visibility over the whole device with the ability to interject when threats are detected. Visibility differs by MTD and what’s supported, but may include:
 
@@ -36,7 +36,7 @@ Here’s a breakdown of visibility per deployment scenario:
 Work-managed (fully managed)
 ----------------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/wm.png)](https://bayton.org/wp-content/uploads/2018/10/wm.png)</figure></div>The simplest and therefore easiest to begin with. A fully managed (COBO) device for all intents and purposes acts similarly to a legacy-managed Android handset where MTD is concerned.
+<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/wm.png)](/wp-content/uploads/2018/10/wm.png)</figure></div>The simplest and therefore easiest to begin with. A fully managed (COBO) device for all intents and purposes acts similarly to a legacy-managed Android handset where MTD is concerned.
 
 The organisation distributes the MTD agent to the device directly and, as the MTD resides within the only profile on the device, it detects:
 
@@ -50,7 +50,7 @@ As a fully managed device, there are no concerns over lack of visibility, and sh
 COSU (dedicated device)
 -----------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/cosu2-1.png)](https://bayton.org/wp-content/uploads/2018/10/cosu2.png)</figure></div>A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
+<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/cosu2-1.png)](/wp-content/uploads/2018/10/cosu2.png)</figure></div>A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
 
 Much like the fully managed device, deploying MTD to a COSU device will provide full access akin to a legacy enrolment, and can see:
 
@@ -64,7 +64,7 @@ There’s only one caveat; as most MTD solutions cannot auto-activate on Android
 Work profile (BYOD)
 -------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/workprofile.png)](https://bayton.org/wp-content/uploads/2018/10/workprofile.png)</figure></div>**NB: From Android 11 the below work profile considerations also apply to COPE!**
+<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2018/10/workprofile.png)](/wp-content/uploads/2018/10/workprofile.png)</figure></div>**NB: From Android 11 the below work profile considerations also apply to COPE!**
 
 Work profile is designed for Bring Your Own Device (BYOD) deployments, however in reality and unfortunately work profile is utilised on many, many corporately owned devices across the world, which in general is less than ideal, but in the case of MTD is definitely not a particularly good thing.
 

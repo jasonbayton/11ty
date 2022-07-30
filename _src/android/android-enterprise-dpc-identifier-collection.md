@@ -18,7 +18,7 @@ discourse_permalink:
 ---
 The following DPC identifiers (EMM tokens) can be used during Android Enterprise fully managed provisioning.
 
-To use them, follow the setup wizard on the Android device until a Google account is requested. In place of a Google account, type the DPC identifier beginning with **afw#**. Check out [Android Enterprise provisioning guides](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/) for a visual guide (search for DPC identifier).
+To use them, follow the setup wizard on the Android device until a Google account is requested. In place of a Google account, type the DPC identifier beginning with **afw#**. Check out [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/) for a visual guide (search for DPC identifier).
 
 DPC identifiers
 ---------------

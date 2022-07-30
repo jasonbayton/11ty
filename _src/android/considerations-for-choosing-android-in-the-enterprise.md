@@ -18,7 +18,7 @@ discourse_permalink:
 ---
 <div class="callout callout-success">### What is Android Enterprise?
 
-The below document covers off a number of both Android and Android Enterprise features, so some understanding of Android Enterprise is required. To learn more about Android Enterprise, [click here](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/).
+The below document covers off a number of both Android and Android Enterprise features, so some understanding of Android Enterprise is required. To learn more about Android Enterprise, [click here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/).
 
 </div>Android is secure
 -----------------
@@ -64,7 +64,7 @@ Google’s Play Protect suite of solutions includes the world’s largest anti-v
 
 Play Protect is always-on, and and will take action on any known potentially harmful application (PHA) found on a device, as well as any known bad websites via the Safe Browsing service to proactively warn users of danger.
 
-Play Protect of course isn’t infallible, and I’d support organisations who augment Play Protect’s capabilities with [an MTD solution](https://bayton.org/docs/enterprise-mobility/android/mtd-and-android-enterprise/), however it’s an ever-improving service utilising machine learning to evolve over time, and does a pretty good job for most use cases. Combined with options to prevent installation of applications from unknown sources, USB debugging and more, a corporate device can safely and successfully avoid PHAs.
+Play Protect of course isn’t infallible, and I’d support organisations who augment Play Protect’s capabilities with [an MTD solution](/docs/enterprise-mobility/android/mtd-and-android-enterprise/), however it’s an ever-improving service utilising machine learning to evolve over time, and does a pretty good job for most use cases. Combined with options to prevent installation of applications from unknown sources, USB debugging and more, a corporate device can safely and successfully avoid PHAs.
 
 ### Open source
 
@@ -83,11 +83,11 @@ GMS certified devices since Android 6.0 are mandated to support the Android Ente
 
 The days of bringing devices on board and hoping the exchange profile applies successfully are very much over.
 
-Even today things are improving still, with the [introduction of OEMConfig](https://bayton.org/docs/enterprise-mobility/android/what-is-oemconfig/) OEMs can extend on the base set of Android Enterprise APIs in order to deliver bespoke management capabilities in a way that’s faster and more reliable than ever before. OEMConfig offers zero-day support for new features and capabilities without EMM vendors having to lift a finger.
+Even today things are improving still, with the [introduction of OEMConfig](/docs/enterprise-mobility/android/what-is-oemconfig/) OEMs can extend on the base set of Android Enterprise APIs in order to deliver bespoke management capabilities in a way that’s faster and more reliable than ever before. OEMConfig offers zero-day support for new features and capabilities without EMM vendors having to lift a finger.
 
 <div class="callout callout-info">### Did you know?
 
-OEMs such as Samsung and Zebra have &gt;1000 APIs available in addition to fundamental Android Enterprise capabilities for incredibly granular management. Through OEMConfig, these APIs can be (and are for Zebra) exposed for simple, zero-day support of every new feature published. More and more OEMs will build out their unique management capabilities as OEMConfig evolves. </div>Check out the [linked article](https://bayton.org/docs/enterprise-mobility/android/what-is-oemconfig/) to understand how OEMConfig will transform Android management.
+OEMs such as Samsung and Zebra have &gt;1000 APIs available in addition to fundamental Android Enterprise capabilities for incredibly granular management. Through OEMConfig, these APIs can be (and are for Zebra) exposed for simple, zero-day support of every new feature published. More and more OEMs will build out their unique management capabilities as OEMConfig evolves. </div>Check out the [linked article](/docs/enterprise-mobility/android/what-is-oemconfig/) to understand how OEMConfig will transform Android management.
 
 Android is flexible
 -------------------
@@ -98,7 +98,7 @@ Organisations demand flexibility; in process, use-case, form factor and budget. 
 
 Considering BYOD? Dedicated? Something in between? With four individual solution sets to choose from, Android offers a management scenario to suit all applications.
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/04/AEtypes-Page-6.png)<figcaption>From: [What is Android Enterprise and why is it used?](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)</figcaption></figure>The in-depth document [What is Android Enterprise and why is it used?](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#enter-android-enterprise) outlines these deployment scenarios and their applications, while this [infographic](https://bayton.org/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/) offers a deep-dive on each deployment scenario specifically.
+<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/04/AEtypes-Page-6.png)<figcaption>From: [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)</figcaption></figure>The in-depth document [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#enter-android-enterprise) outlines these deployment scenarios and their applications, while this [infographic](/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/) offers a deep-dive on each deployment scenario specifically.
 
 Whether your organisation wants to permit personal devices whilst managing corporate data on a secure, isolated, separately encrypted profile, or desires full control over the device, Android Enterprise offers all of this in a way that is quick and simple to manage.
 
@@ -106,7 +106,7 @@ Whether your organisation wants to permit personal devices whilst managing corpo
 
 Perhaps devices are primarily located in a warehouse or other close-proximity situation where it makes sense to utilise a master device to provision devices with a bump, or perhaps devices are shipped directly to end users and should be set to provision over the air. Android can accommodate these scenarios and more.
 
-There are a number of [provisioning methods](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/) available for Android devices, including:
+There are a number of [provisioning methods](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/) available for Android devices, including:
 
 - NFC bump
 - QR code scan
@@ -121,7 +121,7 @@ For newer devices (8.0+) to be ready to provision straight from the box, zero-to
 
 For Samsung devices running Knox 2.8 or higher, the very same is supported through Knox Mobile Enrolment (without the 8.0 requirement).
 
-More information of provisioning methods can be found in [What is Android Enterprise and why is it used?](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) and this handy [infographic](https://bayton.org/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/).
+More information of provisioning methods can be found in [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) and this handy [infographic](/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/).
 
 ### Form factor
 
@@ -156,7 +156,7 @@ A corporate version of Google Play permitting only applications approved by admi
 
 In conjunction with managed Google or Google Play accounts, applications can be distributed silently and simply, updated automatically, restricted from uninstallation and more.
 
-Add in the ability to [create, manage and deploy in-house applications](https://bayton.org/docs/enterprise-mobility/android/create-and-manage-private-apps-for-android-enterprise/) with only a few clicks, and a similar process for [deploying web applications](https://bayton.org/docs/enterprise-mobility/android/create-and-manage-web-apps-for-android-enterprise/) for direct access to corporate sites and resources, and managed Google Play becomes a one-stop solution for all forms of quick, simple application management.
+Add in the ability to [create, manage and deploy in-house applications](/docs/enterprise-mobility/android/create-and-manage-private-apps-for-android-enterprise/) with only a few clicks, and a similar process for [deploying web applications](/docs/enterprise-mobility/android/create-and-manage-web-apps-for-android-enterprise/) for direct access to corporate sites and resources, and managed Google Play becomes a one-stop solution for all forms of quick, simple application management.
 
 What’s more, organisations can take application distribution a step further with managed configurations; inputting within the EMM the relevant details, these applications can be preconfigured on installation, meaning far less work for end-users setting up their devices.
 
@@ -193,7 +193,7 @@ For end-users, hoping the organisation is opting not to sync personal data up to
 
 Check out this [dedicated article](https://www.brianmadden.com/opinion/BYOD-privacy-Dont-settle-for-less-than-Android-enterprise-in-2018) about BYOD and privacy for more on this topic.
 
-As Android 11 [relies on the work profile deployment scenario](https://bayton.org/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) for enabling its work profiles on company owned devices deployment scenario, all of the above equally applies to COPE deployments on anything running Android 11 or later.
+As Android 11 [relies on the work profile deployment scenario](/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) for enabling its work profiles on company owned devices deployment scenario, all of the above equally applies to COPE deployments on anything running Android 11 or later.
 
 Conclusion
 ----------

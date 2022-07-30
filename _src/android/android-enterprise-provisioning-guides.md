@@ -20,17 +20,17 @@ discourse_permalink:
 FeaturedBackground:
     - android
 ---
-<div class="callout callout-success">### What is Android Enterprise?[ <small></small>](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/#what-is-android-enterprise)
+<div class="callout callout-success">### What is Android Enterprise?[ <small></small>](/docs/enterprise-mobility/android/android-enterprise-device-support/#what-is-android-enterprise)
 
-For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
+For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
 
 </div>The following guides have been created for reference purposes only. As individual environments differ, some aspects may not be relevant and others may not be present.
 
 The Android version used in each guide is indicated underneath the title; this does not reflect the minimum version required for the features described in each guide, but rather the OS version the guide was undertaken against as screenshots and workflow can vary slightly between major OS versions.
 
-Bespoke, white-label documentation can be provided on request. Use the [contact](https://bayton.org/contact/) page for enquiries.
+Bespoke, white-label documentation can be provided on request. Use the [contact](/contact/) page for enquiries.
 
-If you notice any issues with these guides – typos, incorrect steps, etc, please leave a comment below, tweet me [@jasonbayton](https://twitter.com/jasonbayton) or use the [contact](https://bayton.org/contact/) page to send me a message. The same applies if you’d like to discuss any other aspects of the guides or Android Enterprise in general!
+If you notice any issues with these guides – typos, incorrect steps, etc, please leave a comment below, tweet me [@jasonbayton](https://twitter.com/jasonbayton) or use the [contact](/contact/) page to send me a message. The same applies if you’d like to discuss any other aspects of the guides or Android Enterprise in general!
 
 Generic
 -------
@@ -42,9 +42,9 @@ Generic
 
 ### Work profile
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/Android-enterprise-WP-Fac-Reset-MICore.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WP-Fac-Reset-MICore.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/Android-enterprise-WP-Non-Reset-MICore-1.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WP-Non-Reset-MICore.pdf)</figure></div></div>### Fully managed
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/Android-enterprise-WP-Fac-Reset-MICore.png)](/download/doc/ae-guides/Android-enterprise_WP-Fac-Reset-MICore.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/Android-enterprise-WP-Non-Reset-MICore-1.png)](/download/doc/ae-guides/Android-enterprise_WP-Non-Reset-MICore.pdf)</figure></div></div>### Fully managed
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_ae_nfc-1.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WM-NFC-MICore.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_ae_wt-2.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WM-WT-MICore.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_ae_qr-2.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WM-QR-MICore.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_ae_zt2-1.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf)</figure></div></div>### Fully managed work profile
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_ae_nfc-1.png)](/download/doc/ae-guides/Android-enterprise_WM-NFC-MICore.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_ae_wt-2.png)](/download/doc/ae-guides/Android-enterprise_WM-WT-MICore.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_ae_qr-2.png)](/download/doc/ae-guides/Android-enterprise_WM-QR-MICore.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_ae_zt2-1.png)](/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf)</figure></div></div>### Fully managed work profile
 
 #### Sony UI
 
@@ -55,9 +55,9 @@ Generic
 
 ### Fully managed
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/ae_wt_aw-1.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WM-WT-AirWatch.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/ae_nfc_aw.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WM-NFC-AirWatch.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/ae_qr_aw.png)](https://bayton.org/download/doc/ae-guides/Android-enterprise_WM-QR-AirWatch.pdf)</figure></div></div>Legacy enrolment
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/ae_wt_aw-1.png)](/download/doc/ae-guides/Android-enterprise_WM-WT-AirWatch.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/ae_nfc_aw.png)](/download/doc/ae-guides/Android-enterprise_WM-NFC-AirWatch.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/ae_qr_aw.png)](/download/doc/ae-guides/Android-enterprise_WM-QR-AirWatch.pdf)</figure></div></div>Legacy enrolment
 ----------------
 
 Reference guide(s) for legacy enrolment, enabling direct comparison with Android Enterprise enrolment documented above.
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_legacy-1.png)](https://bayton.org/download/doc/ae-guides/Legacy-enrolment_Nexus.pdf)</figure></div><div class="wp-block-column"></div></div>
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2017/08/android_legacy-1.png)](/download/doc/ae-guides/Legacy-enrolment_Nexus.pdf)</figure></div><div class="wp-block-column"></div></div>

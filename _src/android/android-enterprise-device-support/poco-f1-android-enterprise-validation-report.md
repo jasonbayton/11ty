@@ -22,7 +22,7 @@ discourse_permalink:
 **Build**: OPM1.171019.026  
 **Security**: 1 October 2018
 
-This device has been tested against the public [validation process](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/), and the following mix of (non-exhaustive) issues and recommendations have been noted:
+This device has been tested against the public [validation process](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/), and the following mix of (non-exhaustive) issues and recommendations have been noted:
 
 1. Notable problems
 -------------------
