@@ -137,7 +137,7 @@
                 <h2 class="section-title">
                     And I write about all of the topics that matter to me
                 </h2>
-                {%- for post in collections.blog limit:5 | reverse -%}
+                {%- for post in pagination.items -%}
                 <div class="post-block">
                     <h3 class="post-title">
                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
