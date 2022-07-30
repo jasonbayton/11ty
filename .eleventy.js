@@ -7,7 +7,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
-  eleventyConfig.addPlugin(timeToRead);
+  eleventyConfig.addPlugin(timeToRead, {
+    speed: '1000 characters per minute',
+    language: 'en',
+    style: 'long',
+    type: 'unit',
+    hours: 'auto',
+    minutes: true,
+    seconds: false,
+    digits: 1,
+    output: function(data) {
+      return data.timing;
+    }
+  });
   eleventyConfig.addFilter("postDate", (dateObj) => {
   return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
