@@ -137,108 +137,29 @@
                 <h2 class="section-title">
                     And I write about all of the topics that matter to me
                 </h2>
+                {%- for post in collections.blog limit:5 | reverse -%}
                 <div class="post-block">
                     <h3 class="post-title">
-                        The decade that redefined Android in the enterprise
+                        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                     </h3>
                     <div class="post-summary">
-                        2019 and, indeed, the decade has now drawn to a close; as the 20’s have now roared in, what better time to take a look back at how the 10’s 
-                        saw the most popular mobile OS in today’s world evolve from being mostly unsuitable for enterprise to an obvious choice? ...
+                        {{ post.data.excerpt }} ...
                     </div>
                     <div class="post-meta">
                         <div class="meta-single">
-                            🗓 Jan 20, 2020
+                            🗓 {{ post.date }}
                         </div>
                         <div class="meta-single">
-                            🏷 #enterprise               
+                            🏷 #{{ post.data.tags }}               
                         </div>
                         <div class="meta-single">
                             ⏳ 37min read               
                         </div>   
                     </div>
                 </div>
-                <div class="post-block">
-                    <h3 class="post-title">
-                        The decade that redefined Android in the enterprise
-                    </h3>
-                    <div class="post-summary">
-                        2019 and, indeed, the decade has now drawn to a close; as the 20’s have now roared in, what better time to take a look back at how the 10’s 
-                        saw the most popular mobile OS in today’s world evolve from being mostly unsuitable for enterprise to an obvious choice? ...
-                    </div>
-                    <div class="post-meta">
-                        <div class="meta-single">
-                            🗓 Jan 20, 2020
-                        </div>
-                        <div class="meta-single">
-                            🏷 #enterprise               
-                        </div>
-                        <div class="meta-single">
-                            ⏳ 37min read               
-                        </div>   
-                    </div>
-                </div>
-                <div class="post-block">
-                    <h3 class="post-title">
-                        The decade that redefined Android in the enterprise
-                    </h3>
-                    <div class="post-summary">
-                        2019 and, indeed, the decade has now drawn to a close; as the 20’s have now roared in, what better time to take a look back at how the 10’s 
-                        saw the most popular mobile OS in today’s world evolve from being mostly unsuitable for enterprise to an obvious choice? ...
-                    </div>
-                    <div class="post-meta">
-                        <div class="meta-single">
-                            🗓 Jan 20, 2020
-                        </div>
-                        <div class="meta-single">
-                            🏷 #enterprise               
-                        </div>
-                        <div class="meta-single">
-                            ⏳ 37min read               
-                        </div>   
-                    </div>
-                </div>
-                <div class="post-block">
-                    <h3 class="post-title">
-                        The decade that redefined Android in the enterprise
-                    </h3>
-                    <div class="post-summary">
-                        2019 and, indeed, the decade has now drawn to a close; as the 20’s have now roared in, what better time to take a look back at how the 10’s 
-                        saw the most popular mobile OS in today’s world evolve from being mostly unsuitable for enterprise to an obvious choice? ...
-                    </div>
-                    <div class="post-meta">
-                        <div class="meta-single">
-                            🗓 Jan 20, 2020
-                        </div>
-                        <div class="meta-single">
-                            🏷 #enterprise               
-                        </div>
-                        <div class="meta-single">
-                            ⏳ 37min read               
-                        </div>   
-                    </div>
-                </div>
-                <div class="post-block">
-                    <h3 class="post-title">
-                        The decade that redefined Android in the enterprise
-                    </h3>
-                    <div class="post-summary">
-                        2019 and, indeed, the decade has now drawn to a close; as the 20’s have now roared in, what better time to take a look back at how the 10’s 
-                        saw the most popular mobile OS in today’s world evolve from being mostly unsuitable for enterprise to an obvious choice? ...
-                    </div>
-                    <div class="post-meta">
-                        <div class="meta-single">
-                            🗓 Jan 20, 2020
-                        </div>
-                        <div class="meta-single">
-                            🏷 #enterprise               
-                        </div>
-                        <div class="meta-single">
-                            ⏳ 37min read               
-                        </div>   
-                    </div>
-                </div>
+                {%- endfor -%}
                 <h2 class="section-title">
-                    View the article archive ✍️
+                    <a href="/blog">View the article archive ✍️</a>
                 </h2>
             </section>
         </content>
