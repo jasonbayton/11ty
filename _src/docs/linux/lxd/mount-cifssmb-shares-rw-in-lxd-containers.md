@@ -17,7 +17,7 @@ discourse_permalink:
 ---
 One of the biggest limitations with LXD I’ve found to date is the inability to mount remote shares on unprivileged containers. While it’s still not possible at this point to mount CIFS shares from within a container directly, I’ve figured out a way to get around this by first mounting the shares on the LXD host and then using `lxd config device add` to mount them in my containers from there.
 
-So continuing the recent [LXD theme](https://bayton.org/tag/lxd/), in this article we’ll work through mounting CIFs shares read/write on containers.
+So continuing the recent [LXD theme](/tag/lxd/), in this article we’ll work through mounting CIFs shares read/write on containers.
 
 <div class="bs-callout bs-callout-info">#### Before we begin
 
@@ -213,7 +213,7 @@ Success!
 Conclusion
 ----------
 
-As with the process of setting up [LXD, ZFS and bridged networking on Ubuntu 16.04 LTS](https://bayton.org/2016/05/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/) this is a little long-winded. Again though, it’s not overly complex.
+As with the process of setting up [LXD, ZFS and bridged networking on Ubuntu 16.04 LTS](/2016/05/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/) this is a little long-winded. Again though, it’s not overly complex.
 
 I’ve been using this method for a number of months on my home lab to share several directories from my storage server to various containers. It’s stable and feels no different to any other native directory within the container.
 

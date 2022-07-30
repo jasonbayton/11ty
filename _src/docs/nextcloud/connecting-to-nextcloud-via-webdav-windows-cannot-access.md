@@ -22,18 +22,18 @@ The errors
 
 For existing connections:
 
-[![](../../../../uploads/2017/07/Restoring-Network-Connections.png)](https://bayton.org/wp-content/uploads/2017/07/Restoring-Network-Connections.png)
+[![](../../../../uploads/2017/07/Restoring-Network-Connections.png)](/wp-content/uploads/2017/07/Restoring-Network-Connections.png)
 
 For new connections:
 
-[![](../../../../uploads/2017/07/Network-Error.png)](https://bayton.org/wp-content/uploads/2017/07/Network-Error.png)
+[![](../../../../uploads/2017/07/Network-Error.png)](/wp-content/uploads/2017/07/Network-Error.png)
 
 The cause
 ---------
 
 Doing some digging, it would appear a Windows service is to blame:
 
-[![](../../../../uploads/2017/07/Region.png)](https://bayton.org/wp-content/uploads/2017/07/Region.png)
+[![](../../../../uploads/2017/07/Region.png)](/wp-content/uploads/2017/07/Region.png)
 
 The fix
 -------

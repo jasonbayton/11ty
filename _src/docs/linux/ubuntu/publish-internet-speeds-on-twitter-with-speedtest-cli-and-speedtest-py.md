@@ -49,7 +49,7 @@ Next, install `python-pip` to allow for quick, simple support and import of the 
 
 Be aware, on a fresh Ubuntu server it’ll want to install over 200MB worth of packages on disk:
 
-[![](../../../../../uploads/2017/06/python-pip.png)](https://bayton.org/wp-content/uploads/2017/06/python-pip.png)
+[![](../../../../../uploads/2017/06/python-pip.png)](/wp-content/uploads/2017/06/python-pip.png)
 
 If you’re happy to continue, tap enter. Then, once the installation is complete, install the includes:
 
@@ -86,7 +86,7 @@ Then make them executable:
 
 Running the test now with `./speedtest.py` will fail, even if you edit the file to add in the paths for speedtest-cli and the data.csv file as in this screenshot:
 
-[![](../../../../../uploads/2017/06/speedtest.png)](https://bayton.org/wp-content/uploads/2017/06/speedtest.png)
+[![](../../../../../uploads/2017/06/speedtest.png)](/wp-content/uploads/2017/06/speedtest.png)
 
 The Twitter module complains the tokens are invalid. Indeed they are, so you’ll need to generate new ones in order to continue.
 
@@ -99,21 +99,21 @@ Navigate over to [apps.twitter.com/app/new](https://apps.twitter.com/app/new)
 
 Fill out the form roughly as follows:
 
-[![](../../../../../uploads/2017/05/twitter_createapp.png)](https://bayton.org/wp-content/uploads/2017/05/twitter_createapp.png)
+[![](../../../../../uploads/2017/05/twitter_createapp.png)](/wp-content/uploads/2017/05/twitter_createapp.png)
 
 Then click **Create your Twitter application**.
 
 You’ll now be presented with your new application:
 
-[![](../../../../../uploads/2017/05/twitter_appcreated.png)](https://bayton.org/wp-content/uploads/2017/05/twitter_appcreated.png)
+[![](../../../../../uploads/2017/05/twitter_appcreated.png)](/wp-content/uploads/2017/05/twitter_appcreated.png)
 
 It won’t do anything just yet however, as it needs access to your Twitter account. For that, click **Keys and Access Tokens**:
 
-[![](../../../../../uploads/2017/05/twitter_createtoken.png)](https://bayton.org/wp-content/uploads/2017/05/twitter_createtoken.png)
+[![](../../../../../uploads/2017/05/twitter_createtoken.png)](/wp-content/uploads/2017/05/twitter_createtoken.png)
 
 Then **Create my access token**. The page will refresh with access tokens you can use in the `speedtest.py` script:
 
-[![](../../../../../uploads/2017/05/twitter_tokencreated.png)](https://bayton.org/wp-content/uploads/2017/05/twitter_tokencreated.png)
+[![](../../../../../uploads/2017/05/twitter_tokencreated.png)](/wp-content/uploads/2017/05/twitter_tokencreated.png)
 
 5. Edit the script
 ------------------
@@ -124,11 +124,11 @@ With the tokens generated, head back to the commandline and open the `speedtest.
 
 There are now several fields to edit, all marked with four `x`‘s. Replace the `x`‘s with the paths to the files in question, and the tokens just generated; you should end up with something that looks as follows:
 
-[![](../../../../../uploads/2017/06/fullscript-1.png)](https://bayton.org/wp-content/uploads/2017/06/fullscript-1.png)
+[![](../../../../../uploads/2017/06/fullscript-1.png)](/wp-content/uploads/2017/06/fullscript-1.png)
 
 Of course, the messages to be tweeted should be edited also; make sure to leave `+ str(int(eval(d))) +` and `+ tm` in place in order to retain the download speed and timestamp, but other than that edit as much as you wish (within the 160 character limit!):
 
-[![](../../../../../uploads/2017/06/finalscript.png)](https://bayton.org/wp-content/uploads/2017/06/finalscript.png)
+[![](../../../../../uploads/2017/06/finalscript.png)](/wp-content/uploads/2017/06/finalscript.png)
 
 Once the file is saved, it’s ready to be tested.
 
@@ -144,14 +144,14 @@ The below example will run once per hour and should be added at the bottom of th
 
 `0 * * * * /home/xxxx/speedtest.py >> /var/log/speed.log 2>&1`
 
-[![](../../../../../uploads/2017/06/crontab.png)](https://bayton.org/wp-content/uploads/2017/06/crontab.png)
+[![](../../../../../uploads/2017/06/crontab.png)](/wp-content/uploads/2017/06/crontab.png)
 
 6. Result
 ---------
 
 After filling out the Twitter profile a little – adding an image, description, etc. – the account is fully set up and tweets roll in on an hourly basis:
 
-[![](../../../../../uploads/2017/06/twitter-showcase.png)](https://bayton.org/wp-content/uploads/2017/06/twitter-showcase.png)
+[![](../../../../../uploads/2017/06/twitter-showcase.png)](/wp-content/uploads/2017/06/twitter-showcase.png)
 
 7. Conclusion
 -------------

@@ -29,7 +29,7 @@ In detail
 Who I am
 --------
 
-The website address is: https://bayton.org. General information about me and the blog can be found on [About](https://bayton.org/about/).
+The website address is: https://bayton.org. General information about me and the blog can be found on [About](/about/).
 
 What personal data is collected and why
 ---------------------------------------
@@ -106,4 +106,4 @@ See analytics services listed above.
 Contact information
 -------------------
 
-See [Contact](https://bayton.org/contact/).
+See [Contact](/contact/).

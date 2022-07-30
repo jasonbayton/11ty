@@ -368,7 +368,7 @@ fs.inotify.max_user_watches = 1048576
 
 It should look as follows:
 
-[![](../../../../../uploads/2016/05/lxdsnip.png)](https://bayton.org/wp-content/uploads/2016/05/lxdsnip.png)
+[![](../../../../../uploads/2016/05/lxdsnip.png)](/wp-content/uploads/2016/05/lxdsnip.png)
 
 After saving the file we’ll need to reboot, but not yet as we’ll also configure the open file limits.
 
@@ -385,7 +385,7 @@ Now add the following lines. 100K should be enough:
 
 It should look as follows:
 
-[![](../../../../../uploads/2016/05/lxdsnip2.png)](https://bayton.org/wp-content/uploads/2016/05/lxdsnip2.png)
+[![](../../../../../uploads/2016/05/lxdsnip2.png)](/wp-content/uploads/2016/05/lxdsnip2.png)
 
 Once the server is rebooted (this is important!) the new limits will apply and we’ll have future-proofed the server for now.
 

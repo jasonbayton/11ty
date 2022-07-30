@@ -45,31 +45,31 @@ Hosted setup is demonstrated on ElasticHosts as they kindly provide me with a ho
 
 From the ElasticHosts admin console, create three new containers: ElasticSearch-N1, ElasticSearch-N2 and ElasticSearch-N3. To do so, click **Add** then **Server** under *Linux Containers.*
 
-[![](../../../../../uploads/2016/09/ss1.png)](https://bayton.org/wp-content/uploads/2016/09/ss1.png)
+[![](../../../../../uploads/2016/09/ss1.png)](/wp-content/uploads/2016/09/ss1.png)
 
 Next, create 3 static IP addresses to avoid DNS issues should the containers get rebooted and acquire different IP addresses from the DHCP pool. From **Add** select **Static IP**. Do this 3 times to get 3 addresses.
 
-[![](../../../../../uploads/2016/09/ss2.png)](https://bayton.org/wp-content/uploads/2016/09/ss2.png)
+[![](../../../../../uploads/2016/09/ss2.png)](/wp-content/uploads/2016/09/ss2.png)
 
 *Static IP addresses are listed at the bottom of the admin console.*
 
 To allow the containers to easily communicate *internally* we can also create a private VLAN by clicking **Add** and selecting **Private VLAN**.
 
-[![](../../../../../uploads/2016/09/ss3.png)](https://bayton.org/wp-content/uploads/2016/09/ss3.png)
+[![](../../../../../uploads/2016/09/ss3.png)](/wp-content/uploads/2016/09/ss3.png)
 
 Finally, before starting the containers for the first time, assign the IPs and VLAN to the containers. If we were just to edit the IP we could click **Dynamic IP** on the container in order to select any available IP, but as we’re also assigning a VLAN we need to click the **cog** icon to enter the server settings.
 
-[![](../../../../../uploads/2016/09/ss4.png)](https://bayton.org/wp-content/uploads/2016/09/ss4.png)
+[![](../../../../../uploads/2016/09/ss4.png)](/wp-content/uploads/2016/09/ss4.png)
 
 As highlighted in blue, select a newly created IP on the upper left, and assign the VLAN to an **Intel PRO/1000 NIC** on the lower right. Do this for all three containers and we’ll end up with them bundled together under the VLAN, each with their own static IP. At this point in time this is only dealing with the one NIC, the second *internal* IP will be configured shortly.
 
-[![](../../../../../uploads/2016/09/ss5.png)](https://bayton.org/wp-content/uploads/2016/09/ss5.png)
+[![](../../../../../uploads/2016/09/ss5.png)](/wp-content/uploads/2016/09/ss5.png)
 
 All three containers can now be started. Skip LXD setup below and move on to server configuration and installation of ElasticSearch.
 
 ### 2.3. Deploying servers on LXD
 
-If you have servers setup already with dedicated IPs and a private network, skip this step. If you haven’t yet set up LXD, [follow my guide](https://bayton.org/2016/05/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/).
+If you have servers setup already with dedicated IPs and a private network, skip this step. If you haven’t yet set up LXD, [follow my guide](/2016/05/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/).
 
 By default LXD will either supply IP addresses via its own `lxdbr0` bridge, or alternatively can be configured to receive them from the LAN DHCP server; in these cases to keep the Elasticsearch servers private, simply don’t NAT to them from the external firewall or configure forwarding via iptables on the LXD host. If LXD is configured in such a way that all containers have a public IP address, continue to 3.3.1. once the containers are created.
 
@@ -323,7 +323,7 @@ Again, as there are no network services (such as DNS, DHCP, etc) on the private 
 
 `discovery.zen.ping.unicast.hosts: ["10.11.12.10"]`
 
-[![](../../../../../uploads/2016/09/master_nodes.png)](https://bayton.org/wp-content/uploads/2016/09/master_nodes.png)
+[![](../../../../../uploads/2016/09/master_nodes.png)](/wp-content/uploads/2016/09/master_nodes.png)
 
 Finally let’s lock the Elasticsearch cluster down to only allow requests from the private IP range, this will ensure only servers explicitly granted access to the private network can interact with the Elasticsearch API.
 

@@ -93,7 +93,7 @@ Use the following code for provisioning a device against MobileIron Core:
 }
 ```
 
-For more information about this raw code, read [MobileIron unofficially supports QR provisioning for Android Enterprise work-managed devices, this is how I found it](https://bayton.org/2017/08/mobileiron-supports-qr-provisioning-for-android-enterprise-work-managed-devices-this-is-how-i-found-it/).
+For more information about this raw code, read [MobileIron unofficially supports QR provisioning for Android Enterprise work-managed devices, this is how I found it](/2017/08/mobileiron-supports-qr-provisioning-for-android-enterprise-work-managed-devices-this-is-how-i-found-it/).
 
 MobileIron Cloud
 ----------------
@@ -120,7 +120,7 @@ Use the following code for provisioning a device against MobileIron Cloud:
 }
 ```
 
-For more information about this raw code, read [MobileIron unofficially supports QR provisioning for Android Enterprise work-managed devices, this is how I found it](https://bayton.org/2017/08/mobileiron-supports-qr-provisioning-for-android-enterprise-work-managed-devices-this-is-how-i-found-it/).
+For more information about this raw code, read [MobileIron unofficially supports QR provisioning for Android Enterprise work-managed devices, this is how I found it](/2017/08/mobileiron-supports-qr-provisioning-for-android-enterprise-work-managed-devices-this-is-how-i-found-it/).
 
 DPC extras
 ----------

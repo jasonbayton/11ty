@@ -92,7 +92,7 @@ As noted at the beginning of this topic, the range of configurations or policies
 
 Combined with geofencing, time-scheduling and more, a device can be completely locked down during the day, and opened up completely in the evening should an employee be located in a secure facility, for example. For those in less demanding environments, the MDM admin may just opt to block YouTube during work hours.
 
-Both Apple and Google offer ways of further locking down corporate devices; [Apple’s Supervision](https://bayton.org/docs/enterprise-mobility/ios/what-is-ios-supervision-and-why-is-it-used/) can be enabled via IT or by enrolling in the Device Enrolment Program (DEP) and allows organisations to disable such things as Activation lock, Facetime/iMessage, the ability to factory reset and more. While Google have introduced [Android Enterprise](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) to allow organisations to manage many different Android OEMs consistently, something that has oft been a pain point for organisations. More information about these management options can be found in the links in this paragraph.
+Both Apple and Google offer ways of further locking down corporate devices; [Apple’s Supervision](/docs/enterprise-mobility/ios/what-is-ios-supervision-and-why-is-it-used/) can be enabled via IT or by enrolling in the Device Enrolment Program (DEP) and allows organisations to disable such things as Activation lock, Facetime/iMessage, the ability to factory reset and more. While Google have introduced [Android Enterprise](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) to allow organisations to manage many different Android OEMs consistently, something that has oft been a pain point for organisations. More information about these management options can be found in the links in this paragraph.
 
 ### Application management
 
@@ -133,7 +133,7 @@ For example: If members of a team have a set limit of 1GB of data per month, it 
 
 With this data organisations gain far more transparency over data usage within their teams that can help to avoid surprise bills.
 
-Taking this a step further, 3rd party TEM solutions are available which integrate directly into the EMM platform and are able to report incredible amounts of data on telecoms usage, such as per-app, time of day, sites visited and more. One of these solutions has been reviewed, [click here](https://bayton.org/2016/12/wandera-review-2016-2-years-on/) for more information.
+Taking this a step further, 3rd party TEM solutions are available which integrate directly into the EMM platform and are able to report incredible amounts of data on telecoms usage, such as per-app, time of day, sites visited and more. One of these solutions has been reviewed, [click here](/2016/12/wandera-review-2016-2-years-on/) for more information.
 
 ### Content management
 

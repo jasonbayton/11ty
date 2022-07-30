@@ -23,7 +23,7 @@ That is by no means an insignificant number, one that’s likely already increas
 
 And that’s a problem.
 
-While employees are ready to leverage Enterprise Mobility to improve productivity, enhance their work experience and make their lives easier, businesses in many cases simply aren’t keeping up; a recent [study by Synchronoss](https://bayton.org/wp-content/uploads/2017/04/The_State_of_Enterprise_Mobility_Whitepaper.pdf) (via[ CWSI](http://cwsi.ie/the-state-of-enterprise-mobility/)) delved into the state of Enterprise Mobility in 2017 across organisations in the UK and US and highlights how alarmingly unprepared many organisations are – 38% of those asked are yet to implement basic measures to safeguard corporate data such as enforced device security, restricted access to corporate resources or even basic visibility\* of who is connecting in and to what.
+While employees are ready to leverage Enterprise Mobility to improve productivity, enhance their work experience and make their lives easier, businesses in many cases simply aren’t keeping up; a recent [study by Synchronoss](/wp-content/uploads/2017/04/The_State_of_Enterprise_Mobility_Whitepaper.pdf) (via[ CWSI](http://cwsi.ie/the-state-of-enterprise-mobility/)) delved into the state of Enterprise Mobility in 2017 across organisations in the UK and US and highlights how alarmingly unprepared many organisations are – 38% of those asked are yet to implement basic measures to safeguard corporate data such as enforced device security, restricted access to corporate resources or even basic visibility\* of who is connecting in and to what.
 
 <span style="font-size: small;">\* ActiveSync logs notwithstanding</span>
 
@@ -58,7 +58,7 @@ By deploying an EMM email gateway, whether on-premise or in the cloud, two of th
 
 With an email gateway, email access is only going to be originating from one or two IPs (depending on the number of gateways required for the number of devices using ActiveSync), and as devices have to be enrolled onto the corporate EMM platform, organisations can feel confident no one is going to be accessing email from devices they don’t know about, or don’t approve.
 
-There’s no reason why, once EMM is successfully deployed, ActiveSync has to be open to the entire world when it can be [easily locked down](https://bayton.org/2016/02/restricting-access-to-activesync/), reducing the attack vector on the corporate network (be that local or cloud, with services like Office365).
+There’s no reason why, once EMM is successfully deployed, ActiveSync has to be open to the entire world when it can be [easily locked down](/2016/02/restricting-access-to-activesync/), reducing the attack vector on the corporate network (be that local or cloud, with services like Office365).
 
 ### (S)FTP, Sharepoint, other Document/Intranet repositories and sites
 

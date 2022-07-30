@@ -28,16 +28,16 @@ I’m a CPO &amp; Android SME.
 
 I’m [Social Mobile](https://socialmobile.com)‘s Chief Product Officer, based in the UK, working to deliver bespoke, tailored solutions designed to secure and enable organisations working with mobile devices of all shapes, sizes and for many various applications. This website, however, is in no way at all affiliated with Social Mobile or any particular partner, thus all content is of my own opinion and ownership.
 
-Despite supporting iOS and Windows for years, my subject matter expertise and *passion* resides with Android; I’ve been an Android user since the first HTC G1 (Dream) hit the shelves back in 2008 and have never looked back. It was inevitable that I’d carry the interest and enthusiasm towards the platform into the enterprise space. Today, I specialise in Android management both for [device administrator](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-vs-device-administrator-legacy-enrolment/) and [Android Enterprise](https://bayton.org/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) deployments, while fully understanding where the platform excels and falls short.
+Despite supporting iOS and Windows for years, my subject matter expertise and *passion* resides with Android; I’ve been an Android user since the first HTC G1 (Dream) hit the shelves back in 2008 and have never looked back. It was inevitable that I’d carry the interest and enthusiasm towards the platform into the enterprise space. Today, I specialise in Android management both for [device administrator](/docs/enterprise-mobility/android/android-enterprise-vs-device-administrator-legacy-enrolment/) and [Android Enterprise](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) deployments, while fully understanding where the platform excels and falls short.
 
-When I’m not working I am actively [exploring the limits](https://bayton.org/docs/enterprise-mobility/android/android-enterprise-device-support/) of Android and EMM [management capabilities](https://bayton.org/2017/08/mobileiron-supports-qr-provisioning-for-android-enterprise-work-managed-devices-this-is-how-i-found-it/) both within and outside of the traditional enterprise context. A lot of this exploration is [documented here](https://bayton.org/docs/enterprise-mobility/android/) on the website, allowing me to maintain an objectivity on my own published material that isn’t always possible when publishing elsewhere.
+When I’m not working I am actively [exploring the limits](/docs/enterprise-mobility/android/android-enterprise-device-support/) of Android and EMM [management capabilities](/2017/08/mobileiron-supports-qr-provisioning-for-android-enterprise-work-managed-devices-this-is-how-i-found-it/) both within and outside of the traditional enterprise context. A lot of this exploration is [documented here](/docs/enterprise-mobility/android/) on the website, allowing me to maintain an objectivity on my own published material that isn’t always possible when publishing elsewhere.
 
 And yes, I *like* to write.
 ---------------------------
 
-I firmly believe knowledge is most valuable when it is shared, and so I spend a lot of time and energy writing easy to follow guides, providing commentary on [current events](https://bayton.org/2017/03/vault7-and-the-cia-this-is-why-we-need-emm/) and generally publishing my [views](https://bayton.org/2015/03/miradore-online-mdm-review-a-second-look/) and [experiences](https://bayton.org/2016/12/wandera-review-2016-2-years-on/) into the public domain in the hope others find it beneficial.
+I firmly believe knowledge is most valuable when it is shared, and so I spend a lot of time and energy writing easy to follow guides, providing commentary on [current events](/2017/03/vault7-and-the-cia-this-is-why-we-need-emm/) and generally publishing my [views](/2015/03/miradore-online-mdm-review-a-second-look/) and [experiences](/2016/12/wandera-review-2016-2-years-on/) into the public domain in the hope others find it beneficial.
 
-Mid-2017 I launched [documentation](https://bayton.org/2017/05/introducing-documentation-on-bayton-org/), dedicated to some of the topics I’m passionate about in a format and layout that makes far more sense than a typical blog post. A significant portion of documentation so far is dedicated to [Enterprise Mobility](https://bayton.org/docs/enterprise-mobility/). I’ve worked with the likes of Google, Sony, Nokia, MobileIron, Miradore, IBM, Canonical and others to publish relevant, up-to-date documentation that’s not easy to find elsewhere.
+Mid-2017 I launched [documentation](/2017/05/introducing-documentation-on-bayton-org/), dedicated to some of the topics I’m passionate about in a format and layout that makes far more sense than a typical blog post. A significant portion of documentation so far is dedicated to [Enterprise Mobility](/docs/enterprise-mobility/). I’ve worked with the likes of Google, Sony, Nokia, MobileIron, Miradore, IBM, Canonical and others to publish relevant, up-to-date documentation that’s not easy to find elsewhere.
 
 Occasionally others write about or link to me
 ---------------------------------------------
@@ -61,7 +61,7 @@ Occasionally others write about or link to me
 And I occasionally write for others, too.
 -----------------------------------------
 
-All contributions can be found on [External contributions](https://bayton.org/about/external-contributions/). Please contact me if you’d like me to write for you!
+All contributions can be found on [External contributions](/about/external-contributions/). Please contact me if you’d like me to write for you!
 
 About this site
 ===============
@@ -73,4 +73,4 @@ Do you have feedback? Good. I love feedback. [Email me.](mailto:jason@bayton.org
 Contact me
 ==========
 
-I have a dedicated [contact](https://bayton.org/contact/) page if you’d like to reach out.
+I have a dedicated [contact](/contact/) page if you’d like to reach out.
