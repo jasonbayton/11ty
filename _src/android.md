@@ -26,7 +26,7 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 <div class="callout callout-danger">
 
 ### Device administrator deprecation
-Device admin deprecation is now official with Android 10! Unsure what this means? Take a look at this [infographic](/docs/enterprise-mobility/android/infobyte-did-you-know-device-admin-deprecation/), this [article](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) and this [article](/2019/03/android-enterprise-in-q-features-and-clarity-on-da-deprecation/#clarity-on-da-deprecation-in-q). All EMMs must now be targeting API 29, which means all deprecated DA APIs for Android 10 devices are enforced. 
+Device admin deprecation is now official with Android 10! Unsure what this means? Take a look at this [infographic](/android/infobyte-did-you-know-device-admin-deprecation/), this [article](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) and this [article](/2019/03/android-enterprise-in-q-features-and-clarity-on-da-deprecation/#clarity-on-da-deprecation-in-q). All EMMs must now be targeting API 29, which means all deprecated DA APIs for Android 10 devices are enforced. 
 
 </div>
 
@@ -41,51 +41,51 @@ Device admin deprecation is now official with Android 10! Unsure what this means
 
 Just getting familiar with Android or Android Enterprise? Start here. The following documents offer an introduction to Android Enterprise and the various moving parts in order to offer a broad overview of the ecosystem.
 
-- [What is Android Enterprise and why is it used?](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/)
-- [What is Android Enterprise Recommended?](/docs/enterprise-mobility/android/what-is-android-enterprise-recommended/)
-- [What is Android zero-touch enrolment?](/docs/enterprise-mobility/android/what-is-android-zero-touch-enrolment/)
-- [What is Android One?](/docs/enterprise-mobility/android/what-is-android-one/)
-- [Why you shouldn’t install apps from unknown sources](/docs/enterprise-mobility/android/why-you-shouldnt-install-apps-from-unknown-sources/)
-- [Android Enterprise FAQ](/docs/enterprise-mobility/android/android-enterprise-faq/)
-- [Android glossary](/docs/enterprise-mobility/android/android-glossary/)
+- [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)
+- [What is Android Enterprise Recommended?](/android/what-is-android-enterprise-recommended/)
+- [What is Android zero-touch enrolment?](/android/what-is-android-zero-touch-enrolment/)
+- [What is Android One?](/android/what-is-android-one/)
+- [Why you shouldn’t install apps from unknown sources](/android/why-you-shouldnt-install-apps-from-unknown-sources/)
+- [Android Enterprise FAQ](/android/android-enterprise-faq/)
+- [Android glossary](/android/android-glossary/)
 
 ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/triodroidlearning.png) 
 ## Diving deeper
 
 Ready to learn more? Read on.
 
-- [Android 11 COPE changes](/docs/enterprise-mobility/android/android-11-cope-changes/)
-- [Android Enterprise vs Device Admin: Why DA is no longer suitable](/docs/enterprise-mobility/android/android-enterprise-vs-device-administrator-legacy-enrolment/)
-- [Considerations when migrating from device administrator to Android Enterprise](/docs/enterprise-mobility/android/considerations-in-migrating-from-device-administrator-to-android-enterprise/)
-- [Considerations for choosing Android in the Enterprise](/docs/enterprise-mobility/android/considerations-for-choosing-android-in-the-enterprise/)
-- [Android Enterprise EMM COPE support](/docs/enterprise-mobility/android/android-enterprise-emm-cope-support/)
-- [Android Enterprise zero-touch console administration guide](/docs/enterprise-mobility/android/android-enterprise-zero-touch-console-device-guide/)
-- [What is OEMConfig?](/docs/enterprise-mobility/android/what-is-oemconfig/)
-- [Considerations when deploying MTD with Android Enterprise](/docs/enterprise-mobility/android/mtd-and-android-enterprise/)
-- [Feature spotlight: Android Smartlock](/docs/enterprise-mobility/android/what-is-android-smartlock-and-why-should-it-be-disabled/)
-- [Feature spotlight: Factory Reset Protection](/docs/enterprise-mobility/android/feature-spotlight-factory-reset-protection/)
-- [Feature spotlight: Block unknown sources on work profile deployments](/docs/enterprise-mobility/android/feature-spotlight-block-unknown-sources-on-work-profile-deployments/)
-- [Managed Google Play, whitelist or blacklist?](/docs/enterprise-mobility/android/managed-google-play-whitelist-or-blacklist/)
-- [Create and manage web apps for Android Enterprise](/docs/enterprise-mobility/android/create-and-manage-web-apps-for-android-enterprise/)
-- [Create and manage private apps for Android Enterprise](/docs/enterprise-mobility/android/create-and-manage-private-apps-for-android-enterprise/)
+- [Android 11 COPE changes](/android/android-11-cope-changes/)
+- [Android Enterprise vs Device Admin: Why DA is no longer suitable](/android/android-enterprise-vs-device-administrator-legacy-enrolment/)
+- [Considerations when migrating from device administrator to Android Enterprise](/android/considerations-in-migrating-from-device-administrator-to-android-enterprise/)
+- [Considerations for choosing Android in the Enterprise](/android/considerations-for-choosing-android-in-the-enterprise/)
+- [Android Enterprise EMM COPE support](/android/android-enterprise-emm-cope-support/)
+- [Android Enterprise zero-touch console administration guide](/android/android-enterprise-zero-touch-console-device-guide/)
+- [What is OEMConfig?](/android/what-is-oemconfig/)
+- [Considerations when deploying MTD with Android Enterprise](/android/mtd-and-android-enterprise/)
+- [Feature spotlight: Android Smartlock](/android/what-is-android-smartlock-and-why-should-it-be-disabled/)
+- [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-factory-reset-protection/)
+- [Feature spotlight: Block unknown sources on work profile deployments](/android/feature-spotlight-block-unknown-sources-on-work-profile-deployments/)
+- [Managed Google Play, whitelist or blacklist?](/android/managed-google-play-whitelist-or-blacklist/)
+- [Create and manage web apps for Android Enterprise](/android/create-and-manage-web-apps-for-android-enterprise/)
+- [Create and manage private apps for Android Enterprise](/android/create-and-manage-private-apps-for-android-enterprise/)
 
 ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/triodroidselfies-1.png) 
 ## Resources
 
 Free guides, infographics and other information.
 
-- [Android version evolution graphics](/docs/enterprise-mobility/android/android-version-evolution-graphics/)
-- [Android Enterprise provisioning guides](/docs/enterprise-mobility/android/android-enterprise-provisioning-guides/)
-- [Android Enterprise device support](/docs/enterprise-mobility/android/android-enterprise-device-support/)
-- [Android Enterprise independent validation process and information](/docs/enterprise-mobility/android/android-enterprise-device-support/validation-process-and-information/)
-- [Android Enterprise DPC identifier collection](/docs/enterprise-mobility/android/android-enterprise-dpc-identifier-collection/)
-- [How to become a zero-touch enrolment reseller](/docs/enterprise-mobility/android/how-to-become-a-zero-touch-enrolment-reseller/)
-- [Android Enterprise zero-touch DPC extras collection](/docs/enterprise-mobility/android/android-enterprise-zero-touch-dpc-extras-collection/)
-- [Infobyte – Did you know? Device Admin deprecation](/docs/enterprise-mobility/android/infobyte-did-you-know-device-admin-deprecation/)
-- [Infobyte – Did you know? Android Enterprise deployment scenarios](/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/)
-- [Infobyte – Did you know? Android Enterprise work-managed provisioning methods](/docs/enterprise-mobility/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/)
-- [Gartner comparison of security controls for mobile devices 2019](/docs/enterprise-mobility/android/gartner-comparison-of-security-controls-for-mobile-devices-2019/)
-- [How to submit a device for Android Enterprise Recommended validation](/docs/enterprise-mobility/android/how-to-submit-a-device-for-android-enterprise-recommended-validation/)
+- [Android version evolution graphics](/android/android-version-evolution-graphics/)
+- [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/)
+- [Android Enterprise device support](/android/android-enterprise-device-support/)
+- [Android Enterprise independent validation process and information](/android/android-enterprise-device-support/validation-process-and-information/)
+- [Android Enterprise DPC identifier collection](/android/android-enterprise-dpc-identifier-collection/)
+- [How to become a zero-touch enrolment reseller](/android/how-to-become-a-zero-touch-enrolment-reseller/)
+- [Android Enterprise zero-touch DPC extras collection](/android/android-enterprise-zero-touch-dpc-extras-collection/)
+- [Infobyte – Did you know? Device Admin deprecation](/android/infobyte-did-you-know-device-admin-deprecation/)
+- [Infobyte – Did you know? Android Enterprise deployment scenarios](/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/)
+- [Infobyte – Did you know? Android Enterprise work-managed provisioning methods](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/)
+- [Gartner comparison of security controls for mobile devices 2019](/android/gartner-comparison-of-security-controls-for-mobile-devices-2019/)
+- [How to submit a device for Android Enterprise Recommended validation](/android/how-to-submit-a-device-for-android-enterprise-recommended-validation/)
 
 ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/droidtrioresources.png) 
 ## External resources
