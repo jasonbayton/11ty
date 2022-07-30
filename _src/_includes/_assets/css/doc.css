@@ -1,0 +1,47 @@
+content#doc {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 60px;
+    grid-gap: 30px;
+}
+
+#aside {
+    font-size: 18px;
+}
+
+.aside-title h2 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+.section-title {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 0;
+}
+
+#aside_docs {
+    padding-top: 30px;
+}
+
+section#feedback {
+    grid-area: 2/1/2/4;
+    justify-self: end;
+}
+
+@media (max-width: 900px) {
+    content#doc{
+        grid-template-columns: 1fr;
+    }
+
+    section#feedback {
+        grid-area: 2/1/2/2;
+    }
+
+    .meta-single {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+}

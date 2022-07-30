@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="103px" viewBox="0 0 95 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" jetway-hooks="{}">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 43</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.9704 0.0721 49.8984 0.0721 49.8984 49 0.9704 49"></polygon>
+        <polygon id="path-3" points="0.4358 0.548 64.0738 0.548 64.0738 27.2087 0.4358 27.2087"></polygon>
+        <polygon id="path-5" points="0.426 0.607 15.785 27.208 27.054 27.208 0.436 0.591"></polygon>
+        <linearGradient x1="9.53883131e-05%" y1="50.0002506%" x2="100.001665%" y2="50.0002506%" id="linearGradient-7">
+            <stop stop-color="#2652C9" offset="0%"></stop>
+            <stop stop-color="#2F63D9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g jetway-hook-id="41E7F015-64CB-496F-B470-93203F416BE8" id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g jetway-hook-id="396D6C77-E4F8-436A-843E-B784240B4638" id="Group-43" transform="translate(0.000000, -1.000000)">
+            <g jetway-hook-id="AE0034E0-FA2E-4C4A-B42E-732CC6A399A7" id="Group-18">
+                <polygon jetway-hook-id="14759E9D-7B41-4027-9D62-34D850A0441D" id="Fill-1" fill="#2F64D9" points="15.436 27.66 43.69 27.66 43.69 0.999 15.436 0.999"></polygon>
+                <polygon jetway-hook-id="E7166123-4A9B-471D-9C9E-F675D51FB3B1" id="Fill-2" fill="#3E82F8" points="0.0009 27.6603 -0.0001 27.6633 37.0979 91.9183 47.2549 86.0553 34.3209 78.5883 47.2549 56.1863 30.7849 27.6603 15.4259 1.0593"></polygon>
+                <polygon jetway-hook-id="326DACB5-A167-4E26-A26D-6F470BD0A5DC" id="Fill-3" fill="#3E82F8" points="63.7245 27.6603 47.2545 56.1863 60.1885 78.5883 47.2545 86.0553 57.4105 91.9183 94.4995 27.6783 94.4905 27.6603 79.0745 1.0743"></polygon>
+                <g jetway-hook-id="F8571619-2C06-439A-987A-BE638876CF35" id="Group-14" transform="translate(15.000000, 0.452000)">
+                    <path d="M11.9937,54.0954 C0.8137,65.2754 0.8067,83.3934 11.9707,94.5824 L52.4807,54.0724 C41.2917,42.9094 23.1727,42.9164 11.9937,54.0954" jetway-hook-id="97650612-8DF4-4B6F-8B46-C55EDD408493" id="Fill-4" fill="#FFB400"></path>
+                    <g jetway-hook-id="4494C529-8307-4EED-A800-9C00C834B9C7" id="Group-8" transform="translate(11.000000, 54.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g jetway-hook-id="515A435F-7180-45D6-A39E-7FD835771343" id="Clip-7"></g>
+                        <path d="M41.5074,40.6091 C52.6954,29.4211 52.6954,11.2831 41.5074,0.0951 C41.4984,0.0881 41.4884,0.0801 41.4814,0.0721 L0.9704,40.5831 C0.9784,40.5911 0.9854,40.6011 0.9934,40.6091 C12.1814,51.7971 30.3194,51.7971 41.5074,40.6091" jetway-hook-id="0BDBB409-EE4F-47EA-846F-4B30E75B9903" id="Fill-6" fill="#FFA100" mask="url(#mask-2)"></path>
+                    </g>
+                    <polygon jetway-hook-id="BFCF7E14-91FD-4F3D-8335-A389D449A272" id="Fill-9" fill="#FFFFFF" points="32.2506 80.6266 41.3946 87.2806 37.8946 76.5356 47.0376 70.0296 35.8236 70.0296 32.2506 58.9396 28.6776 70.0296 17.4636 70.0296 26.6066 76.5356 23.1066 87.2806"></polygon>
+                    <g jetway-hook-id="D4C42847-925F-4DA1-86FF-6E6E916A75D3" id="Group-13">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g jetway-hook-id="72539680-976A-4438-B8D1-706B41A27D79" id="Clip-12"></g>
+                        <polygon jetway-hook-id="B268F4B7-5389-40E8-907F-D44E8A604F11" id="Fill-11" fill="#2F64D9" mask="url(#mask-4)" points="64.0738 0.6227 64.0298 0.5477 0.4608 0.5477 0.4358 0.5907 27.0538 27.2087 48.7238 27.2087"></polygon>
+                    </g>
+                </g>
+                <g jetway-hook-id="D97E9CD2-A5D8-4384-84F6-F9C0B21D5C8B" id="Group-17" transform="translate(15.000000, 0.452000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g jetway-hook-id="A218B8E6-1E6F-4BC1-9642-8454BBF3AB5B" id="Clip-16"></g>
+                    <polygon jetway-hook-id="D2C5A1C3-FDE4-45B9-B087-DE45CE04A02A" id="Fill-15" fill="url(#linearGradient-7)" mask="url(#mask-6)" points="0.426 0.607 15.785 27.208 27.054 27.208 0.436 0.591"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
