@@ -1,5 +1,5 @@
 ---
-title: 'Migrating from Windows 10 Mobile? Here&#8217;s why you should consider Android'
+title: "Migrating from Windows 10 Mobile? Here's why you should consider Android"
 date: '2019-02-04T00:28:11+00:00'
 status: publish
 author: 'Jason Bayton'

@@ -1,5 +1,5 @@
 ---
-title: 'What&#8217;s all the Buzz?'
+title: "What's all the Buzz?"
 date: '2010-03-16T22:10:52+00:00'
 status: publish
 author: 'Jason Bayton'
@@ -11,8 +11,6 @@ tag:
     - 'Google Apps'
     - Linkedin
 post_format: []
-tmac_last_id:
-    - '205557731355136001'
 post_views_count:
     - '689'
 tags:

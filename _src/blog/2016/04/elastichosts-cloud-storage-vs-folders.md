@@ -1,5 +1,5 @@
 ---
-title: 'ElasticHosts: Cloud Storage vs Folders, what&#8217;s the difference?'
+title: "ElasticHosts: Cloud Storage vs Folders, what's the difference?"
 date: '2016-04-15T13:48:38+01:00'
 status: publish
 author: 'Jason Bayton'

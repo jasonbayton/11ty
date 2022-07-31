@@ -1,5 +1,5 @@
 ---
-title: 'Listen again: BM podcast #144 &#8211; Jason Bayton &#038; Russ Mohr talk Android!'
+title: 'Listen again: BM podcast #144 - Jason Bayton & Russ Mohr talk Android!'
 date: '2020-07-04T01:52:07+01:00'
 status: publish
 author: 'Jason Bayton'
@@ -14,7 +14,7 @@ post_format: []
 discourse_permalink:
     - 'https://discuss.bayton.org/t/listen-again-bm-podcast-144-jason-bayton-russ-mohr-talk-android/379'
 enclosure:
-    - "/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/07/bmpodcast-144-110819.mp3\r\n60409556\r\naudio/mpeg\r\n"
+    - "https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/07/bmpodcast-144-110819.mp3"
 publish_post_category:
     - '14'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: 'Why Intune doesn&#8217;t support Android Enterprise COPE'
+title: "Why Intune doesn't support Android Enterprise COPE"
 date: '2019-10-24T17:15:25+01:00'
 status: publish
 author: 'Jason Bayton'

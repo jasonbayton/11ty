@@ -1,5 +1,5 @@
 ---
-title: 'I&#8217;m joining Social Mobile as Director of Android Innovation'
+title: "I'm joining Social Mobile as Director of Android Innovation"
 date: '2019-04-09T18:37:23+01:00'
 status: publish
 author: 'Jason Bayton'

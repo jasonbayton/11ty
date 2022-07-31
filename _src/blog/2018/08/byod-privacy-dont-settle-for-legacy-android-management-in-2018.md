@@ -1,5 +1,5 @@
 ---
-title: 'BYOD &#038; Privacy: Don’t settle for legacy Android management in 2018'
+title: 'BYOD & Privacy: Don’t settle for legacy Android management in 2018'
 date: '2018-08-03T16:35:00+01:00'
 status: publish
 author: 'Jason Bayton'

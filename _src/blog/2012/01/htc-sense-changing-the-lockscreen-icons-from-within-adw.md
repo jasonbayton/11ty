@@ -1,5 +1,5 @@
 ---
-title: 'HTC Sense &#8211; Changing the lockscreen icons from within ADW'
+title: 'HTC Sense: Changing the lockscreen icons from within ADW'
 date: '2012-01-08T01:04:37+00:00'
 status: publish
 author: 'Jason Bayton'

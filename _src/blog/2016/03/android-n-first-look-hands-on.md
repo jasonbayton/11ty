@@ -1,5 +1,5 @@
 ---
-title: 'Android N: First look &#038; hands-on'
+title: 'Android N: First look & hands-on'
 date: '2016-03-09T23:34:16+00:00'
 status: publish
 author: 'Jason Bayton'

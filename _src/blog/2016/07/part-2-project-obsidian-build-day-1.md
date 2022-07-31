@@ -1,5 +1,5 @@
 ---
-title: 'Part 2 &#8211; Project Obsidian: Build day 1'
+title: 'Part 2 - Project Obsidian: Build day 1'
 date: '2016-07-02T00:01:30+01:00'
 status: publish
 author: 'Jason Bayton'

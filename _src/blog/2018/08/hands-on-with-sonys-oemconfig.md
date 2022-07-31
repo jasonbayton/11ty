@@ -1,5 +1,5 @@
 ---
-title: 'Hands on with Sony&#8217;s OEMConfig'
+title: 'Hands on with Sony OEMConfig'
 date: '2018-08-26T15:48:44+01:00'
 status: publish
 author: 'Jason Bayton'

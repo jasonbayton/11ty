@@ -15,8 +15,6 @@ tag:
     - Linkedin
     - Server
 post_format: []
-tmac_last_id:
-    - '205557752217600000'
 post_views_count:
     - '1021'
 tags:
@@ -47,11 +45,7 @@ global const $devconlocation = "C:Program FilesDevcon"
 global const $lancard = "PCICC_0200"
 Global const $wificard = "USBClass_ff"
 
- 
-
 #include
-
- 
 
 Run(@ComSpec & " /c cmd")
 blockinput(1)
@@ -90,11 +84,7 @@ Global Const $depC = "\serverlogondepC.bat"
 Global Const $depD = "\serverlogondepD.bat"
 Global Const $depE = "\serverlogondepE.bat"
 
- 
-
 #include
-
- 
 
 Run(@ComSpec & " /c cmd")
 blockinput(1)
@@ -124,8 +114,6 @@ GUISetState(@SW_SHOW)
 
 While 1
 $Msg = GUIGetMsg(1)
-
- 
 
 Select
 Case $msg[0] = $Button1
@@ -162,11 +150,7 @@ Global Const $depC = "\serverlogondepC.bat"
 Global Const $depD = "\serverlogondepD.bat"
 Global Const $depE = "\serverlogondepE.bat"
 
- 
-
 #include
-
- 
 
 #Region ### START Koda GUI section ### Form=
 $AForm1 = GUICreate("SNV Connection Switch", 322, 193, 384, 332)
@@ -236,8 +220,6 @@ ExitLoop
 EndSelect
 WEnd
 ExitLoop
-
- 
 
 Case $msg[0] = $Button2
 Run(@ComSpec & " /c cmd")

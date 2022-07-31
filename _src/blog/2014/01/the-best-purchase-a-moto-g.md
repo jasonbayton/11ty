@@ -1,5 +1,5 @@
 ---
-title: 'The best purchase I&#8217;ve ever made? A Moto G for my father'
+title: "The best purchase I've ever made? A Moto G for my father"
 date: '2014-01-06T00:19:31+00:00'
 status: publish
 author: 'Jason Bayton'

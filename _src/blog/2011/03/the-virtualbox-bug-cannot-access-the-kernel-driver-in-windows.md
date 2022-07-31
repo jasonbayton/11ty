@@ -1,5 +1,5 @@
 ---
-title: 'The Virtualbox bug: &#8220;Cannot access the kernel driver&#8221; in Windows'
+title: 'The Virtualbox bug: "Cannot access the kernel driver" in Windows'
 date: '2011-03-06T23:00:51+00:00'
 status: publish
 author: 'Jason Bayton'

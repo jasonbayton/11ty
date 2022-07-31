@@ -1,5 +1,5 @@
 ---
-title: 'Installing Nextcloud on Ubuntu 16.04 LTS with Redis, APCu, SSL &#038; Apache'
+title: 'Installing Nextcloud on Ubuntu 16.04 LTS with Redis, APCu, SSL & Apache'
 date: '2016-07-26T18:24:14+01:00'
 status: publish
 author: 'Jason Bayton'

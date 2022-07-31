@@ -1,5 +1,5 @@
 ---
-title: 'From Wows to Woes &#8211; Why I won&#8217;t be recommending a Nexus7 any time soon.'
+title: "From Wows to Woes: Why I won't be recommending a Nexus7 any time soon."
 date: '2012-08-13T21:49:02+01:00'
 status: publish
 author: 'Jason Bayton'

@@ -1,5 +1,5 @@
 ---
-title: 'Browsing on a [data] budget? Opera!'
+title: 'Browsing on a (data) budget? Opera!'
 date: '2010-03-30T17:22:10+01:00'
 status: publish
 author: 'Jason Bayton'

@@ -1,5 +1,5 @@
 ---
-title: 'Part I &#8211; &#8220;Device not compatible&#8221; &#8211; Skype on 3'
+title: 'Part I - Device not compatible - Skype on 3'
 date: '2010-03-14T19:40:18+00:00'
 status: publish
 author: 'Jason Bayton'
@@ -15,8 +15,6 @@ tag:
     - 'not supported'
     - Skype
 post_format: []
-tmac_last_id:
-    - '205557734807048192'
 post_views_count:
     - '4374'
 tags:
@@ -27,7 +25,7 @@ tags:
 
 I’ve managed to fix both of my devices so that skype is working almost flawlessly, and now that I’ve figured it out, I want to share the knowledge in the hope that it will help others out.
 
-\[This post is in two parts.\] Wanting Windows Mobile? Go to [Part II](/2010/03/part-ii-device-not-compatible-skype-on-3/)
+This post is in two parts. Wanting Windows Mobile? Go to [Part II](/2010/03/part-ii-device-not-compatible-skype-on-3/)
 
 Part I – Sony Ericsson K800i (Any java phone)
 ---------------------------------------------
@@ -45,31 +43,31 @@ Try it and let me know how you get on (Comments are open). If you’re Australia
 
 I’ve included a quick image show below. Click for full size.
 
-<div class="pie-gallery alignGalleryLeft"><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Select Skype.jar](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP9de6xI/AAAAAAAAEt8/m_G3QRyOx_g/s160-c/Screen02.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP9de6xI/AAAAAAAAEt8/m_G3QRyOx_g/Screen02.png?imgmax=640 "Select Skype.jar")
+[![Select Skype.jar](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP9de6xI/AAAAAAAAEt8/m_G3QRyOx_g/s160-c/Screen02.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP9de6xI/AAAAAAAAEt8/m_G3QRyOx_g/Screen02.png?imgmax=640 "Select Skype.jar")
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Install to root](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP4g2y7I/AAAAAAAAEuA/gkn9yZ3_TuI/s160-c/Screen03.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP4g2y7I/AAAAAAAAEuA/gkn9yZ3_TuI/Screen03.png?imgmax=640 "Install to root")
+[![Install to root](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP4g2y7I/AAAAAAAAEuA/gkn9yZ3_TuI/s160-c/Screen03.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP4g2y7I/AAAAAAAAEuA/gkn9yZ3_TuI/Screen03.png?imgmax=640 "Install to root")
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Allow all of this](http://lh5.ggpht.com/_XtX1xEyLe2k/S54gQCT-eXI/AAAAAAAAEuE/LXXmNRdNB6E/s160-c/Screen04.png)](http://lh5.ggpht.com/_XtX1xEyLe2k/S54gQCT-eXI/AAAAAAAAEuE/LXXmNRdNB6E/Screen04.png?imgmax=640 "Allow all of this")
+[![Allow all of this](http://lh5.ggpht.com/_XtX1xEyLe2k/S54gQCT-eXI/AAAAAAAAEuE/LXXmNRdNB6E/s160-c/Screen04.png)](http://lh5.ggpht.com/_XtX1xEyLe2k/S54gQCT-eXI/AAAAAAAAEuE/LXXmNRdNB6E/Screen04.png?imgmax=640 "Allow all of this")
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Continue](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gQO17MCI/AAAAAAAAEuI/Pui2MXK0O9o/s160-c/Screen05.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gQO17MCI/AAAAAAAAEuI/Pui2MXK0O9o/Screen05.png?imgmax=640 "Continue")
+[![Continue](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gQO17MCI/AAAAAAAAEuI/Pui2MXK0O9o/s160-c/Screen05.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gQO17MCI/AAAAAAAAEuI/Pui2MXK0O9o/Screen05.png?imgmax=640 "Continue")
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Screen06.png](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gQPpIkfI/AAAAAAAAEuM/0k7TpvQvVn0/s160-c/Screen06.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gQPpIkfI/AAAAAAAAEuM/0k7TpvQvVn0/Screen06.png?imgmax=640)
+[![Screen06.png](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gQPpIkfI/AAAAAAAAEuM/0k7TpvQvVn0/s160-c/Screen06.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gQPpIkfI/AAAAAAAAEuM/0k7TpvQvVn0/Screen06.png?imgmax=640)
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Screen07.png](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gd8NU00I/AAAAAAAAEuQ/f9fX4qe2YE8/s160-c/Screen07.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gd8NU00I/AAAAAAAAEuQ/f9fX4qe2YE8/Screen07.png?imgmax=640)
+[![Screen07.png](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gd8NU00I/AAAAAAAAEuQ/f9fX4qe2YE8/s160-c/Screen07.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gd8NU00I/AAAAAAAAEuQ/f9fX4qe2YE8/Screen07.png?imgmax=640)
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Launch, you're installed!](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gd6SBVtI/AAAAAAAAEuU/vnFrR1Ho0eA/s160-c/Screen08.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gd6SBVtI/AAAAAAAAEuU/vnFrR1Ho0eA/Screen08.png?imgmax=640 "Launch, you're installed!")
+[![Launch, you're installed!](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gd6SBVtI/AAAAAAAAEuU/vnFrR1Ho0eA/s160-c/Screen08.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gd6SBVtI/AAAAAAAAEuU/vnFrR1Ho0eA/Screen08.png?imgmax=640 "Launch, you're installed!")
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Screen09.png](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gdyS85MI/AAAAAAAAEuY/aSgi5CpL-5c/s160-c/Screen09.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gdyS85MI/AAAAAAAAEuY/aSgi5CpL-5c/Screen09.png?imgmax=640)
+[![Screen09.png](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gdyS85MI/AAAAAAAAEuY/aSgi5CpL-5c/s160-c/Screen09.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gdyS85MI/AAAAAAAAEuY/aSgi5CpL-5c/Screen09.png?imgmax=640)
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Screen10.png](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geBjw3PI/AAAAAAAAEuc/VxEc_IGxH2E/s160-c/Screen10.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geBjw3PI/AAAAAAAAEuc/VxEc_IGxH2E/Screen10.png?imgmax=640)
+[![Screen10.png](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geBjw3PI/AAAAAAAAEuc/VxEc_IGxH2E/s160-c/Screen10.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geBjw3PI/AAAAAAAAEuc/VxEc_IGxH2E/Screen10.png?imgmax=640)
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/s160-c/Screen11.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/Screen11.png?imgmax=640 "Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?")
+[![Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/s160-c/Screen11.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/Screen11.png?imgmax=640 "Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?")
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Screen12.png](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gp0jy5-I/AAAAAAAAEuk/8JkRls0d424/s160-c/Screen12.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gp0jy5-I/AAAAAAAAEuk/8JkRls0d424/Screen12.png?imgmax=640)
+[![Screen12.png](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gp0jy5-I/AAAAAAAAEuk/8JkRls0d424/s160-c/Screen12.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gp0jy5-I/AAAAAAAAEuk/8JkRls0d424/Screen12.png?imgmax=640)
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Screen13.png](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gpyaGNFI/AAAAAAAAEuo/n4hmgThVLJQ/s160-c/Screen13.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gpyaGNFI/AAAAAAAAEuo/n4hmgThVLJQ/Screen13.png?imgmax=640)
+[![Screen13.png](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gpyaGNFI/AAAAAAAAEuo/n4hmgThVLJQ/s160-c/Screen13.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gpyaGNFI/AAAAAAAAEuo/n4hmgThVLJQ/Screen13.png?imgmax=640)
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;">[![Screen14.png](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gqMHRgNI/AAAAAAAAEus/yXrD0lzGBeE/s160-c/Screen14.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gqMHRgNI/AAAAAAAAEus/yXrD0lzGBeE/Screen14.png?imgmax=640)
+[![Screen14.png](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gqMHRgNI/AAAAAAAAEus/yXrD0lzGBeE/s160-c/Screen14.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gqMHRgNI/AAAAAAAAEus/yXrD0lzGBeE/Screen14.png?imgmax=640)
 
 Go to [Part II](/2010/03/part-ii-device-not-compatible-skype-on-3/)
 
@@ -79,11 +77,6 @@ Go to [Part II](/2010/03/part-ii-device-not-compatible-skype-on-3/)
 
 For my Australian readers, here is the Australian 3 version:
 
-[![Click to download](/wp-includes/images/crystal/archive.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/03/Skype_2.0.66_SAMF480_AU.zip)
+[Skype .jar](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/03/Skype_2.0.66_SAMF480_AU.zip)
 
-Skype  
-.jar
-
-</div>Enjoy!
-
-</div>
+Enjoy!

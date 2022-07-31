@@ -1,5 +1,5 @@
 ---
-title: 'Recycling Caps Lock into something useful &#8211; Ubuntu (12.04)'
+title: 'Recycling Caps Lock into something useful - Ubuntu (12.04)'
 date: '2012-08-21T17:44:29+01:00'
 status: publish
 author: 'Jason Bayton'

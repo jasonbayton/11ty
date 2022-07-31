@@ -13,8 +13,6 @@ tag:
     - 'windows 7'
     - wmv
 post_format: []
-tmac_last_id:
-    - '205557738263150593'
 post_views_count:
     - '793'
 tags:

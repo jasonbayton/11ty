@@ -17,8 +17,6 @@ tag:
     - Skype
     - VoIP
 post_format: []
-tmac_last_id:
-    - '205557745292812290'
 post_views_count:
     - '1129'
 tags:
@@ -38,9 +36,11 @@ A few test calls to check the quality, then a relocation to an out of sight area
 
 Later in the year, when moving into a bigger house which will require more telephones, I will be purchasing a USB – Telephone adapter. This device simply plugs into your telephone wall outlet allowing all phones to connect to the wall and receive Skype calls.
 
-<div class="wp-caption alignnone" style="width: 370px">![The system](http://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0836Medium-1.jpg "Computer")The system
+![The system](http://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0836Medium-1.jpg "Computer")
+The system
 
-</div><div class="wp-caption alignnone" style="width: 394px">![The Telephone](http://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0837Medium-1.jpg "Phone")The Telephone
+![The Telephone](http://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0837Medium-1.jpg "Phone")
+The Telephone
 
 </div>I have been using this now for almost 2 weeks without a glitch. Highly recommended for those who don’t want to spend a lot of money for something that should, and can be quite cheap.
 

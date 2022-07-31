@@ -14,8 +14,6 @@ tag:
     - 'web app'
     - 'Windows Mobile'
 post_format: []
-tmac_last_id:
-    - '205557726607179776'
 post_views_count:
     - '965'
 tags:

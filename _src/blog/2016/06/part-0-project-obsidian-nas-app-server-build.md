@@ -1,5 +1,5 @@
 ---
-title: 'Part 0 &#8211; Project Obsidian: Low power NAS &#038; container server'
+title: 'Part 0 - Project Obsidian: Low power NAS & container server'
 date: '2016-06-27T00:26:26+01:00'
 status: publish
 author: 'Jason Bayton'

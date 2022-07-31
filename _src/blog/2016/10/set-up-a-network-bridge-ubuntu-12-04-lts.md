@@ -1,5 +1,5 @@
 ---
-title: 'Set up a network bridge &#8211; Ubuntu 12.04 LTS +'
+title: 'Set up a network bridge - Ubuntu 12.04 LTS +'
 date: '2016-10-01T17:07:09+01:00'
 status: publish
 author: 'Jason Bayton'

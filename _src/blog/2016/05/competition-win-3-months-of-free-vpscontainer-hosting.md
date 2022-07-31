@@ -1,5 +1,5 @@
 ---
-title: 'Competition: Win 3 months of free VPS/Container hosting &#8212; Closed!'
+title: 'Competition: Win 3 months of free VPS/Container hosting - Closed!'
 date: '2016-05-17T16:42:39+01:00'
 status: publish
 author: 'Jason Bayton'

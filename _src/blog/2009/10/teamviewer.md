@@ -19,8 +19,6 @@ tag:
     - system
     - teamviewer
 post_format: []
-tmac_last_id:
-    - '205557741811535872'
 post_views_count:
     - '3965'
 tags:
@@ -48,7 +46,7 @@ When there’s a problem that can’t be fixed locally, or perhaps a presentatio
 
 **Installing Teamviewer.**
 
-Log onto [<span style="color: #0000ff;"><span style="text-decoration: underline;">www.teamviewer.com</span></span>](http://www.teamviewer.com/)
+Log onto [www.teamviewer.com](http://www.teamviewer.com/)
 
 [![image01](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2014/05/image01.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2014/05/image01.png)
 

@@ -13,8 +13,6 @@ tag:
     - desktop
     - GBD
 post_format: []
-tmac_last_id:
-    - '205557726607179776'
 post_views_count:
     - '963'
 tags:

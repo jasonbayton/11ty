@@ -1,5 +1,5 @@
 ---
-title: 'Hands on: The Lenovo Yoga Tablet 8 &#038; 10'
+title: 'Hands on: The Lenovo Yoga Tablet 8 & 10'
 date: '2013-12-24T22:48:25+00:00'
 status: publish
 author: 'Jason Bayton'

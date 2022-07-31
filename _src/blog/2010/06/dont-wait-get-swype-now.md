@@ -1,5 +1,5 @@
 ---
-title: 'Don&#8217;t wait, get Swype now!'
+title: "Don't wait, get Swype now!"
 date: '2010-06-20T00:19:40+01:00'
 status: publish
 author: 'Jason Bayton'

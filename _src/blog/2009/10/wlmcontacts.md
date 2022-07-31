@@ -17,8 +17,6 @@ tag:
     - quick
     - WLM
 post_format: []
-tmac_last_id:
-    - '205557741715062785'
 post_views_count:
     - '1100'
 discourse_permalink:
@@ -41,6 +39,7 @@ For those who are responsible for administering it, there’s a very simple way 
 
 The WLM contact list is based on XML. That is a fantastic bonus, as it makes life easier when it comes to creating a list. For creating a list via notepad, open notepad and insert the following code:
 
+```
 &lt;?xml version=”1.0″?&gt;  
 &lt;messenger&gt;  
 &lt;service name=”.NET Messenger Service”&gt;  
@@ -55,6 +54,7 @@ The WLM contact list is based on XML. That is a fantastic bonus, as it makes lif
 &lt;/contactlist&gt;  
 &lt;/service&gt;  
 &lt;/messenger&gt;
+```
 
 You can see as above that it works with tags. You may enter your email addresses between the &lt;contact&gt; and &lt;/contact&gt;. Make as many of these as you’d like depending on how many contacts you have. This is useful for a small amount of contacts, say for instance in a department.
 

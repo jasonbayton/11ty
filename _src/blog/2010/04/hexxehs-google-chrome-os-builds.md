@@ -1,5 +1,5 @@
 ---
-title: 'Hexxeh&#8217;s Google Chrome OS builds'
+title: "Hexxeh's Google Chrome OS builds"
 date: '2010-04-20T20:00:48+01:00'
 status: publish
 author: 'Jason Bayton'

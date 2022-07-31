@@ -1,5 +1,5 @@
 ---
-title: 'Living with Google&#8217;s Cr-48 and the cloud.'
+title: "Living with Google's Cr-48 and the cloud."
 date: '2011-05-28T13:00:13+01:00'
 status: publish
 author: 'Jason Bayton'

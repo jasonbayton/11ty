@@ -1,5 +1,5 @@
 ---
-title: 'What I&#8217;d like to see from Android Enterprise in 2019'
+title: "What I'd like to see from Android Enterprise in 2019"
 date: '2019-01-07T09:00:44+00:00'
 status: publish
 author: 'Jason Bayton'

@@ -1,5 +1,5 @@
 ---
-title: 'Android P demonstrates Google&#8217;s focus on the enterprise'
+title: "Android P demonstrates Google's focus on the enterprise"
 date: '2018-03-21T09:11:14+00:00'
 status: publish
 author: 'Jason Bayton'

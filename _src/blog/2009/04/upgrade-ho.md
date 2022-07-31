@@ -14,14 +14,6 @@ tag:
     - system
     - upgrade
 post_format: []
-customexcerpt:
-    - "<div class=\"tweetmeme_button\" style=\"float: right; margin-left: 10px;\"><iframe src=\"http://api.tweetmeme.com/button.js?url=&amp;style=normal\" height=\"61\" width=\"50\" frameborder=\"0\" scrolling=\"no\"></iframe></div>\r\n<p id=\"top\" />\r\n<p class=\"MsoNormal\">Company name removed for anonymity</p>\r\n<p class=\"MsoNormal\">\r\n\r\n<!-- AddThis Button BEGIN -->\r\n<script type=\"text/javascript\">\r\n//<!--var addthis_append_data = 'false';var addthis_language = 'en';//-->\r\n</script>\r\n<div class=\"addthis_container\"><a href=\"http://www.addthis.com/bookmark.php?v=250&amp;username=wp-4b7d46d207c7409f\" class=\"addthis_button\" addthis:url=\"\" addthis:title=\"\"><img src=\"http://s7.addthis.com/static/btn/v2/lg-share-en.gif\" width=\"125\" height=\"16\" style=\"border:0\" alt=\"Bookmark and Share\"/></a><script type=\"text/javascript\" src=\"http://s7.addthis.com/js/250/addthis_widget.js#username=wp-4b7d46d207c7409f\"></script></div>\r\n<!-- AddThis Button END -->"
-custommoretext:
-    - 'Read More'
-customtitle:
-    - ''
-tmac_last_id:
-    - '205557755463991296'
 post_views_count:
     - '858'
 discourse_permalink:

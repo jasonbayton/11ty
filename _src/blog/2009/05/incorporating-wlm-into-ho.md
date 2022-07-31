@@ -18,8 +18,6 @@ tag:
     - VoIP
     - WLM
 post_format: []
-tmac_last_id:
-    - '205557752217600000'
 post_views_count:
     - '800'
 tags:

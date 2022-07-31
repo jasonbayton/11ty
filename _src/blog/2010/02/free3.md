@@ -1,5 +1,5 @@
 ---
-title: 'Free Skype with 3? There&#8217;s a catch..'
+title: "Free Skype with 3? There's a catch.."
 date: '2010-02-04T12:07:42+00:00'
 status: publish
 author: 'Jason Bayton'
@@ -15,8 +15,6 @@ tag:
     - three
     - workaround
 post_format: []
-tmac_last_id:
-    - '205557741715062785'
 post_views_count:
     - '1486'
 tags:

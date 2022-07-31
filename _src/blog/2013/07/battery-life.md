@@ -1,5 +1,5 @@
 ---
-title: 'Battery life &#8211; avoiding the power outlet'
+title: 'Battery life: avoiding the power outlet'
 date: '2013-07-14T20:20:50+01:00'
 status: publish
 author: 'Jason Bayton'

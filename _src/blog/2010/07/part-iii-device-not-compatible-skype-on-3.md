@@ -1,5 +1,5 @@
 ---
-title: 'Part III &#8211; Device not compatible &#8211; Skype on 3'
+title: 'Part III - Device not compatible - Skype on 3'
 date: '2010-07-30T17:21:41+01:00'
 status: publish
 author: 'Jason Bayton'

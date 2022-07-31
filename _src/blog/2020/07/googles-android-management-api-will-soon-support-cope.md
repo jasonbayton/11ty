@@ -1,5 +1,5 @@
 ---
-title: 'Google&#8217;s Android Management API will soon support COPE'
+title: "Google's Android Management API will soon support COPE"
 date: '2020-07-01T23:40:27+01:00'
 status: publish
 author: 'Jason Bayton'

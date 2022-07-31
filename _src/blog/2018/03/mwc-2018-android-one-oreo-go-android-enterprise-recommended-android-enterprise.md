@@ -1,5 +1,5 @@
 ---
-title: 'MWC 2018: Android One, Oreo Go, Android Enterprise Recommended &#038; Android Enterprise'
+title: 'MWC 2018: Android One, Oreo Go, Android Enterprise Recommended & Android Enterprise'
 date: '2018-03-02T22:22:43+00:00'
 status: publish
 author: 'Jason Bayton'

@@ -1,5 +1,5 @@
 ---
-title: 'Google added the Apps flexibility we&#8217;ve been waiting for!'
+title: "Google added the Apps flexibility we've been waiting for!"
 date: '2010-11-24T02:08:28+00:00'
 status: publish
 author: 'Jason Bayton'

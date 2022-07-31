@@ -1,5 +1,5 @@
 ---
-title: 'Part 4 &#8211; Project Obsidian: Obsidian is dead, long live Obsidian'
+title: 'Part 4 - Project Obsidian: Obsidian is dead, long live Obsidian'
 date: '2017-01-15T15:25:53+00:00'
 status: publish
 author: 'Jason Bayton'

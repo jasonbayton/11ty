@@ -1,5 +1,5 @@
 ---
-title: 'Nexus7 &#8211; What you need to know'
+title: 'Nexus7: What you need to know'
 date: '2012-07-06T22:53:30+01:00'
 status: publish
 author: 'Jason Bayton'

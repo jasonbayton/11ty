@@ -1,5 +1,5 @@
 ---
-title: 'Part II &#8211; &#8220;Device not compatible&#8221; &#8211; Skype on 3'
+title: 'Part II: Device not compatible - Skype on 3'
 date: '2010-03-15T14:06:17+00:00'
 status: publish
 author: 'Jason Bayton'
@@ -14,8 +14,6 @@ tag:
     - 'TyTN II'
     - WM
 post_format: []
-tmac_last_id:
-    - '205557731355136001'
 post_views_count:
     - '2194'
 discourse_permalink:
@@ -38,19 +36,22 @@ You can’t simply download iSkoot, install and go though, the guys over at XDA 
 
 I have uploaded both the installer and extra .cab in one .zip file and will outline the installation instructions after the download link (click the box):
 
-<div class="wp-caption alignnone" style="width: 56px">[![](/wp-includes/images/crystal/archive.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/03/iSkoot-combo-3UK.zip)iSkoot 3UK
+[![](/wp-includes/images/crystal/archive.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/03/iSkoot-combo-3UK.zip)iSkoot 3UK
 
 </div>**Instructions:**
 
 To make it just that little easier, I’ve even added pictures.
 
-<div class="pie-gallery alignGalleryLeft"><div class="pie-item" style="margin: 10px 10px 10px 10px;"><span style="font-weight: normal;">[![First, install iSkoot](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/s160-c/Screen18.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/Screen18.png?imgmax=640 "First, install iSkoot") [![Select it from the Start menu and accept all the license agreements.](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/s160-c/Screen19.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/Screen19.png?imgmax=640 "Select it from the Start menu and accept all the license agreements.") </span>
+[![First, install iSkoot](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/s160-c/Screen18.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/Screen18.png?imgmax=640 "First, install iSkoot") 
+[![Select it from the Start menu and accept all the license agreements.](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/s160-c/Screen19.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/Screen19.png?imgmax=640 "Select it from the Start menu and accept all the license agreements.") </span>
 
 <span style="font-weight: normal;">1) Install iSkoot</span>
 
 <span style="font-weight: normal;">2) Select it from the Start menu and accept all the license agreements.</span>
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;"><span style="font-weight: normal;">[![Once you get here, QUIT!](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/s160-c/Screen20.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/Screen20.png?imgmax=640 "Once you get here, QUIT!") [![Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/s160-c/Screen21.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/Screen21.png?imgmax=640 "Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!") </span>
+[![Once you get here, QUIT!](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/s160-c/Screen20.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/Screen20.png?imgmax=640 "Once you get here, QUIT!") 
+
+[![Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/s160-c/Screen21.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/Screen21.png?imgmax=640 "Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!") </span>
 
 <span style="font-weight: normal;">3) Get to the sign-in page and </span><span style="font-weight: normal;">**QUIT!** (very important).</span>
 
