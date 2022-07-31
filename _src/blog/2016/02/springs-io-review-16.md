@@ -1,5 +1,5 @@
 ---
-title: 'Springs.io &#8211; Container hosting at container prices'
+title: 'Springs.io - Container hosting at container prices'
 date: '2016-02-29T12:54:12+00:00'
 status: publish
 author: 'Jason Bayton'
