@@ -11,7 +11,7 @@
             <input type="text" name="search" id="searchinput" placeholder="Search..">
         </div>
         <div id="nav_links" class="mobile-hidden">
-            {% for link in navigationLinks %}
+            {% for link in globalnav %}
             <div class="nav-link-individual">
                 <a href="{{ link.url }}">{{ link.text }}</a>
             </div>

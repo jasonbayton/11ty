@@ -26,6 +26,12 @@ content#doc {
     padding-top: 30px;
 }
 
+#android_doc_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
 section#feedback {
     grid-area: 2/1/2/4;
     justify-self: end;

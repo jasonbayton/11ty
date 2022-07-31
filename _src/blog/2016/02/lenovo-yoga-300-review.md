@@ -1,5 +1,5 @@
 ---
-title: 'I bought a Lenovo Yoga 300, this is why I'm sending it back'
+title: "I bought a Lenovo Yoga 300, this is why I'm sending it back"
 date: '2016-02-19T14:24:34+00:00'
 status: publish
 author: 'Jason Bayton'
