@@ -5,24 +5,11 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: post
-id: 954
 tag:
     - email
     - g+
     - google
 post_format: []
-geo_latitude:
-    - '51.7522792'
-geo_longitude:
-    - '-1.255883799999992'
-geo_address:
-    - 'Oxford, England, United Kingdom'
-geo_enabled:
-    - '1'
-geo_public:
-    - '1'
-tmac_last_id:
-    - '205557644625321984'
 post_views_count:
     - '3712'
 tags:

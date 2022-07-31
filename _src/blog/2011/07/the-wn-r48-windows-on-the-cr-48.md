@@ -1,5 +1,5 @@
 ---
-title: 'The &#8220;Wn-R48&#8221; (Windows on the Cr-48)'
+title: 'The "Wn-R48" (Windows on the Cr-48)'
 date: '2011-07-20T01:43:00+01:00'
 status: publish
 author: 'Jason Bayton'
