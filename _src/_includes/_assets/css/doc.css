@@ -16,10 +16,31 @@ content#doc {
 }
 
 .section-title {
-    margin-top: 0;
+    margin: 0;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 0;
+}
+
+.year-heading {
+    font-weight: 900;
+}
+
+.post-meta-base {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.post-meta-base-left {
+    justify-self: start
+}
+.post-meta-base-right {
+    justify-self: end
+}
+
+.base-title {
+    font-size: 80px;
+    font-weight: 900;
 }
 
 #aside_docs {
@@ -49,5 +70,13 @@ section#feedback {
     .meta-single {
         padding-right: 10px;
         font-size: 14px;
+    }
+
+    .base-title {
+        font-size: 40px;
+    }
+
+    .post-meta-base {
+        display: unset;
     }
 }

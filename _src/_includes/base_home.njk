@@ -29,7 +29,7 @@
             {% include "./_parts/header.njk" %}
         </header>
         <content id="home">
-            <div id="banner_statement">
+            <!--div id="banner_statement">
                 <div class="banner-statement-individual">
                     Android Enterprise Expert
                 </div>
@@ -39,7 +39,7 @@
                 <div class="banner-statement-individual">
                     Product Leader
                 </div>
-            </div>
+            </div-->
             <div id="Jason_Bayton">
                 Jason Bayton
             </div>
@@ -48,21 +48,21 @@
                     👋 Hello!
                 </div>
                 <div id="intro_text">
-                    <p>I’ve dedicated over twelve years to Android, half of those catered towards Android’s use in 
-                    enterprise. Today I’m considered a leading voice in Android Enterprise across the globe, and 
-                    have attained several accolades including an award from Google for contributions to the 
-                    Android community, Gold Product Expert status in the Android Enterprise Help Community, 
+                    <p>I’ve dedicated over a decade to Android, more than half of those catered towards Android’s use in 
+                    enterprise. It has more than paid off as today I’m considered to be a leading voice in Android Enterprise 
+                    across the globe, and have received multiple accolades including for contributions to the 
+                    Android Enterprise, Platinum Product Expert status in the Android Enterprise Help Community, 
                     vExpert status from VMware for Android contributions, and more.</p>
 
-                    <p>Android has been a passion of mine for many years, from picking up the original G1 through 
-                    the years of modding and ROM customisations, to today building and deploying hundreds of 
-                    thousands of managed Android devices around the globe. Everything I learn I write about here, 
-                    and I hope my resources help you and your organisation to better understand and support 
-                    Android in the enterprise, also.</p>
+                    <p>Android has been a passion of mine for many from the start; from picking up the original G1 back in 2008 to
+                    the years of modding and ROM customisations, to today building, deploying, and supporting hundreds of 
+                    thousands of managed Android devices around the globe as an ecosystem Product Leader and Certified Android 
+                    Enterprise Expert. Everything I learn I write about here, and I hope my resources help you and your organisation 
+                    to better understand and support Android in the enterprise, also.</p>
                 </div>
                 <div id="intro_android">
                     <img id="android_head" src="/img/logos/android.webp"/>
-                    <p>Master Android in your enterprise with simple, easy to understand documentation</p>
+                    <p>Dive straight in to simple, easy to understand documentation</p>
                     <a id="android_doc_link" href="/android">📖 Read the docs</a>
                 </div>
             </section>
@@ -70,7 +70,7 @@
                 <div id="trusted_container">
                     <div id="trusted_textgroup">
                         <h2 class="section-title">
-                            I make relevant, up-to-date Android content for 200K visitors annually. <span id="trusted_tag">Some of the vendors I've assisted with include:</span>
+                            I make relevant, informative Android content for 200K visitors annually. <span id="trusted_tag">Some of the vendors I've worked with or contributed to include:</span>
                         </h2>
                     </div>
                     <div id="vendor_logo_container">
@@ -106,10 +106,23 @@
             </section>
             <section id="posts" class="home-section">
                 <h2 class="section-title">
-                    And I write about all of the topics that matter to me
+                    And when I'm not writing documentation, I write about the goings-on in Android and other topics. <span id="trusted_tag">Here are some of the recent articles:</span>
+                        </h2>
                 </h2>
+                <div id="post-container">
                 {% for post in pagination.items %}
                 <div class="post-block">
+                    <div id="post_icon">
+                        
+                    </div>
+                    <div id="post_body">
+                    <div class="post-meta">
+                        <div class="meta-single">
+                            {% for tag in post.data.tags %}
+                             #<a class="meta-tag" href="/tags/{{ tag | slugify }}/"> {{ tag }} </a>
+                            {% endfor %}
+                        </div>
+                    </div>
                     <h3 class="post-title">
                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                     </h3>
@@ -120,18 +133,14 @@
                     {% endif %}
                     <div class="post-meta">
                         <div class="meta-single">
-                            🗓 {{ post.date | postDate }}
+                            {{ post.date | postDate }}
                         </div>
-                        <div class="meta-single">
-                            🏷 #{{ post.data.tags }}               
-                        </div>
-                        <div class="meta-single">
-                            ⏳ 37min read               
-                        </div>   
+                    </div>
                     </div>
                 </div>
                 {%- endfor -%}
-                <h2 class="section-title">
+                </div>
+                <h2 class="section-title" id="post_archive">
                     <a href="/blog">View the article archive ✍️</a>
                 </h2>
             </section>

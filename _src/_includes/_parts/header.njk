@@ -1,24 +1,29 @@
 <nav>
     <div id="navbar">
+        {% if page.url != '/'  %}
         <div id="bayton_logo">
         <!--img src="/img/bayton-logo.svg" /-->
             <div id="bayton_text">
                 <a  href="/">Jason Bayton</a>
             </div>
         </div>
-        <div id="searchform" class="mobile-hidden">
+        {% endif %}
+        <!--div id="searchform" class="mobile-hidden">
             <span class="fa fa-search" id="search_icon"></span>
             <input type="text" name="search" id="searchinput" placeholder="Search..">
-        </div>
+        </div-->
         <div id="nav_links" class="mobile-hidden">
             {% for link in globalnav %}
             <div class="nav-link-individual">
                 <a href="{{ link.url }}">{{ link.text }}</a>
             </div>
-            {% endfor %}
+            {% endfor %} 
+        </div>
+        <div id="corner_search">
+            <i class="fa fa-search"></i>
         </div>
         <div id="darktoggle">
-        <i class="fas fa-clouds-moon"></i>
+            <i class="fas fa-clouds-moon"></i>
         </div>
     </div>
 </nav>

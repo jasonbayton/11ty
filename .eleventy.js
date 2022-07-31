@@ -3,6 +3,7 @@ const timeToRead = require("eleventy-plugin-time-to-read");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const _ = require("lodash");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
@@ -37,7 +38,15 @@ module.exports = function (eleventyConfig) {
   const markdownLib = markdownIt(markdownItOptions).use(
     markdownItAnchor,
     markdownItAnchorOptions
-  )
+  );
+// break posts by year
+  eleventyConfig.addCollection("postsByYear", (collection) => {
+    return _.chain(collection.getAllSorted())
+      .groupBy((post) => post.date.getFullYear())
+      .toPairs()
+      .reverse()
+      .value();
+  });
   eleventyConfig.setLibrary("md", markdownLib);
     return {
       dir: {

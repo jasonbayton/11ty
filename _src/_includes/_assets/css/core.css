@@ -208,9 +208,14 @@ button {
   border: 0;
 }
 
-#bayton_logo, #darktoggle {
+#darktoggle, #corner_search {
   justify-self: center;
   align-self: center;
+}
+
+#bayton_logo {
+  justify-self: start;
+  padding-left: 20px;
 }
 
 #bayton_text {
@@ -225,15 +230,17 @@ button {
 #navbar {
   display: grid;
   padding: 10px 0 15px;
-  border-bottom: 2px solid var(--text);
-  grid-template-columns: 1fr 5fr 2fr 1fr;
+  /* border-bottom: 2px solid var(--text); */
+  grid-template-columns: 1fr 5fr 60px 60px;
   color: var(--text);
 }
 
 nav #nav_links {
-  padding-top: 10px;
+  padding-top: 5px;
   font-size: 16px;
-  justify-self: center;
+  padding-right: 20px;
+  justify-self: end;
+  grid-area: 1/2/1/3;
 }
 
 #nav_links a {
@@ -281,6 +288,14 @@ nav #nav_links {
   color: grey;
 }
 
+#corner_search {
+  grid-area: 1/3/2/4
+}
+
+#darktoggle {
+  grid-area: 1/4/2/5
+}
+
 content {
   padding: 30px 40px 0;
   max-width: 1200px;
@@ -315,12 +330,14 @@ content {
 #intro_block {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-column-gap: 10px;
+  grid-column-gap: 20px;
 }
 
 #intro_heading {
   grid-area: 1/1/2/3;
-  font-weight: 600;
+  font-weight: 900;
+  font-size: 50px;
+
 }
 
 #intro_text {
@@ -333,15 +350,12 @@ content {
   font-size: 24px;
   border-left: 2px solid var(--text);
   align-self: center;
+  padding: 10px;
 }
 
 #android_head {
   width: 140px;
   margin: 0 auto;
-}
-
-#intro_heading {
-  font-size: 50px;
 }
 
 
@@ -350,11 +364,11 @@ content {
 }
 
 .post-block {
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 .post-title {
-  margin-bottom: 0;
+  margin: 0;
   font-weight: 400;
 }
 
@@ -431,9 +445,23 @@ section#trusted_logos #trusted_container {
 }
 
 #vendor_disclaimer {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 8px;
+}
+
+/*#post-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+}*/
+
+#post_archive {
+  padding-top: 50px;
+}
+
+.meta-tag {
+  padding-right: 10px;
 }
 
 #post_group_left {
@@ -606,11 +634,11 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   }
 
   #bayton_logo {
-    justify-self: start;
+    padding: unset;
   }
 
   #navbar {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 60px 60px;
     padding: 10px 10px;
   }
 
@@ -637,7 +665,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   }
 
   #vendor_disclaimer {
-    font-size: 5px;
+    font-size: 10px;
   }
 
   #social_icons {

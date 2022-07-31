@@ -22,13 +22,17 @@ Continuing on from [losing my bet with Google](/2022/01/i-made-a-bet-with-google
 
 For those who missed it, the AER requirements for Android 11 changed from a minimum update term, to the following:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2022/01/image-2.png)Google never publicly published the 3 year mandate for knowledge worker devices – for reasons unknown – but it was there nevertheless. The new requirement would make a great addition to mandated update support in requiring more transparency, but alone it’s pretty weak.
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2022/01/image-2.png)
+
+Google never publicly published the 3 year mandate for knowledge worker devices – for reasons unknown – but it was there nevertheless. The new requirement would make a great addition to mandated update support in requiring more transparency, but alone it’s pretty weak.
 
 As mentioned in my previous post the [transparency report](https://transparencyreport.google.com/android-security/device-platform-safety?device_security_update=filter%20key:1&lu=device_security_update) data ceases in September of 2021, so until the next update it’ll be difficult to understand what impact dropping the 3 year support requirement on AER models from Android 11 will have on ecosystem stats overall (considering the number of AER devices is getting pretty sizeable!) though it’s clear Google’s work in improving 90 day update support across MADA-compliant devices within the ecosystem is working, and Android hardware is in a much stronger position than even 3 years prior, where less than 60% of devices were declaring security patches within the prior 90 days.
 
 It’s unlikely Google will track further out than 24 months so the transparency report will only offer value to a limited extent in monitoring overall longevity of update support; instead properly understanding how long devices will be supported will require a lot more work in tracking the OEMs themselves, either through [Google’s AER directory](https://androidenterprisepartners.withgoogle.com/devices/#) or on the OEM website directly, once such example is [HMD Global’s Nokia Smartphone Security Maintenance Release Summary](https://www.nokia.com/phones/en_int/security-updates) (*No guaranteed Security Patch updates after*):
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2022/01/image-1.png)When filtering the solutions directory to show devices guaranteed to support security updates through to January 2025 (three years from buying a device today that would fall within the 90% of 90 day declared security patches) returns only [10 units](https://androidenterprisepartners.withgoogle.com/devices/#!?device_type=phone&device_categories=knowledge_worker&smrDate=2025-01-28T00:00:00.000Z) for Knowledge Worker (ie, non-rugged, phone only), and they’re all Samsung.
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2022/01/image-1.png)
+
+When filtering the solutions directory to show devices guaranteed to support security updates through to January 2025 (three years from buying a device today that would fall within the 90% of 90 day declared security patches) returns only [10 units](https://androidenterprisepartners.withgoogle.com/devices/#!?device_type=phone&device_categories=knowledge_worker&smrDate=2025-01-28T00:00:00.000Z) for Knowledge Worker (ie, non-rugged, phone only), and they’re all Samsung.
 
 Rugged phones add an additional 12 units to the mix but these include devices that fell into the 5 year security update support requirement Google mandated up to Android 10, also dropped with 11. Rugged devices also benefit from much better lifecycles generally, with the likes of Zebra working really hard to keep devices up to date, but they’re hardly suitable for all types of deployments wherein knowledge worker devices are a better choice.
 
@@ -47,6 +51,7 @@ That said, the barely-viable two-year support mandate from Google for GMS today 
 
 Hopefully that’ll be reconsidered when the AER requirements are re-assessed in one of the next major releases, and we can get to a place as an ecosystem where organisations like Fairphone, or devices like the Nvidia Shield (I know it’s Android TV) aren’t seen as outliers for continuing to support their hardware for so long.
 
-- - - - - -
+Here's a quick survey
+---------------------
 
-<center><iframe frameborder="0" height="538" loading="lazy" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/e/1FAIpQLSdHZpLZ1FOHcry610YhbffpTD7tjV3sX_gia1LpQnVwRC2hnw/viewform?embedded=true" width="640">Loading…</iframe></center>
+<iframe frameborder="0" height="538" loading="lazy" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/e/1FAIpQLSdHZpLZ1FOHcry610YhbffpTD7tjV3sX_gia1LpQnVwRC2hnw/viewform?embedded=true" width="640">Loading…</iframe>

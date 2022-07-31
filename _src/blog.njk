@@ -9,26 +9,58 @@ layout: archive.njk
 tags: 
 ---
 
+{% for year, yearPosts in collections.postsByYear %}
+  <h2 class="section-title year-heading">{{ year }}</h2>
+    {% for post in yearPosts | reverse %}
+        {% if post in collections.blog %}
+        <div class="post-block">
+            <div class="post-meta">
+                <div class="meta-single">
+                    {% for tag in post.data.tags %}
+                    #<a class="meta-tag" href="/tags/{{ tag | slugify }}/"> {{ tag }} </a>
+                    {% endfor %}        
+                </div>
+            </div>
+            <h3 class="post-title">
+                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h3>
+            <div class="post-meta">
+                <div class="meta-single">
+                    {{ post.date | postDate }}
+                </div>
+            </div>   
+            {% if post.data.excerpt|length %}
+            <div class="post-summary">
+                {{ post.data.excerpt }}
+            </div>
+            {% endif %}
+        </div>
+    {% endif %}
+    {% endfor %}
+{% endfor %}
+
+
 {%- for post in collections.blog | reverse -%}
 <div class="post-block">
+    <div class="post-meta">
+        <div class="meta-single">
+            {% for tag in post.data.tags %}
+            #<a class="meta-tag" href="/tags/{{ tag | slugify }}/"> {{ tag }} </a>
+            {% endfor %}        
+        </div>
+    </div>
     <h3 class="post-title">
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>
+    <div class="post-meta">
+        <div class="meta-single">
+            {{ post.date | postDate }}
+        </div>
+    </div>   
     {% if post.data.excerpt|length %}
     <div class="post-summary">
         {{ post.data.excerpt }}
     </div>
     {% endif %}
-    <div class="post-meta">
-        <div class="meta-single">
-            🗓 {{ post.date | postDate }}
-        </div>
-        <div class="meta-single">
-            🏷 #{{ post.data.tags }}               
-        </div>
-        <div class="meta-single">
-            ⏳ {{ 'text' | timeToRead }}          
-        </div>   
-    </div>
 </div>
 {%- endfor -%}
