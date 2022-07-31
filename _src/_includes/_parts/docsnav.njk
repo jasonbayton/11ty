@@ -1,0 +1,44 @@
+<div class="aside-title">
+    <h2>Docs</h2>
+</div>
+<details {% if tags.includes("Getting started") %} open="" {% endif %} >
+    <summary class="docnav-topic-title">
+            Getting started        
+        </summary>
+    <ul>
+        {%- for entry in collections['Getting started'] -%}
+        <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
+        {%- endfor -%}
+    </ul>
+
+</details>
+<details {% if tags.includes("Diving deeper") %} open="" {% endif %} >
+    <summary class="docnav-topic-title">
+            Diving deeper        
+        </summary>
+    <ul>
+        {%- for post in collections['Diving deeper'] -%}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        {%- endfor -%}
+    </ul>
+</details>
+<details {% if tags.includes("Resources") %} open="" {% endif %} >
+    <summary class="docnav-topic-title">
+            Resources        
+        </summary>
+    <ul>
+        {%- for post in collections['Resources'] -%}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        {%- endfor -%}
+    </ul>
+</details>
+<details {% if tags.includes("Hardware validation") %} open="" {% endif %} >
+    <summary class="docnav-topic-title">
+            Hardware validation        
+        </summary>
+    <ul>
+        {%- for post in collections['Hardware validation'] -%}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        {%- endfor -%}
+    </ul>
+</details>

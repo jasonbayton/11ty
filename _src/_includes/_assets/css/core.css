@@ -408,12 +408,13 @@ section#trusted_logos #trusted_container {
 }
 
 #vendor_logo_container {
-  padding: 10px 20px 0;
+  padding: 10px 30px 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: row;
-  margin: 0 30px;
+  background: var(--bright);
+  border-radius: 5px;
 }
 
 .vendor-logo {

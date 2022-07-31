@@ -1,0 +1,16 @@
+<section id="paginate">
+    {% if pagination.href.next %}
+    <h2 id="next" class="section-title">
+        <a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
+        Next
+        </a>
+    </h2>
+    {% endif %}
+    {% if pagination.href.previous %}
+    <h2 id="previous" class="section-title">
+        <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
+        Previous
+        </a>
+    </h2>
+    {% endif %}
+</section>

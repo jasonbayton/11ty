@@ -26,34 +26,7 @@
     <body>
         <header>
         <!-- To be moved to a dedicated file -->
-            <nav>
-                <div id="navbar">
-                    <div id="bayton_logo">
-                    <!--img src="/img/bayton-logo.svg" /-->
-                        <div id="bayton_text">
-                            <a  href="/">Jason Bayton</a>
-                        </div>
-                    </div>
-                    <div id="searchform" class="mobile-hidden">
-                        <span class="fa fa-search" id="search_icon"></span>
-                        <input type="text" name="search" id="searchinput" placeholder="Search..">
-                    </div>
-                    <div id="nav_links" class="mobile-hidden">
-                        <div class="nav-link-individual">
-                            <a href="/about">About</a>
-                        </div>
-                        <div class="nav-link-individual">
-                            <a href="/blog">Blog</a>
-                        </div>
-                        <div class="nav-link-individual">
-                            <a href="/android">Documentation</a>
-                        </div>
-                    </div>
-                    <div id="darktoggle">
-                    <i class="fas fa-clouds-moon"></i>
-                    </div>
-                </div>
-            </nav>
+            {% include "./_parts/header.njk" %}
         </header>
         <content id="home">
             <div id="banner_statement">
@@ -135,17 +108,19 @@
                 <h2 class="section-title">
                     And I write about all of the topics that matter to me
                 </h2>
-                {%- for post in pagination.items -%}
+                {% for post in pagination.items %}
                 <div class="post-block">
                     <h3 class="post-title">
                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                     </h3>
+                    {% if post.data.excerpt|length %}
                     <div class="post-summary">
-                        {{ post.data.excerpt }} ...
+                        {{ post.data.excerpt }}
                     </div>
+                    {% endif %}
                     <div class="post-meta">
                         <div class="meta-single">
-                            🗓 {{ post.date }}
+                            🗓 {{ post.date | postDate }}
                         </div>
                         <div class="meta-single">
                             🏷 #{{ post.data.tags }}               
@@ -162,24 +137,7 @@
             </section>
         </content>
         <footer>
-            <div id="social_icons">
-                <a href="https://linkedin.com/in/jasonbayton" alt="Linkedin"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/jasonbayton" alt="Twitter"><i class="fab fa-twitter-square"></i></a>
-              </div>
-            <div class="footer-images">
-                <img src="/img/aec.webp" />
-                <img src="/img/ve.webp" />
-                <img src="/img/kp.webp" />
-                <img src="/img/platinum.svg" />
-            </div>
-            <div id="made_by">
-                Made with ❤️ by Jason Bayton. Material is © 2009-2022.
-            </div>
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
-            <script src="/js/tocbot.js"></script>
-            <script src="/js/fitvids.js"></script>
-            <script src="/js/darkmodetoggle.js"></script>
-            <script src="/js/search.js"></script>
+            {% include "./_parts/footer.njk" %}
         </footer>
     </body>
 </html>

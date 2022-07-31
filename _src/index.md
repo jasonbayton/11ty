@@ -6,6 +6,7 @@ layout: base_home.njk
 pagination:
   data: collections.blog
   size: 5
+  limit: 5
   reverse: true
 ---
 

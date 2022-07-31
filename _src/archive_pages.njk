@@ -18,18 +18,20 @@ permalink: /tags/{{ tag }}/
     <h3 class="post-title">
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>
+    {% if post.data.excerpt|length %}
     <div class="post-summary">
-        {{ post.data.excerpt }} ...
+        {{ post.data.excerpt }}
     </div>
+    {% endif %}
     <div class="post-meta">
         <div class="meta-single">
-            🗓 {{ post.date }}
+            🗓 {{ post.date | postDate }}
         </div>
         <div class="meta-single">
             🏷 #{{ post.data.tags }}               
         </div>
         <div class="meta-single">
-            ⏳ 37min read               
+            ⏳ {{ 'text' | timeToRead }}                
         </div>   
     </div>
 </div>
