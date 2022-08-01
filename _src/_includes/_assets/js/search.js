@@ -48,19 +48,33 @@
 	};
 	
 	window.addEventListener('load', () => {
-		const params = new Proxy(new URLSearchParams(window.location.search), {
-			get: (searchParams, prop) => searchParams.get(prop),
-		});
+		fetch('/index.json')
+			.then(async (response) => {
+					window.searchContent = await response.json();
+					document.getElementById('searchField')
+						.addEventListener('input', andySearch);
+					
+					const params = new Proxy(new URLSearchParams(window.location.search), {
+						get: (searchParams, prop) => searchParams.get(prop),
+					});
+					
+					if (params.s) {
+						const searchEl = document.getElementById('searchField');
+						searchEl.value = params.s;
+						
+						const event = new Event('input', {
+							bubbles: true,
+							cancelable: true,
+						});
+						
+						searchEl.dispatchEvent(event);
+					}
+					
+				}
+			);
 		
-		document.getElementById('searchField').value = params.s;
+		
 	});
 	
 	
-	fetch('/index.json')
-		.then(async (response) => {
-				window.searchContent = await response.json();
-				document.getElementById('searchField')
-					.addEventListener('input', andySearch);
-			}
-		);
 })(window, document);
