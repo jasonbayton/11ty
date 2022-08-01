@@ -14,7 +14,7 @@
     if (results) {
       noResultsEl.style.display = "none";
       results.map((r) => {
-        const { id, title, description } = r.doc;
+        const { id, title } = r.doc;
         const el = document.createElement("li");
         resEl.appendChild(el);
 
@@ -25,10 +25,6 @@
         a.setAttribute("href", id);
         a.textContent = title;
         h3.appendChild(a);
-
-        const p = document.createElement("p");
-        p.textContent = description;
-        el.appendChild(p);
       });
     } else {
       noResultsEl.style.display = "block";
