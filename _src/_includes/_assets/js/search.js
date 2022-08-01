@@ -37,7 +37,7 @@
 				}
 			})
 			.forEach((result) => {
-				const list = document.createElement('li');
+				const list = document.createElement('h3');
 				const link = document.createElement('a');
 				link.href = result.url;
 				link.innerHTML = result.title;
