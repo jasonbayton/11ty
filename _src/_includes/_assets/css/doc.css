@@ -5,6 +5,13 @@ content#doc {
     grid-gap: 30px;
 }
 
+content#page {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 60px;
+    grid-gap: 30px;
+}
+
 #aside {
     font-size: 18px;
 }
@@ -41,6 +48,7 @@ content#doc {
 .base-title {
     font-size: 80px;
     font-weight: 900;
+    line-height: 60pt;
 }
 
 #aside_docs {
@@ -74,6 +82,7 @@ section#feedback {
 
     .base-title {
         font-size: 40px;
+        line-height: unset;
     }
 
     .post-meta-base {

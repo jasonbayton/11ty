@@ -77,6 +77,26 @@ eleventyConfig.setLibrary("md", markdownLibrary);
       .reverse()
       .value();
   });
+
+// Search!
+  const elasticlunr = require("elasticlunr");
+
+  module.exports = function(collection) {
+    var index = elasticlunr(function() {
+      this.addField("title");
+      this.setRef("id");
+    });
+
+    collection.forEach(page => {
+      index.addDoc({
+        id: page.url,
+        title: page.template.frontMatter.data.title
+      });
+    });
+    return index.toJSON();
+  };
+
+// 11ty output
     return {
       dir: {
         input: "_src",

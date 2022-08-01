@@ -14,7 +14,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/about/380'
 ---
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/11/IMG_20181016_154102-e1542263122979.jpg)Hi, I’m Jason.
+Hi, I’m Jason.
 ===============================================================================
 
 I’m an accredited [Enterprise Mobility](https://twitter.com/hashtag/EnterpriseMobility?src=hash) ([MDM](https://twitter.com/hashtag/MDM?src=hash)) expert and validated Android Enterprise Expert with an interest in [Linux](https://twitter.com/hashtag/Linux?src=hash), [Virtualisation](https://twitter.com/hashtag/Virtualisation?src=hash), [Disaster Recovery](https://twitter.com/hashtag/DR?src=hash), [IoT](https://twitter.com/hashtag/IoT?src=hash), [Web Development](https://twitter.com/hashtag/WebDev?src=hash) and [Open Source](https://twitter.com/hashtag/opensource). I play the [Sousaphone](https://twitter.com/hashtag/Sousaphone?src=hash), too!

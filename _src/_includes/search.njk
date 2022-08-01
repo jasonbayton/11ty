@@ -28,26 +28,15 @@
             </section>
             {% endif %}
             <section id="page_content">
-                <div class="post-meta post-meta-base">
-                    <div class="meta-single post-meta-base-left">
-                        {{ page.date | postDate }}
-                    </div>
-                    <div class="meta-single post-meta-base-right">
-                        {% for tag in tags %}
-                        #<a class="meta-tag" href="/tags/{{ tag | slugify }}/"> {{ tag }} </a>
-                        {% endfor %}
-                    </div>
+                <script type="text/javascript" src="/js/elasticlunr.js"></script>
+                <script type="text/javascript" src="/js/search.js"></script>
+                <div class="field">
+                    <label for="searchField">Search</label>
+                    <input type="search" placeholder="Search..." id="searchField">
                 </div>
-                <hr>
-                <div class="section-title base-title">
-                    {{ title }}
-                </div>
-                <div class="post-block js-toc-content">
-                    <!--
-                    title: "What is Android Enterprise?"
-                    date: "2017-04-07"
-                    -->
-                    {{ content | safe }}
+                <ol id="searchResults"></ol>
+                <div id="noResultsFound" style="display: none">
+                    <p>No results found.</p>
                 </div>
             </section>
             {% if pagination.href.next or pagination.href.previous %}
