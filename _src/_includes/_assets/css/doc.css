@@ -71,6 +71,10 @@ section#feedback {
         grid-template-columns: 1fr;
     }
 
+    #android_doc_grid {
+        grid-template-columns: 1fr;
+    }
+
     section#feedback {
         grid-area: 2/1/2/2;
     }
