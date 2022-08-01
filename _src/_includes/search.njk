@@ -28,10 +28,23 @@
             </section>
             {% endif %}
             <section id="page_content">
+                <div class="post-meta post-meta-base">
+                    <div class="meta-single post-meta-base-left">
+                        {{ page.date | postDate }}
+                    </div>
+                    <div class="meta-single post-meta-base-right">
+                        {% for tag in tags %}
+                        #<a class="meta-tag" href="/tags/{{ tag | slugify }}/"> {{ tag }} </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <hr>
+                <div class="section-title base-title">
+                    {{ title }}
+                </div>
                 <script type="text/javascript" src="/js/elasticlunr.js"></script>
                 <script type="text/javascript" src="/js/search.js"></script>
                 <div class="field">
-                    <label for="searchField">Search</label>
                     <input type="search" placeholder="Search..." id="searchField">
                 </div>
                 <ol id="searchResults"></ol>

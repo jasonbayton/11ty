@@ -408,6 +408,17 @@ content {
   padding: 0 8px 15px;
 }
 
+.field {
+  padding: 40px 0;
+}
+
+#searchField {
+  padding: 15px;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 100%;
+}
+
 button#back_button, button#next_button {
   font-size: 22px;
   padding: 10px 40px;
