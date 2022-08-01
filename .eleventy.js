@@ -23,22 +23,52 @@ module.exports = function (eleventyConfig) {
       return data.timing;
     }
   });
+
+// nice post dates
   eleventyConfig.addFilter("postDate", (dateObj) => {
   return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
+
 // Options for the `markdown-it` library
-  const markdownItOptions = {
-    html: true,
-  }
-// Options for the `markdown-it-anchor` library
-  const markdownItAnchorOptions = {
-    permalink: true,
-    symbol: "U+1F517",
-  }
-  const markdownLib = markdownIt(markdownItOptions).use(
-    markdownItAnchor,
-    markdownItAnchorOptions
-  );
+const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
+  class: "heading-anchor",
+  symbol: "<sup>#</sup>",
+  style: "aria-labelledby",
+});
+const markdownItAnchorOptions = {
+  level: [1, 2, 3, 4],  
+  tabIndex: false,
+  permalink(slug, opts, state, idx) {
+    state.tokens.splice(
+      idx,
+      0,
+      Object.assign(new state.Token("div_open", "div", 1), {
+        // Add class "header-wrapper [h1 or h2 or h3]"
+        attrs: [["class", `heading-wrapper`]],
+        block: true,
+      })
+    );
+
+    state.tokens.splice(
+      idx + 4,
+      0,
+      Object.assign(new state.Token("div_close", "div", -1), {
+        block: true,
+      })
+    );
+
+    linkAfterHeader(slug, opts, state, idx + 1);
+  },
+};
+
+/* Markdown Overrides */
+let markdownLibrary = markdownIt({
+  html: true,
+}).use(markdownItAnchor, markdownItAnchorOptions);
+
+// This is the part that tells 11ty to swap to our custom config
+eleventyConfig.setLibrary("md", markdownLibrary);
+
 // break posts by year
   eleventyConfig.addCollection("postsByYear", (collection) => {
     return _.chain(collection.getAllSorted())
@@ -47,7 +77,6 @@ module.exports = function (eleventyConfig) {
       .reverse()
       .value();
   });
-  eleventyConfig.setLibrary("md", markdownLib);
     return {
       dir: {
         input: "_src",
