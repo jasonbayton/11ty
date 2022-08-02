@@ -456,6 +456,7 @@ section#trusted_logos #trusted_container {
   grid-auto-flow: row;
   background: var(--bright);
   border-radius: 5px;
+  margin-top: 50px;
 }
 
 .vendor-logo {
