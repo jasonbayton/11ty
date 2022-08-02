@@ -17,52 +17,32 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/google-pixel-3a-android-enterprise-validation-report/296'
 ---
-<div class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/06/pixel3a-white-front-min-1.png)</div>1. Tech specs
--------------
+<div class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/06/pixel3a-white-front-min-1.png)</div>
 
-- - - - - -
+## 1. Tech specs
 
-Android 9- - - - - -
+- Android 9
+- 5.6 inch FHD+ display
+- Snapdragon 670 
+- 4GB RAM 
+- 64GB Storage 
+- 12.2/8MP Cameras 
+- NFC
+- Fingerprint
 
-5.6 inch FHD+ display- - - - - -
+## 2. Android Enterprise support
 
-Snapdragon 670 - - - - - -
+- Work profile (BYOD) ✅
+- Fully managed (COBO) ✅
+- Fully managed with work profile (COPE) ✅
+- Dedicated (COSU) ✅
 
-4GB RAM - - - - - -
+- NFC provisioning ✅
+- AFW# provisioning ✅
+- QR provisioning ✅
+- Zero-touch enrolment ✅
 
-64GB Storage - - - - - -
-
-12.2/8MP Cameras - - - - - -
-
- NFC - - - - - -
-
- Fingerprint - - - - - -
-
-2. Android Enterprise support
------------------------------
-
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column">- - - - - -
-
- Work profile (BYOD)- - - - - -
-
- Fully managed (COBO)- - - - - -
-
- Fully managed with work profile (COPE)- - - - - -
-
- Dedicated (COSU)- - - - - -
-
-</div><div class="wp-block-column">- - - - - -
-
- NFC provisioning- - - - - -
-
- AFW# provisioning- - - - - -
-
- QR provisioning- - - - - -
-
- Zero-touch enrolment- - - - - -
-
-</div></div>3. In-depth testing report
---------------------------
+### 3. In-depth testing report
 
 **How to read this report**. This device has been tested against the public [validation process](/android/android-enterprise-device-support/validation-process-and-information/), in which all provisioning methods and deployment scenarios have been tested across at least two EMM platforms.
 
@@ -70,8 +50,10 @@ Where a feature works with one EMM, but does not with another (consider **Enforc
 
 Some features aren’t supported or set up across EMMs, or don’t work with the device (consider **KME** below), where this is the case the feature will be marked as untested (purple).
 
-<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1-e1558114016148.jpg)](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1.pdf)<figcaption>Click the image above for a PDF version</figcaption></figure>4. Notes from the above report
-------------------------------
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1-e1558114016148.jpg)](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1.pdf)
+_Click the image above for a PDF version_
+
+## 4. Notes from the above report
 
 ### 4.1. Device issues
 
@@ -142,7 +124,6 @@ Despite the relevant configurations in place, it is effortless to escape the Mob
 
 **This is a MobileIron issue**, and it affects many devices including recent Nokia and Sony examples.
 
-5. Recommendation
------------------
+## 5. Recommendation
 
 Of the points listed above, most aren’t considered a device issue. On that basis aside from making note of where the individual restrictions failed on the tested EMMs for those customers affected (as it’s highly likely other devices will be affected also), there’s little reason not to consider the Pixel 3a in the enterprise.
