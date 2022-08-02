@@ -337,14 +337,15 @@ content#home {
   grid-area: 2/2/3/3;
   text-align: center;
   font-size: 24px;
-  border-left: 2px solid var(--text);
-  align-self: center;
+  /* border-left: 2px solid var(--text); */
   padding: 10px;
+  background-color: #f0f8ff;
 }
 
 #android_head {
   width: 140px;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 :is(.heading-wrapper :is(h1, h2, h3, h4)) {
@@ -656,6 +657,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 
   #intro_android {
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   #dpc_extras {
