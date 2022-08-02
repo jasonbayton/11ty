@@ -10,6 +10,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
+  eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
   eleventyConfig.addPlugin(timeToRead, {
     speed: '1000 characters per minute',
     language: 'en',
