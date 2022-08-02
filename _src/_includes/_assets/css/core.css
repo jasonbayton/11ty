@@ -218,6 +218,10 @@ button {
   padding-left: 20px;
 }
 
+#bayton_logo img {
+  width: 100px;
+}
+
 #bayton_text {
   font-family: 'Parisienne', cursive;
   font-weight: 300;
