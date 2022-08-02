@@ -9,7 +9,12 @@ content#page {
     display: grid;
     grid-template-columns: 1fr;
     padding-top: 60px;
-    grid-gap: 30px;
+}
+
+content#archive {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 60px;
 }
 
 #aside {
