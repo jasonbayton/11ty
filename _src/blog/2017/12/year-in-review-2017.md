@@ -34,7 +34,7 @@ Here’s to besting that in 2018!
 \#2: Top articles
 -----------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/NC-docs_Banner.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2017/05/NC-docs_Banner.png)
 
 In 2017 a couple of choice articles, both from the newly-launched [documentation](/docs), took the top spots this year, combined contributing to just under 50% of all traffic to the website:
 
@@ -67,7 +67,7 @@ In 2018 I’ll be looking to double-down on this. Should documentation start ent
 \#4: Top countries
 ------------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/12/Screen-Shot-2018-01-01-at-00.41.58.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screen-Shot-2018-01-01-at-00.41.58.png)
 
 The **US** takes top-spot for most visitors in 2017 with almost 20% of all views, followed by the **UK**, **Germany** and **France**. As the graphic shows though, almost every country in the world popped by to say hello at some point!
 

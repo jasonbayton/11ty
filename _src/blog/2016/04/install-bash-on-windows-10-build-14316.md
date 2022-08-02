@@ -39,33 +39,33 @@ Enable the new Bash on Ubuntu on Windows
 
 1 – Right click on the Start icon and select **Programs and Features**.
 
-**![Screenshot (1)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/Screenshot-1.png)**
+**![Screenshot (1)](https://r2_worker.bayton.workers.dev/uploads/2016/04/Screenshot-1.png)**
 
 2 – Click **Turn Windows features on or off**.
 
-![Screenshot (2)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/Screenshot-2.png)
+![Screenshot (2)](https://r2_worker.bayton.workers.dev/uploads/2016/04/Screenshot-2.png)
 
 3 – Scroll down to the new **Windows subsystem for Linux** and tick it, click OK.
 
-![Screenshot (3)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/Screenshot-3.png)
+![Screenshot (3)](https://r2_worker.bayton.workers.dev/uploads/2016/04/Screenshot-3.png)
 
 4 – Wait for it to apply and reboot when prompted.
 
-![Screenshot (5)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/Screenshot-5.png)
+![Screenshot (5)](https://r2_worker.bayton.workers.dev/uploads/2016/04/Screenshot-5.png)
 
 5 – Once the reboot is complete, login and open the command prompt. Type **bash** and hit Enter.
 
-![Screenshot (7)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/Screenshot-7.png)
+![Screenshot (7)](https://r2_worker.bayton.workers.dev/uploads/2016/04/Screenshot-7.png)
 
 6 – Type **y** to confirm you’re happy to proceed.
 
-![bash-y](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/bash-y.png)
+![bash-y](https://r2_worker.bayton.workers.dev/uploads/2016/04/bash-y.png)
 
 *.. wait ages ..*
 
 7 – When complete it’ll pop you straight into bash.
 
-![Screenshot (6)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/Screenshot-6.png)
+![Screenshot (6)](https://r2_worker.bayton.workers.dev/uploads/2016/04/Screenshot-6.png)
 
 That’s all there is to it!
 

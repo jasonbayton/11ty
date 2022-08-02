@@ -46,13 +46,13 @@ To begin with, download the app from [Google Play ](https://play.google.com/stor
 
 Open the RWG Mobile application and enter your current SIM telephone number.
 
-[![Screenshot_2016-07-21-14-55-06](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-55-06.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-55-06.png)
+[![Screenshot_2016-07-21-14-55-06](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-06.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-06.png)
 
 ### Step 2
 
 The app will then send a verification PIN to the device via SMS.
 
-[![Screenshot_2016-07-21-14-55-18](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-55-18.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-55-18.png)
+[![Screenshot_2016-07-21-14-55-18](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-18.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-18.png)
 
 ### Step 3
 
@@ -77,7 +77,7 @@ Once the PIN verification completes, agree to the terms and conditions and skip 
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-medium" id="gallery-9"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-55-46.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-55-56.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-55-58.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-56-01.png) </dt></dl>  
+<div class="gallery galleryid-0 gallery-columns-4 gallery-size-medium" id="gallery-9"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-46.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-56.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-58.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-01.png) </dt></dl>  
  </div>### Step 4
 
 Following the promotional screens, select **GET NUMBER**. On the next screen input a profile name, again tap **Get number** and accept the prompt warning your number will expire if you don’t get at least one call forwarded every 30 days.
@@ -101,12 +101,12 @@ Following the promotional screens, select **GET NUMBER**. On the next screen inp
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-10"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-56-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-56-41.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-14-56-46.png) </dt></dl>  
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-10"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-41.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-46.png) </dt></dl>  
  </div>### Step 5
 
 You’ll now be taken to the home screen. Credit is shown as £0.00 but this doesn’t matter as it won’t be needed. If it isn’t already selected, tap the new profile you created along the bottom of the screen; in my case it’s named **VM**. Now tap **Settings**.
 
-[![Screenshot_2016-07-21-16-01-57](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png)
+[![Screenshot_2016-07-21-16-01-57](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png)
 
 ### Step 6
 
@@ -134,32 +134,32 @@ When you return to the app home screen you’ll be met with a green cross throug
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-5 gallery-size-medium" id="gallery-11"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-02-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-02-15.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-02-23.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-03-01.png) </dt></dl>  
+<div class="gallery galleryid-0 gallery-columns-5 gallery-size-medium" id="gallery-11"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-15.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-23.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-03-01.png) </dt></dl>  
  </div>### Step 7
 
 With the RWG configuration out of the way, now is the time to configure your mobile device to forward unanswered calls to RWG Mobile.
 
 The settings area where this takes place can differ between devices. LG for example requires you open the phone app, tap the menu icon and head into **Call settings**. From there the option **Forwarding** is listed.
 
-[![Screenshot_2016-07-21-16-25-04](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-25-04.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-25-04.png)
+[![Screenshot_2016-07-21-16-25-04](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-25-04.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-25-04.png)
 
 On Samsung devices, you must open the phone app, tap the menu icon, enter **Settings**, select **Call**, tap **More settings** and you’ll find **Forwarding** in that submenu.
 
 Either way, once you end up in **Forwarding**, the view should be fairly consistent. Select under which circumstances you wish for your call to be forwarded and enter your RWG Mobile number.
 
-[![Screenshot_2016-07-21-16-25-18](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-25-18.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-25-18.png)
+[![Screenshot_2016-07-21-16-25-18](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-25-18.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-25-18.png)
 
 Once finished, return to your home screen and wait for your next missed call!
 
-[![Screenshot_2016-07-21-16-05-01](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-05-01.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-05-01.png)
+[![Screenshot_2016-07-21-16-05-01](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-05-01.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-05-01.png)
 
 Tapping on the notification will take you directly to that voicemail:
 
-[![Screenshot_2016-07-21-16-37-43](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-37-43.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/Screenshot_2016-07-21-16-37-43.png)
+[![Screenshot_2016-07-21-16-37-43](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-37-43.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-37-43.png)
 
 Though you can view all voicemails at any time by tapping Voicemail from within the RWG Mobile app. You can add other devices by simply following the same steps to register, always choosing the primary phone number when it asks. A PIN will be sent and moments later it’ll all sync up. VMs on any (Android/iOS) device:
 
-[![anydevice](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/anydevice.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/anydevice.png)
+[![anydevice](https://r2_worker.bayton.workers.dev/uploads/2016/07/anydevice.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/anydevice.png)
 
 Of course, if you’re not happy using the same voicemail number for all messages, additional profiles (and as such, voicemail greetings) can come in handy to maintain that separation. All VMs across all profiles are still accessible through the one single app however you wish to set it up.
 

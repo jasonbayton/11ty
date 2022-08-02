@@ -45,7 +45,7 @@ In larger groups or SMBs where day to day management of devices needs to be hand
 
 These two features go hand-in-hand for the management of devices in larger teams. While it is possible to have one admin logon shared between many administrators, there is no reliable audit log of changes on a per-admin level. Did Rick wipe that device? Did Emma push out Angry birds to the management team? As a company grows and device management becomes increasingly critical, having a breadcrumb trail to know who did what and when becomes very useful indeed.
 
-![Events view – Miradore Online – bayton](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/Events-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)
+![Events view – Miradore Online – bayton](https://r2_worker.bayton.workers.dev/uploads/2016/02/Events-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)
 
 In addition, limiting the roles an admin can have brings additional benefits. It means safely assigning Jill in HR the ability to keep an eye on her team’s mobile devices while preventing access to devices outside of her team. Similarly Ben, the new IT intern, can have full visibility of the entire solution while he shadows his colleagues without the risk of him changing critical configurations or system settings.
 
@@ -71,7 +71,7 @@ Miradore’s Business subscription includes location tracking using an approach 
 
 Even better, it’s now available on iOS too!
 
-![Map view – Miradore Online – bayton](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/Map-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)
+![Map view – Miradore Online – bayton](https://r2_worker.bayton.workers.dev/uploads/2016/02/Map-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)
 
 ### Application management
 

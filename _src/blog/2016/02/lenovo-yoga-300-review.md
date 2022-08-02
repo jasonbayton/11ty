@@ -28,11 +28,11 @@ At least until I got it.
 Size
 ----
 
-![20160219_091516](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/20160219_091516.jpg)For a laptop that houses a 11.6″ screen it is large. Pictured above the Yoga is sat on top of a Thinkpad x240 – a laptop that houses a 12.5″ screen with reasonable bezels. While the Yoga is undeniably slimmer than the i5-wielding business powerhouse, it matches the Thinkpad’s width and depth with ease.
+![20160219_091516](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160219_091516.jpg)For a laptop that houses a 11.6″ screen it is large. Pictured above the Yoga is sat on top of a Thinkpad x240 – a laptop that houses a 12.5″ screen with reasonable bezels. While the Yoga is undeniably slimmer than the i5-wielding business powerhouse, it matches the Thinkpad’s width and depth with ease.
 
 Speaking of bezels, the Yoga’s are **ginormous**.
 
-![20160219_092657](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/20160219_092657.jpg)They don’t look particularly small on Lenovo’s website, but actually seeing them in person reinforces how much of that whole screen area is completely wasted. I’m not sure of the technical reasons as to why they couldn’t have made the Yoga physically smaller to better match the screen they opted for, but the end result isn’t pretty.
+![20160219_092657](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160219_092657.jpg)They don’t look particularly small on Lenovo’s website, but actually seeing them in person reinforces how much of that whole screen area is completely wasted. I’m not sure of the technical reasons as to why they couldn’t have made the Yoga physically smaller to better match the screen they opted for, but the end result isn’t pretty.
 
 Lenovo don’t appear to publish the dimensions on their product pages for the Yoga [here ](https://support.lenovo.com/gb/en/documents/pd100796)and [here](http://shop.lenovo.com/gb/en/laptops/lenovo/yoga/yoga-300-11/). Amazon do, but given they also provide dimensions for the x240 and there’s almost no comparison between the dimensions listed (41.4 x 27.2 x 8.2 cm vs 30.6 x 20.9 x 2 cm for the Yoga and x240 respectively) I couldn’t trust them.
 
@@ -56,7 +56,7 @@ As a touchscreen device I can’t *really* say anything negative. The screen is 
 
 It wasn’t until after I’d finished setting it up that I started noticing problems. As I settled down with a cup of tea for the evening to do some writing – the reason I got this laptop – it became evident the keyboard was a little unresponsive. Particularly the spacebar and keys towards the top right-hand corner would depress fine, but not type the resulting character(s) every time.
 
-![20160219_101237](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/20160219_101237.jpg)I’m not sure what that’s like for most people, but for me it’s a little like struggling with [slow internet](http://theoatmeal.com/comics/no_internet).
+![20160219_101237](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160219_101237.jpg)I’m not sure what that’s like for most people, but for me it’s a little like struggling with [slow internet](http://theoatmeal.com/comics/no_internet).
 
 The keyboard itself, ignoring the issues, is a good size with adequate (but not great) travel. Just as with the screen there would be nothing wrong with bringing the edges of the laptop in closer to the edges of the keyboard to result in a smaller and lighter device, however Lenovo chose not to.
 
@@ -67,7 +67,7 @@ The trackpad feels nice, though could be larger. I’m not a big fan of having t
 Thanks, but no thanks
 ---------------------
 
-![20160218_162725](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/20160218_162725.jpg)So with the issues around the keyboard (apparently a common problem usually resulting in a keyboard swap by Lenovo on other models), the volume rocker, the so-so performance and size of the machine, I’m not particularly happy with it.
+![20160218_162725](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160218_162725.jpg)So with the issues around the keyboard (apparently a common problem usually resulting in a keyboard swap by Lenovo on other models), the volume rocker, the so-so performance and size of the machine, I’m not particularly happy with it.
 
 While I’ve no doubt some won’t mind the extra size and weight associated with putting an 11.6″ screen into the body of a 12.5″ laptop, it’s not for me.
 

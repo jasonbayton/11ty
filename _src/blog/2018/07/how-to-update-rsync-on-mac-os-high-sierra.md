@@ -19,7 +19,7 @@ discourse_permalink:
 tags:
     - Guides
 ---
-<div class="bs-callout bs-callout-info"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/07/Joel400.jpg)### Contributing author
+<div class="bs-callout bs-callout-info"> ![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Joel400.jpg)### Contributing author
 
  This is one of a series of posts contributed to bayton.org by guest authors. [Click here](https://www.linkedin.com/in/jo%C3%ABl-scholten-9b822b35/) to learn more about Joel. </div>Out of the box, Mac OS Mojave ships with a 12 year old version of Rsync. The reason for this is that Apple doesn’t include anything released under GPLv3 or similar licenses.
 
@@ -44,7 +44,7 @@ sudo nano /private/etc/paths
 ```
 ```
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/07/Screen-Shot-2018-07-08-at-15.31.49.png)Now you are ready to install the new Rsync version, and can do so as follows:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Screen-Shot-2018-07-08-at-15.31.49.png)Now you are ready to install the new Rsync version, and can do so as follows:
 
 ```
 <pre class="wp-block-code">```

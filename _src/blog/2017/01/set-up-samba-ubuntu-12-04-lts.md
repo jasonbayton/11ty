@@ -86,19 +86,19 @@ Open the `smb.conf` file. This will allow you to edit the Samba workgroup (if re
 
 `sudo vim /etc/samba/smb.conf`
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/sambaconf.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/sambaconf.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/01/sambaconf.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/sambaconf.png)
 
 If you use a DOMAIN/WORKGROUP, edit the following line, otherwise, skip down to near the bottom of the file:
 
 `workgroup = <strong>WORKGROUP</strong>`
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/workgroup.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/workgroup.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/01/workgroup.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/workgroup.png)
 
 `WORKGROUP` can be substituted for a domain (such as bytn.uk shown in my video) or a custom workgroup name.
 
 Now head down to the end of the file, and add your share like so:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/shareinsert.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/shareinsert.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/01/shareinsert.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/shareinsert.png)
 
 Here’s a handy template to copy/paste:
 
@@ -124,7 +124,7 @@ Next, as the share requires authentication you’ll need usernames and passwords
 
 `sudo smbpasswd -a <strong>jason</strong>`
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/passwd.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/01/passwd.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/01/passwd.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/passwd.png)
 
 The password doesn’t have to match that of your Ubuntu user account, it can be totally unique to Samba (which isn’t a bad idea!).
 

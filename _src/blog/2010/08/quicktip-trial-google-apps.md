@@ -30,10 +30,10 @@ Here’s the procedure:
 Log onto the following page:  
 <http://www.google.com/a/cpanel/sample/new>
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Untitled2222.png "Untitled2222")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Untitled2222.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Untitled2222.png "Untitled2222")](https://r2_worker.bayton.workers.dev/uploads/2010/08/Untitled2222.png)
 
 Fill out your details and click “I accept”.
 
 Voila.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Untitled1.png "Untitled1")](https:/bayton.org/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Untitled1.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Untitled1.png "Untitled1")](https:/bayton.org/https://r2_worker.bayton.workers.dev/uploads/2010/08/Untitled1.png)

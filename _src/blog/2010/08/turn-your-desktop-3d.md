@@ -41,9 +41,9 @@ I also have the pro version, but you’ll need to [contact me](mailto:jason@bayt
 
 **Download BumpTop here:** [**DOWNLOAD**](/download/BumpTop.rar)
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/bumptop.png "bumptop")
+![](https://r2_worker.bayton.workers.dev/uploads/2010/08/bumptop.png "bumptop")
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/bumptop-desk2_600.jpg "bumptop-desk2_600")
+![](https://r2_worker.bayton.workers.dev/uploads/2010/08/bumptop-desk2_600.jpg "bumptop-desk2_600")
 
 Thanks,  
 Jason.

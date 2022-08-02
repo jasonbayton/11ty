@@ -61,7 +61,7 @@ Parts list
 
 With the above objectives outlined I put in the order:
 
-![20160627_092652](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/06/20160627_092652.jpg)
+![20160627_092652](https://r2_worker.bayton.workers.dev/uploads/2016/06/20160627_092652.jpg)
 
 ### Motherboard
 
@@ -91,7 +91,7 @@ Update: I got my hands on a Dell H200 dual-controller 8-channel SAS card flashed
 
 Already owning a [HAF Stacker 935](http://www.coolermaster.com/case/full-tower-haf-series/haf935/) consisting of the 925 and 915R, for Obsidian I’ve chosen to take the existing 915R from the 2015 build and combine it with a 915F stacked on top to house the server components. It’ll then look similar to this: (image courtesy of OC3D)
 
-![05105110723l](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/06/05105110723l.jpg)
+![05105110723l](https://r2_worker.bayton.workers.dev/uploads/2016/06/05105110723l.jpg)
 
 The 915F was sourced as an open-box item through eBay for £38
 

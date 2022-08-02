@@ -77,7 +77,7 @@ The dispute was left to progress.
 
 I requested updates every few days and got the same old drivel back from the Play Store. In the mean time, I was asked by my bank to provide any evidence that would help my case with the dispute. This is how it looked:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/11/2012-1.jpg "2012 - 1")
+![](https://r2_worker.bayton.workers.dev/uploads/2012/11/2012-1.jpg "2012 - 1")
 
 Having sent that off (1.5 months worth of emails, receipts, tickets, etc), I waited. I gave up on contacting the Play Store because they are, frankly, useless.
 

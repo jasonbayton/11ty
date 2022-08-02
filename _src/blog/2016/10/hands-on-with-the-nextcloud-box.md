@@ -33,11 +33,11 @@ Some of the previously enterprise-only features released as part of the standard
 
 </div>In addition to recently announcing version 10, Nextcloud have worked with Canonical and WDLabs to bring to market the [Nextcloud Box](https://nextcloud.com/box), a small (not quite [fitlet-RM](/2016/07/hands-on-fitlet-rm-a-fanless-industrial-mini-pc-by-compulab/) small but still), Raspberry Pi-powered, Snappy Ubuntu Core server with a 1TB WD PiDrive retailing currently for £60. I asked Nextcloud if I could get a review unit and a fortnight later it arrived at my door complete with a Raspberry Pi (not included on retail units).
 
-[![img_20161004_110556](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/IMG_20161004_110556.jpg)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/IMG_20161004_110556.jpg)
+[![img_20161004_110556](https://r2_worker.bayton.workers.dev/uploads/2016/10/IMG_20161004_110556.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/IMG_20161004_110556.jpg)
 
 Unpacked it looks a little something like this:
 
-[![wp_20161006_14_51_50_pro](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/WP_20161006_14_51_50_Pro.jpg)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/WP_20161006_14_51_50_Pro.jpg)
+[![wp_20161006_14_51_50_pro](https://r2_worker.bayton.workers.dev/uploads/2016/10/WP_20161006_14_51_50_Pro.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/WP_20161006_14_51_50_Pro.jpg)
 
 As pictured, the package comes with:
 
@@ -53,17 +53,17 @@ Again, the Pi is not included in retail units so will have to be supplied. Curre
 Build
 -----
 
-![build](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/build.gif)
+![build](https://r2_worker.bayton.workers.dev/uploads/2016/10/build.gif)
 
 As the Nextcloud Box comes disassembled it will naturally need to be put together.
 
 This is as simple as screwing the Pi into the enclosure with the 4 supplied screws and cabling it up as shown above. Nextcloud provide a handy image to demonstrate how the cables should be routed (click for PDF):
 
-[![guide](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/guide.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/Box-Assembly-Guide.pdf)
+[![guide](https://r2_worker.bayton.workers.dev/uploads/2016/10/guide.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/Box-Assembly-Guide.pdf)
 
 To me the cable routing felt a little tight, I wasn’t too excited by how sharply-angled the USB cable coming out of the Pi had to be for this setup, but it works regardless. The ethernet cable (not pictured in the instructions) can easily follow the route of the power cable as the cutout is certainly large enough for both:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/WP_20161006_15_16_34_Pro.jpg)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/WP_20161006_15_16_34_Pro.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/10/WP_20161006_15_16_34_Pro.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/WP_20161006_15_16_34_Pro.jpg)
 
 Once assembled, the lid secures with a few powerful magnets making it wonderfully easy to gain access if required without the need for tools.
 
@@ -72,11 +72,11 @@ Setup
 
 After powering it up there’s a bit of a wait while a built-in script takes care of pre-setup of the Nextcloud environment (8-10 minutes is stated, though mine didn’t take that long) and eventually navigating to <http://ubuntu-standard.local> – or <http://ubuntu-standard.yourdomain> if you don’t use `local` internally like me – should present the Nextcloud interface requesting the creation of a new administrator:
 
-[![1-add-admin](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/1-add-admin.jpg)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/1-add-admin.jpg)
+[![1-add-admin](https://r2_worker.bayton.workers.dev/uploads/2016/10/1-add-admin.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/1-add-admin.jpg)
 
 Once credentials are created, we’re in:
 
-[![1-in](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/1-in.jpg)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/1-in.jpg)
+[![1-in](https://r2_worker.bayton.workers.dev/uploads/2016/10/1-in.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/1-in.jpg)
 
 Yes, that’s really all it takes. It’s worth noting this is still Nextcloud 9. An update to 10 is currently in the works as of publishing.
 
@@ -94,7 +94,7 @@ Being a Snappy Ubuntu Core, there are a slew of other apps that can be installed
 
 Snapweb is a graphical interface for searching and installing various snaps through the Snap store. It’s much easier for those unfamiliar or uncomfortable with the command line:
 
-[![snapweb](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/Snapweb.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/Snapweb.png)
+[![snapweb](https://r2_worker.bayton.workers.dev/uploads/2016/10/Snapweb.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/Snapweb.png)
 
 Unfortunately at the moment Snapweb itself requires manual installation via the command line as follows:
 

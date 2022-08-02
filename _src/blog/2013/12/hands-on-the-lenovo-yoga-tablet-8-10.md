@@ -24,12 +24,12 @@ Lenovo have come out guns-blazing this year to take on the competition with the 
 
 Meet the Lenovo Yoga Tablet:
 
-[![Yoga 8 and 10](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/IMG_20131125_130916-1024x768.jpg)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/IMG_20131125_130916.jpg)
+[![Yoga 8 and 10](https://r2_worker.bayton.workers.dev/uploads/2013/12/IMG_20131125_130916-1024x768.jpg)](https://r2_worker.bayton.workers.dev/uploads/2013/12/IMG_20131125_130916.jpg)
 
 Out of the box
 --------------
 
-[![Lenovo boxed](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/IMG_20131121_182236-300x225.jpg)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/IMG_20131121_182236.jpg)The Lenovo Yoga Tablet is an Android JellyBean Apple Trackpad-looking device boasting a large, cylindrical, 18 hour\* battery with a modest price tag. It has a unique shape that allows it to be more comfortable in the hand and practical on the table. The battery compartment holds a stand which can be pushed out into various angles to allow for a simple, comfortable viewing experience without the need to prop it up or use a case.
+[![Lenovo boxed](https://r2_worker.bayton.workers.dev/uploads/2013/12/IMG_20131121_182236-300x225.jpg)](https://r2_worker.bayton.workers.dev/uploads/2013/12/IMG_20131121_182236.jpg)The Lenovo Yoga Tablet is an Android JellyBean Apple Trackpad-looking device boasting a large, cylindrical, 18 hour\* battery with a modest price tag. It has a unique shape that allows it to be more comfortable in the hand and practical on the table. The battery compartment holds a stand which can be pushed out into various angles to allow for a simple, comfortable viewing experience without the need to prop it up or use a case.
 
 These tablets are firmly aimed at the lower-end of the market, which will become more obvious as the review progresses. Both tablets come with a cable, charging block and a couple of booklets. No earphones or other niceties here, folks.
 
@@ -52,7 +52,7 @@ What’s on the inside? Under the hood as already mentioned is 16GB of internal 
 
 With that covered, I’m going to just briefly cover the form-factor. After all, this is in fact the single greatest selling point of the Yoga tablet line isn’t it? Here’s the tablet side-on:
 
-<div class="wp-caption alignnone" id="attachment_1545" style="width: 1034px">[![Source: Lenovo.com](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7-e1387901348529-1024x460.jpg)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7.jpg)*Source: [Lenovo.com](http://lenovo.com)*
+<div class="wp-caption alignnone" id="attachment_1545" style="width: 1034px">[![Source: Lenovo.com](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7-e1387901348529-1024x460.jpg)](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7.jpg)*Source: [Lenovo.com](http://lenovo.com)*
 
 </div>As you can see above, the tablet is a wedge-shape, gradually fattening as your eyes gaze from left to right. It’s a nice looking tablet, especially from a distance, but just how practical is this design?
 
@@ -62,14 +62,14 @@ Of course, that’s providing you only wish to use it in portrait orientation an
 
 Then there’s the stand! Lenovo suggest two methods of using it once you’ve twisted the stand out:
 
-<div class="wp-caption alignnone" id="attachment_1546" style="width: 1034px">[![tilt and stand](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/tilt-and-stand-1024x287.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/tilt-and-stand.png)*Source: [Lenovo.com](http://lenovo.com)*
+<div class="wp-caption alignnone" id="attachment_1546" style="width: 1034px">[![tilt and stand](https://r2_worker.bayton.workers.dev/uploads/2013/12/tilt-and-stand-1024x287.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/tilt-and-stand.png)*Source: [Lenovo.com](http://lenovo.com)*
 
 </div>In testing both of these methods, I’ve found “tilt” to be a lot more useful. The angle on “stand” is too harsh and makes it less than ideal to work with. Thankfully although Lenovo don’t mention it, I found it was possible to push the screen back a little which made it a lot easier to use, but too far and it’ll fall over.
 
 Software
 --------
 
-[![lenovo glitch](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/lenovo-glitch.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/lenovo-glitch.png)
+[![lenovo glitch](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-glitch.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-glitch.png)
 
 I’d hoped while unboxing that I’d be greeted by a nice, vanilla version of Android but that is definitely not the case here, the Yoga Tablets ship with a fairly heavily skinned version of Android 4.2.
 
@@ -77,7 +77,7 @@ Worse still is the fact that it hasn’t been skinned very well at all. The inte
 
 #### The launcher
 
-[![Lenovo 21](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-11-21-19-04-23-1024x640.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-11-21-19-04-23.png)
+[![Lenovo 21](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-11-21-19-04-23-1024x640.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-11-21-19-04-23.png)
 
 Lenovo’s shipped launcher is a failed attempt to copy and improve upon the iOS homescreen. There is no app drawer so if you want to access your applications you need to swipe left through page after page of applications on the homescreen.
 

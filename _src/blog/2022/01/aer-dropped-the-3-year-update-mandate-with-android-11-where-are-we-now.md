@@ -22,7 +22,7 @@ Continuing on from [losing my bet with Google](/2022/01/i-made-a-bet-with-google
 
 For those who missed it, the AER requirements for Android 11 changed from a minimum update term, to the following:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2022/01/image-2.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2022/01/image-2.png)
 
 Google never publicly published the 3 year mandate for knowledge worker devices – for reasons unknown – but it was there nevertheless. The new requirement would make a great addition to mandated update support in requiring more transparency, but alone it’s pretty weak.
 
@@ -30,7 +30,7 @@ As mentioned in my previous post the [transparency report](https://transparencyr
 
 It’s unlikely Google will track further out than 24 months so the transparency report will only offer value to a limited extent in monitoring overall longevity of update support; instead properly understanding how long devices will be supported will require a lot more work in tracking the OEMs themselves, either through [Google’s AER directory](https://androidenterprisepartners.withgoogle.com/devices/#) or on the OEM website directly, once such example is [HMD Global’s Nokia Smartphone Security Maintenance Release Summary](https://www.nokia.com/phones/en_int/security-updates) (*No guaranteed Security Patch updates after*):
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2022/01/image-1.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2022/01/image-1.png)
 
 When filtering the solutions directory to show devices guaranteed to support security updates through to January 2025 (three years from buying a device today that would fall within the 90% of 90 day declared security patches) returns only [10 units](https://androidenterprisepartners.withgoogle.com/devices/#!?device_type=phone&device_categories=knowledge_worker&smrDate=2025-01-28T00:00:00.000Z) for Knowledge Worker (ie, non-rugged, phone only), and they’re all Samsung.
 

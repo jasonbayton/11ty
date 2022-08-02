@@ -41,7 +41,7 @@ What’s happening
 
 Google are no longer supporting the use of work profiles on fully managed devices (WPoFMD) in Android 11. Instead, they’re working on something they’re calling an enhanced work profile experience (what I’ll refer to throughout for simplicity and differentiation as *enhanced work profile*).
 
-<div class="wp-block-group has-background" style="background-color:#eef9ff"><div class="wp-block-group__inner-container">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/02/baytonI-3.png) **The key difference between the two is how they’re provisioned.**
+<div class="wp-block-group has-background" style="background-color:#eef9ff"><div class="wp-block-group__inner-container">![](https://r2_worker.bayton.workers.dev/uploads/2020/02/baytonI-3.png) **The key difference between the two is how they’re provisioned.**
 
 Today AE COPE provisions the device fully managed, then inflates a work profile for corporate apps, leaving the managed parent profile available for personal use. It’s still a fully managed device and so IT have equivalent control and visibility to any other fully managed deployment scenario.
 
@@ -155,6 +155,6 @@ It’s going to be interesting watching the ecosystem now take on the unnecessar
 
 Ahead of 11, here’s an updated graphic with the newly recycled COPE deployment scenario:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/02/AEtypes11-Page-6-1.png)I won’t miss the absurdly long name though.
+![](https://r2_worker.bayton.workers.dev/uploads/2020/02/AEtypes11-Page-6-1.png)I won’t miss the absurdly long name though.
 
 *What’s your view of the change? Are you a user happy with the increased focus on privacy? An IT admin frustrated by the loss of capabilities? Sound off in the comments, on [LinkedIn](https://linkedin.com/in/jasonbayton) or [Twitter](https://twitter.com/jasonbayton)*

@@ -34,7 +34,7 @@ First however, stats
 
 ### Android Enterprise activations
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_094513.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_094513.jpg)
 
 Over the last 12 months, Android Enterprise activations have grown 10x when comparing devices under “modern” (that’s Android Enterprise, in case you wondered) management to this time last year.
 
@@ -44,7 +44,7 @@ What it does mean in any case is growth, and the continued growth of Android Ent
 
 ### Zero-touch growth
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_094003.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_094003.jpg)
 
 Although I missed the graphs David was showing around zero-touch growth the message came through. Despite resellers still being an active bottleneck for the program, zero-touch is getting bigger and more viable every day. At the time of the event we have 31 devices available through 9 OEMs, and resellers *are* coming aboard rapidly too.. they’re just not public yet. Due to the legal and contractual requirements from both sides, getting a reseller on board can take a little while.
 
@@ -54,7 +54,7 @@ The growth of zero-touch can also be directly attributed to the Android Enterpri
 
 On the other end of the spectrum, the work done by the Google Play Protect and Android security teams appears to continue to pay off, as we see the number of PHAs in 2017 drop to their lowest number, ever. If you’ve read through the [Android Security Report 2017](https://source.android.com/security/reports/Google_Android_Security_2017_Report_Final.pdf) the following slide will look familiar:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_103557.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_103557.jpg)
 
 0.01% infection rate for Google Play application installations is pretty incredible. Not to mention the dramatic decline of PHAs installed outside of the Play Store also. When Android asks if it can verify applications installed from unknown sources, this is why users should be tapping **yes***.*
 
@@ -62,7 +62,7 @@ As a reminder, Play Protect scans **50 Billion** applications every day through 
 
 ### More security patches, more often
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_104202.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_104202.jpg)
 
 Over the last year the number of devices receiving patches has increased by 30% to top 1 Billion in 2017. Once again bolstered by programs such as Android Enterprise Recommended and soon to be bettered once more with the introduction what looks to be [mandatory patching](https://www.xda-developers.com/google-require-oem-regular-security-patches/) written directly into OEM agreements:
 
@@ -79,7 +79,7 @@ There are more stats available over on the [live blog](/2018/05/live-android-ent
 Device Administrator deprecation
 --------------------------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_140053.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_140053.jpg)
 
 At this point I’m starting to [feel](https://blogs.vmware.com/euc/2018/05/android-device-administrator-deprecation.html) like [everyone](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) has [talked](https://developers.google.com/android/work/device-admin-deprecation), at [length](https://www.blog.google/products/android-enterprise/why-its-time-enterprises-adopt-androids-modern-device-management-apis/), about Device Administrator deprecation since its original announcement back in December, however judging by the chatter around the event it was, is and will continue to be news to both customers and partners alike for some time.
 
@@ -104,7 +104,7 @@ While true many devices today will not see a Q/2019 Android update and therefore
 Zero-touch EMM integration
 --------------------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_134140.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_134140.jpg)
 
 I was pleased to hear of the work Google are doing to better integrate zero-touch with existing solutions. Those familiar with iOS management will know EMMs have been managing DEP devices and pushing DEP profiles from within the EMM for quite some time.
 
@@ -115,7 +115,7 @@ Zero-touch integration is a highlight for me as it makes the whole process simpl
 OEMConfig
 ---------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_154205.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_154205.jpg)
 
 OEMConfig is very likely the most exciting announcement of the event for me as the implications are incredible. To understand why, here’s a little history:
 
@@ -136,7 +136,7 @@ More info on OEMConfig will be coming soon.
 DPC migration
 -------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180509_114132.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180509_114132.jpg)
 
 DPC migration isn’t new, having been announced some time ago, however the team expanded on the this quite significantly at the event; we now know in-depth how migration will work and what it could mean for both migration within an existing EMM (on-prem to cloud, native to AMAPI) and also between competing EMMs.
 
@@ -153,7 +153,7 @@ Expanding Android Enterprise Recommended
 
 When Google previously announced the AER program (covered [here](/2018/02/enterprise-ready-google-launch-android-enterprise-recommended/)), the intention was always to expand further afield than only phones. At the event Google offered further insight into what’s to come, including carriers, ISVs and expanding the program out to more devices, namely tablets and rugged:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_094904.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_094904.jpg)
 
 This expansion out to additional partner types is still very much under development so was more of a reiteration (in terms of what I can share at least), however on the device front we’re seeing some tangible progress.
 
@@ -178,7 +178,7 @@ Improvements to COSU
 
 This falls under the domain of Android P, but I’ve not updated my [original Android P article](/2018/03/android-p-demonstrates-googles-focus-on-the-enterprise/) to reflect the new announcements at the event just yet, so I’ll do so here:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180509_095935.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180509_095935.jpg)
 
 Google have been focusing really hard on the single use scenario for P, and while I’ve covered off things like ephemeral users in other posts, the new and improved native kiosk which includes both single app and multi-app support is a rather exciting feature.
 
@@ -189,7 +189,7 @@ EMMs and other partners will now not need to worry about developing a kiosk solu
 Project treble
 --------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_104751.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_104751.jpg)
 
 Finally, I just wanted to take a moment to touch on Project Treble.
 

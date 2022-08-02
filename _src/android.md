@@ -35,7 +35,7 @@ Device admin deprecation is now official with Android 10! Unsure what this means
 
 <div class="android-doc-grid-group">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/startertripledroid.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2017/04/startertripledroid.png) 
 ## Getting started
 
 Just getting familiar with Android or Android Enterprise? Start here. The following documents offer an introduction to Android Enterprise and the various moving parts in order to offer a broad overview of the ecosystem.
@@ -49,7 +49,7 @@ Just getting familiar with Android or Android Enterprise? Start here. The follow
 </div>
 <div class="android-doc-grid-group">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/triodroidlearning.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidlearning.png) 
 ## Diving deeper
 
 Ready to learn more? Read on.
@@ -63,7 +63,7 @@ Ready to learn more? Read on.
 </div>
 <div class="android-doc-grid-group">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/triodroidselfies-1.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidselfies-1.png) 
 ## Resources
 
 Free guides, infographics and other information.
@@ -77,7 +77,7 @@ Free guides, infographics and other information.
 </div>
 <div class="android-doc-grid-group">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/droidtrioresources.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2017/04/droidtrioresources.png) 
 ## External resources
 
 Useful documentation from other sources.
@@ -92,7 +92,7 @@ Useful documentation from other sources.
 </div>
 <div class="android-doc-grid-group">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/externalblogg.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2019/01/externalblogg.png) 
 ## External blog articles
 
 Articles contributed to other sources.
@@ -108,7 +108,7 @@ Articles contributed to other sources.
 </div>
 <div class="android-doc-grid-group">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/triodroidselfies-1.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidselfies-1.png) 
 ## Vendor docs
 
 Free guides, infographics and other information.
@@ -124,7 +124,7 @@ Free guides, infographics and other information.
 <div class="android-doc-grid">
 <div class="android-doc-grid-group">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/droidtrioevents.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2017/04/droidtrioevents.png) 
 ## Live events
 
 Live-blogging enterprise mobility events.
@@ -148,7 +148,7 @@ When I occasionally review hardware for AE compatibility
 </div>
 <div class="android-doc-grid-group">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/triodroidwriting.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidwriting.png) 
 ## Blog articles
 
 For topical content around news and events.
@@ -163,7 +163,7 @@ For topical content around news and events.
 </div>
 </div>
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/ask.png) 
+![](https://r2_worker.bayton.workers.dev/uploads/2019/01/ask.png) 
 
 ## Something missing?
 

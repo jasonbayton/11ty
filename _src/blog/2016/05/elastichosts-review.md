@@ -36,7 +36,7 @@ So I did! Here are my thoughts on the experience so far..
 </div>Choosing a location
 -------------------
 
-![Screenshot from 2016-05-06 23-20-46](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot-from-2016-05-06-23-20-46.png)
+![Screenshot from 2016-05-06 23-20-46](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-06-23-20-46.png)
 
 Unlike the likes of AWS, OVH and others, when you sign up for an account with ElasticHosts you do so to one particular region. Should you create an account in the London Maidenhead region and later decide you want to put a few servers in Miami, you’ll need to create a new account on the Miami region.
 
@@ -65,19 +65,19 @@ Once a region is selected, signing up for a free, 5-day trial account takes only
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-15"><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/dal-a-ElasticHosts.png)](/2016/05/elastichosts-review/dal-a-elastichosts/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot_2016-05-07-12-24-23-e1462623164860.png)](/2016/05/elastichosts-review/screenshot_2016-05-07-12-24-23/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/dal-a-ElasticHosts-1.png)](/2016/05/elastichosts-review/dal-a-elastichosts-1/) </dt></dl>  
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-15"><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts.png)](/2016/05/elastichosts-review/dal-a-elastichosts/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot_2016-05-07-12-24-23-e1462623164860.png)](/2016/05/elastichosts-review/screenshot_2016-05-07-12-24-23/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts-1.png)](/2016/05/elastichosts-review/dal-a-elastichosts-1/) </dt></dl>  
  </div>The interface
 -------------
 
 The interface is simple and clutter-free. Until a server is created there’s really nothing on there bar a message reminding you of the remaining time left on your trial. This disappears once the trial finishes or as soon as either a plan is selected or credit is added.
 
-![dal-a ElasticHosts (3)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/dal-a-ElasticHosts-3.png)
+![dal-a ElasticHosts (3)](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts-3.png)
 
 Beyond that though there’s not a lot to explore until you’ve had a few servers up and running for a while, at which point the Activity and Statistics tabs begin to show some meaningful data. I like the fact there’s a region identifier on the top right of the screen, and hovering over this allows for quick switching back and forth between them.
 
 After adding a few servers, vLANs and static IPs the interface starts to look a little more interesting:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/ams-e-Elastichosts.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2016/05/ams-e-Elastichosts.png)
 
 As with Springs, it’s an interface that focuses on the servers you’re running rather than everything around them, and that’s a design philosophy I very much like. I also like how servers are grouped within their assigned vLANs if that functionality is enabled (as can be seen in the screenshot above).
 
@@ -90,21 +90,21 @@ In-keeping with the simplicity of the interface, managing servers is a piece of 
 
 Clicking the **Add** button pops up a number of options to choose from. Within this menu you can not only create servers, but additional drives/folders to mount to existing servers, vLANs and static IPs.
 
-![Screenshot from 2016-05-07 18-29-36](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot-from-2016-05-07-18-29-36.png)
+![Screenshot from 2016-05-07 18-29-36](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-07-18-29-36.png)
 
 Selecting either a Virtual Machine or a Linux Container server will bring up a new window, though the options at this point are pretty much the same; just provide a name, CPU and RAM thresholds, and either an image to provision from, an already-provisioned disk/folder to attach or – in the case of a VM – a live CD to boot from. VMs also benefit from disk thresholds.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot-from-2016-05-07-20-28-58-1.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-07-20-28-58-1.png)
 
 The server will then provision. Once complete, powering on the server and clicking on the  icon will provide login credentials.
 
-![Screenshot from 2016-05-07 20-55-29](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot-from-2016-05-07-20-55-29-e1462650975502.png)
+![Screenshot from 2016-05-07 20-55-29](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-07-20-55-29-e1462650975502.png)
 
 ### Managing servers
 
 As easy as it is to spin up a server, managing them is no more difficult. Looking at the control panel the ability to power servers up and down, adjust resource limits and to obtain connection information is available at the click of the mouse. Clicking on the  icon however goes one step further, revealing every possible configuration option for servers as follows (click to enlarge):
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/ams-e-Elastichosts-3-1.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/ams-e-Elastichosts-3-1.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/05/ams-e-Elastichosts-3-1.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/05/ams-e-Elastichosts-3-1.png)
 
 Both containers and VMs share a majority of options, though where containers provide an SSH password for remote administration, VMs additionally provide a VNC connection – particularly useful for operating systems that don’t run an SSH server such as Windows. Furthermore, containers allow the mounting of additional folders and VMs additional disks (it is possible, however, to mount folders within the OS of either).
 
@@ -122,7 +122,7 @@ Interestingly I had initially imagined the vLAN would be pre-configured with a p
 
 To complete the lifecycle, deleting servers is simply a case of clicking the delete icon on both the server and it’s allocated storage. In order for the storage to be deleted, the interface requests entering a confirmation to make absolutely sure a deletion was intended. Once that’s done the data is gone.
 
-![Screenshot from 2016-05-07 23-58-56](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot-from-2016-05-07-23-58-56.png)
+![Screenshot from 2016-05-07 23-58-56](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-07-23-58-56.png)
 
 Similar prompts also appear when trying to delete a vLAN, which makes sense – removing a vLAN that’s in use could have a pretty dramatic effect on inter-server communications on larger deployments.
 
@@ -136,19 +136,19 @@ Backups are absolutely critical to the successful running of servers long-term. 
 
 While most hosting providers offer backups, I’ve yet to come across any other provider that offers a combination of simplicity and utility; backups can literally be made at the click of a button. Though this is not unique, clicking the  icon immediately creates a carbon-copy of the folder or drive, with drives even providing the option to copy either to HDD or SSD:
 
-![clone](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/clone.png)
+![clone](https://r2_worker.bayton.workers.dev/uploads/2016/05/clone.png)
 
 With that disk/folder copied successfully, there are a couple of things that can be done with it.
 
 **Mount it locally** – For containers, each folder can be accessed remotely via webdav, SSH or the API. This means after a backup has been taken, it’s really simple to mount the backup copy on my local machine and take a copy of the server data without impacting the live server at all.
 
-![access](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/access.png)
+![access](https://r2_worker.bayton.workers.dev/uploads/2016/05/access.png)
 
 **Mount it on another server** – using the same details as above it’s just as simple to mount a folder to another server. Additionally however it’s possible to mount the folder natively within server settings, overcoming any network bottlenecks you may otherwise face.
 
 **Duplicate a server** – As mentioned in the beginning, when adding a new server one of the options presented is to boot from an existing drive/folder. Selecting the copy will essentially create a duplicate of the server that was backed up.
 
-![Screenshot from 2016-05-07 23-28-34](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot-from-2016-05-07-23-28-34.png)
+![Screenshot from 2016-05-07 23-28-34](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-07-23-28-34.png)
 
 #### Backups in the opposite direction (Cloud Storage)
 
@@ -156,7 +156,7 @@ As well as creating copies of servers to backup websites and such like, it’s a
 
 In fact, as mentioned at the beginning ElasticHosts just recently launched a new service called [Cloud Storage](/2016/04/elastichosts-cloud-storage-vs-folders/).
 
-![Screenshot from 2016-05-07 23-38-36](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot-from-2016-05-07-23-38-36.png)
+![Screenshot from 2016-05-07 23-38-36](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-07-23-38-36.png)
 
 It’s essentially folders, but based on cheaper spindle-based storage whereas folders utilise SSDs. This makes remote backups even cheaper than previously.
 
@@ -164,7 +164,7 @@ It’s essentially folders, but based on cheaper spindle-based storage whereas f
 
 Within every server is the ability to configure firewall rules, it works just as expected, only permitting traffic on the ports specified and blocking everything else.
 
-![Screenshot from 2016-05-08 00-42-21](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/Screenshot-from-2016-05-08-00-42-21.png)
+![Screenshot from 2016-05-08 00-42-21](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-08-00-42-21.png)
 
 In the example above I opted for a “whitelist” approach which, depending on requirements, may not be suitable for everyone. I know for certain I only want that server accessible over 3 ports and it works like a charm.
 
@@ -174,13 +174,13 @@ For the cost ($7.50/month) it’s not something I’d rely on long-term, instead
 
 Two of my favourite things. ElasticHosts provides an audit log of every action within the account for everything from logging in to destroying a server all through the Activity tab.
 
-![ams-e Elastichosts (5)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/ams-e-Elastichosts-5-e1462661702886.png)
+![ams-e Elastichosts (5)](https://r2_worker.bayton.workers.dev/uploads/2016/05/ams-e-Elastichosts-5-e1462661702886.png)
 
 With a detailed audit trail like that, it’s easy to keep tabs on who’s doing what with the account in larger teams. Naturally filtering is available in the form of Search.
 
 Similarly, the statistics tab does an excellent job of visualising things like plan limits, CPU usage, network usage and much, much more.
 
-![ams-e Elastichosts (4)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/05/ams-e-Elastichosts-4-e1462661663455.png)
+![ams-e Elastichosts (4)](https://r2_worker.bayton.workers.dev/uploads/2016/05/ams-e-Elastichosts-4-e1462661663455.png)
 
 This provides granular insight into the activity of your servers and can be used to compare activity to bills should a query arise.
 

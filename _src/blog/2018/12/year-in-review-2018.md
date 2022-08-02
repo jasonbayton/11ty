@@ -34,11 +34,11 @@ Again, compared to mainstream sites which quite easily get that amount of traffi
 
 It also continues an upward (mostly) trend since I began collecting stats in 2012, and reflects the time and effort I’ve continued to invest in my website and social presence (chiefly [LinkedIn](https://linkedin.com/in/jasonbayton)) since late 2016.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/Screenshot_2018-12-27-Stats-%E2%80%B9-Jason-Bayton-%E2%80%94-WordPress-com1.png)After surpassing 100K in 2017, my goal was to hit 150K this year – this was seemingly not a problem, so I’ll have to be more ambitious for 2019!
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/Screenshot_2018-12-27-Stats-%E2%80%B9-Jason-Bayton-%E2%80%94-WordPress-com1.png)After surpassing 100K in 2017, my goal was to hit 150K this year – this was seemingly not a problem, so I’ll have to be more ambitious for 2019!
 
 Of all visitors, it is once again USA in first, followed by UK, Germany and France. *Exactly* like 2017:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/Screenshot_2018-12-27-Stats-%E2%80%B9-Jason-Bayton-%E2%80%94-WordPress-com.png)While US and UK leaned more towards [enterprise documentation](/docs/enterprise-mobility), Germany and France seemed to focus more on my posts surrounding open source and Linux, and in that, the three most visited articles (docs/posts combined) this year are:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/Screenshot_2018-12-27-Stats-%E2%80%B9-Jason-Bayton-%E2%80%94-WordPress-com.png)While US and UK leaned more towards [enterprise documentation](/docs/enterprise-mobility), Germany and France seemed to focus more on my posts surrounding open source and Linux, and in that, the three most visited articles (docs/posts combined) this year are:
 
 - [Installing Nextcloud on Ubuntu with Redis, APCu, SSL &amp; Apache](/docs/nextcloud/installing-nextcloud-on-ubuntu-16-04-lts-with-redis-apcu-ssl-apache/) (31K)  
   [](/android/what-is-android-enterprise-and-why-is-it-used/)
@@ -63,7 +63,7 @@ I’ve had a *massive* year with Android Enterprise, working with a number of pa
 
 Last year I created [/docs](/docs) as previously announced on this [introductory post](/2017/05/introducing-documentation-on-bayton-org/). While there are areas for an array of topics, in 2018 I focused almost entirely on [Android Enterprise](/android/) with respect to new content, with a **170% increase** in Android Enterprise content YoY.
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-7.png)</div><div class="wp-block-column">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-8.png)</div></div>One of the goals of documentation was to maintain rather than just create new, and I’ve kept myself busy continuously iterating on docs throughout 2018 also!
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column">![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-7.png)</div><div class="wp-block-column">![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-8.png)</div></div>One of the goals of documentation was to maintain rather than just create new, and I’ve kept myself busy continuously iterating on docs throughout 2018 also!
 
 [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/) for example was published in 2017, however was last updated in November, taking the number of revisions up to 55 over 20 months. The same applies to [Android Enterprise device support](/docs/nextcloud/installing-nextcloud-on-ubuntu-16-04-lts-with-redis-apcu-ssl-apache/) which I last updated this month, marking its 132nd revision.
 
@@ -72,7 +72,7 @@ Over the year I’ve also created some pretty nifty infographics:
 - [Infobyte – Did you know? Android Enterprise deployment scenarios](/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/)
 - [Infobyte – Did you know? Android Enterprise work-managed provisioning methods](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/)
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-9.png)I didn’t ultimately create the one per month I was planning, but what lacks in quantity is made up for in quality!
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-9.png)I didn’t ultimately create the one per month I was planning, but what lacks in quantity is made up for in quality!
 
 I’ve also updated resources, like my [Android version evolution graphic](/android/android-version-evolution-graphics/) (complete with PPTx, so please feel free to modify and redistribute at will!)
 
@@ -82,7 +82,7 @@ There’s still plenty more to do here in 2019, including making use of the new 
 
 If you’ve read MobileIron’s [Android is ready for the enterprise](https://www.mobileiron.com/en/resources-library/whitepapers/android-ready-enterprise) whitepaper, you’ve been reading my content. That was a super interesting collaboration which I hope to be able to do again next year with a UEM, OEM or other vendor in the space (really, [get in touch](/contact) if you’re interested)
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-10.png)Beyond this I’ve contributed a few articles to BrianMadden.com over the year, continuing what I started in 2017:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-10.png)Beyond this I’ve contributed a few articles to BrianMadden.com over the year, continuing what I started in 2017:
 
 - [An introduction to managed Google Play](/2018/03/an-introduction-to-managed-google-play/)
 - [BYOD &amp; privacy: Don’t settle for less than Android Enterprise in 2018](https://www.brianmadden.com/opinion/BYOD-privacy-Dont-settle-for-less-than-Android-enterprise-in-2018)
@@ -192,7 +192,7 @@ Today it’s handling comments well, and acts as the foundation of my [liveblogg
 
 In the quest to put content front and centre before anything else, my site themes visually have gradually gotten simpler and simpler. This year I designed a theme that properly works with my documentation, and ported it across to the normal blog-type articles I write also, bringing consistency across the website that previously lacked.
 
-<figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-11.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-11.png)</figure>I’ll no doubt continue iterating in 2019, though I’m always open to feedback!
+<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-11.png)](/https://r2_worker.bayton.workers.dev/uploads/2018/12/image-11.png)</figure>I’ll no doubt continue iterating in 2019, though I’m always open to feedback!
 
 Until next year!
 ----------------
@@ -201,4 +201,4 @@ I’d like to thank everyone who stopped by the site to have a read or say hello
 
 Happy new year and all the best in 2019!
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/xmas.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/xmas.png)

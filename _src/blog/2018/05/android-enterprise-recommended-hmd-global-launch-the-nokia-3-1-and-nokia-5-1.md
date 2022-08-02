@@ -27,7 +27,7 @@ tags:
 ---
 [On the 29th of May,](https://www.youtube.com/watch?v=YPuygEsfOnM) HMD Global introduced three new devices for 2018: the Nokia 2.1, the Nokia 3.1 and the Nokia 5.1
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/Nokia-2.1-e1527612545532.jpg)First, just because it’s equally worthy of a mention and I’d like to briefly touch on it, the Nokia 2.1 is a welcome upgrade to 2017’s Nokia 2, touting double the processing power and a larger screen on a version of Android far less resource intensive – Oreo Go. Those who have had any hands-on with the Nokia 1 will understand how well Oreo Go handles such minimal resources, so on the Nokia 2.1 it should fly through most tasks whilst freeing up more storage at the same time.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/Nokia-2.1-e1527612545532.jpg)First, just because it’s equally worthy of a mention and I’d like to briefly touch on it, the Nokia 2.1 is a welcome upgrade to 2017’s Nokia 2, touting double the processing power and a larger screen on a version of Android far less resource intensive – Oreo Go. Those who have had any hands-on with the Nokia 1 will understand how well Oreo Go handles such minimal resources, so on the Nokia 2.1 it should fly through most tasks whilst freeing up more storage at the same time.
 
 Oreo Go isn’t necessarily enterprise recommended today (it can support some Android Enterprise features if desired by the OEM) however should anything change in the future, the Nokia 2 would make for an interesting COSU type endpoint at a not-unreasonable $115 USD (varying by region due to taxes), though it certainly won’t be Android Enterprise Recommended. On that subject…
 
@@ -44,7 +44,7 @@ With the introduction of the Nokia 3.1 and 5.1, HMD finishes the transition to A
 
 ### Nokia 3.1
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/Nokia-3.1-e1527611879730.jpg)The Nokia 3.1 sees a bump in spec from last year’s Mediatek MT6737 to a MT6750, and while the original RAM and storage options are still available – 2GB and 16GB respectively – HMD have also launched a version with 3GB and 32GB which meet the AER requirements. It additionally sees an upgrade in battery capacity to support a slightly larger, 18:9 display, on-screen navigation and also comes with a 13MP camera sensor on the rematerialar in place of the previous 8MP shooter.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/Nokia-3.1-e1527611879730.jpg)The Nokia 3.1 sees a bump in spec from last year’s Mediatek MT6737 to a MT6750, and while the original RAM and storage options are still available – 2GB and 16GB respectively – HMD have also launched a version with 3GB and 32GB which meet the AER requirements. It additionally sees an upgrade in battery capacity to support a slightly larger, 18:9 display, on-screen navigation and also comes with a 13MP camera sensor on the rematerialar in place of the previous 8MP shooter.
 
 It’ll retail starting from roughly €139 for 16GB and €169 for 32GB (varying by region due to taxes) from June.
 
@@ -52,7 +52,7 @@ The only downside I see is the lack of fingerprint sensor again, which is often 
 
 ### Nokia 5.1
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/Nokia-5.1-11-e1527611944143.jpg)The Nokia 5.1 equally sees a shift in spec, again launching with both the original 2GB and 16GB memory and storage configurations respectively, as well as the new 3GB and 32GB variant meeting AER requirements . Like 3.1, the 5.1 also moves to a MediaTek – the Helio P18 – and in doing so moves away from the old Snapdragon SoC. It ships with a larger 18:9 display however the battery decreases down to 2970mAh from last year’s 3000mAh. Finally, better optics are added with a 16MP shooter vs the old 13MP sensor in last year’s model and navigation again has been moved on-screen.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/Nokia-5.1-11-e1527611944143.jpg)The Nokia 5.1 equally sees a shift in spec, again launching with both the original 2GB and 16GB memory and storage configurations respectively, as well as the new 3GB and 32GB variant meeting AER requirements . Like 3.1, the 5.1 also moves to a MediaTek – the Helio P18 – and in doing so moves away from the old Snapdragon SoC. It ships with a larger 18:9 display however the battery decreases down to 2970mAh from last year’s 3000mAh. Finally, better optics are added with a 16MP shooter vs the old 13MP sensor in last year’s model and navigation again has been moved on-screen.
 
 It’ll retail starting from roughly €189 for 16GB and €219 for 32GB (varying by region due to taxes) from July.
 
@@ -60,7 +60,7 @@ A display increase teamed with a battery decrease is usually not a great combina
 
 ### Ready for enterprise deployments
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/android-er_1x.png)With the devices being Android Enterprise Recommended, that means they are guaranteed to:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/android-er_1x.png)With the devices being Android Enterprise Recommended, that means they are guaranteed to:
 
 - Receive at least one letter upgrade, O to P in this case (in reality they’re likely to see Q)
 - Receive 3 years of guaranteed security patches within 90 days of release by Google, however HMD [strive for monthly](https://www.nokia.com/en_int/phones/security-updates).

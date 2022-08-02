@@ -37,7 +37,7 @@ So how is Cloud Storage different?
 It isn’t (yet) available in all regions
 ---------------------------------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/exprel-1.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2016/04/exprel-1.png)
 
 ElasticHosts has several regions available from London to Amsterdam, the US to Australia. The first thing I noticed when I logged into my region (Amsterdam) was the option to create a shiny new Cloud Storage instance wasn’t there.
 
@@ -50,7 +50,7 @@ For those eager to try it, it’s available in the London region at the moment (
 It’s slower
 -----------
 
-![ssd-vs-hdd-banner](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/04/ssd-vs-hdd-banner.png)
+![ssd-vs-hdd-banner](https://r2_worker.bayton.workers.dev/uploads/2016/04/ssd-vs-hdd-banner.png)
 
 Cloud Storage uses traditional spindles for data storage whilst Folders use SSDs. My immediate mental comparison was Amazon’s S3 vs Glacier (that is, fast and readily available storage vs slow, infrequently accessed storage), though definitely no where near as extreme (or annoying to use).
 

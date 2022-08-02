@@ -70,7 +70,7 @@ Over 80% of Apple devices on the market are running the latest version of iOS an
 
 For Android this is a little trickier:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/03/chart-e1488987665830.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/03/chart-e1488987665830.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/03/chart-e1488987665830.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/chart-e1488987665830.png)
 
 With the majority of Android devices sitting between Lollipop ([23.1% v.5.1](https://developer.android.com/about/dashboards/index.html)) and Marshmallow ([31.3% v.6.0](https://developer.android.com/about/dashboards/index.html)), even bought new today, device replacement may not be viable. It’s not all bad news however; from Android Lollipop Google began pushing security updates on a regular basis in order to tackle the worst vulnerabilities as they’re discovered. These updates are distributed independently of OS updates, allowing Google to push them out in a controlled, reliable fashion using Play Services.
 

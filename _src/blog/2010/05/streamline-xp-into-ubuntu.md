@@ -146,7 +146,7 @@ Right click on the desktop and select **Create Launcher…**
 
 <span style="font-weight: normal;">In the command box, type </span>VBoxManage startvm \[your virtual machine name\] <span style="font-weight: normal;">and click ok.</span>
 
-</div></div>****![ss3](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/Screenshot-3.png "Screenshot-3")**</div><div class="pie-item">Now, whenever you need to use that Windows program you can boot up XP from the desktop shortcut, (it should default to seamless mode) and enjoy!!  
+</div></div>****![ss3](https://r2_worker.bayton.workers.dev/uploads/2010/05/Screenshot-3.png "Screenshot-3")**</div><div class="pie-item">Now, whenever you need to use that Windows program you can boot up XP from the desktop shortcut, (it should default to seamless mode) and enjoy!!  
 Should you need to get it out of seamless mode, hit **Right CTRL + L**.</div><div class="pie-item">I’m just happy I can now use the location feature in Windows’ version of Google Chrome 🙂
 
 </div><div class="pie-item">Cheers,</div></div></div></div></div></div><div class="pie-item"></div><div class="pie-item">![]()

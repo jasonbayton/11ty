@@ -28,41 +28,41 @@ The process of converting a PDF is extremely simple, but I’ll outline it below
 
 1\) Navigate your browser to www.zamzar.com
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/Zamzar1.png "Zamzar1")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/Zamzar1.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2010/05/Zamzar1.png "Zamzar1")](https://r2_worker.bayton.workers.dev/uploads/2010/05/Zamzar1.png)
 
 2\) Ignoring all of the adverts, head right down to “Convert Files” and upload your PDF.
 
-[![zamzar2](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/Zamzar2.png "Zamzar2")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/Zamzar2.png)
+[![zamzar2](https://r2_worker.bayton.workers.dev/uploads/2010/05/Zamzar2.png "Zamzar2")](https://r2_worker.bayton.workers.dev/uploads/2010/05/Zamzar2.png)
 
 3\) Select your desired format to have the PDF converted to.
 
-[![zamzar3](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar3.png "zamzar3")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar3.png)
+[![zamzar3](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar3.png "zamzar3")](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar3.png)
 
 4\) Enter your email address
 
-[![zamzar4](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/Zamzar4.png "Zamzar4")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/Zamzar4.png)
+[![zamzar4](https://r2_worker.bayton.workers.dev/uploads/2010/05/Zamzar4.png "Zamzar4")](https://r2_worker.bayton.workers.dev/uploads/2010/05/Zamzar4.png)
 
 5\) Hit convert and you’ll see the confirmation page
 
-[![zamzar5](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar5.png "zamzar5")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar5.png)
+[![zamzar5](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar5.png "zamzar5")](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar5.png)
 
 And:
 
-[![zamzar6](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar6.png "zamzar6")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar6.png)
+[![zamzar6](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar6.png "zamzar6")](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar6.png)
 
 6\) Check your mails (Can’t say how long you’ll wait unfortunately, it’s usually around 5 mins)
 
-[![zamzar7](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar7.png "zamzar7")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar7.png)
+[![zamzar7](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar7.png "zamzar7")](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar7.png)
 
 7\) Click the link in the email
 
-[![zamzar8](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar8.png "zamzar8")  ](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar8.png)(highlighted in red)
+[![zamzar8](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar8.png "zamzar8")  ](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar8.png)(highlighted in red)
 
 8\) Download and enjoy!
 
-[![zamzar9](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar9.png "zamzar9")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar9.png)
+[![zamzar9](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar9.png "zamzar9")](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar9.png)
 
-[![zamzar10](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar10.png "zamzar10")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/05/zamzar10.png)
+[![zamzar10](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar10.png "zamzar10")](https://r2_worker.bayton.workers.dev/uploads/2010/05/zamzar10.png)
 
 Once edited, you can then once again export it to PDF and do with it what you want!
 

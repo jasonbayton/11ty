@@ -41,39 +41,39 @@ Generic
 
 ### Fully managed
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/AE_FM_NFC_9.0_Generic-banner.jpg)](/download/doc/ae-guides/AE_FM_NFC_9.0_Generic.pdf)</figure></div><div class="wp-block-column"></div></div>
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/AE_FM_NFC_9.0_Generic-banner.jpg)](/download/doc/ae-guides/AE_FM_NFC_9.0_Generic.pdf)</figure></div><div class="wp-block-column"></div></div>
 
 MobileIron Core
 ---------------
 
 ### Work profile
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/Android-enterprise-WP-Fac-Reset-MICore.png)](/download/doc/ae-guides/Android-enterprise_WP-Fac-Reset-MICore.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/Android-enterprise-WP-Non-Reset-MICore-1.png)](/download/doc/ae-guides/Android-enterprise_WP-Non-Reset-MICore.pdf)</figure></div></div>
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/Android-enterprise-WP-Fac-Reset-MICore.png)](/download/doc/ae-guides/Android-enterprise_WP-Fac-Reset-MICore.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/Android-enterprise-WP-Non-Reset-MICore-1.png)](/download/doc/ae-guides/Android-enterprise_WP-Non-Reset-MICore.pdf)</figure></div></div>
 
 ### Fully managed
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/android_ae_nfc-1.png)](/download/doc/ae-guides/Android-enterprise_WM-NFC-MICore.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/android_ae_wt-2.png)](/download/doc/ae-guides/Android-enterprise_WM-WT-MICore.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/android_ae_qr-2.png)](/download/doc/ae-guides/Android-enterprise_WM-QR-MICore.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/android_ae_zt2-1.png)](/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf)</figure></div></div>
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_ae_nfc-1.png)](/download/doc/ae-guides/Android-enterprise_WM-NFC-MICore.pdf)</figure><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_ae_wt-2.png)](/download/doc/ae-guides/Android-enterprise_WM-WT-MICore.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_ae_qr-2.png)](/download/doc/ae-guides/Android-enterprise_WM-QR-MICore.pdf)</figure><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_ae_zt2-1.png)](/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf)</figure></div></div>
 
 ### Fully managed work profile
 
 #### Sony UI
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/wmwp-zt-sony.png)](/download/doc/ae-guides/Android-enterprise_WMWP-ZT-MICore_Sony.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/wmwp-nfc-sony.png)](/download/doc/ae-guides/Android-enterprise_WMWP-NFC-MICore_Sony.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/wmwp-qr-sony.png)](/download/doc/ae-guides/Android-enterprise_WMWP-QR-MICore_Sony.pdf)</figure></div></div>
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-zt-sony.png)](/download/doc/ae-guides/Android-enterprise_WMWP-ZT-MICore_Sony.pdf)</figure><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-nfc-sony.png)](/download/doc/ae-guides/Android-enterprise_WMWP-NFC-MICore_Sony.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-qr-sony.png)](/download/doc/ae-guides/Android-enterprise_WMWP-QR-MICore_Sony.pdf)</figure></div></div>
 
 #### Vanilla UI
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/wmwp-zt-aone.png)](/download/doc/ae-guides/Android-enterprise_WMWP-ZT-MICore_AOne.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/wmwp-nfc-aone.png)](/download/doc/ae-guides/Android-enterprise_WMWP-NFC-MICore_AOne.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/wmwp-qr-aone.png)](/download/doc/ae-guides/Android-enterprise_WMWP-QR-MICore_AOne.pdf)</figure></div></div>
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-zt-aone.png)](/download/doc/ae-guides/Android-enterprise_WMWP-ZT-MICore_AOne.pdf)</figure><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-nfc-aone.png)](/download/doc/ae-guides/Android-enterprise_WMWP-NFC-MICore_AOne.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-qr-aone.png)](/download/doc/ae-guides/Android-enterprise_WMWP-QR-MICore_AOne.pdf)</figure></div></div>
 
 AirWatch
 --------
 
 ### Fully managed
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/ae_wt_aw-1.png)](/download/doc/ae-guides/Android-enterprise_WM-WT-AirWatch.pdf)</figure><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/ae_nfc_aw.png)](/download/doc/ae-guides/Android-enterprise_WM-NFC-AirWatch.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/ae_qr_aw.png)](/download/doc/ae-guides/Android-enterprise_WM-QR-AirWatch.pdf)</figure></div></div>
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/ae_wt_aw-1.png)](/download/doc/ae-guides/Android-enterprise_WM-WT-AirWatch.pdf)</figure><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/ae_nfc_aw.png)](/download/doc/ae-guides/Android-enterprise_WM-NFC-AirWatch.pdf)</figure></div><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/ae_qr_aw.png)](/download/doc/ae-guides/Android-enterprise_WM-QR-AirWatch.pdf)</figure></div></div>
 
 Legacy enrolment
 ----------------
 
 Reference guide(s) for legacy enrolment, enabling direct comparison with Android Enterprise enrolment documented above.
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/08/android_legacy-1.png)](/download/doc/ae-guides/Legacy-enrolment_Nexus.pdf)</figure></div><div class="wp-block-column"></div></div>
+<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_legacy-1.png)](/download/doc/ae-guides/Legacy-enrolment_Nexus.pdf)</figure></div><div class="wp-block-column"></div></div>

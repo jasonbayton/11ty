@@ -44,7 +44,7 @@ In fact, it’s probably safe to say this is the most enterprise-focused release
 1. Improved separation of work and personal applications
 --------------------------------------------------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/03/2018_03_19_16_57_47.gif)  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_19_16_57_47.gif)  
 Today when deploying either *work profile* or *work profile on fully managed devices* into an organisation, the work and personal applications are fully mixed together within the launcher. While not overly problematic, it has been a source of feedback for Google (and myself via customer deployments) with end-users asking why their applications are duplicated.
 
 Obviously with this change the application duplication itself hasn’t been addressed (and I’m OK with that), but the stock Google launcher now features a distinct separation between work and personal apps (pictured), making it much easier to differentiate whilst significantly reducing the cluttered feeling of seeing duplicate applications in the app drawer.
@@ -56,7 +56,7 @@ If the stock launcher would also introduce swipe gestures and manual backups for
 2. More ways to toggle the work profile on and off
 --------------------------------------------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/03/2018_03_19_23_15_10.gif)  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_19_23_15_10.gif)  
 Tying into the separation above, Google also added new options for toggling the work profile in P.
 
 Being able to turn the work profile off for BYOD users is something I believe to be quite important; when a device is shared between work and personal usage there’s a natural tendency to fall into the always-on culture that offers little time to *switch off*.
@@ -70,7 +70,7 @@ I’m quite pleased to see more attention being given to this.
 3. Simpler switching between work and personal accounts within apps
 -------------------------------------------------------------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/03/2018_03_19_21_30_07.gif)  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_19_21_30_07.gif)  
 The focus on the work and personal split continues with this next simple, but massively impacting change; it’ll be possible (once applications support it) to switch between work and personal profiles from within apps directly.
 
 Today if you have a personal account and a work account (via the work profile) in an app like Gmail, you’ll need to actively switch between the work and personal instances of Gmail on the device (pictured). Once support is available, switching between work and personal email accounts will be as simple as switching between multiple accounts within a profile is today.

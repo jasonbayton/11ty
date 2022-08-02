@@ -82,4 +82,4 @@ I give it an 8/10, failing on the camera but making up for it under varying circ
 
 Written and published from my Dell Streak.
 
-![image](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2011/06/wpid-IMG_20110613_144251.jpg)
+![image](https://r2_worker.bayton.workers.dev/uploads/2011/06/wpid-IMG_20110613_144251.jpg)

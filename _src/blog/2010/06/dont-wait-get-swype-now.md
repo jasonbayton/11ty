@@ -23,7 +23,7 @@ tags:
     - Mobile
     - Reviews
 ---
-![swype](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/06/swype_logo.jpg "swype_logo")Swype is an app for Android which enables users to use their on-screen keyboard in a whole new way. By dragging your finger across the keyboard over the letters in the word you want to write, Swype will recognise the characters and in turn the word you’re spelling which helps to speed up your day-to-day writing 10-fold!
+![swype](https://r2_worker.bayton.workers.dev/uploads/2010/06/swype_logo.jpg "swype_logo")Swype is an app for Android which enables users to use their on-screen keyboard in a whole new way. By dragging your finger across the keyboard over the letters in the word you want to write, Swype will recognise the characters and in turn the word you’re spelling which helps to speed up your day-to-day writing 10-fold!
 
 Here are videos demoing what the app can do: www.swypeinc.com/tips-tricks.html \[broken\]
 
@@ -32,7 +32,7 @@ Swype are in a [beta](http://beta.swype.com/) \[broken\] at the moment, for a sh
 Follow the link below, download the installer and then sign in with your user/pass and you could have access much sooner than if you waited on their mail.
 
 You’re welcome!  
-![swyping](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/06/swyping-225x300.jpg "swyping")
+![swyping](https://r2_worker.bayton.workers.dev/uploads/2010/06/swyping-225x300.jpg "swyping")
 
 **————————————**
 

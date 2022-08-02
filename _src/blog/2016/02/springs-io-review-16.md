@@ -28,7 +28,7 @@ Back in Springs’ infancy, I was contacted over Google+ to see if I’d fancy t
 
 I opted to do this gradually starting with just the one server running bayton.org. I later added a few more services as my confidence in the platform increased. The containers are all run on SSD storage and have access to a 20 core Xeon processor with ~260GB RAM, at least from what I’ve seen so far. How many servers they have at this point I can’t say, but when I started using the platform they only had the one.
 
-![Springs.io (1)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/Springs.io-1.png)
+![Springs.io (1)](https://r2_worker.bayton.workers.dev/uploads/2016/02/Springs.io-1.png)
 
 Days turned to weeks without any issues. As my starter credit diminished my first request was the ability to add credit via PayPal, which was implemented pretty quickly (to my surprise!).
 
@@ -41,15 +41,15 @@ On [creating a new account](https://control.springs.io/accounts/trial/) and logg
 
 When you’re ready, clicking “Add Spring” will open a popup requesting a server name (one will be auto-generated for you), operating system and optionally an SSH key. At the moment the only options are Debian, Ubuntu, cPanel and centOS. That may be expanded in the future, but for those of you wishing to run openSuse, fedora or any other distribution you’ll be out of luck at present.
 
-![createnew](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/createnew.png)
+![createnew](https://r2_worker.bayton.workers.dev/uploads/2016/02/createnew.png)
 
 Once you’re happy with your selection (and do make sure you are as the distribution can’t be changed later) click Add Spring. It may take a moment or two to initialise and install, but once ready will show in your server list as follows:
 
-![turnon](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/turnon.png)
+![turnon](https://r2_worker.bayton.workers.dev/uploads/2016/02/turnon.png)
 
 At this point, you’ll notice the container is switched off and the IP is blank. Clicking “Login” will let you know you need to turn the container on before anything else can happen.
 
-![stilloff](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/stilloff.png)
+![stilloff](https://r2_worker.bayton.workers.dev/uploads/2016/02/stilloff.png)
 
 Cancel out of that and click on the power toggle. Once the IP populates, login details will also shortly become available. If you used an SSH key this information will be of little concern, if you do need the password however clicking “Click here to reveal it” in the Login popup will do just that.
 
@@ -57,13 +57,13 @@ And that’s basically all there is to it. You can now SSH into your Linux conta
 
 If you wish to limit the resources the container can use, simply change the values listed next to CPU and RAM. I found 2000/1024 to be quite a bit more than I’d need on a modest little webserver and so have lowered them as can be seen in the screenshot above.
 
-![newserver](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/newserver.png)
+![newserver](https://r2_worker.bayton.workers.dev/uploads/2016/02/newserver.png)
 
 In the beginning I wasn’t sure what I should set it to for my web server, so I left it. After a while the *Average usage* area begins showing how much resource the container is demanding and from that more adequate limits can be set.
 
 In the below image I can see over the last month the CPU hasn’t spiked past 25MHz, so the limit of 500MHz both provides a *huge* buffer in case of dramatic increase of activity (one can hope, right?) and a limit to how much money I’d be prepared to spend should demand increase.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/Screenshot-from-2016-02-26-23-25-22.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2016/02/Screenshot-from-2016-02-26-23-25-22.png)
 
 Finally, when you’re finished with a container, clicking Delete will irreversibly destroy the container and all data within it.
 
@@ -99,7 +99,7 @@ I mentioned above that Springs containers are limited to those 4 options. It wou
 
 I mentioned at the beginning that as far I was aware Springs was only hosting containers on the one server. This was totally fine, until it wasn’t.
 
-![usage](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/usage-e1456504022333.png)
+![usage](https://r2_worker.bayton.workers.dev/uploads/2016/02/usage-e1456504022333.png)
 
 > *Dear <span class="il">Springs</span> Customer,*
 > 

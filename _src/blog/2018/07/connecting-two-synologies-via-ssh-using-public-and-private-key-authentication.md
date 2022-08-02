@@ -17,7 +17,7 @@ discourse_permalink:
 tags:
     - Guides
 ---
-<div class="bs-callout bs-callout-info"> ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/07/Joel400.jpg)### Contributing author
+<div class="bs-callout bs-callout-info"> ![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Joel400.jpg)### Contributing author
 
  This is one of a series of posts contributed to bayton.org by guest authors. [Click here](https://www.linkedin.com/in/jo%C3%ABl-scholten-9b822b35/) to learn more about Joel. </div>A Synology is basically a linux system in a small case and with a nice web interface that does most basic tasks. For the tasks which do not run by default from the web interface, SSH can be used. This tutorial demonstrates how to set up passwordless SSH between two (or more) Synology boxes. This is very useful for automated tasks, such as backups.
 
@@ -39,7 +39,7 @@ Sign in to the interface, open the configuration panel, scroll all the way to th
 
 Warning: If you plan on accessing your Synology over the internet, instead of just over the network, I suggest you also enable autoblock once you are finished with this tutorial. I experience more than 1000 sign in attempts from unknown sources, per day.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/07/Screen-Shot-2018-07-08-at-16.36.34.png)You can verify if you did this successfully by connecting via SSH. Open the terminal and enter the command below. The username should be replaced with the username you use to sign in to the Synology. The IP address should be replaced by the IP address of the Synology.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Screen-Shot-2018-07-08-at-16.36.34.png)You can verify if you did this successfully by connecting via SSH. Open the terminal and enter the command below. The username should be replaced with the username you use to sign in to the Synology. The IP address should be replaced by the IP address of the Synology.
 
 ```
 <pre class="wp-block-code">```
@@ -55,7 +55,7 @@ User homes need to be enabled, because the private and public keys, which we are
 
 Open the control panel, navigate to *User*﻿, click *Advanced*﻿, scroll all the way down and select *Enable user home service*﻿.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/07/Screen-Shot-2018-07-08-at-17.01.24.png)### 3. Generate a public and private key pair on local Synology
+![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Screen-Shot-2018-07-08-at-17.01.24.png)### 3. Generate a public and private key pair on local Synology
 
 You will now generate a *private* and a *public key* on the *local* Synology. Later on we will copy the *public key* to the remote device. The *private key* should never leave the local device. If someone gets hold of your private key, they can access the remote device.
 

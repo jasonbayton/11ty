@@ -22,7 +22,7 @@ With only minutes to go I’d like to wish my readers a happy new year and a ver
 
 2015 has been a good year for bayton.org, with over 11,000 views from over 8,000 visitors ranging from Macedonia to Mauritius, Europe and the USA.
 
-![2015stats2](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2015/12/2015stats2.png)
+![2015stats2](https://r2_worker.bayton.workers.dev/uploads/2015/12/2015stats2.png)
 
 Still today, despite writing it in 2011, my article on [The Virtualbox bug: “Cannot access the kernel driver” in Windows](/2011/03/the-virtualbox-bug-cannot-access-the-kernel-driver-in-windows/Windows) ranks highest for views with almost 3,000 on its own this year, followed by my [First look: Miradore Online free MDM](/2014/07/miradore-online-free-mdm/) at 1,800 and [A month with Wandera Mobile Gateway](/2014/05/a-month-with-wandera-mobile-gateway/) at 1,100.
 

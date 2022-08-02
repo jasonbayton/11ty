@@ -86,11 +86,11 @@ First we need to spin up a VM. As the server is provided by ElasticHosts the fir
 
 After logging into the ElasticHosts console, select **Add** followed by **Server** under *Virtual Machines.*
 
-![img.1](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.1.png)
+![img.1](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.1.png)
 
 In the new modal, define the server spec to that listed under Hardware above.
 
-![img.2](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.2.png)
+![img.2](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.2.png)
 
 For **Type** select **Pre-installed system**, for **Image** select **Ubuntu 16.04 LTS (Xenial Xerus)**. Click **Add** when done.
 
@@ -98,11 +98,11 @@ For **Type** select **Pre-installed system**, for **Image** select **Ubuntu 16.0
 
 Like AWS, new servers are created with a dynamic IP. As we want to permanently assign a hostname to this server for web access to Nextcloud, we’ll assign a static IP. If one isn’t already assigned to the account, create a new static IP from the **Add** menu.
 
-![img.3](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.3.png)
+![img.3](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.3.png)
 
 Once a static IP is available, enter the newly-created (and still powered off) server settings by clicking the “cog” icon under the power button. This will open a new page.
 
-![img.4](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.4-e1469525129465.png)
+![img.4](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.4-e1469525129465.png)
 
 Under **Network** select the static IP from the dropdown menu and click the relevant IP under **Allowed IPs**.
 
@@ -118,7 +118,7 @@ At this point it would be a good idea to create a DNS entry for the server. For 
 
 After clicking **Start** the button will change to **Connect**. On clicking this, a new window will open with server connection details:
 
-![img.5](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.5.png)
+![img.5](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.5.png)
 
 Using an SSH client, SSH to **toor@ip** and use the **VNC/****toor** password provided.
 
@@ -136,11 +136,11 @@ As this is a brand new installation based on images that don’t update very oft
 
 `apt update && apt upgrade`
 
-![img.6](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.6.png)
+![img.6](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.6.png)
 
 When the update has completed, it’ll provide a list of packages to be upgraded. Providing we’re happy with what we see, tap **Enter.**
 
-![img.7](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.7.png)
+![img.7](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.7.png)
 
 With the server updated, a non-root user created with sudo privileges and the root account disabled, we’ll now install the required components for Nextcloud:
 
@@ -152,11 +152,11 @@ The use of ^ (caret) in the package name is important. It suggests that the inst
 
 </div>This command will install apache2, mysql 5.7 and php7.0 along with several php/apache modules to ensure seamless collaboration between the packages. Once happy with the package selection to be installed, tap **Enter**.
 
-![img.9](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.9.png)
+![img.9](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.9.png)
 
 MySQL will request a `root` user password. Ensure this is strong and keep the password safe; losing it can cause all manner of issues.
 
-![img.10](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.10.png)
+![img.10](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.10.png)
 
 Once installed, we’ll now install APCu and Redis:
 
@@ -164,13 +164,13 @@ Once installed, we’ll now install APCu and Redis:
 
 Confirm the packages to be installed match expectations and hit **Enter**.
 
-![img.12](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.12.png)
+![img.12](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.12.png)
 
 Finally, we’ll install the minimal Nextcloud PHP modules required not to error during installation (more can be enabled later):
 
 `sudo apt install php-zip php-dompdf php-xml php-mbstring php-gd php-curl`
 
-![img.16](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.16-1.png)
+![img.16](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.16-1.png)
 
 And enable a few apache modules to support our configuration:
 
@@ -180,11 +180,11 @@ Now we’ll restart Apache:
 
 `sudo service apache2 restart`
 
-![img.19](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.19.png)
+![img.19](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.19.png)
 
 Before moving on check via a browser that Apache is up and running
 
-![img.13](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.13.png)
+![img.13](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.13.png)
 
 ### 5. Enable SSL
 
@@ -211,7 +211,7 @@ Where:
 
 On first run the Let’s Encrypt certbot will install all required dependencies (following approval), however with the added flags above, will not require any further input to set everything up.
 
-[![lesetup](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/lesetup.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/lesetup.png)
+[![lesetup](https://r2_worker.bayton.workers.dev/uploads/2016/07/lesetup.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/lesetup.png)
 
 Navigating now to https://nc.bayton.org will show a SSL-enabled website! If the browser complains the site is not fully protected at this point, it’s due to the default Apache landing page requesting content over HTTP and not an issue with the certificate.
 
@@ -338,7 +338,7 @@ Then restart Apache:
 
 With that, all traffic will be forced to HTTPS.
 
-![img.29](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.29.png)
+![img.29](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.29.png)
 
 Install Nextcloud
 -----------------
@@ -354,7 +354,7 @@ NB: future versions can be obtained from [Nextcloud](https://nextcloud.com/insta
 
 Unpack the compressed zip with `sudo unzip latest.zip<br></br>`
 
-![img.14](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.14.png)
+![img.14](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.14.png)
 
 As shown above with `ls` there’s now a `nextcloud` folder situated under `/var/www/html/` but currently root owns it. We can change that:
 
@@ -372,7 +372,7 @@ By default, Nextcloud can create a database and database user when supplying the
 
 We can open a session with mysql by running the command `mysql -u root -p` and providing the root password we entered earlier.
 
-![img.17](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.17.png)
+![img.17](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.17.png)
 
 Now we’ll create a dedicated database and user for Nextcloud with the following commands:
 
@@ -384,13 +384,13 @@ GRANT ALL PRIVILEGES ON nextcloud . * TO 'ncuser'@'localhost';
 
 Then exit the mysql session with `quit`
 
-![img.18](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.18.png)
+![img.18](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.18.png)
 
 ### 3. Install Nextcloud
 
 Open up a browser and navigate to ***ip-or-hostname**/nextcloud*. Hopefully by this point a DNS entry has propagated; we’ll navigate to nc.bayton.org/nextcloud to continue installation.
 
-![img.20](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.20.png)
+![img.20](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.20.png)
 
 Success! The Nextcloud installation screen is there and showing no errors. Installation from here is simple:
 
@@ -409,14 +409,14 @@ Ideally it’s best practice to situate the data directory outside of `/var/www/
 
 Scroll down and click **Finish Setup**.
 
-![img.21](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.21.png)
+![img.21](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.21.png)
 
 Configuration
 -------------
 
 As it stands currently, Nextcloud isn’t very happy.
 
-![img.22](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.22.png)  
+![img.22](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.22.png)  
 *Ignore the HTTP error, this will disappear when we access the site over HTTPS.*
 
 ### 1. Enable .htaccess
@@ -482,7 +482,7 @@ With Redis configured, we can add the caching configuration to the Nextcloud con
 
 `sudo vim /var/www/html/nextcloud/config/config.php`
 
-![img.23](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.23.png)
+![img.23](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.23.png)
 
 Add the following:
 
@@ -506,7 +506,7 @@ Caching is now configured.
 
 With both of these now resolved, the admin interface is looking a lot healthier:
 
-![img.30](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.30-e1469692669146.png)
+![img.30](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.30-e1469692669146.png)
 
 ### 3. Pretty links
 
@@ -522,11 +522,11 @@ Add `'htaccess.RewriteBase' => '/nextcloud',` (where nextcloud is the location o
 
 From:
 
-![img.25](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.25.png)
+![img.25](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.25.png)
 
 To (don’t simply refresh the page, remove index.php from the URL and load the page again, otherwise it looks like it doesn’t work):
 
-![img.26](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.26.png)
+![img.26](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.26.png)
 
 ### 4. Max upload
 
@@ -551,7 +551,7 @@ Restart Apache:
 
 Log into the admin area of Nextcloud, navigate to **additional settings** and ensure the max upload setting there reflects the change made to the php.ini file (in this example, 2GB):
 
-[![filehandling](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/filehandling.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/filehandling.png)
+[![filehandling](https://r2_worker.bayton.workers.dev/uploads/2016/07/filehandling.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/filehandling.png)
 
 ### 5. Server-side encryption
 
@@ -567,23 +567,23 @@ While the likelihood is small, should we lose our encryption keys and not set re
 2. Click **Not enabled** from the side-menu
 3. Click **Enable** on the **Default encryption module**
 
-![img.32](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.32.png)
+![img.32](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.32.png)
 
 Next we’ll log into the Nexcloud administration area and navigate to **Server-side encryption**. Click **Enable server-side encryption**:
 
-![img.31](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.31.png)
+![img.31](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.31.png)
 
 After reading through the warnings, click **Enable encryption**. We now need to log out and back in:
 
-![img.33](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.33.png)
+![img.33](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.33.png)
 
 After logging back in and returning to this area, it will be possible to create a global recovery key:
 
-![img.34](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.34.png)
+![img.34](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.34.png)
 
 However, if a global recovery key is considered too all-powerful, individual users may also recover encrypted files with their password by setting the following option to **Enabled** in **Personal** located when clicking the username in the top-right of the screen:
 
-![img.35](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/img.35.png)
+![img.35](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.35.png)
 
 All data will now be encrypted at rest, as well as protected in transit when using SSL.
 

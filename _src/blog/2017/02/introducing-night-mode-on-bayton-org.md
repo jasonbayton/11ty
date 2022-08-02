@@ -33,7 +33,7 @@ With that in mind, I decided to implement a more elegant solution; changing the 
 
 The end result looks like this:
 
-<figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/2017-1.gif)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/2017-1.gif)</figure>It’s been live for about a month, but I’ve been tweaking it too frequently to officially announce it. There’s still a few areas of improvement (buttons, etc) but it’s good enough for now.
+<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/2017-1.gif)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/2017-1.gif)</figure>It’s been live for about a month, but I’ve been tweaking it too frequently to officially announce it. There’s still a few areas of improvement (buttons, etc) but it’s good enough for now.
 
 The implementation is a mix of CSS, CSS transitions and jquery. Ideally, I’d have preferred to implement this in PHP to be served prior to the page loading, but since PHP only knows the server’s local time and not that of the guest browsing the site it isn’t as easy to implement (though I’ll take advice in the comments!). This means the page will always load the default white theme, then darken when jquery is ready.
 

@@ -36,9 +36,9 @@ Enabling AOSP enrolment
 
 This feature is enabled at the Organisation level within settings. For orgs without an AE bind in place already, a checkbox appears with a warning when ticked:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/08/2019-08-24-00.53.06.gif)For those with a bind in place, simply click on the **Enrollment Settings** tab, **Override** if required and switch the **work-managed enrollment type** to **AOSP/CLOSED NETWORK**
+![](https://r2_worker.bayton.workers.dev/uploads/2019/08/2019-08-24-00.53.06.gif)For those with a bind in place, simply click on the **Enrollment Settings** tab, **Override** if required and switch the **work-managed enrollment type** to **AOSP/CLOSED NETWORK**
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/08/2019-08-24-00.54.33.gif)The (obvious) caveats
+![](https://r2_worker.bayton.workers.dev/uploads/2019/08/2019-08-24-00.54.33.gif)The (obvious) caveats
 ---------------------
 
 Effectively all that appears to be happening is a typical Android Enterprise enrolment (provisioned however it makes sense to do so for your organisation) without the creation and assignment of a managed Google Play account.
@@ -69,7 +69,7 @@ As mentioned above, it’s not something Google actively encourage.
 It didn’t work too well for me
 ------------------------------
 
-<div class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/08/Screenshot_20190823-230254.png)</div>I attempted an enrolment with the AOSP setting selected, and via two separate [provisioning methods](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/) (NFC, DPC identifier) Hub crashed out and refused to open on an Xperia 10.
+<div class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/08/Screenshot_20190823-230254.png)</div>I attempted an enrolment with the AOSP setting selected, and via two separate [provisioning methods](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/) (NFC, DPC identifier) Hub crashed out and refused to open on an Xperia 10.
 
 It turned out to be due to a requirement for an agent update that wasn’t well-publicised, and since updating has resolved the crashing issue.
 

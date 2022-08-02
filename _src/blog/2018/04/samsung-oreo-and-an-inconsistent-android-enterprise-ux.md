@@ -38,7 +38,7 @@ Upgrading with an existing work profile
 
 For some reason, and this is a situation I have *never* experienced on a device upgrade before, work application shortcuts from folders on my homescreen had been inexplicably removed. I maintain a consistent homescreen, give or take, across all devices I use, so noticed this immediately upon reboot:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/04/Modified-205633_Nova-Launcher-e1523976004258.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/04/Modified-205633_Nova-Launcher-e1523976004258.jpg)
 
 It’s very easy to put these back where they belong, but a pretty silly bug to have to encounter.
 
@@ -46,21 +46,21 @@ It’s very easy to put these back where they belong, but a pretty silly bug to 
 
 Again, despite permitting work notification content to be shown normally, by default it had been changed to hidden and presented the following instead:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/04/Screenshot_20180415-205601_Nova-Launcher-e1523964613975.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/04/Screenshot_20180415-205601_Nova-Launcher-e1523964613975.jpg)
 
 With the notification came an indication of the new changes afoot, I’ve never needed to “enter Workspace” before. Furthermore, it took a bit of fumbling around Workspace settings to locate the notification contents settings and return it back to how I had it.
 
 ### A new work app indicator
 
-Personally this seems unnecessary, but when a work application is opened, Workspace now adds a small triangle in the bottom corner to indicate the app icon with a bright orange work badge you tapped to launch the app, is still a work app after launching[:](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/04/yodog.jpg)
+Personally this seems unnecessary, but when a work application is opened, Workspace now adds a small triangle in the bottom corner to indicate the app icon with a bright orange work badge you tapped to launch the app, is still a work app after launching[:](/https://r2_worker.bayton.workers.dev/uploads/2018/04/yodog.jpg)
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/04/Screenshot_20180415-205850_My-Files-e1523964859828.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/04/Screenshot_20180415-205850_My-Files-e1523964859828.jpg)
 
 ### Multicolour work badge
 
 Following the upgrade it appears Workspace didn’t know whether to colour the work badge orange or blue:
 
-### ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/04/Screenshot_20180415-225507_Nova-Launcher-e1523964986556.jpg)
+### ![](https://r2_worker.bayton.workers.dev/uploads/2018/04/Screenshot_20180415-225507_Nova-Launcher-e1523964986556.jpg)
 
 It adds a bit of colour to the app drawer in any case. After re-enrolling however they all went blue. Goodbye orange briefcase! I’m thankful at least to see Samsung didn’t change *everything* and left the work applications displaying in the app drawer after the upgrade.
 
@@ -73,11 +73,11 @@ Convinced with the experience above was a bit buggy, I figured I’d take the op
 
 Within the app drawer there’s a new icon for Workspace, before tapping there you won’t see your work applications:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/04/Screenshot_20180415-210109_Workspace-e1523965366112.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/04/Screenshot_20180415-210109_Workspace-e1523965366112.jpg)
 
 As an isolated feature I don’t mind this at all. Organisations have asked many times in the past why their users see duplicate applications and is one area of improvement for [Android P](/2018/03/android-p-demonstrates-googles-focus-on-the-enterprise/). As an unexpected change to the UX though it could well initially be a tad confusing. It is however easy enough to revert back:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/04/2018_04_17_14_25_20.gif)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/04/2018_04_17_14_25_20.gif)
 
 It’s also worth noting this “feature” only appears to work with the Samsung launcher. Nova, my launcher of choice for all of my BYO devices today, showed the work apps with a badge irrespective of whether that setting was toggled or not. Considering work profile is very much a BYOD tool, I’d have thought it would have been better QA’d with other popular launchers.
 

@@ -171,7 +171,7 @@ Where:
 
 On first run the Let’s Encrypt certbot will install all required dependencies (following approval), however with the added flags above, will not require any further input to set everything up.
 
-[![lesetup](../../../../uploads/2016/07/lesetup.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/lesetup.png)
+[![lesetup](../../../../uploads/2016/07/lesetup.png)](https://r2_worker.bayton.workers.dev/uploads/2016/07/lesetup.png)
 
 Navigating now to the domain allocated to the server will show an SSL-enabled website! If the browser complains the site is not fully protected at this point, it’s due to the default Apache landing page requesting content over HTTP and not an issue with the certificate.
 
@@ -515,13 +515,13 @@ Restart Apache:
 
 Log into the admin area of Nextcloud, navigate to **additional settings** and ensure the max upload setting there reflects the change made to the php.ini file (in this example, 2GB):
 
-[![filehandling](../../../../uploads/2016/07/filehandling.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/07/filehandling.png)
+[![filehandling](../../../../uploads/2016/07/filehandling.png)](https://r2_worker.bayton.workers.dev/uploads/2016/07/filehandling.png)
 
 ### 6.5. Nextcloud 12+ PHP Opcache
 
 From Nextcloud 12, additional configuration is required in order to correctly setup PHP Opcache. The following error displays until this is completed:
 
-[![](../../../../uploads/2017/04/nc-opcache-e1495918459825.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/nc-opcache.png)
+[![](../../../../uploads/2017/04/nc-opcache-e1495918459825.png)](https://r2_worker.bayton.workers.dev/uploads/2017/04/nc-opcache.png)
 
 Re-open the `php.ini` file:
 

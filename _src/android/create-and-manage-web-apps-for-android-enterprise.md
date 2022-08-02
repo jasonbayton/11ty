@@ -25,7 +25,7 @@ For years it’s been possible to push shortcuts to websites to Android devices,
 
 A feature I’ve requested from Google many times as it comes up frequently in customer deployments, its support has never been promised and given its absence in Pie, if it did show up in Android Q next year there’s a good chance it would have been a 10+ feature, which isn’t particularly useful for the swathes of Android Enterprise customers all over the world using anything from 6.0 to 9.0:
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-2.png)<figcaption>*October 2018. 9.0 isn’t even shown yet.*</figcaption></figure>
+<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-2.png)<figcaption>*October 2018. 9.0 isn’t even shown yet.*</figcaption></figure>
 
 The proposed solution
 ---------------------
@@ -50,19 +50,19 @@ The following is demonstrated in VMware Workspace One UEM, but the process is id
 
 Within **Apps &amp; Books &gt; Apps &gt; Public**, add a new app. No name is required, despite it showing the asterisk\*:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-14.30.06.gif)Once the iFrame opens, hover the mouse on the left hand side to display the sidebar menu, and click **Web apps**. You may need to scroll down in the empty web apps page to locate the new icon, but once located click it:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-27-14.30.06.gif)Once the iFrame opens, hover the mouse on the left hand side to display the sidebar menu, and click **Web apps**. You may need to scroll down in the empty web apps page to locate the new icon, but once located click it:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-14.32.31.gif)You’re now creating a new web app. Add a name, the URL (any HTTP/HTTPS URL will do, but those like tel:// do not), and select how you wish the app to behave for end-users (ranging from a full screen app to a Chrome browser page):
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-27-14.32.31.gif)You’re now creating a new web app. Add a name, the URL (any HTTP/HTTPS URL will do, but those like tel:// do not), and select how you wish the app to behave for end-users (ranging from a full screen app to a Chrome browser page):
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-14.33.01.gif)Finally, upload a suitable icon. If you don’t have something in mind, a great resource for generating icons can be found [here](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html). When uploaded, click **Create**:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-27-14.33.01.gif)Finally, upload a suitable icon. If you don’t have something in mind, a great resource for generating icons can be found [here](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html). When uploaded, click **Create**:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/2018-12-27-14.35.49.gif)The web app will be available normally within a few minutes (note the **Not available yet** message under the app after creating it, this will vanish when it’s ready).
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-27-14.35.49.gif)The web app will be available normally within a few minutes (note the **Not available yet** message under the app after creating it, this will vanish when it’s ready).
 
 Should you ever need to edit the URL the app points to, simply re-open the app, click **Edit** at the bottom of the iFrame (you may need to scroll down) and save when complete. The app will then regenerate.
 
 Some UEMs will import web apps automatically. Others will not. For the latter, simply add an app as you normally would, switch to the web apps tab in the iFrame, click the web app in question and click **Select**. Alternatively if the UEM supports it, run an import from Play to get it.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/12/image-3.png)Conclusion
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-3.png)Conclusion
 ----------
 
 Although not technically shortcut support, I feel like this offers a nice, simple alternative that’s very easy to create and, should an organisation ever swap UEMs, simple to reimport for redistribution without having to manually recreate them. Furthermore, because this is not tied to an Android core feature, web app support is fully backwards-compatible!

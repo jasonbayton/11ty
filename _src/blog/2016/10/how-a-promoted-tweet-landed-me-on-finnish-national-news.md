@@ -73,24 +73,24 @@ What I ended up with however were two completely different audience sizes:
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-2 gallery-size-full" id="gallery-8"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/Edit-campaign3-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign3-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3315"> UK </dd></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/Edit-campaign2-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign2-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3314"> Finland </dd></dl>  
+<div class="gallery galleryid-0 gallery-columns-2 gallery-size-full" id="gallery-8"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/10/Edit-campaign3-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign3-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3315"> UK </dd></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/10/Edit-campaign2-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign2-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3314"> Finland </dd></dl>  
  </div>That’s a dramatic difference at first glance, but when considering the population of each country, and then acknowledging only roughly 5% of the Finnish population use Twitter vs closer to 35% for Brits (stats based on figures for 2015, estimated), it makes more sense.
 
 Here’s where things get interesting however. Having let both campaigns run for 6 days, the results are as follows.
 
 UK:
 
-![uk](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/uk.png)
+![uk](https://r2_worker.bayton.workers.dev/uploads/2016/10/uk.png)
 
 Finland:
 
-![finland](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/finland.png)
+![finland](https://r2_worker.bayton.workers.dev/uploads/2016/10/finland.png)
 
 As it happens, the UK campaign included three different promoted tweets vs. Finland’s one. I did this in order to test different wording and #hashtags, though the tweet shown above was by far the most popular, with the other two combined contributing ~2,000 more impressions and about 40 additional link clicks. One of those poor-performers used almost identical wording to the Finnish tweet.
 
 In all, the promoted-only actions for the British campaign beat out the Finnish campaign – as you might expect given the vast difference in audience size (though not by much, really) – as seen here:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/Ads-Manager-1-beta-.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2016/10/Ads-Manager-1-beta-.png)
 
 Something amazing happened with the Finnish campaign however, people took notice of it, *liked what they saw* and retweeted it to their followers. Some of them happened to be influential, such as the co-founder of [Jolla](https://jolla.com/):
 
@@ -128,11 +128,11 @@ That’s just the tip of the iceberg, from these likes and retweets the organic 
 
 Finally, as the campaigns drew to a close I received an email:
 
-![emailinterview2](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/emailinterview2.png)
+![emailinterview2](https://r2_worker.bayton.workers.dev/uploads/2016/10/emailinterview2.png)
 
 More than happy to oblige, I answered a few questions and later found an [article on the front page of YLE](http://yle.fi/uutiset/3-9206472) – Finland’s equivalent to the BBC in the UK:
 
-![yle](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/10/yle.png)
+![yle](https://r2_worker.bayton.workers.dev/uploads/2016/10/yle.png)
 
 Blimey.
 

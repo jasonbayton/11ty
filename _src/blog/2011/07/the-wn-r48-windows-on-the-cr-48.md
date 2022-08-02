@@ -82,7 +82,7 @@ A) Connect to Wifi and start updating, in one of the optional updates, the most 
 
 B) If you’re not interested in waiting, you can click Start &gt; Control Panel &gt; Appearance and Personalization &gt; Display &gt; Adjust Screen Resolution (left-hand link). Click “Advanced settings” then “Properties”, select the “Driver” tab and finally, click “Update Driver”.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2011/07/VGA-driver.png "VGA driver")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2011/07/VGA-driver.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/VGA-driver.png "VGA driver")](https://r2_worker.bayton.workers.dev/uploads/2011/07/VGA-driver.png)
 
 If you’re connected to the net, it will find it. After this you’ll need to reboot.
 
@@ -100,13 +100,13 @@ During this process, you should get quite a few updates.. do let them install if
 
 Another thing you may notice is the lack of Aero when you first install.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2011/07/Capture-300x187.png "Capture")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2011/07/Capture.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/Capture-300x187.png "Capture")](https://r2_worker.bayton.workers.dev/uploads/2011/07/Capture.png)
 
 (Click to enlarge)
 
 Once you’re run your Windows Experience Index, you’ll get a score of around 2.3 – enough to get you on Aero as below:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2011/07/Capture3-300x187.png "Capture3")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2011/07/Capture3.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/Capture3-300x187.png "Capture3")](https://r2_worker.bayton.workers.dev/uploads/2011/07/Capture3.png)
 
 (Click to enlarge)
 
@@ -118,7 +118,7 @@ At the moment, I have Skype, Chrome, FileZilla and Avast! installed with 3.6GB s
 
 And finally, the battery has lasted around 6 hours on one charge, topping the 4 hours I got from Fedora but naturally not as good as the 8 hours from ChromeOS.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2011/07/googleplus-icon-150x150.png "googleplus-icon")](https://plus.google.com/105616249858609350212)
+[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/googleplus-icon-150x150.png "googleplus-icon")](https://plus.google.com/105616249858609350212)
 
 Have you already done this or are looking to do this to your Cr-48 or ChromeBook?
 

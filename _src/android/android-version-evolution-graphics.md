@@ -33,7 +33,7 @@ Future updates to this document will located on this page, feel free to come on 
 
 Click the image to view the PDF.
 
-<figure class="wp-block-image size-full">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/11/Android-Evolution-v5.jpg)](/download/doc/ae-general/AndroidEvolutionv5.pdf)</figure>
+<figure class="wp-block-image size-full">[![](https://r2_worker.bayton.workers.dev/uploads/2020/11/Android-Evolution-v5.jpg)](/download/doc/ae-general/AndroidEvolutionv5.pdf)</figure>
 
 **Oreo:**  
 Android PPTx link: [Android\_Evolution.pptx](/download/doc/ae-general/Android_Evolution.pptx)  

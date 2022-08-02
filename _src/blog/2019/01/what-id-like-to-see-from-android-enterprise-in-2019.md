@@ -45,7 +45,7 @@ AE activation stats
 
 Android Enterprise has been a thing since Android 5.0 🍭, yet beyond a few finger in the air style graphs of Android Enterprise growth over the years, Google remain tight-lipped on actual figures around activations.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/05/IMG_20180508_094513.jpg)[At the Summit](/2018/05/android-enterprise-summit-2018-highlights/) I quipped:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/IMG_20180508_094513.jpg)[At the Summit](/2018/05/android-enterprise-summit-2018-highlights/) I quipped:
 
 > Over the last 12 months, Android Enterprise activations have grown 10x \[…\]
 > 
@@ -106,7 +106,7 @@ Imagine if you didn’t have to.
 
 Granted I see how complex this could get, even as an end user how would you differentiate between profiles just looking at multiple badged copies of Gmail. Maybe badge colours?
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/image-1.png)(Can you imagine!)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/01/image-1.png)(Can you imagine!)
 
 And what of security? Would the organisation be able to enforce the requirement for a separate passcode to any of the others on the device? There are many aspects to take into consideration that I’ve likely not thought of yet, but I can fully understand why this is complex.
 
@@ -134,7 +134,7 @@ For example, I could set a 3GB cap and only permit Gmail, Slack or other work ap
 
 Taking that a step further and being able to pull reports of app usage within the EMM console would be pretty neat also.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/image-2.png)Work profile SIM management
+![](https://r2_worker.bayton.workers.dev/uploads/2019/01/image-2.png)Work profile SIM management
 ---------------------------
 
 A number of people use dual-SIM phones in the enterprise, that way they can use their own devices, but benefit from a separate business line so as not to need to use their personal number.
@@ -156,14 +156,14 @@ Android Enterprise support has been mandatory for GMS certified devices since 6.
 
 While I’m sure they’re already doing a tireless, thankless job of telling OEMs to sort themselves out, clearly when a huge name like Xiaomi openly demonstrates they’re not that bothered about enterprise, while expanding into more and more regions around the globe, Google need to bring the hammer down and put them in line. If not, eventually people are going to end up using them in an enterprise context and find they’re out of luck.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/image.png)Every OEM that doesn’t properly support Android Enterprise threatens Android in the enterprise as a whole. The industry needs reliable, consistent management across OEMs, otherwise more orgs will hit issues and start doubting the product.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/01/image.png)Every OEM that doesn’t properly support Android Enterprise threatens Android in the enterprise as a whole. The industry needs reliable, consistent management across OEMs, otherwise more orgs will hit issues and start doubting the product.
 
 Zero-touch customer device uploads
 ----------------------------------
 
 Apple have allowed for the grandfathering of customer-owned devices into DEP for a long time now, as has Samsung with KME, and this has been a long-standing request I’ve had with Google.
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/image-5.png)<figcaption>One of many threads with Google on this functionality!</figcaption></figure>Zero-touch is the only offering today that utilises a restrictive reseller-only model. I understand why this is, as in the wrong hands it could naturally cause problems, however if Samsung and Apple can do it, the big G themselves should be able to figure something out.
+<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/01/image-5.png)<figcaption>One of many threads with Google on this functionality!</figcaption></figure>Zero-touch is the only offering today that utilises a restrictive reseller-only model. I understand why this is, as in the wrong hands it could naturally cause problems, however if Samsung and Apple can do it, the big G themselves should be able to figure something out.
 
 I’ll continue to mention it, hopefully this year we’ll get to a point where zero-touch enrolment could become as easy administratively as it is technically!
 

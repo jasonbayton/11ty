@@ -44,7 +44,7 @@ Some traffic cannot be optimised due to SSL encryption and therefore a lack of v
 
 On logging into the console at <https://radar.wandera.com>, I’m greeted with a familiar, though busier dashboard offering a redesigned overview featuring a new focus on mobile threat defense at the very top; this shows threats and risk for mobile devices enrolled on the platform. Below this are the familiar data usage metrics, savings provided by Wandera’s compression engine and an overview of on what (and where) data has been used.
 
-[![dashhi](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/dashhi.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/dashhi.png)
+[![dashhi](https://r2_worker.bayton.workers.dev/uploads/2016/12/dashhi.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/dashhi.png)
 
 On the left I notice there are a number of new areas in the navigation, including **Secure**, **Administration**, and **Policy** which I’ll touch on below.
 
@@ -54,7 +54,7 @@ The dashboard is now much cleaner and offers more information at a glance. It’
 
 The cost savings demonstrated in the dashboard above are only accurate after configuring the default (and any other) **Plan Details** located in **Settings**.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/carrierplan-e1481415390507.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/carrierplan-e1481415390507.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/carrierplan-e1481415390507.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/carrierplan-e1481415390507.png)
 
 </div>Enrolling a device
 ------------------
@@ -63,7 +63,7 @@ Device enrolment is definitely an area that has seen some significant improvemen
 
 ### What’s the difference?
 
-**[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/emmc-e1481381464687.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/emmc.png)**
+**[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/emmc-e1481381464687.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/emmc.png)**
 
 **App Push** was the first attempt at EMM integration and today still supports the highest number of EMM platforms.
 
@@ -71,13 +71,13 @@ Using the EMM-provided Application Management tools, the Wandera app can be impo
 
 This is the process on iOS at least and is definitely smoother than on Android, wherein an additional activation app is required for the provisioning steps which can later be removed. I picture this improving in the near future with the uptick in Android for Work deployments and although Wandera don’t support AfW currently, the Wandera App appears to be compatible (though not enabled) in some preliminary testing I undertook.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/app-push.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/app-push.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/app-push.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/app-push.png)
 
 **EMM Connect,** by contrast, utilises the APIs of popular EMM platforms AirWatch and MobileIron to automatically sync and provision EMM-enrolled devices/users with Wandera, without all of the extra hands-on required with provisioning keys as used with App Push, the app itself will still need to be distributed though .
 
 EMMC once connected will generate a unique EMM label to be created within the EMM platform. All devices assigned to this label will then be synced to Wandera automatically and provisioned on launch of the Wandera app. Furthermore, Wandera can see any other groups/labels through the EMM API and allows administrators to assign different labels to various Wandera Groups, an excellent and simple way of dynamically assigning devices to group-based data policies.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-10-15-00-23.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-10-15-00-23.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-10-15-00-23.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-10-15-00-23.png)
 
 <div class="bs-callout bs-callout-info">#### Wandera Groups
 
@@ -87,13 +87,13 @@ Wandera Groups, much like groups or labels in EMM products, allow for multiple u
 
 A further benefit of Supervision is the ability to manage not only mobile data but WIFI also. It has long been the case that no matter what rules are put in place to block access to various services, switching on WIFI circumvents it all. Once Supervised this is no longer the case.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/emm-connect.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/emm-connect.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/emm-connect.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/emm-connect.png)
 
 In testing I found the EMMC method was very reliable, though it took a few days to get set up due to using [Let’s Encrypt](https://letsencrypt.org/) SSL certificates for my MobileIron Core. I worked with Wandera to get these certificates supported as I know for a fact they will only grow in popularity as time goes on. From here on out that will no longer be an issue.
 
 Here’s how an EMM-connected device is displayed within the console:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-10-23-06-22.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-10-23-06-22.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-10-23-06-22.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-10-23-06-22.png)
 
 I look forward to seeing Android devices supported in EMMC, once again perhaps in tandem with Android for Work we will soon see far more opportunities for integration on par with what iOS users get today.
 
@@ -108,7 +108,7 @@ That doesn’t mean I like it however. With no less than 7 Android devices of va
 Setting up plans and data policies
 ----------------------------------
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/plan-overview.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/plan-overview.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/plan-overview.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/plan-overview.png)
 
 Wandera have introduced the **Policies** heading which brings both **Data Policy** and **Business/Personal** across from the previous location in **Settings**, along with a new **Security Policies** configuration discussed further below.
 
@@ -120,7 +120,7 @@ Different caps and limitations can be enforced for different situations: domesti
 
 Furthermore, anything from one particular website to a full range of sites under any one of several categories can be blocked, as shown here:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/RADAR-Wandera.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/RADAR-Wandera.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/RADAR-Wandera.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/RADAR-Wandera.png)
 
 In the above example, among other things I have blocked both **News &amp; Sport** as a genre, but also [techcrunch.com](//techcrunch.com) as an individual website. As soon as this policy is saved devices are updated immediately and all blocks are enforced without any further action required from the administrator.
 
@@ -131,7 +131,7 @@ For those who’ve adopted BYOD, **Business/Personal** is simply a collection of
 Secure devices
 --------------
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/secure.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/secure.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/secure.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/secure.png)
 
 **Secure** is a new function that encompasses mobile threat defense and content filtering to prevent targeted mobile attacks, identify data leaks, and filter access to risky or unapproved usage. It does this by not only reviewing the sites visited, but also the state of the device itself (as demonstrated above). In testing I found it could be a little over-sensitive (MobileIron, my EMM platform, is naturally going to be a device admin) but the insight **Secure** offers generally is both vast and incredibly useful. Some of the security threats it’ll pick up on include:
 
@@ -144,23 +144,23 @@ Secure devices
 
 In fact, just looking at the Event Logs gives an indication of what has been detected on my device over the last week:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-08-20-40-50.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-08-20-40-50.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-08-20-40-50.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-08-20-40-50.png)
 
 Some of these are less severe (according to Wandera) than others, though ultimately the administrator has the ability to either receive alerts on detection or ignore these events all together. By default these are reported silently, requiring the administrator to actively investigate. I’m OK with this as typically being bombarded by email alerts doesn’t particularly excite me. Notifications can be set up in **Settings &gt; Notifications**.
 
 Each event listed can be drilled down further in order to provide more context around the device it was flagged against:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-08.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-08.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-08.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-08.png)
 
 If an event, such as **Device Admin app found** is not a concern, it can be turned off by clicking **Manage Policy** in the above screenshot:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-08-21-15-12.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-08-21-15-12.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-08-21-15-12.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-08-21-15-12.png)
 
 The issue I see here is I can seemingly only turn **all** Device Admin alerts off for one device or all devices. While I’m confident MobileIron in this case is safe, there’s no guarantee anything a user installs requiring Device Admin later would be. I’d rather turn it off on a case-by-case basis, opting to whitelist MobileIron or any other perceived low-risk Device Admin at the moment it is brought to the administrator’s attention.
 
 ### Security Policies
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/security-policy.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/security-policy.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/security-policy.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/security-policy.png)
 
 Naturally reporting any security concerns is nice, but it’s only half a solution; Wandera have as such also introduced **Security Policies** that sit within the new **Policies** area of the console to enable automated actions based on the incident detected.
 
@@ -171,30 +171,30 @@ In testing I wasn’t able to replicate a scenario whereby traffic would be bloc
 Managing the console
 --------------------
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/add-admin.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/add-admin.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/add-admin.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/add-admin.png)
 
 I’m pleased to see since my last look at Wandera it’s no longer necessary to submit a support ticket in order to add another administrator. This was an immensely basic necessity which I couldn’t believe was overlooked initially, but adding additional admins today is a piece of cake.
 
 Other than this, notifications can easily be set up through **Settings &gt; Notifications**, allowing for very simple yes/no decisions on what alerts should be sent to the admin, the user or nowhere at all.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/alerts.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/alerts.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/alerts.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/alerts.png)
 
 Other changes
 -------------
 
 As with the dashboard, a number of changes since my last review appear to be mostly cosmetic – offering a better layout with more information at a glance. Wandera have again dropped the dated design:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2014/05/Devices-e1399322805740.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2014/05/Devices-e1399322805740.png)
 
 In favour of a much cleaner, nicer interface with richer filtering and search options:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/devices-list-e1481385603616.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/devices-list-e1481385603616.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/devices-list-e1481385603616.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/devices-list-e1481385603616.png)
 
 ### Devices
 
 In addition for **Devices,** Wandera have added a Summary view which is not drastically different from that of the dashboard:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/dashboard.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/dashboard.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/dashboard.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/dashboard.png)
 
 Though it does offer a somewhat different visualisation of the data available, instead focusing on device availability and connectivity to the Wandera platform. Admittedly I didn’t find myself looking at this too often with such a small deployment of devices, but it’s not dissimilar to the dashboard views I’m used to seeing (and heavily utilising) on various EMM platforms.
 
@@ -202,13 +202,13 @@ Though it does offer a somewhat different visualisation of the data available, i
 
 One of the more interesting features under **View** was *Real-Time* which gave an indication of the data passing through the server as it happened. It was a little gimmicky perhaps, but for troubleshooting purposes was probably as close to a tool as Wandera offers for administrators. Unfortunately that’s now gone, but the excellent tables and graphs showing data usage clearly, along with the apps and sites frequented by users, is still all very much present:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/view-overview.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/view-overview.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/view-overview.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/view-overview.png)
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/view-table.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/view-table.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/view-table.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/view-table.png)
 
 An interesting addition I don’t recall seeing in the past is under **Settings &gt; Service Controls**. Particularly in the run-up to the new [General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation), having the ability to anonymise reported data feels like a crucial necessity to prevent huge fines for breaches of data protection:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-10-16-18-16.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot-from-2016-12-10-16-18-16.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-10-16-18-16.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-10-16-18-16.png)
 
 *For those interested, Wandera themselves have [published a whitepaper ](https://blog.wandera.com/2016/11/gdpr-mobile-implications/)outlining the implications of GDPR.*
 

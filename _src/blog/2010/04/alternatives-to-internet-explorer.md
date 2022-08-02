@@ -31,7 +31,7 @@ I will suggest 2 popular alternatives, and one twist for those who may find use 
 
 ### Google Chrome
 
-[![Google-Chrome](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/04/Google-Chrome.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/04/Google-Chrome.png)
+[![Google-Chrome](https://r2_worker.bayton.workers.dev/uploads/2010/04/Google-Chrome.png)](https://r2_worker.bayton.workers.dev/uploads/2010/04/Google-Chrome.png)
 
 I’ll start with Chome, simply as it’s my favourite. Chrome is currently the fastest, and most secure (after results from the latest Pwn2Own competition) browser available to the market. Out of the “big three” browsers (IE, Firefox, Chrome) it holds the lowest market share, but hopefully with the recent update to 4.0 and further updates to come that will improve.
 
@@ -57,7 +57,7 @@ Mozilla have worked hard to make sure the browser is as user friendly as possibl
 
 ### The Twist: Flock
 
-[![Flock_Screenshot](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/04/Flock_Screenshot.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/04/Flock_Screenshot.png)
+[![Flock_Screenshot](https://r2_worker.bayton.workers.dev/uploads/2010/04/Flock_Screenshot.png)](https://r2_worker.bayton.workers.dev/uploads/2010/04/Flock_Screenshot.png)
 
 Are you an avid social networker? Perhaps wanting easy access to your photobucket, flickr, picasa etc picture upload services? Wanting quick access to your mail, and want to publish to your blog instantly from the browser window? Perhaps Flock is for you.
 

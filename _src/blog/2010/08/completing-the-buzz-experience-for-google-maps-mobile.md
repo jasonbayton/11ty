@@ -40,7 +40,7 @@ However I’m finding myself using Google Buzz a *lot* more recently, and while 
 
 There could be a light at the end of the tunnel in the form of Google Maps. Currently Maps shows both Buzz “balloons” on the map, and a list of the nearby Buzzes once the Buzz layer is enabled from the menu.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Screen01.jpg "Screen01")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Screen01.jpg) [![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Screen03.jpg "Screen03")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Screen03.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen01.jpg "Screen01")](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen01.jpg) [![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen03.jpg "Screen03")](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen03.jpg)
 
 It’s great, very convenient for me as Maps is literally one tap from the home screen and on top of that, it also allows me to switch between Maps, Navigation, Buzz and Latitude on the fly much faster than any app collection would let me. It is, or rather, **could be** the perfect solution to Windows Mobile users with an affection for Buzz or, incidentally, all things Google.
 
@@ -50,10 +50,10 @@ The one thing missing to make Buzz integration with Google Maps *perfect* is the
 
 Maps obviously has the potential to display Buzz, and a little extra data to show the Following tab and subsequent Buzz posts (optionally!) certainly wouldn’t bother me at all! It really would be beneficial for all of us WM users and would love to see it integrated. Something like this:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Screen04.jpg "Screen04")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Screen04.jpg) [![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Screen05.jpg "Screen05")  ](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/Screen05.jpg)*Nearby remains the default view, however the tab for Following is right there next to it should someone want to use it.*
+[![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen04.jpg "Screen04")](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen04.jpg) [![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen05.jpg "Screen05")  ](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen05.jpg)*Nearby remains the default view, however the tab for Following is right there next to it should someone want to use it.*
 
 In my opinion this should be integrated into Maps, it’s the perfect evolution for Buzz within Maps and would improve the experience for those who use it ten-fold. Seriously, it would open Buzz up to a whole new field of people – those who like it, but since they’re running unsupported platforms (BlackBerry, Symbian, WM etc) not enough to put up with xHTML or continuous, low tech workarounds just to see what friends are saying day to day.
 
 That’s it from me, I hope I’ve pitched the idea well enough to make this happen! I haven’t had much success pitching this idea to the Buzz/Maps team before now, but I hope this request finds you well, Google, and on behalf of me and all WM Buzz users everywhere, I look forward to seeing this **vast** feature improvement hopefully coming to Maps soon!
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/EndScreen07.jpg "EndScreen07")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2010/08/EndScreen07.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2010/08/EndScreen07.jpg "EndScreen07")](https://r2_worker.bayton.workers.dev/uploads/2010/08/EndScreen07.jpg)

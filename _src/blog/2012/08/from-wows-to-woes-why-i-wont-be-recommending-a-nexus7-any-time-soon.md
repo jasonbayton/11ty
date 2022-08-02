@@ -41,7 +41,7 @@ After pre-ordering my Nexus, these reports started coming through thick and fast
 
 Two weeks passed and the device showed up. I looked it over and tested it out, being generally pleased with the quality and lack of issues. I applied a screen protector, gel case and carried on. It wasn’t until four weeks later after hearing someone stating their screen was lifting on the left hand side that I decided to check, in detail, my own.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/08/liftedscreen.png "liftedscreen")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/08/liftedscreen.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2012/08/liftedscreen.png "liftedscreen")](https://r2_worker.bayton.workers.dev/uploads/2012/08/liftedscreen.png)
 
 It had lifted.
 
@@ -53,7 +53,7 @@ Until today.
 
 Whilst putting it down to make a cup of tea, I returned to find the screen was almost white, having lost most of it’s colour. I immediately rebooted it to find the Nexus boot screen was just as “washed out”.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/08/IMG_20120813_175555-e1344888343496.jpg "IMG_20120813_175555")](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/08/IMG_20120813_175555-e1344888343496.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2012/08/IMG_20120813_175555-e1344888343496.jpg "IMG_20120813_175555")](https://r2_worker.bayton.workers.dev/uploads/2012/08/IMG_20120813_175555-e1344888343496.jpg)
 
 Above is the Nexus7 with the lifted screen next to the RMA N7. Had TNT not forgotten about me, I’d have sent the original N7 back by now. As it happens, it has come in handy for a direct comparison.
 

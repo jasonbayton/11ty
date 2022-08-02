@@ -27,113 +27,113 @@ DPC identifiers
 
 <div class="wp-block-columns has-3-columns"><div class="wp-block-column">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/mobileiron_71819.png) **MobileIron Core**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/mobileiron_71819.png) **MobileIron Core**  
 afw#mobileiron.core
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/mobileiron_71819.png) **MobileIron Cloud**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/mobileiron_71819.png) **MobileIron Cloud**  
 afw#mobileiron.cloud
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/mobico-1.jpg) **SOTI Mobicontrol**   
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/mobico-1.jpg) **SOTI Mobicontrol**   
 afw#mobicontrol
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/maas.jpg) **IBM MaaS360**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/maas.jpg) **IBM MaaS360**  
 afw#maas360
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/xenmob.jpg) **Citrix XenMobile**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/xenmob.jpg) **Citrix XenMobile**  
 afw#xenmobile
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/ws1uemicon.jpg) **VMware WS1 UEM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/ws1uemicon.jpg) **VMware WS1 UEM**  
 afw#hub
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/meraki.jpg) **Cisco Meraki**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/meraki.jpg) **Cisco Meraki**  
 afw#meraki
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/shoonyaglow.png) **Shoonya**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/shoonyaglow.png) **Shoonya**  
 afw#shoonya
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/mobileiron_71819.png) **MobileIron Core Telekom**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/mobileiron_71819.png) **MobileIron Core Telekom**  
 afw#telekom.mi
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/07/knox.png) **Knox Manage**  
+![](https://r2_worker.bayton.workers.dev/uploads/2019/07/knox.png) **Knox Manage**  
 afw#knoxmanage
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/02/Silverback-Companion-Application-Icon.png) **Matrix42**  
+![](https://r2_worker.bayton.workers.dev/uploads/2020/02/Silverback-Companion-Application-Icon.png) **Matrix42**  
 afw#matrix42
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/avalanche.png) **Avalanche**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/avalanche.png) **Avalanche**  
 afw#avalanche
 
 </div><div class="wp-block-column">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/bbuem.jpg) **BlackBerry UEM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/bbuem.jpg) **BlackBerry UEM**  
 afw#blackberry
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/intune.jpg) **Microsoft Intune**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/intune.jpg) **Microsoft Intune**  
 afw#setup
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/codeproof.png) **Codeproof EMM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/codeproof.png) **Codeproof EMM**  
 afw#codeproof
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/codeproof.png) **Codeproof EMM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/codeproof.png) **Codeproof EMM**  
 afw#codeproof.lg
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/codeproof.png) **Codeproof EMM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/codeproof.png) **Codeproof EMM**  
 afw#codeproof.samsung
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/goog.png) **Android Management API**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/goog.png) **Android Management API**  
 afw#setup
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/goog.png) **Test DPC**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/goog.png) **Test DPC**  
 afw#testdpc
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/zen.png) **ZENworks**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/zen.png) **ZENworks**  
 afw#zenworks
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/suremdm.png) **SureMDM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/suremdm.png) **SureMDM**  
 afw#suremdm
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/05/kace-orange.png) **KACE Cloud MDM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/kace-orange.png) **KACE Cloud MDM**  
 afw#kace
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/12/icon-android-tinymdm-white64x64.png) **TinyMDM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2019/12/icon-android-tinymdm-white64x64.png) **TinyMDM**  
 afw#tinymdm
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/evoluzione-e1599084314695.png) **EvoluzioneICT**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/evoluzione-e1599084314695.png) **EvoluzioneICT**  
 afw#evoluzioneict
 
 </div><div class="wp-block-column">
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/memdm.jpg) **Manage Engine MDM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/memdm.jpg) **Manage Engine MDM**  
 afw#memdm
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/miradore-2-e1540806823873.jpg) **Miradore**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/miradore-2-e1540806823873.jpg) **Miradore**  
 afw#miradore
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/wizy.jpg) **Wizy EMM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/wizy.jpg) **Wizy EMM**  
 afw#setup
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/pulseemm.png) **Pulse One**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/pulseemm.png) **Pulse One**  
 afw#pulse
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/sophos.png) **Sophos Mobile**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/sophos.png) **Sophos Mobile**  
 afw#sophos
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/fusionemm.png) **Fusion EMM**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/fusionemm.png) **Fusion EMM**  
 afw#fusionemm
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/famoc.png) **FAMOC**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/famoc.png) **FAMOC**  
 afw#famoc
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/mobilock.png) **MobiLock Pro**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/mobilock.png) **MobiLock Pro**  
 afw#mobilock
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/mobileiron_71819.png) **MobileIron Cloud AtWork**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/mobileiron_71819.png) **MobileIron Cloud AtWork**  
 afw#mobileiron.atwork
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/ws1uemicon.jpg) **VMware Workspace One**  
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/ws1uemicon.jpg) **VMware Workspace One**  
 afw#workspaceone
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2020/02/Logo-Chimpa-quad.png) **Chimpa**  
+![](https://r2_worker.bayton.workers.dev/uploads/2020/02/Logo-Chimpa-quad.png) **Chimpa**  
 afw#chimpa
 
 </div></div>Submit a DPC identifier

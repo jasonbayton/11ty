@@ -56,7 +56,7 @@ Should you wish to see first-hand the policies/configs/profiles utilised to vali
 
 #### MobileIron Core
 
-[MobileIron Policies](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/MI_AEvalidation.zip)[Download](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/MI_AEvalidation.zip)
+[MobileIron Policies](https://r2_worker.bayton.workers.dev/uploads/2019/01/MI_AEvalidation.zip)[Download](https://r2_worker.bayton.workers.dev/uploads/2019/01/MI_AEvalidation.zip)
 
 #### VMware Workspace ONE UEM
 

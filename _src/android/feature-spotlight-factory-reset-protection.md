@@ -65,11 +65,11 @@ FRP management, and the act of whitelisting accounts is a very straightforward p
 
 ### Configuring WS1 UEM
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/09/2018-09-06-12.46.44.gif)### Configuring MobileIron Cloud
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-06-12.46.44.gif)### Configuring MobileIron Cloud
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/09/2018-09-06-12.51.53.gif)### Configuring Intune
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-06-12.51.53.gif)### Configuring Intune
 
-<figure class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/09/image-2.png)<figcaption>*Sorry, no GIF here. Also interesting is the use of email addresses.*</figcaption></figure>
+<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-2.png)<figcaption>*Sorry, no GIF here. Also interesting is the use of email addresses.*</figcaption></figure>
 
 ### Getting the ID
 
@@ -77,7 +77,7 @@ In the above (excluding Intune) it may just seem like a bunch of numbers being p
 
 Simply head over to [People: Get](https://developers.google.com/people/api/rest/v1/people/get), type “me” into the userID, click EXECUTE, and when prompted for authentication, log in with the generic Google account you wish to fetch the ID for. It will output it as below, highlighted in orange.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/09/image-1.png)The end user experience
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-1.png)The end user experience
 -----------------------
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/rYxcC9XYgVI?feature=oembed" width="500"></iframe></div></figure>Conclusion

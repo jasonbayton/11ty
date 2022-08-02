@@ -16,7 +16,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/sony-xperia-l3-android-enterprise-validation-report/304'
 ---
-<div class="wp-block-image">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/06/xpl3.png)</div>1. Tech specs
+<div class="wp-block-image">![](https://r2_worker.bayton.workers.dev/../uploads/2019/06/xpl3.png)</div>1. Tech specs
 -------------
 
 - - - - - -
@@ -69,7 +69,7 @@ Where a feature works with one EMM, but does not with another (consider **Enforc
 
 Some features aren’t supported or set up across EMMs, or don’t work with the device (consider **KME** below), where this is the case the feature will be marked as untested (purple).
 
-<figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/../uploads/2019/06/Bayton_AE_validation_XperiaL3-3.jpg)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/06/Bayton_AE_validation_XperiaL3.pdf)</figure>4. Notes from the above report
+<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/../uploads/2019/06/Bayton_AE_validation_XperiaL3-3.jpg)](https://r2_worker.bayton.workers.dev/uploads/2019/06/Bayton_AE_validation_XperiaL3.pdf)</figure>4. Notes from the above report
 ------------------------------
 
 ### 4.1. Device issues

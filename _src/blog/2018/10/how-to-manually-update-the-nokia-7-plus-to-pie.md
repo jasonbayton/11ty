@@ -54,7 +54,7 @@ adb reboot recovery
 
 Once confronted with the Android laying on its back, hold the power button and press volume up. It may take a few attempts to get this right.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/10/image-1.png)3. Start the install
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/image-1.png)3. Start the install
 --------------------
 
 Select **Apply update from ADB** in the recovery menu by using the volume keys to go up and down through the menu, and power to confirm the selection. Once confirmed, the device will await the update package via [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/).

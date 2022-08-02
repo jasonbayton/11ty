@@ -67,7 +67,7 @@ Android Enterprise (AE) offers a few things:
 
 With the introduction of 5.0 Lollipop Google also made user profiles available to phones in addition to the tablets that had already had it. Using the same underlying functionality Android Enterprise is able to create a managed user profile that although sits entirely separately encrypted on disk, integrates directly with the current user on the device in order to provide both personal and work applications in the same app drawer – the latter indicated by a briefcase:
 
-<div class="wp-caption alignnone" id="attachment_3781" style="width: 990px">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/hero2-980x525.jpg)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/hero2-980x525.jpg)Source: arstechnica.com
+<div class="wp-caption alignnone" id="attachment_3781" style="width: 990px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/hero2-980x525.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/hero2-980x525.jpg)Source: arstechnica.com
 
 </div>There are two ways of enabling Android Enterprise, the first and original is through a GSuite managed domain that requires either an existing GSuite subscription or a free single-user account used for little more than initial setup. If domain verification hasn’t already been done through GSuite, the business will need to undertake a couple of tasks to prove they own the domain they’re setting AE up against.
 
@@ -77,17 +77,17 @@ Whichever method is used, it’s then possible (but not necessarily required sin
 
 Some EMM platforms don’t make use of the Enterprise Play Store application and instead manage apps through the integrated EMM app catalogue as has always been traditionally available, an example would be MobileIron:
 
-<div class="wp-caption alignnone" id="attachment_3774" style="width: 1287px">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.06.15.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.06.15.png)Notice the briefcases on managed apps? Source: bayton.org, photo: MobileIron Core 9.2
+<div class="wp-caption alignnone" id="attachment_3774" style="width: 1287px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-25-at-22.06.15.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-25-at-22.06.15.png)Notice the briefcases on managed apps? Source: bayton.org, photo: MobileIron Core 9.2
 
 </div>The benefit of utilising an EMM platform for app management is app config, making it extremely easy to tailor applications to the business for immediate use on deployment, no additional end-user config required:
 
-<div class="wp-caption alignnone" id="attachment_3776" style="width: 1289px">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)Source: bayton.org, photo: MobileIron Core 9.2
+<div class="wp-caption alignnone" id="attachment_3776" style="width: 1289px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)Source: bayton.org, photo: MobileIron Core 9.2
 
 </div>For EMM admins the above config may look familiar, though apps like Chrome offer far more granular functionality around permitted domains, browser functionality and more.
 
 When Android Enterprise is deployed, it looks something like this:
 
-<div class="wp-caption alignnone" id="attachment_3777" style="width: 1930px">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot_20170225-220945.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot_20170225-220945.png)Source: bayton.org, photo: Android 6.0 BYOD Android Enterprise
+<div class="wp-caption alignnone" id="attachment_3777" style="width: 1930px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot_20170225-220945.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot_20170225-220945.png)Source: bayton.org, photo: Android 6.0 BYOD Android Enterprise
 
 </div>The mix of work and personal apps together on the above BYOD handset demonstrates the level of integration; as an end-user it feels like just another few apps installed, despite the underlying profile configurations working to separate and secure that corporate data. Should an enterprise wipe be issued, it simply removes the AE profile and leaves all userdata untouched.
 

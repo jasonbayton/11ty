@@ -25,12 +25,12 @@ Today, with the release of Core 9.7.0.1, MobileIron [officially introduce](https
 
 Work profiles on fully managed devices (further referred to as *managed work profile*) is the fourth and final deployment scenario (far-right, pictured below) for Android Enterprise and the one I’ve been waiting for since its announcement last year! For those unfamiliar, managed work profile is the equivalent of [COPE](/android/android-glossary/#cope) – Corporate Owned, Personally Enabled – which has also gone by the name of COMP (Corporate Owned Managed Profile), WMWP (Work-Managed Work Profile) and likely other names/acronyms as well.
 
-<div class="wp-caption aligncenter" id="attachment_4598" style="width: 1065px">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/Android-enterprise-deployment-scenarios-1.png)](/android/what-is-android-enterprise-and-why-is-it-used/)*Image from [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)*
+<div class="wp-caption aligncenter" id="attachment_4598" style="width: 1065px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/04/Android-enterprise-deployment-scenarios-1.png)](/android/what-is-android-enterprise-and-why-is-it-used/)*Image from [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)*
 
 </div>Why is it important?
 --------------------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/03/2018_03_22_08_25_28.gif)Prior to today, when provisioning an Android Enterprise device an organisation has had two deployment scenarios to choose from: work profile and work-managed. These scenarios, while suitable for a number of applications, offer what is essentially two extremes.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_22_08_25_28.gif)Prior to today, when provisioning an Android Enterprise device an organisation has had two deployment scenarios to choose from: work profile and work-managed. These scenarios, while suitable for a number of applications, offer what is essentially two extremes.
 
 - [Work profile](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile) is an approach akin to BYOD management; the organisation has control over a dedicated corporate profile with the capability to enforce basic security on the wider device, but little else. The end-user has full control over the device.
 - [Work-managed](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) is the [COBO](/android/android-glossary/#cobo) approach to management; the organisation has full control over the entire device, offering no personal use by default.
@@ -47,11 +47,11 @@ How it works
 
 Once updated to 9.7.0.1, organisations will see a new option within the Android Enterprise mandatory configuration for managed work profile as follows:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/03/ae-wmwp.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/ae-wmwp.png)
 
 There’s a bit of a change with the Lockdown Policy too, however this looks to be mostly wording, layout and the addition of yet *more* nested tables (I feel like this layout could be improved). Below shows 9.7 (left) against 9.6 (right), the basic options remain similar:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/03/ae-wmwp-lock-compare.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/ae-wmwp-lock-compare.png)
 
 After **Enable Managed Device with Work Profile on the devices** is selected and the configuration is saved, when provisioning an Android Enterprise device to be work-managed using any of the typical provisioning methods (QR, NFC, DPCi, zero-touch) the device will be prompted to create a work profile after enrolling, leaving the parent profile (or *device*) untouched for later personal account setup.
 
@@ -155,13 +155,13 @@ Interested in learning more about managed Google Play? Check out my article for 
 
 </div>Admins can simply import the APK file into Core, tick the box to install for Android Enterprise and finish. Once generated, admins will need to download the APK Definition file, extract the license and paste it into the provided area before saving.
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/03/addapp.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/addapp.png)
 
 As simple as that! More information can be found on Google’s help pages [here](https://support.google.com/googleplay/work/topic/6145152?hl=en&ref_topic=6137710) or on my [Introduction to managed Google Play over](/2018/03/an-introduction-to-managed-google-play/) on [Brian Madden](http://brianmadden.com).
 
 For organisations managing Samsung devices, the system update policy will sound familiar; with this feature organisations can now control system upgrades on Android Enterprise devices directly from the MobileIron admin console:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2018/03/aeupdates.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/aeupdates.png)
 
 It’s now possible to enforce upgrades automatically, set an update window to ensure system updates don’t interfere with BAU activities, or postpone up to 30 days for testing and verification. A welcome addition to make update management just a little easier for the wider Android ecosystem.
 

@@ -27,14 +27,14 @@ Hierarchical navigation
 
 While categories and tags have their place, when reading through documentation on a subject there’s nothing quite as good as having content-aware navigation, allowing quick access to both similar topics, those in a series, or just having the ability to jump up a level without requiring any additional effort.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/docs2.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/docs2.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/05/docs2.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/05/docs2.png)
 
 Contents
 --------
 
 Every article will now have a table of contents to refer to, saving endless scrolling on longer articles as is currently the case.
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/docs4.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/docs4.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/05/docs4.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/05/docs4.png)
 
 Linked headings
 ---------------
@@ -46,14 +46,14 @@ To make it as easy possible to:
 
 Each heading now has it’s own direct link within a document:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/docs5.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/docs5.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/05/docs5.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/05/docs5.png)
 
 Organisation by colour and highlighting recently published
 ----------------------------------------------------------
 
 To make it easier to differentiate between topics, each one has a unique colour; super useful for finding related documentation at a glance:
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/docs6.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/05/docs6.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/05/docs6.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/05/docs6.png)
 
 Furthermore, all new documentation is highlighted beneath the topic it sits under, as demonstrated above.
 

@@ -29,7 +29,7 @@ So, here we go!
 Helium
 ------
 
-[![Helium](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-09-36-46-1024x576.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-09-36-46.png)
+[![Helium](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-09-36-46-1024x576.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-09-36-46.png)
 
 Helium (formerly Carbon) backup is the brainchild of [Koush](http://plus.google.com/u/0/110558071969009568835/posts), the creator of [ClockworkMod](http://www.clockworkmod.com/rommanager) and co-founder of [CyanogenMod](https://lineageos.org/). It is a **no-root** solution for backup and synchronisation of applications and data between devices and is literally the *best* Android backup solution I have used to date.
 
@@ -59,7 +59,7 @@ Cloud backup and restore
 Solid Explorer
 --------------
 
-[![Solid Explorer](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-10-17-10-1024x576.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-10-17-10.png)
+[![Solid Explorer](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-10-17-10-1024x576.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-10-17-10.png)
 
 Solid Explorer made a brief appearance in my [previous post](/2012/12/my-top-android-apps-1212/ "My Top Android Apps 12/12") as an up-and-coming file explorer.
 
@@ -72,7 +72,7 @@ It’s available on the Play Store as a [14 day trial](https://play.google.com/s
 Disk Usage
 ----------
 
-[![Disk Usage](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/12/Screenshot_2012-12-27-00-08-40-1024x614.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/12/Screenshot_2012-12-27-00-08-40.png)
+[![Disk Usage](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-27-00-08-40-1024x614.png)](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-27-00-08-40.png)
 
 Still at the very top of my favourites list a year later, Disk Usage is a very simple, handy application that provides a graphical overview of what’s using your storage. It allows you to select your storage medium (internal, external, etc) on launch and will show you where all of your storage is going down to file-level.
 
@@ -82,7 +82,7 @@ Disk Usage is available **free** in the [Play Store](https://play.google.com/sto
 
 ### Thumb Keyboard
 
-[![Screenshot_2012-12-26-23-54-46](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/12/Screenshot_2012-12-26-23-54-46-1024x614.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2012/12/Screenshot_2012-12-26-23-54-46.png)
+[![Screenshot_2012-12-26-23-54-46](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-26-23-54-46-1024x614.png)](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-26-23-54-46.png)
 
 This is never going to change. Thumb Keyboard is literally the most-used application of any app I’ve ever installed. I’ve tried so many keyboards over the years, including (but not limited to) Swype, SwiftKey, the stock keyboard of various Android versions, SlideIT and most recently Minuum, but nothing works as well as Thumb Keyboard for me.
 
@@ -94,7 +94,7 @@ Thumb Keyboard is available for **$1.22 during a 50% off period** in the [Play S
 
 ### 500 Firepaper
 
-[![500 Firepaper](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-10-43-03-1024x576.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-10-43-03.png)
+[![500 Firepaper](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-10-43-03-1024x576.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-10-43-03.png)
 
 500 Firepaper is a relatively new application from ChainFire, the developer renowned for his ability to root almost anything!
 
@@ -107,7 +107,7 @@ I haven’t noticed any impact on battery life as yet which is typically always 
 Nova Launcher
 -------------
 
-[![Nova Launcher](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-11-07-291-1024x576.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-11-07-291.png)
+[![Nova Launcher](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-11-07-291-1024x576.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-11-07-291.png)
 
 I’ve been using Nova Launcher for a few years. It’s helped me to partially escape the horrid skins forced upon me by device manufacturers and has always provided a little more flexibility than stock Android launchers.
 
@@ -118,7 +118,7 @@ Nova Launcher is available **free** in the [Play Store](https://play.google.com/
 BADLAND
 -------
 
-[![BADLAND](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-11-18-111-1024x576.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2013/12/Screenshot_2013-12-23-11-18-111.png)
+[![BADLAND](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-11-18-111-1024x576.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-11-18-111.png)
 
 I’ll be honest, I’m not a massive gamer, having just picked up my first proper Xbox 360 for no other reason than to try GTA5. The same applies to my phone(s). I rarely game, but when I do it’s because the game is fantastic.
 

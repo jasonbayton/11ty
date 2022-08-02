@@ -61,9 +61,9 @@ EMMs validated can be found [here](https://androidenterprisepartners.withgoogle.
 
 There is a comparison function which is quick and easy to make use of, though I hope to see improved to display more information about the individual APIs/features the EMMs support, as currently it’s rather vague without clicking into each vendor:
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/Screenshot-2019-01-16-at-00.50.26.png)In any case clicking any of the EMMs will offer an in-depth breakdown of features supported. While the breakdown is quite informative, I would very much like to see it more aligned to the [solution sets](https://developers.google.com/android/work/requirements/work-profile), referencing each in the numbered list, and potentially linking off to more details. It may look less visually appealing, though would be far more useful. As an example for [SOTI’s](https://androidenterprisepartners.withgoogle.com/provider/#!/18) work profile implementation:
+![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-16-at-00.50.26.png)In any case clicking any of the EMMs will offer an in-depth breakdown of features supported. While the breakdown is quite informative, I would very much like to see it more aligned to the [solution sets](https://developers.google.com/android/work/requirements/work-profile), referencing each in the numbered list, and potentially linking off to more details. It may look less visually appealing, though would be far more useful. As an example for [SOTI’s](https://androidenterprisepartners.withgoogle.com/provider/#!/18) work profile implementation:
 
-<figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/Screenshot-2019-01-16-at-12.03.27.png)](https://androidenterprisepartners.withgoogle.com/provider/#!/18)</figure>Could instead be:
+<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-16-at-12.03.27.png)](https://androidenterprisepartners.withgoogle.com/provider/#!/18)</figure>Could instead be:
 
 **DEVICE SECURITY**
 
@@ -110,7 +110,7 @@ They’re not quite up to scratch just yet.
 
 Google are keen to highlight that although these two vendors are potentially passing with flying colours other aspects of validation, their feature set support is not yet at the level Google deem acceptable for AER, hence attaining only *standard* and not *advanced* across the board:
 
-<figure class="wp-block-image">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/Screenshot-2019-01-17-at-21.29.51_anno.jpg)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/Screenshot-2019-01-17-at-13.19.33_anno1.jpg)</figure>The asterisk is intended to suggest they’ve committed (ie. roadmap) to meeting Google’s requirements and recommendations in the **near** future, and will continue to develop their product through 2019.
+<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-17-at-21.29.51_anno.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-17-at-13.19.33_anno1.jpg)</figure>The asterisk is intended to suggest they’ve committed (ie. roadmap) to meeting Google’s requirements and recommendations in the **near** future, and will continue to develop their product through 2019.
 
 Speaking for Microsoft (as I can’t for Google Cloud), they are the first big vendor to adopt the Android Management API (AMAPI) as I’ve [pointed out before](/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#android-management-api-adoption), they’re also incredibly active in the ecosystem and despite a late start, are working around the clock with Google to bring missing features to fruition. In fact, COBO support [just launched in preview](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Microsoft-Intune-announces-preview-of-support-for-Android/ba-p/314747#.XED6xFGTIhY.twitter).
 

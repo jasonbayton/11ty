@@ -33,7 +33,7 @@ The below is documented under the assumption that:
 Remove the bottom cover
 -----------------------
 
-![20160218_124931](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/20160218_124931.jpg)
+![20160218_124931](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160218_124931.jpg)
 
 Lenovo have used a combination of M2 screws and plastic clips to secure the bottom panel to the laptop chassis. While the screws come out with ease, the plastic clips take a little more persuasion.
 
@@ -47,7 +47,7 @@ Lenovo have used a combination of M2 screws and plastic clips to secure the bott
 Remove the hard drive
 ---------------------
 
-![20160218_114431](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/20160218_114431.jpg)
+![20160218_114431](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160218_114431.jpg)
 
 With the front of the laptop facing you, the hard drive is easily accessible on the left.
 
@@ -59,7 +59,7 @@ With the front of the laptop facing you, the hard drive is easily accessible on 
 Reassemble
 ----------
 
-![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/02/IMG-20160217-WA0001.jpeg)
+![](https://r2_worker.bayton.workers.dev/uploads/2016/02/IMG-20160217-WA0001.jpeg)
 
 At this stage the old hard drive should be out and the new SSD in, all that remains is to reassemble the device in reverse order.
 

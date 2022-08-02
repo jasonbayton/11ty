@@ -65,7 +65,7 @@ BQ
 
 Tested August 2018, build 1.3.0
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/bqax2pro.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/bqax2pro.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -100,7 +100,7 @@ CAT
 
 Tested Feb 2019, build LTE\_D0201121.0\_S61\_0.053.02
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/s61.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/01/s61.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -135,7 +135,7 @@ Google
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nexus-intro-phone-1-e1506902903947.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/nexus-intro-phone-1-e1506902903947.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -165,7 +165,7 @@ Snapdragon 808
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/pixel2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/pixel2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -200,7 +200,7 @@ Huawei
 
 Tested June 2018, build 8.0.0.151
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/m5.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/m5.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -232,7 +232,7 @@ HiSilicon Kirin 960s
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/p10-listimage-black.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/p10-listimage-black.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -265,7 +265,7 @@ Motorola
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/Motorola-Moto-Z-Force-Gold-Front-e1506902735436.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Motorola-Moto-Z-Force-Gold-Front-e1506902735436.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -294,7 +294,7 @@ Snapdragon 820
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/moto-zplay.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/moto-zplay.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -323,7 +323,7 @@ Snapdragon 625
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/motorola-moto-c-plus.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/motorola-moto-c-plus.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -352,7 +352,7 @@ Mediatek MT6737
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/09/moto-e4-plus-e1504776790376.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/09/moto-e4-plus-e1504776790376.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -381,7 +381,7 @@ Mediatek MT6737
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/moto-g5-to-arrive-in-sapphire-blue-color-option-514160-3-e1506902563348.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/moto-g5-to-arrive-in-sapphire-blue-color-option-514160-3-e1506902563348.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -410,7 +410,7 @@ Snapdragon 430
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/motorola-moto-g4-play-boltmobile-sasktel-saskatoon-smartphone-front-e1506902178433.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/motorola-moto-g4-play-boltmobile-sasktel-saskatoon-smartphone-front-e1506902178433.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -442,7 +442,7 @@ Nokia
 
 Oreo Go edition, tested on release 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia1-1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/nokia1-1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -474,7 +474,7 @@ Mediatek MT6737M
 
 Tested on release 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia-2-pewter-black-front-30747.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/nokia-2-pewter-black-front-30747.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -504,7 +504,7 @@ Snapdragon 212
 
 Tested March 2018, build 00WW\_3\_250
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/Nokia-3-Silver-Front-e1506901438141.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Nokia-3-Silver-Front-e1506901438141.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -536,7 +536,7 @@ MediaTek MT6737
 
 Tested Nov 2018, build 00WW\_0\_46E\_SP02
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia3.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/nokia3.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -568,7 +568,7 @@ Mediatek MT6750
 
 Tested May 2019, build 00EEA\_1\_03D
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/05/nokia3.2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/05/nokia3.2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -600,7 +600,7 @@ Snapdragon 429
 
 Tested May 2019, build 00EEA\_1\_17I
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/05/nokia4.2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/05/nokia4.2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -632,7 +632,7 @@ Snapdragon 439
 
 Tested March 2018, build 00WW\_5\_22A\_SP01
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia5-silver-front.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/nokia5-silver-front.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -664,7 +664,7 @@ Snapdragon 430
 
 Tested Nov 2018, build 00WW\_0\_38E\_SP03
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia5.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/nokia5.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -696,7 +696,7 @@ MediaTek Helio P18
 
 Tested June 2018, build 00WW\_5\_600\_SP01
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/nokia-6-front-chile.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/nokia-6-front-chile.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -728,7 +728,7 @@ Snapdragon 430
 
 Android One – Tested March 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/n62018.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/n62018.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -760,7 +760,7 @@ Snapdragon 630
 
 Android One – Tested December 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/7.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/01/7.1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -792,7 +792,7 @@ Dual 12/5MP + 8MP Cameras
 
 Android One – Tested March 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/n7plus.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/n7plus.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -824,7 +824,7 @@ Dual 12/16MP Cameras
 
 Tested March 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/zoom_front_nokia8_silver.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/zoom_front_nokia8_silver.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -856,7 +856,7 @@ Dual 13/13MP Cameras
 
 Successor to the 7 Plus, not the 8. Tested Jan 2019, build 00WW\_2\_47A
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/nokia_8_1_ROW1-front_blue.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/01/nokia_8_1_ROW1-front_blue.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -888,7 +888,7 @@ Dual 12/13MP Cameras
 
 Android One – Tested March 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/sirocco.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/sirocco.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -920,7 +920,7 @@ Dual 12/5MP Cameras
 
 Tested May 2019, build 00WW\_4\_22C
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/05/nokia9.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/05/nokia9.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -955,7 +955,7 @@ OnePlus
 
 Tested November 2018, build ONEPLUS A6013\_41\_181024
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/oneplus-6t-mirror-black-1OP828RBN-sku-header-new.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/01/oneplus-6t-mirror-black-1OP828RBN-sku-header-new.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -990,7 +990,7 @@ Pocophone
 
 Tested November 2018, build OPM1.171019.026
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/poco.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/01/poco.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1025,7 +1025,7 @@ Samsung
 
 Dual N950FD, tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/note8.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/note8.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1060,7 +1060,7 @@ Sony
 
 I3113, tested March 2019, build 53.0.A.4.74
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/03/x10.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/03/x10.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1092,7 +1092,7 @@ Dual 13/5MP + 8MP Cameras
 
 Dual G3312, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/10/xperial1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/10/xperial1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1122,7 +1122,7 @@ MediaTek MT6737T
 
 I3312, build 54.0.A.3.94, tested March 2019
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/03/xperial3.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/03/xperial3.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1154,7 +1154,7 @@ Dual 13/2MP + 8MP Cameras
 
 Dual G3121, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/xa1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/xa1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1184,7 +1184,7 @@ Mediatek MT6757 Helio P20
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/xa2-1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/xa2-1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1216,7 +1216,7 @@ Snapdragon 630
 
 Dual G8142, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/10/xperiaxzpremium.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/10/xperiaxzpremium.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1246,7 +1246,7 @@ Snapdragon 835
 
 G8341, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/10/xperiaxz1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/10/xperiaxz1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1278,7 +1278,7 @@ Snapdragon 835
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/xz1compact.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/xz1compact.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1310,7 +1310,7 @@ Snapdragon 835
 
 Tested June 2018, build 51.1.A.4.173
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/xz2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/xz2.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1342,7 +1342,7 @@ Snapdragon 835
 
 Tested January 2019, build 52.0.A.3.163
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2019/01/sony.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2019/01/sony.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1377,7 +1377,7 @@ Wileyfox
 
 Tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/SWIFT_2X_CHAMPAGNE_FRONT_BACK-e1506901949774.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/SWIFT_2X_CHAMPAGNE_FRONT_BACK-e1506901949774.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1410,7 +1410,7 @@ Xiaomi
 
 Android One, tested 2017
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/mia1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/mia1.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1444,7 +1444,7 @@ Zebra
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/zebratc25.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/zebratc25.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 
@@ -1473,7 +1473,7 @@ APQ8037 8-Core
 
 Tested 2018
 
-<div class="row"><div class="col-sm-3">![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/07/zebratc56.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
+<div class="row"><div class="col-sm-3">![](https://r2_worker.bayton.workers.dev/uploads/2017/07/zebratc56.png)</div><div class="col-sm-9"><div class="row"><div class="col-sm-5">
 
 ##### Tech specs
 

@@ -29,7 +29,7 @@ Without further ado and in no particular order..
 HoloIRC
 =======
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233133.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233133.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233133.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233133.png)
 
 I recent addition towards the end of this year. As I’ve become more heavily interested in open source software and with the myriad of projects that I have to started to rely upon, a common theme is the use of IRC for communication.
 
@@ -42,7 +42,7 @@ The app is open source on [GitHub](https://github.com/tilal6991/HoloIRC) and is 
 Nextcloud
 =========
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233156.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233156.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233156.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233156.png)
 
 In 2017 I’ll be continuing my slow-but-steady march towards moving my data out of the cloud and back to my own systems. Nextcloud, as I’ve talked about [here](/2016/07/installing-nextcloud-on-ubuntu-16-04-lts-with-redis-apcu-apache/), [here ](/2016/10/hands-on-with-the-nextcloud-box/)and [here](/2016/06/5-android-apps-improving-my-chromebook-experience/), is my home cloud platform of choice.
 
@@ -55,7 +55,7 @@ The app is open source on [GitHub ](https://github.com/nextcloud/android)and ava
 DAVdroid
 ========
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233213.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233213.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233213.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233213.png)
 
 In tandem with (but not reliant on) the Nextcloud client, DAVdroid enables the sync of my Nextcloud contacts and calendars using the \*dav protocol. For contacts there’s cardav and for calendar, caldav. DAVdroid can syncronise and update these remote accounts bidirectionally in the background and acts as just another account when adding a new contact or calendar entry on the mobile device.
 
@@ -64,7 +64,7 @@ A nifty app to have if you use (or plan to use) remove dav servers, DAVdroid is 
 Freedome
 ========
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233237-e1483232002584.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233237-e1483231965798.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233237-e1483232002584.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233237-e1483231965798.png)
 
 One of many, many VPN apps on the Play Store, however Freedome is ultimately the one I ended up going for. For £39.99 a year I can register Freedome on 3 devices (not just Android) and may select from a multitude of remote VPN servers.
 
@@ -77,7 +77,7 @@ The Freedome app can be downloaded for free from the [Play Store](https://play.g
 Join
 ====
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233354.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233354.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233354.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233354.png)
 
 Join is Android developer joaoapps’ answer to the mess Pushbullet made in turning into a freemium app. Offering SMS sync, data push between devices, notifications between devices and shared clipboard, Join is a powerful tool for anyone with multiple devices (both Android or not) wanting to effortlessly push data around.
 
@@ -90,7 +90,7 @@ Join is free for 30 days via trial, after which it can be purchased for a one-of
 Mirror
 ======
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233412.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233412.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233412.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233412.png)
 
 Mirror is a great application. I’ve used it countless times this year alone for demos and recordings both in and out of work and I’m not sure I could work without it today.
 
@@ -103,7 +103,7 @@ Mirror can be downloaded free from the [Play Store](https://play.google.com/stor
 RWG Mobile
 ==========
 
-[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233441-e1483233941742.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2016/12/Screenshot_20161231-233441-e1483233941742.png)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233441-e1483233941742.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot_20161231-233441-e1483233941742.png)
 
 Not too long ago a new mobile network was launched for the people of Wales. The difference between RWG and almost every other mobile network on the market is that it was entirely app-based, offering a free virtual telephone number through the app that can be used as a VoIP line with my existing 3/4G SIMs on multiple devices.
 
