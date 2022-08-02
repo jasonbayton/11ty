@@ -11,6 +11,13 @@ content#page {
     padding-top: 60px;
 }
 
+content#search {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 content#archive {
     display: grid;
     grid-template-columns: 1fr;
