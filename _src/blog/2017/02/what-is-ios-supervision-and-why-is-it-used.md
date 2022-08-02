@@ -5,23 +5,25 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: post
-id: 3695
-tag:
-    - Apple
-    - Configurator
-    - EMM
-    - Enterprise
+id: 4099
+doccats:
     - iOS
-    - MDM
-    - Supervision
-post_format: []
-publish_post_category:
-    - '14'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/what-is-ios-supervision-and-why-is-it-used/90'
 tags:
     - Enterprise
+Version:
+    - '1.3'
+publish_post_category:
+    - '7'
+discourse_permalink:
+    - 'https://discuss.bayton.org/t/what-is-ios-supervision-and-why-is-it-used/45'
 ---
+<div class="bs-callout bs-callout-success">#### Looking for Android enterprise?
+
+This topic discusses iOS Supervision. If you’re also looking for Android enterprise (Android for Work) please [click here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/).
+
+</div>Introduction
+------------
+
 As someone who deals with mobile devices in the enterprise on a daily basis, I often encounter customers looking to purchase iPhones/iPads for their employees. Most of the time customers will have, or are looking to have an EMM (Enterprise Mobility Management) – or MDM (Mobile Device Management) – platform such as MobileIron, AirWatch, Soti, etc. to manage these devices, and that’s great.
 
 The thing is, iOS devices are by default targeted more towards consumers, than enterprise. This means out of the box there are things we admins can’t remove or disable, such as:
@@ -56,15 +58,18 @@ Having access to a Mac with Apple Configurator installed, it’s very simple to 
 
 And plenty more. Even better, in combination with EMM, the act of putting the iOS device into Supervised mode alone means not having to spend time creating several configuration profiles; almost all EMM platforms on the market can take advantage of Supervision to enable/disable many of the options found in configurator over the air.
 
-<div class="wp-caption alignnone" id="attachment_3750" style="width: 898px">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)Source: bayton.org, photo: MobileIron Core 9.2
+<div class="wp-caption alignnone" id="attachment_3750" style="width: 898px">[![](../../../../../uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)Source: bayton.org, photo: MobileIron Core 9.2
 
 </div>What remains after completing the Supervision process is a freshly installed (indeed, it performs a full reset – something to keep in mind) iOS device capable of being managed on a far more granular level than any out-of-the box iPhone or iPad, and subject to far fewer user-overrides.
+
+Apple Configurator isn’t perfect
+--------------------------------
 
 There are, however, some downsides with Apple Configurator.
 
 The first major inconvenience is requiring physical access to the device being Supervised. It isn’t possible with Apple Configurator to do this remotely; for a large number of iOS devices having to be Supervised in bulk, that means making use of some pretty interesting (and potentially costly) setups to avoid being limited by the number of USB ports on the machine:
 
-<div class="wp-caption alignnone" id="attachment_3748" style="width: 1150px">[![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/hero-001.jpg)](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/hero-001-e1487809076167.jpg)Photo: apple.bretford.com
+<div class="wp-caption alignnone" id="attachment_3748" style="width: 1150px">[![](../../../../../uploads/2017/02/hero-001.jpg)](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/02/hero-001-e1487809076167.jpg)Photo: apple.bretford.com
 
 </div>Also, should a device require a wipe, whether initiated from an EMM platform or by the end user (should factory reset not be disabled, or they figure out how to recover it via iTunes), it will factory reset to a stock, vanilla, un-Supervised state allowing the end-user to continue as if they had received a completely unmanaged device. It requires a trip back to the Mac for another round with Apple Configurator before it can be sent back out again.
 
@@ -81,7 +86,7 @@ Starting with [company enrolment into DEP](http://www.apple.com/business/dep/), 
 
 The biggest benefit? If the device is reset for any reason, being assigned via serial number to the DEP account means it automatically receives all configurations, EMM enrolment prompts and apps immediately on being turned on for the first time after the event. The only way to stop this is to remove the device from the DEP console (an irreversible action). Until then, the device is protected. This should theoretically greatly diminish the need to return to base.
 
-The downside with DEP is the potential inability to add every iOS device the organisation currently owns, be it due to device age (nothing before 2011) or the authorised-sellers requirement (directly via Apple or through an approved partner). This means if organisations have been using Apple Configurator up to this point, some devices may be unable to move over to DEP. For more recent purchases made through authorised channels though, this won’t be an issue.
+The downside with DEP has been the potential inability to add every iOS device the organisation currently owns, be it due to device age (nothing before 2011) or the authorised-sellers requirement (directly via Apple or through an approved partner). This means if organisations have been using Apple Configurator up to this point, some devices may be unable to move over to DEP. For more recent purchases made through authorised channels though this won’t be an issue, nor will it be as of iOS 11, which introduced provisional DEP, the ability for organisations to manually add iOS devices into DEP via Configurator.
 
 Additionally for organisations moving from Configurator to DEP, custom OS version and backup management functionality is not available, though for that use-case DEP perhaps isn’t suitable regardless.
 
@@ -104,7 +109,3 @@ Hopefully the benefits of Supervision, whether via Apple Configurator or DEP, ha
 - VPP in combination with Supervision makes app deployment much, much easier
 
 If your organisation has struggled in the past with activation lock, iTunes account management, end-users overriding corporate policies or anything else above, it could well be time to consider Supervision.
-
-*Does your organisation use Supervision? Are you an admin? Feel free to discuss your deployment in the comments. End user? Let me know how Supervision affects your daily life performing your job role.*
-
-*As always I’m [@jasonbayton](https://twitter.com/jasonbayton) on Twitter, [+JasonBayton](https://twitter.com/jasonbayton) on Google+, [/in/jasonbayton](https://linkedin.com/in/jasonbayton) on Linkedin or [@bayton.org](https://facebook.com/bayton.org) on Facebook. You’re also welcome to leave a comment below or send me an [email](mailto:jason@bayton.org).* *Free free to get in touch to discuss this or any other topics you have in mind!*

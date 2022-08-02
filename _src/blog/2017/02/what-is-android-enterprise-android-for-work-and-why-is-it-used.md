@@ -1,7 +1,7 @@
 ---
 title: 'What is Android Enterprise (Android for Work) and why is it used?'
 date: '2017-02-26T20:08:43+00:00'
-status: publish
+status: draft
 author: 'Jason Bayton'
 excerpt: ''
 type: post
