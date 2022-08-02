@@ -9,3 +9,4 @@
 /docs/enterprise-mobility/mobileiron/deploying-mobileiron-9-1-on-kvm /blog/deploying-mobileiron-9-1-on-kvm 301
 /20* /blog/20:splat 301
 /category/* /tag/:splat 301
+/docs/enterprise-mobility/* /android/ 301
