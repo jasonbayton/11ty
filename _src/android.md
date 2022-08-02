@@ -109,7 +109,7 @@ Articles contributed to other sources.
 <div class="android-doc-grid-group">
 
 ![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/triodroidselfies-1.png) 
-## Resources
+## Vendor docs
 
 Free guides, infographics and other information.
 
