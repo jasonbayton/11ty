@@ -4,7 +4,7 @@ date: '2017-04-06T00:57:40+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: documentation
+type: post
 id: 4076
 doccats:
     - MobileIron

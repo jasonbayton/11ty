@@ -4,7 +4,7 @@ date: '2017-04-07T21:12:25+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: documentation
+type: post
 id: 4099
 doccats:
     - iOS

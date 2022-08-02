@@ -1,26 +1,19 @@
 ---
 title: '8 tips for a successful EMM deployment'
-date: '2017-04-18T23:22:13+01:00'
+date: '2017-04-08T00:12:51+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: post
-id: 3925
-tag:
-    - activesync
-    - Architecture
-    - Configurations
-    - EMM
-    - 'Enterprise Mobility'
-    - MDM
-    - Policies
-post_format: []
+id: 4108
+doccats:
+    - General
+Version:
+    - '1.0'
 publish_post_category:
-    - '14'
+    - '13'
 discourse_permalink:
-    - 'https://discuss.bayton.org/t/8-tips-for-a-successful-emm-deployment/84'
-tags:
-    - Enterprise
+    - 'https://discuss.bayton.org/t/8-tips-for-a-successful-emm-deployment/40'
 ---
 Recently, while browsing through EMM resources on Gartner, I stumbled across an [interesting study](http://www.gartner.com/newsroom/id/3528217) undertaken in 2016, in it Gartner reports:
 
@@ -30,7 +23,7 @@ That is by no means an insignificant number, one that’s likely already increas
 
 And that’s a problem.
 
-While employees are ready to leverage Enterprise Mobility to improve productivity, enhance their work experience and make their lives easier, businesses in many cases simply aren’t keeping up; a recent [study by Synchronoss](/https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/The_State_of_Enterprise_Mobility_Whitepaper.pdf) (via CWSI) delved into the state of Enterprise Mobility in 2017 across organisations in the UK and US and highlights how alarmingly unprepared many organisations are – 38% of those asked are yet to implement basic measures to safeguard corporate data such as enforced device security, restricted access to corporate resources or even basic visibility\* of who is connecting in and to what.
+While employees are ready to leverage Enterprise Mobility to improve productivity, enhance their work experience and make their lives easier, businesses in many cases simply aren’t keeping up; a recent [study by Synchronoss](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/The_State_of_Enterprise_Mobility_Whitepaper.pdf) (via[ CWSI](http://cwsi.ie/the-state-of-enterprise-mobility/)) delved into the state of Enterprise Mobility in 2017 across organisations in the UK and US and highlights how alarmingly unprepared many organisations are – 38% of those asked are yet to implement basic measures to safeguard corporate data such as enforced device security, restricted access to corporate resources or even basic visibility\* of who is connecting in and to what.
 
 <span style="font-size: small;">\* ActiveSync logs notwithstanding</span>
 
@@ -157,7 +150,3 @@ Conclusion
 Mobile usage in the business isn’t going away any time soon and organisations, in order to both enable employees to better do their job and keep corporate data secure, need to seriously consider implementing a robust EMM environment.
 
 Hopefully the tips above offer a few points to think about for both new and existing implementations; as an evangelist of all things mobile in the enterprise I only want to see the industry succeed in taming unmanaged device usage and the serious security and data implications that come with it. As the industry matures I look forward to seeing it flourish and, more importantly, that 38% drop to nothing in the near future.
-
-*Has your organisation started an Enterprise Mobility discussion? Have you implemented it already? Are the above tips useful and would you like to see more? Strike up a conversation in the comments or contact me using any of the below methods.*
-
-*As always I’m [@jasonbayton](https://twitter.com/jasonbayton) on Twitter, [+JasonBayton](https://twitter.com/jasonbayton) on Google+, [/in/jasonbayton](https://linkedin.com/in/jasonbayton) on Linkedin or [@bayton.org](https://facebook.com/bayton.org) on Facebook. You’re also welcome to leave a comment below or send me an [email](mailto:jason@bayton.org).* *Free free to get in touch to discuss this or any other topics you have in mind!*

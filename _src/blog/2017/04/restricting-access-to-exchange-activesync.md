@@ -4,7 +4,7 @@ date: '2017-04-15T21:58:47+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: documentation
+type: post
 id: 4127
 doccats:
     - Infrastructure

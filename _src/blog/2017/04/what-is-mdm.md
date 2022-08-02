@@ -4,7 +4,7 @@ date: '2017-04-09T09:44:47+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: documentation
+type: post
 id: 4112
 doccats:
     - General
