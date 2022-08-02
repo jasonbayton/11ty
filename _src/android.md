@@ -106,6 +106,20 @@ Articles contributed to other sources.
 </ul>
 
 </div>
+<div class="android-doc-grid-group">
+
+![](https://bucket.bayton.uk-lon1.upcloudobjects.com/uploads/2017/04/triodroidselfies-1.png) 
+## Resources
+
+Free guides, infographics and other information.
+
+ <ul>
+    {%- for entry in collections['Vendor specific'] -%}
+    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
+    {%- endfor -%}
+</ul>
+
+</div>
 </div>
 <div class="android-doc-grid">
 <div class="android-doc-grid-group">
