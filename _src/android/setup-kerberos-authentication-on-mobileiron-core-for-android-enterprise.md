@@ -8,6 +8,9 @@ type: documentation
 id: 7870
 doccats:
     - MobileIron
+tags: 
+    - Vendor specific
+    - MobileIron
 publish_post_category:
     - '8'
 discourse_permalink:

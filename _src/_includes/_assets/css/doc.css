@@ -15,7 +15,6 @@ content#search {
     display: grid;
     grid-template-columns: 1fr;
     padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 content#archive {
@@ -77,6 +76,11 @@ section#feedback {
     grid-area: 2/1/2/4;
     justify-self: end;
 }
+
+#search #feedback {
+    padding-top: 80px;
+}
+
 
 @media (max-width: 900px) {
     content#doc{

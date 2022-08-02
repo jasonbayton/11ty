@@ -6,6 +6,9 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 id: 4514
+tags: 
+    - Vendor specific
+    - MobileIron
 doccats:
     - MobileIron
 Version:

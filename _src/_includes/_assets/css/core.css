@@ -356,6 +356,10 @@ content#home {
   padding: 50px 0
 }
 
+section#page_content {
+  min-height: 600px;
+}
+
 .post-block {
   padding: 15px 0;
 }
