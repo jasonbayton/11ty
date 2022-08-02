@@ -6,6 +6,7 @@
   --bright: #ffffff;
   --text: #333333;
   --background: #ffffff;
+  --blue: #f0f8ff;
 }
 
 [data-theme="dark"] {
@@ -14,7 +15,21 @@
   --bright: #CFCFCF;
   --text: #cfcfcf;
   --background: #333333;
+  --blue: #00284c;
+
 }
+
+[data-theme="light"] .bayton-logo-dark {
+  display: none;
+}
+
+[data-theme="dark"] .bayton-logo-light {
+  display: none;
+}
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,6 +38,7 @@
     --bright: #CFCFCF;
     --text: #cfcfcf;
     --background: #333333;
+    --blue: #00284c;
 }
 
   [data-theme="light"] {
@@ -31,6 +47,7 @@
     --bright: #ffffff;
     --text: #333333;
     --background: #ffffff;
+    --blue: #f0f8ff;
   }
 }
 
@@ -41,6 +58,7 @@
     --bright: #ffffff;
     --text: #333333;
     --background: #ffffff;
+    --blue: #f0f8ff;
   }
 
   [data-theme="dark"] {
@@ -49,6 +67,7 @@
     --bright: #CFCFCF;
     --text: #cfcfcf;
     --background: #333333;
+    --blue: #00284c;
   }
 }
 
@@ -339,7 +358,7 @@ content#home {
   font-size: 24px;
   /* border-left: 2px solid var(--text); */
   padding: 10px;
-  background-color: #f0f8ff;
+  background-color: var(--blue);
 }
 
 #android_head {
@@ -463,6 +482,10 @@ section#trusted_logos #trusted_container {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
 }*/
+
+#post_container {
+  padding-top: 30px;
+}
 
 #post_archive {
   padding-top: 50px;
