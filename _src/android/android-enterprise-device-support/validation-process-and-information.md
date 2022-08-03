@@ -36,7 +36,9 @@ Just looking for details of devices tested? Head back to [Android Enterprise dev
 
 If you’re interested in knowing more about the project as a whole and the background around it, jump to [project information](#project-information). Otherwise, [success criteria](#success-criteria) outlines exactly what is expected during the provisioning of an Android Enterprise-compatible device.
 
-</div>Device testing process
+</div>
+
+Device testing process
 ----------------------
 
 ### What do I test?
@@ -179,12 +181,12 @@ Project information
 
 I’m a senior EMM consultant and subject matter expert (SME) for Android and Android Enterprise. I’ve been working with enterprise mobile solutions for a [number of years](https://linkedin.com/in/jasonbayton) and have an [in-depth knowledge of Android Enterprise](/android/) so I know how an ideal implementation looks and behaves. My work has been referenced by MobileIron, Wandera, BrianMadden.com and others. Check out my [about](/about/) page for examples.
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> Digging the new Android zero-touch guide from [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw), the best independent resource for Android enterprise.   
+> Digging the new Android zero-touch guide from [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw), the best independent resource for Android enterprise.   
 >  <https://t.co/BFTZfKFsrg>
 > 
 > — Russell Mohr (@rmohr) [November 5, 2017](https://twitter.com/rmohr/status/927181646473912321?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure>### Why test devices?
+### Why test devices?
 
 Android Enterprise is becoming popular, however not all OEMs fully support and/or implement the Android Enterprise APIs to the same standard. The goal of this project is therefore to document as many devices as possible in order to provide a free resource for organisations looking for devices validated to be fully compatible with Android Enterprise EMM deployments.
 
