@@ -52,8 +52,8 @@ Reach out to your vendor to ask when this functionality will be available.
 MobileIron
 ----------
 
-```
-<pre class="wp-block-preformatted">{
+<pre>
+{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "server":"<strong>your.server.com</strong>",
@@ -61,13 +61,13 @@ MobileIron
 "quickStart":<strong>true/false</strong>
 }
 }
-```
+</pre>
 
 AirWatch / Workspace One UEM
 ----------------------------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "serverurl":"<strong>your.server.com</strong>",
@@ -76,25 +76,25 @@ AirWatch / Workspace One UEM
 "pw":"<strong>example</strong>"
 }
 }
-```
+</pre>
 
 SOTI
 ----
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "enrollmentId":"<strong>EnrollmentID</strong>"
 }
 }
-```
+</pre>
 
 MaaS360
 -------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "enrollment_corp_id”:”<strong>CorporateID</strong>”,
@@ -106,13 +106,13 @@ MaaS360
 "enrollment_ownership":"<strong>Corporate Owned</strong>"
 }
 }
-```
+</pre>
 
 Codeproof EMM
 -------------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "displayname":"<strong>devicename</strong>",
@@ -120,25 +120,25 @@ Codeproof EMM
 "password":"<strong>example</strong>"
 }
 }
-```
+</pre>
 
 Intune
 ------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN": "<strong>YourEnrollmentToken</strong>" 
 }
 }
-```
+</pre>
 
 Miradore
 --------
 
-```
-<pre class="wp-block-preformatted">{ 
+
+<pre>{ 
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
 "RegistrationKey": "<strong>REGISTRATIONKEY</strong>",
@@ -146,13 +146,13 @@ Miradore
 "SiteIdentifier": "<strong>SITEIDENTIFIER</strong>"
 }
 }
-```
+</pre>
 
 BlackBerry UEM
 --------------
 
-```
-<pre class="wp-block-preformatted">{ 
+
+<pre>{ 
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
 "URL":"<strong>SERVERURL</strong>",
@@ -161,41 +161,59 @@ BlackBerry UEM
 "Username":"<strong>USERNAME</strong>"
 }
 }
-```
+</pre>
 
 FAMOC
 -----
 
-```
-<pre class="wp-block-preformatted">{<br></br>"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,<br></br>"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { <br></br>"fqdn":"<strong>your.server.com</strong>", <br></br>"bootstrap_key":"<strong>yourIndividualKey</strong>" <br></br>} <br></br>}
-```
+
+<pre>{
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { 
+"fqdn":"<strong>your.server.com</strong>", 
+"bootstrap_key":"<strong>yourIndividualKey</strong>" 
+}
+}
+</pre>
 
 mySync
 ------
 
-```
-<pre class="wp-block-preformatted">{ <br></br>"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,<br></br>"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { <br></br>"serviceUrl": "<strong>https://server.host.name.here/rest/api</strong>",<br></br>"installationCode": "<strong>ten-character-code</strong>" <br></br>} <br></br>}
-```
+
+<pre>{ 
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { 
+"serviceUrl": "<strong>https://server.host.name.here/rest/api</strong>",
+"installationCode": "<strong>ten-character-code</strong>" 
+}
+}
+</pre>
 
 XenMobile
 ---------
 
-```
-<pre class="wp-block-preformatted">{ <br></br>"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,<br></br>"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { <br></br>"serverURL":"<strong>URL</strong>", <br></br>"xm_username":"<strong>username</strong>", <br></br>"xm_password":"<strong>password</strong>" <br></br>} <br></br>}
-```
+
+<pre>{ <br></br>"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,<br></br>"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { <br></br>"serverURL":"<strong>URL</strong>", <br></br>"xm_username":"<strong>username</strong>", <br></br>"xm_password":"<strong>password</strong>" <br></br>} <br></br>}
+
 
 VXL Fusion UEM
 --------------
 
-```
-<pre class="wp-block-preformatted">{ <br></br>"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,<br></br>"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { <br></br>"fusionuem_server_url":"<strong>server url</strong>", <br></br>"fusionuem_token_id":"<strong>token id</strong>"<br></br>} <br></br>}
-```
+
+<pre>{
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { 
+"fusionuem_server_url":"<strong>server url</strong>", 
+"fusionuem_token_id":"<strong>token id</strong>"
+}
+}
+</pre>
 
 Samsung Knox Manage
 -------------------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
 "ServerUrl": "<strong>Your Server Url</strong>",
@@ -204,13 +222,13 @@ Samsung Knox Manage
 "Method": "<strong>ZeroTouch</strong>"
 }
 }
-```
+</pre>
 
 Chimpa MDM
 ----------
 
-```
-<pre class="wp-block-preformatted">{ 
+
+<pre>{ 
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>, 
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{ "chimpa_activationCode":"<strong>YOURTENANTCODE</strong>",
 "provisionType":<strong>0/1</strong>, 
@@ -218,7 +236,7 @@ Chimpa MDM
 "whiteLabelLogo":"<strong>https://yoururl/resource.png</strong>",
 } 
 }
-```
+</pre>
 
 **provisionType** values:   
 0 Fully Managed   
@@ -227,62 +245,64 @@ Chimpa MDM
 42Gears SureMDM
 ---------------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": <strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE”:{
 "AccountId":"<strong>1000001</strong>",
 "ServerPath":"<strong>suremdm.42gears.com</strong>"
 }
 }
-```
+</pre>
 
 Meraki Systems Manager
 ----------------------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{ 
 "enrollment_url":"https://m.meraki.com/enroll/?android_from_store=true&enrollment_code=<strong>Your_Meraki_Enrollment_Identifier</strong>"
 }
 }
-```
+</pre>
 
 TinyMDM
 -------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,<strong>
 </strong>"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
 "enrollmentId": “<strong>XXXXXXXX</strong>"
-}<div>}</div>
-```
+}
+}
+</pre>
 
 Matrix42
 --------
 
-```
-<pre class="wp-block-preformatted">{
+
+<pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "server_url":"<strong>your server URL</strong>", 
 "user_name":"<strong>your user name</strong>",
 "otp":"<strong>4444</strong>"
-}<div>}</div>
-```
+}
+}
+</pre>
 
 Other interesting zero-touch config options
 -------------------------------------------
 
 The following additional options go **before** the ADMIN\_EXTRAS\_BUNDLE line and may require EMM support to function:
 
-```
-<pre class="wp-block-preformatted" id="block-7bc2bb4b-f24a-4a5a-a1fb-e433e870b643">"android.app.extra.PROVISIONING_SKIP_EDUCATION_SCREENS":<strong>true/false</strong>, 
+
+<pre>"android.app.extra.PROVISIONING_SKIP_EDUCATION_SCREENS":<strong>true/false</strong>, 
 "android.app.extra.PROVISIONING_LOCALE":"<strong>en_GB</strong>", 
 "android.app.extra.PROVISIONING_USE_MOBILE_DATA":<strong>true/false</strong>,
-```
+</pre>
 
 [Here’s a few more.](https://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#EXTRA_PROVISIONING_ACCOUNT_TO_MIGRATE)
 
