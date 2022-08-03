@@ -193,8 +193,15 @@ XenMobile
 ---------
 
 
-<pre>{ <br></br>"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,<br></br>"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { <br></br>"serverURL":"<strong>URL</strong>", <br></br>"xm_username":"<strong>username</strong>", <br></br>"xm_password":"<strong>password</strong>" <br></br>} <br></br>}
-
+<pre>{ 
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { 
+"serverURL":"<strong>URL</strong>", 
+"xm_username":"<strong>username</strong>", 
+"xm_password":"<strong>password</strong>" 
+}
+}
+</pre>
 
 VXL Fusion UEM
 --------------
