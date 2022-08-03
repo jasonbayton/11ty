@@ -25,8 +25,6 @@ DPC identifiers
 
 <small>Use Ctrl + F or your device equivalent to search for your EMM solution as it may take some time to scroll through the below tokens line by line.</small>
 
-<div class="wp-block-columns has-3-columns"><div class="wp-block-column">
-
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/10/mobileiron_71819.png) **MobileIron Core**  
 afw#mobileiron.core
 
@@ -62,8 +60,6 @@ afw#matrix42
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/10/avalanche.png) **Avalanche**  
 afw#avalanche
-
-</div><div class="wp-block-column">
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/10/bbuem.jpg) **BlackBerry UEM**  
 afw#blackberry
@@ -101,8 +97,6 @@ afw#tinymdm
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/10/evoluzione-e1599084314695.png) **EvoluzioneICT**  
 afw#evoluzioneict
 
-</div><div class="wp-block-column">
-
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/10/memdm.jpg) **Manage Engine MDM**  
 afw#memdm
 
@@ -136,7 +130,7 @@ afw#workspaceone
 ![](https://r2_worker.bayton.workers.dev/uploads/2020/02/Logo-Chimpa-quad.png) **Chimpa**  
 afw#chimpa
 
-</div></div>Submit a DPC identifier
+Submit a DPC identifier
 -----------------------
 
 If you’d like to see a DPC identifier added to this list, please fill out [this form](https://goo.gl/forms/vfU80cxjWtssDOcy2) or comment below.
