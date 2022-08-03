@@ -120,7 +120,9 @@ With fully managed devices there is normally no user usage provisioned. As the i
 
 From Android 11, the COPE experience has changed. Work profiles on fully managed devices, the process of spinning up a work profile atop a fully managed device offering complete device control and visibility was completely deprecated in Android 11 in favour of work profiles on company owned devices, a work profile derived experience with additional device control, and enhanced end-user privacy. Find out what that means [here](/android/android-11-cope-changes/).
 
-</div>Provisioning a fully managed device by default strips out almost all non-critical system applications unless white-listed, and instead provides access only to authorised apps via managed Google Play. Nothing more. This means should an app require the Camera to function, for example, a Camera app would need to also be authorised or white-listed for use by the business. There is support for enabling system applications, however this will include all of the OEM/carrier bloat most would want to see removed and will therefore require particular apps be disabled, rather than enabled as described above.
+</div>
+
+Provisioning a fully managed device by default strips out almost all non-critical system applications unless white-listed, and instead provides access only to authorised apps via managed Google Play. Nothing more. This means should an app require the Camera to function, for example, a Camera app would need to also be authorised or white-listed for use by the business. There is support for enabling system applications, however this will include all of the OEM/carrier bloat most would want to see removed and will therefore require particular apps be disabled, rather than enabled as described above.
 
 Fully managed provisioning is currently initiated on first boot of a new device – or one that’s been freshly factory-reset – using:
 
@@ -167,7 +169,9 @@ In Android 9.0 Pie, the QR package is bundled into the system and therefore does
 
 Guides for all three of the above fully managed provisioning methods can be found here: [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/)
 
-</div>Furthermore:
+</div>
+
+Furthermore:
 
 - If issues are detected during fully managed enablement or EMM enrolment, the device may factory reset with little to no feedback. This can be frustrating.
 - As mentioned above, initial app management may take some time to get right. Missing core apps may cause problems and as such the setup will need to be tweaked and tested before deployment.
@@ -188,14 +192,12 @@ App management
 Where historically EMMs have needed to import applications from Google Play, then manage the install process accordingly (with varied success again due to availability of APIs), with Android Enterprise Google introduced the managed Google Play Store, an enterprise alternative for Google Play on devices allowing only applications explicitly whitelisted for installation by administrators.
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)](https://r2_worker.bayton.workers.dev/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)
-
-Source: bayton.org, photo: MobileIron Core 9.4 (cropped) app management
+*Source: bayton.org, photo: MobileIron Core 9.4 (cropped) app management*
 
 The benefit of utilising an EMM platform for app management is managed app configs, making it extremely easy to tailor applications to the business for immediate use on deployment, no additional end-user configuration required:
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)
-
-Source: bayton.org, photo: MobileIron Core 9.2
+*Source: bayton.org, photo: MobileIron Core 9.2*
 
 For EMM admins the above config may look familiar, though apps like Chrome offer far more granular functionality around permitted domains, browser functionality and more.
 

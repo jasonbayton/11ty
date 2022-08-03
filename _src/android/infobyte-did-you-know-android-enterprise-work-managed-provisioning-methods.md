@@ -25,4 +25,4 @@ Not sure what a fully managed device is, or the deployment scenario you wish to 
 
 Click the below infobyte to view a PDF version of it.
 
-<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/DYK04.1.1.jpg)](/download/doc/ae-general/infobytes/DYK04.1.1.pdf)</figure>
+[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/DYK04.1.1.jpg)](/download/doc/ae-general/infobytes/DYK04.1.1.pdf)

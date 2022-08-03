@@ -32,7 +32,9 @@ Zero-touch enrolment has been covered in depth in [What is Android zero-touch en
 
 There are two scenarios for which the zero-touch console is used, as an organisation or as a reseller. This guide targets the former, a good resource for resellers can be found [here](https://developers.google.com/zero-touch/guides/portal/).
 
-</div>Prerequisites
+</div>
+
+Prerequisites
 -------------
 
 In order to gain access to the zero-touch console and configure devices, you must:
@@ -46,13 +48,8 @@ Any of the above steps not completed will result in an inability to configure de
 Getting started
 ---------------
 
-<div class="wp-caption alignnone" id="attachment_4838" style="width: 1150px">
-
 ![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ScreenShot2017-10-18at3.45.10PM.png)
-
 *The simple zero-touch process*
-
-</div>
 
 The zero-touch portal is designed with absolute simplicity in mind; much like the DEP portal (if you’ve ever used it) it’s basically there for you to infrequently log in, create or assign a config to managed devices and carry on with all other management via your normal EMM solution.
 

@@ -20,7 +20,9 @@ discourse_permalink:
 FeaturedBackground:
     - android
 ---
-<div class="callout callout-success">### What is Android Enterprise?[ <small></small>](/android/android-enterprise-device-support/#what-is-android-enterprise)
+<div class="callout callout-success">
+
+### What is Android Enterprise?[ <small></small>](/android/android-enterprise-device-support/#what-is-android-enterprise)
 
 For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)
 
@@ -36,7 +38,9 @@ Zero-touch as a solution has been available since the original Pixel, with [docu
 How it works
 ------------
 
-<div class="wp-block-image"><figure class="alignright">[![](https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)</figure></div>With zero-touch, organisations purchase their Android 8.0+ devices from an authorised reseller. After which, the reseller creates a [zero-touch console](https://partner.android.com/zerotouch) customer accounts for the organisation and imports the devices. From there, the organisation can then log into the console and associate these devices to one of any of the EMMs that currently support a fully managed deployment scenario (Device Owner mode) via a configuration. These configurations also support [DPC extras](/android/android-enterprise-zero-touch-dpc-extras-collection/), which allow organisations to pre-configure items like server URL and username.
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)
+
+With zero-touch, organisations purchase their Android 8.0+ devices from an authorised reseller. After which, the reseller creates a [zero-touch console](https://partner.android.com/zerotouch) customer accounts for the organisation and imports the devices. From there, the organisation can then log into the console and associate these devices to one of any of the EMMs that currently support a fully managed deployment scenario (Device Owner mode) via a configuration. These configurations also support [DPC extras](/android/android-enterprise-zero-touch-dpc-extras-collection/), which allow organisations to pre-configure items like server URL and username.
 
 The DPC (EMM Agent) will be pulled down automatically along with any defined configurations when the device first boots or is factory reset, as demonstrated in the above GIF.
 
@@ -56,4 +60,6 @@ Video
 
 The below demonstrates zero-touch configured on a new, out-of-the-box Sony Xperia XZ1 enrolling into MobileIron Core:
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/OP-Szl2nPEc?feature=oembed" title="Android enterprise zero-touch walkthrough" width="500"></iframe></div></figure>The above video process is documented in my [zero-touch provisioning guide](/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf). All guides can be found under [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/).
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/OP-Szl2nPEc?feature=oembed" title="Android enterprise zero-touch walkthrough" width="500">
+
+The above video process is documented in my [zero-touch provisioning guide](/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf). All guides can be found under [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/).

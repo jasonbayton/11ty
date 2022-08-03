@@ -18,11 +18,15 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/48'
 ---
-<div class="bs-callout bs-callout-warning">### This isn’t officially supported
+<div class="bs-callout bs-callout-warning">
+
+### This isn’t officially supported
 
 MobileIron only officially support QR codes generated through the [MobileIron Provisioner app](https://play.google.com/store/apps/details?id=com.mobileiron.client.android.nfcprovisioner). While the below works and has been extensively tested, do not expect MobileIron to assist with the manual creation of QR codes outside of the official application!
 
-</div>How it works
+</div>
+
+How it works
 ------------
 
 When taking a factory-reset device out of the box, the Android setup wizard presents a “Welcome” screen. While this can and does vary on exact wording and placement, normally tapping on the “Welcome” text or a similarly placed logo 6 times in the same place will invoke the QR setup process.
@@ -42,11 +46,15 @@ In order for QR code enrolment to work with Android Enterprise, the following is
 Validate the checksum
 ---------------------
 
-<div class="bs-callout bs-callout-warning">### This is no longer necessary
+<div class="bs-callout bs-callout-warning">
+
+### This is no longer necessary
 
 In 2018 MobileIron switched from package checksum to admin signature checksum, meaning it’s no longer necessary to generate a package checksum unless you wish to do so for the sake of experimentation. The admin signature checksum will not need to be updated, and thus the MobileIron Core and Cloud code examples in the next section **may be used as-is**.
 
-</div>The below code requires an APK URL and checksum. While the URL is likely to remain the same, the checksum will change when the package is updated.
+</div>
+
+The below code requires an APK URL and checksum. While the URL is likely to remain the same, the checksum will change when the package is updated.
 
 If the checksum fails, the device will prompt to perform a factory reset which adds a delay to provisioning. It may be possible to avoid this with a device reboot, however it’s always best to validate the checksum matches that of the APK before attempting to generate a QR code and provision devices.
 
@@ -92,7 +100,6 @@ Use the following code for provisioning a device against MobileIron Core:
 
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
 }
-
 }
 ```
 
@@ -143,4 +150,4 @@ Generating the QR code
 
 No special tools are required for generating MobileIron-compatible QR codes. As long as the chosen QR generator **supports free text**, any can be used. For the codes generated in the linked post above I used [qr-code-generator.com](http://www.qr-code-generator.com/).
 
-![](../../../../../uploads/2017/08/qr.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2017/08/qr.png)

@@ -26,7 +26,9 @@ FeaturedBackground:
 
 For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)
 
-</div>A majority of organisations looking at Android Enterprise today will very likely already have a mature Android management process in place centred around the legacy *device administrator* enrolment model. With this model being [deprecated partially with Android P and fully in Android Q](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), now is the time to start thinking about planning a migration.
+</div>
+
+A majority of organisations looking at Android Enterprise today will very likely already have a mature Android management process in place centred around the legacy *device administrator* enrolment model. With this model being [deprecated partially with Android P and fully in Android Q](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), now is the time to start thinking about planning a migration.
 
 It is important to understand the implications of a migration from a device administrator deployment to one (or more) of the deployment scenarios available with Android Enterprise; depending on the deployment scenario chosen it *could* be very disruptive, but steps can be taken to reduce this.
 

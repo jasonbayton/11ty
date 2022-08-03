@@ -57,20 +57,22 @@ Preventing installation via unknown sources requires EMM integration, so may not
 
 To enable this within MobileIron Core, simply ensure the the box for **Allow unknown sources in device** in **Lockdown Policy** is unchecked:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/11/2018-11-30-23.17.25.gif)### Block unknown sources in Workspace One UEM
+![](https://r2_worker.bayton.workers.dev/uploads/2018/11/2018-11-30-23.17.25.gif)
+
+### Block unknown sources in Workspace One UEM
 
 WS1 UEM requires a custom XML payload for support below Android 10. Use the following XML sample:
 
 ```
-<pre class="wp-block-code">```
 <characteristic type="com.airwatch.android.androidwork.app:com.android.vending" uuid="b4yt0nb43-3df7-4845-aeea-795020609ead"> 
 <parm name="verify_apps:device_wide_unknown_source_block" value="true" type="boolean" /> 
 </characteristic>
 ```
-```
 
 Then create a new profile, opting for the **Custom Settings** payload:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/11/2018-11-30-22.54.02.gif)For Android 10 and future versions it’s possible to configure this in the restrictions payload.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/11/2018-11-30-22.54.02.gif)
+
+For Android 10 and future versions it’s possible to configure this in the restrictions payload.
 
 Contact your EMM for additional information and support.

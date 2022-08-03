@@ -65,11 +65,16 @@ FRP management, and the act of whitelisting accounts is a very straightforward p
 
 ### Configuring WS1 UEM
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-06-12.46.44.gif)### Configuring MobileIron Cloud
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-06-12.46.44.gif)
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-06-12.51.53.gif)### Configuring Intune
+### Configuring MobileIron Cloud
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-2.png)<figcaption>*Sorry, no GIF here. Also interesting is the use of email addresses.*</figcaption></figure>
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-06-12.51.53.gif)
+
+### Configuring Intune
+
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-2.png)
+*Sorry, no GIF here. Also interesting is the use of email addresses.*
 
 ### Getting the ID
 
@@ -77,10 +82,14 @@ In the above (excluding Intune) it may just seem like a bunch of numbers being p
 
 Simply head over to [People: Get](https://developers.google.com/people/api/rest/v1/people/get), type “me” into the userID, click EXECUTE, and when prompted for authentication, log in with the generic Google account you wish to fetch the ID for. It will output it as below, highlighted in orange.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-1.png)The end user experience
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-1.png)
+
+The end user experience
 -----------------------
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/rYxcC9XYgVI?feature=oembed" width="500"></iframe></div></figure>Conclusion
+<iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/rYxcC9XYgVI?feature=oembed" width="500">
+
+Conclusion
 ----------
 
 The lack of any feasible means of stopping a device being taken out of management should it be factory reset has been something I’ve taken issue with for some time; between asking Google for other means of preventing a reset (such as limiting access to recovery) and frequently bringing the issue up to UEM vendors, I am really pleased to see the eventual implementation of a solution; it plugs a pretty simple means of avoiding corporate management and should go some way to ensuring devices under management stay that way.

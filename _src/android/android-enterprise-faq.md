@@ -188,17 +188,13 @@ There are a few options available:
 **Connect the device to ADB** if the profile still won’t delete. This requires enabling ADB debugging on the device via Developer options and a working ADB setup on a computer. A Google search will assist in getting this setup if necessary. Once the computer can detect the device over ADB, run the following:
 
 ```
-<pre class="wp-block-preformatted"> ```
 adb shell pm list users
-```<br></br>
 ```
 
 This should return a list of active users where user 0 is the parent (device/default) user, and any other number (10, 13, 200 etc) is the work profile. To remove the work profile run:
 
 ```
-<pre class="wp-block-preformatted">```
-adb shell pm remove-user <strong>13</strong>
-```
+adb shell pm remove-user 13
 ```
 
 Making sure of course the number reflects the returned value in the previous command.

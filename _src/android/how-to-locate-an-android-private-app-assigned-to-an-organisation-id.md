@@ -20,10 +20,14 @@ An issue that often pops up is being unable to locate within the Google Play iFr
 
 Often for applications intended not to be made available on the public Google Play Store, a developer will instead opt to publish the app privately for up to 100 unique organisation IDs.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2021/02/image.png)When searching for an app which has been assigned to your organisation ID, you may note it is not immediately visible within the Google Play iFrame, nor on play.google.com/work. Often this is mistaken for propagation, however in reality it’s a limitation of Play today.
+![](https://r2_worker.bayton.workers.dev/uploads/2021/02/image.png)
+
+When searching for an app which has been assigned to your organisation ID, you may note it is not immediately visible within the Google Play iFrame, nor on play.google.com/work. Often this is mistaken for propagation, however in reality it’s a limitation of Play today.
 
 A simple method to locating the app is simply searching for the package name, with `pname:` prepended to it, as follows:
 
 `pname:app.package.name`
 
-![](https://r2_worker.bayton.workers.dev/uploads/2021/02/image-1.png)This should, under most circumstances, bring up the application in question, from which you’ll be able to approve and distribute it normally.
+![](https://r2_worker.bayton.workers.dev/uploads/2021/02/image-1.png)
+
+This should, under most circumstances, bring up the application in question, from which you’ll be able to approve and distribute it normally.

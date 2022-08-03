@@ -20,12 +20,16 @@ discourse_permalink:
 FeaturedBackground:
     - android-gen
 ---
-<span class="ember-view" id="ember4851">I’ve created two Android evolution graphics: one that simply includes all Android versions, the second that incorporates Android Enterprise. </span>
+I’ve created two Android evolution graphics: one that simply includes all Android versions, the second that incorporates Android Enterprise.
 
-<div class="callout callout-info"> **NB:** From Android 10 there’s only one evolution graphic, which incorporates Android Enterprise. It’s super easy to remove AE references from the PPTx if desired, or grab an older version of the Android-only PPTx. </div><span class="ember-view" id="ember4856">The reasoning for this is twofold:</span>
+<div class="callout callout-info"> 
 
-1. <span class="ember-view" id="ember4856">All examples I was able to find online were out of date.</span>
-2. <span class="ember-view" id="ember4856">None incorporate Android Enterprise, which I believe is useful when presenting Android version history in an enterprise context.</span>
+**NB:** From Android 10 there’s only one evolution graphic, which incorporates Android Enterprise. It’s super easy to remove AE references from the PPTx if desired, or grab an older version of the Android-only PPTx. </div>
+
+The reasoning for this is twofold:
+
+1. All examples I was able to find online were out of date.
+2. None incorporate Android Enterprise, which I believe is useful when presenting Android version history in an enterprise context.
 
 Please feel free to use them, modify them and re-distribute them. I only request you provide credit, and share your own PPTx for others to benefit in kind! If your documentation is public, I’d love to see what you’ve created! Tweet me [@jasonbayton](https://twitter.com/jasonbayton) with the link.
 
@@ -33,7 +37,7 @@ Future updates to this document will located on this page, feel free to come on 
 
 Click the image to view the PDF.
 
-<figure class="wp-block-image size-full">[![](https://r2_worker.bayton.workers.dev/uploads/2020/11/Android-Evolution-v5.jpg)](/download/doc/ae-general/AndroidEvolutionv5.pdf)</figure>
+[![](https://r2_worker.bayton.workers.dev/uploads/2020/11/Android-Evolution-v5.jpg)](/download/doc/ae-general/AndroidEvolutionv5.pdf)
 
 **Oreo:**  
 Android PPTx link: [Android\_Evolution.pptx](/download/doc/ae-general/Android_Evolution.pptx)  

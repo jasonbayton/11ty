@@ -58,7 +58,10 @@ Some OEMs have over the years implemented their own APIs for various capabilitie
 
 When EMMs do implement these bespoke APIs, in addition to having to request *device administrator* permissions for the EMM agent, it’s highly likely the EMM would also require an additional, per-OEM, application installed on the device to better utilise them; SOTI is most notable for having over 170 of OEM plugins, but the act of installing one involves enabling unknown sources and sideloading APKs. [Not very secure](/android/why-you-shouldnt-install-apps-from-unknown-sources/).
 
-<div class="wp-block-image wp-image-4768 size-full"><figure class="alignleft">![](https://r2_worker.bayton.workers.dev/uploads/2017/10/apisupport-e1507840615305.png)<figcaption>*AirWatch restriction support by different OEMs*</figcaption></figure></div>Beyond basic security policies and perhaps a simple email/WiFi/etc configuration then, outside of the bigger OEMs (Samsung, Huawei, Sony, others to a lesser degree), there’s not a lot administrators can manipulate and control with a legacy-managed Android device, which already makes them rather unappealing for use in an enterprise setting.
+![](https://r2_worker.bayton.workers.dev/uploads/2017/10/apisupport-e1507840615305.png)
+*AirWatch restriction support by different OEMs*
+
+Beyond basic security policies and perhaps a simple email/WiFi/etc configuration then, outside of the bigger OEMs (Samsung, Huawei, Sony, others to a lesser degree), there’s not a lot administrators can manipulate and control with a legacy-managed Android device, which already makes them rather unappealing for use in an enterprise setting.
 
 The exception, as mentioned above, is Samsung. When a Samsung device is enrolled normally (as in, not via Knox Premium), EMM administrators have management over the device to a degree similar to that of an Android Enterprise [fully managed](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) device; there are an abundance of restrictions available and excellent visibility of device posture. Samsung’s DA offering isn’t perfect however, and encounters many of the other shortfalls of DA.
 
@@ -121,7 +124,7 @@ How Android Enterprise compares
 -------------------------------
 
 - Consistent, reliable management
-- Flexible, simple &amp; safe application management
+- Flexible, simple & safe application management
 - Zero-day support for new features and functionality
 - Secure by default
 - A solid foundation on which to build

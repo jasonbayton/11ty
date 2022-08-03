@@ -23,15 +23,17 @@ A recreated version
 
 As the original suffers with poor image quality I’ve created the following copy for educational purposes. Feel free to click the image for the PDF version:
 
-<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Gartner-Comparison-of-Security-Controls-2019-copy-1.jpg)](http:/download/doc/ae-general/Gartner_Comparison_of_Security_Controls_2019.pdf)</figure>
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Gartner-Comparison-of-Security-Controls-2019-copy-1.jpg)](http:/download/doc/ae-general/Gartner_Comparison_of_Security_Controls_2019.pdf)
 
 The originals
 -------------
 
 For the official version, as shown in the below video, scroll down.
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/zRhSmH4vSE0?feature=oembed" title="2019 state of mobile security intro - Interview with Gartner's Patrick Hevesi" width="500"></iframe></div></figure>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/zRhSmH4vSE0?feature=oembed" title="2019 state of mobile security intro - Interview with Gartner's Patrick Hevesi" width="500"></iframe>
 
 Which will look a little something like this:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/0.png)Use the version(s) best suited for your requirements including the image version of the recreated PDF provided above, if you do use my recreation I’d appreciate if it was unaltered to leave the reference back to this site intact!
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/0.png)
+
+Use the version(s) best suited for your requirements including the image version of the recreated PDF provided above, if you do use my recreation I’d appreciate if it was unaltered to leave the reference back to this site intact!

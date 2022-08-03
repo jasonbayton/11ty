@@ -115,7 +115,7 @@ Install MI connector via VMM
 
 From a remote \*nix machine running virt-manager, ensure key-based authentication is set up first to avoid connection errors (that is to say, you can `ssh user@ip` without needing to input the password from a terminal) then connect to the KVM server by clicking **File &gt; Add Connection** and inputting the relevant user and hostname (as well as checking the checkbox for **Connect to remote host**).
 
-[![image-1](../../../../../uploads/2016/10/image-1.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-1.png)
+[![image-1](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-1.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-1.png)
 
 As an example, if the SSH user with key-based authentication is **jason** and the host is **10.10.10.98**, these make up the username and hostname respectively.
 
@@ -123,26 +123,26 @@ Click **Connect** when done.
 
 To create a new virtual machine, right click on the remote host and click **New**
 
-[![image-2](../../../../../uploads/2016/10/image-2.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-2.png)
+[![image-2](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-2.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-2.png)
 
 Follow the prompts through 1 to 5 using the following screenshots as a guide:
 
-[![image-3](../../../../../uploads/2016/10/image-3.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-3.png)
+[![image-3](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-3.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-3.png)
 
-[![image-4](../../../../../uploads/2016/10/image-4.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-4.png)
+[![image-4](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-4.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-4.png)
 
-[![image-5](../../../../../uploads/2016/10/image-5.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-5.png)
+[![image-5](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-5.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-5.png)
 
-[![image-6](../../../../../uploads/2016/10/image-6.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-6.png)
+[![image-6](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-6.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-6.png)
 
-[![image-7](../../../../../uploads/2016/10/image-7.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-7.png)  
+[![image-7](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-7.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-7.png)  
 *Recall the bridge created earlier – this can be now selected under **Network selection***
 
 Click **Finish** to create the virtual machine.
 
 The MobileIron installation can now continue as normal by typing `vm-install` at the prompt in the newly-opened console window.
 
-[![image-8](../../../../../uploads/2016/10/image-8.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-8.png)
+[![image-8](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-8.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-8.png)
 
 Install MI connector via CLI
 ----------------------------
@@ -184,10 +184,10 @@ Immediately following this message, a 30 second timer starts on the MobileIron b
 
 Open **Remote Viewer** and input the connection address:
 
-[![image-9](../../../../../uploads/2016/10/image-9.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-9.png)
+[![image-9](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-9.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-9.png)
 
 By default, this will be `spice://ip-or-host:5900` for the first virtual machine to boot, with the port incrementing by 1 for every virtual machine running. The port can optionally be set manually by editing VM configuration file.
 
 On clicking connect, the Remote Viewer will load the remote console where installation can be continued as normal. If the session disconnects, simply re-open it again.
 
-[![image-10](../../../../../uploads/2016/10/image-10.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-10.png)
+[![image-10](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-10.png)](https://r2_worker.bayton.workers.dev/uploads/2016/10/image-10.png)

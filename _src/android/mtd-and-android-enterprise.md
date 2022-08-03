@@ -33,10 +33,12 @@ The goal for an MTD is full visibility over the whole device with the ability to
 
 Here’s a breakdown of visibility per deployment scenario:
 
-Work-managed (fully managed)
+Fully managed
 ----------------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/wm.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/wm.png)</figure></div>The simplest and therefore easiest to begin with. A fully managed (COBO) device for all intents and purposes acts similarly to a legacy-managed Android handset where MTD is concerned.
+[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/wm.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/wm.png)
+
+The simplest and therefore easiest to begin with. A fully managed (COBO) device for all intents and purposes acts similarly to a legacy-managed Android handset where MTD is concerned.
 
 The organisation distributes the MTD agent to the device directly and, as the MTD resides within the only profile on the device, it detects:
 
@@ -50,7 +52,9 @@ As a fully managed device, there are no concerns over lack of visibility, and sh
 COSU (dedicated device)
 -----------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/cosu2-1.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/cosu2.png)</figure></div>A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
+[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/cosu2-1.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/cosu2.png)
+
+A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
 
 Much like the fully managed device, deploying MTD to a COSU device will provide full access akin to a legacy enrolment, and can see:
 
@@ -64,7 +68,9 @@ There’s only one caveat; as most MTD solutions cannot auto-activate on Android
 Work profile (BYOD)
 -------------------
 
-<div class="wp-block-image inline-responsive-image"><figure class="alignright is-resized">[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/workprofile.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/workprofile.png)</figure></div>**NB: From Android 11 the below work profile considerations also apply to COPE!**
+[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/workprofile.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/workprofile.png)
+
+**NB: From Android 11 the below work profile considerations also apply to COPE!**
 
 Work profile is designed for Bring Your Own Device (BYOD) deployments, however in reality and unfortunately work profile is utilised on many, many corporately owned devices across the world, which in general is less than ideal, but in the case of MTD is definitely not a particularly good thing.
 
@@ -88,7 +94,7 @@ The less-than-ideal workaround for this would be to deploy the MTD into the pare
 Managed devices with work profiles (COPE)
 -----------------------------------------
 
-<div class="wp-block-image inline-responsive-image">![](https://r2_worker.bayton.workers.dev/uploads/2018/10/wmwp.png)</div>
+![](https://r2_worker.bayton.workers.dev/uploads/2018/10/wmwp.png)
 
 **NB: The below considerations should be applied only to Android 8.0-10. Android 11 utilises a BYOD style COPE implementation.**
 
@@ -107,25 +113,25 @@ This could be expected if the MTD is deployed into the parent profile, what is m
 
 As a direct comparison:
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column">**MTD in parent profile**
+**MTD in parent profile**
 
 - System and user applications
 - Network information
 - Device details and posture
 - Malicious links opened from other applications on the device
 
-</div><div class="wp-block-column">**MTD in work profile**
+**MTD in work profile**
 
 - System and corporate applications
 - Network information
 - Device details and posture
 - Malicious links opened from applications within the work profile
 
-</div></div>Once again this will need to be validated with MTD and UEM vendors as it really can be a pick-and-mix of functionality which is yet to be widely adopted still.
+Once again this will need to be validated with MTD and UEM vendors as it really can be a pick-and-mix of functionality which is yet to be widely adopted still.
 
 Should the MTD be deployed in the parent profile, any VPN connectivity will be system-wide, otherwise if deployed in the work profile the VPN will again, like BYOD, only route traffic within the work profile itself.
 
- Touching on VPN capabilities
+Touching on VPN capabilities
 -----------------------------
 
 Some MTD vendors offer VPN capabilities, or may possibly even entirely rely upon a persistent VPN connection to be remotely useful.
