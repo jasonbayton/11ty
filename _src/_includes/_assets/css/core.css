@@ -393,11 +393,6 @@ section#page_content {
   display: block;
 }
 
-.meta-single {
-  padding-right: 40px;
-  display: inline;
-}
-
 #android_post_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
