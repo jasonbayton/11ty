@@ -240,6 +240,14 @@ button {
   text-indent: 10px;
 }
 
+#well_hey {
+  padding: 10px;
+  background: deeppink;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
