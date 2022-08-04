@@ -81,7 +81,7 @@ The metallic band is suitably springy and grips well to the head. Glass feels ve
 
 The model I received is one of a new batch with 2GB of RAM. I’ve seen numerous performance complaints over the course of Glass’ existence but I was pleased to note there was no such issue on the pair I’ve been using. It’s smooth and snappy regardless of what I’m attempting to do with it. That’s not to say it’s completely without glitches, but I’ll cover those off below.
 
-Besides the RAM, Glass comes with a 5mp camera capable of recording in 720p, a <span style="color: #444444;">670 mAh battery stated to last all day, 12GB of usable storage (16GB total), WIFI, bluetooth, a touchpad along the side of the device and several sensors which, amongst other things, enable eye-tracking for features such as wink to take a picture and automatic illumination of the display when it detects your eyes raise to the screen on hearing a notification (a labs feature which is a little unreliable). Glass transfers sound via Bone Conduction. </span>
+Besides the RAM, Glass comes with a 5mp camera capable of recording in 720p, a 670 mAh battery stated to last all day, 12GB of usable storage (16GB total), WIFI, bluetooth, a touchpad along the side of the device and several sensors which, amongst other things, enable eye-tracking for features such as wink to take a picture and automatic illumination of the display when it detects your eyes raise to the screen on hearing a notification (a labs feature which is a little unreliable). Glass transfers sound via Bone Conduction.
 
 [![Google Glass Display](https://r2_worker.bayton.workers.dev/uploads/2014/06/P6300299-e1404163639150.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2014/06/P6300299.jpg)
 
@@ -220,7 +220,9 @@ Here are a collection of pictures I took while house-hunting over the weekend (a
 <dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_145607_594.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145607_594/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140627_132024_064_x.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140627_132024_064_x/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_145306_799.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145306_799/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_160431_029.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160431_029/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140629_090332_773_x-e1404198751833.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140629_090332_773_x/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_154603_368.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154603_368/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_160740_215.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160740_215/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_154603_368.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154603_368/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_160740_215.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160740_215/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140629_090332_773_x1.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140629_090332_773_x-2/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_154418_670.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154418_670/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_150434_355.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150434_355/) </dt></dl>  
 <dl class="gallery-item"> <dt class="gallery-icon landscape"> 
@@ -228,4 +230,5 @@ Here are a collection of pictures I took while house-hunting over the weekend (a
 [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140628_154812_720.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154812_720/) </dt></dl>   
  </div>
  
- Thanks for stopping by! Leave a comment or [join the conversation on Google+](https://plus.google.com/u/0/105616249858609350212/posts/Ar4Eo6J3pAZ)
+
+Thanks for stopping by! Leave a comment or [join the conversation on Google+](https://plus.google.com/u/0/105616249858609350212/posts/Ar4Eo6J3pAZ)
