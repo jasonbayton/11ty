@@ -383,6 +383,10 @@ section#page_content {
   padding: 30px 0;
 }
 
+.post-block-home {
+  padding: 15px 0;
+}
+
 .post-title {
   margin: 0;
   font-weight: 400;
