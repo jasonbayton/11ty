@@ -74,7 +74,34 @@ Further to the above, a swipe from the top down will put the lockscreen into nig
 
 Other gestures, consist of sliding up from the bottom to return to the home screen. This puts the currently opened app, plus any other previously opened apps into a new pane on the home screen allowing you to quickly switch between them. From the home screen, sliding left to right will take you into the BlackBerry Hub, and sliding right to left will take you into your apps list.
 
- The BlackBerry Hub? Yes, that’s what they’re calling a central location dedicated to all of your messages from the accounts you add to the device. It means less dipping in and out of different applications, instead using one area accessible from anywhere on the phone (if in an app, swiping up and then right will take you there) to manage and reply to your messages. It’s a novel idea, though in practise I’ve preferred keeping messages separate. You do however have control over what’s shown there, which is good.
+ <style type="text/css">
+			#gallery-27 {
+				margin: auto;
+			}
+			#gallery-27 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 25%;
+			}
+			#gallery-27 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-27 .gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+		</style>
+
+<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-27"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2013/03/IMG_00000019.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000019/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2013/03/IMG_00000022.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000022/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2013/03/IMG_00000014.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000014/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2013/03/IMG_00000024.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000024/) </dt></dl>  
+<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2013/03/IMG_00000003.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000003/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2013/03/IMG_00000013.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000013/) </dt></dl>   
+</div>
+
+The BlackBerry Hub? Yes, that’s what they’re calling a central location dedicated to all of your messages from the accounts you add to the device. It means less dipping in and out of different applications, instead using one area accessible from anywhere on the phone (if in an app, swiping up and then right will take you there) to manage and reply to your messages. It’s a novel idea, though in practise I’ve preferred keeping messages separate. You do however have control over what’s shown there, which is good.
 
 Replying to messages of course brings up the keyboard. As stock keyboards go, the BlackBerry keyboard is very good. The keys are easy to tap even with my large thumbs and it quickly learns how a user types. Typically within two to three letters into a word it’ll offer you the word you’re likely trying to type, allowing a simple swipe up on the next key (as opposed to tapping it) to complete the word. It works very well.
 

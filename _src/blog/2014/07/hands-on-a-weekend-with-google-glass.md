@@ -61,7 +61,7 @@ And, naturally, photographing food hands-free in all of these locations (if only
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-24"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2014/06/DSC_0017.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2014/06/DSC_0017.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/06/DSC_0018.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2014/06/DSC_0018.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/06/DSC_0031.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2014/06/DSC_0031.jpg) </dt></dl>  
- </div>
+</div>
  
 The packaging is stunning, honestly. For what is essentially a beta device, Google have really put a lot of time and effort into presentation. Upon opening the box you’re greeted with a semi-opaque sheet of paper that keeps the underlying hardware in place. Peeling the sheet back reveals Glass in all its glory and it’s stunning – sleek, smooth and beautifully designed. I ordered the shale option figuring the darker grey-colour would show the least amount of dirt with extended use (this is a corporate device, after all). I later found the colour option probably wouldn’t matter as the material it’s made with seems to pick up dirt pretty easily.
 
