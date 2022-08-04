@@ -34,7 +34,9 @@
                     </div>
                     <div class="meta-single post-meta-base-right">
                         {% for tag in tags %}
+                        {% if not tag.includes("blog") %}
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/"> {{ tag }} </a>
+                        {% endif %}
                         {% endfor %}
                     </div>
                 </div>
