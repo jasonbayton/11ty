@@ -34,7 +34,7 @@ After completing this guide we’ll have the following:
 - Pretty links that remove /index.php from the URL
 - SSL-enabled with default self-signed certificates and all non-HTTPS traffic redirected
 
-<div class="bs-callout bs-callout-info">#### 2.1. Installation URL
+<div class="callout callout-info">#### 2.1. Installation URL
 
 This guide assumes Nextcloud will be accessed via *url.com/nextcloud.* If Nextcloud should be accessed on the **root of the domain**, *url.com*, keep in mind the following:
 
@@ -57,11 +57,11 @@ Nextcloud don’t provide a lot of detail for minimum recommended spec, only adv
 
 20GB of disk will be enough for this guide, but naturally the amount chosen should reflect the amount of data to be stored. Furthermore, if redundancy isn’t offered as standard it’s always a good idea to mirror/RAID the storage area to avoid downtime as best as possible. Typically this is only a consideration required with dedicated servers, but there’s no harm in checking.
 
-<div class="bs-callout bs-callout-warning">#### 3.1.1. Plan backups
+<div class="callout callout-warning">#### 3.1.1. Plan backups
 
 No matter what level of redundancy is set up, it’s not a replacement for a good backup strategy. Never assume data is safe in a remote datacentre as usually providers offer no liability or responsibility for lost data should a server fail.
 
-</div><div class="bs-callout bs-callout-danger">#### 3.1.2. Nextcloud is not a backup solution
+</div><div class="callout callout-danger">#### 3.1.2. Nextcloud is not a backup solution
 
 Nextcloud is a not a replacement for typical backup solutions or processes but rather a tool for collaboration and sharing. Do not rely on it as the sole solution for protecting your data.
 
@@ -105,7 +105,7 @@ With the server updated, if one doesn’t already exist, a non-root user should 
 
 `sudo apt install lamp-server^`
 
-<div class="bs-callout bs-callout-info">#### 4.1.1. Meta packages
+<div class="callout callout-info">#### 4.1.1. Meta packages
 
 The use of ^ (caret) in the package name is important. It suggests that the installed package is a ‘meta-package’, meaning a number of programs that are usually installed together.
 
@@ -324,7 +324,7 @@ Now the Apache account, **www-data**, will have write-access to the Nextcloud in
 
 ### 5.2. Create the Nextcloud database
 
-<div class="bs-callout bs-callout-info">#### 5.2.1. This is optional
+<div class="callout callout-info">#### 5.2.1. This is optional
 
 By default, Nextcloud can create a database and database user when supplying the root user and password in the Nextcloud web-based installer. The following steps are intended for either someone who wants to create their own database or does not want to supply Nextcloud with the root account credentials.
 
@@ -550,7 +550,7 @@ On refreshing the browser, the warning should no longer be there.
 
 As we’re running our Nextcloud installation on a remote host, far outside the confines of our internal network, it’s a good opportunity to enable server-side encryption. This guarantees that should anyone gain access to the data hosted on the server, file contents won’t be readable.
 
-<div class="bs-callout bs-callout-danger">#### 6.6.1. Encryption can lead to data loss
+<div class="callout callout-danger">#### 6.6.1. Encryption can lead to data loss
 
 Encryption is a complex topic and getting this wrong will lead to data loss. Generally, using Nextcloud server-side encryption is not needed or recommended and instead you should strongly consider client-side encryption, or other methods of enforcing OS filesystem encryption instead. Continue at your own risk.
 

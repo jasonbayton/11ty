@@ -30,7 +30,7 @@ Google explains the change as follows:
 
 > Currently, you have to actively whitelist apps to make them available to your users. Starting on September 19th, users with company-owned Android devices and work profiles will be allowed to install any app from the managed Google Play store by default. If you don’t want your users to do this, you can choose to [restrict app availability to whitelisted apps](https://support.google.com/a/answer/6328701).
 > 
-> <cite>*[Making is easier to set up Android devices as company-owned](https://gsuiteupdates.googleblog.com/2018/09/company-owned-android-devices-gsuite.html)*</cite>
+> <cite>*[Making it easier to set up Android devices as company-owned](https://gsuiteupdates.googleblog.com/2018/09/company-owned-android-devices-gsuite.html)*</cite>
 
 What this means
 ---------------
@@ -56,7 +56,10 @@ How to revert the change
 
 For those who create a G Suite tenant after the 19th however, the fix is quite simple, requiring only the click of a radio button to return expected, basic security:
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-3.png)<figcaption>*This page should be found [here](https://admin.google.com/AdminHome?fral=1#MobileSettings:section=mam&flyout=android_apps)* *once logged in*</figcaption></figure>Conclusion
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-3.png)
+*This page should be found [here](https://admin.google.com/AdminHome?fral=1#MobileSettings:section=mam&flyout=android_apps)* *once logged in*
+
+Conclusion
 ----------
 
 The question though is why Google would intentionally make this change; who decided enabling data leakage for the the sake of what I can only imagine is convenience for organisations who don’t wish to prevent end-users installing their own apps is more important than ensuring the organisations who want security by default get it out of the box?

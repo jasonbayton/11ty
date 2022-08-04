@@ -17,7 +17,7 @@ tags:
 ---
 It’s been only seven months since publishing my take on [the state of Android Enterprise in 2017](/android/what-is-android-zero-touch-enrolment/), but a lot has changed already. With the release of Android 9.0 Pie, it’s a good time to take a look. I’ll cover new management features and programs from Google; how vendors, hardware OEMs, and customers have responded; and where this is all going. If you haven’t read my previous article, you might want to get caught up, but otherwise, let’s dig in!
 
-**Device admin deprecation**
+Device admin deprecation
 ----------------------------
 
 This is huge news for the industry: from what should be Android 10/Q in 2019, device admin APIs (the basis of [legacy Android management](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/)) are being deprecated, and Android Enterprise management will be the only means for management. This will not impact devices running Android 9 Pie or older, however all new purchases and devices that are upgraded to Android 10/Q will not support device admin management.
@@ -26,7 +26,7 @@ What will be impactful, however, is the new [Google Play requirement](https://de
 
 For organizations managing Android devices, this means Android Enterprise should now be a priority; even if there are no plans to refresh the Android estate immediately, I advie having the foundations and experience in place sooner rather than later.
 
-**OEMConfig**
+OEMConfig
 -------------
 
 With legacy Android management, UEM vendors had to integrate proprietary OEM APIs before customers could use them, which could be a pain. For example, it’s taken nearly seven months (so far) for some vendors to integrate Samsung’s latest Knox APIs. This is the problem [OEMConfig sets out to fix](/android/what-is-oemconfig/).
@@ -37,7 +37,7 @@ With OEMConfig, the tables are turned: OEMs can easily publish their APIs into U
 
 It’s a really significant solution I hope to see widely adopted soon, and I know that a few OEMs are already testing it.
 
-**New enterprise improvements in Android 9 Pie**
+New enterprise improvements in Android 9 Pie
 ------------------------------------------------
 
 As with every version of Android since Android Enterprise was introduced, [Android 9 Pie](https://developer.android.com/work/versions/android-9.0) has a healthy set of improvements.
@@ -54,7 +54,7 @@ Additionally, new APIs allow switching between personal and work accounts within
 
 **Shared device support and COSU:** COSU support in Android up to now has been… well… *manageable.* With Pie however, Google is unleashing a massive update to how devices manage and support multiple users. In addition, there’s new native kiosk functionality that far exceeds what we’ve seen previously—many organizations may even opt for the native Android implementation over the custom EMM kiosk implementations we see in frequent use today. Time will tell.
 
-**Android Enterprise Recommended**
+Android Enterprise Recommended
 ----------------------------------
 
 Over the years, many organizations have asked for device recommendations, and more often than not it was an uncomfortable experience, because I couldn’t test every device on the market for compatibility with enterprise management. With the introduction of Android Enterprise, Google created the perfect environment for a new [validation process](https://www.android.com/intl/en_uk/enterprise/recommended/requirements/) to ensure that devices support it properly.
@@ -63,7 +63,7 @@ The resulting program, [Android Enterprise Recommended](https://www.android.com/
 
 There’s more to AER than just devices though, and later this year we should start to see similar validation for the wider partner ecosystem, such as UEM vendors and solutions integrators (this tying in with Android Academy, another recent Google effort).
 
-**Android management API**
+Android management API
 --------------------------
 
 Launched in late 2017, the Android Management API (AMAPI) takes all of the complexity of Android management and rolls it into an always up-to-date cloud-based platform.
@@ -72,7 +72,7 @@ With only a Google Cloud project and a few API calls, it’s possible to have an
 
 There was a lot of chatter at the Android Enterprise Summit around this, with UEM vendors interested to see how they could effectively leverage it. Microsoft is one of the first big players I’ve seen to bring a solution to market, integrated with their platform.
 
-**Partners are onboard with Android Enterprise**
+Partners are onboard with Android Enterprise
 ------------------------------------------------
 
 Now, let’s turn to the partner side. Many UEMs and OEMs have supported Android Enterprise for years (though some have only come more recently.) What have they done in response to the latest features?
@@ -87,7 +87,7 @@ OEMs like HMD Global are pushing really hard on Android Enterprise, with support
 
 Samsung, the most dominant Android OEM in the world, especially in the enterprise space, announced back in January that with the introduction of Knox 3.0, their unification with Android Enterprise was complete. This is significant! The support of a major player speaks volumes as to the importance of Android Enterprise going forward. (However, they’re still not onboard with programs like Android Enterprise Recommended, [zero-touch enrollment](/android/what-is-android-zero-touch-enrolment/), and OEMConfig.) As of writing, UEM vendors are completing their support, and AE-based Samsung capabilities are ready to be leveraged without fear of device admin deprecation.
 
-**Project Treble seeing real-world use**
+Project Treble seeing real-world use
 ----------------------------------------
 
 Another important OEM-centric innovation is Project Treble. [Last year, I wrote](/android/what-is-android-zero-touch-enrolment/): *“With the*[ *introduction of Project Treble*](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html) *in Android 8.0, we should begin to see devices updated more frequently and for longer periods.”*
@@ -98,7 +98,7 @@ It was all made possible thanks to Project Treble, and has continued to impress 
 
 As OEMs become more comfortable with Project Treble and blistering time to market for updates, you can imagine the effect on fragmentation (which can still currently cause problems) and version support this will have.
 
-**How customers have responded**
+How customers have responded
 --------------------------------
 
 Android Enterprise is still a new concept to many, but is really starting to pick up. In my last state of Android Enterprise article, I covered Project Treble, zero-touch enrollment and aggressive adoption by OEMs. So far, that’s all living up to my expectations.
@@ -111,8 +111,8 @@ Add to that the Android Enterprise-first approach the industry is taking and the
 
 Looking towards the future, I think we’re going to see a lot of usage for the Android Enterprise Recommended program. In addition, I think OEMConfig will lead the the rise of bespoke APIs. Without the previous hurdles, OEMs will take it into their own hands to provide unique and interesting new ways of managing their devices. Lastly, as more UEMs beyond MobileIron support work profiles on fully managed devices, we should see it push rapid AE adoption, as COPE is such a popular method of managing devices today.
 
-**Final thoughts** 
--------------------
+Final thoughts
+---------------
 
 Again, everything in this article has happened in the last seven months, which I think speaks volumes in terms of Google’s commitment to Android Enterprise and the well-overdue sunsetting of legacy management.
 

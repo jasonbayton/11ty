@@ -43,25 +43,31 @@ Try it and let me know how you get on (Comments are open). If you’re Australia
 
 I’ve included a quick image show below. Click for full size.
 
-[![Select Skype.jar](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP9de6xI/AAAAAAAAEt8/m_G3QRyOx_g/s160-c/Screen02.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP9de6xI/AAAAAAAAEt8/m_G3QRyOx_g/Screen02.png?imgmax=640 "Select Skype.jar")
+[![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP9de6xI/AAAAAAAAEt8/m_G3QRyOx_g/s160-c/Screen02.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP9de6xI/AAAAAAAAEt8/m_G3QRyOx_g/Screen02.png?imgmax=640 "Select Skype.jar")
+Select Skype.jar
 
-[![Install to root](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP4g2y7I/AAAAAAAAEuA/gkn9yZ3_TuI/s160-c/Screen03.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP4g2y7I/AAAAAAAAEuA/gkn9yZ3_TuI/Screen03.png?imgmax=640 "Install to root")
+[![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP4g2y7I/AAAAAAAAEuA/gkn9yZ3_TuI/s160-c/Screen03.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gP4g2y7I/AAAAAAAAEuA/gkn9yZ3_TuI/Screen03.png?imgmax=640 "Install to root")
+Install to root
 
-[![Allow all of this](http://lh5.ggpht.com/_XtX1xEyLe2k/S54gQCT-eXI/AAAAAAAAEuE/LXXmNRdNB6E/s160-c/Screen04.png)](http://lh5.ggpht.com/_XtX1xEyLe2k/S54gQCT-eXI/AAAAAAAAEuE/LXXmNRdNB6E/Screen04.png?imgmax=640 "Allow all of this")
+[![](http://lh5.ggpht.com/_XtX1xEyLe2k/S54gQCT-eXI/AAAAAAAAEuE/LXXmNRdNB6E/s160-c/Screen04.png)](http://lh5.ggpht.com/_XtX1xEyLe2k/S54gQCT-eXI/AAAAAAAAEuE/LXXmNRdNB6E/Screen04.png?imgmax=640 "Allow all of this")
+Allow all of this
 
-[![Continue](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gQO17MCI/AAAAAAAAEuI/Pui2MXK0O9o/s160-c/Screen05.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gQO17MCI/AAAAAAAAEuI/Pui2MXK0O9o/Screen05.png?imgmax=640 "Continue")
+[![](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gQO17MCI/AAAAAAAAEuI/Pui2MXK0O9o/s160-c/Screen05.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gQO17MCI/AAAAAAAAEuI/Pui2MXK0O9o/Screen05.png?imgmax=640 "Continue")
+Continue
 
 [![Screen06.png](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gQPpIkfI/AAAAAAAAEuM/0k7TpvQvVn0/s160-c/Screen06.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gQPpIkfI/AAAAAAAAEuM/0k7TpvQvVn0/Screen06.png?imgmax=640)
 
 [![Screen07.png](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gd8NU00I/AAAAAAAAEuQ/f9fX4qe2YE8/s160-c/Screen07.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gd8NU00I/AAAAAAAAEuQ/f9fX4qe2YE8/Screen07.png?imgmax=640)
 
-[![Launch, you're installed!](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gd6SBVtI/AAAAAAAAEuU/vnFrR1Ho0eA/s160-c/Screen08.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gd6SBVtI/AAAAAAAAEuU/vnFrR1Ho0eA/Screen08.png?imgmax=640 "Launch, you're installed!")
+[![](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gd6SBVtI/AAAAAAAAEuU/vnFrR1Ho0eA/s160-c/Screen08.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54gd6SBVtI/AAAAAAAAEuU/vnFrR1Ho0eA/Screen08.png?imgmax=640 "Launch, you're installed!")
+Launch, you're installed!
 
 [![Screen09.png](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gdyS85MI/AAAAAAAAEuY/aSgi5CpL-5c/s160-c/Screen09.png)](http://lh6.ggpht.com/_XtX1xEyLe2k/S54gdyS85MI/AAAAAAAAEuY/aSgi5CpL-5c/Screen09.png?imgmax=640)
 
 [![Screen10.png](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geBjw3PI/AAAAAAAAEuc/VxEc_IGxH2E/s160-c/Screen10.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geBjw3PI/AAAAAAAAEuc/VxEc_IGxH2E/Screen10.png?imgmax=640)
 
-[![Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/s160-c/Screen11.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/Screen11.png?imgmax=640 "Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?")
+[![](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/s160-c/Screen11.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/Screen11.png?imgmax=640 "Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?")
+Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?
 
 [![Screen12.png](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gp0jy5-I/AAAAAAAAEuk/8JkRls0d424/s160-c/Screen12.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gp0jy5-I/AAAAAAAAEuk/8JkRls0d424/Screen12.png?imgmax=640)
 

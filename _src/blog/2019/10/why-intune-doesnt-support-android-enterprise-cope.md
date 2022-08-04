@@ -22,11 +22,11 @@ publish_post_category:
 tags:
     - Enterprise
 ---
-<figure class="wp-block-pullquote">> Does Intune Support COPE?
+> Does Intune Support COPE?
 > 
 > <cite>Literally everyone.</cite>
 
-</figure>It’s one of the most frequent questions I get. So much so that a year ago I created a resource dedicated to answering the question, [DoesIntuneSupportAECOPE.info](http://doesintunesupportaecope.info), which has seen up to 500 visits in a month this year.
+It’s one of the most frequent questions I get. So much so that a year ago I created a resource dedicated to answering the question, [DoesIntuneSupportAECOPE.info](http://doesintunesupportaecope.info), which has seen up to 500 visits in a month this year.
 
 The answer, if it wasn’t clear already of course, is no. Intune doesn’t support COPE today, along with [several other EMMs on the market](/android/android-enterprise-emm-cope-support/) such as MaaS360 and, surprisingly given their Android legacy, SOTI.
 
@@ -47,7 +47,9 @@ If you build your own custom DPC, you define your own priorities. You choose wha
 
 As an aside, you also succumb to decisions they make over what APIs to deprecate, such as the recent decision to deprecate the dedicated `statusBarDisabled` API for blocking access to the notification bar to instead roll it into the locktask policy, which is crazy.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/10/image.png)So Intune uses AMAPI?
+![](https://r2_worker.bayton.workers.dev/uploads/2019/10/image.png)
+
+So Intune uses AMAPI?
 ---------------------
 
 Yes. Well, both AMAPI and Play EMM APIs actually. For work profile deployments, Intune’s custom DPC guides users through the enrolment and setup of a work profile, but if you’d like to support dedicated devices, the newly-supported fully managed deployment scenario, or in future COPE, this is pushed through AMAPI and Google’s Android Device Policy.

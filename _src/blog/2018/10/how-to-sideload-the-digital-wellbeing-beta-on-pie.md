@@ -21,9 +21,13 @@ discourse_permalink:
 tags:
     - Mobile
 ---
-<div class="bs-callout bs-callout-danger">### Installing apps from unknown sources is dangerous
+<div class="callout callout-danger">
 
-The following discusses the installation of an application from outside of the Google Play Store. Installing apps from unknown sources is 80x more likely to result in a Potentially Harmful Application (PHA) and should therefore be avoided. The source of the APK in question is hosted by APKMirror, a source I trust knowing its background, however this is an exception rather than a rule. </div>Not running a Pixel as my daily driver, but having Android Pie for a little while both via the developer preview and more recently the official launch for the Nokia 7 Plus, I’ve been struggling to get my hands on Digital Wellbeing.
+### Installing apps from unknown sources is dangerous
+
+The following discusses the installation of an application from outside of the Google Play Store. Installing apps from unknown sources is 80x more likely to result in a Potentially Harmful Application (PHA) and should therefore be avoided. The source of the APK in question is hosted by APKMirror, a source I trust knowing its background, however this is an exception rather than a rule. </div>
+
+Not running a Pixel as my daily driver, but having Android Pie for a little while both via the developer preview and more recently the official launch for the Nokia 7 Plus, I’ve been struggling to get my hands on Digital Wellbeing.
 
 Reading online, the 7 Plus is supposedly able to get the app, however I found despite [joining the beta](https://www.android.com/versions/pie-9-0/digital-wellbeing-beta/) and waiting a number of days, the Play Store simply would not offer it up.
 
@@ -38,9 +42,7 @@ At first I figured it’d be a bog-standard install via Chrome on Android, howev
 Instead, I nipped over to my PC, [downloaded Digital Wellbeing](https://www.apkmirror.com/apk/google-inc/digital-wellbeing/) from APKMirror once more and connected my device via USB. Using [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) I was then able to install the application with:
 
 ```
-<pre class="wp-block-code">```
 adb install com.google.android.apps.wellbeing.apk
-```
 ```
 
 As simple as that.

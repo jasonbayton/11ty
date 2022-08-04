@@ -21,7 +21,7 @@ tags:
     - Enterprise
     - Reviews
 ---
-<div class="bs-callout bs-callout-danger">#### This topic has been covered more recently
+<div class="callout callout-danger">#### This topic has been covered more recently
 
 This article was published in 2015. There is a new article you may find interesting if you’re interested in the Business or Enterprise subscriptions: [Miradore Online MDM: Expanding management with subscriptions](/2016/02/miradore-online-mdm-expanding-management-with-subscriptions/).
 

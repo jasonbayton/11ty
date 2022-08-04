@@ -27,7 +27,9 @@ tags:
 ---
 [On the 29th of May,](https://www.youtube.com/watch?v=YPuygEsfOnM) HMD Global introduced three new devices for 2018: the Nokia 2.1, the Nokia 3.1 and the Nokia 5.1
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/05/Nokia-2.1-e1527612545532.jpg)First, just because it’s equally worthy of a mention and I’d like to briefly touch on it, the Nokia 2.1 is a welcome upgrade to 2017’s Nokia 2, touting double the processing power and a larger screen on a version of Android far less resource intensive – Oreo Go. Those who have had any hands-on with the Nokia 1 will understand how well Oreo Go handles such minimal resources, so on the Nokia 2.1 it should fly through most tasks whilst freeing up more storage at the same time.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/Nokia-2.1-e1527612545532.jpg)
+
+First, just because it’s equally worthy of a mention and I’d like to briefly touch on it, the Nokia 2.1 is a welcome upgrade to 2017’s Nokia 2, touting double the processing power and a larger screen on a version of Android far less resource intensive – Oreo Go. Those who have had any hands-on with the Nokia 1 will understand how well Oreo Go handles such minimal resources, so on the Nokia 2.1 it should fly through most tasks whilst freeing up more storage at the same time.
 
 Oreo Go isn’t necessarily enterprise recommended today (it can support some Android Enterprise features if desired by the OEM) however should anything change in the future, the Nokia 2 would make for an interesting COSU type endpoint at a not-unreasonable $115 USD (varying by region due to taxes), though it certainly won’t be Android Enterprise Recommended. On that subject…
 

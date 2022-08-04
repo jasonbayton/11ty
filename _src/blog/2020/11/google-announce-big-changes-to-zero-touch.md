@@ -42,11 +42,11 @@ Samsung will undoubtedly expend effort playing up to the strengths of KME, as th
 
 Zero-touch isn’t the only thing Samsung have embraced with today’s announcement, however.
 
-<figure class="wp-block-pullquote">> “We are excited to welcome Samsung Galaxy smartphones and tablets to the Android Enterprise Recommended program building upon our longstanding partnership to deliver great mobile experiences to businesses,”
+> “We are excited to welcome Samsung Galaxy smartphones and tablets to the Android Enterprise Recommended program building upon our longstanding partnership to deliver great mobile experiences to businesses,”
 > 
 > <cite>David Still, Managing Director of Android Enterprise, Google</cite>
 
-</figure>With Samsung’s support of zero-touch, it should come as little surprise Samsung’s devices are now also officially[ join Android Enterprise Recommended](https://blog.google/products/android-enterprise/android-enterprise-recommended-new-partners/) (though none show in the [Solutions Directory](https://androidenterprisepartners.withgoogle.com/devices/) at time of writing).
+With Samsung’s support of zero-touch, it should come as little surprise Samsung’s devices are now also officially[ join Android Enterprise Recommended](https://blog.google/products/android-enterprise/android-enterprise-recommended-new-partners/) (though none show in the [Solutions Directory](https://androidenterprisepartners.withgoogle.com/devices/) at time of writing).
 
 While the announcements go into little technical detail, it’s long been a prerequisite for devices to support zero-touch in order to be considered for AER validation. With Samsung’s reluctance to add ZT support in the past being really the only obvious *technical* requirement missing for said validation, given their otherwise recently decent track record for [security updates](https://www.androidpolice.com/2020/11/05/five-year-old-galaxy-tab-s2-receives-october-2020-security-patch-proving-samsung-has-truly-changed-its-ways/) and Android Enterprise support, the addition of ZT in GMS Core to enable this functionality was likely the remaining technical tick in the box.
 

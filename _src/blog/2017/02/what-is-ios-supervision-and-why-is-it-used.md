@@ -17,11 +17,15 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-ios-supervision-and-why-is-it-used/45'
 ---
-<div class="bs-callout bs-callout-success">#### Looking for Android enterprise?
+<div class="callout callout-success">
+
+#### Looking for Android enterprise?
 
 This topic discusses iOS Supervision. If you’re also looking for Android enterprise (Android for Work) please [click here](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/).
 
-</div>Introduction
+</div>
+
+Introduction
 ------------
 
 As someone who deals with mobile devices in the enterprise on a daily basis, I often encounter customers looking to purchase iPhones/iPads for their employees. Most of the time customers will have, or are looking to have an EMM (Enterprise Mobility Management) – or MDM (Mobile Device Management) – platform such as MobileIron, AirWatch, Soti, etc. to manage these devices, and that’s great.
@@ -58,9 +62,10 @@ Having access to a Mac with Apple Configurator installed, it’s very simple to 
 
 And plenty more. Even better, in combination with EMM, the act of putting the iOS device into Supervised mode alone means not having to spend time creating several configuration profiles; almost all EMM platforms on the market can take advantage of Supervision to enable/disable many of the options found in configurator over the air.
 
-<div class="wp-caption alignnone" id="attachment_3750" style="width: 898px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)Source: bayton.org, photo: MobileIron Core 9.2
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)
+*Source: bayton.org, photo: MobileIron Core 9.2*
 
-</div>What remains after completing the Supervision process is a freshly installed (indeed, it performs a full reset – something to keep in mind) iOS device capable of being managed on a far more granular level than any out-of-the box iPhone or iPad, and subject to far fewer user-overrides.
+What remains after completing the Supervision process is a freshly installed (indeed, it performs a full reset – something to keep in mind) iOS device capable of being managed on a far more granular level than any out-of-the box iPhone or iPad, and subject to far fewer user-overrides.
 
 Apple Configurator isn’t perfect
 --------------------------------
@@ -69,9 +74,10 @@ There are, however, some downsides with Apple Configurator.
 
 The first major inconvenience is requiring physical access to the device being Supervised. It isn’t possible with Apple Configurator to do this remotely; for a large number of iOS devices having to be Supervised in bulk, that means making use of some pretty interesting (and potentially costly) setups to avoid being limited by the number of USB ports on the machine:
 
-<div class="wp-caption alignnone" id="attachment_3748" style="width: 1150px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/hero-001.jpg)](https://r2_worker.bayton.workers.dev/uploads/2017/02/hero-001-e1487809076167.jpg)Photo: apple.bretford.com
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/hero-001.jpg)](https://r2_worker.bayton.workers.dev/uploads/2017/02/hero-001-e1487809076167.jpg)
+*Photo: apple.bretford.com*
 
-</div>Also, should a device require a wipe, whether initiated from an EMM platform or by the end user (should factory reset not be disabled, or they figure out how to recover it via iTunes), it will factory reset to a stock, vanilla, un-Supervised state allowing the end-user to continue as if they had received a completely unmanaged device. It requires a trip back to the Mac for another round with Apple Configurator before it can be sent back out again.
+Also, should a device require a wipe, whether initiated from an EMM platform or by the end user (should factory reset not be disabled, or they figure out how to recover it via iTunes), it will factory reset to a stock, vanilla, un-Supervised state allowing the end-user to continue as if they had received a completely unmanaged device. It requires a trip back to the Mac for another round with Apple Configurator before it can be sent back out again.
 
 Configurator is therefore far better suited to small businesses or offices wherein the iOS devices never venture too far. Larger organisations or those with considerable field teams will potentially feel the burden of needing to return to base when something goes wrong.
 

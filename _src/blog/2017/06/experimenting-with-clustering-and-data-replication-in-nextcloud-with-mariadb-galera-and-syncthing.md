@@ -22,15 +22,20 @@ discourse_permalink:
 tags:
     - Projects
 ---
-<div class="bs-callout bs-callout-success">### Update
+<div class="callout callout-success">
+
+### Update
 
 After discussions with the Nextcloud team and guys at TU Berlin, the below could be officially supported with some small changes. See the updates noted against the challenges. A rewrite or additional post will be coming soon to address and test the changes.
 
-</div>Nextcloud works really well as a standalone, single-server deployment. They additionally have some [great recommendations](https://docs.nextcloud.com/server/12/admin_manual/installation/deployment_recommendations.html) for larger deployments supporting thousands of users and terabytes of data:
+</div>
 
-<div class="wp-caption alignnone" id="attachment_4314" style="width: 1133px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/deprecs-3.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/deprecs-3.png)*Up to 100,000 users and 1PB of data*
+Nextcloud works really well as a standalone, single-server deployment. They additionally have some [great recommendations](https://docs.nextcloud.com/server/12/admin_manual/installation/deployment_recommendations.html) for larger deployments supporting thousands of users and terabytes of data:
 
-</div>What wasn’t so apparent [until last week](https://nextcloud.com/globalscale/), however, is how someone might deploy Nextcloud across multiple datacentres (or locations) in a distributed manner wherein each Node can act as the “master” at any point in time; federation is obviously a big feature in Nextcloud and works very well for connecting systems and building a trusted network of nodes, but that doesn’t do an awful lot for those wanting the type of enterprise deployment pictured above, without having all of the infrastructure on one network.
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/deprecs-3.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/deprecs-3.png)
+*Up to 100,000 users and 1PB of data*
+
+What wasn’t so apparent [until last week](https://nextcloud.com/globalscale/), however, is how someone might deploy Nextcloud across multiple datacentres (or locations) in a distributed manner wherein each Node can act as the “master” at any point in time; federation is obviously a big feature in Nextcloud and works very well for connecting systems and building a trusted network of nodes, but that doesn’t do an awful lot for those wanting the type of enterprise deployment pictured above, without having all of the infrastructure on one network.
 
 Now that Global Scale has been announced this will likely be the way forward when it’s ready, however given I’d already started a proof of concept (PoC) before NC12 was officially made available, I kept working away at it regardless – more for my own amusement than anything else for reasons explained further down.
 
@@ -115,9 +120,10 @@ So in order to confirm it was all working as it should be I did the following:
 - Initiated a load test via [Load Impact](https://loadimpact.com) against the FQDN and monitored the HAProxy logs, brief video below
 - Manually downed both Galera nodes and web nodes, then brought them back up to test HAProxy failover
 
-<div class="wp-caption alignnone" id="attachment_4322" style="width: 849px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/WhatsApp-Image-2017-05-26-at-10.39.53.jpeg)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/WhatsApp-Image-2017-05-26-at-10.39.53.jpeg)*Here I dropped a Galera node, checked the state of Galera, brought it back in and checked again. Exciting.*
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/WhatsApp-Image-2017-05-26-at-10.39.53.jpeg)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/WhatsApp-Image-2017-05-26-at-10.39.53.jpeg)
+*Here I dropped a Galera node, checked the state of Galera, brought it back in and checked again. Exciting.*
 
-</div>And here’s a snippet of the load test at work on HAProxy (web nodes only):
+And here’s a snippet of the load test at work on HAProxy (web nodes only):
 
 <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/ruCX31n6fDg?feature=oembed" title="HAProxy loadtest" width="500"></iframe>
 

@@ -25,7 +25,7 @@ With 2019 just around the corner, I thought I’d take some time to reflect on t
 
 It’s been a busy one! Between the work I’ve done here, the contributions to external sources, events attended and more, I’m not sure I’ll even scratch the surface, but I’m going to give it a try regardless…
 
-1. 170k visitors
+\1. 170k visitors
 ----------------
 
 Just as last year, I’ll start off with a few metrics! In 2018, [bayton.org](/) was visited almost bang on 170 thousand times.
@@ -54,7 +54,7 @@ Given the continued focus on LinkedIn throughout 2018 this isn’t a surprise. L
 
 Everything in 2017 was clearly only laying the groundwork for a very successful 2018 on the platform! Twitter has equally benefited from almost default cross-posting from LinkedIn also. Reddit despite making top 3 isn’t really a platform I’ve invested in, it’s mostly from others sharing my content so that’s nice to see!
 
-2. Android Enterprise
+\2. Android Enterprise
 ---------------------
 
 I’ve had a *massive* year with Android Enterprise, working with a number of partners, vendors and Google directly in order to continue advocating the platform and [modern Android management](/android). Here are a few highlights:
@@ -63,7 +63,11 @@ I’ve had a *massive* year with Android Enterprise, working with a number of pa
 
 Last year I created [/docs](/docs) as previously announced on this [introductory post](/2017/05/introducing-documentation-on-bayton-org/). While there are areas for an array of topics, in 2018 I focused almost entirely on [Android Enterprise](/android/) with respect to new content, with a **170% increase** in Android Enterprise content YoY.
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column">![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-7.png)</div><div class="wp-block-column">![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-8.png)</div></div>One of the goals of documentation was to maintain rather than just create new, and I’ve kept myself busy continuously iterating on docs throughout 2018 also!
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-7.png)
+
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-8.png)
+
+One of the goals of documentation was to maintain rather than just create new, and I’ve kept myself busy continuously iterating on docs throughout 2018 also!
 
 [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/) for example was published in 2017, however was last updated in November, taking the number of revisions up to 55 over 20 months. The same applies to [Android Enterprise device support](/docs/nextcloud/installing-nextcloud-on-ubuntu-16-04-lts-with-redis-apcu-ssl-apache/) which I last updated this month, marking its 132nd revision.
 
@@ -129,7 +133,10 @@ There’s a bit of refinement to do on the liveblogging side of things; as I do 
 
 I also attended and presented at Wandera’s [Level](https://www.youtube.com/watch?v=OxreOz3PQBM) event:
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/OxreOz3PQBM?feature=oembed" width="500"></iframe></div><figcaption>*Here’s the presentation*</figcaption></figure>And of course I attended a number of vendor events, sat on the committee of the first DroidCon [Android Enterprise Summit](https://www.de.droidcon.com/enterprise-summit) and did a good few sessions through the year with Google, too!
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/OxreOz3PQBM?feature=oembed" width="500"></iframe>
+*Here’s the presentation*
+
+And of course I attended a number of vendor events, sat on the committee of the first DroidCon [Android Enterprise Summit](https://www.de.droidcon.com/enterprise-summit) and did a good few sessions through the year with Google, too!
 
 It’ll be tough to beat next year, but I’m going to try anyway!
 
@@ -144,28 +151,28 @@ I’ve had a pretty good year when it comes to mentions around my industry, besi
 
 And a few of my favourite tweets:
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> Take a look at why [\#WorkspaceONE](https://twitter.com/hashtag/WorkspaceONE?src=hash&ref_src=twsrc%5Etfw) is leading [\#EMM](https://twitter.com/hashtag/EMM?src=hash&ref_src=twsrc%5Etfw) / [\#UEM](https://twitter.com/hashtag/UEM?src=hash&ref_src=twsrc%5Etfw) for [\#Android](https://twitter.com/hashtag/Android?src=hash&ref_src=twsrc%5Etfw) Enterprise. Great article from renowned Android expert, [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw): <https://t.co/E8AvKDOTUB> [pic.twitter.com/CXKR9FZOpn](https://t.co/CXKR9FZOpn)
+> Take a look at why [\#WorkspaceONE](https://twitter.com/hashtag/WorkspaceONE?src=hash&ref_src=twsrc%5Etfw) is leading [\#EMM](https://twitter.com/hashtag/EMM?src=hash&ref_src=twsrc%5Etfw) / [\#UEM](https://twitter.com/hashtag/UEM?src=hash&ref_src=twsrc%5Etfw) for [\#Android](https://twitter.com/hashtag/Android?src=hash&ref_src=twsrc%5Etfw) Enterprise. Great article from renowned Android expert, [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw): <https://t.co/E8AvKDOTUB> [pic.twitter.com/CXKR9FZOpn](https://t.co/CXKR9FZOpn)
 > 
 > — VMware Workspace ONE (@WorkspaceONE) [November 7, 2018](https://twitter.com/WorkspaceONE/status/1060222876677222402?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure><figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> Great article [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw)! "BYOD &amp; privacy: Don’t settle for less than Android Enterprise in 2018" <https://t.co/QZRQifmVmM> via [@jackmadden](https://twitter.com/jackmadden?ref_src=twsrc%5Etfw)
+> Great article [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw)! "BYOD &amp; privacy: Don’t settle for less than Android Enterprise in 2018" <https://t.co/QZRQifmVmM> via [@jackmadden](https://twitter.com/jackmadden?ref_src=twsrc%5Etfw)
 > 
 > — Bhavesh Kumar (@bhaveshkk) [August 6, 2018](https://twitter.com/bhaveshkk/status/1026483670180392962?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure><figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> Big Thank You [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw) for all the work you have done explaining [@Android](https://twitter.com/Android?ref_src=twsrc%5Etfw) Enterprise.All entities using [@MSIntune](https://twitter.com/MSIntune?ref_src=twsrc%5Etfw) within KBC Bank group have adopted AE &amp; your website:<https://t.co/QhOwIhiRFX> played a big part in the preparation of our internal document.Keep up the great work!
+> Big Thank You [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw) for all the work you have done explaining [@Android](https://twitter.com/Android?ref_src=twsrc%5Etfw) Enterprise.All entities using [@MSIntune](https://twitter.com/MSIntune?ref_src=twsrc%5Etfw) within KBC Bank group have adopted AE &amp; your website:<https://t.co/QhOwIhiRFX> played a big part in the preparation of our internal document.Keep up the great work!
 > 
 > — Gabor Nyers (@gabor\_nyers) [July 9, 2018](https://twitter.com/gabor_nyers/status/1016284304647835648?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure></div><div class="wp-block-column"><figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> NEWS: A new program called OEMConfig could make [\#Android](https://twitter.com/hashtag/Android?src=hash&ref_src=twsrc%5Etfw) more palatable to businesses: <https://t.co/xdtqmemZrI> (by [@AlyssaLaura22](https://twitter.com/AlyssaLaura22?ref_src=twsrc%5Etfw)) w/ insight from [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw) [@eakleiner](https://twitter.com/eakleiner?ref_src=twsrc%5Etfw) &amp; more
+> NEWS: A new program called OEMConfig could make [\#Android](https://twitter.com/hashtag/Android?src=hash&ref_src=twsrc%5Etfw) more palatable to businesses: <https://t.co/xdtqmemZrI> (by [@AlyssaLaura22](https://twitter.com/AlyssaLaura22?ref_src=twsrc%5Etfw)) w/ insight from [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw) [@eakleiner](https://twitter.com/eakleiner?ref_src=twsrc%5Etfw) &amp; more
 > 
 > — sMobileComputing (@MobileCompTT) [August 20, 2018](https://twitter.com/MobileCompTT/status/1031586913092808706?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure><figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> I'll write more about these case studies, but for your questions, I'd recommend some resources here: <https://t.co/qlk9VgC6rp>  
+> I'll write more about these case studies, but for your questions, I'd recommend some resources here: <https://t.co/qlk9VgC6rp>  
 > And especially [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw)'s awesome set of guides: <https://t.co/od9UiP3GE4>
 > 
 > — Jack Madden (@jackmadden) [July 25, 2018](https://twitter.com/jackmadden/status/1022180535815176192?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure></div></div>3. Still blogging
+\3. Still blogging
 -----------------
 
 Despite the focus on docs this year, I’ve still published **22 posts** covering everything from new releases to events, device reviews and more. My top posts were:
@@ -178,7 +185,7 @@ Despite the focus on docs this year, I’ve still published **22 posts** coverin
 
 There are indeed posts there still from 2011 ranking high for views to this day, which is pretty incredible.
 
-4. Discuss comment/forum system
+\4. Discuss comment/forum system
 -------------------------------
 
 After Disqus started injecting ads into my website despite my opting out, I felt it was time for a change. Contemplating a few options, I ultimately wanted to try something a little different: [Discourse](https://discourse.org).
@@ -187,12 +194,14 @@ Discourse is forum software, or the modern equivalent of it, but with tight inte
 
 Today it’s handling comments well, and acts as the foundation of my [liveblogging](https://discuss.bayton.org/t/live-mobileiron-live-2018/135). Next year my hope is more folks stop by for a chat, or use it as a support hub and hopefully I’ll see it grow! Time will tell.
 
-5. Another redesign
+\5. Another redesign
 -------------------
 
 In the quest to put content front and centre before anything else, my site themes visually have gradually gotten simpler and simpler. This year I designed a theme that properly works with my documentation, and ported it across to the normal blog-type articles I write also, bringing consistency across the website that previously lacked.
 
-<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-11.png)](/https://r2_worker.bayton.workers.dev/uploads/2018/12/image-11.png)</figure>I’ll no doubt continue iterating in 2019, though I’m always open to feedback!
+[![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-11.png)](/https://r2_worker.bayton.workers.dev/uploads/2018/12/image-11.png)
+
+I’ll no doubt continue iterating in 2019, though I’m always open to feedback!
 
 Until next year!
 ----------------

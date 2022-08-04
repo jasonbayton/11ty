@@ -104,8 +104,12 @@ It’s a little more than a keyboard too as it acts as a folio case, protecting 
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-2 gallery-size-large" id="gallery-6"><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/02/WP_20170210_21_13_34_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/WP_20170210_21_13_34_Rich-e1486763499640.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/02/WP_20170210_21_13_54_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/WP_20170210_21_13_54_Rich-e1486763488632.jpg) </dt></dl>  
- </div>Admittedly it took me a couple of hours to get used to the compact layout, the Surface keyboard benefits from spacing between keys however this is not the case with the Samsung. All the same once I was used to it there was absolutely no issue. I do find the angles to be slightly too extreme in many circumstances; sitting it upright for example is a little *too* upright on anything but a flat desk, and laying it on the lower angle I’ve found is only really super useful for typing in bed, on a lap or anywhere else I’m not necessarily sat up straight.
+<div class="gallery galleryid-0 gallery-columns-2 gallery-size-large" id="gallery-6"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/WP_20170210_21_13_34_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/WP_20170210_21_13_34_Rich-e1486763499640.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/02/WP_20170210_21_13_54_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/WP_20170210_21_13_54_Rich-e1486763488632.jpg) </dt></dl>  
+ </div>
+ 
+ Admittedly it took me a couple of hours to get used to the compact layout, the Surface keyboard benefits from spacing between keys however this is not the case with the Samsung. All the same once I was used to it there was absolutely no issue. I do find the angles to be slightly too extreme in many circumstances; sitting it upright for example is a little *too* upright on anything but a flat desk, and laying it on the lower angle I’ve found is only really super useful for typing in bed, on a lap or anywhere else I’m not necessarily sat up straight.
 
 There’s also the issue of balance. As the tab is only held up by magnets any decent knock has the potential to push it out of place, causing the tablet to topple over; it could definitely benefit from a little more work here as a couple of times I’ve moved the tablet about on a desk or chair with a little too much haste and had to catch it mid-fall.
 

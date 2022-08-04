@@ -33,8 +33,7 @@ Indeed, a successful deployment is not simply granting permission for employees 
 
 Here are some things to think about:
 
-1. Decide what employees can access remotely
---------------------------------------------
+## 1. Decide what employees can access remotely
 
 A good starting point here is to evaluate current remote access tools such as VPN (Virtual Private Network). While some organisations grant employees access to everything on successful VPN authentication, many will only provide a subset of services remotely. The latter offers a reasonable template on which to base mobile access as well. In any case, the three main contenders for remote access generally are:
 
@@ -44,8 +43,7 @@ A good starting point here is to evaluate current remote access tools such as VP
 
 Occasionally other services such as Skype for Business or backend services for corporate applications may make the list as well. It’s not overly important to list every last item at this point, but to get enough to work with to make a start – more services can always be added later on.
 
-2. Decide what services will no longer be publicly available
-------------------------------------------------------------
+## 2. Decide what services will no longer be publicly available
 
 Now is also a good time to consider the public services made available to employees:
 
@@ -77,8 +75,7 @@ With MCM (Mobile Content Management) and content gateway solutions, combined wit
 
 Typically content gateways are set up on the corporate network as either a virtual appliance or dedicated virtual server and configured from the EMM solution to provide the necessary access based on groups and criteria the business sets. Users that aren’t enrolled onto the corporate EMM platform will find it much more difficult to gain access to corporate data through unofficial means once effective steps have been taken.
 
-3. Decide how employees will access the network
------------------------------------------------
+## 3. Decide how employees will access the network
 
 Revisiting the acronyms above once more – BYOD, CYOD, COPE (and others) – how employees access corporate resources can vary depending on the type of EMM deployment they’re a part of. If a device is fully corporately owned and managed, it’s reasonable to feel it should get direct access to the corporate network. Devices brought into the organisation and owned by employees however, not so much.
 
@@ -86,14 +83,17 @@ Furthermore, if employees do indeed bring their own devices, should any and ever
 
 Beyond that, the organisation needs to consider how employees authenticate to services – username and password? Certificates? Two-factor authentication? There are security and usability factors to keep in mind whichever methods are chosen, as well as the infrastructure to support them.
 
-<div class="bs-callout bs-callout-success">####  Data Containerisation
+<div class="callout callout-success">
+
+####  Data Containerisation
 
 Containerisation is the act of separating work data from personal data on a mobile device. It was a big topic of discussion in 2016 and it’ll no doubt continue to be this year; although containerisation is often associated with BYOD, there is no reason why it can’t be implemented for CYOD, COPE or other corporate mobile initiatives in which the business owns and manages the devices for additional security.
 
 For example, it may be fine to use the native email client to access mails, but a highly-secure content repository might reside inside a password-protected EMM container on the device where DLM (data lifecycle management) tools may block the ability to copy, email, print, etc. documents within it.
 
-</div>4. Decide what devices can and can’t do
----------------------------------------
+</div>
+
+## 4. Decide what devices can and can’t do
 
 No one enjoys using a device that’s been utterly crippled by corporate restrictions, but sometimes they’re necessary, like disabling the camera in secure environments or enforcing actions on the detection of a root or jailbreak.
 
@@ -101,8 +101,7 @@ EMM platforms may provide time-based and geographic profiles, meaning between 9a
 
 Naturally with devices being used for work, it shouldn’t come as a surprise to employees to see a prompt asking they enable a passcode or encrypt their device. The type of passcode can range from a pattern to a 6 digit PIN or 24 character alphanumeric password, though for the latter do consider the impact it’ll have on employees if it’s not necessary.
 
-5. Evaluate the architectural requirements
-------------------------------------------
+## 5. Evaluate the architectural requirements
 
 In order to provide access to file shares and other internal services, often one or more additional components (beyond the main EMM server, if installed onsite) will need to be installed. As with most appliances, the more users and devices requiring enrolment, the larger the implementation.
 
@@ -112,8 +111,7 @@ For an EMM platform integrating with LDAP, email, file shares and intranet servi
 
 When designing the solution, aim to forecast device numbers 5 years ahead where possible, reducing the likelihood of future premature expansion projects.
 
-6. Define corporate policies
-----------------------------
+## 6. Define corporate policies
 
 With a plan in place and a reasonable agreement on how devices will interact with the corporate network, the business will have a better understanding and scope with which to align corporate HR policies.
 
@@ -128,8 +126,7 @@ It’s much easier to amend policies already in place than create them when requ
 
 Feel free to combine the above headings into larger BYOD/Corporate policies, add or amend as required. Once policies are in place, the organisation will know where it stands in relation to the use of mobile devices. These policies can also be pushed to employees while their devices are being enrolled, making it a mandatory step during enrolment and ensuring the policies are agreed to before gaining access to corporate data.
 
-7. Test, tweak and iterate
---------------------------
+## 7. Test, tweak and iterate
 
 Few organisations get it right on the first try, and that’s perfectly fine.
 
@@ -137,8 +134,7 @@ Once the goals and objectives from a business/security perspective have been agr
 
 Make use of pilot groups and don’t be afraid to tweak configurations and profiles as necessary; it *is* a new and challenging aspect of corporate IT, one which, as referenced at the beginning, is still in the very early stages of adoption across a large portion of businesses. In the last 5 years the mobile landscape has shifted considerably in capability and security, and likely will continue to do so – unlike traditional IT the mobile space moves at a consumer pace and will absolutely require amendments to all aspects of the Enterprise Mobility deployment in order to ensure the business keeps up the pace.
 
-8. Seek assistance
-------------------
+## 8. Seek assistance
 
 Years ago an EMM undertaking was very much a self-support affair. Today however, there are businesses all over the world dedicated entirely to Enterprise Mobility.
 

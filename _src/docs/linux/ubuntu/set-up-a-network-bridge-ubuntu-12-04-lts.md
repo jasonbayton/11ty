@@ -39,7 +39,7 @@ Processing triggers for man-db (2.7.5-1) ...
 Setting up bridge-utils (1.5-9ubuntu1) ...
 ```
 
-<div class="bs-callout bs-callout-danger">#### This is mandatory
+<div class="callout callout-danger">#### This is mandatory
 
 If `bridge-utils` isn’t installed before moving on, it won’t be possible to bring up the new bridge and will likely result in loss of network access entirely.
 

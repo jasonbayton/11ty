@@ -22,11 +22,15 @@ discourse_permalink:
 tags:
     - Reviews
 ---
-<div class="bs-callout bs-callout-info">### Photos
+<div class="callout callout-info">
+
+### Photos
 
 Photos in this post were taken with a Moto Z Play, and as you’ll see why when scrolling down, I don’t recommend the Z Play if you like decent pictures..
 
-</div>After the [Android enterprise device support testing](/android/android-enterprise-device-support/), Sony let me keep hold of the Xperia XZ1 Compact for a while longer, and I figure since it’s been more than 5 months since I sat down with the [Nokia 3](/2017/07/hands-on-with-the-nokia-3/), I’d take the XZ1 Compact for a spin as a consumer device, too!
+</div>
+
+After the [Android enterprise device support testing](/android/android-enterprise-device-support/), Sony let me keep hold of the Xperia XZ1 Compact for a while longer, and I figure since it’s been more than 5 months since I sat down with the [Nokia 3](/2017/07/hands-on-with-the-nokia-3/), I’d take the XZ1 Compact for a spin as a consumer device, too!
 
 The XZ1 Compact is Sony’s miniature alternative to their new Xperia XZ1, a device I tested earlier that felt premium, well specced and was a delight to use (aside from my Nexus, was also the first device I saw ship with Android 8.0!). I therefore held high expectations for the XZ1 Compact, given the Compact line is intended to be a no-compromise alternative to devices some consumers deem too large.
 
@@ -94,9 +98,15 @@ Software
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-2"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133545.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133545.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133732.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133732.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133606.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133606.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133631.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133631.png) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133642.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133642.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133334.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133334.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133634.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133634.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133549.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133549.png) </dt></dl>  
- </div>Sony devices ship with a light skin atop Android which, depending on your own personal preferences, may be a good or bad thing. The XZ1 Compact is no different here, however although I do prefer pure, vanilla Android, Sony’s skin is by no means unattractive and is so lightweight I’ve mostly not even thought about it. It additionally ships with Android 8.0 and was one of the first OEMs to do so!
+<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-2"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133545.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133545.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133732.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133732.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133606.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133606.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133631.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133631.png) </dt></dl>  
+<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133642.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133642.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133334.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133334.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133634.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133634.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133549.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133549.png) </dt></dl>  
+</div>
+ 
+Sony devices ship with a light skin atop Android which, depending on your own personal preferences, may be a good or bad thing. The XZ1 Compact is no different here, however although I do prefer pure, vanilla Android, Sony’s skin is by no means unattractive and is so lightweight I’ve mostly not even thought about it. It additionally ships with Android 8.0 and was one of the first OEMs to do so!
 
 As with many devices I get hands-on with, the first thing I did out of the box was to remove/disable a whole heap of bloatware applications (Lookout, Amazon, EE, and more). This also extends to Swiftkey, the default keyboard on Sony devices. I don’t particularly like using it nor the popups it gives me to sign up, so that got swapped out with GBoard very quickly.
 
@@ -128,9 +138,15 @@ Camera
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-2 gallery-size-thumbnail" id="gallery-3"><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0023.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0023.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0010.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0010.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0012.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0012.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0007.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0007.jpg) </dt></dl>  
- </div>The camera is pretty good, though I’ve not put it through its paces in difficult environments (night, macro, etc). Certainly one of the better cameras I’ve used recently. There are plenty of other camera comparisons online, and I’d recommended searching those out, but the samples above give an indication of camera quality.
+<div class="gallery galleryid-0 gallery-columns-2 gallery-size-thumbnail" id="gallery-3"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0023.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0023.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0010.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0010.jpg) </dt></dl>  
+<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0012.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0012.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0007.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0007.jpg) </dt></dl>  
+ </div>
+ 
+The camera is pretty good, though I’ve not put it through its paces in difficult environments (night, macro, etc). Certainly one of the better cameras I’ve used recently. There are plenty of other camera comparisons online, and I’d recommended searching those out, but the samples above give an indication of camera quality.
 
 I have tried to AR apps that ship with the phone, which made for some interesting photos, though I can’t see myself making much use of it. Saying that, there are a number of camera apps available to liven up the experience for those who want to add a bit of pop to their photos.
 

@@ -52,7 +52,9 @@ The button-less and port-less design comes with its own set of questions though,
 
 Out of the box it comes with a rubber strap, though thankfully uses a [standard 22mm strap that is fairly universal](http://www.androidbeat.com/2014/06/5-great-replacement-bands-lg-g-watch-samsung-gear-live/). I’ll be on the lookout for either a nice leather or metal replacement in the near future as the rubber does get hot and uncomfortable with extended wear from what I’ve experienced.
 
-[![20140727_222432 (1)](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_222432-1-e1406534620819-150x150.jpg)](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_222432-1-e1406534620819.jpg)At 9.9mm the watch is by no means thin. I’ve found as it sits so high on my wrist I tend to knock it against things quite often (though have yet to inflict any damage thankfully). It is, in fact, thicker than most of the smartphones I’ve had recently! It isn’t excessive though and as with everything, I’ll get used to it in time. Aside from that, the watch is nice and light. It’s quite easy to forget I’m wearing it.
+[![20140727_222432 (1)](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_222432-1-e1406534620819-150x150.jpg)](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_222432-1-e1406534620819.jpg)
+
+At 9.9mm the watch is by no means thin. I’ve found as it sits so high on my wrist I tend to knock it against things quite often (though have yet to inflict any damage thankfully). It is, in fact, thicker than most of the smartphones I’ve had recently! It isn’t excessive though and as with everything, I’ll get used to it in time. Aside from that, the watch is nice and light. It’s quite easy to forget I’m wearing it.
 
 The watch has a built-in vibration motor, but no sound. On receiving a notification or call the watch will vibrate on the wrist, a feature I’ve come to rely on quite heavily when my phone is on silent! This can be disabled by swiping down on the clock face.
 
@@ -64,27 +66,9 @@ As has started to become the norm – particularly for watches – the LG G Watc
 
 As mentioned above the G Watch runs on Android Wear. Essentially the entire experience is very similar to the Google Now cards on the phone. The difference is each card is actionable with a swipe to the left, exposing the ability to reply by voice for emails/SMS/etc, control navigation/media (when the respective app is running on the phone) or simply remotely open the app related to the relevant notification on the phone. A swipe to the right will dismiss any notifications.
 
- <style type="text/css">
-			#gallery-19 {
-				margin: auto;
-			}
-			#gallery-19 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 50%;
-			}
-			#gallery-19 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-19 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
+[![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_224315_HDR.jpg)](/2014/07/a-fortnight-with-android-wear-lg-g-watch-review/20140727_224315_hdr/)
 
-<div class="gallery galleryid-0 gallery-columns-2 gallery-size-thumbnail" id="gallery-19"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_224253.jpg)](/2014/07/a-fortnight-with-android-wear-lg-g-watch-review/20140727_224253/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_224315_HDR.jpg)](/2014/07/a-fortnight-with-android-wear-lg-g-watch-review/20140727_224315_hdr/) </dt></dl>  
- </div>One very small gripe I have is that when an notification is swiped away on the watch, things such as emails and SMS messages aren’t marked as read. They’re left to then be addressed on the phone at a later point. Of course choosing to delete an email from the watch will get around this assuming deleting is what you want to do, most of the time however I want to simply mark as read. I understand why this happens given it’s effectively just an extension of the notifications on the phone (which equally don’t mark as read when dismissed) but it would be nice to see some added functionality here.
+One very small gripe I have is that when an notification is swiped away on the watch, things such as emails and SMS messages aren’t marked as read. They’re left to then be addressed on the phone at a later point. Of course choosing to delete an email from the watch will get around this assuming deleting is what you want to do, most of the time however I want to simply mark as read. I understand why this happens given it’s effectively just an extension of the notifications on the phone (which equally don’t mark as read when dismissed) but it would be nice to see some added functionality here.
 
 The home screen, as you may have guessed, is a watch face. Android Wear ships with several built-in and manufacturers can add their own. I’ll be honest and state the options currently available on the G Watch leave a little to be desired when compared to a few of the stunning options on the Samsung Gear Live, but they certainly do the job (and I understand APIs are being made available for other methods of obtaining watch faces, so that’s great!). Tapping on the watch face will bring up a voice prompt from where you can say your command (“Call Jim”). Equally the watch responds to “OK Google”, negating the need to touch it at all. I’ve found particularly in the car talking to the watch results in a higher percentage of understood queries, where as shouting at the phone on the dashboard isn’t quite as reliable.
 
@@ -96,7 +80,9 @@ For a device with only modest specs (Android 4.3, 500MB RAM, Snapdragon 400) it 
 
 ### Battery
 
-[![DSC_0066](https://r2_worker.bayton.workers.dev/uploads/2014/07/DSC_0066-e1406534522134-300x269.jpg)](https://r2_worker.bayton.workers.dev/uploads/2014/07/DSC_0066-e1406534522134.jpg)I honestly wasn’t expecting much from the G Watch in terms of battery life. Having seen first-hand the life of smartwatch batteries over the years I was prepared to expect the worst, especially as the little 400mAh battery pales in comparison to the 2500mAh+ behemoths in today’s smartphones. Yet in using the G Watch I have found myself pleasantly surprised.
+[![DSC_0066](https://r2_worker.bayton.workers.dev/uploads/2014/07/DSC_0066-e1406534522134-300x269.jpg)](https://r2_worker.bayton.workers.dev/uploads/2014/07/DSC_0066-e1406534522134.jpg)
+
+I honestly wasn’t expecting much from the G Watch in terms of battery life. Having seen first-hand the life of smartwatch batteries over the years I was prepared to expect the worst, especially as the little 400mAh battery pales in comparison to the 2500mAh+ behemoths in today’s smartphones. Yet in using the G Watch I have found myself pleasantly surprised.
 
 I can easily get up to 29 hours out of a single charge based on an estimated average over two weeks of use. That effectively means I charge the device once every one and a half days, or every two+ if I turn the watch off over night (not particularly convenient unless the cradle is around to power it back up).
 

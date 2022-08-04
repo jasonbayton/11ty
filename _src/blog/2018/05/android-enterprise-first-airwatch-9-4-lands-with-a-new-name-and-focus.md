@@ -25,9 +25,10 @@ tags:
 ---
 Earlier this month, VMware [announced](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/9.4/rn/workspace-one-uem-94-release-notes.html) version 9.4 of their popular UEM solution and with it, both a stronger focus on Android Enterprise and a [rebranding exercise](https://support.air-watch.com/articles/360000953347) to bring the platform closer in line with VMware’s range of other products:
 
-<div class="wp-caption alignnone" id="attachment_5927" style="width: 305px">![](https://r2_worker.bayton.workers.dev/uploads/2018/05/Screenshot-from-2018-05-14-09-54-21.png)*VMware Workspace ONE UEM. Rolls off the tongue, doesn’t it?*
+![](https://r2_worker.bayton.workers.dev/uploads/2018/05/Screenshot-from-2018-05-14-09-54-21.png)
+*VMware Workspace ONE UEM. Rolls off the tongue, doesn’t it?*
 
-</div>This update therefore bids farewell to the AirWatch name, brand and colour scheme of old, other than the odd references here and there, and completes the brand unification that I imagined would be somewhat inevitable following the AirWatch acquisition some years ago:
+This update therefore bids farewell to the AirWatch name, brand and colour scheme of old, other than the odd references here and there, and completes the brand unification that I imagined would be somewhat inevitable following the AirWatch acquisition some years ago:
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/05/Screenshot-2018-5-18-Getting-Started-Getting-Started.png)
 

@@ -48,7 +48,7 @@ Because legacy device administrator management requires granting the UEM adminis
 
 This same logic can also apply to other apps such as email. By completing email account setup on the device, you’ll see the app request administrator rights.
 
-*![](https://lh6.googleusercontent.com/i_4eccQjkchdyV9ryAR1-VcBQP3O8tMrAwCO-S0ILrlxOth1Gh3GFfcqdb-9L3ciYK9UiBPWoqxSJAW0KoM4BRX6zABp1FVifxVnOE50mDc3HEbxfl1ZxNFY-CLykHXj8mXpFl3E)*
+![](https://lh6.googleusercontent.com/i_4eccQjkchdyV9ryAR1-VcBQP3O8tMrAwCO-S0ILrlxOth1Gh3GFfcqdb-9L3ciYK9UiBPWoqxSJAW0KoM4BRX6zABp1FVifxVnOE50mDc3HEbxfl1ZxNFY-CLykHXj8mXpFl3E)
 
 Once activated, even the email app can wipe your phone, either via the UEM server *or* the Exchange server.
 
@@ -107,7 +107,7 @@ A little cringe? Perhaps. But it certainly demonstrates the capability of simply
 
 Whether you pick up the latest flagship phone or something a little more budget-friendly, you can guarantee your device will work and behave the same way. There may be some visual differences in the UI (skin) of each OEM, but the actual flow? Reliable and consistent. If you’re on a budget, previously, the only choice may have been a low-end Samsung, but now you are able to widen your search to a far greater selection of devices with no concern.
 
-**The Android landscape**
+The Android landscape
 -------------------------
 
 Right now, roughly half-way through 2018, over[ 66% of all Android devices](https://developer.android.com/about/dashboards/) in the wild are running Android 6.0 Marshmallow or greater.
@@ -122,7 +122,7 @@ In other words, there’s really no reason any modern device you pick up today w
 
 There are some exceptions—if you buy a no-name device from eBay, or something that is very low end (like with less than 1BG of RAM, or something that isn’t [GMS certified](/android/android-glossary/#gms-certified-certification), it might not work with Android enterprise work profiles. However, in 2018, for most BYOD users, encountering this situation should be extremely rare.
 
-**But is my device supported?**
+But is my device supported?
 -------------------------------
 
 If you want to undertake due diligence before making the case to your employer for work profile support, there are easy ways to test this for yourself without needing to enroll your device into a UEM platform. Generally speaking, any GMS certified Android device running 6.0 or later with more than 1GB of RAM will be supported by default. A non-exhaustive list of examples can be found [here](https://www.android.com/intl/en_ie/enterprise/device-catalog/), but just in case you wish to test for yourself:
@@ -132,14 +132,14 @@ If you want to undertake due diligence before making the case to your employer f
 - **3rd party solutions**: Alternatively, take a look at applications like[ Island](https://island.oasisfeng.com/), as these can be used to achieve the same functionality (see “God Mode” in the above link).
 - [**Android Enterprise Recommended**](https://www.android.com/intl/en_uk/enterprise/recommended/) **(AER)**: This is a validation program Google runs to confirm devices on the market are fit for enterprise use. While devices that aren’t Android Enterprise Recommended may also work fine in the enterprise, this is hands-down the easiest way to ensure your device is fit for purpose. If your device happens to be one of over 40 [devices on the list](https://androidenterprisepartners.withgoogle.com/?&_ga=2.62613614.334163049.1533026261-236157908.1525374608#!/results/browse-all/2), you’ll be ready to support the work profile. If you’re looking for a new device, it’s generally not a bad idea to check this list regardless, as it ensures your device will have have a reasonable spec. Don’t worry if your device isn’t in the list though, checks such as those above can be done also.
 
-**Speak to your organization**
+Speak to your organization
 ------------------------------
 
 Enabling Android enterprise on any of the leading UEM solutions today takes only a few steps, after which IT need only create some basic configurations to define how the work profile functions, and then push out applications. They may decide you aren’t allowed to take screenshots within work profile apps, or share data from a work app to your personal WhatsApp account, for example.
 
 Compared to legacy management, Android enterprise setup is a breeze, but if there are concerns, feel free to point your organization to my[ Android enterprise technical documentation](/android/) to learn more about what it is any why it’s used.
 
-**Conclusion**
+Conclusion
 --------------
 
 It should be clear that legacy Android management is no longer suitable for the modern BYOD workforce when an obviously superior option is available, and as of 2018, now widely supported.

@@ -31,7 +31,9 @@ It wasn’t perfect however, missing functionality I felt made bulk-deployment s
 
 As it turns out, being a simple data monitoring solution wasn’t enough for the good people of Wandera; not too long after my first review they announced they were entering the security sector. Today, two years later and after pivoting their focus to mobile threat defense, let’s see what’s changed, what’s remained the same and where there’s still room for improvement.
 
-<div class="bs-callout bs-callout-success">#### How does Wandera work?
+<div class="callout callout-success">
+
+#### How does Wandera work?
 
 Unlike typical EMM platforms with TEM built in or even popular data monitoring applications that estimate and/or periodically report data usage, Wandera acts as a proxy (or “gateway”), taking control of the APN settings of enrolled devices in order to divert all cellular traffic through Wandera servers where it is analysed, compressed and forwarded on to its final destination in real time.
 
@@ -39,7 +41,9 @@ With policies, data caps and traffic shaping at its core, Wandera has the abilit
 
 Some traffic cannot be optimised due to SSL encryption and therefore a lack of visibility of the data it captures. In these circumstances, Wandera simply measures the amount of traffic passing through and counts it up against the respective device in the console. The data that can be compressed however can help to considerably lower data usage and, in combination with real-time reports, alerts and data blocking, Wandera can help to almost completely eliminate bill-shock.
 
-</div>Logging in
+</div>
+
+Logging in
 ----------
 
 On logging into the console at <https://radar.wandera.com>, I’m greeted with a familiar, though busier dashboard offering a redesigned overview featuring a new focus on mobile threat defense at the very top; this shows threats and risk for mobile devices enrolled on the platform. Below this are the familiar data usage metrics, savings provided by Wandera’s compression engine and an overview of on what (and where) data has been used.
@@ -50,13 +54,17 @@ On the left I notice there are a number of new areas in the navigation, includin
 
 The dashboard is now much cleaner and offers more information at a glance. It’s a nice update on what was already a very useful landing page.
 
-<div class="bs-callout bs-callout-warning">#### Estimated cost savings
+<div class="callout callout-warning">
+
+#### Estimated cost savings
 
 The cost savings demonstrated in the dashboard above are only accurate after configuring the default (and any other) **Plan Details** located in **Settings**.
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2016/12/carrierplan-e1481415390507.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/carrierplan-e1481415390507.png)
 
-</div>Enrolling a device
+</div>
+
+Enrolling a device
 ------------------
 
 Device enrolment is definitely an area that has seen some significant improvement over the last two years. While the traditional single and bulk enrolment options still exist from within the Wandera console, they have since expanded the number of EMM solutions App Push works with and have introduced a feature that I find particularly exciting – EMM Connect.
@@ -79,7 +87,9 @@ EMMC once connected will generate a unique EMM label to be created within the EM
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-10-15-00-23.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-from-2016-12-10-15-00-23.png)
 
-<div class="bs-callout bs-callout-info">#### Wandera Groups
+<div class="callout callout-info">
+
+#### Wandera Groups
 
 Wandera Groups, much like groups or labels in EMM products, allow for multiple unique policies to be applied to devices based on group membership and dramatically increase the flexibility of the platform. Data policies can then be set according to department, operating system and more.
 

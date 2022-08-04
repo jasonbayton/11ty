@@ -24,11 +24,11 @@ Update 01 July
 
 Over the weekend Trump announced a back-pedal of sorts which allows Huawei to regain the ability to license Android GMS and purchase from hardware vendors they rely on.
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> 🙄<https://t.co/b9a3XiporA>
+> 🙄<https://t.co/b9a3XiporA>
 > 
 > — Jason Bayton (@JasonBayton) [June 29, 2019](https://twitter.com/JasonBayton/status/1145026103389696000?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure>How this will impact Huawei’s plan to offer an alternative OS in the market is yet to be seen, but given the damage Trump caused by adding Huawei to the entity list to begin with, I’d be surprised if Huawei went back to acting as though nothing has happened.
+How this will impact Huawei’s plan to offer an alternative OS in the market is yet to be seen, but given the damage Trump caused by adding Huawei to the entity list to begin with, I’d be surprised if Huawei went back to acting as though nothing has happened.
 
 - - - - - -
 
@@ -36,23 +36,27 @@ At this point most people should be aware of the situation surrounding Huawei; t
 
 For all intents and purposes of the following, it appears the situation is still very much fluid. While ties are indeed cut right now, Trump has alluded to the possibility of the situation being repaired should a trade deal with China work in favour of the US:
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> If it wasn't clear as day before, Huawei is just a tool.  
+> If it wasn't clear as day before, Huawei is just a tool.  
 >   
 > Trump's like: Huawei are a grave and terrible threat to humanity but hey China, give me favourable trade terms and maybe Huawei are fine after all.<https://t.co/Zz4ZQO02MM>
 > 
 > — Jason Bayton (@JasonBayton) [May 24, 2019](https://twitter.com/JasonBayton/status/1131894528057778179?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure>Given the fluidity, the following is part what I know and part what can be expected. It is based on information available online, knowledge of how some of these moving parts go together and some informal chats with relevant people a little closer to the action than myself.
+Given the fluidity, the following is part what I know and part what can be expected. It is based on information available online, knowledge of how some of these moving parts go together and some informal chats with relevant people a little closer to the action than myself.
 
 If indeed Huawei remains on the entity list, here’s how it’ll impact enterprise.
 
-<div class="bs-callout bs-callout-warning">### Before continuing..
+<div class="callout callout-warning">
+
+### Before continuing..
 
 Very clearly to start with, if organisations are evaluating, piloting or otherwise preparing for a deployment consisting of Huawei devices right now, stop.
 
 Talk to your account managers or resellers about switching to another OEM. The [Android Enterprise Recommended list](https://androidenterprisepartners.withgoogle.com/devices/?_ga=2.172942883.1888602941.1559130525-1444010256.1552580193#!?AER) offers several other options which will ensure consistency and reliability of management going forward.
 
-</div>Nothing will happen until August
+</div>
+
+Nothing will happen until August
 --------------------------------
 
 First and foremost, the ban initially placed on Huawei [was eased until August](https://www.cnbc.com/2019/05/21/google-will-work-with-huawei-for-next-90-days-after-restrictions-eased.html) while everyone works out what to do next. That means until then, updates will continue to push without issue and Google will continue to work with Huawei directly.

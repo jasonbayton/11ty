@@ -24,7 +24,7 @@ Check out the video below for a walkthrough demonstrating how to set up Samba on
 
 **NB:** Ubuntu 12.04 LTS is the earliest release I’ve used this with. It should work on earlier versions also, but your mileage may vary.
 
-<div class="bs-callout bs-callout-danger">#### SMBv1
+<div class="callout callout-danger">#### SMBv1
 
 The below video was published prior to the recent WannaCry/NotPetya global ransomware attacks and therefore doesn’t cover disabling SMBv1. To ensure Samba only permits connections over SMBv2 and newer, enter the following under the `[global]` area in `/etc/samba/smb.conf`:
 

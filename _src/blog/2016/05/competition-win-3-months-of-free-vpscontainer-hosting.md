@@ -18,7 +18,7 @@ post_views_count:
 tags:
     - 'Social Media'
 ---
-<div class="bs-callout bs-callout-info">#### **The competition is now closed**
+<div class="callout callout-info">#### **The competition is now closed**
 
 Thank you to everyone who entered. If you won you will be contacted in due course.
 

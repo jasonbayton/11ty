@@ -23,17 +23,24 @@ tags:
     - Enterprise
     - Projects
 ---
-<div class="bs-callout bs-callout-success">### Update!
+<div class="callout callout-success">
+
+### Update!
 
 MobileIron now officially support QR code provisioning. Check out the updated post: [MobileIron officially supports Android Enterprise QR code provisioning](/2017/10/mobileiron-officially-supports-android-enterprise-qr-code-provisioning/)
 
-</div><div class="bs-callout bs-callout-warning">### This isn’t officially supported
+</div>
+<div class="callout callout-warning">
+
+### This isn’t officially supported
 
 The following discusses a feature that is not officially supported and may stop working at any time. Use it as reference or learning experience to better understand the generation and validation of QR code enrolment with Android Enterprise rather than relying on it within your/another organisation for MobileIron enrolment unless support is officially announced.
 
 The QR codes below point to the respective APK files hosted on **my own server** and not that of MobileIron. This is entirely due to the fact the QR codes will cease to function when the APKs are updated (and the checksum changes). As this is only demonstrating a proof of concept, hosting potentially out of date APK versions is not what I’d consider a problem, however I strongly advise you generate your own QR codes using the more official document I’ve created [here](/docs/enterprise-mobility/mobileiron/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/) and, as above, use the below only for testing the process.
 
-</div>Android Enterprise supports a few options for provisioning devices destined to be work-managed, an NFC bump, a wireless enrolment token and, more recently, QR codes. For GSuite users there’s also the option to simply enrol using your corporate email address at the Google account prompt, but for Android Enterprise managed accounts we need to rely on the three mentioned above.
+</div>
+
+Android Enterprise supports a few options for provisioning devices destined to be work-managed, an NFC bump, a wireless enrolment token and, more recently, QR codes. For GSuite users there’s also the option to simply enrol using your corporate email address at the Google account prompt, but for Android Enterprise managed accounts we need to rely on the three mentioned above.
 
 QR enrolment is particularly interesting to me as it offers some benefits:
 

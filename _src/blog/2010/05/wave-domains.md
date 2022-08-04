@@ -33,13 +33,17 @@ Already have the next gen features enabled? Skip to number 3)
 
 ![ss11](https://r2_worker.bayton.workers.dev/uploads/2010/05/Screenshot-1.png "Screenshot-1")
 
-2b) Continue on, scroll down to the bottom and select: <label for="uinextgen">*Next generation*</label> *(US English only)* Control Panel. **Save your settings.**   **![ss1](https://r2_worker.bayton.workers.dev/uploads/2010/05/Screenshot1.png "Screenshot")<span style="font-weight: normal;">3) Go to the dashboard and select *Add more services* next to </span><span style="font-weight: normal;">Service Settings</span>**
+2b) Continue on, scroll down to the bottom and select: <label for="uinextgen">*Next generation*</label> *(US English only)* Control Panel. **Save your settings.** 
 
-**<span style="font-weight: normal;">![ss2](https://r2_worker.bayton.workers.dev/uploads/2010/05/Screenshot-2.png "Screenshot-2")</span>**
+![ss1](https://r2_worker.bayton.workers.dev/uploads/2010/05/Screenshot1.png "Screenshot")<span style="font-weight: normal;">3) Go to the dashboard and select *Add more services* next to </span><span style="font-weight: normal;">Service Settings</span>**
+
+**<span style="font-weight: normal;">
+
+![ss2](https://r2_worker.bayton.workers.dev/uploads/2010/05/Screenshot-2.png "Screenshot-2")</span>**
 
 4\) Find *Wave* and select **Add it now**
 
-**![ss3](https://r2_worker.bayton.workers.dev/uploads/2010/05/Screenshot-31.png "Screenshot-3")**
+![ss3](https://r2_worker.bayton.workers.dev/uploads/2010/05/Screenshot-31.png "Screenshot-3")**
 
 5\) Confirm with **Yes, enable Google Wave**
 

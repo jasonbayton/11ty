@@ -26,21 +26,29 @@ This week, Microsoft edged a little further into the world of modern Android man
 
 Up until this announcement, the only available options for organisations leveraging Intune were legacy management (device administrator) or work profile, an entirely BYOD-focused Android Enterprise deployment scenario only offering organisations management of a dedicated work profile on the device, and not the device itself (with a few security-related exceptions).
 
-<div class="bs-callout bs-callout-success">### What is Android Enterprise?[ ](/android/android-enterprise-device-support/#what-is-android-enterprise)
+<div class="callout callout-success">
+
+### What is Android Enterprise?[ ](/android/android-enterprise-device-support/#what-is-android-enterprise)
 
 For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)
 
-</div>Improved Android Enterprise support has been a long-requested feature for Intune and although this announcement will only quell those looking for kiosk-type deployments today, it’s an important first step towards wider work-managed ([COBO](/android/android-glossary/#cobo)) and fully managed work profile ([COPE](/android/android-glossary/#cope)) deployments that’ll be developed next.
+</div>
+
+Improved Android Enterprise support has been a long-requested feature for Intune and although this announcement will only quell those looking for kiosk-type deployments today, it’s an important first step towards wider work-managed ([COBO](/android/android-glossary/#cobo)) and fully managed work profile ([COPE](/android/android-glossary/#cope)) deployments that’ll be developed next.
 
 Few EMMs are opting to leverage the native Android kiosk solution today as it’s somewhat lacking in features and functionality. Much like MobileIron and <del>AirWatch</del> Workspace One UEM, Microsoft are no exception; rolling their own COSU launcher developed by the same team responsible for the consumer [Microsoft launcher](https://play.google.com/store/apps/details?id=com.microsoft.launcher&hl=en_GB), it should offer a pretty good experience for end-users. With P around the corner it’ll be interesting to see if the custom launcher approach fades given the effort gone into improving the native experience, likewise if EMMs currently maintaining custom launchers will eventually switch to native and thus adopt a universal UX for COSU deployments cross-EMM. I’m not holding my breath, but it’s an interesting thought.
 
 Interestingly, Microsoft are also the first I’ve actively seen utilising the Android Management API (AMAPI) to bring COSU support to market. AMAPI offers a simple, feature-rich solution for EMMs who can’t or don’t want to spend time building out a custom DPC for Android Enterprise management, and it makes sense that Microsoft, with only work profile implemented up to this point, would leverage it in order to have zero-day support for new functionality directly from Google, as well as benefits like Android zero-touch support out of the box.
 
-<div class="bs-callout bs-callout-success">### What is Android zero-touch enrolment?[ ](/android/android-enterprise-device-support/#what-is-android-enterprise)
+<div class="callout callout-success">
+
+### What is Android zero-touch enrolment?[ ](/android/android-enterprise-device-support/#what-is-android-enterprise)
 
 Learn more about the future of out-of-box provisioning for Android Enterprise work-managed devices: [What is Android zero-touch enrolment?](/android/what-is-android-zero-touch-enrolment/)
 
-</div>While Microsoft aren’t listed on the [zero-touch portal](https://partner.android.com/zerotouch) at the time of writing, it won’t be too long before Intune can be selected from the DPC dropdown when creating a zero-touch configuration, they’ve even got their DPC extras ready to go:
+</div>
+
+While Microsoft aren’t listed on the [zero-touch portal](https://partner.android.com/zerotouch) at the time of writing, it won’t be too long before Intune can be selected from the DPC dropdown when creating a zero-touch configuration, they’ve even got their DPC extras ready to go:
 
 ```
 {

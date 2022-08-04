@@ -31,9 +31,19 @@ What to expect with work profile on company-owned devices
 
 This has been covered mostly in the evolving [Android 11 COPE changes](/android/android-11-cope-changes/) doc, though to summarise the capabilities available for administrators, the following will be available with work profiles on company-owned devices:
 
-<figure class="wp-block-table is-style-stripes"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Asset management tools</th><th class="has-text-align-left" data-align="left">Personal usage policies</th></tr></thead><tbody><tr><td class="has-text-align-left" data-align="left">Full device reset</td><td class="has-text-align-left" data-align="left">Personal app allow/block list</td></tr><tr><td class="has-text-align-left" data-align="left">Factory reset protection management</td><td class="has-text-align-left" data-align="left">Hardware management</td></tr><tr><td class="has-text-align-left" data-align="left">Block work profile removal</td><td class="has-text-align-left" data-align="left">OS features like telephone, connectivity, and location</td></tr><tr><td class="has-text-align-left" data-align="left">System update management</td><td class="has-text-align-left" data-align="left">Work profile max pause duration</td></tr><tr><td class="has-text-align-left" data-align="left">Device-wide security logs</td><td class="has-text-align-left" data-align="left"></td></tr></tbody></table>
+- Asset management tools
+- Personal usage policies
+- Full device reset
+- Personal app allow/block list
+- Factory reset protection management
+- Hardware management
+- Block work profile removal
+- OS features like telephone, connectivity, and location
+- System update management
+- Work profile max pause duration
+- Device-wide security logs
 
-</figure>Some of the key benefits over deploying a typical work profile (or, what would in future be referred to work profile on personally-owned devices) today include:
+Some of the key benefits over deploying a typical work profile (or, what would in future be referred to work profile on personally-owned devices) today include:
 
 **The ability to fully reset the device** – bearing in mind personal data will be irreversibly removed if not backed up. On a typical work profile deployment today, only an enterprise wipe is available, meaning additional work is required after removing the work profile to prepare the device for re-deployment
 

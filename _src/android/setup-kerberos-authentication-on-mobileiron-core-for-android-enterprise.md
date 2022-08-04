@@ -110,7 +110,7 @@ Configure MobileIron Tunnel
 
 As a reminder, MobileIron Tunnel should be configured correctly and able to reach internal hosts (Chrome needs to reach intranet sites and Hypergate needs to communicate with the KDC). If using the configurations **AllowedAppList** and **DisallowedAppList** please ensure they’re configured correctly to allow Chrome and Hypergate to reach their targets.
 
-<div class="bs-callout bs-callout-danger">
+<div class="callout callout-danger">
 
 ### These apps need assigning
 
@@ -129,7 +129,7 @@ Assigned devices should now have Chrome, Tunnel and Hypergate installed and conf
 
 If the login does not work immediately, please check the logging section of Hypergate so troubleshoot (there are also network troubleshooting tools integrated in the “Ping KDC” menu).
 
-<div class="bs-callout bs-callout-success">
+<div class="callout callout-success">
 
 ### Chrome will do this automatically
 

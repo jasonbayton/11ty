@@ -25,11 +25,15 @@ Recently MobileIron announced the release of Core and Connector version 9.1.0.0 
 
 This is good news for enterprises who rely on Linux (well, Ubuntu Linux officially but all the same) as it’s now possible to install both the Core and Enterprise connector without the need for VMWare, Hyper-V or physical hardware.
 
-<div class="bs-callout bs-callout-warning">#### MobileIron Sentry support
+<div class="callout callout-warning">
+
+#### MobileIron Sentry support
 
 To date there has been no update for the MobileIron Sentry. Due to this, the following guide will not be relevant and any installations will not be supported by MobileIron
 
-</div>Prerequisites
+</div>
+
+Prerequisites
 -------------
 
 Before continuing, please ensure you meet the following prerequisites:
@@ -149,7 +153,7 @@ Install MI connector via CLI
 
 Following the reboot of the KVM host, log back in.
 
-<div class="bs-callout bs-callout-danger">#### Time limit!
+<div class="callout callout-danger">#### Time limit!
 
 Before running the following command, ensure you have the **Remote Viewer** application installed on your remote machine. You will have 30 seconds to open the remote viewer and input the **vm-install** command on the MobileIron installer before the system will fail to boot, and the VM configuration file will need to be manually edited to re-add the MobileIron ISO file.
 

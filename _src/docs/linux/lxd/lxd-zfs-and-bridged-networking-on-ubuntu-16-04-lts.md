@@ -15,7 +15,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/36'
 ---
-<div class="bs-callout bs-callout-danger">### Network changes in Ubuntu 17.10+
+<div class="callout callout-danger">### Network changes in Ubuntu 17.10+
 
 This guide has been [updated for netplan](#modern-netplan), introduced in 17.10. Please test the configuration and let me know if you have any issues with it (easiest via tweet, [@jasonbayton](https://twitter.com/jasonbayton)).
 
@@ -23,7 +23,7 @@ This guide has been [updated for netplan](#modern-netplan), introduced in 17.10.
 
 In this article I’ll walk through the installation of LXD, ZFS and Bridge-Utils on Ubuntu 16.04 and configure LXD to use either a physical ZFS partition or loopback device combined with a bridged networking setup allowing for containers to pick up IP addresses via DHCP on the (v)LAN rather than a private subnet.
 
-<div class="bs-callout bs-callout-info">#### Before we begin
+<div class="callout callout-info">#### Before we begin
 
 This walkthrough assumes you already have a Ubuntu 16.04 server host set up and ready to work with. If you do not, please [download](http://www.ubuntu.com/download/server) and install it now.
 
@@ -250,7 +250,7 @@ Device     Boot    Start      End  Sectors  Size Id Type
 
 Make a note of the partition or drive to be used. In this example we’ll use partition `sdb1` on disk `/dev/sdb`
 
-<div class="bs-callout bs-callout-warning">#### Be aware
+<div class="callout callout-warning">#### Be aware
 
 If your disk/partition is currently formatted and mounted on the system, it will need to be unmounted with `sudo umount /path/to/mountpoint` before continuing, or LXD will error during configuration.
 
@@ -258,7 +258,7 @@ Additionally if there’s an `fstab` entry this will need to be removed before c
 
 </div>#### Configure LXD
 
-<div class="bs-callout bs-callout-danger">#### Changes to bridge configuration
+<div class="callout callout-danger">#### Changes to bridge configuration
 
 As of LXD 2.5 there have been a few changes. If installing a version of LXD under 2.5 please continue below, however for 2.5 and above in order to use the pre-configured bridge select **No** for `Do you want to configure the LXD bridge (yes/no)?` then see **Configure LXD bridge (2.5+)** below for details of adding the bridge manually after this.
 

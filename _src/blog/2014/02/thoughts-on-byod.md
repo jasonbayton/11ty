@@ -24,8 +24,12 @@ tags:
     - Enterprise
     - Opinion
 ---
-<div class="alert alert-info">***What is it?***  
-BYOD – Bring Your Own Device – is the enablement of employees to bring their own, personal devices to the workplace to access corporate networks and information in place of a traditional corporate PC or mobile device.</div>BYOD is huge topic of conversation; it has been for a couple of years already. There are varying opinions on the subject, its merits in the workplace and whether or not there really are any true benefits to a BYOD-enabled environment.
+<div class="alert alert-info">
+
+***What is it?***  
+BYOD – Bring Your Own Device – is the enablement of employees to bring their own, personal devices to the workplace to access corporate networks and information in place of a traditional corporate PC or mobile device.</div>
+
+BYOD is huge topic of conversation; it has been for a couple of years already. There are varying opinions on the subject, its merits in the workplace and whether or not there really are any true benefits to a BYOD-enabled environment.
 
 As an example, a [study by Spiceworks](https://www.spiceworks.com/marketing/resources/reports/byod-becomes-mainstream-complexity-intensifies/#sf65654514) from 2013 shows there is a lot of uptake in the SME sector, a sector where I’d expect to see this given the cost of hardware and difficulties leveraging the bulk deals with hardware vendors commonly seen in large enterprises. On the other hand, some IT Pros are convinced[ BYOD is doomed](http://www.cbronline.com/news/mobile-and-tablets/byod-will-be-dead-in-three-years-4164473) before it’s even had a chance to establish itself. Even posts I’ve written on Google Plus on this subject have seen views from both sides of the argument.
 

@@ -23,7 +23,9 @@ tags:
 ---
 Last week VMware released WS1 UEM 1908 with a surprising new feature, Android Enterprise enrolment for devices without the ability to leverage GMS apps and services.
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/zmFgocI27zM?start=305&feature=oembed" title="Workspace ONE UEM 1908 What's New Overview" width="500"></iframe></div><figcaption>WS1 release video, 5:05 onwards is the brief Android mention.</figcaption></figure>In the short overview above (starting at [5:05](https://youtu.be/zmFgocI27zM?t=305)) a simple explanation of the feature is provided:
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/zmFgocI27zM?start=305&feature=oembed" title="Workspace ONE UEM 1908 What's New Overview" width="500"></iframe>
+
+WS1 release video, 5:05 onwards is the brief Android mention.</figcaption></figure>In the short overview above (starting at [5:05](https://youtu.be/zmFgocI27zM?t=305)) a simple explanation of the feature is provided:
 
 > We’ve added support for enrolling work-managed devices without Google Play Services. With this feature you will be able to configure Android Enterprise on devices running on a closed network which has no internet access or without Google Mobile Services (GMS)
 > 
@@ -36,9 +38,13 @@ Enabling AOSP enrolment
 
 This feature is enabled at the Organisation level within settings. For orgs without an AE bind in place already, a checkbox appears with a warning when ticked:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/08/2019-08-24-00.53.06.gif)For those with a bind in place, simply click on the **Enrollment Settings** tab, **Override** if required and switch the **work-managed enrollment type** to **AOSP/CLOSED NETWORK**
+![](https://r2_worker.bayton.workers.dev/uploads/2019/08/2019-08-24-00.53.06.gif)
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/08/2019-08-24-00.54.33.gif)The (obvious) caveats
+For those with a bind in place, simply click on the **Enrollment Settings** tab, **Override** if required and switch the **work-managed enrollment type** to **AOSP/CLOSED NETWORK**
+
+![](https://r2_worker.bayton.workers.dev/uploads/2019/08/2019-08-24-00.54.33.gif)
+
+The (obvious) caveats
 ---------------------
 
 Effectively all that appears to be happening is a typical Android Enterprise enrolment (provisioned however it makes sense to do so for your organisation) without the creation and assignment of a managed Google Play account.
@@ -69,7 +75,9 @@ As mentioned above, it’s not something Google actively encourage.
 It didn’t work too well for me
 ------------------------------
 
-<div class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/08/Screenshot_20190823-230254.png)</div>I attempted an enrolment with the AOSP setting selected, and via two separate [provisioning methods](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/) (NFC, DPC identifier) Hub crashed out and refused to open on an Xperia 10.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/08/Screenshot_20190823-230254.png)
+
+I attempted an enrolment with the AOSP setting selected, and via two separate [provisioning methods](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/) (NFC, DPC identifier) Hub crashed out and refused to open on an Xperia 10.
 
 It turned out to be due to a requirement for an agent update that wasn’t well-publicised, and since updating has resolved the crashing issue.
 

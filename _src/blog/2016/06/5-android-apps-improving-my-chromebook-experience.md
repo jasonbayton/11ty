@@ -69,13 +69,17 @@ I’ve been using JuiceSSH for a couple of years and recommend it for anyone loo
 
 Beyond the corporate stuff in Office 365 and *some* data I keep in Drive, Nextcloud hosts everything else I have on my own home servers.
 
-<div class="bs-callout bs-callout-info">#### What is Nextcloud?
+<div class="callout callout-info">
+
+#### What is Nextcloud?
 
 Nextcloud is a recent fork of ownCloud that’s already quickly becoming the newer, better and faster-developed alternative to the ownCloud of old. If you’re an ownCloud user and have ever been frustrated by the dual licenses, the paid vs free model and – as part of it – lack of some of the better features, Nextcloud have gone completely FOSS following the Red Hat model of charging for enterprise support rather than enterprise features.
 
 I’m very happy to have made the decision to migrate so soon at what is but the beginning of their journey. More info: [nextcloud.com](//nextcloud.com)
 
-</div>Chrome OS has an app in the webstore called [Network File Share](https://chrome.google.com/webstore/detail/network-file-share-for-ch/ndjpildffkeodjdaeebdhnncfhopkajk) that’s recently been released to provide access to network shares and it works fine – the added shares all show up as new paths on the right-hand side menu in the files app – but like Photos and Drive, it’s not the same as having a dedicated app utilising an interface designed to compliment the solution whether inside the network or accessing remotely.
+</div>
+
+Chrome OS has an app in the webstore called [Network File Share](https://chrome.google.com/webstore/detail/network-file-share-for-ch/ndjpildffkeodjdaeebdhnncfhopkajk) that’s recently been released to provide access to network shares and it works fine – the added shares all show up as new paths on the right-hand side menu in the files app – but like Photos and Drive, it’s not the same as having a dedicated app utilising an interface designed to compliment the solution whether inside the network or accessing remotely.
 
 The Nextcloud app allows for quick, simple access to my private datastore from anywhere, and makes it super easy to upload, download, edit and share data with a few clicks.
 

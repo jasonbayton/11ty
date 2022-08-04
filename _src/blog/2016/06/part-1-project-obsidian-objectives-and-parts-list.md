@@ -26,12 +26,14 @@ discourse_permalink:
 tags:
     - Projects
 ---
-<div class="bs-callout bs-callout-default">#### Just tuning in?
+<div class="callout callout-default">#### Just tuning in?
 
 This is a multi-part build log for Project Obsidian: a low power Ubuntu 16.04 LTS NAS &amp; container server.  
 You’re currently viewing part 1. Head over to the [introduction ](/2016/06/part-0-project-obsidian-nas-app-server-build/)for context and contents.
 
-</div>Objectives
+</div>
+
+Objectives
 ----------
 
 ### Data

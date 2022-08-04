@@ -29,11 +29,15 @@ Following that review, ElasticHosts invited me to put them to the test again, th
 
 So I did! Here are my thoughts on the experience so far..
 
-<div class="bs-callout bs-callout-success">#### In a rush?
+<div class="callout callout-success">
+
+#### In a rush?
 
 [Skip to the conclusion](#competition) for a chance to take part in a little surprise I’ve lined up!
 
-</div>Choosing a location
+</div>
+
+Choosing a location
 -------------------
 
 ![Screenshot from 2016-05-06 23-20-46](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-06-23-20-46.png)
@@ -65,7 +69,9 @@ Once a region is selected, signing up for a free, 5-day trial account takes only
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-15"><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts.png)](/2016/05/elastichosts-review/dal-a-elastichosts/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot_2016-05-07-12-24-23-e1462623164860.png)](/2016/05/elastichosts-review/screenshot_2016-05-07-12-24-23/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts-1.png)](/2016/05/elastichosts-review/dal-a-elastichosts-1/) </dt></dl>  
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-15"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts.png)](/2016/05/elastichosts-review/dal-a-elastichosts/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot_2016-05-07-12-24-23-e1462623164860.png)](/2016/05/elastichosts-review/screenshot_2016-05-07-12-24-23/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts-1.png)](/2016/05/elastichosts-review/dal-a-elastichosts-1/) </dt></dl>  
  </div>The interface
 -------------
 
@@ -248,7 +254,7 @@ If you’re interested in trying them out, every free trial comes with 2000 core
 
 Do you use ElasticHosts? Are you considering it? Let me know in the comments or tweet me [@jasonbayton](https://twitter.com/jasonbayton) with the tag [\#EHTrial](https://twitter.com/search?f=tweets&q=%23ehtrial&src=typd)
 
-<div class="bs-callout bs-callout-success">#### Are you interested in winning 3 months of free hosting?
+<div class="callout callout-success">#### Are you interested in winning 3 months of free hosting?
 
 In celebration of this, my 100th article on bayton.org, I’ve arranged a competition with ElasticHosts to provide one lucky winner with 3 months of free VPS and container hosting.
 

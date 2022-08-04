@@ -31,9 +31,13 @@ Hardware
 
 The device comes in three colours, Midnight Black, Deep Silver and Glazed White. The Glazed white to me, depending on the light, looks like it could have either a rose or gold tint on the aluminium, it’s quite nice.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/08/20180821_232759-e1537352534494.jpg)Unsurprisingly it’s also a bit of a fingerprint magnet because of this and a little slippery in the hand compared to devices with metal or plastic backs; sentiments again echoed often with this choice of material; in fairness though the white model BQ sent over does a pretty good job of hiding them.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/08/20180821_232759-e1537352534494.jpg)
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/usbcfront-e1537354283796.jpg)General build quality is fine; there are some very minor niggles here and there I noticed where it sandwiches together, but I had to pay quite close attention to even see this, so it’s unlikely to be a concern.
+Unsurprisingly it’s also a bit of a fingerprint magnet because of this and a little slippery in the hand compared to devices with metal or plastic backs; sentiments again echoed often with this choice of material; in fairness though the white model BQ sent over does a pretty good job of hiding them.
+
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/usbcfront-e1537354283796.jpg)
+
+General build quality is fine; there are some very minor niggles here and there I noticed where it sandwiches together, but I had to pay quite close attention to even see this, so it’s unlikely to be a concern.
 
 All of the exciting ports sit at the bottom of the phone, including a USB C port capable of Qualcomm Quick Charge 4+ (though there’s only a QC3 charger in the box), a 3.5mm jack (thank you) and a loudspeaker.
 
@@ -57,7 +61,9 @@ The loudspeaker on the bottom isn’t too bad, it goes loud enough to fill a sma
 Camera
 ------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/backcamera.jpg)For the record, I am not a great photographer. That said, I found the camera to be pretty good in both normal and lower light situations, however don’t take the following samples as a single source of truth:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/backcamera.jpg)
+
+For the record, I am not a great photographer. That said, I found the camera to be pretty good in both normal and lower light situations, however don’t take the following samples as a single source of truth:
 
 - ![](https://r2_worker.bayton.workers.dev/uploads/2018/09/MVIMG_20180919_115723_548.jpg)
 - ![](https://r2_worker.bayton.workers.dev/uploads/2018/09/MVIMG_20180919_115854_966.jpg)
@@ -75,7 +81,9 @@ Software
 
 Out of the box the Aquaris runs 8.1 Oreo. There are plans to upgrade to Pie however at time of writing I’ve not seen so much as a beta just yet. Since BQ have been leveraging Project Treble for some time however, it shouldn’t be too much longer.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/androidoneback-e1537357035493.jpg)As this is an Android One device, the software experience is pure, stock Android with only a couple of approved BQ apps (the camera being one of them).
+![](https://r2_worker.bayton.workers.dev/uploads/2018/09/androidoneback-e1537357035493.jpg)
+
+As this is an Android One device, the software experience is pure, stock Android with only a couple of approved BQ apps (the camera being one of them).
 
 Running vanilla Android means the clean UI and reliable UX made it really simple to switch from my Nokia 7 Plus to the BQ, and later from the BQ to the Xiaomi A2 without any grief whatsoever, it’s a delightful experience that could only be improved with a faster means of making that switch; the Pixel 2 supporting migration via USB for example is super convenient and saves a good deal of time vs cloud restore alone. Android One has the capability to bring this as a standard for all participating devices and should do.
 

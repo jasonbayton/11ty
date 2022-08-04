@@ -59,30 +59,42 @@ Devices built have historically been private-label – under the brand of the co
 
 The portfolio marked a shift in strategy and an ability to target market segments that normally go for the lower-volume, easily available hardware over something bespoke, the SMBs and mid-tiers. For me it offered an opportunity to push a roadmap, dig deep into the Android CDD and GMS requirements with which to align, and more than anything to get hands-on with every aspect of creating new devices; a perfect opportunity to learn on the job with the support of a production team well-versed in device manufacturing ensuring nothing could slip through the cracks.
 
-<div class="bs-callout bs-callout-info">### Why Rhino?
+<div class="callout callout-info">
 
- A lot of potential names were thrown around with the team. It came down really to what just sounded decent. Fruits are well done, Space themed led to a few decent options if a little corny, but it was ultimately Animals that came back most frequently and ended up between Rhino and another; since Rhino has connotations of strength and durability, we settled on that. </div>The result
+### Why Rhino?
+
+A lot of potential names were thrown around with the team. It came down really to what just sounded decent. Fruits are well done, Space themed led to a few decent options if a little corny, but it was ultimately Animals that came back most frequently and ended up between Rhino and another; since Rhino has connotations of strength and durability, we settled on that. </div>
+  
+The result
 ----------
 
 The result of 18 months of ground-up research and development has led to the introduction of four new devices, the Rhino T8, Rhino C10, Rhino M10p and Rhino T5se. Two tablets, a hand-held, and a POS.
 
-<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-top">![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_101629.jpg)<div class="wp-block-media-text__content">### Rhino T8
+![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_101629.jpg)
+
+### Rhino T8
 
 A simple, 8″ tablet powered by MediaTek in a 32/2 configuration. Launched on Android 9.0 with Android 10 expected early ’21. The T8 offers an affordable solution for lighter workloads.
 
-</div></div><div aria-hidden="true" class="wp-block-spacer" style="height:20px"></div><div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-top">![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_103412.jpg)<div class="wp-block-media-text__content">### Rhino C10
+![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_103412.jpg)
+
+### Rhino C10
 
 A higher spec 10″ FHD tablet running 8 cores in a 32/2 configuration. Also on 9 with 10 planned for Q1 ’21. The C10 is noteably more performant and capable for mid to heavier workloads.
 
-</div></div><div aria-hidden="true" class="wp-block-spacer" style="height:20px"></div><div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-top">![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_104203.jpg)<div class="wp-block-media-text__content">### Rhino T5se
+![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_104203.jpg)
+
+### Rhino T5se
 
 A 5″ handheld featuring a slim yet powerful integrated Honeywell barcode scanner, powered by an 8 core MediaTek SoC in a 4/64 configuration. Launching on 11 in early ’21.
 
-</div></div><div aria-hidden="true" class="wp-block-spacer" style="height:20px"></div><div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-top">![](https://r2_worker.bayton.workers.dev/uploads/2020/12/two-1-e1608940548828.jpg)<div class="wp-block-media-text__content">### Rhino M10p
+![](https://r2_worker.bayton.workers.dev/uploads/2020/12/two-1-e1608940548828.jpg)
+
+### Rhino M10p
 
 A first-of-kind certified EPOS with cash register compatibility, an integrated Seiko thermal printer and a nice, long LED light bar on the front for clear visual alerts in loud environments. 8 cores in a 32/2 configuration and a boatload of IO on the back. Launched on 10 with 11 in ’21.
 
-</div></div><div aria-hidden="true" class="wp-block-spacer" style="height:20px"></div>All of the above, as well a few more in-progress devices, including a 27″ kiosk and a couple of larger Android powered displays, are available now or coming soon, and I’m super excited to get them out into the wild.
+All of the above, as well a few more in-progress devices, including a 27″ kiosk and a couple of larger Android powered displays, are available now or coming soon, and I’m super excited to get them out into the wild.
 
 One might think “tablets aren’t dedicated devices”, yes and no. Though tablets are portable with integrated batteries, these are built specifically for fixed use, particularly concerning power management where they live connected 24/7 to a power source. Customers can leverage included docking options or opt for any universal tablet mount solution. There’s flexibility to be had in adopting existing form factors for alternative usecases.
 

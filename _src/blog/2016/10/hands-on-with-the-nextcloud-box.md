@@ -25,7 +25,9 @@ tags:
 ---
 If you’ve been here before you’ll have no doubt seen any one of several mentions I’ve made of Nextcloud; it’s a fantastic self-hosted platform and my go-to when recommending a do-it-yourself alternative to the mainstream DropBox type platforms. Here’s a refresher if you need it:
 
-<div class="bs-callout bs-callout-default">#### What is Nextcloud?
+<div class="callout callout-default">
+
+#### What is Nextcloud?
 
 Nextcloud is a fork of ownCloud that’s quickly becoming the newer, better and faster-developed alternative to the self-hosted cloud storage software of old. It has every feature OwnCloud has to offer and more; if you’re an ownCloud user and have ever been frustrated by the dual licenses, the paid vs free model and – as part of it – lack of some of the better features, Nextcloud have gone completely FOSS (Free and Open-Source Software) following the Red Hat model of charging for enterprise support rather than enterprise features.
 
@@ -80,7 +82,7 @@ Once credentials are created, we’re in:
 
 Yes, that’s really all it takes. It’s worth noting this is still Nextcloud 9. An update to 10 is currently in the works as of publishing.
 
-<div class="bs-callout bs-callout-info">#### HTTPS support
+<div class="callout callout-info">#### HTTPS support
 
 You may notice the links above are plain old HTTP. HTTPS is not enabled by default due to firewall requirements.
 
@@ -102,7 +104,7 @@ Unfortunately at the moment Snapweb itself requires manual installation via the 
 
 However following this the interface will be available either via the internal IP or hostname on port 4200, eg: <http://ubuntu-standard.local:4200>. The Nexcloud Box wiki explains how this can be setup as an external site from within Nextcloud itself [here](https://github.com/nextcloud/nextcloud-snap/wiki/How-to-manage-your-snaps). Snapweb will be installed by default in this way in the future.
 
-<div class="bs-callout bs-callout-danger">#### Note
+<div class="callout callout-danger">#### Note
 
 As of publishing there’s currently a bug with the newly released version of `snap-confine` which prevents newly installed snaps from running. To get around this for now, run:
 

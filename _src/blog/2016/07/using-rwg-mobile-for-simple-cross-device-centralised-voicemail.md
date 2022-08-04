@@ -33,11 +33,15 @@ At this point in time I don’t have any requirement for multiple profiles, but 
 
 RWG provides a free phone number and, as mentioned, voicemail included. The below guide will help in the very simple process of signing up with RWG, forwarding calls and finishing with one centralised voicemail inbox across all your phones and tablets (yes, tablets too).
 
-<div class="bs-callout bs-callout-warning">#### Note!
+<div class="callout callout-warning">
+
+#### Note!
 
 Obviously forwarding from one number to another does cost, so bear that in mind before continuing. Being on contract(s) with “unlimited” minutes makes this a non-issue for me, but it has the potential to rack up a small bill where not covered.
 
-</div>Centralising voicemail
+</div>
+
+Centralising voicemail
 ----------------------
 
 To begin with, download the app from [Google Play ](https://play.google.com/store/apps/details?id=com.rwgmobile.vtl)or the [App Store](https://rwgmobile.wales). The rest of this guide will continue on Android.
@@ -77,8 +81,12 @@ Once the PIN verification completes, agree to the terms and conditions and skip 
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-medium" id="gallery-9"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-46.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-56.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-58.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-01.png) </dt></dl>  
- </div>### Step 4
+<div class="gallery galleryid-0 gallery-columns-4 gallery-size-medium" id="gallery-9"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-46.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-56.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-55-58.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-01.png) </dt></dl>  
+ </div>
+ 
+ ### Step 4
 
 Following the promotional screens, select **GET NUMBER**. On the next screen input a profile name, again tap **Get number** and accept the prompt warning your number will expire if you don’t get at least one call forwarded every 30 days.
 
@@ -101,8 +109,12 @@ Following the promotional screens, select **GET NUMBER**. On the next screen inp
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-10"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-41.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-46.png) </dt></dl>  
- </div>### Step 5
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-10"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-41.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-14-56-46.png) </dt></dl>  
+ </div>
+ 
+ ### Step 5
 
 You’ll now be taken to the home screen. Credit is shown as £0.00 but this doesn’t matter as it won’t be needed. If it isn’t already selected, tap the new profile you created along the bottom of the screen; in my case it’s named **VM**. Now tap **Settings**.
 
@@ -134,8 +146,12 @@ When you return to the app home screen you’ll be met with a green cross throug
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-5 gallery-size-medium" id="gallery-11"><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-15.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-23.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-03-01.png) </dt></dl>  
- </div>### Step 7
+<div class="gallery galleryid-0 gallery-columns-5 gallery-size-medium" id="gallery-11"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-15.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-02-23.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://r2_worker.bayton.workers.dev/uploads/2016/07/Screenshot_2016-07-21-16-03-01.png) </dt></dl>  
+ </div>
+ 
+ ### Step 7
 
 With the RWG configuration out of the way, now is the time to configure your mobile device to forward unanswered calls to RWG Mobile.
 

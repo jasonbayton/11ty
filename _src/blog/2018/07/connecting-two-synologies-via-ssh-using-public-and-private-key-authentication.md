@@ -17,9 +17,15 @@ discourse_permalink:
 tags:
     - Guides
 ---
-<div class="bs-callout bs-callout-info"> ![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Joel400.jpg)### Contributing author
+<div class="callout callout-info"> 
 
- This is one of a series of posts contributed to bayton.org by guest authors. [Click here](https://www.linkedin.com/in/jo%C3%ABl-scholten-9b822b35/) to learn more about Joel. </div>A Synology is basically a linux system in a small case and with a nice web interface that does most basic tasks. For the tasks which do not run by default from the web interface, SSH can be used. This tutorial demonstrates how to set up passwordless SSH between two (or more) Synology boxes. This is very useful for automated tasks, such as backups.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Joel400.jpg)
+
+### Contributing author
+
+This is one of a series of posts contributed to bayton.org by guest authors. [Click here](https://www.linkedin.com/in/jo%C3%ABl-scholten-9b822b35/) to learn more about Joel. </div>
+
+A Synology is basically a linux system in a small case and with a nice web interface that does most basic tasks. For the tasks which do not run by default from the web interface, SSH can be used. This tutorial demonstrates how to set up passwordless SSH between two (or more) Synology boxes. This is very useful for automated tasks, such as backups.
 
 In this tutorial we will have a local Synology and a remote Synology. The local Synology will be able to connect over SSH without a password, to the remote Synology.
 
@@ -42,9 +48,7 @@ Warning: If you plan on accessing your Synology over the internet, instead of ju
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Screen-Shot-2018-07-08-at-16.36.34.png)You can verify if you did this successfully by connecting via SSH. Open the terminal and enter the command below. The username should be replaced with the username you use to sign in to the Synology. The IP address should be replaced by the IP address of the Synology.
 
 ```
-<pre class="wp-block-code">```
 ssh admin@192.168.0.2
-```
 ```
 
 If it asks for a password, you know you’ve succeeded with the first step.
@@ -62,17 +66,13 @@ You will now generate a *private* and a *public key* on the *local* Synology. La
 Sign in to the local Synology
 
 ```
-<pre class="wp-block-code">```
 ssh admin@local-synology
-```
 ```
 
 Generate the ssh key pair. Do not add a password on the key. Just hit *Enter*﻿ for every question that the program asks. Do not enter a password. Now a public and private key pair are created!
 
 ```
-<pre class="wp-block-code">```
 ssh-keygen -t rsa
-```
 ```
 
 ### 4. Adjust file permissions on local Synology
@@ -80,11 +80,9 @@ ssh-keygen -t rsa
 Because a person with SSH access can do a lot of damage on a linux based system, SSH is very careful with the rights on SSH keys by default. As a security mechanism, SSH will not work without the correct rights assigned.
 
 ```
-<pre class="wp-block-code">```
 sudo chmod 755 /var/services/homes/admin
 chmod 700 /var/services/homes/admin/.ssh
 chmod 600 /var/services/homes/admin/.ssh/id_rsa
-```
 ```
 
 ### 5. Copy public key to remote Synology
@@ -92,9 +90,7 @@ chmod 600 /var/services/homes/admin/.ssh/id_rsa
 Stay signed in to the local device. Copy the public key to the remote device with the following command.
 
 ```
-<pre class="wp-block-code">```
 ssh admin@remote-synology "/bin/cat >> /var/services/homes/admin/.ssh/authorized_keys" < /var/services/homes/admin/.ssh/id_rsa.pub
-```
 ```
 
 ### 6. Adjust file permissions on remote Synology
@@ -102,13 +98,10 @@ ssh admin@remote-synology "/bin/cat >> /var/services/homes/admin/.ssh/authorized
 Again, the file permissions need to be set, but this time on the remote device. You can stay signed in to the local device, but this is not necessary.
 
 ```
-<pre class="wp-block-code">```
 ssh admin@remote-synology
 sudo chmod 711 /var/services/homes/admin
 chmod 700 /var/services/homes/admin/.ssh
 chmod 600 /var/services/homes/admin/.ssh/authorized_keys
-
-```
 ```
 
 ### 7. Adjust config file on remote Synology
@@ -116,23 +109,19 @@ chmod 600 /var/services/homes/admin/.ssh/authorized_keys
 Now the sshd file must be edited to accept public keys. By default this can only be done with vi. This is a complex editor, but you can also [install](https://www.jimmybonney.com/articles/configure_nano_syntax_highlighting_synology/) the nano editor which is a lot easier to use, if desired.
 
 ```
-<pre class="wp-block-code">```
 ssh admin@remote-synology
 sudo vi /etc/ssh/sshd_config
-```
 ```
 
 Three lines are important, which are shown below
 
 ```
-<pre class="wp-block-code">```
 RSAAuthentication yes
 PubkeyAuthentication yes
 
 # The default is to check both .ssh/authorized_keys and .ssh/authorized_keys2
 # but this is overridden so installations will only check .ssh/authorized_keys
 AuthorizedKeysFile  .ssh/authorized_keys
-```
 ```
 
 ### 8. Restart ssh on remote Synology

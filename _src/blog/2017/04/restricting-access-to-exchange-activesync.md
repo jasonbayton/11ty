@@ -26,7 +26,9 @@ Once devices are fully managed and ActiveSync profiles have been configured and 
 
 The aim of this guide is to provide directions for restricting access to ActiveSync to only specified, whitelisted IP addresses; these may be for a MobileIron Sentry, an AirWatch SEG or any other ActiveSync proxy that may be in use in the business. When finished, it will only be possible to connect to ActiveSync through the specified, whitelisted service, whether on-site or remote.
 
-<div class="bs-callout bs-callout-warning">### Before you begin
+<div class="callout callout-warning">
+
+### Before you begin
 
 - This guide uses Microsoft IIS configurations to restrict access. For firewall configuration this guide is not suitable.
 - The directions outlined below will only restrict access to ActiveSync, leaving OWA (Outlook Web Access) traffic untouched.
@@ -35,7 +37,9 @@ The aim of this guide is to provide directions for restricting access to ActiveS
 
 If you are happy to proceed, please read on.
 
-</div>Open IIS Manager
+</div>
+
+Open IIS Manager
 ----------------
 
 Click start and open IIS Manager from the start menu. On Server 2012 just type IIS within the Start Window and it will appear, for older Windows Server versions it’ll be under **All Programs &gt; Administrative tools**.

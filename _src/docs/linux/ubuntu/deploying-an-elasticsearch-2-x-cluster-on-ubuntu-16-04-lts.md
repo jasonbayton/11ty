@@ -142,7 +142,7 @@ For VPS nodes use an SSH client to connect. In the case of ElasticHosts’ auto-
 
 `ssh toor@94.196.69.193` with the password `LEXB9aCvBcHj`
 
-<div class="bs-callout bs-callout-warning">#### Disable the root account
+<div class="callout callout-warning">#### Disable the root account
 
 As soon as it’s convenient to do so, disable the root/toor account from logging in over SSH. A quick, simple way to do this in Ubuntu is to disable the account as follows from a different sudo-enabled account (which would need to be created first):
 

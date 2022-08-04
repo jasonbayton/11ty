@@ -34,7 +34,7 @@ What it is
 
 It’s a comprehensive survey aimed at anyone within an organisation managing Android Enterprise devices. It’s also suitable for MSPs, system integrators or other ecosystem partners who manage devices on behalf of other companies directly (ie, managed service).
 
- The goal
+The goal
 ---------
 
 This is something I’ve been working on for a while, and am keen to get as many responses as possible; the resulting report I hope will offer one of the most transparent, extensive insights into experiences and perceptions of Android in the enterprise available. It should highlight pain-points, top features, deployment trends, diversity of management and gauge the general understanding of some key Android Enterprise concepts.

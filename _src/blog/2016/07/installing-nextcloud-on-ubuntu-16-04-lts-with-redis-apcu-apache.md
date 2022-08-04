@@ -59,11 +59,13 @@ Nextcloud don’t (as of writing) provide a lot of detail for minimum recommende
 
 20GB of disk will be enough for this guide, but naturally the amount chosen should reflect the amount of data to be stored. Furthermore, if redundancy isn’t offered as standard it’s always a good idea to mirror/RAID the storage area to avoid downtime as best as possible. Typically this is only a consideration required with dedicated servers, but there’s no harm in checking.
 
-<div class="bs-callout bs-callout-warning">#### Plan backups
+<div class="callout callout-warning">#### Plan backups
 
 No matter what level of redundancy is set up, it’s not a replacement for a good backup strategy. Never assume data is safe in a remote datacentre as usually providers offer no liability or responsibility for lost data should a server fail.
 
-</div>### Software
+</div>
+
+### Software
 
 - Ubuntu server 16.04 LTS with root access
 - Apache2 2.4.18
@@ -106,7 +108,9 @@ Once a static IP is available, enter the newly-created (and still powered off) s
 
 Under **Network** select the static IP from the dropdown menu and click the relevant IP under **Allowed IPs**.
 
-<div class="bs-callout bs-callout-info">#### Manage open ports
+<div class="callout callout-info">
+
+#### Manage open ports
 
 Now would also be a good time to edit the **Firewall** settings in order to block unwanted traffic on a network level before reaching the VM. For the Nextcloud instance we only need ports 22 (SSH), 80 (HTTP) and 443 (HTTPS) which can be input in **Open ports**. As this is a paid add-on, an alternative would be to configure `iptables` / `ufw` / `firewalld` on the Ubuntu server at a later time.
 
@@ -122,7 +126,7 @@ After clicking **Start** the button will change to **Connect**. On clicking this
 
 Using an SSH client, SSH to **toor@ip** and use the **VNC/****toor** password provided.
 
-<div class="bs-callout bs-callout-warning">#### Disable the root account
+<div class="callout callout-warning">#### Disable the root account
 
 As soon as it’s convenient to do so, disable the root/toor account from logging in over SSH. A quick, simple way to do this in Ubuntu is to disable the account as follows from a different sudo-enabled account (which would need to be created first):
 
@@ -146,11 +150,15 @@ With the server updated, a non-root user created with sudo privileges and the ro
 
 `sudo apt install lamp-server^`
 
-<div class="bs-callout bs-callout-info">#### Meta packages
+<div class="callout callout-info">
+
+#### Meta packages
 
 The use of ^ (caret) in the package name is important. It suggests that the installed package is a ‘meta-package’, meaning a number of programs that are usually installed together.
 
-</div>This command will install apache2, mysql 5.7 and php7.0 along with several php/apache modules to ensure seamless collaboration between the packages. Once happy with the package selection to be installed, tap **Enter**.
+</div>
+
+This command will install apache2, mysql 5.7 and php7.0 along with several php/apache modules to ensure seamless collaboration between the packages. Once happy with the package selection to be installed, tap **Enter**.
 
 ![img.9](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.9.png)
 
@@ -364,11 +372,15 @@ Now the Apache account, **www-data**, will have write-access to the Nextcloud in
 
 ### 2. Create the Nextcloud database
 
-<div class="bs-callout bs-callout-info">#### This is optional
+<div class="callout callout-info">
+
+#### This is optional
 
 By default, Nextcloud can create a database and database user when supplying the root user and password in the Nextcloud web-based installer. The following steps are intended for either someone who wants to create their own database or does not want to supply Nextcloud with the root account credentials.
 
-</div>Before switching to Chrome to run the web-based installer, we’ll first create a database.
+</div>
+
+Before switching to Chrome to run the web-based installer, we’ll first create a database.
 
 We can open a session with mysql by running the command `mysql -u root -p` and providing the root password we entered earlier.
 
@@ -557,7 +569,7 @@ Log into the admin area of Nextcloud, navigate to **additional settings** and en
 
 As we’re running our Nextcloud installation on a remote host, far outside the confines of our internal network, it’s a really good idea to enable server-side encryption. This guarantees that should anyone gain access to the data hosted on the server, it won’t be readable.
 
-<div class="bs-callout bs-callout-danger">#### Encryption can lead to data loss
+<div class="callout callout-danger">#### Encryption can lead to data loss
 
 While the likelihood is small, should we lose our encryption keys and not set recovery via password, all encrypted data will be impossible to unencrypt.
 

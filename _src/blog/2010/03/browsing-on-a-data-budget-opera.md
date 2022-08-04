@@ -41,15 +41,17 @@ Automatic updates, especially on Windows, can be huge.. and if they start downlo
 
 However, I’m not simply talking about Operating System updates, every program you use (well, almost) has a setting to look for updates at regular intervals or whenever it detects an internet connection. Browsers, Office, Adobe, Antivirus/Antispyware etc etc. What you should do is try to find settings for the programs you do use on a regular basis, and suspend updates for the period of time you’ll be using your data plan.
 
-<address>To limit Windows Automatic updates in XP do the following:</address>1. <address> Open Start and Select Control Panel</address>
-2. <address>Select “System and Security”</address>
-3. <address>Under “Windows Update” select the link “Turn automatic updating on or off”</address>
-4. <address>Select either “Notify me but do not automatically download or install them” or “Turn off Automatic Updates” from the drop down – Either work, though the former will still check, just not download.</address><address></address><address></address>
+To limit Windows Automatic updates in XP do the following:
+1.  Open Start and Select Control Panel
+2. Select “System and Security”
+3. Under “Windows Update” select the link “Turn automatic updating on or off”
+4. Select either “Notify me but do not automatically download or install them” or “Turn off Automatic Updates” from the drop down – Either work, though the former will still check, just not download.
 
-<address>To limit Windows Automatic updates in Win7 do the following:</address>1. <address> Open Start and Select Control Panel</address>
-2. <address>Select “Security Centre”</address>
-3. <address>At the bottom of the new window, under “Manage Security Settings For” select the “Automatic Updates” link.</address>
-4. <address>Select either “Notify me but do not automatically download or install them” or “Turn off Automatic Updates” – Either work, though the former will still check, just not download.</address>
+To limit Windows Automatic updates in Win7 do the following:
+1.  Open Start and Select Control Panel
+2. Select “Security Centre”
+3. At the bottom of the new window, under “Manage Security Settings For” select the “Automatic Updates” link.
+4. Select either “Notify me but do not automatically download or install them” or “Turn off Automatic Updates” – Either work, though the former will still check, just not download.
 
 Also, I chose to leave my avast! Antivirus updating, especially since your computer is in direct line of malicious attacks when connected directly to the internet, as apposed to being behind a router/firewall on an internal network. This means if the Antivirus is not updating it’s definitions, attacks on your system could occur (A little data could save you a lot of hassle).
 

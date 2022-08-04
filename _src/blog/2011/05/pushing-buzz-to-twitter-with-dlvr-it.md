@@ -29,7 +29,9 @@ tags:
     - Guides
     - Projects
 ---
-![](http://static.dlvr.it/images/dlvrit_logo.png "dlvr.it logo")Following up from my previous post, [Managing your social outreach with dlvr.it](/2011/05/managing-your-social-outreach-with-dlvr-it/), I promised a follow-up with some basic how-to articles. In this article, I’ll be focusing on pushing Google Buzz to Twitter.
+![](http://static.dlvr.it/images/dlvrit_logo.png "dlvr.it logo")
+
+Following up from my previous post, [Managing your social outreach with dlvr.it](/2011/05/managing-your-social-outreach-with-dlvr-it/), I promised a follow-up with some basic how-to articles. In this article, I’ll be focusing on pushing Google Buzz to Twitter.
 
 For those who may not know, Google Buzz is my *main* social network of choice. Sure, I’m on others (hence my need for dlvr.it!) but Buzz is the main hub and as such is the first topic I’ll be writing about. For this (and following) article, I will assume you are signed up and logged in. If you’re not, head over to [dlvr.it](http://dlvr.it) now and get it done!
 

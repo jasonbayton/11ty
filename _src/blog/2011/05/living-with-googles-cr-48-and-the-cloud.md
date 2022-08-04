@@ -32,7 +32,9 @@ tags:
     - Projects
     - Reviews
 ---
-![](https://r2_worker.bayton.workers.dev/uploads/2011/05/cr48-1.jpg "cr48-1")Google’s Cr-48 has been out for quite a long time now. So long, infact, that the beta testing phase is practically over and Google has moved from the Cr-48 to releasing the OS to two competing manufacturers – Acer and Samsung. So why then, I hear you ask, am I choosing to write about my feelings towards the Cr-48 instead of waiting a little longer and becoming one of the first to review a new, shiny Samsung or Acer?
+![](https://r2_worker.bayton.workers.dev/uploads/2011/05/cr48-1.jpg "cr48-1")
+
+Google’s Cr-48 has been out for quite a long time now. So long, infact, that the beta testing phase is practically over and Google has moved from the Cr-48 to releasing the OS to two competing manufacturers – Acer and Samsung. So why then, I hear you ask, am I choosing to write about my feelings towards the Cr-48 instead of waiting a little longer and becoming one of the first to review a new, shiny Samsung or Acer?
 
 Well, I’ll tell you!
 

@@ -52,9 +52,10 @@ What’s on the inside? Under the hood as already mentioned is 16GB of internal 
 
 With that covered, I’m going to just briefly cover the form-factor. After all, this is in fact the single greatest selling point of the Yoga tablet line isn’t it? Here’s the tablet side-on:
 
-<div class="wp-caption alignnone" id="attachment_1545" style="width: 1034px">[![Source: Lenovo.com](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7-e1387901348529-1024x460.jpg)](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7.jpg)*Source: [Lenovo.com](http://lenovo.com)*
+[![Source: Lenovo.com](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7-e1387901348529-1024x460.jpg)](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7.jpg)
+*Source: [Lenovo.com](http://lenovo.com)*
 
-</div>As you can see above, the tablet is a wedge-shape, gradually fattening as your eyes gaze from left to right. It’s a nice looking tablet, especially from a distance, but just how practical is this design?
+As you can see above, the tablet is a wedge-shape, gradually fattening as your eyes gaze from left to right. It’s a nice looking tablet, especially from a distance, but just how practical is this design?
 
 Lenovo are pitching the Yoga as a device perfect to hold with one hand. If you’ve picked up a conventional tablet recently I’m sure you can understand where Lenovo are coming from with this concept. In using the device you could initially feel like they “get it”. Picking up and using the device for extended periods of time is absolutely no issue, it’s fantastic to have something you can really *hold on to*.
 
@@ -62,9 +63,10 @@ Of course, that’s providing you only wish to use it in portrait orientation an
 
 Then there’s the stand! Lenovo suggest two methods of using it once you’ve twisted the stand out:
 
-<div class="wp-caption alignnone" id="attachment_1546" style="width: 1034px">[![tilt and stand](https://r2_worker.bayton.workers.dev/uploads/2013/12/tilt-and-stand-1024x287.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/tilt-and-stand.png)*Source: [Lenovo.com](http://lenovo.com)*
+[![tilt and stand](https://r2_worker.bayton.workers.dev/uploads/2013/12/tilt-and-stand-1024x287.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/tilt-and-stand.png)
+*Source: [Lenovo.com](http://lenovo.com)*
 
-</div>In testing both of these methods, I’ve found “tilt” to be a lot more useful. The angle on “stand” is too harsh and makes it less than ideal to work with. Thankfully although Lenovo don’t mention it, I found it was possible to push the screen back a little which made it a lot easier to use, but too far and it’ll fall over.
+In testing both of these methods, I’ve found “tilt” to be a lot more useful. The angle on “stand” is too harsh and makes it less than ideal to work with. Thankfully although Lenovo don’t mention it, I found it was possible to push the screen back a little which made it a lot easier to use, but too far and it’ll fall over.
 
 Software
 --------

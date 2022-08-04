@@ -71,7 +71,7 @@ Hello documentation
 
 There are even more features available to readers of bayton.org docs I haven’t mentioned here, to get started and check it out yourself, head over to:
 
-</docs>
+[/docs](/android)
 
 I hope this improves the quality of reading for visitors and I’ll carry on tweaking as necessary to improve it more!
 

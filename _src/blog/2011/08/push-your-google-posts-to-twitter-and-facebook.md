@@ -31,7 +31,9 @@ tags:
     - Guides
     - 'Social Media'
 ---
-![](http://static.dlvr.it/images/dlvrit_logo.png "dlvr.it logo")Although it’s not technically possible from Google+ itself quite yet (that API is taking it’s time..) outlined below is a quick and easy way of using dlvr.it and appspot to take your public Google+ posts and push them to your other social media accounts.
+![](http://static.dlvr.it/images/dlvrit_logo.png "dlvr.it logo")
+
+Although it’s not technically possible from Google+ itself quite yet (that API is taking it’s time..) outlined below is a quick and easy way of using dlvr.it and appspot to take your public Google+ posts and push them to your other social media accounts.
 
 Note: This is an unofficial method and will undoubtedly become outdated at some point in the not too distant future.
 
@@ -61,7 +63,7 @@ Give your new route a name and hit “+ add” in Sources. This is where we’ll
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.163.png "screenshot.163")](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.163.png)
 
-<div></div>**Feed URL** is where you’ll enter the Google+ feed I posted above, though with your profile number, obviously.. unless you want to post my updates? I’d be flattered, I’m sure! I doubt you’d be too happy though..
+**Feed URL** is where you’ll enter the Google+ feed I posted above, though with your profile number, obviously.. unless you want to post my updates? I’d be flattered, I’m sure! I doubt you’d be too happy though..
 
 **When should we make your first post?** gives you the option to post your latest Google+, wait until your next Post, or to publish every Post you’ve posted. If your Twitter or Facebook account is a little slow, you may find publishing everything gives the illusion you’re (suddenly!) very active on twitter!
 

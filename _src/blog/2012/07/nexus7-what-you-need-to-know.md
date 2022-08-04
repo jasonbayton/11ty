@@ -25,9 +25,10 @@ tags:
 ---
 With the launch of the Nexus7 just around the corner, I’ve been doing some research around the device, how it’s made (and repaired), it’s limitations and overcoming some universal complaints that, while perhaps not perfect, make the device infinitely more usable.
 
-<div class="wp-caption alignnone" style="width: 602px">![](http://guide-images.ifixit.net/igi/1S3nvadn4UKYoEVx.medium "Dismantled Nexus7")Source: iFixit
+![](http://guide-images.ifixit.net/igi/1S3nvadn4UKYoEVx.medium "Dismantled Nexus7")
+*Source: iFixit*
 
-</div>Hardware
+Hardware
 --------
 
 - The device in a dismantled state consists of 13 parts.

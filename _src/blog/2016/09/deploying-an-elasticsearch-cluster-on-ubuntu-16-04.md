@@ -52,8 +52,7 @@ In this guide
   4. [Additional master nodes (redundancy)](#Additionalmasternodes)
 6. [Conclusion](#Conclusion)
 
-1. What is Elasticsearch?
--------------------------
+## 1. What is Elasticsearch?
 
 Elasticsearch is a free, open source, distributed search engine based on Apache Lucene. Elasticsearch boasts being able to take the overwhelming complexity of Lucene and present it in a simple to use, cross-platform product providing communication through a REST API over HTTP.
 
@@ -63,8 +62,7 @@ Elasticsearch integrates with various solutions to provide in-depth search, anal
 
 As a standalone server Elasticsearch will work well in smaller or development environments. For production environments however for improved stability, scalability and performance a cluster is very much recommended. As demand grows, adding additional servers is simple and straightforward.
 
-2. The environment
-------------------
+## 2. The environment
 
 ### 2.1. Hardware
 
@@ -164,8 +162,7 @@ Feel free to now start the three containers with the `lxc start` command, for ex
 
 `lxc start elasticsearch-n1`
 
-3. Preparation and installation
--------------------------------
+## 3. Preparation and installation
 
 The following steps will need to be undertaken on all three containers **except where stated**.
 
@@ -179,7 +176,9 @@ For VPS nodes use an SSH client to connect. In the case of ElasticHosts’ auto-
 
 `ssh toor@94.196.69.193` with the password `LEXB9aCvBcHj`
 
-<div class="bs-callout bs-callout-warning">#### Disable the root account
+<div class="callout callout-warning">
+
+#### Disable the root account
 
 As soon as it’s convenient to do so, disable the root/toor account from logging in over SSH. A quick, simple way to do this in Ubuntu is to disable the account as follows from a different sudo-enabled account (which would need to be created first):
 
@@ -189,7 +188,9 @@ Furthermore, consider switching from password to key authentication as soon as p
 
 **NB: All commands below this alert will be targeted towards a non-root sudo user account.**
 
-</div>After logging in, let’s ensure the servers are up to date with:
+</div>
+
+After logging in, let’s ensure the servers are up to date with:
 
 `sudo apt update && sudo apt dist-upgrade`
 
@@ -435,8 +436,7 @@ jason@ubuntu:~# curl -XGET 'http://localhost:9200/_cluster/state?pretty'
 
 Success! All three servers are clustered properly and working together.
 
-4. Using Elasticsearch
-----------------------
+## 4. Using Elasticsearch
 
 With the cluster now up and ready to work, let’s test a few basic examples of inputting and extracting data from Elasticsearch. This can be done based on the documentation [provided by Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_cluster.html) as follows:
 
@@ -668,8 +668,7 @@ Which outputs just the self-employed customers in the UK:
 }
 ```
 
-5. Adding more nodes
---------------------
+## 5. Adding more nodes
 
 Should you need to add more nodes to the cluster in the future, it’s relatively straight forward:
 
@@ -729,8 +728,7 @@ Why three masters? When considering redundancy, if there were two masters and on
 
 With three masters should one fail there will still be two, enough for Elasticsearch to run as a cluster without the fear of the split-brain issue cropping up.
 
-6. Conclusion
--------------
+## 6. Conclusion
 
 So there we have it; an Elasticsearch cluster running across three Ubuntu 16.04 servers all working together in unison. For every query made against the indices, the same results are returned on all three servers. Magical!
 

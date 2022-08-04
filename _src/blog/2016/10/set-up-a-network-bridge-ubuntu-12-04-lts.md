@@ -19,13 +19,17 @@ discourse_permalink:
 tags:
     - Guides
 ---
-<div class="bs-callout bs-callout-info">#### Article extract
+<div class="callout callout-info">
+
+#### Article extract
 
 The following is a modified extract from [LXD, ZFS and bridged networking on Ubuntu 16.04 LTS](/2016/05/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/). As bridged networking is quite a popular topic I felt it’s worth its own post to reduce the need to go looking for it in the longer guides I’ve written. I’ll also link to it from new guides going forward.
 
 **NB:** Ubuntu 12.04 LTS is the earliest release I’ve used this with. It should work on earlier versions as well, but your mileage may vary.
 
-</div>Installation
+</div>
+
+Installation
 ------------
 
 In order to set up a network bridge, the package `bridge-utils` needs to be installed. Install it with:
@@ -49,11 +53,15 @@ Processing triggers for man-db (2.7.5-1) ...
 Setting up bridge-utils (1.5-9ubuntu1) ...
 ```
 
-<div class="bs-callout bs-callout-danger">#### This is mandatory
+<div class="callout callout-danger">
+
+#### This is mandatory
 
 If `bridge-utils` isn’t installed before moving on, it won’t be possible to bring up the new bridge and will likely result in loss of network access entirely.
 
-</div>Configuration
+</div>
+
+Configuration
 -------------
 
 With the `bridge-utils` package installed, begin by opening `/etc/network/interfaces` in a text editor. I like vim:

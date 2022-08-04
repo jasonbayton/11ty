@@ -45,7 +45,9 @@ It’s no surprise given Android was originally targeting the Windows Mobile mar
 
 Windows is still in use in organisations today, not necessarily Windows Mobile so much as CE and modern versions of the OS; Microsoft has by no means been eradicated, but it’s share of the enterprise space is being slowly and reliably eroded, as Google pointed out at the [Summit](/2019/06/android-enterprise-partner-summit-2019-highlights/#but-plenty-was):
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/06/Screenshot-2019-06-14-at-12.29.20-copy.jpg)### Samsung or *no one*
+![](https://r2_worker.bayton.workers.dev/uploads/2019/06/Screenshot-2019-06-14-at-12.29.20-copy.jpg)
+
+### Samsung or *no one*
 
 Before Android Enterprise, managing devices typically for most organisations meant buying and supporting Samsung, and only Samsung. Of course OEMs like Zebra in the more specialised/rugged deployments were a dominant force of their own, but for the day-to-day device management for knowledge workers the options were to typically choose from a selection of Samsung devices the company was able offer and guarantee support.
 
@@ -73,11 +75,11 @@ If you had a selection of LG devices, for example, perhaps you’d go for SOTI o
 
 The introduction of Android Enterprise and those consistent management APIs really made things a lot easier for EMMs, but there were additional developments to come much later that truly puts the cherry on top.
 
-<figure class="wp-block-pullquote" style="border-color:#008c59">> Since MobileIron began managing Android devices with Froyo way back in 2010, we’ve witnessed a true sea change in the way Android devices are managed thanks to the introduction of Android Enterprise with Android 5.0.
+> Since MobileIron began managing Android devices with Froyo way back in 2010, we’ve witnessed a true sea change in the way Android devices are managed thanks to the introduction of Android Enterprise with Android 5.0.
 > 
 > <cite>Russell Mohr, Director of Sales Engineering, MobileIron</cite>
 
-</figure>### The F-word <small>(Fragmentation)</small>
+### The F-word <small>(Fragmentation)</small>
 
 The word gets batted around still today, overwhelmingly more for clicks than anything else by the big tech sites, but when considering where Android is now compared to where it was even half a decade ago, there’s no comparison.
 
@@ -116,7 +118,9 @@ It’ll be super interesting to see what the next decade brings to the table con
 
 As Android (and iOS as this naturally contributed also) continued to grow, competitors opting to run other operating systems saw their market share gradually decline into insignificance as the consumer market shifted. This video (from [1:27](https://youtu.be/MMyMB4zm9so?t=87)) demonstrates this wonderfully (and provides source for the comments below):
 
-<iframe frameborder="0" height="600" loading="lazy" src="https://www.youtube.com/embed/MMyMB4zm9so?start=87" width="900"></iframe>By 2012 both **PalmOS** and **WebOS** had fallen out of the spotlight. WebOS is still about, most recently I saw it in use on LG TVs, but doubt it’ll make any dramatic comeback. Palm today (under a different company licensing the Palm name) are using Android.
+<iframe frameborder="0" height="600" loading="lazy" src="https://www.youtube.com/embed/MMyMB4zm9so?start=87" width="900"></iframe>
+
+By 2012 both **PalmOS** and **WebOS** had fallen out of the spotlight. WebOS is still about, most recently I saw it in use on LG TVs, but doubt it’ll make any dramatic comeback. Palm today (under a different company licensing the Palm name) are using Android.
 
 By 2014 **Symbian**, the once dominant mobile OS used by a number of OEMs, most notably Nokia, had dwindled into significance. Nokia’s devices business, later purchased by Microsoft, had already [dabbled with the thought of Android](https://www.theverge.com/2013/9/13/4727950/nokia-was-testing-android-on-lumias-before-microsoft-sale) on their Lumia line before Microsoft ultimately swooped in, bought them and ran them into the ground trying to make Windows Phone work, while other OEMs simply switched to Android.
 
@@ -141,9 +145,7 @@ If you care to check your Android device (*Settings &gt; Security &amp; Lockscre
 If you fancy digging deeper, hook your device up to your computer and via ADB run:
 
 ```
-<pre class="wp-block-code">```
 adb shell getprop ro.crypto.type
-```
 ```
 
 If it returns `block` it’s Full Disk Encryption (FDE), whilst `file` is File Based Encryption (FBE). The more you know!
@@ -154,11 +156,11 @@ Today all devices should be encrypted out of the box. The better OEMs/hardware w
 
 ### On-device security, Play Protect
 
-<figure class="wp-block-pullquote" style="border-color:#9b51e0">> Google’s Play Protect suite of solutions includes the world’s largest anti-virus service, analysing 500,000 applications, and scanning over 50 billion on Google Play, on-device and crawling the web every day.
+> Google’s Play Protect suite of solutions includes the world’s largest anti-virus service, analysing 500,000 applications, and scanning over 50 billion on Google Play, on-device and crawling the web every day.
 > 
 > <cite>[Considerations for choosing Android in the Enterprise](/android/considerations-for-choosing-android-in-the-enterprise/)</cite>
 
-</figure>Google have had security solutions and services built into Android for a number of years, in 2017 though we [saw the first steps](https://www.blog.google/products/android/google-play-protect/) towards turning everything from SafetyNet &amp; PHA scanning, to consumer features like find my phone into it’s own, marketable product.
+Google have had security solutions and services built into Android for a number of years, in 2017 though we [saw the first steps](https://www.blog.google/products/android/google-play-protect/) towards turning everything from SafetyNet &amp; PHA scanning, to consumer features like find my phone into it’s own, marketable product.
 
 [Google Play Protect](https://www.android.com/intl/en_uk/play-protect/).
 
@@ -188,16 +190,19 @@ Of course that’s just my take, Google however back it up with facts:
 > 
 > <cite>Android developers blog, [All About Updates: More Treble](https://android-developers.googleblog.com/2019/10/all-about-updates-more-treble.html)</cite>
 
-<figure class="wp-block-image size-large is-resized">![Graph of Android Oreo Adoption rate](https://r2_worker.bayton.workers.dev/uploads/2020/01/image.png)<figcaption>Android developers blog, [All About Updates: More Treble](https://android-developers.googleblog.com/2019/10/all-about-updates-more-treble.html)</figcaption></figure>Project Treble may not bring Android upgrade speed and distribution in line with iOS, but it has offered significant benefits to the platform which will undoubtedly only continue to show as Treble matures.
+![Graph of Android Oreo Adoption rate](https://r2_worker.bayton.workers.dev/uploads/2020/01/image.png)
+*Android developers blog, [All About Updates: More Treble](https://android-developers.googleblog.com/2019/10/all-about-updates-more-treble.html)*
+
+Project Treble may not bring Android upgrade speed and distribution in line with iOS, but it has offered significant benefits to the platform which will undoubtedly only continue to show as Treble matures.
 
 And, of course, Android Enterprise
 ----------------------------------
 
-<figure class="wp-block-pullquote" style="border-color:#313131">> It’s only with Android Enterprise that we started considering Android as a viable platform for developing mobile security solutions.
+> It’s only with Android Enterprise that we started considering Android as a viable platform for developing mobile security solutions.
 > 
 > <cite>Alessandro De Carli, Founder, Hypergate</cite>
 
-</figure>Touched upon in [various](/android/what-is-android-enterprise-and-why-is-it-used/) places already, Android Enterprise has had an indescribable effect on how the OS is perceived and used in enterprise over the last few years.
+Touched upon in [various](/android/what-is-android-enterprise-and-why-is-it-used/) places already, Android Enterprise has had an indescribable effect on how the OS is perceived and used in enterprise over the last few years.
 
 > Android Enterprise has transformed Android from a typically perceived cheap, insecure device into a budget-scalable, flexible, customisable and trustworthy device in the enterprise world. The segregation of data, or *containerisation* is making its acceptance through security processes and by security officers much less painful that it used to be. Android Enterprise is, by far, the first recommendation we provide to our customers.
 > 
@@ -221,11 +226,11 @@ Google’s aim was to have every certified Android device on the market look and
 
 Whether picking up a Pixel or an Xperia, a Galaxy or a Nokia, though the UI may have differed here and there, the underlying provisioning flows, the way a work profile is set up or how a device undertakes the disabling of the camera. It all happens using the same APIs, it’s reliable, it’s familiar, and it’s a million miles away from the management of old both for customers and EMM vendors.
 
-<figure class="wp-block-pullquote">> *With a standard set of APIs to use across any OEM, implementation is greatly streamlined for new functionality*
+> *With a standard set of APIs to use across any OEM, implementation is greatly streamlined for new functionality*
 > 
 > <cite>Kevin Murray, Senior Product Manager, VMware</cite>
 
-</figure>As Kevin states, the consistency and simplicity of Android Enterprise has equally had a profound impact on the vendors who implement these universal APIs; rather than having to work with each OEM independently, vendors now work directly with Google for the most part. With well documented APIs and simple escalation points the EMMs starting out today will have a tough time imagining how it used to be.
+As Kevin states, the consistency and simplicity of Android Enterprise has equally had a profound impact on the vendors who implement these universal APIs; rather than having to work with each OEM independently, vendors now work directly with Google for the most part. With well documented APIs and simple escalation points the EMMs starting out today will have a tough time imagining how it used to be.
 
 Unsurprisingly with customers being able to pick up most devices on the market and know they’ll work exactly as they need, the mandate for Samsung in enterprise as the only viable OEM has diminished:
 
@@ -342,17 +347,20 @@ It adds further credibility to the validated entity, essentially saying *yes, Go
 
 HMD Global undertook a study in 2018 that demonstrated the importance of AER to organisations, with 56% of respondents mandating a device should be Android Enterprise Recommended:
 
-<figure class="wp-block-image size-full">![](https://r2_worker.bayton.workers.dev/uploads/2020/01/image-1.png)<figcaption>[HMD Global B2B Smartphone Purchase Survey 2018](https://www.hmdglobal.com/download/HMD%20Global%20B2B%20Smartphone%20Purchase%20Survey.pdf)</figcaption></figure>In [my own survey](/2019/08/the-bayton-2019-android-enterprise-experience-survey/) in 2019, 72% of organisations who took part considered AER to be important or very important when purchasing **devices**. 44.2% consider AER status of an **MSP** or **VAR** to be a deciding factor (16.9% of that 44.2% consider AER mandatory in order to work with an MSP), and 48.6% of respondents agreed that in gaining AER status, their **EMM** has improved feature availability, management reliability and more.
+![](https://r2_worker.bayton.workers.dev/uploads/2020/01/image-1.png)
+*[HMD Global B2B Smartphone Purchase Survey 2018](https://www.hmdglobal.com/download/HMD%20Global%20B2B%20Smartphone%20Purchase%20Survey.pdf)*
+
+In [my own survey](/2019/08/the-bayton-2019-android-enterprise-experience-survey/) in 2019, 72% of organisations who took part considered AER to be important or very important when purchasing **devices**. 44.2% consider AER status of an **MSP** or **VAR** to be a deciding factor (16.9% of that 44.2% consider AER mandatory in order to work with an MSP), and 48.6% of respondents agreed that in gaining AER status, their **EMM** has improved feature availability, management reliability and more.
 
 However you choose to look at it, be that customers who feel they get the best experience by seeking out an AER device, or EMM vendors who improve their solutions to meet Google’s recommendations and requirements, the Android Enterprise Recommended program has, and continues to raise the standards across all ecosystem partners.
 
 ### OEMConfig
 
-<figure class="wp-block-pullquote" style="border-color:#9d5b1d">> This feature is one of the best gifts that Android Enterprise could offer to MDMs. It takes off a lot of work from our hands because we don’t need to spend time developing features for various vendors anymore.
+> This feature is one of the best gifts that Android Enterprise could offer to MDMs. It takes off a lot of work from our hands because we don’t need to spend time developing features for various vendors anymore.
 > 
 > <cite>[Public statement by Vipin Govind, Android Systems Engineer, Hexnode](https://www.businesswire.com/news/home/20200108005304/en/Hexnode-Announces-Support-OEMConfig-New-Android-Standard)</cite>
 
-</figure>Undoubtedly my favourite Android Enterprise feature to date, the implications of [OEMConfig](/android/what-is-oemconfig/) on the entire ecosystem are incredible. I’m absolutely not alone in my feelings towards the feature, as when I asked a few people for their opinion on the best feature of AE to date, I received the following:
+Undoubtedly my favourite Android Enterprise feature to date, the implications of [OEMConfig](/android/what-is-oemconfig/) on the entire ecosystem are incredible. I’m absolutely not alone in my feelings towards the feature, as when I asked a few people for their opinion on the best feature of AE to date, I received the following:
 
 > OEMConfig has been a game-changing feature that has allowed MobileIron to get out of the game of supporting custom API’s from many different vendors and freeing us up to focus on truly important aspects of Android management like delivering a world class end-user experience.
 > 
@@ -427,7 +435,9 @@ Hopefully in 2020 it’ll get to a point where choosing between AMAPI or Play EM
 
 It is extremely likely your Android device, whether bought for business or as a consumer, is benefitting from the enormous drive to get OEMs patching more frequently and for longer.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/01/image-3.png)If you’re using a Nokia, counterpoint research [shows](https://www.counterpointresearch.com/nokia-leads-global-rankings-updating-smartphone-software-security/) you’re also most likely to be running the latest version of Android.
+![](https://r2_worker.bayton.workers.dev/uploads/2020/01/image-3.png)
+
+If you’re using a Nokia, counterpoint research [shows](https://www.counterpointresearch.com/nokia-leads-global-rankings-updating-smartphone-software-security/) you’re also most likely to be running the latest version of Android.
 
 With the likes of Android Enterprise Recommended requiring 3 years of security updates, the Android One program requiring them every 30 days, and more and more OEMs taking the enterprise market and it’s requirements far more seriously over recent years, the knock-on effect is a more secure, more frequently updated ecosystem for everyone.
 

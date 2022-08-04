@@ -18,5 +18,7 @@ post_views_count:
 tags:
     - QuickTip
 ---
-<div><div><div><div><div>Want to save an image fast? Drag it from the browser to your desktop/folder.  
-This works extremely well in combination with attachment drag and drop in Gmail!Thanks to @[Shawn Drape](http://www.google.com/profiles/101968685409431735765) for the image.</div><div>![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Untitled99.png "Untitled99")</div><div id=":2b8"></div></div></div></div></div>
+Want to save an image fast? Drag it from the browser to your desktop/folder.  
+This works extremely well in combination with attachment drag and drop in Gmail!Thanks to @[Shawn Drape](http://www.google.com/profiles/101968685409431735765) for the image.
+
+![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Untitled99.png "Untitled99")

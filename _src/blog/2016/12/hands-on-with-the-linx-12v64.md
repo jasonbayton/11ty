@@ -44,9 +44,10 @@ The tablet is well built, boasting a solid metal frame and glass front covered b
 
 On the back is a dual-position kickstand below an unapologetic Linx logo. Unlike the several-hundred pound more expensive Surface Pro, the kickstand is limited to two pre-set positions which I found to be fine in a lot of circumstances, but also entirely impractical in others.
 
-<div class="wp-caption alignnone" id="attachment_3508" style="width: 1150px">[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)*Unlike the Surface, the hinges on the Linx are full of thick, immensely sticky gunk, presumably for lubrication.*
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)
+*Unlike the Surface, the hinges on the Linx are full of thick, immensely sticky gunk, presumably for lubrication.*
 
-</div>Above the kickstand is one of two cameras, this back one pictured is 5MP while the front sensor is 2MP. I often feel with tablets this is the wrong way around; I, like many, won’t take photos on a tablet [for a few reasons](http://cameras.reviewed.com/features/please-stop-taking-pictures-with-your-tablet) and therefore don’t make use of the better rear sensor, while video conferencing with family and colleagues tends to suffer by comparison.
+Above the kickstand is one of two cameras, this back one pictured is 5MP while the front sensor is 2MP. I often feel with tablets this is the wrong way around; I, like many, won’t take photos on a tablet [for a few reasons](http://cameras.reviewed.com/features/please-stop-taking-pictures-with-your-tablet) and therefore don’t make use of the better rear sensor, while video conferencing with family and colleagues tends to suffer by comparison.
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_36_55_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_36_55_Rich.jpg)
 
@@ -82,9 +83,10 @@ Here’s what a precision touchpad settings screen looks like:
 
 Here’s what the Linx offers:
 
-<div class="wp-caption alignnone" id="attachment_3516" style="width: 660px">[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/ximg_55afc0b8a5803.png.pagespeed.gpjpjwpjjsrjrprwricpmd.ic_.5Bt05Zrc2Q.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/ximg_55afc0b8a5803.png.pagespeed.gpjpjwpjjsrjrprwricpmd.ic_.5Bt05Zrc2Q.png)*Source: howtogeek.com*
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/ximg_55afc0b8a5803.png.pagespeed.gpjpjwpjjsrjrprwricpmd.ic_.5Bt05Zrc2Q.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/ximg_55afc0b8a5803.png.pagespeed.gpjpjwpjjsrjrprwricpmd.ic_.5Bt05Zrc2Q.png)
+*Source: howtogeek.com*
 
-</div>Two-finger scrolling (in the opposite direction to what I prefer, since I can’t change it) is fraught with frequent “share” dialogues after a screenshot is taken from swiping down from the top of the touchpad. It’s infuriating.
+Two-finger scrolling (in the opposite direction to what I prefer, since I can’t change it) is fraught with frequent “share” dialogues after a screenshot is taken from swiping down from the top of the touchpad. It’s infuriating.
 
 Having spoken to Linx, there’s no plan to change this in the future. There’s also no alternative to the supplied keyboard, unlike with the smaller Linx 10 devices in which a nicer looking, dock-like keyboard exists. I asked if a similar would be developed for the 12V however that also is not on their roadmap.
 

@@ -24,7 +24,7 @@ discourse_permalink:
 tags:
     - Projects
 ---
-<div class="bs-callout bs-callout-default">#### Just tuning in?
+<div class="callout callout-default">#### Just tuning in?
 
 This is a multi-part build log for Project Obsidian: a low power Ubuntu 16.04 LTS NAS &amp; container server.  
 You’re currently viewing part 3. Head over to the [introduction ](/2016/06/part-0-project-obsidian-nas-app-server-build/)for context and contents.
@@ -93,8 +93,12 @@ After a lot of dusting (it’s impossible to get in there when they’re stacked
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-full" id="gallery-12"><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153448.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153448.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153453-e1485293565424.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153453-e1485293565424.jpg) </dt></dl>   
- </div>At this point it’s worth pointing out *none of this is very black* and that would be right. I haven’t yet wired up the all-black power cables and given the rather quick turnaround on moving the disks, simply reused the far-too-long SATA cables I already had. As and when the parts come in I’ll publish some updated pictures.
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-full" id="gallery-12"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153448.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153448.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153453-e1485293565424.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153453-e1485293565424.jpg) </dt></dl>   
+ </div>
+ 
+ At this point it’s worth pointing out *none of this is very black* and that would be right. I haven’t yet wired up the all-black power cables and given the rather quick turnaround on moving the disks, simply reused the far-too-long SATA cables I already had. As and when the parts come in I’ll publish some updated pictures.
 
 The system is up and stable. I’m still not pleased about having 4 disks on a PCIe card and 3 on the motherboard, but until I can find a 4-channel, 8 port SAS/SATA card that won’t cost more than the rest of the system combined (disks excluded) there’s little other choice.
 

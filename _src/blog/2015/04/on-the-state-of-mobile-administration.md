@@ -69,8 +69,12 @@ Well, they didn’t.
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-17"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png) </dt></dl>  
- </div>What they’ve provided is a console for looking at devices and wiping them. The entire workflow is shown in the pictures above: Log in, select a device, perform an action. There’s no App management, no content management, no user management, no policy management, no back-end management.. I could go on. Their “mobile console” offers admins on mobile devices nothing more than the ability to look at a device and wipe it if necessary (and not even a full wipe), something that in 100% of the time I spend in AirWatch I’ve had to do less than 8%. I’d much rather be able to push out an app or reassign a policy.
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-17"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png) </dt></dl>  
+ </div>
+ 
+ What they’ve provided is a console for looking at devices and wiping them. The entire workflow is shown in the pictures above: Log in, select a device, perform an action. There’s no App management, no content management, no user management, no policy management, no back-end management.. I could go on. Their “mobile console” offers admins on mobile devices nothing more than the ability to look at a device and wipe it if necessary (and not even a full wipe), something that in 100% of the time I spend in AirWatch I’ve had to do less than 8%. I’d much rather be able to push out an app or reassign a policy.
 
 Thankfully their standard web console isn’t unusable, even if zooming in and out constantly is a little tedious.
 
@@ -103,8 +107,12 @@ Again, they haven’t. Although it has improved over time and is infinitely bett
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-18"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png) </dt></dl>  
- </div>Using the Office 365 administration app I can manage users (assign licences, edit names and addresses, etc) but I can’t manage OneDrive, Exchange, configure permissions in Sharepoint libraries, administer Yammer, etc. Again I could go on.
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-18"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png) </dt></dl>  
+ </div>
+ 
+ Using the Office 365 administration app I can manage users (assign licences, edit names and addresses, etc) but I can’t manage OneDrive, Exchange, configure permissions in Sharepoint libraries, administer Yammer, etc. Again I could go on.
 
 There are so many more examples I could list, but I think the picture is clear.
 

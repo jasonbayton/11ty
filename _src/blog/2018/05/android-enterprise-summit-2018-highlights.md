@@ -87,8 +87,6 @@ At this point I’m starting to [feel](https://blogs.vmware.com/euc/2018/05/andr
 > 
 > — Colm Warner (@colmwarner) [May 8, 2018](https://twitter.com/colmwarner/status/993840597961199617?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
-
 I’ve previously prepared to documents that cover both the [deprecation of DA](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) and [preparation for a migration](/android/considerations-in-migrating-from-device-administrator-to-android-enterprise/) to Android Enterprise, so I won’t go into this too much\*, but it is without doubt the most fundamentally important change for Android in the enterprise to be announced in many years; Android management is permanently changing for the better by leaving behind a rigid and broken security model that does little to deter malware and misuse for a more secure, more flexible, quicker and easier to implement, and more robust in its management capabilities – Android Enterprise is, as I’ve said many times even prior to the announcement, the future of Android management and is where organisations need to be if managing Android devices.
 
 But it is going to be disruptive.

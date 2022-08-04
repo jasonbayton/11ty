@@ -43,22 +43,34 @@ Core’s implementation is fine, though areas I think it could improve on are:
 
 The good news is Cloud resolves one of these, offering a much better UI that’s far clearer:
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image.png)<figcaption>*The list of restrictions continues down the page*</figcaption></figure>What it doesn’t improve on however is allowing admins to determine how best to manage their fully managed parent profiles reserved for personal use. MobileIron are still limiting the restrictions available to COPE devices which are otherwise available for fully managed (COBO) deployments, something I noted VMware does not do.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image.png)
+*The list of restrictions continues down the page*
+
+What it doesn’t improve on however is allowing admins to determine how best to manage their fully managed parent profiles reserved for personal use. MobileIron are still limiting the restrictions available to COPE devices which are otherwise available for fully managed (COBO) deployments, something I noted VMware does not do.
 
 Also, though improved, enrolling a COPE device still requires additional taps to initiate the creation of a work profile, something I feel (and which is fully supported by AE APIs) should be automated. I don’t understand the justification for this, as it feels less efficient and more likely to result in a call to IT for clarification. In the COPE enrolment demo below you’ll see what I mean:
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/S4i5Ih3-VKM?feature=oembed" width="500"></iframe></div></figure>In any case, COPE support is fantastic to see, and fills a rather large gap for MobileIron Cloud customers who’ve up to this point been stuck between opting for a work profile deployment that doesn’t permit device management, and a fully managed (work-managed) deployment that isn’t designed to support personal use. COPE offers a happy medium and closely resembles the legacy deployment scenarios associated with the soon-deprecated Device Administrator deployments of old.
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/S4i5Ih3-VKM?feature=oembed" width="500"></iframe>
+
+In any case, COPE support is fantastic to see, and fills a rather large gap for MobileIron Cloud customers who’ve up to this point been stuck between opting for a work profile deployment that doesn’t permit device management, and a fully managed (work-managed) deployment that isn’t designed to support personal use. COPE offers a happy medium and closely resembles the legacy deployment scenarios associated with the soon-deprecated Device Administrator deployments of old.
 
 How to enable it
 ----------------
 
 As of R58, a new system Android Enterprise configuration should be present, but *should*[(!)](https://community.mobileiron.com/docs/DOC-9234) not be assigned by default:
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-1.png)<figcaption>*Highlighted in red*</figcaption></figure>This system policy is designed to take precedence over the work managed configuration when assigned to the same groups, so enabling COPE on your MobileIron tenant is as simple as assigning this configuration:
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-1.png)
+*Highlighted in red*
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-21-22.49.42.gif)You will of course also require a restrictions configuration in order to lock the COPE devices down:
+This system policy is designed to take precedence over the work managed configuration when assigned to the same groups, so enabling COPE on your MobileIron tenant is as simple as assigning this configuration:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-21-22.53.31.gif)Considerations with COPE
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-21-22.49.42.gif)
+
+You will of course also require a restrictions configuration in order to lock the COPE devices down:
+
+![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-21-22.53.31.gif)
+
+Considerations with COPE
 ------------------------
 
 As with Core, there are some things to consider when deploying COPE, basically all but G Suite ([which recently changed policy](/2018/10/g-suite-no-longer-prevents-android-data-leakage-by-default/)) still applies to Cloud, so do [take a look](/2018/03/mobileiron-launch-android-enterprise-work-profiles-on-fully-managed-devices/#what-organisations-should-be-aware-of).

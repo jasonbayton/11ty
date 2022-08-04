@@ -29,8 +29,8 @@ Here’s how I’ve tested it;
 
 I’ve done quite a bit of playing around with friends phones and have managed to get this working even on LG’s own operating system. It’s so simple, it’s hardly worth writing about, but I will as I’m sure a lot of people don’t know about it!
 
-1\) Open your browser and navigate to the shortcut: <https://m.google.com/app/buzz?force=1>  
-2\) Accept any “Buzz was designed to work with a newer version of your software and tap continue.
+1. Open your browser and navigate to the shortcut: <https://m.google.com/app/buzz?force=1>  
+2. Accept any “Buzz was designed to work with a newer version of your software and tap continue.
 
 Yep, that’s it. The key is in the link which, as you can see, “forces” Buzz to work.  
 As I’ve mentioned elsewhere in the article, depending on your resolution etc it may look better or worse, though it should work. Check out some limitations I found below.
@@ -39,11 +39,9 @@ As I’ve mentioned elsewhere in the article, depending on your resolution etc i
 
 <span style="color: #ff0000;">For Buzz on Windows Mobile, see </span>[Update: Buzz on Windows Mobile](/2010/04/update-buzz-on-windows-mobile/)<span style="color: #ff0000;"> the information below is now outdated and completely optional as I’ve found a better way of doing it.</span>
 
-1\) Download [Opera Mobile](http://www.opera.com/mobile/download/)\*\*\*
-
-2\) Once installed, navigate to the shortcut: <https://m.google.com/app/buzz?force=1>
-
-3\) Enjoy a slightly limited\*\*\*\*, but oh-so-much-better-than-nothing version of Buzz which you can run on your Windows Mobile.
+1. Download [Opera Mobile](http://www.opera.com/mobile/download/)\*\*\*
+2. Once installed, navigate to the shortcut: <https://m.google.com/app/buzz?force=1>
+3. Enjoy a slightly limited\*\*\*\*, but oh-so-much-better-than-nothing version of Buzz which you can run on your Windows Mobile.
 
 It’s not perfect, and I suppose depending on your mobile’s resolution you will get better or worse results. However just as with a lot of things I prove possible here, never assume just because (in this case) Google say there’s no version, it means there’s no way of getting it on your phone.
 

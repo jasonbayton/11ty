@@ -63,7 +63,6 @@ Thumb Keyboard
 --------------
 
 ![Screenshot_2012-12-26-23-54-46](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-26-23-54-46.png)
--------------------------------------------------------------------------------------------------------------
 
 Thumb Keyboard has typically always been known as a tablet keyboard. More recently however they’ve been adding support for more and more screen sizes. The layouts can be customised both in shape and style and work really well for thumb based typing on several devices I’ve installed it on. Naturally the right keyboard is different for every person, however for the larger (4.5″ +) devices, I recommend giving this one a go.
 
@@ -104,38 +103,5 @@ It’s certainly not the easiest application to use, but the results can be amaz
 
 Tasker is available for **£3.99** in the [Play Store](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&feature=nav_result).
 
-Want more?
-----------
-
-Above are just *some* of the apps I use on a regular basis. If you’re interested in viewing more, here are some other applications I’d recommend. You can find them on the [Play Store.](http://play.google.com)
-
- <style type="text/css">
-			#gallery-29 {
-				margin: auto;
-			}
-			#gallery-29 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-29 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-29 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-29"><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/adwex1.png)](/2012/12/my-top-android-apps-1212/adwex-2/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1207"> ADW EX Launcher </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/keepassdroid.png)](/2012/12/my-top-android-apps-1212/keepassdroid/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1204"> KeePassDroid </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/onemoreclockfree.png)](/2012/12/my-top-android-apps-1212/onemoreclockfree/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1205"> One More Clock Widget Free </dd></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/ebay.png)](/2012/12/my-top-android-apps-1212/ebay/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1202"> eBay </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/grooveip.png)](/2012/12/my-top-android-apps-1212/grooveip/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1203"> GrooveIP </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/drive.png)](/2012/12/my-top-android-apps-1212/drive/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1201"> Google Drive </dd></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/dolphin.png)](/2012/12/my-top-android-apps-1212/dolphin/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1200"> Dolphin Browser </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/betterbatterystats.png)](/2012/12/my-top-android-apps-1212/betterbatterystats/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1198"> Better Battery Stats\* </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/currents.png)](/2012/12/my-top-android-apps-1212/currents/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1199"> Google Currents </dd></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/andSMB.png)](/2012/12/my-top-android-apps-1212/andsmb/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1197"> andSMB </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/andFTP.png)](/2012/12/my-top-android-apps-1212/andftp/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1196"> andFTP </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/wordpress.png)](/2012/12/my-top-android-apps-1212/wordpress/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1193"> Wordpress </dd></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/xbmcremote.png)](/2012/12/my-top-android-apps-1212/xbmcremote/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1194"> XBMC Remote </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/winamp.png)](/2012/12/my-top-android-apps-1212/winamp/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1192"> Winamp </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/whatsapp.png)](/2012/12/my-top-android-apps-1212/whatsapp/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1190"> Whatsapp </dd></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/wifianalyzer.png)](/2012/12/my-top-android-apps-1212/wifianalyzer/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1191"> WIFI Analyzer </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/connectbot.png)](/2012/12/my-top-android-apps-1212/connectbot/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1188"> ConnectBot </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/utorrentremote.png)](/2012/12/my-top-android-apps-1212/utorrentremote/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1189"> Utorrent Remote </dd></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/teamviewer.png)](/2012/12/my-top-android-apps-1212/teamviewer-2/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1187"> TeamViewer Remote </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2012/12/solidexplorer.png)](/2012/12/my-top-android-apps-1212/solidexplorer/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1186"> Solid Explorer </dd></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![Root Explorer](https://r2_worker.bayton.workers.dev/uploads/2012/12/rootexplorer.png)](/2012/12/my-top-android-apps-1212/rootexplorer/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-29-1185"> Root Explorer\* </dd></dl>  
- </div>Best wishes for the new year,  
+Best wishes for the new year,  
 Jason
-
-[![g+](https://r2_worker.bayton.workers.dev/uploads/2012/12/g+-150x150.png)](https://linkedin.com/in/jasonbayton) [![linkedin](https://r2_worker.bayton.workers.dev/uploads/2012/12/linkedin-150x150.png)](https://linkedin.com/in/jasonbayton) [![twitter](https://r2_worker.bayton.workers.dev/uploads/2012/12/twitter-150x150.png)](http://twitter.com/jasonbayton)

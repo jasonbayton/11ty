@@ -69,7 +69,10 @@ Google launched the programme with a number of well-known MSPs in the industry a
 
 Unlike the interesting situation with EMMs, there are no asterisks against any of the MSPs in the [AER directory](https://androidenterprisepartners.withgoogle.com/msp/?_ga=2.32450427.450603936.1550948947-350984924.1547574500), and each listing equally shows the regions in which they operate:
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/02/image-1.png)<figcaption>Vox Mobile operates in the Americas (screenshot cropped)</figcaption></figure>Final words
+![](https://r2_worker.bayton.workers.dev/uploads/2019/02/image-1.png)
+*Vox Mobile operates in the Americas (screenshot cropped)*
+
+Final words
 -----------
 
 A year after the first launch of Android Enterprise Recommended for devices it’s great to see the programme come full-circle and I look forward to seeing how the programme as a whole matures over time.

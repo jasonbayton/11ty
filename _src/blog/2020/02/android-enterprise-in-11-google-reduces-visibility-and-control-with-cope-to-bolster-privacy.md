@@ -41,13 +41,15 @@ What’s happening
 
 Google are no longer supporting the use of work profiles on fully managed devices (WPoFMD) in Android 11. Instead, they’re working on something they’re calling an enhanced work profile experience (what I’ll refer to throughout for simplicity and differentiation as *enhanced work profile*).
 
-<div class="wp-block-group has-background" style="background-color:#eef9ff"><div class="wp-block-group__inner-container">![](https://r2_worker.bayton.workers.dev/uploads/2020/02/baytonI-3.png) **The key difference between the two is how they’re provisioned.**
+![](https://r2_worker.bayton.workers.dev/uploads/2020/02/baytonI-3.png) 
+
+**The key difference between the two is how they’re provisioned.**
 
 Today AE COPE provisions the device fully managed, then inflates a work profile for corporate apps, leaving the managed parent profile available for personal use. It’s still a fully managed device and so IT have equivalent control and visibility to any other fully managed deployment scenario.
 
 Enhanced work profile, like a normal work profile, sets the device up with a work profile only, just as if it were enrolled manually by an end user enrolling an already setup device having gone through the Android first run wizard. Utilising ZT or QR in this case simply shortens the time to enrolment, and offers organisations the opportunity to flag the device as corporate owned, which in turn expands the set of policies permitted to enforce on devices.
 
-</div></div>Enhanced work profile is said to offer all the benefits of a work profile deployment in having a separately encrypted, isolated profile for work apps and data, but with the addition of many of the policies available on a fully managed device available to the EMM admin, while removing any policies that may potentially infringe on user privacy (numerous).
+Enhanced work profile is said to offer all the benefits of a work profile deployment in having a separately encrypted, isolated profile for work apps and data, but with the addition of many of the policies available on a fully managed device available to the EMM admin, while removing any policies that may potentially infringe on user privacy (numerous).
 
 Android 8-10 remains completely unaffected, but on upgrading the estate to Android 11, organisations are faced with two options for devices utilising work profiles on fully managed devices:
 
@@ -80,11 +82,11 @@ Similarly, as a user, I’ve turned down the opportunity for personal usage on a
 
 Google clearly don’t agree with this approach. Instead, they fall in line with the organisations and regions of the world that consider any personal use offered by an organisation being subject to unquestionable privacy, allowing employees to do whatever they wish with the device without any visibility offered to the organisation.
 
-<figure class="wp-block-pullquote">> For regulated orgs that want to allow some personal use COMP was ideal and Google should maintain both
+> For regulated orgs that want to allow some personal use COMP was ideal and Google should maintain both
 > 
 > <cite>From an MSP</cite>
 
-</figure>Google advertise the replacement of COPE in its current form as a big win for IT, giving them (or us, since I fall under this umbrella with my managed estate) the ability to “confidently extend the same privacy protections to a company-owned device that people have come to expect from the work profile on a personally-owned device”, which is super, where that is desired, but equally in many circumstances having restrictions imposed by a 3rd party on how a corporate device is managed is absolutely *not* desired. I’ve made similar comments on how MobileIron limit WPoFMD management according to their own view of how a device should be managed, as opposed to simply supporting the deployment scenario in totality and leaving organisations to manage their own estates.
+Google advertise the replacement of COPE in its current form as a big win for IT, giving them (or us, since I fall under this umbrella with my managed estate) the ability to “confidently extend the same privacy protections to a company-owned device that people have come to expect from the work profile on a personally-owned device”, which is super, where that is desired, but equally in many circumstances having restrictions imposed by a 3rd party on how a corporate device is managed is absolutely *not* desired. I’ve made similar comments on how MobileIron limit WPoFMD management according to their own view of how a device should be managed, as opposed to simply supporting the deployment scenario in totality and leaving organisations to manage their own estates.
 
 Neither view is right or wrong, justifications can be provided for either side of the fence on which you sit, however Google have chosen to make it harder for those who don’t desire abject privacy with no wiggle-room.
 
@@ -95,11 +97,11 @@ Android revolves heavily around being a flexible OS designed for everyone. It is
 
 Importantly, this is not just a case of privacy or no privacy. The work profiles on fully managed devices deployment scenario is leveraged for more than simply COPE.
 
-<figure class="wp-block-pullquote">> We use AE COPE as a dual managed-container solution, we don’t know what we’ll do from Android 11
+> We use AE COPE as a dual managed-container solution, we don’t know what we’ll do from Android 11
 > 
 > <cite>From an organisation</cite>
 
-</figure>While it’s not necessarily a popular use case, utilising WPoFMD as a means of providing two managed profiles (parent and work) which hold different applications and data has provided a key benefit of utilising Android over another OS for some customers.
+While it’s not necessarily a popular use case, utilising WPoFMD as a means of providing two managed profiles (parent and work) which hold different applications and data has provided a key benefit of utilising Android over another OS for some customers.
 
 Some choose to define what personal use means for their devices by heavily limiting the applications, accounts and features that can be leveraged in the parent profile.
 
@@ -118,11 +120,11 @@ The cost of enthusiastic adoption
 
 Speaking to EMM vendors the feeling is consistent, those who went out and implemented support for WPoFMD are less than pleased with Google’s abrupt decision to remove an entire solution set. The time, effort, and the amount of backtracking that’ll be required after development of documentation, marketing and more of the support for something few vendors adopted can’t be understated. Once a source of pride and differentiation, for those who’ve launched support this is now a significant burden.
 
-<figure class="wp-block-pullquote">> We’ll need to be more considerate in how and when we support features going forward
+> We’ll need to be more considerate in how and when we support features going forward
 > 
 > <cite>From an EMM vendor</cite>
 
-</figure>These vendors now have plenty of work ahead to support this change and avoid a situation where an explicit WPoFMD enrolment doesn’t succeed if attempted in 11.
+These vendors now have plenty of work ahead to support this change and avoid a situation where an explicit WPoFMD enrolment doesn’t succeed if attempted in 11.
 
 Other vendors yet to implement the deployment scenario are naturally less impacted by it, but it still invalidates the months of work undertaken getting closer to being able to support the deployment scenario.
 
@@ -155,6 +157,8 @@ It’s going to be interesting watching the ecosystem now take on the unnecessar
 
 Ahead of 11, here’s an updated graphic with the newly recycled COPE deployment scenario:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/02/AEtypes11-Page-6-1.png)I won’t miss the absurdly long name though.
+![](https://r2_worker.bayton.workers.dev/uploads/2020/02/AEtypes11-Page-6-1.png)
+
+I won’t miss the absurdly long name though.
 
 *What’s your view of the change? Are you a user happy with the increased focus on privacy? An IT admin frustrated by the loss of capabilities? Sound off in the comments, on [LinkedIn](https://linkedin.com/in/jasonbayton) or [Twitter](https://twitter.com/jasonbayton)*

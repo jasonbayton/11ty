@@ -34,7 +34,9 @@ tags:
     - Mobile
     - Reviews
 ---
-![shapewriter](https://r2_worker.bayton.workers.dev/uploads/2010/06/iphone-icon-168x300.jpg "iphone-icon")[In my article yesterday](/2010/06/dont-wait-get-swype-now/) I discussed Swype. The reason I felt the need to publish the Beta email was because Swype decided not to support my mobile, and instead I thought I’d help others who may be waiting to try Swype out for themselves.
+![shapewriter](https://r2_worker.bayton.workers.dev/uploads/2010/06/iphone-icon-168x300.jpg "iphone-icon")
+
+[In my article yesterday](/2010/06/dont-wait-get-swype-now/) I discussed Swype. The reason I felt the need to publish the Beta email was because Swype decided not to support my mobile, and instead I thought I’d help others who may be waiting to try Swype out for themselves.
 
 However for those of you who, like me, cannot get Swype on their device there is a viable second option!
 
@@ -48,9 +50,11 @@ Now, you see where I said you’ll need to find an alternative download location
 
 Just for you, an alternate download location is right **here**.
 
-<div class="wp-caption alignnone" id="attachment_580" style="width: 138px">[![download](https://r2_worker.bayton.workers.dev/uploads/2010/06/download_grafik-ii.jpg "download_grafik-ii")](/download/com.shapewriter.android.softkeyboard.apk)Download ShapeWriter
+[![download](https://r2_worker.bayton.workers.dev/uploads/2010/06/download_grafik-ii.jpg "download_grafik-ii")](/download/com.shapewriter.android.softkeyboard.apk)Download ShapeWriter
 
-</div> **Mobile Download:** [![](https://r2_worker.bayton.workers.dev/uploads/2010/06/chart.png "chart")](https://r2_worker.bayton.workers.dev/uploads/2010/06/chart.png)
+**Mobile Download:** 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2010/06/chart.png "chart")](https://r2_worker.bayton.workers.dev/uploads/2010/06/chart.png)
 
 You’re welcome!  
 Jason

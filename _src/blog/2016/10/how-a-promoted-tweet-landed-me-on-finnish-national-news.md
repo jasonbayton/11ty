@@ -37,7 +37,9 @@ Combined with the fact I’ve spent hours upon hours working on my [LinkedIn pro
 
 With that, I got to work on two ad campaigns, one for Finland and one for the UK.
 
-<div class="bs-callout bs-callout-success">#### Why Finland?
+<div class="callout callout-success">
+
+#### Why Finland?
 
 I like the country and have family there. It would be just a lucrative for me to find employment in Finland as it would here in the UK and I’d never turn down the opportunity to live in abroad again. Additionally, two separate countries with differing economies and skill requirements can only increase my chances of landing a role.
 
@@ -73,8 +75,12 @@ What I ended up with however were two completely different audience sizes:
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-2 gallery-size-full" id="gallery-8"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/10/Edit-campaign3-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign3-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3315"> UK </dd></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/10/Edit-campaign2-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign2-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3314"> Finland </dd></dl>  
- </div>That’s a dramatic difference at first glance, but when considering the population of each country, and then acknowledging only roughly 5% of the Finnish population use Twitter vs closer to 35% for Brits (stats based on figures for 2015, estimated), it makes more sense.
+<div class="gallery galleryid-0 gallery-columns-2 gallery-size-full" id="gallery-8"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/10/Edit-campaign3-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign3-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3315"> UK </dd></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/10/Edit-campaign2-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign2-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3314"> Finland </dd></dl>  
+</div>
+ 
+That’s a dramatic difference at first glance, but when considering the population of each country, and then acknowledging only roughly 5% of the Finnish population use Twitter vs closer to 35% for Brits (stats based on figures for 2015, estimated), it makes more sense.
 
 Here’s where things get interesting however. Having let both campaigns run for 6 days, the results are as follows.
 
@@ -98,29 +104,21 @@ Something amazing happened with the Finnish campaign however, people took notice
 > 
 > — Stefano Mosconi (@zzste) [October 4, 2016](https://twitter.com/zzste/status/783190520248012800?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
-
 Stefano’s (amazing!) comments went out to his 8,000 followers, and he wasn’t alone:
 
 > Dear Finland of mine is open for new talents and innovative recruitment. [\#työnhaku](https://twitter.com/hashtag/ty%C3%B6nhaku?src=hash&ref_src=twsrc%5Etfw) [\#rekrytointi](https://twitter.com/hashtag/rekrytointi?src=hash&ref_src=twsrc%5Etfw) <https://t.co/xv5lIaGMRr>
 > 
 > — Hani Olsson 💖 (@haniolsson) [October 4, 2016](https://twitter.com/haniolsson/status/783392208363937792?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
-
 > Innovative job hunting! Good luck, Jason! <https://t.co/FUamyIpAMo>
 > 
 > — Ani Narhi (@aninarhi) [October 3, 2016](https://twitter.com/aninarhi/status/782892678744797184?ref_src=twsrc%5Etfw)
-
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
 
 At one point I got an invitation to provide more information:
 
 > Cool. Can you DM me about some details? What kind of work? Starting from when etc?
 > 
 > — Topias Uotila (@THUotila) [October 2, 2016](https://twitter.com/THUotila/status/782506648363474944?ref_src=twsrc%5Etfw)
-
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
 
 Ultimately that didn’t work out as I’d just missed a recruitment drive, but we had a good conversation either way and I’m truly grateful for the time he devoted to looking into it for me.
 

@@ -51,7 +51,11 @@ Despite that being utterly unnecessary I did so because I had to, then went abou
 
 Though entirely app-based, I quite enjoyed using Google WiFi, and appreciated the several tools in place for managing the network, devices and more:
 
-<div class="wp-block-columns has-3-columns"><div class="wp-block-column">![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-131933.png)</div><div class="wp-block-column">![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-131952.png)</div><div class="wp-block-column">![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-132138.png)</div></div>I also liked parental controls, the various tools for troubleshooting (testing mesh, network speed, individual wifi speed of devices connected), and integrated home control, if a little unnecessary having the home app already on my devices already.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-131933.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-131952.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-132138.png)
+
+I also liked parental controls, the various tools for troubleshooting (testing mesh, network speed, individual wifi speed of devices connected), and integrated home control, if a little unnecessary having the home app already on my devices already.
 
 The WiFi app is a great example of mobile-first administration that I wish more companies embraced (the Orbi app lacks a considerable amount of options, instead requiring I fall back to the web interface instead, which I’ll cover shortly).
 
@@ -70,7 +74,7 @@ Often times the whole Google WiFi network required a reboot to get it to pick up
 
 I logged a ticket, but also started tweeting about it:
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> For context, [\#GoogleWifi](https://twitter.com/hashtag/GoogleWifi?src=hash&ref_src=twsrc%5Etfw) requires a DHCP reservation even against servers with static IPs.  
+> For context, [\#GoogleWifi](https://twitter.com/hashtag/GoogleWifi?src=hash&ref_src=twsrc%5Etfw) requires a DHCP reservation even against servers with static IPs.  
 >   
 > It isn't possible to create a port forward unless this is done (no port &gt; IP basic functionality here).  
 >   
@@ -78,9 +82,12 @@ I logged a ticket, but also started tweeting about it:
 > 
 > — Jason Bayton (@JasonBayton) [January 5, 2019](https://twitter.com/JasonBayton/status/1081501699930497024?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure>Manually logging in became tiresome, so on the main server handling most of my traffic (HAProxy) I set up a cronjob to automatically pull down ISOs in order to keep the connection “alive” between the server and Google Wifi (NB, it’s a wired server):
+Manually logging in became tiresome, so on the main server handling most of my traffic (HAProxy) I set up a cronjob to automatically pull down ISOs in order to keep the connection “alive” between the server and Google Wifi (NB, it’s a wired server):
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190130-172959-e1555450467687.png)<figcaption>Is this enough traffic? Google WiFi didn’t think so</figcaption></figure>Meanwhile a ticket with Google support wasn’t getting me very far, with them focusing more on the fact the satellites were on a different IP range (class A network) than the hub, an issue caused because Google WiFi wouldn’t offer the customisation I needed for DHCP, at one point I was even told Google WiFi doesn’t support class A networks, but didn’t receive any documentation or further clarification when I asked for where this is stated in the manual.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190130-172959-e1555450467687.png)
+*Is this enough traffic? Google WiFi didn’t think so8
+
+Meanwhile a ticket with Google support wasn’t getting me very far, with them focusing more on the fact the satellites were on a different IP range (class A network) than the hub, an issue caused because Google WiFi wouldn’t offer the customisation I needed for DHCP, at one point I was even told Google WiFi doesn’t support class A networks, but didn’t receive any documentation or further clarification when I asked for where this is stated in the manual.
 
 Once they’d tired of me reiterating my network was fine, they then turned their attention to issues they detected with Virgin Media (ISP), and asked I raise a ticket with them (for Google WiFi forgetting devices?). VM subsequently confirmed my broadband was fine (I humoured the request), and so back to Google it went.
 
@@ -95,8 +102,8 @@ Enter Orbi
 
 After reaching out to Netgear on Twitter, they were kind enough to send over a 3 node Orbi kit as a like-for-like replacement of the Google WiFi setup:
 
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/04/IMG_20190215_134950-e1555520536341.jpg)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/IMG_20190215_135143.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/04/IMG_20190215_134950-e1555520536341.jpg)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/IMG_20190215_135143.jpg)
 
 Orbi right off the bat offered an upgrade, boasting AC2200 over Google WiFi’s AC1200; I looked forward potentially to slightly better WiFi performance.
 
@@ -104,25 +111,27 @@ Unlike Google WiFi, the Orbi app offers fewer features and instead diverts users
 
 Would it be nice if the Orbi app offered improved functionality? Yes, but things like speed tests, network checks, and visibility of connected clients are all present and accounted for, with a little additional functionality gained through another of Netgear’s apps, Genie (though I rarely use it).
 
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211608.png)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211618.png)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211630.png)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211649.png)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211735.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211608.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211618.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211630.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211649.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211735.png)
 
 Netgear also partner with 3rd parties for some of the functionality offered, which is built-in with Google WiFi, in particular Disney for parental controls (yet to test!) and Speedtest.net for monitoring the speed of the ISP.
 
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211805.png)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211820.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211805.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211820.png)
 
 I’m also rather appreciative of the traffic monitoring capabilities, but do wish the settings for limits were a little more granular, and traffic monitoring in general was a little more advanced in telling me what sort of data was being used (streaming, etc)
 
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-212053.png)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-214326.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-212053.png)
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-214326.png)
 
 Legacy or not, the web interface offers everything I need and more; in particular features missed from Google WiFi, such as assigning port forwards based on IP rather than a DHCP reservation (honestly would have never thought I’d be describing this as a feature).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image.png)Orbi unboxed with a slightly older firmware version and didn’t appear to want to update to the latest (no updates detected) but as a typical Netgear product, fully supported manual updates.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image.png)
+
+Orbi unboxed with a slightly older firmware version and didn’t appear to want to update to the latest (no updates detected) but as a typical Netgear product, fully supported manual updates.
 
 As recommended, I updated the two satellites first, then the hub last with the two separate firmware packages. The network went down for a few minutes but was up and running once more in no time. Further updates were managed automatically and didn’t require this process.
 
@@ -130,7 +139,9 @@ The only issue I had, much like Google WiFi, was assigning a DHCP range I was ha
 
 The fix for this, because I was not going to be forced to utilise the same range as the router sat on for DHCP, was to break out Chrome Devtools, re-enable the disabled octets, update the range from X.X.X.10-254 to X.X.100.10-254, and click save.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image-1.png)Once saved and the page refreshed, the interface appears to once more show a limited range, however on the backend, which I later confirmed with a quick telnet session, the IP range had updated and everything was working perfectly. I raised this with Netgear and my feedback was sent to engineering for consideration.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image-1.png)
+
+Once saved and the page refreshed, the interface appears to once more show a limited range, however on the backend, which I later confirmed with a quick telnet session, the IP range had updated and everything was working perfectly. I raised this with Netgear and my feedback was sent to engineering for consideration.
 
 In testing I find the connection to be stable moving through the house, and though clients do still like to remain connected to satellites when moving about, as soon as a satellite goes out of range it picks up another rapidly.
 
@@ -146,7 +157,9 @@ Netgear assign a master and satellite with their 3 node kit, which means unlike 
 
 Both products offer the capability of adding more nodes/satellites for larger homes or increased coverage, though it definitely appears Netgear have a leg up on Google in terms of extensibility:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image-2.png)I don’t need a dedicated satellite for WiFi in the garden, but I certainly want one!
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image-2.png)
+
+I don’t need a dedicated satellite for WiFi in the garden, but I certainly want one!
 
 Conclusion
 ----------

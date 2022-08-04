@@ -23,11 +23,15 @@ tags:
     - Enterprise
     - Reviews
 ---
-<div class="bs-callout bs-callout-info">#### This review has been superseded
+<div class="callout callout-info">
+
+#### This review has been superseded
 
 This review was published in 2014. For a more recent look at Wandera, check out my [Wandera review 2016: 2 years on](/2016/12/wandera-review-2016-2-years-on/) which includes an overview of their mobile threat defense product. If you’re considering Wandera for your business, it’s worth a read!
 
-</div>A few weeks ago I attended [Whitehall Media](http://www.whitehallmedia.co.uk)‘s EM&amp;MDM conference in London where I got a chance to talk to several EMM-related software vendors throughout the day. Whilst perusing the various solutions on show (and having listened to the various speakers during the morning and afternoon sessions), one of these vendors really stood out – [Wandera](http://wandera.com).
+</div>
+
+A few weeks ago I attended [Whitehall Media](http://www.whitehallmedia.co.uk)‘s EM&amp;MDM conference in London where I got a chance to talk to several EMM-related software vendors throughout the day. Whilst perusing the various solutions on show (and having listened to the various speakers during the morning and afternoon sessions), one of these vendors really stood out – [Wandera](http://wandera.com).
 
 A relatively new software company, Wandera was founded in 2012 and boasts the first product of its kind: [Wandera Mobile Gateway](https://www.wandera.com/data-policy/).
 
@@ -98,8 +102,10 @@ Different policies can be put in place for different groups, just be aware that 
 
 That’s essentially all there is to it, once saved the policy takes effect and will allow a user to get on with their day right up until they reach their limit. Ideally alerts should be configured to provide advance warning of any pending cut-off of data, but that’s ultimately down to the admin to configure.
 
-So, does it work?![iphone.block](/https://r2_worker.bayton.workers.dev/uploads/2014/05/iphone.block_.png)
-===============================================================================
+So, does it work?
+==================
+
+![iphone.block](/https://r2_worker.bayton.workers.dev/uploads/2014/05/iphone.block_.png)
 
 Flawlessly. The speed at which changes take effect (due, no doubt, to the nature in which the devices communicate with the server and not the other way around) is incredible.
 

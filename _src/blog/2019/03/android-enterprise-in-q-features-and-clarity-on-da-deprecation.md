@@ -33,7 +33,10 @@ Consumer features
 
 ### RIP Android beam
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/03/nfc.jpg)<figcaption>Source: Digital Trends</figcaption></figure>There were [murmurs about](https://www.xda-developers.com/google-deprecate-android-beam-api-nfc-share-files/) Android beam, the sharing option for simple transfers with an NFC bump, being removed last year, however it would appear with the first beta of Q, this has now become reality.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/03/nfc.jpg)
+*Source: Digital Trends*
+
+There were [murmurs about](https://www.xda-developers.com/google-deprecate-android-beam-api-nfc-share-files/) Android beam, the sharing option for simple transfers with an NFC bump, being removed last year, however it would appear with the first beta of Q, this has now become reality.
 
 I will sorely miss the option to natively transfer data via NFC, it’s a feature I’ve relied on heavily in my device testing, general documentation and more. Could I achieve the same with Bluetooth? Yes. But it’s not as quick and efficient as *Share &gt; Beam &gt; Bump*.
 
@@ -41,7 +44,10 @@ I’ll be looking out for a 3rd party solution in the short term to fill this ga
 
 ### Native screen recording
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/03/screen.jpg)<figcaption>Source: 9to5Google</figcaption></figure>I’ve been leveraging screen recording in Android for years. From the early days of requiring root (!) to more recently developers leveraging Google Cast as the Android platform has matured. Today I rely mostly on [AZ Screen Recorder](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free) and [MNML](https://play.google.com/store/apps/details?id=com.afollestad.mnmlscreenrecord). AZ has the benefit of inbuilt GIF conversion and trimming, though it’s not perfect.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/03/screen.jpg)
+*Source: 9to5Google*
+
+I’ve been leveraging screen recording in Android for years. From the early days of requiring root (!) to more recently developers leveraging Google Cast as the Android platform has matured. Today I rely mostly on [AZ Screen Recorder](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free) and [MNML](https://play.google.com/store/apps/details?id=com.afollestad.mnmlscreenrecord). AZ has the benefit of inbuilt GIF conversion and trimming, though it’s not perfect.
 
 I have three thoughts on native support:
 
@@ -51,19 +57,28 @@ I have three thoughts on native support:
 
 ### WiFi sharing capabilities
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/03/wifi.jpg)<figcaption>Source: 9to5Google</figcaption></figure>Super useful as a consumer to allow for sharing WiFi details quickly, easily and slightly more securely than is currently possible, it’s now possible to simply tap a share button to generate a QR code with the relevant connection details within.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/03/wifi.jpg)
+*Source: 9to5Google*
+
+Super useful as a consumer to allow for sharing WiFi details quickly, easily and slightly more securely than is currently possible, it’s now possible to simply tap a share button to generate a QR code with the relevant connection details within.
 
 I do however, from an enterprise perspective, very much hope this can be restricted; there’s likely more information to come, but in an office environment I wouldn’t want employees freely offering up QR codes to scan for networks they shouldn’t normally provide access to.
 
 ### Improvements to Android permissions
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/03/perms.jpg)<figcaption>Source: 9to5Google</figcaption></figure>Similar to what we’ve had with iOS for a long time, Android has finally caught up in offering more advanced location permission controls in Android Q, and Google have equally upped their game on permissions generally.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/03/perms.jpg)
+*Source: 9to5Google*
+
+Similar to what we’ve had with iOS for a long time, Android has finally caught up in offering more advanced location permission controls in Android Q, and Google have equally upped their game on permissions generally.
 
 Ultimately I’m not sure this will lead to much in the way of changes on the enterprise side; organisations often either want location enabled or disabled for an application (or device-wide) so the additional control is far more applicable to personal applications and the potential for unvetted apps to abuse the permission.
 
 ### Desktop mode
 
-<figure class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/03/desktop.jpg)<figcaption>Source: XDA Developers</figcaption></figure>Also something we’ve been hearing about for a while, desktop mode in beta 1 is currently not readily usable, but it shows Google is thinking about convergence and Android’s expanding use as a core device across multiple form factors.
+![](https://r2_worker.bayton.workers.dev/uploads/2019/03/desktop.jpg)
+*Source: XDA Developers*
+
+Also something we’ve been hearing about for a while, desktop mode in beta 1 is currently not readily usable, but it shows Google is thinking about convergence and Android’s expanding use as a core device across multiple form factors.
 
 I’ll be running an experiment on this very idea in the near future with Samsung, DeX and an array of docks; it’s very exciting to see native support thrown into the mix and as with Android Enterprise, I look forward to seeing a future of more consistency and reliability in picking up any Android device and having a desktop mode supported.
 
@@ -86,7 +101,7 @@ In my own experience where COPE has not been possible, be that due to EMM or And
 
 My experience is somewhat reinforced by other professionals in the industry:
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> A question to the [\#EMM](https://twitter.com/hashtag/EMM?src=hash&ref_src=twsrc%5Etfw), [\#MobileSecurity](https://twitter.com/hashtag/MobileSecurity?src=hash&ref_src=twsrc%5Etfw) industry deploying [\#AndroidEnterprise](https://twitter.com/hashtag/AndroidEnterprise?src=hash&ref_src=twsrc%5Etfw) for customers allowing personal use:  
+> A question to the [\#EMM](https://twitter.com/hashtag/EMM?src=hash&ref_src=twsrc%5Etfw), [\#MobileSecurity](https://twitter.com/hashtag/MobileSecurity?src=hash&ref_src=twsrc%5Etfw) industry deploying [\#AndroidEnterprise](https://twitter.com/hashtag/AndroidEnterprise?src=hash&ref_src=twsrc%5Etfw) for customers allowing personal use:  
 >   
 > Where the EMM, historically or currently, has NOT supported AE COPE, which deployment scenario do customers more often select?  
 >   
@@ -94,7 +109,7 @@ My experience is somewhat reinforced by other professionals in the industry:
 > 
 > — Jason Bayton (@JasonBayton) [March 28, 2019](https://twitter.com/JasonBayton/status/1111256034461532161?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure>There’s certainly justification for making the process of deploying work profiles on corporate devices simpler and quicker for the above alone, but that’s just *one* reason.
+There’s certainly justification for making the process of deploying work profiles on corporate devices simpler and quicker for the above alone, but that’s just *one* reason.
 
 My friend [Arsen](https://www.linkedin.com/in/profileab/) quipped:
 
@@ -114,17 +129,21 @@ Wherever work profile is deemed suitable and ultimately chosen as the deployment
 
 But there are still challenges to be overcome despite these. I had an ardent phone conversation with another good friend in the industry, [Jordan](https://www.linkedin.com/in/jordanoc/), in which we identified two very fundamental issues to overcome for utilising work profile for corporate-owned devices:
 
-<figure class="wp-block-pullquote">> Work profile is inherently – arguably intentionally – more challenging to manage due to its privacy-first design; **the end-user has full control over the profile, both whether it’s switched on/off or removed entirely.**
+> Work profile is inherently – arguably intentionally – more challenging to manage due to its privacy-first design; **the end-user has full control over the profile, both whether it’s switched on/off or removed entirely.**
 
-</figure>There’s really nothing preventing an end-user from disabling or removing the work profile entirely, leaving the device effectively unmanaged. An organisation desiring only to wall-off their corporate data with little concern for what an end-user does with the personal side will no doubt at the very least want to ensure it’s not immediately removed once provisioned. A policy to prevent removal of the work profile for devices known to have been provisioned or otherwise identified as corporate-owned would address this, but it must not enable organisational overreach for genuine BYOD usecases.
+There’s really nothing preventing an end-user from disabling or removing the work profile entirely, leaving the device effectively unmanaged. An organisation desiring only to wall-off their corporate data with little concern for what an end-user does with the personal side will no doubt at the very least want to ensure it’s not immediately removed once provisioned. A policy to prevent removal of the work profile for devices known to have been provisioned or otherwise identified as corporate-owned would address this, but it must not enable organisational overreach for genuine BYOD usecases.
 
-<figure class="wp-block-pullquote">> Factory Reset Protection has been the bane of existence for many organisations managing legacy fleets, and **could** **be a pretty annoying, potentially costly issue to deal with for work profile deployments.**
+> Factory Reset Protection has been the bane of existence for many organisations managing legacy fleets, and **could** **be a pretty annoying, potentially costly issue to deal with for work profile deployments.**
 
-</figure>FRP is not normally a challenge with a work profile deployment as the devices would not typically be corporate-owned and thus wouldn’t be handed back. In order to address work profile being a viable solution for corporate-owned devices, it must be possible for FRP to be disabled.
+FRP is not normally a challenge with a work profile deployment as the devices would not typically be corporate-owned and thus wouldn’t be handed back. In order to address work profile being a viable solution for corporate-owned devices, it must be possible for FRP to be disabled.
 
-<div class="bs-callout bs-callout-success">### What is Factory Reset Protection?
+<div class="callout callout-success">
 
-Want to know more about Factory Reset Protection (FRP)? Check out [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-factory-reset-protection/)</div>Ultimately the idea appears to be offering a simpler, more consistent experience which puts organisations in control of corporate devices running a work profile. It’s not a recommendation by Google to start deploying work profile in lieu of fully managed or COPE, but where its use is justified (however the organisation justifies it), it ultimately won’t be more difficult to adopt because of that choice.
+### What is Factory Reset Protection?
+
+Want to know more about Factory Reset Protection (FRP)? Check out [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-factory-reset-protection/)</div>
+
+Ultimately the idea appears to be offering a simpler, more consistent experience which puts organisations in control of corporate devices running a work profile. It’s not a recommendation by Google to start deploying work profile in lieu of fully managed or COPE, but where its use is justified (however the organisation justifies it), it ultimately won’t be more difficult to adopt because of that choice.
 
 Given it’s down to EMMs to implement however, one can only guess how long it takes for this capability to emerge in the wild.
 

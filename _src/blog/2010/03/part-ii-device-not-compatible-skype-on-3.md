@@ -36,7 +36,7 @@ You can’t simply download iSkoot, install and go though, the guys over at XDA 
 
 I have uploaded both the installer and extra .cab in one .zip file and will outline the installation instructions after the download link (click the box):
 
-[![](/wp-includes/images/crystal/archive.png)](https://r2_worker.bayton.workers.dev/uploads/2010/03/iSkoot-combo-3UK.zip)iSkoot 3UK
+[iskoot-combo-3uk.zip](https://r2_worker.bayton.workers.dev/uploads/2010/03/iSkoot-combo-3UK.zip) - iSkoot 3UK
 
 </div>**Instructions:**
 

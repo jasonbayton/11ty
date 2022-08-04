@@ -63,7 +63,9 @@ There is a comparison function which is quick and easy to make use of, though I 
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-16-at-00.50.26.png)In any case clicking any of the EMMs will offer an in-depth breakdown of features supported. While the breakdown is quite informative, I would very much like to see it more aligned to the [solution sets](https://developers.google.com/android/work/requirements/work-profile), referencing each in the numbered list, and potentially linking off to more details. It may look less visually appealing, though would be far more useful. As an example for [SOTI’s](https://androidenterprisepartners.withgoogle.com/provider/#!/18) work profile implementation:
 
-<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-16-at-12.03.27.png)](https://androidenterprisepartners.withgoogle.com/provider/#!/18)</figure>Could instead be:
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-16-at-12.03.27.png)](https://androidenterprisepartners.withgoogle.com/provider/#!/18)
+
+Could instead be:
 
 **DEVICE SECURITY**
 
@@ -91,7 +93,7 @@ There are a few expected names in that list, MobileIron and VMware for sure give
 
 There *are* a couple of AER partners on there that you may not expect though; if seeing Microsoft surprises you, you’re not alone! I ran a poll on Twitter to garner the views of the wider community on *technical capability alone* and the results speak for themselves:
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">> Should Microsoft qualify as an [\#AndroidEnterpriseRecommended](https://twitter.com/hashtag/AndroidEnterpriseRecommended?src=hash&ref_src=twsrc%5Etfw) [\#EMM](https://twitter.com/hashtag/EMM?src=hash&ref_src=twsrc%5Etfw) today?  
+> Should Microsoft qualify as an [\#AndroidEnterpriseRecommended](https://twitter.com/hashtag/AndroidEnterpriseRecommended?src=hash&ref_src=twsrc%5Etfw) [\#EMM](https://twitter.com/hashtag/EMM?src=hash&ref_src=twsrc%5Etfw) today?  
 >   
 > – Yes, they support enough of the solution sets for customers  
 > – No, they're missing too much functionality to be considered recommended  
@@ -100,7 +102,7 @@ There *are* a couple of AER partners on there that you may not expect though; if
 > 
 > — Jason Bayton (@JasonBayton) [January 16, 2019](https://twitter.com/JasonBayton/status/1085514726405296128?ref_src=twsrc%5Etfw)
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure>Unlike AER for devices however, technical capability on its own, as mentioned above, isn’t what Google are relying on to validate EMMs. On that, Microsoft are joined by Google Cloud Identity in being the only two solutions with an asterisk (**\***) beside them, and this is for a very simple reason:
+Unlike AER for devices however, technical capability on its own, as mentioned above, isn’t what Google are relying on to validate EMMs. On that, Microsoft are joined by Google Cloud Identity in being the only two solutions with an asterisk (**\***) beside them, and this is for a very simple reason:
 
 They’re not quite up to scratch just yet.
 
@@ -110,7 +112,9 @@ They’re not quite up to scratch just yet.
 
 Google are keen to highlight that although these two vendors are potentially passing with flying colours other aspects of validation, their feature set support is not yet at the level Google deem acceptable for AER, hence attaining only *standard* and not *advanced* across the board:
 
-<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-17-at-21.29.51_anno.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-17-at-13.19.33_anno1.jpg)</figure>The asterisk is intended to suggest they’ve committed (ie. roadmap) to meeting Google’s requirements and recommendations in the **near** future, and will continue to develop their product through 2019.
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-17-at-21.29.51_anno.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot-2019-01-17-at-13.19.33_anno1.jpg)
+
+The asterisk is intended to suggest they’ve committed (ie. roadmap) to meeting Google’s requirements and recommendations in the **near** future, and will continue to develop their product through 2019.
 
 Speaking for Microsoft (as I can’t for Google Cloud), they are the first big vendor to adopt the Android Management API (AMAPI) as I’ve [pointed out before](/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#android-management-api-adoption), they’re also incredibly active in the ecosystem and despite a late start, are working around the clock with Google to bring missing features to fruition. In fact, COBO support [just launched in preview](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Microsoft-Intune-announces-preview-of-support-for-Android/ba-p/314747#.XED6xFGTIhY.twitter).
 

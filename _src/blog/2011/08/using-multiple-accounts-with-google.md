@@ -34,7 +34,9 @@ Do you have more than one Google account? Have you been struggling with multiple
 
 Evidently you’re not aware of Google’s multiple sign-in feature.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2011/08/Multi-300x215.png "Multi")Once activated, you can log into up to 10 accounts at any one time and very quickly switch between them on most (but not all) Google products. Anywhere you see a “Switch Account” link when clicking your name in the top right corner is a product that Google supports multi sign-in.
+![](https://r2_worker.bayton.workers.dev/uploads/2011/08/Multi-300x215.png "Multi")
+
+Once activated, you can log into up to 10 accounts at any one time and very quickly switch between them on most (but not all) Google products. Anywhere you see a “Switch Account” link when clicking your name in the top right corner is a product that Google supports multi sign-in.
 
 **Quick tip! “Right click &gt; Open link in new tab” to remain in one account while opening another!**
 

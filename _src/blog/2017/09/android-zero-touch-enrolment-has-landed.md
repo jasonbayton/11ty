@@ -71,7 +71,9 @@ Furthermore, applications can be managed silently, Google accounts are no longer
 How zero-touch adds the finishing touches for Android Enterprise
 ----------------------------------------------------------------
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)](/https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)With zero-touch, enterprises purchase their Android 8.0+ devices from an authorised reseller. Those devices can then be associated one of any of the EMMs that support a Work-Managed deployment scenario (Device Owner mode) using the [Zero-touch portal](https://partner.android.com/zerotouch). The DPC (EMM Agent) will be pulled down automatically along with any defined configurations when the device first boots.
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)](/https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)
+
+With zero-touch, enterprises purchase their Android 8.0+ devices from an authorised reseller. Those devices can then be associated one of any of the EMMs that support a Work-Managed deployment scenario (Device Owner mode) using the [Zero-touch portal](https://partner.android.com/zerotouch). The DPC (EMM Agent) will be pulled down automatically along with any defined configurations when the device first boots.
 
 As of writing, the number of devices that are about to support zero-touch (aside from the Pixel which already does) can be counted on one hand, however Google have partnered with almost all popular OEMs to have the functionality implemented – Samsung, Huawei, Sony, HTC, HMD Global (Nokia), LG and more will support zero-touch in the very near future. For those wondering, Samsung will continue to offer KNOX Mobile Enrolment, zero-touch is just another option for those who prefer not to use KME.
 

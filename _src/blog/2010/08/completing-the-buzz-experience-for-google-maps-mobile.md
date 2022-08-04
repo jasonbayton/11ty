@@ -50,7 +50,8 @@ The one thing missing to make Buzz integration with Google Maps *perfect* is the
 
 Maps obviously has the potential to display Buzz, and a little extra data to show the Following tab and subsequent Buzz posts (optionally!) certainly wouldn’t bother me at all! It really would be beneficial for all of us WM users and would love to see it integrated. Something like this:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen04.jpg "Screen04")](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen04.jpg) [![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen05.jpg "Screen05")  ](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen05.jpg)*Nearby remains the default view, however the tab for Following is right there next to it should someone want to use it.*
+[![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen04.jpg "Screen04")](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen04.jpg) [![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen05.jpg "Screen05")  ](https://r2_worker.bayton.workers.dev/uploads/2010/08/Screen05.jpg)
+*Nearby remains the default view, however the tab for Following is right there next to it should someone want to use it.*
 
 In my opinion this should be integrated into Maps, it’s the perfect evolution for Buzz within Maps and would improve the experience for those who use it ten-fold. Seriously, it would open Buzz up to a whole new field of people – those who like it, but since they’re running unsupported platforms (BlackBerry, Symbian, WM etc) not enough to put up with xHTML or continuous, low tech workarounds just to see what friends are saying day to day.
 

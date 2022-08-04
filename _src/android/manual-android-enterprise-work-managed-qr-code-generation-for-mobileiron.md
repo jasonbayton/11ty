@@ -18,7 +18,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/48'
 ---
-<div class="bs-callout bs-callout-warning">
+<div class="callout callout-warning">
 
 ### This isn’t officially supported
 
@@ -46,7 +46,7 @@ In order for QR code enrolment to work with Android Enterprise, the following is
 Validate the checksum
 ---------------------
 
-<div class="bs-callout bs-callout-warning">
+<div class="callout callout-warning">
 
 ### This is no longer necessary
 

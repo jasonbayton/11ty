@@ -24,7 +24,7 @@ tags:
 ---
 **The competition is closed! Congratulations to David in Scotland on the win!**
 
-To celebrate the growing success of [documentation](/docs) – accounting for just under 50% of all website traffic already in only 6 months of being live – I’m doing a giveaway on the latest device to be tested against [Android enterprise compatibility](/android/android-enterprise-device-support/) (results will be going live next week):
+To celebrate the growing success of [documentation](/android) – accounting for just under 50% of all website traffic already in only 6 months of being live – I’m doing a giveaway on the latest device to be tested against [Android enterprise compatibility](/android/android-enterprise-device-support/) (results will be going live next week):
 
 The [Motorola Moto C Plus](https://www.motorola.com/we/products/moto-c-plus) in Starry Black.
 

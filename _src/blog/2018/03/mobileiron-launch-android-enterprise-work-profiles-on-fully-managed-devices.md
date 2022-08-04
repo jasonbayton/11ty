@@ -25,12 +25,15 @@ Today, with the release of Core 9.7.0.1, MobileIron [officially introduce](https
 
 Work profiles on fully managed devices (further referred to as *managed work profile*) is the fourth and final deployment scenario (far-right, pictured below) for Android Enterprise and the one I’ve been waiting for since its announcement last year! For those unfamiliar, managed work profile is the equivalent of [COPE](/android/android-glossary/#cope) – Corporate Owned, Personally Enabled – which has also gone by the name of COMP (Corporate Owned Managed Profile), WMWP (Work-Managed Work Profile) and likely other names/acronyms as well.
 
-<div class="wp-caption aligncenter" id="attachment_4598" style="width: 1065px">[![](https://r2_worker.bayton.workers.dev/uploads/2017/04/Android-enterprise-deployment-scenarios-1.png)](/android/what-is-android-enterprise-and-why-is-it-used/)*Image from [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)*
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/04/Android-enterprise-deployment-scenarios-1.png)](/android/what-is-android-enterprise-and-why-is-it-used/)
+*Image from [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)*
 
-</div>Why is it important?
+Why is it important?
 --------------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_22_08_25_28.gif)Prior to today, when provisioning an Android Enterprise device an organisation has had two deployment scenarios to choose from: work profile and work-managed. These scenarios, while suitable for a number of applications, offer what is essentially two extremes.
+![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_22_08_25_28.gif)
+
+Prior to today, when provisioning an Android Enterprise device an organisation has had two deployment scenarios to choose from: work profile and work-managed. These scenarios, while suitable for a number of applications, offer what is essentially two extremes.
 
 - [Work profile](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile) is an approach akin to BYOD management; the organisation has control over a dedicated corporate profile with the capability to enforce basic security on the wider device, but little else. The end-user has full control over the device.
 - [Work-managed](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) is the [COBO](/android/android-glossary/#cobo) approach to management; the organisation has full control over the entire device, offering no personal use by default.
@@ -100,11 +103,15 @@ Unfortunately, MobileIron doesn’t support this with the release of 9.7.0.1, me
 
 Furthermore, toggling the **Enable Managed Device with Work Profile on the devices** checkbox will have no effect on enrolled devices, only those enrolling after the configuration is saved.
 
-<div class="bs-callout bs-callout-success">### What is zero-touch?
+<div class="callout callout-success">
+
+### What is zero-touch?
 
 Did zero-touch catch your attention above? Not quite sure what it is? Check out [What is Android zero-touch enrolment?](/android/what-is-android-zero-touch-enrolment/)
 
-</div>### 2. System applications should enabled
+</div>
+
+### 2. System applications should enabled
 
 Normally for work-managed deployments, system apps are disabled to remove most of the unnecessary or unwanted bundled apps. As the device is being provisioned for a COPE environment, it makes sense to leave system applications enabled unless there’s good reason not to do so.
 
@@ -112,11 +119,15 @@ Disabling system apps will result in a device utilising a minimal number of appl
 
 DPC identifier enrolment (**afw#mobileiron.core**) does not support enabling system applications and so NFC, QR code or zero-touch provisioning should be used instead.
 
-<div class="bs-callout bs-callout-success">### Provisioning guides
+<div class="callout callout-success">
+
+### Provisioning guides
 
 Provisioning guides for the managed work profile deployment scenario can be found here: [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/#fully-managed-work-profile)
 
-</div>### 3. Retiring/wiping a device will initiate a factory reset
+</div>
+
+### 3. Retiring/wiping a device will initiate a factory reset
 
 Unlike Device Administrator enrolment, when sending either a retire or wipe command, the following happens:
 
@@ -149,11 +160,15 @@ In addition to managed work profile, MobileIron have also introduced:
 
 Self-hosted private applications allow administrators to privately host APKs with MobileIron, whilst leveraging Google Play for distribution. This will be a welcome addition for organisations not wishing to push their in-house applications into Google Play itself.
 
-<div class="bs-callout bs-callout-success">### An introduction to managed Google Play
+<div class="callout callout-success">
+
+### An introduction to managed Google Play
 
 Interested in learning more about managed Google Play? Check out my article for Brian Madden: [An introduction to managed Google Play](/2018/03/an-introduction-to-managed-google-play/)
 
-</div>Admins can simply import the APK file into Core, tick the box to install for Android Enterprise and finish. Once generated, admins will need to download the APK Definition file, extract the license and paste it into the provided area before saving.
+</div>
+
+Admins can simply import the APK file into Core, tick the box to install for Android Enterprise and finish. Once generated, admins will need to download the APK Definition file, extract the license and paste it into the provided area before saving.
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/03/addapp.png)
 
@@ -165,11 +180,15 @@ For organisations managing Samsung devices, the system update policy will sound 
 
 It’s now possible to enforce upgrades automatically, set an update window to ensure system updates don’t interfere with BAU activities, or postpone up to 30 days for testing and verification. A welcome addition to make update management just a little easier for the wider Android ecosystem.
 
-<div class="bs-callout bs-callout-success">### Did you know?
+<div class="callout callout-success">
+
+### Did you know?
 
 From Android P it’ll be possible to postpone updates for up to 90 days! Learn more about Android P: [Android P demonstrates Google’s focus on the enterprise](/2018/03/android-p-demonstrates-googles-focus-on-the-enterprise/)
 
-</div>Conclusion
+</div>
+
+Conclusion
 ----------
 
 I believe managed work profiles are possibly the most important deployment scenario Android Enterprise offers for the non-rugged market. Understandably Google chose to first concentrate on the BYOD (work profile) and fully managed (COSU, COBO) deployment scenarios in order to tackle two large market segments, however with 78% of business-use device shipments being Android last year (Source: IDC) and still only ~35% of these devices being under management, there’s a very large market of both new and existing organisations who’ll want to take advantage of work profiles on fully managed devices over the existing option; when I talk to organisations it has often been the type of deployment scenario they’re keen to adopt and, until today, one they haven’t been able to adequately replicate with Android Enterprise.

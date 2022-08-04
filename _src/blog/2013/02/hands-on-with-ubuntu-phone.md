@@ -48,13 +48,17 @@ On swiping the lockscreen away (right to left), the first thing you’re introdu
 
 Swiping left and right takes you to *People, Music, Apps* and *Videos.* All of the media based screens offer a selection of featured items as seen on the image above (Favourite people) as a carousel with a mix of local and recommended (online) items below it. The carousel spins fluidly and infinitely. It’s worth noting that with this preview there’s a lot of pre-installed media and contacts to give a view of how it’d look fully set up and in use. I like the idea of this though it’s easy enough to remove for those who wish to view only their own content [here](https://wiki.ubuntu.com/Touch/ReleaseNotes).
 
-[![device-2013-02-22-203432](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203432-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203432.png) [![device-2013-02-22-202937](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-202937-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-202937.png)
+[![device-2013-02-22-203432](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203432-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203432.png) 
+
+[![device-2013-02-22-202937](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-202937-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-202937.png)
 
 Most of the installed applications are HTML5 web apps which don’t fully reflect the experience one would get with native applications utilising hardware acceleration, though with the copious amount of dev work going on already, I’m sure this will quickly change.
 
 As for the preinstalled native applications I *could* test, there were two I particularly like. The Phone application which integrated the dialler, contacts and conversations, the latter being a mix of call logs and SMS messages per contact…
 
-[![device-2013-02-22-203024](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203024-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203024.png) [![device-2013-02-22-203006](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203006-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203006.png)
+[![device-2013-02-22-203024](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203024-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203024.png) 
+
+[![device-2013-02-22-203006](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203006-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203006.png)
 
 …and the gallery which fully embraced the swipe, allowing you to see more in all directions.
 
@@ -72,11 +76,15 @@ I can either swipe a short way across the screen to expose the app list or carry
 
 The notification bar is fairly unique in it’s approach also, allowing the user to slide from left to right while pulling down in order to access different panes.
 
-[![device-2013-02-22-203105](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203105-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203105.png) [![device-2013-02-22-204103](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-204103-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-204103.png)
+[![device-2013-02-22-203105](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203105-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203105.png) 
+
+[![device-2013-02-22-204103](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-204103-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-204103.png)
 
 And swiping up in most apps will reveal a menu for that application, as shown here with the browser:
 
-[![device-2013-02-22-203337](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203337-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203337.png) [![device-2013-02-22-234344](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-234344-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-234344.png)
+[![device-2013-02-22-203337](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203337-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203337.png) 
+
+[![device-2013-02-22-234344](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-234344-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-234344.png)
 
 And to top it off, even the camera works pretty well!
 

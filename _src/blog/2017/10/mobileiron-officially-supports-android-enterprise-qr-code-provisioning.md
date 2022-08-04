@@ -92,11 +92,15 @@ Mine hosted is 9.4.x, MobileIron’s is 9.5.1.0.
 
 This means the checksum is going to need to be updated more frequently, and I’m not sure how MobileIron are managing that but as they’ve been using this to date with the NFC payload, it’s probably no big deal.
 
-<div class="bs-callout bs-callout-success">### Admin signature is now used
+<div class="callout callout-success">
+
+### Admin signature is now used
 
 From Provisioner 1.3, MobileIron have switched over to Admin Signature Checksum. This means the QR code generated in-app will be valid for far longer!
 
-</div>Implementation
+</div>
+
+Implementation
 --------------
 
 The use of the Provisioner app for QR generation is an interesting one; I’d hoped EMM admins would be able to generate them directly from the Core/Cloud admin console either generically or as part of adding in a new device (wherein the admin extras for username could also be generated ad-hoc). Instead, admins will need to install the app on a device and generate them as required. Thankfully these can be shared over email or any other supported intent which doesn’t require the second device to be anywhere near those being provisioned which is a definite improvement over NFC.

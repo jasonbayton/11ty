@@ -26,7 +26,7 @@ LXD works perfectly fine with a directory-based storage backend, but both speed 
 
 In this article I’ll walk through the installation of LXD, ZFS and Bridge-Utils on Ubuntu 16.04 and configure LXD to use either a physical ZFS partition or loopback device combined with a bridged networking setup allowing for containers to pick up IP addresses via DHCP on the (v)LAN rather than a private subnet.
 
-<div class="bs-callout bs-callout-info">#### Before we begin
+<div class="callout callout-info">#### Before we begin
 
 This walkthrough assumes you already have a Ubuntu 16.04 server host set up and ready to work with. If you do not, please [download](http://www.ubuntu.com/download/server) and install it now.
 
@@ -218,21 +218,29 @@ Device     Boot    Start      End  Sectors  Size Id Type
 
 Make a note of the partition or drive to be used. In this example we’ll use partition `sdb1` on disk `/dev/sdb`
 
-<div class="bs-callout bs-callout-warning">#### Be aware
+<div class="callout callout-warning">
+
+#### Be aware
 
 If your disk/partition is currently formatted and mounted on the system, it will need to be unmounted with `sudo umount /path/to/mountpoint` before continuing, or LXD will error during configuration.
 
 Additionally if there’s an `fstab` entry this will need to be removed before continuing, otherwise you’ll see mount errors when you next reboot.
 
-</div>#### Configure LXD
+</div>
 
-<div class="bs-callout bs-callout-danger">#### Changes to bridge configuration
+#### Configure LXD
+
+<div class="callout callout-danger">
+
+#### Changes to bridge configuration
 
 As of LXD 2.5 there have been a few changes. If installing a version of LXD under 2.5 please continue below, however for 2.5 and above in order to use the pre-configured bridge select **No** for `Do you want to configure the LXD bridge (yes/no)?` then see **Configure LXD bridge (2.5+)** below for details of adding the bridge manually after this.
 
 Check the version of LXD by running `sudo lxc info`.
 
-</div>Start the configuration of LXD by running `sudo lxd init`
+</div>
+
+Start the configuration of LXD by running `sudo lxd init`
 
 ```
 jason@ubuntu-lxd-tut:~$ sudo lxd init
@@ -279,13 +287,13 @@ Where *some-secret-string* is a secure password that’ll be required by other L
 
 Here we tell LXD to use our already-preconfigured bridge. This opens a new workflow as follows:
 
-<div class="wp-caption alignnone" id="attachment_2728" style="width: 582px">![Screenshot from 2016-05-02 10-54-58](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-54-58.png)*We don’t want LXD to create a new bridge for us, so we’ll select **no** here.*
+![Screenshot from 2016-05-02 10-54-58](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-54-58.png)*We don’t want LXD to create a new bridge for us, so we’ll select **no** here.*
 
-</div><div class="wp-caption alignnone" id="attachment_2729" style="width: 582px">![Screenshot from 2016-05-02 10-55-09](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-09.png)*LXD now knows we may have our own bridge already set up, so we’ll select **yes** in order to declare it.*
+![Screenshot from 2016-05-02 10-55-09](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-09.png)*LXD now knows we may have our own bridge already set up, so we’ll select **yes** in order to declare it.*
 
-</div><div class="wp-caption alignnone" id="attachment_2730" style="width: 582px">![Screenshot from 2016-05-02 10-55-19](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-19.png)*Finally we’ll input the bridge name and select OK. LXD will now use this bridge.*
+![Screenshot from 2016-05-02 10-55-19](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-19.png)*Finally we’ll input the bridge name and select OK. LXD will now use this bridge.*
 
-</div>And with that, LXD will finish configuration and ready itself for use.
+And with that, LXD will finish configuration and ready itself for use.
 
 #### Configure LXD bridge (2.5+)
 
@@ -470,7 +478,7 @@ Are you brand new to LXD? I thoroughly recommend you take a look at LXD develope
 
 *If you spot any errors in the above, or have suggestions on how to improve this guide, feel free to reach out.*
 
-<div class="bs-callout bs-callout-info">#### Check out the comments!
+<div class="callout callout-info">#### Check out the comments!
 
 The comments below hold a wealth of questions, answers, benchmarks and examples from others who have followed this guide. If you’re still left unsure about something after reading up to this point, take a look below. If your concerns haven’t been addressed, leave a note and I’ll do my best to answer!
 

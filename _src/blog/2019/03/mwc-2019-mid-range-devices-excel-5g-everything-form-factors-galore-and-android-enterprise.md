@@ -33,7 +33,10 @@ Here are a few highlights of my 2 days!
 The rise of affordable devices
 ------------------------------
 
-<figure class="wp-block-image">![The Xperia 10 & 10 Plus](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174820_crop.jpg)<figcaption>The Xperia 10 &amp; 10 Plus</figcaption></figure>Not necessarily limited to MWC as this trend has been growing for a while, but MWC really started to bring it home.
+![The Xperia 10 & 10 Plus](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174820_crop.jpg)
+*The Xperia 10 &amp; 10 Plus*
+
+>Not necessarily limited to MWC as this trend has been growing for a while, but MWC really started to bring it home.
 
 Affordable phones are getting better all the time, coming down in price and more often than not offering decent, usable alternatives to the £1000 flagships for a fraction of the cost.
 
@@ -52,7 +55,13 @@ Generally, I’ve seen both Android One and Android Go adoption increase over th
 Form factors are interesting again 
 -----------------------------------
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column"><figure class="wp-block-image">![Samsung Galaxy Fold](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134651-2.jpg)<figcaption>Samsung Galaxy Fold</figcaption></figure></div><div class="wp-block-column"><figure class="wp-block-image">![Huawei Mate X](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135227-2.jpg)<figcaption>Huawei Mate X</figcaption></figure></div></div>You know I’m going to mention folding phones, so I’ll do so immediately.
+![Samsung Galaxy Fold](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134651-2.jpg)
+*Samsung Galaxy Fold*
+
+![Huawei Mate X](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135227-2.jpg)
+*Huawei Mate X*
+
+You know I’m going to mention folding phones, so I’ll do so immediately.
 
 They were at MWC, both Samsung’s Galaxy fold with the visible crease down the middle, and Huawei’s Mate X with the plastic external wrap-around screen that’s going to get *so* scratched to bits within days of using it I’d be afraid to take it out of the house (or possibly even out of my home-office, given I’ve got a 4 year old running around who enjoys playing “hide the phone”).
 
@@ -64,17 +73,26 @@ I might eat my words before then, and if so then it’ll be because foldable dev
 
 HTC showed off their 5G Hub, a small wireless 5G mifi, or mobile WiFi device supporting up to 20 connections complete with 5″ screen and running Android Pie.
 
-<figure class="wp-block-image">![HTC 5G Hub](https://r2_worker.bayton.workers.dev/uploads/2019/03/VLS_2189.0.jpg)<figcaption>Photo by Tom Warren / The Verge</figcaption></figure>In a form factor that resembles something akin to a small Google Home Hub, it comes with the added benefit of running full Android and a tablet-esque battery capacity of 7,660mAh. Not enormous considering the impact tethering can have on a device, but certainly should be enough when moving between locations.
+![HTC 5G Hub](https://r2_worker.bayton.workers.dev/uploads/2019/03/VLS_2189.0.jpg)
+*Photo by Tom Warren / The Verge*
+
+In a form factor that resembles something akin to a small Google Home Hub, it comes with the added benefit of running full Android and a tablet-esque battery capacity of 7,660mAh. Not enormous considering the impact tethering can have on a device, but certainly should be enough when moving between locations.
 
 On the subject of batteries, Energiser launched a collossal 18,000mAh battery phone, while not 5G, it could certainly tether for a bit longer than the hub above if so desired.. or really any other task longer than anything else on the market.
 
 There were also a number of rugged/semi-rugged (pro-sumer?) devices littering the halls, most notably CAT for me as I’d made time to have a chat due to an existing relationship through my [device testing efforts](/android/android-enterprise-device-support/), where I got to see them demonstrating the strength of their devices through an installation in the floor I’d already unknowingly trodden on:
 
-<figure class="wp-block-image">![The CAT lineup underfoot](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_5231.jpg)<figcaption>The CAT lineup underfoot</figcaption></figure>Though even just up the hall there were other brands showing off their own with their own installations (it was pretty clear devices “submerged in water” actually weren’t in some cases though. Tsk tsk.)
+![The CAT lineup underfoot](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_5231.jpg)
+*The CAT lineup underfoot*
+
+Though even just up the hall there were other brands showing off their own with their own installations (it was pretty clear devices “submerged in water” actually weren’t in some cases though. Tsk tsk.)
 
 The most exciting form factor for me, however, was the F(x)tec Pro<sup>1</sup> which I was invited to check out by the founders at a private event just outside MWC.
 
-<figure class="wp-block-image">![The F(x)tec Pro](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090547-2.jpg)<figcaption>The F(x)tec Pro 1</figcaption></figure>Designed by the team responsible for some earlier Nokia sliders, the Pro 1 felt oddly familiar yet modern, and despite BlackBerry’s many attempts at a QWERTY Android phone, none of them pique my interest in the way the Pro 1 does, why?
+![The F(x)tec Pro](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090547-2.jpg)
+*The F(x)tec Pro 1*
+
+Designed by the team responsible for some earlier Nokia sliders, the Pro 1 felt oddly familiar yet modern, and despite BlackBerry’s many attempts at a QWERTY Android phone, none of them pique my interest in the way the Pro 1 does, why?
 
 **Vanilla Android with zero bloat**, only very carefully considered modifications to improve the vanilla landscape experience
 
@@ -82,12 +100,17 @@ The most exciting form factor for me, however, was the F(x)tec Pro<sup>1</sup> w
 
 It runs the SnapDragon 835 prevalent amongst 2017 flagships, but benefits from flagship-level spec in other aspects, and F(x)tec have promised software support for the device (a requirement for [Android Enterprise Recommended](/android/what-is-android-enterprise-recommended/), just saying).
 
-<div class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/03/2019_03_22_11_12_28.gif)</div>When it launches in a few months, it’ll 100% become my daily driver, if for no other reason than to help support the company towards building a Pro 2!
+![](https://r2_worker.bayton.workers.dev/uploads/2019/03/2019_03_22_11_12_28.gif)
+
+When it launches in a few months, it’ll 100% become my daily driver, if for no other reason than to help support the company towards building a Pro 2!
 
 Android &amp; 5G
 ----------------
 
-<figure class="wp-block-image">![Netgear and their 5G mifi devices](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122702.jpg)<figcaption>Netgear and their 5G mifi devices</figcaption></figure>Did you know? Android is the first mobile OS to support 5G.
+![Netgear and their 5G mifi devices](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122702.jpg)
+*Netgear and their 5G mifi devices*
+
+Did you know? Android is the first mobile OS to support 5G.
 
 With support from Samsung with their Galaxy S10 5G, the Huawei Mate X, the LG V50 5G and more (with more pre-announced) 5G and Android went almost hand-in-hand at MWC.
 
@@ -121,21 +144,21 @@ Thanks to all who took the time to chat, demo their products or answer my many, 
 
 Until next year!
 
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_111501.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_111501-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_112526.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_112526-1140x1520.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133904.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133904-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134051.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134051-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134427.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134427-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135603.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135603-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_143454.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_143454-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174704.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174704-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090607.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090607-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090655.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090655-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_112755.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_112755-1140x1520.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_162657.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_162657-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122749.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122749-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_142932-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_142932-1-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134754-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134754-1-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134229.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134229-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133356-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133356-1-1140x855.jpg)</figure>
-- <figure>[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190228_223556.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190228_223556-1140x855.jpg)</figure>
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_111501.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_111501-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_112526.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_112526-1140x1520.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133904.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133904-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134051.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134051-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134427.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134427-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135603.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135603-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_143454.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_143454-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174704.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174704-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090607.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090607-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090655.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090655-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_112755.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_112755-1140x1520.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_162657.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_162657-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122749.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122749-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_142932-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_142932-1-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134754-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134754-1-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134229.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134229-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133356-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133356-1-1140x855.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190228_223556.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190228_223556-1140x855.jpg)

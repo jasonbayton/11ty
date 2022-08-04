@@ -24,12 +24,16 @@ discourse_permalink:
 tags:
     - Projects
 ---
-<div class="bs-callout bs-callout-default">#### Just tuning in?
+<div class="callout callout-default">
+
+#### Just tuning in?
 
 This is a multi-part build log for Project Obsidian: a <del>low power</del> Ubuntu 16.04 LTS NAS &amp; container server.  
 You’re currently viewing part 4. Head over to the [introduction ](/2016/06/part-0-project-obsidian-nas-app-server-build/)for context and contents.
 
-</div>A new direction
+</div>
+
+A new direction
 ---------------
 
 It’s worth mentioning before I go any further that Obsidian has been up and running since around August last year in one way or another – decommissioning other builds (more below) left me no choice as maintaining two systems ultimately doing the same thing was only going to lead to problems. It hasn’t been perfect however, leading me to re-evaluate my wants and needs for the build as 2017 approached.
@@ -111,10 +115,18 @@ The finished product
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-7"><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_14_59_15_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_14_59_15_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_02_32_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_02_32_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_29_Rich-e1484493465508.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_29_Rich-e1484493465508.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_16_Rich-e1484493536396.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_16_Rich-e1484493536396.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_42_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_42_Rich-e1485260516602.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_03_07_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_03_07_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_02_38_Rich-e1484493487609.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_02_38_Rich-e1484493487609.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_05_35_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_05_35_Rich.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_05_42_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_05_42_Rich.jpg) </dt></dl>   
- </div>Now with the build finally out of the way, the next posts in the series will concentrate on software and configuration!
+<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-7"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_14_59_15_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_14_59_15_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_02_32_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_02_32_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_29_Rich-e1484493465508.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_29_Rich-e1484493465508.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_16_Rich-e1484493536396.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_16_Rich-e1484493536396.jpg) </dt></dl>  
+<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_42_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_00_42_Rich-e1485260516602.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_03_07_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_03_07_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_02_38_Rich-e1484493487609.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_02_38_Rich-e1484493487609.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_05_35_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_05_35_Rich.jpg) </dt></dl>  
+<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+
+[![](https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_05_42_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/01/WP_20170115_15_05_42_Rich.jpg) </dt></dl>   
+</div>
+ 
+Now with the build finally out of the way, the next posts in the series will concentrate on software and configuration!
 
 Sponsors
 --------
