@@ -1,5 +1,4 @@
 /docs/enterprise-mobility/android /android 301
-/docs/enterprise-mobility/android/* /android/:splat 301
 /docs/enterprise-mobility/mobileiron/setup-kerberos-authentication-on-mobileiron-core-for-android-enterprise /android/setup-kerberos-authentication-on-mobileiron-core-for-android-enterprise 301
 /docs/enterprise-mobility/mobileiron/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron /android/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron 301
 /docs/enterprise-mobility/general/8-tips-for-a-successful-emm-deployment /blog/2017/04/8-tips-for-a-successful-emm-deployment.md 301
@@ -8,6 +7,10 @@
 /docs/enterprise-mobility/ios/what-is-ios-supervision-and-why-is-it-used /blog/2017/02/what-is-ios-supervision-and-why-is-it-used 301
 /docs/enterprise-mobility/mobileiron/deploying-mobileiron-9-1-on-kvm /blog/2016/10/deploying-mobileiron-9-1-on-kvm 301
 /blog/2017/02/what-is-android-enterprise-android-for-work-and-why-is-it-used/ /android/what-is-android-enterprise-and-why-is-it-used 301
+/docs/enterprise-mobility/ios/* /android/ 301
+/docs/enterprise-mobility/general/* /android/ 301
+/docs/enterprise-mobility/infrastructure/* /android/ 301
+/docs/enterprise-mobility/mobileiron/* /android/ 301
+/docs/enterprise-mobility/android/* /android/:splat 301
 /20* /blog/20:splat 301
 /category/* /tag/:splat 301
-/docs/enterprise-mobility/* /android/ 301
