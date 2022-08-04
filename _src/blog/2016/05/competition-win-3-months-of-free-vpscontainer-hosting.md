@@ -55,7 +55,7 @@ For a chance to win, these steps *must* be completed by **15/06/2016**:
 The rules
 =========
 
-ElasticHosts’ updated T&amp;C’s can be found [here](/download/EHTermsConditions-updated.pdf).
+ElasticHosts’ updated T&amp;C’s can be found [here](https://r2_worker.bayton.workers.dev/download/EHTermsConditions-updated.pdf).
 
 The winner will be selected within 14 days of the competition ending and contacted via tweet to the provided @handle once the prize can be redeemed.
 
@@ -80,7 +80,7 @@ The winner will be selected within 14 days of the competition ending and contact
 <del>The rules</del>
 ====================
 
-<del>As this is a corporately sponsored competition, there are terms and conditions. ElasticHosts’ T&amp;C’s can be found [here](/download/EHTermsConditions.pdf).</del>
+<del>As this is a corporately sponsored competition, there are terms and conditions. ElasticHosts’ T&amp;C’s can be found [here](https://r2_worker.bayton.workers.dev/download/EHTermsConditions.pdf).</del>
 
 <del>Some key points:</del>
 ---------------------------

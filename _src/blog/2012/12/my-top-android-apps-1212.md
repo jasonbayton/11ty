@@ -66,7 +66,7 @@ Thumb Keyboard
 
 Thumb Keyboard has typically always been known as a tablet keyboard. More recently however they’ve been adding support for more and more screen sizes. The layouts can be customised both in shape and style and work really well for thumb based typing on several devices I’ve installed it on. Naturally the right keyboard is different for every person, however for the larger (4.5″ +) devices, I recommend giving this one a go.
 
-[Here](/download/tkb_settings.xml) are the default settings I use (save to SDCARD/ThumbKeyboard). Import them from the settings menu. (Note: I type fast, hold the key too long and it’ll jump to another character). Try it both with and without my settings if you’re going to try the app.
+[Here](https://r2_worker.bayton.workers.dev/download/tkb_settings.xml) are the default settings I use (save to SDCARD/ThumbKeyboard). Import them from the settings menu. (Note: I type fast, hold the key too long and it’ll jump to another character). Try it both with and without my settings if you’re going to try the app.
 
 Thumb Keyboard is available for **£0.96 during a 50% off period** in the [Play Store](https://play.google.com/store/apps/details?id=com.beansoft.keyboardplus&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5iZWFuc29mdC5rZXlib2FyZHBsdXMiXQ..).
 

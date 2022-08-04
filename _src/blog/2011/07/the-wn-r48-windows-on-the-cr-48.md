@@ -48,8 +48,8 @@ What you’ll need:
 A small Philips head screwdriver  
 An external DVD drive  
 An SD card/USB stick  
-The [Insyde BIOS firmware](/download/cr48.bin.tar.gz "Insyde BIOS firmware")  
-[Synaptics driver  ](/download/sp47815_touchpad.exe "Synaptics Driver")Tape
+The [Insyde BIOS firmware](https://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz "Insyde BIOS firmware")  
+[Synaptics driver  ](https://r2_worker.bayton.workers.dev/download/sp47815_touchpad.exe "Synaptics Driver")Tape
 
 If you haven’t already, you’ll need to hack the Cr48 to allow you to install the Insyde BIOS firmware before you can install anything other than Chrome OS. Here are the instructions for that:
 
@@ -63,7 +63,7 @@ Once you’ve fixed the BIOS check (I used tape) and re-assembled your Cr, we ca
 
 Boot back into Ubuntu.
 
-Download the new BIOS from here: [www.bayton.org/download/cr48.bin.tar.gz](/download/cr48.bin.tar.gz)
+Download the new BIOS from here: [www.bayton.orghttps://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz](https://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz)
 
 Open Terminal and Install flashrom by typing ***sudo apt-get install flashrom***
 
@@ -88,7 +88,7 @@ If you’re connected to the net, it will find it. After this you’ll need to r
 
 The tech-savvy amongst you may ask “Why go through that when one can click Start &gt; Right Click on Computer and click “Manage” to get the device manager?” – Well, you see, you don’t yet have right click. You could also bring device manager up through the run prompt, but I like the way I’ve explained, anyway.. No right click – which brings us on to the next hurdle..
 
-If you haven’t already from the link above, please download the modified Synaptics driver [here](/download/sp47815_touchpad.exe "here"). Install this and reboot if required. Once completed (including a reboot, if necessary) head over to Control Panel &gt; Hardware and Sound and click the Mouse link in the submenu. You’ll see a Synaptics tab – here you can enable right click, scrolling and 3 finger application launch.
+If you haven’t already from the link above, please download the modified Synaptics driver [here](https://r2_worker.bayton.workers.dev/download/sp47815_touchpad.exe "here"). Install this and reboot if required. Once completed (including a reboot, if necessary) head over to Control Panel &gt; Hardware and Sound and click the Mouse link in the submenu. You’ll see a Synaptics tab – here you can enable right click, scrolling and 3 finger application launch.
 
 **A word to the wise**, two finger tap for right click doesn’t appear to be an option. You can do it one (or both) of two ways..  
 1\) Enable touch zones on the trackpad and assign a zone to right click  

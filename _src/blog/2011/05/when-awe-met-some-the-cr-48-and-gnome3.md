@@ -52,7 +52,7 @@ Once you’ve fixed the BIOS check (I used tape) and re-assembled your Cr, we ca
 
 Boot back into Ubuntu.
 
-Download the new BIOS from here: [bayton.org/download/cr48.bin.tar.gz](/download/cr48.bin.tar.gz)
+Download the new BIOS from here: [https://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz](https://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz)
 
 Open Terminal and Install flashrom by typing ***sudo apt-get install flashrom***
 

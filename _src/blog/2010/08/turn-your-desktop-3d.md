@@ -39,7 +39,7 @@ Getting it isn’t overly easy unfortunately, since Google bought the company ([
 Test it out and let me know what you think!  
 I also have the pro version, but you’ll need to [contact me](mailto:jason@bayton.org) to get that.
 
-**Download BumpTop here:** [**DOWNLOAD**](/download/BumpTop.rar)
+**Download BumpTop here:** [**DOWNLOAD**](https://r2_worker.bayton.workers.dev/download/BumpTop.rar)
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2010/08/bumptop.png "bumptop")
 

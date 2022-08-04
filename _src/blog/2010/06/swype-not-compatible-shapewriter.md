@@ -50,7 +50,7 @@ Now, you see where I said you’ll need to find an alternative download location
 
 Just for you, an alternate download location is right **here**.
 
-[![download](https://r2_worker.bayton.workers.dev/uploads/2010/06/download_grafik-ii.jpg "download_grafik-ii")](/download/com.shapewriter.android.softkeyboard.apk)Download ShapeWriter
+[![download](https://r2_worker.bayton.workers.dev/uploads/2010/06/download_grafik-ii.jpg "download_grafik-ii")](https://r2_worker.bayton.workers.dev/download/com.shapewriter.android.softkeyboard.apk)Download ShapeWriter
 
 **Mobile Download:** 
 

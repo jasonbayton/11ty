@@ -35,7 +35,7 @@ Windows 7 is fantastic, on 9/10 machines I install it to it’ll install with no
 
 Today I’ll quickly cover a simple fix for making sure you’re not left with a completely useless display after installing Windows 7 onto an old Dell. The model in particular I mention is the Dell Optiplex GX260. I mention this as I fixed the issue earlier this evening. If everything else is working as you’d expect, but no matter what you do the display is showing? up oversized and pixelated, fear not! Here’s what you do:
 
-- [Download this file](/download/R67150.EXE "Dell display driver") and run it.
+- [Download this file](https://r2_worker.bayton.workers.dev/download/R67150.EXE "Dell display driver") and run it.
 - Allow it to extract to **C:\\dell\\drivers.**
 - Navigate to **C:\\dell\\drivers\\r67150.**
 - Right click on **setup.exe** and select properties.

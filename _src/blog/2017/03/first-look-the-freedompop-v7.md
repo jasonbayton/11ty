@@ -115,7 +115,7 @@ As for FreedomPop’s provisioning, I’d have hoped for better; sending out dev
 
 If you buy a v7 through FreedomPop, I’d suggest factory resetting it on receipt, you can then reinstall the missing apps by downloading the following zip:
 
-[FreedomPop Apps](/download/FreedomPOP.zip)
+[FreedomPop Apps](https://r2_worker.bayton.workers.dev/download/FreedomPOP.zip)
 
 \*This is what they say, how long it actually lasts we’ll have to wait and see, though it’s been a few years so far. The free for life offer includes 200 minutes, 200 texts and 200MB data.
 

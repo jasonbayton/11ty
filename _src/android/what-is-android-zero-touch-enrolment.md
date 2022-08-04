@@ -62,4 +62,4 @@ The below demonstrates zero-touch configured on a new, out-of-the-box Sony Xperi
 
 <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/OP-Szl2nPEc?feature=oembed" title="Android enterprise zero-touch walkthrough" width="500">
 
-The above video process is documented in my [zero-touch provisioning guide](/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf). All guides can be found under [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/).
+The above video process is documented in my [zero-touch provisioning guide](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf). All guides can be found under [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/).

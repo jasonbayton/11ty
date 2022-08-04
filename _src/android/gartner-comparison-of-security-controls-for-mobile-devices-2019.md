@@ -23,7 +23,7 @@ A recreated version
 
 As the original suffers with poor image quality I’ve created the following copy for educational purposes. Feel free to click the image for the PDF version:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Gartner-Comparison-of-Security-Controls-2019-copy-1.jpg)](http:/download/doc/ae-general/Gartner_Comparison_of_Security_Controls_2019.pdf)
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Gartner-Comparison-of-Security-Controls-2019-copy-1.jpg)](https://r2_worker.bayton.workers.dev/download/doc/ae-general/Gartner_Comparison_of_Security_Controls_2019.pdf)
 
 The originals
 -------------

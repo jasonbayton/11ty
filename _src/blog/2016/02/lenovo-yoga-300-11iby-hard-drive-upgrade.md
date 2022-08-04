@@ -22,7 +22,7 @@ I recently took delivery of a Lenovo Yoga 300, the lower-end model of their impr
 
 This otherwise perfectly usable Laptop with 4GB RAM and a Celeron N2840 chip unfortunately ships with a traditional WD Blue hard drive (at the time of writing) and it’s noticeable. With a slower processor, the least I could do to alleviate some of that performance bottleneck is swap the HDD out with a nice, speedy SSD.
 
-The reason I’m documenting this is due to the lack of information online. I ended up following the [official service manual](/download/lenovo_yoga_300_hmm_201510.pdf) supplied by Lenovo which still leaves a little to be desired, though allowed me to get the job done.
+The reason I’m documenting this is due to the lack of information online. I ended up following the [official service manual](https://r2_worker.bayton.workers.dev/download/lenovo_yoga_300_hmm_201510.pdf) supplied by Lenovo which still leaves a little to be desired, though allowed me to get the job done.
 
 The below is documented under the assumption that:
 
