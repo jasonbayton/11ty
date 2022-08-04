@@ -11,6 +11,7 @@ tags:
 
 {% for year, yearPosts in collections.postsByYear %}
   <h2 class="section-title year-heading">{{ year }}</h2>
+  <hr>
     {% for post in yearPosts | reverse %}
         {% if post in collections.blog %}
         <div class="post-block">

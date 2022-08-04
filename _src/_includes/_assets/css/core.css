@@ -470,12 +470,6 @@ section#trusted_logos #trusted_container {
   padding-top: 8px;
 }
 
-/*#post-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px;
-}*/
-
 #post_container {
   padding-top: 30px;
 }
@@ -600,9 +594,10 @@ footer {
 .is-position-fixed{position:fixed !important;top:0}
 .toc-link::before{background-color:#EEE;content:' ';display:inline-block;height:inherit;left:0;margin-top:-1px;position:absolute;width:2px}
 ul.toc-list {list-style-type: none;}
-ul.toc-list li {list-style-type: none;padding: 5px 0}
+ul.toc-list li {list-style-type: none;padding: 10px 0}
 ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 #inline_toc { display: none; }
+a.toc-link { text-decoration: none; }
 
 /* Fitvids plugin */
 .fitVids-wrapper {

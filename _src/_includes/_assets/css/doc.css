@@ -33,6 +33,24 @@ content#archive {
     font-size: 28px;
 }
 
+#aside_docs ul li a {
+    text-decoration: none;
+}
+
+#aside_docs ul li {
+    padding: 5px 0;
+}
+
+#aside_docs ul {
+    padding-left: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+.docnav-topic-title {
+    font-weight: 700;
+}
+
 .section-title {
     margin: 0;
     font-size: 36px;
