@@ -251,10 +251,10 @@ button {
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
-  /* border-bottom: 2px solid var(--text); */
   grid-template-columns: 1fr 5fr 60px 60px;
   color: var(--text);
   align-items: center;
+  min-height: 100px;
 }
 
 nav #nav_links {
