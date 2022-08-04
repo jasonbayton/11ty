@@ -10,6 +10,7 @@
 /docs/enterprise-mobility/ios/* /android/ 301
 /docs/enterprise-mobility/general/* /android/ 301
 /docs/enterprise-mobility/infrastructure/* /android/ 301
+/docs/enterprise-mobility/mobileiron/* /android/ 301
 /docs/enterprise-mobility/android/* /android/:splat 301
 /20* /blog/20:splat 301
 /category/* /tag/:splat 301
