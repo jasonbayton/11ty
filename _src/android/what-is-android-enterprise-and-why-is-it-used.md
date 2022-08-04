@@ -50,7 +50,9 @@ Enter Android Enterprise
 
 ### Android vs Android Enterprise
 
-Android and Android Enterprise are not separate products; unlike Android TV (now Google TV), Android Auto, Android Automotive, Android Wear (WearOS) or other Android editions, Android Enterprise as a solution is simply a part of Android. Furthermore, Android Enterprise isn’t Android management in and of itself, it’s a set of APIs that require a modern EMM in order to properly manage them. </div>*Or, as it was until 2016, Android for Work.*
+Android and Android Enterprise are not separate products; unlike Android TV (now Google TV), Android Auto, Android Automotive, Android Wear (WearOS) or other Android editions, Android Enterprise as a solution is simply a part of Android. Furthermore, Android Enterprise isn’t Android management in and of itself, it’s a set of APIs that require a modern EMM in order to properly manage them. </div>
+
+*Or, as it was until 2016, Android for Work.*
 
 Android Enterprise debuted with 5.0 (Lollipop) in 2014 as an optional\* solution manufacturers could integrate in order to provide a common set of device management APIs. From 6.0 (Marshmallow) it was no longer optional and has since been a mandatory component for all [GMS-certified](/android/android-glossary/#gms-certified-certification) manufacturers. There are still *some* optional components for Android Enterprise today and the occasional feature released only for newer versions of Android, however these have little impact on core management, and in some instances these features even find their way into Google Play services, allowing them to be deployed without direct OEM support.
 
@@ -78,7 +80,7 @@ Enabling Android Enterprise
 
 There are two ways of enabling Android Enterprise, the first and original is through a G Suite managed domain referred to as *managed Google accounts* that requires either an existing G Suite subscription or a free single-user account used for little more than initial setup and, optionally, managed app approval. If domain verification hasn’t already been done through G Suite, the business will need to undertake a couple of tasks to prove they own the domain they’re setting AE up against, followed by a bit of integration work with the EMM platform of choice (if not via G Suite directly!)
 
-The second and newer method is *managed Google Play accounts* and works with any Google account (@gmail.com – or better you@company.com set[ up as a Google account](https://accounts.google.com/signup)) – No domain verification required, takes practically minutes to set up and the EMM manages the individual Android Enterprise accounts on the managed devices, meaning there’s no need for additional Google accounts or G Suite user management. Furthermore, because the EMM manages account provisioning, Google doesn’t associate the accounts to any particular user and privacy is enhanced as a result.
+The second and newer method is *managed Google Play accounts* and works with any Google account (@gmail.com – or better you@company.com set [up as a Google account](https://accounts.google.com/signup)) – No domain verification required, takes practically minutes to set up and the EMM manages the individual Android Enterprise accounts on the managed devices, meaning there’s no need for additional Google accounts or G Suite user management. Furthermore, because the EMM manages account provisioning, Google doesn’t associate the accounts to any particular user and privacy is enhanced as a result.
 
 Whichever method is used, it’s then possible (but not necessarily required for managed Google accounts since G Suite has bundled EMM functionality) to link one of many existing EMM platforms which support AE and configure the corporate Play Store, Managed Google Play.
 
