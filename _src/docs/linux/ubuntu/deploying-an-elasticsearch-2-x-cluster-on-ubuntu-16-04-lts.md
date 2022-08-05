@@ -1,6 +1,6 @@
 ---
 title: 'Deploying an ElasticSearch 2.x cluster on Ubuntu 16.04 LTS'
-date: '2017-04-15T22:09:00+01:00'
+published: '2017-04-15T22:09:00+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Create and manage private apps for Android Enterprise'
-date: '2018-12-27T15:40:20+00:00'
+published: '2018-12-27T15:40:20+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

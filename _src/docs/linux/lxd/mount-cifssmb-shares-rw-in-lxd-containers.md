@@ -1,6 +1,6 @@
 ---
 title: 'Mount CIFS/SMB shares RW in LXD containers'
-date: '2017-04-15T22:03:10+01:00'
+published: '2017-04-15T22:03:10+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

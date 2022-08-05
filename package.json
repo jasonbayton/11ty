@@ -16,6 +16,7 @@
     "markdown-it-anchor": "^8.6.4"
   },
   "dependencies": {
-    "elasticlunr": "^0.9.5"
+    "elasticlunr": "^0.9.5",
+    "eleventy-plugin-date": "^1.0.0"
   }
 }

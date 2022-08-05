@@ -4,6 +4,8 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const _ = require("lodash");
+const pluginDate = require('eleventy-plugin-date');
+const dates = require("./_src/_data/dates.js");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
@@ -11,6 +13,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
   eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
+  eleventyConfig.addPlugin(pluginDate);
+  eleventyConfig.addFilter("dateYear", dates.dateYear);
+  eleventyConfig.addFilter("dateISO", dates.dateISO);
+  eleventyConfig.addFilter("dateFeed", dates.dateFeed);
+  eleventyConfig.addFilter("dateFull", dates.dateFull);
+  eleventyConfig.addFilter("dateFormat", dates.dateFormat);
   eleventyConfig.addPlugin(timeToRead, {
     speed: '1000 characters per minute',
     language: 'en',

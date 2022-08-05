@@ -1,6 +1,6 @@
 ---
 title: 'LXD, ZFS and bridged networking on Ubuntu 16.04 LTS+'
-date: '2017-04-15T22:02:01+01:00'
+published: '2017-04-15T22:02:01+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

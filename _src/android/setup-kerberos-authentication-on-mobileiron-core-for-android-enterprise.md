@@ -1,6 +1,6 @@
 ---
 title: 'Setup Kerberos Authentication on MobileIron Core for Android Enterprise'
-date: '2019-03-18T13:00:47+00:00'
+published: '2019-03-18T13:00:47+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

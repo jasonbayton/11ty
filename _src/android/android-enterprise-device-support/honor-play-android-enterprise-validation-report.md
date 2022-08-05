@@ -1,6 +1,6 @@
 ---
 title: 'Honor Play Android Enterprise validation report'
-date: '2019-03-27T11:14:48+00:00'
+published: '2019-03-27T11:14:48+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

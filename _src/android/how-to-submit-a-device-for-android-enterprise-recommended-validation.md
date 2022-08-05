@@ -1,6 +1,6 @@
 ---
 title: 'How to submit a device for Android Enterprise Recommended validation'
-date: '2019-05-13T15:52:27+01:00'
+published: '2019-05-13T15:52:27+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

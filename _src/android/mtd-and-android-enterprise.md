@@ -1,6 +1,6 @@
 ---
 title: 'Considerations when deploying MTD with Android Enterprise'
-date: '2018-10-26T09:34:10+01:00'
+published: '2018-10-26T09:34:10+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise zero-touch DPC extras collection'
-date: '2019-01-08T22:20:58+00:00'
+published: '2019-01-08T22:20:58+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

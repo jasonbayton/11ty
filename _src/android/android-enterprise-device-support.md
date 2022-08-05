@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise device testing'
-date: '2017-07-16T20:06:39+01:00'
+published: '2017-07-16T20:06:39+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

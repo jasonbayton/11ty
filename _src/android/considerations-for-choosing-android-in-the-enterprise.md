@@ -1,6 +1,6 @@
 ---
 title: 'Considerations for choosing Android in the Enterprise'
-date: '2019-02-22T21:59:20+00:00'
+published: '2019-02-22T21:59:20+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

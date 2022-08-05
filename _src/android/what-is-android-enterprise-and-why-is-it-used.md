@@ -1,6 +1,6 @@
 ---
 title: 'What is Android Enterprise?'
-date: '2017-04-07T19:42:57+01:00'
+published: '2017-04-07T19:42:57+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

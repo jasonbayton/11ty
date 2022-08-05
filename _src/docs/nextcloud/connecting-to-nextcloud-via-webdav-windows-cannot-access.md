@@ -1,6 +1,6 @@
 ---
 title: 'Connecting to Nextcloud via webDAV: "Windows cannot access.."'
-date: '2017-07-13T09:20:37+01:00'
+published: '2017-07-13T09:20:37+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

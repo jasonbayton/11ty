@@ -1,6 +1,6 @@
 ---
 title: 'Set up a network bridge - Ubuntu 12.04 LTS +'
-date: '2017-04-15T22:04:25+01:00'
+published: '2017-04-15T22:04:25+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

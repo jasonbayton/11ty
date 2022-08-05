@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise FAQ'
-date: '2019-04-26T16:39:55+01:00'
+published: '2019-04-26T16:39:55+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

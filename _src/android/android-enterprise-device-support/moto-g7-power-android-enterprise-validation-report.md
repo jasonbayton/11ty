@@ -1,6 +1,6 @@
 ---
 title: 'Moto G7 Power Android Enterprise validation report'
-date: '2019-05-28T00:12:11+01:00'
+published: '2019-05-28T00:12:11+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

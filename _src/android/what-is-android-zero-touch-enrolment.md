@@ -1,6 +1,6 @@
 ---
 title: 'What is Android zero-touch enrolment?'
-date: '2017-10-27T00:15:27+01:00'
+published: '2017-10-27T00:15:27+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

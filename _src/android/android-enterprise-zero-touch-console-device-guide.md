@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise zero-touch console administration guide'
-date: '2017-10-29T22:08:13+00:00'
+published: '2017-10-29T22:08:13+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

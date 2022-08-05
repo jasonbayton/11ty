@@ -1,6 +1,6 @@
 ---
 title: 'Feature spotlight: Android Smartlock'
-date: '2018-08-06T21:36:00+01:00'
+published: '2018-08-06T21:36:00+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Managed Google Play, whitelist or blacklist?'
-date: '2019-06-30T22:52:15+01:00'
+published: '2019-06-30T22:52:15+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

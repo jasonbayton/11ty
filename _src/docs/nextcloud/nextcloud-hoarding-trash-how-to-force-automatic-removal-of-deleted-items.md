@@ -1,6 +1,6 @@
 ---
 title: 'Nextcloud hoarding trash - how to force automatic removal of deleted items'
-date: '2017-10-01T23:31:10+01:00'
+published: '2017-10-01T23:31:10+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

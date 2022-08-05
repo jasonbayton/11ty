@@ -1,6 +1,6 @@
 ---
 title: 'Feature spotlight: Factory Reset Protection'
-date: '2018-09-07T13:03:57+01:00'
+published: '2018-09-07T13:03:57+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Android glossary'
-date: '2018-01-26T00:49:17+00:00'
+published: '2018-01-26T00:49:17+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

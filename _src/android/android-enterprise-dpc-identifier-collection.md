@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise DPC identifier collection'
-date: '2018-10-28T22:45:25+00:00'
+published: '2018-10-28T22:45:25+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Create and manage web apps for Android Enterprise'
-date: '2018-12-27T14:09:47+00:00'
+published: '2018-12-27T14:09:47+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

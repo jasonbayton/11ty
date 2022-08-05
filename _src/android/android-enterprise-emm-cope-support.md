@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise EMM COPE support'
-date: '2019-10-07T12:12:31+01:00'
+published: '2019-10-07T12:12:31+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

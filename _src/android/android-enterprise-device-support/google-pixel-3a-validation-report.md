@@ -1,6 +1,6 @@
 ---
 title: 'Google Pixel 3a Android Enterprise validation report'
-date: '2019-05-15T17:48:05+01:00'
+published: '2019-05-15T17:48:05+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

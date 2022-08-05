@@ -1,6 +1,6 @@
 ---
 title: 'POCO F1 Android Enterprise validation report'
-date: '2018-11-14T22:10:04+00:00'
+published: '2018-11-14T22:10:04+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

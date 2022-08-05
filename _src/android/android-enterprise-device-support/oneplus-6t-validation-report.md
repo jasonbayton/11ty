@@ -1,6 +1,6 @@
 ---
 title: 'OnePlus 6T Android Enterprise validation report'
-date: '2018-11-09T12:40:58+00:00'
+published: '2018-11-09T12:40:58+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

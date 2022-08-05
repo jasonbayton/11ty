@@ -1,6 +1,6 @@
 ---
 title: 'Nexcloud behind a proxy: fixing mixed-content warnings with SSL'
-date: '2017-06-03T22:17:10+01:00'
+published: '2017-06-03T22:17:10+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

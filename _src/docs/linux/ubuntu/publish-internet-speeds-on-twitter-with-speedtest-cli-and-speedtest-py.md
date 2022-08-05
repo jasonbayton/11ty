@@ -1,6 +1,6 @@
 ---
 title: 'Publish internet speeds on Twitter with speedtest-cli and speedtest.py'
-date: '2017-06-01T19:31:16+01:00'
+published: '2017-06-01T19:31:16+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

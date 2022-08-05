@@ -1,6 +1,6 @@
 ---
 title: 'How to locate a private Android app assigned to an organisation ID'
-date: '2021-02-17T13:04:32+00:00'
+published: '2021-02-17T13:04:32+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Set up Samba - Ubuntu 12.04+'
-date: '2017-06-03T20:51:27+01:00'
+published: '2017-06-03T20:51:27+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Considerations when migrating from device administrator to Android Enterprise'
-date: '2017-12-17T22:50:56+00:00'
+published: '2017-12-17T22:50:56+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

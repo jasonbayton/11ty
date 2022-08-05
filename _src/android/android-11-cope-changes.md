@@ -1,6 +1,6 @@
 ---
 title: 'Android 11 COPE changes'
-date: '2020-03-07T22:58:36+00:00'
+published: '2020-03-07T22:58:36+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

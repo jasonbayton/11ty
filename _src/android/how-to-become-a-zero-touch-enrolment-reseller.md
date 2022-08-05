@@ -1,6 +1,6 @@
 ---
 title: 'How to become a zero-touch enrolment reseller'
-date: '2018-11-27T16:59:03+00:00'
+published: '2018-11-27T16:59:03+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

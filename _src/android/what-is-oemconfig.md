@@ -1,6 +1,6 @@
 ---
 title: 'What is OEMConfig?'
-date: '2018-06-10T21:52:18+01:00'
+published: '2018-06-10T21:52:18+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise provisioning guides'
-date: '2017-08-30T01:52:42+01:00'
+published: '2017-08-30T01:52:42+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

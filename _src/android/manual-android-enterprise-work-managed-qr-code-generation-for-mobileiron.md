@@ -1,6 +1,6 @@
 ---
 title: 'Manual Android Enterprise work-managed QR code generation for MobileIron'
-date: '2017-08-05T22:49:14+01:00'
+published: '2017-08-05T22:49:14+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

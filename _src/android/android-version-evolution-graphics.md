@@ -1,6 +1,6 @@
 ---
 title: 'Android version evolution graphics'
-date: '2017-10-04T11:57:21+01:00'
+published: '2017-10-04T11:57:21+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

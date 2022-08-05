@@ -1,6 +1,6 @@
 ---
 title: 'Install Bash on Windows 10 (build 14316+)'
-date: '2017-04-15T23:24:16+01:00'
+published: '2017-04-15T23:24:16+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

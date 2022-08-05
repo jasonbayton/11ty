@@ -74,6 +74,20 @@ content#archive {
     justify-self: end
 }
 
+.meta-tiny {
+    font-size: 10px;
+    display: block;
+}
+
+.meta-single svg {
+    width: 20px;
+}
+
+.meta-single .meta-tiny svg {
+    width: 10px;
+}
+
+
 .base-title {
     font-size: 80px;
     font-weight: 900;

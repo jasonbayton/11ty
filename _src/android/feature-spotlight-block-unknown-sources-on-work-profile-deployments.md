@@ -1,6 +1,6 @@
 ---
 title: 'Feature spotlight: Block unknown sources on work profile deployments'
-date: '2018-11-30T23:22:42+00:00'
+published: '2018-11-30T23:22:42+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

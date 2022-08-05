@@ -1,6 +1,6 @@
 ---
 title: 'Sony Xperia L3 Android Enterprise validation report'
-date: '2019-06-15T22:57:23+01:00'
+published: '2019-06-15T22:57:23+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

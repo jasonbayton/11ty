@@ -1,6 +1,6 @@
 ---
 title: 'Gartner comparison of security controls for mobile devices 2019'
-date: '2019-05-21T22:38:35+01:00'
+published: '2019-05-21T22:38:35+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

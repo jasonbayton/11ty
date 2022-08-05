@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise vs Device Admin: Why DA is no longer suitable'
-date: '2019-03-27T16:53:58+00:00'
+published: '2019-03-27T16:53:58+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Infobyte: Did you know? Android Enterprise deployment scenarios'
-date: '2018-10-18T21:31:33+01:00'
+published: '2018-10-18T21:31:33+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

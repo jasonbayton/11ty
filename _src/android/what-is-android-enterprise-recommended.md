@@ -1,6 +1,6 @@
 ---
 title: 'What is Android Enterprise Recommended?'
-date: '2018-03-03T22:45:08+00:00'
+published: '2018-03-03T22:45:08+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

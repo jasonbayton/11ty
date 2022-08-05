@@ -1,6 +1,6 @@
 ---
 title: 'What is Android One?'
-date: '2019-07-01T14:21:52+01:00'
+published: '2019-07-01T14:21:52+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

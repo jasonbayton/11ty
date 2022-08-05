@@ -1,6 +1,6 @@
 ---
 title: 'Android Enterprise independent validation process and information'
-date: '2017-11-06T12:50:37+00:00'
+published: '2017-11-06T12:50:37+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
