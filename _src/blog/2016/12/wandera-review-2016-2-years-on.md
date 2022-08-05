@@ -93,7 +93,9 @@ EMMC once connected will generate a unique EMM label to be created within the EM
 
 Wandera Groups, much like groups or labels in EMM products, allow for multiple unique policies to be applied to devices based on group membership and dramatically increase the flexibility of the platform. Data policies can then be set according to department, operating system and more.
 
-</div>As of publishing, EMMC only works with iOS devices and while silent provisioning is an option, it requires the devices be Supervised and/or enrolled onto Apple’s Device Enrolment Program (DEP); non-supervised iOS users will be prompted to manually allow the installation of the relevant profiles, a familiar process for those who have previously enrolled onto an EMM platform.
+</div>
+
+As of publishing, EMMC only works with iOS devices and while silent provisioning is an option, it requires the devices be Supervised and/or enrolled onto Apple’s Device Enrolment Program (DEP); non-supervised iOS users will be prompted to manually allow the installation of the relevant profiles, a familiar process for those who have previously enrolled onto an EMM platform.
 
 A further benefit of Supervision is the ability to manage not only mobile data but WIFI also. It has long been the case that no matter what rules are put in place to block access to various services, switching on WIFI circumvents it all. Once Supervised this is no longer the case.
 

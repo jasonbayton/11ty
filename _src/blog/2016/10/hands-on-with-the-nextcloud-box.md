@@ -33,7 +33,9 @@ Nextcloud is a fork of ownCloud that’s quickly becoming the newer, better and 
 
 Some of the previously enterprise-only features released as part of the standard FOSS Nextcloud installation include FileDrop, an alternative to Dropbox’s “File Requests”, two-factor authentication and LibreOffice online, an alternative to Google Docs or Office Online.
 
-</div>In addition to recently announcing version 10, Nextcloud have worked with Canonical and WDLabs to bring to market the [Nextcloud Box](https://nextcloud.com/box), a small (not quite [fitlet-RM](/2016/07/hands-on-fitlet-rm-a-fanless-industrial-mini-pc-by-compulab/) small but still), Raspberry Pi-powered, Snappy Ubuntu Core server with a 1TB WD PiDrive retailing currently for £60. I asked Nextcloud if I could get a review unit and a fortnight later it arrived at my door complete with a Raspberry Pi (not included on retail units).
+</div>
+
+In addition to recently announcing version 10, Nextcloud have worked with Canonical and WDLabs to bring to market the [Nextcloud Box](https://nextcloud.com/box), a small (not quite [fitlet-RM](/2016/07/hands-on-fitlet-rm-a-fanless-industrial-mini-pc-by-compulab/) small but still), Raspberry Pi-powered, Snappy Ubuntu Core server with a 1TB WD PiDrive retailing currently for £60. I asked Nextcloud if I could get a review unit and a fortnight later it arrived at my door complete with a Raspberry Pi (not included on retail units).
 
 [![img_20161004_110556](https://r2_worker.bayton.workers.dev/uploads/2016/10/IMG_20161004_110556.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/IMG_20161004_110556.jpg)
 
@@ -82,7 +84,9 @@ Once credentials are created, we’re in:
 
 Yes, that’s really all it takes. It’s worth noting this is still Nextcloud 9. An update to 10 is currently in the works as of publishing.
 
-<div class="callout callout-info">#### HTTPS support
+<div class="callout callout-info"> 
+
+#### HTTPS support
 
 You may notice the links above are plain old HTTP. HTTPS is not enabled by default due to firewall requirements.
 
@@ -90,7 +94,9 @@ Let’s Encrypt is included with the Nextcloud Box as standard and once port for
 
 The steps for enabling HTTPS can be found [here](https://github.com/nextcloud/nextcloud-snap/wiki/Enabling-HTTPS-(SSLS,-TLS)).
 
-</div>### Snappy Snaps
+</div>
+
+### Snappy Snaps
 
 Being a Snappy Ubuntu Core, there are a slew of other apps that can be installed, including some recommended by Nextcloud such as Snapweb.
 
@@ -104,7 +110,9 @@ Unfortunately at the moment Snapweb itself requires manual installation via the 
 
 However following this the interface will be available either via the internal IP or hostname on port 4200, eg: <http://ubuntu-standard.local:4200>. The Nexcloud Box wiki explains how this can be setup as an external site from within Nextcloud itself [here](https://github.com/nextcloud/nextcloud-snap/wiki/How-to-manage-your-snaps). Snapweb will be installed by default in this way in the future.
 
-<div class="callout callout-danger">#### Note
+<div class="callout callout-danger"> 
+
+#### Note
 
 As of publishing there’s currently a bug with the newly released version of `snap-confine` which prevents newly installed snaps from running. To get around this for now, run:
 
@@ -117,7 +125,9 @@ This installs the latest `snap-confine` version from Yakkety and only needs to b
 
 `sudo snap run snapweb`
 
-</div>Other recommended Snaps include Rocket.Chat and SpreedRTC, but there are so many available it’s definitely worth exploring the Snap store to check out the various services which can be run in addition to Nextcloud on the Box.
+</div>
+
+Other recommended Snaps include Rocket.Chat and SpreedRTC, but there are so many available it’s definitely worth exploring the Snap store to check out the various services which can be run in addition to Nextcloud on the Box.
 
 Performance and issues
 ----------------------

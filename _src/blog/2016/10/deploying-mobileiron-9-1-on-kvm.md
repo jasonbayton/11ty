@@ -153,11 +153,15 @@ Install MI connector via CLI
 
 Following the reboot of the KVM host, log back in.
 
-<div class="callout callout-danger">#### Time limit!
+<div class="callout callout-danger"> 
+
+#### Time limit!
 
 Before running the following command, ensure you have the **Remote Viewer** application installed on your remote machine. You will have 30 seconds to open the remote viewer and input the **vm-install** command on the MobileIron installer before the system will fail to boot, and the VM configuration file will need to be manually edited to re-add the MobileIron ISO file.
 
-</div>First ensure the MobileIron ISO has been downloaded to the KVM host. If it has been downloaded to a remote \*nix workstation, you can use **SCP** to copy it over using SSH, for example on your workstation:
+</div>
+
+First ensure the MobileIron ISO has been downloaded to the KVM host. If it has been downloaded to a remote \*nix workstation, you can use **SCP** to copy it over using SSH, for example on your workstation:
 
 `scp /home/user/mobileiron-9.1.0.0-64.iso user@10.10.10.98:/home/user/`
 

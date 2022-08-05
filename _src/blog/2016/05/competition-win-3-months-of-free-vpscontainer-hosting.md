@@ -18,11 +18,15 @@ post_views_count:
 tags:
     - 'Social Media'
 ---
-<div class="callout callout-info">#### **The competition is now closed**
+<div class="callout callout-info"> 
+
+#### **The competition is now closed**
 
 Thank you to everyone who entered. If you won you will be contacted in due course.
 
-</div>*Note: As of 27.05.2016 the rules have been relaxed to make it easier to enter the competition!*
+</div>
+
+*Note: As of 27.05.2016 the rules have been relaxed to make it easier to enter the competition!*
 
 To celebrate my 100th post on bayton.org I’ve teamed up with ElasticHosts, the subject of my [latest review](/2016/05/elastichosts-review/), to provide one lucky reader with **3 months of free hosting** on the ElasticHosts platform.
 

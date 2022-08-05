@@ -40,7 +40,9 @@ We often misplace disks and installation software (especially operating system i
 
 <span style="color: #339966;">Torrents are often associated with <span style="color: #ff0000;">viruses</span>. In any torrent you download be sure to check user comments before you commit to it! You could end up downloading more than you bargained for. </span>Ready to continue? Read on!
 
-<div>**This guide is for Windows**</div>This is how it’s done, starting with the software you need to download torrents:
+<div>**This guide is for Windows**</div>
+
+This is how it’s done, starting with the software you need to download torrents:
 
 [uTorrent download link](http://www.utorrent.com/downloads/complete?os=win)
 

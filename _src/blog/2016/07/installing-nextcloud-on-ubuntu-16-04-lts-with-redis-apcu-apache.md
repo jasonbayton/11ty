@@ -59,7 +59,9 @@ Nextcloud don’t (as of writing) provide a lot of detail for minimum recommende
 
 20GB of disk will be enough for this guide, but naturally the amount chosen should reflect the amount of data to be stored. Furthermore, if redundancy isn’t offered as standard it’s always a good idea to mirror/RAID the storage area to avoid downtime as best as possible. Typically this is only a consideration required with dedicated servers, but there’s no harm in checking.
 
-<div class="callout callout-warning">#### Plan backups
+<div class="callout callout-warning"> 
+
+#### Plan backups
 
 No matter what level of redundancy is set up, it’s not a replacement for a good backup strategy. Never assume data is safe in a remote datacentre as usually providers offer no liability or responsibility for lost data should a server fail.
 
@@ -114,7 +116,9 @@ Under **Network** select the static IP from the dropdown menu and click the rele
 
 Now would also be a good time to edit the **Firewall** settings in order to block unwanted traffic on a network level before reaching the VM. For the Nextcloud instance we only need ports 22 (SSH), 80 (HTTP) and 443 (HTTPS) which can be input in **Open ports**. As this is a paid add-on, an alternative would be to configure `iptables` / `ufw` / `firewalld` on the Ubuntu server at a later time.
 
-</div>Click **Save** and **Start** to boot up the server for the first time.
+</div>
+
+Click **Save** and **Start** to boot up the server for the first time.
 
 At this point it would be a good idea to create a DNS entry for the server. For this guide we’ll use nc.bayton.org (NB, this link is just an example used for the guide and doesn’t resolve. Clicking it won’t go anywhere)
 
@@ -126,7 +130,9 @@ After clicking **Start** the button will change to **Connect**. On clicking this
 
 Using an SSH client, SSH to **toor@ip** and use the **VNC/****toor** password provided.
 
-<div class="callout callout-warning">#### Disable the root account
+<div class="callout callout-warning"> 
+
+#### Disable the root account
 
 As soon as it’s convenient to do so, disable the root/toor account from logging in over SSH. A quick, simple way to do this in Ubuntu is to disable the account as follows from a different sudo-enabled account (which would need to be created first):
 
@@ -134,7 +140,9 @@ As soon as it’s convenient to do so, disable the root/toor account from loggin
 
 Furthermore, consider switching from password to key authentication as soon as possible.
 
-</div>### 4. Update the server &amp; install LAMP, APCu, Redis
+</div>
+
+### 4. Update the server &amp; install LAMP, APCu, Redis
 
 As this is a brand new installation based on images that don’t update very often, it’s a good idea to upgrade the server before we begin:
 
@@ -569,11 +577,15 @@ Log into the admin area of Nextcloud, navigate to **additional settings** and en
 
 As we’re running our Nextcloud installation on a remote host, far outside the confines of our internal network, it’s a really good idea to enable server-side encryption. This guarantees that should anyone gain access to the data hosted on the server, it won’t be readable.
 
-<div class="callout callout-danger">#### Encryption can lead to data loss
+<div class="callout callout-danger"> 
+
+#### Encryption can lead to data loss
 
 While the likelihood is small, should we lose our encryption keys and not set recovery via password, all encrypted data will be impossible to unencrypt.
 
-</div>First we’ll enable the default encryption app:
+</div>
+
+First we’ll enable the default encryption app:
 
 1. Click the **Files** link and switch to **Apps**
 2. Click **Not enabled** from the side-menu

@@ -38,7 +38,9 @@ I have uploaded both the installer and extra .cab in one .zip file and will outl
 
 [iskoot-combo-3uk.zip](https://r2_worker.bayton.workers.dev/uploads/2010/03/iSkoot-combo-3UK.zip) - iSkoot 3UK
 
-</div>**Instructions:**
+</div>
+
+**Instructions:**
 
 To make it just that little easier, I’ve even added pictures.
 

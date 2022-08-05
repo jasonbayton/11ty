@@ -26,7 +26,9 @@ LXD works perfectly fine with a directory-based storage backend, but both speed 
 
 In this article I’ll walk through the installation of LXD, ZFS and Bridge-Utils on Ubuntu 16.04 and configure LXD to use either a physical ZFS partition or loopback device combined with a bridged networking setup allowing for containers to pick up IP addresses via DHCP on the (v)LAN rather than a private subnet.
 
-<div class="callout callout-info">#### Before we begin
+<div class="callout callout-info"> 
+
+#### Before we begin
 
 This walkthrough assumes you already have a Ubuntu 16.04 server host set up and ready to work with. If you do not, please [download](http://www.ubuntu.com/download/server) and install it now.
 
@@ -34,7 +36,9 @@ You’ll also need a spare disk, partition or adequate space on-disk to support 
 
 Finally this guide is reliant on the command line and some familiarity with the CLI would be advantageous, though I’ll do my best to make this a copy &amp; paste article as much as possible.
 
-</div>Part 1: Installation
+</div>
+
+Part 1: Installation
 --------------------
 
 To get started, let’s install our packages. They can all be installed with one command as follows:
@@ -478,7 +482,9 @@ Are you brand new to LXD? I thoroughly recommend you take a look at LXD develope
 
 *If you spot any errors in the above, or have suggestions on how to improve this guide, feel free to reach out.*
 
-<div class="callout callout-info">#### Check out the comments!
+<div class="callout callout-info"> 
+
+#### Check out the comments!
 
 The comments below hold a wealth of questions, answers, benchmarks and examples from others who have followed this guide. If you’re still left unsure about something after reading up to this point, take a look below. If your concerns haven’t been addressed, leave a note and I’ll do my best to answer!
 

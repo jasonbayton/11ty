@@ -72,7 +72,9 @@ Once a region is selected, signing up for a free, 5-day trial account takes only
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-15"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts.png)](/2016/05/elastichosts-review/dal-a-elastichosts/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot_2016-05-07-12-24-23-e1462623164860.png)](/2016/05/elastichosts-review/screenshot_2016-05-07-12-24-23/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/05/dal-a-ElasticHosts-1.png)](/2016/05/elastichosts-review/dal-a-elastichosts-1/) </dt></dl>  
- </div>The interface
+ </div>
+
+The interface
 -------------
 
 The interface is simple and clutter-free. Until a server is created there’s really nothing on there bar a message reminding you of the remaining time left on your trial. This disappears once the trial finishes or as soon as either a plan is selected or credit is added.
@@ -254,7 +256,9 @@ If you’re interested in trying them out, every free trial comes with 2000 core
 
 Do you use ElasticHosts? Are you considering it? Let me know in the comments or tweet me [@jasonbayton](https://twitter.com/jasonbayton) with the tag [\#EHTrial](https://twitter.com/search?f=tweets&q=%23ehtrial&src=typd)
 
-<div class="callout callout-success">#### Are you interested in winning 3 months of free hosting?
+<div class="callout callout-success"> 
+
+#### Are you interested in winning 3 months of free hosting?
 
 In celebration of this, my 100th article on bayton.org, I’ve arranged a competition with ElasticHosts to provide one lucky winner with 3 months of free VPS and container hosting.
 

@@ -31,7 +31,7 @@ post_views_count:
 tags:
     - 'Social Media'
 ---
-<div>T’was the night before Christmas and all through the house,  
+T’was the night before Christmas and all through the house,  
 Not a creature was stirring, unless you count my mouse!
 
 You see the internet was alive and incredibly active,  
@@ -69,5 +69,3 @@ And if we don’t talk again this year, Happy New Year, too.
 
 Merry Christmas!  
 Jason 🙂
-
-</div>

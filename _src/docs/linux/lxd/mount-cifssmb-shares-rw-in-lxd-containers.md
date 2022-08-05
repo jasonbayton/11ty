@@ -19,7 +19,9 @@ One of the biggest limitations with LXD I’ve found to date is the inability to
 
 So continuing the recent [LXD theme](/tag/lxd/), in this article we’ll work through mounting CIFs shares read/write on containers.
 
-<div class="callout callout-info">#### Before we begin
+<div class="callout callout-info"> 
+
+#### Before we begin
 
 This guide assumes you already have a CIFS/SMB (referred to only as CIFS in the guide) share set up and ready to mount on your LXD containers. If you don’t, set this up first.
 
@@ -31,7 +33,9 @@ Both the host and containers are Ubuntu 16.04 LTS.
 
 The container name throughout this guide is `c1`. Please change this in any commands you copy into your own terminal.
 
-</div><div class="callout callout-danger">#### Warning
+</div><div class="callout callout-danger"> 
+
+#### Warning
 
 By following this guide, any mounted CIFS shares will be visible on the LXD host and can be modified by sudo/root user(s). This method is not recommended with private shares on a shared LXD host server. Only continue if you’re happy accepting any risks associated with this configuration.
 

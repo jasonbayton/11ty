@@ -43,7 +43,9 @@ With that, I got to work on two ad campaigns, one for Finland and one for the UK
 
 I like the country and have family there. It would be just a lucrative for me to find employment in Finland as it would here in the UK and I’d never turn down the opportunity to live in abroad again. Additionally, two separate countries with differing economies and skill requirements can only increase my chances of landing a role.
 
-</div>The ads were relatively simple, they were set up to:
+</div>
+
+The ads were relatively simple, they were set up to:
 
 - Run continuously from the point of creation
 - Spend no more than £5 per day, with a maximum budget of £30

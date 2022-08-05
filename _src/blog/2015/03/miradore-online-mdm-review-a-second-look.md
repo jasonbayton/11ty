@@ -21,11 +21,15 @@ tags:
     - Enterprise
     - Reviews
 ---
-<div class="callout callout-danger">#### This topic has been covered more recently
+<div class="callout callout-danger"> 
+
+#### This topic has been covered more recently
 
 This article was published in 2015. There is a new article you may find interesting if you’re interested in the Business or Enterprise subscriptions: [Miradore Online MDM: Expanding management with subscriptions](/2016/02/miradore-online-mdm-expanding-management-with-subscriptions/).
 
-</div>**In the world of technology** 8 months is equivalent to *several years* in some industries, yet that’s how long it’s been since my [First look](/2014/07/miradore-online-free-mdm/ "First look: Miradore Online free MDM") at [Miradore](http://www.miradore.com)’s new, [free MDM solution](http://www.miradore.com/) which was taking the enterprise mobility market by storm back in 2014.
+</div>
+
+**In the world of technology** 8 months is equivalent to *several years* in some industries, yet that’s how long it’s been since my [First look](/2014/07/miradore-online-free-mdm/ "First look: Miradore Online free MDM") at [Miradore](http://www.miradore.com)’s new, [free MDM solution](http://www.miradore.com/) which was taking the enterprise mobility market by storm back in 2014.
 
 Now, almost a year on and officially [out of beta](http://www.miradore.com/blog/miradore-online-moves-successfully-beta-production/), I’ve dusted off my account for another look to see what’s changed, what hasn’t and to get a hands on with their new business tier; a paid upgrade to add just that little bit more to what has already proven to be a great little MDM solution.
 

@@ -21,9 +21,13 @@ discourse_permalink:
 tags:
     - General
 ---
-<div class="callout callout-warning">### Deprecated
+<div class="callout callout-warning">
 
- Night mode has been deprecated, at least in its current form, as it was negatively impacting both page loading speed, and because not all browsers support the “disabled” flag on CSS resources, it was defaulting dark for new visitors. This will be re-addressed in future, likely in line with a rebuild of the theme. </div>I spend a lot of time on here, particularly at night when I’m finished with my duties for the day and fancy putting some words down on virtual paper. I’ve noticed, however, the glare of the bright, minimal theme can be quite bothersome on the eyes after a while.
+### Deprecated
+
+Night mode has been deprecated, at least in its current form, as it was negatively impacting both page loading speed, and because not all browsers support the “disabled” flag on CSS resources, it was defaulting dark for new visitors. This will be re-addressed in future, likely in line with a rebuild of the theme. </div>
+
+I spend a lot of time on here, particularly at night when I’m finished with my duties for the day and fancy putting some words down on virtual paper. I’ve noticed, however, the glare of the bright, minimal theme can be quite bothersome on the eyes after a while.
 
 Always eager to improve the site, I set about looking for a solution.
 

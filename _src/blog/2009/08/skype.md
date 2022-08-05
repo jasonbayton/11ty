@@ -42,7 +42,9 @@ The system
 ![The Telephone](http://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0837Medium-1.jpg "Phone")
 The Telephone
 
-</div>I have been using this now for almost 2 weeks without a glitch. Highly recommended for those who don’t want to spend a lot of money for something that should, and can be quite cheap.
+</div>
+
+I have been using this now for almost 2 weeks without a glitch. Highly recommended for those who don’t want to spend a lot of money for something that should, and can be quite cheap.
 
 <span style="text-decoration: underline;">Update</span>
 

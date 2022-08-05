@@ -249,7 +249,9 @@ Here’s where the fitlet heatsink comes in:
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-full" id="gallery-14"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132827.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132827.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132837.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132837.jpg) </dt></dl>   
- </div>At the moment only the bare aluminium version is available, but regardless of colour the heatsink does the job perfectly. I noted a temperature drop of about 11°C to the low 40’s resulting in a PC that is no longer too hot to touch and therefore more manageable.
+ </div>
+
+At the moment only the bare aluminium version is available, but regardless of colour the heatsink does the job perfectly. I noted a temperature drop of about 11°C to the low 40’s resulting in a PC that is no longer too hot to touch and therefore more manageable.
 
 Compulab say they’re working on a black version of the heatsink, once it becomes available soon I’ll swap it out.
 
