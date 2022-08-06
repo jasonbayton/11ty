@@ -3,7 +3,7 @@ title: 'Listen again: BM podcast #144 - Jason Bayton & Russ Mohr talk Android!'
 date: '2020-07-04T01:52:07+01:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "Join me speaking to Jack Madden & Russ Morh talking all things AE"
 type: post
 id: 9100
 tag:

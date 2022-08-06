@@ -3,7 +3,7 @@ title: 'On building Android devices'
 date: '2020-12-26T18:21:12+00:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "As 2020 comes to a long-overdue close and we head into what anyone can hope will be a slightly less chaotic new year, it also edges closer to what will soon be two years leading product with Social Mobile. With the results of all the hard work now materialising, I think it’s interesting to reflect on the last ~18 months, what it’s lead to, and what’s next."
 type: post
 id: 9290
 tag:

@@ -3,7 +3,7 @@ title: 'Google announce big changes to zero-touch'
 date: '2020-11-10T15:09:22+00:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "Google today dropped the most significant update to zero-touch since its introduction with the Google Pixel back in 2016!"
 type: post
 id: 9193
 tag:

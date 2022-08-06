@@ -3,7 +3,7 @@ title: "Google's Android Management API will soon support COPE"
 date: '2020-07-01T23:40:27+01:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "The COPE deployment scenario has been long sought-after in AMAPI, absent after most of the rest of the EMM market had adopted it in one way or another and even still following the unexpected news of the imminent change to how COPE is deployed in Android 11. Now, it's on the way"
 type: post
 id: 9078
 tag:

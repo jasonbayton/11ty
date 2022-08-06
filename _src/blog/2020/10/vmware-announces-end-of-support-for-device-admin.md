@@ -3,7 +3,7 @@ title: 'VMware announces end of support for Device Admin'
 date: '2020-10-01T16:23:07+01:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "This week, VMware announced their intention to end support for Device Admin based Android management."
 type: post
 id: 9140
 tag:

@@ -3,7 +3,7 @@ title: 'Google launch the Android Enterprise Help Community'
 date: '2020-07-17T00:11:07+01:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "Google's brand new Product Expert Community for Android Enterprise!"
 type: post
 id: 9121
 tag:

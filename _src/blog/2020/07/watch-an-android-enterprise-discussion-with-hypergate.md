@@ -3,7 +3,7 @@ title: 'Watch: An Android Enterprise discussion with Hypergate'
 date: '2020-07-16T22:45:15+01:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "Watch me talk AE with Hypergate"
 type: post
 id: 9114
 tag:

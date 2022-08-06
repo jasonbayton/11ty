@@ -3,7 +3,7 @@ title: 'I made a bet with Google (and lost)'
 date: '2022-01-11T17:57:02+00:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: 'I owe someone a Steak dinner.'
 type: post
 id: 9465
 tag:
