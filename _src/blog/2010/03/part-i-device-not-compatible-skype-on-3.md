@@ -37,7 +37,7 @@ Bare in mind however, I’ve noticed that “not supported” seems to be code f
 
 Here you are, I’ve even uploaded the Skype.jar file for you!
 
-[![Click to download](/wp-includes/images/crystal/archive.png)](https://r2_worker.bayton.workers.dev/uploads/2010/03/Skype_1.0.17_SEW910I_UK.jar_.zip)
+[Click to download](https://r2_worker.bayton.workers.dev/uploads/2010/03/Skype_1.0.17_SEW910I_UK.jar_.zip)
 
 Try it and let me know how you get on (Comments are open). If you’re Australian, please scroll down to the bottom of this post for your version!
 
@@ -66,7 +66,8 @@ Launch, you're installed!
 
 [![Screen10.png](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geBjw3PI/AAAAAAAAEuc/VxEc_IGxH2E/s160-c/Screen10.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geBjw3PI/AAAAAAAAEuc/VxEc_IGxH2E/Screen10.png?imgmax=640)
 
-[![](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/s160-c/Screen11.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/Screen11.png?imgmax=640 "Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?")
+[![](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/s160-c/Screen11.png)](http://lh3.ggpht.com/_XtX1xEyLe2k/S54geKhQ83I/AAAAAAAAEug/kOEOWFzZ2EY/Screen11.png?imgmax=640) 
+
 Now sign in. You can see that the resolution is a little off, well that is as bad as it gets! Awesome considering it was "not supported", right?
 
 [![Screen12.png](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gp0jy5-I/AAAAAAAAEuk/8JkRls0d424/s160-c/Screen12.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54gp0jy5-I/AAAAAAAAEuk/8JkRls0d424/Screen12.png?imgmax=640)

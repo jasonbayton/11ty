@@ -10,6 +10,7 @@ tags:
 ---
 
 {% for year, yearPosts in collections.postsByYear %}
+<div class="year-block">
   <h2 class="section-title year-heading">{{ year }}</h2>
   <hr>
     {% for post in yearPosts | reverse %}
@@ -36,32 +37,7 @@ tags:
             </div>
             {% endif %}
         </div>
-    {% endif %}
+        {% endif %}
     {% endfor %}
-{% endfor %}
-
-
-{%- for post in collections.blog | reverse -%}
-<div class="post-block">
-    <div class="post-meta">
-        <div class="meta-single">
-            {% for tag in post.data.tags %}
-            #<a class="meta-tag" href="/tags/{{ tag | slugify }}/"> {{ tag }} </a>
-            {% endfor %}        
-        </div>
-    </div>
-    <h3 class="post-title">
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h3>
-    <div class="post-meta">
-        <div class="meta-single">
-            {{ post.date | postDate }}
-        </div>
-    </div>   
-    {% if post.data.excerpt|length %}
-    <div class="post-summary">
-        {{ post.data.excerpt }}
-    </div>
-    {% endif %}
 </div>
-{%- endfor -%}
+{% endfor %}

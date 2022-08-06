@@ -25,6 +25,11 @@
                     {% include "./_parts/docsnav.njk" %}
                 </div>
                 {% endif %}
+                {% if type.includes("post") %}
+                <div id="aside_docs">
+                    {% include "./_parts/blognav.njk" %}
+                </div>
+                {% endif %}
             </section>
             {% endif %}
             <section id="page_content">
