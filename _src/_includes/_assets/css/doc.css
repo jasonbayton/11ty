@@ -107,8 +107,12 @@ content#archive {
 }
 
 section#feedback {
-    grid-area: 2/1/2/4;
+    grid-column-start: 2;
     justify-self: end;
+}
+
+section#comment-system {
+    grid-column-start: 2;
 }
 
 #search #feedback {
@@ -125,8 +129,8 @@ section#feedback {
         grid-template-columns: 1fr;
     }
 
-    section#feedback {
-        grid-area: 2/1/2/2;
+    section#feedback, section#comment-system {
+        grid-column-start: 1;
     }
 
     .meta-single {
