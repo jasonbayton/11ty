@@ -40,13 +40,13 @@ Device admin deprecation is now official with Android 10! Unsure what this means
 ## Getting started
 
 Just getting familiar with Android or Android Enterprise? Start here. The following documents offer an introduction to Android Enterprise and the various moving parts in order to offer a broad overview of the ecosystem.
-
- <ul>
+<div class="android-topic">
+<ul>
     {%- for entry in collections['Getting started'] -%}
     <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
     {%- endfor -%}
 </ul>
-
+</div>
 </div>
 <div class="android-doc-grid-group">
 
@@ -54,13 +54,13 @@ Just getting familiar with Android or Android Enterprise? Start here. The follow
 ## Diving deeper
 
 Ready to learn more? Read on.
-
+<div class="android-topic">
  <ul>
     {%- for entry in collections['Diving deeper'] -%}
     <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
     {%- endfor -%}
 </ul>
-
+</div>
 </div>
 <div class="android-doc-grid-group">
 
@@ -69,12 +69,13 @@ Ready to learn more? Read on.
 
 Free guides, infographics and other information.
 
+<div class="android-topic">
  <ul>
     {%- for entry in collections['Resources'] -%}
     <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
     {%- endfor -%}
 </ul>
-
+</div>
 </div>
 <div class="android-doc-grid-group">
 
@@ -82,7 +83,7 @@ Free guides, infographics and other information.
 ## External resources
 
 Useful documentation from other sources.
-
+<div class="android-topic">
 <ul>
 {% for link in android_extrec %}
 <li> 
@@ -91,13 +92,14 @@ Useful documentation from other sources.
 {% endfor %}
 </ul>
 </div>
+</div>
 <div class="android-doc-grid-group">
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2019/01/externalblogg.png) 
 ## External blog articles
 
 Articles contributed to other sources.
-
+<div class="android-topic">
 <ul>
 {% for link in android_extblog %}
 <li> 
@@ -105,7 +107,7 @@ Articles contributed to other sources.
 </li>    
 {% endfor %}
 </ul>
-
+</div>
 </div>
 <div class="android-doc-grid-group">
 
@@ -113,13 +115,13 @@ Articles contributed to other sources.
 ## Vendor docs
 
 Free guides, infographics and other information.
-
+<div class="android-topic">
  <ul>
     {%- for entry in collections['Vendor specific'] -%}
     <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
     {%- endfor -%}
 </ul>
-
+</div>
 </div>
 </div>
 <div class="android-doc-grid">
@@ -127,25 +129,27 @@ Free guides, infographics and other information.
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2017/04/droidtrioevents.png) 
 ## Live events
-
 Live-blogging enterprise mobility events.
+<div class="android-topic">
 
 - [Live: MobileIron LIVE! 2018](/2018/05/live-mobileiron-live-2018/)
 - [Live: Android Enterprise Partner Summit 2018](/2018/05/live-android-enterprise-partner-summit-2018/)
 - [Live: Huawei Mate series launch](/2018/10/live-huawei-mate-series-launch/)
+
+</div>
 
 Want your event covered live? [Get in touch](/contact)!
 
 ## Hardware validation
 
 When I occasionally review hardware for AE compatibility
-
+<div class="android-topic">
  <ul>
     {%- for entry in collections['Hardware validation'] -%}
     <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
     {%- endfor -%}
 </ul>
-
+</div>
 </div>
 <div class="android-doc-grid-group">
 
@@ -153,13 +157,13 @@ When I occasionally review hardware for AE compatibility
 ## Blog articles
 
 For topical content around news and events.
-
+<div class="android-topic">
  <ul>
     {%- for entry in collections.Enterprise | reverse -%}
     <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
     {%- endfor -%}
 </ul>
-
+</div>
 </div>
 </div>
 </div>
