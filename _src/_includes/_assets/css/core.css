@@ -397,6 +397,11 @@ section#page_content {
   display: block;
 }
 
+.post-meta-condensed > .meta-single {
+  display: inline;
+  padding-right: 20px;
+}
+
 #android_post_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

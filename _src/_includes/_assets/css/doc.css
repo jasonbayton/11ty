@@ -1,6 +1,6 @@
 content#doc {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1.3fr 4fr;
     padding-top: 60px;
     grid-gap: 30px;
 }
@@ -65,6 +65,7 @@ content#archive {
 .post-meta-base {
     display: grid;
     grid-template-columns: 40% 60%;
+    padding-bottom: 0;
 }
 
 .post-meta-base-left {
@@ -77,6 +78,7 @@ content#archive {
 .meta-tiny {
     font-size: 10px;
     display: block;
+    padding-bottom: 3px;
 }
 
 .meta-single svg {
