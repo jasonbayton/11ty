@@ -44,24 +44,26 @@ I have uploaded both the installer and extra .cab in one .zip file and will outl
 
 To make it just that little easier, I’ve even added pictures.
 
-[![First, install iSkoot](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/s160-c/Screen18.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/Screen18.png?imgmax=640 "First, install iSkoot") 
-[![Select it from the Start menu and accept all the license agreements.](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/s160-c/Screen19.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/Screen19.png?imgmax=640 "Select it from the Start menu and accept all the license agreements.") </span>
+![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/s160-c/Screen18.png)
+![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/s160-c/Screen19.png) 
+
+Select it from the Start menu and accept all the license agreements.
 
 <span style="font-weight: normal;">1) Install iSkoot</span>
 
 <span style="font-weight: normal;">2) Select it from the Start menu and accept all the license agreements.</span>
 
-[![Once you get here, QUIT!](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/s160-c/Screen20.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/Screen20.png?imgmax=640)
+![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/s160-c/Screen20.png)
 
-[![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/s160-c/Screen21.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/Screen21.png?imgmax=640 
+![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/s160-c/Screen21.png)
 
-"Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!") </span>
+"Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!")
 
 <span style="font-weight: normal;">3) Get to the sign-in page and </span><span style="font-weight: normal;">**QUIT!** (very important).</span>
 
 <span style="font-weight: normal;"> </span><span style="font-weight: normal;">4) Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the “not supported” rubbish!</span>
 
-</div><div class="pie-item" style="margin: 10px 10px 10px 10px;"><span style="font-weight: normal;">And that’s all there is to it. Now you have Skype on three, using the free network minutes and not being charged a penny. Never again listen when a network says something is not supported, this 2-part document is proof that it is completely untrue! </span>
+And that’s all there is to it. Now you have Skype on three, using the free network minutes and not being charged a penny. Never again listen when a network says something is not supported, this 2-part document is proof that it is completely untrue!
 
 <span style="font-weight: normal;">Hopefully this will help those of you who until now have been Skype-less, and if that’s the case, let me know! (Comments are open!)</span>
 
