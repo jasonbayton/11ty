@@ -51,9 +51,11 @@ To make it just that little easier, I’ve even added pictures.
 
 <span style="font-weight: normal;">2) Select it from the Start menu and accept all the license agreements.</span>
 
-[![Once you get here, QUIT!](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/s160-c/Screen20.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/Screen20.png?imgmax=640 "Once you get here, QUIT!") 
+[![Once you get here, QUIT!](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/s160-c/Screen20.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/Screen20.png?imgmax=640)
 
-[![Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/s160-c/Screen21.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/Screen21.png?imgmax=640 "Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!") </span>
+[![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/s160-c/Screen21.png)](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/Screen21.png?imgmax=640 
+
+"Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!") </span>
 
 <span style="font-weight: normal;">3) Get to the sign-in page and </span><span style="font-weight: normal;">**QUIT!** (very important).</span>
 
