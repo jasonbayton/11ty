@@ -6,6 +6,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const _ = require("lodash");
 const pluginDate = require('eleventy-plugin-date');
 const dates = require("./_src/_data/dates.js");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
+const embedTwitter = require("eleventy-plugin-embed-twitter");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
@@ -14,6 +16,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
   eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
   eleventyConfig.addPlugin(pluginDate);
+  eleventyConfig.addPlugin(embedYouTube);
+  eleventyConfig.addPlugin(embedTwitter);
   eleventyConfig.addFilter("dateYear", dates.dateYear);
   eleventyConfig.addFilter("dateISO", dates.dateISO);
   eleventyConfig.addFilter("dateFeed", dates.dateFeed);

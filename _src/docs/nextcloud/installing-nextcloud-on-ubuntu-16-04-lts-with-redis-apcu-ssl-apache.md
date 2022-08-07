@@ -17,14 +17,14 @@ discourse_permalink:
 ---
 In 2016, the self-hosted community witnessed the public launch of Nextcloud, a vastly-improved fork of ownCloud. Having almost finished migrating data on my home server to Nextcloud and experimenting with some of the more optional features such as caching, pretty links, theming and more, I felt it would be a good time to document some of this in one simple-to-follow guide.
 
-1. What is Nextcloud?
+\1. What is Nextcloud?
 ---------------------
 
 As mentioned above Nextcloud is a fork of ownCloud that has becoming the better and faster-developed alternative to the self-hosted cloud storage software of old. If you’re an ownCloud user and have ever been frustrated by the dual licenses, the paid vs free model and – as part of it – lack of some of the better features, Nextcloud have gone completely FOSS (Free and Open-Source Software) following the Red Hat model of charging for enterprise support rather than enterprise features.
 
 Some of the previously enterprise-only features released as part of the standard FOSS Nextcloud installation include FileDrop, an alternative to Dropbox’s “File Requests”, LibreOffice online (Collabora), an alternative to Google Docs or Office Online, two-factor authentication, improved federation and more.
 
-2. In this guide
+\2. In this guide
 ----------------
 
 After completing this guide we’ll have the following:
@@ -44,7 +44,9 @@ This guide assumes Nextcloud will be accessed via *url.com/nextcloud.* If Nextcl
 - The Nextcloud `config.php` base URL should be changed from `'/nextcloud'` to `'/'`
 - Lets Encrypt will work, however the `.well-known` directory will need to be moved out and back in to the `nextcloud` directory before and after an upgrade respectively to avoid an integrity check error.
 
-</div>3. Environment
+</div>
+
+\3. Environment
 --------------
 
 For this guide Nextcloud will be installed on a remote Ubuntu VM, however it can equally be installed on a local Ubuntu server, a Raspberry Pi or a Linux Container such as Docker or LXD.
@@ -71,7 +73,9 @@ No matter what level of redundancy is set up, it’s not a replacement for a goo
 
 Nextcloud is a not a replacement for typical backup solutions or processes but rather a tool for collaboration and sharing. Do not rely on it as the sole solution for protecting your data.
 
-</div>### 3.2. Software
+</div>
+
+### 3.2. Software
 
 - Ubuntu server (LTS preferred) with root (sudo) access
 - Apache2
@@ -83,7 +87,7 @@ Besides the above-mentioned packages and their respective dependencies, we shoul
 
 **Due to the advanced requirements in this guide, root/sudo access to the Ubuntu instance is mandatory.**
 
-4. Setting up the environment
+\4. Setting up the environment
 -----------------------------
 
 *For those with a functioning Ubuntu server and required components, please skip to step 4.1.*
@@ -117,7 +121,9 @@ With the server updated, if one doesn’t already exist, a non-root user should 
 
 The use of ^ (caret) in the package name is important. It suggests that the installed package is a ‘meta-package’, meaning a number of programs that are usually installed together.
 
-</div>This command will install Apache, MySQL and PHP along with several PHP/Apache modules to ensure seamless collaboration between the packages. Once happy with the package selection to be installed, tap **Enter**.
+</div>
+
+This command will install Apache, MySQL and PHP along with several PHP/Apache modules to ensure seamless collaboration between the packages. Once happy with the package selection to be installed, tap **Enter**.
 
 ![img.9](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.9.png)
 
@@ -308,7 +314,7 @@ With that, all traffic will be forced to HTTPS.
 
 ![img.29](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.29.png)
 
-5. Install Nextcloud
+\5. Install Nextcloud
 --------------------
 
 With the server environment ready (excluding some final NC-related configurations) we’ll move on to installing Nextcloud itself.
@@ -338,7 +344,9 @@ Now the Apache account, **www-data**, will have write-access to the Nextcloud in
 
 By default, Nextcloud can create a database and database user when supplying the root user and password in the Nextcloud web-based installer. The following steps are intended for either someone who wants to create their own database or does not want to supply Nextcloud with the root account credentials.
 
-</div>Before switching to Chrome to run the web-based installer, we’ll first create a database.
+</div>
+
+Before switching to Chrome to run the web-based installer, we’ll first create a database.
 
 We can open a session with mysql by running the command `mysql -u root -p` and providing the root password we entered earlier.
 
@@ -381,7 +389,7 @@ Scroll down and click **Finish Setup**.
 
 ![img.21](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.21.png)
 
-6. Configuration
+\6. Configuration
 ----------------
 
 As it stands currently, Nextcloud isn’t very happy.
@@ -566,7 +574,9 @@ As we’re running our Nextcloud installation on a remote host, far outside the 
 
 Encryption is a complex topic and getting this wrong will lead to data loss. Generally, using Nextcloud server-side encryption is not needed or recommended and instead you should strongly consider client-side encryption, or other methods of enforcing OS filesystem encryption instead. Continue at your own risk.
 
-</div>First we’ll enable the default encryption app:
+</div>
+
+First we’ll enable the default encryption app:
 
 1. Click the **Files** link and switch to **Apps**
 2. Click **Not enabled** from the side-menu
@@ -592,7 +602,7 @@ However, if a global recovery key is considered too all-powerful, individual use
 
 All data will now be encrypted at rest, as well as protected in transit when using SSL.
 
-7. Conclusion
+\7. Conclusion
 -------------
 
 So following this guide we now have a new server running Nextcloud on Ubuntu supporting both caching and pretty links.

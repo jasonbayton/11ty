@@ -23,7 +23,7 @@ tags:
 ---
 Last week VMware released WS1 UEM 1908 with a surprising new feature, Android Enterprise enrolment for devices without the ability to leverage GMS apps and services.
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/zmFgocI27zM?start=305&feature=oembed" title="Workspace ONE UEM 1908 What's New Overview" width="500"></iframe>
+https://www.youtube.com/embed/zmFgocI27zM?start=305
 
 WS1 release video, 5:05 onwards is the brief Android mention.</figcaption></figure>In the short overview above (starting at [5:05](https://youtu.be/zmFgocI27zM?t=305)) a simple explanation of the feature is provided:
 

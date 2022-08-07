@@ -45,7 +45,7 @@ Build video
 
 I managed to get a half-decent build video sped up to 100fps. To do this I propped my Logitech C920 up on the highest object I could find and hoped for the best. The angle isn’t ideal but it’s relatively easy to follow the build. Here’s the video:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/C9osk0UKnMA?feature=oembed" title="Part 2 - Project Obsidian: Build video 1" width="500"></iframe>
+https://www.youtube.com/embed/C9osk0UKnMA
 
 Notes
 -----

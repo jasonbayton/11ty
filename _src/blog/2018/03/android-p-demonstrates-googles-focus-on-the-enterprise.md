@@ -115,7 +115,7 @@ If those look familiar, it’s because they’re already supported in the NFC pa
 
 Here’s a demo of it in action:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/-eVbZb9xDyo?feature=oembed" title="Android P, QR code provisioning for Android enterprise" width="500"></iframe>
+https://www.youtube.com/embed/-eVbZb9xDyo
 
 ## 5. APN configuration support
 

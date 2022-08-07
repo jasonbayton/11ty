@@ -50,7 +50,7 @@ What it doesn’t improve on however is allowing admins to determine how best to
 
 Also, though improved, enrolling a COPE device still requires additional taps to initiate the creation of a work profile, something I feel (and which is fully supported by AE APIs) should be automated. I don’t understand the justification for this, as it feels less efficient and more likely to result in a call to IT for clarification. In the COPE enrolment demo below you’ll see what I mean:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/S4i5Ih3-VKM?feature=oembed" width="500"></iframe>
+https://www.youtube.com/embed/S4i5Ih3-VKM
 
 In any case, COPE support is fantastic to see, and fills a rather large gap for MobileIron Cloud customers who’ve up to this point been stuck between opting for a work profile deployment that doesn’t permit device management, and a fully managed (work-managed) deployment that isn’t designed to support personal use. COPE offers a happy medium and closely resembles the legacy deployment scenarios associated with the soon-deprecated Device Administrator deployments of old.
 

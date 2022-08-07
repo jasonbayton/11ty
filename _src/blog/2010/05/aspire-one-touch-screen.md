@@ -60,6 +60,6 @@ There were some minor issues. The kit wasn’t shipped with rubber mounts or any
 
 Here’s a video!
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="375" loading="lazy" src="https://www.youtube.com/embed/sgttqaI2p6k?feature=oembed" title="Aspire one touch" width="500"></iframe>
+https://www.youtube.com/embed/sgttqaI2p6k
 
 Want to know more about this project? [Get in touch!  ](mailto:jason@bayton.org)Cheers,

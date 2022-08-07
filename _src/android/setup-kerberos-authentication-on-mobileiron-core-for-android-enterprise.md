@@ -151,7 +151,7 @@ With this setup it’s equally possible to enable Kerberos SSO for all apps that
 
 Other Apps like Microsoft Edge Browser or Brave Browser will require configuration similar to that of Chrome.
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/tnP0P3GxW-c?feature=oembed" width="500"></iframe>
+https://www.youtube.com/embed/tnP0P3GxW-c
 
 Support
 -------

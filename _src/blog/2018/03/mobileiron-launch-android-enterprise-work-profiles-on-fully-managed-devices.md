@@ -88,7 +88,7 @@ Prerequisites
 
 The below [Sony Xperia XA2](/android/android-enterprise-device-support/#sony-xperia-xa2) is provisioned with a QR Code (off-screen) with system applications enabled.
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/AcX-R1Yqx6c?feature=oembed" title="Work profiles on fully managed devices demo" width="500"></iframe>
+https://www.youtube.com/embed/AcX-R1Yqx6c?feature=oembed
 
 What organisations should be aware of
 -------------------------------------

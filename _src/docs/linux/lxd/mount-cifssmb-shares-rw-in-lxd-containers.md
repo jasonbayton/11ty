@@ -39,7 +39,9 @@ The container name throughout this guide is `c1`. Please change this in any comm
 
 By following this guide, any mounted CIFS shares will be visible on the LXD host and can be modified by sudo/root user(s). This method is not recommended with private shares on a shared LXD host server. Only continue if you’re happy accepting any risks associated with this configuration.
 
-</div>Find the UID/GID of your LXD user
+</div>
+
+Find the UID/GID of your LXD user
 ---------------------------------
 
 Before we begin to look at mounting the share(s), the first step is to obtain the UID &amp; GID of the user/group you wish to mount the share under within the target container.

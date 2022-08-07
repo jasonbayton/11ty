@@ -36,7 +36,7 @@ You’re currently viewing part 3. Head over to the [introduction ](/2016/06/par
 A change
 --------
 
-Despite [some ](https://twitter.com/JasonBayton/status/751057827712630784)[effort ](https://twitter.com/JasonBayton/status/747431921408344064)[on ](https://twitter.com/JasonBayton/status/751763564407455744)[my ](https://www.facebook.com/bayton.org/posts/1665228143800954)[part ](https://twitter.com/JasonBayton/status/753227982152593410)it hasn’t been possible to obtain the 6/8TB disks I’m aiming for just yet. I would have continued (and still will) to work on that, however noticed my 16TB MDADM RAID array was flaking out on me a little over the last few days, going even as far as no longer showing up in the system until it was rebooted. (There’s nothing wrong with the disks, it’s the server).
+Despite [some](https://twitter.com/JasonBayton/status/751057827712630784) [effort](https://twitter.com/JasonBayton/status/747431921408344064) [on](https://twitter.com/JasonBayton/status/751763564407455744) [my](https://www.facebook.com/bayton.org/posts/1665228143800954) [part](https://twitter.com/JasonBayton/status/753227982152593410)it hasn’t been possible to obtain the 6/8TB disks I’m aiming for just yet. I would have continued (and still will) to work on that, however noticed my 16TB MDADM RAID array was flaking out on me a little over the last few days, going even as far as no longer showing up in the system until it was rebooted. (There’s nothing wrong with the disks, it’s the server).
 
 So in an effort to avoid any potential data loss I’m going to make do with what I have now; moving 7 4TB disks from my current AMD FX-6300 storage server into the Obsidian build and a whole lot of extra data migration as a result.
 

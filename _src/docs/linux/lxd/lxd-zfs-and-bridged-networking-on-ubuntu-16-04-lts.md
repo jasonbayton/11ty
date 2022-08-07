@@ -21,7 +21,9 @@ discourse_permalink:
 
 This guide has been [updated for netplan](#modern-netplan), introduced in 17.10. Please test the configuration and let me know if you have any issues with it (easiest via tweet, [@jasonbayton](https://twitter.com/jasonbayton)).
 
-</div>LXD works perfectly fine with a directory-based storage backend, but both speed and reliability are greatly improved when ZFS is used instead. 16.04 LTS saw the first officially supported release of ZFS for Ubuntu and having just set up a fresh LXD host on [Elastichosts](//elastichosts.com) utilising both ZFS and bridged networking, I figured it’d be a good time to document it.
+</div>
+
+LXD works perfectly fine with a directory-based storage backend, but both speed and reliability are greatly improved when ZFS is used instead. 16.04 LTS saw the first officially supported release of ZFS for Ubuntu and having just set up a fresh LXD host on [Elastichosts](//elastichosts.com) utilising both ZFS and bridged networking, I figured it’d be a good time to document it.
 
 In this article I’ll walk through the installation of LXD, ZFS and Bridge-Utils on Ubuntu 16.04 and configure LXD to use either a physical ZFS partition or loopback device combined with a bridged networking setup allowing for containers to pick up IP addresses via DHCP on the (v)LAN rather than a private subnet.
 
@@ -35,7 +37,9 @@ You’ll also need a spare disk, partition or adequate space on-disk to support 
 
 Finally this guide is reliant on the command line and some familiarity with the CLI would be advantageous, though the objective is to make this a copy &amp; paste article as much as possible.
 
-</div>Part 1: Installation
+</div>
+
+Part 1: Installation
 --------------------
 
 To get started, let’s install our packages. They can all be installed with one command as follows:
@@ -262,7 +266,9 @@ If your disk/partition is currently formatted and mounted on the system, it will
 
 Additionally if there’s an `fstab` entry this will need to be removed before continuing, otherwise you’ll see mount errors when you next reboot.
 
-</div>#### Configure LXD
+</div>
+
+#### Configure LXD
 
 <div class="callout callout-danger"> 
 
@@ -272,7 +278,9 @@ As of LXD 2.5 there have been a few changes. If installing a version of LXD unde
 
 Check the version of LXD by running `sudo lxc info`.
 
-</div>Start the configuration of LXD by running `sudo lxd init`
+</div>
+
+Start the configuration of LXD by running `sudo lxd init`
 
 ```
 jason@ubuntu-lxd-tut:~$ sudo lxd init
@@ -319,13 +327,18 @@ Where *some-secret-string* is a secure password that’ll be required by other L
 
 Here we tell LXD to use our already-preconfigured bridge. This opens a new workflow as follows:
 
-<div class="wp-caption alignnone" id="attachment_2728" style="width: 582px">![Screenshot from 2016-05-02 10-54-58](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-54-58.png)*We don’t want LXD to create a new bridge for us, so we’ll select **no** here.*
+![Screenshot from 2016-05-02 10-54-58](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-54-58.png)
+*We don’t want LXD to create a new bridge for us, so we’ll select **no** here.*
 
-</div><div class="wp-caption alignnone" id="attachment_2729" style="width: 582px">![Screenshot from 2016-05-02 10-55-09](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-09.png)*LXD now knows we may have our own bridge already set up, so we’ll select **yes** in order to declare it.*
+![Screenshot from 2016-05-02 10-55-09](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-09.png)
+*LXD now knows we may have our own bridge already set up, so we’ll select **yes** in order to declare it.*
 
-</div><div class="wp-caption alignnone" id="attachment_2730" style="width: 582px">![Screenshot from 2016-05-02 10-55-19](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-19.png)*Finally we’ll input the bridge name and select OK. LXD will now use this bridge.*
+![Screenshot from 2016-05-02 10-55-19](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-19.png)
+*Finally we’ll input the bridge name and select OK. LXD will now use this bridge.*
 
-</div>And with that, LXD will finish configuration and ready itself for use.
+</div>
+
+And with that, LXD will finish configuration and ready itself for use.
 
 #### Configure LXD bridge (2.5+)
 

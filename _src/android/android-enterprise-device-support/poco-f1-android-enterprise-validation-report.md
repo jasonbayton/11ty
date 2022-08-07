@@ -24,7 +24,7 @@ discourse_permalink:
 
 This device has been tested against the public [validation process](/android/android-enterprise-device-support/validation-process-and-information/), and the following mix of (non-exhaustive) issues and recommendations have been noted:
 
-1. Notable problems
+\1. Notable problems
 -------------------
 
 ### 1.1. EMM token provisioning loop
@@ -33,7 +33,7 @@ Upon attempting to complete EMM token (DPC identifier) provisioning, the device 
 
 This will continue until the device is factory reset via recovery (power + vol up on this device).
 
-2. Provisioning methods
+\2. Provisioning methods
 -----------------------
 
 No fully managed (work-managed) provisioning methods are supported on the POCO F1.
@@ -58,7 +58,7 @@ This provisioning method is not supported
 
 Despite EMM token provisioning failing, when provisioning fully managed (work-managed) with a managed Google account, the device brings down the Google DPC without issue, however the setup wizard continues to interject throughout this process, which it should not do.
 
-3. Deployment Scenarios
+\3. Deployment Scenarios
 -----------------------
 
 ### 3.1. Fully managed
@@ -84,7 +84,7 @@ Unable to test due to provisioning issues.
 
 Unable to test due to provisioning issues.
 
-4. Recommendation
+\4. Recommendation
 -----------------
 
 Based on the findings above, **it is not recommended** to use the Pocophone F1 in the enterprise.

@@ -24,7 +24,7 @@ discourse_permalink:
 
 This device has been tested against the public [validation process](/android/android-enterprise-device-support/validation-process-and-information/), and the following mix of (non-exhaustive) issues and recommendations have been noted:
 
-1. Notable problems
+\1. Notable problems
 -------------------
 
 ### 1.1. Factory reset issue  
@@ -34,9 +34,13 @@ When performing a factory reset from Settings &gt; System &gt; Reset Options &gt
 
 This appears to only happen when a passcode has been set on the device before initiating a factory reset, as doing so with no passcode in use has not resulted in this issue.
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/BXe45lPNP6U?feature=oembed" width="500"></iframe></div><figcaption>*The Issue*</figcaption></figure><figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/UYbq9xXLg-I?feature=oembed" width="500"></iframe></div><figcaption>*The fix*</figcaption></figure>**This does not impact factory reset when initiated from the UEM platform**
+https://www.youtube.com/embed/BXe45lPNP6U
 
-2. Provisioning methods  
+https://www.youtube.com/embed/UYbq9xXLg-I
+
+**This does not impact factory reset when initiated from the UEM platform**
+
+\2. Provisioning methods  
 
 --------------------------
 
@@ -56,7 +60,7 @@ NFC functioned as expected, except for in the case of 1.1. Where a factory reset
 
 This provisioning method is not supported
 
-3. Deployment Scenarios
+\3. Deployment Scenarios
 -----------------------
 
 ### 3.1. Fully managed
@@ -92,7 +96,7 @@ A. Disabling addition of accounts on work profile prevents it on fully managed a
 
 A. Full access to device settings, bypasses restrictions when entering settings like wifi, bluetooth, location, through the kiosk menu (MI Core)
 
-4. Recommendation
+\4. Recommendation
 -----------------
 
 Based on the findings above, **it is not recommended** to use the OnePlus 6T in the enterprise. While it does respect and implement a number of restrictions and policies not noted in the issues list above, there are too many fundamental problems with this device under both corpate-owned (fully managed) and BYOD management.

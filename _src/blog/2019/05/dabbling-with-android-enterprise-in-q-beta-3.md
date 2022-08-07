@@ -47,7 +47,8 @@ There’s a new provisioning flow with Q which adds more contextual information,
 
 This appears to come at the cost of provisioning speed, however, as demonstrated in my typically rubbish demo video:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/5wBAJuQnxDM?feature=oembed" title="Q vs Pie QR enrolment" width="500"></iframe>
+https://www.youtube.com/embed/5wBAJuQnxDM
+
 XZ3 with Q on the left 
 
 At 1:10 in the video the Nokia is already finished, ready to go. It took another 20 seconds and a couple more taps to get to the same outcome with Q.

@@ -62,7 +62,7 @@ With the launch of Android 5.0 came the introduction of what was then Android fo
 
 Android Enterprise has matured considerably since then, moving from optional to mandatory in 6.0, extending provisioning methods from the original NFC bump to later include Wireless Token (afw#emm.vendor) and from 7.0, QR Code enrolment too. Just as with Samsung’s KNOX and Apple’s Supervision, every major release adds more management capabilities or deployment scenarios. Today, provisioning a Work-Managed device is significantly faster, which the below video demonstrates:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/PBTI0TQAUyM?feature=oembed" title="MobileIron Android Enterprise QR provisioning" width="500"></iframe>
+https://www.youtube.com/embed/PBTI0TQAUyM
 
 *Above: Work-Managed provisioning using a QR code, a quick and easy alternative to devices that don’t support NFC if running Android 7.0+*
 

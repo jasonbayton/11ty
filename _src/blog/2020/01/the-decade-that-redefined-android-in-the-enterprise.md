@@ -118,7 +118,7 @@ It’ll be super interesting to see what the next decade brings to the table con
 
 As Android (and iOS as this naturally contributed also) continued to grow, competitors opting to run other operating systems saw their market share gradually decline into insignificance as the consumer market shifted. This video (from [1:27](https://youtu.be/MMyMB4zm9so?t=87)) demonstrates this wonderfully (and provides source for the comments below):
 
-<iframe frameborder="0" height="600" loading="lazy" src="https://www.youtube.com/embed/MMyMB4zm9so?start=87" width="900"></iframe>
+https://www.youtube.com/embed/MMyMB4zm9so?start=87
 
 By 2012 both **PalmOS** and **WebOS** had fallen out of the spotlight. WebOS is still about, most recently I saw it in use on LG TVs, but doubt it’ll make any dramatic comeback. Palm today (under a different company licensing the Palm name) are using Android.
 

@@ -133,7 +133,7 @@ There’s a bit of refinement to do on the liveblogging side of things; as I do 
 
 I also attended and presented at Wandera’s [Level](https://www.youtube.com/watch?v=OxreOz3PQBM) event:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/OxreOz3PQBM?feature=oembed" width="500"></iframe>
+https://www.youtube.com/embed/OxreOz3PQBM?feature=oembed
 *Here’s the presentation*
 
 And of course I attended a number of vendor events, sat on the committee of the first DroidCon [Android Enterprise Summit](https://www.de.droidcon.com/enterprise-summit) and did a good few sessions through the year with Google, too!

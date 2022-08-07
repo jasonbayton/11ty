@@ -125,7 +125,7 @@ So in order to confirm it was all working as it should be I did the following:
 
 And here’s a snippet of the load test at work on HAProxy (web nodes only):
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/ruCX31n6fDg?feature=oembed" title="HAProxy loadtest" width="500"></iframe>
+https://www.youtube.com/embed/ruCX31n6fDg
 
 I don’t know why I recorded that rather than screen capture, but c’est la vie.
 

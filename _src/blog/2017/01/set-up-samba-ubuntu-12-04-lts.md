@@ -30,7 +30,7 @@ Check out the video below for a walkthrough demonstrating how to set up Samba on
 Video
 -----
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/Ns6fuS8nXN4?feature=oembed" title="Install and configure Samba - Ubuntu 16.04 LTS" width="500"></iframe>
+https://www.youtube.com/embed/Ns6fuS8nXN4
 
 Installation
 ------------

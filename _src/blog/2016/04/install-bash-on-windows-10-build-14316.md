@@ -28,7 +28,7 @@ Similarly, as this basic Ubuntu image is installed into a directory as any other
 
 I re-enrolled onto the Insider Preview fast ring to check it out and after enabling developer mode, took a rough-and-ready video of my desktop as I enabled Bash. Unfortunately that didn’t turn out too well, so today I decided to do the installation again on a fresh VMware image, then edited it up nicely and popped a voice-over on top:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/dCdnW6nM5zg?feature=oembed" title="Install bash on Windows 10 build 14316" width="500"></iframe>
+https://www.youtube.com/embed/dCdnW6nM5zg
 
 NB: The error which showed up towards the end meant there was no Start entry for Bash (it’s a preview, so I guess these things happen) but running Bash from the command line will launch it in the same way regardless.
 

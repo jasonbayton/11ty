@@ -219,7 +219,7 @@ And yet, I was still getting the checksum error. I went through various troubles
 
 Success!
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/PBTI0TQAUyM?feature=oembed" title="MobileIron Android Enterprise QR provisioning" width="500"></iframe>
+https://www.youtube.com/embed/PBTI0TQAUyM
 
 Here’s the QR for MobileIron Core that I’ve successfully tested, the APK is hosted on my own server to ensure this QR continues to work with the provided checksum:  
 ![](https://r2_worker.bayton.workers.dev/uploads/2017/08/static_qr_code_without_logo-5.png)

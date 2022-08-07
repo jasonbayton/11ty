@@ -16,28 +16,20 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/moto-g7-power-android-enterprise-validation-report/300'
 ---
-<div class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/05/motog7powa.png)</div>1. Tech specs
+![](https://r2_worker.bayton.workers.dev/uploads/2019/05/motog7powa.png)
+
+\1. Tech specs
 -------------
 
-- - - - - -
 
-Android 9 - - - - - -
+Android 9   
+6.2 inch HD display   
+Snapdragon 632  
+4GB RAM  
+64GB Storage  
+12.2/8MP Cameras  
 
-6.2 inch HD display - - - - - -
-
-Snapdragon 632 - - - - - -
-
-4GB RAM - - - - - -
-
-64GB Storage - - - - - -
-
-12.2/8MP Cameras - - - - - -
-
- NFC - - - - - -
-
- Fingerprint - - - - - -
-
-2. Android Enterprise support
+\2. Android Enterprise support
 -----------------------------
 
 <div class="wp-block-columns has-2-columns"><div class="wp-block-column">- - - - - -
@@ -60,7 +52,9 @@ Snapdragon 632 - - - - - -
 
  Zero-touch enrolment- - - - - -
 
-</div></div>3. In-depth testing report
+</div></div>
+
+\3. In-depth testing report
 --------------------------
 
 **How to read this report**. This device has been tested against the public [validation process](/android/android-enterprise-device-support/validation-process-and-information/), in which all provisioning methods and deployment scenarios have been tested across at least two EMM platforms.
@@ -69,7 +63,10 @@ Where a feature works with one EMM, but does not with another (consider **Enforc
 
 Some features aren’t supported or set up across EMMs, or don’t work with the device (consider **KME** below), where this is the case the feature will be marked as untested (purple).
 
-<figure class="wp-block-image">[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_MotoG7Power.jpg)](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_MotoG7Power.pdf)<figcaption>Tap/click for the PDF version</figcaption></figure>4. Notes from the above report
+[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_MotoG7Power.jpg)](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_MotoG7Power.pdf)
+Tap/click for the PDF version<
+
+\4. Notes from the above report
 ------------------------------
 
 ### 4.1. Device issues
@@ -157,7 +154,7 @@ Despite the relevant configurations in place, it is effortless to escape the Mob
 
 **This is a MobileIron issue**, and it affects many devices including recent Nokia and Sony examples.
 
-5. Recommendation
+\5. Recommendation
 -----------------
 
 There are certainly some features organisations may want that aren’t properly supported as shown in the report above, though these are more likely to be limited to the EMM in use.

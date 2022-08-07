@@ -15,7 +15,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/nexcloud-behind-a-proxy-fixing-mixed-content-warnings-with-ssl/63'
 ---
-1. Why this happens
+\1. Why this happens
 -------------------
 
 If you’ve setup Nextcloud to sit behind a proxy, you may encounter the following errors and find not all content loads correctly:
@@ -40,7 +40,7 @@ Or, in NGINX, like this:
 
 This configuration will terminate SSL on the proxy and have the proxy communicate with Nextcloud over HTTP. Since Nextcloud won’t be configured to respond over HTTPS by default, all internal requests for content (like stylesheets, images, etc) will also be made over HTTP, resulting in mixed content warnings.
 
-2. How to fix it
+\2. How to fix it
 ----------------
 
 In order to resolve this, make the following changes to your Nextcloud `config.php`:

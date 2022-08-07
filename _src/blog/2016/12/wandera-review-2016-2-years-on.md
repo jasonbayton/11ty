@@ -233,11 +233,11 @@ Furthermore, there’s a really nice data monitor built in so a user will never 
 
 Browsing with blocks in place:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="375" loading="lazy" src="https://www.youtube.com/embed/-suSyLFVOFo?feature=oembed" title="Screencast 2016 12 11 00 33 47" width="500"></iframe>
+https://www.youtube.com/embed/-suSyLFVOFo
 
 Browsing the Wandera app:
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="375" loading="lazy" src="https://www.youtube.com/embed/ybOq1uH3YsQ?feature=oembed" title="Screencast 2016 12 11 00 38 05" width="500"></iframe>
+https://www.youtube.com/embed/ybOq1uH3YsQ
 
 Conclusion
 ----------

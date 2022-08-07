@@ -30,7 +30,7 @@ The originals
 
 For the official version, as shown in the below video, scroll down.
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/zRhSmH4vSE0?feature=oembed" title="2019 state of mobile security intro - Interview with Gartner's Patrick Hevesi" width="500"></iframe>
+https://www.youtube.com/embed/zRhSmH4vSE0
 
 Which will look a little something like this:
 

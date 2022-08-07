@@ -23,7 +23,7 @@ Not manually, of course, because that invokes the same issues as above; rather i
 
 Will it encourage the ISP to resolve the issue? Possibly. It will however definitely highlight the problems you’re facing and act as a warning for others considering signing up for the same service, so that’s useful.
 
-1. Prerequisites
+\1. Prerequisites
 ----------------
 
 In order to set this up, you’ll need the following:
@@ -34,7 +34,7 @@ In order to set this up, you’ll need the following:
 - A Twitter account
 - A Twitter app
 
-2. Set up Ubuntu
+\2. Set up Ubuntu
 ----------------
 
 As always, before undertaking any of the following steps, ensure the server is up to date by running:
@@ -57,7 +57,7 @@ If you’re happy to continue, tap enter. Then, once the installation is complet
 
 `sudo pip install twitter`
 
-3. Download the scripts
+\3. Download the scripts
 -----------------------
 
 Ensure you’re in your home directory:
@@ -90,7 +90,7 @@ Running the test now with `./speedtest.py` will fail, even if you edit the file 
 
 The Twitter module complains the tokens are invalid. Indeed they are, so you’ll need to generate new ones in order to continue.
 
-4. Set up the Twitter app
+\4. Set up the Twitter app
 -------------------------
 
 If you’re going to create this app for a new, dedicated Twitter account, like [@jason\_broadband](https://twitter.com/jason_broadband), then go off and set that up now. Once logged in:
@@ -115,7 +115,7 @@ Then **Create my access token**. The page will refresh with access tokens you ca
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2017/05/twitter_tokencreated.png)](https://r2_worker.bayton.workers.dev/uploads/2017/05/twitter_tokencreated.png)
 
-5. Edit the script
+\5. Edit the script
 ------------------
 
 With the tokens generated, head back to the commandline and open the `speedtest.py` script for editing:
@@ -146,14 +146,14 @@ The below example will run once per hour and should be added at the bottom of th
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2017/06/crontab.png)](https://r2_worker.bayton.workers.dev/uploads/2017/06/crontab.png)
 
-6. Result
+\6. Result
 ---------
 
 After filling out the Twitter profile a little – adding an image, description, etc. – the account is fully set up and tweets roll in on an hourly basis:
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2017/06/twitter-showcase.png)](https://r2_worker.bayton.workers.dev/uploads/2017/06/twitter-showcase.png)
 
-7. Conclusion
+\7. Conclusion
 -------------
 
 Thanks to the open source projects already in place, setting up this Twitter solution is fast and straightforward. With the right combination of hashtags, many other automated Twitter apps will retweet your tweets automatically, making for very simple publicity.

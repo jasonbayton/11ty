@@ -87,7 +87,7 @@ Simply head over to [People: Get](https://developers.google.com/people/api/rest/
 The end user experience
 -----------------------
 
-<iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/rYxcC9XYgVI?feature=oembed" width="500">
+https://www.youtube.com/embed/rYxcC9XYgVI
 
 Conclusion
 ----------

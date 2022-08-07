@@ -67,7 +67,7 @@ With a fully managed device however, the user has already granted permission dur
 
 This is best demonstrated with a video:
 
-<iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="281" loading="lazy" src="https://www.youtube.com/embed/QSJu3xFzjMw?feature=oembed" width="500"></iframe>
+https://www.youtube.com/embed/QSJu3xFzjMw
 
 As can be seen, after authentication Workspace ONE UEM mostly handles everything automatically, give or take a few taps for privacy, whilst MobileIron runs through the whole work profile setup flow.
 
