@@ -124,10 +124,12 @@ section#comment-system {
 @media (max-width: 900px) {
     content#doc{
         grid-template-columns: 1fr;
+        grid-gap: 0;
     }
 
     #android_doc_grid {
         grid-template-columns: 1fr;
+        grid-column-gap: 0;
     }
 
     section#feedback, section#comment-system {
@@ -145,6 +147,6 @@ section#comment-system {
     }
 
     .post-meta-base {
-        display: unset;
+        /*display: unset;*/
     }
 }
