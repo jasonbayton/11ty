@@ -188,6 +188,7 @@ pre {
   border-radius: 6px;
   padding: 16px;
   white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 pre code {
