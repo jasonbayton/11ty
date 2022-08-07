@@ -107,12 +107,13 @@ content#archive {
 }
 
 section#feedback {
-    grid-column-start: 2;
+    grid-column: 1 / span all;
     justify-self: end;
 }
 
 section#comment-system {
     grid-column-start: 2;
+    /* this may cause issues */
 }
 
 #search #feedback {
