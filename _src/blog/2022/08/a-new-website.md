@@ -1,0 +1,71 @@
+---
+title: 'Relaunching bayton.org'
+date: '2022-08-06T21:41:00+00:00'
+status: publish
+author: 'Jason Bayton'
+excerpt: "After a year of designing and developing, the new site is live. Come and see what's new."
+type: post
+tags:
+    - Meta
+---
+Welcome back! 
+
+Every few years I like to roll out sweeping changes to this website. Whether that's to keep up with modern design trends, to apply a fresh look, usability improvements, or just to wipe clean and start again without the accrued bloat of years of tweaking, it's a nice opportunity to look at the platform from the ground up and re-assess what I want this thing to do.
+
+For this release, it's primary about the back-end maintenance & functionality; my goal here was to get off of WordPress, which is a fine platform by all regards, and switch to something static. I landed on a combination of [Eleventy](https://www.11ty.dev) and [Cloudflare Pages](https://pages.cloudflare.com/) which, in addition to leveraging CF's global network to improve latency and load times to my biggest - but most distant - audiences (up to recently all served from London), took my hosting costs from ~£15/month to £0. 
+
+Let's get into the changes. 
+
+## The new theme
+
+![Bayton V6](https://r2_worker.bayton.workers.dev/uploads/2022/08/Screenshot2022-08-07_1.png)
+
+For version 6 I wanted to focus on white space, easily consumable content with minimal distraction, and a site that loads quickly with minimal media. Articles will of course have the uploads they have (as above) but the main website should load very quickly on non-media-heavy pages. This has been reflected in the removal of most stock imagery, featured images, and more, and leaves a mostly text-based result that I think works well.
+
+The site is split across two main layouts, single-column and dual-column. Pages and the home page work single-columned, while articles and documentation leverage a two-column layout to support page contents and contextual navigation.
+
+The main blogroll (articles) now live under [/blog](/blog) as this was much easier to manage from a content-organisation point of view, and follows how documents are stored also.
+
+The footer is still a work in progress, but it's functional for now.
+
+## A new logo
+
+After a good 7+ years with the old logo, it's time I think for a change. I opted for a simple stylised signature, and I'm really happy with it: 
+
+![new logo](https://r2_worker.bayton.workers.dev/uploads/2022/08/Screenshot2022-08-07_2.png)
+
+This will start showing up on my downloadable content and everywhere else over the next few weeks. 
+
+## Dark mode reintroduced
+
+Dark mode has come and gone a few times over the years, and has had caveats with every implementation. The last time I [posted about it](/blog/2017/02/introducing-night-mode-on-bayton-org) was in 2017, but since then I've tried a few iterations I hadn't ultimately been happy with. 
+
+That's changed in v6, as modern CSS and browser support has allowed not only for dark mode to be implemented in a much simpler manner (I'm not a javascript fan by any means, and they often rely on this), but allows me to leverage `media queries` to automate dark/light based on user preference automatically as well. The CSS incorporates a simple `@media (prefers-color-scheme: dark/light) {}` query that handles all of the automation there. It's nice. 
+
+## ~~WordPress~~ Eleventy powered
+
+This site has been WordPress powered since inception, and it has served me well. As time has passed however and I've dabbled with plugins, themes, customisations, and more, it has bloated out from a minute site into a behmouth that's simply a pain to manage. Add to that the need to pay for hosting over the years, VM security, system management, and it's all a bit of a farce.
+
+Not wanting to spend more for managed hosting than I do on VMs is one reason I didn't offload the site to a cloud provider, the other being loss of control and the limitations on underlying services that would cause incompatibilities with how the site is deployed. A multitude of reasons have popped up over the years, and I've rebuilt the site from fresh copies of WordPress multiple times to attempt to reduce technical debt, but I've had enough.
+
+In addition to reducing overhead, I've wanted to push all of my content to GitHub for a few years. As a hub of information all about Android Enterprise and the desire to keep producing content, maintaining the changes Google introduces so frequently can be a bit of a chore. Things like when Google updated branding from Android for Work, to Android enterprise, to eventually Android **E**nterprise, or all twenty-eight names for COPE they've come up with so far, and the associated acronyms. Each change required the manual edit of up to 100 articles and docs, or in one case a direct database find & replace, which is not ideal. There's obviously community benefits to being open source as well, meaning organisations I work with can directly contribute their logo to my logo folder for display on the site, contribute their own DPC identifier or zero-touch DPC extras without filling in a form, raise issues on outdated/incorrect content, and more. 
+
+Over the last year I had started building a new PHP CMS from the ground up (I know enough to be dangerous) with another custom theme, v5, still hosted up on [the beta site](https://beta.bayton.org) at time of publishing, but a few weeks ago I was introduced to [Eleventy](https://www.11ty.js) by my UX Engineering colleague and honestly, it made far more sense. 
+
+Remaining on a PHP-backed solution would retain the need for hosting, even if only minute, which would continue the systems management overhead I don't really want to do. Eleventy allows me to develop and build locally, and combined with CloudFlare Pages integration with GitHub for automated deployments, means I don't need any self-managed infra in place to keep the site up. 
+
+Today I'll knock up my markdown-based post, push it to GitHub, and minutes later it appears on bayton.org. Magic. 
+
+## WIP
+
+The new site isn't fully finished, and I'm working from an [issues list](https://github.com/jasonbayton/11ty/issues) that's getting smaller by the day. Over the next few weeks I expect to get everything sorted and 1:1 with the old website. 
+
+Some of the content has been shifted around. Things like the Android docs now living under `/android` and not `/docs/enterprise-mobility/android` as I shift away from the wider EMM content strategy and continue to specialise in all things Android. `/docs` over the next few months will likely disappear, but all content has redirects in place so nothing is lost. 
+
+If you find issues with the website, please feel free to raise it on [GitHub](https://github.com/jasonbayton/11ty/issues/new) and I'll add it to the list. I think most of the bigger issues affecting site usability are resolved as of now though. 
+
+If there's an issue with content, you can either raise an issue, or contribute an edit directly, as so: 
+
+![Edit a page](https://r2_worker.bayton.workers.dev/uploads/2022/08/2022-08-07-14.33.10.gif)
+
+If you've been visiting the site for a while, I trust you'll find the new site as usable as ever, and hopefully moreso. If you have feedback or suggestions, you know where to find me 😁
