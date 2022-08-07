@@ -6,6 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 id: 7870
+layout: base.njk
 doccats:
     - MobileIron
 tags: 
@@ -133,9 +134,11 @@ If the login does not work immediately, please check the logging section of Hype
 
 ### Chrome will do this automatically
 
- Hypergate is only being opened manually to test the functionality. In future, Chrome will launch Hypergate and attempt to authenticate automatically. </div>
- 
- Test Chrome
+Hypergate is only being opened manually to test the functionality. In future, Chrome will launch Hypergate and attempt to authenticate automatically
+
+</div>
+
+Test Chrome
 -----------
 
 Within Chrome simply navigate to a website that requires authentication. Login should initiate automatically, immediately.
