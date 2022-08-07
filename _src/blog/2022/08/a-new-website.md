@@ -33,9 +33,8 @@ The footer is still a work in progress, but it's functional for now.
 After a good 7+ years with the old logo, it's time I think for a change. I opted for a simple stylised signature, and I'm really happy with it: 
 
 ![new logo](https://r2_worker.bayton.workers.dev/uploads/2022/08/JasonBayton_purple.svg)
-*I've coloured it purple to suit both dark and light themes when viewing this post*
 
-This will start showing up on my downloadable content and everywhere else over the next few weeks. 
+I've coloured it purple above to suit both dark and light themes when viewing this post. It'll likely remain only black/white unless a mood strikes This logo will start showing up on my downloadable content and everywhere else over the next few weeks. 
 
 ## Dark mode reintroduced
 
@@ -70,5 +69,7 @@ If you find issues with the website, please feel free to raise it on [GitHub](ht
 If there's an issue with content, you can either raise an issue, or contribute an edit directly, as so: 
 
 ![Edit a page](https://r2_worker.bayton.workers.dev/uploads/2022/08/2022-08-07-14.33.10.gif)
+
+(I'm back to using a Mac as my primary machine, so GIFs are absolutely coming back to my content more often).
 
 If you've been visiting the site for a while, I trust you'll find the new site as usable as ever, and hopefully moreso. If you have feedback or suggestions, you know where to find me 😁

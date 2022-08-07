@@ -146,7 +146,7 @@ section#comment-system {
         line-height: unset;
     }
 
-    .post-meta-base {
-        /*display: unset;*/
-    }
+    /*   .post-meta-base {
+        display: unset;
+    }*/
 }

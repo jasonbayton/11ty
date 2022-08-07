@@ -391,6 +391,10 @@ section#page_content {
   padding: 30px 0;
 }
 
+.post-block-extra img {
+  padding: 20px 0;
+}
+
 .post-title {
   margin: 0;
   font-weight: 400;
