@@ -82,7 +82,7 @@
                             <div class="meta-single">
                                 {% for tag in post.data.tags %}
                                 {% if not tag.includes("blog") %}
-                                #<a class="meta-tag" href="/tags/{{ tag | slugify }}/"> {{ tag }} </a>
+                                # <a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
                                 {% endif %}
                                 {% endfor %}
                             </div>
