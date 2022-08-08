@@ -1,41 +1,27 @@
 <!DOCTYPE html>
 <html lang=en>
     <head>
+        <!-- head/meta goes here -->
         {% include "./_parts/head.njk" %}
+        <!-- // -->
     </head>
     <body>
         <header>
+            <!-- Header goes here -->
             {% include "./_parts/header.njk" %}
-        </header>
-        {% if type.includes("documentation") or type.includes("post") %}
-        <content id="doc">
-        {% elseif type.includes("page") %}
+            <!-- // -->
         <content id="search">  
-        {% endif %}  
-            {% if not type.includes("page") %}
-            <section id="aside" class="mobile-hidden">
-                <div class="aside-title">
-                    <h2>Contents</h2>
-                </div>
-                <div id="article_contents_list" class="js-toc">
-                    <!-- Taken care of by Tocbot -->
-                </div> 
-                {% if type.includes("documentation") %}
-                <div id="aside_docs">
-                    {% include "./_parts/docsnav.njk" %}
-                </div>
-                {% endif %}
-            </section>
-            {% endif %}
             <section id="page_content">
                 <div class="section-title base-title">
                     {{ title }}
                 </div>
+
                 {{ content | safe }}
+                
                 <script type="text/javascript" src="/js/elasticlunr.js"></script>
                 <script type="text/javascript" src="/js/search.js"></script>
                 <div class="field">
-                    <input type="search" placeholder="Search..." id="searchField">
+                    <input type="search" placeholder="Type a word to begin.." id="searchField">
                 </div>
 
                 <div class="post-block" id="searchResults">
@@ -46,11 +32,9 @@
             {% if pagination.href.next or pagination.href.previous %}
             {% include "./_parts/paginate.njk" %}
             {% endif %}
-            <section id="feedback">
-                <div id="content_report">
-                    Problem with this content? <a href="https://github.com/jasonbayton/11ty/blob/main/{{ page.inputPath }}">Make an edit</a>.
-                  </div>
-            </section>
+            <!-- Page feedback goes here -->
+            {% include "./_parts/feedback.njk" %}
+            <!-- // -->
         </content>
         <footer>
             {% include "./_parts/footer.njk" %}
