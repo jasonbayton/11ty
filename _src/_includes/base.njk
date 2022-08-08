@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang=en>
     <head>
+    <!-- head/meta goes here -->
         {% include "./_parts/head.njk" %}
+    <!-- // -->
     </head>
     <body>
         <header>
+            <!-- Header goes here -->
             {% include "./_parts/header.njk" %}
+            <!-- // -->
         </header>
         {% if type.includes("documentation") or type.includes("post") %}
         <content id="doc">
@@ -22,7 +26,9 @@
                 </div> 
                 {% if type.includes("documentation") %}
                 <div id="aside_docs">
+                    <!-- Docnav goes here -->
                     {% include "./_parts/docsnav.njk" %}
+                    <!-- // -->
                 </div>
                 {% endif %}
                 {% if type.includes("post") %}
@@ -32,7 +38,7 @@
                 {% endif %}
             </section>
             {% endif %}
-            <section id="page_content">
+            <section id="page_content">    
                 <div class="post-meta post-meta-base">
                     <div class="meta-single post-meta-base-left">
                         {% if type.includes("documentation") %}
@@ -45,7 +51,7 @@
                     <div class="meta-single post-meta-base-right">
                         {% for tag in tags %}
                         {% if not tag.includes("blog") %}
-                        # <a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                        #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
                         {% endif %}
                         {% endfor %}
                     </div>
@@ -58,39 +64,22 @@
                     {{ content | safe }}
                 </div>
             </section>
-            <!--section id="comment-system">
-                <div id='discourse-comments'></div>
-
-                <script type="text/javascript">
-                DiscourseEmbed = { discourseUrl: 'https://discuss.bayton.org/',
-                                    discourseEmbedUrl: 'https://bayton.org{{ page.url }}' };
-
-                (function() {
-                    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-                    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-                })();
-                </script>
-            </section-->
-            <!--section id="paginate">
-                {% if type.includes("documentation") or type.includes("post") %}
-            {% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
-            {% set nextPost = collections.blog | getNextCollectionItem(page) %}
-            {% if previousPost %}← <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>{% endif %}
-            {% if nextPost %}<a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> →{% endif %}
-            {% endif %}
-            </section-->
+            <!-- Comments go here -->
+            {% include "./_parts/comments.njk" %}
+            <!-- // -->
+            <!-- Pagination goes here -->
             {% if pagination.href.next or pagination.href.previous %}
             {% include "./_parts/paginate.njk" %}
             {% endif %}
-            <section id="feedback">
-                <div id="content_report">
-                    Problem with this content? <a href="https://github.com/jasonbayton/11ty/blob/main/{{ page.inputPath }}">Make an edit</a>.
-                  </div>
-            </section>
+            <!-- // -->
+            <!-- Page feedback goes here -->
+            {% include "./_parts/feedback.njk" %}
+            <!-- // -->
         </content>
         <footer>
+            <!-- Footer goes here -->
             {% include "./_parts/footer.njk" %}
+            <!-- // -->
         </footer>
     </body>
 </html>

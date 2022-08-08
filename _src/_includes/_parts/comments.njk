@@ -1,0 +1,22 @@
+<!--section id="comment-system">
+    <div id='discourse-comments'></div>
+
+    <script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: 'https://discuss.bayton.org/',
+                        discourseEmbedUrl: 'https://bayton.org{{ page.url }}' };
+
+    (function() {
+        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+    })();
+    </script>
+</section-->
+<!--section id="paginate">
+    {% if type.includes("documentation") or type.includes("post") %}
+{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.blog | getNextCollectionItem(page) %}
+{% if previousPost %}← <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>{% endif %}
+{% if nextPost %}<a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> →{% endif %}
+{% endif %}
+</section-->

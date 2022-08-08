@@ -64,7 +64,7 @@ content#archive {
 
 .post-meta-base {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 0;
 }
 
