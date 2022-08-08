@@ -12,7 +12,7 @@ permalink: "/tags/{{ tag | slugify }}/"
 ---
 
 <div class="section-title">
-    #{{ tag }}
+    {{ tag }} (#{{ tag | slugify }})
 </div>
 
 {% set taglist = collections[ tag ] %}
