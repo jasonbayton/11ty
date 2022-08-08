@@ -19,7 +19,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/im-joining-social-mobile-as-director-of-android-innovation/285'
 tags:
-    - General
+    - Meta
 ---
 As many reading this may know, I’ve worked incredibly hard over the last few years to create the best central resource for Android Enterprise online. Starting as a few blog posts, it quickly became clear the resources I create should have their own dedicated area on the website (which I talk about more [here](/2017/05/introducing-documentation-on-bayton-org/) and [here](/2018/12/year-in-review-2018/#2-1-documentation)), and from then to today I’ve spent my evenings and weekends building what you see over on [/android](/android).
 

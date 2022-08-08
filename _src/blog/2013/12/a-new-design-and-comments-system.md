@@ -14,7 +14,7 @@ post_format: []
 post_views_count:
     - '4045'
 tags:
-    - General
+    - Meta
 ---
 If you’ve stopped by recently, you’ll have noticed a few changes. It’s been a long time coming, but the site has finally undergone some well overdue maintenance.  
 So far this month I have applied a new, custom written theme and changed the comments system to Disqus.

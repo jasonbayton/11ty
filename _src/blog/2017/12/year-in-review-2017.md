@@ -18,7 +18,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/year-in-review-2017/72'
 tags:
-    - General
+    - Meta
 ---
 As 2018 approaches, I thought I’d take a moment to reflect on some of this year’s activity and achievements.
 

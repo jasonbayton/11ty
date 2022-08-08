@@ -19,7 +19,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/introducing-night-mode-on-bayton-org/89'
 tags:
-    - General
+    - Meta
 ---
 <div class="callout callout-warning">
 
