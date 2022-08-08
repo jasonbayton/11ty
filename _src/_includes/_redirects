@@ -18,10 +18,6 @@
 /blog/2017/02/what-is-android-enterprise-android-for-work-and-why-is-it-used/ /android/what-is-android-enterprise-and-why-is-it-used 301
 /wp-content/uploads/* https://r2_worker.bayton.workers.dev/uploads/:splat 301
 /download/* https://r2_worker.bayton.workers.dev/download/:splat 301
-/docs/enterprise-mobility/ios/* /android/ 301
-/docs/enterprise-mobility/general/* /android/ 301
-/docs/enterprise-mobility/infrastructure/* /android/ 301
-/docs/enterprise-mobility/mobileiron/* /android/ 301
 /docs/enterprise-mobility/android/* /android/:splat 301
 /20* /blog/20:splat 301
 /category/* /tag/:splat 301
