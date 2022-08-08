@@ -445,6 +445,10 @@ section#page_content {
   width: 100%;
 }
 
+#searchField:placeholder {
+  color: var(--light)
+}
+
 button#back_button, button#next_button {
   font-size: 22px;
   padding: 10px 40px;
