@@ -11,9 +11,7 @@
             <section id="posts" class="">
                 {{ content | safe }}
             </section>
-            {% if pagination.href.next or pagination.href.previous %}
-            {% include "./_parts/paginate.njk" %}
-            {% endif %}
+            <!-- add pagination here -->
         </content>
         <footer>
             {% include "./_parts/footer.njk" %}
