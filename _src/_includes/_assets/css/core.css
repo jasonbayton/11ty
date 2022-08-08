@@ -445,7 +445,7 @@ section#page_content {
   width: 100%;
 }
 
-#searchField:placeholder {
+#searchField::placeholder {
   color: var(--light)
 }
 
