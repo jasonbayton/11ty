@@ -89,7 +89,6 @@ content#archive {
     width: 10px;
 }
 
-
 .base-title {
     font-size: 80px;
     font-weight: 900;
@@ -116,11 +115,6 @@ section#comment-system {
     /* this may cause issues */
 }
 
-#search #feedback {
-    padding-top: 80px;
-}
-
-
 @media (max-width: 900px) {
     content#doc{
         grid-template-columns: 1fr;
@@ -145,8 +139,4 @@ section#comment-system {
         font-size: 40px;
         line-height: unset;
     }
-
-    /*   .post-meta-base {
-        display: unset;
-    }*/
 }

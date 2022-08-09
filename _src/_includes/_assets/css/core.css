@@ -344,7 +344,6 @@ content#home {
   grid-area: 1/1/2/3;
   font-weight: 900;
   font-size: 50px;
-
 }
 
 #intro_text {
@@ -622,13 +621,17 @@ a.toc-link { text-decoration: none; }
     padding: 10px 20px;
   }
 
-  #darktoggle, #platinum_logo {
+  #darktoggle {
     justify-self: end;
     cursor: pointer;
   }
 
   #corner_search {
     grid-column-start: 3;
+    justify-self: end;
+  }
+
+  .platinum-logo-right {
     justify-self: end;
   }
 
