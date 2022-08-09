@@ -3,7 +3,7 @@ title: 'AER dropped the 3/5 year update mandate with Android 11, where are we no
 date: '2022-01-11T17:58:00+00:00'
 status: publish
 author: 'Jason Bayton'
-excerpt: 'Continuing on from losing my bet with Google, I’ve been spending some time with the Android security transparency report and ended up taking a long, hard look at the impact of dropping the Android 10 &amp; below requirement for devices to receive 3/5 years of updates in order to be recommended by Google.'
+excerpt: 'Continuing on from losing my bet with Google, I’ve been spending some time with the Android security transparency report and ended up taking a long, hard look at the impact of dropping the Android 10 & below requirement for devices to receive 3/5 years of updates in order to be recommended by Google.'
 type: post
 id: 9479
 tag:

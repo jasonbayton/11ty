@@ -233,6 +233,10 @@ button {
   width: 150px;
 }
 
+#platinum_logo img {
+  width: 30px;
+}
+
 #bayton_text {
   font-family: 'Parisienne', cursive;
   font-weight: 300;
@@ -253,7 +257,7 @@ button {
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
-  grid-template-columns: 1fr 5fr 60px 60px;
+  grid-template-columns: 1fr 40px 5fr 60px 60px;
   color: var(--text);
   align-items: center;
   min-height: 100px;
@@ -264,7 +268,7 @@ nav #nav_links {
   font-size: 16px;
   padding-right: 20px;
   justify-self: end;
-  grid-area: 1/2/1/3;
+  grid-column-start: 3;
 }
 
 #nav_links a {
@@ -287,14 +291,6 @@ nav #nav_links {
 
 .nav-link-individual {
   display: inline;
-}
-
-#corner_search {
-  grid-area: 1/3/2/4
-}
-
-#darktoggle {
-  grid-area: 1/4/2/5
 }
 
 content {
@@ -474,12 +470,10 @@ section#trusted_logos #trusted_container {
   background: var(--bright);
   border-radius: 5px;
   margin-top: 50px;
+  grid-gap: 30px
 }
 
 .vendor-logo {
-  display: inline-block;
-  max-width: 300px;
-  padding: 30px;
   align-self: center;
   justify-self: center;
 }
@@ -506,17 +500,6 @@ section#trusted_logos #trusted_container {
 .meta-tag {
   padding-right: 10px;
   text-transform: lowercase;
-}
-
-#content_container article {
-  grid-area: 1 / 2 / 2 / 3;
-}
-
-#literal_content {
-  padding-bottom: 40px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
 }
 
 .eleventy-plugin-youtube-embed {
@@ -558,18 +541,7 @@ footer {
 }
 
 #social_icons {
-  font-size: 90px;
-  display: inline;
-  border-right: 2px solid var(--text);
-  margin-right: 20px;
-}
-
-.footer-images {
-  display: inline;
-}
-
-.footer-images img {
-  max-height: 90px;
+  font-size: 30px;
   display: inline;
 }
 
@@ -632,11 +604,8 @@ a.toc-link { text-decoration: none; }
 
 @media (max-width: 1550px) {
 
-  #dpc_extras {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
 }
+
 @media (min-width: 1300px) {
 
 
@@ -648,9 +617,19 @@ a.toc-link { text-decoration: none; }
     display: none;
   }
 
+  #navbar {
+    grid-template-columns: 1fr 60px 60px 60px;
+    padding: 10px 20px;
+  }
+
   #darktoggle {
     justify-self: end;
     cursor: pointer;
+  }
+
+  #corner_search {
+    grid-column-start: 3;
+    justify-self: end;
   }
 
   #banner_statement {
@@ -659,11 +638,6 @@ a.toc-link { text-decoration: none; }
 
   #bayton_logo {
     padding: unset;
-  }
-
-  #navbar {
-    grid-template-columns: 1fr 60px 60px;
-    padding: 10px 20px;
   }
 
   #intro_block {
@@ -690,16 +664,8 @@ a.toc-link { text-decoration: none; }
 
   #vendor_disclaimer {
     font-size: 10px;
+    padding-top: 15px;
   }
-
-  #social_icons {
-    font-size: 30px;
-  }
-  
-  .footer-images img {
-    max-height: 30px;
-  }
-
 
 }
 
