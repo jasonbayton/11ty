@@ -1,7 +1,7 @@
 ---
 title: Android
 published: '2017-04-07T19:31:54+01:00'
-date: "git Last Modified"
+date: "2022-08-04"
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
