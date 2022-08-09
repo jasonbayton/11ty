@@ -258,7 +258,7 @@ button {
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
-  grid-template-columns: 1fr 40px 5fr 60px 60px;
+  grid-template-columns: 230px 40px 5fr 60px 60px;
   color: var(--text);
   align-items: center;
   min-height: 100px;
@@ -536,8 +536,7 @@ section#trusted_logos #trusted_container {
 }
 
 footer {
-  background-color: var(--light);
-  padding: 30px 0 0;
+  padding: 120px 0 0;
   text-align: center;
 }
 
@@ -623,7 +622,7 @@ a.toc-link { text-decoration: none; }
     padding: 10px 20px;
   }
 
-  #darktoggle {
+  #darktoggle, #platinum_logo {
     justify-self: end;
     cursor: pointer;
   }
