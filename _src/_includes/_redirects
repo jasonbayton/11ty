@@ -21,6 +21,7 @@
 /docs/enterprise-mobility/android/* /android/:splat 301
 /20* /blog/20:splat 301
 /category/* /tags/:splat 301
+/tag/* /tags/:splat 301
 dev.bayton.org/* bayton.org/:splat 301
 beta.bayton.org/* bayton.org/:splat 301
 www.bayton.org/* bayton.org/:splat 301
