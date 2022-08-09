@@ -468,7 +468,7 @@ section#trusted_logos #trusted_container {
 #vendor_logo_container {
   padding: 10px 30px 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: row;
   background: var(--bright);
@@ -505,18 +505,7 @@ section#trusted_logos #trusted_container {
 
 .meta-tag {
   padding-right: 10px;
-}
-
-#post_group_left {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-#post_group_centre {
-  grid-area: 1 / 2 / 2 / 3;
-}
-
-#post_group_right {
-  grid-area: 1 / 3 / 2 / 4;
+  text-transform: lowercase;
 }
 
 #content_container article {
@@ -633,28 +622,10 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 #inline_toc { display: none; }
 a.toc-link { text-decoration: none; }
 
-/* Fitvids plugin */
-.fitVids-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-.fitVids-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 #mobile_tag {
   display: none;
   font-size: 16px;
   color: var(--bright);
-}
-
-.tag-title {
-  text-transform: uppercase;
 }
 
 /* Media */
@@ -714,8 +685,7 @@ a.toc-link { text-decoration: none; }
   }
 
   #vendor_logo_container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   #vendor_disclaimer {
