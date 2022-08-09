@@ -15,8 +15,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/set-up-a-network-bridge-ubuntu-12-04-lts/56'
 ---
-\1. Installation
----------------
+## 1. Installation
 
 In order to set up a network bridge, the package `bridge-utils` needs to be installed. Install it with:
 
@@ -47,8 +46,7 @@ If `bridge-utils` isn’t installed before moving on, it won’t be possible to 
 
 </div>
 
-\2. Configuration
-----------------
+## 2. Configuration
 
 With the `bridge-utils` package installed, begin by opening `/etc/network/interfaces` in a text editor. I like vim:
 
@@ -133,8 +131,7 @@ eth0      Link encap:Ethernet  HWaddr 00:0c:29:2f:cd:30
 
 If for any reason no changes have applied, or `ifconfig` returns no IPv4 addresses at all, please double check the configuration and optionally give the host a reboot.
 
-\3. Conclusion
--------------
+## 3. Conclusion
 
 Congratulations, you now have a bridged network with which to provide direct LAN access to your virtualised guests!
 

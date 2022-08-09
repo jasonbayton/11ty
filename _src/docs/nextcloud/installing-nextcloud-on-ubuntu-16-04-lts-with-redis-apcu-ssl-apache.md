@@ -17,15 +17,13 @@ discourse_permalink:
 ---
 In 2016, the self-hosted community witnessed the public launch of Nextcloud, a vastly-improved fork of ownCloud. Having almost finished migrating data on my home server to Nextcloud and experimenting with some of the more optional features such as caching, pretty links, theming and more, I felt it would be a good time to document some of this in one simple-to-follow guide.
 
-\1. What is Nextcloud?
----------------------
+## 1. What is Nextcloud?
 
 As mentioned above Nextcloud is a fork of ownCloud that has becoming the better and faster-developed alternative to the self-hosted cloud storage software of old. If you’re an ownCloud user and have ever been frustrated by the dual licenses, the paid vs free model and – as part of it – lack of some of the better features, Nextcloud have gone completely FOSS (Free and Open-Source Software) following the Red Hat model of charging for enterprise support rather than enterprise features.
 
 Some of the previously enterprise-only features released as part of the standard FOSS Nextcloud installation include FileDrop, an alternative to Dropbox’s “File Requests”, LibreOffice online (Collabora), an alternative to Google Docs or Office Online, two-factor authentication, improved federation and more.
 
-\2. In this guide
-----------------
+## 2. In this guide
 
 After completing this guide we’ll have the following:
 
@@ -46,8 +44,7 @@ This guide assumes Nextcloud will be accessed via *url.com/nextcloud.* If Nextcl
 
 </div>
 
-\3. Environment
---------------
+## 3. Environment
 
 For this guide Nextcloud will be installed on a remote Ubuntu VM, however it can equally be installed on a local Ubuntu server, a Raspberry Pi or a Linux Container such as Docker or LXD.
 
@@ -87,8 +84,7 @@ Besides the above-mentioned packages and their respective dependencies, we shoul
 
 **Due to the advanced requirements in this guide, root/sudo access to the Ubuntu instance is mandatory.**
 
-\4. Setting up the environment
------------------------------
+## 4. Setting up the environment
 
 *For those with a functioning Ubuntu server and required components, please skip to step 4.1.*
 
@@ -314,8 +310,7 @@ With that, all traffic will be forced to HTTPS.
 
 ![img.29](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.29.png)
 
-\5. Install Nextcloud
---------------------
+## 5. Install Nextcloud
 
 With the server environment ready (excluding some final NC-related configurations) we’ll move on to installing Nextcloud itself.
 
@@ -389,8 +384,7 @@ Scroll down and click **Finish Setup**.
 
 ![img.21](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.21.png)
 
-\6. Configuration
-----------------
+## 6. Configuration
 
 As it stands currently, Nextcloud isn’t very happy.
 
@@ -602,8 +596,7 @@ However, if a global recovery key is considered too all-powerful, individual use
 
 All data will now be encrypted at rest, as well as protected in transit when using SSL.
 
-\7. Conclusion
--------------
+## 7. Conclusion
 
 So following this guide we now have a new server running Nextcloud on Ubuntu supporting both caching and pretty links.
 

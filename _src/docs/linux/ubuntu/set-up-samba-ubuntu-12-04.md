@@ -15,8 +15,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/set-up-samba-ubuntu-12-04/57'
 ---
-\1. Introduction
----------------
+## 1. Introduction
 
 Samba is an incredibly useful, open source program for setting up and/or accessing network shares from \*nix operating systems. Samba shares are easily accessible from any modern OS using SMB/CIFS. Originally designed for DOS, SMB/CIFS is the most commonly used protocol for the sharing of directories and printers in the enterprise and Samba was created to guarantee a level of interoperability in mixed-OS environments.
 
@@ -40,13 +39,11 @@ Ensure Samba is restarted in order to apply the change:
 
 </div>
 
-\2. Video
---------
+## 2. Video
 
 https://www.youtube.com/embed/Ns6fuS8nXN4
 
-\3. Installation
----------------
+## 3. Installation
 
 From the commandline, run the following to install Samba:
 
@@ -86,8 +83,7 @@ Do you want to continue? [Y/n]
 
 If you’re happy with that, tap `Enter` to continue; Samba will install quite quickly and you’ll be ready to move on to configuration.
 
-\4. Configuration
-----------------
+## 4. Configuration
 
 If it doesn’t yet exist, create the directory you intend on sharing:
 
@@ -143,8 +139,7 @@ The password doesn’t have to match that of your Ubuntu user account, it can be
 
 If you need to add other Samba users, create a new unix account on the Ubuntu server and repeat the process above for the new user.
 
-\5. Conclusion
--------------
+## 5. Conclusion
 
 You should now be able to access the share from another machine!
 

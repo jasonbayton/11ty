@@ -24,8 +24,7 @@ discourse_permalink:
 
 This device has been tested against the public [validation process](/android/android-enterprise-device-support/validation-process-and-information/), and the following mix of (non-exhaustive) issues and recommendations have been noted:
 
-\1. Notable problems
--------------------
+## 1. Notable problems
 
 ### 1.1. Factory reset issue  
 
@@ -40,9 +39,8 @@ https://www.youtube.com/embed/UYbq9xXLg-I
 
 **This does not impact factory reset when initiated from the UEM platform**
 
-\2. Provisioning methods  
+## 2. Provisioning methods  
 
---------------------------
 
 No significant issues noted, however the flow of all provisioning methods is interrupted just before the DPC is launched due to the prompts to select a font style for the device, screen calibration, and screen off gestures.
 
@@ -60,8 +58,8 @@ NFC functioned as expected, except for in the case of 1.1. Where a factory reset
 
 This provisioning method is not supported
 
-\3. Deployment Scenarios
------------------------
+## 3. Deployment Scenarios
+
 
 ### 3.1. Fully managed
 
@@ -96,8 +94,8 @@ A. Disabling addition of accounts on work profile prevents it on fully managed a
 
 A. Full access to device settings, bypasses restrictions when entering settings like wifi, bluetooth, location, through the kiosk menu (MI Core)
 
-\4. Recommendation
------------------
+## 4. Recommendation
+
 
 Based on the findings above, **it is not recommended** to use the OnePlus 6T in the enterprise. While it does respect and implement a number of restrictions and policies not noted in the issues list above, there are too many fundamental problems with this device under both corpate-owned (fully managed) and BYOD management.
 
