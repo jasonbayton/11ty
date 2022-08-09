@@ -16,12 +16,12 @@
         <div id="nav_links" class="mobile-hidden">
             {% for link in globalnav %}
             <div class="nav-link-individual">
-                <a href="{{ link.url }}">{{ link.text }}</a>
+                <a class="{% if link.url in page.url %} active {% endif %}" href="{{ link.url }}">{{ link.text }}</a>
             </div>
             {% endfor %} 
         </div>
         <div id="corner_search">
-            <a href="/search"><i class="fa fa-search"></i></a>
+            <a class="{% if '/search' in page.url %} active {% endif %}" href="/search"><i class="fa fa-search"></i></a>
         </div>
         <div id="darktoggle">
             <i class="fas fa-clouds-moon"></i>

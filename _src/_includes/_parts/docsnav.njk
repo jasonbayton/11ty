@@ -6,8 +6,8 @@
             Getting started        
         </summary>
     <ul>
-        {%- for entry in collections['Getting started'] -%}
-        <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
+        {%- for post in collections['Getting started'] -%}
+        <li><a class="{{ 'active' if title == post.data.title }}" href="{{ post.url }}">{{ post.data.title }}</a></li>
         {%- endfor -%}
     </ul>
 
@@ -18,7 +18,7 @@
         </summary>
     <ul>
         {%- for post in collections['Diving deeper'] -%}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        <li><a class="{{ 'active' if title == post.data.title }}" href="{{ post.url }}">{{ post.data.title }}</a></li>
         {%- endfor -%}
     </ul>
 </details>
@@ -28,7 +28,7 @@
         </summary>
     <ul>
         {%- for post in collections['Resources'] -%}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        <li><a class="{{ 'active' if title == post.data.title }}" href="{{ post.url }}">{{ post.data.title }}</a></li>
         {%- endfor -%}
     </ul>
 </details>
@@ -38,7 +38,7 @@
         </summary>
     <ul>
         {%- for post in collections['Hardware validation'] -%}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        <li><a class="{{ 'active' if title == post.data.title }}" href="{{ post.url }}">{{ post.data.title }}</a></li>
         {%- endfor -%}
     </ul>
 </details>

@@ -17,7 +17,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/google-pixel-3a-android-enterprise-validation-report/296'
 ---
-<div class="wp-block-image">![](https://r2_worker.bayton.workers.dev/uploads/2019/06/pixel3a-white-front-min-1.png)</div>
+![](https://r2_worker.bayton.workers.dev/uploads/2019/06/pixel3a-white-front-min-1.png)
 
 ## 1. Tech specs
 
