@@ -33,30 +33,8 @@ What is the fitlet-RM?
 ----------------------
 
 ![20160710_211406](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_211406-e1468183002842.jpg)
-
- <style type="text/css">
-			#gallery-13 {
-				margin: auto;
-			}
-			#gallery-13 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-13 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-13 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-full" id="gallery-13"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205246.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205246.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205238.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205238.jpg) </dt></dl>   
- </div>
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205246.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205246.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205238.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205238.jpg)
  
  The fitlet-RM series is a follow-up to the previously launched fitlet-XA10-LAN/fitlet-iA10 and is aimed towards applications requiring a reliable, power-efficient, hardy system with a minuscule footprint. At 10.8 cm x 8.3 cm x 2.4 cm (0.22l) it’s barely larger than a standard SSD and can fit comfortably in a pocket, in an obscure corner of a rack, hidden in the depths of a larger appliance or fixed unassumingly behind a display.
 
@@ -227,29 +205,8 @@ In an industrial or enterprise environment this shouldn’t be an issue. It did 
 
 Here’s where the fitlet heatsink comes in:
 
- <style type="text/css">
-			#gallery-14 {
-				margin: auto;
-			}
-			#gallery-14 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-14 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-14 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-full" id="gallery-14"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132827.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132827.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132837.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132837.jpg) </dt></dl>   
- </div>
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132827.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132827.jpg)
+[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132837.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132837.jpg) 
 
 At the moment only the bare aluminium version is available, but regardless of colour the heatsink does the job perfectly. I noted a temperature drop of about 11°C to the low 40’s resulting in a PC that is no longer too hot to touch and therefore more manageable.
 

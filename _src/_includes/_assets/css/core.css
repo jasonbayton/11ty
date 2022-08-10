@@ -627,6 +627,7 @@ a.toc-link { text-decoration: none; }
 
   .platinum-logo-right {
     justify-self: end;
+    display: none;
   }
 
   #banner_statement {
