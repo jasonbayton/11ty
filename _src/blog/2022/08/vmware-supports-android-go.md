@@ -1,5 +1,5 @@
 ---
-title: 'VMware WS1 UEM officially supports Android Go'
+title: 'Android Go & EMM support'
 date: '2022-08-09T22:42:00+00:00'
 status: publish
 author: 'Jason Bayton'
@@ -17,20 +17,28 @@ In spite of common misconceptions, certainly not aided by folks like the [NCSC p
 🟠 Work profile  
 🔴 Work profile on company owned devices (COPE, WPoCOD) 
 
-Due to the memory constraints associated with Android Go devices, the work profile deployment scenario is optional, and therefore dependent on the OEM for implementation, WPoCOD is not supported. Since upping memory limits to 2GB this may change in future, but is unlikely.  
+Due to the memory constraints associated with Android Go devices, the work profile deployment scenario is optional, and therefore dependent on the OEM for implementation, WPoCOD is not supported. Now that Google mandates 2GB as the memory cut-off this could potentially change in future, but is unlikely.  
 
 In addition, since late 2020 [Android Go has also supported zero-touch by default](/android/android-enterprise-faq/#:~:text=on%208.0%2B%20devices.-,Does%20Android%20Go%20support%20zero%2Dtouch,-%3F%20%23), which was also previously opt-in for OEMs prior to ZT's [integration with Google Play Services](https://bayton.org/blog/2020/11/google-announce-big-changes-to-zero-touch/).
 
 Not only then has Android Go supported Android Enterprise for many years, but it has improved over time.
 
-With that clarified, recently VMware [announced support for Android Go with version 22.06 of their Intelligent Hub DPC](https://blogs.vmware.com/euc/2022/07/bringing-android-enterprise-to-everyone-with-android-go-edition.html) (the on-device VMware agent). 
+With that said, recently VMware [announced support for Android Go with version 22.06 of their Intelligent Hub DPC](https://blogs.vmware.com/euc/2022/07/bringing-android-enterprise-to-everyone-with-android-go-edition.html) (the on-device VMware agent), and I opted to probe a bit into exactly why EMMs are making claims to support, or not, Android Go in the market today. 
 
-Some may read into this as a special effort being made to support Android Go devices, but as above, this has not been necessary. What VMware have done internally is better focus on their testing and development efforts in order to change their stance from _not_ supporting Android Go at all, to now offering limited support in line with what Android Go customers should expect. 
+Because Android Go does limit functionality, and the behemoths of the EMM world _like_ functionality, it appears to be less to do with Android Go supporting Android Enterprise, and more to do with EMMs not being able to hook into the permissions and services they need to enable their functionality. 
 
-Which is brilliant. 
+VMware in this case now officially claim support for Android Go where they did not previously. They've taken the time to review the platform, understand the outstanding issues their product(s) have in supporting Android Go, and have applied greater focus on their testing and development efforts in order to now offer - albeit limited - support in line with what Android Go customers should expect. 
 
-VMware's support comes with aforementioned caveats, notably at time of writing [limitations apply](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/Android_Platform/GUID-AWT-AFWINTRODUCTION.html?hWord=N4IgpgHiBcIIYDsAmAnA9gSyQAgOZpAF8g#:~:text=Android%20Device%20Modes.-,Android%20GO%20Support,-Workspace%20ONE%20UEM) to Workspace ONE Launcher and some product provisioning features - which is perfectly reasonable considering the restraints on resources available - but for the customers looking to deploy exceptionally low-cost, limited-use devices in their WS1 UEM managed organisations, there's nothing technically now preventing that. 
+Caveats do exist, notably at time of writing [limitations apply](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/Android_Platform/GUID-AWT-AFWINTRODUCTION.html?hWord=N4IgpgHiBcIIYDsAmAnA9gSyQAgOZpAF8g#:~:text=Android%20Device%20Modes.-,Android%20GO%20Support,-Workspace%20ONE%20UEM) to Workspace ONE Launcher - which seems primarily due to the `Display over other apps` permission requirement not being enabled on Go - and some product provisioning features, which are perfectly reasonable considering the restraints on resources available. Those aside, for the customers looking to deploy exceptionally low-cost, limited-use devices in their WS1 UEM managed organisations, there's nothing technically now preventing that. 
 
-With Go out of the way, the path is clear for supporting other variants of Android in the not-too-distant future. 
+But when you look at some of the other vendors, the effort still isn't being applied. 
 
-Watch this space!
+[MobileIron](https://forums.ivanti.com/s/article/Is-Android-Go-Edition-Supported-with-MobileIron?language=en_US) reference AER for device selection, which isn't particularly useful if your budget only affords Go-level hardware (though the AER plug is a good one nonetheless), before continuing on to incorrectly state WP is not supported, rather than optional, and then finishing with MobileIron's actual stance: "possibly works doesn't mean officially supported".
+
+[Meraki](https://community.meraki.com/t5/New-to-Meraki/Meraki-and-Android-Go/m-p/154825) incorrectly claim as recently as July that Android Go doesn't support Android Enterprise at all, following customer complaints of enrolment failures.
+
+SOTI, IBM, I couldn't see any solid view one way or another in public docs.
+
+Established EMMs aside, some of the more modern solutions running on the Android Management API (AMAPI) all appear to support Android Go fine, including Microsoft Endpoint Manager (Intune), Wizy, and several more. Arguably of all the testing I'd done, enrolling into my company's Intune environment with all of the app policies, conditional access, suite of non-Go applications and more was the most taxing, and the Android Go device I have handled it perfectly fine. 
+
+Overall I think Android Go support is a bit of a sore point for the ecosystem today. There's clear misunderstandings in what can and can't be supported with the lighter Android variant, and not a lot of visible effort to put that right. Perhaps this is something for Google to turn their attention to in the not-too-distant future, as I'm sure Go expanding to the 2GB memory threshold is only going to grow the Go footprint around the ecosystem, and there's too much uncertainty with it's place in enterprise as it stands at the moment.
