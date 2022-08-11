@@ -1,5 +1,4 @@
 const { DateTime } = require("luxon");
-const timeToRead = require("eleventy-plugin-time-to-read");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
@@ -24,24 +23,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dateFeed", dates.dateFeed);
   eleventyConfig.addFilter("dateFull", dates.dateFull);
   eleventyConfig.addFilter("dateFormat", dates.dateFormat);
-  eleventyConfig.addPlugin(timeToRead, {
-    speed: '1000 characters per minute',
-    language: 'en',
-    style: 'long',
-    type: 'unit',
-    hours: 'auto',
-    minutes: true,
-    seconds: false,
-    digits: 1,
-    output: function(data) {
-      return data.timing;
-    }
-  });
-
-// nice post dates
-  eleventyConfig.addFilter("postDate", (dateObj) => {
-  return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
-  });
 
 // Options for the `markdown-it` library
 const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
@@ -63,7 +44,6 @@ const markdownItAnchorOptions = {
         block: true,
       })
     );
-
     state.tokens.splice(
       idx + 4,
       0,
@@ -71,7 +51,6 @@ const markdownItAnchorOptions = {
         block: true,
       })
     );
-
     linkAfterHeader(slug, opts, state, idx + 1);
   },
 };
@@ -80,8 +59,6 @@ const markdownItAnchorOptions = {
 let markdownLibrary = markdownIt({
   html: true,
 }).use(markdownItAnchor, markdownItAnchorOptions);
-
-// This is the part that tells 11ty to swap to our custom config
 eleventyConfig.setLibrary("md", markdownLibrary);
 
 // break posts by year
@@ -92,24 +69,6 @@ eleventyConfig.setLibrary("md", markdownLibrary);
       .reverse()
       .value();
   });
-
-// Search!
-  const elasticlunr = require("elasticlunr");
-
-  module.exports = function(collection) {
-    var index = elasticlunr(function() {
-      this.addField("title");
-      this.setRef("id");
-    });
-
-    collection.forEach(page => {
-      index.addDoc({
-        id: page.url,
-        title: page.template.frontMatter.data.title
-      });
-    });
-    return index.toJSON();
-  };
 
 // 11ty output
     return {
