@@ -8,16 +8,16 @@ type: post
 tags:
     - Enterprise
 ---
-[Android Go edition](https://www.android.com/versions/go-edition/) has been around for a while. Launched way back in 2017 as a successor to [Android One](/android/what-is-android-one/) as the One programme underwent it's own evolution into what we have today, Android Go took over as the flavour of Android for low-end devices. While originally memory requirements to qualify for Go were very low - anything under 1GB - today and device launching with 2GB RAM or under can only be certified for Go. 
+[Android Go edition](https://www.android.com/versions/go-edition/) has been around for a while. Launched way back in 2017 as a successor to [Android One](/android/what-is-android-one/) as the One programme underwent it's own evolution into what we have today, Android Go took over as the flavour of Android for low-end devices. While originally memory requirements to qualify for Go were very low - anything under 1GB - today any device launching with 2GB RAM or under can only be certified for Go. 
 
 In spite of common misconceptions, certainly not aided by folks like the [NCSC publishing incorrect information](https://www.ncsc.gov.uk/blog-post/ready-set-android-go), Android Go _does in fact_ support Android Enterprise. But not fully. 
 
 🟢 Fully Managed  
 🟢 Dedicated (COSU)  
 🟠 Work profile  
-🔴 Work profile on company owned devices (COPE, WPoCOD) 
+🟠 Work profile on company owned devices (COPE, WPoCOD) 
 
-Due to the memory constraints associated with Android Go devices, the work profile deployment scenario is optional, and therefore dependent on the OEM for implementation, WPoCOD is not supported. Now that Google mandates 2GB as the memory cut-off this could potentially change in future, but is unlikely.  
+Due to the memory constraints associated with Android Go devices, the work profile deployment scenario in the past has been recommended against, and since Android 12 is optional (factoring in the increased memory requirements), and therefore dependent on the OEM for implementation. 
 
 In addition, since late 2020 [Android Go has also supported zero-touch by default](/android/android-enterprise-faq/#:~:text=on%208.0%2B%20devices.-,Does%20Android%20Go%20support%20zero%2Dtouch,-%3F%20%23), which was also previously opt-in for OEMs prior to ZT's [integration with Google Play Services](https://bayton.org/blog/2020/11/google-announce-big-changes-to-zero-touch/).
 
@@ -41,4 +41,8 @@ SOTI, IBM, I couldn't see any solid view one way or another in public docs.
 
 Established EMMs aside, some of the more modern solutions running on the Android Management API (AMAPI) all appear to support Android Go fine, including Microsoft Endpoint Manager (Intune), Wizy, and several more. Arguably of all the testing I'd done, enrolling into my company's Intune environment with all of the app policies, conditional access, suite of non-Go applications and more was the most taxing, and the Android Go device I have handled it perfectly fine. 
 
-Overall I think Android Go support is a bit of a sore point for the ecosystem today. There's clear misunderstandings in what can and can't be supported with the lighter Android variant, and not a lot of visible effort to put that right. Perhaps this is something for Google to turn their attention to in the not-too-distant future, as I'm sure Go expanding to the 2GB memory threshold is only going to grow the Go footprint around the ecosystem, and there's too much uncertainty with it's place in enterprise as it stands at the moment.
+Overall I think Android Go support is a bit of a sore point for the ecosystem today. There's clear misunderstandings in what can and can't be supported with the lighter Android variant, and not a lot of visible effort to put that right. 
+
+Perhaps this is something for Google to turn their attention to in the not-too-distant future, as I'm sure Go expanding to the 2GB memory threshold is only going to grow the Go footprint around the ecosystem. Starting with more transparent, public documentation akin to the CDD about exactly what Go devices can and cannot do would be a massive, low-effort change that could clear many uncertainties up immediately. 
+
+There's too much uncertainty with Android Go's place in enterprise as it stands at the moment.
