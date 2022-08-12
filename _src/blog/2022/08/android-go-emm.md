@@ -10,7 +10,7 @@ tags:
 ---
 [Android Go edition](https://www.android.com/versions/go-edition/) has been around for a while. Launched way back in 2017 as a successor to [Android One](/android/what-is-android-one/) as the One programme underwent it's own evolution into what we have today, Android Go took over as the flavour of Android for low-end devices. While originally memory requirements to qualify for Go were very low - anything under 1GB - today any device launching with 2GB RAM or under can only be certified for Go. 
 
-In spite of common misconceptions, certainly not aided by folks like the [NCSC publishing incorrect information](https://www.ncsc.gov.uk/blog-post/ready-set-android-go), Android Go _does in fact_ support Android Enterprise. But not fully. 
+In spite of common misconceptions, certainly not aided by folks like the [NCSC publishing incorrect information](https://www.ncsc.gov.uk/blog-post/ready-set-android-go), Android Go _does in fact_ support Android Enterprise. But not fully by default. 
 
 🟢 Fully Managed  
 🟢 Dedicated (COSU)  
@@ -29,7 +29,7 @@ Because Android Go does limit functionality, and the behemoths of the EMM world 
 
 VMware in this case now officially claim support for Android Go where they did not previously. They've taken the time to review the platform, understand the outstanding issues their product(s) have in supporting Android Go, and have applied greater focus on their testing and development efforts in order to now offer - albeit limited - support in line with what Android Go customers should expect. 
 
-Caveats do exist, notably at time of writing [limitations apply](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/Android_Platform/GUID-AWT-AFWINTRODUCTION.html?hWord=N4IgpgHiBcIIYDsAmAnA9gSyQAgOZpAF8g#:~:text=Android%20Device%20Modes.-,Android%20GO%20Support,-Workspace%20ONE%20UEM) to Workspace ONE Launcher - which seems primarily due to the `Display over other apps` permission requirement not being enabled on Go - and some product provisioning features, which are perfectly reasonable considering the restraints on resources available. Those aside, for the customers looking to deploy exceptionally low-cost, limited-use devices in their WS1 UEM managed organisations, there's nothing technically now preventing that. 
+Caveats do exist, notably at time of writing [limitations apply](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/Android_Platform/GUID-AWT-AFWINTRODUCTION.html?hWord=N4IgpgHiBcIIYDsAmAnA9gSyQAgOZpAF8g#:~:text=Android%20Device%20Modes.-,Android%20GO%20Support,-Workspace%20ONE%20UEM) to Workspace ONE Launcher - which seems primarily due to the _Draw over other apps_ permission requirement not being enabled on Go - and some product provisioning features, which are perfectly reasonable considering the restraints on resources available. Those aside, for the customers looking to deploy exceptionally low-cost, limited-use devices in their WS1 UEM managed organisations, there's nothing technically now preventing that. 
 
 But when you look at some of the other vendors, the effort still isn't being applied. 
 
