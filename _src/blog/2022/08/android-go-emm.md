@@ -1,6 +1,6 @@
 ---
 title: 'Android Go & EMM support'
-date: '2022-08-09T22:42:00+00:00'
+date: '2022-08-12T22:42:00+00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: 'VMware recently announced "official" support for Android Go, the resource-mindful implementation of Android for lower-end devices. What does this mean for Android Go support over all, and does Android Go require dedicated support within the Android Ecosystem? (Hint: No).'
