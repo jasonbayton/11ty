@@ -43,6 +43,6 @@ Established EMMs aside, some of the more modern solutions running on the Android
 
 Overall I think Android Go support is a bit of a sore point for the ecosystem today. There's clear misunderstandings in what can and can't be supported with the lighter Android variant, and not a lot of visible effort to put that right. 
 
-Perhaps this is something for Google to turn their attention to in the not-too-distant future, as I'm sure Go expanding to the 2GB memory threshold is only going to grow the Go footprint around the ecosystem. Starting with more transparent, public documentation akin to the CDD about exactly what Go devices can and cannot do would be a massive, low-effort change that could clear many uncertainties up immediately. 
+Perhaps this is something for Google to turn their attention to in the not-too-distant future, as I'm sure Go expanding to the 2GB memory threshold is only going to grow the Go footprint around the ecosystem. 
 
-There's too much uncertainty with Android Go's place in enterprise as it stands at the moment.
+Starting with more transparent, public documentation akin to the CDD about exactly what Go devices can and cannot do would be a massive, low-effort change that could clear many uncertainties up immediately and help ecosystem partners better understand what it takes to make sure their solutions are Go-supported. It'd equally help customers to decide up-front if Android Go is suitable for them, rather than the current approach of test-before-deployment that seems to be in relied upon currently.
