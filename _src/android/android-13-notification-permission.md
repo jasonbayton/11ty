@@ -14,7 +14,7 @@ In Android 13, Google is introducing a new runtime permission for app notificati
 
 ## What’s changing
 
-Prior to Android 13, app notifications are not individually managed. Users can opt to disable notifications per-app as desired, but from a management perspective, the options are limited to globally reducing notification visibility with changes to the notification config, or leaving users to handle this themselves.
+Prior to Android 13, app notifications are not individually managed. Users can opt to disable notifications per-app as desired, but from a management perspective, the options are limited to globally reducing notification visibility with changes to the notification bar config, or leaving users to handle this themselves.
 
 ## Will this have any impact on EMM-deployed app notifications?
 
