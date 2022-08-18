@@ -6,4 +6,4 @@ layout: search.njk
 type: page
 ---
 
-Search currently uses full-word-search to return results in real-time. Try it out with "DPC extras" and see how the search results adjust to incorporate more precise results based on the search term used. 
+Search currently uses full-word logic to return results in real-time. Try it out with "DPC extras" and see how the search results adjust to incorporate more precise results based on the search term used. 
