@@ -19,6 +19,7 @@
 /wp-content/uploads/* https://r2_worker.bayton.workers.dev/uploads/:splat 301
 /download/* https://r2_worker.bayton.workers.dev/download/:splat 301
 /docs/enterprise-mobility/android/* /android/:splat 301
+/docs/android/* /android/:splat 301
 /20* /blog/20:splat 301
 /category/* /tags/:splat 301
 /tag/* /tags/:splat 301
