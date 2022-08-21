@@ -33,4 +33,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     const searchValue = searchInput.value.trim();
     handleSearch(searchValue);
   });
+
+  // Method to handle new searches
+  async function handleSearch(searchString) {
+    // Empty search, display no results
+    if (!searchString) {
+      renderResults([], searchString);
+      return;
+    }
+
+    // Get search results and display them
+    const results = fuse.search(searchString);
+    renderResults(results, searchString);
+  }
 });
