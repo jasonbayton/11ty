@@ -24,4 +24,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Init fuse
   const fuse = new Fuse(searchData, searchOptions);
+
+  // Get search input
+  const searchInput = document.getElementById("searchField");
+
+  // Watch key evets on search input
+  searchInput.addEventListener("keyup", function () {
+    const searchValue = searchInput.value.trim();
+    handleSearch(searchValue);
+  });
 });
