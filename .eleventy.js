@@ -3,18 +3,20 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const _ = require("lodash");
-const pluginDate = require('eleventy-plugin-date');
+const pluginDate = require("eleventy-plugin-date");
 const dates = require("./_src/_data/dates.js");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 const embedTwitter = require("eleventy-plugin-embed-twitter");
 const slugify = require("slugify");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
-  eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
+  eleventyConfig.addPassthroughCopy({ "_src/_includes/_assets/css": "/css" });
+  eleventyConfig.addPassthroughCopy({ "_src/_includes/_assets/js": "/js" });
+  eleventyConfig.addPassthroughCopy({ "_src/_includes/_assets/img": "/img" });
+  eleventyConfig.addPassthroughCopy({
+    "_src/_includes/_redirects": "/_redirects",
+  });
+  eleventyConfig.addPassthroughCopy({ "_src/favicon.ico": "/favicon.ico" });
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(embedTwitter);
@@ -33,7 +35,7 @@ const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
 const markdownItAnchorOptions = {
   level: [1, 2, 3, 4],  
   tabIndex: false,
-  slugify: (str) =>    slugify(str),
+    slugify: (str) => slugify(str),
   permalink(slug, opts, state, idx) {
     state.tokens.splice(
       idx,
@@ -77,5 +79,4 @@ eleventyConfig.setLibrary("md", markdownLibrary);
         output: "_public",
       },
     };
- 
   };
