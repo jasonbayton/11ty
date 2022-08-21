@@ -177,9 +177,9 @@ cite {
 }
 
 code {
-  font-family: courier, monospace;
+  font-family: monospace;
   color: var(--bright);
-  background-color: var(--dark);
+  background-color: #00284c;
   border-radius: 6px;
   padding: 2px 7px;
   overflow-wrap: anywhere;
@@ -187,13 +187,12 @@ code {
 }
 
 pre {
+  font-family: monospace;
   background: #333;
-  font-family: courier, monospace;
   color: var(--bright);
-  background-color: var(--dark);
+  background-color: #00284c;
   border-radius: 6px;
   padding: 16px;
-  /* white-space: pre-wrap; */
   overflow-wrap: anywhere;
   overflow-x: scroll;
 }
