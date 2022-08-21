@@ -25,8 +25,7 @@ With 2019 just around the corner, I thought I’d take some time to reflect on t
 
 It’s been a busy one! Between the work I’ve done here, the contributions to external sources, events attended and more, I’m not sure I’ll even scratch the surface, but I’m going to give it a try regardless…
 
-\1. 170k visitors
-----------------
+## 1. 170k visitors
 
 Just as last year, I’ll start off with a few metrics! In 2018, [bayton.org](/) was visited almost bang on 170 thousand times.
 
@@ -54,8 +53,7 @@ Given the continued focus on LinkedIn throughout 2018 this isn’t a surprise. L
 
 Everything in 2017 was clearly only laying the groundwork for a very successful 2018 on the platform! Twitter has equally benefited from almost default cross-posting from LinkedIn also. Reddit despite making top 3 isn’t really a platform I’ve invested in, it’s mostly from others sharing my content so that’s nice to see!
 
-\2. Android Enterprise
----------------------
+## 2. Android Enterprise
 
 I’ve had a *massive* year with Android Enterprise, working with a number of partners, vendors and Google directly in order to continue advocating the platform and [modern Android management](/android). Here are a few highlights:
 
@@ -172,8 +170,7 @@ And a few of my favourite tweets:
 > 
 > — Jack Madden (@jackmadden) [July 25, 2018](https://twitter.com/jackmadden/status/1022180535815176192?ref_src=twsrc%5Etfw)
 
-\3. Still blogging
------------------
+## 3. Still blogging
 
 Despite the focus on docs this year, I’ve still published **22 posts** covering everything from new releases to events, device reviews and more. My top posts were:
 
@@ -185,8 +182,7 @@ Despite the focus on docs this year, I’ve still published **22 posts** coverin
 
 There are indeed posts there still from 2011 ranking high for views to this day, which is pretty incredible.
 
-\4. Discuss comment/forum system
--------------------------------
+## 4. Discuss comment/forum system
 
 After Disqus started injecting ads into my website despite my opting out, I felt it was time for a change. Contemplating a few options, I ultimately wanted to try something a little different: [Discourse](https://discourse.org).
 
@@ -194,8 +190,7 @@ Discourse is forum software, or the modern equivalent of it, but with tight inte
 
 Today it’s handling comments well, and acts as the foundation of my [liveblogging](https://discuss.bayton.org/t/live-mobileiron-live-2018/135). Next year my hope is more folks stop by for a chat, or use it as a support hub and hopefully I’ll see it grow! Time will tell.
 
-\5. Another redesign
--------------------
+## ß5. Another redesign
 
 In the quest to put content front and centre before anything else, my site themes visually have gradually gotten simpler and simpler. This year I designed a theme that properly works with my documentation, and ported it across to the normal blog-type articles I write also, bringing consistency across the website that previously lacked.
 
