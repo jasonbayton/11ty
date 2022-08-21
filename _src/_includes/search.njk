@@ -11,25 +11,24 @@
             {% include "./_parts/header.njk" %}
             <!-- // -->
         </header>
-        <content id="search">  
+        <content id="search">
             <section id="page_content">
                 <div class="section-title base-title">
                     {{ title }}
                 </div>
 
                 {{ content | safe }}
-                
-                <script type="text/javascript" src="/js/elasticlunr.js"></script>
-                <script type="text/javascript" src="/js/search.js"></script>
+
                 <div class="field">
                     <input type="search" placeholder="Type a word to begin.." id="searchField">
                 </div>
 
-                <div class="post-block" id="searchResults">
-                <div id="noResultsFound" style="display: none">
-                    <p>No results found.</p>
-                </div>
+                <div class="post-block search-results" id="searchResults"></div>
             </section>
+            {% if pagination.href.next or pagination.href.previous %}
+                {% include "./_parts/paginate.njk" %}
+            {% endif %}
+
             <!-- Page feedback goes here -->
             {% include "./_parts/feedback.njk" %}
             <!-- // -->
