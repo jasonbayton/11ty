@@ -14,4 +14,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   // No search possible without data
   if (!searchData) return;
 
+  // Fuse options
+  const searchOptions = {
+    includeMatches: true,
+    ignoreLocation: true,
+    threshold: 0.1,
+    keys: ["title"],
+  };
+
+  // Init fuse
+  const fuse = new Fuse(searchData, searchOptions);
 });
