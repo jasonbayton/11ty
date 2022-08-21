@@ -46,4 +46,58 @@ document.addEventListener("DOMContentLoaded", async () => {
     const results = fuse.search(searchString);
     renderResults(results, searchString);
   }
+
+  // Display results on UI
+  function renderResults(results, searchString) {
+    // Get search results wrapper
+    const searchResultsElement = document.getElementById("searchResults");
+
+    // Clear its contents
+    searchResultsElement.innerHTML = "";
+
+    // Do nothing if search was emptied
+    if (!searchString) return;
+
+    // Render no results
+    if (results.length === 0) {
+      // Create paragraph element
+      const p = document.createElement("p");
+
+      p.textContent = `No results found`;
+
+      searchResultsElement.appendChild(p);
+    }
+
+    // Results received, render them
+    else if (results.length > 0) {
+      // Create unordered list element
+      const ul = document.createElement("ul");
+
+      // Loop through results
+      results.forEach((result) => {
+        // Create a list item and link for result
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+
+        const title = result.item.title;
+
+        // Highlight match
+        const highlightedTitle = title.replace(
+          new RegExp(`(${searchString})`, "gi"),
+          "<u><b>$1</b></u>"
+        );
+
+        // Set links title and url
+        a.innerHTML = highlightedTitle;
+        a.title = title;
+        a.href = result.item.url;
+
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+
+      // Append list of results to wrapper
+      searchResultsElement.appendChild(ul);
+    }
+  }
 });
