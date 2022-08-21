@@ -1,0 +1,13 @@
+---
+permalink: /search-index.json
+eleventyExcludeFromCollections: yes
+---
+[
+  {% for post in collections.all %}
+    {
+      "title":"{{ post.data.title }}",
+      "url":"{{ post.url }}"
+    },
+  {% endfor %}
+{}
+]
