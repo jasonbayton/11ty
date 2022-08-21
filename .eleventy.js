@@ -24,6 +24,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dateFull", dates.dateFull);
   eleventyConfig.addFilter("dateFormat", dates.dateFormat);
 
+// tag list
+  eleventyConfig.addCollection("tagsList", function(collectionApi) {
+    const tagsList = new Set();
+    collectionApi.getAll().map( item => {
+        if (item.data.tags) { // handle pages that don't have tags
+            item.data.tags.map( tag => tagsList.add(tag))
+        }
+    });
+    return tagsList;
+});
+
 // Options for the `markdown-it` library
 const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
   class: "heading-anchor",

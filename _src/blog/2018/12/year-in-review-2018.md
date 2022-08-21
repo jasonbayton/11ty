@@ -19,7 +19,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/year-in-review-2018/253'
 tags:
-    - General
+    - Meta
 ---
 With 2019 just around the corner, I thought I’d take some time to reflect on the past year, and do a bit of in-the-moment analysis as I write to fully digest the many aspects of the last 12 months that I’ve really not properly thought about.
 
