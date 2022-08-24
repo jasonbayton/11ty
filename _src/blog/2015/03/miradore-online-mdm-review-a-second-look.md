@@ -29,9 +29,9 @@ This article was published in 2015. There is a new article you may find interest
 
 </div>
 
-**In the world of technology** 8 months is equivalent to *several years* in some industries, yet that’s how long it’s been since my [First look](/2014/07/miradore-online-free-mdm/ "First look: Miradore Online free MDM") at [Miradore](http://www.miradore.com)’s new, [free MDM solution](http://www.miradore.com/) which was taking the enterprise mobility market by storm back in 2014.
+**In the world of technology** 8 months is equivalent to *several years* in some industries, yet that’s how long it’s been since my [First look](/2014/07/miradore-online-free-mdm/ "First look: Miradore Online free MDM") at [Miradore](https://www.miradore.com)’s new, [free MDM solution](https://www.miradore.com/) which was taking the enterprise mobility market by storm back in 2014.
 
-Now, almost a year on and officially [out of beta](http://www.miradore.com/blog/miradore-online-moves-successfully-beta-production/), I’ve dusted off my account for another look to see what’s changed, what hasn’t and to get a hands on with their new business tier; a paid upgrade to add just that little bit more to what has already proven to be a great little MDM solution.
+Now, almost a year on and officially [out of beta](https://www.miradore.com/blog/miradore-online-moves-successfully-beta-production/), I’ve dusted off my account for another look to see what’s changed, what hasn’t and to get a hands on with their new business tier; a paid upgrade to add just that little bit more to what has already proven to be a great little MDM solution.
 
 Ready? Off we go.. (or [jump straight to the Business review](#business))
 
@@ -44,7 +44,7 @@ The first thing I was greeted with after logging in was a prompt to *reconnect o
 
 At some point after last July I switched devices and neglected to re-enrol, meaning a countdown began on my tenant which would ultimately result in it being removed. Had I not ignored the several emails that gave me months of warning, this wouldn’t be the case! However I did, and this happened.
 
-I’m not even mildly perturbed by this. Sure, a couple of device records and some *historical* data is now gone, but that doesn’t matter. If I didn’t need it over the months the account sat dormant, I don’t need it now. Miradore’s policy for removing dormant tenants absolutely makes sense; with the amount of signups for the free solution they have had ([at least 1500](http://www.miradore.com/blog/miradore-online-moves-successfully-beta-production/) over the course of the beta) keeping all of those accounts and their respective data active indefinitely would be a massive waste of resources.
+I’m not even mildly perturbed by this. Sure, a couple of device records and some *historical* data is now gone, but that doesn’t matter. If I didn’t need it over the months the account sat dormant, I don’t need it now. Miradore’s policy for removing dormant tenants absolutely makes sense; with the amount of signups for the free solution they have had ([at least 1500](https://www.miradore.com/blog/miradore-online-moves-successfully-beta-production/) over the course of the beta) keeping all of those accounts and their respective data active indefinitely would be a massive waste of resources.
 
 Setting up my tenant again was as simple as typing a (company) name, agreeing to the T&amp;C’s (tenuous link: [always know what you’re agreeing to](https://www.linkedin.com/pulse/20140807084450-28745130-byod-management-yes-we-can-wipe-your-phone)) and clicking “Create and start”.
 
@@ -119,27 +119,27 @@ Exporting is not possible from the free version of Miradore Online. It’s a sha
 
 As seen in all of my screenshots so far, there’s a new notification icon. This provides direct access to notifications around Miradore updates and more recently for device alerts (should a device not be passcode protected or otherwise fall out of compliance).
 
-More information on this can be found [here](http://onlinesupport.miradore.com/hc/en-us/articles/201450202-2014-10-01-Release-notes), [here ](http://onlinesupport.miradore.com/hc/en-us/articles/202160242-2015-01-20-Release-notes)and [here](http://onlinesupport.miradore.com/hc/en-us/articles/201916301-2014-11-21-Release-notes).
+More information on this can be found [here](https://onlinesupport.miradore.com/hc/en-us/articles/201450202-2014-10-01-Release-notes), [here ](https://onlinesupport.miradore.com/hc/en-us/articles/202160242-2015-01-20-Release-notes)and [here](https://onlinesupport.miradore.com/hc/en-us/articles/201916301-2014-11-21-Release-notes).
 
 **Tighter integration with Miradore ITAM (the asset management side of things)**
 
 Administrators of Miradore ITAM can now benefit from tighter integration between the asset management suite and the MDM platform, making it much easier to have an all-in-one asset and management suite with Miradore.
 
-More information on this can be found [here](http://www.miradore.com/blog/mobile-management-leaps-forward/).
+More information on this can be found [here](https://www.miradore.com/blog/mobile-management-leaps-forward/).
 
 **Guides and documentation**
 
-No solution is complete without a self-service portal. A lot of the time admins would rather a quick search on an issue than taking time to call support. Miradore is now providing a support area with guides, documents and FAQs. It can be found [here](http://onlinesupport.miradore.com/hc/en-us).
+No solution is complete without a self-service portal. A lot of the time admins would rather a quick search on an issue than taking time to call support. Miradore is now providing a support area with guides, documents and FAQs. It can be found [here](https://onlinesupport.miradore.com/hc/en-us).
 
 **AD Sync**
 
-Wintel houses rejoice! Import your users using the AD connector to drastically simplify user management and enrolment. [See more here](http://onlinesupport.miradore.com/hc/en-us/articles/201652301-Importing-users-from-Microsoft-Active-Directory).
+Wintel houses rejoice! Import your users using the AD connector to drastically simplify user management and enrolment. [See more here](https://onlinesupport.miradore.com/hc/en-us/articles/201652301-Importing-users-from-Microsoft-Active-Directory).
 
 **Tagging**
 
 <a name="business"></a> Potentially one of the most underrated features of a platform is the ability to tag. Tags are independent of anything else on the platform and can allow administrators to group otherwise random devices across various organisations into one unique group. Use it for generating reports, assigning policies or anything else – you’re only limited by your imagination!
 
-Find out more about tagging [here](http://onlinesupport.miradore.com/hc/en-us/articles/201652472-Device-tags).
+Find out more about tagging [here](https://onlinesupport.miradore.com/hc/en-us/articles/201652472-Device-tags).
 
 Miradore Online MDM Business
 ----------------------------
@@ -213,7 +213,7 @@ Location is accurate to street-level and you can zoom in and out as necessary to
 **Summary**  
 So location tracking works, and works seemingly well. I like how it’s deployed as if it was any other profile which keeps control on the side of the administrator. I’m also quite fond of how it shows up right there within the device record rather than being buried deep in a side menu.
 
-If there was room for improvement here, it would have been the ability to pop the location out into a new window/frame and see it a little more full-screen. Miradore obviously read my mind as they released that [exact functionality](http://onlinesupport.miradore.com/hc/en-us/articles/202727911-2015-03-23-Release-notes) before I finished writing this article!
+If there was room for improvement here, it would have been the ability to pop the location out into a new window/frame and see it a little more full-screen. Miradore obviously read my mind as they released that [exact functionality](https://onlinesupport.miradore.com/hc/en-us/articles/202727911-2015-03-23-Release-notes) before I finished writing this article!
 
 [![Map view – Miradore Online – bayton](/https://r2_worker.bayton.workers.dev/uploads/2015/03/Map-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/03/Map-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)
 

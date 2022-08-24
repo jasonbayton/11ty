@@ -45,7 +45,7 @@ I’m still aiming for the larger capacity disks, and having now decided on ZFS 
 Data migration
 --------------
 
-Luckily, I caught the tail-end of [this HotUKDeals find](http://www.hotukdeals.com/deals/wd-cloud-4tb-nas-drive-instore-41-tesco-2472274) and was able to fetch two MyCloud 4TB external drives for £82! With the extra disk I was able to set up a temporary MDADM RAID5 with one extra 4TB I had lying around and proceeded to rsync all data from the 16TB RAID6 to the 8TB RAID5. A nice, simple command on linux systems to guarantee both files and metadata (permissions, ownership, etc) is:
+Luckily, I caught the tail-end of [this HotUKDeals find](https://www.hotukdeals.com/deals/wd-cloud-4tb-nas-drive-instore-41-tesco-2472274) and was able to fetch two MyCloud 4TB external drives for £82! With the extra disk I was able to set up a temporary MDADM RAID5 with one extra 4TB I had lying around and proceeded to rsync all data from the 16TB RAID6 to the 8TB RAID5. A nice, simple command on linux systems to guarantee both files and metadata (permissions, ownership, etc) is:
 
 `sudo rsync -avP /source/path/ /destination/path/`
 

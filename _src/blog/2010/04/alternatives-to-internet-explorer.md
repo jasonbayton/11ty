@@ -25,7 +25,7 @@ tags:
 ---
 A lot people aren’t aware exactly what a web browser is, some people see the internet explorer icon and automatically assume it’s “the internet”. I’ve seen a few people in my time with this opinion, but if you’re a novice with computers, or perhaps if you’ve never thought there were alternatives to the poor excuse of an internet browser that’s shipped with Windows, it is understandable. Others are just not willing to change their browsers for a better browsing experience; “It works, I’m not changing it”. I don’t agree with this, since you’re only holding yourself back in this case.
 
-Whatever the reason, I’m writing this as I’ve noticed a large amount of visitors to this site are using Internet Explorer\*, and it’s understandable given the [market share](http://marketshare.hitslink.com/report.aspx?qprid=0) IE holds on the competition. However compared to other browsers currently available\*\* (you may have noticed them in the link above) IE is severely lacking in both features and web standards. Luckily changing browsers is as simple as 1, 2, 3 and in return for a few minutes of installing a new browser you will get the satisfaction of enjoying every web page to a much higher standard as browsers and the internet continue to improve.
+Whatever the reason, I’m writing this as I’ve noticed a large amount of visitors to this site are using Internet Explorer\*, and it’s understandable given the [market share](https://marketshare.hitslink.com/report.aspx?qprid=0) IE holds on the competition. However compared to other browsers currently available\*\* (you may have noticed them in the link above) IE is severely lacking in both features and web standards. Luckily changing browsers is as simple as 1, 2, 3 and in return for a few minutes of installing a new browser you will get the satisfaction of enjoying every web page to a much higher standard as browsers and the internet continue to improve.
 
 I will suggest 2 popular alternatives, and one twist for those who may find use in the extra features offered by the 3rd browser. Please note that I am writing this to gain interest in alternatives to Internet Explorer, details of the browsers and what they can do have been mentioned many times before, and the vendors have their own product pages to entice you into downloading their software which I have supplied.
 
@@ -41,7 +41,7 @@ It automatically supports most standards “out of the box”, that means there 
 
 For the above reasons Chrome is my favourite browser, and the most promising in my opinion for future web standard integration. Now I’ve hardly listed all of the features of Google Chrome, and I don’t intend on doing so as Google themselves have a [page dedicated](https://www.google.com/intl/en/chrome/) to demonstrating Chrome’s capabilities. I am just giving my seal of approval for using Chrome, as I feel it’s the best available for my needs – Simple, secure, fast, and open to new web standards.
 
-[Download Google Chrome](http://www.google.com/chrome)
+[Download Google Chrome](https://www.google.com/chrome)
 
 ### Mozilla Firefox
 
@@ -63,9 +63,9 @@ Are you an avid social networker? Perhaps wanting easy access to your photobucke
 
 Flock is fairly unknown in the browser war, but it has some really interesting features so this is why I’ve decided to include it in my post. Every version of Flock is built on the latest version of Firefox upon release which means that everything I’ve stated about firefox above is true for Flock. The difference with Flock is that it’s designed for Social Media – so quick access bars, upload tools and instant email are all part of it’s design. This browser is definitely for the avid social network junkie.
 
-I don’t need to say much more about it, as I covered pretty much everything talking about Firefox, just check out the Flock tour [here](http://flock.com/tour/)
+I don’t need to say much more about it, as I covered pretty much everything talking about Firefox, just check out the Flock tour [here](https://flock.com/tour/)
 
-[Download Flock](http://www.flock.com)
+[Download Flock](https://www.flock.com)
 
 These are just three alternatives to Internet Explorer. There are a whole lot more such as Opera which I’ve mentioned in previous posts, Safari the Apple browser and a few more!
 

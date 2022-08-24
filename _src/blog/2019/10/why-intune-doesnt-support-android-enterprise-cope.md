@@ -26,7 +26,7 @@ tags:
 > 
 > <cite>Literally everyone.</cite>
 
-It’s one of the most frequent questions I get. So much so that a year ago I created a resource dedicated to answering the question, [DoesIntuneSupportAECOPE.info](http://doesintunesupportaecope.info), which has seen up to 500 visits in a month this year.
+It’s one of the most frequent questions I get. So much so that a year ago I created a resource dedicated to answering the question, [DoesIntuneSupportAECOPE.info](https://doesintunesupportaecope.info), which has seen up to 500 visits in a month this year.
 
 The answer, if it wasn’t clear already of course, is no. Intune doesn’t support COPE today, along with [several other EMMs on the market](/android/android-enterprise-emm-cope-support/) such as MaaS360 and, surprisingly given their Android legacy, SOTI.
 

@@ -33,7 +33,7 @@ tags:
 ---
 Have you ever written a blog post, and then individually linked to it from your different social networks? What about posting the same updates to each of your social networks, one at a time?
 
-If, like me, you have multiple networks (Linkedin, Facebook, Twitter, Buzz, etc) and want a service to manage the delivery of your messages, updates, blog posts and anything else to any of your other destinations, maybe you need to check out [dlvr.it](http://dlvr.it/).
+If, like me, you have multiple networks (Linkedin, Facebook, Twitter, Buzz, etc) and want a service to manage the delivery of your messages, updates, blog posts and anything else to any of your other destinations, maybe you need to check out [dlvr.it](https://dlvr.it/).
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2011/05/Screenshot-4.png "Screenshot-4")
 
@@ -49,7 +49,7 @@ In addition to delivering your published items, real-time stats are available on
 
 If you’re not happy with the links dlvr.it provides, you have the additional option to use popular shortlink services or, as I’ve done, use your own domain to provide the links. A simple A or CNAME record and you’re ready to publish your content with your own links. What more could you want?
 
-I could spout on about dlvr.it all day, but I think if this appeals to you so far, it’s best you take a look for yourself over on [dlvr.it](http://Dlvr.it) now. If you have any questions feel free to tap me up, and look out for some basic how-to’s to come very soon!
+I could spout on about dlvr.it all day, but I think if this appeals to you so far, it’s best you take a look for yourself over on [dlvr.it](https://Dlvr.it) now. If you have any questions feel free to tap me up, and look out for some basic how-to’s to come very soon!
 
 Cheers,  
 Jason

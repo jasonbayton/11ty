@@ -36,10 +36,10 @@ A few test calls to check the quality, then a relocation to an out of sight area
 
 Later in the year, when moving into a bigger house which will require more telephones, I will be purchasing a USB – Telephone adapter. This device simply plugs into your telephone wall outlet allowing all phones to connect to the wall and receive Skype calls.
 
-![The system](http://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0836Medium-1.jpg "Computer")
+![The system](https://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0836Medium-1.jpg "Computer")
 The system
 
-![The Telephone](http://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0837Medium-1.jpg "Phone")
+![The Telephone](https://i640.photobucket.com/albums/uu122/jason_tk/bayton_tk/IMG_0837Medium-1.jpg "Phone")
 The Telephone
 
 </div>

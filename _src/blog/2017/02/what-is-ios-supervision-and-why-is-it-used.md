@@ -88,7 +88,7 @@ DEP, the Device Enrolment Program
 
 Launched in 2014 and gradually rolling out across the world, the Device Enrolment Program takes everything great about Apple Configurator and makes it zero-touch.
 
-Starting with [company enrolment into DEP](http://www.apple.com/business/dep/), any devices purchased through Apple or an authorised reseller can be automatically assigned to the organisation’s DEP account and have configuration profiles pushed out wirelessly the moment the iPhone or iPad is turned on. What’s more, from the DEP console an EMM platform can be linked, offering an enrolment prompt on the device before the first-run setup even completes.
+Starting with [company enrolment into DEP](https://www.apple.com/business/dep/), any devices purchased through Apple or an authorised reseller can be automatically assigned to the organisation’s DEP account and have configuration profiles pushed out wirelessly the moment the iPhone or iPad is turned on. What’s more, from the DEP console an EMM platform can be linked, offering an enrolment prompt on the device before the first-run setup even completes.
 
 The biggest benefit? If the device is reset for any reason, being assigned via serial number to the DEP account means it automatically receives all configurations, EMM enrolment prompts and apps immediately on being turned on for the first time after the event. The only way to stop this is to remove the device from the DEP console (an irreversible action). Until then, the device is protected. This should theoretically greatly diminish the need to return to base.
 
@@ -99,7 +99,7 @@ Additionally for organisations moving from Configurator to DEP, custom OS versio
 Touching on VPP
 ---------------
 
-When combining Supervision with VPP, the [Apple Volume Purchase Program](http://www.apple.com/business/vpp/), wherein both free and paid app licenses (and books) can be obtained in bulk and assigned to the organisation, it’s no longer a requirement to even set up an iTunes account on the device during or after enrolment – apps are pushed down automatically from the EMM platform after linking the VPP account and licencing is taken care of in the background.
+When combining Supervision with VPP, the [Apple Volume Purchase Program](https://www.apple.com/business/vpp/), wherein both free and paid app licenses (and books) can be obtained in bulk and assigned to the organisation, it’s no longer a requirement to even set up an iTunes account on the device during or after enrolment – apps are pushed down automatically from the EMM platform after linking the VPP account and licencing is taken care of in the background.
 
 Apps can be silently pushed, removed and their licenses can be applied or revoked – returning to the VPP licence pool for the apps in question – at any point. This renders the need to expense enterprise apps completely moot and makes managing applications substantially easier.
 

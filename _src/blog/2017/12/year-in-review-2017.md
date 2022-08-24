@@ -101,7 +101,7 @@ As a value-add to my enterprise documentation I’ve additionally started publis
 
 That pretty much covers off the website, so what else happened in 2017?
 
-1. I joined Brian Madden’s team of [external contributors](http://www.techtarget.com/contributor/Jason-Bayton) and published my [first article](/android/what-is-android-zero-touch-enrolment/).
+1. I joined Brian Madden’s team of [external contributors](https://www.techtarget.com/contributor/Jason-Bayton) and published my [first article](/android/what-is-android-zero-touch-enrolment/).
 2. I [discovered](/2017/08/mobileiron-supports-qr-provisioning-for-android-enterprise-work-managed-devices-this-is-how-i-found-it/), and was therefore one of the first ever to provision an Android enterprise device using a QR code with MobileIron Core, leading to [accelerated support](/2017/10/mobileiron-officially-supports-android-enterprise-qr-code-provisioning/) for the option only 2 months after [publishing my findings](/docs/enterprise-mobility/mobileiron/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/).
 3. I’ve been able to work closely with Sony, HMD Global (Nokia) and [others](/android/android-enterprise-device-support/validation-process-and-information/) while testing Android devices for [Android enterprise compatibility](/android/android-enterprise-device-support/). I fully intend to continue this next year.
 4. I’ve gained connections with all of the leading EMM vendors through my independent [EMM documentation](/docs/enterprise-mobility/) – MobileIron, AirWatch, MaaS360 and SOTI – as well as continuing to work with [Miradore](https://j.son.bz/2DvXd9Z?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3Bcvt2Tyf5SOuDC%2FiAnFD6mA%3D%3D) and Google around Android enterprise.

@@ -40,7 +40,7 @@ Not convinced?
 In 2016 &amp; 2017, Gartner ranked Android higher than iOS in a number of areas, including kernel security, exploit protection, network security, workspace isolation and more; the results of which can be found in [this report](https://www.gartner.com/doc/3840064/mobile-oss-device-security-comparison) (2017) should you have a Gartner subscription, if not here’s an overview:
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2019/02/image.png)
-*Source: Gartner, December 2017. Thanks to [Samsung](http://s7d2.scene7.com/is/content/SamsungUS/samsungbusiness/solutions/samsung-knox/pdf/MobileDeviceSecurity-AComparisonofPlatforms-Feb12-2.pdf) for making this available on the public internet!*
+*Source: Gartner, December 2017. Thanks to [Samsung](https://s7d2.scene7.com/is/content/SamsungUS/samsungbusiness/solutions/samsung-knox/pdf/MobileDeviceSecurity-AComparisonofPlatforms-Feb12-2.pdf) for making this available on the public internet!*
 
 Let’s dive a little deeper into Android security:
 

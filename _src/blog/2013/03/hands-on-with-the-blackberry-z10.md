@@ -52,7 +52,7 @@ Dimensionally, it’s a little smaller than the Galaxy S3. In terms of screen si
 
 The Z10 is running a 1.5GHz dualcore processor with 2GB RAM. Interestingly one of the reasons older BlackBerrys will not be updated to BB10 is due to the requirement for these higher specs in order to adequately run the QNX OS.
 
-Some may wonder why when the industry is focusing on Quad and even [Octo-core](http://www.theregister.co.uk/2012/11/21/samsung_arm/) processors, BlackBerry have gone with a dual core processor. The answer to that is similar to Windows phone – it doesn’t need it.
+Some may wonder why when the industry is focusing on Quad and even [Octo-core](https://www.theregister.co.uk/2012/11/21/samsung_arm/) processors, BlackBerry have gone with a dual core processor. The answer to that is similar to Windows phone – it doesn’t need it.
 
 Battery life allows for a typical day’s usage before requiring charging, so an expectation of charging every night should be set. Coming from a time where a BlackBerry could go days between charges, this may disappoint some. But by today’s smartphone standards it holds up well against the competition.
 
@@ -113,7 +113,7 @@ On the subject of settings, despite BB10’s graphical overhall, there are still
 
 Looks aside, the settings area is adequately granular and provides the settings for almost every area of the device in one place.
 
-One of the main things you’ll notice with this device against all previous BlackBerry devices is a lack of BIS. You can use any standard tariff with the Z10 just as you would with any other smartphone. I can’t speak for anyone else, but one of my biggest reasons for avoiding BlackBerry over the years is due to having to pay for the extra BlackBerry services “bolt on”. The fact that BB10 does not support this makes it immensely more appealing as an every day device both for the user and BlackBerry who will not have to support the device on their infrastructure, [limiting the damage done by an outage](http://www.guardian.co.uk/technology/2012/sep/21/blackberry-outage-europe-rim-confirms).
+One of the main things you’ll notice with this device against all previous BlackBerry devices is a lack of BIS. You can use any standard tariff with the Z10 just as you would with any other smartphone. I can’t speak for anyone else, but one of my biggest reasons for avoiding BlackBerry over the years is due to having to pay for the extra BlackBerry services “bolt on”. The fact that BB10 does not support this makes it immensely more appealing as an every day device both for the user and BlackBerry who will not have to support the device on their infrastructure, [limiting the damage done by an outage](https://www.guardian.co.uk/technology/2012/sep/21/blackberry-outage-europe-rim-confirms).
 
 Keeping with services for a moment, one of the features highly promoted which I’ve not been able to test is BlackBerry Balance. This allows you to separate your work and personal life between two different profiles on the device and is only available when enrolled into BES10/Fusion. It’s a shame this is not enabled by default without enrolling the device.
 

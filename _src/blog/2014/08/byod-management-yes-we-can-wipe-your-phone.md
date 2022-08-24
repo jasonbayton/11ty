@@ -43,7 +43,7 @@ To clear any misconceptions right off the mark, businesses tend to see fully wip
 
 The only occasion a device might be fully wiped is on loss or theft. Even then a full wipe should be discussed with the owner of the device before carrying it out, particularly as while the device is enrolled and online it can be found.
 
-For devices managed solely through Exchange [there is no enterprise wipe](http://technet.microsoft.com/en-gb/library/bb124591%28v=exchg.150%29.aspx) (yet). Procedures tend to differ but I’ve talked to a number of companies that enforce the same policy I do; prove the device has had all traces of the Exchange account removed and there’s no need to perform a full wipe. That typically entails a visit to IT, but photos/screenshots may also be accepted. The end-goal is to make sure there’s no corporate data on the device when the presumably soon-to-be-ex employee walks out and while user-accounts can be revoked, any email on the device before said account was revoked will stay there indefinitely unless manually removed.
+For devices managed solely through Exchange [there is no enterprise wipe](https://technet.microsoft.com/en-gb/library/bb124591%28v=exchg.150%29.aspx) (yet). Procedures tend to differ but I’ve talked to a number of companies that enforce the same policy I do; prove the device has had all traces of the Exchange account removed and there’s no need to perform a full wipe. That typically entails a visit to IT, but photos/screenshots may also be accepted. The end-goal is to make sure there’s no corporate data on the device when the presumably soon-to-be-ex employee walks out and while user-accounts can be revoked, any email on the device before said account was revoked will stay there indefinitely unless manually removed.
 
 Naturally ex-employees may not be feeling overly compliant. In that case providing the business has made their intentions clear, they have a right (and likely a signed agreement) to protect their own data. A full wipe may well be the only way of doing so.
 
@@ -51,7 +51,7 @@ Before it even gets to that point though:
 
 ### The company should make their policies known
 
-As I outlined in *Policies, procedures and documentation* in my last article,[Thoughts on BYOD](http://www.linkedin.com/today/post/article/20140612225844-28745130-thoughts-on-byod), having suitable documentation to support a BYOD environment is crucial to making it work.
+As I outlined in *Policies, procedures and documentation* in my last article,[Thoughts on BYOD](https://www.linkedin.com/today/post/article/20140612225844-28745130-thoughts-on-byod), having suitable documentation to support a BYOD environment is crucial to making it work.
 
 These policies should include the amount, type and frequency of data collected from devices to give employees a transparent view of what they’re signing up for as well as making a point of stating a full wipe may always be a possibility. If location data is being collected also, it’s even more important to make sure employees are aware and agree.
 

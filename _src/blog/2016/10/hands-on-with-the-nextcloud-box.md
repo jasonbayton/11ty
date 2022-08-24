@@ -74,7 +74,7 @@ Once assembled, the lid secures with a few powerful magnets making it wonderfull
 Setup
 -----
 
-After powering it up there’s a bit of a wait while a built-in script takes care of pre-setup of the Nextcloud environment (8-10 minutes is stated, though mine didn’t take that long) and eventually navigating to <http://ubuntu-standard.local> – or <http://ubuntu-standard.yourdomain> if you don’t use `local` internally like me – should present the Nextcloud interface requesting the creation of a new administrator:
+After powering it up there’s a bit of a wait while a built-in script takes care of pre-setup of the Nextcloud environment (8-10 minutes is stated, though mine didn’t take that long) and eventually navigating to <https://ubuntu-standard.local> – or <https://ubuntu-standard.yourdomain> if you don’t use `local` internally like me – should present the Nextcloud interface requesting the creation of a new administrator:
 
 [![1-add-admin](https://r2_worker.bayton.workers.dev/uploads/2016/10/1-add-admin.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/10/1-add-admin.jpg)
 
@@ -108,7 +108,7 @@ Unfortunately at the moment Snapweb itself requires manual installation via the 
 
 `sudo snap install snapweb --beta`
 
-However following this the interface will be available either via the internal IP or hostname on port 4200, eg: <http://ubuntu-standard.local:4200>. The Nexcloud Box wiki explains how this can be setup as an external site from within Nextcloud itself [here](https://github.com/nextcloud/nextcloud-snap/wiki/How-to-manage-your-snaps). Snapweb will be installed by default in this way in the future.
+However following this the interface will be available either via the internal IP or hostname on port 4200, eg: <https://ubuntu-standard.local:4200>. The Nexcloud Box wiki explains how this can be setup as an external site from within Nextcloud itself [here](https://github.com/nextcloud/nextcloud-snap/wiki/How-to-manage-your-snaps). Snapweb will be installed by default in this way in the future.
 
 <div class="callout callout-danger"> 
 
@@ -117,7 +117,7 @@ However following this the interface will be available either via the internal I
 As of publishing there’s currently a bug with the newly released version of `snap-confine` which prevents newly installed snaps from running. To get around this for now, run:
 
 ```
-wget http://launchpadlibrarian.net/287156245/snap-confine_1.0.42-0ubuntu3_armhf.deb
+wget https://launchpadlibrarian.net/287156245/snap-confine_1.0.42-0ubuntu3_armhf.deb
 sudo dpkg -i snap-confine_1.0.42-0ubuntu3_armhf.deb
 ```
 

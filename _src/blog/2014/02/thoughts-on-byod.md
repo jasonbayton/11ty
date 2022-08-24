@@ -31,7 +31,7 @@ BYOD – Bring Your Own Device – is the enablement of employees to bring their
 
 BYOD is huge topic of conversation; it has been for a couple of years already. There are varying opinions on the subject, its merits in the workplace and whether or not there really are any true benefits to a BYOD-enabled environment.
 
-As an example, a [study by Spiceworks](https://www.spiceworks.com/marketing/resources/reports/byod-becomes-mainstream-complexity-intensifies/#sf65654514) from 2013 shows there is a lot of uptake in the SME sector, a sector where I’d expect to see this given the cost of hardware and difficulties leveraging the bulk deals with hardware vendors commonly seen in large enterprises. On the other hand, some IT Pros are convinced[ BYOD is doomed](http://www.cbronline.com/news/mobile-and-tablets/byod-will-be-dead-in-three-years-4164473) before it’s even had a chance to establish itself. Even posts I’ve written on Google Plus on this subject have seen views from both sides of the argument.
+As an example, a [study by Spiceworks](https://www.spiceworks.com/marketing/resources/reports/byod-becomes-mainstream-complexity-intensifies/#sf65654514) from 2013 shows there is a lot of uptake in the SME sector, a sector where I’d expect to see this given the cost of hardware and difficulties leveraging the bulk deals with hardware vendors commonly seen in large enterprises. On the other hand, some IT Pros are convinced[ BYOD is doomed](https://www.cbronline.com/news/mobile-and-tablets/byod-will-be-dead-in-three-years-4164473) before it’s even had a chance to establish itself. Even posts I’ve written on Google Plus on this subject have seen views from both sides of the argument.
 
 Since the topic has cropped up a few times in the last week around the web, it has led me to think about it. Personally I support the idea of BYOD, I do however appreciate it isn’t as black and white as it is sometimes portrayed.
 
@@ -65,7 +65,7 @@ It is however worth mentioning that depending on the role and the tools required
 
 Not only is the company not having to repair BYO devices, if a device belonging to an end-user were to get damaged, the onus is on them to get it repaired. This in itself could save hundreds to thousands a year in costs the business would otherwise have to accept.
 
-**Choice = Satisfaction** – In conjunction with picking their own OS/form-factor, end-users who are able to use their preferred system will generally be happier than those who are forced to use something they struggle with. VMware[ undertook a survey](http://www.zdnet.com/byod-boosts-staffs-productivity-job-satisfaction-2062304237/) in 10 Asian countries in 2012 that reinforces this, but it is something I can also personally relate to.
+**Choice = Satisfaction** – In conjunction with picking their own OS/form-factor, end-users who are able to use their preferred system will generally be happier than those who are forced to use something they struggle with. VMware[ undertook a survey](https://www.zdnet.com/byod-boosts-staffs-productivity-job-satisfaction-2062304237/) in 10 Asian countries in 2012 that reinforces this, but it is something I can also personally relate to.
 
 Of course nothing is perfect, some of the issues I can see are:
 
@@ -117,7 +117,7 @@ From my point of view, there is only one situation in which BYOD can be mandator
 
 The best possible BYOD environment will be one in which end-users can choose to opt-in (or out). When BYOD is optional and not mandatory, it caters for everyone in the business.
 
-If there’s an eagerness to push all employees to BYOD, offering subsidised devices through the company is a great way of lowering hardware costs and responsibility while providing an avenue for those who would otherwise struggle to afford their own device for work. This is the route **Corby Business Academy** took with their students, requiring they only [pay less than 50%](http://www.corbybusinessacademy.org/news/?pid=106&nid=2&storyid=985) of the cost of a Chromebook with the option to pay in instalments.
+If there’s an eagerness to push all employees to BYOD, offering subsidised devices through the company is a great way of lowering hardware costs and responsibility while providing an avenue for those who would otherwise struggle to afford their own device for work. This is the route **Corby Business Academy** took with their students, requiring they only [pay less than 50%](https://www.corbybusinessacademy.org/news/?pid=106&nid=2&storyid=985) of the cost of a Chromebook with the option to pay in instalments.
 
 An opt-in (or out) environment does mean hardware costs will likely not completely disappear, certainly not for a long time. Ultimately however it is the best way to implement BYOD.
 
@@ -185,7 +185,7 @@ Just in the same way an enterprise will have some form of asset management solut
 
 Policies set through an MDM profile can assure only devices which comply with the requirements of the corporation are granted access to corporate networks. That means if the OS is out of date, the device is rooted or jailbroken or filled with questionable (and therefore blacklisted) applications, access is denied and the corporate network is not left open to potential vulnerabilities.
 
-MDM – whether part of an integrated suite such as[ SCCM](http://technet.microsoft.com/en-US/systemcenter/default.aspx) + [Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune) or a stand-alone product such as Fiberlink’s (IBM’s) [MaaS360](http://www.maas360.com/) or VMware’s[ Airwatch](http://www.air-watch.com/) – provides the granular management of mobile devices that the enterprise has come to expect from years of managing Windows devices.
+MDM – whether part of an integrated suite such as[ SCCM](https://technet.microsoft.com/en-US/systemcenter/default.aspx) + [Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune) or a stand-alone product such as Fiberlink’s (IBM’s) [MaaS360](https://www.maas360.com/) or VMware’s[ Airwatch](https://www.air-watch.com/) – provides the granular management of mobile devices that the enterprise has come to expect from years of managing Windows devices.
 
 BYOD and MDM go hand-in-hand.
 

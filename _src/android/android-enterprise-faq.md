@@ -254,7 +254,7 @@ For details on th changes to COPE in Android 11, please read [Android 11 COPE ch
 
 ### Does Intune support COPE?
 
-[Yes](http://doesintunesupportaecope.info).
+[Yes](https://doesintunesupportaecope.info).
 
 As of 2020, Intune supports work profiles on fully managed devices from Android 8.0. This is because Google’s [Android Management API introduced support](/2020/07/googles-android-management-api-will-soon-support-cope/) for the deployment scenario (albeit silently, intentionally avoiding stating as such in it’s wider Android 11 COPE announcement).
 

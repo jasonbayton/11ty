@@ -49,7 +49,7 @@ Flavour: Ubuntu Server
 Server version: 14.04 or above  
 QEMU version: 2.0.0 or above
 
-This guide assumes a fresh copy of Ubuntu server 14.04.4 or newer has been installed, but not yet modified. Copies of Ubuntu server can be obtained on the [Ubuntu website](http://ubuntu.com/server). The server should be accessible either directly or via SSH. It also goes without saying the MobileIron ISO has been downloaded and is readily available for installation. To get a copy of the MobileIron software please speak to your MobileIron account manager.
+This guide assumes a fresh copy of Ubuntu server 14.04.4 or newer has been installed, but not yet modified. Copies of Ubuntu server can be obtained on the [Ubuntu website](https://ubuntu.com/server). The server should be accessible either directly or via SSH. It also goes without saying the MobileIron ISO has been downloaded and is readily available for installation. To get a copy of the MobileIron software please speak to your MobileIron account manager.
 
 Recommended installation
 ------------------------

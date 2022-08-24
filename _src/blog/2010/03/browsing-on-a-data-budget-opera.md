@@ -76,7 +76,7 @@ A lot of add ons are partially disabled to save cost, such as flash and java, bu
 
 In other aspects, Opera 10 Beta has really improved it’s user experience and graphic interface. It looks a little “Chromey” in some respects, which I very much like – and it’s quite fast. You’re not losing out by switching to this browser while using your mobile internet.
 
-Download opera from [this page](http://www.opera.com/browser/) and try it out, you may be surprised!
+Download opera from [this page](https://www.opera.com/browser/) and try it out, you may be surprised!
 
 #### Avoid data intensive browsing!
 
@@ -84,7 +84,7 @@ It should be obvious, but avoid websites like youtube.com and sites that stream 
 
 #### Keep track of what you use:
 
-Wanting to keep an eye on the data you’re using? Why not check out AnalogX’s [NetStat Live](http://www.analogx.com/contents/download/Network/nsl/Freeware.htm) which will enable you to view exactly what you’re using and when you’re using it. And it’s free!
+Wanting to keep an eye on the data you’re using? Why not check out AnalogX’s [NetStat Live](https://www.analogx.com/contents/download/Network/nsl/Freeware.htm) which will enable you to view exactly what you’re using and when you’re using it. And it’s free!
 
 Hopefully that will help others in my situation, if you have more to add or any alternatives that will help save the amount of data used when browsing – let me know! Comments are always open.
 

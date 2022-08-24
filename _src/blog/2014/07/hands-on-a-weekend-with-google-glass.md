@@ -26,7 +26,7 @@ tags:
 ---
 Google Glass was officially launched in the UK on June 23, 2014 for £1000; 14 months after their initial I/O launch in the US and a month after becoming generally available to the US public. It has been a long-time coming.
 
-A very brief email chain on the evening of launch day secured permission from the [Boss](http://www.omni-isg.com) to get a pair in and two days later they arrived. If there’s one thing Google seems to repeatedly do well, it’s shipping devices. Rarely have I ever had a problem getting hold of a new toy (though [sending things back](/2012/08/from-wows-to-woes-why-i-wont-be-recommending-a-nexus7-any-time-soon/ "From Wows to Woes – Why I won’t be recommending a Nexus7 any time soon.") is another story!) and with Glass it was no exception.
+A very brief email chain on the evening of launch day secured permission from the [Boss](https://www.omni-isg.com) to get a pair in and two days later they arrived. If there’s one thing Google seems to repeatedly do well, it’s shipping devices. Rarely have I ever had a problem getting hold of a new toy (though [sending things back](/2012/08/from-wows-to-woes-why-i-wont-be-recommending-a-nexus7-any-time-soon/ "From Wows to Woes – Why I won’t be recommending a Nexus7 any time soon.") is another story!) and with Glass it was no exception.
 
 I’ve had a great weekend with Glass; I’ve met a number of different, inquisitive and occasionally slightly confused people, talked a lot about the device, snapped a decent amount of pictures and videos and faced an unprecedented amount of jestful mocking about how I look with them on (which, by the way, I disagree with. I love the look of them on me!). I wanted to use Glass in as many real-life situations as possible over the weekend, so I used them while:
 
@@ -143,7 +143,7 @@ I took many, many pictures over the course of the weekend in various lighting co
 
 I found I did need to keep as still as possible in order to get a crisp picture, something I don’t really think too much about on my phones. I also found the lack of a viewfinder before taking a photo a little annoying, many of the photos I took were slightly slanted or not quite centred on the object I was photographing. There are 3rd-party apps that would enable this functionality, but I had no intention (or time!) of sideloading anything to make it work.
 
-As mentioned, the camera shoots video in 720p. I was equally impressed with the videos shot, mostly due again to the unique perspective Glass provides. The videos are clear and crisp and they pick up sound quite well, here’s an example: <http://youtu.be/mv7cIhUtlvQ>
+As mentioned, the camera shoots video in 720p. I was equally impressed with the videos shot, mostly due again to the unique perspective Glass provides. The videos are clear and crisp and they pick up sound quite well, here’s an example: <https://youtu.be/mv7cIhUtlvQ>
 
 By far the best, most unique feature of the Glass camera was how it’s positioned. Looking back at the photos and videos feels like I saw what I was seeing with my eyes at the time. Sure, any old camera held up in front of you can achieve a similar result, but Glass just seems.. *different.*
 
@@ -173,7 +173,7 @@ With that said, my experience with Glass has been unique and exciting. I found i
 
 On my head it feels light, comfortable and mostly unobtrusive. I’m definitely happy with how it sits and more importantly, how it stays out of the way when not in use. It’s well built, well designed and felt like I was holding a quality device. I only hope it’s a little less chunky on the next hardware revision.
 
-It *needs* a bigger/better battery in order for it to be truly useful as an all-day device for me. I’m sure that will improve if not in hardware, then with the [battery improvements](http://www.androidcentral.com/android-l-brings-project-volta-improved-battery-life) showcased for Android L at Google I/O which I’m sure will trickle through with one of the frequent future updates.
+It *needs* a bigger/better battery in order for it to be truly useful as an all-day device for me. I’m sure that will improve if not in hardware, then with the [battery improvements](https://www.androidcentral.com/android-l-brings-project-volta-improved-battery-life) showcased for Android L at Google I/O which I’m sure will trickle through with one of the frequent future updates.
 
 Over all I think Glass is a fantastic piece of technology. I appreciate there’s still some work to be done and there’s of course a little social stigma around it for the time being but that in no way puts me off. I’m as happy now as I was over the weekend to talk and demo the device to anyone with the curiosity to ask about it.
 

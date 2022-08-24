@@ -96,8 +96,8 @@ It is worth keeping in mind devices can be enrolled across many different sites 
 
 For more information on the Business and Enterprise subscriptions, click below. For a quick and simple guide to upgrading to a new subscription, check out my [previous review](/2015/03/miradore-online-mdm-review-a-second-look/#business).
 
-[Why upgrade to Business Plan?](http://onlinesupport.miradore.com/hc/en-us/articles/202249971-Why-upgrade-to-Business-Plan-)  
-[Why upgrade to Enterprise Plan?](http://onlinesupport.miradore.com/hc/en-us/articles/203840641-Why-upgrade-to-Enterprise-Plan-)
+[Why upgrade to Business Plan?](https://onlinesupport.miradore.com/hc/en-us/articles/202249971-Why-upgrade-to-Business-Plan-)  
+[Why upgrade to Enterprise Plan?](https://onlinesupport.miradore.com/hc/en-us/articles/203840641-Why-upgrade-to-Enterprise-Plan-)
 
 Still unsure, or want to speak to someone before making a decision? [Email Miradore](mailto:support.online@miradore.com.) or leave me a comment at the bottom of the article and I’ll help you out.
 
@@ -106,15 +106,15 @@ What’s new?
 
 Without a doubt it’s been a good year for iOS. Since my last review Miradore have added:
 
-- [Bulk enrolment support through Apple Configurator](http://onlinesupport.miradore.com/hc/en-us/articles/203265811-2015-05-28-Release-notes)
-- [App management](http://onlinesupport.miradore.com/hc/en-us/articles/203422152-2015-06-16-Release-notes) (mentioned above)
-- [Additional restrictions](http://onlinesupport.miradore.com/hc/en-us/articles/205281431-2015-10-09-Release-notes) (more to enable/disable)
-- [Location tracking](http://onlinesupport.miradore.com/hc/en-us/articles/205760871-2015-11-05-Release-notes)
-- [Apple DEP support](http://onlinesupport.miradore.com/hc/en-us/articles/206181419-2015-12-03-Release-notes)
-- [Apple VPP support](http://onlinesupport.miradore.com/hc/en-us/articles/207027219-2016-02-19-Release-Notes-Apple-VPP)
-- [Web clip support](http://onlinesupport.miradore.com/hc/en-us/articles/206181419-2015-12-03-Release-notes)
+- [Bulk enrolment support through Apple Configurator](https://onlinesupport.miradore.com/hc/en-us/articles/203265811-2015-05-28-Release-notes)
+- [App management](https://onlinesupport.miradore.com/hc/en-us/articles/203422152-2015-06-16-Release-notes) (mentioned above)
+- [Additional restrictions](https://onlinesupport.miradore.com/hc/en-us/articles/205281431-2015-10-09-Release-notes) (more to enable/disable)
+- [Location tracking](https://onlinesupport.miradore.com/hc/en-us/articles/205760871-2015-11-05-Release-notes)
+- [Apple DEP support](https://onlinesupport.miradore.com/hc/en-us/articles/206181419-2015-12-03-Release-notes)
+- [Apple VPP support](https://onlinesupport.miradore.com/hc/en-us/articles/207027219-2016-02-19-Release-Notes-Apple-VPP)
+- [Web clip support](https://onlinesupport.miradore.com/hc/en-us/articles/206181419-2015-12-03-Release-notes)
 
-Bulk enrolment and DEP support are two big upgrades that will save hours upon hours that would otherwise be spent manual enrolment. With Apple Configurator the only limit to the amount of devices which can be enrolled in one go is the number of USB ports on the Mac being used. I spent a lot of time with Apple Configurator last year provisioning iOS devices, working with up to 16 at a time using a [giant, powered USB sync &amp; charge station](http://www.ergotron.com/ProductsDetails/tabid/65/PRDID/756/language/nl-NL/Default.aspx) which only required one port on the Apple Mac Mini I was using.
+Bulk enrolment and DEP support are two big upgrades that will save hours upon hours that would otherwise be spent manual enrolment. With Apple Configurator the only limit to the amount of devices which can be enrolled in one go is the number of USB ports on the Mac being used. I spent a lot of time with Apple Configurator last year provisioning iOS devices, working with up to 16 at a time using a [giant, powered USB sync &amp; charge station](https://www.ergotron.com/ProductsDetails/tabid/65/PRDID/756/language/nl-NL/Default.aspx) which only required one port on the Apple Mac Mini I was using.
 
 DEP is even easier. The devices come directly from Apple (or a certified partner) already pre-setup to enrol directly into Miradore, this means to get up and running on the new device could be as simple as supplying a name, iTunes account, and potentially a server name before the device then enrols.
 
@@ -122,11 +122,11 @@ With VPP, managing paid applications after enrolment becomes substantially easie
 
 Miradore have from the start been incredibly Apple friendly. Even today Android is only supported to a relatively small degree in comparison, and the more granular restrictions rely on using Samsung devices. That said, Android has been given a little TLC also, with new features such as:
 
-- [Improved application management, including silent installation/removal](http://onlinesupport.miradore.com/hc/en-us/articles/203422152-2015-06-16-Release-notes)
-- [Additional Android (Samsung KNOX) restrictions](http://onlinesupport.miradore.com/hc/en-us/articles/204839191-2015-09-11-Release-notes)
-- [Messaging functionality for devices](http://onlinesupport.miradore.com/hc/en-us/articles/205488932-2015-10-27-Release-notes)
-- [Encryption support](http://onlinesupport.miradore.com/hc/en-us/articles/207215065-2015-12-22-Release-notes)
-- [Web shortcut support](http://onlinesupport.miradore.com/hc/en-us/articles/206181419-2015-12-03-Release-notes)
+- [Improved application management, including silent installation/removal](https://onlinesupport.miradore.com/hc/en-us/articles/203422152-2015-06-16-Release-notes)
+- [Additional Android (Samsung KNOX) restrictions](https://onlinesupport.miradore.com/hc/en-us/articles/204839191-2015-09-11-Release-notes)
+- [Messaging functionality for devices](https://onlinesupport.miradore.com/hc/en-us/articles/205488932-2015-10-27-Release-notes)
+- [Encryption support](https://onlinesupport.miradore.com/hc/en-us/articles/207215065-2015-12-22-Release-notes)
+- [Web shortcut support](https://onlinesupport.miradore.com/hc/en-us/articles/206181419-2015-12-03-Release-notes)
 
 Encryption support, although only one-way at the moment (you can enable it, but not turn it off from the console) is another great addition for security-driven customers. Although some recent flagships have come with this enabled out of the box, the ability to turn this on for all supported devices guarantees just a little more peace of mind should a device fall into the wrong hands.
 
@@ -136,13 +136,13 @@ Hopefully as time goes on we’ll see support for other manufacturers like HTC, 
 
 Windows phone hasn’t been excluded either, being already more fully supported than Android, WP got the following new functionality:
 
-- [Improved inventory data within the console](http://onlinesupport.miradore.com/hc/en-us/articles/204787852-2015-09-17-Release-notes)
-- [Support for application black/white lists](http://onlinesupport.miradore.com/hc/en-us/articles/203422152-2015-06-16-Release-notes)
+- [Improved inventory data within the console](https://onlinesupport.miradore.com/hc/en-us/articles/204787852-2015-09-17-Release-notes)
+- [Support for application black/white lists](https://onlinesupport.miradore.com/hc/en-us/articles/203422152-2015-06-16-Release-notes)
 
 And finally, to the system itself:
 
-- [Improved Active Directory support](http://onlinesupport.miradore.com/hc/en-us/articles/203495272-2015-06-23-Release-notes)
-- [An updated console with a more responsive layout, allowing for improved mobile administration](http://onlinesupport.miradore.com/hc/en-us/articles/206181419-2015-12-03-Release-notes)
+- [Improved Active Directory support](https://onlinesupport.miradore.com/hc/en-us/articles/203495272-2015-06-23-Release-notes)
+- [An updated console with a more responsive layout, allowing for improved mobile administration](https://onlinesupport.miradore.com/hc/en-us/articles/206181419-2015-12-03-Release-notes)
 - Expanded tagging functionality (which now allows for tagging before a device is enrolled)
 - Trials
 

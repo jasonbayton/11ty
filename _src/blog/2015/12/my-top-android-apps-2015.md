@@ -28,7 +28,7 @@ Vysor (beta)
 
 ![vysor-display](https://r2_worker.bayton.workers.dev/uploads/2015/12/vysor-display.png)
 
-[Vysor](//www.vysor.io/) is another fantastic app from [Koush](http://plus.google.com/u/0/110558071969009568835/posts), the creator of [ClockworkMod](http://www.clockworkmod.com/rommanager), [Helium](http://clockworkmod.com/carbon) and co-founder of [CyanogenMod](https://lineageos.org/). It is another **no-root** solution for mirroring an Android display to a Windows/Mac/Linux and is literally the *best* Android mirroring solution I have used to date. Koush seems to get a mention frequently and there’s good reason; few words describe the incredible tools Koush publishes.
+[Vysor](//www.vysor.io/) is another fantastic app from [Koush](https://plus.google.com/u/0/110558071969009568835/posts), the creator of [ClockworkMod](https://www.clockworkmod.com/rommanager), [Helium](https://clockworkmod.com/carbon) and co-founder of [CyanogenMod](https://lineageos.org/). It is another **no-root** solution for mirroring an Android display to a Windows/Mac/Linux and is literally the *best* Android mirroring solution I have used to date. Koush seems to get a mention frequently and there’s good reason; few words describe the incredible tools Koush publishes.
 
 Vysor is a beta for the time being, only really being made available to the general public already because it was leaked during testing. That said, it works very, very well on all of the devices (Samsung/Nexus) I’ve tested it with and have used it many times during Webex sessions, quick recordings and more.
 
@@ -36,7 +36,7 @@ Using Vysor is as simple as installing the [Chrome extension](//chrome.google.co
 
 Having spent many hours fiddling with solutions like Droid@Screen and Android Screen Monitor over the years, Vysor is a breath of fresh air and is my go-to solution both for myself and for anyone who asks me for a screen mirroring recommendation.
 
-Vysor is available for free from the [Chrome Web Store](http://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm).  
+Vysor is available for free from the [Chrome Web Store](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm).  
 NB: It will automatically install the Android app counterpart during setup.
 
 Office for Android
@@ -72,7 +72,7 @@ Pushbullet
 
 ![Screenshot_2015-12-31-10-45-39](https://r2_worker.bayton.workers.dev/uploads/2015/12/Screenshot_2015-12-31-10-45-39.png)
 
-Another controversial one considering their recent [transition to Pro subscriptions](http://thenextweb.com/dd/2015/11/17/pushbullets-new-paywall-is-a-perfect-example-of-how-not-to-monetize-an-app/#gref), taking free features from users and forcing them to pay a monthly fee in order to get them back. To note: I’m strongly against the route they took to generate revenue and will not subscribe on principle until, at the very least, the features they removed are added back to the free version. It’s also vastly overpriced for the functionality it offers at $4.99 a month.
+Another controversial one considering their recent [transition to Pro subscriptions](https://thenextweb.com/dd/2015/11/17/pushbullets-new-paywall-is-a-perfect-example-of-how-not-to-monetize-an-app/#gref), taking free features from users and forcing them to pay a monthly fee in order to get them back. To note: I’m strongly against the route they took to generate revenue and will not subscribe on principle until, at the very least, the features they removed are added back to the free version. It’s also vastly overpriced for the functionality it offers at $4.99 a month.
 
 I’m not going to dwell on that however and until [Join](https://plus.google.com/communities/110193399489813640793) matures I’m quite happy with the free version, even with the limitations now in place.
 

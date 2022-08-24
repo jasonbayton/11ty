@@ -52,7 +52,7 @@ Being somewhat vocal about Apple’s decision to limit the ports on the new MacB
 
 I found the camera situation to be rather pleasing. In my last review I wrote:
 
-> I often feel with tablets this is the wrong way around; I, like many, won’t take photos on a tablet [for a few reasons](http://cameras.reviewed.com/features/please-stop-taking-pictures-with-your-tablet) and therefore don’t make use of the better rear sensor, while video conferencing with family and colleagues tends to suffer by comparison.
+> I often feel with tablets this is the wrong way around; I, like many, won’t take photos on a tablet [for a few reasons](https://cameras.reviewed.com/features/please-stop-taking-pictures-with-your-tablet) and therefore don’t make use of the better rear sensor, while video conferencing with family and colleagues tends to suffer by comparison.
 
 The TabPro S boasts a 5MP camera on *both sides*. They’re as good as each other! This means whether you are indeed taking a photo at the zoo or conferencing a team remotely you can guarantee the exact same picture quality and resolution. Thank you, Samsung!
 

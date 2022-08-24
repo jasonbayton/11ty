@@ -38,7 +38,7 @@ Speaking of bezels, the Yoga’s are **ginormous**.
 
 They don’t look particularly small on Lenovo’s website, but actually seeing them in person reinforces how much of that whole screen area is completely wasted. I’m not sure of the technical reasons as to why they couldn’t have made the Yoga physically smaller to better match the screen they opted for, but the end result isn’t pretty.
 
-Lenovo don’t appear to publish the dimensions on their product pages for the Yoga [here ](https://support.lenovo.com/gb/en/documents/pd100796)and [here](http://shop.lenovo.com/gb/en/laptops/lenovo/yoga/yoga-300-11/). Amazon do, but given they also provide dimensions for the x240 and there’s almost no comparison between the dimensions listed (41.4 x 27.2 x 8.2 cm vs 30.6 x 20.9 x 2 cm for the Yoga and x240 respectively) I couldn’t trust them.
+Lenovo don’t appear to publish the dimensions on their product pages for the Yoga [here ](https://support.lenovo.com/gb/en/documents/pd100796)and [here](https://shop.lenovo.com/gb/en/laptops/lenovo/yoga/yoga-300-11/). Amazon do, but given they also provide dimensions for the x240 and there’s almost no comparison between the dimensions listed (41.4 x 27.2 x 8.2 cm vs 30.6 x 20.9 x 2 cm for the Yoga and x240 respectively) I couldn’t trust them.
 
 It’s also around 1.4kg. It doesn’t feel particularly light.
 
@@ -62,7 +62,7 @@ It wasn’t until after I’d finished setting it up that I started noticing pro
 
 ![20160219_101237](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160219_101237.jpg)
 
-I’m not sure what that’s like for most people, but for me it’s a little like struggling with [slow internet](http://theoatmeal.com/comics/no_internet).
+I’m not sure what that’s like for most people, but for me it’s a little like struggling with [slow internet](https://theoatmeal.com/comics/no_internet).
 
 The keyboard itself, ignoring the issues, is a good size with adequate (but not great) travel. Just as with the screen there would be nothing wrong with bringing the edges of the laptop in closer to the edges of the keyboard to result in a smaller and lighter device, however Lenovo chose not to.
 

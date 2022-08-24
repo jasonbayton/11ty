@@ -53,7 +53,7 @@ What’s on the inside? Under the hood as already mentioned is 16GB of internal 
 With that covered, I’m going to just briefly cover the form-factor. After all, this is in fact the single greatest selling point of the Yoga tablet line isn’t it? Here’s the tablet side-on:
 
 [![Source: Lenovo.com](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7-e1387901348529-1024x460.jpg)](https://r2_worker.bayton.workers.dev/uploads/2013/12/lenovo-tablet-yoga-10-hold-mode-7.jpg)
-*Source: [Lenovo.com](http://lenovo.com)*
+*Source: [Lenovo.com](https://lenovo.com)*
 
 As you can see above, the tablet is a wedge-shape, gradually fattening as your eyes gaze from left to right. It’s a nice looking tablet, especially from a distance, but just how practical is this design?
 
@@ -64,7 +64,7 @@ Of course, that’s providing you only wish to use it in portrait orientation an
 Then there’s the stand! Lenovo suggest two methods of using it once you’ve twisted the stand out:
 
 [![tilt and stand](https://r2_worker.bayton.workers.dev/uploads/2013/12/tilt-and-stand-1024x287.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/tilt-and-stand.png)
-*Source: [Lenovo.com](http://lenovo.com)*
+*Source: [Lenovo.com](https://lenovo.com)*
 
 In testing both of these methods, I’ve found “tilt” to be a lot more useful. The angle on “stand” is too harsh and makes it less than ideal to work with. Thankfully although Lenovo don’t mention it, I found it was possible to push the screen back a little which made it a lot easier to use, but too far and it’ll fall over.
 
@@ -111,4 +111,4 @@ While it’s a great attempt at thinking outside of the box, the Yoga unfortunat
 
 It’ll certainly do the job, and for those needing a (starting from) £199 tablet optimised for single-handed usage and a battery that lasts forever it might just be the perfect device, but it’s not for me.
 
-Do you have a Lenovo Yoga Tablet? Are you considering one? Sound off in the comments or [join the conversation on Google+](http://plus.google.com/105616249858609350212/posts/161YazPG8FB).
+Do you have a Lenovo Yoga Tablet? Are you considering one? Sound off in the comments or [join the conversation on Google+](https://plus.google.com/105616249858609350212/posts/161YazPG8FB).

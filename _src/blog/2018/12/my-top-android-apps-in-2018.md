@@ -48,7 +48,7 @@ Action Launcher is free to download with a $5 in-app purchase to unlock addition
 
 If you’ve read any of my documentation, LinkedIn posts or even took a gander at the featured image of this post, those delightful, customised Android robots are all the doing of Androidify.
 
-It’s a very simple app, that also has a web app version on [androidify.com](http://androidify.com), and allows for advanced cusomisation of outfit, accessories and more.
+It’s a very simple app, that also has a web app version on [androidify.com](https://androidify.com), and allows for advanced cusomisation of outfit, accessories and more.
 
 I wish there were more options around exporting (transparency, vector, custom animations, etc) but I’ve managed fine with it so far.
 

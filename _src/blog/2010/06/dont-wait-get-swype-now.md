@@ -29,7 +29,7 @@ Swype is an app for Android which enables users to use their on-screen keyboard 
 
 Here are videos demoing what the app can do: www.swypeinc.com/tips-tricks.html \[broken\]
 
-Swype are in a [beta](http://beta.swype.com/) \[broken\] at the moment, for a short while they’re allowing new [signups](http://beta.swype.com/) \[broken\] so if you’re fast you can [sign up now](http://beta.swype.com/) \[broken\]! Once you have signed up, generally you’ll have to wait until Swype contact you before you can get the app, well since Swype have told me my phone is not compatible with their software (my resolution is too low) and as such banned me from having it, here’s the mail for those of you who are waiting to hear back from them for how to install:
+Swype are in a [beta](https://beta.swype.com/) \[broken\] at the moment, for a short while they’re allowing new [signups](https://beta.swype.com/) \[broken\] so if you’re fast you can [sign up now](https://beta.swype.com/) \[broken\]! Once you have signed up, generally you’ll have to wait until Swype contact you before you can get the app, well since Swype have told me my phone is not compatible with their software (my resolution is too low) and as such banned me from having it, here’s the mail for those of you who are waiting to hear back from them for how to install:
 
 Follow the link below, download the installer and then sign in with your user/pass and you could have access much sooner than if you waited on their mail.
 
@@ -45,11 +45,11 @@ Thanks for being part of our beta. Activate the link below to download the Swype
 
 <https://beta.swype.com/android/get/>
 
-If you have problems or questions please visit <http://beta.swype.com> and read the Swype Step-by-Step Install instructions, the Swype FAQ, or the Swype forums to see what other users are saying. You are also welcome to send email to <androidbeta@swype.com> with additional feedback or questions – We are happy to get emails and will answer questions as soon as we can, but please also check the resources above for information.
+If you have problems or questions please visit <https://beta.swype.com> and read the Swype Step-by-Step Install instructions, the Swype FAQ, or the Swype forums to see what other users are saying. You are also welcome to send email to <androidbeta@swype.com> with additional feedback or questions – We are happy to get emails and will answer questions as soon as we can, but please also check the resources above for information.
 
 Thanks!
 
 The Swype Team
 
 Click here for installation instructions:  
-http://beta.swype.com/android/welcome/detailed/
+https://beta.swype.com/android/welcome/detailed/

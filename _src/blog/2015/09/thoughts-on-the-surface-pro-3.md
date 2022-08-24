@@ -39,7 +39,7 @@ Now don’t get me wrong, I can recognise it isn’t perfect – even to the poi
 
 Out and about it’s a great travel companion. The screensize is substantially better than that of the previous iterations for getting things done and the adjustable kickstand with removable keyboard mean I can use it in places conventional laptops wouldn’t fit (I’m looking at you, popular cheap airlines). Of course it doesn’t live up to the battery life Microsoft touts and that’s certainly a mark against it when comparing to its competition, but I’ve never been too far away from an outlet and it has therefore never bothered me.
 
-At home/office I can dock it upright with the optional Surface Dock and hook it up to my 4 external monitors using a combination of [DisplayLink](http://www.displaylink.com/) and display port daisy-chaining. As soon as it’s docked it’s easy to forget it’s a tablet. The experience is glorious.
+At home/office I can dock it upright with the optional Surface Dock and hook it up to my 4 external monitors using a combination of [DisplayLink](https://www.displaylink.com/) and display port daisy-chaining. As soon as it’s docked it’s easy to forget it’s a tablet. The experience is glorious.
 
 I’ve never liked a piece of hardware as much as I do the Surface Pro 3. I can’t wait to see what they do next.
 

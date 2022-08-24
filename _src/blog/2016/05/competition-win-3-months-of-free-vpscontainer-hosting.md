@@ -77,7 +77,7 @@ The winner will be selected within 14 days of the competition ending and contact
   - <del>Via tweet using this pre-populated link to us:</del>
 
 <del>[ Tweet to @jasonbayton  
-@elastichosts](http://twitter.com/home?status=Hey%20@jasonbayton%20@elastichosts%20here's%20my%20competition%20entry:%20(link%20here))</del>
+@elastichosts](https://twitter.com/home?status=Hey%20@jasonbayton%20@elastichosts%20here's%20my%20competition%20entry:%20(link%20here))</del>
 
 <del>Please note: Once signed up, you have 5 days to utilise the ElasticHosts platform before the free trial expires. However, the competition will not close until **31/05/2016** providing plenty of time to consolidate your thoughts and submit an entry.</del>
 

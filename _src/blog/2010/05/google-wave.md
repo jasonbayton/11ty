@@ -21,7 +21,7 @@ tags:
 ---
 Can you see this wave? If not don’t fret! [Here’s my post \[deleted\]](/post/gwave-revolution/) in a normal, easy to read format just as you’ve come to expect from me. If you would like a Wave account, why not [get in touch](/contact)? I have plenty of invitations, and I like to share.
 
-<div id="waveframe" style="width: 600px; height: 700px;"></div><script src="http://www.google.com/jsapi" type="text/javascript"></script>  
+<div id="waveframe" style="width: 600px; height: 700px;"></div><script src="https://www.google.com/jsapi" type="text/javascript"></script>  
 <script type="text/javascript">// <![CDATA[
 google.load("wave", "1");
 google.setOnLoadCallback(initialize);

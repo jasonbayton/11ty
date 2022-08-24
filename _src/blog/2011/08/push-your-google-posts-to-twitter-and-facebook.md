@@ -31,7 +31,7 @@ tags:
     - Guides
     - 'Social Media'
 ---
-![](http://static.dlvr.it/images/dlvrit_logo.png "dlvr.it logo")
+![](https://static.dlvr.it/images/dlvrit_logo.png "dlvr.it logo")
 
 Although it’s not technically possible from Google+ itself quite yet (that API is taking it’s time..) outlined below is a quick and easy way of using dlvr.it and appspot to take your public Google+ posts and push them to your other social media accounts.
 
@@ -39,17 +39,17 @@ Note: This is an unofficial method and will undoubtedly become outdated at some 
 
 This post is extremely similar to my previous [Pushing Buzz to Twitter with dlvr.it](/2011/05/pushing-buzz-to-twitter-with-dlvr-it/) so if you see similarities, you’ll know why.
 
-For this (and following) article, I will assume you are signed up and logged in. If you’re not, head over to [dlvr.it](http://dlvr.it/) now and get it done!
+For this (and following) article, I will assume you are signed up and logged in. If you’re not, head over to [dlvr.it](https://dlvr.it/) now and get it done!
 
 Logged in? Alright then, off we go.
 
 The first thing you’ll need is your public Google+ Feed URL. There’s no need to go hunting around for it, as I’ve provided it here:
 
-http://dlvritplus.appspot.com/PROFILEID
+https://dlvritplus.appspot.com/PROFILEID
 
 All you’ll need to change is PROFILEID. For you, this’ll be a number you see when you go to your Google+ profile, so for example mine is:
 
-[http://dlvritplus.appspot.com/**107941235164261478540**](http://dlvritplus.appspot.com/107941235164261478540)
+[https://dlvritplus.appspot.com/**107941235164261478540**](https://dlvritplus.appspot.com/107941235164261478540)
 
 Simple, right? Now you have that, you can create your new Route. Whenever you’re ready, you can click that all important button!
 

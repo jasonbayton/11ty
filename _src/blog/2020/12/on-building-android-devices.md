@@ -51,7 +51,7 @@ I’d been very much blissfully ignorant to a lot of this when previously raisin
 Diving in
 ---------
 
-When I joined Social Mobile, it was intentionally timed for me to take on a brand new project, building the company’s first own-brand portfolio of commonly-requested devices. With it came the opportunity not only to give the hardware its own brand ([Rhino](http://rhinomobility.com)) but also to define for the first time the software experience against a set of requirements not laid out by a customer.
+When I joined Social Mobile, it was intentionally timed for me to take on a brand new project, building the company’s first own-brand portfolio of commonly-requested devices. With it came the opportunity not only to give the hardware its own brand ([Rhino](https://rhinomobility.com)) but also to define for the first time the software experience against a set of requirements not laid out by a customer.
 
 SM is not a typical, consumer-driven, annual-refresh type of OEM, but an enterprise-first, B2B OEM specialising in the dedicated and bespoke solutions not typically available off a shelf, with extended periods of support and availability. Very commonly devices only come to be when an engagement from a customer kicks off, and following 6-9 months of design, testing, software bring-up, optimisation, manufacturing, and more, and with that come things like minimum order quantities and upfront non-recurring engineering (NRE) costs.
 

@@ -35,7 +35,7 @@ post_views_count:
 tags:
     - Reviews
 ---
-You’ve no doubt seen it [around](http://www.youtube.com/watch?v=ok5DTZLq-00) the [internet](http://www.nexustablets.net/forum/nexus-tablet-site-news/650-nexus-7-screen-washout-ghosting-potential-widespread-issue.html). There are [problems](http://www.itechpost.com/articles/3915/20120811/google-nexus-7-top-problems-reported-far.htm) with the new Nexus 7.
+You’ve no doubt seen it [around](https://www.youtube.com/watch?v=ok5DTZLq-00) the [internet](https://www.nexustablets.net/forum/nexus-tablet-site-news/650-nexus-7-screen-washout-ghosting-potential-widespread-issue.html). There are [problems](https://www.itechpost.com/articles/3915/20120811/google-nexus-7-top-problems-reported-far.htm) with the new Nexus 7.
 
 After pre-ordering my Nexus, these reports started coming through thick and fast. I decided to call Google (Play Support) to get an idea of how many devices were affected and was pleased to hear it was in the 1-2 percentile. With this, I kept my pre-order in place and waited patiently.
 

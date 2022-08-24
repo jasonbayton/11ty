@@ -31,13 +31,13 @@ Helium
 
 [![Helium](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-09-36-46-1024x576.png)](https://r2_worker.bayton.workers.dev/uploads/2013/12/Screenshot_2013-12-23-09-36-46.png)
 
-Helium (formerly Carbon) backup is the brainchild of [Koush](http://plus.google.com/u/0/110558071969009568835/posts), the creator of [ClockworkMod](http://www.clockworkmod.com/rommanager) and co-founder of [CyanogenMod](https://lineageos.org/). It is a **no-root** solution for backup and synchronisation of applications and data between devices and is literally the *best* Android backup solution I have used to date.
+Helium (formerly Carbon) backup is the brainchild of [Koush](https://plus.google.com/u/0/110558071969009568835/posts), the creator of [ClockworkMod](https://www.clockworkmod.com/rommanager) and co-founder of [CyanogenMod](https://lineageos.org/). It is a **no-root** solution for backup and synchronisation of applications and data between devices and is literally the *best* Android backup solution I have used to date.
 
 Helium boasts scheduled backups, backups to cloud storage and app sync. Have you been through the annoyance of backing up your applications, transferring the backup to a new device and manually restoring everything? That’s no longer an issue. Helium will allow you to make a connection between two devices running the Helium application and synchronise both apps (where permitted) and app data from one to the other with almost no intervention. Some applications do not allow backup and restore, so Helium will offer a link to the app on the Play Store which, after installing, will then sync the app data.
 
 I’ve been using Helium since beta and then opted to pay for the premium version when it became available. With the amount of devices I go through on a regular basis, Helium is crucial to being able to pick up on one device exactly where I left off on another.
 
-As mentioned, Helium is a no-root solution. It requires a [desktop application](http://www.clockworkmod.com/carbon) to enable backups whenever the device is rebooted. For rooted devices this is not required, Helium *just works.*
+As mentioned, Helium is a no-root solution. It requires a [desktop application](https://www.clockworkmod.com/carbon) to enable backups whenever the device is rebooted. For rooted devices this is not required, Helium *just works.*
 
 Helium is available both as a [free ](https://play.google.com/store/apps/details?id=com.koushikdutta.backup&hl=en_GB)and [premium ](https://play.google.com/store/apps/details?id=com.koushikdutta.backup.license&hl=en_GB)($4.99) option in the Play Store
 

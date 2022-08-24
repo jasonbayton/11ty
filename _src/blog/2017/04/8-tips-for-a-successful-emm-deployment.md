@@ -15,7 +15,7 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/8-tips-for-a-successful-emm-deployment/40'
 ---
-Recently, while browsing through EMM resources on Gartner, I stumbled across an [interesting study](http://www.gartner.com/newsroom/id/3528217) undertaken in 2016, in it Gartner reports:
+Recently, while browsing through EMM resources on Gartner, I stumbled across an [interesting study](https://www.gartner.com/newsroom/id/3528217) undertaken in 2016, in it Gartner reports:
 
 > more than half of employees who used smartphones at work rely solely on their personally owned smartphones
 
@@ -23,7 +23,7 @@ That is by no means an insignificant number, one that’s likely already increas
 
 And that’s a problem.
 
-While employees are ready to leverage Enterprise Mobility to improve productivity, enhance their work experience and make their lives easier, businesses in many cases simply aren’t keeping up; a recent [study by Synchronoss](https://r2_worker.bayton.workers.dev/uploads/2017/04/The_State_of_Enterprise_Mobility_Whitepaper.pdf) (via[ CWSI](http://cwsi.ie/the-state-of-enterprise-mobility/)) delved into the state of Enterprise Mobility in 2017 across organisations in the UK and US and highlights how alarmingly unprepared many organisations are – 38% of those asked are yet to implement basic measures to safeguard corporate data such as enforced device security, restricted access to corporate resources or even basic visibility\* of who is connecting in and to what.
+While employees are ready to leverage Enterprise Mobility to improve productivity, enhance their work experience and make their lives easier, businesses in many cases simply aren’t keeping up; a recent [study by Synchronoss](https://r2_worker.bayton.workers.dev/uploads/2017/04/The_State_of_Enterprise_Mobility_Whitepaper.pdf) (via[ CWSI](https://cwsi.ie/the-state-of-enterprise-mobility/)) delved into the state of Enterprise Mobility in 2017 across organisations in the UK and US and highlights how alarmingly unprepared many organisations are – 38% of those asked are yet to implement basic measures to safeguard corporate data such as enforced device security, restricted access to corporate resources or even basic visibility\* of who is connecting in and to what.
 
 <span style="font-size: small;">\* ActiveSync logs notwithstanding</span>
 

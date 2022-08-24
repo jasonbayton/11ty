@@ -80,7 +80,7 @@ Thankfully their standard web console isn’t unusable, even if zooming in and o
 
 **Office 365**
 
-Another [mobile first, cloud first](http://news.microsoft.com/2014/03/27/satya-nadella-mobile-first-cloud-first-press-briefing/) company offering their cloud-based collaboration and editing suite went one step further than AirWatch by releasing native administration apps for the major mobile operating systems on the market. Again I found myself getting a little more excited than a normal person would at the thought of a mobile admin application prior to launch and again I was wondering how they would take this complex and wonderfully granular admin console:
+Another [mobile first, cloud first](https://news.microsoft.com/2014/03/27/satya-nadella-mobile-first-cloud-first-press-briefing/) company offering their cloud-based collaboration and editing suite went one step further than AirWatch by releasing native administration apps for the major mobile operating systems on the market. Again I found myself getting a little more excited than a normal person would at the thought of a mobile admin application prior to launch and again I was wondering how they would take this complex and wonderfully granular admin console:
 
 [![365](https://r2_worker.bayton.workers.dev/uploads/2015/04/365.png)](https://r2_worker.bayton.workers.dev/uploads/2015/04/365.png)
 

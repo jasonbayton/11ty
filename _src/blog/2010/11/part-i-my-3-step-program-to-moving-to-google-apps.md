@@ -115,7 +115,7 @@ Below you can finish off the move by importing your contacts, filters and calend
 
 And that, my friends, is my three step guide for moving to Google Apps from Gmail. I had been lingering on this article for a while, but after a Buzz crossed my path with the exact request for this information I decided it would be a good idea to publish it for the world to view. This will be an evolving article – if you have better suggestions let me know! I’ll add them as they’re provided.
 
-Do you use Outlook? You may be interested in a tool that should take all 3 steps and turn them into one quick, easy and integrated solution: [Google Apps Outlook Migration Tool](http://tools.google.com/dlpage/outlookmigration). Check it out!
+Do you use Outlook? You may be interested in a tool that should take all 3 steps and turn them into one quick, easy and integrated solution: [Google Apps Outlook Migration Tool](https://tools.google.com/dlpage/outlookmigration). Check it out!
 
 Cheers,  
 Jason

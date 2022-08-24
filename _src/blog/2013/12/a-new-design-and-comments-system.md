@@ -19,7 +19,7 @@ tags:
 If you’ve stopped by recently, you’ll have noticed a few changes. It’s been a long time coming, but the site has finally undergone some well overdue maintenance.  
 So far this month I have applied a new, custom written theme and changed the comments system to Disqus.
 
-The theme is an interesting one for me – I have very, very little knowledge of PHP so to create a WordPress theme out of a HTML template I’d previously created seemed quite daunting. Thankfully the [WordPress codex](http://codex.wordpress.org/) is an incredible resource that practically walked me through every step. Sure some of it left me stumped, but a quick Google generally got me the answer I was looking for.
+The theme is an interesting one for me – I have very, very little knowledge of PHP so to create a WordPress theme out of a HTML template I’d previously created seemed quite daunting. Thankfully the [WordPress codex](https://codex.wordpress.org/) is an incredible resource that practically walked me through every step. Sure some of it left me stumped, but a quick Google generally got me the answer I was looking for.
 
 For a number of years, I’ve treated bayton.org as a tech site. That is, a site dedicated to posts for tech reviews, guides and projects. The way it’d been previously set up and the way I chose to use the site felt like a limitation for me going forward, I felt like I could *only* post about tech as there was little to no capacity for posts of any other nature. I wanted to change that and the only way I felt I could do so was with a new theme, shake-up of current taxonomy and a focus on *different* topics throughout the site.
 

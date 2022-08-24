@@ -130,7 +130,7 @@ Finally, as the campaigns drew to a close I received an email:
 
 ![emailinterview2](https://r2_worker.bayton.workers.dev/uploads/2016/10/emailinterview2.png)
 
-More than happy to oblige, I answered a few questions and later found an [article on the front page of YLE](http://yle.fi/uutiset/3-9206472) – Finland’s equivalent to the BBC in the UK:
+More than happy to oblige, I answered a few questions and later found an [article on the front page of YLE](https://yle.fi/uutiset/3-9206472) – Finland’s equivalent to the BBC in the UK:
 
 ![yle](https://r2_worker.bayton.workers.dev/uploads/2016/10/yle.png)
 

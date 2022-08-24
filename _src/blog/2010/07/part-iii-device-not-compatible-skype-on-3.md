@@ -38,14 +38,14 @@ Just as with Part I and II, your Android device supports java. If you search “
 
 If you are running Froyo (Android 2.2) the native Skype app from 3 will force quit continuously. There may well be an update for it at some point from 3, but in the mean time there’s another solution. This solution also stands if you are NOT in the UK!
 
-Full credit goes to [Dawmuz on XDA developers](http://forum.xda-developers.com/showthread.php?t=715910) for providing the modification to iSkoot enabling it’s use in the UK and many other countries.
+Full credit goes to [Dawmuz on XDA developers](https://forum.xda-developers.com/showthread.php?t=715910) for providing the modification to iSkoot enabling it’s use in the UK and many other countries.
 
 Here is the UK version:
 
 [iSkoot APK](https://r2_worker.bayton.workers.dev/download/iskootMod3UK.apk)  
 
 
-If you need it for your own country, please sign up to XDA developers (the best thing you can ever do for your mobile smartphone!) go to [Dawmuz’s thread](http://forum.xda-developers.com/showthread.php?t=715910) and download your countries APK.
+If you need it for your own country, please sign up to XDA developers (the best thing you can ever do for your mobile smartphone!) go to [Dawmuz’s thread](https://forum.xda-developers.com/showthread.php?t=715910) and download your countries APK.
 
 This concludes my Skype on 3 trilogy, and I wish you the utmost enjoyment out of skype!
 

@@ -51,19 +51,19 @@ And a simple</span><span lang="EN-GB"> **80GB** </span><span lang="EN-GB">drive.
 
 <span lang="EN-GB">It took a while, but eventually the order for the computers had come in \[and with ever increasing issues on the old machines, it was not too soon either\] and were left in the parking lot. Luckily Jim, our caretaker was on-site and ready to help out with the unpacking and moving of the computers. If it had not been for him, it would have taken far longer.</span>
 
-*![http://lh6.ggpht.com/_XtX1xEyLe2k/SdNu8BcGBbI/AAAAAAAABQw/qhz-hLQT728/s640/IMG_0128.JPG](http://lh6.ggpht.com/_XtX1xEyLe2k/SdNu8BcGBbI/AAAAAAAABQw/qhz-hLQT728/s640/IMG_0128.JPG)*
+*![https://lh6.ggpht.com/_XtX1xEyLe2k/SdNu8BcGBbI/AAAAAAAABQw/qhz-hLQT728/s640/IMG_0128.JPG](https://lh6.ggpht.com/_XtX1xEyLe2k/SdNu8BcGBbI/AAAAAAAABQw/qhz-hLQT728/s640/IMG_0128.JPG)*
 
 <span lang="EN-GB">To an extent they were covered, but seeing as rain was destined to fall and resembled something you’d see in the Amazon during “rain season”, the packaging didn’t hold up too well and boxes were getting wet. The standard form of transporting the computers into the building was abandoned, and replaced with a slightly unorthodox window slide.</span>
 
-![http://lh3.ggpht.com/_XtX1xEyLe2k/SdNvEaaC70I/AAAAAAAABRs/tqFjgPK3q1A/s640/IMG_0136.JPG](http://lh3.ggpht.com/_XtX1xEyLe2k/SdNvEaaC70I/AAAAAAAABRs/tqFjgPK3q1A/s640/IMG_0136.JPG)
+![https://lh3.ggpht.com/_XtX1xEyLe2k/SdNvEaaC70I/AAAAAAAABRs/tqFjgPK3q1A/s640/IMG_0136.JPG](https://lh3.ggpht.com/_XtX1xEyLe2k/SdNvEaaC70I/AAAAAAAABRs/tqFjgPK3q1A/s640/IMG_0136.JPG)
 
 <span lang="EN-GB">Eventually all of the computers were unboxed and stacked up ready for imaging. The process I had to repeat 59 times, and all on my lonesome. However, the computers 1 by 1 \[eventually 2 by 2 as I’d began to speed up, a mouse in each hand? Oh yes.\] were imaged and ready to be sent out to the office.</span>
 
 <span lang="EN-GB">Here’s a few pictures of the stack;</span>
 
-![http://lh5.ggpht.com/_XtX1xEyLe2k/SdNvJ6d2AUI/AAAAAAAABSU/aXlvxxfiXqA/s640/IMG_0142.JPG](http://lh5.ggpht.com/_XtX1xEyLe2k/SdNvJ6d2AUI/AAAAAAAABSU/aXlvxxfiXqA/s640/IMG_0142.JPG)
+![https://lh5.ggpht.com/_XtX1xEyLe2k/SdNvJ6d2AUI/AAAAAAAABSU/aXlvxxfiXqA/s640/IMG_0142.JPG](https://lh5.ggpht.com/_XtX1xEyLe2k/SdNvJ6d2AUI/AAAAAAAABSU/aXlvxxfiXqA/s640/IMG_0142.JPG)
 
-![http://lh5.ggpht.com/_XtX1xEyLe2k/SdNvWRxQ1eI/AAAAAAAABUA/Me86ww60ChY/s640/IMG_0152.JPG](http://lh5.ggpht.com/_XtX1xEyLe2k/SdNvWRxQ1eI/AAAAAAAABUA/Me86ww60ChY/s640/IMG_0152.JPG)<span lang="EN-GB">  
+![https://lh5.ggpht.com/_XtX1xEyLe2k/SdNvWRxQ1eI/AAAAAAAABUA/Me86ww60ChY/s640/IMG_0152.JPG](https://lh5.ggpht.com/_XtX1xEyLe2k/SdNvWRxQ1eI/AAAAAAAABUA/Me86ww60ChY/s640/IMG_0152.JPG)<span lang="EN-GB">  
 *Mmm, I love the smell of technology in the morning.*</span>
 
 <span lang="EN-GB">Deploying the computers was a breeze once they’d been imaged. A simple adjustment to the chassis holding the computer under the table (as the computers were a little bigger than the old ones) and they went straight in.</span>
@@ -72,7 +72,7 @@ And a simple</span><span lang="EN-GB"> **80GB** </span><span lang="EN-GB">drive.
 
 <span lang="EN-GB">Room by room on floor by floor the computers were replaced in less that 10mins per machine average. Starting from the top where it was decided that ICT would first preliminarily test them to make sure there were no issues, and going down to the basement. It didn’t take too long, but the imaging was an unnecessary wait \[I say unnecessary, in that I would have been finished 3fold had it not been for the imaging\] though it had to be said, imaging was much faster via USB than the network.</span>
 
-![http://lh4.ggpht.com/_XtX1xEyLe2k/SdOBFWvDEOI/AAAAAAAABZk/VTVQagGwkEY/s640/IMG_0492.JPG](http://lh4.ggpht.com/_XtX1xEyLe2k/SdOBFWvDEOI/AAAAAAAABZk/VTVQagGwkEY/s640/IMG_0492.JPG)
+![https://lh4.ggpht.com/_XtX1xEyLe2k/SdOBFWvDEOI/AAAAAAAABZk/VTVQagGwkEY/s640/IMG_0492.JPG](https://lh4.ggpht.com/_XtX1xEyLe2k/SdOBFWvDEOI/AAAAAAAABZk/VTVQagGwkEY/s640/IMG_0492.JPG)
 
 <span lang="EN-GB">To finish off the project, the old computers needed to be wiped and sorted ready for selling them. Fortunately this was a very simple aspect. In using the UBI (universal base image), the first process is wiping the drives before replacing the content on them with that of the image. By stopping the process after it has wiped the drives (and before it writes new information) the drives are left empty, all taking not much longer than the time it takes to boot up and shut down again. This was a nice bonus to an otherwise fairly exasperating project.  
 </span>

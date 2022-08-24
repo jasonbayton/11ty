@@ -45,7 +45,7 @@ Over the course of 2013 I was also watching Google+ expand exponentially. One of
 
 [![motog](https://r2_worker.bayton.workers.dev/uploads/2014/01/motog-300x300.jpg)](https://r2_worker.bayton.workers.dev/uploads/2014/01/motog.jpg)
 
-When [Motorola announced the Moto G](http://motorola-blog.blogspot.co.uk/2013/11/introducing-moto-g-exceptional-phone-at.html) it immediately caught my attention. I was presented with a modern, powerful phone full of quality, well spec’d components, running a recent version of Android and built by a household name with a price-tag that seemed almost inconceivable. Could I *really* pick up a quality device like this for just £129?
+When [Motorola announced the Moto G](https://motorola-blog.blogspot.co.uk/2013/11/introducing-moto-g-exceptional-phone-at.html) it immediately caught my attention. I was presented with a modern, powerful phone full of quality, well spec’d components, running a recent version of Android and built by a household name with a price-tag that seemed almost inconceivable. Could I *really* pick up a quality device like this for just £129?
 
 Yes.  
 And I did.

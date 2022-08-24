@@ -224,4 +224,4 @@ As with the process of setting up [LXD, ZFS and bridged networking on Ubuntu 16.
 I’ve been using this method for a number of months on my home lab to share several directories from my storage server to various containers. It’s stable and feels no different to any other native directory within the container.
 
 Are you brand new to LXD? I thoroughly recommend you take a look at LXD developer [Stéphane Graber’s incredible LXD blog series](https://www.stgraber.org/2016/03/11/lxd-2-0-blog-post-series-012/) to get up to speed.  
-Ready to try something more challenging? Opt in to enable experimental fuse and ext4 mounts in on 16.04 by following [this excellent guide](http://www.forshee.me/2016/02/22/container-mounts-in-ubuntu-1604.html) by Seth Forshee.
+Ready to try something more challenging? Opt in to enable experimental fuse and ext4 mounts in on 16.04 by following [this excellent guide](https://www.forshee.me/2016/02/22/container-mounts-in-ubuntu-1604.html) by Seth Forshee.

@@ -46,7 +46,7 @@ When there’s a problem that can’t be fixed locally, or perhaps a presentatio
 
 **Installing Teamviewer.**
 
-Log onto [www.teamviewer.com](http://www.teamviewer.com/)
+Log onto [www.teamviewer.com](https://www.teamviewer.com/)
 
 [![image01](https://r2_worker.bayton.workers.dev/uploads/2014/05/image01.png)](https://r2_worker.bayton.workers.dev/uploads/2014/05/image01.png)
 

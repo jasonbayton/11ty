@@ -25,7 +25,7 @@ tags:
 ---
 With the launch of the Nexus7 just around the corner, I’ve been doing some research around the device, how it’s made (and repaired), it’s limitations and overcoming some universal complaints that, while perhaps not perfect, make the device infinitely more usable.
 
-![](http://guide-images.ifixit.net/igi/1S3nvadn4UKYoEVx.medium "Dismantled Nexus7")
+![](https://guide-images.ifixit.net/igi/1S3nvadn4UKYoEVx.medium "Dismantled Nexus7")
 *Source: iFixit*
 
 Hardware
@@ -58,7 +58,7 @@ Root
 ----
 
 Here’s a guide for obtaining root on your Nexus7:  
-http://forum.xda-developers.com/showthread.php?t=1741395
+https://forum.xda-developers.com/showthread.php?t=1741395
 
 It will require unlocking the bootloader and flashing a custom recovery image.
 

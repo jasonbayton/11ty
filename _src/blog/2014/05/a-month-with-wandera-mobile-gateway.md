@@ -31,7 +31,7 @@ This review was published in 2014. For a more recent look at Wandera, check out 
 
 </div>
 
-A few weeks ago I attended [Whitehall Media](http://www.whitehallmedia.co.uk)‘s EM&amp;MDM conference in London where I got a chance to talk to several EMM-related software vendors throughout the day. Whilst perusing the various solutions on show (and having listened to the various speakers during the morning and afternoon sessions), one of these vendors really stood out – [Wandera](http://wandera.com).
+A few weeks ago I attended [Whitehall Media](https://www.whitehallmedia.co.uk)‘s EM&amp;MDM conference in London where I got a chance to talk to several EMM-related software vendors throughout the day. Whilst perusing the various solutions on show (and having listened to the various speakers during the morning and afternoon sessions), one of these vendors really stood out – [Wandera](https://wandera.com).
 
 A relatively new software company, Wandera was founded in 2012 and boasts the first product of its kind: [Wandera Mobile Gateway](https://www.wandera.com/data-policy/).
 
@@ -48,7 +48,7 @@ Overview
 
 <span style="color: #000000;">The UI is incredibly simple! Everything just makes sense when clicking around and setting things up. My only real moment of pause came when I tried to figure out how to create separate data policies, but it became clear pretty quickly once I’d taken a moment to fully read through the page (and the vast document library).</span>
 
-Enrolling a single device is a piece of cake; it requires literally nothing more than popping in a couple of details and selecting from a few drop-down lists. From there an email is sent and the user is invited to enrol their device. For those with a supported MDM platform ([AirWatch](http://air-watch.com)/[MobileIron](http://mobileiron.com)) it’s even easier, enrolment can be done using an application push in a matter of minutes.
+Enrolling a single device is a piece of cake; it requires literally nothing more than popping in a couple of details and selecting from a few drop-down lists. From there an email is sent and the user is invited to enrol their device. For those with a supported MDM platform ([AirWatch](https://air-watch.com)/[MobileIron](https://mobileiron.com)) it’s even easier, enrolment can be done using an application push in a matter of minutes.
 
 When setting up a device, I found it was important to indicate the group that the device(/user) belongs to. It’s empty by default and requires you to type in the name of your group before enrolling. Once completed, said group will then be available for every subsequently enrolled device. Groups are used to allow for multiple different policies, it’s really important they’re utilised.
 

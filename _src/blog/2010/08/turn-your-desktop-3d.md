@@ -34,7 +34,7 @@ BumpTop offers you a full 3D “room” to store your app shortcuts, facebook �
 
 Now, BumpTop is a 3D overlay of your desktop, that is it’ll mimic what’s on your standard desktop, but is basically a “skin” which floats above everything. In some ways it’s no different to the StyleXP programs which don’t do anything other than bloat your system however it’s a small price to pay for BumpTop though, as it truly is a unique desktop experience.
 
-Getting it isn’t overly easy unfortunately, since Google bought the company ([here’s](http://www.bumptop.com "here's") their website) they have since stopped distributing the software. Don’t worry though, as always I’ve come to the rescue by offering you the app to download below.
+Getting it isn’t overly easy unfortunately, since Google bought the company ([here’s](https://www.bumptop.com "here's") their website) they have since stopped distributing the software. Don’t worry though, as always I’ve come to the rescue by offering you the app to download below.
 
 Test it out and let me know what you think!  
 I also have the pro version, but you’ll need to [contact me](mailto:jason@bayton.org) to get that.

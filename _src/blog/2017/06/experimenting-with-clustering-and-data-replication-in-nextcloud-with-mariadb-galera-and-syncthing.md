@@ -70,7 +70,7 @@ Challenges
 
 To get around this, I opted for Galera Master-Master. This setup isn’t supported by Nextcloud I later found out (by reading the docs, no less, oops) but at the time it appeared to work fine – I uploaded 10,000 files in reasonably quick succession with no database or Nextcloud errors reported, however that may well have simply been luck.
 
-**Update:** Galera Master-Master **is** supported, however a load-balancer supporting split read/write must be used in front of it. The master should be persistent and only failover to another Galera server in case of failure. ProxySQL (http://www.proxysql.com/) offers this functionality and is FOSS.
+**Update:** Galera Master-Master **is** supported, however a load-balancer supporting split read/write must be used in front of it. The master should be persistent and only failover to another Galera server in case of failure. ProxySQL (https://www.proxysql.com/) offers this functionality and is FOSS.
 
 **At a minimum I’d have to replicate `apps`, `themes` and `data` for the individual nodes to sync data and retain a consistent user experience; enabling an app on one node wouldn’t be automatically enabled on the other node otherwise, as it’d first need to be downloaded from the Nextcloud store. I didn’t want to think of the issues this would cause for the database.**
 
@@ -170,6 +170,6 @@ If you have suggestions for another master-master database solution that could w
 
 \*Keep in mind:
 
-> A multi-master setup with Galera cluster is not supported, because we require `READ-COMMITTED` as transaction isolation level. [Galera doesn’t support this with a master-master replication](http://galeracluster.com/documentation-webpages/isolationlevels.html#understanding-isolation-levels) which will lead to deadlocks during uploads of multiple files into one directory for example.
+> A multi-master setup with Galera cluster is not supported, because we require `READ-COMMITTED` as transaction isolation level. [Galera doesn’t support this with a master-master replication](https://galeracluster.com/documentation-webpages/isolationlevels.html#understanding-isolation-levels) which will lead to deadlocks during uploads of multiple files into one directory for example.
 
 *Have you attempted this kind of implementation with Nextcloud? Do you have any tips? Were you more or less successful than my attempt? Let me know in the comments, [@jasonbayton](https://twitter.com/jasonbayton) on twitter or [@bayton.org](https://facebook.com/bayton.org) on Facebook.*

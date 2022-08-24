@@ -50,7 +50,7 @@ The button-less and port-less design comes with its own set of questions though,
 - To charge it, you line the watch up with the charging cradle. There are a series of contacts on the underside of the watch that line up with pins on the cradle. The watch is held to the cradle using magnets. It’s a really nice, well thought-out solution.
 - In order to get any useful information out of the watch (aside from the integrated pedometer, that is) it needs to be paired with a smartphone. The Android Wear app can be [downloaded](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) from the Play Store and upon launch (and first-boot of the watch) you’re taken through initial pairing and prompted to allow the watch to access Android notifications. From there everything *just works*.. at least, in my experience. (NB, trying to call a contact from the voice prompt requires you allow Google Now access to your contacts, but if you already call contacts with Google Now on your phone this will have already been enabled).
 
-Out of the box it comes with a rubber strap, though thankfully uses a [standard 22mm strap that is fairly universal](http://www.androidbeat.com/2014/06/5-great-replacement-bands-lg-g-watch-samsung-gear-live/). I’ll be on the lookout for either a nice leather or metal replacement in the near future as the rubber does get hot and uncomfortable with extended wear from what I’ve experienced.
+Out of the box it comes with a rubber strap, though thankfully uses a [standard 22mm strap that is fairly universal](https://www.androidbeat.com/2014/06/5-great-replacement-bands-lg-g-watch-samsung-gear-live/). I’ll be on the lookout for either a nice leather or metal replacement in the near future as the rubber does get hot and uncomfortable with extended wear from what I’ve experienced.
 
 [![20140727_222432 (1)](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_222432-1-e1406534620819-150x150.jpg)](https://r2_worker.bayton.workers.dev/uploads/2014/07/20140727_222432-1-e1406534620819.jpg)
 
@@ -86,7 +86,7 @@ I honestly wasn’t expecting much from the G Watch in terms of battery life. Ha
 
 I can easily get up to 29 hours out of a single charge based on an estimated average over two weeks of use. That effectively means I charge the device once every one and a half days, or every two+ if I turn the watch off over night (not particularly convenient unless the cradle is around to power it back up).
 
-For such a small device with an always-on display that is an excellent feat. If only all smartphones could accomplish the same (or, you know, [better](http://www.tomshardware.com/news/Nokia-105-Cell-Phone-Battery,21256.html))!
+For such a small device with an always-on display that is an excellent feat. If only all smartphones could accomplish the same (or, you know, [better](https://www.tomshardware.com/news/Nokia-105-Cell-Phone-Battery,21256.html))!
 
 ### Conclusion
 

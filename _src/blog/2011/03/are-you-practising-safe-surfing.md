@@ -51,7 +51,7 @@ Whether you’re displaying it publicly or just to your contacts, does it really
 
 As awesome as it is to be able to attach your location when you Buzz/Tweet, to publish when you check into a location over Latitude/Foursquare or even just to publicly state your location in conversation – once again, is this necessary? Think of the implications! Looking at the big picture this information is publicly available and can one day come back to bite you.
 
-A brilliant example of this can be seen here: http://checkintrack.appspot.com/ – every public Latitude check-in throughout the world is logged via this application, along with your public Google Profile!
+A brilliant example of this can be seen here: https://checkintrack.appspot.com/ – every public Latitude check-in throughout the world is logged via this application, along with your public Google Profile!
 
 At this very moment you may think checking into your home is fine, however as the above example showed, when you’re buzzing about your newest toy down the line and a desperate local sees what you have, this can have serious implications for you and your family.
 

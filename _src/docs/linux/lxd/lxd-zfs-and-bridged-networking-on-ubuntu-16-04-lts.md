@@ -31,7 +31,7 @@ In this article I’ll walk through the installation of LXD, ZFS and Bridge-Util
 
 #### Before we begin
 
-This walkthrough assumes you already have a Ubuntu 16.04 server host set up and ready to work with. If you do not, please [download](http://www.ubuntu.com/download/server) and install it now.
+This walkthrough assumes you already have a Ubuntu 16.04 server host set up and ready to work with. If you do not, please [download](https://www.ubuntu.com/download/server) and install it now.
 
 You’ll also need a spare disk, partition or adequate space on-disk to support a loopback file for your ZFS filesystem.
 

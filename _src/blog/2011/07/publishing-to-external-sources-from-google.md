@@ -42,6 +42,6 @@ So what services can you use this with?
 
 Well, any service that allows you to update via email. Any, I’ve found, except Google Buzz as this will only read the subject and not the body of the email!
 
-You can try this with WordPress, Twiitter (<http://tweetymail.com/>) and Facebook (check out posting via email in the mobile site) just to name a few!
+You can try this with WordPress, Twiitter (<https://tweetymail.com/>) and Facebook (check out posting via email in the mobile site) just to name a few!
 
 Stuck? I’m happy to help..

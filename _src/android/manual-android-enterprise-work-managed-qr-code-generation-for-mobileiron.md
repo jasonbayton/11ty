@@ -149,6 +149,6 @@ In the QR codes above, the following extras can also be used as follows:
 Generating the QR code
 ----------------------
 
-No special tools are required for generating MobileIron-compatible QR codes. As long as the chosen QR generator **supports free text**, any can be used. For the codes generated in the linked post above I used [qr-code-generator.com](http://www.qr-code-generator.com/).
+No special tools are required for generating MobileIron-compatible QR codes. As long as the chosen QR generator **supports free text**, any can be used. For the codes generated in the linked post above I used [qr-code-generator.com](https://www.qr-code-generator.com/).
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2017/08/qr.png)

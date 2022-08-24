@@ -42,13 +42,13 @@ Mid-2017 I launched [documentation](/2017/05/introducing-documentation-on-bayton
 Occasionally others write about or link to me
 ---------------------------------------------
 
-- [Using social media to attract employers](http://yle.fi/uutiset/3-9206472) – **[yle](https://yle.fi)** (Finnish national broadcaster)
-- [Friday Notebook](http://www.brianmadden.com/opinion/Microsoft-Ignite-round-up-Friday-Notebook-September-29) – **[BrianMadden](https://brianmadden.com)**
-- [The best EMM articles and resources](http://www.brianmadden.com/opinion/All-of-Jacks-favorite-enterprise-mobility-management-articles-and-resources-updated-for-iOS-9) (Android) – **[BrianMadden](https://brianmadden.com)**
+- [Using social media to attract employers](https://yle.fi/uutiset/3-9206472) – **[yle](https://yle.fi)** (Finnish national broadcaster)
+- [Friday Notebook](https://www.brianmadden.com/opinion/Microsoft-Ignite-round-up-Friday-Notebook-September-29) – **[BrianMadden](https://brianmadden.com)**
+- [The best EMM articles and resources](https://www.brianmadden.com/opinion/All-of-Jacks-favorite-enterprise-mobility-management-articles-and-resources-updated-for-iOS-9) (Android) – **[BrianMadden](https://brianmadden.com)**
 - [Why we’re excited about Google Zero Touch provisioning](https://www.mobileiron.com/en/blog/why-were-excited-about-google-zero-touch-provisioning) – [**MobileIron**](https://mobileiron.com)
 - [Android Zero Touch Provisioning Guide](https://community.mobileiron.com/docs/DOC-7092) – [**MobileIron**](https://mobileiron.com) (customer login required)
 - [QR Code enrollment for Android enterprise](https://community.mobileiron.com/docs/DOC-7137) – [**MobileIron**](https://mobileiron.com) (customer login required)
-- [Android BYOD should be easier in 2018 (and in 2019, and in 2020…)](http://www.brianmadden.com/opinion/Android-BYOD-should-be-easier-in-2018-and-in-2019-and-in-2020) – **[BrianMadden](https://brianmadden.com)**
+- [Android BYOD should be easier in 2018 (and in 2019, and in 2020…)](https://www.brianmadden.com/opinion/Android-BYOD-should-be-easier-in-2018-and-in-2019-and-in-2020) – **[BrianMadden](https://brianmadden.com)**
 - [Miradore an EMM Partner for Google’s New Zero-Touch Enrollment](https://www.miradore.com/blog/miradore-emm-partner-google-zero-touch-enrollment/) – [**Miradore**](https://miradore.com)
 - [What is iOS Supervision?](https://community.mobileiron.com/docs/DOC-7485) – Contributed with permission to [**MobileIron**](https://mobileiron.com)
 

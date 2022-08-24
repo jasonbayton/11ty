@@ -19,6 +19,6 @@ tags:
 ---
 Fill in this form and wait.
 
-http://invite.bayton.org \[link no longer active\]
+https://invite.bayton.org \[link no longer active\]
 
 That is all!

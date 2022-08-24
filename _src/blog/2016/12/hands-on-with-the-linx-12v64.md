@@ -47,7 +47,7 @@ On the back is a dual-position kickstand below an unapologetic Linx logo. Unlike
 [![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)
 *Unlike the Surface, the hinges on the Linx are full of thick, immensely sticky gunk, presumably for lubrication.*
 
-Above the kickstand is one of two cameras, this back one pictured is 5MP while the front sensor is 2MP. I often feel with tablets this is the wrong way around; I, like many, won’t take photos on a tablet [for a few reasons](http://cameras.reviewed.com/features/please-stop-taking-pictures-with-your-tablet) and therefore don’t make use of the better rear sensor, while video conferencing with family and colleagues tends to suffer by comparison.
+Above the kickstand is one of two cameras, this back one pictured is 5MP while the front sensor is 2MP. I often feel with tablets this is the wrong way around; I, like many, won’t take photos on a tablet [for a few reasons](https://cameras.reviewed.com/features/please-stop-taking-pictures-with-your-tablet) and therefore don’t make use of the better rear sensor, while video conferencing with family and colleagues tends to suffer by comparison.
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_36_55_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_36_55_Rich.jpg)
 

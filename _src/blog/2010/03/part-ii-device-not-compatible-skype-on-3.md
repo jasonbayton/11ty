@@ -30,7 +30,7 @@ Following on from [Part I](/2010/03/part-i-device-not-compatible-skype-on-3/), w
 
 I’ll start immediately by saying that you can do the exact same thing with a Windows Mobile phone as with the Sony Ericsson (or any other phone running java) if you already have something like Esmertec Java installed on your Windows Mobile Device. Simply copy the Java Skype app over to your phone and install it with Esmertec. You should note however, that this method will mean you’d need headphones to use it, as otherwise it will use the loud speaker.
 
-However, there’s another – better (in my opinion) way of obtaining Skype on a Windows Mobile which fully integrates with the phone’s internal speaker and 3 network. That is to use [iSkoot](http://www.iskoot.com/).
+However, there’s another – better (in my opinion) way of obtaining Skype on a Windows Mobile which fully integrates with the phone’s internal speaker and 3 network. That is to use [iSkoot](https://www.iskoot.com/).
 
 You can’t simply download iSkoot, install and go though, the guys over at XDA Developers have worked hard to create a small extra .cab file which changes over a number of registry settings, allowing iSkoot to communicate on the 3 network – this is great as it saves you a lot of time doing it all manually!
 
@@ -44,8 +44,8 @@ I have uploaded both the installer and extra .cab in one .zip file and will outl
 
 To make it just that little easier, I’ve even added pictures.
 
-![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/s160-c/Screen18.png)
-![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/s160-c/Screen19.png) 
+![](https://lh4.ggpht.com/_XtX1xEyLe2k/S54g37JOWTI/AAAAAAAAEu8/JOf03FxqXDc/s160-c/Screen18.png)
+![](https://lh4.ggpht.com/_XtX1xEyLe2k/S54g3xOiJBI/AAAAAAAAEvA/ANDQe6VFLyY/s160-c/Screen19.png) 
 
 Select it from the Start menu and accept all the license agreements.
 
@@ -53,9 +53,9 @@ Select it from the Start menu and accept all the license agreements.
 
 <span style="font-weight: normal;">2) Select it from the Start menu and accept all the license agreements.</span>
 
-![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/s160-c/Screen20.png)
+![](https://lh4.ggpht.com/_XtX1xEyLe2k/S54g4Ha9U3I/AAAAAAAAEvE/JQBPWyfFd-E/s160-c/Screen20.png)
 
-![](http://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/s160-c/Screen21.png)
+![](https://lh4.ggpht.com/_XtX1xEyLe2k/S54g4AT1BVI/AAAAAAAAEvI/8wP7vFVVFSQ/s160-c/Screen21.png)
 
 "Go back to file explorer and install the iSkoot mod. Now you can use iSkoot on 3, without the "not supported" rubbish!")
 

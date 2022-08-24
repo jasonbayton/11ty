@@ -53,11 +53,11 @@ The [Insyde BIOS firmware](https://r2_worker.bayton.workers.dev/download/cr48.bi
 
 If you haven’t already, you’ll need to hack the Cr48 to allow you to install the Insyde BIOS firmware before you can install anything other than Chrome OS. Here are the instructions for that:
 
-The first thing I did was install Ubuntu as it’s a really easy method to get you started with the entire process. This was done using a script created by Jay Lee that basically takes the full set of instructions from the chromium site and no doubt adds a few extras. You can follow the instructions provided by Jay Lee here: <http://goo.gl/X9YG8>. Make sure you’ve set Ubuntu to boot by default.
+The first thing I did was install Ubuntu as it’s a really easy method to get you started with the entire process. This was done using a script created by Jay Lee that basically takes the full set of instructions from the chromium site and no doubt adds a few extras. You can follow the instructions provided by Jay Lee here: <https://goo.gl/X9YG8>. Make sure you’ve set Ubuntu to boot by default.
 
 Once you’ve installed Ubuntu, we can now move on to flashing the BIOS.
 
-Flashing the BIOS is a little involved but is required in order to rid the Cr of Google’s propriety BIOS and install the bog-standard Intel Insyde BIOS that’ll allow you to install any OS from USB/CD. The first thing to do is crack open your Cr and disable the BIOS check. Instructions for opening the Cr can be seen here: [Open your Cr-48](http://cr-48.wikispaces.com/Open+the+Cr-48 "Open your Cr-48")
+Flashing the BIOS is a little involved but is required in order to rid the Cr of Google’s propriety BIOS and install the bog-standard Intel Insyde BIOS that’ll allow you to install any OS from USB/CD. The first thing to do is crack open your Cr and disable the BIOS check. Instructions for opening the Cr can be seen here: [Open your Cr-48](https://cr-48.wikispaces.com/Open+the+Cr-48 "Open your Cr-48")
 
 Once you’ve fixed the BIOS check (I used tape) and re-assembled your Cr, we can now look at Backing up and flashing the Insyde BIOS.
 
@@ -110,7 +110,7 @@ Once you’re run your Windows Experience Index, you’ll get a score of around 
 
 (Click to enlarge)
 
-And that, everyone, is a successful Windows 7 installation onto a Cr-48, also now known as “Wn-R48” because it’s so completely awesome. There are some aspects I’m working on, such as enabling the mobile internet card. As I use my streak for Wifi tethering, I’ve not yet looked into the card in all honesty. There are threads about this on [ChromeOS lounge](http://www.chromeoslounge.com/cr-48-chrome-notebook/807-cr48-gobi2000-use-other-oses.html "ChromeOS lounge") so I will be getting to it at some point.
+And that, everyone, is a successful Windows 7 installation onto a Cr-48, also now known as “Wn-R48” because it’s so completely awesome. There are some aspects I’m working on, such as enabling the mobile internet card. As I use my streak for Wifi tethering, I’ve not yet looked into the card in all honesty. There are threads about this on [ChromeOS lounge](https://www.chromeoslounge.com/cr-48-chrome-notebook/807-cr48-gobi2000-use-other-oses.html "ChromeOS lounge") so I will be getting to it at some point.
 
 Additionally, if you currently open “Computer” you’ll notice you have under 4GB of storage remaining. I strongly recommend using a large(ish) SD card for storage where possible. I’ve even moved my User Data folder for Chrome to the SD \[broken\] as it takes up so much space.
 

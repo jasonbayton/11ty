@@ -256,7 +256,7 @@ Instead what we have is both a small buffer for those who haven’t yet made the
 
 With that said, this should not impact any existing plans to migrate from legacy management to Android Enterprise, as the [many benefits](/android/what-is-android-enterprise-and-why-is-it-used/) I’ve [outlined](/android/considerations-for-choosing-android-in-the-enterprise/) in various [documents](/android) should justify [the switch](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/) irrespective of whether or not there may be a few more weeks/months of wiggle room. If organisations get to a point of deploying Q without Android Enterprise environments already in place, there is a very real likelihood of DA deprecation adversely affecting the business when it does come into effect.
 
-For those looking to set up a PoC today, check out the links above, as well as Google’s [DA-AE migration bluebook](http://static.googleusercontent.com/media/android.com/en/enterprise/static/2016/pdfs/enterprise/Android-Enterprise-Migration-Bluebook_2019.pdf).
+For those looking to set up a PoC today, check out the links above, as well as Google’s [DA-AE migration bluebook](https://static.googleusercontent.com/media/android.com/en/enterprise/static/2016/pdfs/enterprise/Android-Enterprise-Migration-Bluebook_2019.pdf).
 
 Conclusion
 ----------

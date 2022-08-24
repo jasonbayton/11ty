@@ -22,7 +22,7 @@ discourse_permalink:
 tags:
     - Reviews
 ---
-A few weeks ago I got in touch with Compulab in order to get my hands on one of their renowned passively cooled mini PCs. After a brief discussion around their available products, we agreed I’d review one of their to-be-released models when it became available. Earlier this week I received their [just-announced](http://www.fit-pc.com/web/about/news/fitlet-rm-announcement/) fitlet-RM-XA10-LAN, the followup to the fitlet-XA10-LAN [AnandTech reviewed](http://www.anandtech.com/show/10244/compulab-fitletxa10lan-review-a-fanless-amd-ucff-pc-for-networking-applications) some time back, along with a fit-Uptime mini UPS. All product links will be provided at the end.
+A few weeks ago I got in touch with Compulab in order to get my hands on one of their renowned passively cooled mini PCs. After a brief discussion around their available products, we agreed I’d review one of their to-be-released models when it became available. Earlier this week I received their [just-announced](https://www.fit-pc.com/web/about/news/fitlet-rm-announcement/) fitlet-RM-XA10-LAN, the followup to the fitlet-XA10-LAN [AnandTech reviewed](https://www.anandtech.com/show/10244/compulab-fitletxa10lan-review-a-fanless-amd-ucff-pc-for-networking-applications) some time back, along with a fit-Uptime mini UPS. All product links will be provided at the end.
 
 Who are Compulab?
 -----------------
@@ -40,14 +40,14 @@ What is the fitlet-RM?
 
 Despite its size the fitlet-RM is *packed* with features. The RM-XA10-LAN sent to me comes with the following spec:
 
-**CPU**: [AMD A10 Micro-6700T SoC](http://products.amd.com/en-us/search/APU/AMD-A-Series-Processors/AMD-A10-Series-APU-for-Laptops/A10-Micro-6700T-with-Radeon%E2%84%A2-R6-Graphics/18) – Quadcore 1.2GHz (2.2Ghz with boost) @ 4.5W TDP[  ](http://products.amd.com/en-us/search/APU/AMD-A-Series-Processors/AMD-A10-Series-APU-for-Laptops/A10-Micro-6700T-with-Radeon%E2%84%A2-R6-Graphics/18)**RAM**: 8GB DDR3L-1333 non-EEC  
+**CPU**: [AMD A10 Micro-6700T SoC](https://products.amd.com/en-us/search/APU/AMD-A-Series-Processors/AMD-A10-Series-APU-for-Laptops/A10-Micro-6700T-with-Radeon%E2%84%A2-R6-Graphics/18) – Quadcore 1.2GHz (2.2Ghz with boost) @ 4.5W TDP[  ](https://products.amd.com/en-us/search/APU/AMD-A-Series-Processors/AMD-A10-Series-APU-for-Laptops/A10-Micro-6700T-with-Radeon%E2%84%A2-R6-Graphics/18)**RAM**: 8GB DDR3L-1333 non-EEC  
 **Graphics**: AMD Radeon R6 Graphics with dual HDMI outputs  
 **Storage**: 64GB mSATA internal, support for micro-SD external  
 **Network**: 4x Intel 10/100/1000 LAN ports  
 **Other**: 3.5mm audio in/out, 2x USB3, 3x USB2, COM port &amp; SIM slot  
 *\*RAM and disk are not included as standard*
 
-Opting for the fitlet-RM-iA10 would see 4x LAN ports reduced to 2x LAN and the addition of a WIFI/Bluetooth module, though the fitlet-RM-XA10-LAN does come bundled with a USB WIFI *n* module. The 3x LAN ports are provided through what Compulab calls a “FACET” card. Although these are the only two available configurations currently, Compulab allows for 3rd parties to create their own FACET cards meaning in the future there may be as many FACET cards as there are [“FACE” modules](http://www.fit-pc.com/wiki/index.php/Fit-PC_Product_Line:FACE_Modules) – slightly larger cards designed for the bigger fitlet-H, fitlet-T and fit-PC models.
+Opting for the fitlet-RM-iA10 would see 4x LAN ports reduced to 2x LAN and the addition of a WIFI/Bluetooth module, though the fitlet-RM-XA10-LAN does come bundled with a USB WIFI *n* module. The 3x LAN ports are provided through what Compulab calls a “FACET” card. Although these are the only two available configurations currently, Compulab allows for 3rd parties to create their own FACET cards meaning in the future there may be as many FACET cards as there are [“FACE” modules](https://www.fit-pc.com/wiki/index.php/Fit-PC_Product_Line:FACE_Modules) – slightly larger cards designed for the bigger fitlet-H, fitlet-T and fit-PC models.
 
 The system is encased in an aluminium &amp; zinc housing which acts like one large heatsink, dissipating heat effectively without the need for a fan thus retaining the ultra compact form factor. It is also strong! Compulab showcased this by running over a fitlet:
 
@@ -57,7 +57,7 @@ As there are no moving parts and the casing is well sealed, it is perfect for ap
 
 ![20160711_091358](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_091358-e1468226087716.jpg)
 
-The fitlet-RM series starts at $311 and is currently available from [fit-PC (official)](http://www.fit-pc.com/web/purchasing/order-fitlet/).
+The fitlet-RM series starts at $311 and is currently available from [fit-PC (official)](https://www.fit-pc.com/web/purchasing/order-fitlet/).
 
 What’s in the box
 -----------------
@@ -186,7 +186,7 @@ Threads fairness:
     execution time (avg/stddev):   4.1357/0.00
 ```
 
-Generally the fitlet feels quick and extremely responsive. This is no doubt thanks in part to the mSATA SSD and 8GB RAM, however in testing both using [OPNsense](https://opnsense.org/) and [Ubuntu server](http://www.ubuntu.com/server) the fitlet responded reliably and quickly both acting as a router for the 40 or so network endpoints I have at home and later as a media server for streaming from [emby ](http://emby.media/)to my Nvidia Shield TV without a fault. Load remained minimal almost all of the time.
+Generally the fitlet feels quick and extremely responsive. This is no doubt thanks in part to the mSATA SSD and 8GB RAM, however in testing both using [OPNsense](https://opnsense.org/) and [Ubuntu server](https://www.ubuntu.com/server) the fitlet responded reliably and quickly both acting as a router for the 40 or so network endpoints I have at home and later as a media server for streaming from [emby ](https://emby.media/)to my Nvidia Shield TV without a fault. Load remained minimal almost all of the time.
 
 The only time I saw any notable struggle was when running Windows 10 from a USB3 hard drive, however this was clearly due to the bottleneck associated with running an OS from a 2.5″ HDD over USB3. Windows being the resource hog it is did push the CPU usage up more often than on either Ubuntu or FreeBSD, but nothing that would be considered untoward.
 
@@ -227,7 +227,7 @@ Compulab are considering a “pro” version in the future that will be able to 
 
 I have so far used fit-Uptime to move the fitlet to various parts of the house while setting different things up. It switches between battery and mains flawlessly, remains accessible over the network (via WIFI) at all times, meaning I can leave SSH connections open and it hasn’t glitched even once. I haven’t run the UPS to 0% battery yet, but the fitlet has been sat on battery power for over an hour on occasions with no problems at all. Living in a location which suffers the occasional power outage, the fit-Uptime is a highly appreciated little piece of hardware to me!
 
-The fit-Uptime is available from [fit-PC (official)](http://www.fit-pc.com/web/purchasing/order-fit-uptime/) for $68.
+The fit-Uptime is available from [fit-PC (official)](https://www.fit-pc.com/web/purchasing/order-fit-uptime/) for $68.
 
 Conclusion
 ----------
@@ -248,8 +248,8 @@ fitlet heatsync: [Amazon UK](https://www.amazon.co.uk/CompuLab-ACCENC-HEATFLT-Co
 fitlet remote power button: [Amazon UK](https://www.amazon.co.uk/Compulab-Remote-power-button-fitlet/dp/B0144PKH2M//ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=bayton-21&linkId=7a64ab4d3cf3868d4a6e94b6150f8795)  
 fitlet VESA/wall mount: [Amazon UK](https://www.amazon.co.uk/Compulab-VESA-mounting-bracket-fitlet/dp/B0144OL58S//ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=bayton-21&linkId=48213495d9ad6241c1800ad9468c3167)  
 fit-Headless: [Amazon UK](https://www.amazon.co.uk/CompuLab-fit-Headless-x/dp/B00FLZXGJ6/ref=as_li_ss_tl?s=electronics&ie=UTF8&qid=1484578811&sr=1-1&keywords=fit-headless+4k&linkCode=ll1&tag=bayton-21&linkId=d27d9c99a48667268fdb6a9e447a2e67)  
-fit-Uptime: [fit-PC (official)](http://www.fit-pc.com/web/purchasing/order-fit-uptime/)  
-fitlet-RM-XA10-LAN barebones: [fit-PC (official) ](http://www.fit-pc.com/web/purchasing/order-fitlet/)– links to all fitlet models
+fit-Uptime: [fit-PC (official)](https://www.fit-pc.com/web/purchasing/order-fit-uptime/)  
+fitlet-RM-XA10-LAN barebones: [fit-PC (official) ](https://www.fit-pc.com/web/purchasing/order-fitlet/)– links to all fitlet models
 
 —
 

@@ -20,7 +20,7 @@ tags:
     - Enterprise
     - Opinion
 ---
-By 2017 half of employers will require employees to supply their own devices. At least, that’s the prediction [Gartner made last year](http://www.gartner.com/newsroom/id/2466615). Whether or not that will truly be the case will become apparent in the years to come, but with the rapid rise of enterprise mobility and demand for the corporate world to keep up with the consumer technology sector, corporate mobility strategies will certainly need to evolve.
+By 2017 half of employers will require employees to supply their own devices. At least, that’s the prediction [Gartner made last year](https://www.gartner.com/newsroom/id/2466615). Whether or not that will truly be the case will become apparent in the years to come, but with the rapid rise of enterprise mobility and demand for the corporate world to keep up with the consumer technology sector, corporate mobility strategies will certainly need to evolve.
 
 Still, even with an estimated fifty percent of employers opting for some form of BYOD, what option could be suitable for the remaining half who don’t consider BYOD to be a good fit for their organization, but want to remain at the forefront of technological advancements while striking a balance between employee satisfaction and security?
 
@@ -47,6 +47,6 @@ CYOD changes all of this.
 
 Device lifecycles are adjusted to coincide with the consumer technology sector (although likely somewhat slower due to testing and such – it’s far faster than traditional environments), the range is larger and more diverse so as to cater for the various tastes of employees and in some cases the infrastructure costs can be reduced, too.
 
-CYOD isn’t a new concept; it has been around just as long as – if not longer – than BYOD, but hasn’t had the same level of coverage as its more controversial counterpart. Interestingly, IDC Asia already believes the [shift towards CYOD will be in full-swing this year](http://www.idc.com/getdoc.jsp?containerId=prSG24513913) (Prediction 1) and BYOD is dead in the water.
+CYOD isn’t a new concept; it has been around just as long as – if not longer – than BYOD, but hasn’t had the same level of coverage as its more controversial counterpart. Interestingly, IDC Asia already believes the [shift towards CYOD will be in full-swing this year](https://www.idc.com/getdoc.jsp?containerId=prSG24513913) (Prediction 1) and BYOD is dead in the water.
 
-When you consider “59 percent of survey respondents who regularly use their private devices for work have not yet signed a formal agreement with their employer” ([Gartner, May 2014](http://www.gartner.com/newsroom/id/2739617)), it’s understandable employers may be looking for solutions that combine the freedom of BYOD with the security of a model such as CYOD.
+When you consider “59 percent of survey respondents who regularly use their private devices for work have not yet signed a formal agreement with their employer” ([Gartner, May 2014](https://www.gartner.com/newsroom/id/2739617)), it’s understandable employers may be looking for solutions that combine the freedom of BYOD with the security of a model such as CYOD.

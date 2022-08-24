@@ -39,13 +39,13 @@ As I’ve mentioned elsewhere in the article, depending on your resolution etc i
 
 <span style="color: #ff0000;">For Buzz on Windows Mobile, see </span>[Update: Buzz on Windows Mobile](/2010/04/update-buzz-on-windows-mobile/)<span style="color: #ff0000;"> the information below is now outdated and completely optional as I’ve found a better way of doing it.</span>
 
-1. Download [Opera Mobile](http://www.opera.com/mobile/download/)\*\*\*
+1. Download [Opera Mobile](https://www.opera.com/mobile/download/)\*\*\*
 2. Once installed, navigate to the shortcut: <https://m.google.com/app/buzz?force=1>
 3. Enjoy a slightly limited\*\*\*\*, but oh-so-much-better-than-nothing version of Buzz which you can run on your Windows Mobile.
 
 It’s not perfect, and I suppose depending on your mobile’s resolution you will get better or worse results. However just as with a lot of things I prove possible here, never assume just because (in this case) Google say there’s no version, it means there’s no way of getting it on your phone.
 
-<span style="text-decoration: line-through;">If you’re a Palm or a BlackBerry user then I deeply apologise – but I don’t have a BlackBerry or Palm so haven’t been able to test the capabilities. However I urge the BlackBerry guys to give it a go by visiting Opera’s website </span>**[m.opera.com](http://m.opera.com/)**<span style="text-decoration: line-through;"> and testing out their BlackBerry version. You may get as lucky as I was! And Palm users, please hang in there! If the default browser doesn’t work for you, try some of the alternatives which are scattered about the vast interwebs (or wait for Google to finish [playing around in China](http://googleblog.blogspot.com/2010/03/new-approach-to-china-update.html) and get an app made for you).</span>
+<span style="text-decoration: line-through;">If you’re a Palm or a BlackBerry user then I deeply apologise – but I don’t have a BlackBerry or Palm so haven’t been able to test the capabilities. However I urge the BlackBerry guys to give it a go by visiting Opera’s website </span>**[m.opera.com](https://m.opera.com/)**<span style="text-decoration: line-through;"> and testing out their BlackBerry version. You may get as lucky as I was! And Palm users, please hang in there! If the default browser doesn’t work for you, try some of the alternatives which are scattered about the vast interwebs (or wait for Google to finish [playing around in China](https://googleblog.blogspot.com/2010/03/new-approach-to-china-update.html) and get an app made for you).</span>
 
 *The stars:*
 

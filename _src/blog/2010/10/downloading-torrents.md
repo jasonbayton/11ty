@@ -44,11 +44,11 @@ We often misplace disks and installation software (especially operating system i
 
 This is how it’s done, starting with the software you need to download torrents:
 
-[uTorrent download link](http://www.utorrent.com/downloads/complete?os=win)
+[uTorrent download link](https://www.utorrent.com/downloads/complete?os=win)
 
 Install uTorrent, and don’t do anything more. You are ready to begin downloading immediately.
 
-1. Log onto a torrent site such as [www.thepiratebay.org](http://www.thepiratebay.org/) and enter your desired torrent.  
+1. Log onto a torrent site such as [www.thepiratebay.org](https://www.thepiratebay.org/) and enter your desired torrent.  
   In the example below I’m searching for a copy of Ubuntu. Be sure you have a license (if required) for the torrent you wish to download. I don’t require one, so this is not.
 2. Once you click Pirate Search, search results will be displayed.
 3. Search results are displayed by relevance. This often means the most popular won’t be at the top of the list. Select the torrent with the highest number stated under “SE” (seeders) which is relevant to your search. Often the higher the seeder count, the more likely it is a genuine copy and not a virus. If you click “SE” it will automatically list the most popular at the top of the list. In my case, the most popular is an older version on Ubuntu. While this is not the most up to date version, for this example it will download faster.

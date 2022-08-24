@@ -28,7 +28,7 @@ Are you interested in Google Apps Premier edition? If, like me, you wish to “t
 Here’s the procedure:
 
 Log onto the following page:  
-<http://www.google.com/a/cpanel/sample/new>
+<https://www.google.com/a/cpanel/sample/new>
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2010/08/Untitled2222.png "Untitled2222")](https://r2_worker.bayton.workers.dev/uploads/2010/08/Untitled2222.png)
 

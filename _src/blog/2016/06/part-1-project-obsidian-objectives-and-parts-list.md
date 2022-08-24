@@ -58,7 +58,7 @@ That hasn’t fixed the underlying install other than allowing me to remove some
 
 The 2015 build is huge. I found myself drawn in to the modular capabilities of the Cooler Master HAF Stacker series without truly considering the requirements of the build. Today the server towers above an already large printer and due to the open nature of the case – despite positive airflow and plenty of filters – dust is an issue, one I didn’t face with the 2014 build using a Fractal Define case far more suited to my needs.
 
-For Obsidian I’m partially dismantling the 2015 build, taking the lower [Stacker 915R](http://www.coolermaster.com/case/mini-itx/haf915r/) and combining it with a second to create a server capable of holding as many disks as I need at half the size. Dust ingress is still a concern, however I have a plan to better manage this with the two smaller cases combined. The new build will be mini-ITX to sit comfortably within the 915R.
+For Obsidian I’m partially dismantling the 2015 build, taking the lower [Stacker 915R](https://www.coolermaster.com/case/mini-itx/haf915r/) and combining it with a second to create a server capable of holding as many disks as I need at half the size. Dust ingress is still a concern, however I have a plan to better manage this with the two smaller cases combined. The new build will be mini-ITX to sit comfortably within the 915R.
 
 Parts list
 ----------
@@ -69,11 +69,11 @@ With the above objectives outlined I put in the order:
 
 ### Motherboard
 
-I chose an [ASRock AM1B-ITX](http://www.asrock.com/mb/AMD/AM1B-itx/) as my motherboard as it was relatively cheap (£28.73 on [Amazon UK](https://www.amazon.co.uk/gp/product/B00J0DJILU?ie=UTF8&camp=1634&creativeASIN=B00J0DJILU&linkCode=xm2&tag=bayton-21)), sits on par with other boards in this arena and covers the bare minimum SATA connections required for a maximum of 7 RAID members + OS drive in combination with a PCIe card. In an ideal world I’d have liked 6-8 SATA ports however I can make do, and will look for a PCIe option in the future to support more than 4 SATA ports, freeing up the motherboard all together.
+I chose an [ASRock AM1B-ITX](https://www.asrock.com/mb/AMD/AM1B-itx/) as my motherboard as it was relatively cheap (£28.73 on [Amazon UK](https://www.amazon.co.uk/gp/product/B00J0DJILU?ie=UTF8&camp=1634&creativeASIN=B00J0DJILU&linkCode=xm2&tag=bayton-21)), sits on par with other boards in this arena and covers the bare minimum SATA connections required for a maximum of 7 RAID members + OS drive in combination with a PCIe card. In an ideal world I’d have liked 6-8 SATA ports however I can make do, and will look for a PCIe option in the future to support more than 4 SATA ports, freeing up the motherboard all together.
 
 ### CPU
 
-Having done a little research I found myself repeatedly seeing the [AMD Athlon 5350](http://shop.amd.com/en-us/components/processors/AD5350JAHMBOX) being mentioned online as something that strikes a good balance between power and efficiency. Again I found the chip was relatively cheap (£29.76 on [Amazon UK](https://www.amazon.co.uk/gp/product/B00IOMFAQ0?ie=UTF8&camp=1634&creativeASIN=B00IOMFAQ0&linkCode=xm2&tag=bayton-21)) and suited the ASRock board nicely. With a TDP of 25w it ticks the box for low power and a cursory glance at [CPU boss](http://cpuboss.com/cpus/AMD-FX-6300-vs-AMD-Athlon-5350) shows I’m not losing too much over the FX6300 powering my previous builds (I take benchmarking with a pinch of salt).
+Having done a little research I found myself repeatedly seeing the [AMD Athlon 5350](https://shop.amd.com/en-us/components/processors/AD5350JAHMBOX) being mentioned online as something that strikes a good balance between power and efficiency. Again I found the chip was relatively cheap (£29.76 on [Amazon UK](https://www.amazon.co.uk/gp/product/B00IOMFAQ0?ie=UTF8&camp=1634&creativeASIN=B00IOMFAQ0&linkCode=xm2&tag=bayton-21)) and suited the ASRock board nicely. With a TDP of 25w it ticks the box for low power and a cursory glance at [CPU boss](https://cpuboss.com/cpus/AMD-FX-6300-vs-AMD-Athlon-5350) shows I’m not losing too much over the FX6300 powering my previous builds (I take benchmarking with a pinch of salt).
 
 The AMD comes with a CPU fan as standard, however I’ve ordered a passive heatsink to keep fan noise to a minimum. I’m not normally one to attempt to passively cool my builds, but given the low TDP and the well ventilated case I figure it will be a learning experience.
 
@@ -93,7 +93,7 @@ Update: I got my hands on a Dell H200 dual-controller 8-channel SAS card flashed
 
 ### Case (not pictured)
 
-Already owning a [HAF Stacker 935](http://www.coolermaster.com/case/full-tower-haf-series/haf935/) consisting of the 925 and 915R, for Obsidian I’ve chosen to take the existing 915R from the 2015 build and combine it with a 915F stacked on top to house the server components. It’ll then look similar to this: (image courtesy of OC3D)
+Already owning a [HAF Stacker 935](https://www.coolermaster.com/case/full-tower-haf-series/haf935/) consisting of the 925 and 915R, for Obsidian I’ve chosen to take the existing 915R from the 2015 build and combine it with a 915F stacked on top to house the server components. It’ll then look similar to this: (image courtesy of OC3D)
 
 ![05105110723l](https://r2_worker.bayton.workers.dev/uploads/2016/06/05105110723l.jpg)
 

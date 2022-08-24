@@ -63,7 +63,7 @@ Admittedly the rate of infection has **increased** over 2017, however the figure
 
 **Zero-touch growth:** In the last year the number of zero-touch resellers has grown to 116, with many more still to come in 2019. The big news in the reseller space was the introduction of the common library with Samsung [back at MWC](/2019/03/mwc-2019-mid-range-devices-excel-5g-everything-form-factors-galore-and-android-enterprise/). The number of devices that support zero-touch now dwarfs the 30-odd last year also.
 
-**Growth in awareness of Android Enterprise Recommended**: Google leveraged a report undertaken by HMD Global (Nokia) in 2018 available in full [here](http://www.hmdglobal.com/download/HMD%20Global%20B2B%20Smartphone%20Purchase%20Survey.pdf) to demonstrate how well AER is doing just a year after launch:
+**Growth in awareness of Android Enterprise Recommended**: Google leveraged a report undertaken by HMD Global (Nokia) in 2018 available in full [here](https://www.hmdglobal.com/download/HMD%20Global%20B2B%20Smartphone%20Purchase%20Survey.pdf) to demonstrate how well AER is doing just a year after launch:
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2019/06/Screenshot-2019-06-14-at-12.31.10-copy.jpg)
 
@@ -185,7 +185,7 @@ It will help build out the ecosystem of partners even further, which is only a g
 Final thoughts
 --------------
 
-Again most of my highlights here reflect what I personally saw at the summit. There were certainly other interesting announcements, one of which being the [demo generator](http://demos.ae.training) to aid in pitching Android Enterprise with pre-made content and topics to cover. It’s a great idea for partners needing a little inspiration or simply collateral.
+Again most of my highlights here reflect what I personally saw at the summit. There were certainly other interesting announcements, one of which being the [demo generator](https://demos.ae.training) to aid in pitching Android Enterprise with pre-made content and topics to cover. It’s a great idea for partners needing a little inspiration or simply collateral.
 
 In any case it was once more a fantastic event, that would only have been better if I was allowed again this year to liveblog!
 

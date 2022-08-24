@@ -64,7 +64,7 @@ Secondly, wherever you see <span style="color: #000080;"><span style="color: #33
 
 **Now, down to business:**
 
-Download and install the [Android SDK](http://developer.android.com/sdk/win-usb.html). The link there will take you to the Windows USB page, as for rooting this is all you’ll need to install from the SDK installer (included with the SDK package). Follow the instructions on the page to get the Windows USB driver installed, making sure (for this tutorial) you keep the directory tree I’ve listed above.
+Download and install the [Android SDK](https://developer.android.com/sdk/win-usb.html). The link there will take you to the Windows USB page, as for rooting this is all you’ll need to install from the SDK installer (included with the SDK package). Follow the instructions on the page to get the Windows USB driver installed, making sure (for this tutorial) you keep the directory tree I’ve listed above.
 
 Now, you can download the files required to root the G1. I have packaged them and uploaded them to my server, so you can download them from here: [Android G1 root files](https://r2_worker.bayton.workers.dev/download/root.rar). They’re majoritively from chaps named “Birdy” and “ChainsDD” from what I read (credit where credit’s due) but a couple of files were from other sources. Download and extract the folder holding the files to C:androidtools. Make sure the tree then shows as **C:\\android\\tools\\root**.
 

@@ -61,4 +61,4 @@ But who knows, it’s Google after all! All of this could change over night (but
 Apologies for the negativity, but I’ve been sitting on these thoughts for a while. I think Google are awesome just as much as the next guy, but I’m not one to hold back and front a smile when I’m not happy with something.
 
 Links relating to this article:  
-<http://goo.gl/fqQSK> | <http://goo.gl/H2Jk> | <http://goo.gl/Ejikz>
+<https://goo.gl/fqQSK> | <https://goo.gl/H2Jk> | <https://goo.gl/Ejikz>

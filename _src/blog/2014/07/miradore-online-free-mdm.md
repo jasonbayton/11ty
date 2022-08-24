@@ -27,15 +27,15 @@ tags:
 ---
 <div class="alert alert-warning">This article was published in 2014. There are two new articles you may find interesting: [Miradore Online MDM Review: A second Look](/2015/03/miradore-online-mdm-review-a-second-look/) &amp; [Miradore Online MDM: Expanding management with subscriptions](/2016/02/miradore-online-mdm-expanding-management-with-subscriptions/).</div>At this point in time, it’s very unlikely mobile isn’t already a part of most organisations in some way or another. Whether it’s a case of supplying devices to employees or granting access to corporate resources (such as email) on personally-owned devices, organisations need some form of control over the data they’re granting access to and perhaps even a fail-safe for when a device is lost or stolen. For these reasons, EMM and MDM solutions were created.
 
-When you think of [MDM solutions](http://en.wikipedia.org/wiki/Mobile_device_management), which companies come to mind? [AirWatch](http://www.air-watch.com)? [Mobile Iron](http://mobileiron.com)? [Good](http://good.com)? [MaaS360](http://www.maas360.com)?
+When you think of [MDM solutions](https://en.wikipedia.org/wiki/Mobile_device_management), which companies come to mind? [AirWatch](https://www.air-watch.com)? [Mobile Iron](https://mobileiron.com)? [Good](https://good.com)? [MaaS360](https://www.maas360.com)?
 
-All pretty decent solutions in their own right, but they all also charge a license fee for every device enrolled; a costly bill for someone who may want a management solution without all the bells and whistles of a full [EMM](http://en.wikipedia.org/wiki/Enterprise_Mobility_Management) suite, perhaps. So what if there was a solution that provided a simple, no-frills, cloud-based MDM solution absolutely free of charge?
+All pretty decent solutions in their own right, but they all also charge a license fee for every device enrolled; a costly bill for someone who may want a management solution without all the bells and whistles of a full [EMM](https://en.wikipedia.org/wiki/Enterprise_Mobility_Management) suite, perhaps. So what if there was a solution that provided a simple, no-frills, cloud-based MDM solution absolutely free of charge?
 
-Enter [Miradore](http://miradore.com).
+Enter [Miradore](https://miradore.com).
 
 ![Free MDM from the Cloud Miradore Online](https://r2_worker.bayton.workers.dev/uploads/2014/07/Free-MDM-from-the-Cloud-Miradore-Online.png)
 
-I stumbled across Miradore around April of this year whilst perusing various MDM solutions (as you do in your free time, right?) for my own personal devices. Miradore advertise their MDM platform as a completely free, cloud-based solution supporting Android, iOS *and Windows Phone* with unlimited users and no time limit – there are no trials, no ads to click or add-ons to pay for, it’s all free. I believe it will remain free even out of beta, as a complimentary product to their [On-Premise](http://mms.miradore.com/) range of solutions from which they currently generate revenue.
+I stumbled across Miradore around April of this year whilst perusing various MDM solutions (as you do in your free time, right?) for my own personal devices. Miradore advertise their MDM platform as a completely free, cloud-based solution supporting Android, iOS *and Windows Phone* with unlimited users and no time limit – there are no trials, no ads to click or add-ons to pay for, it’s all free. I believe it will remain free even out of beta, as a complimentary product to their [On-Premise](https://mms.miradore.com/) range of solutions from which they currently generate revenue.
 
 Accepting the fact that it is still beta software, I fired up my own private instance and immediately enrolled a couple of devices to get a look at the solution and where it’s headed.
 

@@ -142,7 +142,7 @@ In summary, don’t buy this device for your organisation. If an employee comes 
 Conclusion
 ----------
 
-For £109 at point of purchase (or currently [£139 on Amazon](http://amzn.to/2vj9zlV) the new Nokia 3 is a great phone and a really nice re-introduction of the Nokia brand to the Android market. The spec isn’t going to win any awards, but the build quality and general feel of the device should make for a great every-day phone for those not interested in pushing their devices too hard.
+For £109 at point of purchase (or currently [£139 on Amazon](https://amzn.to/2vj9zlV) the new Nokia 3 is a great phone and a really nice re-introduction of the Nokia brand to the Android market. The spec isn’t going to win any awards, but the build quality and general feel of the device should make for a great every-day phone for those not interested in pushing their devices too hard.
 
 While mine is white, it also comes in Blue and Black to suit all tastes.
 

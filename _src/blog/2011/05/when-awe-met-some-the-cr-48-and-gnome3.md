@@ -40,13 +40,13 @@ The last thing I mentioned was how hackable the Cr is, here I can show you how I
 
 I went about this in a bit of a round-about way. As I was experimenting with a few different solutions, I flashed the Cr BIOS and installed Fedora from within Ubuntu running on the Cr. Although this *is* round-about, I do suggest you try Ubuntu before going to Fedora as you may like one more than the other – Fedora 15 is a little bit buggy at this moment given that it’s still brand new.
 
-So the first thing I did, as I said, was install Ubuntu. This was done using a script created by Jay Lee that basically takes the full set of instructions from the chromium site and no doubt adds a few extras. You can follow the instructions provided by Jay Lee here: <http://goo.gl/X9YG8>. Make sure you’ve set Ubuntu to boot by default.
+So the first thing I did, as I said, was install Ubuntu. This was done using a script created by Jay Lee that basically takes the full set of instructions from the chromium site and no doubt adds a few extras. You can follow the instructions provided by Jay Lee here: <https://goo.gl/X9YG8>. Make sure you’ve set Ubuntu to boot by default.
 
 Are you happy with Ubuntu? If so. You can stop here and enjoy your new install. If not, continue reading:
 
 Once you’ve installed Ubuntu, we can now move on to flashing the BIOS.
 
-Flashing the BIOS is a little involved but is required in order to rid the Cr of Google’s propriety BIOS and install the bog-standard Intel Insyde BIOS that’ll allow you to install any OS from USB. The first thing to do is crack open your Cr and disable the BIOS check. Instructions for opening the Cr can be seen here: [Open the Cr-48](http://cr-48.wikispaces.com/Open+the+Cr-48 "Open the Cr-48")
+Flashing the BIOS is a little involved but is required in order to rid the Cr of Google’s propriety BIOS and install the bog-standard Intel Insyde BIOS that’ll allow you to install any OS from USB. The first thing to do is crack open your Cr and disable the BIOS check. Instructions for opening the Cr can be seen here: [Open the Cr-48](https://cr-48.wikispaces.com/Open+the+Cr-48 "Open the Cr-48")
 
 Once you’ve fixed the BIOS check (I used tape) and re-assembled your Cr, we can now look at Backing up and flashing the Insyde BIOS.
 

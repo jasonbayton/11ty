@@ -72,7 +72,7 @@ Costs
 
 The pricing for Springs is based on usage, so setting the CPU to 2000, 3000, or 10,000 doesn’t mean you’ll be paying 10,000\*$0.008/hour. If the server is only using 0.32GHz and 128MB of RAM on average, that’s what you’ll pay for. This also makes it a little more difficult to estimate exactly how much you’re going to spend, but it can be figured out once the server is up and running and averages are being reported.
 
-Springs has a [usage calculator](http://springs.io/pricing/), but for those like me who want to see figures in black and white, the pricing breaks down as follows:
+Springs has a [usage calculator](https://springs.io/pricing/), but for those like me who want to see figures in black and white, the pricing breaks down as follows:
 
 CPU (core-GHz per hour): $0.008  
 RAM (GB per hour): $0.011  

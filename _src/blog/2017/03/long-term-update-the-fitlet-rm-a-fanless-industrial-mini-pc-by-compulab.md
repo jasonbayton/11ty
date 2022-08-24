@@ -41,7 +41,7 @@ Average load: 0.18
 
 I’d have liked to show traffic as well, however traffic totals aren’t reliable (and rarely sampled) it seems.
 
-Despite the system sat in a small cabinet with the door closed most of the year, the temperature has remained fairly stable (it certainly got far warmer running Windows previously). Unsurprisingly it’s rather over-powered for what I’m using it for; realistically the [fitlet-X-LAN](http://www.fit-pc.com/web/products/specifications/?model%5B%5D=FITLET-GX-C64-FLAN-W) with the A4 and 4GB RAM would suite this usecase far better, and at some point I may pick one up when I find a new use-case for the one I have, but for now it’s doing an excellent job.
+Despite the system sat in a small cabinet with the door closed most of the year, the temperature has remained fairly stable (it certainly got far warmer running Windows previously). Unsurprisingly it’s rather over-powered for what I’m using it for; realistically the [fitlet-X-LAN](https://www.fit-pc.com/web/products/specifications/?model%5B%5D=FITLET-GX-C64-FLAN-W) with the A4 and 4GB RAM would suite this usecase far better, and at some point I may pick one up when I find a new use-case for the one I have, but for now it’s doing an excellent job.
 
 In the picture above you may notice the VESA mounting plate and the (still) silver heatsink. It took a little longer than expected for the black heatsink to go on sale, by which time the fitlet was already out of sight under the TV and I found I wasn’t particularly bothered enough by the colour mismatch to do anything about it. Similarly the VESA mount was for me to mount the fitlet under my desk in the office and again hasn’t been necessary, instead I’m using it as an additional plate to help further dissipate heat (whether or not it works like that I don’t know, but there’s no harm in having it attached either way).
 
@@ -55,7 +55,7 @@ And for anyone interested, to save going back to my first review, here are the p
 - fitlet remote power button: [Amazon UK](https://www.amazon.co.uk/Compulab-Remote-power-button-fitlet/dp/B0144PKH2M//ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=bayton-21&linkId=7a64ab4d3cf3868d4a6e94b6150f8795)
 - fitlet VESA/wall mount: [Amazon UK](https://www.amazon.co.uk/Compulab-VESA-mounting-bracket-fitlet/dp/B0144OL58S//ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=bayton-21&linkId=48213495d9ad6241c1800ad9468c3167)
 - fit-Headless: [Amazon UK](https://www.amazon.co.uk/CompuLab-fit-Headless-x/dp/B00FLZXGJ6/ref=as_li_ss_tl?s=electronics&ie=UTF8&qid=1484578811&sr=1-1&keywords=fit-headless+4k&linkCode=ll1&tag=bayton-21&linkId=d27d9c99a48667268fdb6a9e447a2e67)
-- fit-Uptime: [fit-PC (official)](http://www.fit-pc.com/web/purchasing/order-fit-uptime/)
-- fitlet-RM-XA10-LAN barebones: [fit-PC (official) ](http://www.fit-pc.com/web/purchasing/order-fitlet/)– links to all fitlet models
+- fit-Uptime: [fit-PC (official)](https://www.fit-pc.com/web/purchasing/order-fit-uptime/)
+- fitlet-RM-XA10-LAN barebones: [fit-PC (official) ](https://www.fit-pc.com/web/purchasing/order-fitlet/)– links to all fitlet models
 
 *Have you purchased your own mini PC since my initial review? Or a fitlet-RM? Let me know in the comments, [@jasonbayton](https://twitter.com/jasonbayton) on twitter or [@bayton.org](https://facebook.com/bayton.org) on Facebook.*

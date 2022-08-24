@@ -68,7 +68,7 @@ It sort of worked..
 
 Youtube failed almost immediately, Maps eventually. Hangouts is too slow to be useful and Google+ regularly gives me Google Play Services errors. Still, Gmail, Photos and Music work and I’m managing OK with that (mostly because I have a work Note 4, otherwise I’d have likely still been trying to get them all working).
 
-There are posts on [CrackBerry](http://forums.crackberry.com/android-apps-amazon-store-apk-files-f413/cobalts-official-google-apps-landing-page-965257/) among other places that explain the process so I won’t go into it here. It isn’t too complex though and while things do fail, updates are frequent to help mitigate that.
+There are posts on [CrackBerry](https://forums.crackberry.com/android-apps-amazon-store-apk-files-f413/cobalts-official-google-apps-landing-page-965257/) among other places that explain the process so I won’t go into it here. It isn’t too complex though and while things do fail, updates are frequent to help mitigate that.
 
 I had more success with the Amazon Appstore and got a good few apps installed I was familiar with, but it in no way filled the void left by the absence of the Play Store – which I also got working temporarily, but ultimately failed due to the Play Services requirement of so many of the apps there and the need to manually patch them before installing.
 

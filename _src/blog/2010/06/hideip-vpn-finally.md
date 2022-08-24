@@ -33,11 +33,11 @@ publish_post_category:
 tags:
     - Reviews
 ---
-We face annoyances on the internet daily, whether they are select people on a forum, a company forcing a subscription on you (hello, [PlayOn)](http://www.playon.tv),etc. We shouldn’t have to pay a yearly subscription. No one pays Microsoft every year for using the same OS), or my personal favourite of late – being blocked by certain streaming sites as I’m outside of the US.
+We face annoyances on the internet daily, whether they are select people on a forum, a company forcing a subscription on you (hello, [PlayOn)](https://www.playon.tv),etc. We shouldn’t have to pay a yearly subscription. No one pays Microsoft every year for using the same OS), or my personal favourite of late – being blocked by certain streaming sites as I’m outside of the US.
 
 ![hipeipvpn](https://r2_worker.bayton.workers.dev/uploads/2010/06/logo.png "logo")
 
-Today I found the answer to that problem. [HideIP VPN](http://www.hideipvpn.com/). They offer both free\* and low cost paid services for anyone who wants to;
+Today I found the answer to that problem. [HideIP VPN](https://www.hideipvpn.com/). They offer both free\* and low cost paid services for anyone who wants to;
 
 - Browse anonymously
 - View videostreams which are outside of your country
@@ -56,10 +56,10 @@ I’d just like to add that this is a reputable service, no shady activities wil
 \*free accounts are given out once a week, once they’re gone you’ll have to wait until next week to try again. And you have to be *quick*!
 
 Why not give them a go? I fully recommend it!  
-Check out [www.hideipvpn.com](http://www.hideipvpn.com) or contact <support@hideipvpn.com> for more information.
+Check out [www.hideipvpn.com](https://www.hideipvpn.com) or contact <support@hideipvpn.com> for more information.
 
 **If you are interested in the premium account, please sign up here:  
-<span style="font-size: 18pt;">[<span style="font-weight: normal;">http://billing.hideipvpn.com/aff.php?aff=219 </span>](http://billing.hideipvpn.com/aff.php?aff=219)</span>**
+<span style="font-size: 18pt;">[<span style="font-weight: normal;">https://billing.hideipvpn.com/aff.php?aff=219 </span>](https://billing.hideipvpn.com/aff.php?aff=219)</span>**
 
 Cheers,  
 Jason

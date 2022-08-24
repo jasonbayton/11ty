@@ -172,7 +172,7 @@ Admins can simply import the APK file into Core, tick the box to install for And
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/03/addapp.png)
 
-As simple as that! More information can be found on Google’s help pages [here](https://support.google.com/googleplay/work/topic/6145152?hl=en&ref_topic=6137710) or on my [Introduction to managed Google Play over](/2018/03/an-introduction-to-managed-google-play/) on [Brian Madden](http://brianmadden.com).
+As simple as that! More information can be found on Google’s help pages [here](https://support.google.com/googleplay/work/topic/6145152?hl=en&ref_topic=6137710) or on my [Introduction to managed Google Play over](/2018/03/an-introduction-to-managed-google-play/) on [Brian Madden](https://brianmadden.com).
 
 For organisations managing Samsung devices, the system update policy will sound familiar; with this feature organisations can now control system upgrades on Android Enterprise devices directly from the MobileIron admin console:
 
