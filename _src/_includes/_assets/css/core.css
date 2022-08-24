@@ -229,6 +229,7 @@ button {
 
 #darktoggle, #corner_search {
   justify-self: center;
+  padding: 10px;
 }
 
 #bayton_logo {
