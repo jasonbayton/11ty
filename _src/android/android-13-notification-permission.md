@@ -1,7 +1,6 @@
 ---
 title: 'Handling Android 13 notifications permission'
 published: '2022-08-11'
-date: '2022-08-13'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
