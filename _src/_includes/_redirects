@@ -23,6 +23,3 @@
 /20* /blog/20:splat 301
 /category/* /tags/:splat 301
 /tag/* /tags/:splat 301
-dev.bayton.org/* https://bayton.org/:splat 301
-beta.bayton.org/* https://bayton.org/:splat 301
-www.bayton.org/* https://bayton.org/:splat 301
