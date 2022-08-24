@@ -170,6 +170,6 @@ If you have suggestions for another master-master database solution that could w
 
 \*Keep in mind:
 
-> A multi-master setup with Galera cluster is not supported, because we require `<span class="pre">READ-COMMITTED</span>` as transaction isolation level. [Galera doesn’t support this with a master-master replication](http://galeracluster.com/documentation-webpages/isolationlevels.html#understanding-isolation-levels) which will lead to deadlocks during uploads of multiple files into one directory for example.
+> A multi-master setup with Galera cluster is not supported, because we require `READ-COMMITTED` as transaction isolation level. [Galera doesn’t support this with a master-master replication](http://galeracluster.com/documentation-webpages/isolationlevels.html#understanding-isolation-levels) which will lead to deadlocks during uploads of multiple files into one directory for example.
 
 *Have you attempted this kind of implementation with Nextcloud? Do you have any tips? Were you more or less successful than my attempt? Let me know in the comments, [@jasonbayton](https://twitter.com/jasonbayton) on twitter or [@bayton.org](https://facebook.com/bayton.org) on Facebook.*
