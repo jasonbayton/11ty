@@ -51,6 +51,10 @@ content#archive {
     font-weight: 700;
 }
 
+.docnav-topic-title:hover {
+    cursor: pointer;
+}
+
 .section-title {
     margin: 0;
     font-size: 36px;
