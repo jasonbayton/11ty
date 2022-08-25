@@ -452,7 +452,7 @@ section#trusted_logos #trusted_container {
   margin: 0 auto;
 }
 
-#trusted_tag {
+.trusted-tag {
   font-size: 18px;
   padding-top: 10px;
   font-weight: 500;
