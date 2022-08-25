@@ -78,19 +78,9 @@ body {
   background-color: var(--background);
 }
 
-.max-width {
-  max-width: 1820px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-.full-width {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
 img { max-width: 100%; display: block;}
-article img { border-radius: 5px; }
+
+content img { border-radius: 5px; }
 
 audio { width: 80%; min-width: 300px; }
 
@@ -206,6 +196,10 @@ pre code {
 ::-webkit-input-placeholder { color: #dbdbdb; }
 ::-moz-placeholder { color: #dbdbdb; }
 ::placeholder { color: #dbdbdb; }
+
+.extra-bold {
+  font-weight: 900!important;
+}
 
 .regular {
   font-weight: 400;
@@ -522,6 +516,12 @@ section#trusted_logos #trusted_container {
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 30px;
   padding-bottom: 30px;
+}
+
+.tag-more-link {
+  padding: 20px 0;
+  display: block;
+  color: var(--orange);
 }
 
 #content_report {

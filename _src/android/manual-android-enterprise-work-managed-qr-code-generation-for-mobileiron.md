@@ -9,7 +9,6 @@ id: 4514
 layout: base.njk
 tags: 
     - Vendor specific
-    - MobileIron
 doccats:
     - MobileIron
 Version:
