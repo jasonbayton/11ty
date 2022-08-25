@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
     <head>
         <!-- head/meta goes here -->
         {% include "./_parts/head.njk" %}
@@ -30,9 +30,6 @@
                     <p>No results found.</p>
                 </div>
             </section>
-            {% if pagination.href.next or pagination.href.previous %}
-            {% include "./_parts/paginate.njk" %}
-            {% endif %}
             <!-- Page feedback goes here -->
             {% include "./_parts/feedback.njk" %}
             <!-- // -->
