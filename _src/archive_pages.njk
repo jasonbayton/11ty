@@ -1,5 +1,6 @@
 ---
-layout: archive.njk
+layout: base.njk
+type: archive
 pagination:
   data: collections
   size: 1
@@ -12,10 +13,10 @@ pagination:
 permalink: "/tags/{{ tag | slugify }}/" 
 ---
 
-<div class="section-title">
+<div class="section-title extra-bold">
     {{ tag }} (#{{ tag | slugify }})
 </div>
-
+<hr>
 {% set taglist = collections[ tag ] %}
 {% for post in taglist | reverse %}
 

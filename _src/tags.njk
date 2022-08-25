@@ -4,7 +4,7 @@ date: '2022-08-20'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: page
+type: archive
 layout: base.njk
 tags: 
 ---
@@ -12,10 +12,10 @@ tags:
 {% for tag in collections.tagsList %}
 {% if not tag.includes("blog") %}
 <div class="year-block">
-    <div class="section-title">
-    {{ tag }} (<a class="meta-tag" href="/tags/{{ tag | slugify }}/">#{{ tag | slugify }}</a>)
+    <div class="section-title extra-bold">
+    {{ tag }} (<a class="" href="/tags/{{ tag | slugify }}/">#{{ tag | slugify }}</a>)
     </div>
-
+    <hr>
     {% set taglist = collections[ tag ] %}
     {% for post in taglist | reverse %}
     {%- if loop.index0 < 4 %} 
@@ -45,7 +45,7 @@ tags:
     </div>
 {% endif %}
 {% endfor %}
-    <a class="" href="/tags/{{ tag | slugify }}/">View more ✍️</a>
+    <a class="tag-more-link" href="/tags/{{ tag | slugify }}/">...view more ✍️</a>
 </div>
 {% endif %}
 {% endfor %}
