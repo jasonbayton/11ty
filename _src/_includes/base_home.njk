@@ -97,7 +97,7 @@
                         </h2>
                 </h2>
                 <div id="post_container">
-                {% for post in pagination.items %}
+                {% for post in collections.blog | reverse %}
                 {%- if loop.index0 < 5 %}
                     <div class="post-block">
                         <div class="post-body">
