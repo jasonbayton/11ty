@@ -17,6 +17,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
   eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
+  eleventyConfig.addPassthroughCopy({"_src/manifest.json": "/manifest.json"});
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(embedTwitter);
