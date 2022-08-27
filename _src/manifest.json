@@ -1,0 +1,33 @@
+{
+    "short_name": "BAYTON",
+    "name": "Android Enterpise | Jason Bayton",
+    "icons": [
+      {
+        "src": "/img/JasonBayton_black_SMALL.svg",
+        "type": "image/svg+xml",
+        "sizes": "500z288px",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ffffff",
+    "shortcuts": [
+      {
+        "name": "Android Documentation",
+        "short_name": "Android Docs",
+        "description": "Dive into simple, easy to use Android Enterprise documentation.",
+        "url": "/android",
+        "icons": [{ "src": "//img/JasonBayton_black_SMALL.svg", "sizes": "500z288px" }]
+      },
+      {
+        "name": "Blog",
+        "short_name": "Blog",
+        "description": "Read the latest Android Enterprise news and tips.",
+        "url": "/blog",
+        "icons": [{ "src": "/img/JasonBayton_black_SMALL.svg", "sizes": "500z288px" }]
+      }
+    ]
+  }
