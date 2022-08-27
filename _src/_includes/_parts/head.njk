@@ -12,6 +12,7 @@
         <meta property="og:image" content="/img/JasonBayton_black_SMALL.svg">
         <meta name="generator" content="{{ eleventy.generator }}">
         <link rel="apple-touch-icon" href="/img/JasonBayton_black_SMALL.svg">
+        <link rel="manifest" href="manifest.json" />
         <link rel="stylesheet" href="/css/core.css">
         <link rel="stylesheet" href="/css/doc.css">
         <link rel="stylesheet" href="/css/webfonts.css">
@@ -40,3 +41,10 @@
 
         <!-- Cloudflare Web Analytics -->
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5116dc7b1b1240e4b472d35429b70c9b"}'></script>
+
+        <!-- PWA -->
+        <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+        </script>
