@@ -15,3 +15,4 @@ If content is missing from a page on the website, you may opt to edit the page y
 1. Objective, question, or title
 2. Content to be explained
 3. Context for the request (describe what you're struggling with and how)
+4. Pages affected if this is to add to an existing page (eg: Android FAQ)
