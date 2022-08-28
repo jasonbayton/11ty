@@ -18,10 +18,13 @@ publish_post_category:
 ---
 <div class="callout callout-warning">
 
-The future of COPE
-------------------
+## The future of COPE
 
- How Android Enterprise implements COPE is changing, requiring all of the below EMMs who’ve worked to bring support for the solution set to market to rework COPE support once more from Android 11. [Read more](/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/)</div>
+How Android Enterprise implements COPE has changed, requiring all of the below EMMs who’ve worked to bring support for the solution set to market to rework COPE support once more from Android 11. Read more [here](/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) and an updated document [here](/android/android-11-cope-changes/).
+
+As Android 11 has brought with it a completely revamped implementation of Work Profiles on Corporate Owned Devices (WPCoD) over the previous WPoFMD, most of the below is now no longer relevant. 
+
+</div>
  
 Work profiles on fully managed devices (COPE) debuted with Android Oreo on the 21st of August, 2017. In the *extortionate* amount of time since then there are still a number of EMMs in the market which do not support this perfect middle-ground between the loss of control on work profile devices, and lack of support for personal use on fully managed devices.
 
@@ -29,8 +32,7 @@ With advancements in Android Enterprise solutions to date, in particular OEMConf
 
 Yet EMMs continue to lag behind, implementing Android’s universal APIs in dribs and drabs across the ecosystem, and providing a rather fragmented management experience for customers. COPE is just one such example.
 
-Who supports COPE today?
-------------------------
+## Who supports COPE today?
 
 ### MobileIron – 2018
 
@@ -64,9 +66,8 @@ A particularly nice capability which all EMMs should support is the ability to E
 
 Following the [announcement](/2020/07/googles-android-management-api-will-soon-support-cope/) of support for COPE in AMAPI, Intune went into preview in late 2020.
 
-And everyone else?
-------------------
+## And everyone else?
 
 Other EMM/UEM vendors are working on supporting the solution – IBM, SOTI being two of the larger vendors.
 
-Unlike the excruciating amount of time some vendors took to introduce support for work profiles on fully managed devices, the replacement for it introduced in Android 11, work profiles on company owned devices, has seen rapid uptake given it is based on a work profile deployment.
+Unlike the excruciating amount of time some vendors took to introduce support for Work Profiles on Fully Managed Devices, the replacement for it introduced in Android 11, Work Profiles on Company Owned Devices, has seen rapid uptake given it is based on a work profile deployment.
