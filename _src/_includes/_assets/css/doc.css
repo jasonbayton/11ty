@@ -33,15 +33,15 @@ content#archive {
     font-size: 28px;
 }
 
-#aside_docs ul li a {
+.aside-section ul li a {
     text-decoration: none;
 }
 
-#aside_docs ul li {
+.aside-section ul li {
     padding: 5px 0;
 }
 
-#aside_docs ul {
+.aside-section ul {
     padding-left: 0;
     list-style: none;
     list-style-type: none;
@@ -53,6 +53,24 @@ content#archive {
 
 .docnav-topic-title:hover {
     cursor: pointer;
+}
+
+.aside-title.change-log {
+    padding-top: 40px;
+}
+
+ul.gitlog-list {
+    margin-top: 0;
+}
+
+.gitlog-time {
+    font-weight: 700;
+}
+
+a.gitlog-title {
+    display:block;
+    text-transform: lowercase;
+    font-size: 16px;
 }
 
 .section-title {

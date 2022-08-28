@@ -25,17 +25,20 @@
                     <!-- Taken care of by Tocbot -->
                 </div> 
                 {% if type.includes("documentation") %}
-                <div id="aside_docs">
+                <div class="aside-section">
                     <!-- Docnav goes here -->
                     {% include "./_parts/docsnav.njk" %}
                     <!-- // -->
                 </div>
                 {% endif %}
                 {% if type.includes("post") %}
-                <div id="aside_docs">
+                <div class="aside-section">
                     {% include "./_parts/blognav.njk" %}
                 </div>
                 {% endif %}
+                <div class="aside-section">
+                    {% include "./_parts/gitlog.njk" %}
+                </div>
             </section>
             {% endif %}
             <section id="page_content">

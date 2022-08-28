@@ -1,0 +1,15 @@
+{% if changes %}
+    <div class="aside-title change-log">
+        <h2>Change log</h2>
+    </div>
+    <ul class="gitlog-list">
+        {% for c in changes %}
+        {%- if loop.index0 < 3 %}
+        <li class="gitlog-change">
+            <time class="gitlog-time">{{ c.date | dateFull }}</time>
+            <a class="gitlog-title" href="https://github.com/jasonbayton/11ty/commit/{{ c.hash }}">{{ c.message }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+{% endif %}
