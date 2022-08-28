@@ -20,12 +20,11 @@ publish_post_category:
 ---
 Below you’ll find a number of frequently asked questions I receive related to Android Enterprise.
 
-General
--------
+## General
 
 ### Is Android Enterprise supported on uncertified (non-GMS) devices?
 
-No, these devices are not officially supported for Android Enterprise and therefore would be expected to be managed using the legacy and [mostly deprecated](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) Device Admin APIs. These devices may also be referred to as AOSP, and an excellent example of an uncertified, AOSP device is the Kindle Fire.
+Officially no, these devices are not officially supported for Android Enterprise and therefore would be expected to be managed using the legacy and [mostly deprecated](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) Device Admin APIs. These devices may also be referred to as AOSP, and an excellent example of an uncertified, AOSP device is the Kindle Fire.
 
 Unofficially without GMS certification modern Android devices do allow for limited Android Enterprise management with an EMM that supports [closed network or non-GMS management](/2019/08/vmware-ws1-uem-1908-supports-android-enterprise-enrolments-on-closed-networks-and-aosp-devices/), but your mileage may vary.
 
@@ -114,7 +113,7 @@ If zero-touch isn’t available, my personal preference is QR code provisioning 
 
 ### What’s the difference between allow adding accounts vs allow configure credentials?
 
-Adding accounts allows end-users to head into Settings &gt; Accounts and add an account.
+Adding accounts allows end-users to head into Settings > Accounts and add an account.
 
 Configure credentials allows an end-user to configure account credentials in-app.
 
@@ -148,8 +147,11 @@ In either scenario, that standard limitation of 10 devices per Google account ap
 
 How these account types are changed is EMM specific, so do reach out to your EMM vendor for instructions.
 
-Work Profile
-------------
+### How do I manage the new notifications runtime permission in Android 13?
+
+This is already handled with existing permission management capabilities in EMMs, [Click here](/android/android-13-notification-permission) for more details on the change.
+
+## Work Profile
 
 ### Can organisations see applications outside of the work profile?
 
@@ -201,8 +203,7 @@ Making sure of course the number reflects the returned value in the previous com
 
 This should remove the work profile.
 
-Fully managed
--------------
+## Fully managed
 
 ### How can I provision a fully managed device?
 
@@ -233,6 +234,8 @@ Normally this would suggest either the respective Android Enterprise configurati
 
 Ensure the user of the device is in the correct Active Directory group (if relevant) or EMM group to receive the correct profiles, otherwise check the binding.
 
+Occasionally and with some EMMs this may also happen if more than one device is enrolled with the same Device Identifier, eg: Serial Number or IMEI. Validate all Device Identifiers are unique (at least within an OEM/model) as it's not uncommon to see duplicates in the wild.
+
 ### Is Factory Reset Protection enabled on fully managed devices?
 
 Not normally by default, though do validate with your EMM vendor. If confirmed disabled however FRP kicks in after a reset, log a ticket with EMM support.
@@ -245,8 +248,7 @@ More: [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-f
 
 Yes, however EMM support on both EMM solutions is required, and I’m not aware of any today who support this except for the Android Management API.
 
-Work profiles on fully managed devices, work profiles on company owned devices (COPE) 
---------------------------------------------------------------------------------------
+## Work profiles on fully managed devices, work profiles on company owned devices (COPE) 
 
 ### How has COPE changed in Android 11?
 
@@ -286,8 +288,7 @@ Most EMMs support the ad-hoc management of system applications, so there’s no 
 
 **Android 11+** – While there is still [application management to a degree](/android/android-11-cope-changes/), the act of enabling or disabling system applications during provisioning is no longer supported.
 
-Zero-touch
-----------
+## Zero-touch
 
 ### What OEMs currently support zero-touch?
 
@@ -295,13 +296,13 @@ As of late 2020, all GMS certified Android 9.0+ devices from all OEMs support ze
 
 OEMs supporting zero-touch on 8.0/8.1 include:
 
-- **Sony**
-- **Huawei**
-- **HMD Global**
-- **Google**
-- **LG**
-- **Motorola**
-- **Sharp**
+- Sony
+- Huawei
+- HMD Global
+- Google
+- LG
+- Motorola
+- Sharp
 
 Along with the change to globally support all Android 9.0+ GMS certified devices with the integration of zero-touch into GMS Core (Google Play Services), the previous Google-maintained list of zero-touch supported devices, including those running older Android versions, is no longer live.
 
@@ -369,9 +370,11 @@ It does *not* apply to the act of end-users running through the provisioning pro
 
 No, only authorised resellers. Customers are not able to add devices to the zero-touch portal at this time.
 
+**This will change in future**.
+
 ### Is it possible for an organisation to add previously-purchased devices to zero-touch?
 
-A reseller has the ability to upload any devices, however it is their obligation to ensure that the device identifiers (IMEI or serial) are correct and that the organisation in question owns the devices, not another organisation or an employee. If the organisation does own these devices, can prove this, and can supply accurate device identifiers, please discuss this with a preferred reseller for assistance. It is up to the reseller if they wish to upload devices already purchased since there are consequences for resellers who upload incorrect data to the zero-touch portal.
+A reseller has the ability to upload any devices through their reseller portal, however it is their obligation to ensure that the device identifiers (IMEI or serial) are correct and that the organisation in question owns the devices, not another organisation or an employee. If the organisation does own these devices, can prove this, and can supply accurate device identifiers, please discuss this with a preferred reseller for assistance. It is up to the reseller if they wish to upload devices already purchased since there are consequences for resellers who upload incorrect data to the zero-touch portal.
 
 ### Can anyone remove a device from the zero-touch console?
 
@@ -415,6 +418,8 @@ As EMM vendors begin supporting the zero-touch iFrame introduced in late 2020, m
 
 The upload may complete successfully, but the device will not initiate the zero-touch enrolment flow once connected to a network. The device will need to be deregistered and re-registered with the correct manufacturer.
 
+From 2020, the manufacturer field is no longer required for IMEI-based uploads.
+
 ### The device registered with zero-touch, but doesn’t launch during setup, why?
 
 This could be a few things:
@@ -435,8 +440,7 @@ As of late 2020, all Android Go devices support zero-touch [through expanded zer
 
 No, zero-touch is for corporate-owned devices only.
 
-App management
---------------
+## App management
 
 ### What’s the recommended way of managing in-house (private) applications?
 
@@ -447,6 +451,8 @@ Unlike adding an APK directly into the UEM console, uploading to Google Play is 
 More information: [Create and manage private apps for Android Enterprise](/android/create-and-manage-private-apps-for-android-enterprise/)
 
 Where the Play iFrame isn’t supported, it’s possible to upload and distribute through the [Google Play Console](https://play.google.com/apps/publish/) but keep in mind there’s a $25 fee to set up a developer account.
+
+**Note**: Google Play will only permit one package name (com.app.name) for an application across the whole Google Play estate, meaning if you wish to upload an app privately today, and make it available publicly later, you **must use unique package names for each upload**.
 
 ### Is it possible to deploy app shortcuts to the homescreen of an Android Enterprise device?
 
@@ -464,7 +470,6 @@ It’s possible for a UEM to implement multiple iFrames with these features sepa
 
 Should additional features not be available anywhere, please get in touch with your UEM provider to discuss this.
 
-Submit a question
------------------
+## Submit a question
 
-Need something else answered? Comment below, tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).
+Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).
