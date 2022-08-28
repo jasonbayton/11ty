@@ -55,4 +55,4 @@ A report containing 700+ touch points is provided to the OEM on completion along
 
 ## Standard testing
 
-Previously listed devices here have been removed. Refer to the advanced testing devices to understand the testing undertaken to validate AE, and if interested you may [contact me](/contact) to discuss testing your Android device.
+Previously listed devices here have been removed. Refer to the advanced tested devices to understand the testing undertaken in validating AE compatibility, and if interested you may [contact me](/contact) to discuss testing your Android device at no cost.
