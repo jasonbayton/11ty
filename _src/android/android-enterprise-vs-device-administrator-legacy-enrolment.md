@@ -8,11 +8,8 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 8007
 doccats:
     - Android
-publish_post_category:
-    - '6'
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-vs-device-admin-why-da-is-no-longer-suitable/26'
 ---
@@ -24,8 +21,7 @@ A recurring query when discussing Android Enterprise is, as might be expected:
 
 That question used to depend on whether we were referring to vanilla Android or Samsung &amp; Knox; today with Samsung’s Android Enterprise unification and capabilities sitting comfortably atop the base layer of Android Enterprise APIs, it’s no longer necessary to decide between them, they can be leveraged together (though there will be references below).
 
-What is Device Admin?
----------------------
+## What is Device Admin?
 
 Device Admin, introduced with Android 2.2 Froyo, offered something of a limited offering to fill the void for applications requiring elevated administrative permissions in order to perform certain tasks.
 
@@ -37,8 +33,7 @@ Another API, long-since deprecated, included the ability for a DA application to
 
 The capabilities of DA grew as adoption increased, though the reason I refer to it as a *limited offering* in the opening paragraph is due to the fact it was never intended to be used in the way it has been, particularly for enterprise, and ramifications today can still be seen.
 
-Challenges with Device Admin
-----------------------------
+## Challenges with Device Admin
 
 Below are a collection of challenges associated with device administrator, or *legacy* Android management **generally**. Organisations leveraging purely Samsung devices today may not necessarily have experienced some of these, but this is broadly speaking across the ecosystem as a whole. There’s a very good reason Samsung have dominated the enterprise space for so long – they’ve developed the tools and capabilities to mostly overcome the pitfalls of legacy management, though not entirely.
 
@@ -120,8 +115,7 @@ For more information on DA deprecation, check out the following resources:
 - [Infobyte – Did you know? Device Admin deprecation](/android/infobyte-did-you-know-device-admin-deprecation/)
 - [Google is deprecating device admin in favour of Android Enterprise](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/)
 
-How Android Enterprise compares
--------------------------------
+## How Android Enterprise compares
 
 - Consistent, reliable management
 - Flexible, simple & safe application management
@@ -135,8 +129,7 @@ All of these aspects of Android Enterprise are explained in detail in the follow
 - [Considerations when migrating from device administrator to Android Enterprise](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/)
 - [Considerations for choosing Android in the enterprise ](/android/considerations-for-choosing-android-in-the-enterprise/)
 
-Conclusion
-----------
+## Conclusion
 
 Most organisations, and particularly those who want to more easily support a diverse range of devices will benefit massively from the consistent experience, the automated management of Google accounts and the remote application configuration of Android Enterprise; more from the security, privacy and modern approach to management.
 
