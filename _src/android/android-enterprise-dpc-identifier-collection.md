@@ -210,7 +210,7 @@ To use them, follow the setup wizard on the Android device until a Google accoun
 
 ## Submit a DPC identifier
 
-If you’d like to see a DPC identifier added to this list, you can [edit this page](https://github.com/jasonbayton/11ty/blob/main/_src/android/android-enterprise-dpc-identifier-collection.md) or [contact me](/contact).
+If you’d like to see a DPC identifier added to this list, you can [edit this page](https://github.com/jasonbayton/11ty/blob/main/_src/android/android-enterprise-dpc-identifier-collection.md), request it through [an issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) or [contact me](/contact).
 
 ## Request a DPC identifier from Google
 
