@@ -69,9 +69,6 @@
                     {{ content | safe }}
                 </div>
             </section>
-            <!-- Comments go here -->
-            {% include "./_parts/comments.njk" %}
-            <!-- // -->
             <!-- Pagination goes here -->
             <!-- {% if pagination.href.next or pagination.href.previous %}
             {% include "./_parts/paginate.njk" %}
@@ -80,6 +77,11 @@
             <!-- Page feedback goes here -->
             {% include "./_parts/feedback.njk" %}
             <!-- // -->
+            {% if type.includes("documentation") or type.includes("post") %}             
+            <!-- Comments go here -->
+            {% include "./_parts/comments.njk" %}
+            <!-- // -->
+            {% endif %}
         </content>
         <footer>
             <!-- Footer goes here -->
