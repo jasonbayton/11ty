@@ -22,7 +22,7 @@ The following examples offer a complete DPC extra snippet that can be copied and
 
 <div class="callout callout-info">
 
-#### Editing ADMIN EXTRAS BUNDLE
+### Editing ADMIN EXTRAS BUNDLE
 
 To be of value, the ADMIN\_EXTRAS\_BUNDLE should ideally at least include the server URL or identifier (where appropriate), however lines for username, password, and more can optionally be omitted to allow the config to remain generic.
 
@@ -30,27 +30,25 @@ JSON doesn’t leave room for error – the last line within ADMIN\_EXTRAS\_BUND
 
 </div><div class="callout callout-warning">
 
-#### Trust but verify
+### Trust but verify
 
 Most of these DPC extra collections have been submitted either by EMM vendors or customers of the EMM referenced. The vendor may make changes to the extras they provide **without my knowledge** so it is recommended should the below extras fail to properly work, that you validate with your EMM before contacting me (but do feel free to reach out with updates!)
 
 </div><div class="callout callout-danger">
 
-#### Usernames &amp; passwords
+### Usernames &amp; passwords
 
 Unless the username and password are stipulated for the purpose of **staging**, they should **not** be included at all due to the potential security risks associated. If an IMEI not belonging to an organisation is mistakenly added (typo, miscommunication, human error), the device will be able to enrol automatically and potentially gain access to corporate resources.
 
 </div>
 
-Google announces zero-touch EMM integration 
---------------------------------------------
+## Google announces zero-touch EMM integration 
 
 For those who consider copying and pasting JSON code a bit of a pain, you’re in luck; Google announced the zero-touch iFrame, allowing EMMs to integrate with a customer zero-touch account, allowing – [amongst other features](/2020/11/google-announce-big-changes-to-zero-touch/) – the ability to manage DPC extras automatically.
 
 Reach out to your vendor to ask when this functionality will be available.
 
-MobileIron
-----------
+## MobileIron
 
 <pre>
 {
@@ -63,9 +61,7 @@ MobileIron
 }
 </pre>
 
-AirWatch / Workspace One UEM
-----------------------------
-
+## AirWatch / Workspace One UEM
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -78,9 +74,7 @@ AirWatch / Workspace One UEM
 }
 </pre>
 
-SOTI
-----
-
+## SOTI
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -90,9 +84,7 @@ SOTI
 }
 </pre>
 
-MaaS360
--------
-
+## MaaS360
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -108,9 +100,7 @@ MaaS360
 }
 </pre>
 
-Codeproof EMM
--------------
-
+## Codeproof EMM
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -122,9 +112,7 @@ Codeproof EMM
 }
 </pre>
 
-Intune
-------
-
+## Intune
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -134,9 +122,7 @@ Intune
 }
 </pre>
 
-Miradore
---------
-
+## Miradore
 
 <pre>{ 
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -148,9 +134,7 @@ Miradore
 }
 </pre>
 
-BlackBerry UEM
---------------
-
+## BlackBerry UEM
 
 <pre>{ 
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -163,9 +147,7 @@ BlackBerry UEM
 }
 </pre>
 
-FAMOC
------
-
+## FAMOC
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -176,9 +158,7 @@ FAMOC
 }
 </pre>
 
-mySync
-------
-
+## mySync
 
 <pre>{ 
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -189,9 +169,7 @@ mySync
 }
 </pre>
 
-XenMobile
----------
-
+## XenMobile
 
 <pre>{ 
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -203,9 +181,7 @@ XenMobile
 }
 </pre>
 
-VXL Fusion UEM
---------------
-
+## VXL Fusion UEM
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -216,9 +192,7 @@ VXL Fusion UEM
 }
 </pre>
 
-Samsung Knox Manage
--------------------
-
+## Samsung Knox Manage
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -231,9 +205,7 @@ Samsung Knox Manage
 }
 </pre>
 
-Chimpa MDM
-----------
-
+## Chimpa MDM
 
 <pre>{ 
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>, 
@@ -249,9 +221,7 @@ Chimpa MDM
 0 Fully Managed   
 **1** Enhanced Work Profile (Android 11+)
 
-42Gears SureMDM
----------------
-
+## 42Gears SureMDM
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": <strong>true/false</strong>,
@@ -262,9 +232,7 @@ Chimpa MDM
 }
 </pre>
 
-Meraki Systems Manager
-----------------------
-
+## Meraki Systems Manager
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -274,9 +242,7 @@ Meraki Systems Manager
 }
 </pre>
 
-TinyMDM
--------
-
+## TinyMDM
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,<strong>
@@ -286,9 +252,7 @@ TinyMDM
 }
 </pre>
 
-Matrix42
---------
-
+## Matrix42
 
 <pre>{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
@@ -300,8 +264,7 @@ Matrix42
 }
 </pre>
 
-Other interesting zero-touch config options
--------------------------------------------
+## Other interesting zero-touch config options
 
 The following additional options go **before** the ADMIN\_EXTRAS\_BUNDLE line and may require EMM support to function:
 
@@ -313,7 +276,6 @@ The following additional options go **before** the ADMIN\_EXTRAS\_BUNDLE line an
 
 [Here’s a few more.](https://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#EXTRA_PROVISIONING_ACCOUNT_TO_MIGRATE)
 
-Submit zero-touch DPC extras
-----------------------------
+## Submit zero-touch DPC extras
 
-If you’d like to see your DPC extras added to this list, please fill out [this form](https://goo.gl/forms/igE9wXZFO1qX2qjm1) or comment below.
+If you’d like to see your DPC extras added to this list, please raise an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) or edit this content and create a pull request through the link at the bottom of the page.
