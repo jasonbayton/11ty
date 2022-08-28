@@ -20,8 +20,7 @@ The following DPC identifiers (EMM tokens) can be used during Android Enterprise
 
 To use them, follow the setup wizard on the Android device until a Google account is requested. In place of a Google account, type the DPC identifier beginning with **afw#**. Check out [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/) for a visual guide (search for DPC identifier).
 
-DPC identifiers
----------------
+## DPC identifiers
 
 <small>Use Ctrl + F or your device equivalent to search for your EMM solution as it may take some time to scroll through the below tokens line by line.</small>
 
@@ -209,12 +208,10 @@ DPC identifiers
 </div>
   
 
-Submit a DPC identifier
------------------------
+## Submit a DPC identifier
 
 If you’d like to see a DPC identifier added to this list, you can [edit this page](https://github.com/jasonbayton/11ty/blob/main/_src/android/android-enterprise-dpc-identifier-collection.md) or [contact me](/contact).
 
-Request a DPC identifier from Google
-------------------------------------
+## Request a DPC identifier from Google
 
 If your EMM doesn’t have a DPC identifier today and you’d like to request one, make a request in the [EMM Community](https://emm.androidenterprise.dev/s/) (access required).
