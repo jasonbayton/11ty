@@ -34,8 +34,7 @@ There are two scenarios for which the zero-touch console is used, as an organisa
 
 </div>
 
-Prerequisites
--------------
+## Prerequisites
 
 In order to gain access to the zero-touch console and configure devices, you must:
 
@@ -45,16 +44,14 @@ In order to gain access to the zero-touch console and configure devices, you mus
 
 Any of the above steps not completed will result in an inability to configure devices.
 
-Getting started
----------------
+## Getting started
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ScreenShot2017-10-18at3.45.10PM.png)
 *The simple zero-touch process*
 
 The zero-touch portal is designed with absolute simplicity in mind; much like the DEP portal (if you’ve ever used it) it’s basically there for you to infrequently log in, create or assign a config to managed devices and carry on with all other management via your normal EMM solution.
 
-Creating configurations
------------------------
+## Creating configurations
 
 Once logged in, head over to **Configurations** to set one (or more) up, ready to assign to your devices:
 
@@ -81,8 +78,7 @@ After which provide your company name, contact email, contact phone and an optio
 
 When complete, click **APPLY** to save the configuration and close out the popup.
 
-Setting a default configuration
--------------------------------
+## Setting a default configuration
 
 Once you’ve created several configurations (or even just the one), you may wish for all devices added by a reseller to be given a configuration by default, thus avoiding having to sign into the console every time a new device order is made. Above the list of configurations is a **Default Configuration** setting:
 
@@ -90,8 +86,7 @@ Once you’ve created several configurations (or even just the one), you may wis
 
 Simply click the arrow to the right of **Select a configuration** and choose one from the dropdown list.
 
-Applying configurations manually
---------------------------------
+## Applying configurations manually
 
 Click on **Devices** on the left-hand side. Once loaded you’ll be presented with a search area and a list of registered devices. Devices can be searched for based on IMEI, MEID or Serial number, or simply located by scrolling down the list.
 
@@ -101,8 +96,7 @@ Once located, click the arrow to the right of **No config** (or a presently-sele
 
 Confirm this selection when prompted. The device will now automatically enrol into the EMM of your choice when either first taken out of the box or on the next factory reset!
 
-Deleting configurations
------------------------
+## Deleting configurations
 
 Should a configuration no longer be required, head back into **Configurations** and click **EDIT** to the right of the configuration you wish to delete:
 
@@ -110,8 +104,7 @@ Should a configuration no longer be required, head back into **Configurations** 
 
 Click **DELETE CONFIG**. There is no confirmation so ensure you’ve selected the correct one before continuing!
 
-Removing devices
-----------------
+## Removing devices
 
 Should a device no longer require management, be that due to it being a parting gift for a leaving employee, device destruction or anything else, use the search area or scroll down the device list to locate the device on the **Devices** page. Once located, click **UNREGISTER**.
 
@@ -119,8 +112,7 @@ Should a device no longer require management, be that due to it being a parting 
 
 You’ll need to confirm this action and please be aware **this is not easily reversible**! Once unregistered, you’ll need to contact your reseller to re-add the device back into your console manually; not an action to be taken on a whim.
 
-Adding admins
--------------
+## Adding admins
 
 The zero-touch console offers the ability to add other users for easier management. There are two roles available when adding a user, **Owner** and **Admin**. The only real difference between the roles is admins cannot add other admins, these roles can be changed at any time. To get started, click on **Manage People**:
 
@@ -130,8 +122,7 @@ Click the **+** icon on the right-hand side of the organisation name to add a ne
 
 Input the **Email Address**, **Role** and click **APPLY.**
 
-Removing admins
----------------
+## Removing admins
 
 To delete an admin, head back into **Manage People** and click **EDIT** to the right of the admin you wish to delete:
 
@@ -139,8 +130,7 @@ To delete an admin, head back into **Manage People** and click **EDIT** to the r
 
 Click **DELETE**. There is no confirmation so ensure you’ve selected the correct admin before continuing!
 
-Adding resellers
-----------------
+## Adding resellers
 
 Occasionally you may wish to change resellers when purchasing zero-touch compatible devices. While it’s perfectly acceptable to request the new reseller sets you up with an account, the more convenient option for managing all devices from within one console is to simply add the new reseller to the existing console. To do so, head over to **Resellers.**
 
@@ -152,8 +142,7 @@ Click **CONFIRM** on the popup.
 
 In the background, this sends a request to the reseller to accept your customer account. The reseller must accept your account in order to add devices into your console! Resellers cannot add themselves to your account without you opting to enroll, and once enrolled the new reseller cannot see the existing devices on your console, only those they add themselves.
 
-Removing resellers
-------------------
+## Removing resellers
 
 To remove a reseller, likely after all existing devices are unregistered and the relationship with the reseller terminated, head over to **Resellers**.
 
