@@ -152,7 +152,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid var(--light);
+    border-top: 1px solid var(--text);
 }
 
 *:focus {
@@ -347,6 +347,7 @@ content#home {
   font-size: 24px;
   padding: 10px;
   background-color: var(--blue);
+  border-radius: 5px;
 }
 
 #android_head {
@@ -455,7 +456,7 @@ section#trusted_logos #trusted_container {
 }
 
 #vendor_logo_container {
-  padding: 10px 30px 0;
+  padding: 20px 30px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto;
