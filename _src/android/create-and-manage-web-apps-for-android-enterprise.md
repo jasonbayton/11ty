@@ -18,8 +18,7 @@ discourse_permalink:
 ---
 In December 2018, Google quietly introduced support for web app generation within the Google Play iFrame, allowing for long-requested web shortcut support for Android Enterprise deployments.
 
-Context
--------
+## Context
 
 For years it’s been possible to push shortcuts to websites to Android devices, however despite its popularity this functionality, for one reason or another, never made it into Android Enterprise.
 
@@ -28,8 +27,7 @@ A feature I’ve requested from Google many times as it comes up frequently in c
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-2.png)
 *October 2018. 9.0 isn’t even shown yet.*
 
-The proposed solution
----------------------
+## The proposed solution
 
 The functionality introduced isn’t technically shortcut support, but rather a very simple, automated means of creating web applications from a few pieces of information:
 
@@ -44,8 +42,7 @@ Web apps are published privately to the Android Enterprise organisation ID they�
 
 Web app support is not tied to an Android version and should therefore be applicable for all current Android Enterprise deployments immediately (as long as the UEM supports iFrame).
 
-How it works
-------------
+## How it works
 
 The following is demonstrated in VMware Workspace One UEM, but the process is identical in all UEMs supporting the iFrame (those that don’t cannot use this functionality).
 
@@ -73,8 +70,7 @@ Some UEMs will import web apps automatically. Others will not. For the latter, s
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-3.png)
 
-Conclusion
-----------
+## Conclusion
 
 Although not technically shortcut support, I feel like this offers a nice, simple alternative that’s very easy to create and, should an organisation ever swap UEMs, simple to reimport for redistribution without having to manually recreate them. Furthermore, because this is not tied to an Android core feature, web app support is fully backwards-compatible!
 

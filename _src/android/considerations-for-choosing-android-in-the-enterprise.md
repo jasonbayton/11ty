@@ -24,8 +24,7 @@ The below document covers off a number of both Android and Android Enterprise fe
 
 </div>
 
-Android is secure
------------------
+## Android is secure
 
 The perception of Android security being subpar has long been proven incorrect. From Google’s pivot to enterprise in Android 5.0 Lollipop to today, security has been a key focus of every release.
 
@@ -68,6 +67,14 @@ Android benefits from a monthly security patch cycle to maintain high levels of 
 
 In 2017 over a billion devices were receiving security patches, this will only have increased further in 2018 following the introduction of Android Enterprise Recommended; devices in the Android Enterprise Recommended programme are mandated to push these updates within 90 days of Google’s release, with the Android One programme complimenting this further by mandating a security update every 30 days.
 
+### Project mainline (Google Play System Updates)
+
+Since Android 10, Google has been migrating core Android OS components into independently updatable mainline modules. These take aspects of the OS that have previously only been updatable through an OEM-distributed OTA update (as and when that OEM felt like doing one) and allow them to be updated additionally through Google Play, mostly in the background like many other applications.
+
+In Android 10 the number of modules sat at 12, while in Android 13 this has grown to 30 modules, including connectivity, multimedia, and core framework components. 
+
+In addition to monthly security updates (SPLs, security patch level, delivered as SMRs, security maintainance releases), Google Play System Updates can be distrubited as and when required to tackle component-level security issues or bug fixes. This dramatically improves time to resolution for issues in comparison to other OS platforms.
+
 ### Play Protect
 
 Google’s Play Protect suite of solutions includes the world’s largest anti-virus service, analysing 500,000 applications, and scanning over 50 billion on Google Play, on-device and crawling the web every day.
@@ -82,8 +89,7 @@ Android’s open source nature allows anyone, anywhere to access the code that m
 
 Vulnerabilities and bugs therefore aren’t dependent on Google for discovery, but can be found by anyone who takes the time to dive into the repositories; the source remains under constant scrutiny by the wider community which leads to a stronger OS.
 
-Android is evolving
--------------------
+## Android is evolving
 
 Some years ago recommending an Android device in the enterprise may have raised an eyebrow. Prior to Android 5.0 security was not perceived to be a priority and management (outside of Samsung at least) was hardly reliable.
 
@@ -101,8 +107,7 @@ Even today things are improving still, with the [introduction of OEMConfig](/and
 
 OEMs such as Samsung and Zebra have &gt;1000 APIs available in addition to fundamental Android Enterprise capabilities for incredibly granular management. Through OEMConfig, these APIs can be (and are for Zebra) exposed for simple, zero-day support of every new feature published. More and more OEMs will build out their unique management capabilities as OEMConfig evolves. </div>Check out the [linked article](/android/what-is-oemconfig/) to understand how OEMConfig will transform Android management.
 
-Android is flexible
--------------------
+## Android is flexible
 
 Organisations demand flexibility; in process, use-case, form factor and budget. Android is the most versatile mobile OS on the planet.
 
@@ -158,8 +163,7 @@ Organisations can of course opt for flagship handsets and pay the premiums assoc
 
 Those purchased on the mid-range scale benefit equally from security patches, OS upgrades, excellent battery life and more. These days budget doesn’t mean poor quality.
 
-Android is simple to manage
----------------------------
+## Android is simple to manage
 
 Taking Gartner’s research into consideration, highlighting Android’s clear lead in security controls over iOS, here are some examples of how Android excels in simplicity of management:
 
@@ -185,8 +189,7 @@ Application update control may be just as important, whether to update immediate
 
 Android does all of this, providing complete, granular control over when and how updates occur for managed devices to ensure devices remain secure, or to offer a little extra time for testing before initiating a corporate roll-out. Samsung’s e-FOTA service takes this a step further, offering the ability to target a particular OS version until such time later versions have been validated by the business.
 
-Android supports work/life balance
-----------------------------------
+## Android supports work/life balance
 
 It’s not all about how a device is managed during business hours, employees may be glued to their devices 7 days a week! Providing tools to promote a stronger work/life balance by encouraging downtime and trust amongst employees is crucial to ensure a happy, healthy and productive workforce. Here’s how Android can help:
 
@@ -194,9 +197,9 @@ It’s not all about how a device is managed during business hours, employees ma
 
 Downtime is an important aspect of modern life. Being always-on, always connected can be detrimental to employee health and well-being, so providing tools to quickly and easy fully disconnect from work is an incredibly important feature, one which puts end-users in control as much as administrators.
 
-The work profile can be turned off with a simple toggle of the quicksettings tile, or within the app drawer (OEM launcher support required) at any time, and from Android 11 can even be scheduled through Digital Wellbeing policies. All corporate applications will temporarily disable and no notifications, sync or any other related activities will be performed until the profile is turned back on.
+The work profile can be turned off with a simple toggle of the quicksettings tile, or within the app drawer (OEM launcher support required) at any time, and from Android 11 can even be scheduled through Digital Wellbeing. All corporate applications will temporarily disable and no notifications, sync or any other related activities will be performed until the profile is turned back on.
 
-For countries with laws around the right to disconnect, EMM policies can automate this functionality as required, where supported, and from Android 11 also set policies targeting the maximum amount of time the work profile can be disabled.
+For countries with laws around the right to disconnect, EMM policies can automate this functionality as required, where supported, and from Android 11 can also set policies depicting the maximum amount of time the work profile can be disabled to ensure employees can't abuse this feature.
 
 ### Promoting privacy
 
@@ -212,7 +215,6 @@ Check out this [dedicated article](https://www.brianmadden.com/opinion/BYOD-priv
 
 As Android 11 [relies on the work profile deployment scenario](/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) for enabling its work profiles on company owned devices deployment scenario, all of the above equally applies to COPE deployments on anything running Android 11 or later.
 
-Conclusion
-----------
+## Conclusion
 
 With the above in mind, hopefully the case for Android in the enterprise has been adequately made, but this is only scratching the surface. For more details on Android Enterprise, the modern management solution for Android devices, check out the vast selection of documents, guides and articles located here: [Android](/android).

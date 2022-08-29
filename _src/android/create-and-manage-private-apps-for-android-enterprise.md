@@ -18,8 +18,7 @@ discourse_permalink:
 ---
 In December 2018, Google quietly introduced support for private app upload within the Google Play iFrame, allowing for simple, straightforward upload of in-house applications without the hassle associated with uploading to the Google Play console directly.
 
-Context
--------
+## Context
 
 With a switch to Android Enterprise, the recommended means for distributing corporate, in-house applications is through managed Google Play. UEMs *can* support silently pushing uploaded APKs directly to devices from the UEM platform, either UEM-hosted or by leveraging the externally hosted app capability Google has previously offered, but this isn’t consistent across UEMs in the way uploading an app directly to Play has been, and so the general recommendation has remained largely unchanged.
 
@@ -31,8 +30,7 @@ Uploading apps to the Google Play Store, however, is not straightforward:
 
 ..and more. The process has left a lot to be desired for a long time.
 
-The proposed solution
----------------------
+## The proposed solution
 
 In this case, rather than incrementally improve the process, Google seems to have taken the [previously announced feature](https://support.google.com/a/answer/2494992) for G Suite and applied it to the Google Play iFrame. With only a little information, organisations can quickly and easily upload their private applications with very little effort:
 
@@ -41,10 +39,19 @@ In this case, rather than incrementally improve the process, Google seems to hav
 
 Once submitted, the app will be uploaded to managed Google Play against the Android Enterprise organisation ID in which the UEM is binded. Apps uploaded in this way cannot be made public, and therefore are only useful for internal, non-public applications.
 
-It’ll take a little while for the app to upload and become available for use, but once complete, the app can be imported into the UEM as with any other public or previously Google Play-uploaded private application.
+<div class="callout callout-warning">
 
-How it works
-------------
+### Note on package names
+
+When uploading an app to Google Play, the package name **must be unique**. If your organisation is considering an initial internal release to then make available publicly at a later date (or even if not, but this is still a consideration) it must be noted that the package name `com.package.name` must be unique for each upload. 
+
+A simple recommendation would be to append `.internal` to the package name when uploaded to the Managed Google Play iFrame, to make `com.myapp.internal`, which can be omitted for future public release - `com.myapp`.
+
+</div>
+
+It’ll take a little while for the app to upload and become available for use (though comparatively extremely quickly compared to a fully public Google Play rollout), but once complete, the app can be imported into the UEM as with any other public or previously Google Play-uploaded private application.
+
+## How it works
 
 The following is demonstrated in VMware Workspace One UEM, but the process is identical in all UEMs supporting the iFrame (those that don’t cannot use this functionality).
 
@@ -72,8 +79,7 @@ If you click the app, you’ll be taken into the details view for it, where you�
 
 Some UEMs will import private apps automatically. Others will not. For the latter, simply add an app as you normally would, switch to the private apps tab in the iFrame, click the app in question and click **Select**. Alternatively if the UEM supports it, run an import from Play to get it.
 
-Conclusion
-----------
+## Conclusion
 
 An improvement to the process of uploading private apps to Google Play has been long-overdue, but definitely worth the wait for them to get it right.
 

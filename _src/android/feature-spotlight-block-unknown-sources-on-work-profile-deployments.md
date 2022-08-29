@@ -22,8 +22,7 @@ In November 2018, Google released a new feature enabling the ability to disable 
 
 In Android 10 this feature became a natively supported AE API, rather than one managed through Google Play Services.
 
-Context
--------
+## Context
 
 App installation via unknown sources remains a primary source of potentially harmful applications (PHA), with users being considerably more likely to install a PHA when downloading APKs from the internet, email or other means compared to those who only install applications from the Play Store.
 
@@ -35,8 +34,7 @@ This is a good thing, and a differentiating feature with Android.
 
 BYOD deployments are just that, *bring your own* as opposed to using a corporate device. Which means users will have their own apps, data, and *control* over their personally owned devices, extending also to what and how they install applications.
 
-Why this matters
-----------------
+## Why this matters
 
 Unfortunately, while many PHAs aren’t massively harmful, many more do have the ability to be quite disruptive. They can target the SIM, network, device, leverage vulnerabilities, abuse permissions and more.
 
@@ -44,8 +42,7 @@ Even with corporate data securely isolated and separately encrypted from the par
 
 Without a way of preventing PHAs from being sideloaded, there is a level of risk which entirely relies on the end-user as the last line of defence.
 
-The solution
-------------
+## The solution
 
 With the introduction of this new feature, installation from unknown sources on work profile devices can be prevented. Unusually, this has been introduced in a GMS update and therefore is supported as far back as Android 6.0.
 
