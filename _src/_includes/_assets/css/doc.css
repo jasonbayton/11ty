@@ -132,6 +132,22 @@ section#feedback {
     justify-self: end;
 }
 
+section#link_out {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 30px;
+    margin-top: 40px;
+}
+
+.links-out a {
+    padding: 20px;
+    background-color: var(--blue);
+    border-radius: 5px;
+    display: block;
+}
+
 section#comment-system {
     grid-column-start: 2;
     /* this may cause issues */
@@ -148,7 +164,7 @@ section#comment-system {
         grid-column-gap: 0;
     }
 
-    section#feedback, section#comment-system {
+    section#feedback, section#comment-system, section#link_out {
         grid-column-start: 1;
     }
 
