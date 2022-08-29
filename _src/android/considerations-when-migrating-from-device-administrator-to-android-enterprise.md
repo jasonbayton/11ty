@@ -8,13 +8,6 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 5062
-doccats:
-    - Android
-Version:
-    - '1.5'
-publish_post_category:
-    - '6'
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-when-migrating-from-device-administrator-to-android-enterprise/30'
 FeaturedBackground:
@@ -34,8 +27,15 @@ It is important to understand the implications of a migration from a device admi
 
 The key to undertaking any migration is communication, planning and as much testing as is necessary to understand every possible challenge the organisation may face when making a fundamental change to how devices are managed. With those in mind, the following must also be taken into consideration for Android Enterprise.
 
-G Suite or managed Google Play accounts
----------------------------------------
+## G Suite or managed Google Play accounts
+
+<div class="callout callout-success">
+
+### This may soon be changing (again)
+
+As part of Google's Better Together project, the way organisations create, bind, and interface with accounts, not only within Android Enterprise, but across the whole Google Enterprise space, is changing. The below is how it is as of mid-2022
+
+</div>
 
 Organisations leveraging G Suite may find it easier to integrate directly with their EMM platform in order to make use of G Suite accounts (managed Google accounts) and authentication when enrolling corporate Android devices. G Suite enrolment is like that of the DPC identifier (EMM Token); when putting in the account of a G Suite address, the device will become a fully managed device, controlled either by the native G Suite EMM or a connected 3rd party. The process for connecting a 3rd party EMM can be somewhat cumbersome, however the benefits of far greater management capabilities outweigh the work required.
 
@@ -43,8 +43,7 @@ Managed Google Play accounts are better suited for all other circumstances, as t
 
 For G Suite customers, the pertinent question is *do we need G Suite identity in the EMM?* If the answer is no, and the organisation is happy to simply push out apps and services users can authenticate with using their G Suite accounts, then there’s little benefit to using managed Google accounts and managed Google Play accounts are a better choice.
 
-Android OS version
-------------------
+## Android OS version
 
 Android Enterprise became mandatory with 6.0, Marshmallow. Although 5.0 *should* support Android Enterprise (work profile, at least), there’s a good chance this will not be the case and for that reason is arguably not worth including in migration plans due to foregoing features and the additional testing required to validate compatibility. Any devices running a version of Android under 5.0 are not natively supported and should not be considered for migration.
 
@@ -60,8 +59,7 @@ Always ensure in a hybrid scenario Android Enterprise is configured below the to
 
 </div>
 
-Supported features
-------------------
+## Supported features
 
 Like iOS and legacy Android (Samsung in particular with Knox), with each major Android version, additional functionality is often added. This is equally no different in an enterprise context. Depending on the functionality required for various areas of an organisation, it may make sense to refresh some devices sooner rather than later. The full list of supported functionality per OS version can be found [here](https://developers.google.com/android/work/requirements/features), however as a very brief example:
 
@@ -79,11 +77,11 @@ Like iOS and legacy Android (Samsung in particular with Knox), with each major A
 
 It’s therefore pertinent to ensure for example where functionality such as a secondary passcode for a secure container is required, the devices being migrated run at least Android 7.0, and so on.
 
-Provisioning methods
---------------------
+## Provisioning methods
 
 Android Enterprise launched with NFC for fully managed provisioning. With each major version launched up to 8.0, a new provisioning method has launched also. The following shows which provisioning methods can be used on each major version of Android:
 
+- Android 9.0 & later: all of the below
 - Android 8.0 Oreo: managed Google account, NFC, DPC identifier, QR code, zero-touch
 - Android 7.0 Nougat: managed Google account, NFC, DPC identifier, QR code
 - Android 6.0 Marshmallow: managed Google account, NFC, DPC identifier
@@ -93,8 +91,7 @@ QR code and zero-touch provisioning methods are considered optional and may not 
 
 More information about provisioning methods can be found [here](/android/what-is-android-enterprise-and-why-is-it-used/#nfc-provisioning).
 
-Deployment scenarios
---------------------
+## Deployment scenarios
 
 Similar to provisioning methods, deployment scenarios available today are also (though somewhat less) Android version dependent, with the below list intentionally excluding Android 5.x:
 
@@ -106,8 +103,7 @@ Similar to provisioning methods, deployment scenarios available today are also (
 
 Work profiles on fully managed devices, which is commonly referred to as a COPE deployment, is available on Android 8.0-10 and offers the closest experience to a traditional device administrator deployment. From 11 this is replaced by work profiles on company owned devices, which is closer to a BYOD deployment with additional control.
 
-EMM support
------------
+## EMM support
 
 Just as functionality is added with Android updates, so too will management capabilities be added with EMM platform updates. A concern more for organisations running EMM platforms on-premise than SaaS/cloud, some functionality may not be available until the platform has been updated to a minimum version.
 
@@ -115,8 +111,7 @@ One example is MobileIron Core, where support for Android Enterprise managed Goo
 
 Even so, not all EMMs will support all functionality due to time/budget constraints/demand, which is of course the same constraint all OS platforms are limited by. The organisation therefore will need to validate the functionality required is also supported by their EMM, something that should be much easier to do with the introduction of [Android Enterprise Recommended for EMMs](/2019/01/aer-expands-android-enterprise-recommended-for-emms/).
 
-EMM preparation
----------------
+## EMM preparation
 
 Simply binding an organisation’s EMM platform with Google won’t necessarily do anything (there are of course exceptions to this, and please ensure this is checked before enabling it, [see above](#planning-required)) until further Android Enterprise configurations/profiles/groups/etc have been created and applied.
 
@@ -136,8 +131,7 @@ A general piece of advice is not to assign apps/configs/policies/etc to such far
 
 </div>
 
-Undertaking a work profile migration
-------------------------------------
+## Undertaking a work profile migration
 
 <div class="callout callout-success">
 
@@ -145,7 +139,9 @@ Undertaking a work profile migration
 
 An overview of work profile can be found [here](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile).
 
-</div>The simplest, most straightforward migration route from device administrator to Android Enterprise is [work profile](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile). This is because it can be achieved with an OTA configuration change which will (on supported EMMs):
+</div>
+
+The simplest, most straightforward migration route from device administrator to Android Enterprise is [work profile](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile). This is because it can be achieved with an OTA configuration change which will (on supported EMMs):
 
 - Initiate the creation of a work profile on the device
 - Remove the device administrator
@@ -156,8 +152,7 @@ In doing so, the existing configurations pushed to the device still applied will
 
 This isn’t, however, a comparable deployment. By switching from device administrator to work profile the organisation is relinquishing almost all control over the parent profile, or the *rest of the device*, and only controlling what happens essentially within a “container”. This therefore is likely not a popular migration, however it is the only path that **doesn’t involve a factory reset** and provisioning from a *new state*.
 
-Undertaking a fully managed migration
--------------------------------------
+## Undertaking a fully managed migration
 
 <div class="callout callout-success">
 
@@ -165,7 +160,9 @@ Undertaking a fully managed migration
 
 An overview of fully managed can be found [here](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices).
 
-</div>The migration from device administrator to a fully managed deployment scenario is a disruptive one as it requires a device is factory reset.
+</div>
+
+The migration from device administrator to a fully managed deployment scenario is a disruptive one as it requires a device is factory reset.
 
 Whether this can be done by end-users or requires a visit back to base entirely depends on the technical abilities of the workforce. Typically it’s a bit of a mix and therefore some will be happy to follow an [informative provisioning guide](/android/android-enterprise-provisioning-guides/) while others will need to book an appointment with IT. The work-effort can only really therefore be estimated by the organisation, not forgetting to add in time to back up any unsaved data as this will be lost during the transition; again some users may be able to do this, others may not.
 
@@ -202,8 +199,7 @@ Furthermore, consider PIM:
 
 These three, well-supported applications offer a native experience for end-users who may not be used to other Android PIM applications. Of course, just as Gmail supports managed configuration for pre-configuring the exchange/mail accounts (with Kerberos support also) so do others.
 
-Final words
------------
+## Final words
 
 If it isn’t clear already, a migration from a legacy deployment to that of Android Enterprise for anything other than work profile is not to be taken lightly, even a work profile migration requires thought and attention (and a lot of testing) to ensure it can be undertaken with the least amount of disruption.
 

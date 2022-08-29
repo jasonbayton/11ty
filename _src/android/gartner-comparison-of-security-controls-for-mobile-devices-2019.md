@@ -18,15 +18,13 @@ discourse_permalink:
 ---
 Gartner have released their comparison of security controls for mobile devices 2019, in which Android does exceptionally well, scoring the highest possible rating in 26 of 30 security categories!
 
-A recreated version
--------------------
+## A recreated version
 
 As the original suffers with poor image quality I’ve created the following copy for educational purposes. Feel free to click the image for the PDF version:
 
 [![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Gartner-Comparison-of-Security-Controls-2019-copy-1.jpg)](https://r2_worker.bayton.workers.dev/download/doc/ae-general/Gartner_Comparison_of_Security_Controls_2019.pdf)
 
-The originals
--------------
+## The originals
 
 For the official version, as shown in the below video, scroll down.
 

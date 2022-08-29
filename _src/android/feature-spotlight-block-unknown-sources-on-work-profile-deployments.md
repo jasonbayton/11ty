@@ -8,11 +8,6 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 7098
-doccats:
-    - Android
-publish_post_category:
-    - '14'
 discourse_permalink:
     - 'https://discuss.bayton.org/t/feature-spotlight-block-unknown-sources-on-work-profile-deployments/243'
 ---

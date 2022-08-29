@@ -18,17 +18,15 @@ discourse_permalink:
 FeaturedBackground:
     - android
 ---
-What is it?
------------
+## What is it?
 
 Debuted back with Android Lollipop, Factory Reset Protection (FRP) has proven to be a rather touchy subject; while on the one hand it offers an excellent means of protection against a device being factory reset in an unauthorised manner, such as typing the passcode incorrectly too many times or wiping via recovery for example, on the other hand it has been solely responsible for many Android bricks littering drawers and cabinets the world over.
 
-Particularly for enterprise, the necessity for Google accounts and the limitations in place for maintaining control on legacy Android enrolments has almost guaranteed organisations end up seeing the dreaded FRP sooner or later, and is something that affects organisations on a frequent basis even today according to sources at a large OEM I’ve spoken with. While in many cases devices locked due to FRP can be repaired, it can be a costly and time-consuming process.
+Particularly for enterprise, the necessity for Google accounts and the limitations in place for maintaining control on legacy Android enrolments has almost guaranteed organisations end up seeing the _dreaded_ FRP sooner or later, and is something that affects organisations on a frequent basis even today according to the OEMs I've spoken with. While in many cases devices locked due to FRP can be repaired, it can be a costly and time-consuming process.
 
-How does it work?
------------------
+## How does it work?
 
-When setting up an Android device from a factory-reset state, during the wizard the end-user can add their Google account. The process of adding said account then activates device security features, including FRP.
+When setting up an Android device from a factory-reset state, during the wizard the end-user can add their Google account. The process of adding said account, and a device PIN, then activates device security features, including FRP.
 
 Should a device then be factory reset in an unauthorised manner, the act of removing the account undertaken during a normal factory reset will not complete and thus the Google account remains associated with the device.
 
@@ -36,8 +34,7 @@ On setting the device back up after a factory reset, it will check for the assoc
 
 For devices with multiple Google accounts added, normally the first added will be associated with FRP, however this can be easily validated by logging into [Find my Device](https://www.google.com/android/find) with the Google accounts on the device. Whichever account the device appears in is the account FRP is associated to.
 
-What has been supported?
-------------------------
+## What has been supported?
 
 Most UEM solutions will offer the capability to disable FRP for fully managed devices, but nothing more. This means a device can be factory reset in an unauthorised manner and allow setup with no concerns over triggering FRP.
 
@@ -49,8 +46,7 @@ Yep.
 
 The obvious way around this has been zero-touch, since it will immediately request the device is set back up under UEM management, but since zero-touch is an Oreo feature, resellers are limited and many organisations are yet to implement it, there are a considerable number of devices out in the wild for which this would not be a consideration.
 
-A better solution for FRP management
-------------------------------------
+## A better solution for FRP management
 
 With the introduction of Workspace One UEM 9.6 and MobileIron Cloud R56, enhanced FRP management capabilities (available since Android 5.1) have *finally* been implemented. Intune has had this a few months already, also, however only supporting COSU currently means its use is limited (though appreciated nonetheless).
 
@@ -58,8 +54,13 @@ Instead of simply disabling FRP, organisations are now able to whitelist one or 
 
 FRP management is configured entirely within the UEM, and accounts can be added/removed on the fly. Obviously as with most enterprise accounts, these should be generic for the team and not personal Google accounts.
 
-Setting it up
--------------
+## A caveat
+
+With this improved implementation, it does force end-users of devices going into FRP to reach out to the organisation admin in order to retrieve both the **account** and the **account password**. 
+
+It is therefore very much recommended the password set on the whitelisted Google account is rotated frequently to avoid the credentials leaking organisation-wide.
+
+## Setting it up
 
 FRP management, and the act of whitelisting accounts is a very straightforward process across supported UEM platforms.
 
@@ -84,13 +85,11 @@ Simply head over to [People: Get](https://developers.google.com/people/api/rest/
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-1.png)
 
-The end user experience
------------------------
+## The end user experience
 
 https://www.youtube.com/embed/rYxcC9XYgVI
 
-Conclusion
-----------
+## Conclusion
 
 The lack of any feasible means of stopping a device being taken out of management should it be factory reset has been something I’ve taken issue with for some time; between asking Google for other means of preventing a reset (such as limiting access to recovery) and frequently bringing the issue up to UEM vendors, I am really pleased to see the eventual implementation of a solution; it plugs a pretty simple means of avoiding corporate management and should go some way to ensuring devices under management stay that way.
 

@@ -18,8 +18,7 @@ discourse_permalink:
 ---
 As more OEMs adopt zero-touch as standard for devices, whether Android Enterprise Recommended or not, organisations may find customer interest in the deployment method is rapidly increasing. Applying to join the zero-touch reseller programme is quick and simple, and enables organisations to offer a true out of box experience.
 
-Who can become a zero-touch enrolment reseller?
------------------------------------------------
+## Who can become a zero-touch enrolment reseller?
 
 Whether you’re a distributor, carrier, OEM or any other organisation working with devices, you may qualify for zero-touch enrolment reseller status if you meet the following requirements:
 
@@ -28,8 +27,7 @@ Whether you’re a distributor, carrier, OEM or any other organisation working w
 
 If you sell devices via a single distributor, it may be worth first exploring if it’d be more efficient for the distributor to handle zero-touch enrolment, should they support this.
 
-Apply for the zero-touch reseller programme
--------------------------------------------
+## Apply for the zero-touch reseller programme
 
 To apply to become a zero-touch reseller, head to the [zero-touch partner portal](https://zt.androidenterprise.dev) and register. The zero-touch team will be in touch should they require more information to progress the application.
 

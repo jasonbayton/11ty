@@ -20,10 +20,9 @@ discourse_permalink:
 FeaturedBackground:
     - android
 ---
-Android Enterprise Recommended is a validation programme offered by Google for devices, vendors and partners launched in February 2018. The program currently focuses on devices and EMMs, but will continue to extend out to carriers and MSPs in 2019.
+Android Enterprise Recommended is a validation programme offered by Google for devices, vendors and partners launched in February 2018. The program currently focuses on devices, MSPs, Carriers, and EMMs and will continue to expand over time.
 
-Android Enterprise Recommended devices
---------------------------------------
+## Android Enterprise Recommended devices
 
 The goal behind Android Enterprise Recommended devices is to provide a simple, Google-recommended list of devices that meet a set of elevated enterprise-grade requirements. In doing this, there are benefits for both organisations choosing devices for business and the OEMs that take part.
 
@@ -38,7 +37,7 @@ Devices submitted for certification will be thoroughly tested against Google’s
 
 .. and more. The full list of requirements can be found [here](https://www.android.com/enterprise/recommended/requirements/).
 
-This certification process is per-device rather than per-OEM, meaning each individual device an OEM releases will need to be tested and certified. This is important as an OEM can release devices targeting many audiences, such as HMD Global with their [Nokia 1](/android/android-enterprise-device-support/#nokia-1) and [Nokia 2](/android/android-enterprise-device-support/#nokia-2) or Samsung with their Galaxy J1; these are not intended for enterprise use and as such wouldn’t make sense to suggest otherwise with an OEM AER badge.
+This certification process is per-device and **per OS version** rather than per-OEM, meaning each individual device an OEM releases will need to be tested and certified. This is important as an OEM can release devices targeting many audiences, such as HMD Global with their [Nokia 1](/android/android-enterprise-device-support/#nokia-1) and [Nokia 2](/android/android-enterprise-device-support/#nokia-2) or Samsung with their Galaxy J1; these are not intended for enterprise use and as such wouldn’t make sense to suggest otherwise with an OEM AER badge.
 
 When buying devices for enterprise use, organisations need only look for the Android Enterprise Recommended badge to know the devices have been thoroughly vetted against the above (and more) best practices and requirements from the company that develops Android and the Android Enterprise solution. It’ll help to ensure organisations align expectations (and potentially budgets) accordingly to ensure the devices being considered will:
 
@@ -50,12 +49,9 @@ When buying devices for enterprise use, organisations need only look for the And
 
 Since the introduction of Android Enterprise Recommended, over 70 additional devices (Jan 2019) have been added to the line-up, including from Sony, Nokia, Zebra, BQ, Motorola and more. There are, and will continue to be, more added on a regular basis.
 
-Notably absent from the program are Samsung. Samsung are not joining the programme at this time despite invitation from Google.
-
 More information can be found on this [dedicated article](/2018/02/enterprise-ready-google-launch-android-enterprise-recommended/).
 
-Android Enterprise Recommended EMMs
------------------------------------
+## Android Enterprise Recommended EMMs
 
 Just as AER for OEMs set out to create a benchmark against which devices should meet or exceed in order to guarantee a consistent, reliable experience for management, AER for EMMs aims to do something similar.
 
@@ -74,8 +70,7 @@ In a nutshell, Google are going to validate EMMs who demonstrably put Android En
 
 More information is available on this [dedicated article](/2019/01/aer-expands-android-enterprise-recommended-for-emms/).
 
-Android Enterprise Recommended MSPs
------------------------------------
+## Android Enterprise Recommended MSPs
 
 The Android Enterprise Recommended MSP programme validates managed service providers against a set of requirements and recommendations around knowledge, ability and drive.
 
@@ -87,12 +82,11 @@ The full list of requirements can be found [](https://www.android.com/enterprise
 
 [Validated vendors](https://androidenterprisepartners.withgoogle.com/msp/) will receive their own badge for marketing and promotional purposes to demonstrate heightened compatibility with Android Enterprise.
 
-Android Enterprise Recommended Carriers
----------------------------------------
+## Android Enterprise Recommended Carriers
 
-Finally Android Enterprise Recommended for Carriers will be officially launching later this year.
+Finally Android Enterprise Recommended for Carriers was pegged for launch later in 2018.
 
-Currently the requirements and recommendations are sparse, mentioning only support for zero-touch, however this will change soon enough to include:
+The known requirements and recommendations were sparse, mentioning only support for zero-touch, however intended to change soon enough to include:
 
 - Zero-touch support
 - Rapid approval of security updates (**NOT** letter upgrades)
@@ -101,6 +95,6 @@ Currently the requirements and recommendations are sparse, mentioning only suppo
 
 Given Carriers the world over are critical in the deployment of devices and services to many organisations, it makes sense that they would form a piece of the puzzle.
 
-Well known for unnecessarily delaying updates, filling ranged devices with carrier-related bloatware and more, the AER for Carriers programme should hopefully help not only improve the experience with devices, but also general interactions knowing organisations should be able to talk Android Enterprise with carriers who actually know what it is.
+Well known for unnecessarily delaying updates, filling ranged devices with carrier-related bloatware and more, the AER for Carriers programme could have hopefully helped not only improve the experience with devices, but also general interactions knowing organisations should be able to talk Android Enterprise with carriers who actually know what it is.
 
-More on AER for Carriers is to come.
+Unfortunately Google dropped all references to AER for Carriers publicly, and hasn't really moved it forward up to now, 2022. As AER moves towards a product-badge in the near future, Carrier AER will not be coming back.
