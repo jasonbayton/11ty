@@ -138,10 +138,9 @@ section#link_out {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-gap: 30px;
-    margin-top: 40px;
 }
 
-.links-out a {
+.links-out {
     padding: 20px;
     background-color: var(--blue);
     border-radius: 5px;
