@@ -55,7 +55,9 @@
                     <div class="meta-single post-meta-base-right">
                         {% for tag in tags %}
                         {% if not tag.includes("blog") %}
+                        {% if not tag.includes("android-docs") %}
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                        {% endif %}
                         {% endif %}
                         {% endfor %}
                     </div>
@@ -77,6 +79,18 @@
             <!-- Page feedback goes here -->
             {% include "./_parts/feedback.njk" %}
             <!-- // -->
+            {% for tag in tags %}
+            {% if tag.includes("android-docs") %}
+            <section id="link_out">
+                <div class="links-out">
+                    <a href="https://support.google.com/work/android/thread/new">Ask about this topic on the Android Enterprise help community</a>
+                </div>
+                <div class="links-out">
+                    <a href="https://join.slack.com/t/mobilxperts/shared_invite/zt-3wrzh2o5-e5w8qSyiGF8AcH8_VErDCg">Join me on the Mobile Pros Slack community to discuss this topic</a>
+                </div>
+            </section>
+            {% endif %}
+            {% endfor %}
         </content>
         <footer>
             <!-- Footer goes here -->
