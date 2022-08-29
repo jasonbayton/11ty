@@ -1,5 +1,5 @@
 ---
-title: 'Set up Hypergate's Kerberos Authentication on MobileIron Core for Android Enterprise'
+title: "Set up Hypergate's Kerberos Authentication on MobileIron Core for Android Enterprise"
 published: '2019-03-18T13:00:47+00:00'
 status: publish
 author: 'Jason Bayton'
