@@ -8,7 +8,7 @@ excerpt: ''
 type: documentation
 layout: base.njk
 id: 4094
-tags: 
+tags: "Getting started"
 doccats:
     - _EXC
     - Android
