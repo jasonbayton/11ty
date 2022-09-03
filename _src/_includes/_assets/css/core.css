@@ -572,12 +572,12 @@ footer {
   font-weight: 300;
 }
 
-.callout-primary { background-color: var(--orange); color: var(--dark); }
-.callout-success { background-color: var(--orange); color: var(--dark); }
-.callout-danger { background-color: var(--orange); color: var(--dark); }
-.callout-warning { background-color: var(--orange); color: var(--dark); }
-.callout-info { background-color: var(--orange); color: var(--dark); }
-.callout-dark { background-color: var(--orange); color: var(--dark); }
+.callout-primary { background-color: var(--orange); color: var(--light); }
+.callout-success { background-color: var(--orange); color: var(--light); }
+.callout-danger { background-color: var(--orange); color: var(--light); }
+.callout-warning { background-color: var(--orange); color: var(--light); }
+.callout-info { background-color: var(--orange); color: var(--light); }
+.callout-dark { background-color: var(--orange); color: var(--light); }
 
 /*Tocbot*/
 
