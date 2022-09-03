@@ -159,7 +159,7 @@ When I occasionally review hardware for AE compatibility
 For topical content around news and events.
 <div class="android-topic">
  <ul>
-    {%- for entry in collections.Enterprise | reverse -%}
+    {%- for entry in collections.Enterprise -%}
     <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
     {%- endfor -%}
 </ul>
