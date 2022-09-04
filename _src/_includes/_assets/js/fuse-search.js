@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Get search input
   const searchInput = document.getElementById("searchField");
 
+  // Focus on search
+  searchInput.focus();
   // Watch key evets on search input
   searchInput.addEventListener("keyup", function () {
     const searchValue = searchInput.value.trim();
