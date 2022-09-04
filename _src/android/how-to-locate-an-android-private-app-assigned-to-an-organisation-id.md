@@ -6,15 +6,13 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Getting started
+    - Diving deeper
 layout: base.njk
-id: 9442
-doccats:
-    - Android
+eleventyNavigation:
+  key: 'How to locate a private Android app assigned to an organisation ID'
+  order: 5000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/how-to-locate-an-android-private-app-assigned-to-an-organisation-id/402'
-publish_post_category:
-    - '14'
 ---
 An issue that often pops up is being unable to locate within the Google Play iFrame a private application which has been assigned to your organisation (enterprise) ID by an external developer or developer account.
 

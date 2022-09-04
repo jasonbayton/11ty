@@ -6,13 +6,8 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Getting started
+    - Diving deeper
 layout: base.njk
-id: 7120
-doccats:
-    - Android
-publish_post_category:
-    - '6'
 discourse_permalink:
     - 'https://discuss.bayton.org/t/why-you-shouldnt-install-apps-from-unknown-sources/252'
 ---
