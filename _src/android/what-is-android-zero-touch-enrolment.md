@@ -7,11 +7,12 @@ excerpt: ''
 type: documentation
 tags: 
     - Getting started
+eleventyNavigation:
+  key: 'What is Android zero-touch enrolment?'
+  order: 3000
 layout: base.njk
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-zero-touch-enrolment/31'
-FeaturedBackground:
-    - android
 ---
 <div class="callout callout-success">
 

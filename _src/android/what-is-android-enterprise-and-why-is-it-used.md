@@ -8,13 +8,9 @@ type: documentation
 tags: 
     - Getting started
 layout: base.njk
-id: 4096
-doccats:
-    - Android
-dsq_needs_sync:
-    - '1'
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'What is Android Enterprise?'
+  order: 1000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-enterprise/24'
 ---

@@ -6,13 +6,11 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Diving deeper
+    - Getting started
 layout: base.njk
-id: 7756
-doccats:
-    - Android
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Considerations for choosing Android in the Enterprise'
+  order: 8000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-for-choosing-android-in-the-enterprise/272'
 ---

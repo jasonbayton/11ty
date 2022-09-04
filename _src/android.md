@@ -7,15 +7,10 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 layout: base.njk
-id: 4094
 tags: "Getting started"
-doccats:
-    - _EXC
-    - Android
-Version:
-    - '1.2'
-publish_post_category:
-    - '14'
+eleventyNavigation:
+  key: Android Home
+  order: 0
 discourse_permalink:
     - 'https://discuss.bayton.org/t/about-the-android-category/13'
 ---

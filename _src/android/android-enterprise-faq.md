@@ -8,15 +8,11 @@ type: documentation
 tags: 
     - Getting started
 layout: base.njk
-id: 8143
-doccats:
-    - Android
-wpdc_pin_topic:
-    - '0'
+eleventyNavigation:
+  key: 'Android Enterprise FAQ'
+  order: 6000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-faq/291'
-publish_post_category:
-    - '6'
 ---
 Below you’ll find a number of frequently asked questions I receive related to Android Enterprise.
 

@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Getting started
 layout: base.njk
-id: 5370
-doccats:
-    - Android
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'What is Android One?'
+  order: 5000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-one/310'
 ---

@@ -8,17 +8,11 @@ type: documentation
 tags: 
     - Getting started
 layout: base.njk
-id: 5363
-doccats:
-    - Android
-Version:
-    - '1.1'
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'What is Android Enterprise Recommended?'
+  order: 2000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-enterprise-recommended/25'
-FeaturedBackground:
-    - android
 ---
 Android Enterprise Recommended is a validation programme offered by Google for devices, vendors and partners launched in February 2018. The program currently focuses on devices, MSPs, Carriers, and EMMs and will continue to expand over time.
 

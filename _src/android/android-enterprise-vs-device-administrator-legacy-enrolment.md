@@ -6,10 +6,11 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Diving deeper
+    - Getting started
 layout: base.njk
-doccats:
-    - Android
+eleventyNavigation:
+  key: 'Android Enterprise vs Device Admin'
+  order: 7000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-vs-device-admin-why-da-is-no-longer-suitable/26'
 ---

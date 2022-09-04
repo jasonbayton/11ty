@@ -6,19 +6,13 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Diving deeper
+    - Getting started
+eleventyNavigation:
+  key: 'What is OEMConfig?'
+  order: 4000
 layout: base.njk
-id: 6258
-doccats:
-    - Android
-Version:
-    - '1.0'
-publish_post_category:
-    - '6'
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-oemconfig/155'
-FeaturedBackground:
-    - android
 ---
 Announced at the [Android Enterprise Summit 2018](/2018/05/android-enterprise-summit-2018-highlights/), OEMConfig offers one of the most significant changes to Android management, specifically in terms of speed to market for new management capabilities, in recent years. To understand the significance, let’s start with context.
 
