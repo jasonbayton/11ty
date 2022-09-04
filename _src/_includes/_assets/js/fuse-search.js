@@ -30,6 +30,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Focus on search
   searchInput.focus();
+
+  // Get search from URL
+  const urlQuery = new URLSearchParams(window.location.search);
+  const searchString = urlQuery.get("s");
+
+  // If search was found, apply it
+  if (searchString) {
+    handleSearch(searchString);
+    searchInput.value = searchString;
+  }
+
   // Watch key evets on search input
   searchInput.addEventListener("keyup", function () {
     const searchValue = searchInput.value.trim();
