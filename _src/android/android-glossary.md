@@ -6,7 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Getting started
+    - Resources
 layout: base.njk
 id: 5246
 doccats:
