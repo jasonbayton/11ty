@@ -168,4 +168,4 @@ For topical content around news and events.
 
 ## Something missing?
 
-Are you looking for information not published here? Feel free to [get in touch](mailto:jason@bayton.org) to ask a question or request a new document!
+Are you looking for information not published here? Feel free to [get in touch](mailto:jason@bayton.org) to ask a question or [request a new document!](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) (GitHub account required)
