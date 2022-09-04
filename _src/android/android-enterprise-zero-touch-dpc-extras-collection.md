@@ -224,7 +224,7 @@ Reach out to your vendor to ask when this functionality will be available.
 ## 42Gears SureMDM
 
 <pre>{
-"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": <strong>true/false</strong>,
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE”:{
 "AccountId":"<strong>1000001</strong>",
 "ServerPath":"<strong>suremdm.42gears.com</strong>"
@@ -254,12 +254,24 @@ Reach out to your vendor to ask when this functionality will be available.
 
 ## Matrix42
 
-<pre>{
+<pre>
+{
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "server_url":"<strong>your server URL</strong>", 
 "user_name":"<strong>your user name</strong>",
 "otp":"<strong>4444</strong>"
+}
+}
+</pre>
+
+## Google Workspace
+
+<pre>
+{
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
+"com.google.android.apps.work.clouddpc.EXTRA_FORCED_DOMAINS": "[\"<strong>domain-name</strong>\"]"
 }
 }
 </pre>
