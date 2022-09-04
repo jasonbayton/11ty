@@ -30,7 +30,9 @@ tags:
             <div class="meta-single">
                 {% for tag in post.data.tags %}
                 {% if not tag.includes("blog") %}
+                {% if not tag.includes("android-docs") %}
                 #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                {% endif %}
                 {% endif %}
                 {% endfor %}
             </div>
@@ -46,9 +48,9 @@ tags:
 
     </div>
 {% endif %}
-{% endif %}
 {% endfor %}
     <a class="tag-more-link" href="/tags/{{ tag | slugify }}/">...view more ✍️</a>
 </div>
+{% endif %}
 {% endif %}
 {% endfor %}
