@@ -8,13 +8,9 @@ type: documentation
 tags: 
     - Hardware validation
 layout: base.njk
-id: 4852
-doccats:
-    - Android
-Version:
-    - '1.2'
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Android Enterprise independent validation process and information'
+  order: 6000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-independent-validation-process-and-information/29'
 FeaturedBackground:

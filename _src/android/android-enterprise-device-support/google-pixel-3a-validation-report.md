@@ -8,12 +8,9 @@ type: documentation
 tags: 
     - Hardware validation
 layout: base.njk
-
-id: 8356
-doccats:
-    - Android
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Google Pixel 3a'
+  order: 1000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/google-pixel-3a-android-enterprise-validation-report/296'
 ---

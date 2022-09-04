@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Hardware validation
 layout: base.njk
-id: 7033
-doccats:
-    - Android
-publish_post_category:
-    - '14'
+eleventyNavigation:
+  key: 'POCO F1'
+  order: 4000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/poco-f1-android-enterprise-validation-report/239'
 ---

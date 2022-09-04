@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Hardware validation
 layout: base.njk
-id: 8560
-doccats:
-    - Android
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Sony Xperia L3'
+  order: 5000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/sony-xperia-l3-android-enterprise-validation-report/304'
 ---

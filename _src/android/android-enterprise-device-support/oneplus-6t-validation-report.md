@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Hardware validation
 layout: base.njk
-id: 7000
-doccats:
-    - Android
-publish_post_category:
-    - '14'
+eleventyNavigation:
+  key: 'OnePlus 6T'
+  order: 3000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/oneplus-6t-android-enterprise-validation-report/237'
 ---

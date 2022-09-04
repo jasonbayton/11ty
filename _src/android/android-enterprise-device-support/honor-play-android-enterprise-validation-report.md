@@ -8,9 +8,9 @@ type: documentation
 tags: 
     - Hardware validation
 layout: base.njk
-id: 8019
-doccats:
-    - Android
+eleventyNavigation:
+  key: 'Honor Play'
+  order: 6000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/honor-play-android-enterprise-validation-report/281'
 publish_post_category:

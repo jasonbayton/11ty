@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Hardware validation
 layout: base.njk
-id: 8443
-doccats:
-    - Android
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Moto G7 Power'
+  order: 2000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/moto-g7-power-android-enterprise-validation-report/300'
 ---

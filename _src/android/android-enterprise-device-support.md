@@ -6,15 +6,12 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Resources
+    - Hardware validation
 layout: base.njk
 id: 4344
-doccats:
-    - Android
-Version:
-    - '4.3'
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Android Enterprise device testing'
+  order: 0000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-device-testing/28'
 ---
