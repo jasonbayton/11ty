@@ -13,7 +13,6 @@
     </li>
     {%- endfor %}
     </ul>
-
 </details>
 <details {% if tags.includes("Diving deeper") %} open="" {% endif %} >
     <summary class="docnav-topic-title">
@@ -39,9 +38,12 @@
     <summary class="docnav-topic-title">
             Hardware validation        
         </summary>
+        {% set navPages = collections['Hardware validation'] | eleventyNavigation %}
     <ul>
-        {%- for post in collections['Hardware validation'] -%}
-        <li><a class="{{ 'active' if title == post.data.title }}" href="{{ post.url }}">{{ post.data.title }}</a></li>
-        {%- endfor -%}
+    {%- for entry in navPages %}
+    <li>
+        <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
+    </li>
+    {%- endfor %}
     </ul>
 </details>
