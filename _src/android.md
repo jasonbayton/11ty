@@ -23,7 +23,7 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 ### Android 13's notification runtime permission
 
-Read up on the newest enterprise-impacting addition to Android 13 [here](/android/android-13-notification-permission). 
+Android 13 introduces the first new runtime permission change in a while. Read up on the newest enterprise-impacting addition to Android [here](/android/android-13-notification-permission). 
 
 </div>
 
