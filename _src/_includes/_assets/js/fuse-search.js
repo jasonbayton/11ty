@@ -43,7 +43,25 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Watch key evets on search input
   searchInput.addEventListener("keyup", function () {
+    // Get search value
     const searchValue = searchInput.value.trim();
+
+    // Handle URL
+    if (searchValue === "") {
+      // Remove URL query as search is empty
+      urlQuery.delete("s");
+      window.history.replaceState({}, "", `${window.location.pathname}`);
+    } else {
+      // Set URL query
+      urlQuery.set("s", searchValue);
+      window.history.replaceState(
+        {},
+        "",
+        `${window.location.pathname}?${urlQuery}`
+      );
+    }
+
+    // Run search
     handleSearch(searchValue);
   });
 
