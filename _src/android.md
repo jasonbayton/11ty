@@ -10,7 +10,7 @@ layout: base.njk
 tags: "Getting started"
 eleventyNavigation:
   key: Android Home
-  order: 0
+  order: 0000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/about-the-android-category/13'
 ---
