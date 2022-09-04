@@ -48,7 +48,7 @@ const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
 const markdownItAnchorOptions = {
   level: [1, 2, 3, 4],  
   tabIndex: false,
-  slugify: (str) =>    slugify(str),
+  slugify: (str) => slugify(str),
   permalink(slug, opts, state, idx) {
     state.tokens.splice(
       idx,
