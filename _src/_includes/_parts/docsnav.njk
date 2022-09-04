@@ -3,12 +3,15 @@
 </div>
 <details {% if tags.includes("Getting started") %} open="" {% endif %} >
     <summary class="docnav-topic-title">
-            Getting started        
-        </summary>
+        Getting started        
+    </summary>    
+    {% set navPages = collections['Getting started'] | eleventyNavigation %}
     <ul>
-        {%- for post in collections['Getting started'] -%}
-        <li><a class="{{ 'active' if title == post.data.title }}" href="{{ post.url }}">{{ post.data.title }}</a></li>
-        {%- endfor -%}
+    {%- for entry in navPages %}
+    <li>
+        <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
+    </li>
+    {%- endfor %}
     </ul>
 
 </details>
