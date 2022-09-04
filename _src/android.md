@@ -21,8 +21,9 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 <div class="callout callout-danger">
 
-### Device administrator deprecation
-Device admin deprecation is now official with Android 10! Unsure what this means? Take a look at this [infographic](/android/infobyte-did-you-know-device-admin-deprecation/), this [article](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/) and this [article](/2019/03/android-enterprise-in-q-features-and-clarity-on-da-deprecation/#clarity-on-da-deprecation-in-q). All EMMs must now be targeting newer than API 29, which means all deprecated DA APIs for Android 10 (and later) devices are enforced. 
+### Android 13's notification runtime permission
+
+Read up on the newest enterprise-impacting addition to Android 13 [here](/android/android-13-notification-permission). 
 
 </div>
 
