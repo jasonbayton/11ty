@@ -11,6 +11,8 @@ tags:
 
 {% for tag in collections.tagsList %}
 {% if not tag.includes("blog") %}
+{% if not tag.includes("android-docs") %}
+
 <div class="year-block">
     <div class="section-title extra-bold">
     {{ tag }} (<a class="" href="/tags/{{ tag | slugify }}/">#{{ tag | slugify }}</a>)
@@ -43,6 +45,7 @@ tags:
         {% endif %}
 
     </div>
+{% endif %}
 {% endif %}
 {% endfor %}
     <a class="tag-more-link" href="/tags/{{ tag | slugify }}/">...view more ✍️</a>
