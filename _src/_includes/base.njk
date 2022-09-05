@@ -67,9 +67,13 @@
                     {{ title }}
                 </div>
                 {% endif %}
+                {% if not type.includes("archive") %}
                 <div class="post-block-extra js-toc-content">
                     {{ content | safe }}
                 </div>
+                {% else %}
+                    {{ content | safe }}
+                {% endif %}
             </section>
             {% for tag in tags %}
             {% if tag.includes("android-docs") %}
