@@ -1,1 +1,1 @@
-Independent Android Enterprise content for the masses
+Independent Android Enterprise content for everyone
