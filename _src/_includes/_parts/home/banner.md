@@ -1,1 +1,1 @@
-The #1 independent resource for Android Enterprise content
+Independent Android Enterprise content for the masses

@@ -252,21 +252,13 @@ button {
   text-indent: 10px;
 }
 
-#well_hey {
-  padding: 10px;
-  background: var(--orange);
-  color: white;
-  font-size: 12px;
-  text-align: center;
-}
-
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
   grid-template-columns: 230px 40px 5fr 60px 60px;
   color: var(--text);
   align-items: center;
-  min-height: 100px;
+  height: 100px;
 }
 
 nav #nav_links {
@@ -336,9 +328,13 @@ content#home {
 }
 
 #intro_heading {
-  grid-area: 1/1/2/3;
+  grid-area: 2/1/2/2;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 80px;
+}
+
+#intro_heading p {
+  margin: 0;
 }
 
 #intro_text {
@@ -366,7 +362,7 @@ content#home {
 }
 
 .home-section {
-  padding: 50px 0
+  padding: 100px 0
 }
 
 .year-block {
@@ -655,6 +651,11 @@ a.toc-link { text-decoration: none; }
   #intro_heading, #intro_text, #intro_android {
     grid-area: auto;
     border: none;
+  }
+
+  #intro_heading {
+    font-size: 50px;
+    padding-bottom: 30px;
   }
 
   #intro_android {
