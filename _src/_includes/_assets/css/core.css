@@ -676,6 +676,10 @@ a.toc-link { text-decoration: none; }
     padding-top: 15px;
   }
 
+  .home-section {
+    padding: 50px 0
+  }
+
 }
 
 @media (max-width: 350px) {
