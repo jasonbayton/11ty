@@ -9,8 +9,11 @@ const embedYouTube = require("eleventy-plugin-youtube-embed");
 const embedTwitter = require("eleventy-plugin-embed-twitter");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
