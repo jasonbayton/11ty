@@ -80,6 +80,11 @@ a.gitlog-title {
     padding: 0;
 }
 
+.post-archive {
+    padding-top: 40px;
+    float: right;
+}
+
 .search-results {
     padding: 0 0 0 0.25em;
 }
