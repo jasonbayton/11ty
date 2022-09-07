@@ -73,7 +73,7 @@ const markdownItAnchorOptions = {
   },
 };
 
-/* Markdown Overrides */
+// Markdown Overrides 
 let markdownLibrary = markdownIt({
   html: true,
 }).use(markdownItAnchor, markdownItAnchorOptions);
@@ -86,6 +86,11 @@ eleventyConfig.setLibrary("md", markdownLibrary);
       .toPairs()
       .reverse()
       .value();
+  });
+
+// filter posts
+  eleventyConfig.addFilter('offset', function(collection, amount) {
+    return collection.slice(amount)
   });
 
 // 11ty output
