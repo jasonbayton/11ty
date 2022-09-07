@@ -8,7 +8,7 @@ type: post
 tags:
     - Enterprise
 ---
-[Android Go edition](https://www.android.com/versions/go-edition/) has been around for a while. Launched way back in 2017 as a successor to [Android One](/android/what-is-android-one/) as the One programme underwent it's own evolution into what we have today, Android Go took over as the flavour of Android for low-end devices. While originally memory requirements to qualify for Go were very low - anything under 1GB - today any device launching with 2GB RAM or under can only be certified for Go. 
+[Android Go edition](https://www.android.com/versions/go-edition/) has been around for a while. Launched way back in 2017 as a successor to [Android One](/android/what-is-android-one/) as the One programme underwent it's own evolution into what we have today, Android Go took over as the flavour of Android for low-end devices. While originally memory requirements to qualify for Go were very low - anything under 1GB - today any device launching with 2GB RAM or over can only be certified for Go (as of Android 13). 
 
 In spite of common misconceptions, certainly not aided by folks like the [NCSC publishing incorrect information](https://www.ncsc.gov.uk/blog-post/ready-set-android-go), Android Go _does in fact_ support Android Enterprise. But not fully by default. 
 
