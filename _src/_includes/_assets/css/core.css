@@ -357,6 +357,20 @@ content#home {
   padding-top: 20px;
 }
 
+#well_hey {
+  background-color: #000000;
+  display: grid;
+  justify-content: end;
+  padding: 10px;
+  grid-template-columns: 67px 70px;
+  align-items: center;
+}
+
+#well_hey img {
+  max-width: 50px;
+  margin: 0;
+}
+
 :is(.heading-wrapper :is(h1, h2, h3, h4)) {
   display: inline;
 }
