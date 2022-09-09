@@ -360,9 +360,9 @@ content#home {
 #well_hey {
   background-color: #000000;
   display: grid;
-  justify-content: end;
+  justify-content: center;
   padding: 10px;
-  grid-template-columns: 67px 70px;
+  grid-template-columns: 67px 70px 67px;
   align-items: center;
   color: var(--bright);
 }
