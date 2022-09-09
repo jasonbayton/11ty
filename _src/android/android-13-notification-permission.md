@@ -7,6 +7,9 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+eleventyNavigation:
+  key: 'Handling Android 13 notifications permission'
+  order: 8000
 layout: base.njk
 ---
 In Android 13, Google introduces a new runtime permission for app notifications. 

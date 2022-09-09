@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 6854
-doccats:
-    - Android
-publish_post_category:
-    - '14'
+eleventyNavigation:
+  key: 'Considerations when deploying MTD with Android Enterprise'
+  order: 2000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-when-deploying-mtd-with-android-enterprise/230'
 ---

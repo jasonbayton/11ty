@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 6628
-doccats:
-    - Android
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Feature spotlight: Factory Reset Protection'
+  order: 10000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/feature-spotlight-factory-reset-protection/183'
 FeaturedBackground:

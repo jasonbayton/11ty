@@ -7,6 +7,9 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+eleventyNavigation:
+  key: 'Feature spotlight: Block unknown sources on work profile deployments'
+  order: 9000
 layout: base.njk
 discourse_permalink:
     - 'https://discuss.bayton.org/t/feature-spotlight-block-unknown-sources-on-work-profile-deployments/243'

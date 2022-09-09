@@ -8,14 +8,11 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 9048
-doccats:
-    - Android
-    - 'Enterprise Mobility'
+eleventyNavigation:
+  key: 'Android 11 COPE changes'
+  order: 7000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-11-cope-changes/355'
-publish_post_category:
-    - '14'
 ---
 In Android 11, the way COPE, the means of providing personal use on a corporate phone, has changed.
 

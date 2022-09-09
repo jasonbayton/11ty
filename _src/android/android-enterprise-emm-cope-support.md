@@ -8,13 +8,11 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 8721
-doccats:
-    - Android
+eleventyNavigation:
+  key: 'Android Enterprise EMM COPE support'
+  order: 6000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-emm-cope-support/318'
-publish_post_category:
-    - '14'
 ---
 <div class="callout callout-warning">
 

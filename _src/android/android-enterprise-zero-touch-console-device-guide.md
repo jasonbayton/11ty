@@ -9,12 +9,9 @@ tags:
     - Diving deeper
 layout: base.njk
 id: 4812
-doccats:
-    - Android
-Version:
-    - '1.6'
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Android Enterprise zero-touch console administration guide'
+  order: 5000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-zero-touch-console-administration-guide/32'
 FeaturedBackground:

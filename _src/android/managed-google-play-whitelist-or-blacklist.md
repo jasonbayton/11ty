@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 8115
-doccats:
-    - Android
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Managed Google Play, whitelist or blacklist?'
+  order: 1000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/managed-google-play-whitelist-or-blacklist/307'
 ---

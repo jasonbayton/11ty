@@ -8,11 +8,9 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 7247
-doccats:
-    - Android
-publish_post_category:
-    - '6'
+eleventyNavigation:
+  key: 'Create and manage private apps for Android Enterprise'
+  order: 4000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/create-and-manage-private-apps-for-android-enterprise/251'
 ---

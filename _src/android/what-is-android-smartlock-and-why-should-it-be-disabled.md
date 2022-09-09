@@ -8,15 +8,9 @@ type: documentation
 tags: 
     - Diving deeper
 layout: base.njk
-id: 6560
-doccats:
-    - Android
-publish_post_category:
-    - '6'
-FeaturedBackground:
-    - android
-Version:
-    - '1.1'
+eleventyNavigation:
+  key: 'Feature spotlight: Android Smartlock'
+  order: 11000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-smartlock-and-why-should-it-be-disabled/177'
 ---
