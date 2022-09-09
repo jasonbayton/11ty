@@ -7,21 +7,24 @@
     </summary>    
     {% set navPages = collections['Getting started'] | eleventyNavigation %}
     <ul>
-    {%- for entry in navPages %}
-    <li>
-        <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
-    </li>
-    {%- endfor %}
+        {%- for entry in navPages %}
+        <li>
+            <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
+        </li>
+        {%- endfor %}
     </ul>
 </details>
 <details {% if tags.includes("Diving deeper") %} open="" {% endif %} >
     <summary class="docnav-topic-title">
-            Diving deeper        
-        </summary>
+        Diving deeper        
+    </summary>
+    {% set navPages = collections['Diving deeper'] | eleventyNavigation %}
     <ul>
-        {%- for post in collections['Diving deeper'] -%}
-        <li><a class="{{ 'active' if title == post.data.title }}" href="{{ post.url }}">{{ post.data.title }}</a></li>
-        {%- endfor -%}
+        {%- for entry in navPages %}
+        <li>
+            <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
+        </li>
+        {%- endfor %}
     </ul>
 </details>
 <details {% if tags.includes("Resources") %} open="" {% endif %} >
