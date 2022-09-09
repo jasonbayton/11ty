@@ -585,6 +585,10 @@ footer {
   margin-top: 0;
 }
 
+#footer_logo_text {
+  padding-bottom: 8px;
+}
+
 /* Content and imported styles */
 /* Side notes for calling out things
 -------------------------------------------------- */
