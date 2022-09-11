@@ -15,7 +15,7 @@
   --dark: #292929;
   --bright: #CFCFCF;
   --text: #cfcfcf;
-  --background: #333333;
+  --background: #000000;
   --blue: #00284c;
   --orange: #ce3800;
 
@@ -35,7 +35,7 @@
     --dark: #292929;
     --bright: #CFCFCF;
     --text: #cfcfcf;
-    --background: #333333;
+    --background: #000000;
     --blue: #00284c;
 }
 
@@ -64,7 +64,7 @@
     --dark: #292929;
     --bright: #CFCFCF;
     --text: #cfcfcf;
-    --background: #333333;
+    --background: #000000;
     --blue: #00284c;
   }
 }
