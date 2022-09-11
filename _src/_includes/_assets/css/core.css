@@ -441,6 +441,10 @@ section#page_content {
   padding: 0 8px 15px;
 }
 
+.android-topic ul li a {
+  text-decoration: none;
+}
+
 .field {
   padding: 40px 0;
 }
