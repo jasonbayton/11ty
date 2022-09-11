@@ -592,7 +592,7 @@ footer {
 }
 
 #footer_logo_text {
-  padding-bottom: 8px;
+  padding: 0 30px 8px;
 }
 
 /* Content and imported styles */
