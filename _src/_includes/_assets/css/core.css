@@ -339,7 +339,13 @@ content#home {
 }
 
 #intro_text {
-  grid-area: 2/1/2/2;
+  grid-area: 3/1/3/3;
+}
+
+#intro_text details summary {
+  font-weight: 900;
+  font-size: 25px;
+  padding-top: 30px;
 }
 
 #intro_android {
