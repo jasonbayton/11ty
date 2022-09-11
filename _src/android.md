@@ -11,6 +11,7 @@ tags: "Getting started"
 eleventyNavigation:
   key: Android Home
   order: 0000
+templateEngineOverride: njk,md
 discourse_permalink:
     - 'https://discuss.bayton.org/t/about-the-android-category/13'
 ---
@@ -106,7 +107,8 @@ Articles contributed to other sources.
 
 ## Vendor docs
 
-Free guides, infographics and other information.
+Vendor-specific docs 
+
 <div class="android-topic">
  <ul>
     {%- for entry in collections['Vendor specific'] -%}
@@ -120,26 +122,14 @@ Free guides, infographics and other information.
 <div class="android-doc-grid-group">
 
 ## Live events
-Live-blogging enterprise mobility events.
+Live-blogging enterprise mobility events. Want your event covered live? [Get in touch](/contact)!
+
 <div class="android-topic">
 
 - [Live: MobileIron LIVE! 2018](/2018/05/live-mobileiron-live-2018/)
 - [Live: Android Enterprise Partner Summit 2018](/2018/05/live-android-enterprise-partner-summit-2018/)
 - [Live: Huawei Mate series launch](/2018/10/live-huawei-mate-series-launch/)
 
-</div>
-
-Want your event covered live? [Get in touch](/contact)!
-
-## Hardware validation
-
-When I occasionally review hardware for AE compatibility
-<div class="android-topic">
- <ul>
-    {%- for entry in collections['Hardware validation'] -%}
-    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-    {%- endfor -%}
-</ul>
 </div>
 </div>
 <div class="android-doc-grid-group">
@@ -148,10 +138,10 @@ When I occasionally review hardware for AE compatibility
 
 For topical content around news and events.
 <div class="android-topic">
- <ul>
-    {%- for entry in collections.Enterprise -%}
-    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-    {%- endfor -%}
+<ul>
+{% for entry in collections.Enterprise | reverse %}
+<li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
+{% endfor %}
 </ul>
 </div>
 </div>
