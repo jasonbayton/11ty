@@ -18,7 +18,8 @@ discourse_permalink:
     - 'https://discuss.bayton.org/t/live-huawei-mate-series-launch/218'
 tags:
     - Mobile
+    - Enterprise
 ---
 Today Huawei are set to launch their Huawei Mate series live in ExCeL London.
 
-Follow along below, or for live updates be sure to head over to the Discuss topic!
+Follow along below, or for live updates be sure to head over to the [Discuss topic](https://discuss.bayton.org/t/live-huawei-mate-series-launch/218)!
