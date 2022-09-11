@@ -27,12 +27,13 @@ Android 13 introduces the first new runtime permission change in a while. Read u
 
 </div>
 
+![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidselfies-1.png) 
+
 <div id="android_doc_grid">
 <div class="android-doc-grid">
 
 <div class="android-doc-grid-group">
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/startertripledroid.png) 
 ## Getting started
 
 Just getting familiar with Android or Android Enterprise? Start here. The following documents offer an introduction to Android Enterprise and the various moving parts in order to offer a broad overview of the ecosystem.
@@ -46,7 +47,6 @@ Just getting familiar with Android or Android Enterprise? Start here. The follow
 </div>
 <div class="android-doc-grid-group">
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidlearning.png) 
 ## Diving deeper
 
 Ready to learn more? Read on.
@@ -60,7 +60,6 @@ Ready to learn more? Read on.
 </div>
 <div class="android-doc-grid-group">
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidselfies-1.png) 
 ## Resources
 
 Free guides, infographics and other information.
@@ -75,7 +74,6 @@ Free guides, infographics and other information.
 </div>
 <div class="android-doc-grid-group">
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/droidtrioresources.png) 
 ## External resources
 
 Useful documentation from other sources.
@@ -91,7 +89,6 @@ Useful documentation from other sources.
 </div>
 <div class="android-doc-grid-group">
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/01/externalblogg.png) 
 ## External blog articles
 
 Articles contributed to other sources.
@@ -107,7 +104,6 @@ Articles contributed to other sources.
 </div>
 <div class="android-doc-grid-group">
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidselfies-1.png) 
 ## Vendor docs
 
 Free guides, infographics and other information.
@@ -123,7 +119,6 @@ Free guides, infographics and other information.
 <div class="android-doc-grid">
 <div class="android-doc-grid-group">
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/droidtrioevents.png) 
 ## Live events
 Live-blogging enterprise mobility events.
 <div class="android-topic">
@@ -149,7 +144,6 @@ When I occasionally review hardware for AE compatibility
 </div>
 <div class="android-doc-grid-group">
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidwriting.png) 
 ## Blog articles
 
 For topical content around news and events.
