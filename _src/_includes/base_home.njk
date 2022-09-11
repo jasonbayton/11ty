@@ -12,21 +12,20 @@
             <!-- // -->
         </header>
         <content id="home">
-            <!--div id="Jason_Bayton">
-                <img class="bayton-logo-light" src="/img/JasonBayton_black_SMALL.svg" width="500px" alt="main logo">
-                <img class="bayton-logo-dark" src="/img/JasonBayton_white_SMALL.svg" width="500px" alt="main logo">
-            </div-->
             <section id="intro_block" class="home-section">
                 <div id="intro_heading">
                     {% renderFile "./_src/_includes/_parts/home/banner.md" %}
                 </div>
-                <!--div id="intro_text">
-                    {{ content | safe }}
-                </div-->
                 <div id="intro_android">
                     <img id="android_head" src="/img/aec.webp" width="140px" alt="android docs">
                     <p>Get started with Android Enterprise</p>
                     <a id="android_doc_link" href="/android">📖 Read the docs</a>
+                </div>
+                <div id="intro_text">
+                    <details>
+                        <summary>About</summary>
+                        {{ content | safe }}
+                    </details>
                 </div>
             </section>
             <!-- Trusted logos -->
