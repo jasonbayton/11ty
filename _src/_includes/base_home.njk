@@ -76,7 +76,7 @@
                 <div id="post_container">
                     <div class="post-column">
                     {% for post in collections.blog | reverse %}
-                    {%- if loop.index0 < 3 %}
+                    {% if loop.index0 < 3 %}
                         <div class="post-block">
                             <div class="post-body">
                                 <div class="post-meta post-meta-condensed">
@@ -106,7 +106,7 @@
                     </div>
                     <div class="post-column">
                     {% for post in collections.blog | reverse | offset(3) %}
-                    {%- if loop.index0 < 3 %}
+                    {% if loop.index0 < 3 %}
                         <div class="post-block">
                             <div class="post-body">
                                 <div class="post-meta post-meta-condensed">
@@ -131,8 +131,8 @@
                                 {% endif %}
                             </div>
                         </div>
-                    {%- endif %}    
-                    {%- endfor -%}
+                    {% endif %}    
+                    {% endfor %}
                     </div>
                 </div>
                 <h2 class="section-title post-archive">
