@@ -95,6 +95,7 @@ eleventyConfig.setLibrary("md", markdownLibrary);
 
 // 11ty output
     return {
+      markdownTemplateEngine: "njk",
       dir: {
         input: "_src",
         output: "_public",
