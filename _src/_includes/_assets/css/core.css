@@ -198,6 +198,20 @@ pre code {
   padding: 0;
 }
 
+.button {
+  background-color: var(--orange);
+  border: 2px solid var(--orange);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: var(--bright);
+  cursor: pointer;
+  display: inline-block;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+}
+
 ::-webkit-input-placeholder { color: #dbdbdb; }
 ::-moz-placeholder { color: #dbdbdb; }
 ::placeholder { color: #dbdbdb; }
@@ -591,6 +605,8 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #footer_logos #vendor_logo_container {
@@ -598,7 +614,7 @@ footer {
 }
 
 #footer_logo_text {
-  padding: 0 30px 8px;
+  padding-bottom: 8px;
 }
 
 /* Content and imported styles */
