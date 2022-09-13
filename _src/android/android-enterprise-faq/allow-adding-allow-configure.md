@@ -14,7 +14,7 @@ eleventyNavigation:
   key: "What’s the difference between allow adding accounts vs allow configure credentials?"
   order: 12000
 --- 
-Adding accounts allows end-users to head into `Settings > Accounts` and add an account.
+Adding accounts allows end-users to head into `Settings - Accounts` and add an account.
 
 Configure credentials allows an end-user to configure account credentials in-app.
 
