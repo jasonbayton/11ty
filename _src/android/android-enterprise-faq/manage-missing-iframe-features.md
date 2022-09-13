@@ -1,0 +1,25 @@
+---
+title: "The Google Play iFrame is missing a feature in my UEM. How do I enable it?"
+published: '2019-04-26'
+status: publish
+author: 'Jason Bayton'
+excerpt: ''
+type: documentation
+tags: 
+    - AE FAQ
+    - AE App Management
+layout: base.njk
+eleventyNavigation:
+  parent: 'Android Enterprise FAQ'
+  key: "The Google Play iFrame is missing a feature in my UEM. How do I enable it?"
+  order: 63000
+--- 
+When deploying the iFrame, a UEM vendor decides what they wish to support. On that basis, the iFrame may lack private app upload, web app creation or bundle support.
+
+It’s possible for a UEM to implement multiple iFrames with these features separated out, so is worth checking this functionality isn’t placed elsewhere on the console.
+
+Should additional features not be available anywhere, please get in touch with your UEM provider to discuss this.
+
+## Submit a question
+
+Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

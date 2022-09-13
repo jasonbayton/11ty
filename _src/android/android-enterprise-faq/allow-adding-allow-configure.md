@@ -1,5 +1,5 @@
 ---
-title: "What’s the difference between allow adding accounts vs allow configure credentials??"
+title: "What’s the difference between allow adding accounts vs allow configure credentials?"
 published: '2019-04-26'
 status: publish
 author: 'Jason Bayton'
