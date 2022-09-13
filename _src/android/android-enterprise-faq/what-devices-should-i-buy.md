@@ -22,6 +22,3 @@ After this, the minimum OS required for what the organisation wants to do, for e
 
 Once determined, the best place to start looking is the [Android Enterprise Recommended list](https://androidenterprisepartners.withgoogle.com/devices/#!?AER). If nothing suits requirements, get in touch and I’ll try to help out!
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

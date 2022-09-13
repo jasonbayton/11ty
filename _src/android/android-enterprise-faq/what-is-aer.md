@@ -20,6 +20,3 @@ Each of the above will have a [list of requirements](https://www.android.com/ent
 
 More details: [What is Android Enterprise Recommended?](/android/what-is-android-enterprise-recommended/)
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

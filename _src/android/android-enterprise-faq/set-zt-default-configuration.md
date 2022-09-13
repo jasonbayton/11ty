@@ -16,6 +16,3 @@ eleventyNavigation:
 --- 
 Yes, however this only affects new devices added and not those already on the console. For existing devices, leverage either CSV or API to make bulk changes.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

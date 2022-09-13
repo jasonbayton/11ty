@@ -20,6 +20,3 @@ It’s possible for a UEM to implement multiple iFrames with these features sepa
 
 Should additional features not be available anywhere, please get in touch with your UEM provider to discuss this.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

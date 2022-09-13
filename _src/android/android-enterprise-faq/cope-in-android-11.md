@@ -16,6 +16,3 @@ eleventyNavigation:
 --- 
 For details on the changes to COPE in Android 11, please read [Android 11 COPE changes](/android/android-11-cope-changes/).
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

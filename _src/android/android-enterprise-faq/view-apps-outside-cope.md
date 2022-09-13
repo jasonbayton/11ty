@@ -18,6 +18,3 @@ eleventyNavigation:
 
 **Android 11+** – No, this is because in Android 11, work profiles on fully managed devices was deprecated in favour or work profiles on company owned devices. This new deployment scenario aligns the privacy aspect with that of a work profile deployment, [because it sort-of is one](/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/).
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

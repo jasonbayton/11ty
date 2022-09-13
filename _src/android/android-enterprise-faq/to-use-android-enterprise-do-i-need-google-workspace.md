@@ -16,6 +16,3 @@ eleventyNavigation:
 ---
 No. Unless you are already a G Suite customer, you can use your EMM console to register a new Android Enterprise organisation with any existing Google account and your EMM will create unique and generic managed Google Play service accounts on each Android device that allow you to sign into the Google Play Store and receive configs &amp; policies. These accounts are silently added to the device. You do not need to configure your domain, create users, or manage the authentication to services like Active Directory.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

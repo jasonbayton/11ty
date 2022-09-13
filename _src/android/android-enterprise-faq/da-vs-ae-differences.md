@@ -25,6 +25,3 @@ Android Enterprise takes a more sane approach to device administration by permit
 
 Add in features such as no Google account management, silent app distribution, managed system updates, simple provisioning and streamlined enrolment, and it’s easy to understand why Android Enterprise is basically better in every way.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

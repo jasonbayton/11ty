@@ -20,6 +20,3 @@ As zero-touch is a little light on features, Knox Mobile Enrolment has full supp
 
 Through supported EMMs and the minimum Knox version (2.9), organisations can use either KME or zero-touch (9.0+) to deploy an Android Enterprise fully managed, dedicated, or COPE device, or work profile via KME only.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

@@ -24,6 +24,3 @@ This could be a few things:
 - Is the device running 8.0+? With the exception of Pixel, no device running less than Oreo will support ZT.
 - Does the OEM support ZT on the device? Unless Android Enterprise Recommended, zero-touch is optional and may therefore not be supported even on 8.0+ devices.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

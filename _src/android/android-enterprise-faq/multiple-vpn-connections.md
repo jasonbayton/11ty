@@ -18,6 +18,3 @@ Yes this is possible, however not concurrently. Android supports only profile-wi
 
 When one VPN is running profile-wide and another is initiated, it will disconnect the first. Should these VPNs have failure protection and automatic reconnect (or leverage always-on VPN for this) the two VPN solutions will repeatedly disconnect one another.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

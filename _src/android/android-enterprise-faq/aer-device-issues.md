@@ -24,6 +24,3 @@ If the EMM can replicate it but cannot resolve it, they will have OEM contacts t
 
 I do a fair amount of device testing, so if you do come across something and your EMM is not providing the support needed, feel free to [reach out](/contact) and I’ll be happy to help.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

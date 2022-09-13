@@ -22,6 +22,3 @@ Both options have legitimate uses, for example the adding of accounts and config
 
 On the other hand, enabling add accounts in a fully managed or work profile deployment scenario would allow end-users to switch to their personal Google account within Google Play, providing full access to the Play Store from which they may install applications which encourage data leakage and raise DLP concerns (Dropbox sat alongside OneDrive, for example).
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).

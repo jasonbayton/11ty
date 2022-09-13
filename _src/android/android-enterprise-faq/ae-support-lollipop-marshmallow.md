@@ -18,6 +18,3 @@ While it’s indeed true Android Enterprise was introduced as *Android for Work*
 
 In other words, Marshmallow is chosen as a reasonably reliable reference point for when Android Enterprise was guaranteed to be widely supported. There will be OEMs that can confidently state they supported it from Day Zero, however few did.
 
-## Submit a question
-
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), tweet [@jasonbayton](https://twitter.com/jasonbayton) or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).
