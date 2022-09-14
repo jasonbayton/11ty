@@ -19,6 +19,8 @@ Below you’ll find a number of frequently asked questions I receive related to 
 ## General
 
 {% for post in collections['AE General'] %}
+{% for tag in post.data.tags %}
+{% if tag.includes("AE FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -31,11 +33,15 @@ Below you’ll find a number of frequently asked questions I receive related to 
 </div>
 </div>
 </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 ## Work Profile
 
 {% for post in collections['AE Work Profile'] %}
+{% for tag in post.data.tags %}
+{% if tag.includes("AE FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -48,11 +54,15 @@ Below you’ll find a number of frequently asked questions I receive related to 
 </div>
 </div>
 </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 ## Fully managed
 
 {% for post in collections['AE Fully Managed'] %}
+{% for tag in post.data.tags %}
+{% if tag.includes("AE FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -65,11 +75,15 @@ Below you’ll find a number of frequently asked questions I receive related to 
 </div>
 </div>
 </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 ## Work profiles on fully managed devices, work profiles on company owned devices (COPE) 
 
 {% for post in collections['AE COPE'] %}
+{% for tag in post.data.tags %}
+{% if tag.includes("AE FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -82,11 +96,15 @@ Below you’ll find a number of frequently asked questions I receive related to 
 </div>
 </div>
 </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 ## Zero-touch
 
 {% for post in collections['AE Zero-touch'] %}
+{% for tag in post.data.tags %}
+{% if tag.includes("AE FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -99,12 +117,16 @@ Below you’ll find a number of frequently asked questions I receive related to 
 </div>
 </div>
 </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 
 ## App management
 
 {% for post in collections['AE App Management'] %}
+{% for tag in post.data.tags %}
+{% if tag.includes("AE FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -117,6 +139,8 @@ Below you’ll find a number of frequently asked questions I receive related to 
 </div>
 </div>
 </div>
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 ## Submit a question
