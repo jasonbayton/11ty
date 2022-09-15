@@ -29,12 +29,16 @@ But what makes Android Go.. Go? Other than some limited public knowledge such as
 - Widget support
 - Automatic screen dimming (callout for kiosk)
 - Live wallpapers
-- Split screen/multiwindow
 - PiP
 - Display over other apps permission
 
+
+
 ## `isLowRamDevice` flag
 ~ to research 
+https://developer.android.com/reference/android/app/ActivityManager#isLowRamDevice()
+https://developer.android.com/topic/performance/memory
+
 
 ## 32bit (pre 2GB)
 ~ to research
