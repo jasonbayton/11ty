@@ -7,7 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - AE FAQ
-    - AE Zero-touch
+    - Zero-touch
+    - Provisioning
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

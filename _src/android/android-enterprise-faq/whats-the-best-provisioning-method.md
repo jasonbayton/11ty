@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - AE FAQ
-    - AE General
+    - Provisioning
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

@@ -7,14 +7,16 @@ excerpt: ''
 type: documentation
 tags: 
     - AE FAQ
-    - AE General
+    - App management
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   key: "Does Android support Kerberos natively?"
   order: 14000
 --- 
-No. I’d recommend taking a look at [Hypergate](https://hypergate.com).
+No. 
+
+I’d recommend taking a look at [Hypergate](https://hypergate.com).
 
 There is however a project which was initiated (but not wholly supported) by Google to bring Kerberos support to Android through an application. Take a look at the respective [Github repo](https://github.com/google/android-kerberos-authenticator) to learn more.
 

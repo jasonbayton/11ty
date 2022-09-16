@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - AE FAQ
-    - AE Fully Managed
+    - Fully managed
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - AE FAQ
-    - AE Work Profile
+    - Work profile
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

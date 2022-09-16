@@ -7,7 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - AE FAQ
-    - AE COPE
+    - COPE
+    - Work profiles on company-owned devices
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
