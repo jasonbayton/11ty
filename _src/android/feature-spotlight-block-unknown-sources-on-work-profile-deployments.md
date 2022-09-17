@@ -7,6 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+    - Security
+    - Work profile
 eleventyNavigation:
   key: 'Feature spotlight: Block unknown sources on work profile deployments'
   order: 9000

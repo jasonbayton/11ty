@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+    - App management
 layout: base.njk
 eleventyNavigation:
   key: 'Considerations when deploying MTD with Android Enterprise'

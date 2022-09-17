@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Resources
+    - Android Enterprise Recommended
 layout: base.njk
 id: 8336
 doccats:

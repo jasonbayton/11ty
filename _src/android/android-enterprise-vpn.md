@@ -8,6 +8,7 @@ excerpt: 'Understand how Android VPN works, and how best to deploy and manage de
 type: documentation
 tags: 
     - Diving deeper
+    - App management
 eleventyExcludeFromCollections: true
 layout: base.njk
 ---

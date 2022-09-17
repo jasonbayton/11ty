@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Getting started
+    - App management
 eleventyNavigation:
   key: 'What is OEMConfig?'
   order: 4000

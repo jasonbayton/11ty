@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Resources
+    - Zero-touch
 layout: base.njk
 id: 7085
 doccats:

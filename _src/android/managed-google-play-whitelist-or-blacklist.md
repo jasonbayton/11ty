@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+    - App management
 layout: base.njk
 eleventyNavigation:
   key: 'Managed Google Play, whitelist or blacklist?'

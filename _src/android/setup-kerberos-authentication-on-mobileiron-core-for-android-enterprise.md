@@ -11,6 +11,8 @@ doccats:
     - MobileIron
 tags: 
     - Vendor specific
+    - App management
+    - Security
 publish_post_category:
     - '8'
 discourse_permalink:

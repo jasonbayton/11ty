@@ -7,6 +7,8 @@ excerpt: 'A closer look at Android Go, what makes it different from Android, and
 type: documentation
 tags: 
     - Diving deeper
+    - Android Go
+    - AE General
 eleventyExcludeFromCollections: true
 layout: base.njk
 ---

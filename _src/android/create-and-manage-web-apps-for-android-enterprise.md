@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+    - App management
 layout: base.njk
 eleventyNavigation:
   key: 'Create and manage web apps for Android Enterprise'

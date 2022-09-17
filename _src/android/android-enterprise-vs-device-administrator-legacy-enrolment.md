@@ -7,6 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - Getting started
+    - AE General
+    - Device admin
 layout: base.njk
 eleventyNavigation:
   key: 'Android Enterprise vs Device Admin'

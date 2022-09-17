@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Getting started
+    - Android Enterprise Recommended
 layout: base.njk
 eleventyNavigation:
   key: 'What is Android Enterprise Recommended?'

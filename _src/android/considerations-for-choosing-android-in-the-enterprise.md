@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Getting started
+    - AE General
 layout: base.njk
 eleventyNavigation:
   key: 'Considerations for choosing Android in the Enterprise'

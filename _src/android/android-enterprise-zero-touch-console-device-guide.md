@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+    - Zero-touch
 layout: base.njk
 id: 4812
 eleventyNavigation:

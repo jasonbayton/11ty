@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Resources
+    - Provisioning
 layout: base.njk
 id: 6849
 doccats:

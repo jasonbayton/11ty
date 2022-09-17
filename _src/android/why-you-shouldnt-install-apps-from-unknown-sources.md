@@ -7,6 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+    - Security
+    - App management
 layout: base.njk
 eleventyNavigation:
   key: "Why you shouldn't install apps from unknown sources"

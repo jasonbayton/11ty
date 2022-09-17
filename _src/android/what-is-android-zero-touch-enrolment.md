@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Getting started
+    - Zero-touch
 eleventyNavigation:
   key: 'What is Android zero-touch enrolment?'
   order: 3000

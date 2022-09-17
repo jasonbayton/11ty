@@ -7,6 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - Resources
+    - Zero-touch
+    - Provisioning
 layout: base.njk
 id: 7377
 doccats:

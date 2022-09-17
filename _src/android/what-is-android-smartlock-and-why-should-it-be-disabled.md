@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
+    - Security
 layout: base.njk
 eleventyNavigation:
   key: 'Feature spotlight: Android Smartlock'

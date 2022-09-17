@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Resources
+    - Device admin
 layout: base.njk
 id: 6832
 doccats:
