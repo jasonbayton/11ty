@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
-    - Device Admin
+    - Device admin
 layout: base.njk
 eleventyNavigation:
   key: 'Considerations when migrating from device administrator to Android Enterprise'
