@@ -433,6 +433,10 @@ section#page_content {
   display: block;
 }
 
+.post-meta-condensed { 
+  font-size: 18px;
+}
+
 .post-meta-condensed > .meta-single {
   display: inline;
   padding-right: 20px;
