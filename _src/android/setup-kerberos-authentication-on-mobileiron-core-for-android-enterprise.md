@@ -13,8 +13,9 @@ tags:
     - Vendor specific
     - App management
     - Security
-publish_post_category:
-    - '8'
+eleventyNavigation:
+  key: 'Set up Hypergate's Kerberos Authentication on MobileIron Core for Android Enterprise'
+  order: 0000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/setup-kerberos-authentication-on-mobileiron-core-for-android-enterprise/279'
 ---

@@ -12,10 +12,9 @@ tags:
     - Provisioning
 doccats:
     - MobileIron
-Version:
-    - '1.3'
-publish_post_category:
-    - '8'
+eleventyNavigation:
+  key: 'Manual Android Enterprise work-managed QR code generation for MobileIron'
+  order: 1000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/48'
 ---
