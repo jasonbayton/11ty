@@ -1,6 +1,6 @@
-<div id="header_banner">
+<!--div id="header_banner">
 1926 <a href="https://royal.uk"><i class="fas fa-ribbon"></i></a> 2022
-</div>
+</div-->
 <nav>
     <div id="navbar">
         <div id="bayton_logo">
@@ -25,3 +25,15 @@
         </div>
     </div>
 </nav>
+<div id="mobile_menu">
+    <details>
+        <summary><i class="fas fa-bars"></i></summary>
+        <div id="mobile_menu_links">
+            {% for link in globalnav %}
+            <div class="nav-link-individual">
+                <a class="{% if link.url in page.url %} active {% endif %}" href="{{ link.url }}">{{ link.text }}</a>
+            </div>
+            {% endfor %} 
+        </div>
+    </details>
+</div>
