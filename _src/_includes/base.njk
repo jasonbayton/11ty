@@ -68,6 +68,13 @@
                 </div>
                 {% endif %}
                 {% if not type.includes("archive") %}
+                <div id="mobile_toc">
+                    <details>
+                        <summary>Contents</summary>
+                        {{ content | toc | safe }}
+                        </div>
+                    </details>
+                </div>
                 <div class="post-block-extra js-toc-content">
                     {{ content | safe }}
                 </div>
@@ -87,6 +94,22 @@
             </section>
             {% endif %}
             {% endfor %}
+            {% if type.includes("documentation") or type.includes("post") %}
+            <section id="mobile_aside"> 
+                {% if type.includes("documentation") %}
+                <div class="aside-section">
+                    <!-- Docnav goes here -->
+                    {% include "./_parts/docsnav.njk" %}
+                    <!-- // -->
+                </div>
+                {% endif %}
+                {% if type.includes("post") %}
+                <div class="aside-section">
+                    {% include "./_parts/blognav.njk" %}
+                </div>
+                {% endif %}
+            </section>
+            {% endif %}
             <!-- Pagination goes here -->
             <!-- {% if pagination.href.next or pagination.href.previous %}
             {% include "./_parts/paginate.njk" %}
