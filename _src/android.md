@@ -29,121 +29,26 @@ Android 13 introduces the first new runtime permission change in a while. Read u
 </div>
 
 <div id="android_doc_grid">
-<div class="android-doc-grid">
-
+{% for tag in android_tags %}
 <div class="android-doc-grid-group">
 
-## Getting started
+## {{ tag.name }}
 
-Just getting familiar with Android or Android Enterprise? Start here. The following documents offer an introduction to Android Enterprise and the various moving parts in order to offer a broad overview of the ecosystem.
+{% set taglist = collections[ tag.name ] %}
 <div class="android-topic">
 <ul>
-    {%- for entry in collections['Getting started'] -%}
-    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-    {%- endfor -%}
-</ul>
-</div>
-</div>
-<div class="android-doc-grid-group">
-
-## Diving deeper
-
-Ready to learn more? Read on.
-<div class="android-topic">
- <ul>
-    {%- for entry in collections['Diving deeper'] -%}
-    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-    {%- endfor -%}
-</ul>
-</div>
-</div>
-<div class="android-doc-grid-group">
-
-## Resources
-
-Free guides, infographics and other information.
-
-<div class="android-topic">
- <ul>
-    {%- for entry in collections['Resources'] -%}
-    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-    {%- endfor -%}
-</ul>
-</div>
-</div>
-<div class="android-doc-grid-group">
-
-## External resources
-
-Useful documentation from other sources.
-<div class="android-topic">
-<ul>
-{% for link in android_extrec %}
-<li> 
-<a href="{{ link.url }}">{{ link.text }}</a>
-</li>    
+{% for post in taglist %}
+{% if loop.index0 < 4 %}
+<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{% endif %}
 {% endfor %}
 </ul>
+<div id="android_viewmore">
+<a class="button button-small" href="/tags/{{ tag.name | slugify }}">more »</a>
 </div>
 </div>
-<div class="android-doc-grid-group">
-
-## External blog articles
-
-Articles contributed to other sources.
-<div class="android-topic">
-<ul>
-{% for link in android_extblog %}
-<li> 
-<a href="{{ link.url }}">{{ link.text }}</a>
-</li>    
+</div>
 {% endfor %}
-</ul>
-</div>
-</div>
-<div class="android-doc-grid-group">
-
-## Vendor docs
-
-Vendor-specific docs 
-
-<div class="android-topic">
- <ul>
-    {%- for entry in collections['Vendor specific'] -%}
-    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-    {%- endfor -%}
-</ul>
-</div>
-</div>
-</div>
-<div class="android-doc-grid">
-<div class="android-doc-grid-group">
-
-## Live events
-Live-blogging enterprise mobility events. Want your event covered live? [Get in touch](/contact)!
-
-<div class="android-topic">
-
-- [Live: MobileIron LIVE! 2018](/2018/05/live-mobileiron-live-2018/)
-- [Live: Android Enterprise Partner Summit 2018](/2018/05/live-android-enterprise-partner-summit-2018/)
-- [Live: Huawei Mate series launch](/2018/10/live-huawei-mate-series-launch/)
-
-</div>
-</div>
-<div class="android-doc-grid-group">
-
-## Blog articles
-
-For topical content around news and events.
-<div class="android-topic">
-<ul>
-{% for entry in collections.Enterprise | reverse %}
-<li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-{% endfor %}
-</ul>
-</div>
-</div>
-</div>
 </div>
 
 ![](https://r2_worker.bayton.workers.dev/uploads/2019/01/ask.png) 
