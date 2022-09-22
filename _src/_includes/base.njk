@@ -94,6 +94,14 @@
             </section>
             {% endif %}
             {% endfor %}
+            <!-- Pagination goes here -->
+            <!-- {% if pagination.href.next or pagination.href.previous %}
+            {% include "./_parts/paginate.njk" %}
+            {% endif %} -->
+            <!-- // -->
+            <!-- Page feedback goes here -->
+            {% include "./_parts/feedback.njk" %}
+            <!-- // -->
             {% if type.includes("documentation") or type.includes("post") %}
             <section id="mobile_aside"> 
                 {% if type.includes("documentation") %}
@@ -110,14 +118,6 @@
                 {% endif %}
             </section>
             {% endif %}
-            <!-- Pagination goes here -->
-            <!-- {% if pagination.href.next or pagination.href.previous %}
-            {% include "./_parts/paginate.njk" %}
-            {% endif %} -->
-            <!-- // -->
-            <!-- Page feedback goes here -->
-            {% include "./_parts/feedback.njk" %}
-            <!-- // -->
         </content>
         <footer>
             <!-- Footer goes here -->

@@ -725,6 +725,10 @@ a.toc-link { text-decoration: none; }
   display: none;
 }
 
+#mobile_aside .aside-section {
+  border-top: 1px solid var(--text);
+}
+
 /* Media */
 
 @media (max-width: 1550px) {
