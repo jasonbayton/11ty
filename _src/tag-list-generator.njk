@@ -1,0 +1,10 @@
+---
+permalink: false
+eleventyExcludeFromCollections: yes
+---
+[
+  {% for tag in collections.tagsList %}
+    {"name":"{{ tag }}"},
+  {% endfor %}
+{}
+]
