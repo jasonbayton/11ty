@@ -19,9 +19,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## General
 
-{% for post in collections['AE General'] %}
+{% for post in collections['General'] %}
 {% for tag in post.data.tags %}
-{% if tag.includes("AE FAQ") %}
+{% if tag.includes("FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -40,9 +40,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## Work Profile
 
-{% for post in collections['AE Work Profile'] %}
+{% for post in collections['Work Profile'] %}
 {% for tag in post.data.tags %}
-{% if tag.includes("AE FAQ") %}
+{% if tag.includes("FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -61,9 +61,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## Fully managed
 
-{% for post in collections['AE Fully Managed'] %}
+{% for post in collections['Fully Managed'] %}
 {% for tag in post.data.tags %}
-{% if tag.includes("AE FAQ") %}
+{% if tag.includes("FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -82,9 +82,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## Work profiles on fully managed devices, work profiles on company owned devices (COPE) 
 
-{% for post in collections['AE COPE'] %}
+{% for post in collections['COPE'] %}
 {% for tag in post.data.tags %}
-{% if tag.includes("AE FAQ") %}
+{% if tag.includes("FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -103,9 +103,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## Zero-touch
 
-{% for post in collections['AE Zero-touch'] %}
+{% for post in collections['Zero-touch'] %}
 {% for tag in post.data.tags %}
-{% if tag.includes("AE FAQ") %}
+{% if tag.includes("FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -125,9 +125,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## App management
 
-{% for post in collections['AE App Management'] %}
+{% for post in collections['App Management'] %}
 {% for tag in post.data.tags %}
-{% if tag.includes("AE FAQ") %}
+{% if tag.includes("FAQ") %}
 <div class="post-block">
 <div class="post-body">
 
