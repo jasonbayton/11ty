@@ -212,6 +212,11 @@ pre code {
   touch-action: manipulation;
 }
 
+.button-small {
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
 ::-webkit-input-placeholder { color: #dbdbdb; }
 ::-moz-placeholder { color: #dbdbdb; }
 ::placeholder { color: #dbdbdb; }

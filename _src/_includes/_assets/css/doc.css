@@ -148,8 +148,36 @@ a.gitlog-title {
 
 #android_doc_grid {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+#android_doc_grid .android-doc-grid-group {
+    padding: 10px;
+    background-color: var(--blue);
+}
+
+#android_doc_grid .android-doc-grid-group h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+
+}
+#android_doc_grid .android-doc-grid-group .android-topic ul { 
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#android_doc_grid .android-doc-grid-group .android-topic ul li {
+    padding: 0 0 15px;
+}
+
+#android_doc_grid .android-doc-grid-group .android-topic ul li::marker {
+    content: "";
+}
+
+#android_viewmore {
+    text-align: right;
 }
 
 section#feedback {
