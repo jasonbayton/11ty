@@ -28,8 +28,6 @@ Android 13 introduces the first new runtime permission change in a while. Read u
 
 </div>
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/superwide-vanAndroid.jpg) 
-
 <div id="android_doc_grid">
 <div class="android-doc-grid">
 
