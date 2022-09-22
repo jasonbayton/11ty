@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Getting started
-    - AE General
+    - General
 layout: base.njk
 eleventyNavigation:
   key: 'What is Android Enterprise?'

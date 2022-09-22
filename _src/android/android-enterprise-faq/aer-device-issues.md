@@ -6,7 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - AE FAQ
+    - FAQ
     - Android Enterprise Recommended
 layout: base.njk
 eleventyNavigation:

@@ -6,7 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - AE FAQ
+    - FAQ
     - App management
 layout: base.njk
 eleventyNavigation:

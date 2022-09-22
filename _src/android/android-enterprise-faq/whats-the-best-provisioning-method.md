@@ -6,7 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - AE FAQ
+    - FAQ
     - Provisioning
 layout: base.njk
 eleventyNavigation:

@@ -6,8 +6,8 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - AE FAQ
-    - AE General
+    - FAQ
+    - General
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

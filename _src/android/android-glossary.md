@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Resources
-    - AE General
+    - General
 layout: base.njk
 id: 5246
 doccats:

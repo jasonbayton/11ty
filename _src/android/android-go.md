@@ -8,7 +8,7 @@ type: documentation
 tags: 
     - Diving deeper
     - Android Go
-    - AE General
+    - General
 eleventyExcludeFromCollections: true
 layout: base.njk
 ---

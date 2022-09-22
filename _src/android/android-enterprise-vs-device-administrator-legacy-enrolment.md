@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Getting started
-    - AE General
+    - General
     - Device admin
 layout: base.njk
 eleventyNavigation:

@@ -6,7 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - AE FAQ
+    - FAQ
     - COPE
     - Work profiles on company-owned devices
     - App management

@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
-    - Work profile on company-owned devices
+    - COPE
 layout: base.njk
 eleventyNavigation:
   key: 'Android 11 COPE changes'

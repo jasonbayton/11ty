@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Hardware validation
-    - AE General
+    - General
 layout: base.njk
 id: 4344
 eleventyNavigation:
