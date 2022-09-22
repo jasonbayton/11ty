@@ -155,6 +155,7 @@ a.gitlog-title {
 #android_doc_grid .android-doc-grid-group {
     padding: 10px;
     background-color: var(--blue);
+    border-radius: 5px;
 }
 
 #android_doc_grid .android-doc-grid-group h2 {
