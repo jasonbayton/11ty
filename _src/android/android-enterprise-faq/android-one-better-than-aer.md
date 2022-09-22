@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
-    - General
+    - Android Enterprise Recommended 
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
