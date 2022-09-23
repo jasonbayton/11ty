@@ -734,6 +734,10 @@ a.toc-link { text-decoration: none; }
   border-top: 1px solid var(--text);
 }
 
+#trusted_textgroup {
+  padding-bottom: 30px;
+}
+
 /* Media */
 
 @media (max-width: 1550px) {
@@ -815,10 +819,6 @@ a.toc-link { text-decoration: none; }
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: unset;
-  }
-
-  #trusted_textgroup {
-    padding-bottom: 30px;
   }
 
   #dpc_extras {
