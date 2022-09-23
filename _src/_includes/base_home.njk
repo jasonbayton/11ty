@@ -36,31 +36,24 @@
                             I make relevant, informative documentation for Android Enterprise. <!--span class="trusted-tag">Some of the vendors, partners and organisations I've worked with or contributed to include:</span-->
                         </h2>
                     </div>
-                    <div id="android-doc-container">
+                    <div id="android_doc_grid">
+                    {% for tag in android_tags %}
+                    {% if loop.index0 < 3 %}
                         <div class="android-doc-grid-group">
-                            <h3 class="post-title">Getting started</h3>
+                            <h2>{{ tag.name }}</h2>
+                            {% set taglist = collections[ tag.name ] %}
                             <div class="android-topic">
                                 <ul>
-                                    {%- for entry in collections['Getting started'] -%}
-                                    {%- if loop.index0 < 5 %}
-                                    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-                                    {%- endif %}
-                                    {%- endfor -%}
+                                {% for post in taglist %}
+                                {% if loop.index0 < 4 %}
+                                    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+                                {% endif %}
+                                {% endfor %}
                                 </ul>
                             </div>
                         </div>
-                        <div class="android-doc-grid-group">
-                            <h3 class="post-title">Diving deeper</h3>
-                            <div class="android-topic">
-                                <ul>
-                                    {%- for entry in collections['Diving deeper'] -%}
-                                    {%- if loop.index0 < 5 %}
-                                    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-                                    {%- endif %}
-                                    {%- endfor -%}
-                                </ul>
-                            </div>
-                        </div>
+                    {% endif %}
+                    {% endfor %}
                     </div>
                 </div>
                 <h3 class="post-title post-archive">

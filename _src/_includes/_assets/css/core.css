@@ -817,6 +817,10 @@ a.toc-link { text-decoration: none; }
     grid-column-gap: unset;
   }
 
+  #trusted_textgroup {
+    padding-bottom: 30px;
+  }
+
   #dpc_extras {
     grid-template-columns: 1fr;
   }
