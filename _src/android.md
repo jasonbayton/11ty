@@ -43,9 +43,9 @@ Android 13 introduces the first new runtime permission change in a while. Read u
 {% endif %}
 {% endfor %}
 </ul>
+</div>
 <div id="android_viewmore">
 <a class="button button-small" href="/tags/{{ tag.name | slugify }}">more »</a>
-</div>
 </div>
 </div>
 {% endfor %}

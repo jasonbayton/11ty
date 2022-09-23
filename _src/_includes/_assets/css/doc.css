@@ -156,6 +156,8 @@ a.gitlog-title {
     padding: 10px;
     background-color: var(--blue);
     border-radius: 5px;
+    display: grid;
+    grid-template-rows: min-content;
 }
 
 #android_doc_grid .android-doc-grid-group h2 {
@@ -177,8 +179,10 @@ a.gitlog-title {
     content: "";
 }
 
-#android_viewmore {
+#android_doc_grid .android-doc-grid-group #android_viewmore {
     text-align: right;
+    align-self: end;
+
 }
 
 section#feedback {
