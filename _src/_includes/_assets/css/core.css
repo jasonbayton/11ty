@@ -413,7 +413,7 @@ content#home {
 
 section#page_content {
   min-height: 600px;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .post-block {
