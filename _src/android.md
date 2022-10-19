@@ -1,14 +1,19 @@
 ---
 title: Android
-published: 2017-04-07T19:31:54+01:00
+published: '2017-04-07T19:31:54+01:00'
+date: "git Last Modified"
 status: publish
-author: Jason Bayton
+author: 'Jason Bayton'
+excerpt: ''
+type: documentation
 layout: base.njk
-tags: Getting started
-eleventyNavigation: '{ key: Android Home, order: 0 }'
+tags: "Getting started"
+eleventyNavigation:
+  key: Android Home
+  order: 0000
 templateEngineOverride: njk,md
-discourse_permalink: '[https://discuss.bayton.org/t/about-the-android-category/13]'
-excerpt: null
+discourse_permalink:
+    - 'https://discuss.bayton.org/t/about-the-android-category/13'
 ---
 
 If you manage Android devices in the enterprise, you’ve come to the right place! Below you’ll find a selection of documents covering all aspects of Android and Android Enterprise.
