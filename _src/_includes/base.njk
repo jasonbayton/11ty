@@ -42,11 +42,17 @@
             </section>
             {% endif %}
             <section id="page_content">
+                {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
+                {% set fixedContent = content | replace(regExpCode, "") | striptags %}
+                {% set wordCount = fixedContent | wordcount %}
+                {% set readingRate = 225 %}
+                {% set readingTime = (wordCount/readingRate) | round %}
+                {% if readingTime < 1 %}{% set readingTime = 1 %}{% endif %}
                 {% if not type.includes("archive") %}   
                 <div class="post-meta post-meta-base">
                     <div class="meta-single post-meta-base-left">
                         {% if type.includes("documentation") %}
-                        <span class="meta-tiny"><i class="fas fa-globe-europe"></i> {{ published | dateFull }}</span>
+                        <span class="meta-tiny"><i class="fas fa-globe-europe"></i> {{ published | dateFull }} | Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
                         <i class="fas fa-edit"></i> {{ page.date | dateFull }}
                         {% else %}
                         {{ page.date | dateFull }}
