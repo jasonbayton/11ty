@@ -1,5 +1,5 @@
 ---
-title: 'What versions of Android supports Android Enterprise?'
+title: 'What versions of Android support Android Enterprise?'
 published: '2022-10-23'
 status: publish
 author: 'Jason Bayton'
