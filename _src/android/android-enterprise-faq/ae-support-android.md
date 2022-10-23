@@ -12,7 +12,7 @@ layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   key: 'What versions of Android supports Android Enterprise?'
-  order: 5000
+  order: 1100
 --- 
 Android Enterprise was introduced with Android 5.0 Lollipop under the moniker _Android for Work_. 
 
