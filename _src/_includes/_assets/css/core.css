@@ -255,7 +255,7 @@ button {
 }
 
 #bayton_logo img {
-  width: 100px;
+  width: 150px;
 }
 
 #platinum_logo img {
@@ -275,7 +275,7 @@ button {
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
-  grid-template-columns: 130px 40px 5fr 60px 60px;
+  grid-template-columns: 180px 40px 5fr 60px 60px;
   color: var(--text);
   align-items: center;
   height: 100px;
