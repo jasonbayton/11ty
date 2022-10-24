@@ -8,7 +8,6 @@ type: documentation
 tags: 
     - FAQ
     - COPE
-    - Work profiles on company-owned devices
     - App management
 layout: base.njk
 eleventyNavigation:
