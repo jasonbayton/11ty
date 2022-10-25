@@ -14,7 +14,7 @@ Just a short several weeks ago I wrote:
 
 > Starting with more transparent, public documentation akin to the CDD about exactly what Go devices can and cannot do would be a massive, low-effort change that could clear many uncertainties up immediately and help ecosystem partners better understand what it takes to make sure their solutions are Go-supported. It'd equally help customers to decide up-front if Android Go is suitable for them, rather than the current approach of test-before-deployment that seems to be in relied upon currently.
 
-It's probably little more than coincidence that I've been raising the lack of transparency with Google quite frequently over the last few months, but seemingly in tandem with the [launch of Android 13 Go edition](https://blog.google/products/android/android-13-go-edition/) Google have also published a few documents to shine a light on the differences between Android and Android Go. 
+It's probably little more than coincidence that I've been raising the lack of transparency with Google quite frequently over the last few months, but seemingly in tandem with the [launch of Android 13 Go edition](https://blog.google/products/android/android-13-go-edition/) Google have also published a few documents to highlight the differences between Android and Android Go. 
 
 First, a blog series for developing applications for Android Go, which shines a light on some of the limitations of the flavour, as well as it's minimum requirements: 
 [https://android-developers.googleblog.com/2022/09/optimize-for-android-go-lessons-from-google-apps-part-1.html](https://android-developers.googleblog.com/2022/09/optimize-for-android-go-lessons-from-google-apps-part-1.html)
