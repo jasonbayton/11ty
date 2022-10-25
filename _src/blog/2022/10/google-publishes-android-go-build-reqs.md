@@ -8,7 +8,9 @@ type: post
 tags:
     - Enterprise
 ---
-I've been on a bit of an Android Go tangent recently, after a string of customer and ecosystem interactions really shone a light on the lack of public information Google has provided and the issues this is causing in enterprise deployments. Just a short several weeks ago I wrote: 
+I've been on a bit of an Android Go tangent recently, after a string of customer and ecosystem interactions really shone a light on the lack of public information Google has provided and the issues this is causing in enterprise deployments. \
+
+Just a short several weeks ago I wrote: 
 
 > Starting with more transparent, public documentation akin to the CDD about exactly what Go devices can and cannot do would be a massive, low-effort change that could clear many uncertainties up immediately and help ecosystem partners better understand what it takes to make sure their solutions are Go-supported. It'd equally help customers to decide up-front if Android Go is suitable for them, rather than the current approach of test-before-deployment that seems to be in relied upon currently.
 
