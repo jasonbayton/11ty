@@ -8,7 +8,7 @@ type: post
 tags:
     - Enterprise
 ---
-I've been on a bit of an Android Go tangent recently, after a string of customer and ecosystem interactions really shone a light on the lack of public information Google has provided and the issues this is causing in enterprise deployments. \
+I've been on a bit of an Android Go tangent recently, after a string of customer and ecosystem interactions really shone a light on the lack of public information Google has provided and the issues this is causing in enterprise deployments.
 
 Just a short several weeks ago I wrote: 
 
