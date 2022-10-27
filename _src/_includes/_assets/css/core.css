@@ -121,7 +121,7 @@ h5 { font-size: 20px; }
 }
 
 blockquote {
-  background: var(--light);
+  background: var(--blue);
   padding: 20px 20px 20px 40px;
   margin: 20px 0;
   border-radius: 5px;
