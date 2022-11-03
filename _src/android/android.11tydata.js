@@ -17,6 +17,10 @@ async function getChanges(data) {
 
 module.exports = {
   eleventyComputed: {
-    changes: async data => await getChanges(data)
+    changes: async data => await getChanges(data),
+    eleventyNavigation: {
+      key: data => data.title,
+      parent: data => data.parent
+    }
   }
 }
