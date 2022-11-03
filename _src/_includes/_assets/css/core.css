@@ -258,9 +258,13 @@ button {
   width: 170px;
 }
 
+#platinum_logo {
+  padding: 20px 0 0;
+}
+
 #platinum_logo img {
   width: 30px;
-  padding-left: 10px;
+  margin: 0 auto;
 }
 
 #bayton_text {
