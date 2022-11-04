@@ -37,7 +37,7 @@ Bare in mind however, I’ve noticed that “not supported” seems to be code f
 
 Here you are, I’ve even uploaded the Skype.jar file for you!
 
-[Click to download](https://r2_worker.bayton.workers.dev/uploads/2010/03/Skype_1.0.17_SEW910I_UK.jar_.zip)
+[Click to download](https://cdn.bayton.org/uploads/2010/03/Skype_1.0.17_SEW910I_UK.jar_.zip)
 
 Try it and let me know how you get on (Comments are open). If you’re Australian, please scroll down to the bottom of this post for your version!
 
@@ -84,6 +84,6 @@ Go to [Part II](/2010/03/part-ii-device-not-compatible-skype-on-3/)
 
 For my Australian readers, here is the Australian 3 version:
 
-[Skype .jar](https://r2_worker.bayton.workers.dev/uploads/2010/03/Skype_2.0.66_SAMF480_AU.zip)
+[Skype .jar](https://cdn.bayton.org/uploads/2010/03/Skype_2.0.66_SAMF480_AU.zip)
 
 Enjoy!

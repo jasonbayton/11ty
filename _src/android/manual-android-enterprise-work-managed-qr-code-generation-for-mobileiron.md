@@ -150,4 +150,4 @@ Generating the QR code
 
 No special tools are required for generating MobileIron-compatible QR codes. As long as the chosen QR generator **supports free text**, any can be used. For the codes generated in the linked post above I used [qr-code-generator.com](https://www.qr-code-generator.com/).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/08/qr.png)
+![](https://cdn.bayton.org/uploads/2017/08/qr.png)

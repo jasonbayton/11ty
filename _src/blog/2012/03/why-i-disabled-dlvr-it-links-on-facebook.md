@@ -38,23 +38,23 @@ Within the dlvr.it options for cross-posting messages to Facebook you have the o
 
 On Twitter, the link is posted *after* the original content to prompt you to continue reading:
 
-![Link at the end](https://r2_worker.bayton.workers.dev/uploads/2012/03/Capture1.png "Twitter")
+![Link at the end](https://cdn.bayton.org/uploads/2012/03/Capture1.png "Twitter")
 
 On Facebook, the first thing you see is the link, this immediately puts you off reading the content that follows:
 
-![Facebook links at the beginning](https://r2_worker.bayton.workers.dev/uploads/2012/03/Capture2.png "Facebook fail")
+![Facebook links at the beginning](https://cdn.bayton.org/uploads/2012/03/Capture2.png "Facebook fail")
 
 When I say “puts you off reading”, I mean it. After toying with the idea of turning the links off all together, I decided that it was ultimately necessary in order to regain the engagement I was always used to getting when I was active on Facebook and not pushing my posts from Google+.
 
 The proof was in the pudding as highlighted here:
 
-![No link = engagement](https://r2_worker.bayton.workers.dev/uploads/2012/03/Capture3.png "Facebook Win")
+![No link = engagement](https://cdn.bayton.org/uploads/2012/03/Capture3.png "Facebook Win")
 
 Naturally, this test was not very scientific at all, but since turning off the links the comments and likes have been rolling in in a manner that reminded me of the days when I *only* used Facebook, the days when people read what I posted and didn’t overlook it due to a ghastly (albeit custom) link stuck right at the beginning of the content.
 
 When I cornered dlvr.it over this “issue”, they responded:
 
-![Dlvr.it say it's normal](https://r2_worker.bayton.workers.dev/uploads/2012/03/Capture4.png "Dlvr.it response")
+![Dlvr.it say it's normal](https://cdn.bayton.org/uploads/2012/03/Capture4.png "Dlvr.it response")
 
 Personally? I don’t see why that matters. If someone is reading your post, they will click “read more’ to finish it off anyway. By stuffing the link in a reader’s face immediately I believe more harm is being done than not having the link on display until “read more” is clicked, if a post is infact long enough to require that.
 

@@ -25,7 +25,7 @@ First launched in June 2014, the Surface Pro 3 is, as the name suggests, the 3rd
 Thoughts
 --------
 
-![Nyx_110](https://r2_worker.bayton.workers.dev/uploads/2015/09/Nyx_110.jpg)
+![Nyx_110](https://cdn.bayton.org/uploads/2015/09/Nyx_110.jpg)
 
 So let me start by saying I’ve tinkered with a lot of devices; Macbooks, Ultrabooks, Windows tablets, iPads and Android tablets. Not as many as some popular tech reviewers naturally (as I either use them through work or pay out of my own limited budget) but more than your average geek. This website is a testament to that, as are my social media feeds.
 

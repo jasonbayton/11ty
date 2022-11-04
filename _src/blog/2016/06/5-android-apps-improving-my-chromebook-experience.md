@@ -30,7 +30,7 @@ Now the Android update has been running on my Chromebook for a little while, I�
 1. Google Photos
 ----------------
 
-![Screenshot 2016-06-20 at 11.50.22](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-20-at-11.50.22.png)
+![Screenshot 2016-06-20 at 11.50.22](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-20-at-11.50.22.png)
 
 Google Photos is great as it provides simple, direct access to all photos uploaded from all of my devices. It’s easy therefore to upload, download and share whatever I want directly from the Chromebook rather than utilising the [Photos website](//photos.google.com).
 
@@ -41,7 +41,7 @@ This functionality was to a degree there already since all my photos are availab
 2. Word
 -------
 
-![Screenshot 2016-06-20 at 11.48.19](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-20-at-11.48.19.png)
+![Screenshot 2016-06-20 at 11.48.19](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-20-at-11.48.19.png)
 
 My reliance on Office has never truly disappeared. I blame it on every company I’ve worked for requiring I use Office, corporate templates, and definitely not Google Docs because it’s not an authorised storage area for corporate documentation (fair enough).
 
@@ -52,7 +52,7 @@ Word hooks directly into my 365 account and allows me to edit documentation with
 3. Juice SSH
 ------------
 
-![Screenshot 2016-06-19 at 22.31.36](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-19-at-22.31.36.png)
+![Screenshot 2016-06-19 at 22.31.36](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-19-at-22.31.36.png)
 
 Back in the day, Chrome OS provided a relatively OK SSH client through Crosh, the Chrome OS terminal (`Ctrl + Alt + T` if you’ve never seen it and are using a Chromebook to read this now).
 
@@ -65,7 +65,7 @@ I’ve been using JuiceSSH for a couple of years and recommend it for anyone loo
 4. Nextcloud
 ------------
 
-![Screenshot 2016-06-19 at 22.17.27](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-19-at-22.17.27.png)
+![Screenshot 2016-06-19 at 22.17.27](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-19-at-22.17.27.png)
 
 Beyond the corporate stuff in Office 365 and *some* data I keep in Drive, Nextcloud hosts everything else I have on my own home servers.
 
@@ -86,14 +86,14 @@ The Nextcloud app allows for quick, simple access to my private datastore from a
 5. Gmail
 --------
 
-![Screenshot 2016-06-19 at 21.46.35](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-19-at-21.46.35.png)
+![Screenshot 2016-06-19 at 21.46.35](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-19-at-21.46.35.png)
 
 A definite nice to have; I’m somewhat used to accessing mail direct from my device rather than through a web browser. Gmail works pretty well, although it’s a lot slower to sync on the Chromebook than pretty much anything else I have it installed on. I put this down perhaps to sync settings, though unlike a normal Android device it’s not seemingly possible to get into the guts of sync settings to make changes. Perhaps that’ll change with an update.
 
 Bonus: Chrome
 -------------
 
-![Screenshot 2016-06-17 at 16.42.43](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-17-at-16.42.43.png)
+![Screenshot 2016-06-17 at 16.42.43](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-17-at-16.42.43.png)
 
 [Not really](https://plus.google.com/u/0/+JasonBaytonX/posts/WBpqv7prMBL).
 

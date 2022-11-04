@@ -38,19 +38,19 @@ Inkeeping with the materials synonymous with Nokia’s Lumia line, the Nokia 3 i
 
 On the back is the 8MP camera and flash module:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/IMG_20170720_111907338.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/07/IMG_20170720_111907338.jpg)
+[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170720_111907338.jpg)](/https://cdn.bayton.org/uploads/2017/07/IMG_20170720_111907338.jpg)
 
 Down the left-hand side sits the satisfyingly clicky volume rocker and power button, and on the right is the SIM and MicroSD trays (two of them). Oddly they don’t quite match the colour of the surrounding aluminium frame, but this only really shows in the right light:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/IMG_20170725_124907753_BURST000_COVER_TOP-e1501416735237.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/07/IMG_20170725_124907753_BURST000_COVER_TOP.jpg)
+[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_124907753_BURST000_COVER_TOP-e1501416735237.jpg)](/https://cdn.bayton.org/uploads/2017/07/IMG_20170725_124907753_BURST000_COVER_TOP.jpg)
 
 On the front is the 5″ 720p screen, an odd choice in 2017 given the increasing demand, nay *expectation* of 1080p displays as a minimum, however the image is crisp enough, the display is bright and honestly unless you’re looking it’s not obvious HDMG skimped on the display. It’s protected by Gorilla Glass 3 at least, so it could have definitely been worse. Above the screen is an 8MP selfie-shooter and below the screen is another feature I wish would disappear, capacitive buttons:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/IMG_20170725_125015496.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/07/IMG_20170725_125015496.jpg)
+[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125015496.jpg)](/https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125015496.jpg)
 
 At least on the Nokia 3 these follow the standard layout, unlike competitors. Along the bottom, the mono speaker and microUSB (no USB C?) charging port:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/IMG_20170725_125218943_BURST000_COVER_TOP-e1501418321309.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/07/IMG_20170725_125218943_BURST000_COVER_TOP-e1501416807913.jpg)
+[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125218943_BURST000_COVER_TOP-e1501418321309.jpg)](/https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125218943_BURST000_COVER_TOP-e1501416807913.jpg)
 
 On top the standard (or, non-standard now? Who knows) 3.5mm headphone port.
 
@@ -92,12 +92,12 @@ Software
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-4"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Screenshot_20170730-141754.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141754/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-4"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141754/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Screenshot_20170730-142341.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142341/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Screenshot_20170730-141749.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141749/) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142341/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141749/) </dt></dl>  
 <dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Screenshot_20170730-141737.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141737/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Screenshot_20170730-141942.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141942/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Screenshot_20170730-142412.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142412/) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141737/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141942/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142412/) </dt></dl>  
  </div>
  
  The Nokia 3 ships with Android N 7.0 out of the box. Considering the Wileyfox Swift 2x ships with 7.1.2 and Android O 8.0 is just around the corner it’s a little disappointing to see 7.0 being shipped (in the context of HMDG stating they were going to be focusing on updates and security from the get-go, I’d otherwise not complain). I did receive an update to bring the security level up to July 2017 in the first 10 days of ownership which is definitely encouraging, but more can be done.

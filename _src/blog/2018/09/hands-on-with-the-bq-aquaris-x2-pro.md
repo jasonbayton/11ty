@@ -27,15 +27,15 @@ While you’d be forgiven for not recognising BQ as a manufacturer considering t
 Hardware
 --------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/08/DSC_0050-e1534717197816.jpg)The device is, like most premium examples in 2018, a mixture of aluminium and glass, with the only exception being a thin plastic border around the 5.65″ 18:9 FHD+ screen which also branches into the less-than-subtle antenna lines.
+![](https://cdn.bayton.org/uploads/2018/08/DSC_0050-e1534717197816.jpg)The device is, like most premium examples in 2018, a mixture of aluminium and glass, with the only exception being a thin plastic border around the 5.65″ 18:9 FHD+ screen which also branches into the less-than-subtle antenna lines.
 
 The device comes in three colours, Midnight Black, Deep Silver and Glazed White. The Glazed white to me, depending on the light, looks like it could have either a rose or gold tint on the aluminium, it’s quite nice.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/08/20180821_232759-e1537352534494.jpg)
+![](https://cdn.bayton.org/uploads/2018/08/20180821_232759-e1537352534494.jpg)
 
 Unsurprisingly it’s also a bit of a fingerprint magnet because of this and a little slippery in the hand compared to devices with metal or plastic backs; sentiments again echoed often with this choice of material; in fairness though the white model BQ sent over does a pretty good job of hiding them.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/usbcfront-e1537354283796.jpg)
+![](https://cdn.bayton.org/uploads/2018/09/usbcfront-e1537354283796.jpg)
 
 General build quality is fine; there are some very minor niggles here and there I noticed where it sandwiches together, but I had to pay quite close attention to even see this, so it’s unlikely to be a concern.
 
@@ -61,14 +61,14 @@ The loudspeaker on the bottom isn’t too bad, it goes loud enough to fill a sma
 Camera
 ------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/backcamera.jpg)
+![](https://cdn.bayton.org/uploads/2018/09/backcamera.jpg)
 
 For the record, I am not a great photographer. That said, I found the camera to be pretty good in both normal and lower light situations, however don’t take the following samples as a single source of truth:
 
-- ![](https://r2_worker.bayton.workers.dev/uploads/2018/09/MVIMG_20180919_115723_548.jpg)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2018/09/MVIMG_20180919_115854_966.jpg)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2018/09/IMG_20180919_115429_230.jpg)
-- ![](https://r2_worker.bayton.workers.dev/uploads/2018/09/IMG_20180919_122707_540.jpg)
+- ![](https://cdn.bayton.org/uploads/2018/09/MVIMG_20180919_115723_548.jpg)
+- ![](https://cdn.bayton.org/uploads/2018/09/MVIMG_20180919_115854_966.jpg)
+- ![](https://cdn.bayton.org/uploads/2018/09/IMG_20180919_115429_230.jpg)
+- ![](https://cdn.bayton.org/uploads/2018/09/IMG_20180919_122707_540.jpg)
 
 BQ’s camera app is simple, clean and straightforward to use. The automatic settings do most of the hard work, but additional ad-hoc options such as brightness adjustments are a nice touch. It also includes manual, portrait and panorama modes, and will take video up to 4K once enabled in camera settings.
 
@@ -81,7 +81,7 @@ Software
 
 Out of the box the Aquaris runs 8.1 Oreo. There are plans to upgrade to Pie however at time of writing I’ve not seen so much as a beta just yet. Since BQ have been leveraging Project Treble for some time however, it shouldn’t be too much longer.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/androidoneback-e1537357035493.jpg)
+![](https://cdn.bayton.org/uploads/2018/09/androidoneback-e1537357035493.jpg)
 
 As this is an Android One device, the software experience is pure, stock Android with only a couple of approved BQ apps (the camera being one of them).
 
@@ -127,6 +127,6 @@ One more thing..
 
 As a side note, I also just want to take a moment to appreciate the SIM pin presentation:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-4.png)I like to keep my SIM pins in their boxes, using them and putting them back often as I switch devices frequently, however with the mix of weird slot configurations some OEMs adopt, or just taping them in, this stood out to me as a nice, elegant solution that keeps it in place. Nice to see BQ paying this level of attention to their presentation!
+![](https://cdn.bayton.org/uploads/2018/09/image-4.png)I like to keep my SIM pins in their boxes, using them and putting them back often as I switch devices frequently, however with the mix of weird slot configurations some OEMs adopt, or just taping them in, this stood out to me as a nice, elegant solution that keeps it in place. Nice to see BQ paying this level of attention to their presentation!
 
 *Are you a BQ device owner? Are you planning to be after reading this? Would you consider the X2 Pro as an enterprise device? Let me know on [Twitter](https://twitter.com/jasonbayton), [LinkedIn](https://www.linkedin.com/in/jasonbayton/) or in the comments below!*

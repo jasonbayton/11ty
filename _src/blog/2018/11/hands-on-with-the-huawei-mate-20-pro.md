@@ -76,15 +76,15 @@ I find myself mostly impressed with the AI, choosing for me the best mode to tak
 
 Take a gander at some of the results:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181030_180637.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181030_180637.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181101_185033.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181101_185033.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181102_183218.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181102_183218.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181020_151729.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181020_151729.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_174021-PANO.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_174021-PANO.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_174139-PANO.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_174139-PANO.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_174202.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_174202.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_174500.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_174500.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_193658.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2018/11/IMG_20181023_193658.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181030_180637.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181030_180637.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181101_185033.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181101_185033.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181102_183218.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181102_183218.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181020_151729.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181020_151729.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181023_174021-PANO.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181023_174021-PANO.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181023_174139-PANO.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181023_174139-PANO.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181023_174202.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181023_174202.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181023_174500.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181023_174500.jpg)
+[![](https://cdn.bayton.org/uploads/2018/11/IMG_20181023_193658.jpg)](/https://cdn.bayton.org/uploads/2018/11/IMG_20181023_193658.jpg)
 
 More photos can be found in my album, [here](https://photos.app.goo.gl/MwpFig3bRxLPsb1X9).
 

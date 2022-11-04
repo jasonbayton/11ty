@@ -24,19 +24,19 @@ Using a dedicated circle, we can create dedicated contacts that’ll receive ema
 
 Begin by creating a circle. From here we can add an email contact as below:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/Screenshot.png "Screenshot")](https://r2_worker.bayton.workers.dev/uploads/2011/07/Screenshot.png)
+[![](https://cdn.bayton.org/uploads/2011/07/Screenshot.png "Screenshot")](https://cdn.bayton.org/uploads/2011/07/Screenshot.png)
 
 You’ll have to give the contact a name, but then you’ll be ready to go. Click Create circle:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/Screenshot-2.png "Screenshot-2")](https://r2_worker.bayton.workers.dev/uploads/2011/07/Screenshot-2.png)
+[![](https://cdn.bayton.org/uploads/2011/07/Screenshot-2.png "Screenshot-2")](https://cdn.bayton.org/uploads/2011/07/Screenshot-2.png)
 
 Voila:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/Screenshot-3.png "Screenshot-3")](https://r2_worker.bayton.workers.dev/uploads/2011/07/Screenshot-3.png)
+[![](https://cdn.bayton.org/uploads/2011/07/Screenshot-3.png "Screenshot-3")](https://cdn.bayton.org/uploads/2011/07/Screenshot-3.png)
 
 You can now select this circle when creating a new post and, if you check the box to say “Also email X people not yet using Google+”, Google+ will send an email to the email address(es) you have specified:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/Screenshot-5.png "Screenshot-5")](https://r2_worker.bayton.workers.dev/uploads/2011/07/Screenshot-5.png)
+[![](https://cdn.bayton.org/uploads/2011/07/Screenshot-5.png "Screenshot-5")](https://cdn.bayton.org/uploads/2011/07/Screenshot-5.png)
 
 So what services can you use this with?
 

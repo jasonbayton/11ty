@@ -28,7 +28,7 @@ Today, 100’s of deployments, [presentations](https://www.youtube.com/watch?v=O
 
 With the program [now public](/2019/02/google-launch-android-enterprise-recommended-for-managed-service-providers/), I am excited to be able to say I join a select number of people across the world who have undertaken and passed the Android Enterprise Expert validation, a requirement for MSPs who wish to gain Android Enterprise Recommended status to show they know how to sell, deploy and train on Android in the enterprise.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/Bayton-Jason_-18040006.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/Bayton-Jason_-18040006.jpg)
 
 Open only to AER MSP professionals, I was lucky enough to be selected as one of the first independent (non-AER MSP) individuals in the world to take part in the validation, which is a huge honour!
 

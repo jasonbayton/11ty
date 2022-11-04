@@ -53,15 +53,15 @@ All you’ll need to change is PROFILEID. For you, this’ll be a number you see
 
 Simple, right? Now you have that, you can create your new Route. Whenever you’re ready, you can click that all important button!
 
-![](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.161.png "screenshot.161")
+![](https://cdn.bayton.org/uploads/2011/05/screenshot.161.png "screenshot.161")
 
 As soon as you’ve hit the button, you’ll be greeted with a screen you’ll no doubt become familiar with as you turn into a dlvr.it power user.. 😉
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.162.png "screenshot.162")](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.162.png)
+[![](https://cdn.bayton.org/uploads/2011/05/screenshot.162.png "screenshot.162")](https://cdn.bayton.org/uploads/2011/05/screenshot.162.png)
 
 Give your new route a name and hit “+ add” in Sources. This is where we’ll get your Google+ feed in and set to be pushed to Twitter/Facebook when we’re done. Be prepared, there are a lot of options you can potentially set here. I’ll show what’s required and trust you can take all the time you need to check out the other options at a later time.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.163.png "screenshot.163")](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.163.png)
+[![](https://cdn.bayton.org/uploads/2011/05/screenshot.163.png "screenshot.163")](https://cdn.bayton.org/uploads/2011/05/screenshot.163.png)
 
 **Feed URL** is where you’ll enter the Google+ feed I posted above, though with your profile number, obviously.. unless you want to post my updates? I’d be flattered, I’m sure! I doubt you’d be too happy though..
 
@@ -91,11 +91,11 @@ Once you’ve saved the source, your route will become visible again. Simply cli
 
 On the next screen, you’ll be prompted to choose a destination. There are a number to choose from, but luckily someone has decided to place Twitter and Facebook at the top of the list (it’s like they *know* what we’re doing).
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.164.png "screenshot.164")](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.164.png)
+[![](https://cdn.bayton.org/uploads/2011/05/screenshot.164.png "screenshot.164")](https://cdn.bayton.org/uploads/2011/05/screenshot.164.png)
 
 <div></div>Click new and wait for the next screen.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.166.png "screenshot.166")](https://r2_worker.bayton.workers.dev/uploads/2011/05/screenshot.166.png)
+[![](https://cdn.bayton.org/uploads/2011/05/screenshot.166.png "screenshot.166")](https://cdn.bayton.org/uploads/2011/05/screenshot.166.png)
 
 <div>Almost there now – Make sure **Active** is ticked and click **Start Authorisation**. You’ll now be taken to Twitter or Facebook to sign in before returning to this screen after a confirmation message. Before you click save you can again set a couple of extra options, such as what parts of your Google+ post to post in **Post Content** and how dlvr.it will handle hashtags in **Advanced**.</div>Have you finished tinkering? As soon as you hit save you’ll be returned to your route list where you’ll see a new, shiny Google+ to Twitter route. The final step is to make sure **Active** is showing in the top right of the route, if it isn’t, click it.
 

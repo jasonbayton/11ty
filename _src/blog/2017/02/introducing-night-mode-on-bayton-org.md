@@ -37,7 +37,7 @@ With that in mind, I decided to implement a more elegant solution; changing the 
 
 The end result looks like this:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/2017-1.gif)](/https://r2_worker.bayton.workers.dev/uploads/2017/02/2017-1.gif)
+[![](https://cdn.bayton.org/uploads/2017/02/2017-1.gif)](/https://cdn.bayton.org/uploads/2017/02/2017-1.gif)
 
 It’s been live for about a month, but I’ve been tweaking it too frequently to officially announce it. There’s still a few areas of improvement (buttons, etc) but it’s good enough for now.
 

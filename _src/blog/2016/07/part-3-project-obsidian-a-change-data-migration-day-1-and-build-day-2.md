@@ -60,23 +60,23 @@ Build day 2
 
 So with the temporary RAID5 in place and data migrated, I shut it all down and began stripping down the storage server. There’s no build video for day 2, it was all a little manic.
 
-![20160713_114251_HDR](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_114251_HDR-e1468419744237.jpg)
+![20160713_114251_HDR](https://cdn.bayton.org/uploads/2016/07/20160713_114251_HDR-e1468419744237.jpg)
 
 In the above image I’ve mounted 3 4TB WD RED NAS hard drives in the 2 5.25″ bays, later joined by the system 120GB SSD. After first destroying the 16TB RAID6 from within Ubuntu I powered the server down and began disconnecting the drives in the bottom Cooler Master 915R. The beauty of a case like this is being able to mount the drives separately from the main system and easily remove the whole chassis in situations such as this.
 
 Once the disks were disconnected, the 915R uncoupled from the 925 and moved out of the way, all surplus cables were removed leaving the 925 but a husk of the mammoth system it was before:
 
-![20160713_130728](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_130728-e1468420061922.jpg)
+![20160713_130728](https://cdn.bayton.org/uploads/2016/07/20160713_130728-e1468420061922.jpg)
 
 And no, still not cable managed. Yet.
 
 With the storage server back up and running and everything looking good, I proceeded to transport the 915R and its disks downstairs to a waiting 915F housing the compute module.
 
-![20160713_131233](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_131233.jpg)
+![20160713_131233](https://cdn.bayton.org/uploads/2016/07/20160713_131233.jpg)
 
 After a lot of dusting (it’s impossible to get in there when they’re stacked), stacking the storage module on top of the compute module and connecting a whole heap of wires, it was ready to boot:
 
-![20160713_153441](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153441.jpg)
+![20160713_153441](https://cdn.bayton.org/uploads/2016/07/20160713_153441.jpg)
 
  <style type="text/css">
 			#gallery-12 {
@@ -99,7 +99,7 @@ After a lot of dusting (it’s impossible to get in there when they’re stacked
 
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-full" id="gallery-12"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153448.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153448.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153453-e1485293565424.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160713_153453-e1485293565424.jpg) </dt></dl>   
+[![](https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg)](/https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg)](/https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg) </dt></dl>   
  </div>
  
  At this point it’s worth pointing out *none of this is very black* and that would be right. I haven’t yet wired up the all-black power cables and given the rather quick turnaround on moving the disks, simply reused the far-too-long SATA cables I already had. As and when the parts come in I’ll publish some updated pictures.

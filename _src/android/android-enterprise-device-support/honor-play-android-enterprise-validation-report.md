@@ -30,7 +30,7 @@ This device has been tested against the public [validation process](/android/and
 
 When retrospectively applying a policy to disable the bluetooth radio as a fully managed device, the device requests permission from the end-user to do so. This can be denied and bluetooth remains active, though the prompt does frequently reappear.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/Screenshot_20190326_225851_com.android.settings-e1553678642392.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/Screenshot_20190326_225851_com.android.settings-e1553678642392.jpg)
 
 When proactively applied (policy set from point of enrolment) this doesn’t happen.
 
@@ -38,7 +38,7 @@ When proactively applied (policy set from point of enrolment) this doesn’t hap
 
 Despite being restricted in two ways – an API for [Smartlock](/android/what-is-android-smartlock-and-why-should-it-be-disabled/) and APIs for Samsung/Android 9.0, Huawei’s face unlock implementation ignores both.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/image-3.png)
+![](https://cdn.bayton.org/uploads/2019/03/image-3.png)
 
 As such, the basic and arguably insecure implementation on the Honor Play is able to be used against policy.
 
@@ -48,7 +48,7 @@ As such, the basic and arguably insecure implementation on the Honor Play is abl
 
 During QR code provisioning the wizard interjects briefly with two screens which need to be tapped away.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/Screenshot_20190326_233941_com.huawei.hwstartupguide.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/Screenshot_20190326_233941_com.huawei.hwstartupguide.jpg)
 
 The process otherwise runs without issue, and behaves as expected.
 
@@ -58,11 +58,11 @@ Zero-touch provisioning **is possible**, however the manufacturer ID must be Hon
 
 The only recommendation would be to reorder the setup wizard somewhat, it should not be necessary to navigate through a number of steps before even being prompted for WiFi (which does not auto-continue once connected, requiring one more manual tap).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/Screenshot_20190326_233941_com.huawei.hwstartupguide.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/Screenshot_20190326_233941_com.huawei.hwstartupguide.jpg)
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/Screenshot_20190327_095232_com.huawei.hidisk.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/Screenshot_20190327_095232_com.huawei.hidisk.jpg)
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/Screenshot_20190327_095248_com.android.settings.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/Screenshot_20190327_095248_com.android.settings.jpg)
 
 Zero-touch provisioning is otherwise successful with no issues noted.
 
@@ -82,10 +82,10 @@ C. Gallery app is defined as a mandatory system app, and so is present in fully 
 
 A. The policy to prohibit app installation on the device is not enforced, as such any downloaded APK from the internet may be installed on a work profile device (MI Core, WS1 UEM).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/Screenshot_20190327-103031.png)
+![](https://cdn.bayton.org/uploads/2019/03/Screenshot_20190327-103031.png)
 As tested on a Nokia 8.1
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/honorcrop.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/honorcrop.jpg)
 
 As tested on the Honor Play
 

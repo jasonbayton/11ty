@@ -105,7 +105,7 @@ Implementation
 
 The use of the Provisioner app for QR generation is an interesting one; I’d hoped EMM admins would be able to generate them directly from the Core/Cloud admin console either generically or as part of adding in a new device (wherein the admin extras for username could also be generated ad-hoc). Instead, admins will need to install the app on a device and generate them as required. Thankfully these can be shared over email or any other supported intent which doesn’t require the second device to be anywhere near those being provisioned which is a definite improvement over NFC.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/10/Screenshot_20171020-113503.png) ![](https://r2_worker.bayton.workers.dev/uploads/2017/10/Screenshot_20171020-113509.png)
+![](https://cdn.bayton.org/uploads/2017/10/Screenshot_20171020-113503.png) ![](https://cdn.bayton.org/uploads/2017/10/Screenshot_20171020-113509.png)
 
 For those wanting to generate QR codes without the use of the Provisioner however, my Manual Android Enterprise work-managed QR code generation for MobileIron document is still 100% valid and can used also (as long as you don’t ask MobileIron for support). If you’re looking for QR code provisioning enrolment guides also, check out [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/).
 

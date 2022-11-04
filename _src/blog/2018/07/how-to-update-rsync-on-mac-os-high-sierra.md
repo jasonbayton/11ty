@@ -21,7 +21,7 @@ tags:
 ---
 <div class="callout callout-info"> 
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Joel400.jpg)
+![](https://cdn.bayton.org/uploads/2018/07/Joel400.jpg)
 
 ### Contributing author
 
@@ -45,7 +45,7 @@ Homebrew will link most software to /usr/local/bin. However, the terminal may be
 sudo nano /private/etc/paths
 ```
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Screen-Shot-2018-07-08-at-15.31.49.png)Now you are ready to install the new Rsync version, and can do so as follows:
+![](https://cdn.bayton.org/uploads/2018/07/Screen-Shot-2018-07-08-at-15.31.49.png)Now you are ready to install the new Rsync version, and can do so as follows:
 
 ```
 brew install rsync

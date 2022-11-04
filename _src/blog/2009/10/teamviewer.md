@@ -48,29 +48,29 @@ When there’s a problem that can’t be fixed locally, or perhaps a presentatio
 
 Log onto [www.teamviewer.com](https://www.teamviewer.com/)
 
-[![image01](https://r2_worker.bayton.workers.dev/uploads/2014/05/image01.png)](https://r2_worker.bayton.workers.dev/uploads/2014/05/image01.png)
+[![image01](https://cdn.bayton.org/uploads/2014/05/image01.png)](https://cdn.bayton.org/uploads/2014/05/image01.png)
 
 From here, click directly on **Download** in the top right corner.
 
-[![image02](https://r2_worker.bayton.workers.dev/uploads/2014/05/image02.png)](https://r2_worker.bayton.workers.dev/uploads/2014/05/image02.png)
+[![image02](https://cdn.bayton.org/uploads/2014/05/image02.png)](https://cdn.bayton.org/uploads/2014/05/image02.png)
 
 From here, you will want to download the quick support module
 
-[![image03](https://r2_worker.bayton.workers.dev/uploads/2014/05/image03.png)](https://r2_worker.bayton.workers.dev/uploads/2014/05/image03.png)
+[![image03](https://cdn.bayton.org/uploads/2014/05/image03.png)](https://cdn.bayton.org/uploads/2014/05/image03.png)
 
 Depending on Windows or Mac, make your selection. We will use Windows.
 
 Select Run
 
-[![image04](https://r2_worker.bayton.workers.dev/uploads/2014/05/image04.png)](https://r2_worker.bayton.workers.dev/uploads/2014/05/image04.png)
+[![image04](https://cdn.bayton.org/uploads/2014/05/image04.png)](https://cdn.bayton.org/uploads/2014/05/image04.png)
 
 And Run again once downloaded
 
-[![image05](https://r2_worker.bayton.workers.dev/uploads/2014/05/image05.png)](https://r2_worker.bayton.workers.dev/uploads/2014/05/image05.png)
+[![image05](https://cdn.bayton.org/uploads/2014/05/image05.png)](https://cdn.bayton.org/uploads/2014/05/image05.png)
 
 TeamViewer Quick Support should now pop up.
 
-[![image06](https://r2_worker.bayton.workers.dev/uploads/2014/05/image06.png)](https://r2_worker.bayton.workers.dev/uploads/2014/05/image06.png)
+[![image06](https://cdn.bayton.org/uploads/2014/05/image06.png)](https://cdn.bayton.org/uploads/2014/05/image06.png)
 
 Provide your supporter with your ID and Password when asked. Depending on whether you have scheduled a presentation, or asked for remote support, you will either see their screen, or they will see yours.
 

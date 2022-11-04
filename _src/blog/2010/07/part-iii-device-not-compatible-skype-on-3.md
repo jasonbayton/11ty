@@ -32,7 +32,7 @@ Just as with Part I and II, your Android device supports java. If you search “
 
 3 offer their own native Skype client for “supported” devices which you can download from their site. Unfortunately if you’re here it’s probably because they’ve already told you your device is not compatible. Well, they’re wrong! The Skype APK (Android package extension) will work on many more devices than they let on, and even if they don’t allow you to download it, you can still install it and use it without any issues what so ever.
 
-[Skype Native APK](https://r2_worker.bayton.workers.dev/download/Skype%20on%203%200.10.0.8.apk)  
+[Skype Native APK](https://cdn.bayton.org/download/Skype%20on%203%200.10.0.8.apk)  
 
 #### Solution 3 – iSkoot for Android
 
@@ -42,7 +42,7 @@ Full credit goes to [Dawmuz on XDA developers](https://forum.xda-developers.com/
 
 Here is the UK version:
 
-[iSkoot APK](https://r2_worker.bayton.workers.dev/download/iskootMod3UK.apk)  
+[iSkoot APK](https://cdn.bayton.org/download/iskootMod3UK.apk)  
 
 
 If you need it for your own country, please sign up to XDA developers (the best thing you can ever do for your mobile smartphone!) go to [Dawmuz’s thread](https://forum.xda-developers.com/showthread.php?t=715910) and download your countries APK.

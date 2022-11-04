@@ -33,7 +33,7 @@ Consumer features
 
 ### RIP Android beam
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/nfc.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/nfc.jpg)
 *Source: Digital Trends*
 
 There were [murmurs about](https://www.xda-developers.com/google-deprecate-android-beam-api-nfc-share-files/) Android beam, the sharing option for simple transfers with an NFC bump, being removed last year, however it would appear with the first beta of Q, this has now become reality.
@@ -44,7 +44,7 @@ I’ll be looking out for a 3rd party solution in the short term to fill this ga
 
 ### Native screen recording
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/screen.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/screen.jpg)
 *Source: 9to5Google*
 
 I’ve been leveraging screen recording in Android for years. From the early days of requiring root (!) to more recently developers leveraging Google Cast as the Android platform has matured. Today I rely mostly on [AZ Screen Recorder](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free) and [MNML](https://play.google.com/store/apps/details?id=com.afollestad.mnmlscreenrecord). AZ has the benefit of inbuilt GIF conversion and trimming, though it’s not perfect.
@@ -57,7 +57,7 @@ I have three thoughts on native support:
 
 ### WiFi sharing capabilities
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/wifi.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/wifi.jpg)
 *Source: 9to5Google*
 
 Super useful as a consumer to allow for sharing WiFi details quickly, easily and slightly more securely than is currently possible, it’s now possible to simply tap a share button to generate a QR code with the relevant connection details within.
@@ -66,7 +66,7 @@ I do however, from an enterprise perspective, very much hope this can be restric
 
 ### Improvements to Android permissions
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/perms.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/perms.jpg)
 *Source: 9to5Google*
 
 Similar to what we’ve had with iOS for a long time, Android has finally caught up in offering more advanced location permission controls in Android Q, and Google have equally upped their game on permissions generally.
@@ -75,7 +75,7 @@ Ultimately I’m not sure this will lead to much in the way of changes on the en
 
 ### Desktop mode
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/desktop.jpg)
+![](https://cdn.bayton.org/uploads/2019/03/desktop.jpg)
 *Source: XDA Developers*
 
 Also something we’ve been hearing about for a while, desktop mode in beta 1 is currently not readily usable, but it shows Google is thinking about convergence and Android’s expanding use as a core device across multiple form factors.
@@ -93,7 +93,7 @@ This is not a new deployment scenario, but rather instead the introduction of co
 
 I couldn’t help but wonder why work profile, treated and seen by most, including Google up to now, as a BYOD solution:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/podo.jpg)…would be propelled into corporate-owned deployments with these new capabilities.
+![](https://cdn.bayton.org/uploads/2019/03/podo.jpg)…would be propelled into corporate-owned deployments with these new capabilities.
 
 One consideration at least, given a lot of features in Q are reactive to the industry, is the continued lack of availability of COPE; almost two years after the release of Oreo, still only MobileIron and VMware support the deployment scenario at time of publishing – it’s even absent from Google’s own Android Management API. This is a point I’m keen to make as it was in my [2019 wishlist](/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#ubiquitous-fully-managed-devices-with-work-profiles-support), yet entering month 4 of 2019 I’m yet to see any new EMMs gain support!
 

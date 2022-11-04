@@ -36,59 +36,59 @@ It’s built upon a bare-bones CyanogenMod Android layer allowing it to utilise 
 
 ### Hands on
 
-[![Screenshot from 2013-02-21 17:16:44](https://r2_worker.bayton.workers.dev/uploads/2013/02/Screenshot-from-2013-02-21-171644-1024x467.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/Screenshot-from-2013-02-21-171644.png)
+[![Screenshot from 2013-02-21 17:16:44](https://cdn.bayton.org/uploads/2013/02/Screenshot-from-2013-02-21-171644-1024x467.png)](https://cdn.bayton.org/uploads/2013/02/Screenshot-from-2013-02-21-171644.png)
 
 Following the instructions provided [here](https://wiki.ubuntu.com/Touch/Install) was quick and painless, requiring no more than 10 mins of prep before I began the process. Shortly after I was greeted with a nice (currently static) lockscreen.
 
-[![device-2013-02-22-203053](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203053.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203053.png)
+[![device-2013-02-22-203053](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203053.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203053.png)
 
 On swiping the lockscreen away (right to left), the first thing you’re introduced to is the *Home* screen. It lists frequent applications, favourite and recent people, music and popular videos.
 
-[![device-2013-02-22-212433](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-212433-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-212433.png)
+[![device-2013-02-22-212433](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-212433-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-212433.png)
 
 Swiping left and right takes you to *People, Music, Apps* and *Videos.* All of the media based screens offer a selection of featured items as seen on the image above (Favourite people) as a carousel with a mix of local and recommended (online) items below it. The carousel spins fluidly and infinitely. It’s worth noting that with this preview there’s a lot of pre-installed media and contacts to give a view of how it’d look fully set up and in use. I like the idea of this though it’s easy enough to remove for those who wish to view only their own content [here](https://wiki.ubuntu.com/Touch/ReleaseNotes).
 
-[![device-2013-02-22-203432](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203432-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203432.png) 
+[![device-2013-02-22-203432](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203432-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203432.png) 
 
-[![device-2013-02-22-202937](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-202937-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-202937.png)
+[![device-2013-02-22-202937](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-202937-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-202937.png)
 
 Most of the installed applications are HTML5 web apps which don’t fully reflect the experience one would get with native applications utilising hardware acceleration, though with the copious amount of dev work going on already, I’m sure this will quickly change.
 
 As for the preinstalled native applications I *could* test, there were two I particularly like. The Phone application which integrated the dialler, contacts and conversations, the latter being a mix of call logs and SMS messages per contact…
 
-[![device-2013-02-22-203024](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203024-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203024.png) 
+[![device-2013-02-22-203024](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203024-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203024.png) 
 
-[![device-2013-02-22-203006](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203006-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203006.png)
+[![device-2013-02-22-203006](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203006-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203006.png)
 
 …and the gallery which fully embraced the swipe, allowing you to see more in all directions.
 
-[![device-2013-02-22-203544](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203544-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203544.png)
+[![device-2013-02-22-203544](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203544-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203544.png)
 
 Worth noting are the smooth transitions between apps. As an OS based on and promoted for it’s use of every edge for navigation and menus it needs to get this right from the get-go. Even though there’s a smidge of stutter on occasion, they’ve done a great job with it so far.
 
-[![device-2013-02-22-204015](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-204015-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-204015.png)
+[![device-2013-02-22-204015](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-204015-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-204015.png)
 
 The image above is swiping from the right edge of the screen to the left, this allows navigating between running applications. Swiping from the left edge of the screen opens the app list:
 
-[![device-2013-02-22-203911](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203911-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203911.png)
+[![device-2013-02-22-203911](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203911-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203911.png)
 
 I can either swipe a short way across the screen to expose the app list or carry on with the swipe to the right of the screen to return to the home screen. The app list can either be swiped open with a partial swipe and release from left to right, or opened only temporarily, keeping the pressure on the screen and sliding vertically to select the application I wish to switch to. It works very well and feels fairly natural.
 
 The notification bar is fairly unique in it’s approach also, allowing the user to slide from left to right while pulling down in order to access different panes.
 
-[![device-2013-02-22-203105](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203105-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203105.png) 
+[![device-2013-02-22-203105](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203105-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203105.png) 
 
-[![device-2013-02-22-204103](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-204103-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-204103.png)
+[![device-2013-02-22-204103](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-204103-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-204103.png)
 
 And swiping up in most apps will reveal a menu for that application, as shown here with the browser:
 
-[![device-2013-02-22-203337](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203337-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203337.png) 
+[![device-2013-02-22-203337](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203337-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203337.png) 
 
-[![device-2013-02-22-234344](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-234344-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-234344.png)
+[![device-2013-02-22-234344](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-234344-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-234344.png)
 
 And to top it off, even the camera works pretty well!
 
-[![device-2013-02-22-203609](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203609-576x1024.png)](https://r2_worker.bayton.workers.dev/uploads/2013/02/device-2013-02-22-203337.png)
+[![device-2013-02-22-203609](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203609-576x1024.png)](https://cdn.bayton.org/uploads/2013/02/device-2013-02-22-203337.png)
 
 Yes, Ubuntu Phone OS – as a developer preview – is more than impressive. I’ve even managed to make calls and send messages without any issue, though that’s not to say it’s without bugs.
 

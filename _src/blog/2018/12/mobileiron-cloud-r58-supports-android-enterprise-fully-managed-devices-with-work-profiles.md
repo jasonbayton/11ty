@@ -43,7 +43,7 @@ Core’s implementation is fine, though areas I think it could improve on are:
 
 The good news is Cloud resolves one of these, offering a much better UI that’s far clearer:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image.png)
+![](https://cdn.bayton.org/uploads/2018/12/image.png)
 *The list of restrictions continues down the page*
 
 What it doesn’t improve on however is allowing admins to determine how best to manage their fully managed parent profiles reserved for personal use. MobileIron are still limiting the restrictions available to COPE devices which are otherwise available for fully managed (COBO) deployments, something I noted VMware does not do.
@@ -59,16 +59,16 @@ How to enable it
 
 As of R58, a new system Android Enterprise configuration should be present, but *should*[(!)](https://community.mobileiron.com/docs/DOC-9234) not be assigned by default:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-1.png)
+![](https://cdn.bayton.org/uploads/2018/12/image-1.png)
 *Highlighted in red*
 
 This system policy is designed to take precedence over the work managed configuration when assigned to the same groups, so enabling COPE on your MobileIron tenant is as simple as assigning this configuration:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-21-22.49.42.gif)
+![](https://cdn.bayton.org/uploads/2018/12/2018-12-21-22.49.42.gif)
 
 You will of course also require a restrictions configuration in order to lock the COPE devices down:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/2018-12-21-22.53.31.gif)
+![](https://cdn.bayton.org/uploads/2018/12/2018-12-21-22.53.31.gif)
 
 Considerations with COPE
 ------------------------

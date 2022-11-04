@@ -14,7 +14,7 @@ eleventyNavigation:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/google-pixel-3a-android-enterprise-validation-report/296'
 ---
-![](https://r2_worker.bayton.workers.dev/uploads/2019/06/pixel3a-white-front-min-1.png)
+![](https://cdn.bayton.org/uploads/2019/06/pixel3a-white-front-min-1.png)
 
 ## 1. Tech specs
 
@@ -47,7 +47,7 @@ Where a feature works with one EMM, but does not with another (consider **Enforc
 
 Some features aren’t supported or set up across EMMs, or don’t work with the device (consider **KME** below), where this is the case the feature will be marked as untested (purple).
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1-e1558114016148.jpg)](https://r2_worker.bayton.workers.dev/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1.pdf)
+[![](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1-e1558114016148.jpg)](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1.pdf)
 _Click the image above for a PDF version_
 
 ## 4. Notes from the above report

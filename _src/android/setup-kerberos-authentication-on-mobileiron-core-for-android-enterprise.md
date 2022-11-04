@@ -46,11 +46,11 @@ For context, the environment utilised for this guide is as follows:
 
 In MobileIron Core head to **Apps &gt; App Catalog &gt; Add+ &gt; Google Play** and search for **Google Chrome**.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/1.png)
+![](https://cdn.bayton.org/uploads/2019/03/1.png)
 
 Select the correct App, add it to the Category you want then make sure you tick the box **Install this app for Android Enterprise**.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/2.png)
+![](https://cdn.bayton.org/uploads/2019/03/2.png)
 
 ## Configure Google Chrome
 
@@ -61,11 +61,11 @@ After ticking the box to enable AE, scroll down to the managed configuration sec
 - **Kerberos delegation server whitelist**: this can be a list of all servers permitted to request tokens. Wildcards are also valid. In this guide a wildcard “\*” is utilised.
 - **Account type for HTTP Negotiate authentication**: this tells Chrome where to look for an App that can deal with the negotiate challenge. In this guide “ch.papers.hypergate” is used because that’s how Hypergate advertises itself.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/5.png)
+![](https://cdn.bayton.org/uploads/2019/03/5.png)
 
 Following this, set the **Find Accounts On The Device** runtime permission to **Always Accept**:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/6.png)
+![](https://cdn.bayton.org/uploads/2019/03/6.png)
 
 Click **Finish/Save**.
 
@@ -73,11 +73,11 @@ Click **Finish/Save**.
 
 Head to **Apps &gt; App Catalog &gt; Add+ &gt; Google Play** and tick **Skip this step and manually provide Bundle ID and all app details** &gt; **Next**. You will be prompted with a form in which you need to enter the package name provided by the Hypergate team. This is because Hypergate is not visible publicly on Google Play currently.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/3.png)
+![](https://cdn.bayton.org/uploads/2019/03/3.png)
 
 Optional: For easier application list management (distinguish apps easier) you can also set the Hypergate logo in the next form by hitting “Replace Icon” and using this logo:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/4.png)
+![](https://cdn.bayton.org/uploads/2019/03/4.png)
 
 Click **Install this app for Android Enterprise**.
 
@@ -94,7 +94,7 @@ Scroll down to the managed configuration section. The relevant configurations ar
 - **Package name whitelist (comma separated)**: which apps should be allowed to requests tokens
 - **Discoverability package names List (comma separated)**: which apps should discover Hypergate without first prompting the user with a selection screen.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/7.png)
+![](https://cdn.bayton.org/uploads/2019/03/7.png)
 
 The tick boxes control the menu displayed in the app, for production usage they should be all unticked (user only sees the ticket status), for troubleshooting/setup they can all be ticked (all menus/logging is shown).
 
@@ -116,9 +116,9 @@ Hypergate is now ready to be tested.
 
 Assigned devices should now have Chrome, Tunnel and Hypergate installed and configured. To validate if Hypergate works correctly, simply open the app and tap “Login”, this should directly show the UPN/Username of the assigned user and current status.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/8.png)
+![](https://cdn.bayton.org/uploads/2019/03/8.png)
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/9.png)
+![](https://cdn.bayton.org/uploads/2019/03/9.png)
 
 If the login does not work immediately, please check the logging section of Hypergate so troubleshoot (there are also network troubleshooting tools integrated in the “Ping KDC” menu).
 

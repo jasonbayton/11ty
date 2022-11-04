@@ -32,7 +32,7 @@ So we made a bet.
 
 Either it stagnates/decreases resulting in a static or downward trend, or it grows through the 80’s and into the 90’s over the following months, showing an upward trend. Loser buys a steak dinner. It’s not a 1:1 of the issue I took originally with the ecosystem dropping updates for supported hardware sooner, but it’s a decent ecosystem indicator nevertheless.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2022/01/image.png)
+![](https://cdn.bayton.org/uploads/2022/01/image.png)
 
 Looking at the [transparency report](https://transparencyreport.google.com/android-security/device-platform-safety?device_security_update=filter%20key:1&lu=device_security_update) today, it would appear I owe Mr. G a steak. Although it peaks and troughs in line with devices being added to and dropping off the list as they launch/fall outside of the 24 month window, there’s a clear upward trend that’s steadily grown since Dec 2020 when the bet was made through to when data stops in September.
 

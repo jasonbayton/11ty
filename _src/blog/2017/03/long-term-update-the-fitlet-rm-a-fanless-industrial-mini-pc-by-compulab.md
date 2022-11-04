@@ -28,7 +28,7 @@ Around the time of publishing I was also looking to build myself a new router ba
 
 In terms of IO, the fitlet I received is the perfect machine for networking, with the single NIC on the back and 3 additional NICs through the facet card on the side, it offers more than enough ports for what I need – in fact today only two are in use; a NIC for internet and another for LAN going out to an access point (from which it connects via switch to the rest of my network). I’m saving the other two for when I begin experimenting with segmented LANs, a DMZ or other such experiments.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170319_155314233-e1489958703965.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170319_155314233-e1489939544156.jpg)
+[![](https://cdn.bayton.org/uploads/2017/03/IMG_20170319_155314233-e1489958703965.jpg)](/https://cdn.bayton.org/uploads/2017/03/IMG_20170319_155314233-e1489939544156.jpg)
 
 In combination with the fit-Uptime, the fitlet has achieved over 99.999% uptime excluding the occasional planned shutdowns (holidays, etc) despite a couple of power cuts over the last 8 months (thanks, Wales). At no point have I needed to manually bounce it for any reason and I haven’t noticed any network issues associated with long uptimes. It’s currently sat at over 40 days, though was up for over 100 previously with no issues.
 

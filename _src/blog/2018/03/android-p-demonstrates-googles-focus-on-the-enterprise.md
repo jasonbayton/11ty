@@ -43,7 +43,7 @@ In fact, it’s probably safe to say this is the most enterprise-focused release
 
 ## 1. Improved separation of work and personal applications
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_19_16_57_47.gif)  
+![](https://cdn.bayton.org/uploads/2018/03/2018_03_19_16_57_47.gif)  
 
 Today when deploying either *work profile* or *work profile on fully managed devices* into an organisation, the work and personal applications are fully mixed together within the launcher. While not overly problematic, it has been a source of feedback for Google (and myself via customer deployments) with end-users asking why their applications are duplicated.
 
@@ -55,7 +55,7 @@ If the stock launcher would also introduce swipe gestures and manual backups for
 
 ## 2. More ways to toggle the work profile on and off
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_19_23_15_10.gif) 
+![](https://cdn.bayton.org/uploads/2018/03/2018_03_19_23_15_10.gif) 
 
 Tying into the separation above, Google also added new options for toggling the work profile in P.
 
@@ -69,7 +69,7 @@ I’m quite pleased to see more attention being given to this.
 
 ## 3. Simpler switching between work and personal accounts within apps
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/03/2018_03_19_21_30_07.gif)  
+![](https://cdn.bayton.org/uploads/2018/03/2018_03_19_21_30_07.gif)  
 
 The focus on the work and personal split continues with this next simple, but massively impacting change; it’ll be possible (once applications support it) to switch between work and personal profiles from within apps directly.
 

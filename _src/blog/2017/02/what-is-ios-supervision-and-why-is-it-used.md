@@ -62,7 +62,7 @@ Having access to a Mac with Apple Configurator installed, it’s very simple to 
 
 And plenty more. Even better, in combination with EMM, the act of putting the iOS device into Supervised mode alone means not having to spend time creating several configuration profiles; almost all EMM platforms on the market can take advantage of Supervision to enable/disable many of the options found in configurator over the air.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)
+[![](https://cdn.bayton.org/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)](https://cdn.bayton.org/uploads/2017/02/Screenshot-2017-02-23-at-00.48.25.png)
 *Source: bayton.org, photo: MobileIron Core 9.2*
 
 What remains after completing the Supervision process is a freshly installed (indeed, it performs a full reset – something to keep in mind) iOS device capable of being managed on a far more granular level than any out-of-the box iPhone or iPad, and subject to far fewer user-overrides.
@@ -74,7 +74,7 @@ There are, however, some downsides with Apple Configurator.
 
 The first major inconvenience is requiring physical access to the device being Supervised. It isn’t possible with Apple Configurator to do this remotely; for a large number of iOS devices having to be Supervised in bulk, that means making use of some pretty interesting (and potentially costly) setups to avoid being limited by the number of USB ports on the machine:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/hero-001.jpg)](https://r2_worker.bayton.workers.dev/uploads/2017/02/hero-001-e1487809076167.jpg)
+[![](https://cdn.bayton.org/uploads/2017/02/hero-001.jpg)](https://cdn.bayton.org/uploads/2017/02/hero-001-e1487809076167.jpg)
 *Photo: apple.bretford.com*
 
 Also, should a device require a wipe, whether initiated from an EMM platform or by the end user (should factory reset not be disabled, or they figure out how to recover it via iTunes), it will factory reset to a stock, vanilla, un-Supervised state allowing the end-user to continue as if they had received a completely unmanaged device. It requires a trip back to the Mac for another round with Apple Configurator before it can be sent back out again.

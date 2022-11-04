@@ -66,7 +66,7 @@ Secondly, wherever you see <span style="color: #000080;"><span style="color: #33
 
 Download and install the [Android SDK](https://developer.android.com/sdk/win-usb.html). The link there will take you to the Windows USB page, as for rooting this is all you’ll need to install from the SDK installer (included with the SDK package). Follow the instructions on the page to get the Windows USB driver installed, making sure (for this tutorial) you keep the directory tree I’ve listed above.
 
-Now, you can download the files required to root the G1. I have packaged them and uploaded them to my server, so you can download them from here: [Android G1 root files](https://r2_worker.bayton.workers.dev/download/root.rar). They’re majoritively from chaps named “Birdy” and “ChainsDD” from what I read (credit where credit’s due) but a couple of files were from other sources. Download and extract the folder holding the files to C:androidtools. Make sure the tree then shows as **C:\\android\\tools\\root**.
+Now, you can download the files required to root the G1. I have packaged them and uploaded them to my server, so you can download them from here: [Android G1 root files](https://cdn.bayton.org/download/root.rar). They’re majoritively from chaps named “Birdy” and “ChainsDD” from what I read (credit where credit’s due) but a couple of files were from other sources. Download and extract the folder holding the files to C:androidtools. Make sure the tree then shows as **C:\\android\\tools\\root**.
 
 When you’ve done that, on the G1 go to **Settings &gt; Applications &gt; Development &gt; Enable USB Debugging**. When you connect your G1 to the computer, it’ll let you know that USB Debugging is active.
 
@@ -196,7 +196,7 @@ Which will install it to your /system partition and as such make sure it’s nev
 
 Now, get yourself a copy of Rootexplorer. I have two versions here, this is because depending on my Rom, one would work better than the other.
 
-\[dl url=”https://r2_worker.bayton.workers.dev/download/rootexplorer.apk” title=”Root explorer v.1″ desc=””\] \[dl url=”https://r2_worker.bayton.workers.dev/download/re2.apk” title=”Root explorer v.2″ desc=””\]
+\[dl url=”https://cdn.bayton.org/download/rootexplorer.apk” title=”Root explorer v.1″ desc=””\] \[dl url=”https://cdn.bayton.org/download/re2.apk” title=”Root explorer v.2″ desc=””\]
 
 Save the root explorer APK to C:\\android\\tools, open a new CMD window, then type this command to install it from your computer rather than copying it over.
 

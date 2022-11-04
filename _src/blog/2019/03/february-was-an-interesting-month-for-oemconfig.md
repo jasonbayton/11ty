@@ -65,7 +65,7 @@ With everyone involved saving so much time and effort, who knows what the additi
 
 I’ll be getting hands-on with Samsung’s implementation over the coming week or so, and will publish a hands-on as I did earlier with [Sony](/2018/08/hands-on-with-sonys-oemconfig/), for now though here’s a quick glance at what Samsung are offering through their implementation. It’s already pretty impressive:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/Screenshot-2019-03-02-at-22.02.23.png)
+![](https://cdn.bayton.org/uploads/2019/03/Screenshot-2019-03-02-at-22.02.23.png)
 *Just high-level headings here, most of the configs are hidden*
 
 I only wonder how Sony feel about their decision to exit just as Samsung jumps aboard.

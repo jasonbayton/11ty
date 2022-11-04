@@ -43,25 +43,25 @@ Hosted setup is demonstrated on ElasticHosts as they kindly provide me with a ho
 
 From the ElasticHosts admin console, create three new containers: ElasticSearch-N1, ElasticSearch-N2 and ElasticSearch-N3. To do so, click **Add** then **Server** under *Linux Containers.*
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss1.png)](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss1.png)
+[![](https://cdn.bayton.org/uploads/2016/09/ss1.png)](https://cdn.bayton.org/uploads/2016/09/ss1.png)
 
 Next, create 3 static IP addresses to avoid DNS issues should the containers get rebooted and acquire different IP addresses from the DHCP pool. From **Add** select **Static IP**. Do this 3 times to get 3 addresses.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss2.png)](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss2.png)
+[![](https://cdn.bayton.org/uploads/2016/09/ss2.png)](https://cdn.bayton.org/uploads/2016/09/ss2.png)
 
 *Static IP addresses are listed at the bottom of the admin console.*
 
 To allow the containers to easily communicate *internally* we can also create a private VLAN by clicking **Add** and selecting **Private VLAN**.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss3.png)](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss3.png)
+[![](https://cdn.bayton.org/uploads/2016/09/ss3.png)](https://cdn.bayton.org/uploads/2016/09/ss3.png)
 
 Finally, before starting the containers for the first time, assign the IPs and VLAN to the containers. If we were just to edit the IP we could click **Dynamic IP** on the container in order to select any available IP, but as we’re also assigning a VLAN we need to click the **cog** icon to enter the server settings.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss4.png)](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss4.png)
+[![](https://cdn.bayton.org/uploads/2016/09/ss4.png)](https://cdn.bayton.org/uploads/2016/09/ss4.png)
 
 As highlighted in blue, select a newly created IP on the upper left, and assign the VLAN to an **Intel PRO/1000 NIC** on the lower right. Do this for all three containers and we’ll end up with them bundled together under the VLAN, each with their own static IP. At this point in time this is only dealing with the one NIC, the second *internal* IP will be configured shortly.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss5.png)](https://r2_worker.bayton.workers.dev/uploads/2016/09/ss5.png)
+[![](https://cdn.bayton.org/uploads/2016/09/ss5.png)](https://cdn.bayton.org/uploads/2016/09/ss5.png)
 
 All three containers can now be started. Skip LXD setup below and move on to server configuration and installation of ElasticSearch.
 
@@ -159,7 +159,7 @@ After logging in, let’s ensure the servers are up to date with:
 
 The server will now show any packages needing to be updated. If that’s OK, hit enter to complete the update process:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2016/09/serverupdate-1.png)
+![](https://cdn.bayton.org/uploads/2016/09/serverupdate-1.png)
 
 ### 3.2. Server VLAN setup
 
@@ -235,7 +235,7 @@ Install the OpenJDK Java Runtime Environment with:
 
 Note: As shown in the screenshot below, Java and its dependencies can consume a *lot* of space. The installation will take a while.
 
-![java-huge](https://r2_worker.bayton.workers.dev/uploads/2016/09/java-huge.png)
+![java-huge](https://cdn.bayton.org/uploads/2016/09/java-huge.png)
 
 When complete, verify the installation by running:
 
@@ -308,13 +308,13 @@ By default, all three installations will act and feel like single, independent n
 
 The lines `cluster.name:` and `node.name:` will be commented out (`#`), so remove the comment and edit the lines as below:
 
-![elasticsearch-config](https://r2_worker.bayton.workers.dev/uploads/2016/09/elasticsearch-config.png)
+![elasticsearch-config](https://cdn.bayton.org/uploads/2016/09/elasticsearch-config.png)
 
 Naturally `node.name:` needs to be different for all 3 servers. Notice also the additional line `node.data: false` – this is used on the **master** server as it doesn’t need to store data with two data nodes already doing so.
 
 Furthermore, on the data nodes replace the line `node.data: false` with `node.master: false`. This tells the two data node servers that they are, indeed, data nodes and shouldn’t attempt to act as masters:
 
-![elasticsearch-notmaster](https://r2_worker.bayton.workers.dev/uploads/2016/09/elasticsearch-notmaster.png)
+![elasticsearch-notmaster](https://cdn.bayton.org/uploads/2016/09/elasticsearch-notmaster.png)
 
 Now the servers know where they stand as masters and data nodes, let’s make it as easy as possible for them to run initial discovery. It’s possible for the master and data nodes to find each other, but on unicast networks (and the fact there are really no network services on the eth1 private range) there’s no harm in giving the servers a hand.
 
@@ -324,7 +324,7 @@ Again, as there are no network services (such as DNS, DHCP, etc) on the private 
 
 `discovery.zen.ping.unicast.hosts: ["10.11.12.10"]`
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/09/master_nodes.png)](https://r2_worker.bayton.workers.dev/uploads/2016/09/master_nodes.png)
+[![](https://cdn.bayton.org/uploads/2016/09/master_nodes.png)](https://cdn.bayton.org/uploads/2016/09/master_nodes.png)
 
 Finally let’s lock the Elasticsearch cluster down to only allow requests from the private IP range, this will ensure only servers explicitly granted access to the private network can interact with the Elasticsearch API.
 

@@ -28,7 +28,7 @@ To celebrate the growing success of [documentation](/android) – accounting for
 
 The [Motorola Moto C Plus](https://www.motorola.com/we/products/moto-c-plus) in Starry Black.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/12/moto-cplus-blk-1000-e1513002465357.png)
+![](https://cdn.bayton.org/uploads/2017/12/moto-cplus-blk-1000-e1513002465357.png)
 
 The device is brand new (arrived yesterday), barely used and therefore in perfect condition. I have all the devices I need here, so putting the Moto on a shelf would be a waste.
 

@@ -123,4 +123,4 @@ At the very least, I would expect them to allow me to help them to help me – f
 
 I’m now done with the Play Store. As soon as the shipping labels eventually arrive, I will be sending both devices back and requesting a complete refund. While I still wish to have a N7, I will get one from a **local store** with people who have the power to do more than **fill out forms**.
 
-Once again, I will update once I *do* progress, but especially if I *do not*.[  ](https://r2_worker.bayton.workers.dev/uploads/2012/08/nexus-7-setup.jpg)
+Once again, I will update once I *do* progress, but especially if I *do not*.[  ](https://cdn.bayton.org/uploads/2012/08/nexus-7-setup.jpg)

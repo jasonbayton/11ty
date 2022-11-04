@@ -31,7 +31,7 @@ Zero-touch as a solution has been available since the original Pixel, with [docu
 
 ## How it works
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/09/ZT-Demo-Gif_pixel.gif)
+[![](https://cdn.bayton.org/uploads/2017/09/ZT-Demo-Gif_pixel.gif)](https://cdn.bayton.org/uploads/2017/09/ZT-Demo-Gif_pixel.gif)
 
 With zero-touch, organisations purchase their Android 8.0+ devices from an authorised reseller. After which, the reseller creates a [zero-touch console](https://partner.android.com/zerotouch) customer accounts for the organisation and imports the devices. From there, the organisation can then log into the console and associate these devices to one of any of the EMMs that currently support a fully managed deployment scenario (Device Owner mode) via a configuration. These configurations also support [DPC extras](/android/android-enterprise-zero-touch-dpc-extras-collection/), which allow organisations to pre-configure items like server URL and username.
 
@@ -53,4 +53,4 @@ The below demonstrates zero-touch configured on a new, out-of-the-box Sony Xperi
 
 https://www.youtube.com/embed/OP-Szl2nPEc
 
-The above video process is documented in my [zero-touch provisioning guide](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf). All guides can be found under [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/).
+The above video process is documented in my [zero-touch provisioning guide](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf). All guides can be found under [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/).

@@ -32,9 +32,9 @@ Compulab have been around since 1992, starting out as a consultancy company befo
 What is the fitlet-RM?
 ----------------------
 
-![20160710_211406](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_211406-e1468183002842.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205246.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205246.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205238.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160710_205238.jpg)
+![20160710_211406](https://cdn.bayton.org/uploads/2016/07/20160710_211406-e1468183002842.jpg)
+[![](https://cdn.bayton.org/uploads/2016/07/20160710_205246.jpg)](/https://cdn.bayton.org/uploads/2016/07/20160710_205246.jpg)
+[![](https://cdn.bayton.org/uploads/2016/07/20160710_205238.jpg)](/https://cdn.bayton.org/uploads/2016/07/20160710_205238.jpg)
  
  The fitlet-RM series is a follow-up to the previously launched fitlet-XA10-LAN/fitlet-iA10 and is aimed towards applications requiring a reliable, power-efficient, hardy system with a minuscule footprint. At 10.8 cm x 8.3 cm x 2.4 cm (0.22l) it’s barely larger than a standard SSD and can fit comfortably in a pocket, in an obscure corner of a rack, hidden in the depths of a larger appliance or fixed unassumingly behind a display.
 
@@ -51,18 +51,18 @@ Opting for the fitlet-RM-iA10 would see 4x LAN ports reduced to 2x LAN and the a
 
 The system is encased in an aluminium &amp; zinc housing which acts like one large heatsink, dissipating heat effectively without the need for a fan thus retaining the ultra compact form factor. It is also strong! Compulab showcased this by running over a fitlet:
 
-![sneak-peek-fitlet-rm-1024x344](https://r2_worker.bayton.workers.dev/uploads/2016/07/sneak-peek-fitlet-rm-1024x344.jpg)
+![sneak-peek-fitlet-rm-1024x344](https://cdn.bayton.org/uploads/2016/07/sneak-peek-fitlet-rm-1024x344.jpg)
 
 As there are no moving parts and the casing is well sealed, it is perfect for applications where the ingress of dirt, humidity or extreme temperatures could be encountered; the fitlet can operate under a wide temperature band ranging from -40°C to 70°C with the parts inside equally capable of handling constant extremes of temperature, shock and vibration. Furthermore with the unique twist-lock power cable, there’s little worry about accidentally removing the fitlet’s power supply:
 
-![20160711_091358](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_091358-e1468226087716.jpg)
+![20160711_091358](https://cdn.bayton.org/uploads/2016/07/20160711_091358-e1468226087716.jpg)
 
 The fitlet-RM series starts at $311 and is currently available from [fit-PC (official)](https://www.fit-pc.com/web/purchasing/order-fitlet/).
 
 What’s in the box
 -----------------
 
-![WP_20160706_11_08_52_Pro](https://r2_worker.bayton.workers.dev/uploads/2016/07/WP_20160706_11_08_52_Pro.jpg)
+![WP_20160706_11_08_52_Pro](https://cdn.bayton.org/uploads/2016/07/WP_20160706_11_08_52_Pro.jpg)
 
 The fitlet arrived with the following components provided:
 
@@ -86,11 +86,11 @@ Separately in addition to this, I purchased:
 Performance
 -----------
 
-![windows snip](https://r2_worker.bayton.workers.dev/uploads/2016/07/windows-snip.png)
+![windows snip](https://cdn.bayton.org/uploads/2016/07/windows-snip.png)
 
 Despite being a low power, 4.5w TDP chip the AMD A10 Micro-6700T is a capable CPU. In benchmarks it outpaces similar and slightly higher-clocked Intel Atoms of the same release period such as the Z3795, a chip commonly used in tablets and laptops, as seen by PassMark’s benchmarks:
 
-[![amda10micro](https://r2_worker.bayton.workers.dev/uploads/2016/07/amda10micro.png)](https://www.passmark.com/)
+[![amda10micro](https://cdn.bayton.org/uploads/2016/07/amda10micro.png)](https://www.passmark.com/)
 
 I did a few benchmarks of my own on Ubuntu using sysbench running 1 and 4 threads and wasn’t disappointed:  
 *sysbench can be installed on Ubuntu/Debian by running* `sudo apt install sysbench`
@@ -190,14 +190,14 @@ Generally the fitlet feels quick and extremely responsive. This is no doubt than
 
 The only time I saw any notable struggle was when running Windows 10 from a USB3 hard drive, however this was clearly due to the bottleneck associated with running an OS from a 2.5″ HDD over USB3. Windows being the resource hog it is did push the CPU usage up more often than on either Ubuntu or FreeBSD, but nothing that would be considered untoward.
 
-![task manager](https://r2_worker.bayton.workers.dev/uploads/2016/07/task-manager.png)
+![task manager](https://cdn.bayton.org/uploads/2016/07/task-manager.png)
 
 For networking applications, it goes without saying the 4 LAN ports on the fitlet-RM-XA10-LAN are fantastic. For server applications, being able to bond multiple connections has its own advantages; 4 individual GB ports all responding to one network address makes for a very fast streaming/storage server with no bottleneck on network. Naturally on a 64GB mSATA there’s not a lot of storage to be had, however it’d be just as easy to install 1TB of mSATA storage as well as multiple USB drives and even eSATA on the fitlet-RM-iA10.
 
 Temperature control
 -------------------
 
-![20160711_120929](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_120929.jpg)
+![20160711_120929](https://cdn.bayton.org/uploads/2016/07/20160711_120929.jpg)
 
 Heat can be a concern for any passively cooled device and the fitlet is no exception. Installing Windows updates saw the fitlet steadily increase in temperature to a whopping 59.6°C before cooling back down to the low 50’s when complete. At those temperatures the fitlet is simply too hot to touch, though they are well within the operating range and therefore should be nothing to worry about.
 
@@ -205,8 +205,8 @@ In an industrial or enterprise environment this shouldn’t be an issue. It did 
 
 Here’s where the fitlet heatsink comes in:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132827.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132827.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132837.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/07/20160711_132837.jpg) 
+[![](https://cdn.bayton.org/uploads/2016/07/20160711_132827.jpg)](/https://cdn.bayton.org/uploads/2016/07/20160711_132827.jpg)
+[![](https://cdn.bayton.org/uploads/2016/07/20160711_132837.jpg)](/https://cdn.bayton.org/uploads/2016/07/20160711_132837.jpg) 
 
 At the moment only the bare aluminium version is available, but regardless of colour the heatsink does the job perfectly. I noted a temperature drop of about 11°C to the low 40’s resulting in a PC that is no longer too hot to touch and therefore more manageable.
 
@@ -215,7 +215,7 @@ Compulab say they’re working on a black version of the heatsink, once it becom
 What is the fit-Uptime?
 -----------------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2016/07/fit-uptime.png)
+![](https://cdn.bayton.org/uploads/2016/07/fit-uptime.png)
 
 The fit-Uptime is a micro-UPS designed specifically to be entirely plug and play. It uses an 18Wh lithium-polymer battery and is capable of powering the fitlet for over 3 hours at a draw of 5w.
 

@@ -21,12 +21,12 @@ For EMMs leveraging the Android Management API (AMAPI) and G Suite however, an a
 
 The ability to permit full access to the Play Store is somewhat newer than the traditional approach to whitelisting applications one by one, and targets a very different usecase not necessarily fully agreed with by the wider Android community:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/04/image.png)
+![](https://cdn.bayton.org/uploads/2019/04/image.png)
 *In this case MS are simply enabling AMAPI functionality. But does the usecase fit Intune?*
 
 Android is ultimately an incredibly flexible platform capable of supporting a wide range of usecases extending beyond the traditional enterprise model requiring the separation of personal and corporate data. Android Enterprise is utilised with large organisations and SMBs alike, professional groups and even families serious about safeguarding devices:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/04/image-1.png)
+![](https://cdn.bayton.org/uploads/2019/04/image-1.png)
 *Even families benefit from management capabilities of Android Enterprise*
 
 The goal therefore in enabling such functionality to promote the use of Google Play as if it was unrestricted may not be as bizarre as it seems.

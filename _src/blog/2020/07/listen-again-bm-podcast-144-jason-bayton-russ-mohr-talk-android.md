@@ -14,7 +14,7 @@ post_format: []
 discourse_permalink:
     - 'https://discuss.bayton.org/t/listen-again-bm-podcast-144-jason-bayton-russ-mohr-talk-android/379'
 enclosure:
-    - "https://r2_worker.bayton.workers.dev/uploads/2020/07/bmpodcast-144-110819.mp3"
+    - "https://cdn.bayton.org/uploads/2020/07/bmpodcast-144-110819.mp3"
 publish_post_category:
     - '14'
 tags:
@@ -22,7 +22,7 @@ tags:
 ---
 Join myself (with a cold), Jack Madden and Russ Mohr as we talk all things Android and Enterprise Mobility in BM podcast #144:
 
-<audio controls="" src="/https://r2_worker.bayton.workers.dev/uploads/2020/07/bmpodcast-144-110819.mp3"></audio>
+<audio controls="" src="/https://cdn.bayton.org/uploads/2020/07/bmpodcast-144-110819.mp3"></audio>
 
 I offer my thanks to Jack for hosting me, Russ for the engaging topics of conversation, and I look forward to doing more of these in future!
 

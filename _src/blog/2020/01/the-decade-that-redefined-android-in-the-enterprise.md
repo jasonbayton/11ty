@@ -45,7 +45,7 @@ It’s no surprise given Android was originally targeting the Windows Mobile mar
 
 Windows is still in use in organisations today, not necessarily Windows Mobile so much as CE and modern versions of the OS; Microsoft has by no means been eradicated, but it’s share of the enterprise space is being slowly and reliably eroded, as Google pointed out at the [Summit](/2019/06/android-enterprise-partner-summit-2019-highlights/#but-plenty-was):
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/06/Screenshot-2019-06-14-at-12.29.20-copy.jpg)
+![](https://cdn.bayton.org/uploads/2019/06/Screenshot-2019-06-14-at-12.29.20-copy.jpg)
 
 ### Samsung or *no one*
 
@@ -190,7 +190,7 @@ Of course that’s just my take, Google however back it up with facts:
 > 
 > <cite>Android developers blog, [All About Updates: More Treble](https://android-developers.googleblog.com/2019/10/all-about-updates-more-treble.html)</cite>
 
-![Graph of Android Oreo Adoption rate](https://r2_worker.bayton.workers.dev/uploads/2020/01/image.png)
+![Graph of Android Oreo Adoption rate](https://cdn.bayton.org/uploads/2020/01/image.png)
 *Android developers blog, [All About Updates: More Treble](https://android-developers.googleblog.com/2019/10/all-about-updates-more-treble.html)*
 
 Project Treble may not bring Android upgrade speed and distribution in line with iOS, but it has offered significant benefits to the platform which will undoubtedly only continue to show as Treble matures.
@@ -306,7 +306,7 @@ EMMs have come up with some very nice solutions over the years for separating da
 
 I’ve [gone](/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/) into [detail](/android/what-is-android-enterprise-and-why-is-it-used/) on the different deployment scenarios, but for reference, here’s a handy graphic I use to explain it:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/AEmanagedtypes.png)The two deployment scenarios I want to touch upon in particular are work profile and COPE, officially called work profiles on fully managed devices (which is still a rubbish, overly long name for COPE. Shortening it doesn’t really help either – WPoFMD hardly rolls off the tongue, and even playing with the order of the letters, which sort of defeats the purpose, only got me to FMWP, pronounced “fuhmewp”).
+![](https://cdn.bayton.org/uploads/2017/04/AEmanagedtypes.png)The two deployment scenarios I want to touch upon in particular are work profile and COPE, officially called work profiles on fully managed devices (which is still a rubbish, overly long name for COPE. Shortening it doesn’t really help either – WPoFMD hardly rolls off the tongue, and even playing with the order of the letters, which sort of defeats the purpose, only got me to FMWP, pronounced “fuhmewp”).
 
 **Work profile**
 
@@ -347,7 +347,7 @@ It adds further credibility to the validated entity, essentially saying *yes, Go
 
 HMD Global undertook a study in 2018 that demonstrated the importance of AER to organisations, with 56% of respondents mandating a device should be Android Enterprise Recommended:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/01/image-1.png)
+![](https://cdn.bayton.org/uploads/2020/01/image-1.png)
 *[HMD Global B2B Smartphone Purchase Survey 2018](https://www.hmdglobal.com/download/HMD%20Global%20B2B%20Smartphone%20Purchase%20Survey.pdf)*
 
 In [my own survey](/2019/08/the-bayton-2019-android-enterprise-experience-survey/) in 2019, 72% of organisations who took part considered AER to be important or very important when purchasing **devices**. 44.2% consider AER status of an **MSP** or **VAR** to be a deciding factor (16.9% of that 44.2% consider AER mandatory in order to work with an MSP), and 48.6% of respondents agreed that in gaining AER status, their **EMM** has improved feature availability, management reliability and more.
@@ -380,7 +380,7 @@ OEMConfig takes so much of this burden away from both sides. The EMMs no longer 
 
 It is utterly incredible the impact this will have on the ecosystem, or arguably already is having given Zebra, Samsung, <s>[Sony](/2018/08/hands-on-with-sonys-oemconfig/)</s>, DataLogic, Honeywell and undoubtedly many more all support OEMConfig already. Even OEMs who in the past may not have wanted to dabble with custom APIs may choose to do so now that it’s so simple, without any of the legacy overhead of years gone by, and in doing so it fulfils Google’s ambition to embrace value-added functionality over and above Android Enterprise base APIs.
 
-It is an [absolute win](/https://r2_worker.bayton.workers.dev/uploads/2020/01/image-2.png) for all involved.
+It is an [absolute win](/https://cdn.bayton.org/uploads/2020/01/image-2.png) for all involved.
 
 ### The Android Enterprise ecosystem impact
 
@@ -397,7 +397,7 @@ As Google’s [official distribution dashboard](https://developer.android.com/ab
 
 Turning to other sources though, like the stats from my own site over the year, it has similarities to other recently published stats the wider internet has been [talking about recently](https://www.androidpolice.com/2019/12/18/pornhub-does-what-google-wont-releases-android-version-stats-for-2019/).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/12/image-5.png)Pie is dominating the chart (green) with 52% of all mobile visits this year, which in itself is incredible; equally impressive however is Android 10 (darker blue, top) contributing 6% of visits.
+![](https://cdn.bayton.org/uploads/2019/12/image-5.png)Pie is dominating the chart (green) with 52% of all mobile visits this year, which in itself is incredible; equally impressive however is Android 10 (darker blue, top) contributing 6% of visits.
 
 6% might not seem much, but it sits higher than all versions below Nougat (also at 6% with 7.0, 9% if including 7.1) and Oreo 8.1 (but not 8.0, interestingly).
 
@@ -435,7 +435,7 @@ Hopefully in 2020 it’ll get to a point where choosing between AMAPI or Play EM
 
 It is extremely likely your Android device, whether bought for business or as a consumer, is benefitting from the enormous drive to get OEMs patching more frequently and for longer.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/01/image-3.png)
+![](https://cdn.bayton.org/uploads/2020/01/image-3.png)
 
 If you’re using a Nokia, counterpoint research [shows](https://www.counterpointresearch.com/nokia-leads-global-rankings-updating-smartphone-software-security/) you’re also most likely to be running the latest version of Android.
 

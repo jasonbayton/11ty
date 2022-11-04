@@ -24,4 +24,4 @@ The below infobyte offers a clear and concise overview of the various deployment
 
 Click the below image to read a PDF version of this infobyte.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/DYK03-mod.1.1.jpg)](https://r2_worker.bayton.workers.dev/download/doc/ae-general/infobytes/DYK03-mod.1.1.pdf)
+[![](https://cdn.bayton.org/uploads/2018/10/DYK03-mod.1.1.jpg)](https://cdn.bayton.org/download/doc/ae-general/infobytes/DYK03-mod.1.1.pdf)

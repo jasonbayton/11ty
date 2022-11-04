@@ -51,7 +51,7 @@ Android 13 introduces the first new runtime permission change in a while. Read u
 {% endfor %}
 </div>
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/01/ask.png) 
+![](https://cdn.bayton.org/uploads/2019/01/ask.png) 
 
 ## Something missing?
 

@@ -40,9 +40,9 @@ They are no longer developing the browser as they were bought by RIM in order to
 
 Naturally, if you click continue, and then bookmark the page once it lands on the Buzz interface, you’ll skip the warning next time you launch Buzz.
 
-![Screen1](https://r2_worker.bayton.workers.dev/uploads/2010/04/Screen101.bmp "Screen101") 
+![Screen1](https://cdn.bayton.org/uploads/2010/04/Screen101.bmp "Screen101") 
 
-![Screen2](https://r2_worker.bayton.workers.dev/uploads/2010/04/Screen102.bmp "Screen102")
+![Screen2](https://cdn.bayton.org/uploads/2010/04/Screen102.bmp "Screen102")
 
 I hope that helps again for my Windows Mobile comrades, and if I find any better alternatives I’ll be sure to post them on the site!
 

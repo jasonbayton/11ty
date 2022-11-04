@@ -33,7 +33,7 @@ Here are a few highlights of my 2 days!
 The rise of affordable devices
 ------------------------------
 
-![The Xperia 10 & 10 Plus](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174820_crop.jpg)
+![The Xperia 10 & 10 Plus](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_174820_crop.jpg)
 *The Xperia 10 &amp; 10 Plus*
 
 >Not necessarily limited to MWC as this trend has been growing for a while, but MWC really started to bring it home.
@@ -55,10 +55,10 @@ Generally, I’ve seen both Android One and Android Go adoption increase over th
 Form factors are interesting again 
 -----------------------------------
 
-![Samsung Galaxy Fold](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134651-2.jpg)
+![Samsung Galaxy Fold](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134651-2.jpg)
 *Samsung Galaxy Fold*
 
-![Huawei Mate X](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135227-2.jpg)
+![Huawei Mate X](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_135227-2.jpg)
 *Huawei Mate X*
 
 You know I’m going to mention folding phones, so I’ll do so immediately.
@@ -73,7 +73,7 @@ I might eat my words before then, and if so then it’ll be because foldable dev
 
 HTC showed off their 5G Hub, a small wireless 5G mifi, or mobile WiFi device supporting up to 20 connections complete with 5″ screen and running Android Pie.
 
-![HTC 5G Hub](https://r2_worker.bayton.workers.dev/uploads/2019/03/VLS_2189.0.jpg)
+![HTC 5G Hub](https://cdn.bayton.org/uploads/2019/03/VLS_2189.0.jpg)
 *Photo by Tom Warren / The Verge*
 
 In a form factor that resembles something akin to a small Google Home Hub, it comes with the added benefit of running full Android and a tablet-esque battery capacity of 7,660mAh. Not enormous considering the impact tethering can have on a device, but certainly should be enough when moving between locations.
@@ -82,14 +82,14 @@ On the subject of batteries, Energiser launched a collossal 18,000mAh battery ph
 
 There were also a number of rugged/semi-rugged (pro-sumer?) devices littering the halls, most notably CAT for me as I’d made time to have a chat due to an existing relationship through my [device testing efforts](/android/android-enterprise-device-support/), where I got to see them demonstrating the strength of their devices through an installation in the floor I’d already unknowingly trodden on:
 
-![The CAT lineup underfoot](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_5231.jpg)
+![The CAT lineup underfoot](https://cdn.bayton.org/uploads/2019/03/IMG_5231.jpg)
 *The CAT lineup underfoot*
 
 Though even just up the hall there were other brands showing off their own with their own installations (it was pretty clear devices “submerged in water” actually weren’t in some cases though. Tsk tsk.)
 
 The most exciting form factor for me, however, was the F(x)tec Pro<sup>1</sup> which I was invited to check out by the founders at a private event just outside MWC.
 
-![The F(x)tec Pro](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090547-2.jpg)
+![The F(x)tec Pro](https://cdn.bayton.org/uploads/2019/03/IMG_20190226_090547-2.jpg)
 *The F(x)tec Pro 1*
 
 Designed by the team responsible for some earlier Nokia sliders, the Pro 1 felt oddly familiar yet modern, and despite BlackBerry’s many attempts at a QWERTY Android phone, none of them pique my interest in the way the Pro 1 does, why?
@@ -100,14 +100,14 @@ Designed by the team responsible for some earlier Nokia sliders, the Pro 1 felt 
 
 It runs the SnapDragon 835 prevalent amongst 2017 flagships, but benefits from flagship-level spec in other aspects, and F(x)tec have promised software support for the device (a requirement for [Android Enterprise Recommended](/android/what-is-android-enterprise-recommended/), just saying).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/03/2019_03_22_11_12_28.gif)
+![](https://cdn.bayton.org/uploads/2019/03/2019_03_22_11_12_28.gif)
 
 When it launches in a few months, it’ll 100% become my daily driver, if for no other reason than to help support the company towards building a Pro 2!
 
 Android &amp; 5G
 ----------------
 
-![Netgear and their 5G mifi devices](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122702.jpg)
+![Netgear and their 5G mifi devices](https://cdn.bayton.org/uploads/2019/03/IMG_20190226_122702.jpg)
 *Netgear and their 5G mifi devices*
 
 Did you know? Android is the first mobile OS to support 5G.
@@ -144,21 +144,21 @@ Thanks to all who took the time to chat, demo their products or answer my many, 
 
 Until next year!
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_111501.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_111501-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_112526.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_112526-1140x1520.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133904.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133904-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134051.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134051-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134427.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134427-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135603.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_135603-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_143454.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_143454-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174704.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_174704-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090607.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090607-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090655.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_090655-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_112755.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_112755-1140x1520.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_162657.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_162657-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122749.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190226_122749-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_142932-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_142932-1-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134754-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134754-1-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134229.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_134229-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133356-1.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190225_133356-1-1140x855.jpg)
-[![](https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190228_223556.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2019/03/IMG_20190228_223556-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_111501.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_111501-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_112526.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_112526-1140x1520.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_133904.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_133904-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134051.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134051-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134427.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134427-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_135603.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_135603-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_143454.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_143454-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_174704.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_174704-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190226_090607.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190226_090607-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190226_090655.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190226_090655-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190226_112755.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190226_112755-1140x1520.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190226_162657.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190226_162657-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190226_122749.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190226_122749-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_142932-1.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_142932-1-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134754-1.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134754-1-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134229.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_134229-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190225_133356-1.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190225_133356-1-1140x855.jpg)
+[![](https://cdn.bayton.org/uploads/2019/03/IMG_20190228_223556.jpg)](/https://cdn.bayton.org/uploads/2019/03/IMG_20190228_223556-1140x855.jpg)

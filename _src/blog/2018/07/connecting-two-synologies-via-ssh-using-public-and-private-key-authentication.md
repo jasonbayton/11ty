@@ -19,7 +19,7 @@ tags:
 ---
 <div class="callout callout-info"> 
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Joel400.jpg)
+![](https://cdn.bayton.org/uploads/2018/07/Joel400.jpg)
 
 ### Contributing author
 
@@ -45,7 +45,7 @@ Sign in to the interface, open the configuration panel, scroll all the way to th
 
 Warning: If you plan on accessing your Synology over the internet, instead of just over the network, I suggest you also enable autoblock once you are finished with this tutorial. I experience more than 1000 sign in attempts from unknown sources, per day.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Screen-Shot-2018-07-08-at-16.36.34.png)You can verify if you did this successfully by connecting via SSH. Open the terminal and enter the command below. The username should be replaced with the username you use to sign in to the Synology. The IP address should be replaced by the IP address of the Synology.
+![](https://cdn.bayton.org/uploads/2018/07/Screen-Shot-2018-07-08-at-16.36.34.png)You can verify if you did this successfully by connecting via SSH. Open the terminal and enter the command below. The username should be replaced with the username you use to sign in to the Synology. The IP address should be replaced by the IP address of the Synology.
 
 ```
 ssh admin@192.168.0.2
@@ -59,7 +59,7 @@ User homes need to be enabled, because the private and public keys, which we are
 
 Open the control panel, navigate to *User*﻿, click *Advanced*﻿, scroll all the way down and select *Enable user home service*﻿.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/07/Screen-Shot-2018-07-08-at-17.01.24.png)### 3. Generate a public and private key pair on local Synology
+![](https://cdn.bayton.org/uploads/2018/07/Screen-Shot-2018-07-08-at-17.01.24.png)### 3. Generate a public and private key pair on local Synology
 
 You will now generate a *private* and a *public key* on the *local* Synology. Later on we will copy the *public key* to the remote device. The *private key* should never leave the local device. If someone gets hold of your private key, they can access the remote device.
 

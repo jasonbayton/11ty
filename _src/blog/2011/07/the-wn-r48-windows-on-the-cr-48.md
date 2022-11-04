@@ -48,8 +48,8 @@ What you’ll need:
 A small Philips head screwdriver  
 An external DVD drive  
 An SD card/USB stick  
-The [Insyde BIOS firmware](https://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz "Insyde BIOS firmware")  
-[Synaptics driver  ](https://r2_worker.bayton.workers.dev/download/sp47815_touchpad.exe "Synaptics Driver")Tape
+The [Insyde BIOS firmware](https://cdn.bayton.org/download/cr48.bin.tar.gz "Insyde BIOS firmware")  
+[Synaptics driver  ](https://cdn.bayton.org/download/sp47815_touchpad.exe "Synaptics Driver")Tape
 
 If you haven’t already, you’ll need to hack the Cr48 to allow you to install the Insyde BIOS firmware before you can install anything other than Chrome OS. Here are the instructions for that:
 
@@ -63,7 +63,7 @@ Once you’ve fixed the BIOS check (I used tape) and re-assembled your Cr, we ca
 
 Boot back into Ubuntu.
 
-Download the new BIOS from here: [www.bayton.orghttps://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz](https://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz)
+Download the new BIOS from here: [www.bayton.orghttps://cdn.bayton.org/download/cr48.bin.tar.gz](https://cdn.bayton.org/download/cr48.bin.tar.gz)
 
 Open Terminal and Install flashrom by typing ***sudo apt-get install flashrom***
 
@@ -82,13 +82,13 @@ A) Connect to Wifi and start updating, in one of the optional updates, the most 
 
 B) If you’re not interested in waiting, you can click Start &gt; Control Panel &gt; Appearance and Personalization &gt; Display &gt; Adjust Screen Resolution (left-hand link). Click “Advanced settings” then “Properties”, select the “Driver” tab and finally, click “Update Driver”.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/VGA-driver.png "VGA driver")](https://r2_worker.bayton.workers.dev/uploads/2011/07/VGA-driver.png)
+[![](https://cdn.bayton.org/uploads/2011/07/VGA-driver.png "VGA driver")](https://cdn.bayton.org/uploads/2011/07/VGA-driver.png)
 
 If you’re connected to the net, it will find it. After this you’ll need to reboot.
 
 The tech-savvy amongst you may ask “Why go through that when one can click Start &gt; Right Click on Computer and click “Manage” to get the device manager?” – Well, you see, you don’t yet have right click. You could also bring device manager up through the run prompt, but I like the way I’ve explained, anyway.. No right click – which brings us on to the next hurdle..
 
-If you haven’t already from the link above, please download the modified Synaptics driver [here](https://r2_worker.bayton.workers.dev/download/sp47815_touchpad.exe "here"). Install this and reboot if required. Once completed (including a reboot, if necessary) head over to Control Panel &gt; Hardware and Sound and click the Mouse link in the submenu. You’ll see a Synaptics tab – here you can enable right click, scrolling and 3 finger application launch.
+If you haven’t already from the link above, please download the modified Synaptics driver [here](https://cdn.bayton.org/download/sp47815_touchpad.exe "here"). Install this and reboot if required. Once completed (including a reboot, if necessary) head over to Control Panel &gt; Hardware and Sound and click the Mouse link in the submenu. You’ll see a Synaptics tab – here you can enable right click, scrolling and 3 finger application launch.
 
 **A word to the wise**, two finger tap for right click doesn’t appear to be an option. You can do it one (or both) of two ways..  
 1\) Enable touch zones on the trackpad and assign a zone to right click  
@@ -100,13 +100,13 @@ During this process, you should get quite a few updates.. do let them install if
 
 Another thing you may notice is the lack of Aero when you first install.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/Capture-300x187.png "Capture")](https://r2_worker.bayton.workers.dev/uploads/2011/07/Capture.png)
+[![](https://cdn.bayton.org/uploads/2011/07/Capture-300x187.png "Capture")](https://cdn.bayton.org/uploads/2011/07/Capture.png)
 
 (Click to enlarge)
 
 Once you’re run your Windows Experience Index, you’ll get a score of around 2.3 – enough to get you on Aero as below:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/Capture3-300x187.png "Capture3")](https://r2_worker.bayton.workers.dev/uploads/2011/07/Capture3.png)
+[![](https://cdn.bayton.org/uploads/2011/07/Capture3-300x187.png "Capture3")](https://cdn.bayton.org/uploads/2011/07/Capture3.png)
 
 (Click to enlarge)
 
@@ -118,7 +118,7 @@ At the moment, I have Skype, Chrome, FileZilla and Avast! installed with 3.6GB s
 
 And finally, the battery has lasted around 6 hours on one charge, topping the 4 hours I got from Fedora but naturally not as good as the 8 hours from ChromeOS.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2011/07/googleplus-icon-150x150.png "googleplus-icon")](https://plus.google.com/105616249858609350212)
+[![](https://cdn.bayton.org/uploads/2011/07/googleplus-icon-150x150.png "googleplus-icon")](https://plus.google.com/105616249858609350212)
 
 Have you already done this or are looking to do this to your Cr-48 or ChromeBook?
 

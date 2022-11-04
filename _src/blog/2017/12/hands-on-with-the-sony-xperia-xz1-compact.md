@@ -37,7 +37,7 @@ The XZ1 Compact is Sony’s miniature alternative to their new Xperia XZ1, a dev
 Hardware
 --------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/12/IMG_20171218_112327500.jpg)
+![](https://cdn.bayton.org/uploads/2017/12/IMG_20171218_112327500.jpg)
 
 The photo above doesn’t do the XZ1 Compact screen any justice as the gaudy, poorly fitting screen protector is obscuring it, however the XZ1 Compact boasts a 4.6″, HD display housed within a 129 x 64 x 9.3mm frame. It feels small, yet solid given the chunky design and hard corners aligning with Sony’s familiar design language.
 
@@ -49,7 +49,7 @@ Around the display are speaker grilles and an 8MP front-facing camera.
 
 Unlike the XZ1, the XZ1 Compact appears to be a mix of plastic, metal and glass. with the plastic cover on the back being a pretty gnarly fingerprint magnet (see the pic below)! I ended up covering it with a case pretty quickly given the difficulty I was having trouble removing fingerprints from the matte finish. It also flexes under a small amount of pressure, which honestly I’d forgotten was even a thing given the amount of glass and metal-backed devices I’ve used for a good while now.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/12/IMG_20171218_112755731-e1513598521209.jpg)
+![](https://cdn.bayton.org/uploads/2017/12/IMG_20171218_112755731-e1513598521209.jpg)
 
 Given the bigger XZ1 doesn’t use plastic, I wasn’t expecting to see it here, either. It feels obviously quite a bit cheaper due to this, even with the metal finish on the top and bottom; regardless of this however, the XZ1 Compact still benefits from IP68 water resistance.
 
@@ -100,10 +100,10 @@ Software
 
 <div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-2"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133545.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133545.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133732.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133732.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133606.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133606.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133631.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133631.png) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133545.png)](/https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133545.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133732.png)](/https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133732.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133606.png)](/https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133606.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133631.png)](/https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133631.png) </dt></dl>  
 <dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133642.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133642.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133334.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133334.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133634.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133634.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133549.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/Screenshot_20171218-133549.png) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133642.png)](/https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133642.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133334.png)](/https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133334.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133634.png)](/https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133634.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133549.png)](/https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133549.png) </dt></dl>  
 </div>
  
 Sony devices ship with a light skin atop Android which, depending on your own personal preferences, may be a good or bad thing. The XZ1 Compact is no different here, however although I do prefer pure, vanilla Android, Sony’s skin is by no means unattractive and is so lightweight I’ve mostly not even thought about it. It additionally ships with Android 8.0 and was one of the first OEMs to do so!
@@ -140,10 +140,10 @@ Camera
 
 <div class="gallery galleryid-0 gallery-columns-2 gallery-size-thumbnail" id="gallery-3"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0023.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0023.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0010.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0010.jpg) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/12/DSC_0023.jpg)](/https://cdn.bayton.org/uploads/2017/12/DSC_0023.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/12/DSC_0010.jpg)](/https://cdn.bayton.org/uploads/2017/12/DSC_0010.jpg) </dt></dl>  
 <dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0012.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0012.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0007.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/12/DSC_0007.jpg) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/12/DSC_0012.jpg)](/https://cdn.bayton.org/uploads/2017/12/DSC_0012.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/12/DSC_0007.jpg)](/https://cdn.bayton.org/uploads/2017/12/DSC_0007.jpg) </dt></dl>  
  </div>
  
 The camera is pretty good, though I’ve not put it through its paces in difficult environments (night, macro, etc). Certainly one of the better cameras I’ve used recently. There are plenty of other camera comparisons online, and I’d recommended searching those out, but the samples above give an indication of camera quality.

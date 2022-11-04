@@ -35,7 +35,7 @@ Here’s a breakdown of visibility per deployment scenario:
 Fully managed
 ----------------------------
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/wm.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/wm.png)
+[![](https://cdn.bayton.org/uploads/2018/10/wm.png)](https://cdn.bayton.org/uploads/2018/10/wm.png)
 
 The simplest and therefore easiest to begin with. A fully managed (COBO) device for all intents and purposes acts similarly to a legacy-managed Android handset where MTD is concerned.
 
@@ -51,7 +51,7 @@ As a fully managed device, there are no concerns over lack of visibility, and sh
 COSU (dedicated device)
 -----------------------
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/cosu2-1.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/cosu2.png)
+[![](https://cdn.bayton.org/uploads/2018/10/cosu2-1.png)](https://cdn.bayton.org/uploads/2018/10/cosu2.png)
 
 A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
 
@@ -67,7 +67,7 @@ There’s only one caveat; as most MTD solutions cannot auto-activate on Android
 Work profile (BYOD)
 -------------------
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2018/10/workprofile.png)](https://r2_worker.bayton.workers.dev/uploads/2018/10/workprofile.png)
+[![](https://cdn.bayton.org/uploads/2018/10/workprofile.png)](https://cdn.bayton.org/uploads/2018/10/workprofile.png)
 
 **NB: From Android 11 the below work profile considerations also apply to COPE!**
 
@@ -93,7 +93,7 @@ The less-than-ideal workaround for this would be to deploy the MTD into the pare
 Managed devices with work profiles (COPE)
 -----------------------------------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/10/wmwp.png)
+![](https://cdn.bayton.org/uploads/2018/10/wmwp.png)
 
 **NB: The below considerations should be applied only to Android 8.0-10. Android 11 utilises a BYOD style COPE implementation.**
 

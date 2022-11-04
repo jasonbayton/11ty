@@ -51,6 +51,6 @@ Alternatively, if you are an avid mobile messenger then you may already use Frin
 
 I have both of these programs running on my TyTN II, iSkoot for 3 and Fring as my Skype replacement when I’m roaming or using another simcard. However as I do enjoy sending the odd SMS I still have an old version of Skype installed, though which is used extremely infrequently.
 
-If you’re not happy with either of these alternatives, you can download an old version (which will continue to work, though I imagine is no longer supported by Skype) from [here](https://r2_worker.bayton.workers.dev/uploads/2010/03/SkypeMobile_2.CAB) (it’s a cab!)
+If you’re not happy with either of these alternatives, you can download an old version (which will continue to work, though I imagine is no longer supported by Skype) from [here](https://cdn.bayton.org/uploads/2010/03/SkypeMobile_2.CAB) (it’s a cab!)
 
 I hope that helps, if anyone has any better alternatives, please suggest them in the open comments below!

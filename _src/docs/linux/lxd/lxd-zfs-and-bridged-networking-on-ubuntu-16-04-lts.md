@@ -327,13 +327,13 @@ Where *some-secret-string* is a secure password that’ll be required by other L
 
 Here we tell LXD to use our already-preconfigured bridge. This opens a new workflow as follows:
 
-![Screenshot from 2016-05-02 10-54-58](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-54-58.png)
+![Screenshot from 2016-05-02 10-54-58](https://cdn.bayton.org/uploads/2016/05/Screenshot-from-2016-05-02-10-54-58.png)
 *We don’t want LXD to create a new bridge for us, so we’ll select **no** here.*
 
-![Screenshot from 2016-05-02 10-55-09](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-09.png)
+![Screenshot from 2016-05-02 10-55-09](https://cdn.bayton.org/uploads/2016/05/Screenshot-from-2016-05-02-10-55-09.png)
 *LXD now knows we may have our own bridge already set up, so we’ll select **yes** in order to declare it.*
 
-![Screenshot from 2016-05-02 10-55-19](https://r2_worker.bayton.workers.dev/uploads/2016/05/Screenshot-from-2016-05-02-10-55-19.png)
+![Screenshot from 2016-05-02 10-55-19](https://cdn.bayton.org/uploads/2016/05/Screenshot-from-2016-05-02-10-55-19.png)
 *Finally we’ll input the bridge name and select OK. LXD will now use this bridge.*
 
 </div>
@@ -389,7 +389,7 @@ fs.inotify.max_user_watches = 1048576
 
 It should look as follows:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/05/lxdsnip.png)](https://r2_worker.bayton.workers.dev/uploads/2016/05/lxdsnip.png)
+[![](https://cdn.bayton.org/uploads/2016/05/lxdsnip.png)](https://cdn.bayton.org/uploads/2016/05/lxdsnip.png)
 
 After saving the file we’ll need to reboot, but not yet as we’ll also configure the open file limits.
 
@@ -406,7 +406,7 @@ Now add the following lines. 100K should be enough:
 
 It should look as follows:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/05/lxdsnip2.png)](https://r2_worker.bayton.workers.dev/uploads/2016/05/lxdsnip2.png)
+[![](https://cdn.bayton.org/uploads/2016/05/lxdsnip2.png)](https://cdn.bayton.org/uploads/2016/05/lxdsnip2.png)
 
 Once the server is rebooted (this is important!) the new limits will apply and we’ll have future-proofed the server for now.
 

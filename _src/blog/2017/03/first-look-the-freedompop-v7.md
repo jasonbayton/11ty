@@ -32,21 +32,21 @@ They recently launched the FreedomPop V7, a 5 inch Android Marshmallow handset p
 Hardware
 --------
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170318_115247798-e1489838045171.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170318_115247798-e1489838045171.jpg)
+[![](https://cdn.bayton.org/uploads/2017/03/IMG_20170318_115247798-e1489838045171.jpg)](/https://cdn.bayton.org/uploads/2017/03/IMG_20170318_115247798-e1489838045171.jpg)
 
 The device itself is a fully unlocked [V7 Zyro](https://v7devices.com/Products) which has been subject to no additional FreedomPop branding and can be purchased on [Amazon for under £100](https://www.amazon.co.uk/V7-Zyro-16GB-Black-Dual/dp/B01M4M9M34/ref=as_li_ss_tl?ie=UTF8&qid=1478192815&sr=8-1&keywords=v7+zyro&&linkCode=ll1&tag=bayton-21&linkId=75dd8170e0f0e7830be780c4310b3759). FreedomPop however offered it bundled with their £11.99/month Premium 2GB plan (the first month is free and can be cancelled before renewal) for £59 all in. This 2GB plan also comes with unlimited texts and minutes.
 
 For the price it’s a reasonable handset that feels more expensive than it is; the aluminium frame is the biggest reason for this and looks great against the matte, grippy, plastic back cover. Under this cover sits a 2100mAh removable battery, 2 SIM slots (the 2nd is 2G only for some reason) and a MicroSD slot capable of carrying up to 32GB MicroSD cards. The back of the unit is easy to gain access to, though the cover on my mine is quite difficult to re-secure to the device due to somewhat poor clips.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170315_090252528-e1489784300789.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170315_090252528-e1489784300789.jpg)
+[![](https://cdn.bayton.org/uploads/2017/03/IMG_20170315_090252528-e1489784300789.jpg)](/https://cdn.bayton.org/uploads/2017/03/IMG_20170315_090252528-e1489784300789.jpg)
 
 The V7 is powered by a Snapdragon 210 (I didn’t realise they went that low, honestly) 1.1GHz quadcore chip with 1GB RAM and 16GB storage. Commonly devices touting a gig of RAM are bundled with 8GB of internal storage, so doubling it is a nice touch. The screen is a 5″ 720p display that uses Dragontrail glass instead of the more popular Gorilla Glass, but it comes with a factory-fitted screen protector. Underneath the screen sit capacitive buttons which still seem to be a thing in 2017.
 
 The headphone jack (yes, it has one!) and microUSB charging ports sit on the top of the phone, while the power and volume sit down the right-hand side. The buttons are clicky and don’t feel cheap, another nice touch for a budget device.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170315_083724323-e1489785828466.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170315_083724323-e1489785828466.jpg)
+[![](https://cdn.bayton.org/uploads/2017/03/IMG_20170315_083724323-e1489785828466.jpg)](/https://cdn.bayton.org/uploads/2017/03/IMG_20170315_083724323-e1489785828466.jpg)
 
-On the back sits a 13MP camera, which is adequate, though not particularly impressive. The front camera is even worse at 5MP, though admittedly I’ve seen front facing cameras with a much lower resolution. [Here’s a sample from the rear camera](/https://r2_worker.bayton.workers.dev/uploads/2017/03/IMG_20170318_122329.jpg).
+On the back sits a 13MP camera, which is adequate, though not particularly impressive. The front camera is even worse at 5MP, though admittedly I’ve seen front facing cameras with a much lower resolution. [Here’s a sample from the rear camera](/https://cdn.bayton.org/uploads/2017/03/IMG_20170318_122329.jpg).
 
 On the bottom sits a mono speaker which is quite loud, though by no means the loudest I’ve heard, and finally while it benefits from Bluetooth 4.0, WIFI is limited to 2GHz and there’s no NFC – so sorry, no Android Pay on the V7.
 
@@ -74,10 +74,10 @@ Software
 
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-5"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-093005.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-093005.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-091243.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-091243.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-101058.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-101058.png) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093005.png)](/https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093005.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-091243.png)](/https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-091243.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-101058.png)](/https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-101058.png) </dt></dl>  
 <dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-092916.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-092916.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-092835.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-092835.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-093628.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/03/Screenshot_20170315-093628.png) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092916.png)](/https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092916.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092835.png)](/https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092835.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093628.png)](/https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093628.png) </dt></dl>  
  </div>
  
  The V7 ships with 6.0 Marshmallow and a light skin. Besides the hexagonal icons and an additional setting or two, the device is pretty much stock. Given the low-end processor and limited RAM, limiting the skinning was definitely a wise choice.
@@ -115,7 +115,7 @@ As for FreedomPop’s provisioning, I’d have hoped for better; sending out dev
 
 If you buy a v7 through FreedomPop, I’d suggest factory resetting it on receipt, you can then reinstall the missing apps by downloading the following zip:
 
-[FreedomPop Apps](https://r2_worker.bayton.workers.dev/download/FreedomPOP.zip)
+[FreedomPop Apps](https://cdn.bayton.org/download/FreedomPOP.zip)
 
 \*This is what they say, how long it actually lasts we’ll have to wait and see, though it’s been a few years so far. The free for life offer includes 200 minutes, 200 texts and 200MB data.
 

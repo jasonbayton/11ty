@@ -35,7 +35,7 @@ tags:
 ---
 We face annoyances on the internet daily, whether they are select people on a forum, a company forcing a subscription on you (hello, [PlayOn)](https://www.playon.tv),etc. We shouldn’t have to pay a yearly subscription. No one pays Microsoft every year for using the same OS), or my personal favourite of late – being blocked by certain streaming sites as I’m outside of the US.
 
-![hipeipvpn](https://r2_worker.bayton.workers.dev/uploads/2010/06/logo.png "logo")
+![hipeipvpn](https://cdn.bayton.org/uploads/2010/06/logo.png "logo")
 
 Today I found the answer to that problem. [HideIP VPN](https://www.hideipvpn.com/). They offer both free\* and low cost paid services for anyone who wants to;
 

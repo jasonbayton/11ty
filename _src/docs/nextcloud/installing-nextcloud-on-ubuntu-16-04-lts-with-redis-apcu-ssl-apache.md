@@ -101,11 +101,11 @@ As this is a brand new installation based on images that likely don’t update v
 
 `sudo apt update && sudo apt upgrade`
 
-![img.6](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.6.png)
+![img.6](https://cdn.bayton.org/uploads/2016/07/img.6.png)
 
 When the update has completed, it’ll provide a list of packages to be upgraded. Providing we’re happy with what we see, tap **Enter.**
 
-![img.7](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.7.png)
+![img.7](https://cdn.bayton.org/uploads/2016/07/img.7.png)
 
 With the server updated, if one doesn’t already exist, a non-root user should be created with sudo privileges and the root account should disabled, once complete we’ll now install the required components for Nextcloud:
 
@@ -121,11 +121,11 @@ The use of ^ (caret) in the package name is important. It suggests that the inst
 
 This command will install Apache, MySQL and PHP along with several PHP/Apache modules to ensure seamless collaboration between the packages. Once happy with the package selection to be installed, tap **Enter**.
 
-![img.9](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.9.png)
+![img.9](https://cdn.bayton.org/uploads/2016/07/img.9.png)
 
 MySQL will request a `root` user password. Ensure this is strong and keep the password safe; losing it can cause all manner of issues.
 
-![img.10](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.10.png)
+![img.10](https://cdn.bayton.org/uploads/2016/07/img.10.png)
 
 Once installed, we’ll now install APCu and Redis:
 
@@ -133,13 +133,13 @@ Once installed, we’ll now install APCu and Redis:
 
 Confirm the packages to be installed match expectations and hit **Enter**.
 
-![img.12](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.12.png)
+![img.12](https://cdn.bayton.org/uploads/2016/07/img.12.png)
 
 Finally, we’ll install the minimal Nextcloud PHP modules required not to error during installation (more can be enabled later):
 
 `sudo apt install php-zip php-dompdf php-xml php-mbstring php-gd php-curl unzip`
 
-![img.16](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.16-1.png)
+![img.16](https://cdn.bayton.org/uploads/2016/07/img.16-1.png)
 
 And enable a few apache modules to support our configuration:
 
@@ -149,11 +149,11 @@ Now we’ll restart Apache:
 
 `sudo service apache2 restart`
 
-![img.19](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.19.png)
+![img.19](https://cdn.bayton.org/uploads/2016/07/img.19.png)
 
 Before moving on check via a browser that Apache is up and running
 
-![img.13](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.13.png)
+![img.13](https://cdn.bayton.org/uploads/2016/07/img.13.png)
 
 ### 4.2. Enable SSL
 
@@ -181,7 +181,7 @@ Where:
 
 On first run the Let’s Encrypt certbot will install all required dependencies (following approval), however with the added flags above, will not require any further input to set everything up.
 
-[![lesetup](https://r2_worker.bayton.workers.dev/uploads/2016/07/lesetup.png)](https://r2_worker.bayton.workers.dev/uploads/2016/07/lesetup.png)
+[![lesetup](https://cdn.bayton.org/uploads/2016/07/lesetup.png)](https://cdn.bayton.org/uploads/2016/07/lesetup.png)
 
 Navigating now to the domain allocated to the server will show an SSL-enabled website! If the browser complains the site is not fully protected at this point, it’s due to the default Apache landing page requesting content over HTTP and not an issue with the certificate.
 
@@ -308,7 +308,7 @@ Then restart Apache:
 
 With that, all traffic will be forced to HTTPS.
 
-![img.29](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.29.png)
+![img.29](https://cdn.bayton.org/uploads/2016/07/img.29.png)
 
 ## 5. Install Nextcloud
 
@@ -323,7 +323,7 @@ NB: future and previous versions can be obtained from [Nextcloud](https://nextcl
 
 Unpack the compressed zip with `sudo unzip latest.zip`
 
-![img.14](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.14.png)
+![img.14](https://cdn.bayton.org/uploads/2016/07/img.14.png)
 
 As shown above with `ls` there’s now a `nextcloud` folder situated under `/var/www/html/` but currently root owns it. We can change that:
 
@@ -345,7 +345,7 @@ Before switching to Chrome to run the web-based installer, we’ll first create 
 
 We can open a session with mysql by running the command `mysql -u root -p` and providing the root password we entered earlier.
 
-![img.17](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.17.png)
+![img.17](https://cdn.bayton.org/uploads/2016/07/img.17.png)
 
 Now we’ll create a dedicated database and user for Nextcloud with the following commands:
 
@@ -357,13 +357,13 @@ GRANT ALL PRIVILEGES ON nextcloud . * TO 'ncuser'@'localhost';
 
 Then exit the mysql session with `quit`
 
-![img.18](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.18.png)
+![img.18](https://cdn.bayton.org/uploads/2016/07/img.18.png)
 
 ### 5.3. Install Nextcloud
 
 Open up a browser and navigate to ***ip-or-hostname**/nextcloud*. Hopefully by this point a DNS entry has propagated; we’ll navigate to [nc.domain.org/nextcloud](https://nc.domain.org/nextcloud) to continue installation.
 
-![img.20](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.20.png)
+![img.20](https://cdn.bayton.org/uploads/2016/07/img.20.png)
 
 Success! The Nextcloud installation screen is there and showing no errors. Installation from here is simple:
 
@@ -382,13 +382,13 @@ Ideally it’s best practice to situate the data directory outside of `/var/www/
 
 Scroll down and click **Finish Setup**.
 
-![img.21](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.21.png)
+![img.21](https://cdn.bayton.org/uploads/2016/07/img.21.png)
 
 ## 6. Configuration
 
 As it stands currently, Nextcloud isn’t very happy.
 
-![img.22](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.22.png)  
+![img.22](https://cdn.bayton.org/uploads/2016/07/img.22.png)  
 *Ignore the HTTP error, this will disappear when we access the site over HTTPS.*
 
 ### 6.1. Enable .htaccess
@@ -454,7 +454,7 @@ With Redis configured, we can add the caching configuration to the Nextcloud con
 
 `sudo vim /var/www/html/nextcloud/config/config.php`
 
-![img.23](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.23.png)
+![img.23](https://cdn.bayton.org/uploads/2016/07/img.23.png)
 
 Add the following:
 
@@ -478,7 +478,7 @@ Caching is now configured.
 
 With both of these now resolved, the admin interface is looking a lot healthier:
 
-![img.30](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.30-e1469692669146.png)
+![img.30](https://cdn.bayton.org/uploads/2016/07/img.30-e1469692669146.png)
 
 ### 6.3. Pretty links
 
@@ -490,7 +490,7 @@ Most of the hard work was already done during the setup of the environment with 
 
 Add `'htaccess.RewriteBase' => '/nextcloud',` (where nextcloud is the URL location – domain.com/nextcloud – of the installation) below one of the existing configuration options, for example:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/prettylinks.png)
+![](https://cdn.bayton.org/uploads/2017/04/prettylinks.png)
 
 Finally, from `/var/www/html/nextcloud`, run:
 
@@ -498,11 +498,11 @@ Finally, from `/var/www/html/nextcloud`, run:
 
 From:
 
-![img.25](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.25.png)
+![img.25](https://cdn.bayton.org/uploads/2016/07/img.25.png)
 
 To (don’t simply refresh the page, remove index.php from the URL and load the page again, otherwise it looks like it doesn’t work):
 
-![img.26](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.26.png)
+![img.26](https://cdn.bayton.org/uploads/2016/07/img.26.png)
 
 ### 6.4. Max upload
 
@@ -527,13 +527,13 @@ Restart Apache:
 
 Log into the admin area of Nextcloud, navigate to **additional settings** and ensure the max upload setting there reflects the change made to the php.ini file (in this example, 2GB):
 
-[![filehandling](https://r2_worker.bayton.workers.dev/uploads/2016/07/filehandling.png)](https://r2_worker.bayton.workers.dev/uploads/2016/07/filehandling.png)
+[![filehandling](https://cdn.bayton.org/uploads/2016/07/filehandling.png)](https://cdn.bayton.org/uploads/2016/07/filehandling.png)
 
 ### 6.5. Nextcloud 12+ PHP Opcache
 
 From Nextcloud 12, additional configuration is required in order to correctly setup PHP Opcache. The following error displays until this is completed:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/04/nc-opcache-e1495918459825.png)](https://r2_worker.bayton.workers.dev/uploads/2017/04/nc-opcache.png)
+[![](https://cdn.bayton.org/uploads/2017/04/nc-opcache-e1495918459825.png)](https://cdn.bayton.org/uploads/2017/04/nc-opcache.png)
 
 Re-open the `php.ini` file:
 
@@ -576,23 +576,23 @@ First we’ll enable the default encryption app:
 2. Click **Not enabled** from the side-menu
 3. Click **Enable** on the **Default encryption module**
 
-![img.32](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.32.png)
+![img.32](https://cdn.bayton.org/uploads/2016/07/img.32.png)
 
 Next we’ll log into the Nexcloud administration area and navigate to **Server-side encryption**. Click **Enable server-side encryption**:
 
-![img.31](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.31.png)
+![img.31](https://cdn.bayton.org/uploads/2016/07/img.31.png)
 
 After reading through the warnings, click **Enable encryption**. We now need to log out and back in:
 
-![img.33](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.33.png)
+![img.33](https://cdn.bayton.org/uploads/2016/07/img.33.png)
 
 After logging back in and returning to this area, it will be possible to create a global recovery key:
 
-![img.34](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.34.png)
+![img.34](https://cdn.bayton.org/uploads/2016/07/img.34.png)
 
 However, if a global recovery key is considered too all-powerful, individual users may also recover encrypted files with their password by setting the following option to **Enabled** in **Personal** located when clicking the username in the top-right of the screen:
 
-![img.35](https://r2_worker.bayton.workers.dev/uploads/2016/07/img.35.png)
+![img.35](https://cdn.bayton.org/uploads/2016/07/img.35.png)
 
 All data will now be encrypted at rest, as well as protected in transit when using SSL.
 

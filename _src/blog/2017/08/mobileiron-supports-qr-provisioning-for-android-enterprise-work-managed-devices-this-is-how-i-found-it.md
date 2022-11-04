@@ -120,7 +120,7 @@ Turning then to the [Android Enterprise documentation](https://developers.google
 
 It didn’t work. I received errors on the device stating the code was invalid; probably not surprising given I was shooting entirely in the dark:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/IMG_20170731_180013633_HDR-e1501659360206.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/08/IMG_20170731_180013633_HDR-e1501659360206.jpg)
+[![](https://cdn.bayton.org/uploads/2017/08/IMG_20170731_180013633_HDR-e1501659360206.jpg)](/https://cdn.bayton.org/uploads/2017/08/IMG_20170731_180013633_HDR-e1501659360206.jpg)
 
 On a whim, I added `android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE` back in but emptied it of configurations:
 
@@ -143,7 +143,7 @@ On a whim, I added `android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE` back in 
 
 Tried again, this time I got a message to say “Can’t set up device”. This was progress.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/IMG_20170731_180155991_HDR-e1501659300412.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/08/IMG_20170731_180155991_HDR-e1501659300412.jpg)
+[![](https://cdn.bayton.org/uploads/2017/08/IMG_20170731_180155991_HDR-e1501659300412.jpg)](/https://cdn.bayton.org/uploads/2017/08/IMG_20170731_180155991_HDR-e1501659300412.jpg)
 
 Noting the differences between MobileIron and AirWatch on `android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME` I figured this was the next item to focus on. Since AirWatch already provided the string to find in the app, finding the same in MobileIron’s should be simple, or so I thought.
 
@@ -166,7 +166,7 @@ Following the format used by the example code, I combined it with the package na
 
 Generating a new QR code against this got me further again! This time I received a checksum error – indicating there was a mismatch between the APK and the checksum I provided, both listed in the NFC payload and supposedly therefore fine.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/IMG_20170728_162015929_HDR-e1501659022415.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/08/IMG_20170728_162015929_HDR-e1501659022415.jpg)
+[![](https://cdn.bayton.org/uploads/2017/08/IMG_20170728_162015929_HDR-e1501659022415.jpg)](/https://cdn.bayton.org/uploads/2017/08/IMG_20170728_162015929_HDR-e1501659022415.jpg)
 
 Nevertheless, returning to the [Android Enterprise documents](https://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#EXTRA_PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM) I noticed the option for a SHA-256 checksum in place of the SHA-1 used with the NFC payload. Assuming QR provisioning is much newer than that of NFC I figured perhaps – despite notes on the docs to say SHA-1 will work for now – the documentation was outdated and therefore I had to use SHA-256 instead. So I generated a SHA-256, base64, URL-safe checksum using the following command in bash:
 
@@ -222,7 +222,7 @@ Success!
 https://www.youtube.com/embed/PBTI0TQAUyM
 
 Here’s the QR for MobileIron Core that I’ve successfully tested, the APK is hosted on my own server to ensure this QR continues to work with the provided checksum:  
-![](https://r2_worker.bayton.workers.dev/uploads/2017/08/static_qr_code_without_logo-5.png)
+![](https://cdn.bayton.org/uploads/2017/08/static_qr_code_without_logo-5.png)
 
 It took well over a week and 150+ factory resets on multiple test devices to get it up and running. Perhaps if I was a developer I’d have cracked it sooner, but nevertheless perseverance prevailed and I can now make use of QR codes before they’re officially supported!
 
@@ -245,7 +245,7 @@ To top it off, I also confirmed provisioning works equally fine with MobileIron 
 ```
 
 And here’s the QR for MobileIron Cloud, the APK is hosted on my own server to ensure this QR continues to work with the provided checksum:  
-![](https://r2_worker.bayton.workers.dev/uploads/2017/08/static_qr_code_without_logo-4.png)
+![](https://cdn.bayton.org/uploads/2017/08/static_qr_code_without_logo-4.png)
 
 Update: A proper [document](/docs/enterprise-mobility/) has now been created. Check it out: [Manual Android Enterprise work-managed QR code generation for MobileIron](/docs/enterprise-mobility/mobileiron/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/)
 

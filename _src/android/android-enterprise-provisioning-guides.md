@@ -42,59 +42,59 @@ Generic
 
 ### Fully managed
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/AE_FM_NFC_9.0_Generic-banner.jpg)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/AE_FM_NFC_9.0_Generic.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/AE_FM_NFC_9.0_Generic-banner.jpg)](https://cdn.bayton.org/download/doc/ae-guides/AE_FM_NFC_9.0_Generic.pdf)
 
 MobileIron Core
 ---------------
 
 ### Work profile
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/Android-enterprise-WP-Fac-Reset-MICore.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WP-Fac-Reset-MICore.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/Android-enterprise-WP-Fac-Reset-MICore.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WP-Fac-Reset-MICore.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/Android-enterprise-WP-Non-Reset-MICore-1.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WP-Non-Reset-MICore.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/Android-enterprise-WP-Non-Reset-MICore-1.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WP-Non-Reset-MICore.pdf)
 
 ### Fully managed
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_ae_nfc-1.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-NFC-MICore.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/android_ae_nfc-1.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WM-NFC-MICore.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_ae_wt-2.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-WT-MICore.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/android_ae_wt-2.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WM-WT-MICore.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_ae_qr-2.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-QR-MICore.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/android_ae_qr-2.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WM-QR-MICore.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_ae_zt2-1.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/android_ae_zt2-1.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WM-ZT-MICore.pdf)
 
 ### Fully managed work profile
 
 #### Sony UI
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-zt-sony.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WMWP-ZT-MICore_Sony.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/wmwp-zt-sony.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WMWP-ZT-MICore_Sony.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-nfc-sony.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WMWP-NFC-MICore_Sony.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/wmwp-nfc-sony.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WMWP-NFC-MICore_Sony.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-qr-sony.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WMWP-QR-MICore_Sony.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/wmwp-qr-sony.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WMWP-QR-MICore_Sony.pdf)
 
 #### Vanilla UI
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-zt-aone.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WMWP-ZT-MICore_AOne.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/wmwp-zt-aone.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WMWP-ZT-MICore_AOne.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-nfc-aone.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WMWP-NFC-MICore_AOne.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/wmwp-nfc-aone.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WMWP-NFC-MICore_AOne.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/wmwp-qr-aone.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WMWP-QR-MICore_AOne.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/wmwp-qr-aone.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WMWP-QR-MICore_AOne.pdf)
 
 AirWatch
 --------
 
 ### Fully managed
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/ae_wt_aw-1.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-WT-AirWatch.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/ae_wt_aw-1.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WM-WT-AirWatch.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/ae_nfc_aw.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-NFC-AirWatch.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/ae_nfc_aw.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WM-NFC-AirWatch.pdf)
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/ae_qr_aw.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Android-enterprise_WM-QR-AirWatch.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/ae_qr_aw.png)](https://cdn.bayton.org/download/doc/ae-guides/Android-enterprise_WM-QR-AirWatch.pdf)
 
 Legacy enrolment
 ----------------
 
 Reference guide(s) for legacy enrolment, enabling direct comparison with Android Enterprise enrolment documented above.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/08/android_legacy-1.png)](https://r2_worker.bayton.workers.dev/download/doc/ae-guides/Legacy-enrolment_Nexus.pdf)
+[![](https://cdn.bayton.org/uploads/2017/08/android_legacy-1.png)](https://cdn.bayton.org/download/doc/ae-guides/Legacy-enrolment_Nexus.pdf)

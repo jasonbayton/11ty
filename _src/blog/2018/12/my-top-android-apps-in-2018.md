@@ -27,7 +27,7 @@ With that said, here are the apps I’ve used the most this year in alphabetical
 1. Action Launcher
 ------------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-12.png)
+![](https://cdn.bayton.org/uploads/2018/12/image-12.png)
 
 I’ve been a Nova launcher user for several years and very much appreciate the 3rd party launcher support for Android as a saving grace against the heavily skinned UIs a number of OEMs force upon consumers.
 
@@ -44,7 +44,7 @@ Action Launcher is free to download with a $5 in-app purchase to unlock addition
 2. Androidify
 -------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/triodroidselfies-1.png)
+![](https://cdn.bayton.org/uploads/2017/04/triodroidselfies-1.png)
 
 If you’ve read any of my documentation, LinkedIn posts or even took a gander at the featured image of this post, those delightful, customised Android robots are all the doing of Androidify.
 
@@ -57,7 +57,7 @@ Androidify is [free on the Play Store](https://play.google.com/store/apps/detail
 3. Audio Recorder
 -----------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-13.png)
+![](https://cdn.bayton.org/uploads/2018/12/image-13.png)
 
 Audio Recorder is a creatively named Sony app that offers free, easy to use audio recording with an optional paid transcription service.
 
@@ -68,7 +68,7 @@ Audio Recorder is [free on the Play Store](https://play.google.com/store/apps/de
 4. AZ Screen Recorder
 ---------------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-14.png)
+![](https://cdn.bayton.org/uploads/2018/12/image-14.png)
 
 I’ve done plenty of screen recordings over the year for various reasons (though mostly related to my [Android documentation](/android)) so have tried a number of screen recording apps.
 
@@ -79,7 +79,7 @@ AZ Screen Recorder is [free on Google Play](https://play.google.com/store/apps/d
 5. Emby
 -------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-15.png)
+![](https://cdn.bayton.org/uploads/2018/12/image-15.png)
 
 I’ve been using Emby for a number of years, however with Kodi on my Android TV as the front-end to the Emby server back-end, I haven’t had a need for any other means of access until earlier this year.
 
@@ -90,7 +90,7 @@ The app is [free on Google Play](https://play.google.com/store/apps/details?id=c
 6. Files by Google
 ------------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-16.png)
+![](https://cdn.bayton.org/uploads/2018/12/image-16.png)
 
 Originally called Files Go, the file manager came to be as part of Google’s Android Go edition suite of applications.
 
@@ -103,7 +103,7 @@ Files by Google is [free on Google Play](https://play.google.com/store/apps/deta
 7. JuiceSSH
 -----------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-17.png)
+![](https://cdn.bayton.org/uploads/2018/12/image-17.png)
 
 I’ve mentioned JuiceSSH in the past. No matter how many terminal type apps I install, I always come back to this app to handle the task.
 
@@ -114,7 +114,7 @@ JuiceSSH is [free on Google Play](https://play.google.com/store/apps/details?id=
 8. Solid Explorer
 -----------------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/12/image-18.png)
+![](https://cdn.bayton.org/uploads/2018/12/image-18.png)
 
 When I last recommended Solid Explorer it was the classic version, since then the app has been redesigned and relaunched. It’s better than ever.
 

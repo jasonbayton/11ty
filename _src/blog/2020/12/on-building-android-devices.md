@@ -70,25 +70,25 @@ The result
 
 The result of 18 months of ground-up research and development has led to the introduction of four new devices, the Rhino T8, Rhino C10, Rhino M10p and Rhino T5se. Two tablets, a hand-held, and a POS.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_101629.jpg)
+![](https://cdn.bayton.org/uploads/2020/12/20201113_101629.jpg)
 
 ### Rhino T8
 
 A simple, 8″ tablet powered by MediaTek in a 32/2 configuration. Launched on Android 9.0 with Android 10 expected early ’21. The T8 offers an affordable solution for lighter workloads.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_103412.jpg)
+![](https://cdn.bayton.org/uploads/2020/12/20201113_103412.jpg)
 
 ### Rhino C10
 
 A higher spec 10″ FHD tablet running 8 cores in a 32/2 configuration. Also on 9 with 10 planned for Q1 ’21. The C10 is noteably more performant and capable for mid to heavier workloads.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/12/20201113_104203.jpg)
+![](https://cdn.bayton.org/uploads/2020/12/20201113_104203.jpg)
 
 ### Rhino T5se
 
 A 5″ handheld featuring a slim yet powerful integrated Honeywell barcode scanner, powered by an 8 core MediaTek SoC in a 4/64 configuration. Launching on 11 in early ’21.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/12/two-1-e1608940548828.jpg)
+![](https://cdn.bayton.org/uploads/2020/12/two-1-e1608940548828.jpg)
 
 ### Rhino M10p
 

@@ -35,7 +35,7 @@ Have you ever written a blog post, and then individually linked to it from your 
 
 If, like me, you have multiple networks (Linkedin, Facebook, Twitter, Buzz, etc) and want a service to manage the delivery of your messages, updates, blog posts and anything else to any of your other destinations, maybe you need to check out [dlvr.it](https://dlvr.it/).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2011/05/Screenshot-4.png "Screenshot-4")
+![](https://cdn.bayton.org/uploads/2011/05/Screenshot-4.png "Screenshot-4")
 
 dlvr.it is a fairly new service that does exactly what the name suggests using very simple menus and both RSS and seamless authentication with the services you use (permissions can be revoked at any time).
 

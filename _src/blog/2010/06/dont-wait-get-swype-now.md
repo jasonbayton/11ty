@@ -23,7 +23,7 @@ tags:
     - Mobile
     - Reviews
 ---
-![swype](https://r2_worker.bayton.workers.dev/uploads/2010/06/swype_logo.jpg "swype_logo")
+![swype](https://cdn.bayton.org/uploads/2010/06/swype_logo.jpg "swype_logo")
 
 Swype is an app for Android which enables users to use their on-screen keyboard in a whole new way. By dragging your finger across the keyboard over the letters in the word you want to write, Swype will recognise the characters and in turn the word you’re spelling which helps to speed up your day-to-day writing 10-fold!
 
@@ -35,7 +35,7 @@ Follow the link below, download the installer and then sign in with your user/pa
 
 You’re welcome!  
 
-![swyping](https://r2_worker.bayton.workers.dev/uploads/2010/06/swyping-225x300.jpg "swyping")
+![swyping](https://cdn.bayton.org/uploads/2010/06/swyping-225x300.jpg "swyping")
 
 **————————————**
 

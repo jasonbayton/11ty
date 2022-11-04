@@ -31,7 +31,7 @@ Not running a Pixel as my daily driver, but having Android Pie for a little whil
 
 Reading online, the 7 Plus is supposedly able to get the app, however I found despite [joining the beta](https://www.android.com/versions/pie-9-0/digital-wellbeing-beta/) and waiting a number of days, the Play Store simply would not offer it up.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/10/image.png)So I tried other means.
+![](https://cdn.bayton.org/uploads/2018/10/image.png)So I tried other means.
 
 Normally if I need an APK for an application, I’ll lean on friends or colleagues with said app already installed to export it with something like [MyAppSharer](https://play.google.com/store/apps/details?id=com.yschi.MyAppSharer&hl=en). There is then no doubt about the legitimacy of the application as I know it has come from a trusted source – Google Play.
 

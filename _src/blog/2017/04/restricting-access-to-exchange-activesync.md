@@ -44,7 +44,7 @@ Open IIS Manager
 
 Click start and open IIS Manager from the start menu. On Server 2012 just type IIS within the Start Window and it will appear, for older Windows Server versions it’ll be under **All Programs &gt; Administrative tools**.
 
-![Step1](https://r2_worker.bayton.workers.dev/uploads/2016/02/Step1.png)
+![Step1](https://cdn.bayton.org/uploads/2016/02/Step1.png)
 
 Locate Microsoft-Server-ActiveSync
 ----------------------------------
@@ -53,14 +53,14 @@ In the new window, expand the Servername, followed by Sites, Default Web Site an
 
 Select this.
 
-![Step2](https://r2_worker.bayton.workers.dev/uploads/2016/02/Step2.png)
+![Step2](https://cdn.bayton.org/uploads/2016/02/Step2.png)
 
 Open IP Address &amp; Domain Restrictions
 -----------------------------------------
 
 Once selected, in the main console will be a number of settings to choose from. Find and select **IP Address and Domain Restrictions**. Double click to open.
 
-![Step3](https://r2_worker.bayton.workers.dev/uploads/2016/02/Step3.png)
+![Step3](https://cdn.bayton.org/uploads/2016/02/Step3.png)
 
 Is **IP Address and Domain Restrictions** missing? It may need to to be added using **Add features** in Server Manager.
 
@@ -69,11 +69,11 @@ Add Allow Entry
 
 Once open, the Actions pane on the right-hand toolbar will show **Add Allow Entry**. For this guide we will add the allow entry before denying access.
 
-![Step4](https://r2_worker.bayton.workers.dev/uploads/2016/02/Step4.png)
+![Step4](https://cdn.bayton.org/uploads/2016/02/Step4.png)
 
 Click **Add Allow Entry** and a new window in which to put the IP address of the whitelisted service will pop up. Enter the address(es) here and click OK to close.
 
-![Step5](https://r2_worker.bayton.workers.dev/uploads/2016/02/Step5.png)
+![Step5](https://cdn.bayton.org/uploads/2016/02/Step5.png)
 
 For those with an on premise application, input the internal IP.  
 For those with a hosted/cloud service, ping the public URL to obtain the public IP address.
@@ -87,20 +87,20 @@ As mentioned above, Exchange permits traffic from anywhere. This means anyone wi
 
 Going back to the Actions pane on the right-hand side, select **Edit Feature Settings**.
 
-![Step6](https://r2_worker.bayton.workers.dev/uploads/2016/02/Step6.png)
+![Step6](https://cdn.bayton.org/uploads/2016/02/Step6.png)
 
 Deny unspecified clients
 ------------------------
 
 This will bring up a new window. In here, select the dropdown for **Access for unspecified clients** and change it to **Deny**. Click OK to close.
 
-![Step7](https://r2_worker.bayton.workers.dev/uploads/2016/02/Step7.png)
+![Step7](https://cdn.bayton.org/uploads/2016/02/Step7.png)
 
 Restart IIS
 -----------
 
 Finally in order for the changes to take effect, IIS will need to be restarted. The exchange server can remain online for this if we opt for an `iisreset`, otherwise schedule downtime accordingly and test access to ActiveSync both through the whitelisted service and externally to confirm changes have been successfully applied.
 
-![Step8](https://r2_worker.bayton.workers.dev/uploads/2016/02/Step8.png)
+![Step8](https://cdn.bayton.org/uploads/2016/02/Step8.png)
 
 IIS will be unavailable for a number of seconds while an `iisreset` is being performed. The business may need to be aware of any disruptions so plan accordingly.

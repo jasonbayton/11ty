@@ -83,7 +83,7 @@ In [What is Android enterprise and why is it used?](/android/what-is-android-ent
 
 > *Android enterprise is able to create a managed user profile that although sits entirely separately encrypted on disk (and as of Android 8.0, utilises completely different encryption keys for work/personal), integrates directly with the current user on the device in order to provide both personal and work applications in the same app drawer – the latter indicated by a briefcase.*
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/06/Screenshot_20170728-175602-1140x641-1.png)In other words, when you enroll your BYO device into a UEM solution that supports Android’s modern set of management features (called Android enterprise), instead of it taking complete control of your device, it creates a separate, work-only space (this is called the work profile). The UEM management policies are confined to this isolated area, and you’re free to use the rest of the device as you like.
+![](https://cdn.bayton.org/uploads/2020/06/Screenshot_20170728-175602-1140x641-1.png)In other words, when you enroll your BYO device into a UEM solution that supports Android’s modern set of management features (called Android enterprise), instead of it taking complete control of your device, it creates a separate, work-only space (this is called the work profile). The UEM management policies are confined to this isolated area, and you’re free to use the rest of the device as you like.
 
 There are exceptions, such as the enforcement of a passcode on your device, monitoring for a signs of compromise, and other arguably reasonable capabilities ensuring basic security, but the most important ones (factory reset, app sync, remote access, etc.) are simply not possible on your personal apps and data, and instead are limited to the isolated work profile (i.e. all your work apps) that the UEM manages.
 
@@ -112,7 +112,7 @@ The Android landscape
 
 Right now, roughly half-way through 2018, over[ 66% of all Android devices](https://developer.android.com/about/dashboards/) in the wild are running Android 6.0 Marshmallow or greater.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/06/image-3.png)*Android platform distribution, July 2018, via* [*developer.android.com*](https://developer.android.com/about/dashboards/)
+![](https://cdn.bayton.org/uploads/2020/06/image-3.png)*Android platform distribution, July 2018, via* [*developer.android.com*](https://developer.android.com/about/dashboards/)
 
 Why is this important?
 

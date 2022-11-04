@@ -56,7 +56,7 @@ How to revert the change
 
 For those who create a G Suite tenant after the 19th however, the fix is quite simple, requiring only the click of a radio button to return expected, basic security:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/image-3.png)
+![](https://cdn.bayton.org/uploads/2018/09/image-3.png)
 *This page should be found [here](https://admin.google.com/AdminHome?fral=1#MobileSettings:section=mam&flyout=android_apps)* *once logged in*
 
 Conclusion

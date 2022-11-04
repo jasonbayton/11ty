@@ -22,7 +22,7 @@ I recently took delivery of a Lenovo Yoga 300, the lower-end model of their impr
 
 This otherwise perfectly usable Laptop with 4GB RAM and a Celeron N2840 chip unfortunately ships with a traditional WD Blue hard drive (at the time of writing) and it’s noticeable. With a slower processor, the least I could do to alleviate some of that performance bottleneck is swap the HDD out with a nice, speedy SSD.
 
-The reason I’m documenting this is due to the lack of information online. I ended up following the [official service manual](https://r2_worker.bayton.workers.dev/download/lenovo_yoga_300_hmm_201510.pdf) supplied by Lenovo which still leaves a little to be desired, though allowed me to get the job done.
+The reason I’m documenting this is due to the lack of information online. I ended up following the [official service manual](https://cdn.bayton.org/download/lenovo_yoga_300_hmm_201510.pdf) supplied by Lenovo which still leaves a little to be desired, though allowed me to get the job done.
 
 The below is documented under the assumption that:
 
@@ -33,7 +33,7 @@ The below is documented under the assumption that:
 Remove the bottom cover
 -----------------------
 
-![20160218_124931](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160218_124931.jpg)
+![20160218_124931](https://cdn.bayton.org/uploads/2016/02/20160218_124931.jpg)
 
 Lenovo have used a combination of M2 screws and plastic clips to secure the bottom panel to the laptop chassis. While the screws come out with ease, the plastic clips take a little more persuasion.
 
@@ -47,7 +47,7 @@ Lenovo have used a combination of M2 screws and plastic clips to secure the bott
 Remove the hard drive
 ---------------------
 
-![20160218_114431](https://r2_worker.bayton.workers.dev/uploads/2016/02/20160218_114431.jpg)
+![20160218_114431](https://cdn.bayton.org/uploads/2016/02/20160218_114431.jpg)
 
 With the front of the laptop facing you, the hard drive is easily accessible on the left.
 
@@ -59,7 +59,7 @@ With the front of the laptop facing you, the hard drive is easily accessible on 
 Reassemble
 ----------
 
-![](https://r2_worker.bayton.workers.dev/uploads/2016/02/IMG-20160217-WA0001.jpeg)
+![](https://cdn.bayton.org/uploads/2016/02/IMG-20160217-WA0001.jpeg)
 
 At this stage the old hard drive should be out and the new SSD in, all that remains is to reassemble the device in reverse order.
 

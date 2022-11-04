@@ -26,7 +26,7 @@ With that in mind and considering the ever-continuing development of new applica
 Vysor (beta)
 ------------
 
-![vysor-display](https://r2_worker.bayton.workers.dev/uploads/2015/12/vysor-display.png)
+![vysor-display](https://cdn.bayton.org/uploads/2015/12/vysor-display.png)
 
 [Vysor](//www.vysor.io/) is another fantastic app from [Koush](https://plus.google.com/u/0/110558071969009568835/posts), the creator of [ClockworkMod](https://www.clockworkmod.com/rommanager), [Helium](https://clockworkmod.com/carbon) and co-founder of [CyanogenMod](https://lineageos.org/). It is another **no-root** solution for mirroring an Android display to a Windows/Mac/Linux and is literally the *best* Android mirroring solution I have used to date. Koush seems to get a mention frequently and there’s good reason; few words describe the incredible tools Koush publishes.
 
@@ -42,7 +42,7 @@ NB: It will automatically install the Android app counterpart during setup.
 Office for Android
 ------------------
 
-![office](https://r2_worker.bayton.workers.dev/uploads/2015/12/office.png)
+![office](https://cdn.bayton.org/uploads/2015/12/office.png)
 
 In what will likely be considered utter rubbish by the Android community at large, Microsoft’s Office for Android has been one of my go-to document editing suites over the last year or so. In this time [I’d picked up a Surface Pro 3](/2015/09/thoughts-on-the-surface-pro-3/) and began to really enjoy Microsoft’s products under the new leadership of Satya Nadella. While I won’t delve into that subject much here, I will say I’ve noticed a marked improvement over Microsoft now vs what it was under Ballmer. Combined with both my free Office 365 personal subscription (due to a device purchase) and a work Office 365 account, it made sense to use a product that was heavily integrated into that ecosystem.
 
@@ -55,7 +55,7 @@ Office for Android is available for free on the Play Store as three separate app
 Juice SSH
 ---------
 
-![Screenshot_2015-12-28-21-41-37](https://r2_worker.bayton.workers.dev/uploads/2015/12/Screenshot_2015-12-28-21-41-37.png)
+![Screenshot_2015-12-28-21-41-37](https://cdn.bayton.org/uploads/2015/12/Screenshot_2015-12-28-21-41-37.png)
 
 Roughly 80% of systems at home and 30% in work are Linux based. These include web servers, app servers, file servers, virtual hosts/guests, HTPCs and are all managed through SSH day-to-day (in fact, only the HTPC has a GUI but I rarely use it).
 
@@ -70,7 +70,7 @@ Juice SSH is available for free on the [Play Store](https://play.google.com/stor
 Pushbullet
 ----------
 
-![Screenshot_2015-12-31-10-45-39](https://r2_worker.bayton.workers.dev/uploads/2015/12/Screenshot_2015-12-31-10-45-39.png)
+![Screenshot_2015-12-31-10-45-39](https://cdn.bayton.org/uploads/2015/12/Screenshot_2015-12-31-10-45-39.png)
 
 Another controversial one considering their recent [transition to Pro subscriptions](https://thenextweb.com/dd/2015/11/17/pushbullets-new-paywall-is-a-perfect-example-of-how-not-to-monetize-an-app/#gref), taking free features from users and forcing them to pay a monthly fee in order to get them back. To note: I’m strongly against the route they took to generate revenue and will not subscribe on principle until, at the very least, the features they removed are added back to the free version. It’s also vastly overpriced for the functionality it offers at $4.99 a month.
 

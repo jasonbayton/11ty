@@ -32,7 +32,7 @@ After discussions with the Nextcloud team and guys at TU Berlin, the below could
 
 Nextcloud works really well as a standalone, single-server deployment. They additionally have some [great recommendations](https://docs.nextcloud.com/server/12/admin_manual/installation/deployment_recommendations.html) for larger deployments supporting thousands of users and terabytes of data:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/deprecs-3.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/deprecs-3.png)
+[![](https://cdn.bayton.org/uploads/2017/06/deprecs-3.png)](/https://cdn.bayton.org/uploads/2017/06/deprecs-3.png)
 *Up to 100,000 users and 1PB of data*
 
 What wasn’t so apparent [until last week](https://nextcloud.com/globalscale/), however, is how someone might deploy Nextcloud across multiple datacentres (or locations) in a distributed manner wherein each Node can act as the “master” at any point in time; federation is obviously a big feature in Nextcloud and works very well for connecting systems and building a trusted network of nodes, but that doesn’t do an awful lot for those wanting the type of enterprise deployment pictured above, without having all of the infrastructure on one network.
@@ -42,7 +42,7 @@ Now that Global Scale has been announced this will likely be the way forward whe
 The concept
 -----------
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/SyncThing-Nextcloud.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/SyncThing-Nextcloud.png)
+[![](https://cdn.bayton.org/uploads/2017/06/SyncThing-Nextcloud.png)](/https://cdn.bayton.org/uploads/2017/06/SyncThing-Nextcloud.png)
 
 The theory was as follows:
 
@@ -80,7 +80,7 @@ In testing this setup in several containers on the [home server](/2016/06/part-0
 
 Load and data transfer aside, the tests were successful; I updated Nextcloud from 11.0.3 to 12.0.0 and watched it almost immediately start replicating the changing data as the upgrade took place – it was beautiful.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/WhatsApp-Image-2017-05-31-at-00.09.12.jpeg)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/WhatsApp-Image-2017-05-31-at-00.09.12.jpeg)
+[![](https://cdn.bayton.org/uploads/2017/06/WhatsApp-Image-2017-05-31-at-00.09.12.jpeg)](/https://cdn.bayton.org/uploads/2017/06/WhatsApp-Image-2017-05-31-at-00.09.12.jpeg)
 
 This was naturally the 2nd attempt, as first I’d forgotten to leave the Nextcloud service in maintenance mode until all sync had ceased, and on accessing one of the nodes before it had completed, things started going wrong and the nodes fell out of sync. Keeping maintenance mode enabled until it was 100% synced across all nodes then worked every attempt (where an attempt involved restoring the database and falling back to snapshots from 11.0.3).
 
@@ -120,7 +120,7 @@ So in order to confirm it was all working as it should be I did the following:
 - Initiated a load test via [Load Impact](https://loadimpact.com) against the FQDN and monitored the HAProxy logs, brief video below
 - Manually downed both Galera nodes and web nodes, then brought them back up to test HAProxy failover
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/WhatsApp-Image-2017-05-26-at-10.39.53.jpeg)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/WhatsApp-Image-2017-05-26-at-10.39.53.jpeg)
+[![](https://cdn.bayton.org/uploads/2017/06/WhatsApp-Image-2017-05-26-at-10.39.53.jpeg)](/https://cdn.bayton.org/uploads/2017/06/WhatsApp-Image-2017-05-26-at-10.39.53.jpeg)
 *Here I dropped a Galera node, checked the state of Galera, brought it back in and checked again. Exciting.*
 
 And here’s a snippet of the load test at work on HAProxy (web nodes only):
@@ -164,7 +164,7 @@ With the Redis exception I basically built an unsupported, but successful, distr
 
 SyncThing proved its worth to me, so I’ll definitely be looking more into that at some point soon. In the meantime, this experiment is over and all servers have been shut down:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/06/c7562171b7aeec9132a005a92f54dd1520659120_1_344x500.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/06/c7562171b7aeec9132a005a92f54dd1520659120_1_344x500.png)
+[![](https://cdn.bayton.org/uploads/2017/06/c7562171b7aeec9132a005a92f54dd1520659120_1_344x500.png)](/https://cdn.bayton.org/uploads/2017/06/c7562171b7aeec9132a005a92f54dd1520659120_1_344x500.png)
 
 If you have suggestions for another master-master database solution that could work\*, and a session storage option that will either a) cluster or b) support authentication that isn’t completely plaintext, let me know!
 

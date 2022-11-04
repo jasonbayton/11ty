@@ -28,7 +28,7 @@ What is it?
 
 Unlike ARC (App Runtime for Chrome) – a solution that required modifications to be made to Android apps in order for them to run – Google’s new approach takes a leaf out of the increasingly popular Linux container world (Docker, [LXD](/tag/lxd), etc) to provide a minimal Android environment within a secure container running on alongside Chrome on the ChromeOS system, this has the benefit of sharing system resources effortlessly when compared to traditional hypervisors and as such performance is top-notch.
 
-![chromeosandroidstack](https://r2_worker.bayton.workers.dev/uploads/2016/06/chromeosandroidstack.png)
+![chromeosandroidstack](https://cdn.bayton.org/uploads/2016/06/chromeosandroidstack.png)
 
 As the Chrome OS UI sits atop of both Chrome and the Android container, both systems can be integrated into the same UI. Notification access, windowed applications and the general feeling of a “native” solution has been achieved.
 
@@ -39,13 +39,13 @@ Upon booting back into ChromeOS following the update, the Play Store icon sat un
 
 A couple of clicks later, here it is in all its glory!
 
-![Screenshot 2016-06-17 at 16.30.32](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-17-at-16.30.32.png)
+![Screenshot 2016-06-17 at 16.30.32](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-17-at-16.30.32.png)
 
 Navigating around the Play Store is super smooth and feels pretty natural. The Flip is a touchscreen-enabled Chromebook, however using the Play Store with either the touchpad or the touchscreen work equally well.
 
 Applications install quickly and notifications are well integrated into the ChromeOS notification centre.
 
-![Screenshot 2016-06-17 at 23.56.42](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-17-at-23.56.42.png)
+![Screenshot 2016-06-17 at 23.56.42](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-17-at-23.56.42.png)
 
 It’s fast
 ---------
@@ -58,7 +58,7 @@ This likely has a lot to do with the container technology used to run Android on
 
 As it stands at the time of writing, I have Gmail, Google+, JuiceSSH, Spotify, Skype &amp; Hangouts running. Switching between these apps is effortless and despite the added load, there’s no indication the Flip can’t handle it.
 
-![Screenshot 2016-06-18 at 00.12.26](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-18-at-00.12.26.png)
+![Screenshot 2016-06-18 at 00.12.26](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-18-at-00.12.26.png)
 
 Additionally, apps appear to be able to work in the background even when the app window is closed. JuiceSSH for example retains a permanent notification in the notification area when an SSH session is active. Clicking this will launch a window to return to the session exactly where it was left off. A nice addition.
 
@@ -69,15 +69,15 @@ It’s easy to manage
 
 Once apps have been installed, they’re all available within the Launcher. It’s not always possible to differentiate the Chrome apps from Android apps, so occasionally confusion can occur where two (or more!) versions of the same app have been installed.
 
-![Screenshot 2016-06-17 at 16.42.07](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-17-at-16.42.07.png)
+![Screenshot 2016-06-17 at 16.42.07](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-17-at-16.42.07.png)
 
 Right clicking on any app provides a quick and simple way of uninstalling it, though this can also be done through Android settings linked from within ChromeOS settings.
 
-![Screenshot 2016-06-18 at 00.26.50](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-18-at-00.26.50.png)
+![Screenshot 2016-06-18 at 00.26.50](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-18-at-00.26.50.png)
 
 From Android settings it’s also easy to configure other aspects of the Android container, like additional accounts, notification settings, print settings and more. Again, not being a mobile device the options available are quite a bit more limited, but it’s certainly granular enough to get the job done.
 
-![Screenshot 2016-06-17 at 21.55.48](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-17-at-21.55.48.png)
+![Screenshot 2016-06-17 at 21.55.48](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-17-at-21.55.48.png)
 
 But it’s not perfect
 --------------------
@@ -89,7 +89,7 @@ Obviously it’s available only to those on the dev channel for a reason; this i
 - Windows can’t yet be dynamically resized and are therefore fixed to the three window sizes Google have defined, except for the option to maximise.
 - Attempting to update the Android OS results in an immediate force close of the settings app.
 
-![Screenshot 2016-06-17 at 21.55.57](https://r2_worker.bayton.workers.dev/uploads/2016/06/Screenshot-2016-06-17-at-21.55.57.png)
+![Screenshot 2016-06-17 at 21.55.57](https://cdn.bayton.org/uploads/2016/06/Screenshot-2016-06-17-at-21.55.57.png)
 
 I would definitely also like to see adoptable storage for ChromeOS, the 16GB most Chromebooks have today is pretty limited when considering there’s ChromeOS, Android and all related apps from both platforms taking up space. What remains isn’t significant.
 

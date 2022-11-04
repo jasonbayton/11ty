@@ -41,7 +41,7 @@ What’s happening
 
 Google are no longer supporting the use of work profiles on fully managed devices (WPoFMD) in Android 11. Instead, they’re working on something they’re calling an enhanced work profile experience (what I’ll refer to throughout for simplicity and differentiation as *enhanced work profile*).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/02/baytonI-3.png) 
+![](https://cdn.bayton.org/uploads/2020/02/baytonI-3.png) 
 
 **The key difference between the two is how they’re provisioned.**
 
@@ -157,7 +157,7 @@ It’s going to be interesting watching the ecosystem now take on the unnecessar
 
 Ahead of 11, here’s an updated graphic with the newly recycled COPE deployment scenario:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2020/02/AEtypes11-Page-6-1.png)
+![](https://cdn.bayton.org/uploads/2020/02/AEtypes11-Page-6-1.png)
 
 I won’t miss the absurdly long name though.
 

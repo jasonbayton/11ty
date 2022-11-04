@@ -44,7 +44,7 @@ Any of the above steps not completed will result in an inability to configure de
 
 ## Getting started
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ScreenShot2017-10-18at3.45.10PM.png)
+![](https://cdn.bayton.org/uploads/2017/10/ScreenShot2017-10-18at3.45.10PM.png)
 *The simple zero-touch process*
 
 The zero-touch portal is designed with absolute simplicity in mind; much like the DEP portal (if you’ve ever used it) it’s basically there for you to infrequently log in, create or assign a config to managed devices and carry on with all other management via your normal EMM solution.
@@ -53,7 +53,7 @@ The zero-touch portal is designed with absolute simplicity in mind; much like th
 
 Once logged in, head over to **Configurations** to set one (or more) up, ready to assign to your devices:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_createconfig_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_createconfig_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_createconfig_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_createconfig_watermark.gif)
 
 Click the **+** icon on the right-hand side of **Configurations** to create a new configuration. This will trigger a popup.
 
@@ -80,7 +80,7 @@ When complete, click **APPLY** to save the configuration and close out the popup
 
 Once you’ve created several configurations (or even just the one), you may wish for all devices added by a reseller to be given a configuration by default, thus avoiding having to sign into the console every time a new device order is made. Above the list of configurations is a **Default Configuration** setting:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_defaultconfig_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_defaultconfig_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_defaultconfig_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_defaultconfig_watermark.gif)
 
 Simply click the arrow to the right of **Select a configuration** and choose one from the dropdown list.
 
@@ -90,7 +90,7 @@ Click on **Devices** on the left-hand side. Once loaded you’ll be presented wi
 
 Once located, click the arrow to the right of **No config** (or a presently-selected configuration) to open a dropdown, wherein you may select your newly created configuration(s).
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_deviceconfig_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_deviceconfig_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_deviceconfig_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_deviceconfig_watermark.gif)
 
 Confirm this selection when prompted. The device will now automatically enrol into the EMM of your choice when either first taken out of the box or on the next factory reset!
 
@@ -98,7 +98,7 @@ Confirm this selection when prompted. The device will now automatically enrol in
 
 Should a configuration no longer be required, head back into **Configurations** and click **EDIT** to the right of the configuration you wish to delete:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_delconfig_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_delconfig_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_delconfig_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_delconfig_watermark.gif)
 
 Click **DELETE CONFIG**. There is no confirmation so ensure you’ve selected the correct one before continuing!
 
@@ -106,7 +106,7 @@ Click **DELETE CONFIG**. There is no confirmation so ensure you’ve selected th
 
 Should a device no longer require management, be that due to it being a parting gift for a leaving employee, device destruction or anything else, use the search area or scroll down the device list to locate the device on the **Devices** page. Once located, click **UNREGISTER**.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_deviceunregister_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_deviceunregister_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_deviceunregister_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_deviceunregister_watermark.gif)
 
 You’ll need to confirm this action and please be aware **this is not easily reversible**! Once unregistered, you’ll need to contact your reseller to re-add the device back into your console manually; not an action to be taken on a whim.
 
@@ -114,7 +114,7 @@ You’ll need to confirm this action and please be aware **this is not easily re
 
 The zero-touch console offers the ability to add other users for easier management. There are two roles available when adding a user, **Owner** and **Admin**. The only real difference between the roles is admins cannot add other admins, these roles can be changed at any time. To get started, click on **Manage People**:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_addadmin_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_addadmin_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_addadmin_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_addadmin_watermark.gif)
 
 Click the **+** icon on the right-hand side of the organisation name to add a new admin. This will trigger a popup.
 
@@ -124,7 +124,7 @@ Input the **Email Address**, **Role** and click **APPLY.**
 
 To delete an admin, head back into **Manage People** and click **EDIT** to the right of the admin you wish to delete:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_deladmin_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_deladmin_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_deladmin_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_deladmin_watermark.gif)
 
 Click **DELETE**. There is no confirmation so ensure you’ve selected the correct admin before continuing!
 
@@ -132,7 +132,7 @@ Click **DELETE**. There is no confirmation so ensure you’ve selected the corre
 
 Occasionally you may wish to change resellers when purchasing zero-touch compatible devices. While it’s perfectly acceptable to request the new reseller sets you up with an account, the more convenient option for managing all devices from within one console is to simply add the new reseller to the existing console. To do so, head over to **Resellers.**
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_addreseller_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_addreseller_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_addreseller_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_addreseller_watermark.gif)
 
 Scroll through the list of **Other Resellers** to locate the one you wish to add, then click **ENROLL**.
 
@@ -144,7 +144,7 @@ In the background, this sends a request to the reseller to accept your customer 
 
 To remove a reseller, likely after all existing devices are unregistered and the relationship with the reseller terminated, head over to **Resellers**.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_delreseller_watermark.gif)](https://r2_worker.bayton.workers.dev/uploads/2017/10/ztc_delreseller_watermark.gif)
+[![](https://cdn.bayton.org/uploads/2017/10/ztc_delreseller_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_delreseller_watermark.gif)
 
 Scroll through the list of **Active Resellers** to locate the one you wish to remove, then click **DELETE**.
 

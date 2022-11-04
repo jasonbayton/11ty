@@ -31,7 +31,7 @@ Well, I think it’s finally time I returned the favour and provided the applica
 Chrome
 ------
 
-![Screenshot_2012-12-26-23-40-13](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-26-23-40-13.png)
+![Screenshot_2012-12-26-23-40-13](https://cdn.bayton.org/uploads/2012/12/Screenshot_2012-12-26-23-40-13.png)
 
 As a long-time user of the desktop version, Chrome is one of those apps I didn’t take a moment to consider before installing. It far outshines all alternate browsers and almost mimics the desktop experience.
 
@@ -42,7 +42,7 @@ Chrome is available for ICS and up (4.0+) and is available **free** in the [Play
 Google+
 -------
 
-![Screenshot_2012-12-26-23-39-46](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-26-23-39-46.png)
+![Screenshot_2012-12-26-23-39-46](https://cdn.bayton.org/uploads/2012/12/Screenshot_2012-12-26-23-39-46.png)
 
 As the social network has grown and evolved, so has the Google+ app. It’s gone from very humble beginnings to a full-blown, media rich application that improves almost weekly. Most of the time I use this app over the desktop equivalent, and *enjoy* doing so!
 
@@ -51,7 +51,7 @@ Naturally, you’ll need to be on G+ to use it, but then why wouldn’t you be? 
 SMS Backup+
 -----------
 
-![Screenshot_2012-12-26-23-39-18](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-26-23-39-18.png)
+![Screenshot_2012-12-26-23-39-18](https://cdn.bayton.org/uploads/2012/12/Screenshot_2012-12-26-23-39-18.png)
 
 SMS Backup+ is an awesome application. It takes your SMS and call logs (the latter on request only) and uploads them to a label in GMail. It syncs on a regular basis, and after every SMS received. In addition, it’ll restore your SMS messages from the same GMail label.
 
@@ -62,18 +62,18 @@ SMS Backup+ is available **free** in the [Play Store](https://play.google.com/st
 Thumb Keyboard
 --------------
 
-![Screenshot_2012-12-26-23-54-46](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-26-23-54-46.png)
+![Screenshot_2012-12-26-23-54-46](https://cdn.bayton.org/uploads/2012/12/Screenshot_2012-12-26-23-54-46.png)
 
 Thumb Keyboard has typically always been known as a tablet keyboard. More recently however they’ve been adding support for more and more screen sizes. The layouts can be customised both in shape and style and work really well for thumb based typing on several devices I’ve installed it on. Naturally the right keyboard is different for every person, however for the larger (4.5″ +) devices, I recommend giving this one a go.
 
-[Here](https://r2_worker.bayton.workers.dev/download/tkb_settings.xml) are the default settings I use (save to SDCARD/ThumbKeyboard). Import them from the settings menu. (Note: I type fast, hold the key too long and it’ll jump to another character). Try it both with and without my settings if you’re going to try the app.
+[Here](https://cdn.bayton.org/download/tkb_settings.xml) are the default settings I use (save to SDCARD/ThumbKeyboard). Import them from the settings menu. (Note: I type fast, hold the key too long and it’ll jump to another character). Try it both with and without my settings if you’re going to try the app.
 
 Thumb Keyboard is available for **£0.96 during a 50% off period** in the [Play Store](https://play.google.com/store/apps/details?id=com.beansoft.keyboardplus&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5iZWFuc29mdC5rZXlib2FyZHBsdXMiXQ..).
 
 Disk Usage
 ----------
 
-![Screenshot_2012-12-27-00-08-40](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-27-00-08-40.png)
+![Screenshot_2012-12-27-00-08-40](https://cdn.bayton.org/uploads/2012/12/Screenshot_2012-12-27-00-08-40.png)
 
 Disk Usage is a very simple, handy application that provides a graphical overview of what’s using your storage. It allows you to select your storage medium (internal, external, etc) on launch and will show you where all of your storage is going down to file-level.
 
@@ -84,7 +84,7 @@ Disk Usage is available **free** in the [Play Store](https://play.google.com/sto
 Titanium Backup\*
 -----------------
 
-![Screenshot_2012-12-27-13-02-20](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-27-13-02-20.png)
+![Screenshot_2012-12-27-13-02-20](https://cdn.bayton.org/uploads/2012/12/Screenshot_2012-12-27-13-02-20.png)
 
 Titanium Backup has been around for a very long time and improves dramatically with every update. It is the ultimate backup/restore app for your rooted device allowing for full data+app backup to local or remote (box, drive, dropbox, etc) storage. Furthermore, it even allows the creation of update zip files and restore from NANDROID.
 
@@ -95,7 +95,7 @@ Titanium backup is available as a **free** app on the [Play Store](https://play.
 Tasker
 ------
 
-![Screenshot_2012-12-27-13-12-37](https://r2_worker.bayton.workers.dev/uploads/2012/12/Screenshot_2012-12-27-13-12-37.png)
+![Screenshot_2012-12-27-13-12-37](https://cdn.bayton.org/uploads/2012/12/Screenshot_2012-12-27-13-12-37.png)
 
 Have you been looking for a way to automatically perform differing tasks based on time, location, etc? Tasker automates Android and allows the user to create tasks such as changing the volume based on time of day, sending text messages when you reach different locations, send a birthday email every year, keep the screen on when you’re running the browser, etc. You’re only limited by your imagination with Tasker.
 

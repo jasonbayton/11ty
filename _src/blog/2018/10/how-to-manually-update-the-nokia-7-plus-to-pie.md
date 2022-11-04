@@ -54,7 +54,7 @@ adb reboot recovery
 
 Once confronted with the Android laying on its back, hold the power button and press volume up. It may take a few attempts to get this right.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/10/image-1.png)
+![](https://cdn.bayton.org/uploads/2018/10/image-1.png)
 
 \3. Start the install
 --------------------

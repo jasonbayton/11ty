@@ -38,18 +38,18 @@ So on paper the Linx sounds fantastic. But how does it fare in day to day usage?
 Hardware
 --------
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_34_00_Rich-e1483134776469.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_34_00_Rich-e1483134776469.jpg)
+[![](https://cdn.bayton.org/uploads/2016/12/WP_20161230_21_34_00_Rich-e1483134776469.jpg)](/https://cdn.bayton.org/uploads/2016/12/WP_20161230_21_34_00_Rich-e1483134776469.jpg)
 
 The tablet is well built, boasting a solid metal frame and glass front covered by a factory-fitted screen protector (thank you Linx!). The bundled keyboard has a material feel to it, similar to that of the Surface Pro. The keys are well spaced and the touchpad isn’t too small to be usable.
 
 On the back is a dual-position kickstand below an unapologetic Linx logo. Unlike the several-hundred pound more expensive Surface Pro, the kickstand is limited to two pre-set positions which I found to be fine in a lot of circumstances, but also entirely impractical in others.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)
+[![](https://cdn.bayton.org/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)](/https://cdn.bayton.org/uploads/2016/12/WP_20161230_21_38_17_Rich.jpg)
 *Unlike the Surface, the hinges on the Linx are full of thick, immensely sticky gunk, presumably for lubrication.*
 
 Above the kickstand is one of two cameras, this back one pictured is 5MP while the front sensor is 2MP. I often feel with tablets this is the wrong way around; I, like many, won’t take photos on a tablet [for a few reasons](https://cameras.reviewed.com/features/please-stop-taking-pictures-with-your-tablet) and therefore don’t make use of the better rear sensor, while video conferencing with family and colleagues tends to suffer by comparison.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_36_55_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_36_55_Rich.jpg)
+[![](https://cdn.bayton.org/uploads/2016/12/WP_20161230_21_36_55_Rich.jpg)](/https://cdn.bayton.org/uploads/2016/12/WP_20161230_21_36_55_Rich.jpg)
 
 On top of the tablet to the left are the power and volume keys which have a premium feel to them. Down the left hand side is a USB 3.0 port, a MicroUSB port (for charging, primarily), a microSD slot, a miniHDMI port and a 3.5mm jack. The tablet has stereo speakers situated on either side towards the bottom, and pogo pins on the base for the supplied keyboard.
 
@@ -57,19 +57,19 @@ I found the speakers to be a little on the quiet side, however by no means the w
 
 A trend borrowed from many tablets on the market in recent times is the use of a MicroUSB port for charging; unlike the Surface Pro or MacBook (until recently) with their dedicated proprietary charging ports and cables, the Linx can be charged via any reasonably powerful USB charger, of which naturally one is supplied! Linx also supply a microUSB to USB A adapter, which is excellent since the 3.0 port – as pictured at the beginning – is being used for a 5GHz WIFI dongle, a WIFI band sorely missing from the 12V’s 2GHz-only WIFI module.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_39_06_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_21_39_06_Rich.jpg)
+[![](https://cdn.bayton.org/uploads/2016/12/WP_20161230_21_39_06_Rich.jpg)](/https://cdn.bayton.org/uploads/2016/12/WP_20161230_21_39_06_Rich.jpg)
 
 On to the screen, the 1920\*1200 resolution is impressive for a budget tablet with excellent viewing angles from all directions. The display isn’t as bright as the Galaxy TabPro S for example (then again, what is?), but it’s more than adequate for most situations.
 
 Where it falls short, however, is the horrendous light bleed as pictured. It’s comparable to the [Yoga 300](/2016/02/lenovo-yoga-300-review/) I bought and returned earlier in the year.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_22_57_03_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_22_57_03_Rich.jpg)
+[![](https://cdn.bayton.org/uploads/2016/12/WP_20161230_22_57_03_Rich.jpg)](/https://cdn.bayton.org/uploads/2016/12/WP_20161230_22_57_03_Rich.jpg)
 
 In addition on my unit there are a couple of areas around the display where the backlight shines through without obstruction – a defect, according to Linx, where the tablet may have been bumped in transit. It’s not a major issue but it feels a little *cheap.*
 
 Finally, lets talk about the keyboard.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_23_29_51_Rich.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/WP_20161230_23_29_51_Rich.jpg)
+[![](https://cdn.bayton.org/uploads/2016/12/WP_20161230_23_29_51_Rich.jpg)](/https://cdn.bayton.org/uploads/2016/12/WP_20161230_23_29_51_Rich.jpg)
 
 It attaches to the Linx with strong magnets and can be used either flat or at a slightly raised angle, similar to that of the Surface.
 
@@ -79,11 +79,11 @@ Worse still however is the touchpad. Although it’s a decent size, Linx in thei
 
 Here’s what a precision touchpad settings screen looks like:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-2.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/Screenshot-2.png)
+[![](https://cdn.bayton.org/uploads/2016/12/Screenshot-2.png)](/https://cdn.bayton.org/uploads/2016/12/Screenshot-2.png)
 
 Here’s what the Linx offers:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/ximg_55afc0b8a5803.png.pagespeed.gpjpjwpjjsrjrprwricpmd.ic_.5Bt05Zrc2Q.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/ximg_55afc0b8a5803.png.pagespeed.gpjpjwpjjsrjrprwricpmd.ic_.5Bt05Zrc2Q.png)
+[![](https://cdn.bayton.org/uploads/2016/12/ximg_55afc0b8a5803.png.pagespeed.gpjpjwpjjsrjrprwricpmd.ic_.5Bt05Zrc2Q.png)](/https://cdn.bayton.org/uploads/2016/12/ximg_55afc0b8a5803.png.pagespeed.gpjpjwpjjsrjrprwricpmd.ic_.5Bt05Zrc2Q.png)
 *Source: howtogeek.com*
 
 Two-finger scrolling (in the opposite direction to what I prefer, since I can’t change it) is fraught with frequent “share” dialogues after a screenshot is taken from swiping down from the top of the touchpad. It’s infuriating.
@@ -101,7 +101,7 @@ Unlike many of the tablets offered by Linx, the 12V64 is a 64bit computer with 6
 
 Day to day usage, such as browsing the web, working with Office or reading emails works very well with no hiccups as would be expected with a quad-core (even if low-powered) CPU and the aforementioned RAM. Too many programs running however and the cracks start to show.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2016/12/disk2.png)](/https://r2_worker.bayton.workers.dev/uploads/2016/12/disk2.png)
+[![](https://cdn.bayton.org/uploads/2016/12/disk2.png)](/https://cdn.bayton.org/uploads/2016/12/disk2.png)
 
 This is mostly due to the eMMC storage Linx have opted to use. In testing I noticed it was really quite easy for the disk I/O to become something of a bottleneck for the system with a little effort. This in turn results in a laggy, jarred experience when using the tablet despite the otherwise decent spec. Unfortunately it’s not possible to upgrade or replace the eMMC in any way as it’s soldered to the board, so it’s instead something of a permanent Achilles heel. The use of eMMC is clearly a cost-saving measure, though at the expense of performance; had it been replaceable it would have been the first thing I did!
 
@@ -119,7 +119,7 @@ Again, I’m a big fan of MicroUSB charging, just because it’s so simple. I’
 Conclusion
 ----------
 
-Admittedly this review has leaned more towards the negative points of the Linx, and I’d like to stress for light use – particularly travelling or a simple couch device – it’s a capable machine. I love that a keyboard was included in with the price and commend Linx for all of the ports available on the device in an industry that’s increasingly [decreasing the number of ports available](/https://r2_worker.bayton.workers.dev/uploads/2016/12/macbook-usb-c-cable-big-100572542-orig.png).
+Admittedly this review has leaned more towards the negative points of the Linx, and I’d like to stress for light use – particularly travelling or a simple couch device – it’s a capable machine. I love that a keyboard was included in with the price and commend Linx for all of the ports available on the device in an industry that’s increasingly [decreasing the number of ports available](/https://cdn.bayton.org/uploads/2016/12/macbook-usb-c-cable-big-100572542-orig.png).
 
 However, the cost-cutting is more than apparent to me when I pit it against devices like the Asus Chromebook Flip (4GB/32GB), Dell Venue 8 Pro (2GB/32GB) and naturally the generally more expensive tablets on the market.
 

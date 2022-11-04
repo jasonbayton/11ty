@@ -47,7 +47,7 @@ If you build your own custom DPC, you define your own priorities. You choose wha
 
 As an aside, you also succumb to decisions they make over what APIs to deprecate, such as the recent decision to deprecate the dedicated `statusBarDisabled` API for blocking access to the notification bar to instead roll it into the locktask policy, which is crazy.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/10/image.png)
+![](https://cdn.bayton.org/uploads/2019/10/image.png)
 
 So Intune uses AMAPI?
 ---------------------

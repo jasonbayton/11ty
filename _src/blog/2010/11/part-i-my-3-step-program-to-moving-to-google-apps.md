@@ -47,27 +47,27 @@ Let’s begin!
 
 - Log into your Gmail account and enable “pop from the beginning”. This will allow Apps to import all mail you’ve *ever* had. You can do this via **Settings &gt; Forwarding and Pop/Imap.**
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.93.png "POP")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.93.png "POP")
 
 - Optionally, a simple way of getting new mail from your old account sent straight to Apps is by setting a “mail forward” to the apps account via **Settings &gt; Forwarding and Pop/Imap<span style="color: #800000;">\*</span>**. I personally prefer this to POP once the conversion is complete. If you do to, once you’ve set the forwarding address, you’ll be required to confirm you have permission to forward mails to your apps account. Google will email your apps account for confirmation. Accept it and voila, auto-forward is activated for all new mail that comes through. If you’re 0nly wanting *some* mails to come through, you’re better off creating a filter.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.94.png "forward")](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.94.png)
+[![](https://cdn.bayton.org/uploads/2010/11/screenshot.94.png "forward")](https://cdn.bayton.org/uploads/2010/11/screenshot.94.png)
 
 - Optionally set a “reply to” in your gmail account pointing to apps. On the off-chance you want to send a quick email from your gmail account it will look like you’re sending the mail from your Apps account. Do this via **Settings &gt; Accounts &gt; Edit info.**
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.95.png "reply to")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.95.png "reply to")
 
 - Exporting your contacts is a good idea – regardless of whether you want to import them to Apps or not, you never know when you’ll need a backup. You can export your contacts by going to **Contacts &gt;** **More Actions &gt; Export…**
 
-**![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.96.png "export")**
+**![](https://cdn.bayton.org/uploads/2010/11/screenshot.96.png "export")**
 
 - Finally, export your filters. To do this, you’ll need to enable a Gmail lab. You can enable the Filter Import/Export lab by going to **Settings &gt; Labs.**
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.97.png "filter")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.97.png "filter")
 
 - Once you’ve enabled the lab, you can see the new settings by going to **Settings &gt; Filters**. **<span style="color: #800000;">NOTE</span>** – you’ll need to enable this in Apps to import the filters.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.98.png "filter export")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.98.png "filter export")
 
 Gmail is ready.
 
@@ -75,19 +75,19 @@ Gmail is ready.
 
 - Log into your apps account, go to **Settings &gt; Accounts** and add Gmail as an account you own. Apps will then POP your mails across (no pun, honest!). It’ll take a while depending on how many mails you have (- taking into consideration that *every* email you’ve ever sent and received is coming though -) but they’ll all show up eventually! Note that you may have to re-label mails.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.99.png "addaccount")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.99.png "addaccount")
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.100.png "addacc2")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.100.png "addacc2")
 
 - Optionally, add your gmail address as a “send from” – you never know – you may want to use it initially while you settle / keep people from knowing your apps address (it’s good for privacy – you can send business from mr.b@business.com and random rubbish from thisisspam@gmail.com
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.102.png "addac4")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.102.png "addac4")
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.103.png "addac5")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.103.png "addac5")
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.104.png "addac6")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.104.png "addac6")
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.105.png "addac7")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.105.png "addac7")
 
 - You will need to accept the “send mail as” request in gmail, then you can send mail from Apps as if you were writing from Gmail.
 
@@ -97,19 +97,19 @@ Below you can finish off the move by importing your contacts, filters and calend
 
 - Import your contacts to Apps. You can do this exactly as you did export, via **Contacts &gt; More Actions &gt; Import,** or **Contacts &gt; Import (top right link).**
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.106.png "import contacts")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.106.png "import contacts")
 
 - Import your filters to Apps. Once again, you can do this exactly as you did export, via first enabling the Filter Export lab. You can enable the Filter Import/Export lab by going to **Settings &gt; Labs.** You can then go to **Settings &gt; Filters** to import your filters file.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.107.png "filterimport")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.107.png "filterimport")
 
 - Compare your messages between gmail and apps (do this via **“All Mail”** as it shows every conversation you have) so you know you’ve got all your mails. If you haven’t, don’t worry – it can take a *really* long time.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.108.png "mails")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.108.png "mails")
 
 - If necessary, export and import your calendar. Do this by going to your **Calendar &gt; Settings &gt; Calendar Settings &gt; Calendars &gt; Export.** Re-import it in your apps account via **Calendar &gt; Settings &gt; Calendar Settings &gt; Calendars &gt; Import**, and voila.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2010/11/screenshot.109.png "calexport")
+![](https://cdn.bayton.org/uploads/2010/11/screenshot.109.png "calexport")
 
 <span style="color: #800000;">*\* You can choose either to keep forwarding on, or keep pop running.. but it doesn’t make sense to have both running once you’ve brought in all your mails – I usually opt for the forwarder.*</span>
 

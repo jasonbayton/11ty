@@ -80,7 +80,7 @@ That isn’t the only issue however. The keyboard randomly and repeatedly insert
 
 It’s hardly the end of the world, but it can be quite irritating when composing quite a long document or blog post. Thankfully Windows autocorrects a lot of this as I go (but if you notice any extra spaces or characters that I haven’t corrected, you know why!)
 
-[![2014 - 1](https://r2_worker.bayton.workers.dev/uploads/2014/02/2014-1-300x225.jpg)](https://r2_worker.bayton.workers.dev/uploads/2014/02/2014-1.jpg)
+[![2014 - 1](https://cdn.bayton.org/uploads/2014/02/2014-1-300x225.jpg)](https://cdn.bayton.org/uploads/2014/02/2014-1.jpg)
 
 Oh, and the Dell Bluetooth keyboard? Well unfortunately it didn’t want to play nice with the Venue. I’ve tried it with other devices though and it feels and works really well. My only complaint with it is the layout. Due to the compact nature of the device, Dell have chosen to require the use of the Fn. key in order to type =, +, ‘, -, etc. It’s easy enough to become accustomed to, but it takes a little while.
 

@@ -31,19 +31,19 @@ Canonical have made it really easy to recycle it into something far more useful.
 
 1\) Open Keyboard Layout
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2012/08/Screenshot-from-2012-08-21-171803.png "Screenshot from 2012-08-21 17:18:03")](https://r2_worker.bayton.workers.dev/uploads/2012/08/Screenshot-from-2012-08-21-171803.png)
+[![](https://cdn.bayton.org/uploads/2012/08/Screenshot-from-2012-08-21-171803.png "Screenshot from 2012-08-21 17:18:03")](https://cdn.bayton.org/uploads/2012/08/Screenshot-from-2012-08-21-171803.png)
 
 2\) Click Options
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2012/08/Screenshot-from-2012-08-21-171641.png "Screenshot from 2012-08-21 17:16:41")](https://r2_worker.bayton.workers.dev/uploads/2012/08/Screenshot-from-2012-08-21-171641.png)
+[![](https://cdn.bayton.org/uploads/2012/08/Screenshot-from-2012-08-21-171641.png "Screenshot from 2012-08-21 17:16:41")](https://cdn.bayton.org/uploads/2012/08/Screenshot-from-2012-08-21-171641.png)
 
 3\) Select Caps Lock key behaviour
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2012/08/Screenshot-from-2012-08-21-171605.png "Screenshot from 2012-08-21 17:16:05")](https://r2_worker.bayton.workers.dev/uploads/2012/08/Screenshot-from-2012-08-21-171605.png)
+[![](https://cdn.bayton.org/uploads/2012/08/Screenshot-from-2012-08-21-171605.png "Screenshot from 2012-08-21 17:16:05")](https://cdn.bayton.org/uploads/2012/08/Screenshot-from-2012-08-21-171605.png)
 
 4\) Select your function. I chose to make mine an additional super, as I do with all machines.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2012/08/Screenshot-from-2012-08-21-171624.png "Screenshot from 2012-08-21 17:16:24")](https://r2_worker.bayton.workers.dev/uploads/2012/08/Screenshot-from-2012-08-21-171624.png)
+[![](https://cdn.bayton.org/uploads/2012/08/Screenshot-from-2012-08-21-171624.png "Screenshot from 2012-08-21 17:16:24")](https://cdn.bayton.org/uploads/2012/08/Screenshot-from-2012-08-21-171624.png)
 
 That’s all there is to it. The change will take immediate effect after clicking close.
 

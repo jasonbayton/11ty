@@ -34,13 +34,13 @@ I was definitely not expecting to wait so long, however when I did get an email 
 Hardware
 --------
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/04/IMG_20170407_133054857_HDR-e1493240926392.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/04/IMG_20170407_133054857_HDR-e1493240926392.jpg)
+[![](https://cdn.bayton.org/uploads/2017/04/IMG_20170407_133054857_HDR-e1493240926392.jpg)](/https://cdn.bayton.org/uploads/2017/04/IMG_20170407_133054857_HDR-e1493240926392.jpg)
 
 I find myself struggling to find an adequate comparison for the Home’s shape; a Pear perhaps? A deformed tear-drop? In any case, the Google Home is quite a bit shorter and less imposing than the tall cylinder that is the Echo. Beyond that, though, they’re not a million miles away from each other as design goes – both have LEDs on top and speakers on the bottom – admittedly I much prefer the sharp directional LEDs of the Echo to the opaque dots of the Home, but I didn’t buy a digital assistant to stare at it, so that’s not a big deal.
 
 On the back of the Home sits a microphone mute button to disable the two internal mics and on top is touch area for physically interacting with the device; a swipe left or right will adjust the volume, a tap will start or stop what it’s currently playing (very handy) and a long press will prompt it to listen for a command.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/04/IMG_20170407_133631332-e1493241433946.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2017/04/IMG_20170407_133631332-e1493241433946.jpg)
+[![](https://cdn.bayton.org/uploads/2017/04/IMG_20170407_133631332-e1493241433946.jpg)](/https://cdn.bayton.org/uploads/2017/04/IMG_20170407_133631332-e1493241433946.jpg)
 
 Behind a removable cover sit the multi-directional speakers; they offer a good, strong sound with adequate bass to comfortably fill an average sized room. The cover can be swapped for any number of alternatives to suit the decor around which the Home will sit, though the white top half is unfortunately not customisable. Replacement covers come in at £18 for material (such as the grey above) and £36 for metal – a lot to pay for a bit of additional colour!
 
@@ -55,7 +55,7 @@ Like the Chromecasts before it, the Home (arguably just a larger Chromecast with
 
 Being a G Suite user, I received a message almost immediately stating Home wasn’t able to integrate with my calendar or email. That was a little unexpected and somewhat disappointing, but actually not all that surprising; G Suite accounts have always come second to products and services launched by Google. Hopefully that’ll change in the near future.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/05/Screenshot_20170503-212907-e1493843739132.png)](/https://r2_worker.bayton.workers.dev/uploads/2017/05/Screenshot_20170503-212907-e1493843716939.png)
+[![](https://cdn.bayton.org/uploads/2017/05/Screenshot_20170503-212907-e1493843739132.png)](/https://cdn.bayton.org/uploads/2017/05/Screenshot_20170503-212907-e1493843716939.png)
 
 With that aside, I switched entirely from asking my phone questions (which I do quite often, as it happens) to asking the same on the Home.
 

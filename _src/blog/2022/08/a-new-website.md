@@ -18,7 +18,7 @@ Let's get into the changes.
 
 ## The new theme
 
-![Bayton V6](https://r2_worker.bayton.workers.dev/uploads/2022/08/Screenshot2022-08-07_1.png)
+![Bayton V6](https://cdn.bayton.org/uploads/2022/08/Screenshot2022-08-07_1.png)
 
 For version 6 I wanted to focus on white space, easily consumable content with minimal distraction, and a site that loads quickly with little unnecessary media. Articles will of course have the uploads they have (as above) but the structure around the content should load very quickly on non-media-heavy pages. This has been reflected in the removal of most stock imagery, featured images, topic-based-icons, and more, and leaves a mostly text-based result that I think works well (it's of course subjective).
 
@@ -32,7 +32,7 @@ The footer is still a work in progress, but it's functional for now.
 
 After a good 7+ years with the old logo, it's time I think for a change. I opted for a simple stylised signature, and I'm really happy with it: 
 
-![new logo](https://r2_worker.bayton.workers.dev/uploads/2022/08/JasonBayton_purple.svg)
+![new logo](https://cdn.bayton.org/uploads/2022/08/JasonBayton_purple.svg)
 
 I've coloured it purple above to suit both dark and light themes when viewing this post. It'll likely remain only black/white unless a mood strikes This logo will start showing up on my downloadable content and everywhere else over the next few weeks. 
 
@@ -68,7 +68,7 @@ If you find issues with the website, please feel free to raise it on [GitHub](ht
 
 If there's an issue with content, you can either raise an issue, or contribute an edit directly, as so: 
 
-![Edit a page](https://r2_worker.bayton.workers.dev/uploads/2022/08/2022-08-07-14.33.10.gif)
+![Edit a page](https://cdn.bayton.org/uploads/2022/08/2022-08-07-14.33.10.gif)
 
 (I'm back to using a Mac as my primary machine, so GIFs are absolutely coming back to my content more often).
 

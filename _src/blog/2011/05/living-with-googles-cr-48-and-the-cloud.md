@@ -32,7 +32,7 @@ tags:
     - Projects
     - Reviews
 ---
-![](https://r2_worker.bayton.workers.dev/uploads/2011/05/cr48-1.jpg "cr48-1")
+![](https://cdn.bayton.org/uploads/2011/05/cr48-1.jpg "cr48-1")
 
 Google’s Cr-48 has been out for quite a long time now. So long, infact, that the beta testing phase is practically over and Google has moved from the Cr-48 to releasing the OS to two competing manufacturers – Acer and Samsung. So why then, I hear you ask, am I choosing to write about my feelings towards the Cr-48 instead of waiting a little longer and becoming one of the first to review a new, shiny Samsung or Acer?
 
@@ -52,7 +52,7 @@ Although it’s got the hardware and software you’d expect on a laptop (or rat
 
 And this is the issue, the reason I had to consider my intentions, set out a plan of action and even the reason I’m now writing this article. Can you imagine how many times a day you find yourself reaching for a file on your desktop or opening an app you’ve installed in order to do something? Well that’s not possible any more. Files need to reside in the cloud, desktop apps are now web apps and the best part? Nothing is available unless you’re online.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2011/05/Cr-48.png "Cr-48")
+![](https://cdn.bayton.org/uploads/2011/05/Cr-48.png "Cr-48")
 
 Now I consider myself to be a pretty solid and always-connected web enthusiast. My Google Docs account(s) are crammed with an abundance of information I’ve either uploaded or created there and then within Google Docs itself, my email is handled by Google, my blogs etc are all hosted in the cloud and I use the web interfaces to create and post new articles (I know a number of people who like desktop apps for WordPress etc). In fact, the only desktop app I regularly use is Photoshop and my Terminal App for connecting to my hosted solutions.
 

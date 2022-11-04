@@ -51,9 +51,9 @@ Despite that being utterly unnecessary I did so because I had to, then went abou
 
 Though entirely app-based, I quite enjoyed using Google WiFi, and appreciated the several tools in place for managing the network, devices and more:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-131933.png)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-131952.png)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190302-132138.png)
+![](https://cdn.bayton.org/uploads/2019/04/Screenshot_20190302-131933.png)
+![](https://cdn.bayton.org/uploads/2019/04/Screenshot_20190302-131952.png)
+![](https://cdn.bayton.org/uploads/2019/04/Screenshot_20190302-132138.png)
 
 I also liked parental controls, the various tools for troubleshooting (testing mesh, network speed, individual wifi speed of devices connected), and integrated home control, if a little unnecessary having the home app already on my devices already.
 
@@ -84,7 +84,7 @@ I logged a ticket, but also started tweeting about it:
 
 Manually logging in became tiresome, so on the main server handling most of my traffic (HAProxy) I set up a cronjob to automatically pull down ISOs in order to keep the connection “alive” between the server and Google Wifi (NB, it’s a wired server):
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/04/Screenshot_20190130-172959-e1555450467687.png)
+![](https://cdn.bayton.org/uploads/2019/04/Screenshot_20190130-172959-e1555450467687.png)
 *Is this enough traffic? Google WiFi didn’t think so8
 
 Meanwhile a ticket with Google support wasn’t getting me very far, with them focusing more on the fact the satellites were on a different IP range (class A network) than the hub, an issue caused because Google WiFi wouldn’t offer the customisation I needed for DHCP, at one point I was even told Google WiFi doesn’t support class A networks, but didn’t receive any documentation or further clarification when I asked for where this is stated in the manual.
@@ -102,8 +102,8 @@ Enter Orbi
 
 After reaching out to Netgear on Twitter, they were kind enough to send over a 3 node Orbi kit as a like-for-like replacement of the Google WiFi setup:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/04/IMG_20190215_134950-e1555520536341.jpg)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/IMG_20190215_135143.jpg)
+![](https://cdn.bayton.org/uploads/2019/04/IMG_20190215_134950-e1555520536341.jpg)
+![](https://cdn.bayton.org/uploads/2019/05/IMG_20190215_135143.jpg)
 
 Orbi right off the bat offered an upgrade, boasting AC2200 over Google WiFi’s AC1200; I looked forward potentially to slightly better WiFi performance.
 
@@ -111,25 +111,25 @@ Unlike Google WiFi, the Orbi app offers fewer features and instead diverts users
 
 Would it be nice if the Orbi app offered improved functionality? Yes, but things like speed tests, network checks, and visibility of connected clients are all present and accounted for, with a little additional functionality gained through another of Netgear’s apps, Genie (though I rarely use it).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211608.png)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211618.png)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211630.png)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211649.png)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211735.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-211608.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-211618.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-211630.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-211649.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-211735.png)
 
 Netgear also partner with 3rd parties for some of the functionality offered, which is built-in with Google WiFi, in particular Disney for parental controls (yet to test!) and Speedtest.net for monitoring the speed of the ISP.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211805.png)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-211820.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-211805.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-211820.png)
 
 I’m also rather appreciative of the traffic monitoring capabilities, but do wish the settings for limits were a little more granular, and traffic monitoring in general was a little more advanced in telling me what sort of data was being used (streaming, etc)
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-212053.png)
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/Screenshot_20190502-214326.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-212053.png)
+![](https://cdn.bayton.org/uploads/2019/05/Screenshot_20190502-214326.png)
 
 Legacy or not, the web interface offers everything I need and more; in particular features missed from Google WiFi, such as assigning port forwards based on IP rather than a DHCP reservation (honestly would have never thought I’d be describing this as a feature).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image.png)
+![](https://cdn.bayton.org/uploads/2019/05/image.png)
 
 Orbi unboxed with a slightly older firmware version and didn’t appear to want to update to the latest (no updates detected) but as a typical Netgear product, fully supported manual updates.
 
@@ -139,7 +139,7 @@ The only issue I had, much like Google WiFi, was assigning a DHCP range I was ha
 
 The fix for this, because I was not going to be forced to utilise the same range as the router sat on for DHCP, was to break out Chrome Devtools, re-enable the disabled octets, update the range from X.X.X.10-254 to X.X.100.10-254, and click save.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image-1.png)
+![](https://cdn.bayton.org/uploads/2019/05/image-1.png)
 
 Once saved and the page refreshed, the interface appears to once more show a limited range, however on the backend, which I later confirmed with a quick telnet session, the IP range had updated and everything was working perfectly. I raised this with Netgear and my feedback was sent to engineering for consideration.
 
@@ -157,7 +157,7 @@ Netgear assign a master and satellite with their 3 node kit, which means unlike 
 
 Both products offer the capability of adding more nodes/satellites for larger homes or increased coverage, though it definitely appears Netgear have a leg up on Google in terms of extensibility:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/05/image-2.png)
+![](https://cdn.bayton.org/uploads/2019/05/image-2.png)
 
 I don’t need a dedicated satellite for WiFi in the garden, but I certainly want one!
 

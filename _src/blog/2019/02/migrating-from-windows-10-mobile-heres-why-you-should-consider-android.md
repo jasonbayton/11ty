@@ -39,7 +39,7 @@ Not convinced?
 
 In 2016 &amp; 2017, Gartner ranked Android higher than iOS in a number of areas, including kernel security, exploit protection, network security, workspace isolation and more; the results of which can be found in [this report](https://www.gartner.com/doc/3840064/mobile-oss-device-security-comparison) (2017) should you have a Gartner subscription, if not here’s an overview:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/02/image.png)
+![](https://cdn.bayton.org/uploads/2019/02/image.png)
 *Source: Gartner, December 2017. Thanks to [Samsung](https://s7d2.scene7.com/is/content/SamsungUS/samsungbusiness/solutions/samsung-knox/pdf/MobileDeviceSecurity-AComparisonofPlatforms-Feb12-2.pdf) for making this available on the public internet!*
 
 Let’s dive a little deeper into Android security:
@@ -115,7 +115,7 @@ Organisations demand flexibility; in process, use-case, form factor and budget. 
 
 Considering BYOD? Dedicated? Something in between? With four individual solution sets to choose from, Android offers a management scenario to suit all applications.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/04/AEtypes-Page-6.png)
+![](https://cdn.bayton.org/uploads/2017/04/AEtypes-Page-6.png)
 *From: [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)*
 
 The in-depth document [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/#enter-android-enterprise) outlines these deployment scenarios and their applications, while this [infographic](/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/) offers a deep-dive on each deployment scenario specifically.
@@ -171,7 +171,7 @@ Taking Gartner’s research into consideration, highlighting Android’s clear l
 
 A corporate version of Google Play permitting only applications approved by administrators; the primary Play Store on fully managed devices, or the badged Play Store for work profile-enabled devices.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/01/Screenshot_20190131-174333.png)
+![](https://cdn.bayton.org/uploads/2019/01/Screenshot_20190131-174333.png)
 
 Managed Google Play offers complete control over the applications permitted on a managed device without affecting the native look and feel of the device.
 

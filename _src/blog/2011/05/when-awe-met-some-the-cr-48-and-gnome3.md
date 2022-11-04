@@ -32,7 +32,7 @@ tags:
     - Guides
     - Projects
 ---
-![](https://r2_worker.bayton.workers.dev/uploads/2011/05/IMG_20110513_200355.jpg "IMG_20110513_200355")
+![](https://cdn.bayton.org/uploads/2011/05/IMG_20110513_200355.jpg "IMG_20110513_200355")
 
 I mentioned previously how although I really like the hardware in the Cr-48, I had been having problems living completely “in the cloud”. Even though I spend 90% of my day *in* the cloud, for that last 10% I require a full desktop experience to do with whatever I need to.
 
@@ -52,7 +52,7 @@ Once you’ve fixed the BIOS check (I used tape) and re-assembled your Cr, we ca
 
 Boot back into Ubuntu.
 
-Download the new BIOS from here: [https://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz](https://r2_worker.bayton.workers.dev/download/cr48.bin.tar.gz)
+Download the new BIOS from here: [https://cdn.bayton.org/download/cr48.bin.tar.gz](https://cdn.bayton.org/download/cr48.bin.tar.gz)
 
 Open Terminal and Install flashrom by typing ***sudo apt-get install flashrom***
 
@@ -69,7 +69,7 @@ Fedora will now boot, and from the live environment you can install it to disk.
 
 All you have to do now is decide whether you want to keep the Chrome OS partitions, or use the whole, wonderful 16GB of SSD space. As you might have guessed, I flattened the entire disk and used it all for my Fedora install.
 
-![](https://r2_worker.bayton.workers.dev/uploads/2011/05/Screenshot-1.png "Screenshot-1")
+![](https://cdn.bayton.org/uploads/2011/05/Screenshot-1.png "Screenshot-1")
 
 Once you are up and running, make sure you update as soon as possible in order to get the most up to date system and Gnome versions. Mine was 2.9 when I installed, and went up to 3.1 when I updated.
 

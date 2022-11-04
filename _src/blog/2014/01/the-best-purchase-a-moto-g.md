@@ -33,7 +33,7 @@ I moved to my own place quite a number of years ago. In that time I’ve spent a
 
 It’s been workable but not ideal. Skype wasn’t always as stable as it seems to be today, we would both have to be home to talk and the amount of issues with webcams, slow internet speeds degrading conversations and the general faffing that’d have to be undertaken (mostly on their end) in order to get a video conversation going was a pain. I’m also not typically someone who likes to put a conversation in the calendar, rather preferring to just pick up the phone when the mood strikes – It’s more relaxed, the conversation is a little more free-flowing and there’s no pressure to discuss *everything* to fill the time knowing this is your only opportunity to talk until the following week.
 
-![Skype Server](https://r2_worker.bayton.workers.dev/uploads/2014/01/IMG_0836Medium-1-225x300.jpg)
+![Skype Server](https://cdn.bayton.org/uploads/2014/01/IMG_0836Medium-1-225x300.jpg)
 
 I tried a few things while I was abroad to make communications both cheaper and more dynamic. My [Skype Server](/2009/08/skype/ "Skype servers, the permanent free communicator") (right) was one of those attempts which allowed me to be both online 24/7 for when the parents wanted to call and have the ability to call out at reasonable rates whenever I felt like calling them. Obviously it wasn’t video-capable but I had a laptop for that.
 
@@ -43,7 +43,7 @@ Until November.
 
 Over the course of 2013 I was also watching Google+ expand exponentially. One of the more interesting features of the network that I hadn’t tried at the time was Hangouts. It had so much potential but the thought of getting the parents onto Google+ just for hangouts seemed a little overkill. Dad was quite happy Skyping when we video-called so I figured “don’t fix it if it ain’t broke”.
 
-[![motog](https://r2_worker.bayton.workers.dev/uploads/2014/01/motog-300x300.jpg)](https://r2_worker.bayton.workers.dev/uploads/2014/01/motog.jpg)
+[![motog](https://cdn.bayton.org/uploads/2014/01/motog-300x300.jpg)](https://cdn.bayton.org/uploads/2014/01/motog.jpg)
 
 When [Motorola announced the Moto G](https://motorola-blog.blogspot.co.uk/2013/11/introducing-moto-g-exceptional-phone-at.html) it immediately caught my attention. I was presented with a modern, powerful phone full of quality, well spec’d components, running a recent version of Android and built by a household name with a price-tag that seemed almost inconceivable. Could I *really* pick up a quality device like this for just £129?
 

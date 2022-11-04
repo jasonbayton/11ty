@@ -68,7 +68,7 @@ Android Enterprise (AE) offers a few things:
 
 Here’s a breakdown of the management scenarios Android Enterprise supports:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2020/02/AEtypes11-Page-6-1.png)](https://r2_worker.bayton.workers.dev/uploads/2020/02/AEtypes11-Page-6-1.png)
+[![](https://cdn.bayton.org/uploads/2020/02/AEtypes11-Page-6-1.png)](https://cdn.bayton.org/uploads/2020/02/AEtypes11-Page-6-1.png)
 
 As can be seen, there’s a lot of flexibility for supporting most business requirements baked right in, with the additional – the most common – management scenario, where the organisation owns the device but permits some personal usage (COPE), available with Android 8.0. All of these scenarios are available at no cost as soon as Android Enterprise has been bound with the EMM platform of choice.
 
@@ -86,7 +86,7 @@ BYOD and work profile
 
 With the introduction of Android 5.0 Google made user profiles available to phones in addition to tablets already leveraging them. Using the same underlying functionality, Android Enterprise is able to create a managed user profile that although sits entirely separately encrypted on disk (and as of Android 7.0, utilises completely different encryption keys for work/personal), integrates directly with the current user on the device in order to provide both personal and work applications in the same app drawer – the latter indicated by a briefcase:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/04/Screenshot_20170728-175602.png)](https://r2_worker.bayton.workers.dev/uploads/2017/04/Screenshot_20170728-175602.png)
+[![](https://cdn.bayton.org/uploads/2017/04/Screenshot_20170728-175602.png)](https://cdn.bayton.org/uploads/2017/04/Screenshot_20170728-175602.png)
 
 Source: bayton.org, photo: Android Enterprise work profile, this will change in Android Pie
 
@@ -158,7 +158,7 @@ Utilising this method foregoes the need for the device to be local to administra
 
 In Android 7.0 Nougat, the ability to provision a device with a QR code was introduced for both local and remote provisioning for OEMs who choose to support it (most do). By tapping on **Welcome** 6 times when the device boots into the setup Wizard, it will prompt the device to connect to WiFi and start QR enrolment, downloading a QR reader with which to scan an EMM enrolment code such as this one for MobileIron (and it will scan, if you’d like to try, however you’ll need a MobileIron Core to complete enrolment):
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/08/static_qr_code_without_logo-5.png)
+![](https://cdn.bayton.org/uploads/2017/08/static_qr_code_without_logo-5.png)
 
 In Android 9.0 Pie, the QR package is bundled into the system and therefore doesn’t require a download. This offers much faster provisioning as the device no longer needs to connect to the internet to download the QR package. New in 9 also is the ability to add WiFi credentials to the QR, thus removing one further step from the process. It easily provisions 3x faster than in older Android versions.
 
@@ -190,12 +190,12 @@ App management
 
 Where historically EMMs have needed to import applications from Google Play, then manage the install process accordingly (with varied success again due to availability of APIs), with Android Enterprise Google introduced the managed Google Play Store, an enterprise alternative for Google Play on devices allowing only applications explicitly whitelisted for installation by administrators.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)](https://r2_worker.bayton.workers.dev/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)
+[![](https://cdn.bayton.org/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)](https://cdn.bayton.org/uploads/2017/04/MobileIron-Admin-Portal-Users-Devices-e1501261745451.png)
 *Source: bayton.org, photo: MobileIron Core 9.4 (cropped) app management*
 
 The benefit of utilising an EMM platform for app management is managed app configs, making it extremely easy to tailor applications to the business for immediate use on deployment, no additional end-user configuration required:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](https://r2_worker.bayton.workers.dev/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)
+[![](https://cdn.bayton.org/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)](https://cdn.bayton.org/uploads/2017/02/Screenshot-2017-02-25-at-22.14.27.png)
 *Source: bayton.org, photo: MobileIron Core 9.2*
 
 For EMM admins the above config may look familiar, though apps like Chrome offer far more granular functionality around permitted domains, browser functionality and more.

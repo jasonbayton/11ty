@@ -27,7 +27,7 @@ I’ve been using the Passport for about 2 months, picking it up as a temp while
 Hardware
 --------
 
-![20151122_115740](https://r2_worker.bayton.workers.dev/uploads/2015/12/20151122_115740-e1449492487122.jpg)
+![20151122_115740](https://cdn.bayton.org/uploads/2015/12/20151122_115740-e1449492487122.jpg)
 
 With a 4.5″ Square(!) 453 PPI display and a physical keyboard, the Passport is certainly eye-catching. On picking it up it was immediately apparent the device is well built with a reassuringly weighty feel and sturdy frame. The plastic back has some give but that can be forgiven due to the nature of the material and the fact it’s really barely noticeable (on this particular unit).
 
@@ -51,7 +51,7 @@ On the right-hand side you’ll find the volume keys and BlackBerry Assistant bu
 
 Flipping the phone over you’ll find a neat little access port for the microSD and SIM card.
 
-![20151122_115852](https://r2_worker.bayton.workers.dev/uploads/2015/12/20151122_115852.jpg)
+![20151122_115852](https://cdn.bayton.org/uploads/2015/12/20151122_115852.jpg)
 
 Software
 --------
@@ -64,7 +64,7 @@ Being an Android user since the debut of the original G1 and a Google user long 
 
 It sort of worked..
 
-![2015 - 1](https://r2_worker.bayton.workers.dev/uploads/2015/12/2015-1-e1449699782106.jpg)
+![2015 - 1](https://cdn.bayton.org/uploads/2015/12/2015-1-e1449699782106.jpg)
 
 Youtube failed almost immediately, Maps eventually. Hangouts is too slow to be useful and Google+ regularly gives me Google Play Services errors. Still, Gmail, Photos and Music work and I’m managing OK with that (mostly because I have a work Note 4, otherwise I’d have likely still been trying to get them all working).
 
@@ -125,7 +125,7 @@ Here are a few samples:
 
 <div class="gallery galleryid-0 gallery-columns-5 gallery-size-thumbnail" id="gallery-16"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20151003_112017.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20151003_112017.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20150924_174112.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20150924_174112.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20151114_201249.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20151114_201249.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20151206_164926.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20151206_164926.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20151115_091936.jpg)](/https://r2_worker.bayton.workers.dev/uploads/2015/12/IMG_20151115_091936.jpg) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2015/12/IMG_20151003_112017.jpg)](/https://cdn.bayton.org/uploads/2015/12/IMG_20151003_112017.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2015/12/IMG_20150924_174112.jpg)](/https://cdn.bayton.org/uploads/2015/12/IMG_20150924_174112.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2015/12/IMG_20151114_201249.jpg)](/https://cdn.bayton.org/uploads/2015/12/IMG_20151114_201249.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2015/12/IMG_20151206_164926.jpg)](/https://cdn.bayton.org/uploads/2015/12/IMG_20151206_164926.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2015/12/IMG_20151115_091936.jpg)](/https://cdn.bayton.org/uploads/2015/12/IMG_20151115_091936.jpg) </dt></dl>  
  </div>Battery
 -------
 
@@ -138,7 +138,7 @@ By contrast my Note 4 typically goes on charge daily; occasionally the next morn
 Keyboard
 --------
 
-![20151122_120012](https://r2_worker.bayton.workers.dev/uploads/2015/12/20151122_120012.jpg)
+![20151122_120012](https://cdn.bayton.org/uploads/2015/12/20151122_120012.jpg)
 
 It would hardly be a BlackBerry review without dedicating a heading to the keyboard. Even moreso when said keyboard also acts as a trackpad!
 

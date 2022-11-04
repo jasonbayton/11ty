@@ -56,7 +56,7 @@ Some OEMs have over the years implemented their own APIs for various capabilitie
 
 When EMMs do implement these bespoke APIs, in addition to having to request *device administrator* permissions for the EMM agent, it’s highly likely the EMM would also require an additional, per-OEM, application installed on the device to better utilise them; SOTI is most notable for having over 170 of OEM plugins, but the act of installing one involves enabling unknown sources and sideloading APKs. [Not very secure](/android/why-you-shouldnt-install-apps-from-unknown-sources/).
 
-![](https://r2_worker.bayton.workers.dev/uploads/2017/10/apisupport-e1507840615305.png)
+![](https://cdn.bayton.org/uploads/2017/10/apisupport-e1507840615305.png)
 *AirWatch restriction support by different OEMs*
 
 Beyond basic security policies and perhaps a simple email/WiFi/etc configuration then, outside of the bigger OEMs (Samsung, Huawei, Sony, others to a lesser degree), there’s not a lot administrators can manipulate and control with a legacy-managed Android device, which already makes them rather unappealing for use in an enterprise setting.

@@ -37,17 +37,17 @@ Future updates to this document will located on this page, feel free to come on 
 
 Click the image to view the PDF.
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2020/11/Android-Evolution-v5.jpg)](https://r2_worker.bayton.workers.dev/download/doc/ae-general/AndroidEvolutionv5.pdf)
+[![](https://cdn.bayton.org/uploads/2020/11/Android-Evolution-v5.jpg)](https://cdn.bayton.org/download/doc/ae-general/AndroidEvolutionv5.pdf)
 
 **Oreo:**  
-Android PPTx link: [Android\_Evolution.pptx](https://r2_worker.bayton.workers.dev/download/doc/ae-general/Android_Evolution.pptx)  
-Android Enterprise PPTx link: [Android\_Evolution\_AE.pptx](https://r2_worker.bayton.workers.dev/download/doc/ae-general/Android_Evolution_AE.pptx)
+Android PPTx link: [Android\_Evolution.pptx](https://cdn.bayton.org/download/doc/ae-general/Android_Evolution.pptx)  
+Android Enterprise PPTx link: [Android\_Evolution\_AE.pptx](https://cdn.bayton.org/download/doc/ae-general/Android_Evolution_AE.pptx)
 
-**Pie:** Android PPTx link: [Android\_Evolution\_2018.pptx](https://r2_worker.bayton.workers.dev/download/doc/ae-general/Android_Evolution_2018.pptx)  
-Android Enterprise PPTx link: [Android\_Evolution\_AE-2018.pptx](https://r2_worker.bayton.workers.dev/download/doc/ae-general/Android_Evolution_AE-2018.pptx)
+**Pie:** Android PPTx link: [Android\_Evolution\_2018.pptx](https://cdn.bayton.org/download/doc/ae-general/Android_Evolution_2018.pptx)  
+Android Enterprise PPTx link: [Android\_Evolution\_AE-2018.pptx](https://cdn.bayton.org/download/doc/ae-general/Android_Evolution_AE-2018.pptx)
 
 **Android 10:**   
-Android Enterprise PPTx link: [AndroidEvolutionv4.pptx](https://r2_worker.bayton.workers.dev/download/doc/ae-general/AndroidEvolutionv4.pptx)
+Android Enterprise PPTx link: [AndroidEvolutionv4.pptx](https://cdn.bayton.org/download/doc/ae-general/AndroidEvolutionv4.pptx)
 
 **Android 11:**   
-Android Enterprise PPTx link: [AndroidEvolutionv5.pptx](https://r2_worker.bayton.workers.dev/download/doc/ae-general/AndroidEvolutionv5.pptx)
+Android Enterprise PPTx link: [AndroidEvolutionv5.pptx](https://cdn.bayton.org/download/doc/ae-general/AndroidEvolutionv5.pptx)

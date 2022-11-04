@@ -69,7 +69,7 @@ Google launched the programme with a number of well-known MSPs in the industry a
 
 Unlike the interesting situation with EMMs, there are no asterisks against any of the MSPs in the [AER directory](https://androidenterprisepartners.withgoogle.com/msp/?_ga=2.32450427.450603936.1550948947-350984924.1547574500), and each listing equally shows the regions in which they operate:
 
-![](https://r2_worker.bayton.workers.dev/uploads/2019/02/image-1.png)
+![](https://cdn.bayton.org/uploads/2019/02/image-1.png)
 *Vox Mobile operates in the Americas (screenshot cropped)*
 
 Final words

@@ -22,18 +22,18 @@ The errors
 
 For existing connections:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Restoring-Network-Connections.png)](https://r2_worker.bayton.workers.dev/uploads/2017/07/Restoring-Network-Connections.png)
+[![](https://cdn.bayton.org/uploads/2017/07/Restoring-Network-Connections.png)](https://cdn.bayton.org/uploads/2017/07/Restoring-Network-Connections.png)
 
 For new connections:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Network-Error.png)](https://r2_worker.bayton.workers.dev/uploads/2017/07/Network-Error.png)
+[![](https://cdn.bayton.org/uploads/2017/07/Network-Error.png)](https://cdn.bayton.org/uploads/2017/07/Network-Error.png)
 
 The cause
 ---------
 
 Doing some digging, it would appear a Windows service is to blame:
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2017/07/Region.png)](https://r2_worker.bayton.workers.dev/uploads/2017/07/Region.png)
+[![](https://cdn.bayton.org/uploads/2017/07/Region.png)](https://cdn.bayton.org/uploads/2017/07/Region.png)
 
 The fix
 -------

@@ -32,7 +32,7 @@ Used correctly it can indeed offer a balance between security and convenience in
 
 ### Trusted places
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/08/Screenshot_20180807-104018.png)
+![](https://cdn.bayton.org/uploads/2018/08/Screenshot_20180807-104018.png)
 *Selecting a trusted location on a map*
 
 If you’re at home, at your parents or a close friend’s home, you’re in a location you trust. It’s unlikely (though not impossible) an unknown bad actor is going to walk into the living room and steal your phone.
@@ -47,7 +47,7 @@ When a device is not locked, it can be stolen and very easily accessed if it’s
 
 ### Trusted accessories
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/08/Screenshot_20180807-105048.png)
+![](https://cdn.bayton.org/uploads/2018/08/Screenshot_20180807-105048.png)
 *Selecting a trusted device from paired Bluetooth devices*
 
 When entering a car, your device might automatically connect up to your Bluetooth system. When out for and about perhaps you have wireless headphones or at home connect up a keyboard and mouse wirelessly for typing up reports.
@@ -58,7 +58,7 @@ Once again, since any Bluetooth accessory can be deemed trusted under any circum
 
 ### On-body detection
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/08/Screenshot_20180807-103854.png)
+![](https://cdn.bayton.org/uploads/2018/08/Screenshot_20180807-103854.png)
 *Enabling on-body detection*
 
 An Android device is exceptionally smart. It knows when it’s static, when it’s picked up and even when it’s in motion. Using the latter, if your device detects you moving, it can make the assumption it is on your person and therefore safe.
@@ -80,17 +80,17 @@ Smartlock can be disabled across all modern UEM solutions either in part (on an 
 
 Referred to as *Keyguard Trust Agent State*
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-08-20.16.12.gif)
+![](https://cdn.bayton.org/uploads/2018/09/2018-09-08-20.16.12.gif)
 
 ### Disabling Smartlock for MobileIron Core
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-08-20.08.14.gif)
+![](https://cdn.bayton.org/uploads/2018/09/2018-09-08-20.08.14.gif)
 
 ### Disabling Smartlock for Maas360
 
 Again referred to as *Allow Trust agents*. Do take note of where this setting is as by default the policy opens within **Android Settings** and not **Android Enterprise Settings.**
 
-![](https://r2_worker.bayton.workers.dev/uploads/2018/09/2018-09-08-20.28.24.gif)
+![](https://cdn.bayton.org/uploads/2018/09/2018-09-08-20.28.24.gif)
 
 Conclusion
 ----------

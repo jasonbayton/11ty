@@ -28,11 +28,11 @@ tags:
 ---
 I’ve built a number of machines over the years, dating back to my first Intel Celeron D build over 10 years ago; it had 2GB of RAM, 80GB storage and I’d spent months saving up for the parts one by one to eventually bring it to life. Since then times and technology have changed; my latest build completed in 2015 is a hex core AMD with 32GB RAM and 24TB of storage (and horrible cable management):
 
-![IMG_20160119_210327](https://r2_worker.bayton.workers.dev/uploads/2016/06/IMG_20160119_210327.jpg)
+![IMG_20160119_210327](https://cdn.bayton.org/uploads/2016/06/IMG_20160119_210327.jpg)
 
 It replaced a 2014 media centre build that shared the same processor, but with 16GB RAM and 6TB of storage (and slightly better cable management):
 
-![DSC_0129](https://r2_worker.bayton.workers.dev/uploads/2016/06/DSC_0129.jpg)
+![DSC_0129](https://cdn.bayton.org/uploads/2016/06/DSC_0129.jpg)
 
 The only thing these machines have in common, aside from the person who built them, is that they’ve never been documented. I’ve wanted to do a build log for years but despite repeated good intentions have never managed to do so.
 

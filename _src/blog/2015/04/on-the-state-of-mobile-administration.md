@@ -42,9 +42,9 @@ It seems as though it’s only more recently that mobile admin clients have beco
 
 AirWatch released what they call a “mobile console” as part of the 8.0 release a short while back. Reading about it before launch I was incredibly excited. *Finally*, I thought, *a way to administer my mobile estate from a mobile device*. If anyone would understand my struggle it would be AirWatch, *the* EMM people. I was very interested in seeing how they would take a complex administration console like this:
 
-[![dash](https://r2_worker.bayton.workers.dev/uploads/2015/04/dash.png)](https://r2_worker.bayton.workers.dev/uploads/2015/04/dash.png)
+[![dash](https://cdn.bayton.org/uploads/2015/04/dash.png)](https://cdn.bayton.org/uploads/2015/04/dash.png)
 
-[![settings](https://r2_worker.bayton.workers.dev/uploads/2015/04/settings.png)](https://r2_worker.bayton.workers.dev/uploads/2015/04/settings.png)
+[![settings](https://cdn.bayton.org/uploads/2015/04/settings.png)](https://cdn.bayton.org/uploads/2015/04/settings.png)
 
 And condense it down into a simple easy to use interface for mobile devices.
 
@@ -71,7 +71,7 @@ Well, they didn’t.
 
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-17"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png)](/https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png)](/https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png)](/https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png) </dt></dl>  
  </div>
  
  What they’ve provided is a console for looking at devices and wiping them. The entire workflow is shown in the pictures above: Log in, select a device, perform an action. There’s no App management, no content management, no user management, no policy management, no back-end management.. I could go on. Their “mobile console” offers admins on mobile devices nothing more than the ability to look at a device and wipe it if necessary (and not even a full wipe), something that in 100% of the time I spend in AirWatch I’ve had to do less than 8%. I’d much rather be able to push out an app or reassign a policy.
@@ -82,7 +82,7 @@ Thankfully their standard web console isn’t unusable, even if zooming in and o
 
 Another [mobile first, cloud first](https://news.microsoft.com/2014/03/27/satya-nadella-mobile-first-cloud-first-press-briefing/) company offering their cloud-based collaboration and editing suite went one step further than AirWatch by releasing native administration apps for the major mobile operating systems on the market. Again I found myself getting a little more excited than a normal person would at the thought of a mobile admin application prior to launch and again I was wondering how they would take this complex and wonderfully granular admin console:
 
-[![365](https://r2_worker.bayton.workers.dev/uploads/2015/04/365.png)](https://r2_worker.bayton.workers.dev/uploads/2015/04/365.png)
+[![365](https://cdn.bayton.org/uploads/2015/04/365.png)](https://cdn.bayton.org/uploads/2015/04/365.png)
 
 And consolidate it down into a useful mobile-optimised application.
 
@@ -109,7 +109,7 @@ Again, they haven’t. Although it has improved over time and is infinitely bett
 
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-18"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png)](/https://r2_worker.bayton.workers.dev/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png)](/https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png)](/https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png)](/https://cdn.bayton.org/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png) </dt></dl>  
  </div>
  
  Using the Office 365 administration app I can manage users (assign licences, edit names and addresses, etc) but I can’t manage OneDrive, Exchange, configure permissions in Sharepoint libraries, administer Yammer, etc. Again I could go on.
