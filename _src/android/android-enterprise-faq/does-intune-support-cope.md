@@ -8,6 +8,7 @@ type: documentation
 tags: 
     - FAQ
     - COPE
+    - Vendor specific
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
