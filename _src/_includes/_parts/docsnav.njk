@@ -1,52 +1,18 @@
 <div class="aside-title increased-top-padding">
     <h2>Docs</h2>
 </div>
-<details {% if tags.includes("Getting started") %} open="" {% endif %} >
+{% for tag in android_tags %}
+<details {% if tags.includes( tag.name ) %} open="" {% endif %} >
     <summary class="docnav-topic-title">
-        Getting started        
-    </summary>    
-    {% set navPages = collections['Getting started'] | eleventyNavigation %}
-    <ul>
-        {%- for entry in navPages %}
-        <li>
-            <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
-        </li>
-        {%- endfor %}
-    </ul>
-</details>
-<details {% if tags.includes("Diving deeper") %} open="" {% endif %} >
-    <summary class="docnav-topic-title">
-        Diving deeper        
+        {{ tag.name }}       
     </summary>
-    {% set navPages = collections['Diving deeper'] | eleventyNavigation %}
+    {% set taglist = collections[ tag.name ] | eleventyNavigation %}
     <ul>
-        {%- for entry in navPages %}
+    {%- for post in taglist %}
         <li>
-            <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
+            <a {% if post.url == page.url %} class="active"{% endif %} href="{{ post.url }}">{{ post.title }}</a>
         </li>
-        {%- endfor %}
-    </ul>
-</details>
-<details {% if tags.includes("Resources") %} open="" {% endif %} >
-    <summary class="docnav-topic-title">
-            Resources        
-        </summary>
-    <ul>
-        {%- for post in collections['Resources'] -%}
-        <li><a class="{{ 'active' if title == post.data.title }}" href="{{ post.url }}">{{ post.data.title }}</a></li>
-        {%- endfor -%}
-    </ul>
-</details>
-<details {% if tags.includes("Vendor specific") %} open="" {% endif %} >
-    <summary class="docnav-topic-title">
-            Vendor specific        
-        </summary>
-        {% set navPages = collections['Vendor specific'] | eleventyNavigation %}
-    <ul>
-    {%- for entry in navPages %}
-    <li>
-        <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
-    </li>
     {%- endfor %}
     </ul>
 </details>
+{% endfor %}
