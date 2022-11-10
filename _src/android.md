@@ -34,12 +34,12 @@ Android 13 introduces the first new runtime permission change in a while. Read u
 
 ## {{ tag.name }}
 
-{% set taglist = collections[ tag.name ] %}
+{% set taglist = collections[ tag.name ] | eleventyNavigation %}
 <div class="android-topic">
 <ul>
 {% for post in taglist %}
 {% if loop.index0 < 4 %}
-<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
