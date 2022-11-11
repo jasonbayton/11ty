@@ -49,3 +49,9 @@
         const el = document.createElement('pwa-update');
         document.body.appendChild(el);
         </script>
+
+        <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
+        }
+        </script>
