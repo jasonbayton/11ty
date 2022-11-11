@@ -4,6 +4,7 @@
     "icons": [
       {
         "src": "/img/bayton_logos/bayton_square.svg"
+        "purpose": "any"
       },
       {
         "src": "/img/bayton_logos/bayton_square.png",
@@ -23,7 +24,8 @@
     "lang": "en",
     "prefer_related_applications": false,
     "categories": [
-      "technology"
+      "technology",
+      "education"
     ],
     "display_override": [
       "standalone",
