@@ -33,5 +33,17 @@
       "fullscreen",
       "browser",
       "window-controls-overlay"
+    ],
+    "screenshots": [
+      {
+        "src": "/img/desktop_screenshot.png",
+        "sizes": "1280x800",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/mobile_screenshot.png",
+        "sizes": "750x1334",
+        "type": "image/png"
+      }
     ]
   }
