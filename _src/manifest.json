@@ -24,5 +24,12 @@
     "prefer_related_applications": false,
     "categories": [
       "technology"
+    ],
+    "display_override": [
+      "standalone",
+      "minimal-ui",
+      "fullscreen",
+      "browser",
+      "window-controls-overlay"
     ]
   }
