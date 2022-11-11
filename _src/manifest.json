@@ -1,20 +1,27 @@
-{
+  {
     "short_name": "BAYTON",
     "name": "Android Enterpise | Jason Bayton",
     "icons": [
-        {
-            "src": "/img/JasonBayton_black_SMALL.svg"
-          },
-          {
-            "src": "img/64x64.png",
-            "type": "image/png",
-            "sizes": "64x64"
-          }
+      {
+        "src": "/img/bayton_logos/bayton_square.svg"
+      },
+      {
+        "src": "/img/bayton_logos/bayton_square.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
     ],
     "start_url": "/",
     "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#ffffff",
-    "orientation": "any"
+    "theme_color": "#ff4500",
+    "orientation": "any",
+    "description": "Independent Android Enterprise content for everyone",
+    "dir": "ltr",
+    "lang": "en",
+    "prefer_related_applications": false,
+    "categories": [
+      "technology"
+    ]
   }
