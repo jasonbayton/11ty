@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
   eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
   eleventyConfig.addPassthroughCopy({"_src/manifest.json": "/manifest.json"});
-  eleventyConfig.addPassthroughCopy({"_src/sw.js": "/sw.js"});
+  eleventyConfig.addPassthroughCopy({"_src/pwabuilder-sw.js": "/pwabuilder-sw.js"});
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(embedTwitter);
