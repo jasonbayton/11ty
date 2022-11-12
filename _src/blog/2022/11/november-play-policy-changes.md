@@ -3,7 +3,7 @@ title: 'Google Play target API requirements & impact on enterprise applications'
 date: '2022-11-12'
 status: publish
 author: 'Jason Bayton'
-excerpt: "Google is taking a harder stance on "older" applications from 2022. For organisations with enterprise applications this is what you need to know."
+excerpt: 'Google is taking a harder stance on "older" applications from 2022. For organisations with enterprise applications this is what you need to know.'
 type: post
 tags:
     - Enterprise
