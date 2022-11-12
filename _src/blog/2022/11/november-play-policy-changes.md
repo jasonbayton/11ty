@@ -44,12 +44,12 @@ And once granted (almost immediately):
 
 ![Screenshot of Google Play console extension granted](uploads/2022/11/Screenshot2022-11-12at00.48.09.png)
 
+If that fails for any reason, distributing the APK via EMM directly where supported, as reluctant as I would be to recommend it, is still a viable option for organisations that cannot wait for an app to be updated. 
+
 The obviously recommended resolution is to update the application to target a modern API level, though additional considerations need to be evaluated -
 
 - What new policies or requirements exist for the new API level?
 - How is the app affected by targeting a newer API level (the addition of explicit permission requests for example)
 - What features may be lost by targeting a newer API level? Particularly pertinent for older device admin-style applications still clinging on to deprecated functionality
-
-If all else fails, distributing the APK via EMM directly where supported, as reluctant as I would be to recommend it, is still a viable option for organisations that cannot wait for an app to be updated. 
 
 Bringing an application up to a modern target SDK can be frustratingly non-trivial, in spite of the security benefits and additional functionality (whether relevant or not to the application's use case), but it is a necessecary undertaking to maintain a healthy, compatible enterprise application. As Google marches on with ever-stronger policies for app security and compatibility, organisations leaning on Google Play for app distribution must take Google's policies seriously, plan well ahead, and keep on top of application development to avoid issues in the field.
