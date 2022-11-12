@@ -42,7 +42,7 @@ It looks like this:
 
 And once granted (almost immediately):
 
-![Screenshot of Google Play console extension granted](uploads/2022/11/Screenshot2022-11-12at00.48.09.png)
+![Screenshot of Google Play console extension granted](https://cdn.bayton.org/uploads/2022/11/Screenshot2022-11-12at00.48.09.png)
 
 If that fails for any reason, distributing the APK via EMM directly where supported, as reluctant as I would be to recommend it, is still a viable option for organisations that cannot wait for an app to be updated. 
 
