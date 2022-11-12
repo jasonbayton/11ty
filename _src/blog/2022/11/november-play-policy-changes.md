@@ -32,9 +32,9 @@ It's by no means uncommon for applications to simply not turn up on devices, oft
 
 ## What can be done?
 
-The immediate workaround for scenarios where productivity grinds to a halt on newer Android devices would be to apply for an extension within the Google Play console, per Google:
+This timeline has been well-publicised throughout the year, so hopefully any applications relied upon by the November deadline have been updated to align with the new policy. If this isn't the case, and deployments are being affected, the immediate workaround for scenarios where productivity grinds to a halt on newer Android devices would be to apply for an extension within the Google Play console, per Google:
 
-> If you need more time to update your app to target API level 31 or above, you can submit an extension request for your app to continue being discoverable to all Google Play users until May 1, 2023. Check your Play Console Inbox Messages for links to each of your app’s extension forms.
+> If you need more time to update your app to target API level 31 or above, you can submit an extension request for your app to continue being discoverable to all Google Play users **until May 1, 2023**. Check your Play Console Inbox Messages for links to each of your app’s extension forms.
 
 It looks like this: 
 
@@ -44,12 +44,13 @@ And once granted (almost immediately):
 
 ![Screenshot of Google Play console extension granted](https://cdn.bayton.org/uploads/2022/11/Screenshot2022-11-12at00.48.09.png)
 
-If that fails for any reason, distributing the APK via EMM directly where supported, as reluctant as I would be to recommend it, is still a viable option for organisations that cannot wait for an app to be updated. 
+If that fails for any reason, or the timeline of the 6 month extension is not quite enough to get applications up to the standards Google requires, distributing the APK via EMM directly where supported - as reluctant as I would be to recommend it - is still a viable option for organisations that cannot wait for an app to be updated. 
 
-The obviously recommended resolution is to update the application to target a modern API level, though additional considerations need to be evaluated -
+The obviously recommended resolution is to update the application to target a modern API level, though understandably additional considerations need to be evaluated -
 
-- What new policies or requirements exist for the new API level?
+- What new policies or requirements exist for the new API level vs the current targetSDK (there are likely several)
 - How is the app affected by targeting a newer API level (the addition of explicit permission requests for example)
 - What features may be lost by targeting a newer API level? Particularly pertinent for older device admin-style applications still clinging on to deprecated functionality
+- .. and more
 
-Bringing an application up to a modern target SDK can be frustratingly non-trivial, in spite of the security benefits and additional functionality (whether relevant or not to the application's use case), but it is a necessecary undertaking to maintain a healthy, compatible enterprise application. As Google marches on with ever-stronger policies for app security and compatibility, organisations leaning on Google Play for app distribution must take Google's policies seriously, plan well ahead, and keep on top of application development to avoid issues in the field.
+Bringing an application up to a modern targetSDK can be frustratingly non-trivial, in spite of the security benefits and additional functionality (whether relevant or not to the application's use case), but it is a necessecary undertaking to maintain a healthy, compatible enterprise application. As Google marches on with ever-stronger policies for app security and compatibility, organisations leaning on Google Play for app distribution must take Google's policies seriously, plan well ahead, and keep on top of application development to avoid issues in the field.
