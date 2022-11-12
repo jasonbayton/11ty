@@ -16,7 +16,7 @@ In the last few years, use of Google Play with it's many benefits for applicatio
 
 Play policies around minimum targetSDK version have been around for a few years, but this year marks a significant change to the behaviour of applications that fail to keep pace, that will significantly impact app deployment for managed estates.
 
-As described in [this blog post](https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html) and [this help article](https://support.google.com/googleplay/android-developer/answer/11926878), applications that do not target API level of 30 (Android 11) or higher in 2022 (and going forward year on year, maintain at minimum n-2 target SDK) will no longer be available to newer Android devices. 
+As described in [this blog post](https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html) and [this help article](https://support.google.com/googleplay/android-developer/answer/11926878), applications that do not target API level of 30 (Android 11) or higher in 2022 (and going forward year-on-year, maintain at minimum n-2 target SDK) will no longer be available to newer Android devices. 
 
 ## What does that mean?
 
@@ -28,7 +28,7 @@ If an application targets API level 29 or lower as of November 2022, it will no 
 
 When debugging the app installation, or lack thereof, logs should show failure to install due to a compatibility issue. 
 
-It's by no means uncommon for applications to simply not turn up on devices, oftentimes this is due to a geo-restriction set by the developer, a permission issue (where an app may require a camera on a device without one), or a genuine compatibility problem (32bit apps on 64bit OS, for example). This latest change simply adds one more reason as to why an app may not be installing on-device.
+It's by no means uncommon for applications to simply not turn up on devices, often this is due to a geo-restriction set by the developer, a permission issue (where an app may require a camera on a device without one), or a genuine compatibility problem (32bit apps on 64bit OS, for example). This latest change simply adds one more reason as to why an app may not be installing on-device.
 
 ## What can be done?
 
