@@ -3,7 +3,7 @@ title: 'Sunsetting Discuss comment platform'
 date: '2022-11-02'
 status: publish
 author: 'Jason Bayton'
-excerpt: "With the new website and lack of use, the Discuss comments platform is being shut down"
+excerpt: "With the new website and lack of use, the Discuss comments platform is being shut down."
 type: post
 tags:
     - Meta
