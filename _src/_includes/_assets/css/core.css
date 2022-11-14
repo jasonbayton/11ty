@@ -18,9 +18,9 @@
   --bright: #CFCFCF;
   --text: #cfcfcf;
   --background: #000000;
-  --blue: #00284c;
+  --blue: #00284d;
   --orange: #ce3800;
-  --brand-background: #00284c;
+  --brand-background: #00284d;
   --brand-text: #cfcfcf;
 }
 
@@ -40,7 +40,7 @@
     --text: #cfcfcf;
     --background: #000000;
     --blue: #00284c;
-    --brand-background: #00284c;
+    --brand-background: #00284d;
     --brand-text: #cfcfcf;
 
 }
@@ -77,7 +77,7 @@
     --text: #cfcfcf;
     --background: #000000;
     --blue: #00284c;
-    --brand-background: #00284c;
+    --brand-background: #00284d;
     --brand-text: #cfcfcf;
 
   }
