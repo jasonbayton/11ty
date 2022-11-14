@@ -439,6 +439,10 @@ section#page_content {
   font-weight: 400;
 }
 
+.post-summary {
+  opacity: 0.7;
+}
+
 .post-meta {
   padding: 10px 0;
   display: block;
