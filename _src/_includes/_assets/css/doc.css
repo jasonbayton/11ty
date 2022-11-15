@@ -105,6 +105,46 @@ a.gitlog-title {
     font-weight: 600;
 }
 
+.search-results a:hover {
+  opacity: 0.8;
+}
+
+.search-results h2 {
+  margin-bottom: 0.5rem;
+}
+
+.search-results p:not(.search-no-results) {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.search-no-results {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+#search-field {
+  position: relative;
+}
+/* Search input spinner */
+#debouncing {
+  position: absolute;
+  top: 2.2rem;
+  right: 1.2rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: conic-gradient(#0000 1%, #444);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+  animation: spinner 500ms infinite linear;
+}
+@keyframes spinner {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
 .year-heading {
     font-weight: 900;
 }
