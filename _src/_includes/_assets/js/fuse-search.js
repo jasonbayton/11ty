@@ -1,3 +1,41 @@
+const deleteSpinner = () => {
+  const debouncing = document.getElementById("debouncing");
+
+  if (debouncing) debouncing.remove();
+};
+
+const debounce = (func) => {
+  let timeout;
+
+  return function execute(...args) {
+    // Empty search, remove spinner
+    if (document.getElementById("searchField").value.trim() === "") {
+      deleteSpinner;
+      clearTimeout(timeout);
+    } else if (!document.getElementById("debouncing")) {
+      const searchResultsElement = document.getElementById("search-field");
+
+      const loading = document.createElement("p");
+      loading.ariaLabel = "loading";
+      loading.id = "debouncing";
+
+      searchResultsElement.appendChild(loading);
+    }
+
+    // Run function
+    const later = () => {
+      clearTimeout(timeout);
+      deleteSpinner();
+
+      func(...args);
+    };
+
+    // Clear older timeout before attemping to run
+    clearTimeout(timeout);
+    timeout = setTimeout(later, 150);
+  };
+};
+
 document.addEventListener("DOMContentLoaded", async () => {
   let searchData = null;
 
@@ -8,7 +46,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       searchData = data;
     })
     .catch((err) => {
-      console.warn(err);
+      console.warn("Fetch error", err);
     });
 
   // No search possible without data
@@ -18,8 +56,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const searchOptions = {
     includeMatches: true,
     ignoreLocation: true,
-    threshold: 0.1,
-    keys: ["title"],
+    // Needs to be a strict match
+    threshold: 0.0,
+    keys: ["title", "content"],
   };
 
   // Init fuse
@@ -33,7 +72,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Get search from URL
   const urlQuery = new URLSearchParams(window.location.search);
-  const searchString = urlQuery.get("s");
+  const searchString = urlQuery.get("q");
 
   // If search was found, apply it
   if (searchString) {
@@ -42,28 +81,32 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   // Watch key evets on search input
-  searchInput.addEventListener("keyup", function () {
-    // Get search value
-    const searchValue = searchInput.value.trim();
+  searchInput.addEventListener(
+    "keyup",
+    debounce(function () {
+      // Get search value
+      const searchValue = searchInput.value.trim();
 
-    // Handle URL
-    if (searchValue === "") {
-      // Remove URL query as search is empty
-      urlQuery.delete("s");
-      window.history.replaceState({}, "", `${window.location.pathname}`);
-    } else {
-      // Set URL query
-      urlQuery.set("s", searchValue);
-      window.history.replaceState(
-        {},
-        "",
-        `${window.location.pathname}?${urlQuery}`
-      );
-    }
+      // Handle URL
+      if (searchValue === "") {
+        // Remove URL query as search is empty
+        urlQuery.delete("q");
+        window.history.replaceState({}, "", `${window.location.pathname}`);
+        deleteSpinner();
+      } else {
+        // Set URL query
+        urlQuery.set("q", searchValue);
+        window.history.replaceState(
+          {},
+          "",
+          `${window.location.pathname}?${urlQuery}`
+        );
+      }
 
-    // Run search
-    handleSearch(searchValue);
-  });
+      // Run search
+      handleSearch(searchValue);
+    })
+  );
 
   // Method to handle new searches
   async function handleSearch(searchString) {
@@ -94,6 +137,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       // Create paragraph element
       const p = document.createElement("p");
 
+      p.className = "search-no-results";
       p.textContent = `No results found`;
 
       searchResultsElement.appendChild(p);
@@ -106,22 +150,88 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       // Loop through results
       results.forEach((result) => {
+        // Get title of match
+        const title = result.item.title;
+
         // Create a list item and link for result
         const li = document.createElement("li");
         const a = document.createElement("a");
+        const h2 = document.createElement("h2");
+        const p = document.createElement("p");
 
-        const title = result.item.title;
+        let highlightedTitle;
+        let highlightedContent;
 
-        // Highlight match
-        const highlightedTitle = title.replace(
-          new RegExp(`(${searchString})`, "gi"),
-          "<u><b>$1</b></u>"
-        );
+        // Loop through matches
+        result.matches.forEach((match) => {
+          const { key, value } = match;
 
-        // Set links title and url
-        a.innerHTML = highlightedTitle;
-        a.title = title;
-        a.href = result.item.url;
+          // Matches title
+          if (key === "title") {
+            // Highlight match
+            highlightedTitle = value.replace(
+              new RegExp(`(${searchString})`, "gi"),
+              "<u><b>$1</b></u>"
+            );
+          } else {
+            const exec =
+              new RegExp(`(${searchString})`, "gi").exec(value) ?? {};
+            const matchIndex = exec.index;
+
+            if (matchIndex) {
+              const wrapperLength = 100;
+
+              const start = matchIndex - wrapperLength;
+
+              if (start < 0) {
+                // Matches content
+                highlightedContent =
+                  value
+                    .substring(
+                      0,
+                      matchIndex + searchString.length + wrapperLength
+                    )
+                    .replace(
+                      new RegExp(`(${searchString})`, "gi"),
+                      "<u><b>$1</b></u>"
+                    ) + "...";
+              } else {
+                const substring = value.substring(
+                  matchIndex - wrapperLength,
+                  matchIndex + searchString.length + wrapperLength
+                );
+
+                const array = substring.split(" ");
+                array.shift();
+
+                // Matches content
+                highlightedContent =
+                  "... " +
+                  array
+                    .join(" ")
+                    .replace(
+                      new RegExp(`(${searchString})`, "gi"),
+                      "<u><b>$1</b></u>"
+                    ) +
+                  "...";
+              }
+            }
+          }
+
+          // Set title
+          h2.innerHTML = highlightedTitle ?? title;
+
+          // Set links title and url
+          a.title = title;
+          a.href = result.item.url;
+        });
+
+        a.appendChild(h2);
+
+        if (highlightedContent) {
+          p.innerHTML = highlightedContent;
+          a.appendChild(p);
+        }
 
         li.appendChild(a);
         ul.appendChild(li);
