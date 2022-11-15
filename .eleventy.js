@@ -91,6 +91,10 @@ eleventyConfig.setLibrary("md", markdownLibrary);
   });
 
 // filter posts
+  eleventyConfig.addFilter("offset", function (collection, amount) {
+    return collection.slice(amount);
+  });
+
   eleventyConfig.addFilter("parseContent", (content) => {
     // Remove tags from content
     return (
