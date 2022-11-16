@@ -10,7 +10,8 @@ const embedTwitter = require("eleventy-plugin-embed-twitter");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
-const pluginTOC = require('eleventy-plugin-toc');
+const pluginTOC = require("eleventy-plugin-toc");
+const striptags = require("striptags");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -91,8 +92,23 @@ eleventyConfig.setLibrary("md", markdownLibrary);
   });
 
 // filter posts
-  eleventyConfig.addFilter('offset', function(collection, amount) {
-    return collection.slice(amount)
+  eleventyConfig.addFilter("offset", function (collection, amount) {
+    return collection.slice(amount);
+  });
+
+  eleventyConfig.addFilter("parseContent", (content) => {
+    // Remove tags from content
+    return (
+      striptags(content.substring(0, 500))
+        // Handle new lines
+        .replaceAll(/(\r\n|\n|\r)/gm, " ")
+        // Handle scaping
+        .replaceAll("\\", "\\\\")
+        // Handle control characters
+        .replaceAll(/[\u0000-\u001F\u007F-\u009F]/g, "")
+        // Remove html space entity
+        .replaceAll("&nbsp;", " ")
+    );
   });
 
 // 11ty output

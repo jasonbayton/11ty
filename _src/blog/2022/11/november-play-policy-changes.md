@@ -12,7 +12,7 @@ It's no secret many organisations struggle to keep pace with Google's Play Polic
 
 Equally common are how these applications have historically been distributed; through EMM solutions as APK files pushed to devices, rather than leaning on Google Play. 
 
-In the last few years, use of Google Play with it's many benefits for application distribution has been on the rise in enterprise; be that through the use of the Play Console directly for established developers, the EMM-integrated Google Play iFrame (_which is yet still to support app bundles, Google_), or the [Custom app publishing API](https://developers.google.com/android/work/play/custom-app-api/get-started) for simplified uploading of private applications with substantially fewer policies to adhere to. That said, some policies do still apply, and minimum targetSDK is one of them.
+In the last few years however, use of Google Play with it's many benefits for application distribution has been on the rise in enterprise; be that through the use of the Play Console directly for established developers, the EMM-integrated Google Play iFrame (_which is yet still to support app bundles, Google_), or the [Custom app publishing API](https://developers.google.com/android/work/play/custom-app-api/get-started) for simplified uploading of private applications with substantially fewer policies to adhere to. That said, some policies do still apply, and minimum targetSDK is one of them.
 
 Play policies around minimum targetSDK version have been around for a few years, but this year marks a significant change to the behaviour of applications that fail to keep pace, that will significantly impact app deployment for managed estates.
 

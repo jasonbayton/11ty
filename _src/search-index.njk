@@ -6,7 +6,8 @@ eleventyExcludeFromCollections: yes
   {% for post in collections.all %}
     {
       "title":"{{ post.data.title }}",
-      "url":"{{ post.url }}"
+      "url":"{{ post.url }}",
+      "content": "{{ post.templateContent | parseContent }}"
     },
   {% endfor %}
 {}
