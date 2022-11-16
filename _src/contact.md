@@ -13,8 +13,20 @@ post_views_count:
 publish_post_category:
     - '1'
 ---
-Get in touch!
--------------
+Here's a non-exhaustive list of places to find me. These aren't regularly updated. 
 
-You can send me an [email](mailto:jason@bayton.org) or call me on **+44 (0) 7975 537 754**  
-[Tweet me](https://twitter.com/jasonbayton), or find me on [LinkedIn](https://linkedin.com/in/jasonbayton)
+Email: [jason@bayton.org](mailto:jason@bayton.org)  
+Phone: [+447975537754](tel:+447975537754)  
+LinkedIn: [/in/jasonbayton](https://linkedin.com/in/jasonbayton)  
+Twitter: [@jasonbayton](https://twitter.com/jasonbayton)  
+Mastodon: [@bayton@fosstodon.org](https://fosstodon.org/@bayton)  
+WhatsApp: +447975537754  
+Telegram: [JasonBayton](https://t.me/JasonBayton)  
+Signal: +447975537754  
+Instagram: [baytonjason](https://instagram.com/baytonjason)  
+YouTube: [JasonBayton](https://youtube.com/@jasonbayton) 
+
+MobilePros Slack: [Join here](https://join.slack.com/t/mobilxperts/shared_invite/zt-3wrzh2o5-e5w8qSyiGF8AcH8_VErDCg)  
+MobilePros Telegram: [Join here](https://t.me/Mobile_Pros)
+
+I do occasionally pop up elsewhere also!
