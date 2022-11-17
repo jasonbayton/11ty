@@ -8,10 +8,6 @@ type: page
 tags: 
 layout: base.njk
 id: 426
-post_views_count:
-    - '1469'
-publish_post_category:
-    - '1'
 ---
 Here's a non-exhaustive list of places to find me. These aren't regularly updated. 
 
