@@ -9,7 +9,7 @@ tags:
 layout: base.njk
 id: 426
 ---
-Here's a non-exhaustive list of places to find me. These aren't regularly updated. 
+Here's a non-exhaustive list of ways to contact me. These aren't regularly updated. 
 
 Email: [jason@bayton.org](mailto:jason@bayton.org)  
 Phone: [+447975537754](tel:+447975537754)  
