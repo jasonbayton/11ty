@@ -5,5 +5,5 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: page
-permalink: none
+permalink: false
 ---
