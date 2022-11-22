@@ -58,3 +58,16 @@ self.addEventListener('sync', function(event) {
     event.waitUntil(doSomeStuff());
   }
 });
+
+navigator.serviceWorker.ready.then((registration) => {
+  registration.periodicSync.getTags().then((tags) => {
+    if (tags.includes('get-latest-news'))
+      skipDownloadingLatestNewsOnPageLoad();
+  });
+});
+
+self.addEventListener('periodicsync', (event) => {
+  if (event.tag === 'get-latest-news') {
+    event.waitUntil(fetchAndCacheLatestNews());
+  }
+});
