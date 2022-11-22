@@ -58,15 +58,4 @@
         navigator.serviceWorker.ready.then(function(swRegistration) {
         return swRegistration.sync.register('myFirstSync');
         });
-
-        async function registerPeriodicNewsCheck() {
-        const registration = await navigator.serviceWorker.ready;
-        try {
-        await registration.periodicSync.register('get-latest-news', {
-        minInterval: 24 * 60 * 60 * 1000,
-        });
-        } catch {
-        console.log('Periodic Sync could not be registered!');
-        }
-        }
         </script>
