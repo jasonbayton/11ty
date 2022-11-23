@@ -31,7 +31,7 @@ self.addEventListener('install', async (event) => {
   event.waitUntil(
     caches.open(CACHE)
       .then((cache) => {
-        cache.add(new Request(offlineFallbackPage, { cache: "reload" }));
+        cache.add(new Request(offlineFallbackPage));
       })
   );
 });
