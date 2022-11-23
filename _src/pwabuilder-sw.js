@@ -8,6 +8,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox
 const offlineFallbackPage = [
   '/offline.html',
   '/',
+  '/android/',
   '/css/core.css',
   '/css/doc.css',
   '/css/all.css',
