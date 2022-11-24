@@ -22,9 +22,9 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 <div class="callout callout-danger">
 
-### Android 13's notification runtime permission
+### Google Play Policy changes
 
-Android 13 introduces the first new runtime permission change in a while. Read up on the newest enterprise-impacting addition to Android [here](/android/android-13-notification-permission). 
+November 2022 has arrived, which means enterprise apps need to be updated, or risk not being able to deploy to newly-enrolled devices. More [here](/blog/2022/11/november-play-policy-changes/). 
 
 </div>
 
