@@ -29,7 +29,7 @@ MDM enables:
 - The ability to find lost or stolen devices at a moment’s notice
 - ..and much more
 
-More than this, it helps the organisation to help the end user; tasks such as resetting the **PIN** or **password**, blocking the use of **dangerous applications** and **remotely wiping** a device (should it be necessary) are available at the push of a button; not only for MDM administrators, but via user portals users are able to do some of these functions themselves, meaning resolutions to issues historically complex and time consuming can be almost immediate and with or without the involvement of IT.
+More than this, it helps the organisation to help the end user; tasks such as resetting the **PIN** or **password**, blocking the use of **dangerous applications** and **remotely wiping** a device (should it be necessary) are available at the push of a button; not only for MDM administrators, but via user portals users are able to do some of these functions themselves, meaning resolutions to issues historically complex and time-consuming can be almost immediate and with or without the involvement of IT.
 
 Some configurations available to devices (where the OS supports them) include:
 
@@ -51,11 +51,11 @@ Robust reporting modules built into today’s MDM platforms mean organisations c
 What problems does it solve?
 ----------------------------
 
-Before investing in and MDM platform, an organisation will naturally need to understand the problems it solves and benefits it introduces. MDM can and does solve very real problems on a daily basis:
+Before investing in an MDM platform, an organisation will naturally need to understand the problems it solves and benefits it introduces. MDM can and does solve very real problems on a daily basis:
 
 **Apple Activation lock (find my iPhone):** When a phone is handed to an employee without management and that employee leaves without fully signing out of the device, the device is entirely inaccessible after a factory reset without the original employee Apple ID password. Organisations globally spend hundreds, potentially thousands of hours a year working with Apple to prove they own the devices in question in order to gain an Activation Lock bypass code. With MDM and Supervision, activation lock can be disabled, completely rendering this issue entirely moot.
 
-**Lost and stolen:** When an unmanaged devices goes missing, Organisations don’t know where it is, whether it’s suitably protected against unauthorised access and cannot remotely wipe potentially sensitive information from device storage. Depending on the access granted to the employee or their status within the company (think CEO) a device may well hold critically sensitive data. With MDM, not only can the corporate data be secure on the device, it can be completely removed or the device fully wiped as soon as it comes back online. In best-case scenarios, the device can be located and collected if location reporting is enabled.
+**Lost and stolen:** When an unmanaged device goes missing, Organisations don’t know where it is, whether it’s suitably protected against unauthorised access and cannot remotely wipe potentially sensitive information from device storage. Depending on the access granted to the employee or their status within the company (think CEO) a device may well hold critically sensitive data. With MDM, not only can the corporate data be secure on the device, it can be completely removed or the device fully wiped as soon as it comes back online. In best-case scenarios, the device can be located and collected if location reporting is enabled.
 
 **Data protection:** When an unmanaged device is used for business purposes, the employee may collect gigabytes of corporate data stored openly on the device. The device may not be encrypted, may run compromised applications or be vulnerable to any number of known vulnerabilities. This data can be emails, downloads, data copies via USB from corporate machines or more. When that employee leaves, and organisation can prevent further access to corporate resources, but cannot remove the data already on the device. With MDM, managed email, content management and secure device profile or device-wide encryption can not only ensure data on a device is encrypted and optionally containerised, but remove that data on device unenrolment.
 
@@ -70,7 +70,7 @@ The MDM solution is a platform used to provide support to mobile devices anywher
 
 As soon as a device is enrolled it becomes a managed endpoint and policies/configurations will be automatically pushed down. The single first indication of device management will normally be prompting the user to set up a PIN or password depending on the policy applied to their device. Devices do not have to be returned to base for new applications or settings to be applied and similarly, if an end user does not for any reason comply with the changes pushed out or the device is lost/stolen, there are a number of ways to utilise the inbuilt security features of an MDM solution to rectify the situation. Here are some examples of the tools MDM administrators have at their disposal:
 
-**PIN reset:** Occasionally a user may forget their PIN or password. Through MDM it is very easy to reset the PIN and have the user back up and running on their device in a fraction of the time of alternative methods. In a lot of situations, a user might end up completely resetting their device to factory settings either through too many wrong PIN combinations or intentionally to regain access to the device, causing significant impact on daily responsibilities whilst the device is set back up. With MDM, this is no longer a worry.
+**PIN reset:** Occasionally a user may forget their PIN or password. Through MDM, it is very easy to reset the PIN and have the user back up and running on their device in a fraction of the time of alternative methods. In a lot of situations, a user might end up completely resetting their device to factory settings either through too many wrong PIN combinations or intentionally to regain access to the device, causing significant impact on daily responsibilities whilst the device is set back up. With MDM, this is no longer a worry.
 
 **Alerts:** If an end user becomes non-compliant with policies and compliance rules in place, alerts can be triggered to inform those requested of the action that triggered the non-compliant state.
 
@@ -88,11 +88,11 @@ As soon as a device is enrolled it becomes a managed endpoint and policies/confi
 
 ### Configuration deployment
 
-As noted at the beginning of this topic, the range of configurations or policies which can be pushed to devices is broad and granular. Some devices may have GPS enforced for location data requirements, others may have all external radios bar WIFI disabled when used as a display device in a store or tethered to an office location. Email configurations, VPN, managed app configs, passcode requirements (including how long before a device sleeps, how many failed attempts before a wipe, etc) can all be pushed remotely and with relative ease.
+As noted at the beginning of this topic, the range of configurations or policies which can be pushed to devices is broad and granular. Some devices may have GPS enforced for location data requirements, others may have all external radios bar Wi-Fi disabled when used as a display device in a store or tethered to an office location. Email configurations, VPN, managed app configs, passcode requirements (including how long before a device sleeps, how many failed attempts before a wipe, etc) can all be pushed remotely and with relative ease.
 
 Combined with geofencing, time-scheduling and more, a device can be completely locked down during the day, and opened up completely in the evening should an employee be located in a secure facility, for example. For those in less demanding environments, the MDM admin may just opt to block YouTube during work hours.
 
-Both Apple and Google offer ways of further locking down corporate devices; [Apple’s Supervision](/docs/enterprise-mobility/ios/what-is-ios-supervision-and-why-is-it-used/) can be enabled via IT or by enrolling in the Device Enrolment Program (DEP) and allows organisations to disable such things as Activation lock, Facetime/iMessage, the ability to factory reset and more. While Google have introduced [Android Enterprise](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) to allow organisations to manage many different Android OEMs consistently, something that has oft been a pain point for organisations. More information about these management options can be found in the links in this paragraph.
+Both Apple and Google offer ways of further locking down corporate devices; [Apple’s Supervision](/docs/enterprise-mobility/ios/what-is-ios-supervision-and-why-is-it-used/) can be enabled via IT or by enrolling in the Device Enrolment Program (DEP) and allows organisations to disable such things as Activation lock, Facetime/iMessage, the ability to factory reset and more. While Google has introduced [Android Enterprise](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) to allow organisations to manage many different Android OEMs consistently, something that has oft been a pain point for organisations. More information about these management options can be found in the links in this paragraph.
 
 ### Application management
 
@@ -137,7 +137,7 @@ Taking this a step further, 3rd party TEM solutions are available which integrat
 
 ### Content management
 
-Often email alone is not enough; when organisations have large data repositories internally they may wish for enrolled devices to gain secure access to them through the EMM platform. These repositories may be file shares, Sharepoint sites, any combination of common file sharing protocols such as SMB/CIFs, NFS, (s)FTP and more. Once setup and configured, EMM-managed devices can gain secure access to these resources while not being able to copy or share sensitive data outside of the secure EMM area of their devices.
+Often email alone is not enough; when organisations have large data repositories internally they may wish for enrolled devices to gain secure access to them through the EMM platform. These repositories may be file shares, Sharepoint sites, any combination of common file sharing protocols such as SMB/CIFs, NFS, (s)FTP and more. Once setup and configured, EMM-managed devices can gain secure access to these resources while not being able to copy or share sensitive data outside the secure EMM area of their devices.
 
 Naturally for smaller environments, documents can be uploaded to the EMM platform, optionally password protected and distributed or removed on request. No backend infrastructure required.
 
