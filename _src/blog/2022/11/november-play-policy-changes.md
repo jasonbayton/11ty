@@ -8,6 +8,11 @@ type: post
 tags:
     - Enterprise
 ---
+<div class="callout">
+<h3>Update 12/22</h3>
+Google has since relaxed the timeline for when the November changes take place. Developers now have until 31/01/2023. Furthermore, permanently private applications, such as those made private in the Play console, as well as those uploaded via the API or managed Google Play iFrame, are <strong>exempt</strong> from this policy change.
+</div>
+
 It's no secret many organisations struggle to keep pace with Google's Play Polices, often relying on applications built years prior benefitting from few updates to maintain minimum viable compatibility, eventually either breaking for newer devices, or having updates rejected for policy violations corresponding to app behaviour that was never an issue when the application was first uploaded.
 
 Equally common are how these applications have historically been distributed; through EMM solutions as APK files pushed to devices, rather than leaning on Google Play. 
@@ -20,11 +25,12 @@ As described in [this blog post](https://android-developers.googleblog.com/2022/
 
 ## What does that mean?
 
-If an application targets API level 29 or lower as of November 2022, it will no longer be discoverable or installable through Google Play (the on-device Play app) for new users with devices on Android 11 or above, and therefore distributing an application with a lower targetSDK will simply never turn up on new devices. What this means in practice for applications distributed for enterprise is -
+If an application targets API level 29 or lower as of ~~November 2022~~ February 2023, it will no longer be discoverable or installable through Google Play (the on-device Play app) for new users with devices on Android 11 or above, and therefore distributing an application with a lower targetSDK will simply never turn up on new devices. What this means in practice for applications distributed for enterprise is -
 
 - Existing devices remain unaffected
 - New devices enrolled running Android 10 or lower will receive the application without issue
 - New devices enrolled running Android 11 or later will _not_ receive the application, and will not see it within managed Google Play either
+- Permanently private apps remain unaffected, ie those uploaded and targeted to an organisation if via Google Play console, or anything uploaded through the managed Google Play iFrame
 
 When debugging the app installation, or lack thereof, logs should show failure to install due to a compatibility issue. 
 
