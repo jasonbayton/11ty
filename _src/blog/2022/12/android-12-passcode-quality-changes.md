@@ -5,9 +5,11 @@ status: publish
 author: 'Jason Bayton'
 excerpt: "Google's long-anticipated changes to passcode complexity requirements for BYOD devices are here, and they're frustrating."
 type: post
+
 tags:
     - Enterprise
 permalink: false
+
 ---
 
 It's here. The passcode complexity changes Google announced [here](https://blog.google/products/android-enterprise/android-12-developer-preview/) and [here](https://developer.android.com/work/versions/android-12#work) with Android 12 for WPoPOD (work profile on personally owned devices) are rolling out to mostly-unsuspecting organisations as EMMs begin targeting API level 31 with their DPCs. 
