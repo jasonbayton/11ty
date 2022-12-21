@@ -9,6 +9,7 @@ tags:
     - Enterprise
 permalink: false
 ---
+I last did [one of these](https://bayton.org/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/) in 2019, and very little has come to fruition from my previous list.. so it's obviously time to do one again!
 
 It's been a pretty quiet year for enterprise features in Android; not to suggest what [was released](https://developer.android.com/work/versions/android-13) wasn't welcomed (Wi-Fi features in particular were long-overdue!), but compared to years prior there were no big-hitters that really stood out. 
 
@@ -38,3 +39,18 @@ Another was Webview (108) causing considerable go-slows until patched shortly af
 As more applications - system and public - are pushed from Google Play, organisations need more granular options for not only managing the known apps, but those included as system apps either from Google or the OEM.
 
 Should organisations be expected to undertake regular system app audits, and roll out policies per manufacturer to manage this? Probably not. 
+
+## Ephemeral users
+
+## Work & Personal SIM management (again)
+
+## More AMAPI scopes (companion app control)
+
+## Improve Play approval process
+
+## WPoFMD
+Just bring it back. 
+
+## Remember DPC migration?
+
+## More logging 
