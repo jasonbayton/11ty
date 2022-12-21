@@ -46,7 +46,7 @@ Should organisations be expected to undertake regular system app audits, and rol
 
 ## More AMAPI scopes (companion app control)
 
-## Improve Play approval process
+## Make the Google Play approval process suck less
 
 ## WPoFMD
 Just bring it back. 
@@ -54,3 +54,22 @@ Just bring it back.
 ## Remember DPC migration?
 
 ## More logging 
+
+## App launch after enrolment 
+
+## Native APIs
+- Battery optimisation
+- Accessibility
+- ....
+
+## AE across other Android flavours
+- WearOS
+- ...
+
+## MAERGA!
+Android Enterprise Recommended lost one of the greatest defining requirements of the recommendation when Google dropped the minimum update requirement. Add it back, and a few other new requirements also.
+
+## AMAPI feature parity with PlayEMM API
+
+## Multi-work profile support 
+It's a staple of these wishlists.
