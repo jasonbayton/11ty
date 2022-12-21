@@ -80,8 +80,10 @@ To echo my views on WPoFMD, this should have been an _option_, not a requirement
 
 ## Closing thoughts
 
-The biggest frustration I have with thsi is the loss of choice. A theme I fear is popping up too frequently for an OS known and marketed for it's flexibility and ability to adapt to how people want to use it.
+The biggest frustration I have with this is the loss of choice. A theme I fear is popping up too frequently for an OS known and marketed for it's flexibility and ability to adapt to how people want to use it. 
+
+Google could have added these complexity offerings as an additional option, but has chosen to deprecate and replace instead.
 
 Alone, complexity buckets will undoubtedly add value for inexperienced or blissfully ignorant organisation admins with a purely-BYOD estate who want a quick, low-effort password policy to enforce on devices, but that's where the usefulness of these buckets stops.
 
-Going forward when I'm engaging with deployments, not only do I lose the flexibility to define the password policy for devices I want to - given the fixed nature of these buckets - but I'll have to explain why every OS and Android deployment scenario provides a reasonably consistent password policy experience except BYOD Android, which has to be defined & configured separately. Wild.
+Going forward when I'm engaging with deployments, not only do I lose the flexibility to define the password policy for devices I want to - given the fixed nature of these buckets - but I'll have to explain why every OS and Android deployment scenario provides a reasonably consistent password policy experience except work profiles on personally owned devices, which has to be defined & configured separately. Wild.
