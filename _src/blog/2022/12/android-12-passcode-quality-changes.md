@@ -1,30 +1,29 @@
 ---
-title: "Thoughts on Android 12's passcode complexity changes"
+title: "Thoughts on Android 12's password complexity changes"
 date: '2022-12-19'
 status: publish
 author: 'Jason Bayton'
-excerpt: "Google's long-anticipated changes to passcode complexity requirements for BYOD devices are here, and they're frustrating."
+excerpt: "Google's long-anticipated changes to device passcode complexity requirements for BYOD devices are here, and they're frustrating."
 type: post
-permalink: false
 tags:
     - Enterprise
 ---
 
-It's here. The passcode complexity changes Google announced [here](https://blog.google/products/android-enterprise/android-12-developer-preview/) and [here](https://developer.android.com/work/versions/android-12#work) with Android 12 for WPoPOD (work profile on personally owned devices) are rolling out to mostly-unsuspecting organisations as EMMs begin targeting API level 31 with their DPCs. 
+The passcode complexity changes Google announced [here](https://blog.google/products/android-enterprise/android-12-developer-preview/) and [here](https://developer.android.com/work/versions/android-12#work) with Android 12 for WPoPOD (work profile on personally owned devices) are rolling out to mostly-unsuspecting organisations as EMMs begin targeting API level 31 with their DPCs. 
 
 I'll be honest, I didn't consider this to be much of a big deal. Having caught the announcement back last year I assumed it would be logically, thoughtfully implemented with reasonable defaults, and wouldn't have much of an impact on organisations.
 
 I was wrong. 
 
-The same folks who brought us the chaos of deprecating work profiles on fully managed devices in Android 11 have opted to once again force through changes with little thought or consideration for the many, many organisations already leveraging Android today, and have done so in a way that harbours frustration and fragmentation for managed estates.
+Unfortunately, the same team that [introduced and killed off](https://bayton.org/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) work profiles on fully managed devices in the space of a year have opted to once again force through changes with little thought or consideration for the many, many organisations already leveraging Android today, and have done so in a way that harbours frustration and fragmentation for managed estates.
 
 ## What's changed?
 
 The technically minded may find it interesting to read through the developer docs for Android 12 [here](https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setRequiredPasswordComplexity(int)) and a reference to changes with AMAPI [here](https://developers.google.com/android/management/reference/rest/v1/PasswordRequirements#passwordquality), but to summarise it:
 
-Google's PasswordQuality APIs replace the traditional, decade+ old password complexity policies with a solution that is supposed to simplify passcode management and free organisations of the tyranny of choice.
+Google's newest password complexity APIs replace the traditional, decade+ old password complexity options with a solution that is intended to simplify password management and free organisations of the tyranny of choice.
 
-Rather than selecting an already clearly-defined policy such as complex numeric and inputting 6 for number of required digits, or alphanumeric and optionally defining a minimum number of letters, numbers, and special characters, Google has created three buckets to do some of this for you:
+Rather than selecting one of the existing complexity options, such as complex numeric combined with a minimum number of required digits, or alphanumeric and optionally defining a minimum number of letters, numbers, and special characters, Google has created three buckets that offer Google-recommended, pre-defined and uneditable complexity options that create a "complete" password complexity policy simply by selecting it. These are as follows:
 
 > **COMPLEXITY_LOW**  
 > Define the low password complexity band as:
@@ -53,28 +52,36 @@ Rather than selecting an already clearly-defined policy such as complex numeric 
 > 
 > _[via](https://developers.google.com/android/management/reference/rest/v1/PasswordRequirements#passwordquality)_
 
+As can be seen, all flexibility of custom policy definition is removed in favour of the above pre-determined options that Google suggests are acceptable for modern Android management.
+
 ## Problems with execution
 
-Putting aside the complexity definitions which I find very much contestable (4 digit PIN as "medium"?), let's look at some of the frustrations this is causing organisations based on the conversations I've had over the last few weeks.
+Putting aside the complexity bucket definitions I find very much contestable (4 digit PIN as "medium"?), let's look at some of the frustrations this is causing organisations based on the conversations I've had over the last few weeks.
 
-### It applies to BYO (work profiles on personally owned) devices only
+### It introduces policy fragmentation
 
-And only the device passcode. The work profile passcode (work challenge) still relies on password complexity. 
+The new complexity options apply only to BYO (work profiles on personally owned) devices, and only the device password. The work profile password (work challenge) still relies on password complexity. 
 
-Fully managed devices are unaffected by the change, and COPE (work profile on company owned) devices are out of scope at the moment; Google intends to expand to these at a later date, but with no public ETA that is subject to change. As such, the _deprecated_ password complexity policies are required here as well for both device and work profile.
+Fully managed (including dedicated) devices aren't impacted by the change, and COPE (work profile on company owned) devices are out of scope at the moment; Google intends to expand to these at a later date as [referenced in this doc](https://cdn.bayton.org/download/doc/ae-general/simplifying_password_quality_in_android_12.pdf), but with no public ETA that is subject to change, if it goes ahead at all based on ecosystem feedback so far. 
 
-This fragmented approach to password policies arguably does more to increase overhead than the intended reduction Google touts as motive behind the changes.
+So Google have deprecated existing password complexity options in favour of new, simplified offerings, but they only apply explicitly today to the _device_ password on a personally owned device running a work profile. Every other aspect of password management across AE deployment scenarios still mandates the use of the _old_ complexity options.
+
+This fragmented approach to password policies arguably does more to increase overhead than the intended reduction Google touts as motive behind the changes, and honestly even if they were consistent with the new options _across Android_, these complexity buckets sit at odds with the password policies of other OSes Android once aligned with. Fragmentation on top of fragmentation.
 
 ### Organisations don't have a choice
 
-BYO (work profile) devices running Android 12 that are either newly enrolled, or see policy changes after enrolment, will be required to conform to Google's new PasswordQuality buckets. The existing passcode requirements in place in an organisation will be subsequently ignored if they've not been updated to use the new quality buckets (how often do password policies get updated?), leading to discrepancies between policies within the EMM and behaviour on-device - potentially only a subset of work profile devices as well, since those already enrolled will still abide by the already-set password policies once the EMM's DPC targets Android 12. Here's a demo of the differences between an older device and one running the latest version of Android with a standard numeric complex policy: 
+Personally owned work profile devices running Android 12 that are either newly enrolled, re-enrolled, or see policy changes after enrolment will be automatically algined to conform to Google's new buckets. The existing passcode requirements in place in an organisation will be subsequently ignored if they've not been updated to use the new complexity requirements (how often do password policies get updated?), leading to discrepancies between policies within the EMM and behaviour on-device - potentially only a subset of work profile devices as well, since those already enrolled will still abide by the already-set password policies once the EMM's DPC targets Android 12. Here's a demo of the differences between an older device and one running the latest version of Android with a standard numeric complex policy (no sound, apologies): 
 
 https://youtu.be/_3Vo7Zh3Wa0
 
-Moreover, for the many organisations leaning on a 6 digit complex numeric passcode today, the closest bucket is considered **medium**, permitting end users to set 4 digit PINs instead of the required 6 by traditional password policies. Google suggest organisations shouldn't worry because they've had decent brute force detection in place, but that doesn't in any way make me feel better about arbitrarily reducing password security.
+Moreover, for the many organisations leaning on a 6 digit complex numeric passcode today, the closest bucket is considered **medium**, permitting end users to set 4 digit PINs instead of the required 6 by traditional password policies. Google suggests organisations shouldn't worry because they've had decent brute force detection in place, but that doesn't in any way make me feel better about arbitrarily reducing password security.
 
-To echo my views on WPoFMD, this should have been an _option_, not a requirement. I'm sure some organisations, especially those Google have been trying to target over the last few years with little to no experience of Enterprise Mobility, may see these new buckets as something useful, but the many more well-established organisations have taken the time to develop their security policies, have them rolled out confidently across their estate, and will now be subjected to an unnecessary and unjustified overreach by Google of their BYOD security policy. 
+To echo my views on WPoFMD, this should have been an _option_, not a requirement. I'm sure some organisations, especially those Google have been trying to target over the last few years with little to no experience with Enterprise Mobility, may see these new complexity buckets as something useful, but the many more established organisations have taken the time to develop their security policies, have them rolled out confidently across their estate, and will now be subjected to an unnecessary and unjustified overreach by Google of their BYOD security policy. 
 
-### They're unnecessary with existing options
+## Closing thoughts
 
-Google already provides a multitude of complexity types: something, numeric, numeric complex, alphabetic, alphanumeric, complex.. 
+The biggest frustration I have with thsi is the loss of choice. A theme I fear is popping up too frequently for an OS known and marketed for it's flexibility and ability to adapt to how people want to use it.
+
+Alone, complexity buckets will undoubtedly add value for inexperienced or blissfully ignorant organisation admins with a purely-BYOD estate who want a quick, low-effort password policy to enforce on devices, but that's where the usefulness of these buckets stops.
+
+Going forward when I'm engaging with deployments, not only do I lose the flexibility to define the password policy for devices I want to - given the fixed nature of these buckets - but I'll have to explain why every OS and Android deployment scenario provides a reasonably consistent password policy experience except BYOD Android, which has to be defined & configured separately. Wild.
