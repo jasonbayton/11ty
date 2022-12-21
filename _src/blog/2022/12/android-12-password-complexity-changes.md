@@ -15,15 +15,15 @@ I'll be honest, I didn't consider this to be much of a big deal. Having caught t
 
 I was wrong. 
 
-Unfortunately, the team that [introduced and killed off](https://bayton.org/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) work profiles on fully managed devices in the space of a year have opted to once again force through changes with little thought or consideration for the many, many organisations already leveraging Android today, and have done so in a way that harbours frustration and fragmentation with managed estates.
+Unfortunately, just one version release after they [introduced and subsequently killed off](https://bayton.org/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) work profiles on fully managed devices (I'm still not over it) in the space of a year, Google have opted to once again force through changes with little thought or consideration for the many organisations already leveraging Android today, and have done so in a way that harbours frustration and fragmentation with managed estates.
 
 ## What's changed?
 
-The technically minded may find it interesting to read through the developer docs for Android 12 [here](https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setRequiredPasswordComplexity(int)) and a reference to changes with AMAPI [here](https://developers.google.com/android/management/reference/rest/v1/PasswordRequirements#passwordquality), but to summarise it:
+The technically inclined may find it interesting to read through the developer docs for Android 12 [here](https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setRequiredPasswordComplexity(int)) and a reference to changes with AMAPI [here](https://developers.google.com/android/management/reference/rest/v1/PasswordRequirements#passwordquality), but to summarise it:
 
 Google's newest password complexity APIs replace the traditional, decade+ old password complexity options with a solution that is intended to simplify password management and free organisations of the tyranny of choice.
 
-Rather than selecting one of the existing complexity options, such as complex numeric combined with a minimum number of required digits, or alphanumeric and optionally defining a minimum number of letters, numbers, and special characters, Google has created three buckets that offer Google-recommended, pre-defined and uneditable complexity options that create a "complete" password complexity policy simply by selecting it. These are as follows:
+Rather than selecting one of the existing complexity options, such as complex numeric combined with a minimum number of required digits, or alphanumeric and optionally defining a minimum number of letters, numbers, and special characters, Google has created three buckets that offer pre-defined and uneditable complexity options that create a "complete" password complexity policy simply by selecting it. These are as follows:
 
 > **COMPLEXITY_LOW**  
 > Define the low password complexity band as:
