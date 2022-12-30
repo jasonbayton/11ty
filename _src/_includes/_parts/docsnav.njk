@@ -8,11 +8,11 @@
     </summary>
     {% set taglist = collections[ tag.name ] | eleventyNavigation %}
     <ul>
-    {%- for post in taglist %}
+    {% for post in taglist %}
         <li>
-            <a {% if post.url == page.url %} class="active"{% endif %} href="{{ post.url }}">{{ post.title }}</a>
+            <a {% if page.url != false and post.url == page.url %} class="active"{% endif %} href="{{ post.url }}">{{ post.title }}</a>
         </li>
-    {%- endfor %}
+    {% endfor %}
     </ul>
 </details>
 {% endfor %}

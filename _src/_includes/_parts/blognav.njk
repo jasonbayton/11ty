@@ -2,7 +2,7 @@
     <h2>Articles</h2>
 </div>
 {% for year, yearPosts in collections.postsByYear %}
-<details {% if year in page.url %} open="" {% endif %}>
+<details {% if page.url != false and year in page.url %} open="" {% endif %}>
     <summary class="docnav-topic-title">
             {{ year }}     
         </summary>
