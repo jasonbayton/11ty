@@ -10,7 +10,7 @@ const embedTwitter = require("eleventy-plugin-embed-twitter");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
-const pluginTOC = require("eleventy-plugin-toc");
+const pluginTOC = require("eleventy-plugin-nesting-toc");
 const striptags = require("striptags");
 
 module.exports = function (eleventyConfig) {
