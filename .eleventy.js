@@ -99,7 +99,7 @@ eleventyConfig.setLibrary("md", markdownLibrary);
   eleventyConfig.addFilter("parseContent", (content) => {
     // Remove tags from content
     return (
-      striptags(content.substring(0, 500))
+      striptags(content)
         // Handle new lines
         .replaceAll(/(\r\n|\n|\r)/gm, " ")
         // Handle scaping
