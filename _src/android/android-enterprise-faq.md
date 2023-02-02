@@ -10,7 +10,6 @@ tags:
     - General
 layout: base.njk
 eleventyNavigation:
-  key: 'Android Enterprise FAQ'
   order: 6000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-faq/291'

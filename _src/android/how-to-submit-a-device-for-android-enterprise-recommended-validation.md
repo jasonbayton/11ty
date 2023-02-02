@@ -9,13 +9,8 @@ tags:
     - Resources
     - Android Enterprise Recommended
 layout: base.njk
-id: 8336
-doccats:
-    - Android
-publish_post_category:
-    - '6'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/how-to-submit-a-device-for-android-enterprise-recommended-validation/295'
+eleventyNavigation:
+  order: 33000
 ---
 If you’re an OEM looking for a way to submit your device for Android Enterprise Recommended validation, the process is simple:
 

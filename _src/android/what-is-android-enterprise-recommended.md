@@ -10,7 +10,6 @@ tags:
     - Android Enterprise Recommended
 layout: base.njk
 eleventyNavigation:
-  key: 'What is Android Enterprise Recommended?'
   order: 2000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-enterprise-recommended/25'

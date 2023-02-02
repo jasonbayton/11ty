@@ -10,7 +10,6 @@ tags:
     - App management
 layout: base.njk
 eleventyNavigation:
-  key: 'Create and manage web apps for Android Enterprise'
   order: 4001
 discourse_permalink:
     - 'https://discuss.bayton.org/t/create-and-manage-web-apps-for-android-enterprise/250'

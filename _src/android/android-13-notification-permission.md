@@ -9,7 +9,6 @@ tags:
     - Diving deeper
     - App management
 eleventyNavigation:
-  key: 'Handling Android 13 notifications permission'
   order: 8000
 layout: base.njk
 ---

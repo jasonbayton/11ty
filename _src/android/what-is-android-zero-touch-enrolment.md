@@ -9,7 +9,6 @@ tags:
     - Getting started
     - Zero-touch
 eleventyNavigation:
-  key: 'What is Android zero-touch enrolment?'
   order: 3000
 layout: base.njk
 discourse_permalink:

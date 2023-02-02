@@ -10,7 +10,6 @@ tags:
     - App management
 layout: base.njk
 eleventyNavigation:
-  key: 'How to locate a private Android app assigned to an organisation ID'
   order: 5000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/how-to-locate-an-android-private-app-assigned-to-an-organisation-id/402'

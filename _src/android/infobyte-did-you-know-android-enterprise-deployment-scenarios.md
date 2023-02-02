@@ -9,13 +9,8 @@ tags:
     - Resources
     - Provisioning
 layout: base.njk
-id: 6838
-doccats:
-    - Android
-publish_post_category:
-    - '6'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/infobyte-did-you-know-android-enterprise-deployment-scenarios/226'
+eleventyNavigation:
+  order: 26000
 ---
 Summary
 -------

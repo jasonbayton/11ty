@@ -10,13 +10,8 @@ layout: base.njk
 tags: 
     - Vendor specific
     - Provisioning
-doccats:
-    - MobileIron
 eleventyNavigation:
-  key: 'Manual Android Enterprise work-managed QR code generation for MobileIron'
-  order: 1000
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/48'
+  order: 32000
 ---
 <div class="callout callout-warning">
 

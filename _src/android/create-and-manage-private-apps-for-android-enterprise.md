@@ -10,7 +10,6 @@ tags:
     - App management
 layout: base.njk
 eleventyNavigation:
-  key: 'Create and manage private apps for Android Enterprise'
   order: 4000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/create-and-manage-private-apps-for-android-enterprise/251'

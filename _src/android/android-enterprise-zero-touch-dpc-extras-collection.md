@@ -10,13 +10,8 @@ tags:
     - Zero-touch
     - Provisioning
 layout: base.njk
-id: 7377
-doccats:
-    - Android
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/android-enterprise-zero-touch-dpc-extras-collection/259'
-publish_post_category:
-    - '14'
+eleventyNavigation:
+  order: 20000
 ---
 DPC extras can be used to associate Android Enterprise fully managed devices with a particular EMM/UEM platform during provisioning.
 

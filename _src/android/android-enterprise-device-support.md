@@ -10,7 +10,6 @@ tags:
 layout: base.njk
 id: 4344
 eleventyNavigation:
-  key: 'Android Enterprise device testing'
   order: 0000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-device-testing/28'

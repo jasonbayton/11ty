@@ -9,14 +9,8 @@ tags:
     - Diving deeper
     - Zero-touch
 layout: base.njk
-id: 4812
 eleventyNavigation:
-  key: 'Android Enterprise zero-touch console administration guide'
   order: 5000
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/android-enterprise-zero-touch-console-administration-guide/32'
-FeaturedBackground:
-    - android
 ---
 <div class="callout callout-success">
 

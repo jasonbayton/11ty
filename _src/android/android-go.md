@@ -11,6 +11,8 @@ tags:
     - General
 eleventyExcludeFromCollections: true
 layout: base.njk
+eleventyNavigation:
+  order: 22000
 ---
 
 <div class="callout callout-info">

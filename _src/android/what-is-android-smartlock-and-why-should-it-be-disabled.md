@@ -10,7 +10,6 @@ tags:
     - Security
 layout: base.njk
 eleventyNavigation:
-  key: 'Feature spotlight: Android Smartlock'
   order: 11000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-smartlock-and-why-should-it-be-disabled/177'

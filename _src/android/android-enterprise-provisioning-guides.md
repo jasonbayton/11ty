@@ -9,17 +9,8 @@ tags:
     - Resources
     - Provisioning
 layout: base.njk
-id: 4552
-doccats:
-    - Android
-Version:
-    - '1.8'
-publish_post_category:
-    - '6'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/android-enterprise-provisioning-guides/27'
-FeaturedBackground:
-    - android
+eleventyNavigation:
+  order: 19000
 ---
 <div class="callout callout-success">
 

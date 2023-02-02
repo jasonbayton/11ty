@@ -10,7 +10,6 @@ tags:
     - Device admin
 layout: base.njk
 eleventyNavigation:
-  key: 'Considerations when migrating from device administrator to Android Enterprise'
   order: 0000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-when-migrating-from-device-administrator-to-android-enterprise/30'

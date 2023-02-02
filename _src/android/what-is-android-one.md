@@ -10,7 +10,6 @@ tags:
     - General
 layout: base.njk
 eleventyNavigation:
-  key: 'What is Android One?'
   order: 5000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-one/310'

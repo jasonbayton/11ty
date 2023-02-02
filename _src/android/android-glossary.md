@@ -9,17 +9,8 @@ tags:
     - Resources
     - General
 layout: base.njk
-id: 5246
-doccats:
-    - Android
-Version:
-    - '1.4'
-publish_post_category:
-    - '6'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/android-glossary/35'
-FeaturedBackground:
-    - android-gen
+eleventyNavigation:
+  order: 23000
 ---
 This document offers definitions and descriptions of commonly referenced acronyms, names, features and more that appear in published Android and Android Enterprise documents both here on bayton.org and elsewhere.
 

@@ -9,13 +9,8 @@ tags:
     - Resources
     - Zero-touch
 layout: base.njk
-id: 7085
-doccats:
-    - Android
-publish_post_category:
-    - '14'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/how-to-become-a-zero-touch-enrolment-reseller/241'
+eleventyNavigation:
+  order: 0000
 ---
 As more OEMs adopt zero-touch as standard for devices, whether Android Enterprise Recommended or not, organisations may find customer interest in the deployment method is rapidly increasing. Applying to join the zero-touch reseller programme is quick and simple, and enables organisations to offer a true out of box experience.
 

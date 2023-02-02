@@ -10,7 +10,6 @@ tags:
     - Security
 layout: base.njk
 eleventyNavigation:
-  key: 'Feature spotlight: Factory Reset Protection'
   order: 10000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/feature-spotlight-factory-reset-protection/183'

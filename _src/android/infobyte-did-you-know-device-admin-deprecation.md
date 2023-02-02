@@ -9,13 +9,8 @@ tags:
     - Resources
     - Device admin
 layout: base.njk
-id: 6832
-doccats:
-    - Android
-publish_post_category:
-    - '6'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/infobyte-did-you-know-device-admin-deprecation/225'
+eleventyNavigation:
+  order: 26000
 ---
 Summary
 -------

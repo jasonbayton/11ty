@@ -8,17 +8,8 @@ type: documentation
 tags: 
     - Resources
 layout: base.njk
-id: 4709
-doccats:
-    - Android
-Version:
-    - '1.1'
-publish_post_category:
-    - '6'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/android-version-evolution-graphics/34'
-FeaturedBackground:
-    - android-gen
+eleventyNavigation:
+  order: 25000
 ---
 I’ve created two Android evolution graphics: one that simply includes all Android versions, the second that incorporates Android Enterprise.
 

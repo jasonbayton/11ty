@@ -10,7 +10,6 @@ tags:
     - General
 layout: base.njk
 eleventyNavigation:
-  key: 'Considerations for choosing Android in the Enterprise'
   order: 8000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-for-choosing-android-in-the-enterprise/272'

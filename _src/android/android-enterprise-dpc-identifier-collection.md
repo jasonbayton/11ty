@@ -9,13 +9,8 @@ tags:
     - Resources
     - Provisioning
 layout: base.njk
-id: 6915
-doccats:
-    - Android
-publish_post_category:
-    - '14'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/android-enterprise-dpc-identifier-collection/231'
+eleventyNavigation:
+  order: 9000
 ---
 The following DPC identifiers (EMM tokens) can be used during Android Enterprise fully managed provisioning.
 

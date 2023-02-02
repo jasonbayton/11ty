@@ -10,7 +10,6 @@ tags:
     - COPE
 layout: base.njk
 eleventyNavigation:
-  key: 'Android Enterprise EMM COPE support'
   order: 6000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-emm-cope-support/318'

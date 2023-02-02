@@ -10,7 +10,6 @@ tags:
     - App management
 layout: base.njk
 eleventyNavigation:
-  key: 'Managed Google Play, whitelist or blacklist?'
   order: 1000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/managed-google-play-whitelist-or-blacklist/307'

@@ -10,7 +10,6 @@ tags:
     - COPE
 layout: base.njk
 eleventyNavigation:
-  key: 'Android 11 COPE changes'
   order: 7000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-11-cope-changes/355'

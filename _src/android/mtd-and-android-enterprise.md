@@ -10,7 +10,6 @@ tags:
     - App management
 layout: base.njk
 eleventyNavigation:
-  key: 'Considerations when deploying MTD with Android Enterprise'
   order: 2000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-when-deploying-mtd-with-android-enterprise/230'

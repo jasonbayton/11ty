@@ -11,7 +11,6 @@ tags:
     - App management
 layout: base.njk
 eleventyNavigation:
-  key: "Why you shouldn't install apps from unknown sources"
   order: 3000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/why-you-shouldnt-install-apps-from-unknown-sources/252'
