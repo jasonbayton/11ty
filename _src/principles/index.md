@@ -16,6 +16,6 @@ Through my years in various roles, managing and being managed, here are some of 
 3. [Taking time off](/principles/time-off/)
 4. [Maintaining a healthy work-life balance](/principles/downtime/)
 5. [Organisational stability](/principles/org-stability/)
-6. [Continuous education](/principles/continuous)
+6. [Continuous education](/principles/continuous-education)
 
-I advocate these principles wherever I go. Occasionally they're overruled by conflicting company culture.
+I advocate for these principles wherever I go. Occasionally they're overruled by conflicting company culture.
