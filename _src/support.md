@@ -19,7 +19,7 @@ Here are some of the topics I can offer help & advice on (non-exhaustive):
 * Android hardware manufacturing
 * Product development, management, strategy
 
-Here are some of the ways you can contact me:
+Here are some of the ways you can engage with me:
 
 ## Community 
 
@@ -31,7 +31,13 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 
 **Benefit:** As a community resource, your request may be picked up by other members of the community well-versed in the topic at hand. Once a resolution is achieved, the issue and resolution are public domain for others to benefit in kind.
 
-## Email/Direct message
+**Recommended topics:**
+
+* Enterprise Mobility
+* Android Enterprise
+* GMS
+
+## Email/direct message
 
 [Email](mailto:jason@bayton.org) me your request.
 
@@ -41,6 +47,16 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 
 **Benefit:** Private & sensitive topics may be covered. Bug reports and other PII can be shared without making this data publicly available.
 
+**Recommended topics:**
+
+* Android Enterprise
+* Enterprise Mobility
+* GMS (certification, issues)
+* Manufacturing
+* Solution development (hardware, software)
+* Product development & strategy
+* Solution review
+
 **Note:** 
 
 * Topics discussed over email may be referenced by (or made the subject of) articles on this website. No PII will be publicised, however snippets of relevant logs, hardware/software information, environmental conditions, edge-cases, or similar may be referenced for the benefit of readers.
@@ -48,13 +64,17 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 * Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer
 * I may not be able to respond in a timely fashion at any point during assistance, and make no promises to solve an issue or full satisfy a need as a casual engagement. 
 
-## Contractual engagement
+## Dedicated engagement
 
-[Email](mailto:jason@bayton.org) me a request for engagement. Include a detailed SCOPE and/or Statement of Work (SoW), as well as a budget and time window for the engagement to review either in the body of the email or as attachments. 
+Ideal for dedicated support or projects of a greater scope or time requirement, [email](mailto:jason@bayton.org) me a request for engagement. Include a detailed SCOPE and/or Statement of Work (SoW), as well as a budget and time window for the engagement to review. 
 
 **SLA:** _As agreed._ 
 
-**Cost:** £1200/day (8 hours), or as agreed.
+**Cost:** £1200/day (8 hours) billed in 1/2 day increments (rounded up), or as agreed.
+
+**Recommended topics:**
+
+* All of the above, plus other topics (try me)
 
 **Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss.
 
