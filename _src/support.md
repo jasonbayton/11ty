@@ -27,6 +27,11 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 
 **SLA:** _Best effort._ You may choose to bring the issue to my attention via email, tweet, linkedin mention, @-mention, or other means, and I will review and respond to the request as and when I am able.
 
+**Scope:**
+
+* Replies to community-posted topics
+* Review of attachments or similar uploaded debugging information
+
 **Cost:** £0. 
 
 **Benefit:** As a community resource, your request may be picked up by other members of the community well-versed in the topic at hand. Once a resolution is achieved, the issue and resolution are public domain for others to benefit in kind.
@@ -42,6 +47,12 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 [Email](mailto:jason@bayton.org) me your request.
 
 **SLA:** _Best effort._ I'm often able to respond same-day for emails, but it can take a few days if I'm tied up. I may request more details, reproduction steps, more context, or respond with more questions to be answered depending on the amount of information provided in the original email. I may request a call to aid in debugging. 
+
+**Scope:**
+
+* Replies to emails
+* Review of attachments or similar uploaded debugging information
+* 1-to-1 remote call where initiated by me
 
 **Cost:** £0.
 
@@ -69,6 +80,12 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 Ideal for dedicated support or projects of a greater scope or time requirement, [email](mailto:jason@bayton.org) me a request for engagement. Include a detailed SCOPE and/or Statement of Work (SoW), as well as a budget and time window for the engagement to review. 
 
 **SLA:** _As agreed._ 
+
+**Scope:**
+
+* Dedicated engagement on agreed hours
+* 1-to-1 or 1-to-many remote sessions as required
+* Review of attachments or similar uploaded debugging information
 
 **Cost:** £1200/day (8 hours) billed in 1/2 day increments (rounded up), or as agreed.
 
