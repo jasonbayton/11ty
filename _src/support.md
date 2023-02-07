@@ -21,18 +21,24 @@ Here are some of the topics I can offer help & advice on (non-exhaustive):
 
 Here are some of the ways you can engage with me:
 
+## Docs
+
+Take a look at [/android](/android), and if you don't see what you're looking for, try [/search](/search). There's a high likelihood your question may have been covered either directly, or indirectly, through existing docs. Search is full-text, so searching on "work challenge" will bring up all articles referencing it. 
+
+If you still don't find what you're looking for, you can [submit a request](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) for content and I'll get to it as soon as I'm able.
+
 ## Community 
 
 Post your request to the [Android Enterprise Help Community](https://support.google.com/work/android/community), the [MobilePros Slack Community](https://mobilepros.org), or the [MobilePros Telegram group](https://t.me/mobile_pros).
 
-**SLA:** _Best effort._ You may choose to bring the issue to my attention via email, tweet, linkedin mention, @-mention, or other means, and I will review and respond to the request as and when I am able.
+**SLA:** _Best effort._ You may choose to bring the issue to my attention via email, Tweet, LinkedIn mention, @-mention, or other means, and I will review and respond to the request when I am able.
 
 **Scope:**
 
 * Replies to community-posted topics
 * Review of attachments or similar uploaded debugging information
 
-**Cost:** £0. 
+**Fees:** None, though if my content helps you, please consider tipping me a coffee ([PayPal](https://paypal.me/jasonbayton), [Card](https://monzo.me/jasonbayton)) or similar.
 
 **Benefit:** As a community resource, your request may be picked up by other members of the community well-versed in the topic at hand. Once a resolution is achieved, the issue and resolution are public domain for others to benefit in kind.
 
@@ -54,7 +60,7 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 * Review of attachments or similar uploaded debugging information
 * 1-to-1 remote call where initiated by me
 
-**Cost:** £0.
+**Fees:** None, though if my content helps you, please consider tipping me a coffee ([PayPal](https://paypal.me/jasonbayton), [Card](https://monzo.me/jasonbayton)) or similar.
 
 **Benefit:** Private & sensitive topics may be covered. Bug reports and other PII can be shared without making this data publicly available.
 
@@ -77,21 +83,25 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 
 ## Dedicated engagement
 
-Ideal for dedicated support or projects of a greater scope or time requirement, [email](mailto:jason@bayton.org) me a request for engagement. Include a detailed SCOPE and/or Statement of Work (SoW), as well as a budget and time window for the engagement to review. 
+Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. [Email](mailto:jason@bayton.org) me a request for engagement. Include a detailed SCOPE and/or Statement of Work (SoW), as well as a budget and time window for the engagement to review. 
 
 **SLA:** _As agreed._ 
 
 **Scope:**
 
 * Dedicated engagement on agreed hours
+* Direct access to organisation PoCs & infrastructure for debugging
+* RCA & resolution report
 * 1-to-1 or 1-to-many remote sessions as required
 * Review of attachments or similar uploaded debugging information
 
-**Cost:** £1200/day (8 hours) billed in 1/2 day increments (rounded up), or as agreed.
+**Fees:** 1/2 day (up to 4h): £600. 1 day (up to 8h): £1200
+
+* Hours may be consumed ad-hoc, across multiple days as required
 
 **Recommended topics:**
 
-* All of the above, plus other topics (try me)
+* All of the above, and more (try me)
 
-**Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss.
+**Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss. Hours are not restricted to one d
 
