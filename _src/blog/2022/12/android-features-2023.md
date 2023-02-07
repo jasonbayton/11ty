@@ -45,6 +45,35 @@ Instead, more granular control over applications updated from Play are needed:
 - Global app update postponement, combined with verbose app reports highlighting versions installed vs available to give organisations more data to work with
 - Special consideration for the DPC itself for update management, since a bad DPC update (they happen!) can cause considerable disruption to a managed estate.
 
+## Granular system update management
+
+For the last several years we've had pretty basic native system update management for Android - 
+
+* Automatic: Updates and reboots a device as soon as an update is available
+* Windowed: Updates and reboots a device during a set time window local to the Android device
+* Postpone & Freeze: Options to temporarily prevent updates
+* Ad-hoc, pushing update files direct to Android 10+ devices where the EMM supports it (AMAPI does not)
+
+By comparison, OEM solutions such as [KNOX e-FOTA](https://docs.samsungknox.com/admin/efota-common/welcome.htm) have provided substantially more control not only of when the updates happen, but the ability to lock devices to a version, granular control over the conditions under which updates apply, and more.
+
+Many of these controls do exist pretty universally with OEMs, as many of the settings e-FOTA offers customers (not all) can be typically applied through configurations on the OTA servers the OEMs manage themselves. Take GOTA (Google OTA) for example, a product provided to certified partner OEMs for OTA management; some of the configurations which can be applied include:
+
+* Time limits on when to automatically download and install an update
+* Options for Wi-Fi only, temporarily or indefinitely
+* Mandatory updates during setup (some finesse to apply this to the enrolment flow would be needed)
+* Environmental restrictions (region, carrier..)
+* Device restrictions (IMEI ranges, storage required, build properties)
+* ..and more
+
+You could come to the conclusion that Samsung (and others) have simply productised their OEM OTA service, granting customers the ability to set these policies themselves, and then further built it out based on customer feedback. 
+
+In the same vein, Google could take many of these configurations and implement them as on-device APIs for organisations to leverage through EMM, offering far more granular control over when and how updates go out, and the conditions under which updates apply.
+
+I'm not going to be one to advocate for long-term prevention of updates; in contrast with some in the ecosystem I prefer to see more updates, more frequently, and for far longer in a device lifecycle in order to best protect devices and the organisations that use them, but I do believe more control, more flexibility, and more options for update management would greatly improve the perception of managing system updates with Android Enterprise.
+
+More control is a good thing, and I say that knowing Google's [moves](/blog/2022/12/android-12-password-complexity-changes/) to [reduce it](/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) under a veil of simplicity or privacy. 
+
+It won't fix the frequency, or number, of updates that some devices receive, and particularly won't help with devices that have been on a shelf for a considerable amount of time in reducing the number of updates required to get them up to date, but making that process smoother, until we have a solution that permits generating builds tailored to devices to get updated in as-few-as-possible, is a nice middle ground.
 
 ## Ephemeral & multi-user support in AMAPI
 Folks, it's been 4 years since this launched with 9.0, and I still can't define a shared-use use case with AMAPI. 
