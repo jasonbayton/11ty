@@ -25,10 +25,6 @@
 
                 <div class="post-block search-results" id="searchResults"></div>
             </section>
-            {% if pagination.href.next or pagination.href.previous %}
-                {% include "./_parts/paginate.njk" %}
-            {% endif %}
-
             <!-- Page feedback goes here -->
             {% include "./_parts/feedback.njk" %}
             <!-- // -->

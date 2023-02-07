@@ -29,10 +29,8 @@ permalink: "/tags/{{ tag | slugify }}/"
         </div>
         <div class="meta-single">
             {% for tag in post.data.tags %}
-            {% if not tag.includes("blog") %}
-            {% if not tag.includes("android-docs") %}
+            {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) %}
             #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
-            {% endif %}
             {% endif %}            
             {% endfor %}
         </div>

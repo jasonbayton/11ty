@@ -10,9 +10,7 @@ tags:
 ---
 
 {% for tag in collections.tagsList %}
-{% if not tag.includes("blog") %}
-{% if not tag.includes("android-docs") %}
-
+{% if (not tag.includes("blog")) and (not tag.includes("android-docs")) %}
 <div class="year-block">
     <div class="section-title extra-bold">
     {{ tag }} (<a class="" href="/tags/{{ tag | slugify }}/">#{{ tag | slugify }}</a>)
@@ -29,10 +27,8 @@ tags:
             </div>
             <div class="meta-single">
                 {% for tag in post.data.tags %}
-                {% if not tag.includes("blog") %}
-                {% if not tag.includes("android-docs") %}
+                {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) %}
                 #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
-                {% endif %}
                 {% endif %}
                 {% endfor %}
             </div>
@@ -51,6 +47,5 @@ tags:
 {% endfor %}
     <a class="tag-more-link" href="/tags/{{ tag | slugify }}/">...view more ✍️</a>
 </div>
-{% endif %}
 {% endif %}
 {% endfor %}
