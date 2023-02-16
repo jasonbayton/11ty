@@ -14,7 +14,7 @@ discourse_permalink:
     - 'https://discuss.bayton.org/t/android-11-cope-changes/355'
 ---
 
-Related to [this](/blog/2022/12/android-features-2023/) and [this](/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/) blog post. Here's my FR wishlist. Feel free to request an edit to add more!
+Related to [this](/blog/2022/12/android-features-2023/) and [this](/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/) blog post. Here's my FR wishlist. Feel free to [request an edit](https://github.com/jasonbayton/11ty/blob/main/_src/android/android-enterprise-feature-requests.md) to add more!
 
 ## Universal
 
