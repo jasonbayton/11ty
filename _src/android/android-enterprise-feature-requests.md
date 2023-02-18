@@ -50,8 +50,10 @@ _(I know this has been a point of contention for years, but ultimately whether G
 
 1. Work/Personal SIM management ([ref](https://bayton.org/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#Work-profile-SIM-management))
     1. Assignment of a SIM to the WP phone, contacts, etc.
-    2. ~~Cross-profile management to improve Android Auto experience (caller ID!!)~~ Added in Android 14 
-    3. Split of work/personal SMS ⚠️ Partially added in 14 for COPE/Corp-owned work profile
+    2. ~~Cross-profile management to improve Android Auto experience (caller ID!!)~~  
+    **Added in Android 14** 
+    3. Split of work/personal SMS  
+    **⚠️ Partially added in 14 for COPE/Corp owned work profile**
     4. Config of work SIM settings (Settings > N&I > SIM) in WP deployments
 2. Native launcher (AOSP) features:  
 _Microsoft's managed launcher is a big inspiration here_
@@ -76,7 +78,7 @@ _I've had my fair share of devices showing amber alerts and similar in deployed 
 1. Untethered provisioning
     1. ZT as a reasonable default
     2. NFC
-    3. SUW flow support for untethered provisioning
+    3. Set up wizard (SUW) flow support for untethered provisioning
 2. Hardware management (context of full-fat Android for the things we do with hardware already)
     1. Buttons
     2. Radio 
