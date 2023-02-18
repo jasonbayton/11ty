@@ -49,11 +49,11 @@ _(I know this has been a point of contention for years, but ultimately whether G
 ## Mobile devices
 
 1. Work/Personal SIM management ([ref](https://bayton.org/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#Work-profile-SIM-management))
-    1. Assignment of a SIM to the WP phone, contacts, etc.
+    1. Assignment of a SIM to the WP phone, contacts, etc  
+    **⚠️ Partially added in 14 for COPE (Corp owned work profile)**
     2. ~~Cross-profile management to improve Android Auto experience (caller ID!!)~~  
     **Added in Android 14** 
-    3. Split of work/personal SMS  
-    **⚠️ Partially added in 14 for COPE/Corp owned work profile**
+    3. Split of work/personal SMS
     4. Config of work SIM settings (Settings > N&I > SIM) in WP deployments
 2. Native launcher (AOSP) features:  
 _Microsoft's managed launcher is a big inspiration here_
