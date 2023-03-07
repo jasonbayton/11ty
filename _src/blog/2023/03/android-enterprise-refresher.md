@@ -1,5 +1,5 @@
 ---
-title: "Android Enterprise: A refresher for 2023"
+title: "Android Enterprise: A refresher"
 date: '2023-03-07'
 status: publish
 author: 'Jason Bayton'
