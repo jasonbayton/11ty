@@ -1,0 +1,60 @@
+---
+title: "What is Android's work profile?"
+published: '2017-10-27T00:15:27+01:00'
+status: publish
+author: 'Jason Bayton'
+excerpt: ''
+type: documentation
+tags: 
+    - Getting started
+eleventyNavigation:
+  order: 1500
+layout: base.njk
+permalink: false
+---
+Android's work profile is a feature introduced in Android 5.0 Lollipop that addresses the challenge of managing and securing company data on employees' personal devices. With the rise of mobile devices in the workplace, this has become increasingly important. In Android 11, Google expanded work profile to include corporate owned devices which previously leveraged a fully managed deployment type intended to strike a balance between control and privacy. In this article, we'll dive into the details of the work profile, its benefits, and the differences between work profiles on personally owned devices to those on company-owned devices.
+
+## Overview
+
+The Android Work Profile creates a separate container on an employee's device that is dedicated to work-related activities. This container is completely isolated from the user's personal profile, meaning that work data and personal data are kept separate. When a user logs into their Work Profile, they will have access to a completely different set of apps and data that is managed by their employer.
+
+In Android 11, Google introduced a new type of Work Profile called a Managed Work Profile. A Managed Work Profile is designed for company-owned devices, and is more tightly controlled by the employer than a Work Profile on a personally owned device. In a Managed Work Profile, the employer has more control over the device and can enforce policies such as disabling the camera or limiting app installations.
+
+## Benefits
+
+The Android Work Profile offers several benefits for both employees and employers. For employees, it allows them to use their personal devices for work-related activities without having to worry about their personal data being accessed by their employer. It also allows them to easily switch between work and personal profiles on their device, making it more convenient to separate their personal and work lives.
+
+For employers, the Work Profile allows them to secure work-related data and applications on their employees' personal devices without having to manage an entire separate device or require employees to use a company-provided device. This can save money and increase productivity for both employers and employees. In addition, the Work Profile enables employers to apply mobile device management policies and procedures to employees' devices, ensuring that they remain compliant with industry regulations and company policies.
+
+## Differences between Personally Owned Devices and Company-Owned Devices
+
+There are several key differences between Work Profiles on personally owned devices and Managed Work Profiles on company-owned devices. Some of these differences include:
+
+- Management: In a Work Profile on a personally owned device, the employee has more control over the device and can install any apps they choose. In a Managed Work Profile on a company-owned device, the employer has more control over the device and can restrict certain apps or functions.
+- Security: Work Profiles on personally owned devices are secured with a separate lock screen, passcode, or biometric authentication. Managed Work Profiles on company-owned devices can be more tightly secured with policies such as requiring a strong passcode or disabling certain features.
+- Policy Enforcement: In a Work Profile on a personally owned device, the employer can set policies and restrictions for the Work Profile, but enforcement is largely voluntary. In a Managed Work Profile on a company-owned device, policies and restrictions are more strictly enforced.
+
+## Implementation
+
+To implement Android Work Profile in your organization, you'll need to have a Mobile Device Management (MDM) solution that supports it. This solution should be able to manage and secure the Work Profile, including enforcing policies and restrictions and distributing work-related apps to employees' devices.
+
+Once you've chosen an MDM solution, you can begin deploying the Work Profile to employees' devices. This typically involves installing a Work Profile app on the device, which will guide the user through the process of setting up the profile. Once the Work Profile is set up, the user will have access to work-related apps and data within the container.
+
+For Managed Work Profiles on company-owned devices, the implementation process is similar but may require additional steps to enforce policies and restrictions. This may involve configuring device settings and restrictions to comply with company policies and industry regulations.
+
+## Best Practices
+
+Here are some best practices to follow when implementing and managing Android Work Profile and Managed Work Profiles:
+
+- Choose an MDM solution that supports Android Work Profile and has experience managing Work Profiles for other organizations.
+- Develop policies and procedures for managing the Work Profile, including passcode requirements, app restrictions, and data encryption.
+- Train employees on how to use the Work Profile and what to do if they encounter any issues.
+- Monitor the Work Profile for any security or policy violations and take action when necessary.
+- For Managed Work Profiles on company-owned devices, consider implementing additional security measures such as disabling certain features or restricting app installations.
+
+## Conclusion
+
+The Android Work Profile is a powerful tool for managing and securing work-related data on employees' devices. With the introduction of Managed Work Profiles in Android 11, employers now have more control over company-owned devices than ever before. By following best practices and choosing a reliable MDM solution, organizations can successfully implement and manage Work Profiles to increase productivity and protect sensitive data.
+
+As the use of personal devices in the workplace continues to grow, the Android Work Profile offers a secure and efficient solution for managing work-related activities on these devices. By implementing a Work Profile or Managed Work Profile, employers can provide their employees with the flexibility to use their personal devices for work while also protecting sensitive data and enforcing policies and procedures. With the right tools and best practices in place, the Android Work Profile can be an effective way to manage and secure mobile devices in the workplace.
+
