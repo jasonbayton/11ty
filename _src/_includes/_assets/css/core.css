@@ -212,6 +212,24 @@ pre code {
   padding: 0;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
 .button {
   background-color: var(--brand-background);
   border: 4px solid var(--orange);
