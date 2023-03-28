@@ -43,12 +43,17 @@
         <!-- Cloudflare Web Analytics -->
         <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "5116dc7b1b1240e4b472d35429b70c9b"}'></script>
 
-        <!-- PWA -->
-        <!--script type="module">
-        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-        const el = document.createElement('pwa-update');
-        document.body.appendChild(el);
-        </script-->
+        <script>
+        function spaNavigate(data) {
+  // Fallback for browsers that don't support this API:
+  if (!document.startViewTransition) {
+    updateTheDOMSomehow(data);
+    return;
+  }
+
+  document.startViewTransition(() => updateTheDOMSomehow(data));
+}
+</script>
 
         <script>
         if (typeof navigator.serviceWorker !== 'undefined') {
