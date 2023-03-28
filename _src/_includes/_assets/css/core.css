@@ -1,5 +1,10 @@
 /*core*/
 
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 5s;
+}
+
 :root {
   --light: #c9c9c9;
   --dark: #333333;
