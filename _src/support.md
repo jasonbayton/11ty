@@ -103,5 +103,5 @@ Ideal for dedicated support, engagements of a strategic/planning nature, or proj
 
 * All of the above, and more (try me)
 
-**Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss. Hours are not restricted to one d
+**Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss. 
 
