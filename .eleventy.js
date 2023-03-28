@@ -81,6 +81,7 @@ let markdownLibrary = markdownIt({
   html: true,
 }).use(markdownItAnchor, markdownItAnchorOptions);
 eleventyConfig.setLibrary("md", markdownLibrary);
+eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"));
 
 // break posts by year
   eleventyConfig.addCollection("postsByYear", (collection) => {
