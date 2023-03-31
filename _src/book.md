@@ -10,6 +10,8 @@ layout: base.njk
 
 ![book cover](https://cdn.bayton.org/uploads/2023/04/daddysphonecantdothatcover.png)
 
+**Daddy's Phone Can't Do That!** takes the young mind through a journey of discovery of why a corporate phone can't do some of the things personal phones do by default, and explores the topic of Mobile Device Management through the responsibilities of Andy Admin, the IT wizard, and Big Boss Bill, the C-level who _just wants to keep his corporate secrets safe_.
+
 **Daddy's Phone Can't Do That!** is available today through [Lulu.com](https://www.lulu.com/shop/jason-bayton-and-laila-ar%C3%AAde/daddys-phone-cant-do-that/ebook/product-8ervv5.html) as an EPUB for £,$,€ 1.99. More distributors will come online over the coming weeks.
 
 <a class="button button-small" href="https://www.lulu.com/shop/jason-bayton-and-laila-ar%C3%AAde/daddys-phone-cant-do-that/ebook/product-8ervv5.html">Buy EPUB</a>

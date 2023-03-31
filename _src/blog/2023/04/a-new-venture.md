@@ -1,5 +1,5 @@
 ---
-title: "Announcing Mini Mobility"
+title: "Introducing Micro Mobility"
 date: '2023-04-01'
 status: publish
 author: 'Jason Bayton'
@@ -30,7 +30,7 @@ I want to change that.
 
 I think it is primarily a problem of visibility; I ask my <span class="orange">S</span>on occasionally what he wants to be when he grows up for example, and like many other children it's typically Policeman, Fireman, Pilot, Doctor, Teacher.. roles that take a prominent, visible position in society. 
 
-To address this, I am introducing **Mini Mobility: Modern Mobile Management for the next generation of Mobility Experts**
+To address this, I am introducing **Micro Mobility: Modern Mobile Management for the next generation of Mobility Experts**
 
 With this new venture, I am taking my decade of Enterprise Mobility expertise, and creating a series of educational books for children that will expose them early on to the Enterprise Mobility ecosystem. 
 
