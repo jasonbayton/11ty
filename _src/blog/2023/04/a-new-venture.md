@@ -32,7 +32,7 @@ I think it is primarily a problem of visibility; I ask my <span class="orange">S
 
 To address this, I am introducing **Mini Mobility: Modern Mobile Management for the next generation of Mobility Experts**
 
-With this new venture, I am taking my decade of Enterprise Mobility expertise combined with my unique ability to adapt the most complex of topics to any audience, and creating a series of educational books for children that will expose them early on to the Enterprise Mobility ecosystem. 
+With this new venture, I am taking my decade of Enterprise Mobility expertise, and creating a series of educational books for children that will expose them early on to the Enterprise Mobility ecosystem. 
 
 ## Daddy's Phone Can't Do That!
 
