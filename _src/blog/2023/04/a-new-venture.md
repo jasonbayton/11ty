@@ -20,15 +20,15 @@ And it's paid off. Today I'm a well-known guy in the space, interacting with pee
 
 My humble website, here, is what I have to thank for where I am right now though. A right-time, right-place decision to start documenting my journey with Android for Work way back, when Google had <span class="orange">l</span>ittle time and resource to do a considerable amount themselves, that gave me a real leg-up even on their own documentation and resources for organisations, and the rest, as they say, is history. 
 
-I've been thinking a lot about this recently, and it's become apparent nothing I've achieved in my 10 years of Enterprise Mobility has given me quite the <span class="orange">f</span>ulfilment and sense of pride as much as being able to help organisations - individuals, even - find their <span class="orange">o</span>wn path into the ecosystem with the docs and resources I've poured my evenings and weekends into for so long.
+I've been thinking a lot about this recently, and it's become apparent very little I've achieved in my 10 years of Enterprise Mobility has given me the <span class="orange">f</span>ulfilment and sense of pride I get from being able to help organisations - individuals, even - find their <span class="orange">o</span>wn path into the ecosystem with the docs and resources I've poured my evenings and weekends into for so long.
 
 But still more can be done. 
 
-Folks coming into the ecosystem rarely do so intentionally; filling a generalist role between industries is the norm, from which a passion for Enterprise Mobility starts to grow. I'm no different, I was doing compliance and system administration before I got the <span class="orange">o</span>pportunity to bring my passion for Android to the workplace - again, right-place, right-time. I don't think I can say I know anyone who <span class="orange">l</span>eft education with the intention of a career in mobility.
+Folks coming into the ecosystem rarely do so intentionally; filling a generalist role between industries is the norm from which a passion for Enterprise Mobility starts to grow. I'm no different, I was doing compliance and system administration before I got the <span class="orange">o</span>pportunity to bring my passion for Android to the workplace - again, right-place, right-time. I don't think I can say I know anyone who <span class="orange">l</span>eft education with the intention of a career in mobility.
 
 I want to change that.
 
-I think it is primarily a problem of visibility; I ask my <span class="orange">S</span>on occasionally for example what he wants to be when he grows up, and like many other children it's typically Policeman, Fireman, Pilot, Doctor, Teacher.. roles that take a prominent, visible position in society. 
+I think it is primarily a problem of visibility; I ask my <span class="orange">S</span>on occasionally what he wants to be when he grows up for example, and like many other children it's typically Policeman, Fireman, Pilot, Doctor, Teacher.. roles that take a prominent, visible position in society. 
 
 To address this, I am introducing **Mini Mobility: Modern Mobile Management for the next generation of Mobility Experts**
 
