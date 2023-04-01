@@ -9,7 +9,9 @@ tags:
     - Meta
 ---
 
-[Jump to the announcement ⏬](#Daddy's-Phone-Can't-Do-That!)
+TL/DR I've published the first in a series of children's books. [Jump to the announcement ⏬](#Daddy's-Phone-Can't-Do-That!)
+
+---
 
 <span class="orange">A</span>s many of your reading this will know, I've been in the Enterprise Mobility Ecosystem for a very long time.
 
