@@ -33,7 +33,7 @@ Folks coming into the ecosystem rarely do so intentionally; filling a generalist
 
 I want to change that.
 
-To address this, I am introducing **Micro Mobility: Modern Mobile Management for the next generation of Mobility Experts**
+To address this, I am introducing **Micro Mobility: Modern Mobile Management for the next generation of Mobility Experts**.
 
 With this new venture, I am taking my decade of Enterprise Mobility expertise, and creating a series of educational books for children that will expose them early on to the Enterprise Mobility ecosystem. 
 
