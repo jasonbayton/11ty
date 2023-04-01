@@ -222,11 +222,10 @@ pre code {
 }
 
 section#april_fools {
-  padding: 40px 0;
 }
 
-#april_fools .section-title {
-  padding: 30px 0;
+#af_text {
+  padding: 0 0 30px 0;
 }
 
 #af_img img {
