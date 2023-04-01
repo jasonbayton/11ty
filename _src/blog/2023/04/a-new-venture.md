@@ -8,6 +8,9 @@ type: post
 tags:
     - Meta
 ---
+
+[Jump to the announcement ⏬](#Daddy's-Phone-Can't-Do-That!)
+
 <span class="orange">A</span>s many of your reading this will know, I've been in the Enterprise Mobility Ecosystem for a very long time.
 
 10 years, in fact, as of January just gone.
