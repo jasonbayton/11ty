@@ -60,6 +60,6 @@ Pay what you want - [PayPal](https://paypal.me/jasonbayton) | [Monzo (UK only)](
 
 ## To come 
 
-This is just the first in this brand new venture, and I look forward to repurposing more of my years of content into high quality education over the coming years.
+This is just the first in this brand new venture, and I look forward to repurposing more of my content into high quality education over the coming years.
 
 Are you interested in a printed paperback? With enough interest I'll find a publisher to make that happen. [Let me know!](https://docs.google.com/forms/d/e/1FAIpQLSdeWOEk1RzHZQj6Z5jte05H0vwK5WVMh7f7eZmD9AhQddcm6Q/viewform?usp=sf_link)
