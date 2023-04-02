@@ -49,11 +49,11 @@ My first book in the series, illustrated by the extremely talented [Laila Arêde
 
 <a class="button button-small" href="https://www.lulu.com/shop/jason-bayton-and-laila-ar%C3%AAde/daddys-phone-cant-do-that/ebook/product-8ervv5.html">Buy EPUB</a>
 
-A PDF copy is available for download at no cost, but pay-what-you-want links are below to support the work (suggested: 1.99):
+A PDF copy is available for download at no cost, but pay-what-you-want links are below to support the work (suggested: £1.99):
 
 <a class="button button-small" href="https://cdn.bayton.org/uploads/2023/04/dpcdt_lg.pdf">Download PDF</a>
 
-Pay 1.99 - [PayPal](https://paypal.me/jasonbayton/1.99) | [Monzo (UK only)](https://monzo.me/jasonbayton/1.99)  
+Pay £1.99 - [PayPal](https://paypal.me/jasonbayton/1.99) | [Monzo (UK only)](https://monzo.me/jasonbayton/1.99)  
 Pay what you want - [PayPal](https://paypal.me/jasonbayton) | [Monzo (UK only)](https://monzo.me/jasonbayton)
 
 ## To come 
