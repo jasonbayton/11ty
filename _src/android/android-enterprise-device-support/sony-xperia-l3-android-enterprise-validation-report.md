@@ -18,49 +18,15 @@ discourse_permalink:
 
 ## 1. Tech specs
 
-- - - - - -
 
-Android 8.1 - - - - - -
+Android 8.1  
+5.7 inch HD display  
+MediaTek MT6762  
+3GB RAM  
+32GB Storage  
+Dual 13/2MP + 8MP Cameras  
 
-5.7 inch HD display - - - - - -
-
-MediaTek MT6762 - - - - - -
-
-3GB RAM - - - - - -
-
-32GB Storage - - - - - -
-
-Dual 13/2MP + 8MP Cameras - - - - - -
-
- NFC - - - - - -
-
- Fingerprint - - - - - -
-
-## 2. Android Enterprise support
-
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column">- - - - - -
-
- Work profile (BYOD)- - - - - -
-
- Fully managed (COBO)- - - - - -
-
- Fully managed with work profile (COPE)- - - - - -
-
- Dedicated (COSU)- - - - - -
-
-</div><div class="wp-block-column">- - - - - -
-
- NFC provisioning- - - - - -
-
- AFW# provisioning- - - - - -
-
- QR provisioning- - - - - -
-
- Zero-touch enrolment- - - - - -
-
-</div></div>
-
-## 3. In-depth testing report
+## 2. In-depth testing report
 
 **How to read this report**. This device has been tested against the public [validation process](/android/android-enterprise-device-support/validation-process-and-information/), in which all provisioning methods and deployment scenarios have been tested across at least two EMM platforms.
 
@@ -70,17 +36,17 @@ Some features aren’t supported or set up across EMMs, or don’t work with the
 
 <figure class="wp-block-image">[![](https://cdn.bayton.org/uploads/2019/06/Bayton_AE_validation_XperiaL3-3.jpg)](https://cdn.bayton.org/uploads/2019/06/Bayton_AE_validation_XperiaL3.pdf)</figure>
 
-## 4. Notes from the above report
+## 3. Notes from the above report
 
-### 4.1. Device issues
+### 3.1. Device issues
 
-#### 4.1.1. Device Passcode / Passcode enforced 
+#### 3.1.1. Device Passcode / Passcode enforced 
 
 While passcode policies were enforced, in testing some EMMs would read an unset passcode as set on the device and therefore not mandate a passcode is setup.
 
 **This is a device issue.**
 
-#### 4.1.2. Fully managed / Keep screen on when plugged in
+#### 3.1.2. Fully managed / Keep screen on when plugged in
 
 Despite the single setting and multiple settings applied in MobileIron and VMware respectively, when plugged into multiple power sources the screen ultimately turned off.
 
@@ -90,7 +56,7 @@ Via AMAPI the policy appears to enforce, but not properly given the screen dims.
 
 This can be replicated. **This may be a device issue.**
 
-#### 4.1.3. Fully managed / FRP enforced in COPE following an unauthorised reset
+#### 3.1.3. Fully managed / FRP enforced in COPE following an unauthorised reset
 
 **Not unique to the L3**, at the moment when deployed as a COPE device (fully managed device with work profile) and a personal account is added to the parent profile, should the device be reset in an unauthorised manner, for example:
 
@@ -101,35 +67,35 @@ The device will lock to the personal Google account residing in the parent profi
 
 Replicated across two EMMs. **This is a device issue**, but appears to be more OS-level as it affects other devices also.
 
-#### 4.1.4. Work profile / Create a work folder in lieu of tabbed launcher
+#### 3.1.4. Work profile / Create a work folder in lieu of tabbed launcher
 
 This is not done. Running Oreo the device doesn’t support a tabbed launcher introduced in Pie, so should create the work folder.
 
-#### 4.1.5. Fully managed / System update control
+#### 3.1.5. Fully managed / System update control
 
 Although system updates are managed, it’s possible to freely access the system update settings on the device. Normally this is blocked when under management.
 
-#### 4.1.6. Fully managed / Wallpaper change
+#### 3.1.6. Fully managed / Wallpaper change
 
 Sony use a proprietary wallpaper picker through their custom launcher. It was not possible to prevent the change of wallpaper in MobileIron, while the other EMMs did prevent it at the point of applying the wallpaper, but didn’t prevent access to the picker itself as would normally happen.
 
-#### 4.1.7. Dedicated / Cannot escape kiosk
+#### 3.1.7. Dedicated / Cannot escape kiosk
 
 Via AMAPI the L3 maintained use of the system navigation keys in locktask (kiosk) mode, and escaping the kiosk is as easy as tapping the home button.
 
 As this is AMAPI, **this is considered a device issue.**
 
-### 4.2. Other noted warns/fails
+### 3.2. Other noted warns/fails
 
 The following weren’t replicated issues, but were flagged as the device didn’t behave as expected when tested. They are described below to offer context for why a warn or fail was registered during testing.
 
-#### 4.2.1 Device Passcode / Enforce max attempts
+#### 3.2.1 Device Passcode / Enforce max attempts
 
 Under COPE in VMware, max failed attempts incorrectly enforces against the work profile rather than the device in the device passcode policy. As such, once a maximum has been reached, VMware removes the work profile instead of resetting the device, leaving it in a partially broken state.
 
 **This is a VMware issue.**
 
-#### 4.2.2. NFC provisioning for COPE with VMware
+#### 3.2.2. NFC provisioning for COPE with VMware
 
 It was not possible to provision the device as fully managed with a work profile (COPE) when initiating via NFC using VMware’s AirWatch Relay application.
 
@@ -137,7 +103,7 @@ Fully managed provisioning completes successfully, however in all tested cases t
 
 **This was not replicated with MobileIron.**
 
-#### 4.2.3. Work profile / Cross-profile sharing
+#### 3.2.3. Work profile / Cross-profile sharing
 
 The two settings:
 
@@ -148,12 +114,12 @@ In MobileIron there are no explicit options to prevent this and is therefore on 
 
 In VMware the options are present, but not reliably enforced.
 
-#### 4.2.4. Automatic date &amp; timezone
+#### 3.2.4. Automatic date &amp; timezone
 
 These two APIs in MobileIron don’t appear to fully enforce, allowing the end-user to toggle these on as desired. These settings will be turned off if pushed via policy, but not restricted from being turned back on.
 
 **MobileIron Core issue.**
 
-## 5. Recommendation
+## 4. Recommendation
 
 With the notes above, this is a device that should be tested with an EMM prior to rolling out. Primary concerns are passcode and kiosk related, though any of the above may impact UX in a mixed environment.
