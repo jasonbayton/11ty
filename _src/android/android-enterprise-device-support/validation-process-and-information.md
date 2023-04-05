@@ -20,13 +20,13 @@ FeaturedBackground:
 
 ### No longer maintained
 
- While I am still actively testing devices, I no longer publish them here. Consider the below to be historical, including the advanced testing, and not to be taken as current status of a device. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. </div><div class="callout callout-success">
+Though I do still test devices on request, I no longer actively publish the results on this website unless explicitly requested. The below criteria are valid up until Android 11, including the advanced testing, and not to be taken as current status or process of a device validation. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. 
+
+</div>
+
+<div class="callout callout-success">
  
- ### Return to device support
-
-Just looking for details of devices tested? Head back to [Android Enterprise device support](/android/android-enterprise-device-support/).
-
-</div><div class="callout callout-info">
+<div class="callout callout-info">
 
 ### OEM or reseller?
 
@@ -34,8 +34,7 @@ If you’re interested in knowing more about the project as a whole and the back
 
 </div>
 
-Device testing process
-----------------------
+## Device testing process
 
 ### What do I test?
 
@@ -59,10 +58,6 @@ Should you wish to see first-hand the policies/configs/profiles utilised to vali
 #### MobileIron Core
 
 [MobileIron Policies](https://cdn.bayton.org/uploads/2019/01/MI_AEvalidation.zip)[Download](https://cdn.bayton.org/uploads/2019/01/MI_AEvalidation.zip)
-
-#### VMware Workspace ONE UEM
-
-Coming soon
 
 ### Success criteria
 
@@ -170,8 +165,7 @@ If you’re interested in having devices tested:
 - The results will be published on the device support page, and promoted via social media.
 - You are free to reference the results in your own material.
 
-Project information
--------------------
+## Project information
 
 ### Who am I?
 
@@ -211,7 +205,6 @@ Yes, this information could be sourced elsewhere, however it is:
 3. Not publicly published alongside competing devices for ease of comparison.
 4. Not objectively tested by an independent 3rd party (which ties back into 1.).
 
-Contact
--------
+## Contact
 
 For more information, or to speak to me directly about Android Enterprise validation, please use my [contact](/contact/) page, [email](mailto:jason@bayton.org) me or give me a call on [+447975537754](tel:+447975537754).
