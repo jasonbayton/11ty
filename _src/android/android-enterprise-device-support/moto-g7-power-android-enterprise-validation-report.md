@@ -27,27 +27,10 @@ Snapdragon 632
 
 ## 2. Android Enterprise support
 
-<div class="wp-block-columns has-2-columns"><div class="wp-block-column">- - - - - -
-
- Work profile (BYOD)- - - - - -
-
- Fully managed (COBO)- - - - - -
-
- Fully managed with work profile (COPE)- - - - - -
-
- Dedicated (COSU)- - - - - -
-
-</div><div class="wp-block-column">- - - - - -
-
- NFC provisioning- - - - - -
-
- AFW# provisioning- - - - - -
-
- QR provisioning- - - - - -
-
- Zero-touch enrolment- - - - - -
-
-</div></div>
+- Work profile (BYOD) ⚠️
+- Fully managed (COBO) ⚠️
+- Fully managed with work profile (COPE) ⚠️
+- Dedicated (COSU) ⚠️
 
 ## 3. In-depth testing report
 
@@ -59,10 +42,9 @@ Where a feature works with one EMM, but does not with another (consider **Enforc
 Some features aren’t supported or set up across EMMs, or don’t work with the device (consider **KME** below), where this is the case the feature will be marked as untested (purple).
 
 [![](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_MotoG7Power.jpg)](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_MotoG7Power.pdf)
-Tap/click for the PDF version<
+Tap/click for the PDF version
 
 ## 4. Notes from the above report
-
 
 ### 4.1. Device issues
 
@@ -72,7 +54,7 @@ On test the device ran the December ’18 security update, with no additional up
 
 #### 4.1.2. Provisioning / Wizard interjections
 
-A Motorola privacy/T&amp;C screen pops up at the end of provisioning, interrupting the flow across all provisioning methods
+A Motorola privacy/T&C screen pops up at the end of provisioning, interrupting the flow across all provisioning methods
 
 #### 4.1.3. Work profile / Disallow work widgets
 
