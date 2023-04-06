@@ -14,30 +14,41 @@ eleventyNavigation:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/google-pixel-3a-android-enterprise-validation-report/296'
 ---
-![](https://cdn.bayton.org/uploads/2019/06/pixel3a-white-front-min-1.png)
+<div class="grid grid-gap-30 grid-column-2-1 grid-column-mobile-1">
+<div>
 
 ## 1. Tech specs
 
-- Android 9
-- 5.6 inch FHD+ display
-- Snapdragon 670 
-- 4GB RAM 
-- 64GB Storage 
-- 12.2/8MP Cameras 
-- NFC
-- Fingerprint
+Android 9  
+5.6 inch FHD+ display  
+Snapdragon 670   
+4GB RAM  
+64GB Storage  
+12.2/8MP Cameras  
+NFC  
+Fingerprint
 
 ## 2. Android Enterprise support
 
-- Work profile (BYOD) ✅
-- Fully managed (COBO) ✅
-- Fully managed with work profile (COPE) ✅
-- Dedicated (COSU) ✅
+Work profile (BYOD) ✅  
+Fully managed (COBO) ✅  
+Fully managed with work profile (COPE) ✅  
+Dedicated (COSU) ✅
 
-- NFC provisioning ✅
-- AFW# provisioning ✅
-- QR provisioning ✅
-- Zero-touch enrolment ✅
+NFC provisioning ✅  
+AFW# provisioning ✅  
+QR provisioning ✅  
+Zero-touch enrolment ✅  
+
+</div>
+
+<div class="grid-row-start-mobile-1 grid-align-right grid-align-mobile-unset">
+
+<img src="https://cdn.bayton.org/uploads/2019/06/pixel3a-white-front-min-1.png" />
+
+</div>
+</div>
+
 
 ### 3. In-depth testing report
 
