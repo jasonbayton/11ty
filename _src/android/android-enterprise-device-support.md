@@ -18,9 +18,11 @@ discourse_permalink:
 
 ### No longer maintained
 
- While I am still actively testing devices, I no longer publish them here. Consider the below to be historical, including the advanced testing, and not to be taken as current status of a device. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. </div>
+While I am still actively testing devices, I no longer publish them here. Consider the below to be historical, including the advanced testing, and not to be taken as current status of a device. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. 
  
- The devices listed below have been tested against a current, Android Enterprise-compatible Enterprise Mobility Management (EMM) platform for one or more of the following:
+</div>
+
+The devices listed below have been tested against a current, Android Enterprise-compatible Enterprise Mobility Management (EMM) platform for one or more of the following:
 
 - Android Enterprise work profile
 - Android Enterprise fully managed (work-managed)
