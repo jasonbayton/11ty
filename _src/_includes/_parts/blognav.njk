@@ -4,8 +4,8 @@
 {% for year, yearPosts in collections.postsByYear %}
 <details {% if page.url != false and year in page.url %} open="" {% endif %}>
     <summary class="docnav-topic-title">
-            {{ year }}     
-        </summary>
+        {{ year }}     
+    </summary>
     <ul>
         {% for post in yearPosts | reverse %}
         {% if post in collections.blog %}
