@@ -39,3 +39,15 @@
 .grid-column-3-1 {
     grid-template-columns: 3fr 1fr;
 }
+
+@media (max-width: 900px) {
+
+	.grid-column-mobile-1 {
+		grid-template-columns: 1fr;
+	}
+
+	.grid-column-mobile-2 {
+		grid-template-columns: 1fr 1fr;
+	}
+
+}
