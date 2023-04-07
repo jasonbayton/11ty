@@ -8,12 +8,7 @@ const offlineFallbackPage = "offline.html";
 const offlinecache = [
   '/',
   '/android/',
-  '/css/core.css',
-  '/css/doc.css',
-  '/css/all.css',
-  '/css/webfonts.css',
-  '/js/tocbot.js',
-  '/js/tocbot.min.js',
+  '/css/base.css',
   '/js/darkmode.js',
   '/js/darkmodetoggle.js',
   '/img/bayton_logos/bayton_rectangle_light.svg',
