@@ -705,7 +705,7 @@ footer {
     color: var(--brand-text);
 }
 
-.callout .callout-heading { /* .callout-heading */
+.callout .callout-heading {
   font-size: 30px;
   padding-bottom: 15px;
   font-weight: 300;
@@ -718,47 +718,6 @@ footer {
 .callout-info { background-color: var(--orange); color: var(--bright); }
 .callout-dark { background-color: var(--orange); color: var(--bright); }
 */
-
-/*Tocbot*/
-
-.toc{overflow-y:auto}
-.toc>.toc-list{overflow:hidden;position:relative}
-.toc>.toc-list li{list-style:none}
-.toc-list{margin:0;padding:0;}
-.is-position-fixed{position:fixed !important;top:0}
-.toc-link::before{background-color:#EEE;content:' ';display:inline-block;height:inherit;left:0;margin-top:-1px;position:absolute;width:2px}
-ul.toc-list {list-style-type: none;}
-ul.toc-list li {list-style-type: none;padding: 5px 0}
-ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
-#inline_toc { display: none; }
-a.toc-link { text-decoration: none; }
-
-#mobile_tag {
-  display: none;
-  font-size: 16px;
-  color: var(--bright);
-}
-
-#mobile_menu {
-  display: none;
-  padding: 0 30px;
-  text-align: right;
-  margin-top: -20px;
-  font-weight: 400;
-}
-
-#mobile_menu details summary::marker {
-  content: "";
-}
-
-#mobile_menu_links {
-  padding-top: 10px;
-}
-
-#mobile_menu_links .nav-link-individual {
-  display: block;
-  padding: 5px 0;
-}
 
 .nav-link-individual a {
   text-decoration: none;
@@ -871,21 +830,8 @@ a.toc-link { text-decoration: none; }
     justify-self: end;
   }
 
-  .platinum-logo-right {
-    justify-self: end;
-    display: none;
-  }
-
-  #banner_statement {
-    font-size: 14px;
-  }
-
   #bayton_logo {
     padding: unset;
-  }
-
-  #intro_block {
-    grid-template-columns: 1fr;
   }
 
   #intro_heading, #intro_text, #intro_android {
@@ -903,23 +849,9 @@ a.toc-link { text-decoration: none; }
     padding-bottom: 20px;
   }
 
-  #post_container {
-    display: grid;
+  #post_container, #android-doc-container, #af_group, #dpc_extras, #intro_block {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
-  }
-
-  #dpc_extras {
-    grid-template-columns: 1fr;
-  }
-
-  #android-doc-container {
-    grid-template-columns: 1fr;
-    grid-gap: unset;
-  }
-
-  #af_group {
-    grid-template-columns: 1fr;
   }
 
   #vendor_logo_container {
