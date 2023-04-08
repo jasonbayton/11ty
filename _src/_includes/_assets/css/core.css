@@ -296,9 +296,17 @@ button {
   border: 0;
 }
 
-#darktoggle, #corner_search {
+#darktoggle, #corner_search, #corner_menu {
   justify-self: center;
   padding: 10px;
+}
+
+#corner_menu {
+  display: none;
+}
+
+#menu_modal {
+  display: none;
 }
 
 #bayton_logo {
@@ -815,6 +823,60 @@ footer {
     display: inherit;
   }
 
+  #corner_menu {
+    display: unset;
+    justify-self: end;
+  }
+
+  #menu_modal {
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  
+  #menu_modal.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #menu_modal ul {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #menu_modal a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+  }
+  
+  #menu_close {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    background: var(--background);
+    color: var(--text);
+    box-shadow: none;
+  }
+
   #navbar {
     grid-template-columns: 1fr 60px 60px 60px;
     padding: 10px 20px;
@@ -826,7 +888,7 @@ footer {
   }
 
   #corner_search {
-    grid-column-start: 3;
+    grid-column-start: 2;
     justify-self: end;
   }
 
