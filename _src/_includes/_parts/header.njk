@@ -31,5 +31,16 @@
         <div id="darktoggle">
             <i class="fas fa-clouds-moon"></i>
         </div>
+        <div id="corner_menu">
+            <i class="fas fa-hamburger"></i>
+        </div>
+    </div>
+    <div id="menu_modal">
+        <button id="menu_close">&times;</button>
+        <ul>
+            {% for item in globalnav %}
+            <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+            {% endfor %}
+        </ul>
     </div>
 </nav>
