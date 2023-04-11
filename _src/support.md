@@ -59,21 +59,19 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 
 **Benefit:** Private & sensitive topics may be covered. Bug reports and other PII can be shared without making this data publicly available.
 
-**Note:** 
+</div>
+</div>
 
-* Topics discussed over email may used as the subject of articles on this website. 
+**Notes on community support:** 
+
+* Topics discussed may used as the subject of articles on this website. 
 * For casual help & advice, NDAs and similar documents are out of scope. Share what you are permitted to share, and I'll help as best I can.
-* Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer
+* Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer.
 * I may not be able to respond in a timely fashion at any point during assistance, and make no promises to solve an issue or full satisfy a need as a casual engagement. 
-
-</div>
-</div>
 
 ## Dedicated engagement
 
 Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. [Email](mailto:jason@bayton.org) me a request for engagement. Include a detailed SCOPE and/or Statement of Work (SoW), as well as a budget and time window for the engagement to review. 
-
-**SLA:** _As agreed._ 
 
 **Scope:**
 
@@ -81,7 +79,6 @@ Ideal for dedicated support, engagements of a strategic/planning nature, or proj
 * Direct access to organisation PoCs & infrastructure for debugging
 * RCA & resolution report
 * 1-to-1 or 1-to-many remote sessions as required
-* Review of attachments or similar uploaded debugging information
 
 **Fees:** 1/2 day (up to 4h): £600. 1 day (up to 8h): £1200
 
