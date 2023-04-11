@@ -30,6 +30,8 @@ Take a look at [/android](/android), and if you don't see what you're looking fo
 
 If you still don't find what you're looking for, you can [submit a request](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) for content and I'll get to it as soon as I'm able.
 
+**Benefit:** 24/7 access, many subjects and FAQs already covered, and if there's something missing, just request it!
+
 </div>
 <div>
 
@@ -47,7 +49,7 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 </div>
 <div>
 
-## Email/direct message
+## Email/message
 
 [Email](mailto:jason@bayton.org) me your request.
 
