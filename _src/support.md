@@ -8,16 +8,17 @@ excerpt: ''
 type: page
 layout: base.njk
 ---
-Are you looking for support with your mobility project? Struggling with an issue? Looking for advice?
+If you're looking for assistance with your mobility projects, I can offer multiple routes to support - both free and paid.
 
-Here are some of the topics I can offer help & advice on (non-exhaustive):
+As a reference, here are some of the topics I can offer help & advice on outside of _just Android_ (non-exhaustive):
 
 * Android Enterprise
-* Enterprise Mobility (multi-OS, multi-EMM)
+* Enterprise Mobility - multi-OS, multi-EMM: identity, provisioning, infrastructure, integration, etc. across AirWatch, Intune, MobileIron, others.
 * Mobility Strategy 
-* Android (OS) development & certification (GMS)
+* Android (OS) development & certification (GMS - Google Mobile Services & [Play Protect certified](https://www.android.com/certified/))
 * Android hardware manufacturing
-* Product development, management, strategy
+* Product development, management, strategy, support
+* EMM platform product, marketing, strategy, support
 
 Here are some of the ways you can engage with me:
 
@@ -55,7 +56,7 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 
 **Scope:**
 
-* Replies to emails
+* Replies to emails/messages 
 * Review of attachments or similar uploaded debugging information
 * 1-to-1 remote call where initiated by me
 
@@ -69,11 +70,22 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 * Topics discussed may used as the subject of articles on this website. 
 * For casual help & advice, NDAs and similar documents are out of scope. Share what you are permitted to share, and I'll help as best I can.
 * Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer.
-* I may not be able to respond in a timely fashion at any point during assistance, and make no promises to solve an issue or full satisfy a need as a casual engagement. 
+* I may not be able to respond in a timely fashion at any point during assistance, and make no promises to solve an issue or fully satisfy a need as a casual engagement, but I'll do my best! 
 
 ## Dedicated engagement
 
-Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. [Email](mailto:jason@bayton.org) me a request for engagement. Include a detailed SCOPE and/or Statement of Work (SoW), as well as a budget and time window for the engagement to review. 
+I make available several hous a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above, 
+
+Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. Some examples of dedicated engagements undertaken include:
+
+* EMM migration. AirWatch to Intune for Android & iOS devices
+* Mobility strategy planning for a hardware estate
+* Product consultation on Android Enterprise support for Apple-first solutions
+* EMM & device selection for a greenfield organisation
+* Intune deployment, end to end.
+* Google Workspace advanced management deployment
+
+[Email](mailto:jason@bayton.org) me a request for engagement. Include a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
 
 **Scope:**
 
@@ -82,9 +94,8 @@ Ideal for dedicated support, engagements of a strategic/planning nature, or proj
 * RCA & resolution report
 * 1-to-1 or 1-to-many remote sessions as required
 
-**Fees:** 1/2 day (up to 4h): £600. 1 day (up to 8h): £1200
-
-* Hours may be consumed ad-hoc, across multiple days as required
+**Fees:** 1/2 day (up to 4h): £650. 1 day (up to 8h): £1200  
+NB: Hours may be consumed ad-hoc, across multiple days as required
 
 **Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss. 
 
