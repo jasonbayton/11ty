@@ -70,20 +70,20 @@
 
 @media (max-width: 900px) {
 
-	.grid-column-mobile-1 {
-		grid-template-columns: 1fr;
+  .grid-column-mobile-1 {
+		    grid-template-columns: 1fr;
 	}
 
-	.grid-column-mobile-2 {
-		grid-template-columns: 1fr 1fr;
+  .grid-column-mobile-2 {
+		    grid-template-columns: 1fr 1fr;
 	}
 
-    .grid-row-start-mobile-1 {
+  .grid-row-start-mobile-1 {
         grid-row: 1/2;
-    }
+  }
 
-    .grid-align-mobile-unset {
+   .grid-align-mobile-unset {
         justify-self: unset;
         align-self: unset;
-    }
+  }
 }
