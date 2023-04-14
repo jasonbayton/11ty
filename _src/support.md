@@ -22,7 +22,7 @@ As a reference, here are some of the topics I can offer help & advice on outside
 
 Here are some of the ways you can engage with me:
 
-<div class="grid grid-column-3 grid-gap-30 grid-mobile-column-1">
+<div class="grid grid-column-3 grid-gap-30 grid-column-mobile-1">
 <div>
 
 ## Docs
