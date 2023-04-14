@@ -72,6 +72,8 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 * Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer.
 * I may not be able to respond in a timely fashion at any point during assistance, and make no promises to solve an issue or fully satisfy a need as a casual engagement, but I'll do my best! 
 
+<div class="callout">
+
 ## Dedicated engagement
 
 I make available several hous a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above, 
@@ -99,3 +101,4 @@ NB: Hours may be consumed ad-hoc, across multiple days as required
 
 **Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss. 
 
+</div>
