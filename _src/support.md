@@ -76,16 +76,19 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 
 ## Dedicated engagement
 
-I make available several hous a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above, 
+I make available several hours a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above, 
 
-Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. Some examples of dedicated engagements undertaken include:
+Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. Of course, NDA projects also. 
+
+Some examples of dedicated engagements undertaken include:
 
 * EMM migration. AirWatch to Intune for Android & iOS devices
 * Mobility strategy planning for a hardware estate
-* Product consultation on Android Enterprise support for Apple-first solutions
+* Product consultation on Android Enterprise support for non-Android solutions
 * EMM & device selection for a greenfield organisation
-* Intune deployment, end to end.
+* Intune deployment, end to end
 * Google Workspace advanced management deployment
+* EMM health check
 
 [Email](mailto:jason@bayton.org) me a request for engagement. Include a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
 
