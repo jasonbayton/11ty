@@ -72,11 +72,11 @@
 
   .grid-column-mobile-1 {
       grid-template-columns: 1fr;
-	}
+  }
 
   .grid-column-mobile-2 {
       grid-template-columns: 1fr 1fr;
-	}
+  }
 
   .grid-row-start-mobile-1 {
       grid-row: 1/2;
