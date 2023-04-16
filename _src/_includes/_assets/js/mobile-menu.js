@@ -1,4 +1,4 @@
-const cornerMenu = document.getElementById('corner_menu');
+const cornerMenu = document.getElementById('corner_menu_icon');
 const menuModal = document.getElementById('menu_modal');
 
 cornerMenu.addEventListener('click', () => {
