@@ -54,7 +54,7 @@ There are obviously the community/contribution benefits to being open source as 
 
 Over the last year I had started building a new PHP CMS from the ground up (I know enough to be dangerous) with another custom theme, v5, still hosted up on [the beta site](https://beta.bayton.org) at time of publishing, but a few weeks ago I was introduced to [Eleventy](https://www.11ty.js) by my UX Engineering colleague and honestly, it made far more sense. 
 
-Remaining on a PHP-backed solution would retain the need for hosting, even if only minute, and even if all content lived up in GitHub, which would continue the systems management overhead I don't really want to do. Eleventy allows me to develop and build locally, and combined with CloudFlare Pages integration with GitHub for automated deployments, it means I don't need any self-managed infra in place to keep the site up. 
+Remaining on a PHP-backed solution would retain the need for hosting, even if only minute, and even if all content lived up in GitHub, which would continue the systems management overhead I don't really want to do. Eleventy allows me to develop and build locally, and combined with ~~CloudFlare Pages~~ Netlify integration with GitHub for automated deployments, it means I don't need any self-managed infra in place to keep the site up. 
 
 Today I can knock up my markdown-based post in whatever text editor (or [GitHub.dev](https://github.dev) if I'm not using my normal setup), push it to GitHub, and minutes later it appears on bayton.org. Magic. 
 
