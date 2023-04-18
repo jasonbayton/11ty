@@ -1,11 +1,10 @@
-// This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
+import { precacheAndRoute } from 'workbox-precaching';
+import { CacheFirst } from 'workbox-strategies';
 
-const CACHE = "offline-pages";
+const CACHE_NAME = 'my-cache-v1';
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.5.4/workbox-sw.js');
-
-const offlineFallbackPage = "offline.html";
-const offlinecache = [
+// Precache a list of URLs
+precacheAndRoute([
   '/',
   '/android/',
   '/css/base.css',
@@ -14,50 +13,19 @@ const offlinecache = [
   '/img/bayton_logos/bayton_rectangle_light.svg',
   '/img/bayton_logos/bayton_rectangle.svg',
   '/offline.html'
-];
+]);
 
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.type === "SKIP_WAITING") {
-    self.skipWaiting();
-  }
-});
-
-self.addEventListener('install', async (event) => {
-  event.waitUntil(
-    caches.open(CACHE)
-      .then((cache) => cache.add(offlineFallbackPage))
-  );
-});
-
-if (workbox.navigationPreload.isSupported()) {
-  workbox.navigationPreload.enable();
-}
-
+// Use the CacheFirst strategy to serve precached URLs
 workbox.routing.registerRoute(
-  new RegExp('/*'),
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: CACHE
+  ({url}) => {
+    return precacheUrls.indexOf(url.pathname) !== -1;
+  },
+  new CacheFirst({
+    cacheName: CACHE_NAME
   })
 );
 
-self.addEventListener('fetch', (event) => {
-  if (event.request.mode === 'navigate') {
-    event.respondWith((async () => {
-      try {
-        const preloadResp = await event.preloadResponse;
-
-        if (preloadResp) {
-          return preloadResp;
-        }
-
-        const networkResp = await fetch(event.request);
-        return networkResp;
-      } catch (error) {
-
-        const cache = await caches.open(CACHE);
-        const cachedResp = await cache.match(offlineFallbackPage);
-        return cachedResp;
-      }
-    })());
-  }
-});
+// Serve offline fallback page for all navigation requests
+workbox.routing.registerNavigationRoute(
+  workbox.precaching.getCacheKeyForURL('/offline.html')
+);
