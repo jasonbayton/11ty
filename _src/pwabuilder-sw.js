@@ -12,7 +12,8 @@ const offlinecache = [
   '/js/darkmode.js',
   '/js/darkmodetoggle.js',
   '/img/bayton_logos/bayton_rectangle_light.svg',
-  '/img/bayton_logos/bayton_rectangle.svg'
+  '/img/bayton_logos/bayton_rectangle.svg',
+  '/offline.html'
 ];
 
 self.addEventListener("message", (event) => {
