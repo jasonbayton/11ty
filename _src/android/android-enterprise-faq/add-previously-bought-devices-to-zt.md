@@ -18,3 +18,4 @@ A reseller has the ability to upload any devices through their reseller portal, 
 
 **This will change in future**.
 
+https://support.google.com/googleplay/answer/1727131?hl=en-GB
