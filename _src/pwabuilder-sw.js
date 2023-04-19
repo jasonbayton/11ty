@@ -90,10 +90,13 @@ self.addEventListener('fetch', (event) => {
         const networkResp = await fetch(event.request);
         return networkResp;
       } catch (error) {
-
         const cache = await caches.open(CACHE);
         const cachedResp = await cache.match(offlineFallbackPage);
-        return cachedResp;
+        if (cachedResp) {
+          return cachedResp;
+        }
+        // If no cached response is available, show the offline page
+        return caches.match('/offline.html');
       }
     })());
   }
