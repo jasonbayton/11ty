@@ -20,7 +20,7 @@ If you still don't find what you're looking for, you can [submit a request](http
 **Benefit:** 24/7 access, many subjects and FAQs already covered, and if there's something missing, just request it!
 
 </div>
-<div>
+<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0">
 
 ## Community 
 
@@ -34,7 +34,7 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 **Benefit:** As a community resource, your request may be picked up by other members of the community well-versed in the topic at hand. Once a resolution is achieved, the issue and resolution are public domain for others to benefit in kind.
 
 </div>
-<div>
+<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0">
 
 ## Email/message
 
@@ -58,7 +58,7 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 * Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer.
 * I may not be able to respond in a timely fashion at any point during assistance, and make no promises to solve an issue or fully satisfy a need as a casual engagement, but I'll do my best! 
 
-<div class="callout">
+<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0">
 
 ## Dedicated engagement
 
