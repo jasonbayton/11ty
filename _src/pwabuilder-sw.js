@@ -65,7 +65,7 @@ workbox.routing.registerRoute(
     cacheName: CACHE,
     plugins: [
       // Print a message to the console when a response is fetched from the network
-      new workbox.expiration.Plugin({
+      new workbox.expiration.ExpirationPlugin({
         onCacheEntryAdded: () => console.log('New entry added to cache.'),
         onCacheEntryUpdated: () => console.log('Entry updated in cache.'),
         onCacheEntryDeleted: () => console.log('Entry deleted from cache.'),
