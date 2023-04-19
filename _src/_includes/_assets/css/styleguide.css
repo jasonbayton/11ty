@@ -60,16 +60,40 @@
     grid-template-columns: 3fr 1fr;
 }
 
-.grid-row-start-1 {
-    grid-row: 1/2;
+.grid-column-start-1 {
+    grid-column-start: 1;
 }
 
-.grid-row-start-2 {
-    grid-row: 2/3;
+.grid-column-start-2 {
+    grid-column-start: 2;
 }
 
-.grid-row-start-3 {
-    grid-row: 3/4;
+.grid-column-start-3 {
+    grid-column-start: 3;
+}
+
+.grid-column-end-1 {
+    grid-column-end: 1;
+}
+
+.grid-column-end-2 {
+    grid-column-end: 2;
+}
+
+.grid-column-end-3 {
+    grid-column-end: 3;
+}
+
+.grid-column-end-4 {
+    grid-column-end: 4;
+}
+
+.grid-column-span-all {
+    grid-column: 1/-1;
+}
+
+.grid-row-span-all {
+    grid-row: 1/-1;
 }
 
 .grid-align-left {
