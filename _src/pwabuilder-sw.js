@@ -50,6 +50,9 @@ self.addEventListener('install', async (event) => {
       })
     ])
   );
+  caches.open(CACHE).then(cache => {
+    console.log('Offline cache contents:', cache.keys());
+  });
 });
 
 // Check if navigation preload is supported
@@ -90,6 +93,7 @@ self.addEventListener('fetch', (event) => {
         const networkResp = await fetch(event.request);
         return networkResp;
       } catch (error) {
+        console.log('Network request for offline page failed. Serving offline page from cache.');
         const cache = await caches.open(CACHE);
         const cachedResp = await cache.match(offlineFallbackPage);
         if (cachedResp) {
@@ -99,6 +103,9 @@ self.addEventListener('fetch', (event) => {
         return caches.match('/offline.html');
       }
     })());
+    caches.open(CACHE).then(cache => {
+      console.log('Cache contents:', cache.keys());
+  });
   }
 });
 
