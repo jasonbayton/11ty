@@ -719,14 +719,6 @@ footer {
   font-weight: 300;
 }
 
-/* .callout-primary { background-color: var(--orange); color: var(--bright); }
-.callout-success { background-color: var(--orange); color: var(--bright); }
-.callout-danger { background-color: var(--orange); color: var(--bright); }
-.callout-warning { background-color: var(--orange); color: var(--bright); }
-.callout-info { background-color: var(--orange); color: var(--bright); }
-.callout-dark { background-color: var(--orange); color: var(--bright); }
-*/
-
 .nav-link-individual a {
   text-decoration: none;
 }
@@ -794,15 +786,6 @@ footer {
 }
 
 /* Media */
-
-@media (max-width: 1550px) {
-
-}
-
-@media (min-width: 1300px) {
-
-
-}
 
 @media (max-width: 900px) {
 
@@ -939,8 +922,4 @@ footer {
   #intro_heading {
     font-size: 36px;
   }
-}
-
-@media (max-width: 300px) {
-
 }
