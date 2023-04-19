@@ -1,24 +1,15 @@
 ---
-title: 'What is MDM (Mobile Device Management)?'
+title: 'What is Mobile Device Management?'
 date: '2017-04-09T09:44:47+01:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: post
-id: 4112
-doccats:
-    - General
-Version:
-    - '1.4'
-publish_post_category:
-    - '13'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/what-is-mdm-mobile-device-management/41'
 ---
 What is it?
 -----------
 
-MDM stands for Mobile Device Management and is one of the cornerstones of the Enterprise Mobility Management industry, providing remote, over the air management of mobile devices.
+Mobile Device Management, or MDM, is one of the cornerstones of the Enterprise Mobility Management ecosystem, providing remote, over the air management of mobile devices.
 
 MDM enables:
 
@@ -48,8 +39,7 @@ Having the ability to roll out an application to a vast number of devices simult
 
 Robust reporting modules built into today’s MDM platforms mean organisations can generate various ad-hoc reports for installed software, storage usage, hardware, operating system information and more, with the ability to export these metrics or forward them on to industry-leading reporting solutions. This means organisations know exactly how a device is being used when issues arise and can use this information when working towards a resolution.
 
-What problems does it solve?
-----------------------------
+## What problems does it solve?
 
 Before investing in an MDM platform, an organisation will naturally need to understand the problems it solves and benefits it introduces. MDM can and does solve very real problems on a daily basis:
 
@@ -61,8 +51,7 @@ Before investing in an MDM platform, an organisation will naturally need to unde
 
 There are many other scenarios MDM can help. Take a moment to consider them.
 
-What can it do?
----------------
+## What can it do?
 
 The MDM solution is a platform used to provide support to mobile devices anywhere in the world with an internet connection and offers the following benefits:
 
@@ -120,8 +109,7 @@ The end user portal allows users quick and simple access to view the devices the
 
 The availability of these options to all end users can help reduce requests for assistance that may arise from forgotten PINs or lost devices, however it is very much in the control of the organisation what users can and cannot do without MDM administrator intervention. Users may also optionally self-enrol onto the corporate MDM platform to gain access to email and other corporate resources if permitted. In many organisations the MDM administrator never needs to enrol a device for a user, reducing overhead there to almost zero.
 
-Additional EMM components
--------------------------
+## Additional EMM components
 
 When MDM and its security-first featureset is not quite enough, consider a broader EMM suite to take advantage of some or all of the following:
 
@@ -141,8 +129,7 @@ Often email alone is not enough; when organisations have large data repositories
 
 Naturally for smaller environments, documents can be uploaded to the EMM platform, optionally password protected and distributed or removed on request. No backend infrastructure required.
 
-Conclusion
-----------
+## Conclusion
 
 MDM is quickly becoming vital for the enterprise and paramount for adequate device management. Utilising all of the services and features outlined above, our ability, as an industry, to manage devices both locally and across the world is made significantly easier. With EMM organisations can extend management to applications, content and telecoms management with very little effort.
 
