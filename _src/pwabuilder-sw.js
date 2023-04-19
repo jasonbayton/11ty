@@ -1,8 +1,5 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.5.4/workbox-sw.js');
 
-import { precacheAndRoute } from 'workbox-precaching';
-import { CacheFirst } from 'workbox-strategies';
-
 // Define the name of the cache
 const CACHE = "offline-pages";
 
@@ -21,7 +18,7 @@ const offlinecache = [
   '/js/darkmodetoggle.js',
   '/img/bayton_logos/bayton_rectangle_light.svg',
   '/img/bayton_logos/bayton_rectangle.svg',
-  offlineFallbackPage
+  '/offline.html'
 ];
 
 // Event listener for the message event
