@@ -8,22 +8,8 @@ excerpt: ''
 type: page
 layout: base.njk
 ---
-If you're looking for assistance with your mobility projects, I can offer multiple routes to support - both free and paid.
-
-As a reference, here are some of the topics I can offer help & advice on outside of _just Android_ (non-exhaustive):
-
-* Android Enterprise
-* Enterprise Mobility - multi-OS, multi-EMM: identity, provisioning, infrastructure, integration, etc. across AirWatch, Intune, MobileIron, others.
-* Mobility Strategy 
-* Android (OS) development & certification (GMS - Google Mobile Services & [Play Protect certified](https://www.android.com/certified/))
-* Android hardware manufacturing
-* Product development, management, strategy, support
-* EMM platform product, marketing, strategy, support
-
-Here are some of the ways you can engage with me:
-
 <div class="grid grid-column-3 grid-gap-30 grid-column-mobile-1">
-<div>
+<div class="border-4px border-orange border-curved">
 
 ## Docs
 
