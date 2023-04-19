@@ -120,6 +120,20 @@
     padding: 60px;
 }
 
+/* Borders */
+
+.border-4px {
+    border: 4px solid;
+}
+
+.border-orange {
+    border-color: var(--orange);
+}
+
+.border-curved {
+    border-radius: 5px;
+}
+
 @media (max-width: 900px) {
 
   .grid-column-mobile-1 {
@@ -148,16 +162,3 @@
   }
 }
 
-/* Borders */
-
-.border-4px {
-    border: 4px solid;
-}
-
-.border-orange {
-    border-color: var(--orange);
-}
-
-.border-curved {
-    border-radius: 5px;
-}
