@@ -1,5 +1,5 @@
 ---
-title: Help from an expert
+title: Expert help
 subtitle: Achieve your mobility objectives with my help
 date: '2023-01-22'
 status: publish
@@ -13,23 +13,22 @@ layout: base.njk
 
 ## Docs
 
-Take a look at [/android](/android), and if you don't see what you're looking for, try [/search](/search). There's a high likelihood your question may have been covered either directly, or indirectly, through existing docs. Search is full-text, so searching on "work challenge" will bring up all articles referencing it. 
+Take a look at [/android](/android), and if you don't see what you're looking for, try [/search](/search). There's a high likelihood your question may have been covered either directly, or indirectly, through existing docs.
 
 If you still don't find what you're looking for, you can [submit a request](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) for content and I'll get to it as soon as I'm able.
 
-**Benefit:** 24/7 access, many subjects and FAQs already covered, and if there's something missing, just request it!
+**Benefit:** 24/7 access, many subjects and FAQs already covered, and if there's something missing it can be requested!
 
 </div>
 <div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0">
 
 ## Community 
 
-Post your request to the [Android Enterprise Help Community](https://support.google.com/work/android/community), the [MobilePros Slack Community](https://mobilepros.org), or the [MobilePros Telegram group](https://t.me/mobile_pros).
+Post your request to the:
 
-**Scope:**
-
-* Replies to community-posted topics
-* Review of attachments or similar uploaded debugging information
+* [Android Enterprise Help Community](https://support.google.com/work/android/community), 
+* [MobilePros Slack Community](https://mobilepros.org), 
+* [MobilePros Telegram group](https://t.me/mobile_pros).
 
 **Benefit:** As a community resource, your request may be picked up by other members of the community well-versed in the topic at hand. Once a resolution is achieved, the issue and resolution are public domain for others to benefit in kind.
 
@@ -38,27 +37,13 @@ Post your request to the [Android Enterprise Help Community](https://support.goo
 
 ## Email/message
 
-[Email](mailto:jason@bayton.org) me your request.
+[Email](mailto:jason@bayton.org) me your request and I will respond when able. Please ensure your request is fully-formed, including the issue, any error messages or related information, full device/EMM details, versions, etc, and if you have media to support the issue (pictures, videos, etc), this will be of great help also.
 
-**Scope:**
-
-* Replies to emails/messages 
-* Review of attachments or similar uploaded debugging information
-* 1-to-1 remote call where initiated by me
-
-**Benefit:** Private & sensitive topics may be covered. Bug reports and other PII can be shared without making this data publicly available.
+**Benefit:** Private & sensitive topics may be covered. Bug reports and other PII can be shared without making this data publicly available. 
 
 </div>
-</div>
 
-**Notes on community support:** 
-
-* Topics discussed may used as the subject of articles on this website. 
-* For casual help & advice, NDAs and similar documents are out of scope. Share what you are permitted to share, and I'll help as best I can.
-* Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer.
-* I may not be able to respond in a timely fashion at any point during assistance, and make no promises to solve an issue or fully satisfy a need as a casual engagement, but I'll do my best! 
-
-<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0">
+<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0 grid-column-span-all">
 
 ## Dedicated engagement
 
@@ -68,22 +53,18 @@ Ideal for dedicated support, engagements of a strategic/planning nature, or proj
 
 Some examples of dedicated engagements undertaken include:
 
-* EMM migration. AirWatch to Intune for Android & iOS devices
-* Mobility strategy planning for a hardware estate
-* Product consultation on Android Enterprise support for non-Android solutions
-* EMM & device selection for a greenfield organisation
-* Intune deployment, end to end
-* Google Workspace advanced management deployment
+* EMM migration
 * EMM health check
+* Mobility strategy planning
+* EMM & device selection
+* Product consultation on Android Enterprise support for non-Android solutions
+* EMM deployment, end to end
+* Google Workspace deployment
+* GMS consulting for uncertified (AOSP) devices
+* Android Enterprise hardware validation
+
 
 [Email](mailto:jason@bayton.org) me a request for engagement. Include a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
-
-**Scope:**
-
-* Dedicated engagement on agreed hours
-* Direct access to organisation PoCs & infrastructure for debugging
-* RCA & resolution report
-* 1-to-1 or 1-to-many remote sessions as required
 
 **Fees:** 1/2 day (up to 4h): £650. 1 day (up to 8h): £1200  
 NB: Hours may be consumed ad-hoc, across multiple days as required
@@ -91,3 +72,11 @@ NB: Hours may be consumed ad-hoc, across multiple days as required
 **Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss. 
 
 </div>
+</div>
+
+**Disclaimers :** 
+
+* Topics discussed may used as the subject or reference of articles on this website (anonymously unless otherwise discussed). 
+* For casual help & advice, NDAs and similar documents are out of scope. Share what you are permitted to share, and I'll help as best I can.
+* Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer.
+* I may not be able to respond in a timely fashion at any point during non-dedicated engagements, and make no promises to solve an issue or fully satisfy a need as a casual engagement, but I'll do my best! 
