@@ -7,7 +7,7 @@ const CACHE = "offline-pages";
 const bgSyncQueueName = "bg-sync-queue";
 
 // Define the offline fallback page
-const offlineFallbackPage = "/offline.html";
+const offlineFallbackPage = "offline.html";
 
 // Define an array of URLs to be cached offline
 const offlinecache = [
