@@ -33,9 +33,9 @@ _- RP Gill, Product Engineering lead_
 
 ### Get the book
 
-**Daddy's Phone Can't Do That!** is available today through [Lulu.com](https://www.lulu.com/shop/jason-bayton-and-laila-ar%C3%AAde/daddys-phone-cant-do-that/ebook/product-8ervv5.html) as an EPUB for £,$,€ 1.99. More distributors will come online over the coming weeks.
+**Daddy's Phone Can't Do That!** is available today through [Lulu.com](https://www.lulu.com/shop/jason-bayton-and-laila-ar%C3%AAde/daddys-phone-cant-do-that/ebook/product-8ervv5.html) & [Google Play](https://play.google.com/store/books/details?id=JRm3EAAAQBAJ) as an EPUB for £,$,€ 1.99. More distributors will come online over the coming weeks.
 
-<a class="button button-small" href="https://www.lulu.com/shop/jason-bayton-and-laila-ar%C3%AAde/daddys-phone-cant-do-that/ebook/product-8ervv5.html">Buy EPUB</a>
+<a class="button button-small" href="https://www.lulu.com/shop/jason-bayton-and-laila-ar%C3%AAde/daddys-phone-cant-do-that/ebook/product-8ervv5.html">Buy EPUB @ Lulu</a> <a class="button button-small" href="https://play.google.com/store/books/details?id=JRm3EAAAQBAJ">Buy EPUB on Play</a>
 
 A PDF copy is available for download at no cost, but pay-what-you-want links are below to support the work (suggested: 1.99):
 
