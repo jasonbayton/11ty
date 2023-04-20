@@ -8,7 +8,8 @@ excerpt: ''
 type: page
 layout: base.njk
 ---
-Looking for support for your enterprise mobility issues or objectives, get support via the following channels:
+Looking for support for your enterprise mobility issues or objectives? Get support via the following channels:
+
 <div class="grid grid-column-3 grid-gap-30 grid-column-mobile-1">
 <div class="">
 
