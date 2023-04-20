@@ -9,7 +9,7 @@ type: page
 layout: base.njk
 ---
 <div class="grid grid-column-3 grid-gap-30 grid-column-mobile-1">
-<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0">
+<div class="">
 
 ## Docs
 
@@ -43,7 +43,7 @@ Post your request to the:
 
 </div>
 
-<div class="">
+<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0 grid-column-span-all">
 
 ## Dedicated engagement
 
