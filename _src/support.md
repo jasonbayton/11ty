@@ -66,12 +66,10 @@ Some examples of dedicated engagements undertaken include:
 * Android Enterprise hardware validation
 
 
-[Email](mailto:jason@bayton.org) me a request for engagement. Include a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
+[Contact](/contact) me with a request for engagement. Include a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
 
-**Fees:** 1/2 day (up to 4h): £650. 1 day (up to 8h): £1200  
+**Fee options:** 1/2 day (up to 4h). Full day (up to 8h). Fixed per project scope.  
 NB: Hours may be consumed ad-hoc, across multiple days as required
-
-**Note:** Engagements are subject to availability, depending on the scope and/or time limitations in place. If you have the luxury of time, reach out sooner rather than later to discuss. 
 
 </div>
 </div>
