@@ -8,6 +8,7 @@ excerpt: ''
 type: page
 layout: base.njk
 ---
+Looking for support for your enterprise mobility issues or objectives, get support via the following channels:
 <div class="grid grid-column-3 grid-gap-30 grid-column-mobile-1">
 <div class="">
 
@@ -37,7 +38,7 @@ Post your request to the:
 
 ## Email/message
 
-[Email](mailto:jason@bayton.org) me your request and I will respond when able. Please ensure your request is fully-formed, including the issue, any error messages or related information, full device/EMM details, versions, etc, and if you have media to support the issue (pictures, videos, etc), this will be of great help also.
+Use my [contact](/contact) details to send me your request and I will respond when able. Please ensure your request is fully-formed, including the issue, any error messages or related information, full device/EMM details, versions, etc, and if you have media to support the issue (pictures, videos, etc), this will be of great help also.
 
 **Benefit:** Private & sensitive topics may be covered. Bug reports and other PII can be shared without making this data publicly available. 
 
