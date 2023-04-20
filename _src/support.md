@@ -20,7 +20,7 @@ If you still don't find what you're looking for, you can [submit a request](http
 **Benefit:** 24/7 access, many subjects and FAQs already covered, and if there's something missing it can be requested!
 
 </div>
-<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0">
+<div class="">
 
 ## Community 
 
@@ -33,7 +33,7 @@ Post your request to the:
 **Benefit:** As a community resource, your request may be picked up by other members of the community well-versed in the topic at hand. Once a resolution is achieved, the issue and resolution are public domain for others to benefit in kind.
 
 </div>
-<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0">
+<div class="">
 
 ## Email/message
 
@@ -43,7 +43,7 @@ Post your request to the:
 
 </div>
 
-<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0 grid-column-span-all">
+<div class="">
 
 ## Dedicated engagement
 
