@@ -158,6 +158,15 @@
     border-radius: 5px;
 }
 
+.padding-40 {
+    padding: 40px;
+}
+
+.padding-sides-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 @media (max-width: 900px) {
 
   .grid-column-mobile-1 {
