@@ -12,9 +12,7 @@ Not too long ago Google [announced](https://android-developers.googleblog.com/20
 
 As these things tend to go, the likelihood now of major additions is slim, and so beta 1 marks a good opportunity to review what we're likely to see when Android 14 officially launches later this year.
 
-Related: [Bayton's Android Enterprise wishlist](/android/android-enterprise-feature-requests/)
-
-I'm not going to cover everything in the API docs targeted to Android 14, only the notable items. That said, ready?
+Given the amount of lower-level developer content, I'm not going to cover everything in the API docs targeted to Android 14, so this will be limited to only the notable items. That said, ready?
 
 ## Persistent screen-on during provisioning
 
