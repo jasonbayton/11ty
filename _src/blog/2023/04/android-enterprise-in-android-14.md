@@ -12,7 +12,7 @@ Not too long ago Google [announced](https://android-developers.googleblog.com/20
 
 As these things tend to go, the likelihood now of major additions is slim, and so beta 1 marks a good opportunity to review what we're likely to see when Android 14 officially launches later this year.
 
-Given the amount of lower-level developer content, I'm not going to cover everything in the API docs targeted to Android 14, so this will be limited to only the notable items. That said, ready?
+Given the amount of lower-level developer content, I'm not going to cover everything in the API docs targeted to Android 14, so this will be limited to only the notable items. That said, let's go!
 
 ## Persistent screen-on during provisioning
 
@@ -50,13 +50,13 @@ But! It's not what I'd consider fully formed just yet.
 
 In Android 14, organisations will be able to assign the SIM(s) on a corporate owned device to the work profile (so COPE only) as an all-or-nothing policy. This absolutely covers use cases where organisations provide a device and SIM for work while allowing personal use, but clearly doesn't cover the desired behaviour to associate 1 of multiple SIMs to the work profile, while the other is left to the parent profile; the ideal eventuality for BYO and COPE users. 
 
-A new related API is `setDefaultDialerApplication`, which permits the DPC to set an explicit dialer in relation to this SIM management API (`ManagedSubscriptionsPolicy`), which is handy.
+A new related API is `setDefaultDialerApplication`, which permits the DPC to set an explicit dialer in relation to this SIM management API (`ManagedSubscriptionsPolicy`), which is handy. This also compliments the default SMS API introduced way back in Android 10.
 
 Behaviour-wise, it meets expectations, per Google: 
 
 > When a subscription is associated with the managed profile, incoming/outgoing calls and text message using that subscription would only work via apps on managed profile. Also, Call logs and messages would be accessible only from the managed profile.
 
-So again, brilliant start. Hopefully by Android 15 this'll mature into a full-featured SIM management offering for COPE and BYO equally.
+So again, brilliant start. Hopefully by Android 15 this'll mature into a full-featured SIM management offering for COPE and BYO equally, and I can officially tick it off my [AE feature requests list](/android/android-enterprise-feature-requests/).
 
 ## Correct saving of screenshots for work profile applications
 
