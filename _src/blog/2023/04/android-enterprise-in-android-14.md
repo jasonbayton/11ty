@@ -30,7 +30,7 @@ I normally wouldn't reference deprecations and replacement APIs in these updates
 
 `CrossProfileContactsSearchDisabled` and `CrossProfileCallerIdDisabled` are being deprecated in favour of what appears to be a more specific `ManagedProfileCallerIdAccessPolicy()` and `ManagedProfileContactsAccessPolicy()`. Reading into the soon-deprecated APIs specifically, Google states:
 
-> Starting with Build.VERSION_CODES.UPSIDE_DOWN_CAKE, calling this function is similar to calling setManagedProfileCallerIdAccessPolicy(android.app.admin.PackagePolicy) with a PackagePolicy#PACKAGE_POLICY_BLOCKLIST policy type when disabled is false or a PackagePolicy#PACKAGE_POLICY_ALLOWLIST policy type when disabled is true.
+> Starting with `Build.VERSION_CODES.UPSIDE_DOWN_CAKE`, calling this function is similar to calling `setManagedProfileCallerIdAccessPolicy(android.app.admin.PackagePolicy)` with a `PackagePolicy#PACKAGE_POLICY_BLOCKLIST` policy type when disabled is false or a `PackagePolicy#PACKAGE_POLICY_ALLOWLIST` policy type when disabled is true.
 
 The original APIs were a simple allow/disallow, while the new APIs lean on ALLOWLIST/BLOCKLIST (and another new ALLOWLIST_AND_SYSTEM, which as you might guess includes system apps by default as well as those explicitly defined by the DPC) to either generate explicitly permitted, or explicitly blocked applications being called on the device for the cross-profile functionality of caller ID and contact search.
 
