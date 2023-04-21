@@ -3,7 +3,7 @@ title: "What's new for enterprise in Android 14"
 date: '2023-04-20'
 status: publish
 author: 'Jason Bayton'
-excerpt: "With the first beta live, it's time to see what's coming to Android 14"
+excerpt: "With the first beta live, it's time to see what's coming to Android 14."
 type: post
 tags:
     - Enterprise

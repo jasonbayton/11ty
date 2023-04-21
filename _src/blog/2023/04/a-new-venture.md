@@ -3,7 +3,7 @@ title: "Introducing Micro Mobility"
 date: '2023-04-01'
 status: publish
 author: 'Jason Bayton'
-excerpt: "A new venture for the next generation of Modern Mobility Management Experts"
+excerpt: "A new venture for the next generation of Modern Mobility Management Experts."
 type: post
 tags:
     - Meta
