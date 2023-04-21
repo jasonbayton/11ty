@@ -14,7 +14,7 @@ As these things tend to go, the likelihood now of major additions is slim, and s
 
 Related: [Bayton's Android Enterprise wishlist](/android/android-enterprise-feature-requests/)
 
-Ready?
+I'm not going to cover everything in the API docs targeted to Android 14, only the notable items. That said, ready?
 
 ## Persistent screen-on during provisioning
 
@@ -42,11 +42,45 @@ In their place, applications will need to lean on the new [Connected apps](https
 
 > An app providing backup services that will sync work data to a personal profile account, or vice versa, would not be approved as it would send and log data from one profile to the other profile.
 
+At the time of writing, the [AMAPI API docs](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#crossprofilepolicies) don't show anything relating to these changes, so it'll be interesting to see if we benefit from zero-day support later this year.
+
 ## SIM management for COPE devices
 
 This has been on my list of feature requests [_for years_](https://bayton.org/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#work-profile-sim-management)! The ability to manage SIM functionality, and direct it into the work profile has been an ecosystem-wide gripe with COPE (and lesser but still valid, BYO) for as long as I can remember. 
 
 But! It's not what I'd consider fully formed just yet.
 
+In Android 14, organisations will be able to assign the SIM(s) on a corporate owned device to the work profile (so COPE only) as an all-or-nothing policy. This absolutely covers use cases where organisations provide a device and SIM for work while allowing personal use, but clearly doesn't cover the desired behaviour to associate 1 of multiple SIMs to the work profile, while the other is left to the parent profile; the ideal eventuality for BYO and COPE users. 
 
+A new related API is `setDefaultDialerApplication`, which permits the DPC to set an explicit dialer in relation to this SIM management API (`ManagedSubscriptionsPolicy`), which is handy.
+
+Behaviour-wise, it meets expectations, per Google: 
+
+> When a subscription is associated with the managed profile, incoming/outgoing calls and text message using that subscription would only work via apps on managed profile. Also, Call logs and messages would be accessible only from the managed profile.
+
+So again, brilliant start. Hopefully by Android 15 this'll mature into a full-featured SIM management offering for COPE and BYO equally.
+
+## Correct saving of screenshots for work profile applications
+
+In Android 14, the long-standing loophole for DLP controls, the humble screenshot, has been resolved. When a user takes a screenshot of a work app it will now be saved within the work profile, rather than in the parent profile.
+
+If you're anything like me that'll be bittersweet; great for security in plugging a very obvious flaw with screenshots up to this point, but it's 100% something I've leveraged for years to overcome overly strict DLP policies preventing copy/paste, sharing outside the work profile, and so on. 
+
+## UWB (Ultra-Wideband) support
+
+[UWB](https://developer.android.com/guide/topics/connectivity/uwb) is having a bit of a moment recently, with a lot of attention from the media on the solution in the last few months alone. 
+
+UWB is a communications protocol that permits high-speed, short-distance, & low-energy communication. It sits alongside other radios like Bluetooth, NFC, Wi-Fi, etc.  
+
+Since it is a radio, and means of sharing data, it was a matter of time before a management API popped up to control it. Per Google:
+
+> Starting in Android 14, a device or profile owner can disallow UWB on an organization-owned device by applying the DISALLOW_ULTRA_WIDEBAND_RADIO user restriction with `DevicePolicyManager.addUserRestriction()`.
+
+Again this is a device control limited to corporate owned devices, so fully managed or work profile on corporate owned (COPE). 
+
+## Other features
+
+There are several other features that I haven't mentioned, but everything I've found so far is available in the [DevicePolicyManager developer docs](https://developer.android.com/reference/android/app/admin/DevicePolicyManager) for further reading if interested.
+
+This is looking to be a decent release!
 
