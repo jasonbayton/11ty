@@ -72,7 +72,7 @@ UWB is a communications protocol that permits high-speed, short-distance, & low-
 
 Since it is a radio, and means of sharing data, it was a matter of time before a management API popped up to control it. Per Google:
 
-> Starting in Android 14, a device or profile owner can disallow UWB on an organization-owned device by applying the DISALLOW_ULTRA_WIDEBAND_RADIO user restriction with `DevicePolicyManager.addUserRestriction()`.
+> Starting in Android 14, a device or profile owner can disallow UWB on an organization-owned device by applying the `DISALLOW_ULTRA_WIDEBAND_RADIO` user restriction with `DevicePolicyManager.addUserRestriction()`.
 
 Again this is a device control limited to corporate owned devices, so fully managed or work profile on corporate owned (COPE). 
 
