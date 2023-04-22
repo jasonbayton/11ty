@@ -25,7 +25,11 @@ permalink: "/tags/{{ tag | slugify }}/"
 <div class="post-block">
     <div class="post-meta post-meta-condensed">
         <div class="meta-single">
+            {% if post.data.type.includes("note") %}
+            <a href="{{ post.url | url }}">{{ post.date | dateFull }}</a>
+            {% else %}
             {{ post.date | dateFull }}
+            {% endif %}    
         </div>
         <div class="meta-single">
             {% for tag in post.data.tags %}
@@ -35,6 +39,11 @@ permalink: "/tags/{{ tag | slugify }}/"
             {% endfor %}
         </div>
     </div>
+    {% if post.data.type.includes("note") %}
+    <div class="post-summary">
+        {{ post.content | safe }}
+    </div>  
+    {% else %}
     <h3 class="post-title">
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h3>  
@@ -43,5 +52,6 @@ permalink: "/tags/{{ tag | slugify }}/"
         {{ post.data.excerpt }}
     </div>
     {% endif %}
+    {% endif %}    
 </div>
 {% endfor %}
