@@ -17,6 +17,7 @@
   --brand-background: #ffffff;
   --brand-text: #333333;
   --blue-green: #2596BE;
+  --dark-blue: #00284d
 }
 
 [data-theme="dark"] {
@@ -26,7 +27,6 @@
   --text: #cfcfcf;
   --background: #000000;
   --blue: #00284d;
-  --orange: #ce3800;
   --brand-background: #00284d;
   --brand-text: #cfcfcf;
 }
@@ -194,12 +194,13 @@ cite {
 
 code {
   font-family: monospace;
-  color: var(--bright);
+  /* color: var(--bright);
   background-color: #00284c;
   border-radius: 6px;
-  padding: 2px 7px;
+  padding: 2px 7px; */
   overflow-wrap: anywhere;
   overflow-x: scroll;
+  color: car(--dark-blue);
 }
 
 pre {
