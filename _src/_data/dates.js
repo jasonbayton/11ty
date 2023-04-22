@@ -39,6 +39,12 @@ const dateFull = (date) => {
   return dt.toFormat('dd MMMM yyyy');
 };
 
+const dateWithTime = (date) => {
+  const jsDate = new Date(date);
+  const dt = DateTime.fromJSDate(jsDate);
+  return dt.toFormat('dd MMMM yyyy @ HH:mm');
+};
+
 /**
  * Format date: ISO
  * @param {Date} date - JS Date
@@ -62,4 +68,4 @@ const dateYear = (date) => {
   return fullYear;
 };
 
-module.exports = { dateFeed, dateFormat, dateFull, dateISO, dateYear };
+module.exports = { dateFeed, dateFormat, dateFull, dateWithTime, dateISO, dateYear };

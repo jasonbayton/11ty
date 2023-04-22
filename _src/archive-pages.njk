@@ -26,11 +26,12 @@ permalink: "/tags/{{ tag | slugify }}/"
     <div class="post-meta post-meta-condensed">
         <div class="meta-single">
             {% if post.data.type.includes("note") %}
-            <a href="{{ post.url | url }}">{{ post.date | dateFull }}</a>
+            <a href="{{ post.url | url }}">{{ post.date | dateWithTime }}</a>
             {% else %}
             {{ post.date | dateFull }}
             {% endif %}    
         </div>
+        {% if not post.data.type.includes("note") %}
         <div class="meta-single">
             {% for tag in post.data.tags %}
             {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) %}
@@ -38,6 +39,7 @@ permalink: "/tags/{{ tag | slugify }}/"
             {% endif %}            
             {% endfor %}
         </div>
+        {% endif %}
     </div>
     {% if post.data.type.includes("note") %}
     <div class="post-summary">

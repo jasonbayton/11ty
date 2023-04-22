@@ -30,7 +30,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(embedTwitter);
   eleventyConfig.addFilter("dateYear", dates.dateYear);
   eleventyConfig.addFilter("dateISO", dates.dateISO);
-  eleventyConfig.addFilter("dateFeed", dates.dateFeed);
+  eleventyConfig.addFilter("dateWithTime", dates.dateWithTime);
   eleventyConfig.addFilter("dateFull", dates.dateFull);
   eleventyConfig.addFilter("dateFormat", dates.dateFormat);
 
