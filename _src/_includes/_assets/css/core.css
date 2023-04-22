@@ -220,10 +220,6 @@ pre code {
   padding: 0;
 }
 
-#orange {
-  color: var(--orange);
-}
-
 #af_group {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -653,7 +649,7 @@ section#trusted_logos #trusted_container {
 .tag-more-link {
   padding: 20px 0;
   display: block;
-  color: var(--orange);
+  color: var(--blood-orange);
 }
 
 #content_report {
