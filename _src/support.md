@@ -68,13 +68,17 @@ Some examples of dedicated engagements undertaken include:
 
 [Contact](/contact) me with a request for engagement. Include a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
 
-**Fee options:** 1/2 day (up to 4h). Full day (up to 8h). Fixed per project scope.  
-NB: Hours may be consumed ad-hoc, across multiple days as required
+**Fee options:** 
+* 1/2 day (up to 4h)
+* Full day (up to 8h)
+* Fixed per project
+
+NB: Hours may be consumed ad-hoc, across multiple days as required. 
 
 </div>
 </div>
 
-**Disclaimers :** 
+**Disclaimers:** 
 
 * Topics discussed may used as the subject or reference of articles on this website (anonymously unless otherwise discussed). 
 * For casual help & advice, NDAs and similar documents are out of scope. Share what you are permitted to share, and I'll help as best I can.
