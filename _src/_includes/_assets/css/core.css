@@ -13,11 +13,11 @@
   --background: #ffffff;
   --blue: #f0f8ff;
   --orange: #ff4500;
-  --orange: #ce3800;
+  --blood-orange: #ce3800;
   --brand-background: #ffffff;
   --brand-text: #333333;
   --blue-green: #2596BE;
-  --dark-blue: #00284d
+  --dark-blue: #00284d;
 }
 
 [data-theme="dark"] {
@@ -167,7 +167,7 @@ a {
 }
 
 a.active {
-  color: var(--orange);
+  color: var(--blood-orange);
 }
 
 a:hover {
@@ -200,7 +200,7 @@ code {
   padding: 2px 7px; */
   overflow-wrap: anywhere;
   overflow-x: scroll;
-  color: var(--dark-blue);
+  color: var(--blood-orange);
 }
 
 pre {
@@ -622,7 +622,7 @@ section#trusted_logos #trusted_container {
 .meta-tag {
   padding-right: 10px;
   text-transform: lowercase;
-  color: var(--orange);
+  color: var(--blood-orange);
 }
 
 .eleventy-plugin-youtube-embed {
