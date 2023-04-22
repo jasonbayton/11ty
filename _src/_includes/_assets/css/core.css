@@ -200,7 +200,7 @@ code {
   padding: 2px 7px; */
   overflow-wrap: anywhere;
   overflow-x: scroll;
-  color: car(--dark-blue);
+  color: var(--dark-blue);
 }
 
 pre {
