@@ -54,7 +54,9 @@
                         {% if type.includes("documentation") %}
                         <span class="meta-tiny"><i class="fas fa-globe-europe"></i> {{ published | dateFull }} | <i class="fas fa-hourglass-half"></i> {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
                         <i class="fas fa-edit"></i> {{ page.date | dateFull }}
-                        {% else %}   
+                        {% elseif type.includes("note") %}   
+                        {{ page.date | dateWithTime }}
+                        {% else %}
                         {{ page.date | dateFull }}
                         {% endif %}
                     </div>
@@ -67,15 +69,15 @@
                     </div>
                 </div>
                 <hr>
-                <div class="section-title base-title">
+                <h1 class="section-title base-title">
                     {{ title }}
-                </div>
+                </h1>
                 {% elif type.includes("page") %}
-                <div class="section-title base-title">
+                <h1 class="section-title base-title">
                     {{ title }}
-                </div>
+                </h1>
                 {% endif %}
-                {% if not type.includes("archive") %}
+                {% if (not type.includes("archive")) and (not type.includes("note"))  %}
                 <div id="mobile_toc">
                     <details>
                         <summary>Contents</summary>
