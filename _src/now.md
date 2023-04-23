@@ -43,6 +43,18 @@ Just recently I've -
 
 If you're interested in the same, my rates align with SME/MSPs and I'm available several hours a month at the moment.
 
+## I wrote a book
+
+What was intended to be an April Fool's joke turned into one of the most enjoyable projects I've worked on in forever, and allows me technically to say I'm an author now, even if it is a 16 page ebook for children. Check it out, and enjoy! - [Daddy's Phone Can't Do That!](/book)
+
+## I launched notes
+
+Given the absolute carnage that is Twitter at the moment, and the realisation that all content is generally vendor-locked to whatever platform it's shared to, I've decided to start using this website as a broadcast hub for notes I'd normally share on social media. 
+
+I've no desire to stop engaging on socials, I recently dusted off my Mastodon account to the contrary, but going forward the short-(but sometimes long-)form [texts](https://www.linkedin.com/posts/jasonbayton_androidenterprise-activity-7031692128967651329-FGUY?utm_source=share&utm_medium=member_desktop) I [typically](https://www.linkedin.com/posts/jasonbayton_androidenterprise-activity-7029404546539896832-JmJ1?utm_source=share&utm_medium=member_desktop) send [out](https://www.linkedin.com/posts/jasonbayton_obligatorymention-androidenterprise-activity-7026857679939629056-hOiG?utm_source=share&utm_medium=member_desktop) to [LinkedIn](https://www.linkedin.com/posts/jasonbayton_androidenterprise-googleworkspace-gsuite-activity-7018285905043939328--Z6B?utm_source=share&utm_medium=member_desktop) will originate and be forever indexed and presented here on this website first.
+
+Check out [notes](/notes).
+
 ## Getting fit
 
 Between '21 and '22 I'd lost 15KG and felt pretty fantastic. All things considered. 
