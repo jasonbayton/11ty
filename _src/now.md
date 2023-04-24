@@ -59,7 +59,7 @@ Check out [notes](/notes).
 
 Between '21 and '22 I'd lost 15KG and felt pretty fantastic. All things considered. 
 
-The chemo and immobility had me put most of that back on, but now I'm back on another kick to get down to a target weight of <100KG in my current form, after which I'll look to put some of that back on in muscle. 
+The chemo, steroids, and immobility had me put most of that back on, but now I'm back on another kick to get down to a target weight of <100KG in my current form, after which I'll look to put some of that back on in muscle. 
 
 It's a simple regime of 5k running, 20k cycling per week at the moment, and hiding the Doritos of course :). It worked last time, and so far I've dropped 2.5KG this time.
 
