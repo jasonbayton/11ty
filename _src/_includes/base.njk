@@ -13,8 +13,10 @@
         </header>
         {% if type.includes("documentation") or type.includes("post") %}
         <content id="doc">
-        {% elseif type.includes("page") or type.includes("archive") or type.includes("note") %}
-        <content id="page">  
+        {% elif type.includes("page") or type.includes("archive") %}
+        <content id="page">
+        {% elif type.includes("note") %}
+        <content id="note" class=" grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 grid-gap-mobile-0">
         {% endif %}  
             {% if type.includes("documentation") or type.includes("post") %}
             <section id="aside" class="mobile-hidden">
@@ -111,6 +113,14 @@
             {% include "./_parts/paginate.njk" %}
             {% endif %} -->
             <!-- // -->
+            {% if type.includes("note") %}
+            <section id="note_overview" class="">
+                <div class="border-4px border-orange border-curved grid-padding-10 grid-padding-lr-20 first-heading-inline">
+                    <h3>What are notes?</h3>
+                    <p>These are short-form posts for small updates and quick thoughts. They are automatically published to LinkedIn and Twitter, too.</p>
+                </div>
+            </section>
+            {% endif %}
             <!-- Page feedback goes here -->
             {% include "./_parts/feedback.njk" %}
             <!-- // -->
