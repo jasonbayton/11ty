@@ -69,9 +69,11 @@
                     </div>
                 </div>
                 <hr>
+                {% if (not type.includes("note"))  %}
                 <h1 class="section-title base-title">
                     {{ title }}
                 </h1>
+                {% endif %}
                 {% elif type.includes("page") %}
                 <h1 class="section-title base-title">
                     {{ title }}
