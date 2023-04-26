@@ -260,7 +260,7 @@ section#comment-system {
         grid-column-gap: 0;
     }
 
-    section#feedback, section#comment-system, section#link_out {
+    section#feedback, section#comment-system, section#link_out, section#note_overview {
         grid-column-start: 1;
     }
 
