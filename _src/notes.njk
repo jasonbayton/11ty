@@ -1,0 +1,38 @@
+---
+title: Notes
+date: '2022-07-30'
+status: publish
+author: 'Jason Bayton'
+excerpt: ''
+type: archive
+layout: base.njk
+tags: 
+---
+
+<section id="note" class=" grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 grid-gap-mobile-0">
+    <section id="page_content">
+        <div class="section-title extra-bold">
+            {{ title }} 
+        </div>
+        <hr>
+        {% for post in collections.notes | reverse %}
+
+        <div class="post-block">
+            <div class="post-meta post-meta-condensed">
+                <div class="meta-single">
+                    <a class="blood-orange" href="{{ post.url | url }}">{{ post.date | dateWithTime }}</a>    
+                </div>
+            </div>
+            <div class="post-summary">
+                {{ post.content | safe }}
+            </div>     
+        </div>
+        {% endfor %}
+    </section>
+    <section id="note_overview" class="">
+        <div class="border-4px border-orange border-curved padding-10 padding-lr-20 first-heading-inline">
+            <h3>What are notes?</h3>
+            <p>These are short-form posts for small updates and quick thoughts. They are automatically published to LinkedIn and Twitter, too.</p>
+        </div>
+    </section>
+</section>

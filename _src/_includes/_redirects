@@ -24,4 +24,5 @@
 /20* /blog/20:splat 301
 /category/* /tags/:splat 301
 /tag/* /tags/:splat 301
+/tags/notes/ /notes/ 301
 /?s=* /search/?q=:splat 301
