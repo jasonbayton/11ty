@@ -137,6 +137,7 @@ a.gitlog-title {
   border-radius: 50%;
   background: conic-gradient(#0000 1%, #444);
   -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+  mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
   animation: spinner 500ms infinite linear;
 }
 @keyframes spinner {
