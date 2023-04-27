@@ -10,7 +10,7 @@ layout: base.njk
 ---
 Looking for support for your enterprise mobility issues or objectives? Get support via the following channels:
 
-<div class="grid grid-column-3 grid-gap-50 grid-column-mobile-1 padding-40 padding-sides-0">
+<div class="grid grid-column-3 grid-gap-50 grid-column-mobile-1 padding-top-40 padding-bottom-40 padding-lr-0">
 <div class="">
 
 ## Docs
@@ -45,7 +45,7 @@ Use my [contact](/contact) details to send me your request and I will respond wh
 
 </div>
 
-<div class="border-4px border-orange border-curved grid-padding-10 grid-padding-mobile-0 border-mobile-0 grid-column-span-all">
+<div class="border-4px border-orange border-curved padding-10 padding-mobile-0 border-mobile-0 grid-column-span-all">
 
 ## Dedicated engagement
 
