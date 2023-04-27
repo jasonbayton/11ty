@@ -7,7 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Diving deeper
-    - COPE
+    - Company owned work profile
 layout: base.njk
 eleventyNavigation:
   order: 6000
