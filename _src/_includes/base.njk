@@ -64,8 +64,10 @@
                     </div>
                     <div class="meta-single post-meta-base-right">
                         {% for tag in tags %}
-                        {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) %}
+                        {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) and (not tag.includes("notes"))  %}
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                        {% elif tag.includes("notes") %}
+                        <a class="meta-tag" href="/tags/{{ tag | slugify }}/"><i class="fas fa-level-up fa-rotate-270"></i> Return to notes</a>            
                         {% endif %}
                         {% endfor %}
                     </div>
