@@ -25,4 +25,5 @@
 /category/* /tags/:splat 301
 /tag/* /tags/:splat 301
 /tags/notes/ /notes/ 301
+/tags/cope/ /tags/company-owned-work-profile/ 301
 /?s=* /search/?q=:splat 301
