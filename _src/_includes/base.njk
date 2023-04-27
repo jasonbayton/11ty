@@ -93,6 +93,16 @@
                 </div>
                 <div class="post-block-extra">
                     {{ content | safe }}
+
+                    {% if categories %}
+                    <hr>
+                    <div class="">
+                        Associated topics:
+                        {% for category in categories %}
+                        <a class="blood-orange" href="/tags/{{ category | slugify }}/">{{category}}</a> 
+                        {% endfor %}
+                    </div>
+                    {% endif %}
                 </div>
                 {% else %}
                     {{ content | safe }}
