@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - Fully managed
 layout: base.njk
 eleventyNavigation:

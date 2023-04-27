@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - Android Enterprise Recommended
 layout: base.njk
 eleventyNavigation:

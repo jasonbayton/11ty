@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - Zero-touch
     - Provisioning
 layout: base.njk

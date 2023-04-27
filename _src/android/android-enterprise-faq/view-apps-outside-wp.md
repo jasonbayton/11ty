@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - Work profile
     - App management
 layout: base.njk

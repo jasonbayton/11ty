@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - Account management
 layout: base.njk
 eleventyNavigation:

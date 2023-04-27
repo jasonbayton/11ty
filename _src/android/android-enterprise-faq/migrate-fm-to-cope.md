@@ -7,7 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
-    - COPE
+categories:
+    - Company owned work profile
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

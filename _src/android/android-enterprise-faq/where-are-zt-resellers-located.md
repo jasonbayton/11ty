@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - Zero-touch
 layout: base.njk
 eleventyNavigation:
@@ -14,5 +15,5 @@ eleventyNavigation:
   key: "Where are zero-touch resellers located?"
   order: 34000
 --- 
-Zero-touch resellers can be found globally. The complete list of resellers can be found [here](https://www.android.com/enterprise/management/zero-touch/#partners).
+Zero-touch resellers can be found globally. The complete list of resellers can be found [here](https://www.android.com/enterprise/enrollment/).
 

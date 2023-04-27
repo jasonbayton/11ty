@@ -7,7 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
-    - COPE
+categories:
+    - Company owned work profile
     - App management
     - Work profile
 layout: base.njk

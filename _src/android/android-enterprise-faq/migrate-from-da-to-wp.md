@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - Work profile
 layout: base.njk
 eleventyNavigation:

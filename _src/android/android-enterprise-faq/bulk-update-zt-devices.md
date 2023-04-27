@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - Zero-touch
 layout: base.njk
 eleventyNavigation:

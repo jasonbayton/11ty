@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
+categories:
     - App management
 layout: base.njk
 eleventyNavigation:

@@ -4,10 +4,11 @@ published: '2019-04-26'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
+categories:
+    - Zero-touch
 type: documentation
 tags: 
     - FAQ
-    - Zero-touch
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

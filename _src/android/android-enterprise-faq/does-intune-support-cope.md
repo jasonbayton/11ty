@@ -7,7 +7,8 @@ excerpt: ''
 type: documentation
 tags: 
     - FAQ
-    - COPE
+categories:
+    - Company owned work profile
     - Vendor specific
 layout: base.njk
 eleventyNavigation:
