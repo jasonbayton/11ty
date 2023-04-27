@@ -7,7 +7,7 @@ excerpt: ''
 type: page
 layout: base.njk
 ---
-_Interested in what I'm up to right now? [Check out my Now page](/now).
+_Interested in what I'm up to right now? [Check out my Now page](/now)._
 
 ## Hi, I’m Jason.
 
