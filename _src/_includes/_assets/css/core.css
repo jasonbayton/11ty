@@ -616,7 +616,6 @@ section#trusted_logos #trusted_container {
 }
 
 .meta-tag {
-  padding-right: 10px;
   text-transform: lowercase;
   color: var(--blood-orange);
 }
