@@ -34,7 +34,9 @@ After a good 7+ years with the old logo, it's time I think for a change. I opted
 
 ![new logo](https://cdn.bayton.org/uploads/2022/08/JasonBayton_purple.svg)
 
-I've coloured it purple above to suit both dark and light themes when viewing this post. It'll likely remain only black/white unless a mood strikes This logo will start showing up on my downloadable content and everywhere else over the next few weeks. 
+I've coloured it purple above to suit both dark and light themes when viewing this post. It'll likely remain only black/white unless a mood strikes.
+
+This logo will start showing up on my downloadable content and everywhere else over the next few weeks. 
 
 ## Dark mode reintroduced
 
