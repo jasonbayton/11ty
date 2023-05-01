@@ -41,7 +41,7 @@ const dateFull = (date) => {
 
 const dateWithTime = (date) => {
   const jsDate = new Date(date);
-  const dt = DateTime.fromJSDate(jsDate);
+  const dt = DateTime.fromJSDate(jsDate).setZone('Europe/London');
   return dt.toFormat('dd MMMM yyyy @ HH:mm');
 };
 
