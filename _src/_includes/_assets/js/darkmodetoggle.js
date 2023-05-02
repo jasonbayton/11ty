@@ -9,3 +9,10 @@ var toggle = document.getElementById("darktoggle");
   document.documentElement.setAttribute('data-theme', targetTheme)
   localStorage.setItem('theme', targetTheme);
 };
+
+const clearStorageButton = document.getElementById('clear-storage');
+
+clearStorageButton.addEventListener('click', () => {
+  localStorage.clear();
+  location.reload();
+});
