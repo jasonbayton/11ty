@@ -1,6 +1,6 @@
 ---json
 {
-  "permalink": "feed_notes.xml",
+  "permalink": "/notes/feed.xml",
   "eleventyExcludeFromCollections": true,
   "metadata": {
     "title": "Jason Bayton",
@@ -19,7 +19,6 @@
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
-  <link href="{{ metadata.url }}"/>
   <updated>{{ collections.notes | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
