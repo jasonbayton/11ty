@@ -22,7 +22,7 @@ Often, and I see this more with AMAPI (Intune, Mambo, Wizy, etc) than Play EMM A
 
 Well in any case, for non-Samsung (and other OEMs that don't already support it) devices, once Android 14 lands this will be a thing of the past. 
 
-Google had actually introduced in Android 13 a DPC extra to keep the screen on that customers could leverage: `EXTRA_PROVISIONING_KEEP_SCREEN_ON`. Clearly this was given some additional thought bundled in instead, which is good, since most customers wouldn't have known about this.
+Google had actually introduced in Android 13 a DPC extra to keep the screen on that customers could leverage: `EXTRA_PROVISIONING_KEEP_SCREEN_ON`. Clearly this was given some additional thought and bundled in instead, which is good, since most customers wouldn't have known about this feature otherwise.
 
 ## A revamp to cross-profile behaviour & implementation
 
