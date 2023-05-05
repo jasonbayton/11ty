@@ -250,9 +250,9 @@ td {
 }
 
 .button {
-  background-color: var(--brand-background);
+  /* background-color: var(--brand-background); */
   border: 4px solid var(--orange);
-  border-radius: 0;
+  border-radius: 5px;
   box-sizing: border-box;
   color: var(--brand-text);
   cursor: pointer;
@@ -300,11 +300,7 @@ button {
   padding: 10px;
 }
 
-#corner_menu {
-  display: none;
-}
-
-#menu_modal {
+#corner_menu, #menu_modal {
   display: none;
 }
 
