@@ -39,13 +39,13 @@ Post your request to the:
 
 ## Email/message
 
-Use my [contact](/contact) details to send me your request and I will respond when able. Please ensure your request is fully-formed, including the issue, any error messages or related information, full device/EMM details, versions, etc, and if you have media to support the issue (pictures, videos, etc), this will be of great help also.
+Use my [contact](/contact) details to send me your request and I will respond when able. Please ensure your request is fully-formed, including the issue, any error messages or related information, full device details, EMM details, etc, and if you have media to support the issue (pictures, videos, ...), this will be of great help also.
 
 **Benefit:** Private & sensitive topics may be covered. Bug reports and other PII can be shared without making this data publicly available. 
 
 </div>
 
-<div class="border-4px border-orange border-curved padding-10 padding-mobile-0 border-mobile-0 grid-column-span-all">
+<div class="border-4px border-orange border-curved padding-10 padding-lr-20 padding-mobile-0 border-mobile-0 grid-column-span-all">
 
 ## Dedicated engagement
 
@@ -81,6 +81,6 @@ NB: Hours may be consumed ad-hoc, across multiple days as required.
 **Disclaimers:** 
 
 * Topics discussed may used as the subject or reference of articles on this website (anonymously unless otherwise discussed). 
-* For casual help & advice, NDAs and similar documents are out of scope. Share what you are permitted to share, and I'll help as best I can.
-* Best effort support is subject to fair use. Please respect this is done in my free time and if we're opening a can of worms together I may call time on the help I can offer.
+* For non-dedicated support, NDAs and similar documents are out of scope. Share what you are permitted to share, and I'll help as best I can.
+* Non-dedicated support is best-effort. Please respect this is done in my free time and if we're opening a can of worms together I may not be able to dedicate the time needed.
 * I may not be able to respond in a timely fashion at any point during non-dedicated engagements, and make no promises to solve an issue or fully satisfy a need as a casual engagement, but I'll do my best! 
