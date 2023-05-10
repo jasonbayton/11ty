@@ -18,9 +18,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## General
 
-{% for post in collections['General'] %}
-{% for tag in post.data.tags %}
-{% if tag.includes("FAQ") %}
+{% for post in collections['FAQ'] %}
+{% for tag in post.data.categories %}
+{% if tag.includes("General") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -39,9 +39,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## Work Profile
 
-{% for post in collections['Work Profile'] %}
-{% for tag in post.data.tags %}
-{% if tag.includes("FAQ") %}
+{% for post in collections['FAQ'] %}
+{% for tag in post.data.categories %}
+{% if tag.includes("Work profile") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -60,9 +60,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## Fully managed
 
-{% for post in collections['Fully Managed'] %}
-{% for tag in post.data.tags %}
-{% if tag.includes("FAQ") %}
+{% for post in collections['FAQ'] %}
+{% for tag in post.data.categories %}
+{% if tag.includes("Fully managed") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -81,9 +81,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## Work profiles on fully managed devices, work profiles on company owned devices (COPE) 
 
-{% for post in collections['COPE'] %}
-{% for tag in post.data.tags %}
-{% if tag.includes("FAQ") %}
+{% for post in collections['FAQ'] %}
+{% for tag in post.data.categories %}
+{% if tag.includes("COPE") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -102,9 +102,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## Zero-touch
 
-{% for post in collections['Zero-touch'] %}
-{% for tag in post.data.tags %}
-{% if tag.includes("FAQ") %}
+{% for post in collections['FAQ'] %}
+{% for tag in post.data.categories %}
+{% if tag.includes("Zero-touch") %}
 <div class="post-block">
 <div class="post-body">
 
@@ -124,9 +124,9 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ## App management
 
-{% for post in collections['App Management'] %}
-{% for tag in post.data.tags %}
-{% if tag.includes("FAQ") %}
+{% for post in collections['FAQ'] %}
+{% for tag in post.data.categories %}
+{% if tag.includes("App management") %}
 <div class="post-block">
 <div class="post-body">
 
