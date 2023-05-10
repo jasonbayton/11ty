@@ -33,6 +33,7 @@
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <excerpt xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | striptags(true) | truncate(250) }}</excerpt>
   </entry>
   {%- endfor %}
 </feed>
