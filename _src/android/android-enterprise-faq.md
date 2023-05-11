@@ -11,8 +11,6 @@ tags:
 layout: base.njk
 eleventyNavigation:
   order: 6000
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/android-enterprise-faq/291'
 ---
 Below you’ll find a number of frequently asked questions I receive related to Android Enterprise.
 
@@ -28,7 +26,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 <div class="post-summary">
 
-{{ post.template.frontMatter.content }}
+{{ post.content | safe }}
 
 </div>
 </div>
@@ -49,7 +47,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 <div class="post-summary">
 
-{{ post.template.frontMatter.content }}
+{{ post.content | safe }}
 
 </div>
 </div>
@@ -70,7 +68,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 <div class="post-summary">
 
-{{ post.template.frontMatter.content }}
+{{ post.content | safe }}
 
 </div>
 </div>
@@ -91,7 +89,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 <div class="post-summary">
 
-{{ post.template.frontMatter.content }}
+{{ post.content | safe }}
 
 </div>
 </div>
@@ -112,7 +110,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 <div class="post-summary">
 
-{{ post.template.frontMatter.content }}
+{{ post.content | safe }}
 
 </div>
 </div>
@@ -134,7 +132,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 <div class="post-summary">
 
-{{ post.template.frontMatter.content }}
+{{ post.content | safe }}
 
 </div>
 </div>
