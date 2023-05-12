@@ -44,7 +44,7 @@ permalink: "/tags/{{ tag | slugify }}/"
         {% endif %}
     </div>
     {% if post.data.type.includes("note") %}
-    <div class="post-summary">
+    <div class="post-content">
         {{ post.content | safe }}
     </div>  
     {% else %}
@@ -75,7 +75,7 @@ permalink: "/tags/{{ tag | slugify }}/"
                     <a class="blood-orange" href="{{ post.url | url }}">{{ post.date | dateWithTime }}</a>    
                 </div>
             </div>
-            <div class="post-summary">
+            <div class="post-content">
                 {{ post.content | safe }}
             </div>     
         </div>

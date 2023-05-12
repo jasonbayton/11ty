@@ -24,7 +24,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ### [{{ post.data.title }}]({{ post.url | url }})
 
-<div class="post-summary">
+<div class="post-content">
 
 {{ post.content | safe }}
 
@@ -45,7 +45,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ### [{{ post.data.title }}]({{ post.url | url }})
 
-<div class="post-summary">
+<div class="post-content">
 
 {{ post.content | safe }}
 
@@ -66,7 +66,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ### [{{ post.data.title }}]({{ post.url | url }})
 
-<div class="post-summary">
+<div class="post-content">
 
 {{ post.content | safe }}
 
@@ -87,7 +87,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ### [{{ post.data.title }}]({{ post.url | url }})
 
-<div class="post-summary">
+<div class="post-content">
 
 {{ post.content | safe }}
 
@@ -108,7 +108,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ### [{{ post.data.title }}]({{ post.url | url }})
 
-<div class="post-summary">
+<div class="post-content">
 
 {{ post.content | safe }}
 
@@ -130,7 +130,7 @@ Below you’ll find a number of frequently asked questions I receive related to 
 
 ### [{{ post.data.title }}]({{ post.url | url }})
 
-<div class="post-summary">
+<div class="post-content">
 
 {{ post.content | safe }}
 
