@@ -24,7 +24,7 @@ For roles, **Owners** can add and remove other users, while **Admins** are limit
 
 ## Add an account
 
-![](/image/2023-05-12_22.31.29.gif)
+![](/image/2023-05-12_23.01.04.gif)
 
 ## Adjust permissions
 
