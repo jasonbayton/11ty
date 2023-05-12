@@ -24,12 +24,12 @@ For roles, **Owners** can add and remove other users, while **Admins** are limit
 
 ## Add an account
 
-![](/image/2023-05-12_17.50.50.gif)
+![](/image/2023-05-12_22.31.29.gif)
 
 ## Adjust permissions
 
-![](/image/2023-05-12_17.51.15.gif)
+![](/image/2023-05-12_22.31.51.gif)
 
 ## Remove an account
 
-![](/image/2023-05-12_17.51.35.gif)
+![](/image/2023-05-12_22.32.07.gif)
