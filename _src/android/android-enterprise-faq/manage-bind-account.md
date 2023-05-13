@@ -20,8 +20,6 @@ Yes, it is possible since ~late 2022 to configure the accounts responsible for m
 2. Scroll down to **Admins**
 3. Add or remove Google accounts as desired
 
-For roles, **Owners** can add and remove other users, while **Admins** are limited to only managing the enterprise. Similar to zero-touch.
-
 ## Add an account
 
 ![](/image/2023-05-12_23.01.04.gif)
@@ -30,6 +28,20 @@ For roles, **Owners** can add and remove other users, while **Admins** are limit
 
 ![](/image/2023-05-12_22.31.51.gif)
 
+NB: **Owners** can add and remove other accounts, while **Admins** are limited to only managing the enterprise. This follows the same permissions model as other enterprise solutions Google offers, such as zero-touch.
+
 ## Remove an account
 
 ![](/image/2023-05-12_22.32.07.gif)
+
+## Notes
+
+The same recommendations continue to apply - if you're making a Google account, please use the "current email address" option and associate the Google account with a work email address. This makes account recovery much simpler, and avoids future questions around why `emm.account.3@gmail.com` exists in future.
+
+![](/image/Screenshot_2023-05-13_08.03.57.png)
+
+In other words, don't do what I did when I bound my EMM to `emmsetup@gmail.com` back in 2017.
+
+Note also that Google Workspace accounts are not supported for administering enterprises. If a Google Workspace user is invited, they will receive an invite only to be informed "G Suite users are not supported":
+
+![](/image/Screenshot_2023-05-13_08.03.57.png)
