@@ -24,7 +24,11 @@
                     <h2>Contents</h2>
                 </div>
                 <div id="article_contents_list" class="toc">
+                    {% if content | toc %}
                     {{ content | toc | safe }}
+                    {% else %}
+                    {{ title }}
+                    {% endif %}
                 </div> 
                 {% if type.includes("documentation") %}
                 <div class="aside-section">
@@ -64,10 +68,12 @@
                     </div>
                     <div class="meta-single post-meta-base-right">
                         {% for tag in tags %}
-                        {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) and (not tag.includes("notes"))  %}
+                        {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) and (not tag.includes("notes")) and (not tag.includes("FAQ"))  %}
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
                         {% elif tag.includes("notes") %}
-                        <i class="fas fa-arrow-left"></i> <a class="meta-tag" href="/notes/">return to notes</a>            
+                        <i class="fas fa-arrow-left"></i> <a class="meta-tag" href="/notes/">return to notes</a>
+                        {% elif tag.includes("FAQ") %}
+                        <i class="fas fa-arrow-left"></i> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
                         {% endif %}
                         {% endfor %}
                     </div>
@@ -84,6 +90,7 @@
                 </h1>
                 {% endif %}
                 {% if (not type.includes("archive")) and (not type.includes("note"))  %}
+                {% if content | toc %}
                 <div id="mobile_toc">
                     <details>
                         <summary>Contents</summary>
@@ -91,6 +98,7 @@
                         </div>
                     </details>
                 </div>
+                {% endif %}
                 <div class="post-block-extra">
                     {{ content | safe }}
 
