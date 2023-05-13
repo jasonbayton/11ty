@@ -67,7 +67,7 @@
                         {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) and (not tag.includes("notes"))  %}
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
                         {% elif tag.includes("notes") %}
-                        <i class="fas fa-level-up fa-rotate-270"></i> <a class="meta-tag" href="/notes/">return to notes</a>            
+                        <i class="fas fa-arrow-left"></i> <a class="meta-tag" href="/notes/">return to notes</a>            
                         {% endif %}
                         {% endfor %}
                     </div>
@@ -95,8 +95,8 @@
                     {{ content | safe }}
 
                     {% if categories %}
-                    <hr>
-                    <div class="">
+                    <div class="padding-30 padding-lr-0">
+                        <hr>
                         Associated topics:
                         {% for category in categories %}
                         <a class="blood-orange" href="/tags/{{ category | slugify }}/">{{category}}</a> 
