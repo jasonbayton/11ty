@@ -21,7 +21,7 @@ Android Enterprise consists, very simplistically, of three aspects:
 2. the advanced account, application, and Play Protect functionality 
 3. the additional solutions, such as zero-touch and many more 3rd party offerings
 
-In order to leverage 2 and 3, an `enterprise` is required. This enterprise is created when an organisation goes through the process of linking a Google account - either via Google Workspace or with a standard Gmail account - to their EMM. 
+In order to leverage 2 and 3, an `enterprise` is required. This enterprise is created when an organisation goes through the process of linking a Google account - either via Google Workspace or with a standard consumer Google account (@gmail.com or under an existing email address) - to their EMM. 
 
 For the organisation it's a reasonably straightforward sign-in and setup flow (at least for those who don't use Workspace) that'll create an enterprise, which generates the appropriate authentication tokens and assign an enterprise ID to allow the EMM to then handle all account and application management going forward.
 
