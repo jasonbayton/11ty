@@ -17,5 +17,5 @@ eleventyNavigation:
 --- 
 The upload may complete successfully, but the device will not initiate the zero-touch enrolment flow once connected to a network. The device will need to be deregistered and re-registered with the correct manufacturer.
 
-From 2020, the manufacturer field is no longer required for IMEI-based uploads and can be ommitted.
+From 2020, the manufacturer field is no longer required for IMEI-based uploads and can be omitted, but it should still be used for Wi-Fi-only devices.
 
