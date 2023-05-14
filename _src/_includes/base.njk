@@ -58,9 +58,9 @@
                 <div class="post-meta post-meta-base">
                     <div class="meta-single post-meta-base-left">
                         {% if type.includes("documentation") %}
-                        <span class="meta-tiny"><i class="fas fa-globe-europe"></i> {{ published | dateFull }} | <i class="fas fa-hourglass-half"></i> {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
-                        <i class="fas fa-edit"></i> {{ page.date | dateFull }}
-                        {% elseif type.includes("note") %}   
+                        <span class="meta-tiny"><i class="fas fa-globe-europe"></i> {{ published | dateFull }} • <i class="fas fa-glasses"></i> {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
+                        <i class="fas fa-edit"></i> {{ page.date | dateFull }} 
+                        {% elseif type.includes("note") %}
                         {{ page.date | dateWithTime }}
                         {% else %}
                         {{ page.date | dateFull }}
