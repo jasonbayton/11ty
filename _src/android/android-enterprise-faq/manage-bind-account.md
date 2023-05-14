@@ -48,5 +48,3 @@ Note also that **Google Workspace accounts are not supported** for administering
 
 Perhaps this will be addressed in future, or at the very least engineering will update the message to reflect the Google Workspace branding.
 
-Happy managing!
-
