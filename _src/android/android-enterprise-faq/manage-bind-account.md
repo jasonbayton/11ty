@@ -48,3 +48,7 @@ Note also that **Google Workspace accounts are not supported** for administering
 
 Perhaps this will be addressed in future, or at the very least engineering will update the message to reflect the Google Workspace branding.
 
+One final point to mention, a Google account can only administer _one_ enterprise. If an invited account is already administering another enterprise, they will see an error:
+
+![One enterprise per account](/image/Screenshot_2023-05-15_14.18.02.png)
+
