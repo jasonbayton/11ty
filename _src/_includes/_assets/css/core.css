@@ -31,11 +31,16 @@
   --brand-text: #cfcfcf;
 }
 
-[data-theme="light"] .bayton-logo-dark {
+/*[data-theme="light"] .bayton-logo-dark {
   display: none;
 }
 
 [data-theme="dark"] .bayton-logo-light {
+  display: none;
+}
+*/
+
+.bayton-logo-dark, .bayton-logo-light {
   display: none;
 }
 
@@ -100,7 +105,7 @@ body {
   background-color: var(--background);
 }
 
-img { max-width: 100%; display: block;}
+img, object, svg { max-width: 100%; display: block;}
 
 content img { border-radius: 5px; }
 
@@ -308,7 +313,7 @@ button {
   justify-self: start;
 }
 
-#bayton_logo img {
+#bayton_logo :is(img, object, svg) {
   width: 170px;
 }
 
