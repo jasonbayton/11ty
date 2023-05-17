@@ -31,14 +31,13 @@
   --brand-text: #cfcfcf;
 }
 
-/*[data-theme="light"] .bayton-logo-dark {
+[data-theme="light"] .bayton-logo-dark {
   display: none;
 }
 
 [data-theme="dark"] .bayton-logo-light {
   display: none;
 }
-*/
 
 .bayton-logo-dark, .bayton-logo-light {
   display: none;
