@@ -684,6 +684,7 @@ footer {
 
 #footer_logos {
   margin: 0 auto;
+  max-width: 800px;
   padding-top: 40px;
   padding-left: 30px;
   padding-right: 30px;
@@ -798,7 +799,7 @@ footer {
 
 .logo-container {
   display: flex;
-  animation: scroll 30s linear infinite alternate;  /* The 'alternate' value makes the animation reverse direction every cycle */
+  animation: scroll 40s linear infinite alternate;  /* The 'alternate' value makes the animation reverse direction every cycle */
 }
 
 @keyframes scroll {
