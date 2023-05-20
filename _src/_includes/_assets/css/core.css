@@ -683,7 +683,6 @@ footer {
 }
 
 #footer_logos {
-  max-width: 800px;
   margin: 0 auto;
   padding-top: 40px;
   padding-left: 30px;
@@ -785,6 +784,29 @@ footer {
 #trusted_textgroup {
   padding-bottom: 30px;
 }
+
+.logo-section {
+  overflow: hidden;
+  width: 100%;
+  background-color: var(--bright);
+}
+
+.logo-section img {
+  padding: 30px;
+  height: 40px;
+}
+
+.logo-container {
+  display: flex;
+  animation: scroll 30s linear infinite alternate;  /* The 'alternate' value makes the animation reverse direction every cycle */
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }  /* This value should be the total width of all the logos */
+}
+
+
 
 /* Media */
 

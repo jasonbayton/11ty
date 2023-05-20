@@ -1,5 +1,5 @@
 
-                    <div id="vendor_logo_container">
+                    <!--div id="vendor_logo_container">
                         <div class="vendor-logo">
                             <img src="/img/logos/android.webp" width="116px" alt="vendor logo">
                         </div>
@@ -46,7 +46,17 @@
                             <img src="/img/logos/len.svg" width="116px" alt="vendor logo">
                         </div>
                         <div class="vendor-logo">
-                            <img src="/img/logos/mii.svg" width="116px" alt="vendor logo">
+                            <img src="/img/logos/almer.webp" width="116px" alt="vendor logo">
+                        </div>
+                    </div-->
+
+                    <div class="logo-section" id="logo-section">
+                        <div class="logo-container" id="logo-container">
+                            {% for logo in logos %}
+                            {% if logo.includes(".svg") or logo.includes(".webp") %}      
+                            <img src="{{ logo }}" alt="Logo">
+                            {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                     <div id="vendor_disclaimer">
