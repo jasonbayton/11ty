@@ -1,5 +1,9 @@
 { 
     "date": "git Created",
     "layout": "base.njk",
-    "tags": "notes" 
+    "tags": "notes",
+    "status": "publish",
+    "author": "Jason Bayton",
+    "excerpt": "",
+    "type": "note"
 }
