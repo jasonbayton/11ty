@@ -273,6 +273,7 @@ Reach out to your vendor to ask when this functionality will be available.
 }
 </pre>
 
+Want to configure multiple domains? See [here](/android/android-enterprise-faq/configure-google-workspace-permitted-domains)
 ## Other interesting zero-touch config options
 
 The following additional options go **before** the ADMIN\_EXTRAS\_BUNDLE line and may require EMM support to function:
