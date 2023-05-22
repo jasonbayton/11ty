@@ -9,8 +9,6 @@ tags:
     - FAQ
 categories:
     - Company owned work profile
-    - App management
-    - Work profile
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
