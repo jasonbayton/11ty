@@ -1,5 +1,5 @@
 ---
-title: "How to configure Google Workspace domains for provisioning?"
+title: "How do I configure Google Workspace domains for provisioning?"
 published: '2019-04-26'
 status: publish
 author: 'Jason Bayton'
