@@ -42,4 +42,4 @@ If you're looking to configure the bookmarks available in managed Chrome, you ca
 ]
 ```
 
-Be aware on managed Android devices, bookmarks can't be placed on the home screen. For that use case, you should consider [web apps](/android/create-and-manage-web-apps-for-android-enterprise) instead.
+Be aware on managed Android devices, bookmarks [can't be placed on the home screen](/android/android-enterprise-faq/manage-app-shortcuts/). For that use case, you should consider [web apps](/android/create-and-manage-web-apps-for-android-enterprise/) instead.
