@@ -49,9 +49,9 @@ Use my [contact](/contact) details to send me your request and I will respond wh
 
 ## Dedicated engagement
 
-I make available several hours a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above, 
+I make available several hours a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above.
 
-Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. Of course, NDA projects also. 
+Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. 
 
 Some examples of dedicated engagements undertaken include:
 
@@ -59,7 +59,7 @@ Some examples of dedicated engagements undertaken include:
 * EMM health check
 * Mobility strategy planning
 * EMM & device selection
-* Product consultation on Android Enterprise support for non-Android solutions
+* Product consultation on Android Enterprise support for new or existing solutions
 * EMM deployment, end to end
 * Google Workspace deployment
 * GMS consulting for uncertified (AOSP) devices
@@ -80,7 +80,7 @@ NB: Hours may be consumed ad-hoc, across multiple days as required.
 
 **Disclaimers:** 
 
-* Topics discussed may used as the subject or reference of articles on this website (anonymously unless otherwise discussed). 
-* For non-dedicated support, NDAs and similar documents are out of scope. Share what you are permitted to share, and I'll help as best I can.
+* Topics discussed may used as the subject or reference of articles on this website. 
+* For non-dedicated support, NDAs and similar documents are out of scope. Share what you are permitted to share and I'll help as best I can.
 * Non-dedicated support is best-effort. Please respect this is done in my free time and if we're opening a can of worms together I may not be able to dedicate the time needed.
 * I may not be able to respond in a timely fashion at any point during non-dedicated engagements, and make no promises to solve an issue or fully satisfy a need as a casual engagement, but I'll do my best! 
