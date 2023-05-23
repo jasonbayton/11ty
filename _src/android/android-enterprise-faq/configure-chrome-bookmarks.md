@@ -18,28 +18,32 @@ If you're looking to configure the bookmarks available in managed Chrome, you ca
 
 ```
 [
- {
-  "toplevel_name": "Company bookmarks"
- },
- {
-  "name": "Homepage",
-  "url": "mydomain.com"
- },
- "children": [
-   {
-    "name": "HR",
-    "url": "mydomain.com/hr"
-   },
-   {
-    "name": "Submit a ticket",
-    "url": "mydomain.com/it-support"
-   }
- ],
- {
-  "name": "Android resources",
-  "url": "bayton.org/android"
- }
+  {
+    "toplevel_name": "Company bookmarks"
+  },
+  {
+    "name": "Homepage",
+    "url": "mydomain.com"
+  },
+  {
+    "children": [
+      {
+        "name": "HR",
+        "url": "mydomain.com/hr"
+      },
+      {
+        "name": "Submit a ticket",
+        "url": "mydomain.com/it-support"
+      }
+    ],
+    "name": "Internal URLs"
+  },
+  {
+    "name": "Android resources",
+    "url": "bayton.org/android"
+  }
 ]
+
 ```
 
 Be aware on managed Android devices, bookmarks [can't be placed on the home screen](/android/android-enterprise-faq/manage-app-shortcuts/). For that use case, you should consider [web apps](/android/create-and-manage-web-apps-for-android-enterprise/) instead.
