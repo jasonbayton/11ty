@@ -14,7 +14,7 @@ eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   order: 63100
 --- 
-If you're looking to configure the bookmarks available in managed Chrome, you can use the below format. More examples can be found via [Google's documentation](https://chromeenterprise.google/policies/#ManagedBookmarks)
+If you're looking to configure the bookmarks available in managed Chrome, you can use the below format. More examples can be found via [Google's documentation](https://chromeenterprise.google/policies/#ManagedBookmarks).
 
 ```
 [

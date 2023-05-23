@@ -1,5 +1,5 @@
 ---
-title: "How do I configure the allowlist/blocklist domains for Chrome?"
+title: "How do I configure allowlist/blocklist domains for Google Chrome?"
 published: '2023-05-22'
 status: publish
 author: 'Jason Bayton'
@@ -24,7 +24,7 @@ Setting multiple URLs in succession would look like this:
 
 More format examples can be found [here](https://support.google.com/chrome/a/answer/9942583), but in a nutshell:
 
-- `*` targets everything. This is useful for preventing access to everything via a blocklist, then explicitly allowlisting certain domains or URLs.
+- `*` targets everything. This is useful for preventing access to everything via a blocklist, then explicitly allowlisting certain domains or URLs
 - `192.0.2.1` targets this specific IP
 - `.domain.com` explicitly blocks the root domain, but not its subdomains
 - `domain.com` blocks everything in that domain

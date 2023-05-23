@@ -35,4 +35,4 @@ If your organisation leans on multiple domains across organisational groups, her
 }
 ```
 
-When a Google account entered during provisioning doesn't match one of these domains, a small red error will show beneath the text input saying "Please enter an email address for one of the following: bayton.org, jason.com, impressivedomain.com"
+When a Google account entered during provisioning doesn't match one of these domains, a small red error will show beneath the text input saying "Please enter an email address for one of the following: bayton.org, jason.com, impressivedomain.com".
