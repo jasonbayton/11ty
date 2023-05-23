@@ -1,5 +1,5 @@
 ---
-title: "How do I configure the Chrome managed bookmarks?"
+title: "How do I configure Chrome managed bookmarks?"
 published: '2023-05-22'
 status: publish
 author: 'Jason Bayton'
