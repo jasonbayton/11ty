@@ -47,3 +47,9 @@ If you're looking to configure the bookmarks available in managed Chrome, you ca
 ```
 
 Be aware on managed Android devices, bookmarks [can't be placed on the home screen](/android/android-enterprise-faq/manage-app-shortcuts/). For that use case, you should consider [web apps](/android/create-and-manage-web-apps-for-android-enterprise/) instead.
+
+Other things to consider - 
+- The order you input the subfolders and URLs reflects directly in Chrome
+- If you input a child folder (eg: `"children"`), ensure you list the name (eg: `"name":"Internal URLs"`)
+- All normal json rules apply. You can use a json validator to be sure it's valid before committing it
+- If Chrome doesn't show the bookmarks, though other configs (eg homepage) change, the syntax is invalid
