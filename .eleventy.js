@@ -12,12 +12,14 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginTOC = require("eleventy-plugin-nesting-toc");
 const striptags = require("striptags");
+const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginTOC)
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
@@ -34,6 +36,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dateWithTime", dates.dateWithTime);
   eleventyConfig.addFilter("dateFull", dates.dateFull);
   eleventyConfig.addFilter("dateFormat", dates.dateFormat);
+  eleventyConfig.setQuietMode(true);
+  eleventyConfig.addPlugin(directoryOutputPlugin);
 
 // tag list
   eleventyConfig.addCollection("tagsList", function(collectionApi) {
