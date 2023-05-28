@@ -30,9 +30,9 @@ Understandably a lot of this is NDA, so it's not easy to be overly transparent a
 
 ## How do I validate a device is GMS certified?
 
-This is surprisingly not that easy to discern for the general public, as Google doesn't explicitly maintain a list of certified devices under the heading of certified devices.
+This is surprisingly not that easy to discern for the general public, as Google doesn't explicitly maintain a list of certified devices under the heading of _certified devices_.
 
-Instead, there are two indirect means of validating devices are certified:
+Instead, there are three indirect means of validating devices are certified:
 
 1. Check the OEM/ODM has an agreement with Google - [https://www.android.com/certified/partners/](https://www.android.com/certified/partners/)
 2. View Google Play's Compatibility document, as any certified device will show up here - [https://support.google.com/googleplay/answer/1727131](ttps://support.google.com/googleplay/answer/1727131)
