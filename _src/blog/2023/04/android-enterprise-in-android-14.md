@@ -100,6 +100,14 @@ Since it is a radio, and means of sharing data, it was a matter of time before a
 
 Again this is a device control limited to corporate owned devices, so fully managed or work profile on corporate owned (COPE). 
 
+## Native financing support
+
+Sort-of enterprise related, it appears 14 is introducing APIs to declare a device as being under finance with `isDeviceFinanced`. 
+
+The finance use case has existed for a few years, originally only accessible to select partners holding a direct agreement with Google with the use of a bespoke DPC called Device Lock Policy, it appears this has graduated and become a little more available recently.
+
+Also fun fact, while Device Lock is leveraged with zero-touch and AMAPI on the back end, it's actually against ToS to leverage AMAPI for device financing. I say this for the benefit of the 3 companies a week who reach out to ask me how they can use AMAPI for this use case :)
+
 ## Other features
 
 There are several other features that I haven't mentioned, but everything I've found so far is available in the [DevicePolicyManager developer docs](https://developer.android.com/reference/android/app/admin/DevicePolicyManager) for further reading if interested.
