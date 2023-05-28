@@ -64,6 +64,30 @@ In Android 14, the long-standing loophole for DLP controls, the humble screensho
 
 If you're anything like me that'll be bittersweet; great for security in plugging a very obvious flaw with screenshots up to this point, but it's 100% something I've leveraged for years to overcome overly strict DLP policies preventing copy/paste, sharing outside the work profile, and so on. 
 
+## Pausing the work profile 
+
+In Android 14 Google are introducing the ability to pause, rather than turn off, the work profile. 
+
+Think of it like an aggressive do not disturb mode for work apps, everything is still on and running in the background, but you're not alerted to anything. 
+
+Why would you choose to pause a work profile rather than just turn it off? 
+
+- Applications continue to receive notifications and data in the background, so you're not inundated by them when you turn the profile on. Work apps are immediately available when unpausing (no wait time, or sync required).
+- Update policies continue to apply, so they can do so in the background rather than when the profile is back on. Obviously apps shared between both profiles will update even if the work profile is turned off, but apps only in the work profile won't unless the profile is on, normally.
+- Cross profile contacts are identified, so you'll know you're getting a call from the boss while the profile is paused. When completely off the numbers aren't identified.
+
+The question I don't have an answer for at the moment is how this works with the policies that require a work profile to be turned on after a period of time. If a user can pause a work profile but still be considered having it _turned on_, this seems like a simple way of getting around that compliance requirement. 
+
+## Direct work contact messaging
+
+Undoubtedly leaning on the new cross profile APIs above, personal apps will be able to directly message work profile contacts in supported applications. Undoubtedly this will be subject to IT policy, so watch out for that!
+
+## Gesture navigation between work and personal profiles in-app
+
+Rolling out with Google apps in the short term, Google is showcasing a new, more cohesive user experience when switching between profiles. 
+
+This will be a drastic improvement on today's requirement that normally includes tapping into app settings or a context menu to switch to work, so I'm excited to see this!
+
 ## UWB (Ultra-Wideband) support
 
 [UWB](https://developer.android.com/guide/topics/connectivity/uwb) is having a bit of a moment recently, with a lot of attention from the media on the solution in the last few months alone. 
