@@ -33,7 +33,7 @@ And here it is:
 
 (image)
 
-I've got a soft spot for the M10p. Even though the design is dated and the way it's built is extremely inefficient (thanks to the initial project scope), what eventually landed with customers was a robust, performant device with a solid suite of core hardware features, and wicked extensibility. 
+I've got a soft spot for the M10p. Even though the design is dated and the way it's built could be far more efficient (thanks to the initial project scope), what eventually landed with customers was a robust, performant device with a solid suite of core hardware features, and wicked extensibility. 
 
 Some of the aspects of this device I'm most proud of are:
 
