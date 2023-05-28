@@ -31,7 +31,7 @@ There were however two contributing factors that made this a little easier. Firs
 
 And here it is:
 
-<Image>
+(image)
 
 I've got a soft spot for the M10p. Even though the design is dated and the way it's built is extremely inefficient (thanks to the initial project scope), what eventually landed with customers was a robust, performant device with a solid suite of core hardware features, and wicked extensibility. 
 
@@ -39,15 +39,21 @@ Some of the aspects of this device I'm most proud of are:
 
 ## Ports galore
 
-The device supports 3 USB (A), USB C, RJ11, RJ45, and RS232, amongst other ports. The idea being the M10p acts as an all in one solution for payments, communications, and peripherals. It'll support many types of cash register, most external payment terminals, and with plenty of USB can be hooked into other accessories as needed. 
+Customers purchasing ePOS devices often have peripherals from hardware being replaced. If they don't, they may prefer working with local partners for region or function specific peripheral hardware. 
 
-This wasn't simple to pull off, the MediaTek Genio 500 the unit is powered by is hardly a first choice for port support and a lot of these run from the USB2.0 and GPIO channels the SOC offers, but we made it work. 
+The goal for the M10p was to work with what customers want to work with. Could we have built scanners, cash registers, and payment terminals to bundle with the unit? Absolutely, but the strategy was that of compatibility and support, not lock-in.
+
+When considering this, availablity of ports was a priority.
+
+The device supports 3 USB (A), USB C, RJ11, RJ45, and RS232, amongst other ports. With them, the M10p acts as an all in one solution for payments, communications, and peripherals. It'll support many types of cash register, most external payment terminals, and with plenty of USB can be hooked into many other accessories as needed. 
+
+This wasn't simple to pull off, the MediaTek Genio 500 the unit is powered by - a strategic decision to further a close relationship with MTK's IoT devision for long term support - is hardly a first choice for port support and a lot of these run from the USB2.0 and GPIO channels the SOC offers, but we made it work. 
 
 With all of those ports, though, this introduced another concern - keeping them clean and inconspicuous when not in use. 
 
 The original product design had them open to the elements, then a large all-or-nothing cover was added in. 
 
-<Image>
+(image)
 
 As you might imagine having one port in use requires the cover to be open, which again leaves all ports open to the elements.
 
@@ -55,7 +61,7 @@ I really aimed to achieve independent port access, and had a specific way I want
 
 So we set out on a minor retooling of the housing to add supports for individual port covers, and ended up iterating a few times to get it right, but it was worth it for the resulting user experience.
 
-<Image>
+(image)
 
 Despite the presence of USB C, unfortunately I couldn't lean on it for power, particular with a power-hungry Seiko sitting in the bottom. Today this would likely be reasonably easily achievable. In 2019 not so much. On the upside, the 24v external power supply has enough juice to power the tablet, print enclosure, and connected cash registers.
 
@@ -81,7 +87,7 @@ You see capacitors in use quite often today, consider things like the Samsung Ga
 
 The M10p had the space within the housing needed to support a bank of them, and we sat them in-line between the PMIC - Power Management Integrated Circuit, the board that handles and distributes power to the rest of the device - and the external power supply. 
 
-<Image>
+(image)
 
 We achieved 20 seconds of reserve power with the above configuration, and while you might look at that insignificant number with confusion, this solved both problems:
 
