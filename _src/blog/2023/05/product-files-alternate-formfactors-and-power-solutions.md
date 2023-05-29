@@ -31,7 +31,7 @@ There were however two contributing factors that made this a little easier. Firs
 
 And here it is:
 
-(image)
+![M10p](https://cdn.bayton.org/uploads/2023/05/RHINO-M10p-Tablet-with-Printer-box-550x354.webp)
 
 I've got a soft spot for the M10p. Even though the design is dated and the way it's built could be far more efficient (thanks to the initial project scope), what eventually landed with customers was a robust, performant device with a solid suite of core hardware features, and wicked extensibility. 
 
