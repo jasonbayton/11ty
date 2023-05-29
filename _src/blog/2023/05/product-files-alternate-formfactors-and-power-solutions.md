@@ -45,7 +45,7 @@ The goal for the M10p was to work with what customers want to work with. Could w
 
 When considering this, availablity of ports was a priority.
 
-The device supports 3 USB (A), USB C, RJ11, RJ45, and RS232, amongst other ports. With them, the M10p acts as an all in one solution for payments, communications, and peripherals. It'll support many types of cash register, most external payment terminals, and with plenty of USB can be hooked into many other accessories as needed. 
+Around the device you'll find 3 USB (A), USB C, RJ11, RJ45, and RS232, amongst others. With them, the M10p acts as an all in one solution for payments, communications, and peripherals. It'll support many types of cash register, most external payment terminals, and with plenty of USB can be hooked into many other accessories as needed. 
 
 This wasn't simple to pull off, the MediaTek Genio 500 the unit is powered by - a strategic decision to further a close relationship with MTK's IoT devision for long term support - is hardly a first choice for port support and a lot of these run from the USB2.0 and GPIO channels the SOC offers, but we made it work. 
 
@@ -63,7 +63,17 @@ So we set out on a minor retooling of the housing to add supports for individual
 
 (image)
 
-Despite the presence of USB C, unfortunately I couldn't lean on it for power, particular with a power-hungry Seiko sitting in the bottom. Today this would likely be reasonably easily achievable. In 2019 not so much. On the upside, the 24v external power supply has enough juice to power the tablet, print enclosure, and connected cash registers.
+Continuing the trend of inconspicuous design, a lot of thought was also put in to avoiding unnecessary tampering. The M10p supports a full size SIM card and microSD (eSIM too but that isn't user accessible either way). You wouldn't immediately know where these are looking at the unit, as they're hidden on the underside of the tablet behind an access port secured with a screw. 
+
+(image)
+
+Same goes actually for volume and the power button, which are recessed into the side of the unit and can only be interfaced with a SIM PIN (or equivalent). This was an intentional design decision as it's both inconvenient enough that the general populace won't have something to hand (like a biro) to fiddle with it, while at the same time SIM PINs are cheap and reasonably standardised enough to allow for sourcing if customers lose the one I popped in the box. 
+
+Custom APIs were also developed in software to allow for managing of device volume and tap-to-wake, so those buttons could be fully disabled under appropriate enterprise control, anyway. 
+
+The only concession made here was the inclusion of a USB C port that handles `host` for Android debugging. I could have sunk my heels in on this, as ADB over Wi-Fi is obviously a strategy, but in testing and with the active customer base, debugging was challenging enough without introducing more complexity. 
+
+Despite the presence of USB C, unfortunately I couldn't lean on it for power, particularly with a power-hungry Seiko sitting in the bottom. Today this would likely be reasonably easily achievable. In 2019 and due to the routing of power and data between the tablet and print enclosure respectfully, not so much. On the upside, the 24v external power supply has enough juice to power the tablet, print enclosure, peripherals, and many types of passively powered cash registers.
 
 ## Safe shutdown on power loss
 
