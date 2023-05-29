@@ -71,7 +71,7 @@ The same principle was applied for volume and the power button, which are recess
 
 Custom APIs were also developed in software to allow for managing of device volume and tap-to-wake, so those buttons could be fully disabled under appropriate enterprise control, anyway. 
 
-The only concession made here was the inclusion of a USB C port that handles `host` for Android debugging. I could have sunk my heels in on this, as ADB over Wi-Fi is obviously a viable option, but in testing and with the active customer base, debugging was challenging enough without introducing more complexity, and on reflection of 3 years supporting it, was the right move. Software handled access to this port, also, of course.
+The only concession made here was the inclusion of a USB C port that handles `host` for Android debugging. I could have sunk my heels in on this, as ADB over Wi-Fi is obviously a viable option, but in testing and with the active customer base, debugging was challenging enough without introducing more complexity, and on reflection of 3 years supporting it, was the right move. Software handled access to this port also, of course.
 
 Despite the presence of USB C, unfortunately I couldn't lean on it for power, particularly with a power-hungry Seiko sitting in the bottom. Today this would likely be reasonably easily achievable. In 2019 and due to the routing of power and data between the tablet and print enclosure respectfully, not so much. On the upside, the 24v external power supply has enough juice to power the tablet, print enclosure, peripherals, and many types of passively powered cash registers.
 
