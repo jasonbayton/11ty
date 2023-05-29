@@ -99,7 +99,7 @@ After a lot of dusting (it’s impossible to get in there when they’re stacked
 
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-full" id="gallery-12"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
-[![](https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg)](/https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg)](/https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg) </dt></dl>   
+[![](https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg)](https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg)](https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg) </dt></dl>   
  </div>
  
  At this point it’s worth pointing out *none of this is very black* and that would be right. I haven’t yet wired up the all-black power cables and given the rather quick turnaround on moving the disks, simply reused the far-too-long SATA cables I already had. As and when the parts come in I’ll publish some updated pictures.

@@ -37,11 +37,11 @@ Some of the previously enterprise-only features released as part of the standard
 
 In addition to recently announcing version 10, Nextcloud have worked with Canonical and WDLabs to bring to market the [Nextcloud Box](https://nextcloud.com/box), a small (not quite [fitlet-RM](/2016/07/hands-on-fitlet-rm-a-fanless-industrial-mini-pc-by-compulab/) small but still), Raspberry Pi-powered, Snappy Ubuntu Core server with a 1TB WD PiDrive retailing currently for £60. I asked Nextcloud if I could get a review unit and a fortnight later it arrived at my door complete with a Raspberry Pi (not included on retail units).
 
-[![img_20161004_110556](https://cdn.bayton.org/uploads/2016/10/IMG_20161004_110556.jpg)](/https://cdn.bayton.org/uploads/2016/10/IMG_20161004_110556.jpg)
+[![img_20161004_110556](https://cdn.bayton.org/uploads/2016/10/IMG_20161004_110556.jpg)](https://cdn.bayton.org/uploads/2016/10/IMG_20161004_110556.jpg)
 
 Unpacked it looks a little something like this:
 
-[![wp_20161006_14_51_50_pro](https://cdn.bayton.org/uploads/2016/10/WP_20161006_14_51_50_Pro.jpg)](/https://cdn.bayton.org/uploads/2016/10/WP_20161006_14_51_50_Pro.jpg)
+[![wp_20161006_14_51_50_pro](https://cdn.bayton.org/uploads/2016/10/WP_20161006_14_51_50_Pro.jpg)](https://cdn.bayton.org/uploads/2016/10/WP_20161006_14_51_50_Pro.jpg)
 
 As pictured, the package comes with:
 
@@ -63,11 +63,11 @@ As the Nextcloud Box comes disassembled it will naturally need to be put togethe
 
 This is as simple as screwing the Pi into the enclosure with the 4 supplied screws and cabling it up as shown above. Nextcloud provide a handy image to demonstrate how the cables should be routed (click for PDF):
 
-[![guide](https://cdn.bayton.org/uploads/2016/10/guide.png)](/https://cdn.bayton.org/uploads/2016/10/Box-Assembly-Guide.pdf)
+[![guide](https://cdn.bayton.org/uploads/2016/10/guide.png)](https://cdn.bayton.org/uploads/2016/10/Box-Assembly-Guide.pdf)
 
 To me the cable routing felt a little tight, I wasn’t too excited by how sharply-angled the USB cable coming out of the Pi had to be for this setup, but it works regardless. The ethernet cable (not pictured in the instructions) can easily follow the route of the power cable as the cutout is certainly large enough for both:
 
-[![](https://cdn.bayton.org/uploads/2016/10/WP_20161006_15_16_34_Pro.jpg)](/https://cdn.bayton.org/uploads/2016/10/WP_20161006_15_16_34_Pro.jpg)
+[![](https://cdn.bayton.org/uploads/2016/10/WP_20161006_15_16_34_Pro.jpg)](https://cdn.bayton.org/uploads/2016/10/WP_20161006_15_16_34_Pro.jpg)
 
 Once assembled, the lid secures with a few powerful magnets making it wonderfully easy to gain access if required without the need for tools.
 
@@ -76,11 +76,11 @@ Setup
 
 After powering it up there’s a bit of a wait while a built-in script takes care of pre-setup of the Nextcloud environment (8-10 minutes is stated, though mine didn’t take that long) and eventually navigating to <https://ubuntu-standard.local> – or <https://ubuntu-standard.yourdomain> if you don’t use `local` internally like me – should present the Nextcloud interface requesting the creation of a new administrator:
 
-[![1-add-admin](https://cdn.bayton.org/uploads/2016/10/1-add-admin.jpg)](/https://cdn.bayton.org/uploads/2016/10/1-add-admin.jpg)
+[![1-add-admin](https://cdn.bayton.org/uploads/2016/10/1-add-admin.jpg)](https://cdn.bayton.org/uploads/2016/10/1-add-admin.jpg)
 
 Once credentials are created, we’re in:
 
-[![1-in](https://cdn.bayton.org/uploads/2016/10/1-in.jpg)](/https://cdn.bayton.org/uploads/2016/10/1-in.jpg)
+[![1-in](https://cdn.bayton.org/uploads/2016/10/1-in.jpg)](https://cdn.bayton.org/uploads/2016/10/1-in.jpg)
 
 Yes, that’s really all it takes. It’s worth noting this is still Nextcloud 9. An update to 10 is currently in the works as of publishing.
 
@@ -102,7 +102,7 @@ Being a Snappy Ubuntu Core, there are a slew of other apps that can be installed
 
 Snapweb is a graphical interface for searching and installing various snaps through the Snap store. It’s much easier for those unfamiliar or uncomfortable with the command line:
 
-[![snapweb](https://cdn.bayton.org/uploads/2016/10/Snapweb.png)](/https://cdn.bayton.org/uploads/2016/10/Snapweb.png)
+[![snapweb](https://cdn.bayton.org/uploads/2016/10/Snapweb.png)](https://cdn.bayton.org/uploads/2016/10/Snapweb.png)
 
 Unfortunately at the moment Snapweb itself requires manual installation via the command line as follows:
 

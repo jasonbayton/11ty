@@ -52,7 +52,7 @@ With the notification came an indication of the new changes afoot, I’ve never 
 
 ### A new work app indicator
 
-Personally this seems unnecessary, but when a work application is opened, Workspace now adds a small triangle in the bottom corner to indicate the app icon with a bright orange work badge you tapped to launch the app, is still a work app after launching[:](/https://cdn.bayton.org/uploads/2018/04/yodog.jpg)
+Personally this seems unnecessary, but when a work application is opened, Workspace now adds a small triangle in the bottom corner to indicate the app icon with a bright orange work badge you tapped to launch the app, is still a work app after launching[:](https://cdn.bayton.org/uploads/2018/04/yodog.jpg)
 
 ![](https://cdn.bayton.org/uploads/2018/04/Screenshot_20180415-205850_My-Files-e1523964859828.jpg)
 

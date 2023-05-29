@@ -112,7 +112,7 @@ They’re not quite up to scratch just yet.
 
 Google are keen to highlight that although these two vendors are potentially passing with flying colours other aspects of validation, their feature set support is not yet at the level Google deem acceptable for AER, hence attaining only *standard* and not *advanced* across the board:
 
-[![](https://cdn.bayton.org/uploads/2019/01/Screenshot-2019-01-17-at-21.29.51_anno.jpg)](/https://cdn.bayton.org/uploads/2019/01/Screenshot-2019-01-17-at-13.19.33_anno1.jpg)
+[![](https://cdn.bayton.org/uploads/2019/01/Screenshot-2019-01-17-at-21.29.51_anno.jpg)](https://cdn.bayton.org/uploads/2019/01/Screenshot-2019-01-17-at-13.19.33_anno1.jpg)
 
 The asterisk is intended to suggest they’ve committed (ie. roadmap) to meeting Google’s requirements and recommendations in the **near** future, and will continue to develop their product through 2019.
 

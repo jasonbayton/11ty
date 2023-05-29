@@ -98,7 +98,7 @@ The enrolment process is fairly straightforward, initially requiring the user of
  
  As shown in the gallery above, on enrolling a Samsung device you’re prompted with not one, but two system notifications. The first is the agreement to Samsung’s terms (presumably due to Miradore using their APIs) and the second to agree to allowing Miradore to administer the device. Once enrolled the devices show up on the *devices* dashboard and are ready to receive their relevant MDM profiles.
 
-[![Devices view – Miradore Online – baytonorg](https://cdn.bayton.org/uploads/2014/07/Devices-view-%E2%80%93-Miradore-Online-%E2%80%93-baytonorg.png)](/https://cdn.bayton.org/uploads/2014/07/Devices-view-%E2%80%93-Miradore-Online-%E2%80%93-baytonorg.png)
+[![Devices view – Miradore Online – baytonorg](https://cdn.bayton.org/uploads/2014/07/Devices-view-%E2%80%93-Miradore-Online-%E2%80%93-baytonorg.png)](https://cdn.bayton.org/uploads/2014/07/Devices-view-%E2%80%93-Miradore-Online-%E2%80%93-baytonorg.png)
 
 ### Configuration profiles
 
@@ -170,11 +170,11 @@ For now the policies available are adequate for basic management of devices and 
 
 Whilst end users may have nothing more to do with Miradore once enrolled, the same cannot be said for the platform Administrator(s). Miradore provides a nice, clean dashboard showing a high-level overview of the devices enrolled along with some basic information associated with them (some of which is applied manually, but certainly not everything).
 
-[![](https://cdn.bayton.org/uploads/2014/07/dash.png)](/https://cdn.bayton.org/uploads/2014/07/dash.png)
+[![](https://cdn.bayton.org/uploads/2014/07/dash.png)](https://cdn.bayton.org/uploads/2014/07/dash.png)
 
 The dashboard is great for information at-a-glance, but to actually do anything to a specific device, you’ll need to bring up the device record:
 
-[![Device view](https://cdn.bayton.org/uploads/2014/07/Device-view.png)](/https://cdn.bayton.org/uploads/2014/07/Device-view.png)
+[![Device view](https://cdn.bayton.org/uploads/2014/07/Device-view.png)](https://cdn.bayton.org/uploads/2014/07/Device-view.png)
 
 From the device record you can see an overview of the state of the device as of its last check-in, the applications installed, where the device is assigned (this is a manually configured Location field) and device details such as IMEI, serial number, etc.
 

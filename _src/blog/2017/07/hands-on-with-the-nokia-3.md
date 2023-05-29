@@ -38,19 +38,19 @@ Inkeeping with the materials synonymous with Nokia’s Lumia line, the Nokia 3 i
 
 On the back is the 8MP camera and flash module:
 
-[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170720_111907338.jpg)](/https://cdn.bayton.org/uploads/2017/07/IMG_20170720_111907338.jpg)
+[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170720_111907338.jpg)](https://cdn.bayton.org/uploads/2017/07/IMG_20170720_111907338.jpg)
 
 Down the left-hand side sits the satisfyingly clicky volume rocker and power button, and on the right is the SIM and MicroSD trays (two of them). Oddly they don’t quite match the colour of the surrounding aluminium frame, but this only really shows in the right light:
 
-[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_124907753_BURST000_COVER_TOP-e1501416735237.jpg)](/https://cdn.bayton.org/uploads/2017/07/IMG_20170725_124907753_BURST000_COVER_TOP.jpg)
+[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_124907753_BURST000_COVER_TOP-e1501416735237.jpg)](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_124907753_BURST000_COVER_TOP.jpg)
 
 On the front is the 5″ 720p screen, an odd choice in 2017 given the increasing demand, nay *expectation* of 1080p displays as a minimum, however the image is crisp enough, the display is bright and honestly unless you’re looking it’s not obvious HDMG skimped on the display. It’s protected by Gorilla Glass 3 at least, so it could have definitely been worse. Above the screen is an 8MP selfie-shooter and below the screen is another feature I wish would disappear, capacitive buttons:
 
-[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125015496.jpg)](/https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125015496.jpg)
+[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125015496.jpg)](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125015496.jpg)
 
 At least on the Nokia 3 these follow the standard layout, unlike competitors. Along the bottom, the mono speaker and microUSB (no USB C?) charging port:
 
-[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125218943_BURST000_COVER_TOP-e1501418321309.jpg)](/https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125218943_BURST000_COVER_TOP-e1501416807913.jpg)
+[![](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125218943_BURST000_COVER_TOP-e1501418321309.jpg)](https://cdn.bayton.org/uploads/2017/07/IMG_20170725_125218943_BURST000_COVER_TOP-e1501416807913.jpg)
 
 On top the standard (or, non-standard now? Who knows) 3.5mm headphone port.
 

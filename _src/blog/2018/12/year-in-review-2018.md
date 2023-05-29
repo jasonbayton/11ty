@@ -194,7 +194,7 @@ Today it’s handling comments well, and acts as the foundation of my [liveblogg
 
 In the quest to put content front and centre before anything else, my site themes visually have gradually gotten simpler and simpler. This year I designed a theme that properly works with my documentation, and ported it across to the normal blog-type articles I write also, bringing consistency across the website that previously lacked.
 
-[![](https://cdn.bayton.org/uploads/2018/12/image-11.png)](/https://cdn.bayton.org/uploads/2018/12/image-11.png)
+[![](https://cdn.bayton.org/uploads/2018/12/image-11.png)](https://cdn.bayton.org/uploads/2018/12/image-11.png)
 
 I’ll no doubt continue iterating in 2019, though I’m always open to feedback!
 

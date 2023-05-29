@@ -112,7 +112,7 @@ The server will then provision. Once complete, powering on the server and clicki
 
 As easy as it is to spin up a server, managing them is no more difficult. Looking at the control panel the ability to power servers up and down, adjust resource limits and to obtain connection information is available at the click of the mouse. Clicking on the  icon however goes one step further, revealing every possible configuration option for servers as follows (click to enlarge):
 
-[![](https://cdn.bayton.org/uploads/2016/05/ams-e-Elastichosts-3-1.png)](/https://cdn.bayton.org/uploads/2016/05/ams-e-Elastichosts-3-1.png)
+[![](https://cdn.bayton.org/uploads/2016/05/ams-e-Elastichosts-3-1.png)](https://cdn.bayton.org/uploads/2016/05/ams-e-Elastichosts-3-1.png)
 
 Both containers and VMs share a majority of options, though where containers provide an SSH password for remote administration, VMs additionally provide a VNC connection – particularly useful for operating systems that don’t run an SSH server such as Windows. Furthermore, containers allow the mounting of additional folders and VMs additional disks (it is possible, however, to mount folders within the OS of either).
 

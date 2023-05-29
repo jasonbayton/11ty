@@ -40,7 +40,7 @@ Reactivating the account
 
 The first thing I was greeted with after logging in was a prompt to *reconnect or recreate* my MDM tenant. My previous tenant had gone some months ago, removed after sitting dormant for too long.
 
-[![Screenshot (16)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-16-1500x884.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-16.png)
+[![Screenshot (16)](https://cdn.bayton.org/uploads/2015/03/Screenshot-16-1500x884.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-16.png)
 
 At some point after last July I switched devices and neglected to re-enrol, meaning a countdown began on my tenant which would ultimately result in it being removed. Had I not ignored the several emails that gave me months of warning, this wouldn’t be the case! However I did, and this happened.
 
@@ -50,7 +50,7 @@ Setting up my tenant again was as simple as typing a (company) name, agreeing to
 
 Voilà:
 
-[![miradoredash](/https://cdn.bayton.org/uploads/2015/03/miradoredash.png)](/https://cdn.bayton.org/uploads/2015/03/miradoredash.png)
+[![miradoredash](https://cdn.bayton.org/uploads/2015/03/miradoredash.png)](https://cdn.bayton.org/uploads/2015/03/miradoredash.png)
 
 Logging in brings me back onto the familiar dashboard. Unlike some popular platforms, Miradore has refrained from progressively cluttering the interface with every update and new feature; they have managed to keep it clean, recognisable and simple to use – I’m not left wondering how to undertake tasks I’ve done previously which is a lot more than can be said for some platforms (did you hear that, AirWatch?).
 
@@ -69,7 +69,7 @@ They’ve even gone as far as to implement push notifications using Microsoft’
 
 Now that Miradore is able to manage both iOS and Windows Phone with a similar level of granularity, Android – the most “open” (comparatively) of all three platforms – is left to play catchup in the background.
 
-[![image003](/https://cdn.bayton.org/uploads/2015/03/image003.png)](/https://cdn.bayton.org/uploads/2015/03/image003.png)
+[![image003](https://cdn.bayton.org/uploads/2015/03/image003.png)](https://cdn.bayton.org/uploads/2015/03/image003.png)
 
 ### Self-service enrolment
 
@@ -81,13 +81,13 @@ As an admin of over a thousand ever-changing users (and growing) myself, the tho
 
 That would be one task rather than several (or several hundred!) and I’d like to see Miradore adopt a similar approach here. White-listing a domain to me seems like the most logical, hands-off way of managing user enrolments.
 
-[![Screenshot_2015-03-13-20-58-06](/https://cdn.bayton.org/uploads/2015/03/Screenshot_2015-03-13-20-58-06.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot_2015-03-13-20-58-06.png)
+[![Screenshot_2015-03-13-20-58-06](https://cdn.bayton.org/uploads/2015/03/Screenshot_2015-03-13-20-58-06.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot_2015-03-13-20-58-06.png)
 
 ### Manual sync and profile removal
 
 A somewhat more recent addition is the ability to manually remove profiles on managed devices. While not something to shout from the rooftops, the ability to remove a profile and redistribute it in a support situation is very handy.
 
-[![syncnow](/https://cdn.bayton.org/uploads/2015/03/syncnow.png)](/https://cdn.bayton.org/uploads/2015/03/syncnow.png)
+[![syncnow](https://cdn.bayton.org/uploads/2015/03/syncnow.png)](https://cdn.bayton.org/uploads/2015/03/syncnow.png)
 
 Along the same lines the ability to manually sync a device ad-hoc is something you wouldn’t know you needed until you ran into trouble. Relying on server sync schedules on an occasion where you need to contact/update the device immediately is immensely useful and a welcome addition.
 
@@ -101,13 +101,13 @@ Reports are possibly one of the most important features I look for in any MDM so
 
 Miradore’s free version does two of these very well. Where some solutions dumb-down the report generation process and severely limit what can be reported on, Miradore go the complete opposite by providing in the region of 140 different variables to generate reports against.
 
-[![Screenshot (22)_conflict-20150321-071824](/https://cdn.bayton.org/uploads/2015/03/Screenshot-22_conflict-20150321-071824.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-22_conflict-20150321-071824.png)
+[![Screenshot (22)_conflict-20150321-071824](https://cdn.bayton.org/uploads/2015/03/Screenshot-22_conflict-20150321-071824.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-22_conflict-20150321-071824.png)
 
 Combined with a seemingly unlimited number of AND/OR arguments utilising grouping to accommodate both types, reports can be generated to a degree where you could very probably find your needle in a hay stack.
 
 You’re not limited to a defined set of columns either:
 
-[![Screenshot (23)_conflict-20150321-072016](/https://cdn.bayton.org/uploads/2015/03/Screenshot-23_conflict-20150321-072016.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-23_conflict-20150321-072016.png)
+[![Screenshot (23)_conflict-20150321-072016](https://cdn.bayton.org/uploads/2015/03/Screenshot-23_conflict-20150321-072016.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-23_conflict-20150321-072016.png)
 
 If I had one suggestion, it would be to provide friendly names for most of the variables to report against. While it’s easy enough to figure them out I can see it being slightly daunting to some.
 
@@ -160,11 +160,11 @@ To begin the upgrade is as simple as clicking the new “Upgrade subscription”
 
 From there, you’re able to select your preferred subscription: Business or Enterprise (Free is already selected currently).
 
-[![Screenshot (29)_conflict-20150321-084358](/https://cdn.bayton.org/uploads/2015/03/Screenshot-29_conflict-20150321-084358.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-29_conflict-20150321-084358.png)
+[![Screenshot (29)_conflict-20150321-084358](https://cdn.bayton.org/uploads/2015/03/Screenshot-29_conflict-20150321-084358.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-29_conflict-20150321-084358.png)
 
 SImple so far, right? On the following steps not so much. On clicking upgrade I’m presented with a standard sign-up screen requesting address, number, email, etc. It also requests a VAT number and business name.
 
-[![Screenshot (26)_conflict-20150321-083310](/https://cdn.bayton.org/uploads/2015/03/Screenshot-26_conflict-20150321-083310.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-26_conflict-20150321-083310.png)
+[![Screenshot (26)_conflict-20150321-083310](https://cdn.bayton.org/uploads/2015/03/Screenshot-26_conflict-20150321-083310.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-26_conflict-20150321-083310.png)
 
 As I’m not a business, but rather an administrator for a small group (for this trial) I neither have a business name nor a VAT number. Both of these are mandatory and so I’m forced to make something up for the business name, and select a country outside of the EU to negate the VAT number. (NB: You’re not allowed to do this, as it’s effectively not paying tax on a purchase)
 
@@ -172,7 +172,7 @@ I can appreciate the need for these two fields for businesses (it is after all t
 
 I muddled through and made my way to the payment page.
 
-[![Screenshot (28)_conflict-20150321-083622](/https://cdn.bayton.org/uploads/2015/03/Screenshot-28_conflict-20150321-083622.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-28_conflict-20150321-083622.png)
+[![Screenshot (28)_conflict-20150321-083622](https://cdn.bayton.org/uploads/2015/03/Screenshot-28_conflict-20150321-083622.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-28_conflict-20150321-083622.png)
 
 I have 3 devices enrolled, which should bring my total to $1.50 a month (GBP or even Euro would be nice to see here, given Miradore is a Finnish company). What I then notice (in the red box) is a minimum monthly subscription of $10; equivalent to enrolling **20 devices**.
 
@@ -180,7 +180,7 @@ Under any other circumstances I would have cancelled this and forgotten about it
 
 However, for the sake of the review and the fact I really want to see how well location tracking and report exportation is integrated I chose to continue. Voila:
 
-[![Screenshot (32)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-32.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-32.png)
+[![Screenshot (32)](https://cdn.bayton.org/uploads/2015/03/Screenshot-32.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-32.png)
 
 ### Location tracking
 
@@ -194,19 +194,19 @@ So, how does it work?
 
 Unlike other platforms, Miradore requires a policy be pushed out to the Android devices you want to track. This has benefits in that you select which devices have location monitored and leave those that don’t need it untouched. I prefer this method than the global on/off switch that then requires you create exclusions based on device type, usage, so on.
 
-[![Screenshot (33)_conflict-20150321-093506](/https://cdn.bayton.org/uploads/2015/03/Screenshot-33_conflict-20150321-093506.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-33_conflict-20150321-093506.png)
+[![Screenshot (33)_conflict-20150321-093506](https://cdn.bayton.org/uploads/2015/03/Screenshot-33_conflict-20150321-093506.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-33_conflict-20150321-093506.png)
 
-[![Screenshot (34)_conflict-20150321-093514](/https://cdn.bayton.org/uploads/2015/03/Screenshot-34_conflict-20150321-093514.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-34_conflict-20150321-093514.png)*End user notification is an option, but as a responsible admin you’d always tick that, right?*
+[![Screenshot (34)_conflict-20150321-093514](https://cdn.bayton.org/uploads/2015/03/Screenshot-34_conflict-20150321-093514.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-34_conflict-20150321-093514.png)*End user notification is an option, but as a responsible admin you’d always tick that, right?*
 
 Once the profile is created, deploy it:
 
-[![Screenshot (35)_conflict-20150321-093614](/https://cdn.bayton.org/uploads/2015/03/Screenshot-35_conflict-20150321-093614.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-35_conflict-20150321-093614.png)
+[![Screenshot (35)_conflict-20150321-093614](https://cdn.bayton.org/uploads/2015/03/Screenshot-35_conflict-20150321-093614.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-35_conflict-20150321-093614.png)
 
-[![Screenshot (36)_conflict-20150321-093622](/https://cdn.bayton.org/uploads/2015/03/Screenshot-36_conflict-20150321-093622.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-36_conflict-20150321-093622.png)
+[![Screenshot (36)_conflict-20150321-093622](https://cdn.bayton.org/uploads/2015/03/Screenshot-36_conflict-20150321-093622.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-36_conflict-20150321-093622.png)
 
 Once deployed, the location information is available within the device record as shown in the comparison below. Top: iPhone without Location Tracking. Bottom: Nexus 6 with it.
 
-[![Screenshot (39)_conflict-20150321-094448](/https://cdn.bayton.org/uploads/2015/03/Screenshot-39_conflict-20150321-094448.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-39_conflict-20150321-094448.png)
+[![Screenshot (39)_conflict-20150321-094448](https://cdn.bayton.org/uploads/2015/03/Screenshot-39_conflict-20150321-094448.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-39_conflict-20150321-094448.png)
 
 Location is accurate to street-level and you can zoom in and out as necessary to get a better view. Whenever the device checks in, location information will be updated. Of course, you can always use the manual sync “Sync now” option to force this as required.
 
@@ -215,7 +215,7 @@ So location tracking works, and works seemingly well. I like how it’s deployed
 
 If there was room for improvement here, it would have been the ability to pop the location out into a new window/frame and see it a little more full-screen. Miradore obviously read my mind as they released that [exact functionality](https://onlinesupport.miradore.com/hc/en-us/articles/202727911-2015-03-23-Release-notes) before I finished writing this article!
 
-[![Map view – Miradore Online – bayton](/https://cdn.bayton.org/uploads/2015/03/Map-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)](/https://cdn.bayton.org/uploads/2015/03/Map-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)
+[![Map view – Miradore Online – bayton](https://cdn.bayton.org/uploads/2015/03/Map-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)](https://cdn.bayton.org/uploads/2015/03/Map-view-%E2%80%93-Miradore-Online-%E2%80%93-bayton.png)
 
 ### Data export
 
@@ -227,13 +227,13 @@ How does it work?
 
 To export a report you simply open it and click the Export button. Miradore have even provided two ways of doing it.
 
-[![Screenshot (40)_conflict-20150321-102130](/https://cdn.bayton.org/uploads/2015/03/Screenshot-40_conflict-20150321-102130.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-40_conflict-20150321-102130.png)
+[![Screenshot (40)_conflict-20150321-102130](https://cdn.bayton.org/uploads/2015/03/Screenshot-40_conflict-20150321-102130.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-40_conflict-20150321-102130.png)
 
 That’s all there is to it. Sorry if you were expecting something more complicated.
 
 The exported report is equally simple:
 
-[![Screenshot (41)_conflict-20150321-102902](/https://cdn.bayton.org/uploads/2015/03/Screenshot-41_conflict-20150321-102902.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-41_conflict-20150321-102902.png)
+[![Screenshot (41)_conflict-20150321-102902](https://cdn.bayton.org/uploads/2015/03/Screenshot-41_conflict-20150321-102902.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-41_conflict-20150321-102902.png)
 
 Naturally the larger the estate and the more information you’re trying to report on, the bigger and more complex these reports become. My three devices won’t convey that very well but offers an example of what to expect.
 
@@ -245,11 +245,11 @@ The alerts and notifications are set up on a per-administrator basis. That is to
 
 To start, open the notification icon in the top-right of the screen and click the cog icon. (Alternatively click the email address next to it and click “My Settings”)
 
-[![Screenshot (42)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-42.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-42.png)
+[![Screenshot (42)](https://cdn.bayton.org/uploads/2015/03/Screenshot-42.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-42.png)
 
 This will then take you to your own personal notification area where you can decide upon what sort of alerts you wish to receive.
 
-[![Screenshot (43)_conflict-20150321-110016](/https://cdn.bayton.org/uploads/2015/03/Screenshot-43_conflict-20150321-110016.png)](/https://cdn.bayton.org/uploads/2015/03/Screenshot-43_conflict-20150321-110016.png)
+[![Screenshot (43)_conflict-20150321-110016](https://cdn.bayton.org/uploads/2015/03/Screenshot-43_conflict-20150321-110016.png)](https://cdn.bayton.org/uploads/2015/03/Screenshot-43_conflict-20150321-110016.png)
 
 Again, as simple as that
 

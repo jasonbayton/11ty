@@ -60,7 +60,7 @@ And, naturally, photographing food hands-free in all of these locations (if only
 
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-24"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://cdn.bayton.org/uploads/2014/06/DSC_0017.jpg)](/https://cdn.bayton.org/uploads/2014/06/DSC_0017.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/06/DSC_0018.jpg)](/https://cdn.bayton.org/uploads/2014/06/DSC_0018.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/06/DSC_0031.jpg)](/https://cdn.bayton.org/uploads/2014/06/DSC_0031.jpg) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2014/06/DSC_0017.jpg)](https://cdn.bayton.org/uploads/2014/06/DSC_0017.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/06/DSC_0018.jpg)](https://cdn.bayton.org/uploads/2014/06/DSC_0018.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/06/DSC_0031.jpg)](https://cdn.bayton.org/uploads/2014/06/DSC_0031.jpg) </dt></dl>  
 </div>
  
 The packaging is stunning, honestly. For what is essentially a beta device, Google have really put a lot of time and effort into presentation. Upon opening the box you’re greeted with a semi-opaque sheet of paper that keeps the underlying hardware in place. Peeling the sheet back reveals Glass in all its glory and it’s stunning – sleek, smooth and beautifully designed. I ordered the shale option figuring the darker grey-colour would show the least amount of dirt with extended use (this is a corporate device, after all). I later found the colour option probably wouldn’t matter as the material it’s made with seems to pick up dirt pretty easily.
@@ -69,7 +69,7 @@ Removing Glass and the underlying tray reveals the included accessories; a soft 
 
 ### Hardware
 
-[![Google Glass Profile](https://cdn.bayton.org/uploads/2014/06/P6300302-e1404161411283.jpg)](/https://cdn.bayton.org/uploads/2014/06/P6300302.jpg)
+[![Google Glass Profile](https://cdn.bayton.org/uploads/2014/06/P6300302-e1404161411283.jpg)](https://cdn.bayton.org/uploads/2014/06/P6300302.jpg)
 
 On first inspection, Glass was quite a bit heftier than I’d imagined. That isn’t to say they’re overbearingly huge when sat on my face, not at all, but I was expecting the glass components themselves to perhaps be a little less chunky.
 
@@ -83,7 +83,7 @@ The model I received is one of a new batch with 2GB of RAM. I’ve seen numerous
 
 Besides the RAM, Glass comes with a 5mp camera capable of recording in 720p, a 670 mAh battery stated to last all day, 12GB of usable storage (16GB total), WIFI, bluetooth, a touchpad along the side of the device and several sensors which, amongst other things, enable eye-tracking for features such as wink to take a picture and automatic illumination of the display when it detects your eyes raise to the screen on hearing a notification (a labs feature which is a little unreliable). Glass transfers sound via Bone Conduction.
 
-[![Google Glass Display](https://cdn.bayton.org/uploads/2014/06/P6300299-e1404163639150.jpg)](/https://cdn.bayton.org/uploads/2014/06/P6300299.jpg)
+[![Google Glass Display](https://cdn.bayton.org/uploads/2014/06/P6300299-e1404163639150.jpg)](https://cdn.bayton.org/uploads/2014/06/P6300299.jpg)
 
 Obviously the star of the show is the display. Once correctly adjusted Google suggests it’s the equivalent of having a 25″ display just above your eye line. I can’t vouch for the display size, but I can say it feels as though it’s a comfortable distance from my eye, clear and crisp when I’m looking at it and perfectly out of sight when I don’t need it. As soon as half way through the first day I frequently forgot it was on my head when I wasn’t actively using it which I think is exactly how it should be. A question I received repeatedly was “but how do you use it if the screen is all the way up there?” Well, once you get used to it, it’s easy to shift focus between the environment directly in front of you and the display just above your eye line. It definitely takes some getting used to though.
 
@@ -91,7 +91,7 @@ The biggest problem I had with the display was when trying to use it outdoors. G
 
 ### Software
 
-[![20140629_090332_773_x](https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x-e1404198751833.jpg)](/https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x.jpg)
+[![20140629_090332_773_x](https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x-e1404198751833.jpg)](https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x.jpg)
 
 Google Glass runs on Android and benefits from frequent updates bringing with them new functionality and bug fixes. Using Glass, you’d be forgiven for missing the fact it’s powered by Android; the interface is completely different to any standard (or modified) version you may have seen in the past, but it’s definitely there – lurking in the background – whilst a custom Glass launcher sits front-and-centre on the display.
 
@@ -103,7 +103,7 @@ Voice commands integrate really well with Glass. A simple “OK Glass” with th
 
 Glass comes with a limited set of applications out of the box. Using the companion app on a smartphone (iOS, Android) helps extend this with a small app catalogue of pre-selected applications. I’m not particularly overwhelmed by the handful of available apps considering Glass has been available for over a year, but big names like Strava, Facebook, Evernote and more are there and ready to be activated, and they integrate well with the experience. One app I used a lot was navigation. A quick voice command and I’m almost immediately prompted with on-screen directions to my destination:
 
-[![20140630_080144_322_x](https://cdn.bayton.org/uploads/2014/07/20140630_080144_322_x-e1404209724892.jpg)](/https://cdn.bayton.org/uploads/2014/07/20140630_080144_322_x.jpg)
+[![20140630_080144_322_x](https://cdn.bayton.org/uploads/2014/07/20140630_080144_322_x-e1404209724892.jpg)](https://cdn.bayton.org/uploads/2014/07/20140630_080144_322_x.jpg)
 
 *Note, due to the uncertainty around legality of driving with Google Glass in the UK, I did not do it. This photo was taken on private land with the vehicle switched off and keys in my pocket. I’ve spoken to three police officers in Thames Valley since the weekend including an on-duty traffic Officer, none of which could confirm whether or not I would be pulled over for having them on (consider satnav on the display as an example for why it would be on) but advised not to do it until clear legislation has been passed.*
 
@@ -139,7 +139,7 @@ There are three ways of taking the picture; voice command, selecting the option 
 
 I took many, many pictures over the course of the weekend in various lighting conditions and environments and over-all I found myself pleased with the result. Glass adds a little magic to every photo taken in order to make it pop and to Google’s credit, works quite well. Additionally, the “vignette” feature allows Glass to embed a screenshot of whatever is on the display at the time of taking a photo, a tool I used frequently:
 
-[![20140627_093523_498_x](https://cdn.bayton.org/uploads/2014/07/20140627_093523_498_x-e1404207843720.jpg)](/https://cdn.bayton.org/uploads/2014/07/20140627_093523_498_x-e1404207843720.jpg)
+[![20140627_093523_498_x](https://cdn.bayton.org/uploads/2014/07/20140627_093523_498_x-e1404207843720.jpg)](https://cdn.bayton.org/uploads/2014/07/20140627_093523_498_x-e1404207843720.jpg)
 
 I found I did need to keep as still as possible in order to get a crisp picture, something I don’t really think too much about on my phones. I also found the lack of a viewfinder before taking a photo a little annoying, many of the photos I took were slightly slanted or not quite centred on the object I was photographing. There are 3rd-party apps that would enable this functionality, but I had no intention (or time!) of sideloading anything to make it work.
 

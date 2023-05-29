@@ -21,7 +21,7 @@ discourse_permalink:
 tags:
     - Reviews
 ---
-The 2-in-1 market has been heating up [tremendously](/https://cdn.bayton.org/uploads/2017/02/67993533.jpg "Does anyone else think of Trump whenever they read the word tremendous?") over the last few years with contenders such as Microsoft, HP, Asus, Lenovo and many, many more all turning out impressive devices that challenge the traditional *laptop-tablet* divide. Although ceasing production of laptops, Samsung’s tablet offerings have gone from strength to strength, arguably being ahead of the game for a number of years.
+The 2-in-1 market has been heating up [tremendously](https://cdn.bayton.org/uploads/2017/02/67993533.jpg "Does anyone else think of Trump whenever they read the word tremendous?") over the last few years with contenders such as Microsoft, HP, Asus, Lenovo and many, many more all turning out impressive devices that challenge the traditional *laptop-tablet* divide. Although ceasing production of laptops, Samsung’s tablet offerings have gone from strength to strength, arguably being ahead of the game for a number of years.
 
 Although not the first Windows tablet Samsung has released, the converged market offered a perfect opportunity for them to bridge the divide by bundling a keyboard with their latest offering. With it they’ve secured a nice corner of the market for themselves with what I’d consider to be one of the thinnest and lightest 2-in1’s I’ve ever used.
 
@@ -30,21 +30,21 @@ Over the New Year the price of the TabPro S was significantly reduced (no doubt 
 Hardware
 --------
 
-[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_12_39_Rich.jpg)](/https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_12_39_Rich-e1486762603603.jpg)
+[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_12_39_Rich.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_12_39_Rich-e1486762603603.jpg)
 
 Like many Samsung tablets, the TabPro S is a mixture of metal and plastic; while the outer rim of the device feels exceptionally premium with its aluminium frame, the back is the typical, slightly flexible plastic. Admittedly it’s almost never seen with the keyboard in place but at the price Samsung launched the TabPro for I’d have liked to see an all-metal finish akin to the Surface. Unlike the Surface however, the TabPro does come with a keyboard as standard (but no pen, that’s sold separately for a hefty [£45](https://www.amazon.co.uk/Samsung-PW700CB-Black-stylus-pens/dp/B01G5VNLSA/ref=as_li_ss_tl?ie=UTF8&qid=1486417101&sr=8-1&keywords=tabpro+s+pen&linkCode=ll1&tag=bayton-21&linkId=1ffc38dc41ef0fe7d2e7e00daa402fc7) at the time of writing. I have one on the way..).
 
 Across the top of the device are the power and volume buttons. Down the left is the physical start button (which is still a thing) and on the bottom sit the pogo pins for the keyboard. The physical buttons on the TabPro are satisfyingly clicky and responsive.
 
-[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_42_53_Rich-e1486763160996.jpg)](/https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_42_53_Rich-e1486763110383.jpg)
+[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_42_53_Rich-e1486763160996.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_42_53_Rich-e1486763110383.jpg)
 
 As far as physical dimensions go, it boasts 290 x 198 x 6.3mm and 693g – it is unfathomably thin and light, largely thanks to the 2.2GHz dual-core Core-M under the hood requiring passive cooling rather than needing to run a fan, even under load (though it does get rather warm to the touch occasionally). The keyboard case adds very little bulk when connected also, resulting in a tablet that always feels like I’m carrying almost nothing around when travelling.
 
-[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_17_06_Rich-e1486762808257.jpg)](/https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_17_06_Rich-e1486762790153.jpg)
+[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_17_06_Rich-e1486762808257.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_17_06_Rich-e1486762790153.jpg)
 
 In terms of ports, there’s really nothing to list. It has 1 USB type C port and a headphone jack.
 
-[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_14_59_Rich.jpg)](/https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_14_59_Rich-e1486763210661.jpg)
+[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_14_59_Rich.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_14_59_Rich-e1486763210661.jpg)
 
 That’s it.
 
@@ -56,7 +56,7 @@ I found the camera situation to be rather pleasing. In my last review I wrote:
 
 The TabPro S boasts a 5MP camera on *both sides*. They’re as good as each other! This means whether you are indeed taking a photo at the zoo or conferencing a team remotely you can guarantee the exact same picture quality and resolution. Thank you, Samsung!
 
-[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_43_22_Rich-e1486763266848.jpg)](/https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_43_22_Rich-e1486763266848.jpg)
+[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_43_22_Rich-e1486763266848.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_43_22_Rich-e1486763266848.jpg)
 
 Battery life &amp; performance
 ------------------------------
@@ -79,7 +79,7 @@ For me, it’s a trade-off I can live with; for the benefits of sAMOLED I’m pr
 Keyboard
 --------
 
-[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_15_20_Rich.jpg)](/https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_15_20_Rich-e1486763408719.jpg)
+[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_15_20_Rich.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_15_20_Rich-e1486763408719.jpg)
 
 Unlike other 2-in-1’s the TabPro S comes with a keyboard out of the box. No additional cost. When considering the Surface Pro keyboard is around the £100 mark on top of the already expensive tablet itself, it’s satisfying to have one included in the price with the TabPro.
 
@@ -106,7 +106,7 @@ It’s a little more than a keyboard too as it acts as a folio case, protecting 
 
 <div class="gallery galleryid-0 gallery-columns-2 gallery-size-large" id="gallery-6"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
 
-[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_34_Rich.jpg)](/https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_34_Rich-e1486763499640.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_54_Rich.jpg)](/https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_54_Rich-e1486763488632.jpg) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_34_Rich.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_34_Rich-e1486763499640.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_54_Rich.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_54_Rich-e1486763488632.jpg) </dt></dl>  
  </div>
  
  Admittedly it took me a couple of hours to get used to the compact layout, the Surface keyboard benefits from spacing between keys however this is not the case with the Samsung. All the same once I was used to it there was absolutely no issue. I do find the angles to be slightly too extreme in many circumstances; sitting it upright for example is a little *too* upright on anything but a flat desk, and laying it on the lower angle I’ve found is only really super useful for typing in bed, on a lap or anywhere else I’m not necessarily sat up straight.

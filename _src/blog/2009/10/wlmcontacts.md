@@ -60,11 +60,11 @@ You can see as above that it works with tags. You may enter your email addresses
 
 Save this document as a .CTT – you will notice that the icon of the file is a messenger icon.
 
-[![image00](https://cdn.bayton.org/uploads/2009/10/image00.png)](/https://cdn.bayton.org/uploads/2009/10/image00.png)
+[![image00](https://cdn.bayton.org/uploads/2009/10/image00.png)](https://cdn.bayton.org/uploads/2009/10/image00.png)
 
 In WLM, go to the Contacts menu, and select **Import Messenger contacts**
 
-[![image01](https://cdn.bayton.org/uploads/2009/10/image01.png)](/https://cdn.bayton.org/uploads/2009/10/image01.png)
+[![image01](https://cdn.bayton.org/uploads/2009/10/image01.png)](https://cdn.bayton.org/uploads/2009/10/image01.png)
 
 Select the .CTT that you created, and agree to importing X amount of contacts.
 
@@ -74,38 +74,38 @@ For creating a very large list, remove the entries “&lt;contact&gt;contact\*@d
 
 Export your Outlook contact list
 
-[![image02](https://cdn.bayton.org/uploads/2009/10/image02.png)](/https://cdn.bayton.org/uploads/2009/10/image02.png)
+[![image02](https://cdn.bayton.org/uploads/2009/10/image02.png)](https://cdn.bayton.org/uploads/2009/10/image02.png)
 
 Select Export to file
 
-[![image03](https://cdn.bayton.org/uploads/2009/10/image03.png)](/https://cdn.bayton.org/uploads/2009/10/image03.png)
+[![image03](https://cdn.bayton.org/uploads/2009/10/image03.png)](https://cdn.bayton.org/uploads/2009/10/image03.png)
 
 Choose Excel 97-2003
 
-[![image04](https://cdn.bayton.org/uploads/2009/10/image04.png)](/https://cdn.bayton.org/uploads/2009/10/image04.png)
+[![image04](https://cdn.bayton.org/uploads/2009/10/image04.png)](https://cdn.bayton.org/uploads/2009/10/image04.png)
 
 Contacts (For best results, have your contacts organised so not to export people you don’t want in WLM)
 
-[![image05](https://cdn.bayton.org/uploads/2009/10/image05.png)](/https://cdn.bayton.org/uploads/2009/10/image05.png)
+[![image05](https://cdn.bayton.org/uploads/2009/10/image05.png)](https://cdn.bayton.org/uploads/2009/10/image05.png)
 
 Select a Location
 
-[![image06](https://cdn.bayton.org/uploads/2009/10/image06.png)](/https://cdn.bayton.org/uploads/2009/10/image06.png)
+[![image06](https://cdn.bayton.org/uploads/2009/10/image06.png)](https://cdn.bayton.org/uploads/2009/10/image06.png)
 
 Once this is done, please open the new .XLS file in Microsoft Excel
 
-[![image07](https://cdn.bayton.org/uploads/2009/10/image07.png)](/https://cdn.bayton.org/uploads/2009/10/image07.png)
+[![image07](https://cdn.bayton.org/uploads/2009/10/image07.png)](https://cdn.bayton.org/uploads/2009/10/image07.png)
 
 You can extract all email data, removing the names and leaving only the addresses. Then create a new Excel workbook. In column A have &lt;contact&gt;, column B have the address and column C have &lt;/contact&gt;
 
-[![image08](https://cdn.bayton.org/uploads/2009/10/image08.png)](/https://cdn.bayton.org/uploads/2009/10/image08.png)
+[![image08](https://cdn.bayton.org/uploads/2009/10/image08.png)](https://cdn.bayton.org/uploads/2009/10/image08.png)
 
 Finally, copy/paste all of this data back into Notepad, and save it as a .CTT
 
-[![image09](https://cdn.bayton.org/uploads/2009/10/image09.png)](/https://cdn.bayton.org/uploads/2009/10/image09.png)
+[![image09](https://cdn.bayton.org/uploads/2009/10/image09.png)](https://cdn.bayton.org/uploads/2009/10/image09.png)
 
 This will create a contact list which you can import into messenger as stated above. In WLM, go to the Contacts menu, and select **Import Messenger contacts**
 
-[![image01](https://cdn.bayton.org/uploads/2009/10/image01.png)](/https://cdn.bayton.org/uploads/2009/10/image01.png)
+[![image01](https://cdn.bayton.org/uploads/2009/10/image01.png)](https://cdn.bayton.org/uploads/2009/10/image01.png)
 
 Select the .CTT that you created, and agree to importing X amount of contacts. You will then find a whole list of contacts! Once you have been accepted by your colleagues, you will be able to start chatting.

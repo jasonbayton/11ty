@@ -380,7 +380,7 @@ OEMConfig takes so much of this burden away from both sides. The EMMs no longer 
 
 It is utterly incredible the impact this will have on the ecosystem, or arguably already is having given Zebra, Samsung, <s>[Sony](/2018/08/hands-on-with-sonys-oemconfig/)</s>, DataLogic, Honeywell and undoubtedly many more all support OEMConfig already. Even OEMs who in the past may not have wanted to dabble with custom APIs may choose to do so now that it’s so simple, without any of the legacy overhead of years gone by, and in doing so it fulfils Google’s ambition to embrace value-added functionality over and above Android Enterprise base APIs.
 
-It is an [absolute win](/https://cdn.bayton.org/uploads/2020/01/image-2.png) for all involved.
+It is an [absolute win](https://cdn.bayton.org/uploads/2020/01/image-2.png) for all involved.
 
 ### The Android Enterprise ecosystem impact
 

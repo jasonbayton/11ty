@@ -50,13 +50,13 @@ To begin with, download the app from [Google Play ](https://play.google.com/stor
 
 Open the RWG Mobile application and enter your current SIM telephone number.
 
-[![Screenshot_2016-07-21-14-55-06](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-06.png)](/https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-06.png)
+[![Screenshot_2016-07-21-14-55-06](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-06.png)](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-06.png)
 
 ### Step 2
 
 The app will then send a verification PIN to the device via SMS.
 
-[![Screenshot_2016-07-21-14-55-18](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-18.png)](/https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-18.png)
+[![Screenshot_2016-07-21-14-55-18](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-18.png)](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-18.png)
 
 ### Step 3
 
@@ -118,7 +118,7 @@ Following the promotional screens, select **GET NUMBER**. On the next screen inp
 
 You’ll now be taken to the home screen. Credit is shown as £0.00 but this doesn’t matter as it won’t be needed. If it isn’t already selected, tap the new profile you created along the bottom of the screen; in my case it’s named **VM**. Now tap **Settings**.
 
-[![Screenshot_2016-07-21-16-01-57](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png)](/https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png)
+[![Screenshot_2016-07-21-16-01-57](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png)](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png)
 
 ### Step 6
 
@@ -157,25 +157,25 @@ With the RWG configuration out of the way, now is the time to configure your mob
 
 The settings area where this takes place can differ between devices. LG for example requires you open the phone app, tap the menu icon and head into **Call settings**. From there the option **Forwarding** is listed.
 
-[![Screenshot_2016-07-21-16-25-04](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-25-04.png)](/https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-25-04.png)
+[![Screenshot_2016-07-21-16-25-04](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-25-04.png)](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-25-04.png)
 
 On Samsung devices, you must open the phone app, tap the menu icon, enter **Settings**, select **Call**, tap **More settings** and you’ll find **Forwarding** in that submenu.
 
 Either way, once you end up in **Forwarding**, the view should be fairly consistent. Select under which circumstances you wish for your call to be forwarded and enter your RWG Mobile number.
 
-[![Screenshot_2016-07-21-16-25-18](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-25-18.png)](/https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-25-18.png)
+[![Screenshot_2016-07-21-16-25-18](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-25-18.png)](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-25-18.png)
 
 Once finished, return to your home screen and wait for your next missed call!
 
-[![Screenshot_2016-07-21-16-05-01](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-05-01.png)](/https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-05-01.png)
+[![Screenshot_2016-07-21-16-05-01](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-05-01.png)](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-05-01.png)
 
 Tapping on the notification will take you directly to that voicemail:
 
-[![Screenshot_2016-07-21-16-37-43](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-37-43.png)](/https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-37-43.png)
+[![Screenshot_2016-07-21-16-37-43](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-37-43.png)](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-37-43.png)
 
 Though you can view all voicemails at any time by tapping Voicemail from within the RWG Mobile app. You can add other devices by simply following the same steps to register, always choosing the primary phone number when it asks. A PIN will be sent and moments later it’ll all sync up. VMs on any (Android/iOS) device:
 
-[![anydevice](https://cdn.bayton.org/uploads/2016/07/anydevice.png)](/https://cdn.bayton.org/uploads/2016/07/anydevice.png)
+[![anydevice](https://cdn.bayton.org/uploads/2016/07/anydevice.png)](https://cdn.bayton.org/uploads/2016/07/anydevice.png)
 
 Of course, if you’re not happy using the same voicemail number for all messages, additional profiles (and as such, voicemail greetings) can come in handy to maintain that separation. All VMs across all profiles are still accessible through the one single app however you wish to set it up.
 

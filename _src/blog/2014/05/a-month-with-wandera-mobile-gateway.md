@@ -52,7 +52,7 @@ Enrolling a single device is a piece of cake; it requires literally nothing more
 
 When setting up a device, I found it was important to indicate the group that the device(/user) belongs to. It’s empty by default and requires you to type in the name of your group before enrolling. Once completed, said group will then be available for every subsequently enrolled device. Groups are used to allow for multiple different policies, it’s really important they’re utilised.
 
-[![Devices](/https://cdn.bayton.org/uploads/2014/05/Devices-e1399322805740-1024x350.png)](/https://cdn.bayton.org/uploads/2014/05/Devices-e1399322805740.png)
+[![Devices](https://cdn.bayton.org/uploads/2014/05/Devices-e1399322805740-1024x350.png)](https://cdn.bayton.org/uploads/2014/05/Devices-e1399322805740.png)
 
 <div id="Dashboard"></div>As of now Wandera supports iOS and Samsung Galaxy devices. You’d think that would mean any Android device can be enrolled but that isn’t the case; Wandera takes advantage of Samsung’s baked-in APIs in order to manage the Galaxy devices which, obviously, non-Samsung devices don’t have. Hopefully this will expand in the future as it’s somewhat limited in its current form.
 
@@ -61,7 +61,7 @@ Dashboard
 
 The first page to greet you upon login is the dashboard. It gives a nice, simple overview of data usage, frequented web-domains (note – Wandera doesn’t track web pages, just the domains you visit), top data consumers (apps/websites/users) and even a fairly real-time data consumption monitor.
 
-[![Dashboard](/https://cdn.bayton.org/uploads/2014/05/Dashboard1-1024x1007.png)](/https://cdn.bayton.org/uploads/2014/05/Dashboard1.png)
+[![Dashboard](https://cdn.bayton.org/uploads/2014/05/Dashboard1-1024x1007.png)](https://cdn.bayton.org/uploads/2014/05/Dashboard1.png)
 
 With this information immediately at hand it’s incredibly easy to see how the mobile workforce is performing, on what they’re using their data and where they are (the interface is colour-coded green for domestic data and blue for roaming). Each of the individual headings will take you to in-depth reports when clicked.
 
@@ -74,7 +74,7 @@ View
 
 View is the first of the three core areas of Wandera and provides in-depth analysis and analytics of how data is used. Where the dashboard provides a limited overview of data usage, View breaks it down granularly into user summaries, personal/business usage comparisons and further reports into the apps/sites visited.
 
-[![View](/https://cdn.bayton.org/uploads/2014/05/View.png)](/https://cdn.bayton.org/uploads/2014/05/View.png)
+[![View](https://cdn.bayton.org/uploads/2014/05/View.png)](https://cdn.bayton.org/uploads/2014/05/View.png)
 
 The information provided, though pretty basic, provides masses of insight into how data is being used, where it’s being used and who it’s being used by. The image above shows global stats but is simple to change to show data for a single user. It’s equally simple to separate domestic and roaming data if necessary using the menu at the top of the page. (Note I’ve cut the image off, it goes on a lot longer!)
 
@@ -85,7 +85,7 @@ Extend
 
 The Extend module provides reporting into how much data has been used, how much has been compressed, when blocked sites are visited and when data caps are being hit.
 
-[![Extend](/https://cdn.bayton.org/uploads/2014/05/Extend.png)](/https://cdn.bayton.org/uploads/2014/05/Extend.png)
+[![Extend](https://cdn.bayton.org/uploads/2014/05/Extend.png)](https://cdn.bayton.org/uploads/2014/05/Extend.png)
 
 Aside from breaking it down into per-user reports, there’s not a lot to do here. Within settings you can configure the plans and associated costs which are then used by these reports, but otherwise it appears to be more of a back-end tool that simply provides reporting for the administrator. Still, it’s incredibly interesting to see. I particularly like the estimated savings (even if I can’t verify them!).
 
@@ -96,7 +96,7 @@ Policies
 
 The policies and other configurable areas within settings are extremely basic. In fact, it had me wondering if I’d missed something for a moment. You can essentially set your data limit, caps, black-listed/white-listed sites/applications and alert policies. Once configured and saved, the changes take effect immediately.
 
-[![Policies](/https://cdn.bayton.org/uploads/2014/05/Policies-e1399325258423.png)](/https://cdn.bayton.org/uploads/2014/05/Policies.png)
+[![Policies](https://cdn.bayton.org/uploads/2014/05/Policies-e1399325258423.png)](https://cdn.bayton.org/uploads/2014/05/Policies.png)
 
 Different policies can be put in place for different groups, just be aware that a number of settings configured on the global policy cannot be altered then within the individual group policy. I found I had to tweak a few global settings in order to get the group policy set up as I wanted.
 
@@ -105,7 +105,7 @@ That’s essentially all there is to it, once saved the policy takes effect and 
 So, does it work?
 ==================
 
-![iphone.block](/https://cdn.bayton.org/uploads/2014/05/iphone.block_.png)
+![iphone.block](https://cdn.bayton.org/uploads/2014/05/iphone.block_.png)
 
 Flawlessly. The speed at which changes take effect (due, no doubt, to the nature in which the devices communicate with the server and not the other way around) is incredible.
 
