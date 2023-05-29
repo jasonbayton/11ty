@@ -81,7 +81,7 @@ My team and I worked through several options, including in-line UPS, hundreds-mi
 
 Capacitors. 
 
-They hold charge, hold up in harsh environments, don't degrade in the way batteries to, and don't require user maintenance.
+They hold charge, hold up in harsh environments, don't degrade in the way batteries do, and don't require user maintenance.
 
 You see capacitors in use quite often today, consider things like the Samsung Galaxy stylus for example, but again back in 2019 it wasn't an immediate thought.
 
@@ -102,22 +102,22 @@ Those familiar with capacitors may already know the minor tradeoff we made with 
 
 ## Migrating to EDLA
 
-That battery technicality for certifying the M10p as a Play Protect Certified/GMS MADA tablet ultimately wasn't needed for production, as during development of the device Google launched EDLA, the Enterprise Device License Agreement, as a replacement for MADA, the Mobile Application Distribution Agreement. 
+That battery technicality for certifying the M10p as a Play Protect Certified/GMS MADA tablet ultimately (and thankfully) wasn't needed for production, as during development of the device Google launched EDLA, the Enterprise Device License Agreement, as a replacement for MADA, the Mobile Application Distribution Agreement. 
 
 What these are could probably justify an article per acronym, but effectively:
-- All certified Android devices are governed by the MADA, for which there are multiple due to various competition and market restrictions around the world, EMADA (Europe), IMADA (India), TMADA (Turkey), and Russia which runs on a modified MADA. 
+- All certified Android devices are governed by a MADA, for which there are multiple due to various competition and market restrictions around the world, EMADA (Europe), IMADA (India), TMADA (Turkey), and Russia which runs on a modified MADA. 
 - These agreements define apps bundled, home screen layout, restrictions and requirements in addition to or in place of the public CDD - Compatibility Definition Document - and more.
 
 EDLA was brought in with some key requirements changes based on feedback from ecosystem players like me who outlined problems with the traditional GMS requirements for dedicated devices. In summary, again for simplicity, EDLA devices amongst other things:
 - Can have displays larger than 18" (think kiosks, digital signage)
 - Can be headless (no display at all)
-- Can omit a battery 
+- Can omit a battery entirely
 
 The one primary requirement added was full transparency for software support, wherein a public page on the OEM website must state when the device is expected to go end-of-support, list releases, and so on. As you can imagine I had no issue with this _at all_. AER requirements demand the same and it's better for the ecosystem.
 
-Evidently being invited to move the M10p over to EDLA from MADA was a big deal and put the device and it's capacitors back into the realm of absolute adherence as opposed to dancing around technicalities, so that was a relief, but to be invited to do so amongst the huge industry players of Zebra and co making dedicated devices was such an incredible accomplishment.
+Evidently being invited to move the M10p over to EDLA from MADA was a big deal and put the device and it's capacitors back into the realm of absolute adherence as opposed to dancing around technicalities, so that was a relief, but to be invited to do so amongst the huge industry players like Zebra and co making dedicated devices was such an incredible accomplishment.
 
-The M10p became the first EDLA-certified ePOS in the world, and I am super proud of that accomplishment.
+The M10p became the first EDLA-certified ePOS in the world, and I am super proud of that.
 
 ## Wrap up
 
