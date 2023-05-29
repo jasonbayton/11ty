@@ -1,5 +1,5 @@
 ---
-title: 'On building Android devices'
+title: 'Product Files: Building Android devices'
 date: '2020-12-26T18:21:12+00:00'
 status: publish
 author: 'Jason Bayton'
@@ -19,6 +19,16 @@ publish_post_category:
 tags:
     - Enterprise
 ---
+<div class="callout">
+
+Welcome to Product Files, a series of articles that touch on some of the more interesting aspects of running a product organisation for the last several years. 
+
+As this series grows, additional links will show up here:
+- [Building Android devices](/blog/2020/12/on-building-android-devices/)
+- [Alternative form factors and power solutions](/blog/2023/05/product-files-alternate-formfactors-and-power-solutions/)
+
+</div>
+
 As 2020 comes to a long-overdue close and we head into what anyone can hope will be a slightly less chaotic new year, it also edges closer to what will soon be two years leading product with [Social Mobile](https://socialmobile.com). With the results of all the hard work now materialising, I think it’s interesting to reflect on the last &gt;18 months, what it’s lead to, and what’s next.
 
 *Note: The following is a personal take on a work-related topic. For normal Android Enterprise content, please head [here](/android).*

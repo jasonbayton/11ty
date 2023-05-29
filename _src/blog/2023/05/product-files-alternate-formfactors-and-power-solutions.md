@@ -13,11 +13,12 @@
 Welcome to Product Files, a series of articles that touch on some of the more interesting aspects of running a product organisation for the last several years. 
 
 As this series grows, additional links will show up here:
-- [Alternative form factors and power solutions](#)
+- [Building Android devices](/blog/2020/12/on-building-android-devices/)
+- [Alternative form factors and power solutions](/blog/2023/05/product-files-alternate-formfactors-and-power-solutions/)
 
 </div>
 
-In this debut article, I thought I'd start with a hardware project, one of the first I took on when I joined an OEM way back in 2019 in fact, having not built devices before. 
+I last wrote about _my job_ back in [2020](/blog/2020/12/on-building-android-devices/). I think it's about time to change that, so in this article I'll cover off a hardware project, one of the first I took on when I joined an OEM way back in 2019 in fact, having not built devices before. 
 
 This project was also my first taste of what nontraditional Android form factors could look like, and was equally the first ePOS both for me and for the OEM having only recently pivoted from consumer low-cost handset projects to bespoke enterprise hardware. 
 
@@ -31,11 +32,11 @@ There were however two contributing factors that made this a little easier. Firs
 
 And here it is:
 
-![M10p](https://cdn.bayton.org/uploads/2023/05/RHINO-M10p-Tablet-with-Printer-box-550x354.webp)
+![M10p](https://cdn.bayton.org/uploads/2023/05/SocialMobile_M10_2021-07-07-024955_jysd.gif)
 
-I've got a soft spot for the M10p. Even though the design is dated and the way it's built could be far more efficient (thanks to the initial project scope), what eventually landed with customers was a robust, performant device with a solid suite of core hardware features, and wicked extensibility. 
+I've got a soft spot for the M10p. Even though the design is dated and the way it's built could be far more efficient, thanks in part to the initial project scope, what eventually landed with customers was a robust, performant device with a solid suite of core hardware features, and wicked extensibility. 
 
-Some of the aspects of this device I'm most proud of are:
+Some of the aspects of this project that made it stand out include:
 
 ## Ports galore
 
