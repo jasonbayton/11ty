@@ -67,11 +67,11 @@ Continuing the trend of inconspicuous design, a lot of thought was also put in t
 
 (image)
 
-Same goes actually for volume and the power button, which are recessed into the side of the unit and can only be interfaced with a SIM PIN (or equivalent). This was an intentional design decision as it's both inconvenient enough that the general populace won't have something to hand (like a biro) to fiddle with it, while at the same time SIM PINs are cheap and reasonably standardised enough to allow for sourcing if customers lose the one I popped in the box. 
+The same principle was applied for volume and the power button, which are recessed into the side of the unit and can only be interfaced with a SIM PIN (or equivalent). This was an intentional design decision as it's both inconvenient enough that the general populace won't have something to hand (like a biro) to fiddle with it, while at the same time SIM PINs are cheap and reasonably standardised enough to allow for sourcing if customers lose the one in the box. 
 
 Custom APIs were also developed in software to allow for managing of device volume and tap-to-wake, so those buttons could be fully disabled under appropriate enterprise control, anyway. 
 
-The only concession made here was the inclusion of a USB C port that handles `host` for Android debugging. I could have sunk my heels in on this, as ADB over Wi-Fi is obviously a strategy, but in testing and with the active customer base, debugging was challenging enough without introducing more complexity. 
+The only concession made here was the inclusion of a USB C port that handles `host` for Android debugging. I could have sunk my heels in on this, as ADB over Wi-Fi is obviously a viable option, but in testing and with the active customer base, debugging was challenging enough without introducing more complexity, and on reflection of 3 years supporting it, was the right move. Software handled access to this port, also, of course.
 
 Despite the presence of USB C, unfortunately I couldn't lean on it for power, particularly with a power-hungry Seiko sitting in the bottom. Today this would likely be reasonably easily achievable. In 2019 and due to the routing of power and data between the tablet and print enclosure respectfully, not so much. On the upside, the 24v external power supply has enough juice to power the tablet, print enclosure, peripherals, and many types of passively powered cash registers.
 
