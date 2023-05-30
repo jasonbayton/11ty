@@ -14,7 +14,7 @@ Last update: April 2023.
 Technically I'm in remission for the next 18 months, but as of October 2022 and after almost a year of tests, chemo, the lot, PET scans showed nothing left. 
 
 <details>
-<summary>Expand for details</summary>
+<summary><i>Expand here for more details</i></summary>
 
 It was discovered after I broke my Ankle in 2021. The swelling wasn't subsiding still months-later; the opposite, in fact. I didn't know it was broken (it was at the base of the smaller fibula, so I could still walk), but I'd gone to the doctors a few times and left repeatedly with instructions to self-refer to Physiotherapy and a diagnosis it was a bad sprain. An additional fall on the same ankle over Christmas in 2021 led to a hospital visit in Finland where X-Rays discovered the months-old break and bone deterioration that needed further investigation.
 
