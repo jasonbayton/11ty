@@ -2,7 +2,7 @@
  title: "Product files: Alternative form factors and power solutions"
  status: publish 
  author: 'Jason Bayton' 
- excerpt: "My first in a series of articles that offer a glimpse of what I do day to day. Starting with bringing the first ever EDLA-certified ePOS to market" 
+ excerpt: "My second in a series of articles that offer a glimpse of what I do day to day. This time bringing the first ever EDLA-certified ePOS to market" 
  type: post 
  tags: 
      - Enterprise 
@@ -18,7 +18,7 @@ As this series grows, additional links will show up here:
 
 </div>
 
-I last wrote about _my job_ back in [2020](/blog/2020/12/on-building-android-devices/). I think it's about time to change that, so in this article I'll cover off a hardware project, one of the first I took on when I joined an OEM way back in 2019 in fact, having not built devices before. 
+I last wrote about _my job_ back in [2020](/blog/2020/12/on-building-android-devices/). I think it's about time to change that, so in this article I'll cover off a hardware project, one of the first I took on when I joined my OEM way back in 2019 in fact, having not built devices before. 
 
 This project was also my first taste of what non-traditional Android form factors could look like, and was equally the first ePOS both for me and for the OEM having only recently pivoted from consumer low-cost handset projects to bespoke enterprise hardware. 
 
