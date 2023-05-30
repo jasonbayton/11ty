@@ -7,7 +7,7 @@ excerpt: ''
 type: page
 layout: base.njk
 ---
-Last update: April 2023.
+Last update: May 2023.
 
 ## Recovering from cancer
 
