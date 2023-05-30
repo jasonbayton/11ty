@@ -66,6 +66,8 @@ So we set out on a minor retooling of the housing to add supports for individual
 
 ![Per-port covers](https://cdn.bayton.org/uploads/2023/05/IMG_20230530_132907.jpg)
 
+The individual port covers use magnets to remain open against the metal housing of the print enclosure. It's a really nice, simple, considered implementation.
+
 Continuing the trend of inconspicuous design, a lot of thought was also put in to avoiding unnecessary tampering. The M10p supports a full size SIM card and microSD (eSIM too, but that isn't user accessible either way). You wouldn't immediately know where these are looking at the unit, as they're hidden on the underside of the tablet behind an access port secured with a screw. 
 
 ![SIM cover](https://cdn.bayton.org/uploads/2023/05/IMG_20230530_132943.jpg)
