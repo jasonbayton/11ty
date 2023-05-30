@@ -2,7 +2,7 @@
  title: "Product files: Alternative form factors and power solutions"
  status: publish 
  author: 'Jason Bayton' 
- excerpt: "My second in a series of articles that offer a glimpse of what I do day to day. This time bringing the first ever EDLA-certified ePOS to market" 
+ excerpt: "My second in a series of articles that offer a glimpse of what I do day to day. This time bringing the first ever EDLA-certified ePOS to market." 
  type: post 
  tags: 
      - Enterprise 
