@@ -1,5 +1,5 @@
 ---
-title: 'Product Files: Building Android devices'
+title: 'Product files: Building Android devices'
 date: '2020-12-26T18:21:12+00:00'
 status: publish
 author: 'Jason Bayton'
