@@ -54,8 +54,9 @@ With all of those ports, though, this introduced another concern - keeping them 
 
 The original product design had them open to the elements, then a large all-or-nothing cover was added in. 
 
-![One cover](https://cdn.bayton.org/uploads/2023/05/20200506_073832.jpg)  
-_I appreciate that's not easy to see, zoom in on the pic, and you'll see the flap is open_.
+![One cover](https://cdn.bayton.org/uploads/2023/05/20200506_073832.jpg)
+
+(_I appreciate it's not easy to see, zoom in on the picture, and you'll see the flap is open_)
 
 As you might imagine having one port in use requires the cover to be open, which _again_ leaves all ports open to the elements.
 
