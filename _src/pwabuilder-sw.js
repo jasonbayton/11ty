@@ -7,7 +7,7 @@ const CACHE = "offline-pages";
 const bgSyncQueueName = "bg-sync-queue";
 
 // Define the offline fallback page
-const offlineFallbackPage = "offline.html";
+const offlineFallbackPage = "offline";
 
 // Define an array of URLs to be cached offline
 const offlinecache = [
@@ -18,7 +18,7 @@ const offlinecache = [
   '/js/darkmodetoggle.js',
   '/img/bayton_logos/bayton_rectangle_light.svg',
   '/img/bayton_logos/bayton_rectangle.svg',
-  '/offline.html'
+  '/offline/'
 ];
 
 // Event listener for the message event
@@ -100,7 +100,7 @@ self.addEventListener('fetch', (event) => {
           return cachedResp;
         }
         // If no cached response is available, show the offline page
-        return caches.match('/offline.html');
+        return caches.match('/offline/');
       }
     })());
     caches.open(CACHE).then(cache => {
@@ -158,7 +158,7 @@ async function handlePeriodicSync() {
     // Cache static assets for offline use
     const cacheName = "static-assets";
     const urlsToCache = [
-      "/offline.html",
+      "/offline/",
       "/css/base.css",
       "/js/darkmode.js",
       "/js/darkmodetoggle.js",
@@ -179,7 +179,7 @@ async function handlePeriodicSync() {
     // Provide fallback page when there is no network connectivity
     const fallbackPage = async () => {
       const cache = await caches.open("offline-cache");
-      const cachedResponse = await cache.match("/offline.html");
+      const cachedResponse = await cache.match("/offline/");
       return cachedResponse || Response.error();
     };
 
