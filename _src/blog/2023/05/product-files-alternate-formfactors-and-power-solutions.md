@@ -54,7 +54,8 @@ With all of those ports, though, this introduced another concern - keeping them 
 
 The original product design had them open to the elements, then a large all-or-nothing cover was added in. 
 
-![One cover](https://cdn.bayton.org/uploads/2023/05/20200506_073832.jpg)
+![One cover](https://cdn.bayton.org/uploads/2023/05/20200506_073832.jpg)  
+_I appreciate that's not easy to see, zoom in on the pic, and you'll see the flap is open_.
 
 As you might imagine having one port in use requires the cover to be open, which _again_ leaves all ports open to the elements.
 
@@ -62,7 +63,7 @@ I really aimed to achieve independent port access, and had a specific way I want
 
 So we set out on a minor retooling of the housing to add supports for individual port covers, and ended up iterating a few times to get it right, but it was worth it for the resulting user experience.
 
-![Per-port covers](https://cdn.bayton.org/uploads/2023/05/IMG_20230530_132907.jpg))
+![Per-port covers](https://cdn.bayton.org/uploads/2023/05/IMG_20230530_132907.jpg)
 
 Continuing the trend of inconspicuous design, a lot of thought was also put in to avoiding unnecessary tampering. The M10p supports a full size SIM card and microSD (eSIM too, but that isn't user accessible either way). You wouldn't immediately know where these are looking at the unit, as they're hidden on the underside of the tablet behind an access port secured with a screw. 
 
@@ -102,7 +103,7 @@ The M10p had the space within the housing needed to support them, and we sat the
 
 ![Super capacitors](https://cdn.bayton.org/uploads/2023/05/super_capacitor.jpeg)
 
-We achieved 20 seconds of reserve power with the above configuration, and while you might look at that insignificant number with confusion, this solved both problems:
+We achieved 20 seconds of reserve power with the above configuration (the two large green cylinders wrapped in rubber), and while you might look at that insignificant number with confusion, this solved both problems:
 
 1. On a technicality we were able to pass GMS applying the MADA (consumer) contract with the unit classified as a portable tablet (for MADA it's that or a handset).
 2. The problem I set out to solve wasn't to keep the unit powered on with a loss of power, but to protect against data loss. 
@@ -111,7 +112,7 @@ I coupled the capacitors with a system (Android) service that monitored for a po
 
 I was elated.
 
-Those familiar with capacitors may already know the minor tradeoff we made with this configuration - cold boot takes 5-10s longer before the device powers on while the capacitors fill up. Cold boot only happens when the unit has been totally unplugged for a period of time though, giving the capacitors the opportunity to fully discharge over time. In temporary power loss scenarios this just wasn't an issue. 
+Those familiar with capacitors may already know the minor trade-off we made with this configuration - cold boot takes 5-10s longer before the device powers on while the capacitors fill up. Cold boot only happens when the unit has been totally unplugged for a period of time though, giving the capacitors the opportunity to fully discharge over time. In temporary power loss scenarios this just wasn't an issue. 
 
 ## Migrating to EDLA
 
@@ -134,6 +135,6 @@ The M10p became the first EDLA-certified ePOS in the world, and I am super proud
 
 ## Wrap up
 
-I could go into much more detail on this device alone - the printer integration, the hinged access, BYO eSIM support, the light bar.. and more (and perhaps I will another time) but for this article these were some of the aspects of building the product that stood out, either due to time and thought required, or the impact it had on the resulting device. 
+I could go into much more detail on this device alone - the printer integration, the hinged access, BYO eSIM support, the light bar.. and more (and perhaps I will another time), but for this article these were some aspects of building the product that stood out, either due to time and thought required, or the impact it had on the resulting device. 
 
 I hope you enjoyed this peek behind the curtains. If so, look out for more in the coming months!
