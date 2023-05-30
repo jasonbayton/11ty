@@ -22,9 +22,17 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 <div class="callout callout-danger">
 
-### Google Play Policy changes
+### What's new for enterprise in Android 14?
 
-November 2022 has arrived, which means enterprise apps need to be updated, or risk not being able to deploy to newly-enrolled devices. More [here](/blog/2022/11/november-play-policy-changes/). 
+The official release of Android 14 will be upon us in the next few months. Is your organisation prepared for what's to come? Check out [what's new in Android 14](/blog/2023/04/android-enterprise-in-android-14/)!
+
+</div>
+
+<div class="callout callout-danger">
+
+### Android Management API's forgotten release notes 
+
+Google hasn't provided release notes for the Android Management API & Android Device Policy app in months. How long exactly? Check out the [public tracker](/amapi-tracker/) and help hold Google to account.
 
 </div>
 
