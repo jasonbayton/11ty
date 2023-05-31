@@ -209,9 +209,8 @@ code {
 
 pre {
   font-family: monospace;
-  background: #333;
   color: var(--bright);
-  background-color: #00284c;
+  background-color: var(--blue);
   border-radius: 6px;
   padding: 16px;
   overflow-wrap: anywhere;
