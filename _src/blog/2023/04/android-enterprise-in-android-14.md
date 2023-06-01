@@ -24,6 +24,18 @@ Well in any case, for non-Samsung (and other OEMs that don't already support it)
 
 Google had actually introduced in Android 13 a DPC extra to keep the screen on that customers could leverage: `EXTRA_PROVISIONING_KEEP_SCREEN_ON`. Clearly this was given some additional thought and bundled in instead, which is good, since most customers wouldn't have known about this feature otherwise.
 
+## Prevention of installation of older applications
+
+Android 14 introduces a new restriction on app installation that **cannot be overridden** through management APIs. 
+
+If corporate applications target SDK 23 or earlier (Android Marshmallow), installation will automatically be blocked with an error that resembles the following:
+
+`INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 23, but found 7`
+
+This only affects new installations of applications. Those already on the device when it updates to Android 14 will not be affected.
+
+See [this Google doc](https://developer.android.com/about/versions/14/behavior-changes-all#minimum-target-api-level) for more information.
+
 ## A revamp to cross-profile behaviour & implementation
 
 I normally wouldn't reference deprecations and replacement APIs in these updates because typically they're a little _dry_, but the apparent revamp on cross-profile functionality is interesting. 
