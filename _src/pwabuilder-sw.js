@@ -16,8 +16,8 @@ const offlinecache = [
   '/css/base.css',
   '/js/darkmode.js',
   '/js/darkmodetoggle.js',
-  '/img/bayton_logos/bayton_rectangle_light.svg',
-  '/img/bayton_logos/bayton_rectangle.svg',
+  '/img/bayton_logos/bayton_rectangle_dynamic.svg',
+  '/img/bayton_logos/bayton_circle_dynamic.svg',
   '/offline/'
 ];
 
@@ -162,8 +162,8 @@ async function handlePeriodicSync() {
       "/css/base.css",
       "/js/darkmode.js",
       "/js/darkmodetoggle.js",
-      "/img/bayton_logos/bayton_rectangle_light.svg",
-      "/img/bayton_logos/bayton_rectangle.svg",
+      "/img/bayton_logos/bayton_rectangle_dynamic.svg",
+      "/img/bayton_logos/bayton_cirle_dynamic.svg",
     ];
     const cache = await caches.open(cacheName);
     await cache.addAll(urlsToCache);
