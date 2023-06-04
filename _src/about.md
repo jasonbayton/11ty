@@ -15,7 +15,7 @@ If you've stumbled here from the wider internet you may know me for my ramblings
 
 I come from an industrial city in Wales and live here with my other half and son. I've been here most of my life, but have spent time living abroad also. When I'm not waffling on about Android I enjoy cycling the Welsh hills, learning how to snowboard, and flying my drones. I do play lower brass also - Tuba and Bass Trombone - but haven't made a lot of time for that in recent years.
 
-I also enjoy writing reviews & guides, building websites like this one, and keeping tabs on new and upcoming tech. 
+I also enjoy writing reviews & guides, building websites [like this one](https://github.com/jasonbayton/11ty), and keeping tabs on new and upcoming tech. 
 
 ## I’m a certified Android SME and product guy.
 
