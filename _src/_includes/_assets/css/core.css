@@ -198,10 +198,6 @@ cite {
 
 code {
   font-family: monospace;
-  /* color: var(--bright);
-  background-color: #00284c;
-  border-radius: 6px;
-  padding: 2px 7px; */
   overflow-wrap: anywhere;
   overflow-x: scroll;
   color: var(--blood-orange);
@@ -209,7 +205,7 @@ code {
 
 pre {
   font-family: monospace;
-  color: var(--bright);
+  color: var(--text);
   background-color: var(--blue);
   border-radius: 6px;
   padding: 16px;
