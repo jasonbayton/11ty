@@ -198,10 +198,6 @@ cite {
 
 code {
   font-family: monospace;
-  /* color: var(--bright);
-  background-color: #00284c;
-  border-radius: 6px;
-  padding: 2px 7px; */
   overflow-wrap: anywhere;
   overflow-x: scroll;
   color: var(--blood-orange);
@@ -209,7 +205,7 @@ code {
 
 pre {
   font-family: monospace;
-  color: var(--bright);
+  color: var(--text);
   background-color: var(--blue);
   border-radius: 6px;
   padding: 16px;
@@ -324,15 +320,6 @@ button {
   margin: 0 auto;
 }
 
-#bayton_text {
-  font-family: 'Parisienne', cursive;
-  font-weight: 300;
-  font-size: 20px;
-  padding-top: 5px;
-  color: var(--text);
-  text-indent: 10px;
-}
-
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
@@ -376,6 +363,19 @@ content#home {
   display: grid;
 }
 
+content#doc {
+  display: grid;
+  grid-template-columns: 1.3fr 4fr;
+  padding-top: 60px;
+  grid-gap: 30px;
+}
+
+content#page, content#search, content#archive {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 60px;
+}
+
 #banner_statement {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -386,17 +386,6 @@ content#home {
 
 .banner-statement-individual {
   text-align: center;
-}
-
-#Jason_Bayton {
-  font-family: 'Parisienne', cursive;
-  font-weight: 300;
-  font-size: 90px;
-  padding-top: 5px;
-  color: var(--text);
-  text-align: center;
-  padding: 60px 0 100px;
-  justify-self: center;
 }
 
 #Jason_Bayton img {
@@ -448,13 +437,17 @@ content#home {
 
 #header_banner {
   background-color: #000000;
+  font-size: 12px;
   display: grid;
   justify-content: center;
   justify-items: center;
   padding: 10px;
-  grid-template-columns: 67px 30px 67px;
   align-items: center;
   color: var(--bright);
+}
+
+#header_banner a {
+  display: inline;
 }
 
 #well_hey img {
@@ -811,6 +804,23 @@ footer {
 
 @media (max-width: 900px) {
 
+  body {
+    font-size: 16px;
+  }
+  
+  h2 { font-size: 30px; }
+  h3 { font-size: 24px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 18px; }
+  
+  :is(article :is(h1, h2, h3, h4, h5, h6)) a::after {
+    font-size: 12px;
+  }
+
+  #searchField {
+    font-size: 20px;
+  }
+
   .mobile-hidden {
     display: none;
   }
@@ -885,6 +895,7 @@ footer {
   #navbar {
     grid-template-columns: 1fr 60px 60px 60px;
     padding: 10px 20px;
+    font-size: 20px;
   }
 
   #darktoggle {
@@ -943,5 +954,259 @@ footer {
 @media (max-width: 390px) {
   #intro_heading {
     font-size: 36px;
+  }
+}
+
+#aside {
+  font-size: 18px;
+}
+
+.aside-title h2 {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+
+.aside-section ul li a {
+  text-decoration: none;
+}
+
+.aside-section ul li {
+  padding: 5px 0;
+}
+
+.aside-section ul {
+  padding-left: 0;
+  list-style: none;
+  list-style-type: none;
+}
+
+.docnav-topic-title {
+  font-weight: 700;
+}
+
+.docnav-topic-title:hover {
+  cursor: pointer;
+}
+
+.aside-title.increased-top-padding {
+  padding-top: 40px;
+}
+
+ul.gitlog-list {
+  margin-top: 0;
+}
+
+.gitlog-time {
+  font-weight: 700;
+}
+
+a.gitlog-title {
+  display:block;
+  text-transform: lowercase;
+  font-size: 16px;
+}
+
+.section-title {
+  margin: 0; 
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.post-archive {
+  padding-top: 40px;
+  float: right;
+}
+
+.search-results {
+  padding: 0 0 0 0.25em;
+}
+
+.search-results > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-results > ul > li {
+  margin-bottom: 1em;
+}
+
+.search-results a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.search-results a:hover {
+opacity: 0.8;
+}
+
+.search-results h2 {
+margin-bottom: 0.5rem;
+}
+
+.search-results p:not(.search-no-results) {
+font-weight: 400;
+font-size: 1rem;
+margin-top: 0;
+}
+
+.search-no-results {
+margin-top: 1.5rem;
+font-size: 1.25rem;
+}
+
+#search-field {
+position: relative;
+}
+/* Search input spinner */
+#debouncing {
+position: absolute;
+top: 2.2rem;
+right: 1.2rem;
+width: 2rem;
+height: 2rem;
+border-radius: 50%;
+background: conic-gradient(#0000 1%, #444);
+-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+animation: spinner 500ms infinite linear;
+}
+@keyframes spinner {
+to {
+  transform: rotate(1turn);
+}
+}
+
+.year-heading {
+  font-weight: 900;
+}
+
+.post-meta-base {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 0;
+}
+
+.post-meta-base-left {
+  justify-self: start
+}
+.post-meta-base-right {
+  justify-self: end
+}
+
+.meta-tiny {
+  font-size: 10px;
+  display: block;
+  padding-bottom: 3px;
+}
+
+.meta-single svg {
+  width: 20px;
+}
+
+.meta-single .meta-tiny svg {
+  width: 10px;
+}
+
+.base-title {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 66pt;
+}
+
+#aside_docs {
+  padding-top: 30px;
+}
+
+#android_doc_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+#android_doc_grid .android-doc-grid-group {
+  padding: 10px;
+  background-color: var(--blue);
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: min-content;
+}
+
+#android_doc_grid .android-doc-grid-group h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+#android_doc_grid .android-doc-grid-group .android-topic ul { 
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#android_doc_grid .android-doc-grid-group .android-topic ul li {
+  padding: 0 0 15px;
+}
+
+#android_doc_grid .android-doc-grid-group .android-topic ul li::marker {
+  content: "";
+}
+
+#android_doc_grid .android-doc-grid-group #android_viewmore {
+  text-align: right;
+  align-self: end;
+
+}
+
+section#feedback {
+  grid-column: 1 / span all;
+  justify-self: end;
+}
+
+section#link_out {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.links-out {
+  padding: 20px;
+  background-color: var(--blue);
+  border-radius: 5px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  content#doc{
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+  }
+
+  #android_doc_grid {
+      grid-template-columns: 1fr;
+      grid-column-gap: 0;
+  }
+
+  section#feedback, section#comment-system, section#link_out, section#note_overview {
+      grid-column-start: 1;
+  }
+
+  .meta-single {
+      font-size: 14px;
+  }
+
+  .base-title {
+      font-size: 30px;
+      line-height: unset;
+  }
+}
+
+@media (max-width: 390px) {
+
+  .section-title {
+    font-size: 30px;
   }
 }
