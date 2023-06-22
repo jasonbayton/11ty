@@ -132,9 +132,11 @@ With Android 14, Google have potentially made the largest fundamental change to 
 
 Historically it was permitted to have just one Device Owner on a device that wielded all power over the `DevicePolicyManager` APIs, the on-device APIs used to control and manage a managed Android device. 
 
-The Device Policy Resolution Framework has been introduced to handle conflicts when, in Android 14, more than one Device Policy Management Agent (an admin application) with the role [`DEVICE_POLICY_MANAGEMENT`](https://android.googlesource.com/platform/packages/modules/Permission/+/7816a6a2bfed3e4727f6b6f767a3e0f825dce880/PermissionController/res/xml/roles.xml#1130) (granted only by an OEM) starts making calls to implement one of several (not all) policies on-device. 
+The Device Policy Resolution Framework has been introduced to handle conflicts when, in Android 14, more than one Device Policy Management Agent (an admin application) with the role [`DEVICE_POLICY_MANAGEMENT`](https://android.googlesource.com/platform/packages/modules/Permission/+/7816a6a2bfed3e4727f6b6f767a3e0f825dce880/PermissionController/res/xml/roles.xml#1130) starts making calls to implement one of several (not all) policies on-device. 
 
-The obvious use case for this is financing, above, as the Device Lock application/APEX preload runs on the same `DevicePolicyManager` APIs as your typical EMM Device Policy Controller (DPC). 
+Only an OEM can grant this permission to an application, so rest assured this isn't going to be a return to the days of [Device Admin](/android/android-enterprise-vs-device-administrator-legacy-enrolment/), though there's certainly a whiff of familiarity here.
+
+The obvious use case for this is financing, above, as the Device Lock application/APEX when preloaded by an OEM into a device works on the same `DevicePolicyManager` APIs as your typical EMM Device Policy Controller (DPC). 
 
 Of course because an OEM can grant applications the role of `DEVICE_POLICY_MANAGEMENT`, it's not infeasible to assume this may be leveraged in the future outside of the two use cases already explained here. When an application is granted the `DEVICE_POLICY_MANAGEMENT`, here are the permissions it'll be able to leverage:
 
@@ -174,7 +176,7 @@ Of course because an OEM can grant applications the role of `DEVICE_POLICY_MANAG
 <permission name="android.permission.TRIGGER_LOST_MODE" />
 ```
 
-That's not an insignificant list of permissions.
+That's not an insignificant list of permissions. Some of them offering a lot of control.
 
 What the DPRF does, then, is implement precedence for handling competing Device Policy Management Agents' policies. 
 
@@ -184,7 +186,7 @@ For the most part the DPRF defaults to _most restrictive_, but this is not the c
 - Device Policy Controller (EMM Agent)
 - Any other DPMA
 
-Why does Device Lock, the finance solution, get precedence over EMM or other device agents? Because if a device is financed and the owner falls into breach of the financial agreement, Device Lock needs to be able to lock the device out without competing enterprise policies getting in the way.
+Why does Device Lock, the finance agent, get precedence over EMM or other device agents? Because if a device is financed and the owner falls into breach of the financial agreement, Device Lock needs to be able to lock the device out without competing enterprise policies getting in the way.
 
 There's substantially more to unpack on this change in Android 14, and I'm still digging, but this is a fascinating new approach Google are taking, one undoubtedly potentially open to abuse if it's not well monitored.
 
