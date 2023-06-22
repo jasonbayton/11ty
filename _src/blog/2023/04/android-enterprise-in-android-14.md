@@ -1,9 +1,9 @@
 ---
-title: "What's new for enterprise in Android 14"
+title: "What's new in Android 14 for enterprise"
 date: '2023-04-20'
 status: publish
 author: 'Jason Bayton'
-excerpt: "With the first beta live, it's time to see what's coming to Android 14."
+excerpt: "Android 14 is nearing official launch! Come and see what's new for enterprise."
 type: post
 tags:
     - Enterprise
@@ -114,11 +114,79 @@ Again this is a device control limited to corporate owned devices, so fully mana
 
 ## Native financing support
 
-Sort-of enterprise related, it appears 14 is introducing APIs to declare a device as being under finance with `isDeviceFinanced`. 
+Enterprise related for implications it brings to the wider Android platform, it appears 14 is introducing APIs to declare a device as being under finance with `isDeviceFinanced`. 
 
-The finance use case has existed for a few years, originally only accessible to select partners holding a direct agreement with Google with the use of a bespoke DPC called Device Lock Policy, it appears this has graduated and become a little more available recently.
+The finance use case has existed for a few years, originally only accessible to select partners holding a direct agreement with Google with the use of a bespoke DPC called Device Lock Policy, it appears this has graduated and become a little more available recently, as Device Lock is a suggested APEX preload in Android 14.
 
-Also fun fact, while Device Lock is leveraged with zero-touch and AMAPI on the back end, it's actually against ToS to leverage AMAPI for device financing. I say this for the benefit of the 3 companies a week who reach out to ask me how they can use AMAPI for this use case :)
+<div class="callout">
+
+Also fun fact, while Device Lock is leveraged with zero-touch and AMAPI on the back end, it's actually [against permissable usage](https://developers.google.com/android/management/permissible-usage) to leverage AMAPI for device financing. I say this for the benefit of the 3 companies a week who reach out to ask me how they can use AMAPI for this use case :)
+
+</div>
+
+More importantly.. 
+
+## Device Policy Resolution Framework
+
+With Android 14, Google have potentially made the largest fundamental change to Android Enterprise since inception. 
+
+Historically it was permitted to have just one Device Owner on a device that wielded all power over the `DevicePolicyManager` APIs, the on-device APIs used to control and manage a managed Android device. 
+
+The Device Policy Resolution Framework has been introduced to handle conflicts when, in Android 14, more than one Device Policy Management Agent (an admin application) with the role [`DEVICE_POLICY_MANAGEMENT`](https://android.googlesource.com/platform/packages/modules/Permission/+/7816a6a2bfed3e4727f6b6f767a3e0f825dce880/PermissionController/res/xml/roles.xml#1130) (granted only by an OEM) starts making calls to implement one of several (not all) policies on-device. 
+
+The obvious use case for this is financing, above, as the Device Lock application/APEX preload runs on the same `DevicePolicyManager` APIs as your typical EMM Device Policy Controller (DPC). 
+
+Of course because an OEM can grant applications the role of `DEVICE_POLICY_MANAGEMENT`, it's not infeasible to assume this may be leveraged in the future outside of the two use cases already explained here. When an application is granted the `DEVICE_POLICY_MANAGEMENT`, here are the permissions it'll be able to leverage:
+
+```
+<permission-set name="notifications" />
+<permission name="android.permission.BIND_DEVICE_ADMIN" />
+<permission name="android.permission.MANAGE_DEVICE_ADMINS" />
+<permission name="android.permission.NETWORK_MANAGED_PROVISIONING" />
+<permission name="android.permission.PEERS_MAC_ADDRESS" />
+<permission name="android.permission.USE_COLORIZED_NOTIFICATIONS" />
+<permission name="android.permission.MASTER_CLEAR" />
+<permission name="android.permission.WRITE_SECURE_SETTINGS" />
+<permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+<permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
+<permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND" />
+<permission name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS" />
+<permission name="android.permission.INTERACT_ACROSS_USERS" />
+<permission name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+<permission name="com.android.permission.INSTALL_EXISTING_PACKAGES" />
+<permission name="android.permission.DELETE_PACKAGES" />
+<permission name="android.permission.ACCESS_PDB_STATE" />
+<permission name="android.permission.MARK_DEVICE_ORGANIZATION_OWNED" />
+<permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+<permission name="android.permission.SET_TIME" />
+<permission name="android.permission.SET_TIME_ZONE" />
+<permission name="android.permission.CRYPT_KEEPER" />
+<permission name="android.permission.SHUTDOWN" />
+<permission name="android.permission.PERFORM_CDMA_PROVISIONING" />
+<permission name="android.permission.CONFIGURE_INTERACT_ACROSS_PROFILES" />
+<permission name="android.permission.WRITE_SETTINGS" />
+<permission name="android.permission.CHANGE_CONFIGURATION" />
+<permission name="android.permission.LAUNCH_DEVICE_MANAGER_SETUP" />
+<permission name="android.permission.INSTALL_DPC_PACKAGES" />
+<permission name="android.permission.QUERY_USERS" />
+<permission name="android.permission.UPDATE_DEVICE_MANAGEMENT_RESOURCES" />
+<permission name="android.permission.QUERY_ADMIN_POLICY" />
+<permission name="android.permission.TRIGGER_LOST_MODE" />
+```
+
+That's not an insignificant list of permissions.
+
+What the DPRF does, then, is implement precedence for handling competing Device Policy Management Agents' policies. 
+
+For the most part the DPRF defaults to _most restrictive_, but this is not the case globally, as in some instances, for example managing disabled applications, it will combine policies to remove everything requested, while in other cases it will defer preference in the following order:
+
+- Device Lock 
+- Device Policy Controller (EMM Agent)
+- Any other DPMA
+
+Why does Device Lock, the finance solution, get precedence over EMM or other device agents? Because if a device is financed and the owner falls into breach of the financial agreement, Device Lock needs to be able to lock the device out without competing enterprise policies getting in the way.
+
+There's substantially more to unpack on this change in Android 14, and I'm still digging, but this is a fascinating new approach Google are taking, one undoubtedly potentially open to abuse if it's not well monitored.
 
 ## Other features
 
