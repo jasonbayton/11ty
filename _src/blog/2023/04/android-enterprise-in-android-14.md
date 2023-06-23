@@ -102,7 +102,7 @@ This will be a drastic improvement on today's requirement that normally includes
 
 ## UWB (Ultra-Wideband) support
 
-[UWB](https://developer.android.com/guide/topics/connectivity/uwb) is having a bit of a moment recently, with a lot of attention from the media on the solution in the last few months alone. 
+[UWB](https://developer.android.com/guide/topics/connectivity/uwb) is having a bit of a moment recently, with a lot of attention from the media on the solution in the last few months alone. For good reason, too, as the applications from unlocking vehicles to indoor positioning, asset tracking and more make it a compelling solution across various industries.
 
 UWB is a communications protocol that permits high-speed, short-distance, & low-energy communication. It sits alongside other radios like Bluetooth, NFC, Wi-Fi, etc.  
 
@@ -110,7 +110,9 @@ Since it is a radio, and means of sharing data, it was a matter of time before a
 
 > Starting in Android 14, a device or profile owner can disallow UWB on an organization-owned device by applying the `DISALLOW_ULTRA_WIDEBAND_RADIO` user restriction with `DevicePolicyManager.addUserRestriction()`.
 
-Again this is a device control limited to corporate owned devices, so fully managed or work profile on corporate owned (COPE). 
+Again this is a device control limited to corporate owned devices, so fully managed or work profile on company owned (COPE) devices. 
+
+Given its breadth of use cases and applications it may be tempting to pre-emptively prohibit its use.. just keep this in mind when users complain they [can't unlock their BMW](https://www.bmw.com/en/innovation/bmw-digital-key-plus-ultra-wideband.html)!
 
 ## Native financing support
 
