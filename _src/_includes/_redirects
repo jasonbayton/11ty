@@ -38,4 +38,7 @@
 /tags/resources/ /android/ 301
 /tags/device-admin/ /android/ 301
 /tags/vendor-specific/ /android/ 301
+/tags/getting-started/ /android/ 301
+/tags/diving-deeper/ /android/ 301
+
 /?s=* /search/?q=:splat 301
