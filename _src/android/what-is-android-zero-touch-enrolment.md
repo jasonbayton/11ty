@@ -6,8 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Getting started
-    - Zero-touch
+    - Provisioning
 eleventyNavigation:
   order: 3000
 layout: base.njk

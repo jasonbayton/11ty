@@ -6,8 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Resources
-    - Zero-touch
+    - Provisioning
 layout: base.njk
 eleventyNavigation:
   order: 0000

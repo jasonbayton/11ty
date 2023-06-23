@@ -8,7 +8,6 @@ type: documentation
 id: 4514
 layout: base.njk
 tags: 
-    - Vendor specific
     - Provisioning
 eleventyNavigation:
   order: 32000

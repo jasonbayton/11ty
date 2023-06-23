@@ -6,7 +6,6 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Diving deeper
     - App management
 eleventyNavigation:
   order: 8000

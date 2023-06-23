@@ -6,8 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Getting started
-    - Android Enterprise Recommended
+    - General
 layout: base.njk
 eleventyNavigation:
   order: 2000

@@ -6,8 +6,6 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Diving deeper
-    - Security
     - App management
 layout: base.njk
 eleventyNavigation:

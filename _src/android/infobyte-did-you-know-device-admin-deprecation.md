@@ -6,8 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Resources
-    - Device admin
+    - General
 layout: base.njk
 eleventyNavigation:
   order: 26000

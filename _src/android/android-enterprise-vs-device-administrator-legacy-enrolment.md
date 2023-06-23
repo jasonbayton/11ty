@@ -6,9 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Getting started
     - General
-    - Device admin
 layout: base.njk
 eleventyNavigation:
   order: 7000

@@ -6,7 +6,6 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Resources
     - Provisioning
 layout: base.njk
 eleventyNavigation:

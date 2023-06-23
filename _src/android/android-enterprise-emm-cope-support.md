@@ -6,7 +6,6 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Diving deeper
     - Company owned work profile
 layout: base.njk
 eleventyNavigation:

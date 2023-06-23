@@ -6,8 +6,6 @@ author: 'Jason Bayton'
 excerpt: 'A closer look at Android Go, what makes it different from Android, and why the ecosystem finds it difficult to support. The goal is to provide a better understanding of Go, particularly in enterprise, but equally for consumer understanding as well.'
 type: documentation
 tags: 
-    - Diving deeper
-    - Android Go
     - General
 eleventyExcludeFromCollections: true
 layout: base.njk

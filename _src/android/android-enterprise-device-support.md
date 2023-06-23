@@ -6,7 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Hardware validation
+    - General
 layout: base.njk
 id: 4344
 eleventyNavigation:

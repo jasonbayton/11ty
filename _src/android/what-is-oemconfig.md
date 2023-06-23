@@ -6,7 +6,6 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Getting started
     - App management
 eleventyNavigation:
   order: 4000

@@ -6,8 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Diving deeper
-    - Security
+    - Fully managed
 layout: base.njk
 eleventyNavigation:
   order: 10000

@@ -7,7 +7,6 @@ author: 'Jason Bayton'
 excerpt: 'Understand how Android VPN works, and how best to deploy and manage devices requiring VPN in the field.'
 type: documentation
 tags: 
-    - Diving deeper
     - App management
 eleventyExcludeFromCollections: true
 layout: base.njk

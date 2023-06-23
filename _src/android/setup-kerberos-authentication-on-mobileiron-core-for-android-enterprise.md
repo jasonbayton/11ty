@@ -10,9 +10,7 @@ layout: base.njk
 doccats:
     - MobileIron
 tags: 
-    - Vendor specific
     - App management
-    - Security
 eleventyNavigation:
     order: 0000
 discourse_permalink:
