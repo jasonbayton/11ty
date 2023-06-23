@@ -7,7 +7,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 layout: base.njk
-tags: "Getting started"
+tags: "General"
 eleventyNavigation:
   key: Android Home
   order: 0000
