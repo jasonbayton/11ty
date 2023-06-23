@@ -1,23 +1,10 @@
-<div id="header_banner">
-<div class="header-message">Heads up: some links are 404'ing, I'm working on it! - <a href="/notes/18/">Read more</a>.</div>
-</div>
+{% include "./banner.njk" %}
 <nav>
     <div id="navbar">
         <div id="bayton_logo">
-            {% if (footer.currentMonth() == 9) %}
-            <a class="bayton-logo-light" href="/"><img src="/img/bayton_logos/bayton_rectangle_hw_light.svg" alt="halloween logo"/></a>
-            <a class="bayton-logo-dark" href="/"><img src="/img/bayton_logos/bayton_rectangle_hw.svg" alt="halloween logo"/></a>            
-            {% elseif (footer.currentMonth() == 11) %}
-            <a class="bayton-logo-light" href="/"><img src="/img/bayton_logos/bayton_rectangle_cm_light.svg" alt="christmas logo"/></a>
-            <a class="bayton-logo-dark" href="/"><img src="/img/bayton_logos/bayton_rectangle_cm.svg" alt="christmas logo"/></a>    
-            {% elseif (footer.currentMonth() == 0) %}
-            <a class="bayton-logo-light" href="/"><img src="/img/bayton_logos/bayton_rectangle_ny_light.svg" alt="new year logo"/></a>
-            <a class="bayton-logo-dark" href="/"><img src="/img/bayton_logos/bayton_rectangle_ny.svg" alt="new year logo"/></a>    
-            {% else %}
             <a class="bayton-logo-dynamic" href="/">
                 {% include "../_assets/img/bayton_logos/bayton_rectangle_dynamic.svg" %}
             </a>    
-            {% endif %}
         </div>
         <div id="nav_links" class="mobile-hidden">
             {% for link in globalnav %}
