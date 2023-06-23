@@ -103,13 +103,13 @@
                     {{ content | safe }}
 
                     {% if categories %}
-                    <div class="padding-30 padding-lr-0">
+                    <!--div class="padding-30 padding-lr-0">
                         <hr>
                         Associated topics:
                         {% for category in categories %}
                         <a class="blood-orange" href="/tags/{{ category | slugify }}/">{{category}}</a> 
                         {% endfor %}
-                    </div>
+                    </div-->
                     {% endif %}
                 </div>
                 {% else %}
