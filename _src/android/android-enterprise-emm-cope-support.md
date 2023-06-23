@@ -6,7 +6,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: documentation
 tags: 
-    - Company owned work profile
+    - Work profile
 layout: base.njk
 eleventyNavigation:
   order: 6000
