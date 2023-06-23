@@ -1,5 +1,5 @@
 ---
-title: "What is a work profile?"
+title: "Introduction to work profile?"
 published: '2023-06-21'
 status: publish
 author: 'Jason Bayton'
