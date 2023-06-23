@@ -44,9 +44,9 @@ No significant issues noted, however the flow of all provisioning methods is int
 
 These are not critical to the function of a fully managed device, and as such should be automatically skipped since the ability to manually tweak these options can be found in settings at a later point.
 
-- ![](https://cdn.bayton.org/uploads/2018/11/Screenshot_20180101-120010.jpg)
-- ![](https://cdn.bayton.org/uploads/2018/11/Screenshot_20180101-120014.jpg)
-- ![](https://cdn.bayton.org/uploads/2018/11/Screenshot_20180101-120018.jpg)
+![](https://cdn.bayton.org/uploads/2018/11/Screenshot_20180101-120010.jpg)
+![](https://cdn.bayton.org/uploads/2018/11/Screenshot_20180101-120014.jpg)
+![](https://cdn.bayton.org/uploads/2018/11/Screenshot_20180101-120018.jpg)
 
 ### 2.1. NFC
 

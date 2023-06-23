@@ -34,7 +34,7 @@ Where a feature works with one EMM, but does not with another (consider **Enforc
 
 Some features aren’t supported or set up across EMMs, or don’t work with the device (consider **KME** below), where this is the case the feature will be marked as untested (purple).
 
-<figure class="wp-block-image">[![](https://cdn.bayton.org/uploads/2019/06/Bayton_AE_validation_XperiaL3-3.jpg)](https://cdn.bayton.org/uploads/2019/06/Bayton_AE_validation_XperiaL3.pdf)</figure>
+[![](https://cdn.bayton.org/uploads/2019/06/Bayton_AE_validation_XperiaL3-3.jpg)](https://cdn.bayton.org/uploads/2019/06/Bayton_AE_validation_XperiaL3.pdf)
 
 ## 3. Notes from the above report
 

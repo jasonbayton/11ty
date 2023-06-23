@@ -42,6 +42,7 @@ Where a feature works with one EMM, but does not with another (consider **Enforc
 Some features aren’t supported or set up across EMMs, or don’t work with the device (consider **KME** below), where this is the case the feature will be marked as untested (purple).
 
 [![](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_MotoG7Power.jpg)](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_MotoG7Power.pdf)
+
 Tap/click for the PDF version
 
 ## 4. Notes from the above report
