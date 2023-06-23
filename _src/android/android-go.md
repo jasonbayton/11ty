@@ -11,6 +11,7 @@ tags:
     - General
 eleventyExcludeFromCollections: true
 layout: base.njk
+permalink: false
 eleventyNavigation:
   order: 22000
 ---
