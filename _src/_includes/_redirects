@@ -31,4 +31,11 @@
 /tag/* /tags/:splat 301
 /tags/notes/ /notes/ 301
 /tags/cope/ /tags/company-owned-work-profile/ 301
+/tags/company-owned-work-profile/ /android/ 301
+/tags/android-enterprise-recommended/ /android/ 301
+/tags/zero-touch/ /android/ 301
+/tags/security/ /android/ 301
+/tags/resources/ /android/ 301
+/tags/device-admin/ /android/ 301
+/tags/vendor-specific/ /android/ 301
 /?s=* /search/?q=:splat 301
