@@ -28,14 +28,6 @@ The official release of Android 14 will be upon us in the next few months. Is yo
 
 </div>
 
-<div class="callout callout-danger">
-
-### Android Management API's forgotten release notes 
-
-Google hasn't provided release notes for the Android Management API & Android Device Policy app in months. How long exactly? Check out the [public tracker](/amapi-tracker/) and help hold Google to account.
-
-</div>
-
 <div id="android_doc_grid">
 {% for tag in android_tags %}
 <div class="android-doc-grid-group">
