@@ -13,7 +13,7 @@
 <rect x="154.607" y="30.9401" width="2.03167" height="1.66914" rx="0.381404" stroke="#333333" stroke-width="0.566482"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M48.8188 18C52.6192 22.2461 54.93 27.8532 54.93 34C54.93 40.1468 52.6192 45.7539 48.8188 50H52.0565C55.4289 45.554 57.43 40.0107 57.43 34C57.43 27.9893 55.4288 22.446 52.0565 18H48.8188Z" fill="#FF4500"/>
 <rect x="2" y="10" width="58.0919" height="48" fill="url(#pattern0)"/>
-<path d="M0 0H275" stroke="black" stroke-linecap="round"/>
+<path d="M0 5H275" stroke="black" stroke-linecap="round"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
