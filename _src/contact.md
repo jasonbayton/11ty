@@ -20,9 +20,11 @@ WhatsApp: +447975537754
 Telegram: [JasonBayton](https://t.me/JasonBayton)  
 Signal: +447975537754  
 Instagram: [baytonjason](https://instagram.com/baytonjason)  
-Threads: [baytonjason](https://threads.net/@baytonjason)
-Bluesky: [@jason.bayton.org](https://bsky.app/profile/jason.bayton.org)
-YouTube: [JasonBayton](https://youtube.com/@jasonbayton) 
+Threads: [baytonjason](https://threads.net/@baytonjason)  
+Bluesky: [@jason.bayton.org](https://bsky.app/profile/jason.bayton.org)  
+YouTube: [JasonBayton](https://youtube.com/@jasonbayton)  
+Android Enterprise Customer Community - [jasonbayton](https://www.androidenterprise.community/t5/user/viewprofilepage/user-id/11)
+
 
 MobilePros Slack: [Join here](https://join.slack.com/t/mobilxperts/shared_invite/zt-3wrzh2o5-e5w8qSyiGF8AcH8_VErDCg)  
 MobilePros Telegram: [Join here](https://t.me/Mobile_Pros)
