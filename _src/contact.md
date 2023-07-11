@@ -20,6 +20,8 @@ WhatsApp: +447975537754
 Telegram: [JasonBayton](https://t.me/JasonBayton)  
 Signal: +447975537754  
 Instagram: [baytonjason](https://instagram.com/baytonjason)  
+Threads: [baytonjason](https://threads.net/@baytonjason)
+Bluesky: [@jason.bayton.org](https://bsky.app/profile/jason.bayton.org)
 YouTube: [JasonBayton](https://youtube.com/@jasonbayton) 
 
 MobilePros Slack: [Join here](https://join.slack.com/t/mobilxperts/shared_invite/zt-3wrzh2o5-e5w8qSyiGF8AcH8_VErDCg)  
