@@ -30,7 +30,9 @@ What needs to be understood now is:
 - 14+: the work profile continues to run, with the behaviour outlined above.
 
 ## Will this have any impact on EMM-deployed devices?
-Yes. Expect higher battery and data usage on work profile devices during periods where the profile is paused. The exact amount is likely OEM-dependent, but in my testing of data usage on a Pixel 7a, a paused work profile can use anything from 10mb to 200mb of data in the background over a 12 hour period. The latter, larger number associated with several work applications updating, the former a typical overnight period of syncing from an active Microsoft 365 environment. Figures are a guide only and organisation-based testing should be carried out.
+Yes. Expect higher battery and data usage on work profile devices during periods where the profile is paused; the exact amount is likely OEM-dependent.
+
+In my testing of data usage on a Pixel 7a, a paused work profile can use anything from 10mb to 200mb of data in the background over a 12 hour period. The latter, larger number associated with several work applications updating, the former a typical overnight period of syncing from an active Microsoft 365 environment. Figures are a guide only taken during the Android 14 beta and organisation-based testing should be carried out.
 
 The data use is of particular concern for employees with data-capped internet plans at home, as they may see work-based internet use increase.
 
