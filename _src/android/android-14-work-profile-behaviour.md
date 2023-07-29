@@ -23,18 +23,20 @@ With the work profile user still running in the background when the work profile
 3. Notifications can continue polling while the profile is paused, allowing notifications to gather gradually periodically in the background to be immeediately available when the profile is unpaused. This is to prevent a notification flood as experienced in Android 13 and older when a profile is turned back on after some time.
 
 ## Hasn't the work profile always paused?
-It hasn't, but Google has always referred to turning off the work profile in both documentation and areas of the Android OS as _pausing_ it. 
+It hasn't, but Google has predominantly referred to turning off the work profile in both documentation and areas of the Android OS as _pausing_ it. 
 
 What needs to be understood now is:
 - 13 and below: the work profile user was fully disabled, and not running.
 - 14+: the work profile continues to run, with the behaviour outlined above.
 
 ## Will this have any impact on EMM-deployed devices?
-Yes. Expect higher battery and data usage on work profile devices during periods where the profile is paused; the exact amount is likely OEM-dependent.
+Yes. 
 
-In my testing of data usage on a Pixel 7a, a paused work profile can use anything from 10mb to 200mb of data in the background over a 12 hour period. The latter, larger number associated with several work applications updating, the former a typical overnight period of syncing from an active Microsoft 365 environment. Figures are a guide only taken during the Android 14 beta and organisation-based testing should be carried out.
+Expect higher battery and data usage on work profile devices during periods where the profile is paused; the exact amount is likely OEM-dependent.
 
-The data use is of particular concern for employees with data-capped internet plans at home, as they may see work-based internet use increase.
+In testing data usage on a Pixel 7a, a paused work profile was recorded using between 10mb and 200mb of Wi-Fi data in the background over a 12 hour period, recorded over a few days. The latter, larger number associated with several work applications updating, the former a typical overnight period of syncing from an active, global Microsoft 365 environment. Figures are to be considered a guide only and were taken during the Android 14 beta. Organisation-based testing should be carried out.
+
+This data use may be of concern for employees with data-limited internet plans at home who would normally turn off the work profile when leaving the office, as they may see work-based internet use increase.
 
 Because apps are suspended, there's no privacy concerns to consider. For example location will not be polled by work profile applications while the profile is paused. This may be pertinent to reiterate to users who notice background usage of paused work profiles.
 
