@@ -20,6 +20,7 @@ In Android 14, turning the work profile off no longer fully disables the profile
 What does it mean when apps are suspended?
 
 > While in this state, the application's notifications will be hidden, any of its started activities will be stopped and it will not be able to show toasts or dialogs or play audio. When the user tries to launch a suspended app, the system will, instead, show a dialog to the user informing them that they cannot use this app while it is suspended.
+>
 > [_via_](https://developer.android.com/reference/android/content/pm/PackageManager#isPackageSuspended())
 
 ## What are the implications of the change?
