@@ -8,7 +8,7 @@ type: documentation
 tags: 
     - Work profile
 eleventyNavigation:
-  order: 8000
+  order: 2000
 layout: base.njk
 ---
 From Android 14, the way the work profile "turns off" changes.
