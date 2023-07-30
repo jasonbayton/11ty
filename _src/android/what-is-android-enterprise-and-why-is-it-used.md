@@ -9,7 +9,7 @@ tags:
     - General
 layout: base.njk
 eleventyNavigation:
-  order: 0000
+  order: 0001
 discourse_permalink:
     - 'https://discuss.bayton.org/t/what-is-android-enterprise/24'
 ---
