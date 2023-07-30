@@ -1,6 +1,6 @@
 ---
 title: 'Android 14 changes how the work profile is turned off'
-published: '2023-07-25'
+published: '2023-07-30'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
@@ -32,13 +32,13 @@ What needs to be understood now is:
 ## Will this have any impact on EMM-deployed devices?
 Yes. 
 
-Expect higher battery and data usage on work profile devices during periods where the profile is paused; the exact amount is likely OEM-dependent.
+Expect increased battery and data usage on work profile devices during periods where the profile is paused; the exact amount is likely OEM-dependent.
 
 In testing data usage on a Pixel 7a, a paused work profile was recorded using between 10mb and 200mb of Wi-Fi data in the background over a 12 hour period, recorded over a few days. The latter, larger number associated with several work applications updating, the former a typical overnight period of syncing from an active, global Microsoft 365 environment. Figures are to be considered a guide only and were taken during the Android 14 beta. Organisation-based testing should be carried out.
 
-This data use may be of concern for employees with data-limited internet plans at home who would normally turn off the work profile when leaving the office, as they may see work-based internet use increase.
+This data use may be of concern for employees with data-limited internet plans at home who would normally turn off the work profile when leaving the office, as they may see work-based internet use increase. While this is somewhat less of a common concern in Western Europe, I can't speak for ISPs and data plans across the world, so feel it pertinent that it's highlighted.
 
-Because apps are suspended, there's no privacy concerns to consider. For example location will not be polled by work profile applications while the profile is paused. This may be pertinent to reiterate to users who notice background usage of paused work profiles.
+Because apps are suspended, there are no privacy concerns to consider; for example location will not be polled by work profile applications while the profile is paused, although OS messaging in 14 (or lack thereof in the beta) may suggest otherwise. This may be pertinent to reiterate to users who notice background usage of paused work profiles.
 
 ## Is it still possible to fully turn off a work profile in Android 14? 
 No.
