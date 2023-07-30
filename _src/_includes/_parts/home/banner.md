@@ -1,1 +1,2 @@
 Independent Android Enterprise content for everyone
+Simplifying modern Android management
