@@ -9,7 +9,7 @@ tags:
     - General
 layout: base.njk
 eleventyNavigation:
-  order: 0000
+  order: 1000
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-when-migrating-from-device-administrator-to-android-enterprise/30'
 FeaturedBackground:

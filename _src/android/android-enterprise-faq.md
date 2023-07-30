@@ -9,7 +9,7 @@ tags:
     - General
 layout: base.njk
 eleventyNavigation:
-  order: 6000
+  order: 2000
 ---
 Below you’ll find a number of frequently asked questions I receive related to Android Enterprise.
 
