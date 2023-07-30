@@ -7,7 +7,7 @@
  tags: 
      - Enterprise 
 ---
-If you haven't read it, Android Policy [published](https://www.androidpolice.com/android-14-pause-work-profile/) an article on the work profile changes coming in Android 14, in which I feature as a prominent source of information based on [my article](/blog/2023/04/android-enterprise-in-android-14/) and a brief chat I had with Mishaal ahead of publication.
+If you haven't read it, Android Police [published](https://www.androidpolice.com/android-14-pause-work-profile/) an article on the work profile changes coming in Android 14, in which I feature as a prominent source of information based on [my article](/blog/2023/04/android-enterprise-in-android-14/) and a brief chat I had with Mishaal ahead of publication.
 
 The updated AP article as you read it is now as-corrected by Google based on some assumptions that were made due to the lack of public documentation of the changes. I too made assumptions around app activity and status in my article, but posed it as a question rather than a statement, which AP did not when referencing some points I openly pondered, like _you'll never show offline if apps are running_ (you may, apps are suspended), or _will apps be polling location in the background?_ (no, they're suspended).
 
