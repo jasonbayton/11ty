@@ -17,7 +17,12 @@ From Android 14, the way the work profile "turns off" changes.
 
 In Android 14, turning the work profile off no longer fully disables the profile. Instead, it is now "paused". Applications and notifications continue to be disabled and hidden respectfully, however the underlying profile user now relies on a solution that aligns with Focus Mode in Digital Wellbeing, suspending applications and notifications themselves, while permitting the work profile user to remain active and available in the background for what Google considers to be a better user experience.
 
-## What does that mean?
+What does it mean when apps are suspended?
+
+> While in this state, the application's notifications will be hidden, any of its started activities will be stopped and it will not be able to show toasts or dialogs or play audio. When the user tries to launch a suspended app, the system will, instead, show a dialog to the user informing them that they cannot use this app while it is suspended.
+> [_via_](https://developer.android.com/reference/android/content/pm/PackageManager#isPackageSuspended())
+
+## What are the implications of the change?
 
 With the work profile user still running in the background when the work profile is "paused" it allows for a few new features:
 
@@ -32,7 +37,7 @@ It hasn't, but Google has predominantly referred to turning off the work profile
 What needs to be understood now is:
 
 - 13 and below: the work profile user was fully disabled, and not running.
-- 14+: the work profile continues to run, with the behaviour outlined above.
+- 14+: the work profile user continues to run, with the behaviour outlined above.
 
 ## Will this have any impact on EMM-deployed devices?
 
