@@ -4,7 +4,6 @@ date: 2022-03-02
 tags:
 layout: base_home.njk
 ---
-### About
 
 I’ve dedicated over a decade to Android, more than half of those years catered towards Android’s use in enterprise. It has more than paid off as today I’m considered to be a leading voice in Android Enterprise across the globe, and have received multiple accolades including for contributions to the Android Enterprise community, Platinum Google Product Expert status in the Android Enterprise Help Community, vExpert status from VMware for Android contributions, and more.
 
