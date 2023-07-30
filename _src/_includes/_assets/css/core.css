@@ -477,6 +477,12 @@ section#page_content {
   overflow-x: hidden;
 }
 
+section#author_bio {
+  grid-column: 1 / span all;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 .post-block {
   padding: 15px 0;
 }
