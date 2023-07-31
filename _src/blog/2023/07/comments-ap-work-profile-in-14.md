@@ -1,5 +1,5 @@
 ---
- title: "Comments on AP's work profile changes in Android 14"
+ title: "Comments on AP's article on work profile changes in Android 14"
  status: publish 
  author: 'Jason Bayton' 
  excerpt: "The work profile experience is changing in 14, predominantly for the better. The lack of public information has led to some assumptions which would benefit from a little clarity." 
