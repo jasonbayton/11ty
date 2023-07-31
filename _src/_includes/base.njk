@@ -101,7 +101,11 @@
                 {% endif %}
                 <div class="post-block-extra">
                     {{ content | safe }}
-
+                    <div id="author_bio">
+                        <div id="author_text">
+                            <i>Written by {{ author }}</i>
+                        </div>
+                    </div>
                     {% if categories %}
                     <!--div class="padding-30 padding-lr-0">
                         <hr>
@@ -126,16 +130,6 @@
                     Discuss this topic on the <a href="https://mobilxperts.slack.com/archives/C1V8JC31T">#AE</a> channel of the Mobile Pros Slack community. Here's an <a href="https://join.slack.com/t/mobilxperts/shared_invite/zt-3wrzh2o5-e5w8qSyiGF8AcH8_VErDCg">invite</a>.
                 </div>
             </section>
-            {% elif tag.includes("blog") %}
-            <!--section id="author_bio">
-                <div id="author_img">
-                    <img src="https://cdn.bayton.org/download/beardyton.svg" />
-                </div>
-                <div id="author_text">
-                    <h2>Jason Bayton</h2>
-                    <p>Jason is an EMM industry expert with a specialisation in Android Enterprise.</p>]
-                </div>
-            </section-->
             {% endif %}
             {% endfor %}
             <!-- Pagination goes here -->

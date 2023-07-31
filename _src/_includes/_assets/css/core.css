@@ -477,10 +477,10 @@ section#page_content {
   overflow-x: hidden;
 }
 
-section#author_bio {
-  grid-column: 1 / span all;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+#author_bio {
+  padding-top: 20px;
+  text-align: right;
+  color: var(--blood-orange);
 }
 
 .post-block {
