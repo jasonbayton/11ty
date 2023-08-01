@@ -52,7 +52,7 @@ This data use may be of concern for employees with data-limited internet plans a
 
 Because apps are suspended, there are no privacy concerns to consider; for example location will not be polled by work profile applications while the profile is paused, although OS messaging in 14 (or lack thereof in the beta) may suggest otherwise. This may be pertinent to reiterate to users who notice background usage of paused work profiles.
 
-## Is it still possible to fully turn off a work profile in Android 14? 
+## Is it still possible to fully turn off a work profile in Android 14?
 
 No.
 
