@@ -22,7 +22,7 @@ Related to [this](/blog/2022/12/android-features-2023/) and [this](/blog/2019/01
 2. Granular (FOTA-esque) system update management ([ref](/blog/2022/12/android-features-2023/#Granular-system-update-management))
 3. Native kiosk improvements:
     1. App layouts, including multi-page layouts
-    2. Dal-app mode (split screen) for foldables/multi-screen (surface, flip/fold, dual-screeen POS, etc)
+    2. Dual-app mode (split screen) for foldables/multi-screen (surface, flip/fold, dual-screeen POS, etc)
     3. Wallpaper support
     4. Intent launch support
     5. Support for admin text/banner configuration
@@ -51,7 +51,7 @@ Related to [this](/blog/2022/12/android-features-2023/) and [this](/blog/2019/01
 ## Mobile devices
 
 1. Work/Personal SIM management ([ref](/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#Work-profile-SIM-management))
-    1. Assignment of a SIM to the WP phone, contacts, etc  <span style="color:var(--blood-orange);"><b>⚠️ Partially added in 14 for COPE (Corp owned work profile)</b></span>
+    1. Assignment of a SIM to the WP phone, contacts, etc <span style="color:var(--blood-orange);"><b>⚠️ Partially added in 14 for COPE (Corp owned work profile)</b></span>
     2. ~~Cross-profile management to improve Android Auto experience (caller ID!!)~~ <span style="color:var(--blood-orange);"><b>Added in Android 14</b></span> 
     3. ~~Split of work/personal SMS~~ <span style="color:var(--blood-orange);"><b>Added in Android 14</b></span>
     4. Config of work SIM settings (Settings > N&I > SIM) in WP deployments
