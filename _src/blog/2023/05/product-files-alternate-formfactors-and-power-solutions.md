@@ -15,6 +15,7 @@ Welcome to Product Files, a series of articles that touch on some of the more in
 As this series grows, additional links will show up here:
 - [Building Android devices](/blog/2020/12/on-building-android-devices/)
 - [Alternative form factors and power solutions](/blog/2023/05/product-files-alternate-formfactors-and-power-solutions/)
+- [The DoorDash T8](/blog/2023/08/product-files-the-doordash-tablet/)
 
 </div>
 
