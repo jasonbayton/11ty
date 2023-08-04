@@ -1,5 +1,6 @@
 ---
  title: "Product files: The DoorDash T8"
+ date: '2023-08-06'
  status: publish 
  author: 'Jason Bayton' 
  excerpt: "My third in a series of articles that offer a glimpse of what I do day to day. This one focuses on the profound impact DoorDash has had on the humble T8." 

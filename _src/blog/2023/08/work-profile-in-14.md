@@ -1,5 +1,6 @@
 ---
  title: "Android's work profile gets a major upgrade in 14"
+ date: '2023-08-04'
  status: publish 
  author: 'Jason Bayton' 
  excerpt: "The work profile experience is changing in 14, predominantly for the better. Here's a quick overview on what to expect." 
