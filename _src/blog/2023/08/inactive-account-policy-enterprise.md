@@ -1,5 +1,6 @@
 ---
  title: "Google's inactive account policy may not impact Android Enterprise customers"
+ date: '2023-08-03'
  status: publish 
  author: 'Jason Bayton' 
  excerpt: "While Google typically lacks absolute clarity on the issue, it does appear enterprise customers may fall into the exclusions list Google provides for scenarios where a Google account won't be marked as inactive." 
