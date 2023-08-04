@@ -96,10 +96,10 @@ Definitely not a personal account, but rather consider an existing group or depa
 
 An active account will not be subject to the inactivity policy, naturally, though consideration must be given to who has access to what may be very important accounts in some organisations.
 
-## Bring on the exclusion
+## Bring on the solution
 
 The above suggestions can and should be considered irrespective of the inactivity policy, but for those particularly concerned by Google's approach to this, hopefully the knowledge they're _working on it_ will put minds at ease.
 
-This is an unfortunate reality of consumer policies impacting organisations which unfortunately do happen often given Google's size, consumer focus, and shared infrastructure. Hopefully in time they'll continue to improve how they approach enterprise in the way they have with private application approval policies, Play Store policy escalations, and so on. One day they may even be able to hash these challenges out before the consumer team(s) make their announcements 🙂
+This is a reality of consumer policies impacting organisations which unfortunately does happen quite often given Google's size, consumer focus, and shared infrastructure between teams. Hopefully in time they'll continue to improve how they approach enterprise in the way they have with private application approval policies, Play Store policy escalations, and so on. One day they may even be able to hash these challenges out before the consumer team(s) make their announcements 🙂
 
 In the meantime, go forth and protect your bind(s)!
