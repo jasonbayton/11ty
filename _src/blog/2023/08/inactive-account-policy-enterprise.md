@@ -67,7 +67,7 @@ A feature request here would be to provide a means of adding multiple accounts t
 
 If this account is deleted, the enterprise - the bind - is deleted with it. Depending on the EMM this can result in anything from loss of management capabilities, with devices effectively stuck with the policy and state they are in at the time the bind is deleted, to an immediate wipe of the entire estate (and obviously an [inability to re-enrol](/android/android-enterprise-faq/factory-reset-on-enrolment/)). These variances exist due to various custom DPCs, EMM logic, and of course AMAPI.
 
-Beyond devices however, any uploaded applications, policies, web apps, or any other data associated with the bind is also unrecoverably deleted.
+Beyond devices however, any uploaded applications become inaccessible, policies, web apps, or any other data associated with the bind are also unrecoverably deleted.
 
 ## What can organisations do to safeguard against deletion?
 
