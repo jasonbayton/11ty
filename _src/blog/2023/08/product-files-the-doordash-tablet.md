@@ -24,7 +24,7 @@ Google [recently published a blog post](https://blog.google/products/android-ent
 
 ![Google AE overview DD](https://cdn.bayton.org/uploads/2023/08/google_tco.png)
 
-As the T8 edges towards the end of it's extended lifecycle and customers begin moving to newer options, I thought I'd take some time in this article to dive a little deeper into the product development of the RHINO T8 and some of the product decisions I made during the development of the tablet that ultimately made it attractive to DoorDash, becoming one of their most-deployed units today.
+As the T8 slowly edges towards the end of its anticipated extended lifecycle and customers begin moving to newer options, I thought I'd take some time in this article to dive a little deeper into the product development of the RHINO T8 and some of the product decisions I made during the development of the tablet that ultimately made it attractive to DoorDash, becoming one of their most-deployed units today.
 
 <div class="callout">
 
