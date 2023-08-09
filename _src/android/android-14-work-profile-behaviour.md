@@ -1,6 +1,6 @@
 ---
 title: 'Android 14 changes how the work profile is turned off'
-published: '2023-07-30'
+published: '2023-08-08'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
