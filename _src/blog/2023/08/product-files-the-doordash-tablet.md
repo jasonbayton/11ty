@@ -214,4 +214,4 @@ I've covered off a fair bit of my experience brining the T8 to market from a pro
 
 And many other value-adds that made the T8 the _DoorDash T8_. But ultimately a springboard from which to jump is what had them Dash through the Door (😁) in the first place, and I'm immeasurably proud of what I and my team achieved as the first major project of a new brand.
 
-I really quite enjoy talking about product development and the projects I've brought to market over the last half-decade, so if you, dear reader, have questions or would like to generally chat about anything you've read above, feel free to [get in touch](/contact/).
+ 
