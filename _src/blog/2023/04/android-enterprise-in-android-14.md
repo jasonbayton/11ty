@@ -114,6 +114,12 @@ Again this is a device control limited to corporate owned devices, so fully mana
 
 Given its breadth of use cases and applications it may be tempting to pre-emptively prohibit its use.. just keep this in mind when users complain they [can't unlock their BMW](https://www.bmw.com/en/innovation/bmw-digital-key-plus-ultra-wideband.html)!
 
+## Disabling 2G
+
+Snuck out between betas 4 and 5, Android 14 introduces a management API to disable 2G at the modem level. Originally launched in [Android 12](https://source.android.com/docs/setup/about/android-12-release#2g-toggle) as a user (and carrier)-configurable system setting, now organisations can benefit from fleet-wide security improvements by toggling it remotely for managed devices.
+
+There's far more detail on this [here](https://security.googleblog.com/2023/08/android-14-introduces-first-of-its-kind.html)
+
 ## Native financing support
 
 Enterprise related for implications it brings to the wider Android platform, it appears 14 is introducing APIs to declare a device as being under finance with `isDeviceFinanced`. 
