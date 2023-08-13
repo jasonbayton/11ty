@@ -1,6 +1,6 @@
 ---
  title: "Product files: The DoorDash T8"
- date: '2023-08-06'
+ date: '2023-08-14'
  status: publish 
  author: 'Jason Bayton' 
  excerpt: "My third in a series of articles that offer a glimpse of what I do day to day. This one focuses on the profound impact DoorDash has had on the humble T8." 
@@ -36,7 +36,7 @@ As I delve into some finer details of T8 development, I'd like to point out this
 
 I touched on the T8 back in 2020 with my [Building Android devices](/blog/2020/12/on-building-android-devices/) article. I'd recommend you take a gander at that if you haven't yet as I provided a good deal of relevant information as to where RHINO came from and the longer-term plans for the brand and ecosystem.
 
-The T8 was part of the first generation of RHINO devices we built from the ground up, something that would not happen again with the gen 2 devices as the company opted instead to customise products already available in the market through ODM partners.
+The T8 was part of the first generation of RHINO devices we built from the ground up, something that would not happen again with the recent gen 2 devices as the company opted instead to re-tool products already available in the market through ODM partners.
 
 That said, here it is:
 
@@ -96,7 +96,7 @@ With all changes in place, repairing a T8 became very quick & straightforward to
 
 ### Tough & resistant to unfriendly usage
 
-In the process of improving repairability, the whole unit benefitted from greater protection from unfriendly usage by, for example, ensuring flex was minimised if the unit was crushed, twisted, or bent.
+In the process of improving repairability, the whole unit benefitted from greater protection from unfriendly usage by, for example, ensuring flex was minimised if the unit was crushed, twisted, or bent. Flex can be a major concern for a screen, since glass doesn't take to it near as well as other materials.
 
 In addition to this I spent several weeks with my team reviewing options for the outer finish of the unit, aiming to find a balance between something that looked decent, but also held up against knocks, scrapes, drops, and so on. On the first few batches of the T8 this was a rubberised finish on the housing, and it held up quite well in the target environments as it:
 
@@ -104,7 +104,7 @@ In addition to this I spent several weeks with my team reviewing options for the
 - Could be wiped off easily
 - Offered better grip when holding it directly
 
-In later production runs we opted to go with a textured paint coating instead, offering most of the same benefits but more likely to hold up against harsher cleaning agents and such, as considerable use could see the rubber eventually wear away.
+In later production runs with a new manufacturing partner we opted to switch to a textured paint coating instead, offering most of the same benefits but more likely to hold up against harsher cleaning agents and such, as considerable use could see the rubber eventually wear away.
 
 Then there were other design considerations, like the slightly-raised border that surrounds the screen. This is dual-purpose both to absorb shock from drops (along with the rest of the mostly-plastic frame) and keeps the screen ever-so-slightly further from an object that might otherwise impact it.
 
@@ -118,9 +118,9 @@ Corrosive, in this context, is what is corrosive to a PCBA - impurities, salts, 
 
 ### Long term component support
 
-Early on in the company's history a partnership was formed with MediaTek, as we pivoted to enterprise MTK's AIoT division became our go-to for chipset selection that guaranteed long-term support & availability. The MT8765 in the T8 is by no means a powerhouse, in fact I think it's fair to say it wasn't the best choice of chipset in retrospect due to the performance issues I've seen over the years with it. For Android Go it would have been absolutely fine, and in truth the T8 would have made for a great Go device given the predominant use-cases for it, but we certified it for full-fat Android in the beginning and stuck it out. 
+Early on in the company's history a partnership was formed with MediaTek, as we pivoted to enterprise MTK's AIoT division became our go-to for chipset selection that guaranteed long-term support & availability. The MT8765 in the T8 is by no means a powerhouse, in fact I think it's fair to say it wasn't the best choice of chipset in retrospect due to the performance issues I've seen over the years with it. For Android Go it would have been absolutely fine, and in truth the T8 would have made for a great Go device given the predominant use-cases for it, but we certified it for full-fat Android in the beginning and stuck it out.
 
-That said, it's taken us from 9.0 to 12, with potentially longer support possible if desired. Since The T8 is coming up on 5 years in-market, that need is simply not there. 
+That said, it's taken us from 9.0 to 12, with potentially longer support possible if desired. Since The T8 is coming up on 5 years in-market, that need is simply not there.
 
 Outside the chipset all the standard multi-source component procurement was done by the team accordingly, so we rarely suffered component shortages even during some particularly tumultuous times for the global supply chain in the last few years; even now 4 years later and running another batch of 10s of thousands of units through production component supply has been pretty reliable.
 
@@ -132,13 +132,13 @@ What I wanted to be able to facilitate from the get-go was a complete power mana
 
 - Boot & run without a battery connected (when connected to a power cable)
 - Bypass the battery and run directly from power cable with the battery installed
-- Configure OEMconfig APIs to control this via software, if it wasn't feasible to interface the hardware
+- Configure OEMConfig APIs to control this via software, if it wasn't feasible to interface the hardware
 
 Unfortunately this quickly overshot time & budget requirements (but I did take some of this over to [the M10p!](/blog/2023/05/product-files-alternate-formfactors-and-power-solutions/)), so I had to settle for a fully-software smart monitoring solution that would detect for how long the T8 had been plugged in, the voltages and cycles of the battery, and alter the charging profile accordingly. This required engineering coordination between the Android framework folks, kernel folks, and the engineers responsible for the [PMIC](https://en.wikipedia.org/wiki/Power_management_integrated_circuit) design.
 
 From a UX perspective, it also introduced some scenarios that customers (or rather, their users who didn't read manuals) raised concerns about. When the tablet had been on charge for more than 24 hours straight for example, we allowed the battery to discharge intentionally to align with the new power profile. Unsurprisingly support tickets did get raised about devices not charging. There were also tickets raised about this solution not kicking in where customers would turn the power off to the tablet when their stores/offices/spaces closed, and back on in the morning; the solution simply wouldn't ever kick in because it wasn't permanently (or >24h) on charge.
 
-So it wasn't infallible, and accordingly we did see some genuine battery failures in the wild, but overall it's been a reasonably insignificant number compared to the number of devices shipped overall. 
+So it wasn't infallible, and accordingly we did see some genuine battery failures in the wild, but overall it's been a reasonably insignificant number compared to the number of devices shipped overall.
 
 ## The Android journey
 
@@ -164,19 +164,19 @@ The T8 launched with Android 9.0. 10 was feasible already at the time, but it wa
 
 Because we launched on 9.0, the same partitioning had to be used in 10 to allow an OTA (Over The Air) upgrade. Partitions can always be rewritten with a manual flash of a device, but an OTA update cannot adjust physical partition sizes. If we were launching 10 with a new device (like the M10p) we could have implemented dynamic partitioning, but as we wanted to upgrade from a fixed partition system on an existing device, we had to retain that.
 
-The trouble with fixed partitioning is unless you configure partitions to accommodate larger on-disk sizes later - something you can't scientifically calculate given changes that impact system sizing can't be predicted for the next version of Android, nevermind 2 or 3 later - you'll eventually run out of space and can no longer support the upgrade to a newer version without some significant hackery, if possible. This is effectively what happened with the T8, and why we went 9.0 > 10 via OTA, then 12 with a manual flash for existing units, or a preload from factory of 12 for units manufactured in 2023. The upgrade to 11 took the `/system` partition to a larger minimum size than we could accommodate on the 9.0-specced partition layout, and we deferred upgrading again until necessary.
+The trouble with fixed partitioning is unless you configure partitions to accommodate larger on-disk sizes later - something you can't scientifically calculate given changes that impact system sizing can't be predicted for the next version of Android, never mind 2 or 3 later - you'll eventually run out of space and can no longer support the upgrade to a newer version without some significant hackery, if possible. This is effectively what happened with the T8, and why we went 9.0 > 10 via OTA, then 12 with a manual flash for existing units, or a preload from factory of 12 for units manufactured in 2023. The upgrade to 11 took the `/system` partition to a larger minimum size than we could accommodate on the 9.0-specced partition layout, and we deferred upgrading again until necessary.
 
-Another aspect of maintaining an Android product over multiple years is GMS approval. Google sets approval windows for every Android release that state the latest possible time permitted for approving a new release of Android both as a new product, but also as an existing product that's upgrading; the latter has a bit more time since it's already an in-market device that needs to be supported. There are also expiry dates that stipulate the date after which it is _not permitted_ to manufacture new Android devices with an older version of Android, though existing manufactured devices in the field could continue getting updates. These dates also differ based on form factor, Android flavour, and GMS licence (ie. [EDLA](/android/android-enterprise-faq/view-all-certified-devices/) (enterprise dedicated) devices). 
+Another aspect of maintaining an Android product over multiple years is GMS approval. Google sets approval windows for every Android release that state the latest possible time permitted for approving a new release of Android both as a new product, but also as an existing product that's upgrading; the latter has a bit more time since it's already an in-market device that needs to be supported. There are also expiry dates that stipulate the date after which it is _not permitted_ to manufacture new Android devices with an older version of Android, though existing manufactured devices in the field could continue getting updates. These dates also differ based on form factor, Android flavour, and GMS licence (ie. [EDLA](/android/android-enterprise-faq/view-all-certified-devices/) (enterprise dedicated) devices).
 
 It's a reasonably complex, though not necessarily complicated process.
 
-For Android 10, the expiry date for GMS approval as a tablet on the MADA license was Dec 2022, that means devices manufactured from January had to preload a newer version of Android from the factory, so 11+. 
+For Android 10, the expiry date for GMS approval as a tablet on the MADA licence was Dec 2022, that means devices manufactured from January had to preload a newer version of Android from the factory, so 11+.
 
 11 however passed the last date for GMS approval as a LR (launch release, an upgrade) back around August 2022, which meant when DoorDash picked up the phone and requested a brand new, freshly manufactured batch of T8s in late 2022, Android 12 development had to also be undertaken in order to have an approved Android build to put on the tablets in the factory before shipping out.
 
 ### But what about security patches?
 
-Security updates are comparatively much simpler to plan and manage than major version releases, on the whole. The T8 has received quarterly security patches since 2019, and will continue to do so into 2024 based on current plans. 
+Security updates are comparatively much simpler to plan and manage than major version releases, on the whole. The T8 has received quarterly security patches since 2019, and will continue to do so into 2024 based on current plans.
 
 The only implication with security updates is when Google stop backporting them. Backporting, to address the assumed question, is where Google will take the patch of a security vulnerability in the current version branch of Android (say, 13 as of August 2023) and undertake the necessary engineering to be compatible with older versions, so 12, 11, 10, before committing it to those version branches respectively.
 
@@ -205,7 +205,7 @@ Though the T8's Android journey has been somewhat more challenging, this isn't r
 
 ## Wrapping up
 
-I've covered off a fair bit of my experience brining the T8 to market from a product development point of view. I naturally haven't touched on everything that went into launching the T8, nor some of the more bespoke requests from DoorDash on customisations they've received over the years to the model, including:
+I've covered off a fair bit of my experience bringing the T8 to market from a product development point of view. I naturally haven't touched on everything that went into launching the T8, nor some of the more bespoke requests from DoorDash on customisations they've received over the years to the model, including:
 
 - Hardware revisions configured to local markets/geographies we didn't initially launch into
 - Custom hardware configurations (NFC was removed from one revision for a particular use case)
@@ -213,5 +213,3 @@ I've covered off a fair bit of my experience brining the T8 to market from a pro
 - Their custom-manufactured accessories (cases, etc)
 
 And many other value-adds that made the T8 the _DoorDash T8_. But ultimately a springboard from which to jump is what had them Dash through the Door (😁) in the first place, and I'm immeasurably proud of what I and my team achieved as the first major project of a new brand.
-
- 
