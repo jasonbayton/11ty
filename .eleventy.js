@@ -36,6 +36,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dateFull", dates.dateFull);
   eleventyConfig.addFilter("dateFormat", dates.dateFormat);
 
+// truncate
+
+  eleventyConfig.addFilter("truncate", function (str = "", limit = 30) {
+    return str.toString()
+      .trim()
+      .split(/\s+/g, limit)
+      .join(" ") + "&hellip;";
+});
+
+
 // tag list
   eleventyConfig.addCollection("tagsList", function(collectionApi) {
     const tagsList = new Set();
