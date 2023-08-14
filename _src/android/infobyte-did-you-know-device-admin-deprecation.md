@@ -1,5 +1,5 @@
 ---
-title: 'Infobyte: Did you know? Device Admin deprecation'
+title: 'Infobyte: Device Admin deprecation'
 published: '2018-10-18T21:19:51+01:00'
 status: publish
 author: 'Jason Bayton'
