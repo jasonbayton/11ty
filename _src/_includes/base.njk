@@ -63,7 +63,7 @@
                         {% elseif type.includes("note") %}
                         {{ page.date | dateWithTime }}
                         {% else %}
-                        {{ page.date | dateFull }}
+                        {{ page.date | dateFull }} <small><i>by {{ author }}</i></small>
                         {% endif %}
                     </div>
                     <div class="meta-single post-meta-base-right">
