@@ -632,7 +632,7 @@ section#trusted_logos #trusted_container {
 #doc_container {
   padding-top: 30px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
 }
 
