@@ -952,7 +952,7 @@ footer {
     padding-bottom: 20px;
   }
 
-  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block {
+  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
   }
