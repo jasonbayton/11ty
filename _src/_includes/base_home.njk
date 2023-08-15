@@ -29,60 +29,6 @@
                 </div>
             </section>
 
-            <section id="notes" class="home-section">
-                <h2 class="section-title">
-                    Notes
-                </h2>
-                <div id="post_container">
-                    <div class="post-column">
-                    {% for post in collections.notes | reverse %}
-                    {% if loop.index0 < 3 %}
-                        <div class="post-block">
-                            <div class="post-body">
-                                <div class="post-meta post-meta-condensed">
-                                    <div class="meta-single">
-                                        <a class="blood-orange" href="{{ post.url | url }}">{{ post.data.title }}</a>
-                                    </div>
-                                </div>
-                                {{ post.content | truncate(60) | safe}}
-                                {% if post.data.excerpt|length %}
-                                <div class="post-summary">
-                                    {{ post.data.excerpt }}
-                                </div>
-                                {% endif %}
-                            </div>
-                        </div>
-                    {%- endif -%}
-                    {%- endfor -%}
-                    </div>
-                    <div class="post-column">
-                    {% for post in collections.notes | reverse | offset(3) %}
-                    {% if loop.index0 < 3 %}
-                        <div class="post-block">
-                            <div class="post-body">
-                                <div class="post-meta post-meta-condensed">
-                                    <div class="meta-single">
-                                        <a class="blood-orange" href="{{ post.url | url }}">{{ post.data.title }}</a>
-                                    </div>
-                                </div>
-                                {{ post.content | truncate(60) | safe}}
-                                {% if post.data.excerpt|length %}
-                                <div class="post-summary">
-                                    {{ post.data.excerpt }}
-                                </div>
-                                {% endif %}
-                            </div>
-                        </div>
-                    {% endif %}    
-                    {% endfor %}
-                    </div>
-                    </div>
-                </div>
-                <h3 class="post-title post-archive">
-                    <a class="button" href="/notes">🗒️ Notes »</a>
-                </h3>
-            </section>
-
             <section id="posts" class="home-section">
                 <h2 class="section-title">
                     Latest articles 
@@ -184,16 +130,13 @@
                 <div id="trusted_container">
                     <div id="trusted_textgroup">
                         <h2 class="section-title">
-                            Latest docs and resources
+                            Docs and resources
                         </h2>
                     </div>
                     <div id="doc_container">
-                        {% for tag in android_tags %}
-                        {% if loop.index0 < 3 %}
                         <div class="post-column">
-                            {% set taglist = collections[ tag.name ] %}
-                            {% for post in taglist | reverse %}
-                            {% if loop.index0 < 4 %}
+                            {% for post in collections["android-docs"] | reverse %}
+                            {% if loop.index0 < 5 %}
                             <div class="post-block">
                                 <div class="post-body">
                                     <div class="post-meta post-meta-condensed">
@@ -221,8 +164,36 @@
                             {% endif %}
                             {% endfor %}
                         </div>
-                        {% endif %}
-                        {% endfor %}
+                        <div class="post-column">
+                        {% for post in collections["android-docs"] | reverse | offset(5) %}
+                        {% if loop.index0 < 5 %}
+                        <div class="post-block">
+                            <div class="post-body">
+                                <div class="post-meta post-meta-condensed">
+                                    <div class="meta-single">
+                                        {{ post.date | dateFull }}
+                                    </div>
+                                    <div class="meta-single">
+                                        {% for tag in post.data.tags %}
+                                        {% if not tag.includes("android-docs") %}
+                                        #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                                        {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                                </h3>
+                                {% if post.data.excerpt|length %}
+                                <div class="post-summary">
+                                    {{ post.data.excerpt }}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endif %}    
+                    {% endfor %}
+                    </div>
                     </div>
                 </div>
                 <h3 class="post-title post-archive">
