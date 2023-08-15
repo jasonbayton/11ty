@@ -798,10 +798,6 @@ footer {
   border-top: 1px solid var(--text);
 }
 
-#trusted_textgroup {
-  padding-bottom: 30px;
-}
-
 .logo-section {
   overflow: hidden;
   width: 100%;
