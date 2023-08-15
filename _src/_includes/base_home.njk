@@ -44,7 +44,7 @@
                                         <a class="blood-orange" href="{{ post.url | url }}">{{ post.data.title }}</a>
                                     </div>
                                 </div>
-                                {{ post.content | truncate(80) | safe}}
+                                {{ post.content | truncate(60) | safe}}
                                 {% if post.data.excerpt|length %}
                                 <div class="post-summary">
                                     {{ post.data.excerpt }}
@@ -65,7 +65,7 @@
                                         <a class="blood-orange" href="{{ post.url | url }}">{{ post.data.title }}</a>
                                     </div>
                                 </div>
-                                {{ post.content | truncate(80) | safe}}
+                                {{ post.content | truncate(60) | safe}}
                                 {% if post.data.excerpt|length %}
                                 <div class="post-summary">
                                     {{ post.data.excerpt }}
