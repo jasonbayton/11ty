@@ -28,7 +28,7 @@ If you still don't find what you're looking for, you can [submit a request](http
 
 Post your request to the:
 
-* [Android Enterprise Help Community](https://support.google.com/work/android/community), 
+* [Android Enterprise Help Community](https://androidenterprise.community), 
 * [MobilePros Slack Community](https://mobilepros.org), 
 * [MobilePros Telegram group](https://t.me/mobile_pros).
 
