@@ -36,6 +36,18 @@ Read up on how the changes to how the work profile pauses in the upcoming releas
 
 </div>
 
+<div class="callout callout-bold">
+
+### Android 14 will not permit install of very old apps
+
+In Android 14 it will no longer be possible to install any application that targets API level 23 - Android 6.0. Attempting to do so will trigger a security exception. Applications already installed will remain untouched, however new installs on to any device that hasn't previously had the application will fail. 
+
+Be sure to update your applications to target a recent API level before deploying any Android 14 devices into your estate.
+
+Check the [techdoc](/android/android-14-minimum-sdk/) for more info.
+
+</div>
+
 <div class="callout">
 
 ### Deprecation of the old managed Google Play iFrame app approval flow
