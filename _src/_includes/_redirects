@@ -31,6 +31,7 @@
 /docs/android/* /android/:splat 301
 /20* /blog/20:splat 301
 /category/* /tags/:splat 301
+/tags/*/feed/ /feed.xml 301
 /tag/* /tags/:splat 301
 /tags/notes/ /notes/ 301
 /tags/cope/ /tags/company-owned-work-profile/ 301
@@ -43,5 +44,6 @@
 /tags/vendor-specific/ /android/ 301
 /tags/getting-started/ /android/ 301
 /tags/diving-deeper/ /android/ 301
+/rss /feed.xml 301
 
 /?s=* /search/?q=:splat 301
