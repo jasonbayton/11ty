@@ -46,6 +46,18 @@
                     {% include "./_parts/gitlog.njk" %}
                 </div>
             </section>
+            {% for tag in tags %}
+            {% if tag.includes("android-docs") or tag.includes("blog") %}
+            <section id="sharebox" class="mobile-hidden">
+                <div class="aside-title">
+                    <b>Share this page</b>
+                </div>
+                <div class="share-text">
+                    Enjoyed this content? Please share it with your social network of choice.
+                </div>
+            </section>
+            {% endif %}
+            {% endfor %}
             {% endif %}
             <section id="page_content">
                 {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
@@ -116,11 +128,12 @@
                     {{ content | safe }}
                 {% endif %}
             </section>
+
             {% for tag in tags %}
-            {% if tag.includes("android-docs") %}
+            {% if tag.includes("android-docs") or tag.includes("blog") %}
             <section id="link_out">
                 <div class="links-out">
-                    Ask about this topic on the <a href="https://support.google.com/work/android/thread/new">Android Enterprise help community</a>.
+                    Discuss this topic on the <a href="https://androidenterprise.community">Android Enterprise Customer Community</a>, tag <a href="https://www.androidenterprise.community/t5/user/viewprofilepage/user-id/11">@jasonbayton</a> to summon me.
                 </div>
                 <div class="links-out">
                     Discuss this topic on the <a href="https://mobilxperts.slack.com/archives/C1V8JC31T">#AE</a> channel of the Mobile Pros Slack community. Here's an <a href="https://join.slack.com/t/mobilxperts/shared_invite/zt-3wrzh2o5-e5w8qSyiGF8AcH8_VErDCg">invite</a>.
@@ -128,11 +141,7 @@
             </section>
             {% endif %}
             {% endfor %}
-            <!-- Pagination goes here -->
-            <!-- {% if pagination.href.next or pagination.href.previous %}
-            {% include "./_parts/paginate.njk" %}
-            {% endif %} -->
-            <!-- // -->
+
             {% if type.includes("note") %}
             <section id="note_overview" class="">
                 <div class="border-4px border-orange border-curved padding-10 padding-lr-20 first-heading-inline">
