@@ -29,14 +29,18 @@ For users, it allows them to use their personal devices for work-related activit
 
 For organisations, the work profile offers the ability to secure work-related data and applications on personal (or personally enabled) devices without having to manage an entire separate device or require users to use company-provided devices. This can save money and increase productivity for both organisations and users without giving up security or convenience. As an added benefit, organisations are able to enforce basic security over the entire device in both BYOD and COPE, such as mandating a particular password policy or preventing the installation of [unknown applications](/android/why-you-shouldnt-install-apps-from-unknown-sources/) on the parent profile.
 
+In Android 14, Google further improved the user and admin experience of the work profile. More can be read on that [here](/blog/2023/08/work-profile-in-14/).
+
 ## Differences between Personally Owned Devices and Company-Owned Devices
 
 For the user, the work profile whether used on a personally or company owned device is reasonably consistent in UX and design. But there are some differences. 
 
-On company-owned work profile deployments, the organisation has some additional control over the entire device to further define what can and cannot be installed or permitted across both profiles. These can be found [here](https://developers.google.com/android/management/policies/work-profile#company-owned_devices) and include:
+On company-owned work profile deployments, the organisation has some additional control and visibility over the entire device to further define what can and cannot be installed or permitted across both profiles. These can be found [here](https://developers.google.com/android/management/policies/work-profile#company-owned_devices) and include:
 
 - Camera control 
 - Screenshot control
 - Factory reset and FRP policies
 - Blocklisting of certain apps or app-types
+
+
 

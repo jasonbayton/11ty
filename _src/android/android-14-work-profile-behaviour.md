@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 2000
 layout: base.njk
 ---
-From Android 14, the way the work profile "turns off" changes.
+From Android 14, the behaviour when pausing a work profile is changing.
 
 ## What’s changing
 

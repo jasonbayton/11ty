@@ -47,6 +47,7 @@ Related to [this](/blog/2022/12/android-features-2023/) and [this](/blog/2019/01
 15. Passwordless Factory Reset Protection (FRP), allowing organisations to restrict setup of a device without the need to provide authentication for it (that often needs changing). Instead, set the device in a state that requires and auth/unlock code generated from an account, or lean on passkey/other auth methods instead.
 16. EMM persistence after a factory reset, similar to FRP but allowing the DPC to write a persistence bit to disk, allowing a device to be reset in an unauthorised manner while still requiring a device goes back into management rather than permitting unmanaged setup.
 17. Enforce support for DPC migration, and improve UX for customers. See what [apple are doing](https://9to5mac.com/2023/07/29/an-upgrade-return-to-service-will-increase-mdm-vendor-flexibility/) for comparison.
+18. Logging/debugging capability during setup/enrolment
 
 ## Mobile devices
 
@@ -95,6 +96,10 @@ Related to [this](/blog/2022/12/android-features-2023/) and [this](/blog/2019/01
 8. Industrial use case support (wear for wearable barcode scanners, data input, etc) so we can justify building with wear rather than AOSP as is the case today for small-screen industrial devices.
 9. Open up wear to more OEMs (this isn't a FR, so much as a biz decision to boost wear in the ecosystem)
 
-## Unrelated FR
+## Ecosystem 
 
 1. Cuttlefish builds for TV, Automotive, Wear allowing virtual enterprise testing. Polestar aren't interested in loaning me a car.
+2. Zero-touch customer device uploads
+3. Multi-app selection/import in Google Play iFrame
+4. AMAPI feature parity with on-device APIs (seriously, where's offline firmware update management?)
+5. DPC/enterprise migration without device wipe

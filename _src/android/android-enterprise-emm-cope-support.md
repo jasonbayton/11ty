@@ -63,6 +63,10 @@ A particularly nice capability which all EMMs should support is the ability to E
 
 Following the [announcement](/2020/07/googles-android-management-api-will-soon-support-cope/) of support for COPE in AMAPI, Intune went into preview in late 2020.
 
+### Scalefusion – 2023 
+
+Scalefusion [announced](https://www.prnewswire.com/news-releases/scalefusion-introduces-support-for-copewpco-devices-expanding-android-device-management-capabilities-301882952.html) support for COPE in mid-2023.
+
 ## And everyone else?
 
 Other EMM/UEM vendors are working on supporting the solution – IBM, SOTI being two of the larger vendors.
