@@ -13,6 +13,7 @@
   --background: #ffffff;
   --blue: #f0f8ff;
   --orange: #ff4500;
+  --orange-opacity: #ff45001c;
   --blood-orange: #ce3800;
   --brand-background: #ffffff;
   --brand-text: #333333;
@@ -150,20 +151,20 @@ h5 { font-size: 20px; }
 }
 
 blockquote {
-  background: var(--blue);
-  padding: 20px 20px 20px 40px;
+  padding: 20px 20px 20px 60px;
   margin: 20px 0;
   border-radius: 5px;
-  color: var(--text);
   position: relative;
+  border: 4px solid var(--orange);
 }
 
 blockquote::before{
   content: "\201C";
   font-size:4em;
   position: absolute;
-  left: 10px;
+  left: 20px;
   top:-10px;
+  color: var(--orange);
 }
 
 blockquote::after{
@@ -209,7 +210,6 @@ code {
 
 pre {
   font-family: monospace;
-  color: var(--text);
   background-color: var(--blue);
   border-radius: 6px;
   padding: 16px;
@@ -335,7 +335,6 @@ button {
   display: grid;
   padding: 15px 20px 15px;
   grid-template-columns: 180px 40px 5fr 60px 60px;
-  color: var(--text);
   align-items: center;
   height: 100px;
   max-width: 1200px;
@@ -366,7 +365,6 @@ content {
   max-width: 1200px;
   margin: 0 auto;
   display: block;
-  color: var(--text);
   overflow-wrap: break-word;
 }
 
@@ -722,8 +720,6 @@ footer {
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
-    color: var(--text);
-    /*background-color: var(--brand-background);*/
     border: 4px solid var(--orange);
     border-radius: 5px;
     box-sizing: border-box;
@@ -909,7 +905,6 @@ footer {
     font-size: 1.5em;
     cursor: pointer;
     background: var(--background);
-    color: var(--text);
     box-shadow: none;
   }
 
@@ -980,6 +975,9 @@ footer {
 
 #aside {
   font-size: 18px;
+  border-radius: 5px;
+  background: var(--orange-opacity);
+  padding: 20px;
 }
 
 .aside-title h2 {
@@ -1180,6 +1178,18 @@ to {
 
 }
 
+section#sharebox {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  padding: 20px;
+  background: var(--orange-opacity);
+  border-radius: 5px;
+}
+
+.share-text {
+  padding-top: 10px;
+}
+
 section#feedback {
   grid-column: 1 / span all;
   justify-self: end;
@@ -1195,7 +1205,7 @@ section#link_out {
 
 .links-out {
   padding: 20px;
-  background-color: var(--blue);
+  background-color: var(--orange-opacity);
   border-radius: 5px;
   display: block;
 }
