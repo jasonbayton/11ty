@@ -210,7 +210,6 @@ code {
 
 pre {
   font-family: monospace;
-  background-color: var(--blue);
   border-radius: 6px;
   padding: 16px;
   overflow-wrap: anywhere;
@@ -434,7 +433,7 @@ content#page, content#search, content#archive {
   text-align: center;
   font-size: 24px;
   padding: 10px;
-  background-color: var(--blue);
+  background-color: var(--orange-opacity);
   border-radius: 5px;
 }
 
@@ -724,6 +723,11 @@ footer {
     border-radius: 5px;
     box-sizing: border-box;
     color: var(--brand-text);
+}
+
+.callout .callout-bold {
+  background: var(--orange);
+  color: #ffffff
 }
 
 .callout .callout-heading {
