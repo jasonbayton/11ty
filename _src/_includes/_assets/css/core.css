@@ -376,7 +376,7 @@ content#home {
 
 content#doc {
   display: grid;
-  grid-template-columns: 1.3fr 4fr;
+  grid-template-columns: 1.4fr 4fr;
   padding-top: 60px;
   grid-gap: 30px;
 }
