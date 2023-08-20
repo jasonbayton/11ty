@@ -58,6 +58,8 @@ Admins will no longer see an approve button for applications in the managed Goog
 
 [SOTI](https://discussions.soti.net/articles/google-managed-playstore-emm-deprecations-coming-in-december-1-2023-1) and [Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-intune-moving-to-support-new-google-play-android/ba-p/3849875) announcements for reference. Note, customers may have to upgrade their EMM version if using a locally hosted solution, to avoid a disruption to functionality later this year.
 
+[More info](/android/google-play-iframe-approval-change/)
+
 </div>
 
 <div id="android_doc_grid">
