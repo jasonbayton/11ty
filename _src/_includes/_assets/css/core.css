@@ -30,6 +30,7 @@
   --blue: #00284d;
   --brand-background: #00284d;
   --brand-text: #cfcfcf;
+  --orange-opacity: #ff450066;
 }
 
 [data-theme="light"] .bayton-logo-dark {
