@@ -337,7 +337,7 @@ button {
   grid-template-columns: 180px 40px 5fr 60px 60px;
   align-items: center;
   height: 100px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
