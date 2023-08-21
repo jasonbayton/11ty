@@ -177,7 +177,7 @@ a {
 }
 
 a.active {
-  color: var(--blood-orange);
+  color: var(--bright);
 }
 
 a:hover {
