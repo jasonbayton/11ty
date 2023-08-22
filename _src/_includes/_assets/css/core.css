@@ -268,13 +268,14 @@ td {
   border: 4px solid var(--orange);
   border-radius: 5px;
   box-sizing: border-box;
-  color: var(--brand-text);
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   touch-action: manipulation;
+  background-color: var(--orange);
+  color: var(--bright);
 }
 
 .button-small {
@@ -413,9 +414,16 @@ content#page, content#search, content#archive {
 }
 
 #intro_heading {
-  grid-area: 2/1/2/2;
   font-weight: 400;
-  font-size: 80px;
+  font-size: 70px;
+}
+
+#intro_subheading {
+  font-size: 26px;
+}
+
+#intro_cta {
+  justify-self: center;
 }
 
 #intro_heading p {
@@ -423,24 +431,17 @@ content#page, content#search, content#archive {
 }
 
 #intro_text {
-  grid-area: 3/1/3/3;
-  padding-top: 30px;
-}
-
-#intro_text details summary {
-  font-weight: 900;
-  font-size: 25px;
-  padding-top: 30px;
+grid-column: 1/-1;
 }
 
 #intro_android {
-  grid-area: 2/2/3/3;
   text-align: center;
   font-size: 24px;
   padding: 10px;
-  /* background-color: var(--orange-opacity); */
-  border-radius: 5px;
-  display: inherit;
+}
+
+.cta {
+  padding-top: 15px;
 }
 
 #android_head {
@@ -847,6 +848,10 @@ footer {
     font-size: 20px;
   }
 
+  #intro_subheading {
+    font-size: 22px;
+}
+
   .mobile-hidden {
     display: none;
   }
@@ -950,6 +955,7 @@ footer {
   #intro_android {
     padding-top: 20px;
     padding-bottom: 20px;
+    grid-row: 1/1;
   }
 
   #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container {
@@ -979,6 +985,11 @@ footer {
 @media (max-width: 390px) {
   #intro_heading {
     font-size: 36px;
+    text-align: center;
+  }
+
+  #android_head {
+    max-width: 150px;
   }
 }
 
