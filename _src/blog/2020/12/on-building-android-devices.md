@@ -26,6 +26,7 @@ Welcome to Product Files, a series of articles that touch on some of the more in
 As this series grows, additional links will show up here:
 - [Building Android devices](/blog/2020/12/on-building-android-devices/)
 - [Alternative form factors and power solutions](/blog/2023/05/product-files-alternate-formfactors-and-power-solutions/)
+- [The DoorDash T8](/blog/2023/08/product-files-the-doordash-tablet/)
 
 </div>
 
@@ -33,8 +34,7 @@ As 2020 comes to a long-overdue close and we head into what anyone can hope will
 
 *Note: The following is a personal take on a work-related topic. For normal Android Enterprise content, please head [here](/android).*
 
-The leadup
-----------
+## The leadup
 
 I’ve spent many years on the consumer end of Android, from devices purchased for my own use over the last decade, to those I’ve reviewed in an enterprise context through my efforts on Android Enterprise. I have, and still continue to engage with OEMs in the ecosystem for devices I test on a reasonably regular basis, pointing out issues with implementations, random bugs, offering advice where asked and so forth, but that’s typically where it stops; once I’ve said my bit the feedback is taken internally and tends to fall into the ether of internal triaging. If I’m lucky, a few weeks to a couple of months later I’ll get a ping to say a software update addresses previous concerns, but more often than not that doesn’t happen.
 
@@ -42,8 +42,7 @@ With the lack of transparency also comes a few other common experiences – OEMs
 
 In any case, after years of telling OEMs how things should be done with zero experience of the processes on the other side, I’d often wondered what could *really* be involved in building Android devices, and if I could easily translate my knowledge of Android – both Enterprise, including best practices, custom APIs, device management, etc, as well as exposure to several years of communities such as XDA flashing ROMs and learning what tweaks to various rooted devices do what – to give me a solid rolling start on the parts I knew less about – GMS, certifications, hardware requirements, testing, building from AOSP, etc.
 
-An opportunity for change
--------------------------
+## An opportunity for change
 
 Back in 2019 I’d reached something of a plateau working at an MSP. I knew where I wanted to be in my career and how I wanted to spend my time, but there wasn’t enough ongoing business to justify the wage of me being selective on the work I undertook. Android deployments were scattered amongst other, less interesting but oh-so-repetitive installs, customer support was poking around networks and analysing server logs, MSPs generally began shifting towards Microsoft *hard* and I wasn’t feeling it.
 
@@ -51,15 +50,13 @@ When the opportunity arose to pivot, I left the last MSP I’ve worked for as an
 
 I say more than tenuously as it’s a different approach to the same end-goal, contributing to the evolving Android ecosystem. Rather than spend my days supporting Android device deployments (as well as iOS, and more), going forward I got the opportunity to be mostly making the devices, the services and shaping user experiences for others to support.
 
-Not as easy as it looks
------------------------
+## Not as easy as it looks
 
 It turns out I wasn’t entirely lost coming into this, as my general understanding of the platform and how many things should work helped significantly. That said, a decent amount of what I’d known applies to the *last mile* of making Android devices. Everything before that, from SoC support to component availability, camera tuning to performance optimization, aligning to GMS, a whole slew of NDA aspects of being a MADA partner, and more, were brand new, if certainly not insurmountable challenges.
 
 I’d been very much blissfully ignorant to a lot of this when previously raising an issue with an OEM, assuming patches should be available with relative ease and with a quick turn-around given they all have teams of engineers at hand, or questioning why support ended early for hardware, or focusing purely on the OEM for opting not to support a new OS release because they didn’t *want* to dedicate the engineering effort. In some cases sure, OEMs are lazy, but in others there are legitimate limitations not controlled entirely by the OEM (and not strictly the SoC vendor killing support). Who knew? This is potentially a topic I might explore in future.
 
-Diving in
----------
+## Diving in
 
 When I joined Social Mobile, it was intentionally timed for me to take on a brand new project, building the company’s first own-brand portfolio of commonly-requested devices. With it came the opportunity not only to give the hardware its own brand ([Rhino](https://rhinomobility.com)) but also to define for the first time the software experience against a set of requirements not laid out by a customer.
 
@@ -71,12 +68,11 @@ The portfolio marked a shift in strategy and an ability to target market segment
 
 <div class="callout callout-info">
 
-### Why Rhino?
+### Why RHINO?
 
 A lot of potential names were thrown around with the team. It came down really to what just sounded decent. Fruits are well done, Space themed led to a few decent options if a little corny, but it was ultimately Animals that came back most frequently and ended up between Rhino and another; since Rhino has connotations of strength and durability, we settled on that. </div>
   
-The result
-----------
+## The result
 
 The result of 18 months of ground-up research and development has led to the introduction of four new devices, the Rhino T8, Rhino C10, Rhino M10p and Rhino T5se. Two tablets, a hand-held, and a POS.
 
@@ -114,8 +110,7 @@ That isn’t intended as a sales pitch so much as a goal and a standard I’m dr
 
 Those who’ve read what I write here, on [Twitter](https://twitter.com/jasonbayton), or on [LinkedIn](https://linkedin.com/in/jasonbayton) will have undoubtedly seen the occasional frustration at OEMs who kill devices off too soon given the perpetual perception of Android security and fragmentation already, and with SM I get to contribute to the changing of this.
 
-What’s next
------------
+## What’s next?
 
 I’ve focused a fair bit on hardware here, which is a given considering that has been the primary goal over the last 18 months, to build the portfolio, but hardware isn’t the focus, or certainly won’t be for much longer.
 
@@ -157,8 +152,7 @@ This type of solution isn’t new or revolutionary, OEMs already offer this in t
 
 …but I can’t give everything away today.
 
-In summary
-----------
+## In summary
 
 I’m extremely happy with what’s been achieved so far, and the experiences had getting to grips with developing solutions from the ground up powered by the most versatile OS on the planet.
 
