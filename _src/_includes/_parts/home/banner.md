@@ -1,1 +1,1 @@
-Independent Android Enterprise content for everyone
+I've helped hundreds of organisations succeed in the Android ecosystem 

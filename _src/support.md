@@ -28,7 +28,7 @@ If you still don't find what you're looking for, you can [submit a request](http
 
 Post your request to the:
 
-* [Android Enterprise Help Community](https://support.google.com/work/android/community), 
+* [Android Enterprise Help Community](https://androidenterprise.community), 
 * [MobilePros Slack Community](https://mobilepros.org), 
 * [MobilePros Telegram group](https://t.me/mobile_pros).
 
@@ -47,7 +47,7 @@ Use my [contact](/contact) details to send me your request and I will respond wh
 
 <div class="border-4px border-orange border-curved padding-10 padding-lr-20 padding-mobile-0 border-mobile-0 grid-column-span-all">
 
-## Dedicated engagement
+## Consulting engagement
 
 I make available several hours a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above.
 
@@ -57,7 +57,7 @@ Some examples of dedicated engagements undertaken include:
 
 * EMM migration
 * EMM health check
-* Mobility strategy planning
+* Mobility strategy planning/review
 * EMM & device selection
 * Product consultation on Android Enterprise support for new or existing solutions
 * EMM deployment, end to end
@@ -75,12 +75,13 @@ Some examples of dedicated engagements undertaken include:
 
 NB: Hours may be consumed ad-hoc, across multiple days as required. 
 
+### Buy an hour
+
+Looking for a quick-start on your task at hand? Buy an hour and we can jump on a call to explore the wider scope of your requirements with no obligations to go further. 
+
+<script async src="https://js.stripe.com/v3/buy-button.js"></script>
+
+<stripe-buy-button buy-button-id="buy_btn_1Nf4C9KvHOCQSS2hourskDLc" publishable-key="pk_live_OUiqrp8lGeKujY97eOKJxMiU"></stripe-buy-button>
+
 </div>
 </div>
-
-**Disclaimers:** 
-
-* Topics discussed may used as the subject or reference of articles on this website. 
-* For non-dedicated support, NDAs and similar documents are out of scope. Share what you are permitted to share and I'll help as best I can.
-* Non-dedicated support is best-effort. Please respect this is done in my free time and if we're opening a can of worms together I may not be able to dedicate the time needed.
-* I may not be able to respond in a timely fashion at any point during non-dedicated engagements, and make no promises to solve an issue or fully satisfy a need as a casual engagement, but I'll do my best! 

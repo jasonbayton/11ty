@@ -9,7 +9,7 @@ type: documentation
 layout: base.njk
 tags: "General"
 eleventyNavigation:
-  key: Android Home
+  key: Introduction
   order: 0000
 templateEngineOverride: njk,md
 discourse_permalink:
@@ -20,11 +20,45 @@ If you manage Android devices in the enterprise, you’ve come to the right plac
 
 Whether you’re just discovering Android Enterprise or are looking to boost existing knowledge, the below should be helpful across the board. Looking for something specific that hasn’t been documented? Submit your question [on GitHub](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) (account required)!
 
-<div class="callout callout-danger">
+<div class="callout">
 
 ### What's new for enterprise in Android 14?
 
 The official release of Android 14 will be upon us in the next few months. Is your organisation prepared for what's to come? Check out [what's new in Android 14](/blog/2023/04/android-enterprise-in-android-14/)!
+
+</div>
+
+<div class="callout">
+
+### Google is changing how the work profile functions in 14
+
+Read up on how the changes to how the work profile pauses in the upcoming release. Here's [the blog](/blog/2023/08/work-profile-in-14/), and [the techdoc](/android/android-14-work-profile-behaviour/).
+
+</div>
+
+<div class="callout callout-bold">
+
+### Android 14 will not permit install of very old apps
+
+In Android 14 it will no longer be possible to install any application that targets API level 23 - Android 6.0. Attempting to do so will trigger a security exception. Applications already installed will remain untouched, however new installs on to any device that hasn't previously had the application will fail. 
+
+Be sure to update your applications to target a recent API level before deploying any Android 14 devices into your estate.
+
+Check the [techdoc](/android/android-14-minimum-sdk/) for more info.
+
+</div>
+
+<div class="callout">
+
+### Deprecation of the old managed Google Play iFrame app approval flow
+
+Be aware, a year after Google [deprecated the old app approval APIs](https://developers.google.com/android/work/deprecations#app_approval_september_1_2022), EMMs are now switching over to the new flow. **This does not impact AMAPI-based EMMs**, with the exception of Intune.
+
+Admins will no longer see an approve button for applications in the managed Google Play iFrame, and will instead see a select button instead.
+
+[SOTI](https://discussions.soti.net/articles/google-managed-playstore-emm-deprecations-coming-in-december-1-2023-1) and [Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-intune-moving-to-support-new-google-play-android/ba-p/3849875) announcements for reference. Note, customers may have to upgrade their EMM version if using a locally hosted solution, to avoid a disruption to functionality later this year.
+
+[More info](/android/google-play-iframe-approval-change/)
 
 </div>
 

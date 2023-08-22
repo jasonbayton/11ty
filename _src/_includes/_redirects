@@ -20,7 +20,10 @@
 /blog/2016/05/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/ /docs/linux/lxd/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/ 301
 /android/android-enterprise-emm-token-collection/ /android/android-enterprise-dpc-identifier-collection/ 301
 /android/android-enterprise-emm-token-collection /android/android-enterprise-dpc-identifier-collection/ 301
+/blog/2016/07/installing-nextcloud-on-ubuntu-16-04-lts-with-redis-apcu-apache/ /docs/nextcloud/installing-nextcloud-on-ubuntu-16-04-lts-with-redis-apcu-ssl-apache/ 301
+/blog/2016/10/set-up-a-network-bridge-ubuntu-12-04-lts/ /docs/linux/ubuntu/set-up-a-network-bridge-ubuntu-12-04-lts/ 301
 /docs/enterprise-mobility/ /android/ 301
+/android/android-enterprise-zero-touch-faq/ /android/android-enterprise-faq/ 301
 /feed /feed.xml 301
 /wp-content/uploads/* https://cdn.bayton.org/uploads/:splat 301
 /download/* https://cdn.bayton.org/download/:splat 301
@@ -28,6 +31,7 @@
 /docs/android/* /android/:splat 301
 /20* /blog/20:splat 301
 /category/* /tags/:splat 301
+/tags/*/feed/ /feed.xml 301
 /tag/* /tags/:splat 301
 /tags/notes/ /notes/ 301
 /tags/cope/ /tags/company-owned-work-profile/ 301
@@ -40,5 +44,6 @@
 /tags/vendor-specific/ /android/ 301
 /tags/getting-started/ /android/ 301
 /tags/diving-deeper/ /android/ 301
+/rss /feed.xml 301
 
 /?s=* /search/?q=:splat 301

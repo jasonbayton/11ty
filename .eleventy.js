@@ -23,6 +23,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
+  eleventyConfig.addPassthroughCopy({"_src/_includes/robots.txt": "/robots.txt"});
   eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
   eleventyConfig.addPassthroughCopy({"_src/manifest.json": "/manifest.json"});
   eleventyConfig.addPassthroughCopy({"_src/pwabuilder-sw.js": "/pwabuilder-sw.js"});
@@ -35,6 +36,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dateWithTime", dates.dateWithTime);
   eleventyConfig.addFilter("dateFull", dates.dateFull);
   eleventyConfig.addFilter("dateFormat", dates.dateFormat);
+
+// truncate
+
+  eleventyConfig.addFilter("truncate", function (str = "", limit = 30) {
+    return str.toString()
+      .trim()
+      .split(/\s+/g, limit)
+      .join(" ") + "&hellip;";
+});
+
 
 // tag list
   eleventyConfig.addCollection("tagsList", function(collectionApi) {

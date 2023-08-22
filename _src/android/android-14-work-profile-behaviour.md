@@ -1,6 +1,6 @@
 ---
 title: 'Android 14 changes how the work profile is turned off'
-published: '2023-07-30'
+published: '2023-08-08'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 2000
 layout: base.njk
 ---
-From Android 14, the way the work profile "turns off" changes.
+From Android 14, the behaviour when pausing a work profile is changing.
 
 ## What’s changing
 
@@ -46,11 +46,17 @@ Yes.
 
 Expect increased battery and data usage on work profile devices during periods _where the profile is paused_; the exact amount is likely OEM-dependent. The amount of data and battery the work profile uses overall isn't changing vs 13, rather only when usage is now permitted to be used.
 
-In testing data usage on a Pixel 7a, a paused work profile was recorded using between 10mb and 200mb of Wi-Fi data in the background over a 12 hour period, recorded over a few days. The latter, larger number associated with several work applications updating, the former a typical overnight period of syncing from an active, global Microsoft 365 environment. Figures are to be considered a guide only and were taken during the Android 14 beta. Organisation-based testing should be carried out.
+In testing Wi-Fi data usage on a Pixel 7a running 14 beta 4 over the span of a few days I found usage fluctuated considerably while the work profile was **paused**; some days up to 10mb of background data usage was recorded over a 12-hour period, which can be attributed to typical background application and policy sync, while one particular 12-hour period saw 200mb of background data consumed, attributable to application updates in addition to typical sync. Figures are to be considered a guide only and were taken during the Android 14 beta. Organisation-based testing should be carried out.
 
 This data use may be of concern for employees with data-limited internet plans at home who would normally turn off the work profile when leaving the office, as they may see work-based internet use increase. While this is somewhat less of a common concern in Western Europe, I can't speak for ISPs and data plans across the world, so feel it pertinent that it's highlighted.
 
-Because apps are suspended, there are no privacy concerns to consider; for example location will not be polled by work profile applications while the profile is paused, although OS messaging in 14 (or lack thereof in the beta) may suggest otherwise. This may be benefitial to reiterate to users who notice background usage of paused work profiles.
+In conversation with Google, they stated:
+
+> Most users are unlikely to see a difference in data usage because it is only the timing of data use that is changing, rather than in bulk at the time of unpausing the apps. Some syncing and updates will happen periodically subject to the user's existing data settings.
+
+It is, however, the timing that will impact EMM-deployed devices, and not an overall change in data usage, as work profile users can no longer block background usage in scenarios they do not want usage to occur.
+
+Additionally, because apps are suspended, there are no privacy concerns to consider; for example Google have also confirmed location will not be polled by work profile applications while the profile is paused, although OS messaging in 14 (or lack thereof in the beta) may suggest otherwise. This may be beneficial to reiterate to users who notice background usage of paused work profiles.
 
 ## Is it still possible to fully turn off a work profile in Android 14?
 

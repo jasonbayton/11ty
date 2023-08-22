@@ -1,7 +1,7 @@
 ---
 title: 'A guide to deploying Android Enterprise'
 date: '2019-03-07T22:58:36+00:00'
-status: publish
+status: draft
 author: 'Jason Bayton'
 excerpt: ''
 type: post

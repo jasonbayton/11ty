@@ -1,0 +1,53 @@
+            <section id="notes" class="home-section">
+                <h2 class="section-title">
+                    Notes
+                </h2>
+                <div id="post_container">
+                    <div class="post-column">
+                    {% for post in collections.notes | reverse %}
+                    {% if loop.index0 < 3 %}
+                        <div class="post-block">
+                            <div class="post-body">
+                                <div class="post-meta post-meta-condensed">
+                                    <div class="meta-single">
+                                        <a class="blood-orange" href="{{ post.url | url }}">{{ post.data.title }}</a>
+                                    </div>
+                                </div>
+                                {{ post.content | truncate(60) | safe}}
+                                {% if post.data.excerpt|length %}
+                                <div class="post-summary">
+                                    {{ post.data.excerpt }}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {%- endif -%}
+                    {%- endfor -%}
+                    </div>
+                    <div class="post-column">
+                    {% for post in collections.notes | reverse | offset(3) %}
+                    {% if loop.index0 < 3 %}
+                        <div class="post-block">
+                            <div class="post-body">
+                                <div class="post-meta post-meta-condensed">
+                                    <div class="meta-single">
+                                        <a class="blood-orange" href="{{ post.url | url }}">{{ post.data.title }}</a>
+                                    </div>
+                                </div>
+                                {{ post.content | truncate(60) | safe}}
+                                {% if post.data.excerpt|length %}
+                                <div class="post-summary">
+                                    {{ post.data.excerpt }}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endif %}    
+                    {% endfor %}
+                    </div>
+                    </div>
+                </div>
+                <h3 class="post-title post-archive">
+                    <a class="button" href="/notes">🗒️ Notes »</a>
+                </h3>
+            </section>

@@ -1,5 +1,6 @@
 ---
  title: "Google's inactive account policy may not impact Android Enterprise customers"
+ date: '2023-08-03'
  status: publish 
  author: 'Jason Bayton' 
  excerpt: "While Google typically lacks absolute clarity on the issue, it does appear enterprise customers may fall into the exclusions list Google provides for scenarios where a Google account won't be marked as inactive." 
@@ -21,9 +22,9 @@ If not, it was covered quite extensively by the media:
 
 I'd considered adding to the noise back then with an enterprise point of view, but it occurred to me there really _wasn't_ any clarity for enterprise customers leveraging a Google account to bind Android Enterprise to their EMM at that point, and so I've been busy working in the background to understand the implications for Android Enterprise customers and if there's truly a mandate to keep the account active in order to prevent the bind from being deleted, and thusly, all enrolled devices becoming either unmanageable or wiped entirely (depending on EMM).
 
-The good news is, per my understanding, Google is working on a solution for the enterprise bind use case that will exclude Google accounts associated to an active bind from being subject to the inactivity policy. There is no official word on this as yet (I'll update when that changes), so this is obviously, and unfortunately, subject to change.
+The good news is, per my understanding, Google is working on a solution for the enterprise bind use case that will address Google accounts associated to an active bind being subject to the inactivity policy. There is no official word on this as yet (I'll update when that changes), so this is obviously, and unfortunately, subject to change.
 
-That said, since the original May announcement the list of exclusions to this policy have grown. Given it doesn't go live before December 2023, there's still time to fine-tune it, and do so I'm certain they will.
+That said, since the original May announcement the list of exclusions to this policy has grown. Given it doesn't go live before December 2023, there's still time to fine-tune it, and do so I'm certain they will.
 
 ## Summarising the change
 
@@ -55,17 +56,23 @@ Arguably even if organisations sign in to the account, this may not be enough to
 
 ## What happens if the account responsible for the Android Enterprise bind is deleted?
 
-When a Google account is used to bind Android Enterprise to an EMM, an enterprise ID (as developers see it), or Organisation ID (as customers see it) is created. Every policy, device, [application](/android/create-and-manage-private-apps-for-android-enterprise/), etc, is then associated to this enterprise ID, and the EMM is granted permission to manage everything within that enterprise ID respectfully. 
+When a Google account is used to bind Android Enterprise to an EMM, an enterprise ID (as developers see it), or Organisation ID (as customers see it) is created. Every policy, device, [application](/android/create-and-manage-private-apps-for-android-enterprise/), etc, is then associated to this enterprise ID, and the EMM is granted permission to manage everything within that enterprise ID respectfully.
 
-That Google account becomes the primary account associated with the bind. Others can be added, and I'll touch on that shortly, but by default it is just the primary account used to create the bind in the first place that remains associated with it. 
+That Google account becomes the primary account associated with the bind. Others can be added, and I'll touch on that shortly, but by default it is just the primary account used to create the bind in the first place that remains associated with it.
 
-If this account is deleted, the enterprise - the bind - is deleted with it. Depending on the EMM this can result in anything from loss of management capabilities, with devices effectively stuck with the policy and state they are in at the time the bind is deleted, to an immediate wipe of the entire estate (and obviously an [inability to re-enrol(/android/android-enterprise-faq/factory-reset-on-enrolment/)]). These variances exist due to various custom DPCs, EMM logic, and of course AMAPI.
+<div class="callout">
 
-Beyond devices however, any uploaded applications, policies, web apps, or any other data associated with the bind is also unrecoverably deleted.
+A feature request here would be to provide a means of adding multiple accounts to the bind during the binding process. There's no visibility today of the ability to add multiple accounts to administer the bind in the current setup flow, and organisations will only come to know this is possible if they actively log in and manage the bind through [admin settings](https://play.google.com/work/adminsettings) at a later time.
+
+</div>
+
+If this account is deleted, the enterprise - the bind - is deleted with it. Depending on the EMM this can result in anything from loss of management capabilities, with devices effectively stuck with the policy and state they are in at the time the bind is deleted, to an immediate wipe of the entire estate (and obviously an [inability to re-enrol](/android/android-enterprise-faq/factory-reset-on-enrolment/)). These variances exist due to various custom DPCs, EMM logic, and of course AMAPI.
+
+Beyond devices however, any uploaded applications become inaccessible, policies, web apps, or any other data associated with the bind are also unrecoverably deleted.
 
 ## What can organisations do to safeguard against deletion?
 
-Understandably with the devastation this can cause to an organisation - I actively oversee multiple 10s and a few 100 thousand unit deployments that would devastate company operations if they were to fall offline or completely reset - it's pertinent to take actions that don't entirely rely on Google making an exception to protect the bind. Here are some things you can do:
+Understandably with the devastation this can cause to an organisation - I actively oversee multiple 10s and a few 100 thousand unit deployments that would cripple company operations if they were to fall offline or completely reset - it's pertinent to undertake actions to ensure the continuity strategy doesn't entirely rely on Google making an exception to protect the bind. Here are some things you can do:
 
 ### Add more owners to the bind management
 
@@ -75,9 +82,9 @@ If only one account manages a bind and the account is deleted, as above, the bin
 
 ### Use domain-based Google accounts
 
-Not Google Workspace. Google doesn't support Google Workspace accounts managing the bind. Rather, when you sign up for a Google account, click the small link to use an existing domain, and set an account up using the corporate email domain of your organisation. Group mailboxes are a safe bet, offering multiple admins the ability to interact with the account even in high employee churn environments. 
+Not Google Workspace. Google doesn't support Google Workspace accounts managing the bind. Rather, when you sign up for a Google account, click the small link to use an existing domain, and set an account up using the corporate email domain of your organisation. Group mailboxes are a safe bet, offering multiple admins the ability to interact with the account even in high employee churn environments.
 
-Again this won't work for organisations that lean on Google Workspace, so if it's not possible to create an account under your organisation's domain, ensure the recovery information is added, and again aim for a group/shared mailbox where multiple admins have access to avoid losing access to the Google account in future. 
+Again this won't work for organisations that lean on Google Workspace, so if it's not possible to create an account under your organisation's domain, ensure the recovery information is added, and again aim for a group/shared mailbox where multiple admins have access to avoid losing access to the Google account in future.
 
 Ensuring emails Google sends out land in a monitored inbox drastically reduces the likelihood of:
 
@@ -88,10 +95,12 @@ Ensuring emails Google sends out land in a monitored inbox drastically reduces t
 
 Definitely not a personal account, but rather consider an existing group or departmental Google account that sees active use. One example may be a developer account used to publish to Google Play, as this also provides additional flexibility for managing private applications on a more granular level through the Google Play Console rather than the Google Play iFrame, avoiding bind lock-in should it be necessary to ever start afresh.
 
-An active account will not be subject to the inactivity policy, naturally, though consideration must be given to who has access to what may be very important accounts in some organisations. 
+An active account will not be subject to the inactivity policy, naturally, though consideration must be given to who has access to what may be very important accounts in some organisations.
 
-## Bring on the exclusion
+## Bring on the solution
 
-The above suggestions can and should be considered irrespective of the inactivity policy, but for those particularly concerned by Google's approach to this, hopefully the knowledge they're _working on it_ will put minds at ease. 
+The above suggestions can and should be considered irrespective of the inactivity policy, but for those particularly concerned by Google's approach to this, hopefully the knowledge they're _working on it_ will put minds at ease.
 
-This is an unfortunate reality of consumer policies impacting organisations which unfortunately do happen often given Google's size, consumer focus, and shared infrastructure. Hopefully in time they'll continue to improve how they approach enterprise in the way they have with private application approval policies, Play Store policy escalations, and so on. One day they may even be able to hash these challenges out before the consumer team(s) make their announcements 🙂
+This is a reality of consumer policies impacting organisations which unfortunately does happen quite often given Google's size, consumer focus, and shared infrastructure between teams. Hopefully in time they'll continue to improve how they approach enterprise in the way they have with private application approval policies, Play Store policy escalations, and so on. One day they may even be able to hash these challenges out before the consumer team(s) make their announcements 🙂
+
+In the meantime, go forth and protect your bind(s)!

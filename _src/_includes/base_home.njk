@@ -17,72 +17,27 @@
                     {% renderFile "./_src/_includes/_parts/home/banner.md" %}
                 </div>
                 <div id="intro_android">
-                    <img id="android_head" src="/img/aec.webp" width="140px" alt="android docs">
-                    <p>Get started with Android Enterprise</p>
-                    <a id="android_doc_link" href="/android">📖 Read the docs</a>
+                    <img id="android_head" src="/img/aec.webp" width="260px" alt="android docs">
+                </div>
+                <div id="intro_subheading">
+                    {% renderFile "./_src/_includes/_parts/home/subheading.md" %}
+                </div>
+                <div id="intro_cta">
+                    <h3 class="cta">
+                        <a class="button" href="/support">Get in touch</a>
+                    </h3>
                 </div>
                 <div id="intro_text">
-                    <details>
-                        <summary>About</summary>
+                    <!--details>
+                        <summary>About</summary-->
                         {{ content | safe }}
-                    </details>
+                    <!--/details-->
                 </div>
-            </section>
-
-            <section id="hero_banner" class="home-section">
-                <h2 class="section-title">
-                    Android Talks Enterprise 
-                </h2>
-                <div id="af_group">
-                    <div id="banner_left">
-                        {% renderFile "./_src/_includes/_parts/home/bannertext.md" %}
-                    </div>
-                    <div id="banner_right">
-                        <div id="af_text">
-                            {% renderFile "./_src/_includes/_parts/home/video.md" %}
-                        </div>
-                    </div>
-                </div>
-                <!--h3 class="post-title post-archive">
-                    <a class="button" href="/book/">✍️ See the book »</a>
-                </h3-->
-            </section>
-
-            <section id="trusted_logos" class="home-section">
-                <div id="trusted_container">
-                    <div id="trusted_textgroup">
-                        <h2 class="section-title">
-                            I make relevant, informative documentation for Android Enterprise.
-                        </h2>
-                    </div>
-                    <div id="android_doc_grid">
-                    {% for tag in android_tags %}
-                    {% if loop.index0 < 3 %}
-                        <div class="android-doc-grid-group">
-                            <h2>{{ tag.name }}</h2>
-                            {% set taglist = collections[ tag.name ] %}
-                            <div class="android-topic">
-                                <ul>
-                                {% for post in taglist %}
-                                {% if loop.index0 < 4 %}
-                                    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-                                {% endif %}
-                                {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
-                    {% endif %}
-                    {% endfor %}
-                    </div>
-                </div>
-                <h3 class="post-title post-archive">
-                    <a class="button" href="/android">📚 View the docs »</a>
-                </h3>
             </section>
 
             <section id="posts" class="home-section">
                 <h2 class="section-title">
-                    And when I'm not writing documentation, I write about the goings-on in Android and other topics. 
+                    Latest articles 
                 </h2>
                 <div id="post_container">
                     <div class="post-column">
@@ -147,9 +102,111 @@
                     </div>
                 </div>
                 <h3 class="post-title post-archive">
-                    <a class="button" href="/blog">✍️ View the archive »</a>
+                    <a class="button" href="/blog">✍️ Archive »</a>
                 </h3>
             </section>
+
+            <section id="hero_banner" class="home-section">
+                <h2 class="section-title">
+                    Videos 
+                </h2>
+                <div id="af_group">
+                    <div id="banner_left">
+                        {% renderFile "./_src/_includes/_parts/home/bannertext.md" %}
+                    </div>
+                    <div id="banner_right">
+                        <div id="af_text">
+                            {% renderFile "./_src/_includes/_parts/home/video.md" %}
+                        </div>
+                    </div>
+                </div>
+                <div id="af_group_split">
+                    <div id="video_left">
+                        {% renderFile "./_src/_includes/_parts/home/video2.md" %}
+                    </div>
+                    <div id="banner_right">
+                        <div id="video_right">
+                            {% renderFile "./_src/_includes/_parts/home/video3.md" %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="trusted_logos" class="home-section">
+                <div id="trusted_container">
+                    <div id="trusted_textgroup">
+                        <h2 class="section-title">
+                            Docs and resources
+                        </h2>
+                    </div>
+                    <div id="doc_container">
+                        <div class="post-column">
+                            {% for post in collections["android-docs"] | reverse %}
+                            {% if loop.index0 < 5 %}
+                            <div class="post-block">
+                                <div class="post-body">
+                                    <div class="post-meta post-meta-condensed">
+                                        <div class="meta-single">
+                                            {{ post.date | dateFull }}
+                                        </div>
+                                        <div class="meta-single">
+                                            {% for tag in post.data.tags %}
+                                            {% if not tag.includes("android-docs") %}
+                                            #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <h3 class="post-title">
+                                        <a href="{{ post.url }}">{{ post.data.title }}</a>
+                                    </h3>
+                                    {% if post.data.excerpt|length %}
+                                    <div class="post-summary">
+                                        {{ post.data.excerpt }}
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="post-column">
+                        {% for post in collections["android-docs"] | reverse | offset(5) %}
+                        {% if loop.index0 < 5 %}
+                        <div class="post-block">
+                            <div class="post-body">
+                                <div class="post-meta post-meta-condensed">
+                                    <div class="meta-single">
+                                        {{ post.date | dateFull }}
+                                    </div>
+                                    <div class="meta-single">
+                                        {% for tag in post.data.tags %}
+                                        {% if not tag.includes("android-docs") %}
+                                        #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                                        {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <h3 class="post-title">
+                                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                                </h3>
+                                {% if post.data.excerpt|length %}
+                                <div class="post-summary">
+                                    {{ post.data.excerpt }}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endif %}    
+                    {% endfor %}
+                    </div>
+                    </div>
+                </div>
+                <h3 class="post-title post-archive">
+                    <a class="button" href="/android">📚 Docs »</a>
+                </h3>
+            </section>
+
         </content>
         <footer>
             {% include "./_parts/footer.njk" %}

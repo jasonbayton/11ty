@@ -1,5 +1,5 @@
 ---
-title: 'Infobyte: Did you know? Android Enterprise fully managed provisioning methods'
+title: 'Infobyte: Android Enterprise fully managed provisioning methods'
 published: '2018-10-18T21:42:44+01:00'
 status: publish
 author: 'Jason Bayton'

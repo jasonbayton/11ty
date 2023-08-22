@@ -19,7 +19,7 @@ In spite of common misconceptions, certainly not aided by folks like the [NCSC p
 
 Due to the memory constraints associated with Android Go devices, the work profile deployment scenario in the past has been recommended against, and since Android 12 is optional (factoring in the increased memory requirements), and therefore dependent on the OEM for implementation. 
 
-In addition, since late 2020 [Android Go has also supported zero-touch by default](/android/android-enterprise-faq/#:~:text=on%208.0%2B%20devices.-,Does%20Android%20Go%20support%20zero%2Dtouch,-%3F%20%23), which was also previously opt-in for OEMs prior to ZT's [integration with Google Play Services](https://bayton.org/blog/2020/11/google-announce-big-changes-to-zero-touch/).
+In addition, since late 2020 [Android Go has also supported zero-touch by default](/android/android-enterprise-faq/#does-android-go-support-zerotouch), which was also previously opt-in for OEMs prior to ZT's [integration with Google Play Services](https://bayton.org/blog/2020/11/google-announce-big-changes-to-zero-touch/).
 
 Not only then has Android Go supported Android Enterprise for many years, but it has improved over time.
 

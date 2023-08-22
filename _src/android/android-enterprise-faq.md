@@ -9,7 +9,7 @@ tags:
     - General
 layout: base.njk
 eleventyNavigation:
-  order: 6000
+  order: 2000
 ---
 Below you’ll find a number of frequently asked questions I receive related to Android Enterprise.
 
@@ -60,27 +60,6 @@ Below you’ll find a number of frequently asked questions I receive related to 
 {% for post in collections['FAQ'] %}
 {% for tag in post.data.categories %}
 {% if tag.includes("Fully managed") %}
-<div class="post-block">
-<div class="post-body">
-
-### [{{ post.data.title }}]({{ post.url | url }})
-
-<div class="post-content">
-
-{{ post.content | safe }}
-
-</div>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
-
-## Work profiles on fully managed devices, work profiles on company owned devices (COPE) 
-
-{% for post in collections['FAQ'] %}
-{% for tag in post.data.categories %}
-{% if tag.includes("COPE") %}
 <div class="post-block">
 <div class="post-body">
 
