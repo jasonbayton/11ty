@@ -1,1 +1,1 @@
-Simplifying modern Android management
+I've helped hundreds of organisations deploy Android Enterprise 

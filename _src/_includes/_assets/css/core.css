@@ -177,6 +177,10 @@ a {
 }
 
 a.active {
+  color: var(--blood-orange);
+}
+
+.aside-section ul li a.active {
   color: var(--bright);
 }
 
@@ -410,7 +414,7 @@ content#page, content#search, content#archive {
 
 #intro_heading {
   grid-area: 2/1/2/2;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 80px;
 }
 
@@ -434,15 +438,15 @@ content#page, content#search, content#archive {
   text-align: center;
   font-size: 24px;
   padding: 10px;
-  background-color: var(--orange-opacity);
+  /* background-color: var(--orange-opacity); */
   border-radius: 5px;
+  display: inherit;
 }
 
 #android_head {
-  width: 140px;
-  height: 116px;
   margin: 0 auto;
-  padding-top: 20px;
+  /* padding-top: 20px; */
+  align-self: center;
 }
 
 #header_banner {
