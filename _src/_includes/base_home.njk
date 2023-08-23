@@ -12,29 +12,30 @@
             <!-- // -->
         </header>
         <content id="home">
-            <section id="intro_block" class="home-section">
-                <div id="intro_heading">
-                    {% renderFile "./_src/_includes/_parts/home/banner.md" %}
-                </div>
-                <div id="intro_android">
-                    <img id="android_head" src="/img/aec.webp" width="260px" alt="android docs">
-                </div>
-                <div id="intro_subheading">
-                    {% renderFile "./_src/_includes/_parts/home/subheading.md" %}
-                </div>
-                <div id="intro_cta">
-                    <h3 class="cta">
-                        <a class="button" href="/support">Get in touch</a>
-                    </h3>
-                </div>
-                <div id="intro_text">
-                    <!--details>
-                        <summary>About</summary-->
-                        {{ content | safe }}
-                    <!--/details-->
-                </div>
+            <section class="intro_wrapper">
+                <section id="intro_block" class="home-section">
+                    <div id="intro_heading">
+                        {% renderFile "./_src/_includes/_parts/home/banner.md" %}
+                    </div>
+                    <div id="intro_android">
+                        <img id="android_head" src="/img/aec.webp" width="260px" alt="android docs">
+                    </div>
+                    <div id="intro_subheading">
+                        {% renderFile "./_src/_includes/_parts/home/subheading.md" %}
+                    </div>
+                    <div id="intro_cta">
+                        <h3 class="cta">
+                            <a class="button" href="/support">Get in touch</a>
+                        </h3>
+                    </div>
+                    <div id="intro_text">
+                        <!--details>
+                            <summary>About</summary-->
+                            {{ content | safe }}
+                        <!--/details-->
+                    </div>
+                </section>
             </section>
-
             <section id="posts" class="home-section">
                 <h2 class="section-title">
                     Latest articles 

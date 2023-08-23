@@ -1,1 +1,1 @@
-From mobility strategy, product selection, validation, and deployment to product consultancy, GMS device certification, professional services, and more. I help organisations around the world succeed with Android in enterprise.
+Offering consultancy on mobility strategy, product selection & validation, implementation, deployment, GMS certification, product support, training, and more, I help organisations around the world succeed with Android in enterprise.
