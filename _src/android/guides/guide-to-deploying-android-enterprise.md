@@ -8,6 +8,7 @@ type: post
 tags: 
     - Enterprise
 layout: base.njk
+permalink: false
 ---
 
 ## Foreword
