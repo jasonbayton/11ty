@@ -453,6 +453,15 @@ content#home {
   grid-row: 4/5;
 }
 
+.post-body-notes {
+  font-size: 18px;
+}
+
+.post-body-notes .post-meta {
+  padding: 0;
+  color: var(--blood-orange);
+}
+
 content#doc {
   display: grid;
   grid-template-columns: 1.4fr 4fr;
@@ -1363,6 +1372,7 @@ section#sharebox {
   padding: 20px;
   background: var(--orange);
   border-radius: 5px;
+  color: #000000;
 }
 
 .share-text {
