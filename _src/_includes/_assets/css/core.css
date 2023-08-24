@@ -423,7 +423,7 @@ content#page, content#search, content#archive {
   grid-column-gap: 20px;
 }
 
-#intro_heading {
+#intro_heading, .home-heading {
   font-weight: 400;
   font-size: 70px;
 }
@@ -436,7 +436,7 @@ content#page, content#search, content#archive {
   justify-self: center;
 }
 
-#intro_heading p {
+#intro_heading p, .home-heading p {
   margin: 0;
 }
 
@@ -970,12 +970,12 @@ footer {
     padding: unset;
   }
 
-  #intro_heading, #intro_text, #intro_android {
+  #intro_heading, .home-heading, #intro_text, #intro_android {
     grid-area: auto;
     border: none;
   }
 
-  #intro_heading {
+  #intro_heading, .home-heading {
     font-size: 50px;
     padding-bottom: 30px;
   }
@@ -1018,7 +1018,7 @@ footer {
 }
 
 @media (max-width: 390px) {
-  #intro_heading {
+  #intro_heading, .home-heading {
     font-size: 36px;
     text-align: center;
   }
