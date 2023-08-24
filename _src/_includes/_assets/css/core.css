@@ -1013,7 +1013,7 @@ footer {
 @media (max-width: 490px) {
 
   #android_head {
-    max-width: 70px;
+    max-width: 140px;
   }
 }
 
@@ -1021,6 +1021,10 @@ footer {
   #intro_heading {
     font-size: 36px;
     text-align: center;
+  }
+
+  #android_head {
+    max-width: 70px;
   }
 }
 
