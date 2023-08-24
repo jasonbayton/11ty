@@ -1,0 +1,70 @@
+            <section id="what_i_do" class="home-section">
+                <div class="home-heading">
+                    {% renderFile "./_src/_includes/_parts/home/what-i-do-heading.md" %}
+                </div>
+                <div class="home-subheading">
+                    {% renderFile "./_src/_includes/_parts/home/what-i-do-subheading.md" %}
+                </div>
+                <div id="highlight_container">
+                    <div class="highlight-section" id="what_i_do_docs">
+                        <div class="section-title">
+                            <h2>Documentation & resources</h2>
+                        </div>
+                        <div class="highlight-section-content-text">
+                            {% renderFile "./_src/_includes/_parts/home/what-i-do-docs.md" %}
+                        </div>
+                    </div>
+                    <div class="highlight-section highlight-offside" id="">
+                        <div class="highlight-offside-heading">
+                            Recently updated
+                        </div>
+                        {% for post in collections["android-docs"] | reverse %}
+                            {% if loop.index0 < 5 %}
+                            <div class="post-block">
+                                <div class="post-body">
+                                    <div class="post-meta post-meta-condensed">
+                                        <div class="meta-single">
+                                            <i class="fas fa-edit"></i> {{ post.date | dateFull }}
+                                        </div>
+                                        <div class="meta-single">
+                                            {% for tag in post.data.tags %}
+                                            {% if not tag.includes("android-docs") %}
+                                            #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="post-title">
+                                        <a href="{{ post.url }}">{{ post.data.title }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div class="highlight-section" id="what_i_do_community">
+                        <div class="section-title">
+                            <h2>Community</h2>
+                        </div>
+                        <div class="highlight-section-content-text">
+                            {% renderFile "./_src/_includes/_parts/home/what-i-do-community.md" %}
+                        </div>
+                    </div>
+                    <div class="highlight-section" id="what_i_do_validation">
+                        <div class="section-title">
+                            <h2>Product validation</h2>
+                        </div>
+                        <div class="highlight-section-content-text">
+                            {% renderFile "./_src/_includes/_parts/home/what-i-do-community.md" %}
+                        </div>
+                    </div>
+                    <div class="highlight-section" id="what_i_do_consultancy">
+                        <div class="section-title">
+                            <h2>Consultancy</h2>
+                        </div>
+                        <div class="highlight-section-content-text">
+                            {% renderFile "./_src/_includes/_parts/home/what-i-do-consultancy.md" %}
+                        </div>
+                    </div>
+                </div>
+            </section>

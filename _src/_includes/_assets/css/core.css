@@ -17,8 +17,7 @@
   --blood-orange: #ce3800;
   --brand-background: #ffffff;
   --brand-text: #333333;
-  --blue-green: #2596BE;
-  --dark-blue: #00284d;
+  --main-blue: #0283bd;
 }
 
 [data-theme="dark"] {
@@ -185,7 +184,7 @@ a.active {
 }
 
 .aside-section ul li a.active {
-  color: var(--bright);
+  color: var(--brand-text);
 }
 
 a:hover {
@@ -498,6 +497,10 @@ content#page, content#search, content#archive {
 
 #intro_subheading, .home-subheading {
   font-size: 26px;
+}
+
+.partner-heading {
+  text-align: center;
 }
 
 #intro_cta {
@@ -1147,8 +1150,9 @@ footer {
 #aside {
   font-size: 18px;
   border-radius: 5px;
-  background: var(--orange-opacity);
+  background: var(--main-blue);
   padding: 20px;
+  color: var(--bright);
 }
 
 .aside-title h2 {
@@ -1353,7 +1357,7 @@ section#sharebox {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   padding: 20px;
-  background: var(--orange-opacity);
+  background: var(--orange);
   border-radius: 5px;
 }
 
@@ -1376,7 +1380,7 @@ section#link_out {
 
 .links-out {
   padding: 20px;
-  background-color: var(--orange-opacity);
+  background-color: var(--main-blue);
   border-radius: 5px;
   display: block;
 }
