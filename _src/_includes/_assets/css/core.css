@@ -422,7 +422,7 @@ content#home {
 }
 
 .highlight-section > .post-block > .post-body {
-  border-left: 4px solid var(--orange);
+  border-left: 4px solid var(--main-blue);
   padding-left: 10px
 }
 
@@ -1122,7 +1122,7 @@ footer {
     grid-gap: 50px;
   }
 
-  #what_i_do_community, #what_i_do_consultancy {
+  #what_i_do_community, #what_i_do_consultancy, #what_i_do_validation {
     grid-column: unset;
     grid-row: unset;
   }
@@ -1397,6 +1397,12 @@ section#link_out {
   background-color: var(--main-blue);
   border-radius: 5px;
   display: block;
+  color: var(--bright);
+}
+
+section#note_overview {
+  border-radius: 5px;
+  background: var(--orange);
   color: var(--bright);
 }
 

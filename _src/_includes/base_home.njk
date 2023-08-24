@@ -95,7 +95,7 @@
                                     </div>
                                 </div>
                                 <div class="post-summary">
-                                    {{ post.content | truncate(30) | safe}}
+                                    {{ post.content | truncate(30) | safe}} <a href="{{ post.url | url }}" class="blood-orange">more</a>
                                 </div>
                             </div>
                         </div>
