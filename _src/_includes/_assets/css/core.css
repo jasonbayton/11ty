@@ -151,6 +151,10 @@ h5 { font-size: 20px; }
   transition: all 0.2s ease;
 }
 
+.desktop-hidden {
+  display: none;
+}
+
 blockquote {
   padding: 20px 20px 20px 60px;
   margin: 20px 0;
@@ -693,6 +697,7 @@ section#trusted_logos #trusted_container {
 .vendor-logo img {
   max-width: 100%;
   width: 116px;
+  border-radius: 0;
 }
 
 #vendor_disclaimer {
@@ -913,8 +918,6 @@ footer {
   100% { transform: translateX(-100%); }  /* This value should be the total width of all the logos */
 }
 
-
-
 /* Media */
 
 @media (max-width: 1190px) {
@@ -958,6 +961,10 @@ footer {
 
   .mobile-hidden {
     display: none;
+  }
+
+  .desktop-hidden {
+    display: unset;
   }
 
   #mobile_aside {
@@ -1076,9 +1083,18 @@ footer {
     grid-template-columns: repeat(4, 1fr);
   }
 
+  #partner_logos #vendor_logo_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   #vendor_disclaimer {
     font-size: 10px;
-    padding-top: 15px;
+    padding-top: 15px; 
+  }
+
+  #partner_logos #vendor_disclaimer {
+    text-align: center;
+    padding-top: 5px;
   }
 
   .home-section {
