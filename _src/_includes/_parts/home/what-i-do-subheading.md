@@ -1,0 +1,1 @@
+Whether you've found me through the content I've published, a referral, or just stumbled upon me out of the blue, here are some of the things I do.

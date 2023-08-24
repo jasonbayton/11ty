@@ -387,6 +387,65 @@ content#home {
   color: var(--bright);
 }
 
+#highlight_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px 100px;
+  padding-top: 50px;
+}
+
+.highlight-section h2 {
+  margin: 0;
+}
+
+.highlight-section {
+  border: 4px solid var(--orange);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.highlight-offside {
+  border: none;
+  align-self: center;
+}
+
+.highlight-offside-heading {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.highlight-section > .post-block {
+  padding: 10px 0;
+}
+
+.highlight-section > .post-block > .post-body {
+  border-left: 4px solid var(--orange);
+  padding-left: 10px
+}
+
+.highlight-section > .post-block > .post-body > .post-meta {
+  font-size: 16px;
+  padding: 0 0 5px;
+}
+
+.highlight-section > .post-block > .post-body > .post-title {
+  font-size: 18px;
+}
+
+.highlight-section > .post-block > .post-body > .post-title a {
+  text-decoration: none;
+}
+
+#what_i_do_community {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#what_i_do_consultancy {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
 content#doc {
   display: grid;
   grid-template-columns: 1.4fr 4fr;
@@ -423,12 +482,17 @@ content#page, content#search, content#archive {
   grid-column-gap: 20px;
 }
 
-#intro_heading, .home-heading {
+#intro_heading {
   font-weight: 400;
   font-size: 70px;
 }
 
-#intro_subheading {
+.home-heading {
+  font-weight: 400;
+  font-size: 55px;
+}
+
+#intro_subheading, .home-subheading {
   font-size: 26px;
 }
 
@@ -721,6 +785,19 @@ footer {
   padding-right: 30px;
 }
 
+#partner_logos {
+  padding: 0 40px;
+}
+
+#partner_logos #vendor_disclaimer {
+  text-align: right;
+}
+
+#partner_logos #vendor_logo_container {
+  margin: 0;
+  padding: 50px 0 0;
+}
+
 #footer_logos #vendor_logo_container {
   margin-top: 0;
 }
@@ -848,7 +925,7 @@ footer {
     grid-column: 1/-1;
   }
 
-  #intro_subheading {
+  #intro_subheading, .home-subheading {
     grid-column: 1/-1;
   }
 }
@@ -872,7 +949,7 @@ footer {
     font-size: 20px;
   }
 
-  #intro_subheading {
+  #intro_subheading, .home-subheading{
     font-size: 22px;
   }
 
@@ -975,8 +1052,13 @@ footer {
     border: none;
   }
 
-  #intro_heading, .home-heading {
+  #intro_heading {
     font-size: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .home-heading {
+    font-size: 40px;
     padding-bottom: 30px;
   }
 
@@ -1004,6 +1086,16 @@ footer {
     padding: 50px 40px
   }
 
+  #highlight_container {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+
+  #what_i_do_community, #what_i_do_consultancy {
+    grid-column: unset;
+    grid-row: unset;
+  }
+
   #footer_logos {
     max-width: 500px;
   }
@@ -1018,9 +1110,18 @@ footer {
 }
 
 @media (max-width: 390px) {
-  #intro_heading, .home-heading {
+  #intro_heading {
     font-size: 36px;
     text-align: center;
+  }  
+  
+  .home-heading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .home-subheading {
+    font-size: 20px;
   }
 
   #android_head {
