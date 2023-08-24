@@ -448,6 +448,10 @@ content#home {
   grid-column: 1/2;
   grid-row: 3/4;
 }
+#what_i_do_validation {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
 
 content#doc {
   display: grid;
@@ -1383,6 +1387,7 @@ section#link_out {
   background-color: var(--main-blue);
   border-radius: 5px;
   display: block;
+  color: var(--bright);
 }
 
 @media (max-width: 900px) {
