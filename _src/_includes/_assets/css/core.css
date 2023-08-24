@@ -1010,14 +1010,17 @@ footer {
 
 }
 
+@media (max-width: 490px) {
+
+  #android_head {
+    max-width: 70px;
+  }
+}
+
 @media (max-width: 390px) {
   #intro_heading {
     font-size: 36px;
     text-align: center;
-  }
-
-  #android_head {
-    max-width: 70px;
   }
 }
 
