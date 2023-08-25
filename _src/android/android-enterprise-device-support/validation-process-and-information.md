@@ -23,14 +23,6 @@ FeaturedBackground:
 While I am still actively testing devices, I no longer publish them here. Consider the below to be historical, including the advanced testing, and not to be taken as current status of a device. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. 
 
 </div>
- 
-<div class="callout callout-success">
-
-### Return to device support
-
-Just looking for details of devices tested? Head back to [Android Enterprise device support](/android/android-enterprise-device-support/).
-
-</div>
 
 <div class="callout callout-info">
 
