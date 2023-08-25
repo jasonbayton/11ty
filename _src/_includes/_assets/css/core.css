@@ -184,7 +184,13 @@ a.active {
 }
 
 .aside-section ul li a.active {
-  color: var(--brand-text);
+  color: var(--blood-orange);
+  background: var(--background);
+  display: block;
+  margin: 0 -24px 0 -10px;
+  padding-left: 5px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px 0 0 5px;
 }
 
 a:hover {
@@ -1088,6 +1094,14 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     grid-row: 1/1;
+  }
+
+  .aside-section ul li a.active {
+    background: none;
+    display: unset;
+    margin: unset;
+    padding: unset;
+    border-radius: unset;
   }
 
   #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container {
