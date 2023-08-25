@@ -416,6 +416,7 @@ content#home {
 .highlight-offside {
   border: none;
   align-self: center;
+  font-size: 18px;
 }
 
 .highlight-offside-heading {
@@ -448,6 +449,24 @@ content#home {
 #what_i_do_community {
   grid-column: 2/3;
   grid-row: 2/3;
+}
+
+#community_offside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.community-icons {
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.community-heading {
+  text-align: center;
 }
 
 #what_i_do_consultancy {
