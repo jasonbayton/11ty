@@ -167,12 +167,9 @@ If you’re interested in having devices tested:
 
 ### Who am I?
 
-I’m a senior EMM consultant and subject matter expert (SME) for Android and Android Enterprise. I’ve been working with enterprise mobile solutions for a [number of years](https://linkedin.com/in/jasonbayton) and have an [in-depth knowledge of Android Enterprise](/android/) so I know how an ideal implementation looks and behaves. My work has been referenced by MobileIron, Wandera, BrianMadden.com and others. Check out my [about](/about/) page for examples.
+I’m a certified subject matter expert (SME) for Android and Android Enterprise. I’ve been working with enterprise mobile solutions for a [number of years](https://linkedin.com/in/jasonbayton) and have an [in-depth knowledge of Android Enterprise](/android/) so I know how an ideal implementation looks and behaves. My work has been referenced by MobileIron, Wandera, BrianMadden.com (RIP) and others. Check out my [about](/about/) page for examples.
 
-> Digging the new Android zero-touch guide from [@JasonBayton](https://twitter.com/JasonBayton?ref_src=twsrc%5Etfw), the best independent resource for Android enterprise.   
->  <https://t.co/BFTZfKFsrg>
-> 
-> — Russell Mohr (@rmohr) [November 5, 2017](https://twitter.com/rmohr/status/927181646473912321?ref_src=twsrc%5Etfw)
+https://twitter.com/rmohr/status/927181646473912321
 
 ### Why test devices?
 
