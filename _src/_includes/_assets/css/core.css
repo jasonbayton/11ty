@@ -396,6 +396,53 @@ content#home {
   color: var(--bright);
 }
 
+/* Logo ticker */
+
+.ticker {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.img-ticker {
+  animation: ticker 160s linear infinite;
+  animation-delay: 1s;
+  padding-left: 150%;
+}
+
+.ticker-item img {
+  border-radius: 0;
+  max-width: unset;
+}
+
+/* End ticker */
+
+
 #highlight_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -833,6 +880,7 @@ footer {
 
 #partner_logos {
   padding: 50px 40px 0;
+  overflow: hidden;
 }
 
 #partner_logos #vendor_disclaimer {
