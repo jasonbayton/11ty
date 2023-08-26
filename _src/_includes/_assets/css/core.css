@@ -432,6 +432,7 @@ content#home {
 .img-ticker {
   animation: ticker 160s linear infinite;
   animation-delay: 1s;
+  animation-direction: alternate;
   padding-left: 150%;
 }
 
@@ -1016,6 +1017,13 @@ footer {
     grid-column: 1/-1;
   }
 
+  .img-ticker {
+    animation: ticker 120s linear infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+    padding-left: 130%;
+  }
+
   #intro_subheading, .home-subheading {
     grid-column: 1/-1;
   }
@@ -1180,6 +1188,13 @@ footer {
     grid-template-columns: repeat(4, 1fr);
   }
 
+  .img-ticker {
+    animation: ticker 50s linear infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+    padding-left: 90%;
+  }
+
   #partner_logos #vendor_logo_container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1219,6 +1234,13 @@ footer {
   #android_head {
     max-width: 140px;
   }
+
+  .img-ticker {
+    animation: ticker 25s linear infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    padding-left: 60%;
+  }
 }
 
 @media (max-width: 390px) {
@@ -1238,6 +1260,13 @@ footer {
 
   #android_head {
     max-width: 70px;
+  }
+
+  .img-ticker {
+    animation: ticker 20s linear infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+    padding-left: 50%;
   }
 }
 
