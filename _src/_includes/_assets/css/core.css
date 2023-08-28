@@ -404,41 +404,26 @@ content#home {
   align-items: center;
   justify-content: center;
   grid-gap: 30px;
+  white-space: nowrap;
 }
 
-@-webkit-keyframes ticker {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-}
 @keyframes ticker {
   0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
+    transform: translateX(100%);
   }
   100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
+    transform: translateX(-100%);
   }
 }
 
 .img-ticker {
   animation: ticker 160s linear infinite;
-  animation-delay: 1s;
-  animation-direction: alternate;
-  padding-left: 150%;
 }
 
 .ticker-item img {
   border-radius: 0;
   max-width: unset;
+  display: inline-block;
 }
 
 /* End ticker */
@@ -1019,9 +1004,6 @@ footer {
 
   .img-ticker {
     animation: ticker 120s linear infinite;
-    animation-direction: alternate;
-    animation-delay: 1s;
-    padding-left: 130%;
   }
 
   #intro_subheading, .home-subheading {
@@ -1190,9 +1172,6 @@ footer {
 
   .img-ticker {
     animation: ticker 50s linear infinite;
-    animation-direction: alternate;
-    animation-delay: 1s;
-    padding-left: 90%;
   }
 
   #partner_logos #vendor_logo_container {
@@ -1237,9 +1216,6 @@ footer {
 
   .img-ticker {
     animation: ticker 25s linear infinite;
-    animation-delay: 1s;
-    animation-direction: alternate;
-    padding-left: 60%;
   }
 }
 
@@ -1264,9 +1240,6 @@ footer {
 
   .img-ticker {
     animation: ticker 20s linear infinite;
-    animation-direction: alternate;
-    animation-delay: 1s;
-    padding-left: 50%;
   }
 }
 
