@@ -416,6 +416,12 @@ content#home {
   }
 }
 
+#vendor_logo_container_scroll {
+  background: #ffffffb5;
+  margin: 0 -40px;
+  padding-top: 10px;
+}
+
 .img-ticker {
   animation: ticker 160s linear infinite;
 }

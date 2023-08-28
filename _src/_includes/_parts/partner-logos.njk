@@ -1,21 +1,23 @@
                                   
-                    <div id="vendor_logo_container_scroll" class='img-ticker'>
-                        <div class="ticker">
-                        {% for logo in logos %}
-                            <div class="ticker-item">
-                                <img src="{{ logo }}" width="116px" alt="vendor logo">
+                    <div id="vendor_logo_container_scroll">
+                        <div class='img-ticker'>
+                            <div class="ticker">
+                            {% for logo in logos %}
+                                <div class="ticker-item">
+                                    <img src="{{ logo }}" width="116px" alt="vendor logo">
+                                </div>
+                            {% endfor %}
+                            {% for logo in logos %}
+                                <div class="ticker-item">
+                                    <img src="{{ logo }}" width="116px" alt="vendor logo">
+                                </div>
+                            {% endfor %}
+                            {% for logo in logos %}
+                                <div class="ticker-item">
+                                    <img src="{{ logo }}" width="116px" alt="vendor logo">
+                                </div>
+                            {% endfor %}
                             </div>
-                        {% endfor %}
-                        {% for logo in logos %}
-                            <div class="ticker-item">
-                                <img src="{{ logo }}" width="116px" alt="vendor logo">
-                            </div>
-                        {% endfor %}
-                        {% for logo in logos %}
-                            <div class="ticker-item">
-                                <img src="{{ logo }}" width="116px" alt="vendor logo">
-                            </div>
-                        {% endfor %}
                         </div>
                     </div>
                     <div id="vendor_disclaimer">
