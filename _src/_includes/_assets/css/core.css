@@ -1052,6 +1052,10 @@ footer {
     display: unset;
   }
 
+  .mobile-50-padding {
+    padding-top: 50px;
+  }
+
   #mobile_aside {
     display: inherit;
     grid-column-start: 1;
