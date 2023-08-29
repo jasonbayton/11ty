@@ -12,37 +12,45 @@
             <!-- // -->
         </header>
         <content id="home">
-            <section id="intro_block" class="home-section">
-                <div id="intro_heading">
-                    {% renderFile "./_src/_includes/_parts/home/banner.md" %}
-                </div>
-                <div id="intro_android">
-                    <img id="android_head" src="/img/aec.webp" width="260px" alt="android docs">
-                </div>
-                <div id="intro_subheading">
-                    {% renderFile "./_src/_includes/_parts/home/subheading.md" %}
-                </div>
-                <div id="intro_cta">
-                    <h3 class="cta">
-                        <a class="button" href="/support">Get in touch</a>
-                    </h3>
-                </div>
-                <div id="intro_text">
-                    <!--details>
-                        <summary>About</summary-->
-                        {{ content | safe }}
-                    <!--/details-->
-                </div>
+            <section class="intro_wrapper">
+                <section id="intro_block" class="home-section">
+                    <div id="intro_heading">
+                        {% renderFile "./_src/_includes/_parts/home/heading.md" %}
+                    </div>
+                    <div id="intro_android">
+                        <img id="android_head" src="/img/aec.png" width="260px" alt="android docs">
+                    </div>
+                    <div id="intro_subheading">
+                        {% renderFile "./_src/_includes/_parts/home/subheading.md" %}
+                    </div>
+                    <div id="intro_cta">
+                        <h3 class="cta">
+                            <a class="button" href="/support">Get in touch</a>
+                        </h3>
+                    </div>
+                    <div id="intro_text">
+                            {{ content | safe }}
+                    </div>
+                </section>
             </section>
 
+            <section id="partner_logos">
+                <div class="home-subheading partner-heading">
+                    {% renderFile "./_src/_includes/_parts/home/partner-logos.md" %}
+                </div>
+                {% include "./_parts/partner-logos.njk" %}
+            </section>
+
+            {% include "./_parts/highlights_home.njk" %}
+
             <section id="posts" class="home-section">
-                <h2 class="section-title">
-                    Latest articles 
-                </h2>
                 <div id="post_container">
                     <div class="post-column">
-                    {% for post in collections.blog | reverse %}
-                    {% if loop.index0 < 3 %}
+                        <h2 class="home-heading">
+                            Latest articles 
+                        </h2>
+                        {% for post in collections.blog | reverse %}
+                        {% if loop.index0 < 6 %}
                         <div class="post-block">
                             <div class="post-body">
                                 <div class="post-meta post-meta-condensed">
@@ -69,50 +77,44 @@
                         </div>
                     {%- endif -%}
                     {%- endfor -%}
+                    <h3 class="post-title post-archive">
+                        <a class="button" href="/blog">✍️ Archive »</a>
+                    </h3>
                     </div>
                     <div class="post-column">
-                    {% for post in collections.blog | reverse | offset(3) %}
-                    {% if loop.index0 < 3 %}
+                        <h2 class="home-heading">
+                            Latest notes 
+                        </h2>
+                        {% for post in collections.notes | reverse %}
+                        {% if loop.index0 < 6 %}
                         <div class="post-block">
-                            <div class="post-body">
+                            <div class="post-body post-body-notes">
                                 <div class="post-meta post-meta-condensed">
                                     <div class="meta-single">
-                                        {{ post.date | dateFull }}
-                                    </div>
-                                    <div class="meta-single">
-                                        {% for tag in post.data.tags %}
-                                        {% if not tag.includes("blog") %}
-                                        #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                                     </div>
                                 </div>
-                                <h3 class="post-title">
-                                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-                                </h3>
-                                {% if post.data.excerpt|length %}
                                 <div class="post-summary">
-                                    {{ post.data.excerpt }}
+                                    {{ post.content | truncate(30) | safe}} <a href="{{ post.url | url }}" class="blood-orange">more</a>
                                 </div>
-                                {% endif %}
                             </div>
                         </div>
                     {% endif %}    
                     {% endfor %}
+                    <h3 class="post-title post-archive">
+                        <a class="button" href="/notes">✍️ Notes »</a>
+                    </h3>
                     </div>
                 </div>
-                <h3 class="post-title post-archive">
-                    <a class="button" href="/blog">✍️ Archive »</a>
-                </h3>
             </section>
 
             <section id="hero_banner" class="home-section">
-                <h2 class="section-title">
+                <h2 class="home-heading">
                     Videos 
                 </h2>
                 <div id="af_group">
                     <div id="banner_left">
-                        {% renderFile "./_src/_includes/_parts/home/bannertext.md" %}
+                        {% renderFile "./_src/_includes/_parts/home/vidtext.md" %}
                     </div>
                     <div id="banner_right">
                         <div id="af_text">
@@ -132,7 +134,7 @@
                 </div>
             </section>
 
-            <section id="trusted_logos" class="home-section">
+            <!--section id="trusted_logos" class="home-section">
                 <div id="trusted_container">
                     <div id="trusted_textgroup">
                         <h2 class="section-title">
@@ -205,7 +207,7 @@
                 <h3 class="post-title post-archive">
                     <a class="button" href="/android">📚 Docs »</a>
                 </h3>
-            </section>
+            </section-->
 
         </content>
         <footer>

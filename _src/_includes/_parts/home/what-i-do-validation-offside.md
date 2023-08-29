@@ -1,0 +1,7 @@
+- HMD Global
+- Motorola/Lenovo
+- Sony Mobile
+- Bullitt Group (CAT) 
+- BQ
+- OnePlus
+- Miradore (MDM)

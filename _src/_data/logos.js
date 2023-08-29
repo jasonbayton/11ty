@@ -15,7 +15,7 @@ function getRandomInt(min, max) {
 
 // Randomly select 8 logos
 let selectedLogos = [];
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 21; i++) {
     let index = getRandomInt(0, logos.length - 1);
     selectedLogos.push(logos[index]);
     logos.splice(index, 1);  // Remove the selected logo from the array to avoid duplicates

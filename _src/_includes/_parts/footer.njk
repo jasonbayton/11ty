@@ -6,12 +6,14 @@
     <div id="platinum_logo">
         <a href="https://productexperts.withgoogle.com/directory/1f367772-bddc-43cf-b200-d5b344f4f5dd"><img src="/img/platinum.svg" width="30px" alt="Platinum GPE badge"></a>
     </div>
+    {% if page.url != '/' %}
     <div id="footer_logos">
         <div id="footer_logo_text">
             Partners & organisations I've worked with 🚀
         </div>
         {% include "./trustedlogos.njk" %}
     </div>
+    {% endif %}
     <div id="made_by">
         Made in 🏴󠁧󠁢󠁷󠁬󠁳󠁿 with 🔥 by Jason Bayton. Material is © 2009-{{ footer.currentYear() }}. <br>
         Built with <a href="https://11ty.dev">{{ eleventy.generator }}</a>, most recently on {{ footer.builtAt | dateFull }}. 

@@ -55,6 +55,26 @@
                 <div class="share-text">
                     Enjoyed this content? Please share it with your social network of choice.
                 </div>
+                <div class="share-links">
+                    <div class="link-icons">
+                        <a href="https://twitter.com/intent/tweet?text={{ title | urlencode }}&url=https://bayton.org{{ page.url | urlencode }}&via=jasonbayton&hashtags=androidenterprise" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="link-icons">
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://bayton.org{{ page.url | urlencode }}&title={{ title | urlencode }}&source={{ page.url | urlencode }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="link-icons">
+                        <a href="https://reddit.com/submit?url=https://bayton.org{{ page.url | urlencode }}&title={{ title | urlencode }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-reddit"></i></a>
+                    </div>
+                    <div class="link-icons">
+                        <a href="whatsapp://send?text=https://bayton.org{{ page.url | urlencode }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="link-icons">
+                        <a href="telegram://msg_url?text=https://bayton.org{{ page.url | urlencode }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+                    </div>
+                    <div class="link-icons">
+                        <a href="mailto:?subject={{ title | urlencode }}&body=https://bayton.org{{ page.url | urlencode }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
             </section>
             {% endif %}
             {% endfor %}
@@ -144,7 +164,7 @@
 
             {% if type.includes("note") %}
             <section id="note_overview" class="">
-                <div class="border-4px border-orange border-curved padding-10 padding-lr-20 first-heading-inline">
+                <div class="padding-10 padding-lr-20 first-heading-inline">
                     <h3>What are notes?</h3>
                     <p>These are short-form posts for small updates and quick thoughts. They are automatically published to social channels, and have their own <a href="/notes/feed.xml">RSS feed</a>, too.</p>
                 </div>

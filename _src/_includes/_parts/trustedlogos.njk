@@ -1,21 +1,13 @@
 
                     <div id="vendor_logo_container">
                     {% for logo in logos %}
+                    {% if loop.index0 < 20 %}
                         <div class="vendor-logo">
                             <img src="{{ logo }}" width="116px" alt="vendor logo">
                         </div>
+                    {% endif %}
                     {% endfor %}
                     </div>
-
-                    <!--div class="logo-section" id="logo-section">
-                        <div class="logo-container" id="logo-container">
-                            {% for logo in logos %}
-                            {% if logo.includes(".svg") or logo.includes(".webp") %}      
-                            <img src="{{ logo }}" alt="Logo">
-                            {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div-->
                     <div id="vendor_disclaimer">
                         Have we worked together? Support me by <a href="https://github.com/jasonbayton/11ty/issues/new">adding your logo</a>!
                     </div>
