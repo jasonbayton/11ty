@@ -1468,6 +1468,20 @@ section#sharebox {
   padding-top: 10px;
 }
 
+.share-links {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 20px 3px 10px;
+  grid-gap: 18px;
+}
+
+.link-icons a:hover {
+  background: rgba(255, 255, 255, 0.586);
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
 section#feedback {
   grid-column: 1 / span all;
   justify-self: end;
