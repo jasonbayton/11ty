@@ -46,9 +46,9 @@
             <section id="posts" class="home-section">
                 <div id="post_container">
                     <div class="post-column">
-                        <h2 class="home-heading">
+                        <div class="home-heading">
                             Latest articles 
-                        </h2>
+                        </div>
                         {% for post in collections.blog | reverse %}
                         {% if loop.index0 < 6 %}
                         <div class="post-block">
@@ -82,9 +82,9 @@
                     </h3>
                     </div>
                     <div class="post-column">
-                        <h2 class="home-heading">
+                        <div class="home-heading">
                             Latest notes 
-                        </h2>
+                        </divh2>
                         {% for post in collections.notes | reverse %}
                         {% if loop.index0 < 6 %}
                         <div class="post-block">
@@ -109,9 +109,9 @@
             </section>
 
             <section id="hero_banner" class="home-section">
-                <h2 class="home-heading">
+                <div class="home-heading">
                     Videos 
-                </h2>
+                </div>
                 <div id="af_group">
                     <div id="banner_left">
                         {% renderFile "./_src/_includes/_parts/home/vidtext.md" %}
