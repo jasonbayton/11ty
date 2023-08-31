@@ -22,7 +22,7 @@ The brand new Fairphone 5 takes this commitment even further, as the first devic
 
 At this point the FP team have more than a decade of experience building Android devices, so some of this commitment is coming from a place of understanding the OS intimately, but they've definitely been given a bit of a leg up by Qualcomm this time around in the form of the QCM6490, an LTS chipset typically more at home in the rugged/dedicated market powering Zebra, Honeywell, and other enterprise-grade devices.
 
-Qualcomm offers support on their chosen chipsets for several years more than their consumer chip offerings (such as the 632 in the FP3), allowing the Fairphone team to leverage official chipset vendor support for many more years, in theory. It's of course yet to be seen what Android will look like by 19 and the implications this will bring for Qualcomm once the GRF (Google Requirements Freeze) expires, but FP are certainly building on a solid foundation.
+Qualcomm offers support on their chosen chipsets for several years more than their consumer chip offerings (such as the 632 in the FP3), allowing the Fairphone team to leverage official chipset vendor support for many more years, in theory. It's of course yet to be seen what Android will look like by 19 and the implications this will bring for Qualcomm once the relevant GRFs (Google Requirements Freeze) expire, but FP are certainly building on a solid foundation.
 
 ## How does this support stack up?
 
