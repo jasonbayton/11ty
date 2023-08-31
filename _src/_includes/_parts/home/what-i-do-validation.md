@@ -5,5 +5,5 @@ Described as Android Enterprise Recommended testing on steroids, my product vali
 Are you looking for help with your Android Enterprise solution? 
 
 <h3 class="post-title post-archive">
-    <a class="button" href="/contact">Get in touch</a>
+    <a class="button" href="/android/android-enterprise-device-support/validation-process-and-information">Learn more</a>
 </h3>
