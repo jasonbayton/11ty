@@ -25,6 +25,7 @@
   --dark: #292929;
   --bright: #ffffff;
   --text: #cfcfcf;
+  --blood-orange: #9d2d03;
   --background: #000000;
   --blue: #0077b33b;
   --brand-background: #00284d;
@@ -234,6 +235,13 @@ pre code {
   background: none;
   border: none;
   padding: 0;
+}
+
+.banner {
+  background: var(--orange);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--bright);
 }
 
 #af_group {
@@ -651,6 +659,31 @@ section#page_content {
   overflow-x: hidden;
 }
 
+section#posts_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: radial-gradient(circle, #ce3800 0%, #d33900 50%, #FF5722 87%, #fa4006 100%);
+  color: var(--bright);
+  padding: 100px 0;
+  margin-top: 100px;
+}
+
+section#posts_container .button {
+  background-color: #000000;
+  color: var(--bright);
+  border: #000000;
+}
+
+section#posts_container a {
+  color: var(--bright);
+}
+
+section#posts {
+  max-width: 1900px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 #author_bio {
   padding-top: 20px;
   text-align: right;
@@ -672,10 +705,6 @@ section#page_content {
 .post-title {
   margin: 0;
   font-weight: 400;
-}
-
-.post-summary {
-  opacity: 0.7;
 }
 
 .post-meta {
@@ -836,6 +865,12 @@ section#trusted_logos #trusted_container {
   color: var(--blood-orange);
 }
 
+#support-split {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 30px;
+}
+
 #content_report {
   float: right;
   font-size: 16px;
@@ -856,6 +891,7 @@ footer {
 #made_by {
   text-align: center;
   padding: 40px 30px 10px;
+  font-size: 16px;
 }
 
 #made_by a {
@@ -1171,7 +1207,7 @@ footer {
     border-radius: unset;
   }
 
-  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container {
+  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container, #support-split {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
   }
