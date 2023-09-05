@@ -23,7 +23,15 @@ Though I aim to provide as much as I can at no - or low - cost, understandably s
 
 Looking for a quick-start on your task at hand? Buy an hour and we can jump on a call to explore the wider scope of your requirements with no obligations to go further. Otherwise, read on below and send me your requirements.
 
-<h3 class="post-title post-archive"><a href="https://buy.stripe.com/fZe9Byccw0HG7SM3cd" class="button">Buy</a></h3>
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1Nf4C9KvHOCQSS2hourskDLc"
+  publishable-key="pk_live_OUiqrp8lGeKujY97eOKJxMiU"
+>
+</stripe-buy-button>
 
 </div>
 </div>
