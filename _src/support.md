@@ -26,13 +26,8 @@ Looking for a quick-start on your task at hand? Buy an hour and we can jump on a
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
 </script>
-
-<stripe-buy-button
-  buy-button-id="buy_btn_1Nf4C9KvHOCQSS2hourskDLc"
-  publishable-key="pk_live_OUiqrp8lGeKujY97eOKJxMiU"
->
+<stripe-buy-button buy-button-id="buy_btn_1Nf4C9KvHOCQSS2hourskDLc" publishable-key="pk_live_OUiqrp8lGeKujY97eOKJxMiU">
 </stripe-buy-button>
-
 </div>
 </div>
 
