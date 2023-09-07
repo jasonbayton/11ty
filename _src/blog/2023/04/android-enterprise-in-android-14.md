@@ -78,19 +78,29 @@ If you're anything like me that'll be bittersweet; great for security in pluggin
 
 ## Pausing the work profile
 
-In Android 14 Google are introducing the ability to pause, rather than turn off, the work profile.
+<div class="callout">
 
-Think of it like an aggressive do not disturb mode for work apps, everything is still on and running in the background, but you're not alerted to anything.
+## This change has been reverted
 
-Why would you choose to pause a work profile rather than just turn it off?
+Check out [this article](/blog/2023/09/work-profile-reverted-in-14) for more information. The below no longer applies to Android 14, but may be instead re-appear for Android 15 (or sooner in a QPR - quarterly patch release - if it's ready).
 
-- Applications continue to receive notifications and data in the background, so you're not inundated by them when you turn the profile on. Work apps are immediately available when unpausing (no wait time, or sync required).
-- Update policies continue to apply, so they can do so in the background rather than when the profile is back on. Obviously apps shared between both profiles will update even if the work profile is turned off, but apps only in the work profile won't unless the profile is on, normally.
-- Cross profile contacts are identified, so you'll know you're getting a call from the boss while the profile is paused. When completely off the numbers aren't identified.
+This'll be updated at a later date.
+
+</div>
+
+~~In Android 14 Google are introducing the ability to pause, rather than turn off, the work profile.~~
+
+~~Think of it like an aggressive do not disturb mode for work apps, everything is still on and running in the background, but you're not alerted to anything.~~
+
+~~Why would you choose to pause a work profile rather than just turn it off?~~
+
+- ~~Applications continue to receive notifications and data in the background, so you're not inundated by them when you turn the profile on. Work apps are immediately available when unpausing (no wait time, or sync required).~~
+- ~~Update policies continue to apply, so they can do so in the background rather than when the profile is back on. Obviously apps shared between both profiles will update even if the work profile is turned off, but apps only in the work profile won't unless the profile is on, normally.~~
+- ~~Cross profile contacts are identified, so you'll know you're getting a call from the boss while the profile is paused. When completely off the numbers aren't identified.~~
 
 ~~The question I don't have an answer for at the moment is how this works with the policies that require a work profile to be turned on after a period of time. If a user can pause a work profile but still be considered having it _turned on_, this seems like a simple way of getting around that compliance requirement.~~
 
-(July 2023): The compliance requirement appears to be unchanged since this is a full replacement to turning off the work profile, and not an additional option to control it.
+~~(July 2023): The compliance requirement appears to be unchanged since this is a full replacement to turning off the work profile, and not an additional option to control it.~~
 
 ## Direct work contact messaging
 
