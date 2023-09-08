@@ -16,13 +16,6 @@ discourse_permalink:
 FeaturedBackground:
     - android
 ---
-<div class="callout callout-warning">
-
-### No longer updated
-
-**While I am still actively testing devices**, I no longer publish them here. Consider the below to be historical, and not to be taken as current status of a device. If you’d like your devices tested against Android Enterprise functionality, feel free to get in touch. 
-
-</div>
 
 <div class="callout callout-info">
 
@@ -38,24 +31,16 @@ If you’re interested in knowing more about the project as a whole and the back
 
 In order to validate the implementation of Android Enterprise on a device, I undertake the following:
 
-- Attempt to perform an NFC-bump using a provisioning application supplied by either [MobileIron](https://play.google.com/store/apps/details?id=com.mobileiron.client.android.nfcprovisioner) or [AirWatch](https://play.google.com/store/apps/details?id=com.airwatch.relay) (normally both).
-- Attempt to perform a QR scan based on codes generated [manually](/docs/enterprise-mobility/mobileiron/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/) ([WS1 source](https://my.air-watch.com/help/9.1/en/Content/Platform_Guides/Android_Work/C/Enrollment_Overview.htm)) or [automatically](https://play.google.com/store/apps/details?id=com.mobileiron.client.android.nfcprovisioner).
-- Attempt to enrol using the DPC identifier in the Google account prompt, normally *afw#mobileiron.core*, *afw#mobileiron.cloud* or *afw#hub*.
-- Attempt to enrol using a GSuite address and the Google [Device Policy Management](https://play.google.com/store/apps/details?id=com.google.android.apps.enterprise.dmagent) DPC.
+- Attempt to perform an NFC-bump using a provisioning application supplied by EMM vendors where available, or through a NFC tag with a custom payload where not.
+- Attempt to perform a QR scan based on codes generated [manually](/docs/enterprise-mobility/mobileiron/manual-android-enterprise-work-managed-qr-code-generation-for-mobileiron/) or automatically through a supported EMM.
+- Attempt to enrol using the DPC identifier in the Google account prompt, normally *afw#mobileiron.core*, *afw#mobileiron.cloud*, _afw#setup_ or *afw#hub*.
+- Attempt to enrol using a Google Workspace address with or without the Google [Device Policy Management](https://play.google.com/store/apps/details?id=com.google.android.apps.enterprise.dmagent) DPC.
 - Utilise any of the above provisioning methods to deploy a COSU (kiosk) environment.
 - Utilise any of the above provisioning methods to deploy a Fully managed work profile (COPE) environment.
 - Attempt to enrol into an EMM after normal setup to generate a work profile.
 - If supported, attempt to enrol using zero-touch provisioning.
 
-The above provisioning tasks (with the exception of the GSuite enrolment currently) are documented here: [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/). Testing may be completed on EMM platforms other than those mentioned above for any task at any time.
-
-### EMM configuration files
-
-Should you wish to see first-hand the policies/configs/profiles utilised to validate devices against (security, restrictions, firmware), feel free to import the following into your own EMM platform:
-
-#### MobileIron Core
-
-[MobileIron Policies](https://cdn.bayton.org/uploads/2019/01/MI_AEvalidation.zip)[Download](https://cdn.bayton.org/uploads/2019/01/MI_AEvalidation.zip)
+The above provisioning tasks (with the exception of the Google Workspace enrolment currently) are documented here: [Android Enterprise provisioning guides](/android/android-enterprise-provisioning-guides/). Testing may be completed on EMM platforms other than those mentioned above for any task at any time.
 
 ### Success criteria
 
