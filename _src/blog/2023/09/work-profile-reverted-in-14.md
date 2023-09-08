@@ -57,7 +57,13 @@ jasonbayton@Jasons-MacBook-Pro platform-tools % ./adb shell dumpsys user | grep 
     State: <b class="blood-orange">SHUTDOWN</b>
 </pre>
 
-Both `SHUTDOWN` and `-1` is the older behaviour associated with Android 13 and lower.
+Both `SHUTDOWN` and `-1` is associated with the older behaviour on Android 13 and lower.
+
+<div class="callout">
+
+Heads-up if you're trying this yourself, it looks like some devices on `009` still appear to show the new behaviour. I'm able to replicate on two devices, but one Pixel 7a I have doesn't show a change. Let me know if you test this, what you see yourself!
+
+</div>
 
 It _looks_ like beta 5.3 has therefore removed the new work profile behaviour, and reverted it back to how it was with Android 13. The [release notes](https://developer.android.com/about/versions/14/release-notes) for 5.3 don't specify this as a change:
 
