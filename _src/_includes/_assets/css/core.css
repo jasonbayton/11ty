@@ -425,7 +425,6 @@ content#home {
 }
 
 #vendor_logo_container_scroll {
-  background: #ffffffb5;
   margin: 0 -40px;
   padding-top: 10px;
 }
@@ -792,7 +791,6 @@ section#trusted_logos #trusted_container {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: row;
-  background: var(--bright);
   border-radius: 5px;
   margin-top: 50px;
   grid-gap: 30px
