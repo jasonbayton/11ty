@@ -1,14 +1,13 @@
 ---
 title: 'A guide to deploying Android Enterprise'
-date: '2019-03-07T22:58:36+00:00'
+date: '2023-09-21'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: post
 tags: 
-    - Enterprise
+    - Guide
 layout: base.njk
-permalink: false
 ---
 
 ## Foreword

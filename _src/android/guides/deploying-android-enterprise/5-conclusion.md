@@ -6,9 +6,8 @@ author: 'Jason Bayton'
 excerpt: ''
 type: post
 tags: 
-    - Enterprise
+    - Guide
 layout: base.njk
-permalink: false
 ---
 
 Building a mobility strategy is no straightforward task, nor is it finite; as the needs of the business change and the industry moves forward, adjusting the strategy as and when necessary, and reviewing it frequently in between, will guarantee a well-rounded and successful approach to enterprise mobility.

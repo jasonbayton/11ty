@@ -6,9 +6,8 @@ author: 'Jason Bayton'
 excerpt: ''
 type: post
 tags: 
-    - Enterprise
+    - Guide
 layout: base.njk
-permalink: false
 ---
 
 Once a solution is implemented, devices are rolled out, the next area of focus is in-life management of the solution, the devices and the end-users registered on the platform.

@@ -6,9 +6,8 @@ author: 'Jason Bayton'
 excerpt: ''
 type: post
 tags: 
-    - Enterprise
+    - Guide
 layout: base.njk
-permalink: false
 ---
 
 Enterprise Mobility is a key area of focus for businesses; with mobile usage exceeding traditional PC and laptop usage in recent years, it’s imperative that organisations take this topic very seriously.

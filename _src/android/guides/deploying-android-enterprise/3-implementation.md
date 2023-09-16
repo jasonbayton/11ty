@@ -6,9 +6,8 @@ author: 'Jason Bayton'
 excerpt: ''
 type: post
 tags: 
-    - Enterprise
+    - Guide
 layout: base.njk
-permalink: false
 ---
 
 A common, recurring issue at the time of implementation is not fully considering the security, privacy and productivity requirements of the workforce. Typically a balance will need to be found between security and convenience that meets the needs of the organisation, however how it is implemented can mean the difference between a workforce that can’t undertake their day-to-day tasks, and one where data leakage is rife.

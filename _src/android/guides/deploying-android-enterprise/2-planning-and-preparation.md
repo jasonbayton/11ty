@@ -6,9 +6,8 @@ author: 'Jason Bayton'
 excerpt: ''
 type: post
 tags: 
-    - Enterprise
+    - Guide
 layout: base.njk
-permalink: false
 ---
 
 Mobility as a business tool has the ability to have far-reaching, positive effects on the productivity and financial standing of the entire business. Transforming how organisations work, from a fixed office location with little flexibility to a culture that enables working from anywhere, at any time, with all of the modern tools available at anyone’s disposal means employees are generally happier, more productive and can work far more autonomously - all benefits for the business.
