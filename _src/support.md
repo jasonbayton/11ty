@@ -1,5 +1,5 @@
 ---
-title: Expert help
+title: 👋 Here to help
 subtitle: Achieve your mobility objectives with my help
 date: '2023-01-22'
 status: publish
@@ -13,15 +13,13 @@ layout: base.njk
 <div class="callout">
 <div class="banner">
 
-## 👋 I'm here to help
+## 
 
 </div>
 
-Though I aim to provide as much as I can at no - or low - cost, understandably sometimes you need more of a hands-on approach. If you're looking for someone to assist in planning, designing, implementing, or supporting your mobility projects, I can help!
+Though I aim to share as much knowledge as I can freely available to the community, understandably sometimes you need more of a hands-on approach. If you're looking for someone to assist in planning, designing, implementing, or supporting your mobility projects, you've found one of the foremost experts on Android enterprise across the globe.
 
-### Buy an hour
-
-Looking for a quick-start on your task at hand? Buy an hour and we can jump on a call to explore the wider scope of your requirements with no obligations to go further. Otherwise, read on below and send me your requirements.
+Looking for a quick-start on an established task at hand? Buy an hour below and we can hit the ground running. Not quite fully confirmed on what you need? We can jump on a call to explore the wider scope of your requirements at no cost, and I'll quote up in days required to get you where you need to be. Still unsure? Read on below and feel free to send me your requirements.
 
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
@@ -31,10 +29,7 @@ Looking for a quick-start on your task at hand? Buy an hour and we can jump on a
 </div>
 </div>
 
-
-## Consulting engagement
-
-I make available several hours a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above.
+I make available several days a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above.
 
 Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. 
 
@@ -50,7 +45,6 @@ Some examples of dedicated engagements undertaken include:
 * GMS consulting for uncertified (AOSP) devices
 * Android Enterprise hardware validation
 
-
 [Contact](/contact) me with a request for engagement. Include a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
 
 **Fee options:** 
@@ -62,7 +56,7 @@ NB: Hours may be consumed ad-hoc, across multiple days as required.
 
 ## Not ready to start?
 
-No worries, feel free to continue to make use of my completely free community support channels:
+No worries, feel free to continue to make use of my community support channels:
 
 <div class="grid grid-column-3 grid-gap-50 grid-column-mobile-1 padding-top-40 padding-bottom-40 padding-lr-0">
 <div class="">
