@@ -6,12 +6,10 @@
         <!-- // -->
     </head>
     <body>
-        <header>
+        <header class="home-background">
             <!-- Header goes here -->
             {% include "./_parts/header.njk" %}
             <!-- // -->
-        </header>
-        <content id="home">
             <section class="intro_wrapper">
                 <section id="intro_block" class="home-section">
                     <div id="intro_heading">
@@ -33,7 +31,8 @@
                     </div>
                 </section>
             </section>
-
+        </header>
+        <content id="home">
             <section id="partner_logos">
                 <div class="home-subheading partner-heading">
                     {% renderFile "./_src/_includes/_parts/home/partner-logos.md" %}
