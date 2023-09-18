@@ -353,6 +353,11 @@ button {
   margin: 0 auto;
 }
 
+.home-background {
+  background: radial-gradient(circle, rgba(0,59,89,1) 0%, rgba(0,119,179,1) 50%, rgba(0,206,250,1) 87%, rgb(0, 213, 255) 100%);
+  color: #FFFFFF;
+}
+
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
@@ -397,7 +402,6 @@ content#home {
 }
 
 .intro_wrapper{
-  background: radial-gradient(circle, rgba(0,59,89,1) 0%, rgba(0,119,179,1) 50%, rgba(0,206,250,1) 87%, rgba(0,212,255,0.6769301470588236) 100%);
   display: grid;
   grid-template-columns: 1fr;
   padding: 0 0 100px;
