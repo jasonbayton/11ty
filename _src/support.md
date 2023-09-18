@@ -11,21 +11,19 @@ layout: base.njk
 
 <div class="support-split">
 <div class="callout">
-<div class="banner">
-
-## 
-
-</div>
 
 Though I aim to share as much knowledge as I can freely available to the community, understandably sometimes you need more of a hands-on approach. If you're looking for someone to assist in planning, designing, implementing, or supporting your mobility projects, you've found one of the foremost experts on Android enterprise across the globe.
 
-Looking for a quick-start on an established task at hand? Buy an hour below and we can hit the ground running. Not quite fully confirmed on what you need? We can jump on a call to explore the wider scope of your requirements at no cost, and I'll quote up in days required to get you where you need to be. Still unsure? Read on below and feel free to send me your requirements.
+Looking for a quick-start on an established task at hand? Buy an hour below and we can hit the ground running. 
 
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
 </script>
 <stripe-buy-button buy-button-id="buy_btn_1Nf4C9KvHOCQSS2hourskDLc" publishable-key="pk_live_OUiqrp8lGeKujY97eOKJxMiU">
 </stripe-buy-button>
+
+Not quite fully confirmed on what you need? We can jump on a call to explore the wider scope of your requirements at no cost, and I'll quote up in time required to get you where you need to be. Still unsure? Read on below and feel free to send me your requirements.
+
 </div>
 </div>
 
