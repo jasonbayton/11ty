@@ -1,5 +1,5 @@
 ---
-title: 👋 Here to help
+title: Let's help you succeed with Android
 subtitle: Achieve your mobility objectives with my help
 date: '2023-01-22'
 status: publish
@@ -9,25 +9,53 @@ type: page
 layout: base.njk
 ---
 
-<div class="support-split">
-<div class="callout">
+## Managing mobile devices can seem overwhelming, but it doesn't have to be.
 
-Though I aim to share as much knowledge as I can freely available to the community, understandably sometimes you need more of a hands-on approach. If you're looking for someone to assist in planning, designing, implementing, or supporting your mobility projects, you've found one of the foremost experts on Android enterprise across the globe.
+Whether you're refreshing a fleet of point-of-sale (POS) devices for a nationwide store roll-out, trying to pull the trigger on your BYOD strategy to lower the bar for entry on remote work, or just trying to figure out what enterprise mobility means _for you_, I make modern device management **simple** through all stages of the mobility cycle.
 
-Looking for a quick-start on an established task at hand? Buy an hour below and we can hit the ground running. 
+### Mobility Strategy
 
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
-<stripe-buy-button buy-button-id="buy_btn_1Nf4C9KvHOCQSS2hourskDLc" publishable-key="pk_live_OUiqrp8lGeKujY97eOKJxMiU">
-</stripe-buy-button>
+Are you in the early stages of planning for mobile device management in your organisation? Unsure of what to support? _How to start?_ 
 
-Not quite fully confirmed on what you need? We can jump on a call to explore the wider scope of your requirements at no cost, and I'll quote up in time required to get you where you need to be. Still unsure? Read on below and feel free to send me your requirements.
+<a class="button" href="/contact">
+Book a call with me
+</a>
 
-</div>
-</div>
+We'll look at your objectives and goals. Document your _why_, and ensure we build a strategy the balances investment with guaranteed productivity, security, and user acceptance.
 
-I make available several days a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the no-cost options above.
+### Device selection & solution validation
+
+I've collaborated with all major Android OEMs and leading EMM vendors in the last several years. Do you want to cut through the marketing and focus on hardware, form factors, and solutions _tailored to your use case?_ I challenge you to find someone who's gone hands-on with more product. With a focus on overall TCO rather than short-term quick wins, we'll ensure your organisation is running the best possible hardware for the best return on investment over the period _you define_. 
+
+### End to end deployment & support
+
+The hard work's done; you know what you want to support and how you're going to do it. The devices are ordered and the licences purchased. Now you've just got to build your policies, configurations, define you application requirements, integrate with your in-house infrastructure and _actually enrol_ the hardware. 
+
+I can help you define your policy requirements, set your security baselines, integrate your chosen vendor into your existing infrastructure, develop documentation and guides, train up internal support staff and power users, and more. Zero-touch? Obviously. eFOTA? Of course. Once we're finished your deployment will be humming away like well-oiled machine.
+
+## But what about our iOS, MacOS, ChromeOS, Windows, and Linux devices?
+
+I specialise in the enablement of modern Android management for organisations across the world, but if that's all I knew I'd be of limited value to most multi-OS organisations. Rest assured no matter what other OS you support, if it can be managed, I know how to do so.
+
+## We're a partner or vendor looking for assistance, what can you do for us?
+
+I've been on the vendor side of the ecosystem for the best part of half a decade with a heavy focus on product and support. If you're an organisation building Android devices or services for customers, or reselling products and services, I can help!
+
+### Product validation
+
+Bringing new Android hardware to market? Looking to validate it for enterprise? ~~GMS~~ Play Protect certification will do so much, Android Enterprise Recommended a little more, but if you want true product validation across a range of EMM vendors, talk to me. No other validation in the ecosystem tests Android Enterprise compatibility like I do, with a minimum of a 270-point base report and detailed analysis of required improvements.
+
+IF you're an EMM or related solution provider (MTD, insights, etc) looking for help and advice on implementation, feature support, roadmapping & more, I can help there too. I built an EMM used by some of the largest companies in healthcare and food delivery all over the world; I can talk on anything from architecture to knowledge base design and everything in between. I've kicked the tyres and contributed to the development of some of the largest platforms on the market. I can help you too.
+
+### Certification and product development
+
+Building an Android device? I've been there, and I know GMS inside-out. From dedicated, completely bespoke devices for specific use cases, to ensuring consumer devices fare well for enterprise, I can assist in every phase of product development and ensure your Android builds are ready for Google certification. 
+
+If the terms MADA, EDLA, GMS, CTS, Backporting, GRF, and LR/MR/SMR sound familiar to you, I've done it all.
+
+## Get started
+
+I make available several days a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the content and resources provided on this website.
 
 Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. 
 
@@ -43,7 +71,11 @@ Some examples of dedicated engagements undertaken include:
 * GMS consulting for uncertified (AOSP) devices
 * Android Enterprise hardware validation
 
-[Contact](/contact) me with a request for engagement. Include a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
+<a class="button" href="/contact">
+Book a call with me
+</a>
+
+Please prepare a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
 
 **Fee options:** 
 * 1/2 day (up to 4h)
