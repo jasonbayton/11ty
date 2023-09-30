@@ -28,14 +28,6 @@ The official release of Android 14 will be upon us in the next few months. Is yo
 
 </div>
 
-<div class="callout">
-
-### Google is changing how the work profile functions in 14
-
-Read up on how the changes to how the work profile pauses in the upcoming release. Here's [the blog](/blog/2023/08/work-profile-in-14/), and [the techdoc](/android/android-14-work-profile-behaviour/).
-
-</div>
-
 <div class="callout callout-bold">
 
 ### Android 14 will not permit install of very old apps
