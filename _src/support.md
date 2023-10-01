@@ -9,6 +9,17 @@ type: page
 layout: base.njk
 ---
 
+<div class="grid grid-column-2 padding-20 padding-lr-0 grid-gap-30">
+<h2 class="button">
+<a href="#customer">I'm a customer/organisation</a>
+</h2>
+<h2 class="button">
+<a href="#partner">I'm a vendor/partner</a>
+</h2>
+</div>
+
+<div id="customer">
+
 ## Managing mobile devices can seem overwhelming, but it doesn't have to be.
 
 Whether you're refreshing a fleet of point-of-sale (POS) devices for a nationwide store roll-out, trying to pull the trigger on your BYOD strategy to lower the bar for entry on remote work, or just trying to figure out what enterprise mobility means _for you_, I make modern device management **simple** through all stages of the mobility cycle.
@@ -33,9 +44,11 @@ The hard work's done; you know what you want to support and how you're going to 
 
 I can help you define your policy requirements, set your security baselines, integrate your chosen vendor into your existing infrastructure, develop documentation and guides, train up internal support staff and power users, and more. Zero-touch? Obviously. eFOTA? Of course. Once we're finished your deployment will be humming away like well-oiled machine.
 
-## But what about our iOS, MacOS, ChromeOS, Windows, and Linux devices?
+### What about our iOS, MacOS, ChromeOS, Windows, and Linux devices?
 
-I specialise in the enablement of modern Android management for organisations across the world, but if that's all I knew I'd be of limited value to most multi-OS organisations. Rest assured no matter what other OS you support, if it can be managed, I know how to do so.
+I specialise in the enablement of modern Android management, but I've commercially supported most operating systems on the market. Rest assured no matter what OS you support, if it can be managed, I know how to do so.
+
+<div id="partner">
 
 ## We're a partner or vendor looking for assistance, what can you do for us?
 
