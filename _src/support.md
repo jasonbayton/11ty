@@ -9,6 +9,18 @@ type: page
 layout: base.njk
 ---
 
+## Modern device management can seem overwhelming, but it doesn't have to be.
+
+Hello 👋, I'm Jason, a certified Android SME with a passion for simplifying the complex world of modern device management. For years, I've been a guiding voice in the mobility space, offering my expertise to organisations across the globe through my website here and Social Media ([find me on LinkedIn if you haven't areadly](https://linkedin.com/in/jasonbayton)). My journey began with the first HTC Dream (G1) back in the 2000's, and I've dedicated myself to becoming a recognised authority in modern Android management since it's introduction back in 2014.
+
+I've collaborated with and consulted for leading Android OEMs, Enterprise Mobility vendors, NGOs, multiple fortune listed organisations, and my work has been acknowledged and promoted by industry giants like Google, Sony, Nokia, and many more. Whether you're a small business looking to implement your first mobility strategy or a multinational corporation planning a full-scale device rollout, I've done it all before.
+
+Recognising the growing need for specialised, hands-on support, I've now made the necessary changes to offer sustainable commercial support as an independent contractor over and above what I offer at no cost already. As your mobility partner, I can offer you the necessary knowledge and resources needed to achieve your mobility goals. From strategy planning to end-to-end deployment, I offer a range of services tailored to your specific needs.
+
+So, let's embark on this journey together and make your enterprise mobility vision a reality.
+
+First, who are you? -
+
 <div class="grid grid-column-2 padding-20 padding-lr-0 grid-gap-30">
 <h2 class="button">
 <a href="#customer">I'm a customer/organisation</a>
@@ -20,9 +32,9 @@ layout: base.njk
 
 <div id="customer">
 
-## Managing mobile devices can seem overwhelming, but it doesn't have to be.
+## We're an organisation managing devices
 
-Whether you're refreshing a fleet of point-of-sale (POS) devices for a nationwide store roll-out, trying to pull the trigger on your BYOD strategy to lower the bar for entry on remote work, or just trying to figure out what enterprise mobility means _for you_, I make modern device management **simple** through all stages of the mobility cycle.
+I've supported customers with their mobility needs since 2013 across all major OEMs and EMMs. Here are some examples of services I can provide.
 
 ### Mobility Strategy
 
@@ -48,6 +60,18 @@ I can help you define your policy requirements, set your security baselines, int
 
 I specialise in the enablement of modern Android management, but I've commercially supported most operating systems on the market. Rest assured no matter what OS you support, if it can be managed, I know how to do so.
 
+### Other activities
+
+Some more examples of dedicated engagements undertaken include:
+
+* EMM migration
+* EMM health check
+* Mobility strategy planning/review
+* EMM & device selection
+* EMM deployment, end to end
+* Google Workspace deployment
+* Android Enterprise hardware validation
+
 <div id="partner">
 
 ## We're a partner or vendor looking for assistance, what can you do for us?
@@ -66,36 +90,33 @@ Building an Android device? I've been there, and I know GMS inside-out. From ded
 
 If the terms MADA, EDLA, GMS, CTS, Backporting, GRF, and LR/MR/SMR sound familiar to you, I've done it all.
 
+### Other activities
+
+Some more examples of dedicated engagements undertaken include:
+
+* Product consultation on Android Enterprise support for new or existing solutions
+* EMM integration & support
+* GMS consulting for uncertified (AOSP) devices
+* Android Enterprise hardware validation
+* Lifecycle & software support strategy
+* Product review
+
 ## Get started
 
 I make available several days a month for dedicated engagements at the moment, for when the help required goes beyond what can reasonably be achieved through the content and resources provided on this website.
-
-Ideal for dedicated support, engagements of a strategic/planning nature, or projects of a greater scope or time requirement. 
-
-Some examples of dedicated engagements undertaken include:
-
-* EMM migration
-* EMM health check
-* Mobility strategy planning/review
-* EMM & device selection
-* Product consultation on Android Enterprise support for new or existing solutions
-* EMM deployment, end to end
-* Google Workspace deployment
-* GMS consulting for uncertified (AOSP) devices
-* Android Enterprise hardware validation
 
 <a class="button" href="/contact">
 Book a call with me
 </a>
 
-Please prepare a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review. 
+Please prepare a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review, as this will allow efficient use of time on our call.
 
 **Fee options:** 
 * 1/2 day (up to 4h)
 * Full day (up to 8h)
 * Fixed per project
 
-NB: Hours may be consumed ad-hoc, across multiple days as required. 
+NB: Hours may be consumed ad-hoc, across multiple days as required. 1/2 days start at £600, negotiable up or down based on scope.
 
 ## Not ready to start?
 
