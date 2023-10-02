@@ -11,7 +11,7 @@ layout: base.njk
 
 ## Modern device management can seem overwhelming, but it doesn't have to be.
 
-Hello 👋, I'm Jason, a certified Android SME with a passion for simplifying the complex world of modern device management. For years, I've been a guiding voice in the mobility space, offering my expertise to organisations across the globe through my website here and Social Media ([find me on LinkedIn if you haven't areadly](https://linkedin.com/in/jasonbayton)). My journey began with the first HTC Dream (G1) back in the 2000's, and I've dedicated myself to becoming a recognised authority in modern Android management since it's introduction back in 2014.
+Hello 👋, I'm Jason, a certified Android SME with a passion for simplifying the complex world of modern device management. For years, I've been a guiding voice in the mobility space, offering my expertise to organisations across the globe through my website here and Social Media ( [<img src="/img/icons/linkedin.svg" class="image-inline-text">](https://linkedin.com/in/jasonbayton) ). My journey began with the first HTC Dream (G1) back in the 2000's, and I've dedicated myself to becoming a recognised authority in modern Android management since it's introduction back in 2014.
 
 I've collaborated with and consulted for leading Android OEMs, Enterprise Mobility vendors, NGOs, multiple fortune listed organisations, and my work has been acknowledged and promoted by industry giants like Google, Sony, Nokia, and many more. Whether you're a small business looking to implement your first mobility strategy or a multinational corporation planning a full-scale device rollout, I've done it all before.
 
@@ -22,12 +22,12 @@ So, let's embark on this journey together and make your enterprise mobility visi
 First, who are you? -
 
 <div class="grid grid-column-2 padding-20 padding-lr-0 grid-gap-30">
-<h2 class="button">
-<a href="#customer">I'm a customer/organisation</a>
-</h2>
-<h2 class="button">
-<a href="#partner">I'm a vendor/partner</a>
-</h2>
+<h3 class="button">
+<a href="#customer">We're a customer/organisation</a>
+</h3>
+<h3 class="button">
+<a href="#partner">We're a vendor/partner</a>
+</h3>
 </div>
 
 <div id="customer">
@@ -40,11 +40,7 @@ I've supported customers with their mobility needs since 2013 across all major O
 
 Are you in the early stages of planning for mobile device management in your organisation? Unsure of what to support? _How to start?_ 
 
-<a class="button" href="/contact">
-Book a call with me
-</a>
-
-We'll look at your objectives and goals. Document your _why_, and ensure we build a strategy the balances investment with guaranteed productivity, security, and user acceptance.
+We'll look at your objectives and goals. Document your _why_, and ensure we build a strategy that balances investment with guaranteed productivity, security, and user acceptance.
 
 ### Device selection & solution validation
 
@@ -72,9 +68,14 @@ Some more examples of dedicated engagements undertaken include:
 * Google Workspace deployment
 * Android Enterprise hardware validation
 
+<a class="button" href="#get-started">
+Get started
+</a>
+<p></p>
+
 <div id="partner">
 
-## We're a partner or vendor looking for assistance, what can you do for us?
+## We're a partner or vendor making devices or building solutions
 
 I've been on the vendor side of the ecosystem for the best part of half a decade with a heavy focus on product and support. If you're an organisation building Android devices or services for customers, or reselling products and services, I can help!
 

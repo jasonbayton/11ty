@@ -96,6 +96,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -109,6 +113,14 @@ body {
 img, object, svg { max-width: 100%; display: block;}
 
 content img { border-radius: 5px; }
+
+.image-inline-text {
+  width: 20px;
+  margin: 0!important;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: -2px!important;
+}
 
 audio { width: 80%; min-width: 300px; }
 
@@ -1059,6 +1071,10 @@ footer {
 
   body {
     font-size: 16px;
+  }
+
+  .image-inline-text {
+    width: 16px;
   }
   
   h2 { font-size: 30px; }
