@@ -1,6 +1,5 @@
 ---
 title: Let's help you succeed with Android
-subtitle: Achieve your mobility objectives with my help
 date: '2023-01-22'
 status: publish
 author: 'Jason Bayton'
