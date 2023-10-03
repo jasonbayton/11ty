@@ -21,12 +21,12 @@ So, let's embark on this journey together and make your enterprise mobility visi
 First, who are you? -
 
 <div class="grid grid-column-2 padding-20 padding-lr-0 grid-gap-30">
-<h3 class="button">
-<a href="#customer">We're a customer/organisation</a>
-</h3>
-<h3 class="button">
-<a href="#partner">We're a vendor/partner</a>
-</h3>
+<a class="button" href="#customer">
+<h3>We're a customer/organisation</h3>
+</a>
+<a class="button" href="#partner">
+<h3>We're a vendor/partner</h3>
+</a>
 </div>
 
 <div id="customer">
