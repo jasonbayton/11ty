@@ -40,6 +40,8 @@ While we're looking at software updates, Google took the opportunity to announce
 
 This is good news for Pixel customers. Though it may appear as if guaranteed zero-day updates are being dropped, in reality Google are foregoing a rigid schedule in favour of better-tested, more reliable updates overall, they may just not arrive on the same day every month.
 
+Finally, Google also promise component availability for the full period of support, ensuring for as long as Google provides updates, customers and organisations will be able to repair their devices. That's a pretty big deal. 
+
 ## Another nail in the coffin for 3 years of support
 
 To save rewording what I wrote in the Fairphone article:
@@ -50,4 +52,4 @@ To save rewording what I wrote in the Fairphone article:
 >
 > <cite>- Fairphone raises the bar with commitment to Android updates</cite>
 
-As it happens, well up towards the 7-year mark is exactly where the 8 series sits, making it a pretty compelling choice for enterprise use.
+As it happens, well up towards the 7-year mark is exactly where the 8 series sits, making it a pretty compelling choice for enterprise use. If they confirm decent (3+ year) hardware availability also, to allow organisations to purchase more as they need them rather than changing to a newer model, that'd take the cake.
