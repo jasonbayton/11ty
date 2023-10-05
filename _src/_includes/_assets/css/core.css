@@ -544,6 +544,10 @@ content#home {
   font-size: 18px;
 }
 
+.post-body-notes a {
+  word-break: break-all;
+}
+
 .post-body-notes .post-meta {
   padding: 0;
   color: var(--blood-orange);
