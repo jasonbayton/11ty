@@ -9,7 +9,7 @@
      - Enterprise 
 ---
 
-Google yesterday [announced](https://blog.google/products/pixel/google-pixel-8-pro/) the Pixel 8 series, something I almost missed being wholly occupied with the release of Android 14 and all the new enterprise docs and features that came with it.
+Google yesterday [announced](https://blog.google/products/pixel/google-pixel-8-pro/) the Pixel 8 series, something I almost missed being wholly occupied with the release of Android 14 and all the new enterprise docs and features that came with it. (You can see what's new [here](/blog/2023/04/android-enterprise-in-android-14) and find my notes on articles and such shared yesterday [here](/notes)).
 
 There are plenty of new features exclusive to the model, but the biggest announcement as far as I'm concerned is that of software support. 
 
