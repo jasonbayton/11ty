@@ -14,13 +14,13 @@
             {% endfor %} 
         </div>
         <div id="corner_search">
-            <a class="{% if page.url != false and '/search' in page.url %} active {% endif %}" href="/search/"><i class="fa fa-search"></i></a>
+            <a class="{% if page.url != false and '/search' in page.url %} active {% endif %}" href="/search/"><span class="material-symbols-outlined">search</span></a>
         </div>
         <div id="darktoggle">
-            <i class="fas fa-eclipse"></i>
+            <span class="material-symbols-outlined">routine</span>
         </div>
         <div id="corner_menu">
-            <div id="corner_menu_icon"><i class="fas fa-th-large"></i></div>
+            <div id="corner_menu_icon"><span class="material-symbols-outlined">dialogs</span></div>
         </div>
     </div>
     <div id="menu_modal">
@@ -33,6 +33,6 @@
             <li><a href="{{ item.url }}">{{ item.text }}</a></li>
             {% endfor %}
         </ul>
-        <div title="Clear darkmode preferences" id="clear-storage"><i class="fas fa-trash-alt"></i></div>
+        <div title="Clear darkmode preferences" id="clear-storage"><span class="material-symbols-outlined">delete</span></div>
     </div>
 </nav>
