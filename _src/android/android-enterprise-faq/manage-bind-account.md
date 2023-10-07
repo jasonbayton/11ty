@@ -20,21 +20,21 @@ Yes, it is more recently possible to configure the accounts responsible for mana
 2. Scroll down to **Admins**
 3. Add or remove Google accounts as desired
 
-## Add an account
+**Add an account**
 
 ![](/image/2023-05-12_23.01.04.gif)
 
-## Adjust permissions
+**Adjust permissions**
 
 ![](/image/2023-05-12_22.31.51.gif)
 
 NB: **Owners** can add and remove other accounts, while **Admins** are limited to only managing the enterprise. This follows the same permissions model as other enterprise solutions Google offers, such as zero-touch.
 
-## Remove an account
+**Remove an account**
 
 ![](/image/2023-05-12_22.32.07.gif)
 
-## Notes
+**Notes**
 
 The same recommendations continue to apply when adding new accounts - if you're making a new Google account to add in, please use the "current email address" option and associate the Google account with a work email address. This makes account recovery much simpler, and avoids questions around why `emm.account.3@gmail.com` exists in future.
 
