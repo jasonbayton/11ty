@@ -123,13 +123,25 @@ content img { border-radius: 5px; }
 }
 
 .material-symbols-outlined {
-  vertical-align: middle;
   font-size: inherit;
   font-variation-settings:
   'FILL' 0,
-  'wght' 700,
+  'wght' 600,
   'GRAD' 0,
   'opsz' 24
+}
+
+#navbar .material-symbols-outlined {
+  font-size: 120%;
+  vertical-align: middle;
+}
+
+.meta-tiny .material-symbols-outlined {
+  font-size: 110%;
+}
+
+.post-meta-base-right .material-symbols-outlined {
+  vertical-align: middle;
 }
 
 audio { width: 80%; min-width: 300px; }
