@@ -24,15 +24,7 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 ### What's new for enterprise in Android 14?
 
-The official release of Android 14 will be upon us in the next few months. Is your organisation prepared for what's to come? Check out [what's new in Android 14](/blog/2023/04/android-enterprise-in-android-14/)!
-
-</div>
-
-<div class="callout">
-
-### Google is changing how the work profile functions in 14
-
-Read up on how the changes to how the work profile pauses in the upcoming release. Here's [the blog](/blog/2023/08/work-profile-in-14/), and [the techdoc](/android/android-14-work-profile-behaviour/).
+The official release of Android 14 is here! Is your organisation prepared for what's new? Check out [what's new in Android 14](/blog/2023/04/android-enterprise-in-android-14/)!
 
 </div>
 
@@ -40,9 +32,9 @@ Read up on how the changes to how the work profile pauses in the upcoming releas
 
 ### Android 14 will not permit install of very old apps
 
-In Android 14 it will no longer be possible to install any application that targets API level 23 - Android 6.0. Attempting to do so will trigger a security exception. Applications already installed will remain untouched, however new installs on to any device that hasn't previously had the application will fail. 
+From Android 14 it is no longer possible to install any application that targets API level 23 - Android 6.0. Attempting to do so will trigger a security exception. Applications already installed will remain untouched, however new installs on any device that hasn't previously had the application will fail. 
 
-Be sure to update your applications to target a recent API level before deploying any Android 14 devices into your estate.
+Be sure to update your applications to target a recent API level (or at least 7.0) before deploying any Android 14 devices into your estate. This will become a rolling policy, incrementing an API level with every future release.
 
 Check the [techdoc](/android/android-14-minimum-sdk/) for more info.
 

@@ -96,6 +96,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -109,6 +113,36 @@ body {
 img, object, svg { max-width: 100%; display: block;}
 
 content img { border-radius: 5px; }
+
+.image-inline-text {
+  width: 20px;
+  margin: 0!important;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: -2px!important;
+}
+
+.material-symbols-outlined {
+  font-size: inherit;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#navbar .material-symbols-outlined {
+  font-size: 120%;
+  vertical-align: middle;
+}
+
+.meta-tiny .material-symbols-outlined {
+  font-size: 110%;
+}
+
+.post-meta-base-right .material-symbols-outlined {
+  vertical-align: middle;
+}
 
 audio { width: 80%; min-width: 300px; }
 
@@ -186,12 +220,6 @@ a.active {
 
 .aside-section ul li a.active {
   color: var(--blood-orange);
-  background: var(--background);
-  display: block;
-  margin: 0 -24px 0 -10px;
-  padding-left: 5px;
-  padding: 10px 0px 10px 10px;
-  border-radius: 5px 0 0 5px;
 }
 
 a:hover {
@@ -353,6 +381,11 @@ button {
   margin: 0 auto;
 }
 
+.home-background {
+  background: radial-gradient(circle, rgba(0,59,89,1) 0%, rgba(0,119,179,1) 50%, rgba(0,206,250,1) 87%, rgb(0, 213, 255) 100%);
+  color: #FFFFFF;
+}
+
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
@@ -397,7 +430,6 @@ content#home {
 }
 
 .intro_wrapper{
-  background: radial-gradient(circle, rgba(0,59,89,1) 0%, rgba(0,119,179,1) 50%, rgba(0,206,250,1) 87%, rgba(0,212,255,0.6769301470588236) 100%);
   display: grid;
   grid-template-columns: 1fr;
   padding: 0 0 100px;
@@ -526,6 +558,10 @@ content#home {
 
 .post-body-notes {
   font-size: 18px;
+}
+
+.post-body-notes a {
+  word-break: break-all;
 }
 
 .post-body-notes .post-meta {
@@ -1056,6 +1092,10 @@ footer {
   body {
     font-size: 16px;
   }
+
+  .image-inline-text {
+    width: 16px;
+  }
   
   h2 { font-size: 30px; }
   h3 { font-size: 24px; }
@@ -1154,6 +1194,7 @@ footer {
     cursor: pointer;
     background: var(--background);
     box-shadow: none;
+    color: var(--text);
   }
 
   #navbar {
@@ -1289,10 +1330,7 @@ footer {
 
 #aside {
   font-size: 18px;
-  border-radius: 5px;
-  background: var(--main-blue);
   padding: 20px;
-  color: var(--bright);
 }
 
 .aside-title h2 {

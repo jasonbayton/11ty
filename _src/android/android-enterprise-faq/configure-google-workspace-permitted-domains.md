@@ -8,7 +8,7 @@ type: documentation
 tags: 
     - FAQ
 categories:
-    - Provisioning
+    - General
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

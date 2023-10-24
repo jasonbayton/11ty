@@ -84,7 +84,7 @@ What I ended up with however were two completely different audience sizes:
  
 That’s a dramatic difference at first glance, but when considering the population of each country, and then acknowledging only roughly 5% of the Finnish population use Twitter vs closer to 35% for Brits (stats based on figures for 2015, estimated), it makes more sense.
 
-Here’s where things get interesting however. Having let both campaigns run for 6 days, the results are as follows.
+Here’s where things get interesting, however. Having let both campaigns run for 6 days, the results are as follows.
 
 UK:
 
@@ -130,7 +130,7 @@ Finally, as the campaigns drew to a close I received an email:
 
 ![emailinterview2](https://cdn.bayton.org/uploads/2016/10/emailinterview2.png)
 
-More than happy to oblige, I answered a few questions and later found an [article on the front page of YLE](https://yle.fi/uutiset/3-9206472) – Finland’s equivalent to the BBC in the UK:
+More than happy to oblige, I answered a few questions and later found an [article on the front page of YLE](https://yle.fi/uutiset/3-9206472) ([offline copy](https://cdn.bayton.org/download/yle-article-bayton.pdf)) – Finland’s equivalent to the BBC in the UK:
 
 ![yle](https://cdn.bayton.org/uploads/2016/10/yle.png)
 

@@ -90,8 +90,8 @@
                 <div class="post-meta post-meta-base">
                     <div class="meta-single post-meta-base-left">
                         {% if type.includes("documentation") %}
-                        <span class="meta-tiny"><i class="fas fa-globe-europe"></i> {{ published | dateFull }} • <i class="fas fa-glasses"></i> {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
-                        <i class="fas fa-edit"></i> {{ page.date | dateFull }} 
+                        <span class="meta-tiny"><span class="material-symbols-outlined">globe_uk</span> {{ published | dateFull }} • <span class="material-symbols-outlined">eyeglasses</span> {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
+                        <span class="material-symbols-outlined">edit</span> {{ page.date | dateFull }} 
                         {% elseif type.includes("note") %}
                         {{ page.date | dateWithTime }}
                         {% else %}
@@ -103,9 +103,9 @@
                         {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) and (not tag.includes("notes")) and (not tag.includes("FAQ"))  %}
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
                         {% elif tag.includes("notes") %}
-                        <i class="fas fa-arrow-left"></i> <a class="meta-tag" href="/notes/">return to notes</a>
+                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/notes/">return to notes</a>
                         {% elif tag.includes("FAQ") %}
-                        <i class="fas fa-arrow-left"></i> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
+                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
                         {% endif %}
                         {% endfor %}
                     </div>
