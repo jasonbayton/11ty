@@ -57,17 +57,17 @@ But won't know:
 
 By choosing to raise tickets similar to the examples above, it is guaranteeing the time to resolution for a problem will be considerably **longer**, more **drawn-out**, and require **more effort** on both ends. For internal teams communicating issues in this way it additionally demonstrates a lack of care and/or respect towards your colleagues' time and workload.
 
-The aim of raising a support request is to resolve an issue, whether that's a problem in production, a resource request, or anything else related to a stopper associated with a product or service. 
+The aim of raising a support request is to resolve an issue, whether that's a problem in production, a resource request, or anything else related to a stopper associated with a product or service at a personal or company level. 
 
 Likewise the aim of the support team is to resolve requests as quickly and efficiently as possible; they're supporting many customers and/or end users in most circumstances and having requests sitting unresolved negatively impact SLAs, KPIs, and often reflect poorly on the assigned support team or team member. 
 
 The goal then for both sides of the request is the same, and one of the most effective ways to ensure a request is resolved with minimal friction is to reduce back-and-forth with support; that doesn't mean pre-empting any possible question a support team member could possibly have, rather it's about putting in more than the minimum effort when raising a request that offers greater insight into the request at hand for a faster resolution, and a win-win for both sides.
 
-So in contrast to the above, let's explore what a strong support ticket should be. The following has a lean on mobility platforms and systems, but can naturally be adapted to other products and solutions
+So in contrast to the above, let's look at suggestions that can improve support requests. The following has a lean on mobility platforms and systems, but can naturally be adapted to other products and solutions
 
 ## Provide information upfront
 
-Here's your basic checklist when raising an issue with support that will substantially reduce the delay to debugging in order to reach out for more information:
+Here's your basic checklist when raising an issue with support that will substantially reduce the delay to debugging:
 
 - A concise description of the issue
 - How long it has been happening
@@ -153,6 +153,16 @@ If you're raising a support request, be prepared to engage with the support team
 From the perspective of the support team, requests raised with little information and extremely slow responses are the _worst_. Not only can the request not be solved, but the support team is then burdened with adhering to SLAs and non-response processes that mandate multiple follow-ups for information, and this may be triggered multiple times through the lifecycle of a request.
 
 By raising a request and then treating it as your lowest priority, everyone suffers. 
+
+## Use the appropriate channels
+
+Support teams may have a process in place for receiving requests through a multitude of channels, however often sending Teams/Slack/GChat messages directly to individual support personnel isn't one of them.
+
+It's certainly one of the easiest methods to get the attention of a support team member, but it has the potential to cause issues later.
+
+At best it'll be a distraction, at worst the issue won't be properly logged and tracked, meaning there will be no formal request logged for the issue; this can present as a problem later if the issue requires retrospective review or similar issues exist and the team goes looking to reference.
+
+Do both sides a favour, log the request through the company-approved channels, and keep communication there. 
 
 ## Go forth and raise better requests
 
