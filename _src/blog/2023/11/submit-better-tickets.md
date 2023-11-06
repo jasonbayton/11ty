@@ -120,7 +120,7 @@ Naturally depending on the type of issue there may be a need for more, or differ
 - Load the device is under normally, as a lower-spec device may struggle casting its screen while performing other activities
 - Are prompts being received? In Kiosk deployments, apps may not be able to display over the locktasked kiosk environment, or the notification bar may be disabled
 
-All of this information isn't _expected_ in an opening issue request, but considering any of this for the inclusion in an opening request will significantly help in reducing the back-and-forth required, so as the requestor of a support ticket, the more information you provide upfront, the sooner an issue can be resolved.
+All of this information isn't _expected_ in an opening issue request, but considering any of this for inclusion will significantly help in reducing the back-and-forth required, so as the requestor of a support ticket, the more information you provide upfront, the sooner an issue can be resolved.
 
 ## Be reasonable with urgency
 
@@ -134,7 +134,7 @@ Is the issue local to just yourself, or not replicable on multiple devices? It's
 
 Has a system update taken a store, or region, offline? That'll be urgent, or critical, depending on the defined SLAs in place with the support team.
 
-Keep in mind, the high priority is not a substitute for poor time management, always aim to raise requests in due time when taking into consideration the SLAs offered by the support team.
+Keep in mind, the priority is not a substitute for poor time management, always aim to raise requests in due time when taking into consideration the SLAs offered by the support team.
 
 ## You probably don't need a call 
 
