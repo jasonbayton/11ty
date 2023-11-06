@@ -57,9 +57,9 @@ But won't know:
 
 By choosing to raise tickets similar to the examples above, it is guaranteeing the time to resolution for a problem will be considerably **longer**, more **drawn-out**, and require **more effort** on both ends. For internal teams communicating issues in this way it additionally demonstrates a lack of care and/or respect towards your colleagues' time and workload.
 
-The aim of raising a support request is to resolve an issue, whether that's a problem in production, a resource request, or anything else related to a stopper associated with a product or service at a personal or company level. 
+The aim of raising a support request is to resolve an issue, whether that's a problem in production, a resource request, or anything else related to a block associated with a product or service at a personal or company level. 
 
-Likewise the aim of the support team is to resolve requests as quickly and efficiently as possible; they're supporting many customers and/or end users in most circumstances and having requests sitting unresolved negatively impact SLAs, KPIs, and often reflect poorly on the assigned support team or team member. 
+Likewise, the aim of the support team is to resolve requests as quickly and efficiently as possible; they're supporting many customers and/or end users in most circumstances and having requests sitting unresolved negatively impact SLAs, KPIs, and often reflect poorly on the assigned support team or team member. 
 
 The goal then for both sides of the request is the same, and one of the most effective ways to ensure a request is resolved with minimal friction is to reduce back-and-forth with support; that doesn't mean pre-empting any possible question a support team member could possibly have, rather it's about putting in more than the minimum effort when raising a request that offers greater insight into the request at hand for a faster resolution, and a win-win for both sides.
 
@@ -114,6 +114,8 @@ Naturally depending on the type of issue there may be a need for more, or differ
   - Inside a building or outside for cellular, signal strength (bars shown, or dBm)
 - Can it be replicated on another network?
 - Can it be replicated with another device?
+- Average session lengths, if successful
+- Replication steps to any reliable session end
 - Are there firewalls in place, or network QoS policies active?
 - Load the device is under normally, as a lower-spec device may struggle casting its screen while performing other activities
 - Are prompts being received? In Kiosk deployments, apps may not be able to display over the locktasked kiosk environment, or the notification bar may be disabled
@@ -142,9 +144,9 @@ What typically follows is support setting up a call with the requestor wherein t
 
 Obviously there are situations where calls are legitimately seeking assistance in obtaining the requested information (such as _how do I find the OS version for the device_ or _how do I collect device logs_?) and these are wholly justifiable.
 
-But if your intention is to ignore the questions asked until they're asked again over a call, this is once more going to significantly delay how quickly your issues can be resolved.
+But if your intention is to defer the questions asked until they're asked again over a call, this is once more going to significantly delay how quickly your issues can be resolved.
 
-Take the time to read the request for information, and offer best-effort answers based on your understanding for each question; even if only half of the questions are answered and a call is needed to cover off the remaining with additional context or explanation, you may have already provided enough information for the issue to be identified, and again saved all sides time and effort where it doesn't need to be expended.
+Take the time to read the request for information, and offer best-effort answers based on your understanding for each question; even if only half of the questions are answered and a call is needed to cover off the remaining with additional context or explanation, you may have already provided enough information for the issue to be identified and again saved all sides time and effort where it doesn't need to be expended.
 
 ## Timely responses help everyone
 
@@ -160,7 +162,7 @@ Support teams may have a process in place for receiving requests through a multi
 
 It's certainly one of the easiest methods to get the attention of a support team member, but it has the potential to cause issues later.
 
-At best it'll be a distraction, at worst the issue won't be properly logged and tracked, meaning there will be no formal request logged for the issue; this can present as a problem later if the issue requires retrospective review or similar issues exist and the team goes looking to reference.
+At best, it'll be a distraction, at worst the issue won't be properly logged and tracked, meaning there will be no formal request logged for the issue; this can present as a problem later if the issue requires retrospective review or similar issues exist and the team goes looking to reference.
 
 Do both sides a favour, log the request through the company-approved channels, and keep communication there. 
 
