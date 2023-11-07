@@ -3,7 +3,7 @@
  date: '2023-11-05'
  status: publish 
  author: 'Jason Bayton' 
- excerpt: "From someone who has supported both customers and internal teams, here's what we need to support you." 
+ excerpt: "Send this to your end users with no context." 
  type: post 
  tags: 
      - Enterprise 
