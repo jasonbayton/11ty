@@ -1071,6 +1071,12 @@ footer {
 
 /* Media */
 
+@media (min-width: 1800px) {
+  content {
+    max-width: 1600px;
+  }
+}
+
 @media (max-width: 1190px) {
   #intro_cta {
     justify-self: end;
