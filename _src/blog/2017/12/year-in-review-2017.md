@@ -5,18 +5,6 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: post
-id: 5196
-tag:
-    - '2017'
-    - '2018'
-    - 'new year'
-    - review
-    - year
-post_format: []
-publish_post_category:
-    - '14'
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/year-in-review-2017/72'
 tags:
     - Meta
 ---
@@ -76,7 +64,7 @@ The **US** takes top-spot for most visitors in 2017 with almost 20% of all views
 
 Besides Google/search engines contributing to ~60% of traffic, my top referrers this year have been:
 
-1. Nextcloud (https://help.nextcloud.com/https://nextcloud.com)
+1. Nextcloud ([Nextcloud community](https://help.nextcloud.com) & [NC website](https://nextcloud.com))
 2. Twitter
 3. Youtube
 4. Reddit
