@@ -19,10 +19,10 @@ Did you know, however, you can turn them off? Unfortunately it's a channel-speci
 
 Here's a GIF: 
 
-![https://cdn.bayton.org/uploads/2023/2023-11-14_13.10.49.gif]
+![](https://cdn.bayton.org/uploads/2023/2023-11-14_13.10.49.gif)
 
 Alternatively, here's how to do so through channel settings directly: 
 
-![https://cdn.bayton.org/uploads/2023/2023-11-14_12.44.58.gif]
+![](https://cdn.bayton.org/uploads/2023/2023-11-14_12.44.58.gif)
 
 Finally, if the thought of going through each channel and setting this is too burdensome (I don't blame you), reach out to your workspace admin to request these are restricted across the Slack community as a whole. 
