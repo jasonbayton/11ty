@@ -435,8 +435,8 @@ Now, find and change:
 
 Then uncomment:
 
-`unixsocket /var/run/redis/redis.sock`  
-`unixsocketperm 700` changing permissions to 770 at the same time: `unixsocketperm 770`
+`#unixsocket /var/run/redis/redis.sock` to `unixsocket /var/run/redis/redis.sock`
+`#unixsocketperm 700` changing permissions to 770 at the same time: `unixsocketperm 770`
 
 Save and quit, then add the Apache user `www-data` to the `redis` group:
 
