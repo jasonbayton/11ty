@@ -6,7 +6,7 @@
  excerpt: "Notification-geddon no more." 
  type: post 
  tags: 
-     - General 
+     - Guides 
 ---
 
 I've been using Slack a good deal more recently, and much like Teams' `@everyone` and Google Chat's `@all`, Slack's `@channel` and `@here` is a recipe for notification-geddon that's significantly overused in a lot of communities. 
