@@ -82,7 +82,7 @@ I've been on the vendor side of the ecosystem for the best part of half a decade
 
 Bringing new Android hardware to market? Looking to validate it for enterprise? ~~GMS~~ Play Protect certification will do so much, Android Enterprise Recommended a little more, but if you want true product validation across a range of EMM vendors, talk to me. No other validation in the ecosystem tests Android Enterprise compatibility like I do, with a minimum of a 270-point base report and detailed analysis of required improvements.
 
-IF you're an EMM or related solution provider (MTD, insights, etc) looking for help and advice on implementation, feature support, roadmapping & more, I can help there too. I built an EMM used by some of the largest companies in healthcare and food delivery all over the world; I can talk on anything from architecture to knowledge base design and everything in between. I've kicked the tyres and contributed to the development of some of the largest platforms on the market. I can help you too.
+If you're an EMM or related solution provider (MTD, insights, etc) looking for help and advice on implementation, feature support, roadmapping & more, I can help there too. I built an EMM used by some of the largest companies in healthcare and food delivery all over the world; I can talk on anything from architecture to roadmap priorities, knowledge base to user experience design and everything in between. I've kicked the tyres and contributed to the development of some of the largest platforms on the market.
 
 ### Certification and product development
 
