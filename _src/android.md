@@ -22,6 +22,14 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 <div class="callout">
 
+### Major Android 14 bug permanently applies management restrictions
+
+Android 14 currently suffers from a bug causing policy configurations to be permanently applied unless unenrolled and re-enrolled. [Read more](/notes/59.md).
+
+</div>
+
+<div class="callout">
+
 ### What's new for enterprise in Android 14?
 
 The official release of Android 14 is here! Is your organisation prepared for what's new? Check out [what's new in Android 14](/blog/2023/04/android-enterprise-in-android-14/)!
