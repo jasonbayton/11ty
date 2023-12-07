@@ -24,7 +24,7 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 ### Major Android 14 bug permanently applies management restrictions
 
-Android 14 currently suffers from a bug causing policy configurations to be permanently applied unless unenrolled and re-enrolled. [Read more](/notes/59.md).
+Android 14 currently suffers from a bug causing policy configurations to be permanently applied unless unenrolled and re-enrolled. [Read more](/notes/59).
 
 </div>
 
