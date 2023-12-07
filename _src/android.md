@@ -85,7 +85,7 @@ Admins will no longer see an approve button for applications in the managed Goog
 {% endfor %}
 </div>
 
-![](https://cdn.bayton.org/uploads/2019/01/ask.png) 
+![](/img/site_media/baydroid_unsure.png) 
 
 ## Something missing?
 
