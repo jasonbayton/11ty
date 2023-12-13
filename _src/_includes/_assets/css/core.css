@@ -253,10 +253,10 @@ code {
 
 pre {
   font-family: monospace;
-  border-radius: 6px;
   padding: 16px;
   overflow-wrap: anywhere;
   overflow-x: scroll;
+  border-left: 4px solid var(--blood-orange)
 }
 
 pre code {
