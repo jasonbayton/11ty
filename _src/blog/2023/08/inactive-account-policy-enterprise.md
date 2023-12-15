@@ -22,9 +22,16 @@ If not, it was covered quite extensively by the media:
 
 I'd considered adding to the noise back then with an enterprise point of view, but it occurred to me there really _wasn't_ any clarity for enterprise customers leveraging a Google account to bind Android Enterprise to their EMM at that point, and so I've been busy working in the background to understand the implications for Android Enterprise customers and if there's truly a mandate to keep the account active in order to prevent the bind from being deleted, and thusly, all enrolled devices becoming either unmanageable or wiped entirely (depending on EMM).
 
-The good news is, per my understanding, Google is working on a solution for the enterprise bind use case that will address Google accounts associated to an active bind being subject to the inactivity policy. There is no official word on this as yet (I'll update when that changes), so this is obviously, and unfortunately, subject to change.
+~~The good news is, per my understanding, Google is working on a solution for the enterprise bind use case that will address Google accounts associated to an active bind being subject to the inactivity policy. There is no official word on this as yet (I'll update when that changes), so this is obviously, and unfortunately, subject to change.~~
 
-That said, since the original May announcement the list of exclusions to this policy has grown. Given it doesn't go live before December 2023, there's still time to fine-tune it, and do so I'm certain they will.
+~~That said, since the original May announcement the list of exclusions to this policy has grown. Given it doesn't go live before December 2023, there's still time to fine-tune it, and do so I'm certain they will.~~
+
+Google have updated their inactive accounts policy to explicity exclude accounts used for:
+
+- Android Enterprise bind
+- Zero-touch admin or owner accounts
+
+And while the original help article hasn't updated to state this, the [customer community](https://www.androidenterprise.community/t5/news-info/clarification-on-our-inactive-account-policies/ba-p/945) calls it out instead. 
 
 ## Summarising the change
 
