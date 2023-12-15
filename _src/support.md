@@ -20,7 +20,7 @@ So, let's embark on this journey together and make your enterprise mobility visi
 
 First, who are you? -
 
-<div class="grid grid-column-2 padding-20 padding-lr-0 grid-gap-30">
+<div class="grid grid-column-2 grid-column-mobile-1 padding-20 padding-lr-0 grid-gap-30">
 <a class="button" href="#customer">
 <h3>We're a customer/organisation</h3>
 </a>
