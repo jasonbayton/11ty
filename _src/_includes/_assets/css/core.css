@@ -799,8 +799,8 @@ section#posts {
 }
 
 .input-text {
-  padding: 15px; 
-  font-size: 24px; 
+  padding: 7px; 
+  font-size: inherit; 
   border-radius: 5px; 
   width: 60%;
 }
