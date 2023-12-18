@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head/meta goes here -->
+        {% include "./_parts/head.njk" %}
+        <!-- // -->
+    </head>
+    <body>
+        <header>
+            <!-- Header goes here -->
+            {% include "./_parts/header.njk" %}
+            <!-- // -->
+        </header>
+        <content id="generator">
+            <section id="page_content">
+                <div class="section-title base-title">
+                    {{ title }}
+                </div>
+
+                {{ content | safe }}
+
+                <div id="amapi_token" class="field">
+                    <div class="field-title">
+                        <label for="token_field">Token*</label>
+                    </div>
+                    <input type="text" placeholder="This field is mandatory." id="token_field" class="input-text">
+                </div>
+                
+                <p><b>Configure Wi-Fi network</b></p>
+
+                <div id="wifi_security" class="field-qr">
+                    <div class="field-title">
+                        <label for="security_select">Wi-Fi Security</label>
+                    </div>
+                    <select name="Wi-Fi Security" id="security_select" class="input-text">
+                        <option value="WPA_PSK">WPA/WPA2 PSK</option>
+                        <option value="WEP">WEP</option>
+                        <option value="NONE">None</option>
+                    </select>
+                </div>
+
+                <div id="wifi_ssid" class="field-qr">
+                    <div class="field-title">
+                        <label for="ssid_field">Wi-Fi SSID</label>
+                    </div>
+                    <input type="text" placeholder="" id="ssid_field" class="input-text">
+                </div>
+
+                <div id="ssid_hidden" class="check">
+                    <div class="field-title">
+                        <input type="checkbox" placeholder="" id="ssidhidden_field" class="input-check">
+                        <label for="ssidhidden_field">Hidden SSID</label>
+                    </div>
+                </div>
+
+                <div id="wifi_password" class="field-qr">
+                    <div class="field-title">
+                        <label for="password_field">Wi-Fi Password</label>
+                    </div>
+                    <input type="password" placeholder="" id="password_field" class="input-text">
+                </div>
+
+                <div id="wifi_pac" class="field-qr">
+                    <div class="field-title">
+                        <label for="pac_field">Wi-Fi PAC URL, if required</label>
+                    </div>
+                    <input type="text" placeholder="192.168.12.134" id="pac_field" class="input-text">
+                </div>
+
+                <div id="wifi_proxy_host" class="field-qr">
+                    <div class="field-title">
+                        <label for="proxyhost_field">Wi-Fi Proxy Host</label>
+                    </div>
+                    <input type="text" placeholder="" id="proxyhost_field" class="input-text">
+                </div>
+
+                <div id="wifi_proxy_port" class="field-qr">
+                    <div class="field-title">
+                        <label for="proxyport_field">Wi-Fi Proxy Port</label>
+                    </div>
+                    <input type="text" placeholder="" id="proxyport_field" class="input-text">
+                </div>
+
+                <div id="wifi_proxy_bypass" class="field-qr">
+                    <div class="field-title">
+                        <label for="proxybypass_field">Wi-Fi Proxy Bypass URL</label>
+                    </div>
+                    <input type="text" placeholder="" id="proxybypass_field" class="input-text">
+                </div>
+
+                <p><b>Configure DPC extras</b></p>
+
+                <div id="sysapps" class="check">
+                    <div class="field-title">
+                        <input type="checkbox" placeholder="" id="sysapps_field" class="input-check">
+                        <label for="sysapps_field">Enable system apps (disabled by default)</label>
+                    </div>
+                </div>  
+
+                <div id="mobile_network" class="check">
+                    <div class="field-title">
+                        <input type="checkbox" placeholder="" id="mobilenetwork_field" class="input-check">
+                        <label for="mobilenetwork_field">Use mobile network for provisioning</label>
+                    </div>
+                </div>     
+
+                <div id="screen_on" class="check">
+                    <div class="field-title">
+                        <input type="checkbox" placeholder="" id="screenon_field" class="input-check">
+                        <label for="screenon_field">Keep screen on (Android 13 only)</label>
+                    </div>
+                </div>      
+
+                <div id="skip_encryption" class="check">
+                    <div class="field-title">
+                        <input type="checkbox" placeholder="" id="encryption_field" class="input-check">
+                        <label for="encryption_field">Skip encryption</label>
+                    </div>
+                </div>  
+
+                <div id="skip_education" class="check">
+                    <div class="field-title">
+                        <input type="checkbox" placeholder="" id="education_field" class="input-check">
+                        <label for="education_field">Skip education screens</label>
+                    </div>
+                </div>
+
+                <div id="set_locale" class="field-qr">
+                    <div class="field-title">
+                        <label for="setlocale_field">Set Locale</label>
+                    </div>
+                    <input type="text" placeholder="en-US" id="setlocale_field" class="input-text">
+                </div>
+
+                <div id="set_timezone" class="field-qr">
+                    <div class="field-title">
+                        <label for="settz_field">Set Timezone</label>
+                    </div>
+                    <input type="text" placeholder="London/Europe or Ect/GMT-8" id="settz_field" class="input-text">
+                </div>
+
+                <h3 class="post-title post-archive">
+                    <a class="button" id="generate_code" href="#">Generate QR »</a>
+                </h3>
+
+                <div class="post-block" id="generated_qr">
+                    
+                </div>
+            </section>
+            <!-- Page feedback goes here -->
+            {% include "./_parts/feedback.njk" %}
+            <!-- // -->
+        </content>
+        <footer>
+            {% include "./_parts/footer.njk" %}
+        </footer>
+    </body>
+</html>

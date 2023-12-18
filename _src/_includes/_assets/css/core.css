@@ -576,7 +576,7 @@ content#doc {
   grid-gap: 30px;
 }
 
-content#page, content#search, content#archive {
+content#page, content#search, content#archive, content#generator {
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 60px;
@@ -787,11 +787,22 @@ section#posts {
   padding: 40px 0;
 }
 
+.field-qr {
+  padding: 10px 0;
+}
+
 #searchField {
   padding: 15px;
   font-size: 24px;
   border-radius: 5px;
   width: 100%;
+}
+
+.input-text {
+  padding: 15px; 
+  font-size: 24px; 
+  border-radius: 5px; 
+  width: 60%;
 }
 
 #searchField::placeholder {
