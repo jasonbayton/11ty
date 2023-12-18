@@ -36,7 +36,7 @@
                     <div class="field-title">
                         <label for="token_field">Token*</label>
                     </div>
-                    <input type="text" placeholder="This field is mandatory." id="token_field" class="input-text">
+                    <input type="text" placeholder="This field is mandatory." id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE|com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN">
                 </div>
                 <p><b>Configure Wi-Fi network</b></p>
 
@@ -55,7 +55,7 @@
                     <div class="field-title">
                         <label for="security_select">Wi-Fi Security</label>
                     </div>
-                    <select name="WIFI_SECURITY_TYPE" id="security_select" class="input-text">
+                    <select name="WIFI_SECURITY_TYPE" id="security_select" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE":"WIFI_SECURITY_TYPE">
                         <option value=""></option>
                         <option value="WPA_PSK">WPA/WPA2 PSK</option>
                         <option value="WEP">WEP</option>
@@ -67,12 +67,12 @@
                     <div class="field-title">
                         <label for="ssid_field">Wi-Fi SSID</label>
                     </div>
-                    <input type="text" placeholder="WIFI_SSID" id="ssid_field" class="input-text">
+                    <input type="text" placeholder="WIFI_SSID" id="ssid_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_SSID">
                 </div>
 
                 <div id="ssid_hidden" class="check">
                     <div class="field-title">
-                        <input type="checkbox" placeholder="" id="ssidhidden_field" class="input-check">
+                        <input type="checkbox" placeholder="" id="ssidhidden_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_WIFI_HIDDEN" data-qr-bool>
                         <label for="ssidhidden_field">Hidden SSID</label>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                         "android.app.extra.PROVISIONING_TIME_ZONE":"xxxxx",
                 -->
 
-                <!-- END JSON 
+                <!-- END JSON
 
                 }
 
@@ -135,28 +135,28 @@
                         <input type="checkbox" placeholder="" id="sysapps_field" class="input-check">
                         <label for="sysapps_field">Enable system apps (disabled by default)</label>
                     </div>
-                </div>  
+                </div>
 
                 <div id="mobile_network" class="check">
                     <div class="field-title">
                         <input type="checkbox" placeholder="" id="mobilenetwork_field" class="input-check">
                         <label for="mobilenetwork_field">Use mobile network for provisioning</label>
                     </div>
-                </div>     
+                </div>
 
                 <div id="screen_on" class="check">
                     <div class="field-title">
                         <input type="checkbox" placeholder="" id="screenon_field" class="input-check">
                         <label for="screenon_field">Keep screen on (Android 13 only)</label>
                     </div>
-                </div>      
+                </div>
 
                 <div id="skip_encryption" class="check">
                     <div class="field-title">
                         <input type="checkbox" placeholder="" id="encryption_field" class="input-check">
                         <label for="encryption_field">Skip encryption</label>
                     </div>
-                </div>  
+                </div>
 
                 <div id="skip_education" class="check">
                     <div class="field-title">
@@ -180,11 +180,11 @@
                 </div>
 
                 <h3 class="post-title post-archive">
-                    <a class="button" id="generate_code" href="#">Generate QR »</a>
+                    <button class="button" id="generate_code">Generate QR »</button>
                 </h3>
 
                 <div class="post-block" id="generated_qr">
-                    
+
                 </div>
             </section>
             <!-- Page feedback goes here -->
