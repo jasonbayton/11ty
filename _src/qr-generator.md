@@ -14,3 +14,5 @@ If your EMM doesn't offer flexible customisation for your generated QR codes, yo
 
 - Your enrolment token*
 - Your Wi-Fi configuration details (if desired)
+
+When you click Generate QR, all submitted information is sent to Google's [Charts API](https://developers.google.com/chart/infographics/docs/qr_codes), and the returned image is embedded ephemerally in this page. Right click & save to keep it, edit the submitted text and click generate again to renew it, or refresh the page to clear it.

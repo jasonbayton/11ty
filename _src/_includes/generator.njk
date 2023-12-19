@@ -36,7 +36,7 @@
                     <div class="field-title">
                         <label for="token_field">Token*</label>
                     </div>
-                    <input type="text" placeholder="This field is mandatory." id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE|com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN">
+                    <input type="text" placeholder="This is required for automatic enrolment" id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE|com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN">
                 </div>
                 <p><b>Configure Wi-Fi network</b></p>
 
@@ -134,7 +134,7 @@
                 <div id="sysapps" class="check">
                     <div class="field-title">
                         <input type="checkbox" placeholder="" id="sysapps_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED" data-qr-bool>
-                        <label for="sysapps_field">Enable system apps (disabled by default)</label>
+                        <label for="sysapps_field">Enable system apps</label>
                     </div>
                 </div>
 
@@ -155,7 +155,7 @@
                 <div id="screen_on" class="check">
                     <div class="field-title">
                         <input type="checkbox" placeholder="" id="screenon_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_KEEP_SCREEN_ON" data-qr-bool>
-                        <label for="screenon_field">Keep screen on (Android 13 only)</label>
+                        <label for="screenon_field">Keep screen on (⚠️ Android 13 only)</label>
                     </div>
                 </div>
 
