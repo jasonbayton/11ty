@@ -18,6 +18,15 @@ const qrBuilder = () => {
 		}
 	});
 
+	const qrCode = new QRCode(document.getElementById('generated_qr'), {
+		text: qrData,
+		width: 256,
+		height: 256,
+		colorDark: "#000000",
+		colorLight: "#ffffff",
+		correctLevel: QRCode.CorrectLevel.H,
+	});
+
 	console.debug('qrData', qrData);
 }
 
@@ -33,6 +42,7 @@ function setNestedObject(obj, path, value) {
 
 	schema[pList[len - 1]] = value;
 }
+
 
 console.debug('qr-generator.js loaded');
 setTimeout(() => {
