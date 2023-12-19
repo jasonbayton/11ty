@@ -19,7 +19,7 @@ const qrBuilder = () => {
 	});
 
 	const qrCode = new QRCode(document.getElementById('generated_qr'), {
-		text: qrData,
+		text: JSON.stringify(qrData).trim(),
 		width: 256,
 		height: 256,
 		colorDark: "#000000",
