@@ -144,6 +144,13 @@
                     </div>
                 </div>
 
+                <div id="provision_offline" class="check">
+                    <div class="field-title">
+                        <input type="checkbox" placeholder="" id="provisionoffline_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_ALLOW_OFFLINE" data-qr-bool>
+                        <label for="provisionoffline_field">Allow offline provisioning</label>
+                    </div>
+                </div>
+
                 <div id="screen_on" class="check">
                     <div class="field-title">
                         <input type="checkbox" placeholder="" id="screenon_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_KEEP_SCREEN_ON" data-qr-bool>
@@ -167,14 +174,14 @@
 
                 <div id="set_locale" class="field-qr">
                     <div class="field-title">
-                        <label for="setlocale_field">Set Locale</label>
+                        <label for="setlocale_field">Set Locale</label> (<a href="https://www.localeplanet.com/icu/" target="_blank">Ref</a>)
                     </div>
                     <input type="text" placeholder="en_US" id="setlocale_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_LOCALE">
                 </div>
 
                 <div id="set_timezone" class="field-qr">
                     <div class="field-title">
-                        <label for="settz_field">Set Timezone</label>
+                        <label for="settz_field">Set Timezone</label> (<a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank">Ref</a>)
                     </div>
                     <input type="text" placeholder="London/Europe or Ect/GMT-8" id="settz_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_TIME_ZONE">
                 </div>
