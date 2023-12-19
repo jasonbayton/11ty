@@ -18,14 +18,17 @@ const qrBuilder = () => {
 		}
 	});
 
-	const qrCode = new QRCode(document.getElementById('generated_qr'), {
-		text: JSON.stringify(qrData).trim(),
-		width: 256,
-		height: 256,
-		colorDark: "#000000",
-		colorLight: "#ffffff",
-		correctLevel: QRCode.CorrectLevel.H,
-	});
+	const qrUrl = 'https://chart.googleapis.com/chart?cht=qr&chs=256x256&chl=' + JSON.stringify(qrData).trim();
+
+	const image = document.createElement('img');
+	image.src = qrUrl;
+	image.alt = 'QR Code';
+	image.width = 256;
+	image.height = 256;
+
+	const qrContainer = document.getElementById('generated_qr');
+	qrContainer.innerHTML = '';
+	qrContainer.appendChild(image);
 
 	console.debug('qrData', qrData);
 }
@@ -43,9 +46,4 @@ function setNestedObject(obj, path, value) {
 	schema[pList[len - 1]] = value;
 }
 
-
-console.debug('qr-generator.js loaded');
-setTimeout(() => {
-	document.getElementById('generate_code')?.addEventListener('click', qrBuilder);
-
-})
+document.getElementById('generate_code')?.addEventListener('click', qrBuilder);
