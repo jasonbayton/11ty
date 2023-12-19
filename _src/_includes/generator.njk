@@ -36,7 +36,7 @@
                     <div class="field-title">
                         <label for="token_field">Token*</label>
                     </div>
-                    <input type="text" placeholder="This field is mandatory." id="token_field" class="input-text">
+                    <input type="text" placeholder="This field is mandatory." id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE|com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN">
                 </div>
                 <p><b>Configure Wi-Fi network</b></p>
 
@@ -55,9 +55,9 @@
                     <div class="field-title">
                         <label for="security_select">Wi-Fi Security</label>
                     </div>
-                    <select name="WIFI_SECURITY_TYPE" id="security_select" class="input-text">
+                    <select name="WIFI_SECURITY_TYPE" id="security_select" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE">
                         <option value=""></option>
-                        <option value="WPA_PSK">WPA/WPA2 PSK</option>
+                        <option value="WPA">WPA/WPA2 PSK</option>
                         <option value="WEP">WEP</option>
                         <option value="NONE">None</option>
                     </select>
@@ -67,12 +67,12 @@
                     <div class="field-title">
                         <label for="ssid_field">Wi-Fi SSID</label>
                     </div>
-                    <input type="text" placeholder="WIFI_SSID" id="ssid_field" class="input-text">
+                    <input type="text" placeholder="WIFI_SSID" id="ssid_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_SSID">
                 </div>
 
                 <div id="ssid_hidden" class="check">
                     <div class="field-title">
-                        <input type="checkbox" placeholder="" id="ssidhidden_field" class="input-check">
+                        <input type="checkbox" placeholder="" id="ssidhidden_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_WIFI_HIDDEN" data-qr-bool>
                         <label for="ssidhidden_field">Hidden SSID</label>
                     </div>
                 </div>
@@ -81,35 +81,35 @@
                     <div class="field-title">
                         <label for="password_field">Wi-Fi Password</label>
                     </div>
-                    <input type="password" placeholder="WIFI_PASSWORD" id="password_field" class="input-text">
+                    <input type="password" placeholder="WIFI_PASSWORD" id="password_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PASSWORD">
                 </div>
 
                 <div id="wifi_pac" class="field-qr">
                     <div class="field-title">
                         <label for="pac_field">Wi-Fi PAC URL, if required</label>
                     </div>
-                    <input type="text" placeholder="WIFI_PAC_URL" id="pac_field" class="input-text">
+                    <input type="text" placeholder="WIFI_PAC_URL" id="pac_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PAC_URL">
                 </div>
 
                 <div id="wifi_proxy_host" class="field-qr">
                     <div class="field-title">
                         <label for="proxyhost_field">Wi-Fi Proxy Host</label>
                     </div>
-                    <input type="text" placeholder="WIFI_PROXY_HOST" id="proxyhost_field" class="input-text">
+                    <input type="text" placeholder="WIFI_PROXY_HOST" id="proxyhost_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_HOST">
                 </div>
 
                 <div id="wifi_proxy_port" class="field-qr">
                     <div class="field-title">
                         <label for="proxyport_field">Wi-Fi Proxy Port</label>
                     </div>
-                    <input type="text" placeholder="WIFI_PROXY_PORT" id="proxyport_field" class="input-text">
+                    <input type="text" placeholder="WIFI_PROXY_PORT" id="proxyport_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_PORT">
                 </div>
 
                 <div id="wifi_proxy_bypass" class="field-qr">
                     <div class="field-title">
                         <label for="proxybypass_field">Wi-Fi Proxy Bypass URL</label>
                     </div>
-                    <input type="text" placeholder="WIFI_PROXY_BYPASS" id="proxybypass_field" class="input-text">
+                    <input type="text" placeholder="WIFI_PROXY_BYPASS" id="proxybypass_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_BYPASS">
                 </div>
 
                 <!-- Configure DPC extras
@@ -122,7 +122,7 @@
                         "android.app.extra.PROVISIONING_TIME_ZONE":"xxxxx",
                 -->
 
-                <!-- END JSON 
+                <!-- END JSON
 
                 }
 
@@ -132,35 +132,35 @@
 
                 <div id="sysapps" class="check">
                     <div class="field-title">
-                        <input type="checkbox" placeholder="" id="sysapps_field" class="input-check">
+                        <input type="checkbox" placeholder="" id="sysapps_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED" data-qr-bool>
                         <label for="sysapps_field">Enable system apps (disabled by default)</label>
                     </div>
-                </div>  
+                </div>
 
                 <div id="mobile_network" class="check">
                     <div class="field-title">
-                        <input type="checkbox" placeholder="" id="mobilenetwork_field" class="input-check">
+                        <input type="checkbox" placeholder="" id="mobilenetwork_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_USE_MOBILE_DATA" data-qr-bool>
                         <label for="mobilenetwork_field">Use mobile network for provisioning</label>
                     </div>
-                </div>     
+                </div>
 
                 <div id="screen_on" class="check">
                     <div class="field-title">
-                        <input type="checkbox" placeholder="" id="screenon_field" class="input-check">
+                        <input type="checkbox" placeholder="" id="screenon_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_KEEP_SCREEN_ON" data-qr-bool>
                         <label for="screenon_field">Keep screen on (Android 13 only)</label>
                     </div>
-                </div>      
+                </div>
 
                 <div id="skip_encryption" class="check">
                     <div class="field-title">
-                        <input type="checkbox" placeholder="" id="encryption_field" class="input-check">
+                        <input type="checkbox" placeholder="" id="encryption_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_SKIP_ENCRYPTION" data-qr-bool>
                         <label for="encryption_field">Skip encryption</label>
                     </div>
-                </div>  
+                </div>
 
                 <div id="skip_education" class="check">
                     <div class="field-title">
-                        <input type="checkbox" placeholder="" id="education_field" class="input-check">
+                        <input type="checkbox" placeholder="" id="education_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_SKIP_EDUCATION_SCREENS" data-qr-bool>
                         <label for="education_field">Skip education screens</label>
                     </div>
                 </div>
@@ -169,22 +169,22 @@
                     <div class="field-title">
                         <label for="setlocale_field">Set Locale</label>
                     </div>
-                    <input type="text" placeholder="en-US" id="setlocale_field" class="input-text">
+                    <input type="text" placeholder="en_US" id="setlocale_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_LOCALE">
                 </div>
 
                 <div id="set_timezone" class="field-qr">
                     <div class="field-title">
                         <label for="settz_field">Set Timezone</label>
                     </div>
-                    <input type="text" placeholder="London/Europe or Ect/GMT-8" id="settz_field" class="input-text">
+                    <input type="text" placeholder="London/Europe or Ect/GMT-8" id="settz_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_TIME_ZONE">
                 </div>
 
                 <h3 class="post-title post-archive">
-                    <a class="button" id="generate_code" href="#">Generate QR »</a>
+                    <button class="button" id="generate_code">Generate QR »</button>
                 </h3>
 
                 <div class="post-block" id="generated_qr">
-                    
+
                 </div>
             </section>
             <!-- Page feedback goes here -->
@@ -193,6 +193,7 @@
         </content>
         <footer>
             {% include "./_parts/footer.njk" %}
+            <script src="/js/qr-generator.js"></script>
         </footer>
     </body>
 </html>
