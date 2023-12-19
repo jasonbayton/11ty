@@ -18,13 +18,13 @@ const qrBuilder = () => {
 		}
 	});
 
-	const qrUrl = 'https://chart.googleapis.com/chart?cht=qr&chs=256x256&chl=' + JSON.stringify(qrData).trim();
+	const qrUrl = 'https://chart.googleapis.com/chart?cht=qr&chs=512x512&chl=' + JSON.stringify(qrData).trim();
 
 	const image = document.createElement('img');
 	image.src = qrUrl;
 	image.alt = 'QR Code';
-	image.width = 256;
-	image.height = 256;
+	image.width = 512;
+	image.height = 512;
 
 	const qrContainer = document.getElementById('generated_qr');
 	qrContainer.innerHTML = '';

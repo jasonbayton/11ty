@@ -805,6 +805,16 @@ section#posts {
   width: 60%;
 }
 
+.input-dropdown {
+  border: 2px solid black;
+  width: 30%;
+}
+
+#generated_qr img {
+  border: 2px solid var(--orange);
+  max-width: 512px;
+}
+
 #searchField::placeholder {
   color: var(--light)
 }

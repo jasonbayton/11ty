@@ -55,8 +55,8 @@
                     <div class="field-title">
                         <label for="security_select">Wi-Fi Security</label>
                     </div>
-                    <select name="WIFI_SECURITY_TYPE" id="security_select" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE">
-                        <option value=""></option>
+                    <select name="WIFI_SECURITY_TYPE" id="security_select" class="input-text input-dropdown" data-qr-key="android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE">
+                        <option value="">-- Select --</option>
                         <option value="WPA">WPA/WPA2 PSK</option>
                         <option value="WEP">WEP</option>
                         <option value="NONE">None</option>
@@ -112,10 +112,11 @@
                     <input type="text" placeholder="WIFI_PROXY_BYPASS" id="proxybypass_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_BYPASS">
                 </div>
 
-                <!-- Configure DPC extras
+                <!-- Configure options
                         "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true/false,
                         "android.app.extra.PROVISIONING_USE_MOBILE_DATA":true/false,
                         "android.app.extra.PROVISIONING_KEEP_SCREEN_ON":true/false,
+                        "android.app.extra.PROVISIONING_ALLOW_OFFLINE":true/false,
                         "android.app.extra.PROVISIONING_SKIP_ENCRYPTION":true/false,
                         "android.app.extra.PROVISIONING_SKIP_EDUCATION_SCREENS":true/false,
                         "android.app.extra.PROVISIONING_LOCALE":"xxxxx",
@@ -128,7 +129,7 @@
 
                 -->
 
-                <p><b>Configure DPC extras</b></p>
+                <p><b>Configure additional provisioning options</b></p>
 
                 <div id="sysapps" class="check">
                     <div class="field-title">
