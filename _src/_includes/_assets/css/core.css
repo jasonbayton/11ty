@@ -814,6 +814,10 @@ section#posts {
   padding: 5px 0;
 }
 
+.field-title {
+  padding-bottom: 5px;
+}
+
 #generated_qr img {
   border: 2px solid var(--orange);
   max-width: 512px;
