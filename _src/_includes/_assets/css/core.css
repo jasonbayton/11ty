@@ -818,6 +818,10 @@ section#posts {
   padding-bottom: 5px;
 }
 
+generated_qr {
+  clear: both;
+}
+
 #generated_qr img {
   border: 2px solid var(--orange);
   max-width: 512px;
