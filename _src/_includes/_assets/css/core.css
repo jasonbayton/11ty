@@ -821,6 +821,7 @@ section#posts {
 #generated_qr img {
   border: 2px solid var(--orange);
   max-width: 512px;
+  width: 99%;
 }
 
 #searchField::placeholder {
