@@ -824,6 +824,10 @@ section#posts {
   width: 99%;
 }
 
+#generate_code {
+  margin-bottom: 30px;
+}
+
 #searchField::placeholder {
   color: var(--light)
 }
