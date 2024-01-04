@@ -1230,6 +1230,10 @@ footer {
     padding: 10px;
     color: var(--text);
   }
+
+  #clear-storage {
+    color: var(--text);
+  }
   
   #menu_close {
     position: absolute;
