@@ -31,6 +31,7 @@ const qrBuilder = () => {
 	qrContainer.appendChild(image);
 
 	console.debug('qrData', qrData);
+	document.getElementById('json_code').innerHTML += '<b>Generated JSON</b><pre>'+JSON.stringify(qrData,null, 2)+'</pre>';
 }
 
 function setNestedObject(obj, path, value) {
