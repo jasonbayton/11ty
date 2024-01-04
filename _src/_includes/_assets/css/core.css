@@ -1228,6 +1228,7 @@ footer {
     text-align: center;
     display: block;
     padding: 10px;
+    color: var(--text);
   }
   
   #menu_close {
