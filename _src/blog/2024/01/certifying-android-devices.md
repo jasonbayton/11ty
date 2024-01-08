@@ -1,5 +1,5 @@
 ---
- title: "How are Android devices certified?"
+ title: "How do Android devices become certified?"
  date: '2024-01-08'
  status: publish 
  author: 'Jason Bayton' 
