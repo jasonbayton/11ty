@@ -10,23 +10,23 @@
 ---
 If you've taken a passing interest in Android as a product/platform in recent years, you may be familiar with GMS, Google Mobile Services, Certification - more recently rebranded to Play Protect Certification.
 
-If the concept is new to you, this certification is the combination of public requirements from the CDD, [Compatibility Definition Document](https://source.android.com/docs/compatibility/cdd) - A doc that provides both requirements and recommendations for vendors building products to run Android that guarantee a baseline of security and compatibility within the Android ecosystem (applications work the same everywhere, there's a minimum encryption requirement, enterprise APIs and features are present, etc, etc), and GMS requirements - a Google & vendor agreement that permits Google applications (like Google Play Services, Play Store, Gmail, etc) to be preloaded provided the vendor agrees to things like application placement, system update commitments, minimum version requirements, default services, OOB experiences, and so on.
+If the concept is new to you, this certification is the combination of public requirements from the CDD, [Compatibility Definition Document](https://source.android.com/docs/compatibility/cdd) - A reference that provides both requirements and recommendations for vendors building products to run Android that guarantee a baseline of security and compatibility within the Android ecosystem (applications work the same everywhere, there's a minimum encryption requirement, enterprise APIs and features are present, etc), and GMS requirements - a Google & vendor agreement that permits Google applications (like Google Play Services, Play Store, Gmail, etc) to be preloaded provided the vendor agrees to things like application placement, system update commitments, minimum version requirements, default services, out of box experiences (OOBE), and so on.
 
 There's a bit more about Play Protect Certification, and how to check for it, in the FAQ [here](/android/android-enterprise-faq/view-all-certified-devices/)
 
-Also referenced in the link above, Certification isn't a one-fits-all process, in fact you may have seen references to MADA, eMADA, iMADA and more in the news as Google makes changes to the agreements vendors are required uphold based on the regions they're selling into. Europe, India, Turkey, Russia.. and of course there's no certification for China at all, so it's all AOSP out there.
+Also referenced in the link above, Certification isn't a one-fits-all process, in fact you may have seen references to MADA, eMADA, iMADA and more in the news as Google makes changes to the agreements vendors are required uphold based on the regions they're selling into. Europe, India, Turkey, US.. and of course there's no certification for China at all, so it's all AOSP out there.
 
-As an OEM you may have to certify a device under multiple licences in order to sell it into multiple regions, with user experiences changes including the browser choice screen, app placement changes, and more, adjusted in accordance with local requirements, resulting court cases decisions, and so on. If you're planning to sell to different regions you'll likely have multiple SKUs of a device anyway to account for cellular radio requirements, local certification body requirements, and other region-specific considerations, so multiple software SKUs isn't as big of a burden as it might seem, especially since Android 10 with the introduction of Build Variants - a process in which multiple software SKUs with differing requirements can be generated from a primary software build automatically.
+As an OEM you may have to certify a device under multiple licences in order to sell it into multiple regions, with user experiences changes including the browser choice screen, app placement changes, and more, adjusted in accordance with local requirements, resulting court cases decisions, and other such stipulations. If you're planning to sell to different regions you'll likely have multiple SKUs (versions) of a device anyway to account for cellular radio requirements, local certification body (CE, UKCA, FCC,..) requirements, and other region-specific considerations, so multiple software SKUs (software builds tailored according to specifications) isn't as big of a burden as it might seem, especially since Android 10 with the introduction of Build Variants - a process in which multiple software SKUs with differing requirements can be generated from a primary software build automatically.
 
 ## Who can certify devices?
 
 If you're an organisation building Android devices, be that a new venture or as a change to an existing product line to support PPC/GMS, the obvious question is _how can I certify?_
 
-In short, _anyone_ can build a device and prep it for certification based on the CDD, but only organisations with a signed x/MADA or EDLA agreement with Google can actually provide the GMS suite of applications, the requirements list, and submit the device to one of Google's approval partners (3PL) to undergo the testing and validation process (the aforementioned xTS tests in the FAQ above).
+In short, _anyone_ can build a device and prep it for certification based on the CDD, but only organisations with a signed x/MADA or EDLA agreement with Google can actually provide the GMS suite of applications, the requirements list, and submit the device to one of Google's approval partners (referred to often as "3PL") to undergo the testing and validation process (the aforementioned xTS tests in the FAQ above).
 
 The likelihood of gaining this agreement as an organisation is low, as Google maintains a small list (~100) of approved partners, and therefore the best course of action is to reach out to existing partners and discuss requirements, pricing, etc. 
 
-Conveniently, Google provides a list of ODMs and Partners on their [Partners](https://www.android.com/certified/partners/) page, under the ODM tab.
+Conveniently, Google provides a list of ODMs (Original Design Manufacturers. Companies that design and/or build a product to another company's specifications) and Partners on their [Partners](https://www.android.com/certified/partners/) page, under the ODM tab.
 
 ![Android Partner List](https://cdn.bayton.org/uploads/2024/partner_list.png)
 
@@ -72,7 +72,7 @@ This is one of the larger challenges with smaller OEMs; keeping on top of releas
 
 Reading above, you may have picked up on the fact EDLA has a much wider window from approval to expiry, but that's just the tip of the iceberg.
 
-EDLA stands for Enterprise Device License Agreement and was introduced to address challenges faced by OEMs building devices intended for enterprise:
+EDLA is a more recent GMS licence and stands for Enterprise Device License Agreement. It was introduced to address challenges faced by OEMs building devices intended for enterprise:
 
 - Non-standard form factors
 - Devices with much longer support lifecycles
