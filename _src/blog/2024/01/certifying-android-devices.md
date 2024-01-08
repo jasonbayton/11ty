@@ -1,6 +1,6 @@
 ---
  title: "How are Android devices certified?"
- date: '2023-11-05'
+ date: '2024-01-08'
  status: publish 
  author: 'Jason Bayton' 
  excerpt: "If you've taken a passing interest in Android as a product/platform in recent years, you may be familiar with GMS, Google Mobile Services, Certification - more recently rebranded to Play Protect Certification. But how does it all work?" 
