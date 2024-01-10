@@ -35,9 +35,10 @@ OEMs such as Samsung use additional users for solutions like _Secure Folder_. He
 
 ```
 Users:
-	UserInfo{0:Owner:4c13} running
-	UserInfo{12:Work profile:1030} running
+  UserInfo{0:Owner:4c13} running
+  UserInfo{12:Work profile:1030} running
   UserInfo{150:Secure Folder:10061030} running
+
 ```
 
 Since the account list is normally annotated with the user type, it shouldn't be difficult to differentiate which user does what, but keep this in mind on older Android versions or those from OEMs that modify how this behaves.
