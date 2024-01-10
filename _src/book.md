@@ -25,7 +25,7 @@ layout: base.njk
 **"Enterprise Mobility for Minors. You are a visionary."**  
 _- Aaron Friemark, VP of Product Management_
 
-**"I think it is great to raise aware ness to this as well as ensuring there is a healthy mix work and personal and ensuring a split between “tech” and “non-tech” in our lives."**  
+**"I think it is great to raise awareness to this as well as ensuring there is a healthy mix work and personal and ensuring a split between “tech” and “non-tech” in our lives."**  
 _- Ajay Patel, Technical Account Manager, B2B_
 
 **"Oh wow, simply brilliant!"**  
