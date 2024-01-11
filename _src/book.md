@@ -31,6 +31,9 @@ _- Ajay Patel, Technical Account Manager, B2B_
 **"Oh wow, simply brilliant!"**  
 _- RP Gill, Product Engineering lead_
 
+**"It's important to be safe and play outside a lot"**
+_- Mika, age 8_
+
 ### Get the book
 
 **Daddy's Phone Can't Do That!** is available today through [Lulu.com](https://www.lulu.com/shop/jason-bayton-and-laila-ar%C3%AAde/daddys-phone-cant-do-that/ebook/product-8ervv5.html) & [Google Play](https://play.google.com/store/books/details?id=JRm3EAAAQBAJ) as an EPUB for £,$,€ 1.99. More distributors will come online over the coming weeks.
