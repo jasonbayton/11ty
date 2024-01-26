@@ -902,6 +902,10 @@ section#trusted_logos #trusted_container {
   grid-column-gap: 30px;
 }
 
+.side-note {
+  color: var(--blood-orange);
+}
+
 .meta-tag {
   text-transform: lowercase;
   color: var(--blood-orange);
