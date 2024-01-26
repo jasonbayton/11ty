@@ -212,6 +212,7 @@ blockquote::after{
 
 a {
   color: inherit;
+  text-underline-offset: 2px;
 }
 
 a.active {
