@@ -1,0 +1,38 @@
+---
+title: Advisories
+date: '2024-01-27'
+status: publish
+author: 'Jason Bayton'
+excerpt: ''
+type: archive
+layout: base.njk
+tags: 
+---
+
+<section id="note" class=" grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 grid-gap-mobile-0">
+    <section id="page_content">
+        <div class="section-title extra-bold">
+            {{ title }} 
+        </div>
+        <hr>
+        {% for post in collections.Advisories | reverse %}
+
+        <div class="post-block">
+            <div class="post-meta post-meta-condensed">
+                <div class="meta-single">
+                    <a class="blood-orange" href="{{ post.url | url }}">{{ post.date | dateWithTime }}</a>    
+                </div>
+            </div>
+            <div class="post-content">
+                {{ post.content | safe }}
+            </div>     
+        </div>
+        {% endfor %}
+    </section>
+    <section id="note_overview" class="">
+        <div class="border-4px border-orange border-curved padding-10 padding-lr-20 first-heading-inline">
+            <h3>What are advisories?</h3>
+            <p>These are isolated documents aligned with external events, and are intended to provide guidance on temporary issues or upcoming changes. They have their own <a href="/advisories/feed.xml">RSS feed</a>, too.</p>
+        </div>
+    </section>
+</section>
