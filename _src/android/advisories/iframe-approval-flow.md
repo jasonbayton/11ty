@@ -1,6 +1,6 @@
 ---
  title: "Deprecation of the old managed Google Play iFrame app approval flow"
- date: '2023-08-24'
+ published: '2023-08-24'
  status: publish
  author: 'Jason Bayton'
  excerpt: "The way applications are approved is changing."

@@ -1,6 +1,6 @@
 ---
  title: "Samsung zero-touch enrolment resolution"
- date: '2024-01-29'
+ published: '2024-01-29'
  status: publish
  author: 'Jason Bayton'
  excerpt: "A temporary fix has been applied via Google. A permanent fix will be pushed OTA later."

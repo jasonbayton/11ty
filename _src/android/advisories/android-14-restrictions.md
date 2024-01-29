@@ -1,6 +1,6 @@
 ---
  title: "Major Android 14 bug permanently applies management restrictions"
- date: '2023-11-30'
+ published: '2023-11-30'
  status: publish
  author: 'Jason Bayton'
  excerpt: "The bug leads to irreversible application of restrictions, a full device wipe is the only option for resolution if policies later need to be changed."
