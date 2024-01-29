@@ -73,3 +73,30 @@ The DPC migration function is split between [server](https://developers.google.c
 Google had been promising more functionality from the extensibility SDK allowing partners to fill the gap left by the lack of AMAPI feature parity with customDPC capabilities, it's interesting to see after almost a year of waiting for something to land there, it's this.
 
 Anyway, in lieu of any further public information, this is what we have at the moment. It'll be interesting to see where this leads. Hopefully Google eventually gain the courage to release the full DPC migration capabilities to the ecosystem though, and Android Enterprise customers the world over will finally gain the ability to perform truly painless migrations.
+
+## Update
+
+Google today published the [release notes](https://developers.google.com/android/management/release-notes#jan-2024) that directly reference this new feature.
+
+Based on the document [published](https://developers.google.com/android/management/dpc-migration) (or updated) on 26th Jan, a day after this article, we get a complete view of what DPC migration is and does, and it aligns pretty well with the above. Check out the doc linked above for a full walkthrough, but here are some highlights:
+
+Confirming a lack of support for WPoFMD:
+
+> This feature is not supported on fully managed devices which have a work profile running Android 9 or 10. Migrating these devices must not be attempted, and regardless of whether an error is raised, such devices are not supported for DPC migration.
+
+Absolutely nothing has been offered in place, so COPE-heavy deployments are simply out of luck by the looks of things.
+
+Confirming they've watered it down to support only one-way custom DPC to AMAPI migrations:
+
+> Note: This process is transparent to end users. It is a one-way only process (it cannot be undone once completed) and it cannot be used to migrate a device from one EMM to another.
+
+And the requirements:
+
+> - The device is already managed by your EMM with a custom DPC.
+> - Your custom DPC is integrated with the AMAPI SDK.
+> - The device is enrolled with Google Play EMM API.
+> - The device belongs to a Managed Google Play Accounts enterprise.
+> - The device runs Android 9 or later.
+> - In case of work profiles on company-owned devices, the device must run Android 11 or later.
+
+Again it's too bad we're not even seeing - at the very least - AMAPI to AMAPI migration being possible today. Hopefully that'll come in future.
