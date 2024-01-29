@@ -4,7 +4,7 @@
  status: publish
  author: 'Jason Bayton'
  excerpt: "You'll now see security exceptions for new installations of non-compliant apps."
- type: post
+ type: documentation
  layout: base.njk
  tags:
      - Advisories

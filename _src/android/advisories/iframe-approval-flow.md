@@ -4,7 +4,7 @@
  status: publish
  author: 'Jason Bayton'
  excerpt: "The way applications are approved is changing."
- type: post
+ type: documentation
  layout: base.njk
  tags:
      - Advisories
