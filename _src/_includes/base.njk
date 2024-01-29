@@ -107,11 +107,14 @@
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
                         {% elif tag.includes("notes") %}
                         <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/notes/">return to notes</a>
+                        {% elif tag.includes("Advisories") %}
+                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/advisories/">return to advisories</a>
                         {% elif tag.includes("FAQ") %}
                         <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
                         {% endif %}
                         {% endfor %}
                     </div>
+                    <!-- need to fix the advisories link later -->
                 </div>
                 <hr>
                 {% if (not type.includes("note"))  %}
