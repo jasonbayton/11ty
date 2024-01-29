@@ -3,7 +3,7 @@
  date: '2023-11-30'
  status: publish
  author: 'Jason Bayton'
- excerpt: "Google is aware of reports that an exploit for CVE-2024-0519 exists in the wild."
+ excerpt: "The bug leads to irreversible application of restrictions, a full device wipe is the only option for resolution if policies later need to be changed."
  type: post
  layout: base.njk
  tags:
@@ -25,4 +25,4 @@ Update: Public customer community announcement:
 
 🔗 [https://www.androidenterprise.community/t5/service-announcements/in-progress-some-management-policies-are-made-permanent-on/ta-p/1494](https://www.androidenterprise.community/t5/service-announcements/in-progress-some-management-policies-are-made-permanent-on/ta-p/1494)
 
-For help or guidance, feel free to [reach out](/support/)
+🛟 For help or guidance, feel free to [reach out](/support/).
