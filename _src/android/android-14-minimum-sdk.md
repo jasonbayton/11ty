@@ -5,17 +5,17 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: 
+tags:
     - App management
 eleventyNavigation:
   order: 8000
 layout: base.njk
 ---
-In Android 14, Google introduces new limitations on the installation of applications targeting old versions of Android. 
+In Android 14, Google introduced new limitations on the installation of applications targeting old versions of Android.
 
 ## What’s changing
 
-In Android 14 it will no longer be possible to install any application that targets API level 23 - Android 6.0. Attempting to do so will trigger a security exception.
+In Android 14 it is no longer be possible to install any application that targets API level 23 - Android 6.0. Attempting to do so will trigger a security exception.
 
 ## Will this have any impact on EMM-deployed devices?
 
