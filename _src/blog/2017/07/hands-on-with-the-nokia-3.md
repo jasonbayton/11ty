@@ -92,12 +92,28 @@ Software
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-4"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141754/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-4"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+	
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141754/) 
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142341/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141749/) </dt></dl>  
+</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142341/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141749/) 
+
+</dt></dl>  
 <dl class="gallery-item"> <dt class="gallery-icon portrait"> 
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141737/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141942/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142412/) </dt></dl>  
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141737/) 
+
+</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+	
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141942/) 
+
+</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+	
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142412/) 
+
+</dt></dl>  
  </div>
  
  The Nokia 3 ships with Android N 7.0 out of the box. Considering the Wileyfox Swift 2x ships with 7.1.2 and Android O 8.0 is just around the corner it’s a little disappointing to see 7.0 being shipped (in the context of HMDG stating they were going to be focusing on updates and security from the get-go, I’d otherwise not complain). I did receive an update to bring the security level up to July 2017 in the first 10 days of ownership which is definitely encouraging, but more can be done.
