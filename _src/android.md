@@ -40,14 +40,14 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 {% endif %}
 
 </div>
-<h3 class="post-title post-archive">
-<a class="button" href="/android/advisories">More »</a>
-</h3>
 </div>
 
 {% endif %}
 {% endfor %}
 
+<div id="android_viewmore" class="post-title">
+<a class="button button-small" href="/android/advisories">more »</a>
+</div>
 </div>
 
 ## Docs
