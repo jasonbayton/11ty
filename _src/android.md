@@ -24,7 +24,8 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 <div class="callout">
 
-{% for post in collections['Advisories'] %}
+{% for post in collections['Advisories'] | reverse %}
+{% if loop.index0 < 5 %}
 
 <div class="post-block">
 <div class="post-body">
@@ -39,11 +40,17 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 {% endif %}
 
 </div>
+<h3 class="post-title post-archive">
+<a class="button" href="/android/advisories">More »</a>
+</h3>
 </div>
 
+{% endif %}
 {% endfor %}
 
 </div>
+
+## Docs
 
 <div id="android_doc_grid">
 {% for tag in android_tags %}
