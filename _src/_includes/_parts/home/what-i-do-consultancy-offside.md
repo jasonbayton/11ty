@@ -6,8 +6,8 @@
 - 100,000 device deployment on the Android Management API
 - OEM consultation for EMM support of an Android-based AR device
 
-<div class="callout">
+<div class="side-note">
 
-Is your organisation a non-profit, education, or charity looking for assistance in deploying >500 Android devices? If so, I can offer my services at _no charge_. [Contact me](/contact) for more information.
+⚠️ Is your organisation a non-profit, education, or charity looking for assistance in deploying >500 Android devices? If so, I can offer my services at _no charge_. [Contact me](/contact) for more information.
 
 </div>
