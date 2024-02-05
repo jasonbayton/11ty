@@ -1,1 +1,1 @@
-I've helped hundreds of organisations succeed in the Android ecosystem 
+I've helped thousands of organisations succeed in the Android ecosystem 
