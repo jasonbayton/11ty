@@ -100,7 +100,7 @@ When this application is imported into the PAI Android Device Configuration port
 ![](https://cdn.bayton.org/uploads%2F2024%2FScreenshot_2024-03-07.png)  
 _Above: An example of the type of PAI config I provided with devices_
 
-As an OEM, you don't technically _have_ to define the applications in the app config, because once imported, the portal will allow full application selection and the ability to override the configuration either way. 
+As an OEM, you don't technically _have_ to define the applications in the app config, because once imported, the portal will allow full application selection and the ability to override the configuration either way. If you look closely above you'll notice there are no references to `config` or `activation` in the app config, they were instead added through the portal.
 
 Additionally, with this config you can also define Google and Carrier apps accordingly.
 
