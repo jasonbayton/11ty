@@ -8,23 +8,23 @@
  tags:
      - Enterprise
 ---
-If you have set up a modern Android device, may have come across the list of apps offered by your device just before you finish setup. 
+If you have set up a modern Android device, may have come across the list of apps offered by your device just before you finish setup. This is referred to as Play Auto Install and is available to OEMs building certified Android devices.
 
-This list of recommended and required applications suggests (or mandates) a selection of applications the OEM, carrier, or Google consider useful for your Android experience, and is an alternative to the _other_ standard approach of just preloading APKs into the system image.
+The list of recommended and required applications suggests (or mandates) a selection of applications the OEM, carrier, or Google consider useful for your Android experience, and is an alternative to the _other_ standard approach of just preloading APKs into the system image.
 
 ![](https://cdn.bayton.org/uploads/2024/frame22100.png)
 
-The way the apps are presented can differ, sometimes they're pre-checked with the option to deselect as desired, while sometimes they may be selected (or "included") with no means of de-selecting. The latter you'll often see with the suite of Google applications, but can equally be set as mandatory by the OEM. 
+The way the apps are presented can differ, sometimes they're pre-checked with the option to deselect as desired, while sometimes they may be selected (or "included") with no means of de-selecting. The latter you'll often see with the suite of Google applications, but can equally be set as mandatory by the OEM as shown by Motorola's push of Microsoft apps (I promptly uninstalled) above. 
 
-What is this all about?
+So what's PAI? And why does it matter?
 
 ## History
 
-Since the dawn of time, application developers have sought ways and means to ensure their applications and services are put in front of as many people as possible. Whether through ads in your browser or app store(s), partnerships with other developers to promote complimentary solutions, or the many other ways the general public has sponsored content thrust at their collective faces by companies.
+Since the dawn of time, application developers have sought means to ensure their applications and services are put in front of as many people as possible. Whether through ads in your browser or app store, partnerships with other developers or vendors to promote complimentary solutions, or the many other ways the general public has sponsored content thrust at their collective faces in modern society.
 
-At some point this found its way into the sacred space of your personal device. I wouldn't be able to pinpoint exactly when, but an OEM in the early days of Android decided they'd like to be paid to preload the applications of partners into the builds of their Android devices and forever diverged the platform from other popular mobile operating systems in the ecosystem to turn Android into a mule for bloatware.
+At some point this found its way into the sacred space of your personal device. I wouldn't be able to pinpoint exactly when, but an OEM in the early days of Android decided they'd like to offer the option of preloading the applications of partners into the builds of their Android devices, and forever diverged the platform from other popular mobile operating systems in the ecosystem to turn Android into a mule for bloatware.
 
-From then on devices shipped with applications preloaded within the OEM build of Android; often in the `/system` partition too (though less common as time went on, and partitioning changed in Android overall), which would not only eat into the available partition size defined by the OEM, but do so in a way that was non-removable by users. Different builds destined for different regions, carriers, or otherwise would include differing applications accordingly. At the time this was frustrating, pre-Android 10 the partition sizes on builds were fixed and naturally the more space taken up by read-only partitions, the less available for the user. 
+From that point on devices shipped with applications preloaded within the OEM build of Android; often in the `/system` partition too (though less common as time went on, and partitioning changed in Android overall), which would not only eat into the available partition size defined by the OEM, but do so in a way that was non-removable by users, and with different builds destined for different regions, carriers, or otherwise including differing applications in response to the target market accordingly it added additional complexity to the build processes overall.
 
 It did however as mentioned guarantee the applications preloaded could not be removed (unless apps would occasionally be found in the `/data` partition where they would be removable), and in some cases OEMs would go as far as preventing applications from being disabled as well, the only available means of "removing" a preloaded application that a user would not want on their device.
 
@@ -32,13 +32,11 @@ This still happens today, but it _feels_ less prevalent now than back then. That
 
 ## Drawbacks
 
-Aside from the obvious user distaste for bloatware, the ecosystem has mostly come to terms with the fact an Android device is likely to ship with apps and services they don't want. Particularly in the case of carrier-subsidised devices, where bloat is prolific. That said, in the context of PAI there are known drawbacks to preloading apps in the system build:
+Aside from the obvious user distaste for bloatware, for which the ecosystem has mostly come to terms with as a fact an Android device is likely to ship with apps and services they don't want; particularly in the case of carrier-subsidised devices where bloat is prolific? In the context of PAI there are known drawbacks to preloading apps in the system build:
 
 **It uses space** - As mentioned above, but a little more detail: You can argue a 10MB Android app isn't making all that difference to the device as a whole, but again pre 9.0, where partitions were defined manually, there were real implications to this. Apps grow over time, and even if the preloaded app does _not_, it shares the partition with system applications, the GMS suite of apps, and more. Once a device is out in the wild the partitions can't be changed (pre-10!), and every OTA delivered must meet the size requirement of the partition it'll be installed on. From Android 10 this limitation went away, though you're still taking space from the user.
 
 <div class="callout"> 
-
-_Tangent_ 
 
 A real example of this was with the original 8" tablet I worked to bring to market way back in 2020 on Android 9.0. Although the 32GB of on-board storage was plentiful, the system partitions were sized conservatively to provide more available storage for customers. This was _fine_ for the first year or two, but with the Android 10 upgrade almost all of the available space was exhausted. As updates through the year were pushed, and the GMS core suite of apps were updated with newer, larger APKs, it shrunk to the point an Android 11 upgrade would not have been feasible. 
 
@@ -52,13 +50,13 @@ I didn't ship bloat with my hardware, opting instead to lean on PAI to offer the
 
 **It's inflexible (cont)** - Partnerships end, and the money stops flowing. Whether being paid for a period of time, or based on activations, the application preloaded into the Android build is - as above - a permanent fixture of that build. It can be removed in an update, of course, but for the time it's there, that works against the OEM (but very much in favour of the app developer)
 
-But how does PAI make this better?
+So how does PAI make this better?
 
 ## What is PAI?
 
 PAI - Play Auto Install - is a partner service provided by Google that allows an OEM to configure applications recommended (or required) _without_ preloading those applications in the Android build. 
 
-Rather, the OEM builds a simple system app with a default PAI configuration, and then uses the PAI (or Android Device Configuration Portal) to provide ongoing management for it. 
+Rather, the OEM builds a simple system app with a default PAI configuration, and then uses the PAI (or Android Device Configuration) portal to provide the ongoing management of it. 
 
 Within the portal, the OEM can target:
 
@@ -68,11 +66,23 @@ Within the portal, the OEM can target:
   - And by extension, OS version, custom builds for customers, etc.
 - OEM key (a value OEMs can set within their builds for customisation purposes, try an `adb shell getprop | grep oem.key` on your Android device to see yours)
 
-And more. There's a considerable amount of customisation, and new versions can be published in a few clicks that in turn deploy immediately to devices. 
+And more. There's a considerable amount of flexibility to allow for granular targeting, and new versions of configurations can be published in a few clicks that in turn deploy immediately to devices. 
 
 ## An example app config
 
-Here's an example PAI application config. This follows a format similar to how I configured PAI with my products in the past, with the intention to _offer_ applications to allow rapid enrolment without requiring a Google account (PAI allows for install without an account configured!). In the screenshot above you see Google, followed by Motorola. This is configured within the app as follows, in a file called `default_layout.xml`:
+Here's an example PAI application config. This below, incomplete example of a configuration follows a format similar to how I configured PAI with my products in the past, with the intention to _offer_ applications to allow rapid enrolment without requiring a Google account (PAI allows for install without an account configured!), but allowing the user to skip the screen and install nothing if so desired. 
+
+<div class="callout"> 
+
+Why offer this? 
+
+I was building devices with a primary use case for enterprise deployment. Although the likelihood was slim, my view was should a customer wish to use one of the tablets for both work and personal reasons, they could opt to set it up as a standard consumer device, and rapidly pull in the relevant DPC to enrol almost immediately without needing to head over to Google Play and locate the relevant agent themselves.
+
+Did it get much use? I don't think so. But it was an opportunity to test PAI and so I gave it a go.
+
+</div>
+
+In the screenshot above you see Google, followed by Motorola. This order and layout is configured within the app (not shown below), along with the desired default applications to be offered as follows, in a file called `default_layout.xml` in most of the PAI apps I've torn down:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,7 +100,7 @@ Here's an example PAI application config. This follows a format similar to how I
 </workspace>
 ```
 
-As you can see in the above, the two configs - outside of defining the apps themselves, are `installByDefault` and `requiredPreload`. 
+As you can see in the above, the two configs - beyond defining the apps themselves - are `installByDefault` and `requiredPreload`. 
 
 `installByDefault` is as it sounds, the application will be pulled down to the device automatically, and allows no user customisation.  
 `requiredPreload` if `false` allows the user to uncheck it, `true` marks it mandatory.
