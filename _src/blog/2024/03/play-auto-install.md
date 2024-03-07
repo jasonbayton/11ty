@@ -8,13 +8,13 @@
  tags:
      - Enterprise
 ---
-If you have set up a modern Android device, you'll likely have come across the list of apps offered by your device just before you finish setup. 
+If you have set up a modern Android device, may have come across the list of apps offered by your device just before you finish setup. 
 
-This list of recommended and required applications suggests (or mandates) a selection of applications the OEM, carrier, or Google consider useful for your Android experience.
+This list of recommended and required applications suggests (or mandates) a selection of applications the OEM, carrier, or Google consider useful for your Android experience, and is an alternative to the _other_ standard approach of just preloading APKs into the system image.
 
-The way the apps are presented can differ, sometimes they're pre-checked with the option to deselect as desired, while sometimes they may be selected (or "included") with no means of de-selecting. The latter you'll often see with the suite of Google applications, but can equally be set as mandatory by the OEM. Here's an example from a Motorola:
+![](https://cdn.bayton.org/uploads/2024/frame22100.png)
 
-![](https://cdn.bayton.org/uploads/2024/Screenshot_20240306-213606.png)
+The way the apps are presented can differ, sometimes they're pre-checked with the option to deselect as desired, while sometimes they may be selected (or "included") with no means of de-selecting. The latter you'll often see with the suite of Google applications, but can equally be set as mandatory by the OEM. 
 
 What is this all about?
 
