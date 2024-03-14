@@ -667,6 +667,13 @@ grid-column: 1/-1;
   display: inline;
 }
 
+div:hover g#swirl_2 {
+  transition: transform 0.6s ease-in-out;
+  transform: rotate(360deg);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
 #well_hey img {
   max-width: 50px;
   margin: 0;
