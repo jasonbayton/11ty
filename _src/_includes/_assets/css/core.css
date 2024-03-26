@@ -18,6 +18,7 @@
   --brand-background: #ffffff;
   --brand-text: #333333;
   --main-blue: #0283bd;
+  --main-green: #15B007;
 }
 
 [data-theme="dark"] {
@@ -1000,10 +1001,6 @@ footer {
   text-align: right;
 }
 
-#partner_logos #vendor_logo_container {
-
-}
-
 #footer_logos #vendor_logo_container {
   margin-top: 0;
 }
@@ -1602,7 +1599,7 @@ section#sharebox {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   padding: 20px;
-  background: var(--orange);
+  background: var(--main-green);
   border-radius: 5px;
   color: #000000;
 }
