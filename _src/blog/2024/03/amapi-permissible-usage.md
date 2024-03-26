@@ -47,7 +47,7 @@ Interesting, but probably not overly strange, is using device events to trigger 
 
 Despite the addition of these new, actively enforced quotas, it remains possible to request a higher limit on a case by case basis. Google now provide a form to - amongst other things - "respond to a quota limit": 
 
-![Permissible usage form clip](amapi-permissible-usage/form-ss.png)
+![Permissible usage form clip](https://cdn.bayton.org/uploads/2024/form-ss.png)
 
 Interesting also is this used to be a Google Cloud process, which suggests to me the Android Enterprise team are foregoing the established Google Cloud processes in favour of a more hands-on - and hopefully _personal_ interaction with project owners.
 
