@@ -39,7 +39,7 @@ The AMAPI API now enforces this quota, which wasn't the case before. The additio
 "MAX_DEVICES_REGISTRATION_QUOTA_EXHAUSTED"
 ```
 
-No room for interpretation here. The API offers two states: a near-quota warning (the number which triggers this not published at time of writing), and a quota-reached state, presumably at which point further enrolments will either be wiped, or disabled (..and wiped after 5 minutes, which is standard behaviour for disabled devices on enrolment without a valid policy applied today). That's speculation until it's appropriately documented, though.
+No room for interpretation here. The API offers two states: a near-quota warning (the number which triggers this not published at time of writing), and a quota-reached state, presumably at which point further enrolments will either be wiped, or disabled (..and wiped after 5 minutes, which is standard behaviour for disabled devices on enrolment without a valid policy applied today). That's speculation until it's appropriately documented, though, since currently it is not documented under the [EventType](https://developers.google.com/android/management/reference/rest/v1/EventType) docs.
 
 Interesting, but probably not overly strange, is using device events to trigger these states. I suppose it is a device registering with AMAPI that triggers the states, and so it works that the device informs the enterprise of quota warnings/limits. I'd have expected it to be pushed as an enterprise attribute though without reading too much more into it. Perhaps it'll make more sense once Google document it.
 
@@ -47,7 +47,7 @@ Interesting, but probably not overly strange, is using device events to trigger 
 
 Despite the addition of these new, actively enforced quotas, it remains possible to request a higher limit on a case by case basis. Google now provide a form to - amongst other things - "respond to a quota limit": 
 
-![alt text](amapi-permissible-usage/form-ss.png)
+![Permissible usage form clip](amapi-permissible-usage/form-ss.png)
 
 Interesting also is this used to be a Google Cloud process, which suggests to me the Android Enterprise team are foregoing the established Google Cloud processes in favour of a more hands-on - and hopefully _personal_ interaction with project owners.
 
@@ -56,3 +56,9 @@ Interesting also is this used to be a Google Cloud process, which suggests to me
 Project owners today, prospective EMM vendors or scenarios where AMAPI is in use that _don't_ breach permissible usage policies running over 500 devices should at minimum register their AMAPI solution with the [EMM partner portal](https://emm.androidenterprise.dev). If you haven't already started seeing quota warnings, you will soon. Obviously if it's not yet feasible to validate up to Standard solution set support, the form ([https://goo.gle/android-enterprise-response](https://goo.gle/android-enterprise-response)) may offer a bit of runway.
 
 For everyone else not quite at the point of hitting the limit, make preparations to validate your product with the AMAPI team before that threshold is reached.
+
+## Closing thoughts
+
+Obviously this won't solve the problem of AMAPI being either abused intentionally or used in ways Google doesn't permit. There's little to stop those driven to do so from spinning up multiple projects across multiple accounts in an ever-continuing game of cat and mouse. 
+
+It is a deterrent though, an additional overhead to have to manage to make it worth-while, and perhaps that'll make enough of a difference to justify the engineering time (that could have been dedicated to offline system update management or ephemeral user support, just sayin' 😁) to implement this.
