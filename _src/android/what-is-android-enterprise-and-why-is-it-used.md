@@ -38,8 +38,7 @@ Back to APIs, the same goes for system applications, too. EMMs require APIs in o
 
 And that’s really how it’d been until 2016, when it seems Google had taken notice of both the uneven playing field for enterprise device selection and a recurring perception that Android security is somewhat *lacking.*
 
-Enter Android Enterprise
-------------------------
+## Enter Android Enterprise
 
 <div class="callout callout-info">
 
@@ -66,12 +65,11 @@ Android Enterprise (AE) offers a few things:
 
 Here’s a breakdown of the management scenarios Android Enterprise supports:
 
-[![](https://cdn.bayton.org/uploads/2020/02/AEtypes11-Page-6-1.png)](https://cdn.bayton.org/uploads/2020/02/AEtypes11-Page-6-1.png)
+{% include "../_includes/_assets/img/android_enterprise_deployment_scenarios.svg" %}
 
 As can be seen, there’s a lot of flexibility for supporting most business requirements baked right in, with the additional – the most common – management scenario, where the organisation owns the device but permits some personal usage (COPE), available with Android 8.0. All of these scenarios are available at no cost as soon as Android Enterprise has been bound with the EMM platform of choice.
 
-Enabling Android Enterprise
----------------------------
+## Enabling Android Enterprise
 
 There are two ways of enabling Android Enterprise, the first and original is through a G Suite managed domain referred to as *managed Google accounts* that requires either an existing G Suite subscription or a free single-user account used for little more than initial setup and, optionally, managed app approval. If domain verification hasn’t already been done through G Suite, the business will need to undertake a couple of tasks to prove they own the domain they’re setting AE up against, followed by a bit of integration work with the EMM platform of choice (if not via G Suite directly!)
 
@@ -79,8 +77,7 @@ The second and newer method is *managed Google Play accounts* and works with any
 
 Whichever method is used, it’s then possible (but not necessarily required for managed Google accounts since G Suite has bundled EMM functionality) to link one of many existing EMM platforms which support AE and configure the corporate Play Store, Managed Google Play.
 
-BYOD and work profile
----------------------
+## BYOD and work profile
 
 With the introduction of Android 5.0 Google made user profiles available to phones in addition to tablets already leveraging them. Using the same underlying functionality, Android Enterprise is able to create a managed user profile that although sits entirely separately encrypted on disk (and as of Android 7.0, utilises completely different encryption keys for work/personal), integrates directly with the current user on the device in order to provide both personal and work applications in the same app drawer – the latter indicated by a briefcase:
 

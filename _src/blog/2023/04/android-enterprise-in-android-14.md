@@ -14,6 +14,18 @@ As these things tend to go, the likelihood now of major additions is slim, and s
 
 Given the amount of lower-level developer content, I'm not going to cover everything in the API docs targeted to Android 14, so this will be limited to only the notable items. That said, let's go!
 
+## Specific app sharing for screen-share sessions
+
+Want to keep your personal device a little _more_ private when sharing your screen on a call? Android 14 now introduces the ability to share _a specific app_ within the work profile, ensuring meeting attendees don't catch a glimpse of any personal applications or customisations (no judgement on your particular choice of wallpaper from me, either way!)
+
+## Default 6 digit PIN
+
+Android 14 ups the default PIN from 4 to 6 digits, with their justification being one very commonly quoted by us in the industry:
+
+> Adding just two digits to unlock the device increases the number of possible PIN combinations from 10,000 to 1 million — reducing the risk of break-ins.
+
+It's still possible to set weaker passwords, but is it really worth it?
+
 ## Persistent screen-on during provisioning
 
 If your Android experience is primarily centred around Samsung then this may not seem new, but for those of us who've spent time with most other OEMs in the ecosystem the screen turning off during provisioning is at minimum an inconvenience, at most the reason why provisioning or enrolment may fail.
@@ -38,6 +50,16 @@ See [this Google doc](https://developer.android.com/about/versions/14/behavior-c
 
 ## A revamp to cross-profile behaviour & implementation
 
+//- 
+
+**Release update**
+
+Google has provided more information on the use of these cross-profile APIs, namely in the form of the applications able to access work contacts. In Android 14 all personal apps can see work profile contacts, and admins can now specify, via AMAPI, whether this is permitted, blocked, or blocked except system (13 and lower behaviour). An exemption list is available for the permitted/blocked options which blocks or permits applications defined respectively. 
+
+**NB: AMAPI will default to permitting all applications, so if this is not something you wish to permit, update your AMAPI policies now!**
+
+-//
+
 I normally wouldn't reference deprecations and replacement APIs in these updates because typically they're a little _dry_, but the apparent revamp on cross-profile functionality is interesting.
 
 `CrossProfileContactsSearchDisabled` and `CrossProfileCallerIdDisabled` are being deprecated in favour of what appears to be a more specific `ManagedProfileCallerIdAccessPolicy()` and `ManagedProfileContactsAccessPolicy()`. Reading into the soon-deprecated APIs specifically, Google states:
@@ -52,7 +74,7 @@ In their place, applications will need to lean on the new [Connected apps](https
 
 > An app providing backup services that will sync work data to a personal profile account, or vice versa, would not be approved as it would send and log data from one profile to the other profile.
 
-At the time of writing, the [AMAPI API docs](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#crossprofilepolicies) don't show anything relating to these changes, so it'll be interesting to see if we benefit from zero-day support later this year.
+~~At the time of writing, the [AMAPI API docs](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#crossprofilepolicies) don't show anything relating to these changes, so it'll be interesting to see if we benefit from zero-day support later this year.~~
 
 ## SIM management for COPE devices
 
@@ -78,19 +100,29 @@ If you're anything like me that'll be bittersweet; great for security in pluggin
 
 ## Pausing the work profile
 
-In Android 14 Google are introducing the ability to pause, rather than turn off, the work profile.
+<div class="callout">
 
-Think of it like an aggressive do not disturb mode for work apps, everything is still on and running in the background, but you're not alerted to anything.
+## This change has been reverted
 
-Why would you choose to pause a work profile rather than just turn it off?
+Check out [this article](/blog/2023/09/work-profile-reverted-in-14) for more information. The below no longer applies to Android 14, but may be instead re-appear for Android 15 (or sooner in a QPR - quarterly patch release - if it's ready).
 
-- Applications continue to receive notifications and data in the background, so you're not inundated by them when you turn the profile on. Work apps are immediately available when unpausing (no wait time, or sync required).
-- Update policies continue to apply, so they can do so in the background rather than when the profile is back on. Obviously apps shared between both profiles will update even if the work profile is turned off, but apps only in the work profile won't unless the profile is on, normally.
-- Cross profile contacts are identified, so you'll know you're getting a call from the boss while the profile is paused. When completely off the numbers aren't identified.
+This'll be updated at a later date.
+
+</div>
+
+~~In Android 14 Google are introducing the ability to pause, rather than turn off, the work profile.~~
+
+~~Think of it like an aggressive do not disturb mode for work apps, everything is still on and running in the background, but you're not alerted to anything.~~
+
+~~Why would you choose to pause a work profile rather than just turn it off?~~
+
+- ~~Applications continue to receive notifications and data in the background, so you're not inundated by them when you turn the profile on. Work apps are immediately available when unpausing (no wait time, or sync required).~~
+- ~~Update policies continue to apply, so they can do so in the background rather than when the profile is back on. Obviously apps shared between both profiles will update even if the work profile is turned off, but apps only in the work profile won't unless the profile is on, normally.~~
+- ~~Cross profile contacts are identified, so you'll know you're getting a call from the boss while the profile is paused. When completely off the numbers aren't identified.~~
 
 ~~The question I don't have an answer for at the moment is how this works with the policies that require a work profile to be turned on after a period of time. If a user can pause a work profile but still be considered having it _turned on_, this seems like a simple way of getting around that compliance requirement.~~
 
-(July 2023): The compliance requirement appears to be unchanged since this is a full replacement to turning off the work profile, and not an additional option to control it.
+~~(July 2023): The compliance requirement appears to be unchanged since this is a full replacement to turning off the work profile, and not an additional option to control it.~~
 
 ## Direct work contact messaging
 

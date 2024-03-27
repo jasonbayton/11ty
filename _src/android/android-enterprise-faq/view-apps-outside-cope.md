@@ -8,7 +8,7 @@ type: documentation
 tags: 
     - FAQ
 categories:
-    - Company owned work profile
+    - Work profile
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

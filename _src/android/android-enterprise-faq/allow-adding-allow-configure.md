@@ -8,7 +8,7 @@ type: documentation
 tags: 
     - FAQ
 categories:
-    - Account management
+    - General
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'

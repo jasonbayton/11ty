@@ -1,5 +1,5 @@
 ---
-title: 'The Google Play iFrame app approval flow is going away'
+title: 'The Google Play iFrame app approval flow is deprecated'
 published: '2023-08-20'
 status: publish
 author: 'Jason Bayton'

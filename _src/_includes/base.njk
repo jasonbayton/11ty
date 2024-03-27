@@ -45,9 +45,13 @@
                 <div class="aside-section">
                     {% include "./_parts/gitlog.njk" %}
                 </div>
+                <div class="aside-section">
+                    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a Coffee', '#ff4500', 'L3L3TG1YF');kofiwidget2.draw();</script> 
+                </div>
             </section>
             {% for tag in tags %}
             {% if tag.includes("android-docs") or tag.includes("blog") %}
+            {% if not type.includes("archive") %}
             <section id="sharebox" class="mobile-hidden">
                 <div class="aside-title">
                     <b>Share this page</b>
@@ -77,6 +81,7 @@
                 </div>
             </section>
             {% endif %}
+            {% endif %}
             {% endfor %}
             {% endif %}
             <section id="page_content">
@@ -90,12 +95,12 @@
                 <div class="post-meta post-meta-base">
                     <div class="meta-single post-meta-base-left">
                         {% if type.includes("documentation") %}
-                        <span class="meta-tiny"><i class="fas fa-globe-europe"></i> {{ published | dateFull }} • <i class="fas fa-glasses"></i> {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
-                        <i class="fas fa-edit"></i> {{ page.date | dateFull }} 
+                        <span class="meta-tiny"><span class="material-symbols-outlined">globe_uk</span> {{ published | dateFull }} • <span class="material-symbols-outlined">eyeglasses</span> {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
+                        <span class="material-symbols-outlined">edit</span> {{ page.date | dateFull }} 
                         {% elseif type.includes("note") %}
                         {{ page.date | dateWithTime }}
                         {% else %}
-                        {{ page.date | dateFull }} <small><i>by {{ author }}</i></small>
+                        {{ page.date | dateFull }} <!--small><i>by {{ author }}</i></small-->
                         {% endif %}
                     </div>
                     <div class="meta-single post-meta-base-right">
@@ -103,12 +108,15 @@
                         {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) and (not tag.includes("notes")) and (not tag.includes("FAQ"))  %}
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
                         {% elif tag.includes("notes") %}
-                        <i class="fas fa-arrow-left"></i> <a class="meta-tag" href="/notes/">return to notes</a>
+                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/notes/">return to notes</a>
+                        {% elif tag.includes("Advisories") %}
+                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/advisories/">return to advisories</a>
                         {% elif tag.includes("FAQ") %}
-                        <i class="fas fa-arrow-left"></i> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
+                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
                         {% endif %}
                         {% endfor %}
                     </div>
+                    <!-- need to fix the advisories link later -->
                 </div>
                 <hr>
                 {% if (not type.includes("note"))  %}
@@ -151,6 +159,7 @@
 
             {% for tag in tags %}
             {% if tag.includes("android-docs") or tag.includes("blog") %}
+            {% if (not type.includes("archive")) %}
             <section id="link_out">
                 <div class="links-out">
                     Discuss this topic on the <a href="https://androidenterprise.community">Android Enterprise Customer Community</a>, tag <a href="https://www.androidenterprise.community/t5/user/viewprofilepage/user-id/11">@jasonbayton</a> to summon me.
@@ -159,6 +168,7 @@
                     Discuss this topic on the <a href="https://mobilxperts.slack.com/archives/C1V8JC31T">#AE</a> channel of the Mobile Pros Slack community. Here's an <a href="https://join.slack.com/t/mobilxperts/shared_invite/zt-3wrzh2o5-e5w8qSyiGF8AcH8_VErDCg">invite</a>.
                 </div>
             </section>
+            {% endif %}
             {% endif %}
             {% endfor %}
 

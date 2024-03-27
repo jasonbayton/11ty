@@ -20,13 +20,13 @@ layout: base.njk
         }
 
         return {
-            months: `${months} months`,
-            days: `${days} days`
+            months: `${months} month(s)`,
+            days: `${days} day(s)`
         };
     }
 
     window.onload = function() {
-        let time = timeSince('2023-07-28');
+        let time = timeSince('2024-02-26');
         document.getElementById('outputMonths').textContent = time.months;
         document.getElementById('outputDays').textContent = time.days;
     };

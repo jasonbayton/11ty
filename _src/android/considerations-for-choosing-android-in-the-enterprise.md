@@ -33,7 +33,7 @@ From 2016-2019 Gartner has ranked Android higher than iOS in a number of areas, 
 *Source: Gartner, December 2017. Thanks to [Samsung](https://s7d2.scene7.com/is/content/SamsungUS/samsungbusiness/solutions/samsung-knox/pdf/MobileDeviceSecurity-AComparisonofPlatforms-Feb12-2.pdf) for making this available on the public internet!*
 
 ![](https://cdn.bayton.org/uploads/2019/05/Gartner-Comparison-of-Security-Controls-2019.jpg)
-*Source: Gartner, January 2019. Adapted from[ this source](https://youtu.be/zRhSmH4vSE0).*
+*Source: Gartner, January 2019. Adapted from [this source](https://youtu.be/zRhSmH4vSE0).*
 
 Let’s dive a little deeper into Android security:
 
@@ -70,13 +70,13 @@ Since Android 10, Google has been migrating core Android OS components into inde
 
 In Android 10 the number of modules sat at 12, while in Android 13 this has grown to 30 modules, including connectivity, multimedia, and core framework components. 
 
-In addition to monthly security updates (SPLs, security patch level, delivered as SMRs, security maintainance releases), Google Play System Updates can be distrubited as and when required to tackle component-level security issues or bug fixes. This dramatically improves time to resolution for issues in comparison to other OS platforms.
+In addition to monthly security updates (SPLs, security patch level, delivered as SMRs, security maintenance releases), Google Play System Updates can be distributed as and when required to tackle component-level security issues or bug fixes. This dramatically improves time to resolution for issues in comparison to other OS platforms.
 
 ### Play Protect
 
-Google’s Play Protect suite of solutions includes the world’s largest anti-virus service, analysing 500,000 applications, and scanning over 50 billion on Google Play, on-device and crawling the web every day.
+Google’s Play Protect suite of solutions includes the world’s largest antivirus service, analysing 500,000 applications, and scanning over 50 billion on Google Play, on-device and crawling the web every day.
 
-Play Protect is always-on, and and will take action on any known potentially harmful application (PHA) found on a device, as well as any known bad websites via the Safe Browsing service to proactively warn users of danger.
+Play Protect is always-on, and will take action on any known potentially harmful application (PHA) found on a device, as well as any known bad websites via the Safe Browsing service to proactively warn users of danger.
 
 Play Protect of course isn’t infallible, and I’d support organisations who augment Play Protect’s capabilities with [an MTD solution](/android/mtd-and-android-enterprise/), however it’s an ever-improving service utilising machine learning to evolve over time, and does a pretty good job for most use cases. Combined with options to prevent installation of applications from unknown sources, USB debugging and more, a corporate device can safely and successfully avoid PHAs.
 
@@ -102,7 +102,11 @@ Even today things are improving still, with the [introduction of OEMConfig](/and
 
 ### Did you know?
 
-OEMs such as Samsung and Zebra have &gt;1000 APIs available in addition to fundamental Android Enterprise capabilities for incredibly granular management. Through OEMConfig, these APIs can be (and are for Zebra) exposed for simple, zero-day support of every new feature published. More and more OEMs will build out their unique management capabilities as OEMConfig evolves. </div>Check out the [linked article](/android/what-is-oemconfig/) to understand how OEMConfig will transform Android management.
+OEMs such as Samsung and Zebra have >1000 APIs available in addition to fundamental Android Enterprise capabilities for incredibly granular management. Through OEMConfig, these APIs can be (and are for Zebra) exposed for simple, zero-day support of every new feature published. More and more OEMs will build out their unique management capabilities as OEMConfig evolves. 
+
+</div>
+
+Check out the [linked article](/android/what-is-oemconfig/) to understand how OEMConfig will transform Android management.
 
 ## Android is flexible
 
@@ -142,11 +146,11 @@ More information of provisioning methods can be found in [What is Android Enterp
 
 ### Form factor
 
-Are phones and tablets too.. *consumer*? Does your organisation rely on fixed endpoints, smart phone systems, bespoke logistics or warehouse scanners, specialised interactive displays, or something else?
+Are phones and tablets too.. *consumer*? Does your organisation rely on fixed endpoints, smartphone systems, bespoke logistics or warehouse scanners, specialised interactive displays, or something else?
 
 Not only has Android shipped on phones and tablets in screen sizes ranging from the [minute](https://www.palm.com/product) to the [enormous](https://www.samsung.com/uk/tablets/galaxy-view-18-4-t670/), Android can be equally found on rugged devices, smart displays, point-of-sale endpoints, projectors and many other specialised hardware types.
 
-If a form factor doesn’t exist that suits an organisations needs, one can be developed with any number of specialist hardware manufacturers.
+If a form factor doesn’t exist that suits an organisation's needs, one can be developed with any number of specialist hardware manufacturers.
 
 No matter the application, there is – or can be – a form factor to suit. Android isn’t limited to *only* phones and tablets in a couple of sizes.
 

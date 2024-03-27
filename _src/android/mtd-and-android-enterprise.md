@@ -13,7 +13,7 @@ eleventyNavigation:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-when-deploying-mtd-with-android-enterprise/230'
 ---
-Mobile Threat Defence (MTD) is an increasingly popular point of discussion for endpoint management, particularly with the ever increasing worry of corporate devices falling victim to potentially harmful applications, network attacks and more.
+Mobile Threat Defence (MTD) is an increasingly popular point of discussion for endpoint management, particularly with the ever-increasing worry of corporate devices falling victim to potentially harmful applications, network attacks and more.
 
 As Android Enterprise adoption continues to grow, an important question arises more and more frequently: *how does MTD work with the various Android Enterprise deployment scenarios?*
 
@@ -21,19 +21,20 @@ Compared to legacy Android management, where organisations leveraged the [now de
 
 The goal for an MTD is full visibility over the whole device with the ability to interject when threats are detected. Visibility differs by MTD and what’s supported, but may include:
 
-- System applications (apps pre-loaded from the OEM, mostly required for a functioning Android OS)
+- System applications (apps preloaded from the OEM, mostly required for a functioning Android OS)
 - User-installed applications (Play or sideloaded)
 - Corporate applications
 - Information about the network the device connects to in order to detect man-in-the-middle attacks, SSL stripping, cert spoofing and more
-- Device details &amp; posture (root detection, unknown sources, debugging, etc)
+- Device details & posture (root detection, unknown sources, debugging, etc)
 - Detection of applications attempting to open links which may be dangerous
 
-Here’s a breakdown of visibility per deployment scenario:
+As a reminder, here are the four deployment scenarios:
 
-Fully managed
-----------------------------
+{% include "../_includes/_assets/img/android_enterprise_deployment_scenarios.svg" %}
 
-[![](https://cdn.bayton.org/uploads/2018/10/wm.png)](https://cdn.bayton.org/uploads/2018/10/wm.png)
+And here’s a breakdown of visibility per deployment scenario:
+
+## Company owned - Fully managed (COBO)
 
 The simplest and therefore easiest to begin with. A fully managed (COBO) device for all intents and purposes acts similarly to a legacy-managed Android handset where MTD is concerned.
 
@@ -46,10 +47,7 @@ The organisation distributes the MTD agent to the device directly and, as the MT
 
 As a fully managed device, there are no concerns over lack of visibility, and should the MTD make use of VPN, it will run system-wide.
 
-COSU (dedicated device)
------------------------
-
-[![](https://cdn.bayton.org/uploads/2018/10/cosu2-1.png)](https://cdn.bayton.org/uploads/2018/10/cosu2.png)
+## Company owned - Dedicated (COSU)
 
 A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
 
@@ -60,12 +58,9 @@ Much like the fully managed device, deploying MTD to a COSU device will provide 
 - Device details and posture
 - Malicious links opened from other applications on the device
 
-There’s only one caveat; as most MTD solutions cannot auto-activate on Android devices today, an MTD application would need to be made visible within the kiosk environment in order to allow for the opening and activation of the service. Exceptions apply so do check this with the MTD vendor.
+There’s only one caveat; if the MTD solution cannot auto-activate on Android devices today, an MTD application would need to be made visible within the kiosk environment in order to allow for the opening and activation of the service. Exceptions apply so do check this with the MTD vendor.
 
-Work profile (BYOD)
--------------------
-
-[![](https://cdn.bayton.org/uploads/2018/10/workprofile.png)](https://cdn.bayton.org/uploads/2018/10/workprofile.png)
+## Personally and company owned work profile (BYOD, COPE)
 
 **NB: From Android 11 the below work profile considerations also apply to COPE!**
 
@@ -88,14 +83,11 @@ Finally, should the MTD make use of a VPN, traffic will only be routed within th
 
 The less-than-ideal workaround for this would be to deploy the MTD into the parent (personal) profile of the device, however without corporate management of this profile, users would have to install and activate the application manually by fetching it from the Play Store.
 
-Managed devices with work profiles (COPE)
------------------------------------------
+### ⚠️ Managed devices with work profiles (COPE) - Android 10 and below
 
-![](https://cdn.bayton.org/uploads/2018/10/wmwp.png)
+**NB: This is deprecated and even on Android 10 and below may not function as described, particularly in AMAPI based EMM platforms. If in doubt, assume a platform manages COPE in alignment with Android 11 above.**
 
-**NB: The below considerations should be applied only to Android 8.0-10. Android 11 utilises a BYOD style COPE implementation.**
-
-The COPE approach, on paper, technically has the capability to add the missing management aspect to the above BYOD deployment scenario.
+This deprecated COPE approach, on paper, technically has the capability to add the missing management aspect to the above modern work profile deployment scenario.
 
 In reality though it very much depends on how the EMM/UEM vendor has chosen to implement it; vendors who believe the managed parent (personal) profile should be left mostly unmanaged will offer fewer configuration options, whilst others may believe it is up to the organisation to define the boundaries of personal use and offer a level of management directly comparable to a fully managed (work-managed) device.
 
@@ -128,10 +120,9 @@ Once again this will need to be validated with MTD and UEM vendors as it really 
 
 Should the MTD be deployed in the parent profile, any VPN connectivity will be system-wide, otherwise if deployed in the work profile the VPN will again, like BYOD, only route traffic within the work profile itself.
 
-Touching on VPN capabilities
------------------------------
+## Touching on VPN capabilities
 
-Some MTD vendors offer VPN capabilities, or may possibly even entirely rely upon a persistent VPN connection to be remotely useful.
+Some MTD vendors offer VPN capabilities, or may even entirely rely upon a persistent VPN connection to be remotely useful.
 
 The problem with this approach, though valid and arguably potentially *necessary* for some traffic management capabilities prior to Android Pie (when APN configuration support was introduced), is as follows:
 
@@ -145,11 +136,10 @@ On the flip-side, where no corporate VPN is in use, the same always-on VPN enfor
 
 This limitation is very much worth consideration before making a decision on MTD vendors, as it can result in a lot of wasted time and effort when it becomes clear it isn’t suitable. Organisations reliant on an existing VPN solution should make this abundantly clear when engaging with MTD vendors.
 
-Conclusion
-----------
+## Conclusion
 
 Depending on the Android Enterprise deployment scenario in use, MTD protection can range from basic – protecting primarily corporate data within a work profile, to full – protecting the entire device with no visibility issues.
 
-Considering under what deployment scenario an MTD would be used ahead of time will ensure there’s no confusion about the capabilities available, and with enough forward thinking, the need for an MTD could and should influence the deployment scenario chosen by the business to begin with.
+Considering under what deployment scenario an MTD would be used ahead of time will ensure there’s no confusion about the capabilities available, and with enough forward-thinking, the need for an MTD could and should influence the deployment scenario chosen by the business to begin with.
 
-That about covers Android Enterprise. For more information about MTD in general, I’d recommend the following BrianMadden.com articles on [planning](https://www.brianmadden.com/opinion/How-to-plan-your-mobile-threat-defense-deployment) for and [deploying](https://www.brianmadden.com/opinion/Real-world-notes-on-deploying-mobile-threat-protection) an MTD solution.
+That about covers Android Enterprise. For more information about MTD in general, I’d recommend the following articles on [planning](https://www.techtarget.com/searchmobilecomputing/opinion/How-to-plan-your-mobile-threat-defense-deployment) for and [deploying](https://www.techtarget.com/searchmobilecomputing/opinion/Real-world-notes-on-deploying-mobile-threat-defense) an MTD solution. Thanks [Colm](https://www.linkedin.com/in/colmwarner/) & Peter!

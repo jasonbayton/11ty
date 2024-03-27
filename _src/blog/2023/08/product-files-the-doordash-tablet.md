@@ -20,7 +20,7 @@ As this series grows, additional links will show up here:
 
 </div>
 
-Google [recently published a blog post](https://blog.google/products/android-enterprise/android-tablets-doordash/) by the DoorDash team that covered how the T8, supported by Android Enterprise's suite of management solutions, provided some pretty respectable achievements for them:
+Google [recently published a blog post](https://blog.google/products/android-enterprise/android-tablets-doordash/) and [video](https://www.youtube.com/watch?v=mwnpWzQ118E) by the DoorDash team that covered how the T8, supported by Android Enterprise's suite of management solutions, provided some pretty respectable achievements for them:
 
 ![Google AE overview DD](https://cdn.bayton.org/uploads/2023/08/google_tco.png)
 
@@ -28,7 +28,7 @@ As the T8 slowly edges towards the end of its anticipated extended lifecycle and
 
 <div class="callout">
 
-As I delve into some finer details of T8 development, I'd like to point out this is a device that began its lifecycle in 2019. Some of the features that made it notable at the time are simply par for the course in 2023. That said, I'm still very happy with many of the decisions made that contributed to the device it become.
+As I delve into some finer details of T8 development, I'd like to point out this is a device that began its lifecycle in 2019. Some of the features that made it notable at the time are simply par for the course in 2023. That said, I'm still very happy with many of the decisions made that contributed to the device it became.
 
 </div>
 

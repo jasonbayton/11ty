@@ -16,7 +16,7 @@ eleventyNavigation:
 --- 
 Not all Android devices come with GMS, or Google Mobile Services, certification. 
 
-## What is GMS?
+**What is GMS?**
 
 GMS certified devices, or more recently rebranded by Google as Play Protect certified devices, are Android devices that have undergone the 60+ hour testing and approval process with Google or a 3PL lab on Google's behalf. This testing, which consists of various security & compatibility validations, ensure the Android device under test behaves, looks, and feels consistent with the rest of the Android ecosystem. It ensures an OEM doesn't preload harmful (as in malware, but also as in privacy) applications, it ensures the OEM builds are up-to-date on vulnerability management and have patched all known CVEs over 60 days old, and it ensures apps install properly, work consistently, and all ecosystem-wide behaviours and implementations meet Google's strict requirements. 
 
@@ -28,7 +28,7 @@ Before putting an Android device through these tests, the OEM must sign an agree
 
 Understandably a lot of this is NDA, so it's not easy to be overly transparent about Google's requirements and processes for certification.
 
-## How do I validate a device is GMS certified?
+**How do I validate a device is GMS certified?**
 
 This is surprisingly not that easy to discern for the general public, as Google doesn't explicitly maintain a list of certified devices under the heading of _certified devices_.
 

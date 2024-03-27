@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "org.bayton",
+        "sha256_cert_fingerprints": [
+          "B1:C0:74:8F:F2:2D:D0:B5:30:DE:16:09:5C:03:33:C7:7C:1F:73:3B:E3:C1:B6:8B:5D:DB:92:26:0F:6E:67:92"
+        ]
+      }
+    }
+  ]

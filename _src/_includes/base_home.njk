@@ -6,12 +6,10 @@
         <!-- // -->
     </head>
     <body>
-        <header>
+        <header class="home-background">
             <!-- Header goes here -->
             {% include "./_parts/header.njk" %}
             <!-- // -->
-        </header>
-        <content id="home">
             <section class="intro_wrapper">
                 <section id="intro_block" class="home-section">
                     <div id="intro_heading">
@@ -33,7 +31,8 @@
                     </div>
                 </section>
             </section>
-
+        </header>
+        <content id="home">
             <section id="partner_logos">
                 <div class="home-subheading partner-heading">
                     {% renderFile "./_src/_includes/_parts/home/partner-logos.md" %}
@@ -42,76 +41,77 @@
             </section>
 
             {% include "./_parts/highlights_home.njk" %}
-
-            <section id="posts" class="home-section">
-                <div id="post_container">
-                    <div class="post-column">
-                        <h2 class="home-heading">
-                            Latest articles 
-                        </h2>
-                        {% for post in collections.blog | reverse %}
-                        {% if loop.index0 < 6 %}
-                        <div class="post-block">
-                            <div class="post-body">
-                                <div class="post-meta post-meta-condensed">
-                                    <div class="meta-single">
-                                        {{ post.date | dateFull }}
-                                    </div>
-                                    <div class="meta-single">
-                                        {% for tag in post.data.tags %}
-                                        {% if not tag.includes("blog") %}
-                                        #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
-                                        {% endif %}
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                                <h3 class="post-title">
-                                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-                                </h3>
-                                {% if post.data.excerpt|length %}
-                                <div class="post-summary">
-                                    {{ post.data.excerpt }}
-                                </div>
-                                {% endif %}
+            <section id="posts_container">
+                <section id="posts" class="home-section">
+                    <div id="post_container">
+                        <div class="post-column">
+                            <div class="home-heading">
+                                Latest articles 
                             </div>
-                        </div>
-                    {%- endif -%}
-                    {%- endfor -%}
-                    <h3 class="post-title post-archive">
-                        <a class="button" href="/blog">✍️ Archive »</a>
-                    </h3>
-                    </div>
-                    <div class="post-column">
-                        <h2 class="home-heading">
-                            Latest notes 
-                        </h2>
-                        {% for post in collections.notes | reverse %}
-                        {% if loop.index0 < 6 %}
-                        <div class="post-block">
-                            <div class="post-body post-body-notes">
-                                <div class="post-meta post-meta-condensed">
-                                    <div class="meta-single">
+                            {% for post in collections.blog | reverse %}
+                            {% if loop.index0 < 6 %}
+                            <div class="post-block">
+                                <div class="post-body">
+                                    <div class="post-meta post-meta-condensed">
+                                        <div class="meta-single">
+                                            {{ post.date | dateFull }}
+                                        </div>
+                                        <div class="meta-single">
+                                            {% for tag in post.data.tags %}
+                                            {% if not tag.includes("blog") %}
+                                            #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <h3 class="post-title">
                                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                                    </h3>
+                                    {% if post.data.excerpt|length %}
+                                    <div class="post-summary">
+                                        {{ post.data.excerpt }}
                                     </div>
-                                </div>
-                                <div class="post-summary">
-                                    {{ post.content | truncate(30) | safe}} <a href="{{ post.url | url }}" class="blood-orange">more</a>
+                                    {% endif %}
                                 </div>
                             </div>
+                            {%- endif -%}
+                            {%- endfor -%}
+                            <h3 class="post-title post-archive">
+                                <a class="button" href="/blog">✍️ Archive »</a>
+                            </h3>
                         </div>
-                    {% endif %}    
-                    {% endfor %}
-                    <h3 class="post-title post-archive">
-                        <a class="button" href="/notes">✍️ Notes »</a>
-                    </h3>
+                        <div class="post-column mobile-50-padding">
+                            <div class="home-heading">
+                                Latest notes 
+                            </div>
+                            {% for post in collections.notes | reverse %}
+                            {% if loop.index0 < 4 %}
+                            <div class="post-block">
+                                <div class="post-body post-body-notes">
+                                    <div class="post-meta post-meta-condensed">
+                                        <div class="meta-single">
+                                            <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                                        </div>
+                                    </div>
+                                    <div class="post-summary">
+                                        {{ post.content | truncate(30) | safe}} <a href="{{ post.url | url }}" class="blood-orange">more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}    
+                        {% endfor %}
+                        <h3 class="post-title post-archive">
+                            <a class="button" href="/notes">✍️ Notes »</a>
+                        </h3>
+                        </div>
                     </div>
-                </div>
+                </section>
             </section>
-
+            
             <section id="hero_banner" class="home-section">
-                <h2 class="home-heading">
+                <div class="home-heading">
                     Videos 
-                </h2>
+                </div>
                 <div id="af_group">
                     <div id="banner_left">
                         {% renderFile "./_src/_includes/_parts/home/vidtext.md" %}
@@ -125,90 +125,16 @@
                 <div id="af_group_split">
                     <div id="video_left">
                         {% renderFile "./_src/_includes/_parts/home/video2.md" %}
+                        {% renderFile "./_src/_includes/_parts/home/video4.md" %}
                     </div>
                     <div id="banner_right">
                         <div id="video_right">
                             {% renderFile "./_src/_includes/_parts/home/video3.md" %}
+                            {% renderFile "./_src/_includes/_parts/home/video5.md" %}
                         </div>
                     </div>
                 </div>
             </section>
-
-            <!--section id="trusted_logos" class="home-section">
-                <div id="trusted_container">
-                    <div id="trusted_textgroup">
-                        <h2 class="section-title">
-                            Docs and resources
-                        </h2>
-                    </div>
-                    <div id="doc_container">
-                        <div class="post-column">
-                            {% for post in collections["android-docs"] | reverse %}
-                            {% if loop.index0 < 5 %}
-                            <div class="post-block">
-                                <div class="post-body">
-                                    <div class="post-meta post-meta-condensed">
-                                        <div class="meta-single">
-                                            {{ post.date | dateFull }}
-                                        </div>
-                                        <div class="meta-single">
-                                            {% for tag in post.data.tags %}
-                                            {% if not tag.includes("android-docs") %}
-                                            #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
-                                            {% endif %}
-                                            {% endfor %}
-                                        </div>
-                                    </div>
-                                    <h3 class="post-title">
-                                        <a href="{{ post.url }}">{{ post.data.title }}</a>
-                                    </h3>
-                                    {% if post.data.excerpt|length %}
-                                    <div class="post-summary">
-                                        {{ post.data.excerpt }}
-                                    </div>
-                                    {% endif %}
-                                </div>
-                            </div>
-                            {% endif %}
-                            {% endfor %}
-                        </div>
-                        <div class="post-column">
-                        {% for post in collections["android-docs"] | reverse | offset(5) %}
-                        {% if loop.index0 < 5 %}
-                        <div class="post-block">
-                            <div class="post-body">
-                                <div class="post-meta post-meta-condensed">
-                                    <div class="meta-single">
-                                        {{ post.date | dateFull }}
-                                    </div>
-                                    <div class="meta-single">
-                                        {% for tag in post.data.tags %}
-                                        {% if not tag.includes("android-docs") %}
-                                        #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
-                                        {% endif %}
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                                <h3 class="post-title">
-                                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-                                </h3>
-                                {% if post.data.excerpt|length %}
-                                <div class="post-summary">
-                                    {{ post.data.excerpt }}
-                                </div>
-                                {% endif %}
-                            </div>
-                        </div>
-                    {% endif %}    
-                    {% endfor %}
-                    </div>
-                    </div>
-                </div>
-                <h3 class="post-title post-archive">
-                    <a class="button" href="/android">📚 Docs »</a>
-                </h3>
-            </section-->
-
         </content>
         <footer>
             {% include "./_parts/footer.njk" %}

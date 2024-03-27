@@ -8,11 +8,12 @@ type: post
 tags: 
     - Enterprise
 layout: base.njk
+permalink: false
 ---
 
 ## Foreword
 
-Enterprise Mobility is a key area of focus for businesses; with mobile usage exceeding traditional PC and laptop usage in recent years, it’s imperative that organisations take this topic very seriously.
+Enterprise Mobility should be a key area of focus for organisations; with mobile usage exceeding traditional PC and laptop usage in recent years, it’s imperative that organisations take this topic very seriously.
 
 Android devices have generated an impressive and consistent XX% of business shipments over recent years, with Gartner predicting XX million shipments in 2020. Despite the incredible number of Android devices finding their way into business, only roughly XX% are considered under management, thereby resulting in a staggering number of organisations the world over yet to benefit from Android Enterprise.
 

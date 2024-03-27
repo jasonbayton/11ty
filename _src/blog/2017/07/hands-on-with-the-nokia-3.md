@@ -92,14 +92,34 @@ Software
 			/* see gallery_shortcode() in wp-includes/media.php */
 		</style>
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-4"><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141754/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-4"><dl class="gallery-item"> <dt class="gallery-icon portrait">
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142341/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141749/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141754/)
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141737/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141942/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142412/) </dt></dl>  
+</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
+
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142341/)
+
+</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
+
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141749/)
+
+</dt></dl>
+<dl class="gallery-item"> <dt class="gallery-icon portrait">
+
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141737/)
+
+</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
+
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141942/)
+
+</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
+
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142412/)
+
+</dt></dl>
  </div>
- 
+
  The Nokia 3 ships with Android N 7.0 out of the box. Considering the Wileyfox Swift 2x ships with 7.1.2 and Android O 8.0 is just around the corner it’s a little disappointing to see 7.0 being shipped (in the context of HMDG stating they were going to be focusing on updates and security from the get-go, I’d otherwise not complain). I did receive an update to bring the security level up to July 2017 in the first 10 days of ownership which is definitely encouraging, but more can be done.
 
 The UI itself is almost completely vanilla Android, a decision I fully appreciate and support – Nokia don’t need unwieldy skins to make an impact; in fact the stock look makes it far more appealing to me (not to mention the potential impact on performance skinning could have on a cheaper CPU). It’s generally a pleasant device to use with no apparent stutter or lag.
@@ -123,7 +143,7 @@ The Nokia Lumia line was synonymous with Enterprise use, particularly in Windows
 
 While I’m impressed with the device overall and definitely 100% in favour of a stock Android experience, it is basically impossible to provision as a work-managed device through AE.
 
-To summarise my testing (<http://j.son.bz/2ufKN4q>):
+To summarise my testing (http://j.son.bz/2ufKN4q):
 
 - NFC is disabled out of the box, requiring a workaround to provision via a bump
 - QR provisioning isn’t available at all
@@ -142,7 +162,7 @@ In summary, don’t buy this device for your organisation. If an employee comes 
 Conclusion
 ----------
 
-For £109 at point of purchase (or currently [£139 on Amazon](https://amzn.to/2vj9zlV) the new Nokia 3 is a great phone and a really nice re-introduction of the Nokia brand to the Android market. The spec isn’t going to win any awards, but the build quality and general feel of the device should make for a great every-day phone for those not interested in pushing their devices too hard.
+For £109 at point of purchase (or currently [£139 on Amazon](https://amzn.to/2vj9zlV)) the new Nokia 3 is a great phone and a really nice re-introduction of the Nokia brand to the Android market. The spec isn’t going to win any awards, but the build quality and general feel of the device should make for a great every-day phone for those not interested in pushing their devices too hard.
 
 While mine is white, it also comes in Blue and Black to suit all tastes.
 

@@ -8,6 +8,17 @@
  tags: 
      - Enterprise 
 ---
+
+<div class="callout">
+
+## This change has been reverted
+
+Check out [this article](/blog/2023/09/work-profile-reverted-in-14) for more information. The below no longer applies to Android 14, but may be instead re-appear for Android 15 (or sooner in a QPR - quarterly patch release - if it's ready).
+
+This'll be updated at a later date.
+
+</div>
+
 In case you missed it, [my article](/blog/2023/04/android-enterprise-in-android-14/) on what's new in Android 14 covered off a subtle but significant change to the way the work profile functions when toggling it on and off (pausing it).
 
 I've already [popped together a technical overview of the change](/android/android-14-work-profile-behaviour/), as I like to do for many things that change on major releases. These intentionally lack any sort of opinion, bias, or objectivity as best I can in order to be simply taken at their intent - a straightforward technical change document highlighting what's changing, why, and the impact it may have.

@@ -1,0 +1,86 @@
+---
+title: Advisories
+date: '2024-01-27'
+status: publish
+author: 'Jason Bayton'
+excerpt: ''
+type: archive
+layout: base.njk
+tags: 
+---
+
+<section id="note" class=" grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 grid-gap-mobile-0">
+    <section id="page_content">
+        <div class="section-title extra-bold">
+            {{ title }} 
+        </div>
+        <hr>
+        {% for post in collections.Advisories | reverse %}
+
+        <div class="post-block">
+            <div class="post-meta post-meta-condensed">
+                <div class="meta-single">
+                    {% if post.data.type.includes("note") %}
+                    <a href="{{ post.url | url }}">{{ post.date | dateWithTime }}</a>
+                    {% else %}
+                    {{ post.date | dateFull }}
+                    {% endif %}    
+                </div>
+                {% if not post.data.type.includes("note") %}
+                <div class="meta-single">
+                    {% for tag in post.data.tags %}
+                    {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) %}
+                    #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                    {% endif %}            
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% if post.data.type.includes("note") %}
+            <div class="post-content">
+                {{ post.content | safe }}
+            </div>  
+            {% else %}
+            <h3 class="post-title">
+                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h3>  
+            {% if post.data.excerpt|length %}
+            <div class="post-summary">
+                {{ post.data.excerpt }}
+            </div>
+            {% endif %}
+            {% endif %}    
+        </div>
+        {% endfor %}
+    </section>
+    <section id="note_overview" class="">
+        <div class="border-4px border-orange border-curved padding-10 padding-lr-20 first-heading-inline">
+            <h3>What are advisories?</h3>
+            <p>These are isolated documents aligned with external events, and are intended to provide guidance on temporary issues or upcoming changes. They have their own <a href="/android/advisories/feed.xml">RSS feed</a>, too.</p>
+            <h3>Want these delivered?</h3>
+            <style>
+                form.embeddable-buttondown-form input {
+                display: block;
+                padding: 10px;
+                border-radius: 7px;
+                box-shadow: 0;
+                border: 2px solid black;
+                width: 90%;
+                margin: 10px 0;
+                }
+                </style>
+            <p><form
+                action="https://buttondown.email/api/emails/embed-subscribe/bayton"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://buttondown.email/bayton', 'popupwindow')"
+                class="embeddable-buttondown-form"
+                >
+                <label for="bd-email">Pop in your email address</label>
+                <input type="email" name="email" id="bd-email" />
+                
+                <input type="submit" value="Subscribe" />
+            </form></p>
+        </div>
+    </section>
+</section>

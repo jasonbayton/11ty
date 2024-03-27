@@ -5,17 +5,17 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: 
+tags:
     - App management
 eleventyNavigation:
   order: 8000
 layout: base.njk
 ---
-In Android 14, Google introduces new limitations on the installation of applications targeting old versions of Android. 
+In Android 14, Google introduced new limitations on the installation of applications targeting old versions of Android.
 
 ## What’s changing
 
-In Android 14 it will no longer be possible to install any application that targets API level 23 - Android 6.0. Attempting to do so will trigger a security exception.
+In Android 14 it is no longer possible to install any application that targets API level 23 - Android 6.0. Attempting to do so will trigger a security exception.
 
 ## Will this have any impact on EMM-deployed devices?
 
@@ -56,3 +56,5 @@ Note this only works via ADB, there are no other means of bypassing the SDK bloc
 ## Read more
 
 View [What's new in Android 14 for enterprise](/blog/2023/04/android-enterprise-in-android-14/#prevention-of-installation-of-older-applications) for details of this and other changes in Android 14, and for the technically-minded, [here's Google's documentation](https://developer.android.com/about/versions/14/behavior-changes-all#security) on the change.
+
+Read a topic discussing this further on the [customer community](https://www.androidenterprise.community/t5/general-discussions/changing-target-sdk-for-app-compatibility/m-p/2999#M929).
