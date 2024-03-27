@@ -48,7 +48,7 @@ Mainline updates have for a long time been something of an ugly-duckling to the 
 
 Because mainline updates _require_ a reboot to apply, having them triggering based on the cues of the system update policies has been known to cause frustration.
 
-Google, balancing the feedback from admins finding the frequent unscheduled reboots to hamper productivity and cause data loss, vs those who want to manage this third category of updates with utmost granularity, have opted to quell the larger reboot concern for the time being by excluding them from update policies.
+Google, balancing the feedback from admins finding the frequent unscheduled reboots to hamper productivity and cause data loss, vs those who want to manage this third category of updates with utmost granularity, have opted to quell the larger reboot concern for the time being by excluding them from update policy processes.
 
 ## How will this now change?
 
