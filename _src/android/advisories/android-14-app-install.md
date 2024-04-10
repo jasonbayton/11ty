@@ -11,7 +11,7 @@
 ---
 From Android 14 it is no longer possible to install any application that targets below API level 23 - Android 6.0. Attempting to do so will trigger a security exception. Applications already installed will remain untouched, however new installs on any device that hasn't previously had the application will fail.
 
-Be sure to update your applications to target a recent API level (or at least 7.0) before deploying any Android 14 devices into your estate. This will become a rolling policy, incrementing an API level with every future release.
+Be sure to update your applications to target a recent API level (or at least 6.0) before deploying any Android 14 devices into your estate. This will become a rolling policy, incrementing an API level with every future release.
 
 Check the [techdoc](/android/android-14-minimum-sdk/) for more info.
 
