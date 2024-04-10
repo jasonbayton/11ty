@@ -21,6 +21,6 @@ If your EMM doesn't offer customisation for your generated QR codes, you can use
 - Your enrolment token*
 - Your Wi-Fi configuration details (if desired)
 
-When you click Generate QR, all submitted information is sent to Google's [Charts API](https://developers.google.com/chart/infographics/docs/qr_codes), and the returned image is embedded ephemerally in this page. Right click & save to keep it, edit the submitted text and click generate again to renew it, or refresh the page to clear it.
+When you click Generate QR, all submitted information is processed locally, and the returned image is embedded ephemerally in this page. Right click & save to keep it, edit the submitted text and click generate again to renew it, or refresh the page to clear it.
 
-If the image doesn't load, Google's Charts API may be overloaded or down. You may have to try again later.
+If the image doesn't load, [raise an issue](https://github.com/jasonbayton/11ty/issues/new/choose) and I'll take a look.
