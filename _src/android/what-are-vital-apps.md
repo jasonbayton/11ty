@@ -1,112 +1,121 @@
 ---
-title: 'Android 11 COPE changes'
-published: '2020-03-07T22:58:36+00:00'
+title: 'Understanding system app availability on managed devices'
+published: '2020-04-09'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: 'Something that defines the experience of a managed device, and is oft-unexplained. Vital apps are key to ensuring a device offers a suitable enterprise environment.'
 type: documentation
 tags: 
-    - Work profile
+    - Fully managed
 layout: base.njk
 eleventyNavigation:
   order: 7000
-discourse_permalink:
-    - 'https://discuss.bayton.org/t/android-11-cope-changes/355'
 ---
-In Android 11, the way COPE, the means of providing personal use on a corporate phone, has changed.
+By design, Android Enterprise fully managed devices remove most of the preloaded applications on a device during the provisioning process, and inflated work profiles provide a limited selection of applications by default. It has been this way since the very beginning.
 
-## What’s changed
+The idea behind this is simple; managed devices for enterprise use do not require - for the most part - the bloatware that's shipped with consumer Android devices to be present within the _enterprise_ profile. That's the parent profile on a fully managed device, and a work profile on a company or personally owned device permitting personal use. Netflix, Facebook, any number of preloaded AV solutions, you name it. It's all surplus to requirements, uses device storage, consumes data, potentially poses security implications (preloaded cloud file managers like OneDrive, Google Drive, Dropbox, etc are freely available), and generally detracts from what is expected to be a device designed for business use only. 
 
-Prior to Android 11, COPE is implemented by leveraging work profiles on fully managed devices (WPoFMD). This is to say the device is provisioned as a fully managed device, in which all fully managed policies and the associated device-wide visibility applies, and then a work profile is inflated on top. Work apps and data are pushed to the work profile, leaving the parent profile for personal use.
+In theory there's a strong argument for designing this default behaviour, and I'm an advocate for it; it saves me time personally not needing to worry about blocklisting every possibly-preloaded application across my managed estate. The reality however has shown there are friction points and mixed expectations on how this experience is offered. 
 
-Following successful enrolment the device remains fully under control of the organisation, with limitations to policies and visibility only depending on how the EMM has integrated the WPoFMD solution set.
+## How it works
 
-This means the organisation can typically fully control the device, including account types, app installation, network settings and more. Furthermore, the organisation may have visibility of installed applications, network logs and other device statistics that identify personal usage.
+During device provisioning (for company owned devices), if an organisation creating zero-touch, QR, NFC, or other OOBE (out of box experience) solution configurations don't explicitly allow system applications, the device is provisioned in a way that disables _anything_ the device considers to be non-vital. 
 
-From Android 11, COPE is instead leveraged by enhancing the current work profile deployment scenario.
+You can test this yourself with my [QR code generator](/qr-generator/) by toggling the `Enable system apps` provisioning option, which will output JSON as follows when checked: 
 
-Often associated with BYOD deployments due to it’s lack of parent profile (device) policies and visibility, the enhanced work profile experience, officially named work profiles on company owned devices, or WPoCOD, will offer additional policies which can be leveraged in the parent profile to offer more control, but at the cost of corporate visibility.
+```JSON
+{
+  "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true/false,
+}
+```
 
-## How is COPE differentiated from BYOD when provisioning?
+This option - again by default for managed devices set to `false`, tells the device to disable anything non-vital to the operation of the device.
 
-In Android 10, Google introduced a new provisioning process for deploying work profiles on corporate owned devices. Through a supported DPC (EMM agent) it is possible to provision either fully managed, or work profile only when doing so via zero-touch or QR code. NFC and DPC identifier have not yet had support introduced.
+For the work profile experience, applications populated in the work profile when inflated do not have the same all-or-nothing configuration option; it is configured based on the configuration of the device only.
 
-If work profile provisioning is enabled, provisioning completes with a work profile on a device which is not fully managed, with prompts for the end user to complete aspects of the wizard that were not completed during provisioning to personalise the device.
+<div class="callout">
 
-In Android 11 this process is further expanded to not only provision a device with a work profile, but as it’s done so through corporate provisioning methods (ZT, QR) the device is flagged as corporate owned. In setting this flag, which again is automated with a supported EMM vendor and the relevant configuration in place, the work profile is enhanced with a number of additional device-wide policies which can be leveraged.
+Note: System apps are never fully removed from a device, as the form part of the system image. Instead, they're disabled and hidden from the provisioned user of the device. You will always find these applications if you go looking, but they'll be inaccessible and will have no ability to function unless enabled through policy.
 
-If a device is not provisioned through zero-touch or QR, this process is not undertaken and the device will be provisioned fully managed. Likewise if the EMM vendor does not support this provisioning flow introduced with Android 10, organisations will only have the option to provision fully managed from within the EMM.
+</div>
 
-## Has the UX change for end users?
+## What's vital?
 
-No.
+You may notice I've emphasised that the ultimate inclusion (or lack of) apps comes down to the device, and this forms the basis of inconsistencies and friction points with organisations, because there's a reasonable amount of flexibility offered by Google on just _how_ this should be set up.
 
-While it’s expected typical wording changes during the provisioning process are implemented in 11, the actual flow of setting up a COPE device, be that WPoFMD of WPoCOD, is practically the same for end users.
+When I think of a vital environment for organisations as a catch-all I think - 
 
-The device will undergo zero-touch or QR provisioning like a typical WPoFMD deployment, and will be provided messaging consistent with what’s seen in Android 10 and below, *setting up your device, setting up the work profile*. It is primarily a back-end change.
+- Dialler 
+- Messages
+- Camera
+- Gallery/viewer
+- File manager
+- Contacts 
+- Settings
 
-## Has the UX change for admins?
+Some of these are use case dependent, I don't need a dialler, messages, contacts or possibly camera on a dedicated, POS device for example.. but they're pretty critical on a standard knowledge worker device in which the typical functions of a smartphone are expected. All but settings I'd expect within a work profile also, particularly with SIM management introduced in Android 14.
 
-Yes.
+Google come pretty close with their requirements, in fact going a little overboard on their own services with the inclusion of wellbeing and the Google app: 
 
-Expect far less visibility from COPE devices, as they’re no longer fully managed, but essentially expanded work profile devices. App installation reports, app lists, some device details, usage statistics and more will no longer be possible to collect as Google deem this type of data to be personal and not to be reported to the organisation.
+**Fully managed**
 
-Expect fewer device controls also. Anything that could potentially be deemed as an invasion of privacy will no longer be supported, details of which will become more readily available as Google edges closer to the Android 11 release.
+- Google Play services (GmsCore)
+- Google Play Store
+- Google Setup Wizard
+- Default contacts app
+- Default downloads app
+- Default dialer
+- Default launcher
+- Default settings
+- Google app 
+- Android Auto
 
-Furthermore, while WPoFMD deployments supported the installation of apps onto the parent profile through the EMM (APK deployment), this will no longer be possible in 11, as it adopts the same limitation as a typical work profile deployment.
+**Work profile**
 
-A number of policies are no longer possible to apply to the parent profile, including:
+- Google Play services (GmsCore)
+- Google Play Store
+- Google Setup Wizard
+- Default contacts app
+- Default downloads app
+- Default wellbeing app
+- Google app 
+- Android Auto
 
-- APN
-- Persistent preferred activities (default apps for different things)
-- Parent profile app management (install, uninstall, managed configs, report, etc)
-- Device wide VPN
-- Certificate management
-- Password reset
-- Network logging
-- Factory reset control
+These applications are configured through XML files owned and maintained within the Android build of the device by the OEM, with the respective Google apps already pre-added. 
 
-Your EMM provider will have a full overview of what policies can be applied in 11 to what deployment type.
+The OEM is then free to add, or remove, system applications through these files:  
 
-## What will happen to existing WPoFMD deployments?
+`vendor_required_apps_managed_[device|profile|user].xml`  
+`vendor_disallowed_apps_managed_[device|profile|user].xml`
 
-Following an upgrade to Android 11, the device can either migrate to the new enhanced work profile to retain a COPE use case, at which point any policies applied that are no longer supported will cease to apply to the device, or optionally the device can become fully managed only, migrating effectively from COPE to COBO.
+And thus, inconsistency is born. 
 
-Organisations can choose which path to take.
+You'll notice there's no reference to camera, gallery, or file manager in the above lists. If they show up on a managed device it is because the OEM has decided to include it. Often the OEM will include their camera, but not their gallery. This gives organisations the ability to take photos, but not view them.
 
-Any existing parent profile applications may become unmanaged, migrate to the work profile or be removed, depending on the EMM implementation should the device migrate to COPE in 11, obviously this will not happen if the device migrates to fully managed (COBO)
+<div class="callout">
 
-## Is it be possible at all to inflate a work profile on a fully managed device in Android 11?
+It's worth noting in Android 15, Google is mandating a document viewing app be present by default, which includes image file types amongst others that may make things better for organisations missing a preloaded gallery/image viewer in Android 14 and below. It won't fix the shortcut from camera preview not opening a gallery, but it'll make it easier to switch to the file manager, and open the app in the document viewing app. Progress.
 
-No.
+</div>
 
-In Android 11 this will throw and exception and fail. It is imperative therefore that EMM vendors update their solutions to prevent the inflation of a work profile on a fully managed device for Android 11 and above, while allowing it still to be utilised with Android 10 and lower. If an EMM has failed to undertake this prep it’s likely organisations will see partially or fully failed COPE deployments.
+This is _also_ why devices will occasionally show up with Facebook, or OEM services, in the managed profile - the OEM, either knowingly or not, has configured these applications as vital in the respective `XML` files and this hasn't been picked up through the GMS/Play Protect certification process.
 
-There may be instances where OEMs opt to maintain support for inflating a work profile on a fully managed device through their own platform modifications, and it appears Samsung is one of the first OEMs to attempt to support this, which can be read in more detail [on Samsung's website](https://docs.samsungknox.com/admin/knox-platform-for-enterprise/separated-apps.htm).
+## Navigating inconsistency
 
-## We use WPoFMD as a dual corporate container solution, not COPE, what are our options?
+If you find yourself with devices either showing surplus/unsuitable apps, or missing applications vital to productivity, there are options:
 
-If your organisation leverages Samsung, it would be worth taking a look at Knox Configure. For OEMs leveraging closer to vanilla Android implementations, this usecase will be very difficult to replicate from Android 11.
+### Leverage system app management
 
-## Is it possible to delay/skip Android 11 upgrades?
+Most EMM platforms worth their salt will have system app management in place. It will in most cases require you to input the package name of an application (easily fetched through `ADB`, or for a more user-friendly experience, an app like [Package Name Viewer](https://play.google.com/store/apps/details?id=com.csdroid.pkg)). Through this process you are able to both enable applications missing, and disable applications not suitable for the environment or use case. This can be done on an app-by-app basis, so is also worth considering the number of apps to be enabled/disabled, and opting for the provisioning option that poses the least amount of effort (if you're enabling 20 apps, perhaps enabling system apps and disabling 5 unwanted may be a smarter option).
 
-Yes.
+### Deploy a 3rd party alternative
 
-Utilising Android Enterprise system update management, the deployment of a system update can be delayed by up to 90 days. If your OEM offers additional release management tools, these could be leveraged also to maintain a specific version of the Android OS (such as E-FOTA).
+It's not the best solution or experience, but in lieu of system app management in an EMM this is the next best thing. By deploying a 3rd party public app from Google Play you are able to restore functionality. In many cases the system app that you want to enable will be in Play also, so an alternative may not be required!
 
-At an absolute push, network restricions can be put in place to block connectivity to the OEM download server, be that OEM-specific, like E-FOTA, or more generic, like Google's GOTA service leveraged by many Android OEMs today.
+### Switch from disabled to enabled, or vice versa
 
-Note however this is not a permanent solution, and it will be necessary to broach this change at some point.
+If you really end up in a jam with no alternatives, reprovisioning a fully managed device to change the `PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED` option according to your use case may be the only course of action. Unfortunately this won't work for work profiles.
 
-## Can we just use a fully managed device for COPE?
+## Get in touch
 
-As a fully managed device without the work profile is a single-profile deployment, allowing personal applications to sit alongside corporate applications poses security and DLP concerns.
-
-It is difficult, though not impossible, to adequately monitor devices to ensure an end user hasn’t installed a personal dropbox-type application alongside corporate Google Drive or OneDrive, and is not possible, unless prevented via app policies, to prevent the movement of corporate data from work to personal applications as it would be between profiles in a WPoFMD deployment.
-
-If an organisation has little to no concern with regards to the above, then absolutely; simply enable Google accounts via policy and your end-users will be able to add their own accounts to gain full access to the Play Store; app black/whitelists, as well as compliance policies, can still apply to prevent the usage of prohibited applications.
-
-## Is it possible to test the changes?
-
-- Flash a device with 11 and try WPoFMD enrolments to discern the changes from enrolling with Android 10.
-- Perform a fastboot update without wiping user data (no -w flag) on an enrolled Android 10 device to understand the migration process.
+If you're struggling with system apps and would like help or advice, feel free to [get in touch](/support).
