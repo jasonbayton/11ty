@@ -7,7 +7,7 @@ const qrBuilder = () => {
 		"android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://play.google.com/managed/downloadManagingApp?identifier=setup",
 	};
 
-	qrElements.forEach((el) => {
+	qrElements.forEach(( el ) => {
 		if (el.hasAttribute('data-qr-bool')) {
 			qrData[el.dataset.qrKey] = el.checked;
 		} else {
@@ -18,23 +18,18 @@ const qrBuilder = () => {
 		}
 	});
 
-	const qrUrl = 'https://chart.googleapis.com/chart?cht=qr&chs=512x512&chl=' + JSON.stringify(qrData).trim();
-
-	const image = document.createElement('img');
-	image.src = qrUrl;
-	image.alt = 'QR Code';
-	image.width = 512;
-	image.height = 512;
-
-	const qrContainer = document.getElementById('generated_qr');
-	qrContainer.innerHTML = '';
-	qrContainer.appendChild(image);
+	window.QRCode.toCanvas(
+		document.getElementById('generated_qr'),
+		JSON.stringify(qrData).trim(),
+		function ( error ) {
+			if (error) console.error(error)
+		});
 
 	console.debug('qrData', qrData);
-	document.getElementById('json_code').innerHTML = '<b>Generated JSON</b><pre>'+JSON.stringify(qrData,null, 2)+'</pre>';
+	document.getElementById('json_code').innerHTML = '<b>Generated JSON</b><pre>' + JSON.stringify(qrData, null, 2) + '</pre>';
 }
 
-function setNestedObject(obj, path, value) {
+function setNestedObject( obj, path, value ) {
 	let schema = obj; // a moving reference to internal objects within obj
 	const pList = path.split('|');
 	const len = pList.length;
