@@ -8,7 +8,7 @@ type: page
 
 <div class="callout">
 
-**Hi 👋. The generator is currently unavailable due to Google's Charts API returning a 404 not found. I'm working on a solution.**
+**Hi 👋. The generator is fully functional. Please assist me with validation by testing your devices and sending me a message to confirm it works - jason@bayton.org.**
 
 </div>
 
