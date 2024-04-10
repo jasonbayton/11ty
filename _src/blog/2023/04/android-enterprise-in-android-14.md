@@ -40,7 +40,7 @@ Google had actually introduced in Android 13 a DPC extra to keep the screen on t
 
 Android 14 introduces a new restriction on app installation that **cannot be overridden** through management APIs.
 
-If corporate applications target SDK 22 or earlier (Android Marshmallow), installation will automatically be blocked with an error that resembles the following:
+If corporate applications target SDK 22 or earlier (Android Lollipop), installation will automatically be blocked with an error that resembles the following:
 
 `INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 23, but found 7`
 
