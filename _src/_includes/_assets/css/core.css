@@ -259,7 +259,7 @@ pre {
   overflow-wrap: anywhere;
   overflow-x: scroll;
   background-color: var(--dark);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 pre code {
