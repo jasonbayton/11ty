@@ -258,11 +258,12 @@ pre {
   padding: 16px;
   overflow-wrap: anywhere;
   overflow-x: scroll;
-  border-left: 4px solid var(--blood-orange)
+  background-color: var(--dark);
+  border-radius: 10px;
 }
 
 pre code {
-  background: none;
+  color: var(--orange);
   border: none;
   padding: 0;
 }
