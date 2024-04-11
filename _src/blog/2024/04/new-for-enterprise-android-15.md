@@ -18,15 +18,15 @@ Here we go!
 
 As expected, the restriction on installing applications targeting very old versions of Android is getting a bump. In Android 15 it will no longer be possible to install apps targeting API level 23 - Android Marshmallow / 6.0 - or older. Only apps that target Android 7.0 or later will be permitted. Just as last year, we're talking about applications targeting a version of Android 10+ years old. While some organisations with line-of-business apps that haven't seen an update in half a decade may balk at the idea of getting their applications updated or rewritten, the justification behind this limitation is solid - security. Where apps targeting <6.0 were able to abuse the old permissioning system (pre-runtime!), apps targeting 7.0 are still able to abuse device administrator and similar APIs. This isn't something you want potentially leveraged directly or indirectly on your managed estate.
 
+## Disallow NFC radio
+
+As it says on the tin. If you're thinking _"Don't we already have an API for NFC?"_ Yes we do, but that's to control the beaming of data between devices. This is a full on radio disable and will probably live under `DeviceRadioState` in AMAPI at some point later.
+
 ## Content protection policy
 
 This appears to offer control for the scanning of harmful applications on a device, perhaps allowing admins to explicitly prevent line of business APKs from being flagged up on end user devices as potentially harmful, unrecognised, or any other state that'd trigger a complaint to the admin helpdesk. This has been a point of contention for the dedicated ecosystem for some years, particularly as Play Protect has become more active and aggressive over the last few Android versions. 
 
 This is not something I'm personally going to be advocating for with customers for the most part unless it's actively causing issues, but it's _amazing_ to see Google catering to the dedicated space for a change after so much increased focus on features that promote privacy at the cost of control for dedicated estates.
-
-## Disallow NFC radio
-
-As it says on the tin. If you're thinking _"Don't we already have an API for NFC?"_ Yes we do, but that's to control the beaming of data between devices. This is a full on radio disable and will probably live under `DeviceRadioState` in AMAPI at some point later.
 
 ## Disallow Thread Network
 
