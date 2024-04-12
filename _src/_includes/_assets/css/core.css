@@ -260,6 +260,7 @@ pre {
   overflow-x: scroll;
   background-color: var(--dark);
   border-radius: 5px;
+  color: var(--orange);
 }
 
 pre code {
