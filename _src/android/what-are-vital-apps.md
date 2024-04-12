@@ -40,7 +40,7 @@ This device went through the certification process in spite of not aligning with
 The camera app is present, but no gallery. Files by Google is preloaded which should fill that gap but it does require the user close the camera (shortcut won't work) and switch to the files app intentionally.
 
 _For OnePlus specifically, a configuration error appears to be present that causes AMAPI policy to block the opening of the camera and files app, so in reality this device would be a broken implementation for other reasons._
-_
+
 ## How it works
 
 During device provisioning (for company owned devices), if an organisation creating zero-touch, QR, NFC, or other OOBE (out of box experience) solution configurations don't explicitly allow system applications, the device is provisioned in a way that disables _anything_ the device considers to be non-vital. 
