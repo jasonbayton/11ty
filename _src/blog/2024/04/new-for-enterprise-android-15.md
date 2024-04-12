@@ -88,7 +88,7 @@ Another expansion of existing functionality, Android 15 introduces system-settin
 
 https://www.youtube.com/watch?v=TENFSugd82g
 
-Presumably this will succumb to the same restrictions as disabling or uninstalling apps we have in place today (that is, users won't be allowed to depending on policy set), but this is yet to be tested.
+Presumably this will succumb to the same restrictions as disabling or uninstalling apps we have in place today (that is, users won't be allowed to depending on policy set). In my testing so far, archiving is just disabled on managed devices, with the option greyed out even on `INSTALL_TYPE`s of `AVAILABLE`.
 
 ## More to come!
 
