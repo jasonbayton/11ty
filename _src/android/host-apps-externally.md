@@ -1,0 +1,190 @@
+---
+title: 'How to host apps externally with Google Play'
+published: '2024-04-13'
+status: publish
+author: 'Jason Bayton'
+excerpt: ''
+type: documentation
+tags: 
+    - App management
+layout: base.njk
+eleventyNavigation:
+  order: 6000
+effort: 4
+---
+## Introduction
+
+In the ever-evolving landscape of enterprise mobile application deployment, organisations have increasingly sought greater flexibility over how their apps are distributed and managed. Historically, businesses were able to deploy APKs directly from EMM solutions, though as the industry migrates over to AMAPI this is becoming increasingly more difficult to achieve without the partnership of OEMs. In place, Google wants all organisations leveraging the Play Store for app distribution, which although for the most-part is reasonable, causes headaches for a subset of organisations.
+
+Understanding the desires of organisations, Google introduced an alternative to uploading APKs to Google Play, allowing organisations to host their APKs externally to Google's infrastructure while still leaning on the store for the delivery. This guide delves into the process for setting up external hosting for private apps, allowing organisations greater control of their APK distribution at a cost of _some_ functionality within Play itself. These limitations are, per [Google](https://support.google.com/googleplay/work/answer/6145182?hl=en):
+
+> - Externally hosted apps can only be published to production. Closed releases for externally hosted apps aren't supported.
+> - Publishing externally hosted apps is not available through the Managed Google Play iFrame.
+> - IT admins can't remotely install externally hosted apps on devices with work profiles. Work profile users must install them manually from Managed Google Play.
+> - Android Auto second-screen projection is disabled. This is because all Auto-targeted apps must go through a specific review to ensure that they’re not distracting to drivers.
+
+In addition, apps deployed through Play are still required to adhere to the minTargetSDK requirement, which as of writing is 26
+
+## Preparing for External Hosting
+
+### Technical Requirements
+
+- **Tools Needed**: OpenSSL, JDK, Python 2.x, Android Asset Packaging Tool (AAPT), ExternallyHosted script from Google.
+- **Infrastructure**: Secure server or cloud environment for hosting the APK file(s). 
+
+### MacOS guide
+
+<div class="callout">
+
+On Mac homebrew is required for this guide, it can be installed as follows from terminal:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+</div>
+
+I found setting up the requirements to be laborious, not least because the script Google provides relies on Python 2.x for the since-deprecated `distutils` called by it. When pulling in python through homebrew, the options to select 2.x are no longer present. 
+
+A workaround for this is to install `pyenv` and then call for a version via that instead:
+
+```bash
+brew install pyenv
+pyenv install 2.7.18
+```
+
+I went with python 2.7.18 with no particular reasoning in mind; it was a newer 2.x release that fit the requirement. Use a 2.x release you're comfortable with.
+
+After which, install openjdk & openssl
+
+```bash
+brew install openjdk openssl
+```
+
+For AAPT, this can either be installed through an existing Android Studio install via SDK manager, or using the [command line tools](https://developer.android.com/studio#command-line-tools-only) directly. 
+
+AAPT will need to be exported to `PATH` for easy reference, which I did by editing my `.zshrc` file to include the following line:
+
+1. `vim ~/.zshrc`
+2. `i` to INSERT:
+
+```
+export PATH=$PATH:/Users/jasonbayton/Library/Android/sdk/build-tools/33.0.0
+```
+3. `wq` + `ENTER` to save
+
+Your `PATH` will differ, based on what version of the SDK you're running, or where you've downloaded the standalone command line tools. Update it accordingly above.
+
+You can also add python to your `PATH` in the same way if desired, I chose to call it directly via the install directory homebrew dictated.
+
+Before continuing, make sure the `PATH` updates have been loaded in with `source ~/.zshrc` in terminal, otherwise you'll get errors suggesting `PATH` has not been set (AAPT can't be found, etc).
+
+Finally, download the [python script](https://github.com/google/play-work/blob/master/externally-hosted-apks/externallyhosted.py) from Google via GitHub, and make sure it's executable with:
+
+```
+sudo chmod +x /path/to/downloaded/externallyhosted.py
+```
+
+## Generating the JSON Metadata File
+
+Once your environment is set up, you're ready to run the command.
+
+The generic sample code Google offers is as follows:
+
+```bash
+python externallyhosted.py --apk=<path/to/your.apk> --externallyHostedUrl="<https://yourserver.com/app.apk>" > metadata.json
+```
+
+On my machine, factoring in the system-unique environmental decisions I made above, it's this:
+
+```bash
+/Users/jasonbayton/.pyenv/versions/2.7.18/bin/python2.7 ./externallyhosted.py --apk=/Users/jasonbayton/Desktop/org.bayton.external.apk --externallyHostedUrl="https://cdn.bayton.org/download/org.bayton.external.apk" > org.bayton.external.metadata.json
+```
+
+Which then output the following JSON, piped to the file `org.bayton.external.metadata.json`:
+
+```json
+{
+ "icon_filename": "res/uF.xml", 
+ "file_sha256_base64": "df2kr163h1/GXJKSP7YplkXvca5m7o6aNdkyLou6mRE=", 
+ "file_sha1_base64": "iGuUXjuRR6gNp8CtyQEyRUCsoYY=", 
+ "package_name": "org.bayton.external", 
+ "application_label": "BAYTON", 
+ "icon_base64": "AwAIAMABAAABABwAoAAAAAYAAAAAAAAAAAEAADQAAAAAAAAAAAAAAAsAAAAbAAAAJQAAADIAAAA/AAAACAhkcmF3YWJsZQANDWFkYXB0aXZlLWljb24ABwdhbmRyb2lkAAoKYmFja2dyb3VuZAAKCmZvcmVncm91bmQAKipodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQAgAEIAAwAAACZAQEBAAEQABgAAAACAAAA/////wIAAAAFAAAAAgEQACQAAAACAAAA//////////8BAAAAFAAUAAAAAAAAAAAAAgEQADgAAAADAAAA//////////8DAAAAFAAUAAEAAAAAAAAABQAAAAAAAAD/////CAAAAQYAA38DARAAGAAAAAMAAAD//////////wMAAAACARAAOAAAAAQAAAD//////////wQAAAAUABQAAQAAAAAAAAAFAAAAAAAAAP////8IAAABAgAJfwMBEAAYAAAABAAAAP//////////BAAAAAMBEAAYAAAAAgAAAP//////////AQAAAAEBEAAYAAAAAgAAAP////8CAAAABQAAAA==", 
+ "uses_feature": [
+  "android.hardware.faketouch"
+ ], 
+ "version_code": "1019", 
+ "certificate_base64": [
+  "MIIDaTCCAlGgAwIBAgIEbN93DjANBgkqhkiG9w0BAQsFADBlMQswCQYDVQQGEwJHQjEOMAwGA1UECBMFR3dlbnQxEDAOBgNVBAcTB05ld3BvcnQxDzANBgNVBAoTBkJBWVRPTjEMMAoGA1UECxMDRU5HMRUwEwYDVQQDEwxKYXNvbiBCYXl0b24wHhcNMjIxMTExMTcyOTMzWhcNNDcxMTA1MTcyOTMzWjBlMQswCQYDVQQGEwJHQjEOMAwGA1UECBMFR3dlbnQxEDAOBgNVBAcTB05ld3BvcnQxDzANBgNVBAoTBkJBWVRPTjEMMAoGA1UECxMDRU5HMRUwEwYDVQQDEwxKYXNvbiBCYXl0b24wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCRoVCVksJqVeD27W/kziuazVcJcVXkb1o1j/yFVjkF6oZBiPLxqmnU9o38QAuU6O58LcRvQckJ9wdqYepCKrWG3XMjAek1yZ9sVvdCzQCgANjukM9kht7zMQMW7IMHWXskJQ0v98zPLeknuqn8aWjAjaq3BGMYgoe/K6a1+BSqOmuU7OlPn6+QUS5yrnamHKkscdKc5UDYcw7/dsnCmvT6Rtom9Ulk5YP3NBqQh4+/c4YLDenChiCefmMpq0eQokCrMKc8PRaygPKn777EKLj/99zamdcXjr8jm+4nNLh5afBaqzJiLTA3a9ezYxJY8lV+hQSatvkoDcFlRql0fYqFAgMBAAGjITAfMB0GA1UdDgQWBBQyqLncr5PiypN9OWobcsQqM2cPRjANBgkqhkiG9w0BAQsFAAOCAQEAT9AMZbcn6buAd1jAT+YBl93ERq9X3+NFp7Tf02pJ2XSPEq8wsJHzAO6m1OXGUrv6/+r4krCIgU+83met+H279cadkBDR+JAEJvh3YAFKpaZ/yCRIXTCWquOhM7z6yS/hWZCquhuxs9iJGv6w7AzVaw5YwyjSjMMV1eI5pF6N+XMK0QSACerooc7STI7Zb1wA5mGMj2fEzvaKdFpvnJMQMJVwWGf/DunC/cryfVN9+XNVShrJXklqJzdy/i0iNlte0sJB4AmLKXGHgV2iwmcaHK0XgMUGWhk7CY8Bml3kS9Wygg7a/vSKlIt6kzXDPKxRmHfrXci8WR3mNrut0Xbilg=="
+ ], 
+ "file_size": 385820, 
+ "externally_hosted_url": "https://cdn.bayton.org/download/org.bayton.external.apk", 
+ "version_name": "1.0.1.9' platformBuildVersionName='13' platformBuildVersionCode='33' compileSdkVersion='33' compileSdkVersionCodename='13", 
+ "minimum_sdk": "19"
+}
+```
+
+_There's nothing above that can't be extracted from the APK by anyone who pulls it from a device, so I have no problem _not_ obfuscating any of this data._
+
+## Publishing and Managing the App
+
+### Publishing via Google Play Console
+
+With the shiny JSON file in hand, publishing can now take place. 
+
+<div class="callout">
+
+Things to keep in mind: 
+- You cannot upload an APK through the managed Google Play iFrame, it must be done through the [Play Console](https://play.google.com/console).
+- You must use an account holding an **admin role** with the desired organisation. Either ensure your developer account is added to the bind as an administrator, or log in to Google Play with the same account used to create the bind.
+
+</div>
+
+1. Access the [Google Play Console](https://play.google.com/console).
+2. Set up a new application, specifying language and title.
+
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.19.49.gif)
+
+3. Turn on Managed Google Play, and add the organisation(s) you're targeting (you can add orgs later also), then create the app
+
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.22.11.gif)
+
+4. Click upload external APKs, then create a production release, and opt out of Google Play signing
+
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.31.03.gif)
+
+5. Upload the JSON metadata file (the file picker is not shown in the GIF), then provide a release name and click **Next**.
+
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.31.36.gif)
+
+6. You may see warnings, these can be temporarily ignored, and **Save** can be clicked, sending changes for review.
+
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.32.50.gif)
+
+7. Literally _seconds_ later, the release is live
+
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.35.08.gif)
+
+8. Pop into **App content** and review the required declarations. Google doesn't explicitly mandate these are done in their private app publishing guide, but I opted to at least cover off the advertising declaration as it was raised as a warning earlier. 
+
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.34.11.gif)
+
+Check the app is indeed live for the organisation/enterprise ID you shared it with. I'm using the AMAPI API explorer as my enterprise is not associated with an EMM directly, but you should find the app available in managed Google Play for assignment.
+
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.37.51.gif)
+
+And we're done. Congrats! 🎉
+
+## Authenticating downloads
+
+Google recommends validating the token they send with the download request to confirm the request is legitimate. If you intend to limit who can download the APK from your servers, [this](https://developer.android.com/google/play/requirements/target-sdk) is a good and reasonably straight-forward option for doing so. 
+
+It is not however something I'll be covering off here. See the docs above for information on this final, optional configuration.
+
+## Conclusion
+
+The most time-consuming aspect of this is system setup. Once that's out of the way generating the relevant file and uploading to Play takes just minutes, and the application becomes available to devices shortly after. 
+
+If you're interested in learning more, feel free to [get in touch](/support). Thanks for reading!
+
