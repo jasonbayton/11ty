@@ -7,6 +7,7 @@ excerpt: 'Something that defines the experience of a managed device, and is oft-
 type: documentation
 tags: 
     - Fully managed
+effort: 2
 layout: base.njk
 eleventyNavigation:
   order: 7000
