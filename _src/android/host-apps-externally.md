@@ -180,7 +180,7 @@ And we're done. Congrats! 🎉
 
 ## Authenticating downloads
 
-Google recommends validating the token they send with the download request to confirm the request is legitimate. If you intend to limit who can download the APK from your servers, [this](https://developer.android.com/google/play/requirements/target-sdk) is a good and reasonably straight-forward option for doing so. 
+Google recommends validating the token they send with the download request to confirm the request is legitimate. If you intend to limit who can download the APK from your servers, [this](https://github.com/google/play-work/blob/master/externally-hosted-apks/README.md#authenticating-the-download-on-the-enterprise-server) is a good and reasonably straight-forward option for doing so. 
 
 It is not however something I'll be covering off here. See the docs above for information on this final, optional configuration.
 
