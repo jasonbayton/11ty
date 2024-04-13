@@ -178,6 +178,8 @@ Check the app is indeed live for the organisation/enterprise ID you shared it wi
 
 And we're done. Congrats! 🎉
 
+![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2FScreenshot_2024-04-14-00-27-28-938_com.android.vending-EDIT.jpg)
+
 ## Authenticating downloads
 
 Google recommends validating the token they send with the download request to confirm the request is legitimate. If you intend to limit who can download the APK from your servers, [this](https://github.com/google/play-work/blob/master/externally-hosted-apks/README.md#authenticating-the-download-on-the-enterprise-server) is a good and reasonably straight-forward option for doing so. 
