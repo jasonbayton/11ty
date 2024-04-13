@@ -45,7 +45,7 @@ _For OnePlus specifically, a configuration error appears to be present that caus
 
 During device provisioning (for company owned devices), if an organisation creating zero-touch, QR, NFC, or other OOBE (out of box experience) solution configurations don't explicitly allow system applications, the device is provisioned in a way that disables _anything_ the device considers to be non-vital. 
 
-You can test this yourself with my [QR code generator](/qr-generator/) by toggling the `Enable system apps` provisioning option, which will output JSON as follows when checked: 
+You can test this yourself with my [QR code generator](/qr-generator/) by toggling the **Enable system apps** provisioning option, which will output JSON as follows when checked: 
 
 ```JSON
 {
