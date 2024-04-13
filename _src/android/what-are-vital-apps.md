@@ -53,7 +53,7 @@ You can test this yourself with my [QR code generator](/qr-generator/) by toggli
 }
 ```
 
-This option - again by default for managed devices set to `false`, tells the device to disable anything non-vital to the operation of the device.
+This option - again by default for managed devices set to `false` - tells the device to disable anything non-vital to the operation of the device.
 
 For the work profile experience, applications populated in the work profile when inflated do not have the same all-or-nothing configuration option; it is configured based on the configuration of the device only since the parent profile will have all system apps available to it instead, where personal use is permitted.
 
@@ -63,9 +63,9 @@ Note: System apps are never fully removed from a device, as they form part of th
 
 </div>
 
-With that said, there are actually multiple configurations available to design the experience for varying scenarios - the device config, the profile config, and the user config, so depending on how a device is provisioned/set up, three variances of available apps may be present. This means a camera app could be present on the device config, but not in the profile config, and so on. Back in Android 10 with [Work Profiles on Fully Managed Devices](/android/android-11-cope-changes/) this was easily observed, since both profiles were managed and deployed apps in accordance with these configs in a way that was easy to compare. Since 11 however you'll have to switch between provisioning methods to do so. 
+With that said, there are actually multiple configurations available to design the experience for varying scenarios: the device config, the profile config, and the user config, so depending on how a device is provisioned/set up, three variances of available apps may be present. This means a camera app could be present on the device config, but not in the profile config, and so on. Back in Android 10 with [Work Profiles on Fully Managed Devices](/android/android-11-cope-changes/) this was easily observed, since both profiles were managed and deployed apps in accordance with these configs in a way that was easy to compare. Since 11 however you'll have to switch between provisioning methods to do so. 
 
-As an administrator, then, you have to decide from what point you wish to start from - a device with no non-vital system apps enabled, which means deploying policies to enable applications to perform a function, or a device with all system apps enabled, where policies are then required to block all bloatware apps discovered. There are pros and cons to both. 
+As an administrator, then, you have to decide from what point you wish to start from: a device with no non-vital system apps enabled, which means deploying policies to enable applications to perform a function, or a device with all system apps enabled, where policies are then required to block all bloatware apps discovered. There are pros and cons to both. 
 
 - If you leave system apps enabled, users will have a default, complete device experience with the ability to do most-anything needed (open files, take photos, access the internet) without admin intervention, but you need to monitor your app inventories on a regular basis and keep an eye out for applications that aren't suitable or potentially pose a DLP threat to your estate, and block them.
 - If you disable system apps, you'll need a policy that deploys apps to fill all potential gaps for each use case you're supporting. Pushing out 3rd party options is easier (if a little janky for the user experience vs native), but if you're enabling system apps ad-hoc, every new OEM/device will need to be inspected for the relevant packages to be enabled in order to avoid some users missing functionality.
@@ -78,7 +78,7 @@ They should do, it's _easy_ to implement. But if it's not a priority, this puts 
 
 You may notice I've emphasised that the ultimate inclusion (or lack of) apps comes down to the device, and this forms the basis of inconsistencies and friction points with organisations, because there's a reasonable amount of flexibility offered by Google on just _how_ this should be set up.
 
-When I think of a vital environment for organisations as a catch-all I think - 
+When I think of a vital environment for organisations as a catch-all I think: 
 
 - Dialler 
 - Messages
@@ -133,7 +133,7 @@ It's worth noting [in Android 15, Google is mandating a document viewing app be 
 
 </div>
 
-This is _also_ why devices will occasionally show up with Facebook, or OEM services, in the managed profile - the OEM, either knowingly or not, has configured these applications as vital in the respective `XML` files and this hasn't been picked up through the GMS/Play Protect certification process.
+This is _also_ why devices will occasionally show up with Facebook, or OEM services, in the managed profile; the OEM, either knowingly or not, has configured these applications as vital in the respective `XML` files and this hasn't been picked up through the GMS/Play Protect certification process.
 
 ## Navigating inconsistency
 
