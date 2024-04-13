@@ -1,5 +1,5 @@
 ---
-title: 'How to host apps externally with Google Play'
+title: 'How to host enterprise apps outside of Google Play'
 published: '2024-04-13'
 status: publish
 author: 'Jason Bayton'
