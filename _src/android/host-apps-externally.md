@@ -168,7 +168,7 @@ Things to keep in mind:
 
 ![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.35.08.gif)
 
-8. Pop into **App content** and review the required declarations. Google doesn't explicitly mandate these are done in their private app publishing guide, but I opted to at least cover off the advertising declaration as it was raised as a warning earlier. 
+8. **Optional:** Pop into **App content** and review the required declarations. Google doesn't explicitly mandate these are done in their private app publishing guide, but I opted to at least cover off the advertising declaration as it was raised as a warning earlier. 
 
 ![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.34.11.gif)
 
