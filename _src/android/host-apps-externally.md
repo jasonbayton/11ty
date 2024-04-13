@@ -146,39 +146,39 @@ Things to keep in mind:
 1. Access the [Google Play Console](https://play.google.com/console).
 2. Set up a new application, specifying language and title.
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.19.49.gif)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.19.49.gif)
 
 3. Turn on Managed Google Play, and add the organisation(s) you're targeting (you can add orgs later also), then create the app
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.22.11.gif)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.22.11.gif)
 
 4. Click upload external APKs, then create a production release, and opt out of Google Play signing
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.31.03.gif)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.31.03.gif)
 
 5. Upload the JSON metadata file (the file picker is not shown in the GIF), then provide a release name and click **Next**.
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.31.36.gif)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.31.36.gif)
 
 6. You may see warnings, these can be temporarily ignored, and **Save** can be clicked, sending changes for review.
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.32.50.gif)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.32.50.gif)
 
 7. Literally _seconds_ later, the release is live
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.35.08.gif)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.35.08.gif)
 
 8. Pop into **App content** and review the required declarations. Google doesn't explicitly mandate these are done in their private app publishing guide, but I opted to at least cover off the advertising declaration as it was raised as a warning earlier. 
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.34.11.gif)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.34.11.gif)
 
 Check the app is indeed live for the organisation/enterprise ID you shared it with. I'm using the AMAPI API explorer as my enterprise is not associated with an EMM directly, but you should find the app available in managed Google Play for assignment.
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2F2024-04-13_21.37.51.gif)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.37.51.gif)
 
 And we're done. Congrats! 🎉
 
-![](https://cdn.bayton.org/uploads%2F2024%2Fexternal-apk-hosting%2FScreenshot_2024-04-14-00-27-28-938_com.android.vending-EDIT.jpg)
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/Screenshot_2024-04-14-00-27-28-938_com.android.vending-EDIT.jpg)
 
 ## Authenticating downloads
 
