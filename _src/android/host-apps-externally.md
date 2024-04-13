@@ -14,7 +14,9 @@ effort: 4
 ---
 ## Introduction
 
-In the ever-evolving landscape of enterprise mobile application deployment, organisations have increasingly sought greater flexibility over how their apps are distributed and managed. Historically, businesses were able to deploy APKs directly from EMM solutions, though as the industry migrates over to AMAPI this is becoming increasingly more difficult to achieve without the partnership of OEMs. In place, Google wants all organisations leveraging the Play Store for app distribution, which although for the most-part is reasonable, causes headaches for a subset of organisations.
+In the ever-evolving landscape of enterprise mobile application deployment, organisations have increasingly sought greater flexibility over how their apps are managed and distributed. Historically, businesses were able to deploy APKs directly from EMM solutions, though as the industry migrates over to AMAPI this is becoming increasingly more difficult to achieve without the partnership of OEMs. 
+
+In place, Google wants all organisations leveraging the Play Store for app distribution, which although for the most-part is reasonable, causes headaches for a subset of organisations.
 
 Understanding the desires of organisations, Google introduced an alternative to uploading APKs to Google Play, allowing organisations to host their APKs externally to Google's infrastructure while still leaning on the store for the delivery. This guide delves into the process for setting up external hosting for private apps, allowing organisations greater control of their APK distribution at a cost of _some_ functionality within Play itself. These limitations are, per [Google](https://support.google.com/googleplay/work/answer/6145182?hl=en):
 
@@ -23,7 +25,7 @@ Understanding the desires of organisations, Google introduced an alternative to 
 > - IT admins can't remotely install externally hosted apps on devices with work profiles. Work profile users must install them manually from Managed Google Play.
 > - Android Auto second-screen projection is disabled. This is because all Auto-targeted apps must go through a specific review to ensure that they’re not distracting to drivers.
 
-In addition, apps deployed through Play are still required to adhere to the minTargetSDK requirement, which as of writing is 26
+In addition, applications deployed in this manner are not scanned/vetted by Google Play, however may still succumb to on-device scanning. Anything potentially harmful will be actioned one way or another, but may take longer than for apps distributed through Play directly.
 
 ## Preparing for External Hosting
 
