@@ -8,7 +8,9 @@ type: page
 
 <div class="callout">
 
-**Hi 👋. The generator is fully functional. Please assist me with validation by testing your devices and sending me a message to confirm it works - Email jason@bayton.org or comment on [LinkedIn](https://www.linkedin.com/posts/jasonbayton_home-jason-bayton-activity-7183765770508619776-0Rau?utm_source=share&utm_medium=member_desktop).**
+**Hi 👋. The generator has been updated. You'll need to clear your local cache to load new scripts if you have visited before.**
+
+Please assist me with validation by testing your devices and sending me a message to confirm it works - Email jason@bayton.org or comment on [LinkedIn](https://www.linkedin.com/posts/jasonbayton_home-jason-bayton-activity-7183765770508619776-0Rau?utm_source=share&utm_medium=member_desktop).
 
 </div>
 
