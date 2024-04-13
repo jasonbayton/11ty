@@ -25,6 +25,11 @@ const qrBuilder = () => {
 			if (error) console.error(error)
 		});
 
+	var canvas = document.getElementById('generated_qr');
+	var link = document.getElementById('generate_code');
+		link.setAttribute('download', 'provisioning_qr.png');
+		link.setAttribute('href', canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"));
+
 	console.debug('qrData', qrData);
 	document.getElementById('json_code').innerHTML = '<b>Generated JSON</b><pre>' + JSON.stringify(qrData, null, 2) + '</pre>';
 }

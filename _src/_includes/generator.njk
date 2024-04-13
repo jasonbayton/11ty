@@ -269,16 +269,18 @@
 
                 -->
 
-                <h3 class="post-title post-archive">
-                    <button class="button" id="generate_code">Generate QR »</button>
-                </h3>
+                <h4 class="post-title post-archive">
+                    <a class="button" id="generate_code">Generate QR</a>
+                </h4>
 
                 <canvas class="post-block" id="generated_qr">
-
                 </canvas>
 
                 <div class="post-block" id="json_code">
+                </div>
 
+                <div class="changelog-qr-generator">
+                    {% include "./_parts/gitlog.njk" %}
                 </div>
             </section>
             <!-- Page feedback goes here -->
