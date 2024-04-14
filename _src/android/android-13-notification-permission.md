@@ -1,5 +1,5 @@
 ---
-title: 'Handling Android 13 notifications permission'
+title: 'Android 13 adds notifications access as a runtime permission'
 published: '2022-08-11'
 status: publish
 author: 'Jason Bayton'
