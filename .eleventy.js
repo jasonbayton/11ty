@@ -12,12 +12,14 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginTOC = require("eleventy-plugin-nesting-toc");
 const striptags = require("striptags");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginTOC)
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
