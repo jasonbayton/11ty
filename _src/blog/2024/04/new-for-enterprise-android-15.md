@@ -18,7 +18,7 @@ Here we go!
 
 As expected, the restriction on installing applications targeting very old versions of Android is getting a bump. In Android 15 it will no longer be possible to install apps targeting API level 23 - Android Marshmallow / 6.0 - or older. Only apps that target Android 7.0 - API level 24 - or later will be permitted. 
 
-```
+```bash
 jason@MBP Downloads % adb install app-release.apk
 Performing Streamed Install
 adb: failed to install app-release.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 23]
@@ -31,6 +31,8 @@ Just as last year, we're talking about applications targeting a version of Andro
 This appears to offer control for the scanning of harmful applications on a device, perhaps allowing admins to explicitly prevent line of business APKs from being flagged up on end user devices as potentially harmful, unrecognised, or any other state that'd trigger a complaint to the admin helpdesk. It has been a point of contention for the dedicated ecosystem for some years, particularly as Play Protect has become more active and aggressive over the last few Android versions. 
 
 I'm not sure it's something I'm personally going to be advocating for with customers for the most part unless it's actively causing issues, but it's _amazing_ to see Google catering to the dedicated space for a change after so much increased focus on features that promote privacy at the cost of control for dedicated estates.
+
+Android 15 also introduces the permission `android.permission.MANAGE_DEVICE_POLICY_CONTENT_PROTECTION` for apps which are _not_ the device or profile owner to be able to interface with this API.
 
 ## Disallow NFC radio
 
@@ -89,6 +91,45 @@ Another expansion of existing functionality, Android 15 introduces system-settin
 https://www.youtube.com/watch?v=TENFSugd82g
 
 Presumably this will succumb to the same restrictions as disabling or uninstalling apps we have in place today (that is, users won't be allowed to depending on policy set). In my testing so far, archiving is just disabled on managed devices, with the option greyed out even on `INSTALL_TYPE`s of `AVAILABLE`.
+
+## Backup job execution exception permission
+
+Less enterprise-explicitly, and more of a general observation which may benefit enterprise app developers, Android 15 introduces the permission `android.permission.RUN_BACKUP_JOBS`, which - 
+
+> Gives applications with a **major use case** of backing-up or syncing content increased job execution allowance in order to complete the related work. The jobs must have a valid content URI trigger and network constraint set.
+>
+> This is a special access permission that can be revoked by the system or the user.
+>
+> Protection level: signature|privileged|appop
+
+It's a special permission, and likely only one being leveraged by vendors with OEM partner relationships given the protection level, but all the same it's pretty cool to see Google direct some attention to the backup use case.
+
+## Restrictions on device identifiers for personally owned devices
+
+From Android 15, applications with the permission `android.permission.MANAGE_DEVICE_POLICY_CERTIFICATES` will be able to fetch `getEnrollmentSpecificId`, which is an enrolment-specific, unique device identifier which persists across re-enrolments when done so into the same deployment scenario (i.e fully managed or personally owned work profile), by the same vendor agent, into the same enterprise (organisation/bind).
+
+It is an alternative to identifiers such as IMEI and serial number, which Google no longer grants access to for applications without the appropriate device or profile owner role, or `DELEGATION_CERT_INSTALL` via policy, and becomes the default and only option for fetching a unique device identifier for personally owned work profile devices in future.
+
+To be clear - applications in a personally owned work profile deployment up to now with the delegated permission of `DELEGATION_CERT_INSTALL` have been able to fetch a device serial number with relative ease, something that defeats the entire purpose of restricting access to the identifiers, considered to be personally identifiable information, in the first place. That loophole is closing.
+
+## Broader system update visibility
+
+From 15, applications granted the permission `android.permission.MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES` will be able to obtain information about a pending system update. This softens the current requirements that an application be a device or profile owner in order to fetch this information.
+
+## Check MTE status
+
+Expanding on the options for getting and setting MTE policies in Android 14, in 15 it will now be possible to merely query the current state (evidently something that should have, but didn't, quite make it to the 14 release!)
+
+## Control of parent profile screen settings in company owned work profile deployment scenarios
+
+From Android 15, company owned work profile deployment scenarios (COPE) will see scope of policies expand a little to include screen settings:
+
+- Screen off timeout (not to be confused with time to lock, which still supersedes this in terms of hierarchy)
+- Screen brightness (the actual brightness or the screen)
+- Screen brightness mode (manual or automatic)
+
+This comes across as a quality-of-life (QoL) improvement, though I'd have liked to be a fly on the wall when the scenarios were defined to justify prioritising this.
+
 
 ## More to come!
 
