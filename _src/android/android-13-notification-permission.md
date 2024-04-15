@@ -1,5 +1,5 @@
 ---
-title: 'Handling Android 13 notifications permission'
+title: 'Android 13 adds notifications access as a runtime permission'
 published: '2022-08-11'
 status: publish
 author: 'Jason Bayton'
@@ -27,6 +27,6 @@ No. It's certainly better to ensure apps are targeting the latest API level wher
 
 ## Is it possible to test the changes?
 
-Yes, if you have an Android 13 ~~beta~~ device available you may test the new runtime permission. EMM uptake on granular permission settings may be slower, but the catch-all per-app or global runtime permission policy will also include the notifications permission by default. 
+Yes, if you have an Android 13 or later device available you may test the new runtime permission. EMM uptake on granular permission settings may be slower, but the catch-all per-app or global runtime permission policy will also include the notifications permission by default. 
 
 For more details of the new API, please read [Notification runtime permission | Android Developers](https://developer.android.com/about/versions/13/changes/notification-permission).
