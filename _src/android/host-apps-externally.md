@@ -70,7 +70,7 @@ AAPT will need to be exported to `PATH` for easy reference, which I did by editi
 1. `vim ~/.zshrc`
 2. `i` to INSERT:
 
-```
+```bash
 export PATH=$PATH:/Users/jasonbayton/Library/Android/sdk/build-tools/33.0.0
 ```
 3. `wq` + `ENTER` to save
@@ -83,8 +83,40 @@ Before continuing, make sure the `PATH` updates have been loaded in with `source
 
 Finally, download the [python script](https://github.com/google/play-work/blob/master/externally-hosted-apks/externallyhosted.py) from Google via GitHub, and make sure it's executable with:
 
-```
+```bash
+wget https://raw.githubusercontent.com/google/play-work/master/externally-hosted-apks/externallyhosted.py
 sudo chmod +x /path/to/downloaded/externallyhosted.py
+```
+
+### Ubuntu guide
+
+<div class="callout">
+
+This process will work for Windows via WSL also, so consider this the Windows guide if you're familiar with WSL. If not, I'm happy to take a PR to add Windows instructions in. Use the **Edit this page** link at the bottom to modify and submit.
+
+</div>
+
+Install the dependencies:
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install -y python2.7 openssl openjdk-21-jdk aapt zipalign
+```
+
+Change directory (`CD`) to where you're going to work from, then: 
+
+Pull down [the script](https://github.com/google/play-work/blob/master/externally-hosted-apks/externallyhosted.py), and make sure it's executable: 
+
+```bash
+wget https://raw.githubusercontent.com/google/play-work/master/externally-hosted-apks/externallyhosted.py
+sudo chmod +x externallyhosted.py
+```
+
+Pull down or place your local APK into your working directory for simplicity, otherwise adjust the `--apk=` config in the script below to reflect the stored location of your local APK (e.g. `/home/jason/release-apks/my-project.apk`). For me working in a LXD Ubuntu container, I just grabbed my hosted version:
+
+```bash
+wget https://cdn.bayton.org/download/org.bayton.external.apk
 ```
 
 ## Generating the JSON Metadata File
@@ -99,8 +131,16 @@ python externallyhosted.py --apk=<path/to/your.apk> --externallyHostedUrl="<http
 
 On my machine, factoring in the system-unique environmental decisions I made above, it's this:
 
+**MacOS**
+
 ```bash
 /Users/jasonbayton/.pyenv/versions/2.7.18/bin/python2.7 ./externallyhosted.py --apk=/Users/jasonbayton/Desktop/org.bayton.external.apk --externallyHostedUrl="https://cdn.bayton.org/download/org.bayton.external.apk" > org.bayton.external.metadata.json
+```
+
+**Ubuntu**
+
+```bash
+python2.7 externallyhosted.py --apk=org.bayton.external.apk --externallyHostedUrl="https://cdn.bayton.org/download/org.bayton.external.apk" > org.bayton.external.metadata.json
 ```
 
 Which then output the following JSON, piped to the file `org.bayton.external.metadata.json`:
