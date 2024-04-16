@@ -270,11 +270,14 @@
                 -->
 
                 <h4 class="post-title post-archive">
-                    <a class="button" id="generate_code">Generate QR</a>
+                    <a class="button" id="generate_code">Generate QR</a><br>
                 </h4>
 
                 <canvas class="post-block" id="generated_qr">
                 </canvas>
+
+                <div class="post-block" id="download_qr">
+                </div>
 
                 <div class="post-block" id="json_code">
                 </div>
@@ -289,7 +292,7 @@
         </content>
         <footer>
             {% include "./_parts/footer.njk" %}
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.1/qrcode.js"></script>
+            <script src="/js/qrcode.js"></script>
             <script src="/js/qr-generator.js"></script>
         </footer>
     </body>

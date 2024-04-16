@@ -24,14 +24,22 @@ const qrBuilder = () => {
 		function ( error ) {
 			if (error) console.error(error)
 		});
+	
+	document.getElementById('download_qr').innerHTML = '<a class="button" id="generate_download">Download QR</a>';
 
 	var canvas = document.getElementById('generated_qr');
-	var link = document.getElementById('generate_code');
+	var link = document.getElementById('generate_download');
 		link.setAttribute('download', 'provisioning_qr.png');
 		link.setAttribute('href', canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"));
-
+	
 	console.debug('qrData', qrData);
-	document.getElementById('json_code').innerHTML = '<b>Generated JSON</b><pre>' + JSON.stringify(qrData, null, 2) + '</pre>';
+	document.getElementById('json_code').innerHTML = '<b>Generated JSON</b><pre class="language-json"><code class="language-json">' + JSON.stringify(qrData, null, 2) + '</code></pre>';
+
+	//function copyJson() {
+	//	var copyText = JSON.stringify(qrData, null, 2);
+	//	navigator.clipboard.writeText(copyText.value);
+	//	alert("Copied the text: " + copyText.value);
+	//  }
 }
 
 function setNestedObject( obj, path, value ) {
