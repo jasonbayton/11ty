@@ -82,7 +82,7 @@ Before continuing, make sure the `PATH` updates have been loaded in with `source
 Finally, download the [python script](https://github.com/google/play-work/blob/master/externally-hosted-apks/externallyhosted.py) from Google via GitHub, and make sure it's executable with:
 
 ```bash
-wget https://raw.githubusercontent.com/google/play-work/master/externally-hosted-apks/externallyhosted.py
+curl -o externallyhosted.py https://raw.githubusercontent.com/google/play-work/master/externally-hosted-apks/externallyhosted.py
 sudo chmod +x /path/to/downloaded/externallyhosted.py
 ```
 
