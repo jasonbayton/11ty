@@ -29,9 +29,7 @@ In addition, applications deployed in this manner are not scanned/vetted by Goog
 
 ## Preparing for External Hosting
 
-### Technical Requirements
-
-- **Tools Needed**: OpenSSL, JDK, Python 2.x, Android Asset Packaging Tool (AAPT), ExternallyHosted script from Google.
+- **Tools Needed**: OpenSSL, JDK, Python 2.x, Android Asset Packaging Tool (AAPT), `ExternallyHosted.py` script from Google.
 - **Infrastructure**: Secure server or cloud environment for hosting the APK file(s). 
 
 ### MacOS guide
@@ -57,7 +55,7 @@ pyenv install 2.7.18
 
 I went with python 2.7.18 with no particular reasoning in mind; it was a newer 2.x release that fit the requirement. Use a 2.x release you're comfortable with.
 
-After which, install openjdk & openssl
+After which, install openjdk & openssl:
 
 ```bash
 brew install openjdk openssl
@@ -73,7 +71,7 @@ AAPT will need to be exported to `PATH` for easy reference, which I did by editi
 ```bash
 export PATH=$PATH:/Users/jasonbayton/Library/Android/sdk/build-tools/33.0.0
 ```
-3. `wq` + `ENTER` to save
+3. `wq` + `ENTER` to save.
 
 Your `PATH` will differ, based on what version of the SDK you're running, or where you've downloaded the standalone command line tools. Update it accordingly above.
 
@@ -118,6 +116,12 @@ Pull down or place your local APK into your working directory for simplicity, ot
 ```bash
 wget https://cdn.bayton.org/download/org.bayton.external.apk
 ```
+
+### Hosting the APK
+
+Google don't document any hard and fast rules for where an APK should be hosted, but they do make references to unavailability of applications if reliant on an as-yet unconfigured (or not enabled) VPN solutions, suggesting they're OK with access being limited. 
+
+For this, I popped my test APK in my CDN. It's obviously very public. In production, I'd likely either put it on a private cloud instance, or implement Google's suggested [authentication](#authenticating-downloads) referenced at the end of this doc.
 
 ## Generating the JSON Metadata File
 
