@@ -1,5 +1,5 @@
 ---
-title: "How do I configure Chrome managed bookmarks?"
+title: "How to configure Chrome managed bookmarks"
 published: '2023-05-22'
 status: publish
 author: 'Jason Bayton'
@@ -16,7 +16,7 @@ eleventyNavigation:
 --- 
 If you're looking to configure the bookmarks available in managed Chrome, you can use the below format. More examples can be found via [Google's documentation](https://chromeenterprise.google/policies/#ManagedBookmarks).
 
-```
+```json
 [
   {
     "toplevel_name": "Company bookmarks"
