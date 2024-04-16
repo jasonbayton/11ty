@@ -50,19 +50,19 @@ This sounds like it's ticking off a long-desired feature request to fully disabl
 
 I touched on this in a [recent doc](https://bayton.org/android/what-are-vital-apps/). The absence of a document preview application for managed devices has been quite a noisy complaint from organisations for many years, overshadowed only by missing camera &/ gallery applications. None of these apps have been mandated by Google for the fully managed/work profile user experience, and so the common trend is to see them simply not added.
 
-In fact, when I was [building devices for enterprise](https://bayton.org/blog/2023/08/product-files-the-doordash-tablet/#the-android-journey), I spent a decent amount of time learning the intricacies of vital apps and considering the use cases of customers to determine what was vital to productivity. I'd always opt to deploy Files By Google as the "Downloads" application, as this killed two birds with one stone - file preview support & a file (download) manager.
+In fact, when I was [building devices for enterprise](https://bayton.org/blog/2023/08/product-files-the-doordash-tablet/#the-android-journey), I spent a decent amount of time learning the intricacies of vital apps and considering the use cases of customers to determine what was vital to productivity. I'd always opt to deploy Files By Google as the "Downloads" application, as this killed two birds with one stone - file preview support & a file (download) manager. Any photos taken could then be viewed in this app.
 
 But not all OEMs consider this, or really think about enterprise at all, and so it's nice to see Google identifying the gap and plugging it accordingly.. even if it took several years to do so.
 
 ## A switch to feature flagging
 
-This isn't super new information, as it Google have been feature flagging already with Android 14, but Google are touting Android 15 as their line in the sand for introducing their new approach to development, _Trunk Stable_. Mishaal Rahman, the prolific Android code-sleuthing extraordinaire, goes into more detail on Trunk Stable and `aconfig` (the feature flag system), as well as many more (lesser enterprise) Android features in this video from the latest AOSP & AAOS meetup: 
+This isn't super new information, as Google have been feature flagging already with Android 14, but Google are touting Android 15 as their line in the sand for introducing their new approach to development, _Trunk Stable_. Mishaal Rahman, the prolific Android code-sleuthing extraordinaire, goes into more detail on Trunk Stable and `aconfig` (the feature flag system), as well as many more (lesser enterprise) Android features in this video from the latest AOSP & AAOS meetup: 
 
 https://www.youtube.com/watch?v=dLz6aIRC0hg&t=179s
 
 The change is an interesting one, it comes across as there being more code out in the open to review, and the ability to potentially build Android flavours with feature flags enabled for early access to features not yet committed to a release, but equally seems that it'll be far harder to put a finger on timelines of _when_ features will actually land in builds; could it be the next dessert release? A QPR update? Who knows.
 
-Furthermore, this adds _way_ more flexibility for the Android team, and I presume far less pressure on managing the development cycle for when things need to be pushed/pulled accordingly. Hiding work-in-progress code behind feature flags is probably considered a breath of fresh air for them 😁
+Furthermore, this adds _far_ more flexibility for the Android team, and I presume far less pressure on managing the development cycle for when things need to be pushed/pulled accordingly. Hiding work-in-progress code behind feature flags is probably considered a breath of fresh air for them 😁
 
 ## Platform signed permission management
 
@@ -82,19 +82,21 @@ If you're like me and record your screen _far too often_ to demonstrate anything
 
 ## Screen recording detection
 
-Continuing the theme of recording, this is not so much an enterprise feature in and of itself explicitly, but Android 15 will alert apps when the screen is being recorded, allowing them to hide contents. I can imagine this might be useful for enterprise applications across the board to bolster DLP (data loss prevention)
+Continuing the theme of recording, this is not so much an enterprise feature in and of itself explicitly, but Android 15 will alert apps when the screen is being recorded, allowing them to hide contents. 
+
+I can imagine this might be useful for enterprise applications across the board to bolster DLP (data loss prevention)
 
 ## App archiving
 
-Another expansion of existing functionality, Android 15 introduces system-settings control over app archiving, previously only opt-in managed by Google Play directly. 
+Another expansion of existing functionality, Android 15 introduces system-settings control over app archiving, previously only opt-in and managed by Google Play directly. 
 
 https://www.youtube.com/watch?v=TENFSugd82g
 
-Presumably this will succumb to the same restrictions as disabling or uninstalling apps we have in place today (that is, users won't be allowed to depending on policy set). In my testing so far, archiving is just disabled on managed devices, with the option greyed out even on `INSTALL_TYPE`s of `AVAILABLE`.
+Presumably this will succumb to the same restrictions as disabling or uninstalling apps we have in place today (that is, users won't be allowed to depending on policy set). In my testing so far, archiving is just disabled on managed devices, with the option greyed out even on `INSTALL_TYPE`s of `AVAILABLE` (`AVAILABLE` means the app is provided to users within managed Google Play, but not downloaded or installed, so the user has full control over whether they wish to install it or not).
 
 ## Backup job execution exception permission
 
-Less enterprise-explicitly, and more of a general observation which may benefit enterprise app developers, Android 15 introduces the permission `android.permission.RUN_BACKUP_JOBS`, which - 
+Less enterprise-explicitly, and more of a general observation which may benefit enterprise app developers, Android 15 introduces the permission `android.permission.RUN_BACKUP_JOBS`, which:
 
 > Gives applications with a **major use case** of backing-up or syncing content increased job execution allowance in order to complete the related work. The jobs must have a valid content URI trigger and network constraint set.
 >
@@ -106,7 +108,7 @@ It's a special permission, and likely only one being leveraged by vendors with O
 
 ## Restrictions on device identifiers for personally owned devices
 
-From Android 15, applications with the permission `android.permission.MANAGE_DEVICE_POLICY_CERTIFICATES` will be able to fetch `getEnrollmentSpecificId`, which is an enrolment-specific, unique device identifier which persists across re-enrolments when done so into the same deployment scenario (i.e fully managed or personally owned work profile), by the same vendor agent, into the same enterprise (organisation/bind).
+From Android 15, applications with the permission `android.permission.MANAGE_DEVICE_POLICY_CERTIFICATES` will be able to fetch `getEnrollmentSpecificId`, which is an enrolment-specific, unique device identifier that persists across re-enrolments when done so into the same deployment scenario (i.e fully managed or personally owned work profile), by the same vendor agent, into the same enterprise (organisation/bind).
 
 It is an alternative to identifiers such as IMEI and serial number, which Google no longer grants access to for applications without the appropriate device or profile owner role, or `DELEGATION_CERT_INSTALL` via policy, and becomes the default and only option for fetching a unique device identifier for personally owned work profile devices in future.
 
