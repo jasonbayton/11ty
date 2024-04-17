@@ -35,7 +35,7 @@ This is covered in [Considerations for Choosing Android in the Enterprise](https
 
 In more recent releases, Google has also used mainline to backport features, like the photo picker introduced with Android 13 that found its way into Android 12 through a Google Play system update in 2022.
 
-From an enterprise perspective, mainline has been used to patch critical issues in WebView (the renderer for managed Google Play iFrame WebApps, or any call for an integrated browser within enterprise apps without opening Chrome or similar), networking components and more. It's a powerful system that grows year-on-year with more updatable modules. 
+From an enterprise perspective, mainline has been used to patch critical issues and [deploy substantial runtime improvements](https://android-developers.googleblog.com/2023/08/latest-artwork-on-hundreds-of-millions-of-devices.html), update networking components and more. It's a powerful system that grows year-on-year with more updatable modules. 
 
 ## Why is this changing?
 
