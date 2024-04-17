@@ -1,5 +1,5 @@
 ---
- title: "Google Play System Updates (mainline) are no longer managed by System Update policies"
+ title: "Google Play System updates (mainline) are no longer managed by System Update policies"
  published: '2024-04-17'
  status: publish
  author: 'Jason Bayton'
