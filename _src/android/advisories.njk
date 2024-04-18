@@ -58,29 +58,20 @@ tags:
             <h3>What are advisories?</h3>
             <p>These are isolated documents aligned with external events, and are intended to provide guidance on temporary issues or upcoming changes. They have their own <a href="/android/advisories/feed.xml">RSS feed</a>, too.</p>
             <h3>Want these delivered?</h3>
-            <style>
-                form.embeddable-buttondown-form input {
-                display: block;
-                padding: 10px;
-                border-radius: 7px;
-                box-shadow: 0;
-                border: 2px solid black;
-                width: 90%;
-                margin: 10px 0;
-                }
-                </style>
-            <p><form
-                action="https://buttondown.email/api/emails/embed-subscribe/bayton"
-                method="post"
-                target="popupwindow"
-                onsubmit="window.open('https://buttondown.email/bayton', 'popupwindow')"
-                class="embeddable-buttondown-form"
-                >
-                <label for="bd-email">Pop in your email address</label>
-                <input type="email" name="email" id="bd-email" />
-                
-                <input type="submit" value="Subscribe" />
-            </form></p>
+            <div id="subscribe_section">
+                    <p>Get news and updates delivered directly to your inbox:</p>
+                    <form
+                        action="https://buttondown.email/api/emails/embed-subscribe/bayton"
+                        method="post"
+                        target="popupwindow"
+                        onsubmit="window.open('https://buttondown.email/bayton', 'popupwindow')"
+                        class="embeddable-buttondown-form"
+                        >
+                        <input type="email" name="email" placeholder="Email address" autocomplete="email" id="subscribe_input" />
+                        <input type="submit" class="button" value="Subscribe" id="subscribe_button"/>
+                    </form>
+                    <p><sub>Provided by <a href="https://buttondown.email">Buttondown</a>. Opens a new tab.</sub></p>
+                </div>
         </div>
     </section>
 </section>
