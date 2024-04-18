@@ -52,7 +52,7 @@ Google, balancing feedback from admins finding frequent unscheduled reboots hamp
 
 Without being tied into system update policies, mainline updates will now behave akin to an unmanaged device. Updates will automatically download in the background, and will apply on the next scheduled reboot. This reboot may be user initiated, or by policy - including existing system update policies.
 
-Naturally organisations want _some_ control over postponing updates on devices, and this may sound concerning. It is not however expected to be permanent; it is rather a temporary measure until such time Google implement either a fix in how mainline updates integrate with system update policies, or introduce mainline-specific APIs to handle these separately. 
+Naturally organisations want _some_ control over postponing updates on devices, and this may sound concerning. I don't expect this however to be permanent, but rather a temporary measure until such time Google implement either a fix in how mainline updates integrate with system update policies, or introduce mainline-specific APIs to handle these separately. Hopefully sooner than later.
 
 ## What risks now exist?
 
