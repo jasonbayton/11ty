@@ -177,6 +177,8 @@ _There's nothing above that can't be extracted from the APK by anyone who pulls 
 
 With the shiny JSON file in hand, publishing can now take place. 
 
+## Publishing the app
+
 <div class="callout">
 
 Things to keep in mind: 
@@ -227,6 +229,10 @@ Check the app is indeed live for the organisation/enterprise ID you shared it wi
 And we're done. Congrats! 🎉
 
 ![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/Screenshot_2024-04-14-00-27-28-938_com.android.vending-EDIT.jpg)
+
+### Updating the app
+
+When making changes to the external APK file, I popped into the Google Play console and created a new release with the updated JSON metadata file. This updated things like version number/code and any target API requirements within the Play Console immediately, and updated the SHA values for the modified APK.
 
 ## Authenticating downloads
 
