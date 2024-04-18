@@ -976,6 +976,20 @@ footer {
   text-align: center;
 }
 
+#subscribe_section {
+  padding: 0 0 40px 0;
+}
+#subscribe_button {
+  font-size: 20px;
+}
+
+#subscribe_input {
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+}
+
 #social_icons {
   font-size: 30px;
   display: inline;
