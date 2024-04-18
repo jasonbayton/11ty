@@ -25,7 +25,7 @@ Understanding the desires of organisations, Google introduced an alternative to 
 > - IT admins can't remotely install externally hosted apps on devices with work profiles. Work profile users must install them manually from Managed Google Play.
 > - Android Auto second-screen projection is disabled. This is because all Auto-targeted apps must go through a specific review to ensure that they’re not distracting to drivers.
 
-In addition, applications deployed in this manner are not scanned/vetted by Google Play, however may still succumb to on-device scanning. Anything potentially harmful will be actioned one way or another, but may take longer than for apps distributed through Play directly.
+In addition, applications deployed in this manner are not scanned/vetted by Google Play, however may still succumb to on-device scanning. Anything potentially harmful will be actioned one way or another, but may take longer to detect than for apps distributed through Play directly.
 
 ## Preparing for External Hosting
 
@@ -175,15 +175,19 @@ _There's nothing above that can't be extracted from the APK by anyone who pulls 
 
 ## Publishing and Managing the App
 
-### Publishing via Google Play Console
-
 With the shiny JSON file in hand, publishing can now take place. 
 
 <div class="callout">
 
 Things to keep in mind: 
 - You cannot upload an APK through the managed Google Play iFrame, it must be done through the [Play Console](https://play.google.com/console).
-- You must use an account holding an **admin role** with the desired organisation. Either ensure your developer account is added to the bind as an administrator, or log in to Google Play with the same account used to create the bind.
+- Google state you must use an account holding an **admin role** with the desired organisation/enterprise ID. Either ensure your developer account is added to the bind as an administrator, or log in to Google Play with the same account used to create the bind. 
+
+In my testing, the latter requirement wasn't accurate. I have deployed an externally hosted app to several organisations wherein my developer account **does not** have admin permissions on the bind ([play.google.com/work/adminsettings](https://play.google.com/work/adminsettings)) and the application was easily found within the iFrame of those EMM environments. 
+
+To further clarify the requirements, you'll need a full developer account. It costs $25 as a one-time fee. Do not attempt to use the developer account associated with the organisation itself, identified in the list of developer accounts associated with any logged in account with admin rights to the organisation/enterprise ID, as you will no have permission to upload applications within this account.
+
+![don't use this](https://cdn.bayton.org/uploads/2024/external-apk-hosting/Screenshot2024-04-18at23.11.46.png)
 
 </div>
 
