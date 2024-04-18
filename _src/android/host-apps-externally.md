@@ -177,7 +177,7 @@ _There's nothing above that can't be extracted from the APK by anyone who pulls 
 
 With the shiny JSON file in hand, publishing can now take place. 
 
-## Publishing the app
+### Publishing the app
 
 <div class="callout">
 
