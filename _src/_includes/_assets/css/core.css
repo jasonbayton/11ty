@@ -676,6 +676,10 @@ div:hover g#swirl_2 {
   transform-box: fill-box;
   transform-origin: center;
 }
+div:hover path#exclude {
+  transition: fill 0.6s ease-in-out;
+  fill: var(--orange)
+}
 
 #well_hey img {
   max-width: 50px;
