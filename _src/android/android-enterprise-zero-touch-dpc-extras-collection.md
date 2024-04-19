@@ -117,6 +117,16 @@ Reach out to your vendor to ask when this functionality will be available.
 }
 </pre>
 
+## urmobo
+
+<pre>{
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
+"com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN": "<strong>YourEnrollmentToken</strong>" 
+}
+}
+</pre>
+
 ## Miradore
 
 <pre>{ 
@@ -183,6 +193,23 @@ Reach out to your vendor to ask when this functionality will be available.
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { 
 "fusionuem_server_url":"<strong>server url</strong>", 
 "fusionuem_token_id":"<strong>token id</strong>"
+}
+}
+</pre>
+
+## Fusion EMM
+
+<pre>{
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": { 
+"AFW_TOKEN_ID": "<strong>token</strong>",
+"USER_KEY_ID": "<strong>user_key</strong>",
+"ENTERPRISE_ID": "<strong>enterprise_id</strong>",
+"EmailID": "<strong>email</strong>",
+"FQDN": "<strong>fqdn</strong>",
+"OWNERCODE": <strong>1</strong>,
+"USERNAME": "<strong>user_name</strong>",
+"EnrollmentType": <strong>1</strong>
 }
 }
 </pre>
@@ -267,6 +294,18 @@ Reach out to your vendor to ask when this functionality will be available.
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "pin":"<strong>groupPin</strong>"
+}
+}
+</pre>
+
+## Telelogos Clyd
+
+<pre>
+{
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
+"package_url": "<strong>your.server.com</strong>",
+"deploy": <strong>3</strong>
 }
 }
 </pre>
