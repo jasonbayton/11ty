@@ -86,6 +86,8 @@ curl -o externallyhosted.py https://raw.githubusercontent.com/google/play-work/m
 sudo chmod +x /path/to/downloaded/externallyhosted.py
 ```
 
+Done. Scroll down to Hosting the APK below.
+
 ### Ubuntu guide
 
 <div class="callout">
@@ -116,6 +118,8 @@ Pull down or place your local APK into your working directory for simplicity, ot
 ```bash
 wget https://cdn.bayton.org/download/org.bayton.external.apk
 ```
+
+Done.
 
 ### Hosting the APK
 
@@ -173,7 +177,7 @@ Which then output the following JSON, piped to the file `org.bayton.external.met
 
 _There's nothing above that can't be extracted from the APK by anyone who pulls it from a device, so I have no problem _not_ obfuscating any of this data._
 
-## Publishing and Managing the App
+## Publishing and managing the App
 
 With the shiny JSON file in hand, publishing can now take place. 
 
@@ -183,9 +187,9 @@ With the shiny JSON file in hand, publishing can now take place.
 
 Things to keep in mind: 
 - You cannot upload an APK through the managed Google Play iFrame, it must be done through the [Play Console](https://play.google.com/console).
-- Google state you must use an account holding an **admin role** with the desired organisation/enterprise ID. Either ensure your developer account is added to the bind as an administrator, or log in to Google Play with the same account used to create the bind. 
+- Google state you must use an account holding an **admin role** with the desired organisation/enterprise ID. Either ensure your developer account [is added to the bind as an administrator](/android/android-enterprise-faq/manage-bind-account/), or log in to Google Play with the same account used to create the bind. 
 
-In my testing, the latter requirement wasn't accurate. I have deployed an externally hosted app to several organisations wherein my developer account **does not** have admin permissions on the bind ([play.google.com/work/adminsettings](https://play.google.com/work/adminsettings)) and the application was easily found within the iFrame of those EMM environments. 
+In my testing, the latter requirement wasn't accurate. I have deployed an externally hosted app to several organisations wherein my developer account **does not** have admin permissions on [the bind](https://play.google.com/work/adminsettings) and the application was easily found within the iFrame of those EMM environments. 
 
 To further clarify the requirements, you'll need a full developer account. It costs $25 as a one-time fee. Do not attempt to use the developer account associated with the organisation itself, identified in the list of developer accounts associated with any logged in account with admin rights to the organisation/enterprise ID, as you will no have permission to upload applications within this account.
 
@@ -218,7 +222,7 @@ To further clarify the requirements, you'll need a full developer account. It co
 
 ![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.35.08.gif)
 
-8. **Optional:** Pop into **App content** and review the required declarations. Google doesn't explicitly mandate these are done in their private app publishing guide, but I opted to at least cover off the advertising declaration as it was raised as a warning earlier. 
+8. **Optional:** Pop into **App content** and review the required declarations. Google doesn't explicitly mandate these are done in their private app publishing guide, but I opted to at least cover off the advertising declaration as it was raised as a warning earlier; you never know when the wider consumer Google Play team will make a breaking change for enterprise.  
 
 ![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.34.11.gif)
 
