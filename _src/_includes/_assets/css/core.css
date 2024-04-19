@@ -984,10 +984,10 @@ footer {
 }
 
 #subscribe_input {
-  padding: 13px;
+  padding: 10px;
   font-size: 20px;
   border-radius: 5px;
-  border: 0;
+  border: 4px solid var(--orange);
 }
 
 #social_icons {
