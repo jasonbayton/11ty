@@ -11,13 +11,6 @@ const offlineFallbackPage = "offline";
 
 // Define an array of URLs to be cached offline
 const offlinecache = [
-  '/',
-  '/android/',
-  '/css/base.css',
-  '/js/darkmode.js',
-  '/js/darkmodetoggle.js',
-  '/img/bayton_logos/bayton_rectangle_dynamic.svg',
-  '/img/bayton_logos/bayton_circle_dynamic.svg',
   '/offline/'
 ];
 
@@ -159,11 +152,6 @@ async function handlePeriodicSync() {
     const cacheName = "static-assets";
     const urlsToCache = [
       "/offline/",
-      "/css/base.css",
-      "/js/darkmode.js",
-      "/js/darkmodetoggle.js",
-      "/img/bayton_logos/bayton_rectangle_dynamic.svg",
-      "/img/bayton_logos/bayton_cirle_dynamic.svg",
     ];
     const cache = await caches.open(cacheName);
     await cache.addAll(urlsToCache);
