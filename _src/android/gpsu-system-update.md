@@ -21,6 +21,18 @@ It was earlier shown in developer documentation, but shortly pulled after:
 
 ![system update screenshot](https://cdn.bayton.org/uploads/2024/system-update-screen.png)
 
+<div class="callout">
+
+Edit _April 24th_: Manage System Updates, as well as [AMAPI policy docs](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies) now include messaging similar to the help pages:
+
+> Google Play System updates (Mainline)
+>
+> Google Play System updates (also called Mainline updates) are automatically downloaded but require a device reboot to be installed. These updates won't trigger an automatic reboot and instead they are installed on the next user, admin, or policy initiated reboot. Reboots triggered by system update policy will install the associated Google/OEM system update and any previously downloaded Google Play System updates.
+>
+> Google Play System updates can also be manually installed by navigating to Settings > About > Android Version > Google Play system update.
+
+</div>
+
 ## What is Project Mainline?
 
 This is covered in [Considerations for Choosing Android in the Enterprise](https://bayton.org/android/considerations-for-choosing-android-in-the-enterprise/), but to quote the article:
