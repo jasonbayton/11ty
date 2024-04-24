@@ -32,6 +32,14 @@ If you need to unbind from your existing EMM, whether to -
 
 Or any other perfectly valid reason, the steps to follow are straightforward.
 
+<div class="callout">
+
+Be aware before you delete the bind, that **it is not reversible**. All devices will be unenrolled, all private applications will be inaccessible, and all data associated with the old enterprise will not be recoverable!
+
+This is a **permanent** action.
+
+</div>
+
 **Via your EMM**
 
 In the first instance, the simplest course of action is to unbind through your EMM. Here are some current links to this:
@@ -43,9 +51,11 @@ In the first instance, the simplest course of action is to unbind through your E
 
 _Feel free to [submit a PR](https://github.com/jasonbayton/11ty/blob/main/_src/android/android-enterprise-faq/delete-the-ae-bind.md) with additional EMM articles!_
 
-Some platforms don't support removing the bind through administrative settings. Some platforms, like SOTI, only _unbind_ and don't _delete_ the enterprise ID. This is useful for future rebinding if platforms support it, but otherwise it's another step in the process an organisation is forced to take to _fully delete_ the bind. Here's how:
+Some platforms don't support removing the bind through EMM administrative settings. Some platforms, like SOTI, only _unbind_ and don't _delete_ the enterprise ID. This is useful for future rebinding if platforms support it, but otherwise it's another step in the process an organisation is forced to take to _fully delete_ the bind.
 
 **Via Google Play admin settings**
+
+If the EMM platform doesn't support deleting the bind, or if you no longer have access to the EMM to do so, you can head to Google Play Enterprise admin settings to do so:
 
 1. Head to Google Play Enterprise admin settings - [https://play.google.com/work/adminsettings](https://play.google.com/work/adminsettings)
 2. Select the menu dots on the right of your organisation
