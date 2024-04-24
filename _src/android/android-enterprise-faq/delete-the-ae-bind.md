@@ -72,5 +72,5 @@ As indicated, the enterprise cannot be deleted with multiple admins present, so 
 
 </div>
 
-With the bind removed, you're now ready to re-use the account to create a new bind with your existing or altnernative EMM provider.
+With the bind removed, you're now ready to re-use the account to create a new bind with your existing or alternative EMM provider.
 
