@@ -1,5 +1,5 @@
 ---
-title: 'What is the Android Enterprise "bind"?'
+title: 'What is the Android Enterprise bind?'
 published: '2023-05-13'
 status: publish
 author: 'Jason Bayton'
