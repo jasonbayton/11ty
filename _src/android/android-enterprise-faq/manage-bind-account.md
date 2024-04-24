@@ -12,7 +12,7 @@ categories:
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
-  order: 1110
+  order: 6999
 --- 
 Yes, it is more recently possible to configure the accounts responsible for managing the Android Enterprise organisation (enterprise) ID
 

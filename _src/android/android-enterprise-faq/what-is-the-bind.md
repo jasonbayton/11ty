@@ -12,7 +12,7 @@ categories:
 layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
-  order: 1120
+  order: 6998
 --- 
 Throughout this site and across Google's official documentation and resources there are multiple references to the _bind_, or binding of a Google account to an organisation's EMM/MDM platform of choice in order to use Android Enterprise, but what is it?
 
