@@ -79,7 +79,7 @@ Here's your basic checklist when raising an issue with support that will substan
 - Affected app information, package name(s), app versions (for app related issues)
 - Replication steps
 - Any scoped policies or configurations applied
-- Logs, pictures, video of issues respectively
+- [Logs](/android/how-to-capture-device-logs/), pictures, video of issues respectively
 
 An example of a support request offering some of the above information - taking the above first example of a submitted issue - could look like this:
 
@@ -142,7 +142,7 @@ One of the most common occurrences I've seen in recent years is the requirement 
 
 What typically follows is support setting up a call with the requestor wherein the support team simply asks the questions once again through a different medium, and notes down the answers themselves.
 
-Obviously there are situations where calls are legitimately seeking assistance in obtaining the requested information (such as _how do I find the OS version for the device_ or _how do I collect device logs_?) and these are wholly justifiable.
+Obviously there are situations where calls are legitimately seeking assistance in obtaining the requested information (such as _how do I find the OS version for the device_ or _[how do I collect device logs](/android/how-to-capture-device-logs/)_?) and these are wholly justifiable.
 
 But if your intention is to defer the questions asked until they're asked again over a call, this is once more going to significantly delay how quickly your issues can be resolved.
 
