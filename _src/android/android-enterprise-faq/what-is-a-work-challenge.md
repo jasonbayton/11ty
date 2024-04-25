@@ -19,11 +19,17 @@ When a device is deployed as a company owned work profile (COPE) or personally o
 
 Unless explicitly set, the work profile doesn't have any additional authentication required, allowing an end-user to open work applications on the device as desired.
 
-A work challenge is what Google call the passcode applied to the work profile that shares most of the same policies associated with a device passcode policy. It can be applied in the following ways:
-- For devices with no device passcode set, as the only passcode required on the device, and only prompted when work apps are opened.
-- For devices with a passcode set, to share the device passcode between the device and the work profile (when unlocking the device, the work profile also unlocks).
-- For devices with a passcode set, to require a unique passcode for the work profile, requiring additional authentication when work apps are opened.
+A work challenge is what Google call the password applied to the work profile that shares most of the same policies associated with a device password policy. It can be applied in the following ways:
+- For devices with no device password set, as the only password required on the device, and only prompted when work apps are opened.
+- For devices with a password set, to share the device password between the device and the work profile (when unlocking the device, the work profile also unlocks).
+- For devices with a password set, to require a unique password for the work profile, requiring additional authentication when work apps are opened.
 
-Here's an example of a work challenge policy requiring a unique passcode on a device:
+Here's an example of a work challenge policy requiring a unique password on a device:
 
-![Example work challenge policy](/image/Screenshot_2023-05-14_09.12.32.png)
+![Example work challenge policy](https://cdn.bayton.org/uploads/docs/android-enterprise-faq/what-is-a-work-challenge/Screenshot_2023-05-14_09.12.32.png)
+
+Note the scope above is set to _Profile_ (as in, the work profile). This sets a work profile-specific password policy that has no impact on the parent policy directly. 
+
+I say directly, because unless a policy is set mandating a separate work and personal password as pictured above, the end user is able to _adopt_ the work profile password as the device password also, through the device setting **Use one lock**. 
+
+By mandating separate profile passwords, this avoids that.
