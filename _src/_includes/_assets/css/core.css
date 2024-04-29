@@ -1168,6 +1168,15 @@ footer {
     font-size: 16px;
   }
 
+  #subscribe_button {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  #subscribe_input {
+    font-size: 16px;
+  }
+
   .image-inline-text {
     width: 16px;
   }
@@ -1410,15 +1419,6 @@ footer {
 
   .img-ticker {
     animation: ticker 20s linear infinite;
-  }
-
-  #subscribe_button {
-    font-size: 16px;
-    margin: 5px 0;
-  }
-  
-  #subscribe_input {
-    font-size: 16px;
   }
 }
 
