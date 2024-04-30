@@ -25,7 +25,7 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 ## App installation errors
 
 `INSTALL_FAILED_ALREADY_EXISTS`
-: There's an identical version of the application you're trying to install is already present on the device. Have you updated your version code? If not, and you don't want to, remove the existing application first.
+: There's an identical version of the application you're trying to install already present on the device. Have you updated your version code? If not, and you don't want to, remove the existing application first.
 
 `INSTALL_FAILED_INVALID_APK`
 : Android considers the package to be invalid. It may be corrupt or not packaged correctly. 
