@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
+const markdownItDefList = require('markdown-it-deflist');
 const markdownItAnchor = require("markdown-it-anchor");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const _ = require("lodash");
@@ -78,6 +79,7 @@ const markdownItAnchorOptions = {
       .replace(/[^\w\s]/gi, "") // remove special characters
       .replace(/\s+/g, "-"); // replace spaces with hyphens
   },
+
   permalink(slug, opts, state, idx) {
     state.tokens.splice(
       idx,
@@ -102,7 +104,7 @@ const markdownItAnchorOptions = {
 // Markdown Overrides 
 let markdownLibrary = markdownIt({
   html: true,
-}).use(markdownItAnchor, markdownItAnchorOptions);
+}).use(markdownItAnchor, markdownItAnchorOptions) .use(markdownItDefList);
 eleventyConfig.setLibrary("md", markdownLibrary);
 eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"));
 
