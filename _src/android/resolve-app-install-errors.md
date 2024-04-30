@@ -12,6 +12,18 @@ eleventyNavigation:
   order: 63000
 --- 
 
+Looking to understand some of the most common application installation errors? I've compiled a list below. 
+
+For clarity, these messages are provided _by Android_, with the exception of `ENTERPRISE_AUTO_INSTALL_ERROR_NOT_COMPATIBLE_WITH_DEVICE`, which is received via CloudDPC/Google Play during the automatic installation process. The scenarios therefore when these messages would show in logs is when an application is locally installed directly on the device, via - 
+
+- ADB
+- File manager
+- EMM agent
+- [Externally hosted](/android/host-apps-externally/)
+- Any unknown sources-enabled application
+
+## App installation errors
+
 `INSTALL_FAILED_ALREADY_EXISTS`
 : There's an identical version of the application you're trying to install is already present on the device. Have you updated your version code? If not, and you don't want to, remove the existing application first.
 
@@ -41,7 +53,7 @@ eleventyNavigation:
 : The application likely isn't compatible with the device architecture, but there are a few nuances to [ABIs](https://developer.android.com/ndk/guides/abis) and the appropriate debugging should be undertaken.
 
 `INSTALL_FAILED_MISSING_FEATURE`
-: The application defines required features in the app manifest that aren't present on the device. For example telephony, camera, GPS, etc.
+: The application defines required features in the app manifest that aren't present on the device. For example telephony, camera, GPS, etc. See `ENTERPRISE_AUTO_INSTALL_ERROR_NOT_COMPATIBLE_WITH_DEVICE` below for further details and resolution.
 
 
 `INSTALL_FAILED_VERIFICATION_TIMEOUT`, `INSTALL_FAILED_VERIFICATION_FAILURE`
@@ -79,7 +91,7 @@ eleventyNavigation:
 : Android continues to fall over, but do check the integrity of the application since this is a parser error, though the reasoning is not provided for the installation failure.
 
 `INSTALL_FAILED_USER_RESTRICTED`
-: The user associated with the install request is not permitted to install applications. Review policies or attempt to install under an alternative user.
+: The user associated with the installation request is not permitted to install applications. Review policies or attempt to install under an alternative user.
 
 `INSTALL_FAILED_BAD_SIGNATURE`
 : This happens when there is an issue detected with the application signature. Validate the app signing process and try again.
@@ -87,3 +99,7 @@ eleventyNavigation:
 `ENTERPRISE_AUTO_INSTALL_ERROR_NOT_COMPATIBLE_WITH_DEVICE`
 : This often happens when the Play Store determines an app is not compatible with the device it has been assigned to. Commonly this is permission or - more specifically - feature related. The specific features requested (either explicitly with `uses-feature` or automatically through assumed feature requirement if _only_ `uses-permission` is declared without `uses-feature`), are not available on the hardware.
 : Review the permissions/features in use, and if you'd like to use a permission without _mandating_ the associated feature be present, declare `android:required="false"` explicitly per-permission that isn't critical to functionality.
+
+## Missing anything? 
+
+[Raise an issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&projects=&template=content-request.md&title=%5BContent+request%5D), or [get in touch](/contact).
