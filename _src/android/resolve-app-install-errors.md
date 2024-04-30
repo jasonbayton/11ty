@@ -85,5 +85,5 @@ eleventyNavigation:
 : This happens when there is an issue detected with the application signature. Validate the app signing process and try again.
 
 `ENTERPRISE_AUTO_INSTALL_ERROR_NOT_COMPATIBLE_WITH_DEVICE`
-: This often happens when the Play Store determines an app is not compatible with the device it has been assigned to. Commonly this is permission or - more specifically - feature related. The specific features requested (either explicitly with `uses-feature` or automatically through assumed feature requirement if _only_ `uses-permission` is declared without `uses-feature), are not available on the hardware.
+: This often happens when the Play Store determines an app is not compatible with the device it has been assigned to. Commonly this is permission or - more specifically - feature related. The specific features requested (either explicitly with `uses-feature` or automatically through assumed feature requirement if _only_ `uses-permission` is declared without `uses-feature`), are not available on the hardware.
 : Review the permissions/features in use, and if you'd like to use a permission without _mandating_ the associated feature be present, declare `android:required="false"` explicitly per-permission that isn't critical to functionality.
