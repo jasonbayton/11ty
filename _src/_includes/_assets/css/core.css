@@ -752,6 +752,10 @@ section#posts {
   margin: 20px 0;
 }
 
+.post-block dd, .post-block-extra dd {
+  padding: 5px 0 30px;
+}
+
 .post-title {
   margin: 0;
   font-weight: 400;
