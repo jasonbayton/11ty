@@ -753,7 +753,11 @@ section#posts {
 }
 
 .post-block dd, .post-block-extra dd {
-  padding: 5px 0 15px;
+  padding-bottom: 20px;
+}
+
+.post-block dt, .post-block-extra dt {
+  padding-bottom: 5px;
 }
 
 .post-title {
