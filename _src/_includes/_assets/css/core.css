@@ -7,6 +7,7 @@
 
 :root {
   --light: #c9c9c9;
+  --input: #f0f0f0;
   --dark: #333333;
   --bright: #ffffff;
   --text: #333333;
@@ -23,6 +24,7 @@
 
 [data-theme="dark"] {
   --light: #2d2d2d;
+  --input: #333333;
   --dark: #292929;
   --bright: #ffffff;
   --text: #cfcfcf;
@@ -267,6 +269,30 @@ pre code {
   color: var(--orange);
   border: none;
   padding: 0;
+}
+
+input[type=text], 
+input[type=email], 
+input[type=password], 
+input[type=tel], 
+input[type=number], 
+input[type=search], 
+input[type=url], 
+input[type=date],
+input[type=time],
+input[type=checkbox],
+textarea,
+select {
+  background: var(--input);
+  color: var(--text);
+  border: 0;
+  padding: 13px;
+  border-radius: 5px; 
+}
+
+input::placeholder {
+  color: var(--text);
+  opacity: 0.6;
 }
 
 .banner {
@@ -822,14 +848,11 @@ section#posts {
 }
 
 .input-text {
-  padding: 7px; 
   font-size: inherit; 
-  border-radius: 5px; 
   width: 60%;
 }
 
 .input-dropdown {
-  border: 2px solid black;
   width: 30%;
 }
 
@@ -857,9 +880,9 @@ canvas#generated_qr {
   margin-bottom: 30px;
 }
 
-#searchField::placeholder {
+/*#searchField::placeholder {
   color: var(--light)
-}
+}*/
 
 button#back_button, button#next_button {
   font-size: 22px;
@@ -992,10 +1015,8 @@ footer {
 }
 
 #subscribe_input {
-  padding: 10px;
+  padding: 14px;
   font-size: 20px;
-  border-radius: 5px;
-  border: 4px solid var(--orange);
 }
 
 #social_icons {
