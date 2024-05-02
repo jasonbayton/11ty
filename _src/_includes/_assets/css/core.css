@@ -619,6 +619,14 @@ content#page, content#search, content#archive, content#generator {
   padding-top: 60px;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 30px;
+  padding-top: 40px;
+
+}
+
 #banner_statement {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1371,7 +1379,7 @@ footer {
     border-radius: unset;
   }
 
-  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container, #support-split {
+  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container, #support-split, .project-grid {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
   }
