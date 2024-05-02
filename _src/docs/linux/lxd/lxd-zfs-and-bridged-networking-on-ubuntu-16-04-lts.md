@@ -15,11 +15,11 @@ publish_post_category:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/36'
 ---
-<div class="callout callout-danger"> 
+<div class="callout"> 
 
 ### Network changes in Ubuntu 17.10+
 
-This guide has been [updated for netplan](#modern-netplan), introduced in 17.10. Please test the configuration and let me know if you have any issues with it (easiest via tweet, [@jasonbayton](https://twitter.com/jasonbayton)).
+This guide has been [updated for netplan](#modern-netplan), introduced in 17.10. Please test the configuration and let me know if you have any issues with it.
 
 </div>
 
@@ -27,7 +27,7 @@ LXD works perfectly fine with a directory-based storage backend, but both speed 
 
 In this article I’ll walk through the installation of LXD, ZFS and Bridge-Utils on Ubuntu 16.04 and configure LXD to use either a physical ZFS partition or loopback device combined with a bridged networking setup allowing for containers to pick up IP addresses via DHCP on the (v)LAN rather than a private subnet.
 
-<div class="callout callout-info"> 
+<div class="callout"> 
 
 #### Before we begin
 
@@ -39,8 +39,7 @@ Finally this guide is reliant on the command line and some familiarity with the 
 
 </div>
 
-Part 1: Installation
---------------------
+## Part 1: Installation
 
 To get started, let’s install our packages. They can all be installed with one command as follows:
 
@@ -50,7 +49,7 @@ However for this I will output the commands and the result for each package indi
 
 `sudo apt-get install lxd`
 
-```
+```bash
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -60,7 +59,7 @@ lxd is already the newest version (2.0.0-0ubuntu4).
 
 `sudo apt-get install zfsutils-linux`
 
-```
+```bash
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -87,7 +86,7 @@ Processing triggers for systemd (229-4ubuntu4) ...
 
 `sudo apt-get install bridge-utils`
 
-```
+```bash
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -106,8 +105,7 @@ You’ll notice I’ve installed LXD, ZFS and bridge utils. LXD should be instal
 
 ZFS and bridge utils are not installed by default; ZFS needs to be installed to run our storage backend and bridge utils is required in order for our bridged interface to work.
 
-Part 2: Configuration
----------------------
+## Part 2: Configuration
 
 With the relevant packages installed, we can now move on to configuration. We’ll start by configuring the bridge as before this is complete we won’t be able to obtain DHCP addresses for containers within LXD.
 
@@ -119,7 +117,7 @@ We’ll begin by opening `/etc/network/interfaces` in a text editor. I like vim:
 
 `sudo vim /etc/network/interfaces`
 
-```
+```bash
 # The loopback network interface
 auto lo
 iface lo inet loopback
@@ -129,25 +127,25 @@ auto eth0
 iface eth0 inet dhcp
 ```
 
-This is the default `interfaces` file. What we’ll do here is add a new bridge named `br0`. The simplest edit to make to this file is as follows (note the emphasis):
+This is the default `interfaces` file. What we’ll do here is add a new bridge named `br0`. The simplest edit to make to this file is as follows:
 
-```
+```bash
 # The loopback network interface
 auto lo
 iface lo inet loopback
 
 # The primary network interface
-auto <strong>br0</strong>
-iface <strong>br0</strong> inet dhcp
-	<strong>bridge_ports eth0</strong>
+auto br0
+iface br0 inet dhcp
+	bridge_ports eth0
 
-iface eth0 inet <strong>manual</strong>
+iface eth0 inet manual
 ```
 
 This will set the `eth0` interface to *manual* and create a new bridge that piggybacks directly off it.  
 If you wish to create a static interface while you’re editing this file, the following may help you:
 
-```
+```bash
 # The loopback network interface
 auto lo
 iface lo inet loopback
@@ -176,7 +174,7 @@ Following any edits, it’s a good idea to restart the interfaces to force the c
 
 We’ll begin by opening `/etc/netplan/01-netcfg.yaml` in a text editor. I like vim:
 
-```
+```bash
 # This file is generated from information provided by
 # the datasource. Changes to it will not persist across an instance.
 # To disable cloud-init's network configuration capabilities, write a file
@@ -184,21 +182,20 @@ We’ll begin by opening `/etc/netplan/01-netcfg.yaml` in a text editor. I like 
 # network: {config: disabled}
 network:
  version: 2
-<strong> renderer: networkd</strong>
+ renderer: networkd
  ethernets:
    eth0:
-     dhcp4: <strong>false</strong>
- <strong>bridges:</strong>
-<strong>   br0:</strong>
-<strong>     interfaces: [eth0]</strong>
-<strong>     dhcp4: false</strong>
-<strong>     addresses: [192.168.1.99/24]</strong>
-<strong>     gateway4: 192.168.1.1</strong>
-<strong>     nameservers:</strong>
-<strong>       addresses: [1.1.1.1,8.8.8.8]</strong>
-<strong>     parameters:</strong>
-<strong>       forward-delay: 0
-</strong>
+     dhcp4: false
+ bridges:
+   br0:
+     interfaces: [eth0]
+     dhcp4: false
+     addresses: [192.168.1.99/24]
+     gateway4: 192.168.1.1
+     nameservers:
+       addresses: [1.1.1.1,8.8.8.8]
+     parameters:
+       forward-delay: 0
 ```
 
 All of the above bolded lines have been added/modified for a static IP bridge. Edit to suit your environment and then run the following to apply changes:
@@ -207,7 +204,7 @@ All of the above bolded lines have been added/modified for a static IP bridge. E
 
 Running `ifconfig` on the CLI will now confirm the changes have been applied:
 
-```
+```bash
 jason@ubuntu-lxdzfs:~$ ifconfig
 <b>br0</b>       Link encap:Ethernet  HWaddr 00:0c:29:2f:cd:30  
           inet addr:192.168.0.44  Bcast:192.168.0.255  Mask:255.255.255.0
@@ -239,8 +236,8 @@ For this guide I’ll be using a dedicated hard drive for the ZFS storage backen
 
 First we’ll run `sudo fdisk -l` to list the available disks &amp; partitions on the server, here’s a relevant snippet of the output I get:
 
-```
-<strong>Disk /dev/sda: 20 GiB</strong>, 21474836480 bytes, 41943040 sectors
+```bash
+Disk /dev/sda: 20 GiB, 21474836480 bytes, 41943040 sectors
 [...]
 
 Device     Boot    Start      End  Sectors  Size Id Type
@@ -249,7 +246,7 @@ Device     Boot    Start      End  Sectors  Size Id Type
 /dev/sda5       36134912 41940991  5806080  2.8G 82 Linux swap / Solaris
 
 
-<strong>Disk /dev/sdb: 20 GiB</strong>, 21474836480 bytes, 41943040 sectors
+Disk /dev/sdb: 20 GiB, 21474836480 bytes, 41943040 sectors
 [...]
 
 Device     Boot    Start      End  Sectors  Size Id Type
@@ -258,7 +255,7 @@ Device     Boot    Start      End  Sectors  Size Id Type
 
 Make a note of the partition or drive to be used. In this example we’ll use partition `sdb1` on disk `/dev/sdb`
 
-<div class="callout callout-warning"> 
+<div class="callout"> 
 
 #### Be aware
 
@@ -270,7 +267,7 @@ Additionally if there’s an `fstab` entry this will need to be removed before c
 
 #### Configure LXD
 
-<div class="callout callout-danger"> 
+<div class="callout"> 
 
 #### Changes to bridge configuration
 
@@ -282,15 +279,15 @@ Check the version of LXD by running `sudo lxc info`.
 
 Start the configuration of LXD by running `sudo lxd init`
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ sudo lxd init
-Name of the storage backend to use (dir or zfs): <strong>zfs</strong>
-Create a new ZFS pool (yes/no)? <strong>yes</strong>
-Name of the new ZFS pool: <strong>lxd</strong>
-Would you like to use an existing block device (yes/no)? <strong>yes</strong>
-Path to the existing block device: <strong>/dev/sdb1</strong>
-Would you like LXD to be available over the network (yes/no)? <strong>no</strong>
-Do you want to configure the LXD bridge (yes/no)? <strong>yes</strong>
+Name of the storage backend to use (dir or zfs): zfs
+Create a new ZFS pool (yes/no)? yes
+Name of the new ZFS pool: lxd
+Would you like to use an existing block device (yes/no)? yes
+Path to the existing block device: /dev/sdb1
+Would you like LXD to be available over the network (yes/no)? no
+Do you want to configure the LXD bridge (yes/no)? yes
 Warning: Stopping lxd.service, but it can still be activated by:
   lxd.socket
 LXD has been successfully configured.
@@ -298,32 +295,32 @@ LXD has been successfully configured.
 
 Let’s break the above options down:
 
-`Name of the storage backend to use (dir or zfs): <strong>zfs</strong>`
+`Name of the storage backend to use (dir or zfs): zfs`
 
 Here we’re defining ZFS as our storage backend of choice. The other option, DIR, is a flat-file storage option that places all containers on the host filesystem under `/var/lib/lxd/containers/` (though the ZFS partition is transparently mounted under the same path and so accessed equally as easily). It doesn’t benefit from features such as compression and copy-on-write however, so the performance of the containers using the DIR backend simply won’t be as good.
 
-`Create a new ZFS pool (yes/no)? <strong>yes</strong>`  
-`Name of the new ZFS pool: <strong>lxd</strong>`
+`Create a new ZFS pool (yes/no)? yes`  
+`Name of the new ZFS pool: lxd`
 
 Here we’re creating a brand new ZFS pool for LXD and giving it the name of “lxd”. We could also choose to use an existing pool if one were to exist, though as we left ZFS unconfigured it does not apply here.
 
-`Would you like to use an existing block device (yes/no)? <strong>yes</strong>`  
-`Path to the existing block device: <strong>/dev/sdb1</strong>`
+`Would you like to use an existing block device (yes/no)? yes`  
+`Path to the existing block device: /dev/sdb1`
 
 Here we’re opting to use a physical partition rather than a loopback device, then providing the physical location of said partition.
 
-`Would you like LXD to be available over the network (yes/no)? <strong>no</strong>`
+`Would you like LXD to be available over the network (yes/no)? no`
 
 It’s possible to connect to LXD from other LXD servers or via the API from a browser (see <https://linuxcontainers.org/lxd/try-it/> for an example of this).
 
 As this is a simple installation we won’t be utilising this functionality and it is as such left unconfigured. Should we wish to enable it at a later date, we can run:
 
 `lxc config set core.https_address [::]`  
-`lxc config set core.trust_password <strong>some-secret-string</strong>`
+`lxc config set core.trust_password some-secret-string`
 
 Where *some-secret-string* is a secure password that’ll be required by other LXD servers wishing to connect in order to admin the LXD host or retried non-public published images.
 
-`Do you want to configure the LXD bridge (yes/no)? <strong>yes</strong>`
+`Do you want to configure the LXD bridge (yes/no)? yes`
 
 Here we tell LXD to use our already-preconfigured bridge. This opens a new workflow as follows:
 
@@ -335,8 +332,6 @@ Here we tell LXD to use our already-preconfigured bridge. This opens a new workf
 
 ![Screenshot from 2016-05-02 10-55-19](https://cdn.bayton.org/uploads/2016/05/Screenshot-from-2016-05-02-10-55-19.png)
 *Finally we’ll input the bridge name and select OK. LXD will now use this bridge.*
-
-</div>
 
 And with that, LXD will finish configuration and ready itself for use.
 
@@ -360,13 +355,12 @@ With that complete, LXD will now successfully use the pre-configured bridge.
 
 Run `sudo lxd init` as above, but use the following options instead.
 
-```
-Name of the storage backend to use (dir or zfs): <strong>zfs</strong>
-Create a new ZFS pool (yes/no)? <strong>yes</strong>
-Name of the new ZFS pool: <strong>lxd-loop</strong>
-Would you like to use an existing block device (yes/no)? <strong>no</strong>
-Size in GB of the new loop device (1GB minimum): <strong>20
-</strong>
+```bash
+Name of the storage backend to use (dir or zfs): zfs
+Create a new ZFS pool (yes/no)? yes
+Name of the new ZFS pool: lxd-loop
+Would you like to use an existing block device (yes/no)? no
+Size in GB of the new loop device (1GB minimum): 20
 ```
 
 The size in GB of the ZFS partition is important, we don’t want to run out of space any time soon. Although ZFS partitions may be resized, it’s better to be a little generous now and not have to worry about reconfiguring it later.
@@ -381,7 +375,7 @@ For the inode limits, open the `sysctl.conf` file as follows:
 
 Now add the following lines, as recommended by the [LXD project](https://github.com/lxc/lxd/blob/master/doc/production-setup.md)
 
-```
+```bash
 fs.inotify.max_queued_events = 1048576
 fs.inotify.max_user_instances = 1048576
 fs.inotify.max_user_watches = 1048576
@@ -399,7 +393,7 @@ Open the `limits.conf` file as follows:
 
 Now add the following lines. 100K should be enough:
 
-```
+```bash
 * soft nofile 100000
 * hard nofile 100000
 ```
@@ -419,7 +413,7 @@ With our bridge set up, our ZFS storage backend created and LXD fully configured
 
 We’ll first get a quick overview of our ZFS storage pool using `sudo zpool list lxd`
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ sudo zpool list lxd
 NAME   SIZE  ALLOC   FREE  EXPANDSZ   FRAG    CAP  DEDUP  HEALTH  ALTROOT
 lxd   19.9G   646M  19.2G         -     2%     3%  1.00x  ONLINE  -
@@ -427,10 +421,9 @@ lxd   19.9G   646M  19.2G         -     2%     3%  1.00x  ONLINE  -
 
 With ZFS looking fine, we’ll run a simple `lxc info` to generate our client certificate and verify the configuration we’ve chosen for LXD:
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ lxc info
 Generating a client certificate. This may take a minute...
-
 
 apicompat: 0
 auth: trusted
@@ -451,10 +444,10 @@ environment:
   server: lxd
   serverpid: 5135
   serverversion: 2.0.0
-  <strong>storage: zfs</strong>
+  storage: zfs
   storageversion: "5"
 config:
-  <strong>storage.zfs_pool_name: lxd</strong>
+  storage.zfs_pool_name: lxd
 public: false
 ```
 
@@ -464,7 +457,7 @@ It would appear the storage backend is correctly using our ZFS pool: “lxd”. 
 
 We should see LXD using `br0` as the default container `eth0` interface:
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ lxc profile show default
 name: default
 config: {}
@@ -473,7 +466,7 @@ devices:
   eth0:
     name: eth0
     nictype: bridged
-   <strong> parent: br0</strong>
+    parent: br0
     type: nic
 ```
 
@@ -485,7 +478,7 @@ We can use the official Ubuntu image repo and spin up a Xenial container with th
 
 Which should return an output like this:
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ lxc launch ubuntu:xenial xen1
 Creating xen1
 Retrieving image: 100%
@@ -494,7 +487,7 @@ Starting xen1
 
 Now, we can use `lxc list` to get an overview of all containers including their IP addresses:
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ lxc list
 +------+---------+----------------------+------+------------+-----------+
 | NAME |  STATE  |        IPV4          | IPV6 |    TYPE    | SNAPSHOTS |
@@ -507,13 +500,12 @@ We can see the *xen1* container has picked up an IP from our DHCP server on the 
 
 Finally, we can use `lxc exec xen1 bash` to gain CLI access to the container we’ve just launched:
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ lxc exec xen1 bash
-<strong>root@xen1:~#</strong> 
+root@xen1:~# 
 ```
 
-Conclusion
-----------
+## Conclusion
 
 While a little long-winded, setting up LXD with a ZFS storage backend and utilising a bridged interface for connecting containers directly to the LAN isn’t overly difficult, and it’s only gotten easier as LXD has matured to version 2.0.
 
