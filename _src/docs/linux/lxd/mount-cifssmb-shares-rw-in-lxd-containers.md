@@ -19,7 +19,7 @@ One of the biggest limitations with LXD I’ve found to date is the inability to
 
 So continuing the recent [LXD theme](/tag/lxd/), in this article we’ll work through mounting CIFs shares read/write on containers.
 
-<div class="callout callout-info"> 
+<div class="callout"> 
 
 #### Before we begin
 
@@ -33,7 +33,7 @@ Both the host and containers are Ubuntu 16.04 LTS.
 
 The container name throughout this guide is `c1`. Please change this in any commands you copy into your own terminal.
 
-</div><div class="callout callout-danger"> 
+</div><div class="callout"> 
 
 #### Warning
 
@@ -41,28 +41,27 @@ By following this guide, any mounted CIFS shares will be visible on the LXD host
 
 </div>
 
-Find the UID/GID of your LXD user
----------------------------------
+## Find the UID/GID of your LXD user
 
 Before we begin to look at mounting the share(s), the first step is to obtain the UID &amp; GID of the user/group you wish to mount the share under within the target container.
 
-In my testing, mounting shares either anonymously (nouser:nogroup) or under a user on the host (jason:jason) will, when mounted in the container, result in “permission denied” any time file or folder creation is attempted.
+In my testing, mounting shares either anonymously (`nouser:nogroup`) or under a user on the host (`jason:jason`) will, when mounted in the container, result in “permission denied” any time file or folder creation is attempted.
 
-```
+```bash
 jason@c1:/media/lxd-share$ touch example
 touch: cannot touch 'example': Permission denied
 ```
 
-To obtain the root user uid, run the following command:
+To obtain the root user `uid`, run the following command:
 
 `sudo ls -la /var/lib/lxd/containers/c1/rootfs/`
 
-This will display the ownership of the root folder `.` and its contents within the container. Note the uid/gid of the folder for later (in bold/red below)
+This will display the ownership of the root folder `.` and its contents within the container. Note the `uid/gid` of the folder for later (in bold/red below)
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ sudo ls -la /var/lib/lxd/containers/c1/rootfs/root
 total 10
-<strong>drwx------  3 <span style="color: #ff0000;">100000 100000</span>    6 May  2 12:19 .</strong>
+drwx------  3 <span style="color: #ff0000;">100000 100000</span>    6 May  2 12:19 .
 drwxr-xr-x 22 100000 100000   22 May  2 12:10 ..
 -rw-------  1 100000 100000  610 May 10 00:50 .bash_history
 -rw-r--r--  1 100000 100000 3106 Oct 22  2015 .bashrc
@@ -74,17 +73,16 @@ For individual users, if you have any, we can do a simple `ls -l` on the home di
 
 `sudo ls -l /var/lib/lxd/containers/c1/rootfs/home/`
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ sudo ls -l /var/lib/lxd/containers/c1/rootfs/home/
 total 1
-<strong>drwxr-xr-x 2 <span style="color: #ff0000;">101001 101001</span> 6 May 10 00:28 jason</strong>
+drwxr-xr-x 2 <span style="color: #ff0000;">101001 101001</span> 6 May 10 00:28 jason
 drwxr-xr-x 3 101000 101000 6 May  2 12:11 ubuntu
 ```
 
 Again, note down the uid/gid of the user for later.
 
-Prepare the host
-----------------
+## Prepare the host
 
 Having now noted the uid/gid, we can begin setting up the LXD host. In order to mount the CIFS shares within the container, they first need to be mounted on our host.
 
@@ -104,7 +102,7 @@ For this guide we’re mounting a CIFS share requiring authentication on a mount
 
 Unless the mount point already exists, when attempting to mount a CIFS share (or any share) we’ll see an error as follows:
 
-```
+```bash
 jason@ubuntu-lxd-tut:~$ sudo mount -a
 mount: mount point /media/lxd-share does not exist
 ```
@@ -123,7 +121,7 @@ An alternative is to create a hidden authentication file in our home directory. 
 
 Now we’ll add the CIFS credentials as follows (yes, just the two lines in an otherwise empty file):
 
-```
+```bash
 username=jason
 password=lxd-password
 ```
@@ -136,7 +134,7 @@ Then save the file and set permissions:
 
 With the host now aware of how to interpret CIFS shares in fstab, our mount point set up and our credentials file created, we can now add the share to /etc/fstab as follows:
 
-```
+```bash
 #lxd-share
 //192.168.0.44/lxd-share /media/lxd-share cifs credentials=/home/jason/.cifscreds,uid=101001,gid=101001,iocharset=utf8,sec=ntlm 0 0
 ```
@@ -151,26 +149,25 @@ Where:
 
 With that file saved, we should be able to mount the share using `sudo mount -a`
 
-```
+```bash
 jason@ubuntu-lxd-tut:/$ sudo mount -a
 jason@ubuntu-lxd-tut:/$
 ```
 
 Finally, feel free to check the CIFS share is mounted with the correct uid/gid using `ls -l /media/`
 
-```
+```bash
 jason@ubuntu-lxd-tut:/$ ls -l /media/
 total 8
 drwxr-xr-x  2 root   root   4096 May  1 22:27 cdrom
-<strong>drwxr-xr-x+ 2 101001 101001    0 May 10 09:12 lxd-share</strong>
+drwxr-xr-x+ 2 101001 101001    0 May 10 09:12 lxd-share
 ```
 
-Mount the share in an LXD container
------------------------------------
+## Mount the share in an LXD container
 
 Now the CIFS share is mounted on the LXD host, we can use `lxc config device add` to mount the share as a device within our LXD container:
 
-```
+```bash
 jason@ubuntu-lxd-tut:/$ lxc config device add c1 lxdshare disk source=/media/lxd-share path=/media/lxd-share
 Device lxdshare added to c1
 ```
@@ -187,15 +184,15 @@ Finally, we’ll log into the the LXD container with `lxc exec c1 bash` and make
 
 First, check the device exists and is assigned to the correct user with `ls -l /media/`
 
-```
+```bash
 root@c1:~# ls -l /media/
 total 1
-drwxr-xr-x+ 2 <strong>jason jason</strong> 0 May 10 08:12 <strong>lxd-share</strong>
+drwxr-xr-x+ 2 jason jason 0 May 10 08:12 lxd-share
 ```
 
 Now we’ll check we can read from and write to the share:
 
-```
+```bash
 root@c1:~# ls -l /media/lxd-share/
 total 5848
 -rwxr--r--+ 1 jason jason 5987895 Feb 18 13:05 getting_started.pdf
@@ -216,8 +213,7 @@ I then created the file “example” on the share and promptly deleted it. It�
 
 Success!
 
-Conclusion
-----------
+## Conclusion
 
 As with the process of setting up [LXD, ZFS and bridged networking on Ubuntu 16.04 LTS](/2016/05/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/) this is a little long-winded. Again though, it’s not overly complex.
 
