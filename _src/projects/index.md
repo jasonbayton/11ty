@@ -37,7 +37,7 @@ Perfect for Kiosk deployment scenarios, or simply limiting the settings availabl
 
 Another modern Android management project from BAYTON is in the works. Check back later. 
 
-<a class="button" style="background-color:grey; border-color:grey;" href="#">Check it out</a>
+<a class="button" style="background-color:grey; border-color:grey;" href="#">#soon</a>
 
 </div>
 
