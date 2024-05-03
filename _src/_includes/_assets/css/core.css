@@ -131,7 +131,8 @@ content img { border-radius: 5px; }
   'FILL' 0,
   'wght' 600,
   'GRAD' 0,
-  'opsz' 24
+  'opsz' 24;
+  vertical-align: middle;
 }
 
 #navbar .material-symbols-outlined {
@@ -429,7 +430,7 @@ button {
   grid-template-columns: 180px 40px 5fr 60px 60px;
   align-items: center;
   height: 100px;
-  /* max-width: 1200px; */
+  max-width: 2800px;
   margin: 0 auto;
 }
 
@@ -1097,6 +1098,14 @@ footer {
   font-size: 30px;
   padding-bottom: 15px;
   font-weight: 300;
+}
+
+.heading-anchor { 
+  display: none;
+}
+
+.heading-wrapper:hover .heading-anchor {
+  display: unset;
 }
 
 .nav-link-individual a {
