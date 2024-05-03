@@ -625,7 +625,16 @@ content#page, content#search, content#archive, content#generator {
   grid-template-columns: 2fr 1fr;
   grid-gap: 30px;
   padding-top: 40px;
+}
+.projects-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 60px;
+  gap: 60px 30px;
+}
 
+.project-description .button {
+  float: right;
 }
 
 #banner_statement {
@@ -1388,7 +1397,7 @@ footer {
     border-radius: unset;
   }
 
-  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container, #support-split, .project-grid {
+  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container, #support-split, .project-grid, .projects-overview {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
   }
@@ -1495,6 +1504,21 @@ footer {
 }
 
 .aside-section ul {
+  padding-left: 0;
+  list-style: none;
+  list-style-type: none;
+}
+
+.support-list ul li {
+  padding: 5px 0;
+}
+
+.support-list ul li svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.support-list ul {
   padding-left: 0;
   list-style: none;
   list-style-type: none;
@@ -1634,6 +1658,10 @@ to {
   font-size: 80px;
   font-weight: 900;
   line-height: 66pt;
+}
+
+.project-title { 
+  padding-bottom: 40px;
 }
 
 #aside_docs {
