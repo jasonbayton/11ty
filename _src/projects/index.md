@@ -26,4 +26,19 @@ Perfect for Kiosk deployment scenarios, or simply limiting the settings availabl
 
 </div>
 
+<div class="project-image">
+
+{% include "../_includes/_assets/img/bayton_logos/project_placeholder.svg" %}
+
+</div>
+<div class="project-description">
+
+## COMING SOON
+
+Another modern Android management project from BAYTON is in the works. Check back later. 
+
+<a class="button" style="background-color:grey;" href="#">Check it out</a>
+
+</div>
+
 </div>
