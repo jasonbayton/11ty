@@ -17,13 +17,13 @@ MANAGED SETTINGS offers organisations a means of providing a limited device Sett
 
 It achieves this by acting as a gate-keeper for Settings intents - the individual Settings screens available when browsing the preloaded Android Settings app - allowing organisations to define what can and cannot be accessed and changed on device.
 
-## How does it do this?
+## How does MANAGED SETTINGS do this?
 
 Any application on-device has the option of launching specific Settings intents, you may be familiar with this when an application asks you to adjust notification settings, allow the app to draw over others, or grant it the accessibility permission to facilitate additional functionality. 
 
 MANAGED SETTINGS takes this approach to act as a utility application for customisable settings-access, it does this through managed configuration, allowing organisations to define the intents made available to managed device end users, while hiding the Android Settings application entirely.
 
-## Who is this for?
+## Who is MANAGED SETTINGS for?
 
 The primary use case is in Kiosk or managed launcher applications, where the Android Settings application is typically not exposed to device end users intentionally to avoid access to device settings that cannot be locked down entirely through device policy.
 
@@ -36,7 +36,7 @@ If your organisation struggles with the need to provide access to:
 
 .. or any number of other device settings _without_ granting access to the full Android Settings application, MANAGED SETTINGS is for you.
 
-## What does it cost?
+## What does MANAGED SETTINGS cost?
 
 MANAGED SETTINGS is a "freemium" application. 
 

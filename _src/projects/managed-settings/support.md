@@ -6,12 +6,27 @@ author: 'Jason Bayton'
 excerpt: ''
 type: project-docs
 tags: 
-    - Projects
-layout: base.njk
-eleventyNavigation:
-  order: 2000
+    - Managed Settings
+    - 'bayton-projects'
+layout: project.njk
 ---
-Below you’ll find a number of frequently asked questions I receive related to Android Enterprise.
+## Release notes
+
+<div class="support-list">
+  <ul>
+
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Release Notes") %}
+
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.date | dateFull }}</li>
+
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+
+  </ul>
+</div>
 
 ## Setup
 
