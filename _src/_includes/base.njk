@@ -11,14 +11,14 @@
             {% include "./_parts/header.njk" %}
             <!-- // -->
         </header>
-        {% if type.includes("documentation") or type.includes("post") %}
+        {% if type.includes("documentation") or type.includes("post") or type.includes("project-docs") %}
         <content id="doc">
         {% elif type.includes("page") or type.includes("archive") %}
         <content id="page">
         {% elif type.includes("note") %}
         <content id="note" class=" grid grid-column-2-1 padding-top-60 grid-column-mobile-1 grid-gap-30 grid-gap-mobile-0">
         {% endif %}  
-            {% if type.includes("documentation") or type.includes("post") %}
+            {% if type.includes("documentation") or type.includes("post") or type.includes("project-docs") %}
             <section id="aside" class="mobile-hidden">
                 <div class="aside-title">
                     <h2>Contents</h2>
@@ -97,7 +97,7 @@
                 {% if (not type.includes("archive")) and (not type.includes("page")) %}
                 <div class="post-meta post-meta-base">
                     <div class="meta-single post-meta-base-left">
-                        {% if type.includes("documentation") %}
+                        {% if type.includes("documentation") or type.includes("project-docs") %}
                         <span class="meta-tiny"><span class="material-symbols-outlined">globe_uk</span> {{ published | dateFull }} • <span class="material-symbols-outlined">eyeglasses</span> {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}</span>
                         <span class="material-symbols-outlined">edit</span> {{ page.date | dateFull }} 
                         {% elseif type.includes("note") %}
@@ -116,6 +116,8 @@
                         <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/advisories/">return to advisories</a>
                         {% elif tag.includes("FAQ") %}
                         <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
+                        {% elif tag.includes("Projects>") %}
+                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="../">return to project</a>            
                         {% endif %}
                         {% endfor %}
                     </div>
