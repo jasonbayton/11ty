@@ -1412,7 +1412,7 @@ footer {
   }
 
   .projects-overview {
-    gap-row: 60px;
+    grid-row-gap: 60px;
   }
 
   #vendor_logo_container {
