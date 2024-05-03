@@ -24,8 +24,8 @@ In order to leverage MANAGED SETTINGS, the following requirements and recommenda
 ## Suggestions for optional functionality 
 
 1. Availability of a browser or webview within the managed environment
-  - Allows access to feedback form and app support links
+    - Allows access to feedback form and app support links
 2. Availability of a mail client 
-  - Allows emailing configured support address from the app
+    - Allows emailing configured support address from the app
 
 
