@@ -30,66 +30,51 @@ layout: project.njk
 
 ## Setup
 
-{% for post in collections['Managed Settings'] %}
-{% for tag in post.data.categories %}
-{% if tag.includes("Managed Settings Setup") %}
-<div class="post-block">
-<div class="post-body">
+  <ul>
 
-### [{{ post.data.title }}]({{ post.url | url }})
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Setup") %}
 
-<div class="post-content">
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.date | dateFull }}</li>
 
-{{ post.content | safe }}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 
-</div>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
+  </ul>
 
 ## Troubleshooting
 
-{% for post in collections['Managed Settings'] %}
-{% for tag in post.data.categories %}
-{% if tag.includes("Managed Settings Troubleshooting") %}
-<div class="post-block">
-<div class="post-body">
+  <ul>
 
-### [{{ post.data.title }}]({{ post.url | url }})
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Troubleshooting") %}
 
-<div class="post-content">
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.date | dateFull }}</li>
 
-{{ post.content | safe }}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 
-</div>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
+  </ul>
 
 ## Customisation
 
-{% for post in collections['Managed Settings'] %}
-{% for tag in post.data.categories %}
-{% if tag.includes("Managed Settings Customisation") %}
-<div class="post-block">
-<div class="post-body">
+  <ul>
 
-### [{{ post.data.title }}]({{ post.url | url }})
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Customisation") %}
 
-<div class="post-content">
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.date | dateFull }}</li>
 
-{{ post.content | safe }}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 
-</div>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
+  </ul>
 
 ## Submit a question
 
