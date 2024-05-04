@@ -11,9 +11,9 @@
 
 I've been using Slack a good deal more recently, and much like Teams' `@everyone` and Google Chat's `@all`, Slack's `@channel` and `@here` is a recipe for notification-geddon that's significantly overused in a lot of communities. 
 
-Did you know, however, you can turn them off? Unfortunately it's a channel-specific change, but here's how you can do it: 
+Did you know, however, you can turn these notifications off? Unfortunately it's a channel-specific change, but here's how you can do it: 
 
-- Right click on the channel 
+- Right-click on the channel 
 - Click _Change notifications_
 - Under _Mentions_, uncheck _Also include **@everyone** and **@here**_
 
@@ -26,3 +26,5 @@ Alternatively, here's how to do so through channel settings directly:
 ![](https://cdn.bayton.org/uploads/2023/2023-11-14_12.44.58.gif)
 
 Finally, if the thought of going through each channel and setting this is too burdensome (I don't blame you), reach out to your workspace admin to request these are restricted across the Slack community as a whole. 
+
+But what about turning the tags off all together? If you're on the right plan and you're a channel manager, admin, or owner, you can (and should!). [Here's the KB doc](https://slack.com/intl/en-gb/help/articles/360004635551-Manage-channel-posting-permissions-#business+-and-enterprise-grid-subscriptions-2).
