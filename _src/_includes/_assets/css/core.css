@@ -1406,9 +1406,22 @@ footer {
     border-radius: unset;
   }
 
-  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container, #support-split, .project-grid, .projects-overview {
+  #post_container, 
+  #android-doc-container, 
+  #af_group, 
+  #af_group_split, 
+  #dpc_extras, 
+  #intro_block, 
+  #doc_container,
+  #support-split, 
+  .project-grid, 
+  .projects-overview {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
+  }
+
+  .projects-overview {
+    grid-row-gap: 60px;
   }
 
   #vendor_logo_container {
