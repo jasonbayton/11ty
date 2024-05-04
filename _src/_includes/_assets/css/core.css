@@ -1244,6 +1244,10 @@ footer {
     font-size: 16px;
   }
 
+  section#page_content {
+    min-height: unset;
+  }
+
   #subscribe_button {
     font-size: 16px;
     margin: 5px 0;
@@ -1423,10 +1427,6 @@ footer {
   .projects-overview {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
-  }
-
-  .note-block {
-    padding-bottom: 40px;
   }
 
   .projects-overview {
@@ -1817,6 +1817,10 @@ section#note_overview {
 
   section#feedback, section#comment-system, section#link_out, section#note_overview {
       grid-column-start: 1;
+  }
+
+  section#note_overview {
+      margin-top: 40px; 
   }
 
   .meta-single {
