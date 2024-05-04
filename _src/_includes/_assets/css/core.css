@@ -596,7 +596,7 @@ content#home {
 
 .post-social {
   padding: 15px 30px;
-  background: #242424;
+  background: var(--subtle-bg);
   border-radius: 20px;
 }
 
@@ -615,6 +615,10 @@ content#home {
 .post-social .meta-grid .meta-single {
   align-self: center;
   justify-self: end;
+  text-align: right;
+}
+.post-social .meta-grid .meta-single a.note-date {
+  display: block;
 }
 
 content#doc {
@@ -1419,6 +1423,10 @@ footer {
   .projects-overview {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
+  }
+
+  .note-block {
+    padding-bottom: 40px;
   }
 
   .projects-overview {
