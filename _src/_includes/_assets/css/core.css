@@ -390,6 +390,7 @@ button {
 
 #bayton_logo {
   justify-self: start;
+  padding-left: 10px;
 }
 
 #bayton_logo :is(img, object, svg) {
