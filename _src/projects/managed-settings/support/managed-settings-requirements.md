@@ -20,7 +20,7 @@ In order to leverage MANAGED SETTINGS, the following requirements and recommenda
 2. EMM platform or DPC solution support for managed configurations
 3. Android 6.0 or newer
 
-## Network requirements (licensed organisations)
+## Network requirements (licenced organisations)
 
 The following endpoints are required for application functionality:
 

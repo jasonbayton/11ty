@@ -51,7 +51,7 @@ MANAGED SETTINGS offers the following customisations:
 
 ## Enter your organisation ID
 
-In order to unlock customisations, input the licensed organisation ID of Android Enterprise bind. You can find this in two ways:
+In order to unlock customisations, input the licenced organisation ID of Android Enterprise bind. You can find this in two ways:
 
 - Head to [Google Play admin settings](https://play.google.com/work/adminsettings) and log in with the account you used for your bind
 - Open the managed Google Play iFrame within your EMM, and click the settings icon in the top right of the iFrame
@@ -64,7 +64,7 @@ With a valid organisation ID set, you may continue to configure all customisatio
 
 ### Customising colours
 
-For all colour-based customisations, you must specify a colour in HEX code format. [Color Kit](https://colorkit.co/color-picker/) offer a decent tool for colour selection if you require guidance. 
+For all colour-based customisations, you must specify a colour in HEX code format. [Color Kit](https://colorkit.co/color-picker/) offers a decent tool for colour selection if you require guidance. 
 
 HEX code examples -
 

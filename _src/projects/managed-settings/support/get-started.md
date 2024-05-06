@@ -49,4 +49,4 @@ Feel free to customise this message as desired, or simply input a string.
 
 Once configured and ready to deploy, push the application to desired devices.
 
-For licensed organisations, read up on [Customising the MANAGED SETTINGS experience](/projects/managed-settings/support/customising-managed-settings).
+For licenced organisations, read up on [Customising the MANAGED SETTINGS experience](/projects/managed-settings/support/customising-managed-settings).

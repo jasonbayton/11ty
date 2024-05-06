@@ -29,7 +29,7 @@ If you're having issues configuring or using MANAGED SETTINGS, the below guidanc
 **Config has been cleared and will reload shortly**
 : The device user has cleared the existing managed config, temporarily reverting the application to an unmanaged configuration. The application will re-apply the latest configuration/restrictions as soon as possible, and functionality will be restored. Hide this action through configuration to avoid device users abusing this function.
 
-**Licensing server unreachable**
+**Licencing server unreachable**
 : The application is unable to communicate with the remote licencing server. See [MANAGED SETTINGS requirements](/projects/managed-settings/support/managed-settings-requirements/) for network requirements in order to use the application. If this is an issue for your deployment, please reach out.
 
 ## Known issues
@@ -68,15 +68,15 @@ If you're setting customisations, but seeing they don't apply to device(s), ther
 
 Customisations are sent through managed config, and if a device is not online - or does not have access to the Google Play infrastructure and/or EMM services to receive it, customisations won't apply. You'll notice no other configurations (activity intents) are configured, either.
 
-**No access to the licensing server**
+**No access to the licencing server**
 
 If the device(s) cannot reach `ping.projects.bayton.org`, a valid licence cannot be confirmed, and customisations will not apply.
 
 **Invalid/unlicensed organisation ID**
 
-Customisations are only supported on licensed organisation IDs. On invalid or unlicensed organisation IDs, customisations will be ignored. **Activity Intents configurations will still apply**. 
+Customisations are only supported on licenced organisation IDs. On invalid or unlicensed organisation IDs, customisations will be ignored. **Activity Intents configurations will still apply**. 
 
-If you're licensed, please ensure the organisation ID added to the managed config is correct, validate the device(s) can reach the licensing server, and reach out to [support@bayton.org](mailto:support@bayton.org) for further assistance.
+If you're licenced, please ensure the organisation ID added to the managed config is correct, validate the device(s) can reach the licencing server, and reach out to [support@bayton.org](mailto:support@bayton.org) for further assistance.
 
 ### Customisations apply, but the custom heading icon does not
 
@@ -102,11 +102,13 @@ MANAGED SETTINGS will retrieve/receive the managed configuration either from the
 
 Two scenarios where configuration becomes unavailable:
 
-1. The organisation ID is no longer licensed
+1. The organisation ID is no longer licenced
 2. The device is offline for an extended period
 3. The EMM/DPC is sending blank/malformed configurations without admin input
 
-For 1, reach out if you believe this to be a mistake. For 2, if you have a use case that mandates devices are offline for more than one week at a time, please reach out.
+For 1, reach out if you believe this to be a mistake. 
+
+For 2, if you have a use case that mandates devices are offline for more than one week at a time, please reach out.
 
 For 3, get in touch with your EMM in the first instance to debug their platform. Loop me in as required to assist.
 
