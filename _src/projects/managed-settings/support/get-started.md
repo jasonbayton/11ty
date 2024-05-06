@@ -22,8 +22,28 @@ Out of the box, MANAGED SETTINGS comes with no restrictions set on available set
 
 MANAGED SETTINGS is available as a public app on Google Play, which means locating the application for installation within your EMM platform of choice is quick and simple. 
 
-You can view it on the  Play Store, here: 
+You can view it on the Play Store, here: 
 
-<a href='https://play.google.com/store/apps/details?id=&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=org.bayton.managedsettings'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="200px"/></a>
 
-Log in to your EMM platform, navigate to the area where applications are configured and search for the app name. Alternatively search on the package name - `org.bayton.managedsettings`
+1. Log in to your EMM platform, navigate to the area where applications are configured and search the app name **MANAGED SETTINGS**. Alternatively search on the package name - `org.bayton.managedsettings`. 
+2. Once selected, open the application configuration for MANAGED SETTINGS, and switch to managed configuration setup.
+3. You may now de-select any Settings intents you don't wish to provide access to, define a support email address, and optionall a support message.
+
+<div class="callout">
+<div class="callout-heading">Formatting support messages</div>
+
+FYI, the support message field supports HTML! You may use the following HTML tags: 
+
+- `<P>` - HTML paragraph 
+- `<A>` - HTML link
+- `<B>` - HTML bold
+- `<I>` - HTML italic
+
+Feel free to customise this message as desired, or simply input a string.
+
+</div>
+
+4. Once configured and ready to deploy, push the application to desired devices.
+
+For licensed organisations, read up on [Customising the MANAGED SETTINGS experience](/projects/managed-settings/support/customising-managed-settings).

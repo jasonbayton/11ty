@@ -30,6 +30,7 @@ layout: project.njk
 
 ## Setup
 
+<div class="support-list">
   <ul>
 
   {% for post in collections['Managed Settings'] %}
@@ -43,9 +44,11 @@ layout: project.njk
   {% endfor %}
 
   </ul>
+</div>
 
 ## Troubleshooting
 
+<div class="support-list">
   <ul>
 
   {% for post in collections['Managed Settings'] %}
@@ -59,9 +62,11 @@ layout: project.njk
   {% endfor %}
 
   </ul>
+</div>
 
 ## Customisation
 
+<div class="support-list">
   <ul>
 
   {% for post in collections['Managed Settings'] %}
@@ -75,6 +80,7 @@ layout: project.njk
   {% endfor %}
 
   </ul>
+</div>
 
 ## Submit a question
 
