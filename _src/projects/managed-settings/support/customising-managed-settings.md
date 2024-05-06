@@ -1,5 +1,5 @@
 ---
-title: Quick start
+title: Customise the MANAGED SETTINGS experience
 date: '2024-05-02'
 status: publish
 author: 'Jason Bayton'
@@ -36,7 +36,7 @@ MANAGED SETTINGS offers the following customisations:
 : The option to swap from the default MANAGED SETTINGS icon to that of a generic settings icon
 
 **In-app header icon**
-: The option to customise the in-app header icon, defaulted to the MANAGED SETTINGS icon. This supports any PNG, JPG, or SVG file in the recommended dimensions of 128x128px. The file must be reachable from the application, as it will fetch and cache it.  
+: The option to customise the in-app header icon, defaulted to the MANAGED SETTINGS icon.
 
 **Hide BAYTON branding**
 : The option to hide the majority of BAYTON branding. A small co-branded icon will remain in the footer area of the application settings page.
@@ -52,27 +52,32 @@ If you've set up your organisation with the new BTE flow, you may also locate yo
 
 ## Customise available settings
 
-With a valid organisation ID set, you may continue to configure all customisation options in addition to the 
+With a valid organisation ID set, you may continue to configure all customisation options in addition to the standard, unlicensed & freely available Settings intents.
 
+### Customising colours
 
-1. Log in to your EMM platform, navigate to the area where applications are configured and search the app name **MANAGED SETTINGS**. Alternatively search on the package name - `org.bayton.managedsettings`. 
-2. Once selected, open the application configuration for MANAGED SETTINGS, and switch to managed configuration setup.
-3. You may now de-select any Settings intents you don't wish to provide access to, define a support email address, and optionally a support message.
+For all colour-based customisations, you must specify a colour in HEX code format. [Color Kit](https://colorkit.co/color-picker/) offer a decent tool for colour selection if you require guidance. 
 
-<div class="callout">
-<div class="callout-heading">Formatting support messages</div>
+HEX code examples -
 
-FYI, the support message field supports HTML! You may use the following HTML tags: 
+- #000000 - black
+- #FFFFFF - white
+- #FF4500 - orange-red
 
-- `<P>` - HTML paragraph 
-- `<A>` - HTML link
-- `<B>` - HTML bold
-- `<I>` - HTML italic
+### Customising the header-icon
 
-Feel free to customise this message as desired, or simply input a string.
+The in-app header icon supports any PNG, JPG, or SVG file in the recommended dimensions of 128x128px. 
 
-</div>
+The file must be reachable from the application, as it will fetch and cache it. A valid URL must be used, file uploads are not supported.
 
-4. Once configured and ready to deploy, push the application to desired devices.
+MANAGED SETTINGS will attempt to accommodate any file it is offered, however if using dimensions different to the recommended 128x128px in any aspect ratio other than 1:1 (square) the resulting image may not look particularly good. 
 
-For licensed organisations, read up on [Customising the MANAGED SETTINGS experience](/projects/managed-settings/support/customising-managed-settings).
+MANAGED SETTINGS will attempt to load and cache the requested image from a remote URL. If the file is unreachable the app will fall back to a generic settings icon.
+
+Likewise if the image file is considerable in size, it may delay loading or time out entirely, leading to fallback to the generic icon.
+
+## Customised example
+
+The following is an example of a customised interface. I call this one _lemon & lime_.
+
+![](https://cdn.bayton.org/assets%2Fmanaged_settings%2Fmanaged_settings_branding_mockup.png)
