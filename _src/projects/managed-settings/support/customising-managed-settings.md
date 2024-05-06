@@ -92,8 +92,7 @@ The in-app title offers a standard alphanumeric input to allow organisations to 
 
 The following is an example of a customised interface. I call this one _lemon & lime_.
 
-![](https://cdn.bayton.org/assets%2Fmanaged_settings%2Fmanaged_settings_branding_mockup.png)
-
+**Legend** 
 1. Background colour
 2. Card colour
 3. Text colour
@@ -101,3 +100,9 @@ The following is an example of a customised interface. I call this one _lemon & 
 5. Header icon
 6. Title
 7. Branding
+
+![](https://cdn.bayton.org/assets%2Fmanaged_settings%2Fmanaged_settings_branding_mockup.png)
+
+## Further support
+
+For additional help or advice, please contact [support@bayton.org](mailto:support@bayton.org).

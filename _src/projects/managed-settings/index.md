@@ -40,7 +40,7 @@ If your organisation struggles with the need to provide access to:
 
 MANAGED SETTINGS is a "freemium" application. 
 
-Out of the box there are **no restrictions** on the number or type of settings you can provide access to. If you find the application useful and wish to customise it for your organisation, you can licence MANAGED SETTINGS for your Android Enteprise Organisation ID. 
+Out of the box there are **no restrictions** on the number or type of settings you can provide access to. If you find the application useful and wish to customise it for your organisation, you can licence MANAGED SETTINGS for your Android Enterprise Organisation ID. 
 
 Customisations include:
 
