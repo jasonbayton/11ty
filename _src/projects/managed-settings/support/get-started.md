@@ -24,11 +24,14 @@ MANAGED SETTINGS is available as a public app on Google Play, which means locati
 
 You can view it on the Play Store, here: 
 
-<a href='https://play.google.com/store/apps/details?id=org.bayton.managedsettings'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="200px"/></a>
+<a href='https://play.google.com/store/apps/details?id=org.bayton.managedsettings'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="200px"/></a
 
-1. Log in to your EMM platform, navigate to the area where applications are configured and search the app name **MANAGED SETTINGS**. Alternatively search on the package name - `org.bayton.managedsettings`. 
-2. Once selected, open the application configuration for MANAGED SETTINGS, and switch to managed configuration setup.
-3. You may now de-select any Settings intents you don't wish to provide access to, define a support email address, and optionall a support message.
+To install it for enterprise management, log in to your EMM platform, navigate to the area where applications are configured and search the managed Google Play iFrame for the app name **MANAGED SETTINGS**. Alternatively search on the package name - `org.bayton.managedsettings`. 
+
+## Configure the application
+
+1. Once selected, open the application configuration for MANAGED SETTINGS, and switch to managed configuration setup.
+2. You may now de-select any Settings intents you don't wish to provide access to, define a support email address, and optionally a support message.
 
 <div class="callout">
 <div class="callout-heading">Formatting support messages</div>
@@ -44,6 +47,6 @@ Feel free to customise this message as desired, or simply input a string.
 
 </div>
 
-4. Once configured and ready to deploy, push the application to desired devices.
+Once configured and ready to deploy, push the application to desired devices.
 
 For licensed organisations, read up on [Customising the MANAGED SETTINGS experience](/projects/managed-settings/support/customising-managed-settings).

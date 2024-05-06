@@ -19,7 +19,7 @@ In order to leverage MANAGED SETTINGS, the following requirements and recommenda
 1. An Enterprise Mobility Management (EMM/MDM) platform or CustomDPC solution
 2. EMM platform or DPC solution support for managed configurations
 3. Android 6.0 or newer
-4. Network access ([network requirements](#)) for licensed customers
+4. Network access ([network requirements](/projects/managed-settings/support/managed-settings-network-requirements)) for licensed customers
 
 ## Suggestions for optional functionality 
 
@@ -28,4 +28,4 @@ In order to leverage MANAGED SETTINGS, the following requirements and recommenda
 2. Availability of a mail client 
    - Allows emailing configured support address from the app
 
-
+Neither of these are mandatory, however links will fail with a warning.
