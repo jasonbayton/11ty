@@ -15,7 +15,7 @@ In Android 14, Google introduced new limitations on the installation of applicat
 
 ## What’s changing
 
-In Android 14 it is no longer possible to install any application that targets an API level below 23 - Android 6.0. Attempting to do so will trigger a security exception.
+From Android 14 it is no longer possible to install any application that targets an API level below 23 - Android 6.0. Attempting to do so will trigger a security exception.
 
 ## Will this have any impact on EMM-deployed devices?
 
@@ -23,7 +23,7 @@ Yes. If a device is enrolled with, or upgraded to Android 14, it will no longer 
 
 ## Do my enterprise apps have to target API level 34 (14)?
 
-No. It's certainly better to ensure apps are targeting the latest API level where possible, but as long as applications target an API level of 23 (Android 6.0) or higher, apps will continue to be able to install without issue in Android 14.
+No. It's certainly better to ensure apps are targeting the latest API level where possible, but as long as applications target an API level of 23 (Android 6.0) or higher for Android 14, and 24 (Android 7.0) or higher in Android 15, apps will continue to be able to install without issue.
 
 <div class="callout">
 
