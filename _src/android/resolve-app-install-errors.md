@@ -16,11 +16,11 @@ Looking to understand some of the most common application installation errors? I
 
 For clarity, these messages are provided _by Android_, with the exception of `ENTERPRISE_AUTO_INSTALL_ERROR_NOT_COMPATIBLE_WITH_DEVICE`, which is received via CloudDPC/Google Play during the automatic installation process. The scenarios therefore when these messages would show in logs is when an application is locally installed directly on the device, via - 
 
-- ADB
+- [ADB](/android/how-to-capture-device-logs/)
 - File manager
-- EMM agent
+- [EMM agent](/android/what-is-android-enterprise-and-why-is-it-used)
 - [Externally hosted](/android/host-apps-externally/)
-- Any unknown sources-enabled application
+- [Any unknown sources-enabled application](/android/why-you-shouldnt-install-apps-from-unknown-sources/)
 
 ## On-device app installation errors
 
@@ -29,7 +29,6 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 
 `INSTALL_FAILED_INVALID_APK`
 : Android considers the package to be invalid. It may be corrupt or not packaged correctly. 
-
 
 `INSTALL_FAILED_INSUFFICIENT_STORAGE`
 : There is no space remaining on the device. Delete all the saved memes and try again.
@@ -55,7 +54,6 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 `INSTALL_FAILED_MISSING_FEATURE`
 : The application defines required features in the app manifest that aren't present on the device. For example telephony, camera, GPS, etc. See `ENTERPRISE_AUTO_INSTALL_ERROR_NOT_COMPATIBLE_WITH_DEVICE` below for further details and resolution.
 
-
 `INSTALL_FAILED_VERIFICATION_TIMEOUT`, `INSTALL_FAILED_VERIFICATION_FAILURE`
 : The installation verification process timed out or failed. Retry the installation. 
 : If it continues to time out, or verification repeatedly fails, Google Play Protect is unhappy with the application. You may disable verification via ADB:
@@ -70,7 +68,6 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 
 `INSTALL_FAILED_DEPRECATED_SDK_VERSION`
 : A restriction on the `minTargetSDK` version introduced in Android 14. Target a newer SDK version for these devices. Read more [here](/android/android-14-minimum-sdk/).
-
 
 `INSTALL_PARSE_FAILED_NOT_APK`
 : Android only supports `.APK` files when not directly installed from a Store. If you're trying to sideload a `.AAB`, convert/build to `.APK` and try again.
