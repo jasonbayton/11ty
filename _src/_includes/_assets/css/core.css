@@ -317,7 +317,7 @@ input:focus {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 thead {
