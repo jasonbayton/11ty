@@ -37,6 +37,13 @@
                     <!-- // -->
                 </div>
                 {% endif %}
+                {% if type.includes("project-docs") %}
+                <div class="aside-section project-nav">
+                    <!-- Docnav goes here -->
+                    {% include "./_parts/projectsnav.njk" %}
+                    <!-- // -->
+                </div>
+                {% endif %}
                 {% if type.includes("post") %}
                 <div class="aside-section">
                     {% include "./_parts/blognav.njk" %}
@@ -94,7 +101,7 @@
                 {% set readingRate = 225 %}
                 {% set readingTime = (wordCount/readingRate) | round %}
                 {% if readingTime < 1 %}{% set readingTime = 1 %}{% endif %}
-                {% if (not type.includes("archive")) and (not type.includes("page")) %}
+                {% if (not type.includes("archive")) and (not type.includes("page")) and (not type.includes("note")) %}
                 <div class="post-meta post-meta-base">
                     <div class="meta-single post-meta-base-left">
                         {% if type.includes("documentation") or type.includes("project-docs") %}
@@ -108,16 +115,14 @@
                     </div>
                     <div class="meta-single post-meta-base-right">
                         {% for tag in tags %}
-                        {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) and (not tag.includes("notes")) and (not tag.includes("FAQ"))  %}
+                        {% if (not tag.includes("blog")) and (not tag.includes("android-docs")) and (not tag.includes("notes")) and (not tag.includes("FAQ")) and (not tag.includes("Managed Settings")) and (not tag.includes("bayton-projects"))  %}
                         #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
-                        {% elif tag.includes("notes") %}
-                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/notes/">return to notes</a>
                         {% elif tag.includes("Advisories") %}
                         <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/advisories/">return to advisories</a>
                         {% elif tag.includes("FAQ") %}
                         <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
-                        {% elif tag.includes("Projects>") %}
-                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="../">return to project</a>            
+                        {% elif tag.includes("Managed Settings") %}
+                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/projects/managed-settings/">return to project</a>            
                         {% endif %}
                         {% endfor %}
                     </div>
@@ -158,7 +163,9 @@
                     {% endif %}
                 </div>
                 {% else %}
+                    {% block content %}
                     {{ content | safe }}
+                    {% endblock %}
                 {% endif %}
             </section>
 

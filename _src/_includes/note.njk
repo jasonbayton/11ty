@@ -1,0 +1,24 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    <div class="note-block">
+        <div class="post-social">
+            <div class="post-meta post-meta-condensed meta-grid">
+                <div class="meta-image">
+                    <img src="/img/bayton_orange.png" width="50px"/>
+                </div>
+                <div class="meta-author">
+                    <a class="author-name" href="/about"><b>Jason</b></a><br>
+                    <a class="author-address" href="mailto:jason@bayton.org">jason@bayton.org</a>
+                </div>
+                <div class="meta-single">
+                    <a class="blood-orange note-date" href="{{ page.url | url }}">{{ page.date | dateWithTime }}</a>
+                    <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/notes/">return to notes</a>    
+                </div>
+            </div>
+            <div class="post-content">
+                {{ content | safe }}
+            </div>   
+        </div>      
+    </div>
+{% endblock %}

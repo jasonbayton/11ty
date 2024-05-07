@@ -5,7 +5,7 @@
   animation-duration: 0.5s;
 }
 
-:root {
+:root, [data-theme='light'] {
   --light: #c9c9c9;
   --input: #f0f0f0;
   --dark: #333333;
@@ -20,6 +20,21 @@
   --brand-text: #333333;
   --main-blue: #0283bd;
   --main-green: #15B007;
+  --subtle-bg: #f1f1f1;
+  /** CSS DARK THEME PRIMARY COLORS */
+  --color-primary-100: #ff4500;
+  --color-primary-200: #ff6028;
+  --color-primary-300: #ff7743;
+  --color-primary-400: #ff8c5d;
+  --color-primary-500: #ffa077;
+  --color-primary-600: #ffb491;
+  /** CSS DARK THEME SURFACE COLORS */
+  --color-surface-100: #121212;
+  --color-surface-200: #282828;
+  --color-surface-300: #3f3f3f;
+  --color-surface-400: #575757;
+  --color-surface-500: #717171;
+  --color-surface-600: #8b8b8b;
 }
 
 [data-theme="dark"] {
@@ -34,68 +49,39 @@
   --brand-background: #00284d;
   --brand-text: #cfcfcf;
   --orange-opacity: #ff450066;
-}
-
-[data-theme="light"] .bayton-logo-dark {
-  display: none;
-}
-
-[data-theme="dark"] .bayton-logo-light {
-  display: none;
-}
-
-.bayton-logo-dark, .bayton-logo-light {
-  display: none;
+  --subtle-bg: #242424;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --light: #2d2d2d;
+    --input: #333333;
     --dark: #292929;
     --bright: #ffffff;
     --text: #cfcfcf;
+    --blood-orange: #9d2d03;
     --background: #000000;
     --blue: #0077b33b;
     --brand-background: #00284d;
     --brand-text: #cfcfcf;
+    --orange-opacity: #ff450066;
+  }
 
-}
-
-  [data-theme="light"] {
+  [data-theme='light'] {
     --light: #c9c9c9;
+    --input: #f0f0f0;
     --dark: #333333;
     --bright: #ffffff;
     --text: #333333;
     --background: #ffffff;
     --blue: #0077b37a;
+    --orange: #ff4500;
+    --orange-opacity: #ff45009c;
+    --blood-orange: #ce3800;
     --brand-background: #ffffff;
     --brand-text: #333333;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --light: #c9c9c9;
-    --dark: #333333;
-    --bright: #ffffff;
-    --text: #333333;
-    --background: #ffffff;
-    --blue: #0077b37a;
-    --brand-background: #ffffff;
-    --brand-text: #333333;
-
-  }
-
-  [data-theme="dark"] {
-    --light: #2d2d2d;
-    --dark: #292929;
-    --bright: #ffffff;
-    --text: #cfcfcf;
-    --background: #000000;
-    --blue: #0077b33b;
-    --brand-background: #00284d;
-    --brand-text: #cfcfcf;
-
+    --main-blue: #0283bd;
+    --main-green: #15B007;
   }
 }
 
@@ -331,7 +317,7 @@ input:focus {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 thead {
@@ -404,6 +390,7 @@ button {
 
 #bayton_logo {
   justify-self: start;
+  padding-left: 10px;
 }
 
 #bayton_logo :is(img, object, svg) {
@@ -605,6 +592,33 @@ content#home {
 .post-body-notes .post-meta {
   padding: 0;
   color: var(--blood-orange);
+}
+
+.post-social {
+  padding: 15px 30px;
+  background: var(--subtle-bg);
+  border-radius: 20px;
+}
+
+.post-social .meta-grid .meta-author .author-address {
+  font-size: 80%;
+}
+
+.post-social .meta-grid {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr;
+}
+.post-social .meta-grid .meta-author a {
+  text-decoration: none;
+}
+
+.post-social .meta-grid .meta-single {
+  align-self: center;
+  justify-self: end;
+  text-align: right;
+}
+.post-social .meta-grid .meta-single a.note-date {
+  display: block;
 }
 
 content#doc {
@@ -1230,6 +1244,10 @@ footer {
     font-size: 16px;
   }
 
+  section#page_content {
+    min-height: unset;
+  }
+
   #subscribe_button {
     font-size: 16px;
     margin: 5px 0;
@@ -1397,9 +1415,22 @@ footer {
     border-radius: unset;
   }
 
-  #post_container, #android-doc-container, #af_group, #af_group_split, #dpc_extras, #intro_block, #doc_container, #support-split, .project-grid, .projects-overview {
+  #post_container, 
+  #android-doc-container, 
+  #af_group, 
+  #af_group_split, 
+  #dpc_extras, 
+  #intro_block, 
+  #doc_container,
+  #support-split, 
+  .project-grid, 
+  .projects-overview {
     grid-template-columns: 1fr;
     grid-column-gap: unset;
+  }
+
+  .projects-overview {
+    grid-row-gap: 60px;
   }
 
   #vendor_logo_container {
@@ -1458,6 +1489,19 @@ footer {
   .img-ticker {
     animation: ticker 25s linear infinite;
   }
+
+  .post-social .meta-grid {
+    grid-template-columns: 60px 1fr;
+    grid-column-gap: unset;
+  }
+
+  .post-social .meta-grid .meta-single {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    padding-bottom: 15px;
+    justify-self: start;
+  }
+
 }
 
 @media (max-width: 390px) {
@@ -1507,6 +1551,17 @@ footer {
   padding-left: 0;
   list-style: none;
   list-style-type: none;
+}
+
+.project-nav ul {
+  padding-left: initial;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.project-nav > ul {
+  padding-left: 0;
+  padding-top: 0;
 }
 
 .support-list ul li {
@@ -1773,6 +1828,10 @@ section#note_overview {
 
   section#feedback, section#comment-system, section#link_out, section#note_overview {
       grid-column-start: 1;
+  }
+
+  section#note_overview {
+      margin-top: 40px; 
   }
 
   .meta-single {

@@ -18,23 +18,24 @@
                     {% include "./_assets/img/bayton_logos/managed_settings_hero.svg" %}
                     {% elif page.url.includes("beam") %}
                     {% include "./_assets/img/bayton_logos/beam_hero.svg" %}
+                    {% else %}
+                    {% include "./_assets/img/bayton_logos/project_placeholder.svg" %}
                     {% endif %}
                 </div>
-                {% if content | toc %}
-                <div id="mobile_toc">
-                    <details>
-                        <summary>Contents</summary>
-                        {{ content | toc | safe }}
-                        </div>
-                    </details>
-                </div>
-                {% endif %}
                 <div class="post-block-extra">
                     <div class="project-grid">
                         <div class="project-grid-left">
-                            <h2 class="section-title base-title">
+                            <!--h2 class="section-title base-title project-title">
                                 {{ title }}
-                            </h2>
+                            </h2-->
+                            {% if content | toc %}
+                            <div id="mobile_toc">
+                                <details>
+                                    <summary>Contents</summary>
+                                    {{ content | toc | safe }}
+                                </details>
+                            </div>
+                            {% endif %}
                             {{ content | safe }}
                         </div>
                         <div class="project-grid-right">

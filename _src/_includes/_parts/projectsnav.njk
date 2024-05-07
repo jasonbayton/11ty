@@ -1,0 +1,19 @@
+<div class="aside-title increased-top-padding">
+    <h2>Projects</h2>
+</div>
+
+{% set navPages = collections.all | eleventyNavigation("Projects") %}
+{% macro renderNavListItem(entry) -%}
+<li>
+  <a href="{{ entry.url }}" {% if entry.url == page.url %} class="active"{% endif %}>{{ entry.title }}</a>
+{%- if entry.children.length -%}
+  <ul>
+    {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+  </ul>
+{%- endif -%}
+</li>
+{%- endmacro %}
+
+<ul>
+{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+</ul>

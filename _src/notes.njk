@@ -18,14 +18,23 @@ tags:
         {% for post in collections.notes | reverse %}
 
         <div class="post-block">
-            <div class="post-meta post-meta-condensed">
-                <div class="meta-single">
-                    <a class="blood-orange" href="{{ post.url | url }}">{{ post.date | dateWithTime }}</a>    
+            <div class="post-social">
+                <div class="post-meta post-meta-condensed meta-grid">
+                    <div class="meta-image">
+                        <img src="/img/bayton_orange.png" width="50px"/>
+                    </div>
+                    <div class="meta-author">
+                        <a class="author-name" href="/about"><b>Jason</b></a><br>
+                        <a class="author-address" href="mailto:jason@bayton.org">jason@bayton.org</a>
+                    </div>
+                    <div class="meta-single">
+                        <a class="blood-orange" href="{{ post.url | url }}">{{ post.date | dateWithTime }}</a>    
+                    </div>
                 </div>
-            </div>
-            <div class="post-content">
-                {{ post.content | safe }}
-            </div>     
+                <div class="post-content">
+                    {{ post.content | safe }}
+                </div>   
+            </div>      
         </div>
         {% endfor %}
     </section>

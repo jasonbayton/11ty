@@ -1,80 +1,87 @@
 ---
 title: Managed Settings support
-date: '2024-04-30'
+parent: Managed Settings
+published: '2024-04-30'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: project-docs
 tags: 
-    - Projects
+    - Managed Settings
+    - 'bayton-projects'
 layout: base.njk
-eleventyNavigation:
-  order: 2000
 ---
-Below you’ll find a number of frequently asked questions I receive related to Android Enterprise.
+## Release notes
+
+<div class="support-list">
+  <ul>
+
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Release Notes") %}
+
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.published | dateFull }}</li>
+
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+
+  </ul>
+</div>
 
 ## Setup
 
-{% for post in collections['Managed Settings'] %}
-{% for tag in post.data.categories %}
-{% if tag.includes("Managed Settings Setup") %}
-<div class="post-block">
-<div class="post-body">
+<div class="support-list">
+  <ul>
 
-### [{{ post.data.title }}]({{ post.url | url }})
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Setup") %}
 
-<div class="post-content">
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 
-{{ post.content | safe }}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 
+  </ul>
 </div>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
 
 ## Troubleshooting
 
-{% for post in collections['Managed Settings'] %}
-{% for tag in post.data.categories %}
-{% if tag.includes("Managed Settings Troubleshooting") %}
-<div class="post-block">
-<div class="post-body">
+<div class="support-list">
+  <ul>
 
-### [{{ post.data.title }}]({{ post.url | url }})
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Troubleshooting") %}
 
-<div class="post-content">
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 
-{{ post.content | safe }}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 
+  </ul>
 </div>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
 
 ## Customisation
 
-{% for post in collections['Managed Settings'] %}
-{% for tag in post.data.categories %}
-{% if tag.includes("Managed Settings Customisation") %}
-<div class="post-block">
-<div class="post-body">
+<div class="support-list">
+  <ul>
 
-### [{{ post.data.title }}]({{ post.url | url }})
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Customisation") %}
 
-<div class="post-content">
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 
-{{ post.content | safe }}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 
+  </ul>
 </div>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
 
 ## Submit a question
 
