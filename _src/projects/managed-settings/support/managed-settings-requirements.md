@@ -12,6 +12,8 @@ tags:
 categories: 
     - Managed Settings Setup
 layout: base.njk
+eleventyNavigation: 
+    order: 1
 ---
 In order to leverage MANAGED SETTINGS, the following requirements and recommendations are provided below.
 

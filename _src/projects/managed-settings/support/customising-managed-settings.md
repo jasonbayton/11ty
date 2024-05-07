@@ -12,13 +12,15 @@ tags:
 categories: 
     - Managed Settings Customisation
 layout: base.njk
+eleventyNavigation: 
+    order: 3
 ---
 <div class="callout">
 <div class="callout-heading">
 Licence required
 </div>
 
-To set customisation options, your organisation must be licenced. If you do not have a valid licence, please contact [support@bayton.org](mailto:support@bayton.org) to obtain one. Pricing is defined on the [project page](/projects/managed-settings). 
+To set customisation options, your organisation must be licenced. If you do not have a valid licence, please contact [project-support@bayton.org](mailto:project-support@bayton.org) to obtain one. Pricing is defined on the [project page](/projects/managed-settings). 
 
 </div>
 
@@ -106,4 +108,4 @@ The following is an example of a customised interface. I call this one _lemon & 
 
 ## Further support
 
-For additional help or advice, please contact [support@bayton.org](mailto:support@bayton.org).
+For additional help or advice, please contact [project-support@bayton.org](mailto:project-support@bayton.org).

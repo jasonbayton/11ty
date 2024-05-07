@@ -1556,10 +1556,12 @@ footer {
 .project-nav ul {
   padding-left: initial;
   padding-left: 20px;
+  padding-top: 5px;
 }
 
 .project-nav > ul {
   padding-left: 0;
+  padding-top: 0;
 }
 
 .support-list ul li {

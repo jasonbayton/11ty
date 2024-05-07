@@ -12,13 +12,15 @@ tags:
 categories: 
     - Managed Settings Troubleshooting
 layout: base.njk
+eleventyNavigation: 
+    order: 4
 ---
-If you're having issues configuring or using MANAGED SETTINGS, the below guidance may help. If not, feel free to contact [support@bayton.org](mailto:support@bayton.org).
+If you're having issues configuring or using MANAGED SETTINGS, the below guidance may help. If not, feel free to contact [project-support@bayton.org](mailto:project-support@bayton.org).
 
 ## Built-in warning/status messages
 
 **Activity may not be available on this device**
-: This shows when a device user taps a Setting (i.e., APN) for which there isn't an activity intent available. This may be because the OEM has implemented a custom activity intent, or the device doesn't have this setting available. Please raise a support request via [support@bayton.org](mailto:support@bayton.org) to investigate. You will be asked for a [bug report](/android/how-to-capture-device-logs/) after replicating the issue.
+: This shows when a device user taps a Setting (i.e., APN) for which there isn't an activity intent available. This may be because the OEM has implemented a custom activity intent, or the device doesn't have this setting available. Please raise a support request via [project-support@bayton.org](mailto:project-support@bayton.org) to investigate. You will be asked for a [bug report](/android/how-to-capture-device-logs/) after replicating the issue.
 
 **A supported client is required to email support**
 : The device user has tapped the support card under available actions, but no mail client is available on the device. This warning can be safely ignored if it is intentional, and device users should use another means of emailing the configured support address.
@@ -77,7 +79,7 @@ If the device(s) cannot reach `ping.projects.bayton.org`, a valid licence cannot
 
 Customisations are only supported on licenced organisation IDs. On invalid or unlicensed organisation IDs, customisations will be ignored. **Activity Intents configurations will still apply**. 
 
-If you're licenced, please ensure the organisation ID added to the managed config is correct, validate the device(s) can reach the licencing server, and reach out to [support@bayton.org](mailto:support@bayton.org) for further assistance.
+If you're licenced, please ensure the organisation ID added to the managed config is correct, validate the device(s) can reach the licencing server, and reach out to [project-support@bayton.org](mailto:project-support@bayton.org) for further assistance.
 
 ### Customisations apply, but the custom heading icon does not
 
@@ -93,15 +95,25 @@ Ensure the device can reach the URL the file is hosted from. It only needs to do
 
 Check the file format, file size, file dimensions, network quality, file integrity, and generally ensure the environment in which the managed device(s) work doesn't prevent the icon from being fetched.
 
+### Customisations don't update
+
+This points to an issue between the application and the EMM in the first instance. If you have it enabled, the **Reload config** action may help to force a reset of the local configuration. 
+
+<div class="callout">
+
+**Reload config** should not be enabled in production, as it can allow device users access to restricted settings, temporarily.
+
+</div>
+
 ### MANAGED SETTINGS doesn't install
 
 MANAGED SETTINGS requires Android 6.0 and above, running on ARM chipsets. Outside of these requirements, the app should be supported on pretty much all open-market devices. If you're seeing issues, reach out to debug.
 
 ### The configuration unsets itself
 
-MANAGED SETTINGS will retrieve/receive the managed configuration either from the DPC or a companion application. It will then cache the configuration on an ongoing basis until a new configuration is received. 
+MANAGED SETTINGS will retrieve/receive the managed configuration either from the DPC or a companion application via EMM. It will then cache the configuration on an ongoing basis until a new configuration is received. 
 
-Two scenarios where configuration becomes unavailable:
+Three scenarios where configuration becomes unavailable:
 
 1. The organisation ID is no longer licenced
 2. The device is offline for an extended period
@@ -115,4 +127,4 @@ For 3, get in touch with your EMM in the first instance to debug their platform.
 
 ## Further support
 
-🛟 [Get in touch](mailto:support@bayton.org) for additional help and support.
+🛟 [Get in touch](mailto:project-support@bayton.org) for additional help and support.

@@ -12,10 +12,12 @@ tags:
 categories: 
     - Managed Settings Setup
 layout: base.njk
+eleventyNavigation: 
+    order: 0
 ---
 <div class="callout">
 
-Out of the box, MANAGED SETTINGS comes with no restrictions set on available settings offered. Without any configuration, the application will function to enable access to all supported Settings intents.
+Out of the box, MANAGED SETTINGS comes with no restrictions set on available settings offered. Without any configuration, the application will allow access to all supported Settings activity intents.
 
 </div>
 
