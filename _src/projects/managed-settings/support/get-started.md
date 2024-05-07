@@ -1,6 +1,7 @@
 ---
 title: Quick start
-date: '2024-05-02'
+parent: Managed Settings support
+published: '2024-05-02'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''

@@ -1553,6 +1553,15 @@ footer {
   list-style-type: none;
 }
 
+.project-nav ul {
+  padding-left: initial;
+  padding-left: 20px;
+}
+
+.project-nav > ul {
+  padding-left: 0;
+}
+
 .support-list ul li {
   padding: 5px 0;
 }

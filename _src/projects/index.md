@@ -6,6 +6,8 @@ author: 'Jason Bayton'
 excerpt: ''
 type: page
 layout: base.njk
+eleventyNavigation:
+  key: Projects
 ---
 
 <div class="projects-overview">

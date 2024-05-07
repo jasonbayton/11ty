@@ -1,6 +1,7 @@
 ---
 title: Managed Settings support
-date: '2024-04-30'
+parent: Managed Settings
+published: '2024-04-30'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
@@ -8,7 +9,7 @@ type: project-docs
 tags: 
     - Managed Settings
     - 'bayton-projects'
-layout: project.njk
+layout: base.njk
 ---
 ## Release notes
 
@@ -19,7 +20,7 @@ layout: project.njk
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Release Notes") %}
 
-  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.date | dateFull }}</li>
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.published | dateFull }}</li>
 
   {% endif %}
   {% endfor %}
@@ -37,7 +38,7 @@ layout: project.njk
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Setup") %}
 
-  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.date | dateFull }}</li>
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 
   {% endif %}
   {% endfor %}
@@ -55,7 +56,7 @@ layout: project.njk
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Troubleshooting") %}
 
-  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.date | dateFull }}</li>
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 
   {% endif %}
   {% endfor %}
@@ -73,7 +74,7 @@ layout: project.njk
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Customisation") %}
 
-  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.date | dateFull }}</li>
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 
   {% endif %}
   {% endfor %}

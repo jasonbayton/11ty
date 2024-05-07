@@ -37,6 +37,13 @@
                     <!-- // -->
                 </div>
                 {% endif %}
+                {% if type.includes("project-docs") %}
+                <div class="aside-section project-nav">
+                    <!-- Docnav goes here -->
+                    {% include "./_parts/projectsnav.njk" %}
+                    <!-- // -->
+                </div>
+                {% endif %}
                 {% if type.includes("post") %}
                 <div class="aside-section">
                     {% include "./_parts/blognav.njk" %}
