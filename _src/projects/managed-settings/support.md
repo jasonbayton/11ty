@@ -47,14 +47,14 @@ layout: base.njk
   </ul>
 </div>
 
-## Troubleshooting
+## Customisation
 
 <div class="support-list">
   <ul>
 
   {% for post in collections['Managed Settings'] %}
   {% for tag in post.data.categories %}
-  {% if tag.includes("Managed Settings Troubleshooting") %}
+  {% if tag.includes("Managed Settings Customisation") %}
 
   <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 
@@ -65,14 +65,14 @@ layout: base.njk
   </ul>
 </div>
 
-## Customisation
+## Troubleshooting
 
 <div class="support-list">
   <ul>
 
   {% for post in collections['Managed Settings'] %}
   {% for tag in post.data.categories %}
-  {% if tag.includes("Managed Settings Customisation") %}
+  {% if tag.includes("Managed Settings Troubleshooting") %}
 
   <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
 
