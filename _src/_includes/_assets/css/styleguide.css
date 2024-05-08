@@ -68,6 +68,20 @@
     grid-row-gap: 60px;
 }
 
+@media (max-width: 900px) {
+    .grid-gap-mobile-0 {
+        grid-gap: 0;
+    }
+    @media (max-width: 900px) {
+        .grid-gap-mobile-v-0 {
+            grid-row-gap: 0;
+        }
+        .grid-gap-mobile-h-0 {
+            grid-column-gap: 0;
+        }
+    }
+}
+
 .grid-column-1 {
     grid-template-columns: 1fr;
 }
