@@ -12,7 +12,7 @@ tags:
 layout: base.njk
 ---
 
-<div class="grid grid-column-2 grid-column-mobile-1">
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-20 grid-gap-mobile-h-0">
 <div class="grid-left">
 
 ## Setup
