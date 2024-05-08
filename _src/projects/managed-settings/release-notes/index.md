@@ -30,6 +30,6 @@ layout: base.njk
   </ul>
 </div>
 
-## Submit a question
+## Missing a feature?
 
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).
+Need something implemented? Submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 

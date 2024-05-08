@@ -103,3 +103,7 @@ For licenced organisations, read up on [Customising the MANAGED SETTINGS experie
 | Custom accent colour | Provide a hex value colour for the app accent colour (links, etc) | String | CUSTOM_ACCENT_COLOUR | #FF4500 |
 | Custom text colour | Provide a hex value colour for the app text colour | String | CUSTOM_TEXT_COLOUR | #FFFFFF |
 | Show BAYTON settings branding | Removal of managed settings text advertising bayton.org, a BAYTON logo will still sit in the footer of the app, below available actions. | Boolean | CUSTOM_REMOVE_BRAND | True |
+
+## Missing a feature?
+
+Submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 

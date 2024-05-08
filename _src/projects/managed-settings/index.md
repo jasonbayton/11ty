@@ -18,6 +18,8 @@ MANAGED SETTINGS offers organisations a means of providing a limited device Sett
 
 It achieves this by acting as a gate-keeper for Settings intents - the individual Settings screens available when browsing the preloaded Android Settings app - allowing organisations to define what can and cannot be accessed and changed on device.
 
+<a class="button" href="support/supported-configurations">View features</a>
+
 ## How does MANAGED SETTINGS do this?
 
 Any application on-device has the option of launching specific Settings intents, you may be familiar with this when an application asks you to adjust notification settings, allow the app to draw over others, or grant it the accessibility permission to facilitate additional functionality. 
@@ -57,3 +59,5 @@ Customisation is available per organisation ID, and costs £500 up-front for up 
 ## Help & support
 
 Head into the MANAGED SETTINGS [knowledge base](/projects/managed-settings/support) for support and guidance.
+
+Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 

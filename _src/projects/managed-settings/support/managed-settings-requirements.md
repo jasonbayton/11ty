@@ -52,3 +52,7 @@ For wider Android Enterprise support, which includes the managed configuration f
    - Allows emailing configured support address from the app
 
 Neither of these are mandatory, however links will fail with a warning.
+
+## Further support
+
+Need something else answered? Submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 

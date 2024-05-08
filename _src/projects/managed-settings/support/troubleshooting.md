@@ -127,4 +127,5 @@ For 3, get in touch with your EMM in the first instance to debug their platform.
 
 ## Further support
 
-🛟 [Get in touch](mailto:project-support@bayton.org) for additional help and support.
+Need something else answered? Submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
+

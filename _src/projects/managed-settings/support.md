@@ -11,23 +11,9 @@ tags:
     - 'bayton-projects'
 layout: base.njk
 ---
-## Release notes
 
-<div class="support-list">
-  <ul>
-
-  {% for post in collections['Managed Settings'] %}
-  {% for tag in post.data.categories %}
-  {% if tag.includes("Managed Settings Release Notes") %}
-
-  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.published | dateFull }}</li>
-
-  {% endif %}
-  {% endfor %}
-  {% endfor %}
-
-  </ul>
-</div>
+<div class="grid grid-column-2 grid-column-mobile-1">
+<div class="grid-left">
 
 ## Setup
 
@@ -83,6 +69,30 @@ layout: base.njk
   </ul>
 </div>
 
-## Submit a question
+</div>
+<div class="grid-right">
 
-Need something else answered? Submit an [issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D), or tag me in a [LinkedIn](https://linkedin.com/in/jasonbayton) post. Questions may be republished on this document, or form the basis of a new document under [/android](/android).
+## Release notes
+
+<div class="support-list">
+  <ul>
+
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Settings Release Notes") %}
+
+  <li>{% include "../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.published | dateFull }}</li>
+
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+
+  </ul>
+</div>
+
+</div>
+</div>
+
+## Further support
+
+Need something else answered? Submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
