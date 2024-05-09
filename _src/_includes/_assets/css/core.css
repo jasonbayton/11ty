@@ -1128,6 +1128,7 @@ footer {
   & .callout-heading {
       font-size: 30px;
       font-weight: 300;
+      width: fit-content;
 
       &::after {
         content: '';
