@@ -561,8 +561,9 @@ content#home {
 
 #community_offside {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-items: center;
+  grid-gap: 40px;
 }
 
 .community-icons {
@@ -1114,11 +1115,12 @@ footer {
 .callout {
     padding: 20px;
     margin: 20px 0;
-    border-radius: 5px;
-    border: 4px solid var(--orange);
+    border: 2px solid;
     border-radius: 5px;
     box-sizing: border-box;
     color: var(--brand-text);
+    background: var(--subtle-bg);
+    border-image: linear-gradient(to bottom, transparent, #ff4500, transparent) 1 100%;
 
   &.callout-bold {
       background: var(--orange);
