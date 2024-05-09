@@ -10,6 +10,8 @@ tags:
     - 'Managed Settings'
     - 'bayton-projects'
 layout: base.njk
+eleventyNavigation:
+  order: 1
 ---
 
 ## Release notes

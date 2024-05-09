@@ -1,5 +1,5 @@
 ---
-title: Supported MANAGED SETTINGS configurations
+title: MANAGED SETTINGS configurations
 parent: Managed Settings support
 published: '2024-05-02'
 status: publish
@@ -16,6 +16,9 @@ eleventyNavigation:
     order: 2
 ---
 <div class="callout">
+<div class="callout-heading">
+Default behaviour heads-up
+</div>
 
 Out of the box, MANAGED SETTINGS comes with no restrictions set on available settings offered. Without any configuration, the application will allow access to all supported Settings activity intents.
 
@@ -24,6 +27,8 @@ Out of the box, MANAGED SETTINGS comes with no restrictions set on available set
 The following configurations are available for MANAGED SETTINGS:
 
 ## Network and connectivity
+
+<div class="responsive-table-wrapper">
 
 | Settings intent | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
@@ -34,7 +39,12 @@ The following configurations are available for MANAGED SETTINGS:
 | VPN | Create and connect to VPN connections | Boolean | VPN_SETTINGS | True |
 | Bluetooth | Connect to & manage peripherals | Boolean | BLUETOOTH_SETTINGS | True |
 
+</div>
+
 ## Device configuration
+
+<div class="responsive-table-wrapper">
+
 
 | Settings intent | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
@@ -46,7 +56,11 @@ The following configurations are available for MANAGED SETTINGS:
 | Battery saver | Enable battery saving in emergency situations | Boolean | BATTERY_SAVER_SETTINGS | True |
 | Battery optimisation | Configure apps excluded from optimisation | Boolean | IGNORE_BATTERY_OPTIMIZATION_SETTINGS | True |
 
+</div>
+
 ## Security
+
+<div class="responsive-table-wrapper">
 
 | Settings intent | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
@@ -55,18 +69,25 @@ The following configurations are available for MANAGED SETTINGS:
 | Developer settings | Configure developer settings, including debugging | Boolean | APPLICATION_DEVELOPMENT_SETTINGS | True |
 | Accessibility | Configure apps with accessibility permissions | Boolean | ACCESSIBILITY_SETTINGS | True |
 
+</div>
+
 ## Info
+
+<div class="responsive-table-wrapper">
 
 | Settings intent | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
 | About device | View details about this device | Boolean | DEVICE_INFO_SETTINGS | True |
 | Work policy information | View policies enforced on this device | Boolean | SHOW_WORK_POLICY_INFO | True |
 
+</div>
 
 ## Support
 
 Options configured for the applications settings screen, accessible through the menu icon ( <span class="material-symbols-outlined">
 menu</span> )
+
+<div class="responsive-table-wrapper">
 
 | Config name | Description | Type | Payload | Default | 
 |--------------------|-------------|------|---------|---------|
@@ -74,6 +95,8 @@ menu</span> )
 | Support email address | Support email address to be shown under available actions | String | SUPPORT_EMAIL | project-project-support@bayton.org |
 | Show feedback | Show the feedback button under available actions. Hiding this will prevent sending feedback to bayton.org for improvements or new features. | Boolean | SHOW_FEEDBACK | True |
 | Show reload config | Allow device users to reload config should an issue arise. | Boolean | SHOW_RELOAD_CONFIG | True |
+
+</div>
 
 <div class="callout">
 <div class="callout-heading">Formatting support messages</div>
@@ -93,6 +116,8 @@ Feel free to customise this message as desired, or simply input a string.
 
 For licenced organisations, read up on [Customising the MANAGED SETTINGS experience](/projects/managed-settings/support/customising-managed-settings).
 
+<div class="responsive-table-wrapper">
+
 | Config name | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
 | Licenced organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation. | String | LICENCE | `null` |
@@ -103,3 +128,5 @@ For licenced organisations, read up on [Customising the MANAGED SETTINGS experie
 | Custom accent colour | Provide a hex value colour for the app accent colour (links, etc) | String | CUSTOM_ACCENT_COLOUR | #FF4500 |
 | Custom text colour | Provide a hex value colour for the app text colour | String | CUSTOM_TEXT_COLOUR | #FFFFFF |
 | Show BAYTON settings branding | Removal of managed settings text advertising bayton.org, a BAYTON logo will still sit in the footer of the app, below available actions. | Boolean | CUSTOM_REMOVE_BRAND | True |
+
+</div>

@@ -314,12 +314,15 @@ input:focus {
   margin: 0 auto;
 }
 
+.responsive-table-wrapper {
+  overflow-x: auto;
+  display: block;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
   margin: 20px 0;
-  display: block;
-  overflow-x: scroll;
 }
 
 thead {
@@ -1112,17 +1115,30 @@ footer {
     border-radius: 5px;
     box-sizing: border-box;
     color: var(--brand-text);
-}
 
-.callout .callout-bold {
-  background: var(--orange);
-  color: #ffffff
-}
+  &.callout-bold {
+      background: var(--orange);
+      color: #ffffff;
 
-.callout .callout-heading {
-  font-size: 30px;
-  padding-bottom: 15px;
-  font-weight: 300;
+      & .callout-heading::after {
+        background-color: #ffffff;
+      }
+  }
+
+  & .callout-heading {
+      font-size: 30px;
+      font-weight: 300;
+
+      &::after {
+        content: '';
+        height: 4px;
+        display: block;
+        clear: both;
+        background-color: var(--text);
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+  }
 }
 
 .heading-anchor { 
