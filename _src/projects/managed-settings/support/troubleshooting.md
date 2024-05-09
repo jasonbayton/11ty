@@ -124,8 +124,3 @@ For 1, reach out if you believe this to be a mistake.
 For 2, if you have a use case that mandates devices are offline for more than one week at a time, please reach out.
 
 For 3, get in touch with your EMM in the first instance to debug their platform. Loop me in as required to assist.
-
-## Further support
-
-Need something else answered? Submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
-

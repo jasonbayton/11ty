@@ -21,7 +21,7 @@ layout: base.njk
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Release Notes") %}
 
-  <li>{% include "../../../_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.published | dateFull }}</li>
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.published | dateFull }}</li>
 
   {% endif %}
   {% endfor %}
@@ -29,7 +29,3 @@ layout: base.njk
 
   </ul>
 </div>
-
-## Missing a feature?
-
-Need something implemented? Submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 

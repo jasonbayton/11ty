@@ -13,7 +13,7 @@ eleventyNavigation:
 <div class="projects-overview">
 <div class="project-image">
 
-{% include "../_includes/_assets/img/bayton_logos/managed_settings_hero.svg" %}
+{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_hero.svg" %}
 
 </div>
 <div class="project-description">
