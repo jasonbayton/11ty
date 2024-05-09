@@ -798,6 +798,10 @@ section#posts_container a {
   color: var(--bright);
 }
 
+section#posts_container code {
+  color: black;
+}
+
 section#posts {
   max-width: 1900px;
   padding-top: 0;
