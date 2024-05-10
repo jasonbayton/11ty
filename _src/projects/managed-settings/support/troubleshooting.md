@@ -81,7 +81,7 @@ Customisations are only supported on licenced organisation IDs. On invalid or un
 
 If you're licenced, please ensure the organisation ID added to the managed config is correct, validate the device(s) can reach the licencing server, and reach out to [project-support@bayton.org](mailto:project-support@bayton.org) for further assistance.
 
-### Customisations apply, but the custom heading icon does not
+### Customisations apply, but the custom heading icon does not
 
 **The icon is too large**
 
