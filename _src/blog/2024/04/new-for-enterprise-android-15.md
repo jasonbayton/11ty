@@ -132,6 +132,31 @@ From Android 15, company owned work profile deployment scenarios (COPE) will see
 
 This comes across as a quality-of-life (QoL) improvement, though I'd have liked to be a fly on the wall when the scenarios were defined to justify prioritising this.
 
+## Control over Private Space
+
+Android 15 introduces Private Space, the ability for users to allocate a selection of apps in a private, authenticated profile on the device. 
+
+These applications are isolated - similar to a work profile - from the rest of the applications on the primary parent profile.
+
+The way this is managed is nuance, per Google: 
+
+> The default value for an unmanaged user is false. For users with a device owner set, the default value is true and the device owner currently cannot change it to false. On organization-owned managed profile devices, the default value is false but the profile owner can change it to true via the parent profile to block creating of private profiles on the personal user.
+
+So in other words private space is disabled for fully managed devices by default, and cannot be enabled. For work profile-enabled company owned devices, this _can_ be managed. 
+
+In testing, my fully managed device _does_ indeed fail to create a private space, but doesn't indicate why - it simply fails.
+
+## Disallow assist content
+
+This restriction allows administrators to prevent privileged apps, such as Assistant, from receiving contextual device information. These include screenshots, package names, and more. Useful for admins wishing to reduce the sprawl of information access privileged apps can have. This is scope-specific, so on fully managed devices will apply device-wide, but on profile-enabled devices restricts only to the managed profile.
+
+## Widget management is back?!
+
+With Android 15, `setKeyguardDisabledFeatures` has been expanded with widget management to coincide with the re-introduction of lockscreen widgets for tablet devices. At this time it appears to only apply to widgets in managed profiles, with Google explicitly stating:
+
+> the profile owner of an organization-owned managed profile can set `KEYGUARD_DISABLE_WIDGETS_ALL` which affects the parent user when called on the parent profile.
+
+More testing is needed to determine why this isn't available for fully managed devices. 
 
 ## More to come!
 
