@@ -28,7 +28,9 @@ Just as last year, we're talking about applications targeting a version of Andro
 
 ## Content protection policy
 
-This appears to offer control for the scanning of harmful applications on a device, perhaps allowing admins to explicitly prevent line of business APKs from being flagged up on end user devices as potentially harmful, unrecognised, or any other state that'd trigger a complaint to the admin helpdesk. It has been a point of contention for the dedicated ecosystem for some years, particularly as Play Protect has become more active and aggressive over the last few Android versions. 
+~~This appears to offer control for the scanning of harmful applications on a device, perhaps allowing admins to explicitly prevent line of business APKs from being flagged up on end user devices as potentially harmful, unrecognised, or any other state that'd trigger a complaint to the admin helpdesk. It has been a point of contention for the dedicated ecosystem for some years, particularly as Play Protect has become more active and aggressive over the last few Android versions.~~
+
+Unfortunately CPP appears related to a newer Phishing Protection service introduced with Google Play Protect, and will not give admins the ability to disable on-device scanning overall. This is covered [in a recent security blog](https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html) from February.
 
 I'm not sure it's something I'm personally going to be advocating for with customers for the most part unless it's actively causing issues, but it's _amazing_ to see Google catering to the dedicated space for a change after so much increased focus on features that promote privacy at the cost of control for dedicated estates.
 
@@ -150,6 +152,10 @@ In testing, my fully managed device _does_ indeed fail to create a private space
 
 This restriction allows administrators to prevent privileged apps, such as Assistant, from receiving contextual device information. These include screenshots, package names, and more. Useful for admins wishing to reduce the sprawl of information access privileged apps can have. This is scope-specific, so on fully managed devices will apply device-wide, but on profile-enabled devices restricts only to the managed profile.
 
+## Circle to search
+
+Relatively straightforward, an enterprise API is being introduced to lock down cirlce to search - the most hyped up feature I've seen in a long time. This is a nice continuation of assist content above, limiting the amount of data being sent to Google services.
+
 ## Widget management is back?!
 
 With Android 15, `setKeyguardDisabledFeatures` has been expanded with widget management to coincide with the re-introduction of lockscreen widgets for tablet devices. At this time it appears to only apply to widgets in managed profiles, with Google explicitly stating:
@@ -157,6 +163,26 @@ With Android 15, `setKeyguardDisabledFeatures` has been expanded with widget man
 > the profile owner of an organization-owned managed profile can set `KEYGUARD_DISABLE_WIDGETS_ALL` which affects the parent user when called on the parent profile.
 
 More testing is needed to determine why this isn't available for fully managed devices. 
+
+## Deeper dedicated device experience management
+
+With Better Together Enterprise, Google is introducing a new provisioning option for dedicated devices, in addition to `PERSONAL_USAGE_ALLOWED` and `PERSONAL_USAGE_DISALLOWED`, Google are introducing a third `allowPersonalUsage` AMAPI enrolment token configuration option of `DEDICATED_DEVICE`. 
+
+Such distinguishing features between knowledge worker devices and the new dedicated devices flag include:
+
+- Setup Wizard customisation
+- Skipping/prevention of Google account setup
+- Default restrictions within the Android experience
+
+Managing dedicated devices, which have always been treated identically to any other consumer Android device on the market, has been a frustrating experience; devices an end user would never use shouldn't need to configure accounts, access Google Play, deal with all of the setup wizard interruptions around privacy callouts and more.. and now it looks like Google are finally doing something about it.
+
+Unfortunately a few years too late for the almost 5 years I supported dedicated devices on a daily basis, but I look forward to future projects benefitting from these changes.
+
+## Additional management roles
+
+Something of a placeholder at the moment, because I don't _fully_ understand the implications (other than goading Googlers about the reintroduction of Device Admin where all apps have the ability to get Device Policy Manager API control rather than just the explicit device/profile owner as it has been up to Android 14 -- it's not that, for the record, but documentation is just _so_ light it's easy to draw those kinds of conclusions 😅).
+
+Once the scope of wider DPM role holders is clear, I'll update this here.
 
 ## More to come!
 
