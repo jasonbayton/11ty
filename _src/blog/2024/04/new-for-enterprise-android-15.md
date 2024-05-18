@@ -8,7 +8,7 @@
  tags:
      - Enterprise
 ---
-It's that time of year again. Android 15 Developer Preview 2 has been out for a little bit, and combined with some of the changes I've seen committed to the developer documentation, there are a few tasty treats for organisations to come in the next dessert.
+It's that time of year again. Android 15 is available in pre-release, and combined with some of the changes I've seen committed to the developer documentation, there are a few tasty treats for organisations to come in the next dessert (Vanilla Ice-cream to don't you know).
 
 This is, as last year, a non-definitive and unconfirmed list of changes. Like the work profile changes in Android 14 things can change at any point and without warning. 
 
@@ -120,6 +120,14 @@ To be clear - applications in a personally owned work profile deployment up to n
 
 From 15, applications granted the permission `android.permission.MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES` will be able to obtain information about a pending system update. This softens the current requirements that an application be a device or profile owner in order to fetch this information.
 
+What this doesn't do, unfortunately, is offer more insight into what the available update is. Today we can see an update is available and whether or not it's a security update. This API _needs_ to be updated to show -
+
+- build info, 
+- size, 
+- how long it's been available (not just when first detected), - SPL/Android version
+
+All of this is offered either through GOTA, Google's OTA management server many OEMs are encouraged to leverage (some don't of course, consider e-FOTA from Samsung, or HMD's new FOTA platform), or the build fingerprint of the package itself.
+
 ## Check MTE status
 
 Expanding on the options for getting and setting MTE policies in Android 14, in 15 it will now be possible to merely query the current state (evidently something that should have, but didn't, quite make it to the 14 release!)
@@ -140,7 +148,7 @@ Android 15 introduces Private Space, the ability for users to allocate a selecti
 
 These applications are isolated - similar to a work profile - from the rest of the applications on the primary parent profile.
 
-The way this is managed is nuance, per Google: 
+The way this is managed is nuanced, per Google: 
 
 > The default value for an unmanaged user is false. For users with a device owner set, the default value is true and the device owner currently cannot change it to false. On organization-owned managed profile devices, the default value is false but the profile owner can change it to true via the parent profile to block creating of private profiles on the personal user.
 
@@ -154,7 +162,7 @@ This restriction allows administrators to prevent privileged apps, such as Assis
 
 ## Circle to search
 
-Relatively straightforward, an enterprise API is being introduced to lock down cirlce to search - the most hyped up feature I've seen in a long time. This is a nice continuation of assist content above, limiting the amount of data being sent to Google services.
+Relatively straightforward, an enterprise API is being introduced to lock down circle to search - the most unnecessarily hyped up feature I've seen in a long time. This is a nice continuation of assist content above, limiting the amount of data being sent to Google services.
 
 ## Widget management is back?!
 
@@ -163,6 +171,8 @@ With Android 15, `setKeyguardDisabledFeatures` has been expanded with widget man
 > the profile owner of an organization-owned managed profile can set `KEYGUARD_DISABLE_WIDGETS_ALL` which affects the parent user when called on the parent profile.
 
 More testing is needed to determine why this isn't available for fully managed devices. 
+
+To note for wider context, lock screen widgets were removed way back in 5.0 citing, if I remember correctly, low use. With the recent focus on tablets, and Apple adding their own, Google clearly figured they matter again!
 
 ## Deeper dedicated device experience management
 
