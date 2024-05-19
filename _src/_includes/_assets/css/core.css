@@ -1263,6 +1263,10 @@ footer {
   }
 }
 
+@media (max-width: 1060px) {
+
+}
+
 @media (max-width: 900px) {
 
   body {
@@ -1550,6 +1554,10 @@ footer {
 
   .img-ticker {
     animation: ticker 20s linear infinite;
+  }
+
+  section#link_out {
+    grid-template-columns: 1fr;
   }
 }
 
