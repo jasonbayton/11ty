@@ -39,7 +39,7 @@ The following devices have been approved for compatibility with MANAGED SETTINGS
 
 **Doogee S41 Max** <sup>Android 13</sup>
 
-- Mobile network crashes MANAGED SETTINGS <small>_ - Bug logged_</small>
+- Mobile network crashes MANAGED SETTINGS <small>_- Bug logged_</small>
 - Bluetooth opens *Connected devices*, which includes USB connection settings (when USB is plugged in).
 
 ## Significant issues
