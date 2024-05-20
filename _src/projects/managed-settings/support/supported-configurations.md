@@ -127,6 +127,6 @@ For licenced organisations, read up on [Customising the MANAGED SETTINGS experie
 | Custom card colour | Provide a hex value colour for the intent and action cards | String | CUSTOM_CARD_COLOUR | #D1D1D1 |
 | Custom accent colour | Provide a hex value colour for the app accent colour (links, etc) | String | CUSTOM_ACCENT_COLOUR | #FF4500 |
 | Custom text colour | Provide a hex value colour for the app text colour | String | CUSTOM_TEXT_COLOUR | #FFFFFF |
-| Show BAYTON settings branding | Removal of managed settings text advertising bayton.org, a BAYTON logo will still sit in the footer of the app, below available actions. | Boolean | CUSTOM_REMOVE_BRAND | True |
+| Show BAYTON settings branding | Removal of managed settings text advertising bayton.org and the discord available action; a BAYTON logo will still sit in the footer of the app, below available actions. | Boolean | CUSTOM_REMOVE_BRAND | True |
 
 </div>
