@@ -58,6 +58,8 @@ Customisation is available per organisation ID, and costs £500 up-front for up 
 
 ## Help & support
 
-Head into the MANAGED SETTINGS [knowledge base](/projects/managed-settings/support) for support and guidance.
+Head into the MANAGED SETTINGS knowledge base for support and guidance:
 
-Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [support group](https://groups.google.com/a/bayton.org/g/project-support) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
+<a class="button" href="support/">View docs</a>
+
+Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [discord community]([https://groups.google.com/a/bayton.org/g/project-support](https://discord.gg/qpBEEAb7)) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
