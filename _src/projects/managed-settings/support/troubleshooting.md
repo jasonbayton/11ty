@@ -15,7 +15,7 @@ layout: base.njk
 eleventyNavigation: 
     order: 4
 ---
-If you're having issues configuring or using MANAGED SETTINGS, the below guidance may help. If not, feel free to contact [project-support@bayton.org](mailto:project-support@bayton.org) or join the [Discord](https://discord.gg/YUY7jAjayr)
+If you're having issues configuring or using MANAGED SETTINGS, the below guidance may help. If not, feel free to contact [project-support@bayton.org](mailto:project-support@bayton.org) or join the [ BAYTONorg Discord](https://discord.gg/YUY7jAjayr).
 
 ## Built-in warning/status messages
 
@@ -29,8 +29,8 @@ If you're having issues configuring or using MANAGED SETTINGS, the below guidanc
 : The device user has tapped a link or action that requires a web browser, but no configured browser is available on the device for MANAGED SETTINGS to use. If this is intentional, the warning can be ignored. Otherwise, configure a browser. You may opt to provide limited access to an application such as Chrome through the use of managed configurations, and a FAQ for this can be found [here](/android/android-enterprise-faq/configure-chrome-bookmarks/).
 : Alternatively, configure a support message without links, and disable the feedback action to remove links from the application.
 
-**Config has been cleared and will reload shortly**
-: The device user has cleared the existing managed config, temporarily reverting the application to an unmanaged configuration. The application will re-apply the latest configuration/restrictions as soon as possible, and functionality will be restored. Hide this action through configuration to avoid device users abusing this function.
+**Config has been cleared and will reload on next app start**
+: The device user has cleared the existing managed config, temporarily reverting the application to an unmanaged configuration. The application will re-apply the latest configuration/restrictions on the next app launch, and functionality will be restored. Hide this action through configuration to avoid device users abusing this capability.
 
 **Licencing server unreachable**
 : The application is unable to communicate with the remote licencing server. See [MANAGED SETTINGS requirements](/projects/managed-settings/support/managed-settings-requirements/) for network requirements in order to use the application. If this is an issue for your deployment, please reach out.
@@ -111,7 +111,7 @@ MANAGED SETTINGS requires Android 6.0 and above, running on ARM chipsets. Outsid
 
 ### The configuration unsets itself
 
-MANAGED SETTINGS will retrieve/receive the managed configuration either from the DPC or a companion application via EMM. It will then cache the configuration on an ongoing basis until a new configuration is received. 
+MANAGED SETTINGS will retrieve/receive the managed configuration either from the DPC or companion application via EMM, or from disk. It will then cache the configuration on an ongoing basis until a new configuration is received. 
 
 Three scenarios where configuration becomes unavailable:
 
