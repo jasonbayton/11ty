@@ -16,7 +16,7 @@ eleventyNavigation:
     order: 5
 ---
 
-#Approved working 
+## Approved working 
 
 The following devices have been approved for compatibility with MANAGED SETTINGS:
 
