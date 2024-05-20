@@ -1,6 +1,6 @@
 ---
 title: MANAGED SETTINGS OEM validation
-parent: Managed Settings Support
+parent: Managed Settings support
 published: '2024-05-02'
 status: publish
 author: 'Jason Bayton'
