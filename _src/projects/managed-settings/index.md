@@ -62,4 +62,4 @@ Head into the MANAGED SETTINGS knowledge base for support and guidance:
 
 <a class="button" href="support/">View docs</a>
 
-Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [discord community]([https://groups.google.com/a/bayton.org/g/project-support](https://discord.gg/qpBEEAb7)) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
+Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [discord community](https://discord.gg/YUY7jAjayr) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
