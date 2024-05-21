@@ -30,7 +30,7 @@ The following devices have been approved for compatibility with MANAGED SETTINGS
 **Xiaomi MIUI 14** <span class="label label-green"><span class="material-symbols-outlined">android</span> 13</span>
 
 - APN may fail to load
-- Mobile & Network > Roaming may crash the Device Settings app (tested without SIM)
+- Mobile & Network > Roaming may crash the Device Settings app if used without a SIM
 
 **Xiaomi HyperOS** <span class="label label-green"><span class="material-symbols-outlined">android</span> 14</span>
 
@@ -39,7 +39,7 @@ The following devices have been approved for compatibility with MANAGED SETTINGS
 
 **Doogee S41 Max** <span class="label label-green"><span class="material-symbols-outlined">android</span> 13</span>
 
-- Mobile network crashes MANAGED SETTINGS <small>_- Bug logged_</small>
+- Mobile network crashes settings when no SIM is inserted.
 - Bluetooth opens *Connected devices*, which includes USB connection settings (when USB is plugged in).
 
 ## Significant issues
