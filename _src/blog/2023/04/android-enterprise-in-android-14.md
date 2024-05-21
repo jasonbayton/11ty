@@ -160,9 +160,9 @@ Enterprise related for implications it brings to the wider Android platform, it 
 
 The finance use case has existed for a few years, originally only accessible to select partners holding a direct agreement with Google with the use of a bespoke DPC called Device Lock Policy, it appears this has graduated and become a little more available recently, as Device Lock is a suggested APEX preload in Android 14.
 
-<div class="callout callout-bold">
+<div class="callout callout-orange">
 
-Also fun fact, while Device Lock is leveraged with zero-touch and AMAPI on the back end, it's actually [against permissable usage](https://developers.google.com/android/management/permissible-usage) to leverage AMAPI for device financing. I say this for the benefit of the 3 companies a week who reach out to ask me how they can use AMAPI for this use case!
+Also fun fact, while Device Lock is leveraged with zero-touch and AMAPI on the back end, it's actually [against permissible usage](https://developers.google.com/android/management/permissible-usage) to leverage AMAPI for device financing. I say this for the benefit of the 3 companies a week who reach out to ask me how they can use AMAPI for this use case!
 
 </div>
 

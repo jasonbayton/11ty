@@ -16,6 +16,7 @@
   --orange: #ff4500;
   --orange-opacity: #ff45009c;
   --blood-orange: #ce3800;
+  --main-red: #c30000;
   --brand-background: #ffffff;
   --brand-text: #333333;
   --main-blue: #0283bd;
@@ -198,6 +199,40 @@ blockquote::before{
 
 blockquote::after{
   content: '';
+}
+
+.label {
+  font-size: 70%;
+  padding: 0 3px;
+  background: var(--light);
+  border-radius: 5px;
+  vertical-align: text-top;
+  vertical-align: super;
+}
+
+.label-green {
+  background: var(--main-green);
+  color: white;
+}
+
+.label-orange {
+  background: var(--orange);
+  color: white;
+}
+
+.label-main-blue {
+  background: var(--main-blue);
+  color: white;
+}
+
+.label-blue {
+  background: var(--blue);
+  color: white;
+}
+
+.label .material-symbols-outlined {
+  font-size: 130%;
+  padding: 0 0 2px 2px;
 }
 
 a {
@@ -1122,13 +1157,31 @@ footer {
     background: var(--subtle-bg);
     border-image: linear-gradient(to bottom, transparent, #ff4500, transparent) 1 100%;
 
-  &.callout-bold {
+  &.callout-orange {
       background: var(--orange);
       color: #ffffff;
 
       & .callout-heading::after {
         background-color: #ffffff;
       }
+  }
+
+  &.callout-blue {
+    background: var(--main-blue);
+    color: #ffffff;
+
+    & .callout-heading::after {
+      background-color: #ffffff;
+    }
+  }
+
+  &.callout-red {
+    background: var(--main-red);
+    color: #ffffff;
+
+    & .callout-heading::after {
+      background-color: #ffffff;
+    }
   }
 
   & .callout-heading {

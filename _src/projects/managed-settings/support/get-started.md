@@ -21,6 +21,29 @@ Out of the box, MANAGED SETTINGS comes with no restrictions set on available set
 
 </div>
 
+## Prepare your policies
+
+MANAGED SETTINGS will work as a standalone application in a mostly-unrestricted environment, but its true benefit comes with use within a kiosk environment, multi-app kiosk specifically. 
+
+If you are using a kiosk-enabled policy today, and have had the settings application available - temporarily or permanently - this must be removed when MANAGED SETTINGS is deployed, otherwise end users will continue to simply leverage the Device Settings application.
+
+<div class="callout callout-red">
+<div class="callout-heading"><span class="material-symbols-outlined">work_alert</span> Settings access must be blocked</div>
+
+If you're using an AMAPI-based EMM, ensure your kiosk settings stipulate access to Settings is **blocked**:
+
+```json
+"kioskCustomization": {
+    "deviceSettings": "SETTINGS_ACCESS_BLOCKED",
+}
+```
+
+Failure to do this will lead to unpredictable behaviour within the Device Settings application when it is invoked from MANAGED SETTINGS, in some cases allowing broad access to settings that are expected to be blocked.
+
+For CustomDPC EMMs, please refer to your vendor documentation.
+
+</div>
+
 ## Install the application
 
 MANAGED SETTINGS is available as a public app on Google Play, which means locating the application for installation within your EMM platform of choice is quick and simple. 
