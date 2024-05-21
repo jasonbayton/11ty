@@ -198,7 +198,7 @@
             <!-- Page feedback goes here -->
             {% include "./_parts/feedback.njk" %}
             <!-- // -->
-            {% if type.includes("documentation") or type.includes("post") %}
+            {% if type.includes("documentation") or type.includes("post") or type.includes("project-docs") %}
             <section id="mobile_aside"> 
                 {% if type.includes("documentation") %}
                 <div class="aside-section">
@@ -210,6 +210,13 @@
                 {% if type.includes("post") %}
                 <div class="aside-section">
                     {% include "./_parts/blognav.njk" %}
+                </div>
+                {% endif %}
+                {% if type.includes("project-docs") %}
+                <div class="aside-section project-nav">
+                    <!-- Docnav goes here -->
+                    {% include "./_parts/projectsnav.njk" %}
+                    <!-- // -->
                 </div>
                 {% endif %}
             </section>
