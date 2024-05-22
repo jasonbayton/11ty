@@ -10,11 +10,11 @@ type: page
 layout: project.njk
 ---
 
-MANAGED SETTINGS is a project from BAYTON (BMS for short), offering a customised settings application where access to the native Android Settings application is not suitable for the use case or management scenario.
+MANAGED SETTINGS is a project from BAYTON, offering a customised settings application where access to the native Android Settings application is not suitable for the use case or management scenario.
 
 ## What does MANAGED SETTINGS do?
 
-MANAGED SETTINGS offers organisations a means of providing a limited device Settings experience, preventing over-exposing device settings that should not be visible or interactive for managed device end users.
+MANAGED SETTINGS gives organisations a means of providing a limited device Settings experience, preventing over-exposing settings that should not be visible or interactive for managed devices.
 
 It achieves this by acting as a gate-keeper for Settings intents - the individual Settings screens available when browsing the preloaded Android Settings app - allowing organisations to define what can and cannot be accessed and changed on device.
 
@@ -22,13 +22,13 @@ It achieves this by acting as a gate-keeper for Settings intents - the individua
 
 ## How does MANAGED SETTINGS do this?
 
-Any application on-device has the option of launching specific Settings intents, you may be familiar with this when an application asks you to adjust notification settings, allow the app to draw over others, or grant it the accessibility permission to facilitate additional functionality. 
+Any installed application has the option of launching specific Android Settings intents, you may be familiar with this when an application asks you to adjust notification settings, allow the app to draw over others, or grant it the accessibility permission to facilitate additional functionality. 
 
 MANAGED SETTINGS takes this approach to act as a utility application for customisable settings-access, it does this through managed configuration, allowing organisations to define the intents made available to managed device end users, while hiding the Android Settings application entirely.
 
 ## Who is MANAGED SETTINGS for?
 
-The primary use case is in Kiosk or managed launcher applications, where the Android Settings application is typically not exposed to device end users intentionally to avoid access to device settings that cannot be locked down entirely through device policy.
+The primary use case is in Kiosk or Managed Launcher applications, where the Android Settings application is typically not exposed to device end users intentionally to avoid access to device settings that cannot be locked down entirely through EMM policy.
 
 If your organisation struggles with the need to provide access to: 
 
@@ -52,7 +52,7 @@ Customisations include:
 - Custom in-app heading & logo
 - Leverage a generic application icon
 
-In future versions it'll be possible to configure a custom intent also, useful for highly-modified OEM Android builds that may leverage non-standard Settings intents.
+In future versions it'll be possible to configure custom intents also, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities.
 
 Customisation is available per organisation ID, and costs £500 up-front for up to 2,000 devices. Beyond 2,000 a nominal fee per installed device will be requested and go towards continued development of BAYTON projects.  
 
