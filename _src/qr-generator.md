@@ -3,16 +3,9 @@ title: Android Enterprise AMAPI QR code generator
 date: 2023-12-18
 tags:
 layout: generator.njk
+alert: This page is agressively cached. If the QR isn't generating, try a hard refresh (CRTL/CMD + SHIFT + R).
 type: page
 ---
-
-<div class="callout">
-
-**Hi 👋. The generator has been updated. You'll need to clear your local cache to load new scripts if you have visited before.**
-
-Please assist me with validation by testing your devices and sending me a message to confirm it works - Email jason@bayton.org or comment on [LinkedIn](https://www.linkedin.com/posts/jasonbayton_home-jason-bayton-activity-7183765770508619776-0Rau?utm_source=share&utm_medium=member_desktop).
-
-</div>
 
 If your EMM doesn't offer customisation for your generated QR codes, you can use the below form to generate your own. This configurator is intended for use with AMAPI based EMMs; those that use the Android Device Policy application for device management. For custom DPC solutions (MobileIron, WS1 UEM, MaaS360, SOTI, etc) or for more customisation, more features will be added in future.
 

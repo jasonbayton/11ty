@@ -1199,6 +1199,22 @@ footer {
         margin-top: 15px;
     }
   }
+
+  &.callout-small {
+      border: 0;
+      padding: 1px;
+      background: var(--dark);
+      color: var(--light);
+
+      & p {
+        margin: 0;
+        padding: 5px;
+    }
+      & .material-symbols-outlined {
+        font-size: 115%;
+        padding-right: 10px;
+    }
+  }
 }
 
 .heading-anchor { 
@@ -1799,6 +1815,7 @@ to {
   font-size: 80px;
   font-weight: 900;
   line-height: 66pt;
+  margin-bottom: 30px;
 }
 
 .project-title { 
@@ -1927,6 +1944,7 @@ section#note_overview {
   .base-title {
       font-size: 30px;
       line-height: unset;
+      margin:auto;
   }
 }
 
