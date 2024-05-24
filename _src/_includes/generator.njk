@@ -18,7 +18,7 @@
                 </div>
                 {% if alert %}
                 <div class="callout callout-small">
-                    <p><span class="material-symbols-outlined">quick_reference</span> {{ alert }}</p>
+                    <p><span class="material-symbols-outlined">quick_reference</span> {{ alert | safe }}</p>
                 </div>
                 {% endif %}
                 {{ content | safe }}
