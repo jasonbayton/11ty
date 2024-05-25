@@ -1,20 +1,16 @@
 ---
- title: "Deprecation of the old managed Google Play iFrame app approval flow"
- published: '2023-08-24'
+ title: "Zero-touch API error 403 - new TOS"
+ published: '2024-05-25'
  status: publish
  author: 'Jason Bayton'
- excerpt: "The way applications are approved is changing."
+ excerpt: "Zero-touch customers will need to accept new terms of service to continue using the API."
  type: documentation
  layout: base.njk
  tags:
      - Advisories
 ---
-Be aware, a year after Google [deprecated the old app approval APIs](https://developers.google.com/android/work/deprecations#app_approval_september_1_2022), EMMs are now switching over to the new flow. **This does not impact AMAPI-based EMMs**, with the exception of Intune.
+As first raised in the Customer Community [here](https://www.androidenterprise.community/t5/community-feedback/zero-touch-customer-api-terms-of-service-error-403-permission/td-p/3946), the customer zero-touch solution has a new terms of service published, which will cause the API to throw an error 403 (unauthorised).
 
-Admins will no longer see an approve button for applications in the managed Google Play iFrame, and will instead see a select button instead.
-
-[SOTI](https://discussions.soti.net/articles/google-managed-playstore-emm-deprecations-coming-in-december-1-2023-1) and [Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-intune-moving-to-support-new-google-play-android/ba-p/3849875) announcements for reference. Note, customers may have to upgrade their EMM version if using a locally hosted solution, to avoid a disruption to functionality later this year.
-
-[More info](/android/google-play-iframe-approval-change/)
+To resolve this, an admin or owner must [log into the zero-touch customer portal](https://partner.android.com/zerotouch) and accept the new ToS.
 
 🛟 For help or guidance, feel free to [reach out](/support/).
