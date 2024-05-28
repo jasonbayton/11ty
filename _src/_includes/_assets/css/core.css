@@ -1432,6 +1432,10 @@ footer {
     display: inherit;
   }
 
+  .field-mobile {
+    padding: 0 0 10px;
+  }
+
   #mobile_menu {
     display: inherit;
   }

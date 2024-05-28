@@ -32,4 +32,4 @@ EAP options will be added at a later date. QR code complexity limits can make sc
 : Enter the port number of the proxy server.
 
 **Wi-Fi Proxy Bypass URL**
-: Specify any URLs that should bypass the proxy server. This can be useful for internal resources that do not require proxy access.
+: Specify any URLs that should bypass the proxy server. This can be useful for internal resources that do not require proxy access. This should support a comma-separated list of domains in the format `example.com,internal.local`.
