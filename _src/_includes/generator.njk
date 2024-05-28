@@ -6,14 +6,28 @@
         <!-- // -->
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", function() {
-                var openDetails = document.querySelectorAll('.details-desktop');
-                if (window.innerWidth > 900) {
-                    openDetails.forEach(function(details) {
-                        if (!details.hasAttribute('open')) {
-                            details.setAttribute('open', 'open');
-                        }
-                    });
+                function toggleDetailsOpen() {
+                    var openDetails = document.querySelectorAll('.details-desktop');
+                    if (window.innerWidth > 900) {
+                        openDetails.forEach(function(details) {
+                            if (!details.hasAttribute('open')) {
+                                details.setAttribute('open', 'open');
+                            }
+                        });
+                    } else {
+                        openDetails.forEach(function(details) {
+                            if (details.hasAttribute('open')) {
+                                details.removeAttribute('open');
+                            }
+                        });
+                    }
                 }
+
+                // Initial check when the DOM is fully loaded
+                toggleDetailsOpen();
+
+                // Add event listener for window resize
+                window.addEventListener('resize', toggleDetailsOpen);
             });
         </script>
     </head>
