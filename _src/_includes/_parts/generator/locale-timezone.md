@@ -1,0 +1,5 @@
+When setting up a new device or re-provisioning an existing one, the `android.app.extra.PROVISIONING_LOCALE` key can be configured to specify the locale. This key expects a string value in the format of language-country, where language is a two-letter ISO 639-1 language code and country is a two-letter ISO 3166-1 alpha-2 country code. See the example reference provided next to the input for guidance.
+
+The `android.app.extra.PROVISIONING_TIME_ZONE` key is used during the provisioning of Android devices to set the device time zone. Modern Android devices can pick this up automatically and with Wi-Fi only, but for older Android versions (sub 12) it is far more rigid, and this setting avoids frustrating users down the line.
+
+These settings are particularly useful in use cases where devices need to be configured with specific time and region parameters, and allows admins to configure these ahead of time when staging devices for global distribution. 

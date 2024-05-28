@@ -635,10 +635,22 @@ content#home {
   color: var(--blood-orange);
 }
 
-.post-social {
+.post-social, .generator-bg {
   padding: 15px 30px;
   background: var(--subtle-bg);
   border-radius: 20px;
+
+  & select {
+    background-color: var(--background);
+  }
+
+  & input {
+    background-color: var(--background);
+
+    &::placeholder {
+      color: var(--text);
+    }
+  }
 }
 
 .post-social .meta-grid .meta-author .author-address {
@@ -854,6 +866,10 @@ section#posts {
   padding: 15px 0;
 }
 
+.generator-bg {
+  margin: 15px 0;
+}
+
 .post-block-extra {
   padding: 30px 0;
 }
@@ -862,11 +878,11 @@ section#posts {
   margin: 20px 0;
 }
 
-.post-block dd, .post-block-extra dd {
+.post-block dd, .post-block-extra dd, #page_content dd {
   padding-bottom: 20px;
 }
 
-.post-block dt, .post-block-extra dt {
+.post-block dt, .post-block-extra dt, #page_content dt{
   padding-bottom: 10px;
 }
 
@@ -1200,11 +1216,26 @@ footer {
     }
   }
 
+  & .callout-heading-small {
+    font-size: 24px;
+
+    &::after {
+      content: '';
+      height: 2px;
+      display: block;
+      clear: both;
+      background-color: var(--text);
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  }
+
+
   &.callout-small {
       border: 0;
-      padding: 1px;
+      padding: 3px;
       background: var(--dark);
-      color: var(--light);
+      color: var(--bright);
 
       & p {
         margin: 0;
@@ -1212,7 +1243,7 @@ footer {
     }
       & .material-symbols-outlined {
         font-size: 115%;
-        padding-right: 10px;
+        padding-right: 6px;
     }
   }
 }
