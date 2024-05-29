@@ -1219,6 +1219,10 @@ footer {
   & .callout-heading-small {
     font-size: 24px;
 
+    & .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
     &::after {
       content: '';
       height: 2px;
