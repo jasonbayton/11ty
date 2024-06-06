@@ -1166,12 +1166,10 @@ footer {
 .callout {
     padding: 20px;
     margin: 20px 0;
-    border: 2px solid;
     border-radius: 5px;
     box-sizing: border-box;
     color: var(--brand-text);
     background: var(--subtle-bg);
-    border-image: linear-gradient(to bottom, transparent, #ff4500, transparent) 1 100%;
 
   &.callout-orange {
       background: var(--orange);
