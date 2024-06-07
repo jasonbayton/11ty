@@ -63,11 +63,11 @@ Once logged in, head over to **Configurations** to set one (or more) up, ready t
 
 </details>
 
-Click the **+** icon on the right-hand side of **Configurations** to create a new configuration. This will trigger a popup.
+Click the **+** icon on the right-hand side of **Configurations** to create a new configuration. This will open a pop-up.
 
-To start, simply provide a configuration name, and then from the dropdown, a DPC (or EMM agent).
+To start, simply provide a configuration name, and then from the dropdown, a DPC (AKA EMM agent).
 
-Following that is DPC extras, within this field you can paste in DPC-specific key-value pairs that add additional functionality. The key-value pairs differ by EMM, so it’s best to validate before pasting anything here. Leaving it blank is also fine. An example of what could go there for  ~~MobileIron~~ Ivanti is as follows and more examples can be found on the [zero-touch FAQ](/android/android-enterprise-zero-touch-faq/#what-should-i-put-in-dpc-extras):
+Following that is DPC extras, within this field you can paste in DPC-specific key-value pairs that add additional functionality. The key-value pairs differ by EMM, so it’s best to validate before pasting anything here. Leaving it blank is also fine. An example of what could go there for ~~MobileIron~~ Ivanti is as follows and more examples can be found on the [zero-touch FAQ](/android/android-enterprise-zero-touch-faq/#what-should-i-put-in-dpc-extras):
 
 ```
 {
@@ -82,11 +82,11 @@ Following that is DPC extras, within this field you can paste in DPC-specific ke
 
 After which provide your company name, contact email, contact phone and an optional custom message. These will be presented to the end user while enrolling; particularly for support, having the contact name and telephone number of, perhaps, the IT Helpdesk could be quite useful.
 
-When complete, click **APPLY/ADD** to save the configuration and close out the pop-up.
+When complete, click **APPLY/Add** to save the configuration and close out the pop-up.
 
 ## Setting a default configuration
 
-Once you’ve created several configurations (or even just the one), you may wish for all devices added by a reseller to be given a configuration by default, thus avoiding having to sign in to the console every time a new device order is made. Above the list of configurations is a **Default Configuration** setting:
+Once you’ve created one or more configurations, you may wish for all devices added by a reseller to be given a configuration by default, thus avoiding having to sign in to the console every time a new device order is made. Above the list of configurations is a **Default Configuration** setting:
 
 <details open>
 <summary class="orange">2024+</summary>
@@ -111,19 +111,19 @@ Simply click the arrow to the right of **Select a configuration** and choose one
 
 Click on **Devices** on the left-hand side. Once loaded you’ll be presented with a search area and a list of registered devices. Devices can be searched for based on IMEI, MEID or Serial number, or simply located by scrolling down the list.
 
-Once located, click the arrow to the right of **No config** (or a presently-selected configuration) to open a dropdown, wherein you may select your newly created configuration(s).
-
 <details open>
 <summary class="orange">2024+</summary>
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_device_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_device_config.gif)
+Once located, click **Edit** to the right of **No config** (or a presently-selected configuration) to open a dropdown, wherein you may select your newly created configuration(s).
 
-Simply click the edit pencil icon and choose one from the dropdown list.
+[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_device_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_device_config.gif)
 
 </details>
 
 <details>
 <summary class="orange">Previous console UI</summary>
+
+Once located, click the arrow to the right of **No config** (or a presently-selected configuration) to open a dropdown, wherein you may select your newly created configuration(s).
 
 [![](https://cdn.bayton.org/uploads/2017/10/ztc_deviceconfig_watermark.gif)](https://cdn.bayton.org/uploads/2017/10/ztc_deviceconfig_watermark.gif)
 
@@ -136,7 +136,7 @@ Confirm this selection when prompted. The device will now automatically enrol in
 <details open>
 <summary class="orange">2024+</summary>
 
-Should a configuration no longer be required, head back into **Configurations** and click **Delete** to the right of the configuration you wish to delete:
+Should a configuration no longer be required, head back into **Configurations** and click **Delete** to the right of the configuration you wish to remove:
 
 [![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/delete_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/delete_config.gif)
 
@@ -154,6 +154,8 @@ Should a configuration no longer be required, head back into **Configurations** 
 Click **DELETE CONFIG**. There is no confirmation so ensure you’ve selected the correct one before continuing!
 
 </details>
+
+Be aware if the config is used for devices or as the **Default configuration** this will be removed, and revert to _none_. You will be required to assign new configs to the respective default or individual devices to restore ZT functionality to new/existing devices.
 
 ## Removing devices
 
