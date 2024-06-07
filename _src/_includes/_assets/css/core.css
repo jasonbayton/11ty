@@ -252,6 +252,14 @@ a:hover {
   opacity: 0.8;
 }
 
+.text-orange {
+  color: var(--orange)
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -872,6 +880,11 @@ section#posts {
 
 .post-block-extra {
   padding: 30px 0;
+}
+
+.post-block details, .post-block-extra details {
+  margin-block-end: 1em;
+  margin-block-start: 1em;
 }
 
 .post-block-extra img {
