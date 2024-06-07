@@ -12,15 +12,15 @@ eleventyNavigation:
   order: 5000
 ---
 <div class="callout">
-
-### What is zero-touch enrolment?
+<div class"callout-heading">
+What is zero-touch enrolment?
+</div>
 
 Zero-touch enrolment has been covered in depth in [What is Android zero-touch enrolment?](/android/what-is-android-zero-touch-enrolment/) This document offers a good overview of what it is and why zero-touch is the future of Android management.
 
 </div>
 <div class="callout">
-
-### This guide is intended for Organisations
+<div class="callout-heading">This guide is intended for Organisations</div>
 
 There are two scenarios for which the zero-touch console is used, as an organisation or as a reseller. This guide targets the former, a good resource for resellers can be found [here](https://developers.google.com/zero-touch/guides/portal/).
 
@@ -50,7 +50,7 @@ The zero-touch portal is designed with absolute simplicity in mind; much like th
 Once logged in, head over to **Configurations** to set one (or more) up, ready to assign to your devices:
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 [![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/create_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/create_config.gif)
 
@@ -89,7 +89,7 @@ When complete, click **APPLY/Add** to save the configuration and close out the p
 Once you’ve created one or more configurations, you may wish for all devices added by a reseller to be given a configuration by default, thus avoiding having to sign in to the console every time a new device order is made. Above the list of configurations is a **Default Configuration** setting:
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 [![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_default_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_default_config.gif)
 
@@ -112,7 +112,7 @@ Simply click the arrow to the right of **Select a configuration** and choose one
 Click on **Devices** on the left-hand side. Once loaded you’ll be presented with a search area and a list of registered devices. Devices can be searched for based on IMEI, MEID or Serial number, or simply located by scrolling down the list.
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 Once located, click **Edit** to the right of **No config** (or a presently-selected configuration) to open a dropdown, wherein you may select your newly created configuration(s).
 
@@ -134,7 +134,7 @@ Confirm this selection when prompted. The device will now automatically enrol in
 ## Deleting configurations
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 Should a configuration no longer be required, head back into **Configurations** and click **Delete** to the right of the configuration you wish to remove:
 
@@ -162,7 +162,7 @@ Be aware if the config is used for devices or as the **Default configuration** t
 Should a device no longer require management, be that due to it being a parting gift for a leaving employee, device destruction or anything else, use the search area or scroll down the device list to locate the device on the **Devices** page. Once located, click **UNREGISTER/Remove**.
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 [![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_device.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_device.gif)
 
@@ -182,7 +182,7 @@ You’ll need to confirm this action, and please be aware **this is not easily r
 The zero-touch console offers the ability to add additional "users" for easier management. There are two roles available when adding a new user, **Owner** and **Admin**. The only real difference between the roles is admins cannot add/delete other admins/owners, these roles can be changed at any time. 
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 To get started, head over to Users and click **Add user**
 
@@ -217,7 +217,7 @@ Input the **Email Address**, **Role** and click **APPLY.**
 ## Removing admins
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 To delete an admin, head back into **Users** and click **Remove** to the right of the admin you wish to delete:
 
@@ -241,7 +241,7 @@ Click **DELETE**. There is no confirmation so ensure you’ve selected the corre
 Occasionally you may wish to change resellers when purchasing zero-touch compatible devices. While it’s perfectly acceptable to request the new reseller sets you up with an account, the more convenient option for managing all devices from within one console is to simply add the new reseller to the existing customer account. To do so, head over to **Resellers.**
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 Active resellers will be shown in the default (left) tab, with all other resellers available via **Other resellers**. There's even a handy count to let you know how many you have to choose from.
 
@@ -267,7 +267,7 @@ In the background, this sends a request to the reseller to accept your customer 
 To remove a reseller, preferably (but not necessarily) after all existing devices are unregistered and the relationship with the reseller terminated, head over to **Resellers**.
 
 <details open>
-<summary class="orange">2024+</summary>
+<summary class="orange">New console UI</summary>
 
 [![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_reseller.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_reseller.gif)
 
