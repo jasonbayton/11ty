@@ -206,33 +206,37 @@ blockquote::after{
   padding: 0 3px;
   background: var(--light);
   border-radius: 5px;
-  vertical-align: text-top;
-  vertical-align: super;
-}
+  text-wrap: nowrap;
 
-.label-green {
-  background: var(--main-green);
-  color: white;
-}
+  &.label-sup {
+    vertical-align: text-top;
+    vertical-align: super;
+  }
 
-.label-orange {
-  background: var(--orange);
-  color: white;
-}
+  &.label-green {
+    background: var(--main-green);
+    color: white;
+  }
 
-.label-main-blue {
-  background: var(--main-blue);
-  color: white;
-}
+  &.label-orange {
+    background: var(--orange);
+    color: white;
+  }
 
-.label-blue {
-  background: var(--blue);
-  color: white;
-}
+  &.label-main-blue {
+    background: var(--main-blue);
+    color: white;
+  }
 
-.label .material-symbols-outlined {
-  font-size: 130%;
-  padding: 0 0 2px 2px;
+  &.label-blue {
+    background: var(--blue);
+    color: white;
+  }
+
+  & .material-symbols-outlined {
+    font-size: 130%;
+    padding: 0 0 2px 2px;
+  }
 }
 
 a {
@@ -366,6 +370,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin: 20px 0;
+  font-size: 80%;
 }
 
 thead {
