@@ -24,8 +24,8 @@ The announcement post is not quite explicit enough as the above quote could be l
 | Phone                 | Guaranteed Android version updates until at least: | Guaranteed security updates until at least: |
 |-----------------------|----------------------------------------------------|---------------------------------------------|
 | Pixel 8 & Pixel 8 Pro	| October 2030                                       | October 2030                                |
-| Pixel Fold	        | June 26, 2026	                                     | June 25, 2028                               |
-| Pixel 7a	            | May 8, 2026	                                     | May 7, 2028                                 |
+| Pixel Fold	           | June 26, 2026	                                     | June 25, 2028                               |
+| Pixel 7a	             | May 8, 2026	                                       | May 7, 2028                                 |
 | Pixel 7 & Pixel 7 Pro | October 2025                                       | October 2027                                |
 
 As you may notice from the above, this is a reasonable increase in support over previous devices, including the just-released Fold. This achievement looks to be linked to the new Tensor G3. Tensor, Google's in-house chip, offers them end-to-end control over the hardware they ship, and the support they provide. This is in contrast to many OEMs on the market reliant on the likes of Qualcomm and MediaTek, vendors with many chipsets available and little financial incentive to offer extended support on most of them (exceptions to this exist, see again Fairphone's use of the QCM6490).
