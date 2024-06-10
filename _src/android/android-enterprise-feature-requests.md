@@ -137,5 +137,6 @@ Related to [this](/blog/2022/12/android-features-2023/) and [this](/blog/2019/01
 | 38 | Zero-touch customer device uploads. | Every other OOBE solution on the market allows for customer-driven uploads. Resellers are a frustrating friction point harming ZT adoption for existing estates. |  |
 | 39 | Multi-app selection/import in Google Play iFrame |  |  |
 | 40 | **AMAPI feature parity with on-device APIs** | Seriously, where's offline firmware update management? |  |
+| 41 | Give some love to AER | Public reqs are unchanged since <span class="label label-green"><span class="material-symbols-outlined">android</span> 12</span>, it appears innovation here has stopped. | |
 
 </div>
