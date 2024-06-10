@@ -130,3 +130,5 @@ For licenced organisations, read up on [Customising the MANAGED SETTINGS experie
 | Show BAYTON settings branding | Removal of managed settings text advertising bayton.org and the discord available action; a BAYTON logo will still sit in the footer of the app, below available actions. | Boolean | CUSTOM_REMOVE_BRAND | True |
 
 </div>
+
+**Note: All colour customisations require an app re-launch to apply**.
