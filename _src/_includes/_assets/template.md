@@ -2,15 +2,27 @@ Callout example:
 
 ```html
 <div class="callout callout-orange">
-<div class="callout-heading"><span class="material-symbols-outlined">work_alert</span>Title</span>
+<div class="callout-heading"><span class="material-symbols-outlined">work_alert</span>Title</div>
 
 Text here
 
-<div>
+</div>
 ```
 
 Label example:
 
 ```html
 <span class="label label-green"><span class="material-symbols-outlined">android</span> 12</span>
+```
+
+Responsive tables:
+
+```html
+<div class="responsive-table-wrapper">
+
+| col | col | col |
+|-----|-----|-----|
+| txt | txt | txt |
+
+</div>
 ```
