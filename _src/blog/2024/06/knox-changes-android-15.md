@@ -1,6 +1,6 @@
 ---
  title: "Samsung announces Knox SDK restrictions for Android 15"
- date: '2024-04-11'
+ date: '2024-06-14'
  status: publish
  author: 'Jason Bayton'
  excerpt: "The change poses a significant departure, and threatens many apps on the market making use of the affected APIs today."
