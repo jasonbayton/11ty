@@ -84,4 +84,4 @@ Google's are expected to introduce new, sweeping mandates around custom API deve
 
 ## Potential impact
 
-For enterprises, this shift presents both challenges and opportunities, though for the vendors reliant on these SDKs today for non-AE deployments, it poses a significant and quickly-approaching deadline to work with organisations in allowing functionality to be restored.. ofcourse in some instances this won't be feasible for the use case of the app in question.
+For enterprises, this shift presents both challenges and opportunities, though for the vendors reliant on these SDKs today for non-AE deployments, it poses a significant and quickly-approaching deadline to work with organisations in allowing functionality to be restored.. of course in some instances this won't be feasible for the use case of the app in question, or the ability for organisations to adapt. It'll be interesting to see what comes of this as 15 rolls out, and I'm sure we'll see plenty of conversations about it over on the [Customer Community](https://androidenterprise.community).
