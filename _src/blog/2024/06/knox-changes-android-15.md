@@ -54,12 +54,19 @@ The affected APIs for 15 are:
 |                         | addPackagesToCertificateWhiteList    |
 | SystemManager           | setHardKeyIntentBroadcast            |
 
+</div>
+<div class="responsive-table-wrapper">
+
 | SDK Class       | SDK method(s) |
 |-----------------|---------------|
 | RemoteDesktop   | All methods   |
 | RemoteInjection | All methods   |
 
-And how they're accessed: 
+</div>
+
+And their accessibility: 
+
+<div class="responsive-table-wrapper">
 
 | Knox SDK methods       | AE (DO/PO) apps | DA mode apps   | Other apps     |
 |------------------------|-----------------|----------------|----------------|
