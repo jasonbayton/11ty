@@ -1241,12 +1241,12 @@ footer {
 
     &::after {
       content: '';
-      height: 2px;
+      height: 1px;
       display: block;
       clear: both;
       background-color: var(--text);
       border-radius: 5px;
-      margin-top: 10px;
+      margin-top: 6px;
     }
   }
 
