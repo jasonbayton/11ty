@@ -1241,7 +1241,7 @@ footer {
 
     &::after {
       content: '';
-      height: 1px;
+      height: 2px;
       display: block;
       clear: both;
       background-color: var(--text);
@@ -1249,7 +1249,6 @@ footer {
       margin-top: 6px;
     }
   }
-
 
   &.callout-small {
       border: 0;
