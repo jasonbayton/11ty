@@ -1256,6 +1256,7 @@ footer {
       padding: 3px;
       background: var(--dark);
       color: var(--bright);
+      margin: 30px 0 0;
 
       & p {
         margin: 0;
@@ -1870,7 +1871,6 @@ to {
   font-size: 80px;
   font-weight: 900;
   line-height: 66pt;
-  margin-bottom: 30px;
 }
 
 .project-title { 
