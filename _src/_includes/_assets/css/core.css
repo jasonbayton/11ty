@@ -176,10 +176,6 @@ h5 { font-size: 20px; }
   transition: all 0.2s ease;
 }
 
-.desktop-hidden {
-  display: none;
-}
-
 blockquote {
   padding: 20px 20px 20px 60px;
   margin: 20px 0;
@@ -1430,14 +1426,6 @@ footer {
 
   .intro_wrapper {
     padding-bottom: 0px;
-  }
-
-  .mobile-hidden {
-    display: none;
-  }
-
-  .desktop-hidden {
-    display: unset;
   }
 
   .mobile-50-padding {

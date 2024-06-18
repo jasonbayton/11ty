@@ -1,0 +1,28 @@
+.desktop-hidden {
+  display: none;
+}
+
+.desktop-grid {
+  display: grid;
+}
+
+.mobile-hidden {
+  display: unset;
+}
+
+@media (max-width: 900px) {
+ 
+  .mobile-hidden {
+    display: none;
+  }
+
+  .desktop-hidden {
+    display: unset;
+  }
+  
+  .mobile-grid {
+    display: grid;
+  }
+
+}
+

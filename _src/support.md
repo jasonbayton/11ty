@@ -20,7 +20,7 @@ So, let's embark on this journey together and make your enterprise mobility visi
 
 First, who are you? -
 
-<div class="grid grid-column-2 grid-column-mobile-1 padding-20 padding-lr-0 grid-gap-30">
+<div class="grid grid-column-2 grid-column-mobile-1 padding-20 padding-lr-0 grid-gap-30 desktop-hidden mobile-grid">
 <a class="button" href="#customer">
 <h3>We're a customer/organisation</h3>
 </a>
@@ -29,6 +29,7 @@ First, who are you? -
 </a>
 </div>
 
+<div class="grid grid-column-2 grid-column-mobile-1 padding-20 padding-lr-0 grid-gap-30">
 <div id="customer">
 
 ## We're an organisation managing devices
@@ -67,10 +68,10 @@ Some more examples of dedicated engagements undertaken include:
 * Google Workspace deployment
 * Android Enterprise hardware validation
 
-<a class="button" href="#get-started">
+<a class="button desktop-hidden" href="#get-started">
 Get started
 </a>
-<p></p>
+</div>
 
 <div id="partner">
 
@@ -80,15 +81,15 @@ I've been on the vendor side of the ecosystem for the best part of half a decade
 
 ### Product validation
 
-Bringing new Android hardware to market? Looking to validate it for enterprise? ~~GMS~~ Play Protect certification will do so much, Android Enterprise Recommended a little more, but if you want true product validation across a range of EMM vendors, talk to me. No other validation in the ecosystem tests Android Enterprise compatibility like I do, with a minimum of a 270-point base report and detailed analysis of required improvements.
+Bringing new Android hardware to market? Looking to validate it for enterprise? ~~GMS~~ Play Protect certification will do so much, Android Enterprise Recommended a little more, but if you want true product validation across a range of EMM vendors, talk to me. No other validation in the ecosystem tests Android Enterprise compatibility like I do, with a minimum of a [270-point base report](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1.pdf) and detailed analysis of required improvements.
 
 If you're an EMM or related solution provider (MTD, insights, etc) looking for help and advice on implementation, feature support, roadmapping & more, I can help there too. I built an EMM used by some of the largest companies in healthcare and food delivery all over the world; I can talk on anything from architecture to roadmap priorities, knowledge base to user experience design and everything in between. I've kicked the tyres and contributed to the development of some of the largest platforms on the market.
 
 ### Certification and product development
 
-Building an Android device? I've been there, and I know GMS inside-out. From dedicated, completely bespoke devices for specific use cases, to ensuring consumer devices fare well for enterprise, I can assist in every phase of product development and ensure your Android builds are ready for Google certification. 
+Building an Android device? I've been there, and I know GMS inside-out. From dedicated, completely bespoke devices for specific use cases, to ensuring consumer devices fare well for enterprise, I can assist in every phase of product development and ensure your Android builds are ready for Google certification. If the terms MADA, EDLA, GMS, CTS, Backporting, GRF, and LR/MR/SMR sound familiar to you, I've done it all.
 
-If the terms MADA, EDLA, GMS, CTS, Backporting, GRF, and LR/MR/SMR sound familiar to you, I've done it all.
+If you're a software vendor building out a management platform, be that with the Android Management API, Custom DPC, device financing, OEM integration, or various other enterprise use cases, I've built products from bare metal with teams small and large. Get in touch if you'd like to pitch your solution or idea and how I can help.
 
 ### Other activities
 
@@ -100,6 +101,9 @@ Some more examples of dedicated engagements undertaken include:
 * Android Enterprise hardware validation
 * Lifecycle & software support strategy
 * Product review
+
+</div>
+</div>
 
 ## Get started
 
@@ -116,7 +120,7 @@ Please prepare a detailed Scope and/or Statement of Work (SoW) defining your obj
 * Full day (up to 8h)
 * Fixed per project
 
-NB: Hours may be consumed ad-hoc, across multiple days as required. 1/2 days start at £600, negotiable up or down based on scope.
+NB: Hours may be consumed ad-hoc, across multiple days as required. 1/2 days start at £600, negotiable up or down. If you have budget constraints, contact me to discuss.
 
 ## Not ready to start?
 
