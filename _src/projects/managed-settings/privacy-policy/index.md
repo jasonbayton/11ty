@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: MANAGED SETTINGS Privacy Policy
 parent: Managed Settings
 published: '2024-06-27'
 status: publish
