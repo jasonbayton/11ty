@@ -17,7 +17,7 @@ eleventyNavigation:
 ---
 <div class="callout">
 <div class="callout-heading">
-Licence required
+<span class="material-symbols-outlined">work_alert</span> Licence required
 </div>
 
 To set customisation options, your organisation must be licenced. If you do not have a valid licence, please contact [project-support@bayton.org](mailto:project-support@bayton.org) to obtain one. Pricing is defined on the [project page](/projects/managed-settings). 
@@ -28,17 +28,8 @@ To set customisation options, your organisation must be licenced. If you do not 
 
 MANAGED SETTINGS offers the following customisations:
 
-**Background colour** _- 1.0.0.0_
-: The background colour of the app. This defaults to black, or hex: #000000. 
-
-**Card colour** _- 1.0.0.0_
-: The colour surrounding the intents and available actions. This defaults to dark grey, or hex: #414141.
-
-**Text colour** _- 1.0.0.0_
-: The colour of non-interactive text in the app. This defaults to white, or hex: #FFFFFF.
-
-**Accent colour** _- 1.0.0.0_
-: The colour of links and interactive text. This defaults to orange, or hex #FF4500.
+**Theme** _- Upcoming_
+: This will allow selection of a colour scheme to match an organisation's brand. It includes **Background colour**, **Card colour**, **Text colour**, and **Accent colour**.
 
 **In-app header icon** _- 1.0.0.0_
 : The option to customise the in-app header icon, defaulted to the MANAGED SETTINGS icon.
@@ -67,13 +58,15 @@ With a valid organisation ID set, you may continue to configure all customisatio
 
 ### Customising colours
 
-For all colour-based customisations, you must specify a colour in HEX code format. [Color Kit](https://colorkit.co/color-picker/) offers a decent tool for colour selection if you require guidance. 
+For all theme-based customisations, you must specify a colour in HEX code format. [Color Kit](https://colorkit.co/color-picker/) offers a decent tool for colour selection if you require guidance. 
 
 HEX code examples -
 
 - #000000 - black
 - #FFFFFF - white
 - #FF4500 - orange-red
+
+Submitting these colours via [project-support@bayton.org](mailto:project-support@bayton.org) will allow for a custom theme to be implemented in an app update, and the provided string can be entered into the theme input to apply.
 
 ### Customising the header-icon
 

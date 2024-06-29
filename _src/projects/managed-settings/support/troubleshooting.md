@@ -29,15 +29,12 @@ If you're having issues configuring or using MANAGED SETTINGS, the below guidanc
 : The device user has tapped a link or action that requires a web browser, but no configured browser is available on the device for MANAGED SETTINGS to use. If this is intentional, the warning can be ignored. Otherwise, configure a browser. You may opt to provide limited access to an application such as Chrome through the use of managed configurations, and a FAQ for this can be found [here](/android/android-enterprise-faq/configure-chrome-bookmarks/).
 : Alternatively, configure a support message without links, and disable the feedback action to remove links from the application.
 
-**Config has been cleared and will reload on next app start**
-: The device user has cleared the existing managed config, temporarily reverting the application to an unmanaged configuration. The application will re-apply the latest configuration/restrictions on the next app launch, and functionality will be restored. Hide this action through configuration to avoid device users abusing this capability.
-
 **Licencing server unreachable**
 : The application is unable to communicate with the remote licencing server. See [MANAGED SETTINGS requirements](/projects/managed-settings/support/managed-settings-requirements/) for network requirements in order to use the application. If this is an issue for your deployment, please reach out.
 
 ## Known issues
 
-**Some OEMs/devices do not support AOSP settings intents.**
+**Some OEMs/devices do not support AOSP settings intents**
 
 Where alternative intents exist, support will be added. If you're testing with devices that do not open intents, you can submit information to aid in resolution through the following process:
 1. Open your native Android Settings application
@@ -60,6 +57,10 @@ OEM/device support will be tracked via [this document](/projects/managed-setting
 **App cannot be configured on uncertified devices**
 
 MANAGED SETTINGS requires a GMS/Play Protect certified device with a modern management platform (EMM) to configure it. _If_ your EMM supports offline/AOSP deployment of uncertified devices, _and_ can support the configuration of applications through managed config _without_ access to Google Play, get in touch and I'll see if we can support this use case.
+
+**APN settings don't launch**
+
+A device needs a SIM and an active plan to launch APN settings. 
 
 ## Common issues
 
@@ -97,13 +98,7 @@ Check the file format, file size, file dimensions, network quality, file integri
 
 ### Customisations don't update
 
-This points to an issue between the application and the EMM in the first instance. If you have it enabled, the **Reload config** action may help to force a reset of the local configuration. 
-
-<div class="callout">
-
-**Reload config** should not be enabled in production, as it can allow device users access to restricted settings, temporarily.
-
-</div>
+This points to an issue between the application and the EMM in the first instance. Reach out to debug.
 
 ### MANAGED SETTINGS doesn't install
 
