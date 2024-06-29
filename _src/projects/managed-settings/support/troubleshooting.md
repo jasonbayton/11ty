@@ -62,6 +62,10 @@ MANAGED SETTINGS requires a GMS/Play Protect certified device with a modern mana
 
 A device needs a SIM and an active plan to launch APN settings. 
 
+**APN settings aren't available**
+
+This is a known issue with several OEMs when invoking the APN intent, an alternative targeting the primary SIM is under investigation.
+
 ## Common issues
 
 ### Customisations don't apply
