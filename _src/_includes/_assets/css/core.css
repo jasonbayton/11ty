@@ -1192,6 +1192,10 @@ footer {
       & .callout-heading::after {
         background-color: #ffffff;
       }
+
+      & .callout-heading-small::after {
+        background-color: #ffffff;
+      }
   }
 
   &.callout-blue {
@@ -1201,6 +1205,10 @@ footer {
     & .callout-heading::after {
       background-color: #ffffff;
     }
+
+    & .callout-heading-small::after {
+      background-color: #ffffff;
+    }
   }
 
   &.callout-red {
@@ -1208,6 +1216,10 @@ footer {
     color: #ffffff;
 
     & .callout-heading::after {
+      background-color: #ffffff;
+    }
+
+    & .callout-heading-small::after {
       background-color: #ffffff;
     }
   }

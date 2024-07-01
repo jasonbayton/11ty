@@ -193,7 +193,7 @@ Input the **Email Address**, **Role** and click **Add**.
 This will send out an invitation to the named account, allowing them to log in and perform their role-specific actions. 
 
 <div class="callout callout-orange">
-<div class="callout-heading-small"><span class="material-symbols-outlined">work_alert</span>Google account required</div>
+<div class="callout-heading-small"><span class="material-symbols-outlined">work_alert</span> Google account required</div>
 
 Only Google accounts are supported here, so ensure the email address added either belongs to Google Workspace, Cloud Identity, or is a Google account used for work purposes.
 
