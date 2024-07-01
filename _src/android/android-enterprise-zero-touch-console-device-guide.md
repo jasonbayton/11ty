@@ -52,7 +52,7 @@ Once logged in, head over to **Configurations** to set one (or more) up, ready t
 <details open>
 <summary class="orange">New console UI</summary>
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/create_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/create_config.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/create_config.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/create_config.gif)
 
 </details>
 
@@ -91,7 +91,7 @@ Once you’ve created one or more configurations, you may wish for all devices a
 <details open>
 <summary class="orange">New console UI</summary>
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_default_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_default_config.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/update_default_config.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/update_default_config.gif)
 
 Simply click the edit pencil icon and choose one from the dropdown list.
 
@@ -116,7 +116,7 @@ Click on **Devices** on the left-hand side. Once loaded you’ll be presented wi
 
 Once located, click **Edit** to the right of **No config** (or a presently-selected configuration) to open a dropdown, wherein you may select your newly created configuration(s).
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_device_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/update_device_config.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/update_device_config.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/update_device_config.gif)
 
 </details>
 
@@ -138,7 +138,7 @@ Confirm this selection when prompted. The device will now automatically enrol in
 
 Should a configuration no longer be required, head back into **Configurations** and click **Delete** to the right of the configuration you wish to remove:
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/delete_config.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/delete_config.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/delete_config.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/delete_config.gif)
 
 Confirm the action, and it'll vanish.
 
@@ -164,7 +164,7 @@ Should a device no longer require management, be that due to it being a parting 
 <details open>
 <summary class="orange">New console UI</summary>
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_device.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_device.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/remove_device.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/remove_device.gif)
 
 </details>
 
@@ -186,7 +186,7 @@ The zero-touch console offers the ability to add additional "users" for easier m
 
 To get started, head over to Users and click **Add user**
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/add_admin.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/add_admin.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/add_admin.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/add_admin.gif)
 
 Input the **Email Address**, **Role** and click **Add**.
 
@@ -221,7 +221,7 @@ Input the **Email Address**, **Role** and click **APPLY.**
 
 To delete an admin, head back into **Users** and click **Remove** to the right of the admin you wish to delete:
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_admin.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_admin.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/remove_admin.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/remove_admin.gif)
 
 </details>
 
@@ -245,7 +245,7 @@ Occasionally you may wish to change resellers when purchasing zero-touch compati
 
 Active resellers will be shown in the default (left) tab, with all other resellers available via **Other resellers**. There's even a handy count to let you know how many you have to choose from.
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/add_reseller.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/add_reseller.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/add_reseller.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/add_reseller.gif)
 
 </details>
 
@@ -269,7 +269,7 @@ To remove a reseller, preferably (but not necessarily) after all existing device
 <details open>
 <summary class="orange">New console UI</summary>
 
-[![](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_reseller.gif)](https://cdn.bayton.org/android/android-enterprise-zero-touch-console-device-guide/remove_reseller.gif)
+[![](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/remove_reseller.gif)](https://cdn.bayton.org/uploads/android/android-enterprise-zero-touch-console-device-guide/remove_reseller.gif)
 
 </details>
 

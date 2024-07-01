@@ -26,7 +26,7 @@ A work challenge is what Google call the password applied to the work profile th
 
 Here's an example of a work challenge policy requiring a unique password on a device:
 
-![Example work challenge policy](https://cdn.bayton.org/uploads/docs/android-enterprise-faq/what-is-a-work-challenge/Screenshot_2023-05-14_09.12.32.png)
+![Example work challenge policy](https://cdn.bayton.org/uploads/android/android-enterprise-faq/what-is-a-work-challenge/Screenshot_2023-05-14_09.12.32.png)
 
 Note the scope above is set to _Profile_ (as in, the work profile). This sets a work profile-specific password policy that has no impact on the parent policy directly. 
 
