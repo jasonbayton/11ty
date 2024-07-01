@@ -124,7 +124,7 @@ For licenced organisations, read up on [Customising the MANAGED SETTINGS experie
 | Licenced organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation. | String | LICENCE | `null` |
 | Use BAYTON App Icon | Disable this option to show a generic settings icon for your managed estate. | Boolean | APPLICATION_ICON | True |
 | Custom app title | Provide a name shown in the app header (default: Settings). | String | CUSTOM_APP_TITLE | Settings |
-| Custom title icon | Provide a URL to a public image, `png` preferred. | String | CUSTOM_APP_TITLE_ICON | `null` |
+| Custom title icon | Provide a URL to a public PNG/SVG/JPG image of the size 128x128px. | String | CUSTOM_APP_TITLE_ICON | `null` |
 | Theme | Input the name of your provided theme. | String | APP_THEME | BAYTON |
 | Show BAYTON settings branding | Removal of managed settings text advertising bayton.org and the discord available action; a BAYTON logo will still sit in the footer of the app, below available actions. | Boolean | CUSTOM_REMOVE_BRAND | True |
 

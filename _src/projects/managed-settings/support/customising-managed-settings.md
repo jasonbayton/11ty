@@ -41,7 +41,7 @@ MANAGED SETTINGS offers the following customisations:
 : The option to hide the majority of BAYTON branding. A small co-branded icon will remain in the footer area of the application settings page.
 
 **Generic icon** _- 1.0.0.0_
-: The option to swap from the default MANAGED SETTINGS icon to that of a generic settings icon.
+: The option to swap from the default MANAGED SETTINGS icon to that of a generic settings icon. **MANAGED SETTINGS will close if open when this configuration applies.**
 
 ## Enter your organisation ID
 
@@ -56,7 +56,7 @@ If you've set up your organisation with the new BTE flow, you may also locate yo
 
 With a valid organisation ID set, you may continue to configure all customisation options in addition to the standard, unlicensed & freely available Settings intents.
 
-### Customising colours
+### Custom theme
 
 For all theme-based customisations, you must specify a colour in HEX code format. [Color Kit](https://colorkit.co/color-picker/) offers a decent tool for colour selection if you require guidance. 
 
@@ -66,7 +66,7 @@ HEX code examples -
 - #FFFFFF - white
 - #FF4500 - orange-red
 
-Submitting these colours via [project-support@bayton.org](mailto:project-support@bayton.org) will allow for a custom theme to be implemented in an app update, and the provided string can be entered into the theme input to apply.
+Submitting these colours via [project-support@bayton.org](mailto:project-support@bayton.org) along with your chosen theme name (non-identifiable preferred) will allow for a custom theme to be implemented in an app update, and the provided string can be entered into the theme input to apply. Options for dynamic theming are under review, rendering an app update unnecessary in future.
 
 ### Customising the header-icon
 
