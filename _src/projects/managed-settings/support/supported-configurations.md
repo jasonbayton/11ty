@@ -115,22 +115,22 @@ Feel free to customise this message as desired, or simply input a string.
 
 ## Customisation
 
-For licenced organisations, read up on [Customising the MANAGED SETTINGS experience](/projects/managed-settings/support/customising-managed-settings).
+For licensed organisations, read up on [Customising the MANAGED SETTINGS experience](/projects/managed-settings/support/customising-managed-settings).
 
 <div class="responsive-table-wrapper">
 
 | Config name | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
-| Licenced organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation. | String | LICENCE | `null` |
+| Licensed organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation. | String | LICENCE | `null` |
 | Use BAYTON App Icon | Disable this option to show a generic settings icon for your managed estate. | Boolean | APPLICATION_ICON | True |
 | Custom app title | Provide a name shown in the app header (default: Settings). | String | CUSTOM_APP_TITLE | Settings |
 | Custom title icon | Provide a URL to a public PNG/SVG/JPG image of the size 128x128px. | String | CUSTOM_APP_TITLE_ICON | `null` |
-| Theme | Input the name of your provided theme. | String | APP_THEME | BAYTON |
+| Custom theme | Input the name of your provided theme. | String | CUSTOM_APP_THEME | BAYTON |
 | Show BAYTON settings branding | Removal of managed settings text advertising bayton.org and the discord available action; a BAYTON logo will still sit in the footer of the app, below available actions. | Boolean | CUSTOM_REMOVE_BRAND | True |
 
 </div>
 
-**Note: All colour customisations require an app re-launch to apply**.
+**Note: Theme and icon customisations require an app re-launch to apply**.
 
 <!-- | Custom background colour | Provide a hex value colour for the app background colour | String | CUSTOM_BACKGROUND_COLOUR | #000000 |
 | Custom card colour | Provide a hex value colour for the intent and action cards | String | CUSTOM_CARD_COLOUR | #D1D1D1 |

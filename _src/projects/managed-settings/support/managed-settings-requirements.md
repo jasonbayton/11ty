@@ -23,7 +23,7 @@ In order to leverage MANAGED SETTINGS, the following requirements and recommenda
 2. EMM platform or DPC solution support for managed configurations
 3. Android 6.0 or newer
 
-## Network requirements (licenced organisations)
+## Network requirements (licensed organisations)
 
 Network connectivity is **mandatory** to allow the licensing server to validate permission to apply customisations. If you do not need or wish to customise the app, offline support is possible. Get in touch for assistance.
 
@@ -39,7 +39,7 @@ The following endpoints are required for application functionality:
 8. firebaseinstallations.googleapis.com:443
 9. android-safebrowsing.google.com:443
 
-_Number 1-2 are the activation/licencing services. 3 through 9 are endpoints for push notification support on which configuration may be sent (note: no actual push notifications will show on devices, there's no current use case for it)._
+_Number 1-2 are the activation/licensing services. 3 through 9 are endpoints for push notification support on which configuration may be sent (note: no actual push notifications will show on devices, there's no current use case for it)._
 
 These endpoints are optional: 
 

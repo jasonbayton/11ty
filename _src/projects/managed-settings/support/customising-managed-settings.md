@@ -20,7 +20,7 @@ eleventyNavigation:
 <span class="material-symbols-outlined">work_alert</span> Licence required
 </div>
 
-To set customisation options, your organisation must be licenced. If you do not have a valid licence, please contact [project-support@bayton.org](mailto:project-support@bayton.org) to obtain one. Pricing is defined on the [project page](/projects/managed-settings). 
+To set customisation options, your organisation must be licensed. If you do not have a valid licence, please contact [project-support@bayton.org](mailto:project-support@bayton.org) to obtain one. Pricing is defined on the [project page](/projects/managed-settings). 
 
 </div>
 
@@ -31,21 +31,21 @@ MANAGED SETTINGS offers the following customisations:
 **Theme** _- Upcoming_
 : This will allow selection of a colour scheme to match an organisation's brand. It includes **Background colour**, **Card colour**, **Text colour**, and **Accent colour**.
 
-**In-app header icon** _- 1.0.0.0_
-: The option to customise the in-app header icon, defaulted to the MANAGED SETTINGS icon.
+**In-app title icon** _- Upcoming_
+: The option to customise the in-app header icon, defaulted to the MANAGED SETTINGS icon, but will use the generic icon if the respective configuration below is set.
 
 **App title** _- 1.0.0.0_
 : The option to replace the default app title of **Settings** with another.
 
 **Hide BAYTON branding** _- 1.0.0.0_
-: The option to hide the majority of BAYTON branding. A small co-branded icon will remain in the footer area of the application settings page.
+: The option to hide the majority of BAYTON branding. A small co-branded icon will remain in the footer area of the application settings page. Contact me if you require full whitelabelling.  
 
 **Generic icon** _- 1.0.0.0_
-: The option to swap from the default MANAGED SETTINGS icon to that of a generic settings icon. **MANAGED SETTINGS will close if open when this configuration applies.**
+: The option to swap from the default MANAGED SETTINGS app icon to that of a generic settings app icon as shown on the home screen or app launcher. **MANAGED SETTINGS will close if open when this configuration applies.**
 
 ## Enter your organisation ID
 
-In order to unlock customisations, input the licenced organisation ID of Android Enterprise bind. You can find this in two ways:
+In order to unlock customisations, input the licensed organisation ID of Android Enterprise bind. You can find this in two ways:
 
 - Head to [Google Play admin settings](https://play.google.com/work/adminsettings) and log in with the account you used for your bind
 - Open the managed Google Play iFrame within your EMM, and click the settings icon in the top right of the iFrame
@@ -54,7 +54,7 @@ If you've set up your organisation with the new BTE flow, you may also locate yo
 
 ## Customise available settings
 
-With a valid organisation ID set, you may continue to configure all customisation options in addition to the standard, unlicensed & freely available Settings intents.
+With a valid organisation ID set, you may continue to configure all customisation options in addition to the standard, unlicensed & freely available settings intents.
 
 ### Custom theme
 
@@ -68,9 +68,9 @@ HEX code examples -
 
 Submitting these colours via [project-support@bayton.org](mailto:project-support@bayton.org) along with your chosen theme name (non-identifiable preferred) will allow for a custom theme to be implemented in an app update, and the provided string can be entered into the theme input to apply. Options for dynamic theming are under review, rendering an app update unnecessary in future.
 
-### Customising the header-icon
+### Customising the in-app title icon
 
-The in-app header icon supports any PNG, JPG, or SVG file in the recommended dimensions of 128x128px. 
+The in-app title icon supports any PNG, JPG, or SVG file in the recommended dimensions of 128x128px. 
 
 The file must be reachable from the application, as it will fetch and cache it. A valid URL must be used to where the image is hosted, file uploads are not supported.
 

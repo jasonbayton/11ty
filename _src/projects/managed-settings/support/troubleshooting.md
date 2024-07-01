@@ -29,8 +29,8 @@ If you're having issues configuring or using MANAGED SETTINGS, the below guidanc
 : The device user has tapped a link or action that requires a web browser, but no configured browser is available on the device for MANAGED SETTINGS to use. If this is intentional, the warning can be ignored. Otherwise, configure a browser. You may opt to provide limited access to an application such as Chrome through the use of managed configurations, and a FAQ for this can be found [here](/android/android-enterprise-faq/configure-chrome-bookmarks/).
 : Alternatively, configure a support message without links, and disable the feedback action to remove links from the application.
 
-**Licencing server unreachable**
-: The application is unable to communicate with the remote licencing server. See [MANAGED SETTINGS requirements](/projects/managed-settings/support/managed-settings-requirements/) for network requirements in order to use the application. If this is an issue for your deployment, please reach out.
+**Licensing server unreachable**
+: The application is unable to communicate with the remote licensing server. See [MANAGED SETTINGS requirements](/projects/managed-settings/support/managed-settings-requirements/) for network requirements in order to use the application. If this is an issue for your deployment, please reach out.
 
 ## Known issues
 
@@ -76,15 +76,15 @@ If you're setting customisations, but seeing they don't apply to device(s), ther
 
 Customisations are sent through managed config, and if a device is not online - or does not have access to the Google Play infrastructure and/or EMM services to receive it, customisations won't apply. You'll notice no other configurations (activity intents) are configured, either.
 
-**No access to the licencing server**
+**No access to the licensing server**
 
 If the device(s) cannot reach `ping.projects.bayton.org`, a valid licence cannot be confirmed, and customisations will not apply.
 
 **Invalid/unlicensed organisation ID**
 
-Customisations are only supported on licenced organisation IDs. On invalid or unlicensed organisation IDs, customisations will be ignored. **Activity Intents configurations will still apply**. 
+Customisations are only supported on licensed organisation IDs. On invalid or unlicensed organisation IDs, customisations will be ignored. **Activity Intents configurations will still apply**. 
 
-If you're licenced, please ensure the organisation ID added to the managed config is correct, validate the device(s) can reach the licencing server, and reach out to [project-support@bayton.org](mailto:project-support@bayton.org) for further assistance.
+If you're licensed, please ensure the organisation ID added to the managed config is correct, validate the device(s) can reach the licensing server, and reach out to [project-support@bayton.org](mailto:project-support@bayton.org) for further assistance.
 
 ### Customisations apply, but the custom heading icon does not
 
@@ -114,7 +114,7 @@ MANAGED SETTINGS will retrieve/receive the managed configuration either from the
 
 Three scenarios where configuration becomes unavailable:
 
-1. The organisation ID is no longer licenced
+1. The organisation ID is no longer licensed
 2. The device is offline for an extended period
 3. The EMM/DPC is sending blank/malformed configurations without admin input
 
