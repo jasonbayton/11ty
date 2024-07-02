@@ -39,6 +39,8 @@ If your organisation struggles with the need to provide access to:
 
 .. or any number of other device settings _without_ granting access to the full Android Settings application, MANAGED SETTINGS is for you.
 
+If you *don't* leverage a dedicated/kiosk use case in your organisation, but struggle with the inconsistencies of OEM-customised Settings apps causing confusion with your documented processes and resources, MANAGED SETTINGS offers one consistent, supportable interface that can be deployed across your entire estate. With MANAGED SETTINGS there's no need to document where various Settings intents are stored across OEMs, simply deploy the app, provide universal guidance, and know end users will see all settings as you intend them to be seen.
+
 ## What does MANAGED SETTINGS cost?
 
 MANAGED SETTINGS is a "freemium" application. 
