@@ -95,7 +95,7 @@ menu</span> )
 |--------------------|-------------|------|---------|---------|
 | Support message | Provide a support message in app settings. Support single string or HTML input | String | SUPPORT_MESSAGE | `This message can be customised through the Support message managed configuration within EMM application policy settings. For help configuring this application, please read the documentation.` |
 | Support email address | Support email address to be shown under available actions | String | SUPPORT_EMAIL | project-support@bayton.org |
-| Show feedback | Show the feedback button under available actions. Hiding this will prevent sending feedback to bayton.org for improvements or new features. | Boolean | SHOW_FEEDBACK | True |
+| Show feedback & Discord | Show the feedback and Discord buttons under available actions. Hiding these will prevent users providing feedback to bayton.org for improvements or new features | Boolean | SHOW_FEEDBACK | True |
 
 <!--| Show reload config | Allow device users to reload config should an issue arise. | Boolean | SHOW_RELOAD_CONFIG | True |-->
 
