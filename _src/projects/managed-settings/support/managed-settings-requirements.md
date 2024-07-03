@@ -25,21 +25,20 @@ In order to leverage MANAGED SETTINGS, the following requirements and recommenda
 
 ## Network requirements (licensed organisations)
 
-Network connectivity is **mandatory** to allow the licensing server to validate permission to apply customisations. If you do not need or wish to customise the app, offline support is possible. Get in touch for assistance.
+Network connectivity is **mandatory** to allow the licensing server to validate permission to apply customisations. If you do not need or wish to customise the app, working offline is fine. Get in touch for assistance.
 
 The following endpoints are required for application functionality:
 
 1. https://ping.projects.bayton.org:443
-2. https://bayton.org:443
-3. gcm-http.googleapis.com:443/5228-5230
-4. gcm-xmpp.googleapis.com:443/5228-5230
-5. android.googleapis.com:443
-6. fcm.googleapis.com:443/5228-5230
-7. fcm-xmpp.googleapis.com:443/5228-5230
-8. firebaseinstallations.googleapis.com:443
-9. android-safebrowsing.google.com:443
+2. gcm-http.googleapis.com:443/5228-5230
+3. gcm-xmpp.googleapis.com:443/5228-5230
+4. android.googleapis.com:443
+5. fcm.googleapis.com:443/5228-5230
+6. fcm-xmpp.googleapis.com:443/5228-5230
+7. firebaseinstallations.googleapis.com:443
+8. android-safebrowsing.google.com:443
 
-_Number 1-2 are the activation/licensing services. 3 through 9 are endpoints for push notification support on which configuration may be sent (note: no actual push notifications will show on devices, there's no current use case for it)._
+_PING is the activation/licensing service. 2 through 9 are endpoints for push notification support on which configuration may be sent (note: no actual push notifications will show on devices, there's no current use case for it)._
 
 These endpoints are optional: 
 
@@ -49,7 +48,7 @@ For wider Android Enterprise support, which includes the managed configuration f
 
 ## Suggestions for optional functionality 
 
-1. Availability of a browser or webview within the managed environment
+1. Availability of a browser within the managed environment (webview is intentionally not implemented)
    - Allows access to feedback form and app support links
 2. Availability of a mail client 
    - Allows emailing configured support address from the app

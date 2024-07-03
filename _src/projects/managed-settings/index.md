@@ -43,24 +43,26 @@ If you *don't* leverage a dedicated/kiosk use case in your organisation, but str
 
 ## What does MANAGED SETTINGS cost?
 
-MANAGED SETTINGS is a "freemium" application. 
+MANAGED SETTINGS is a *freemium* application. 
 
-Out of the box there are **no restrictions** on the number or type of settings you can provide access to. If you find the application useful and wish to customise it for your organisation, you can licence MANAGED SETTINGS for your Android Enterprise Organisation ID. 
+Out of the box there are **no restrictions** on the number or type of settings you can provide access to. If you find the application useful and wish to customise it for your organisation, you can licence MANAGED SETTINGS to your Android Enterprise Organisation ID. 
 
 Customisations include:
 
-- Custom theme (text, background, accent colours)
+- Custom theme (text, background, accent colours) (coming #soon)
 - Hide most BAYTON branding
-- Custom in-app heading & logo
+- Custom in-app heading & logo (logo coming #soon)
 - Leverage a generic application icon
 
 In future versions it'll be possible to configure custom intents also, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities.
 
-Customisation is available per organisation ID, and costs £500 up-front for up to 2,000 devices. Beyond 2,000 a nominal fee per installed device will be requested and go towards continued development of BAYTON projects.  
+Customisation is available per organisation ID, and costs £500 one-time for up to 2,000 devices. £700 for up to 5,000 devices, and £1,000 up to and beyond 10,000 devices.
+
+*For organisations, EDU, or charities with budget constraints, please get in touch.*
 
 ## Help & support
 
-Head into the MANAGED SETTINGS knowledge base for support and guidance:
+Head into the MANAGED SETTINGS documentation for support and guidance:
 
 <a class="button" href="support/">View the docs</a>
 

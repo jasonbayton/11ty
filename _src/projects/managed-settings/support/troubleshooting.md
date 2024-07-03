@@ -42,7 +42,7 @@ Where alternative intents exist, support will be added. If you're testing with d
 3. Note the time to the second (13:31:45) when doing this, [then capture a bug report](/android/how-to-capture-device-logs/).
 4. Upload the bug report to the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), inputting the operating system version (14), OEM (Samsung) and Model (Galaxy S24) within the text input.
 
-OEM/device support will be tracked via [this document](/projects/managed-settings/support/oem-support/) once internal testing is complete.
+OEM/device support is tracked via [this document](/projects/managed-settings/support/oem-support/). I welcome feedback to grow it.
 
 **Some OEMs/devices only open the Settings app**
 
@@ -52,19 +52,13 @@ If this occurs on a device in your fleet, please submit [feedback](https://docs.
 
 Unfortunately support for this scenario may not be possible, but the OEM/model will be added to the OEM support list and I will work to bring it to the attention of any vendor in which this is occurring on a modern Android version.
 
-OEM/device support will be tracked via [this document](/projects/managed-settings/support/oem-support/) once internal testing is complete.
-
 **App cannot be configured on uncertified devices**
 
-MANAGED SETTINGS requires a GMS/Play Protect certified device with a modern management platform (EMM) to configure it. _If_ your EMM supports offline/AOSP deployment of uncertified devices, _and_ can support the configuration of applications through managed config _without_ access to Google Play, get in touch and I'll see if we can support this use case.
+MANAGED SETTINGS requires a GMS/Play Protect certified device with a modern management platform (EMM) to configure it. _If_ your EMM supports offline/AOSP deployment of uncertified devices, _and_ can support the configuration of applications through managed config _without_ access to Google Play, get in touch and I'll provide the necessary information to offer support for this use case.
 
-**APN settings don't launch**
+**APN settings don't launch/aren't available**
 
-A device needs a SIM and an active plan to launch APN settings. 
-
-**APN settings aren't available**
-
-This is a known issue with several OEMs when invoking the APN intent, an alternative targeting the primary SIM is under investigation.
+A device needs a SIM and an active plan to launch APN settings. Even then, APN settings are altered from AOSP often across OEMs, and it may not be compatible with the intents offered in MANAGED SETTINGS. Custom intents may help, and will be available in future.
 
 ## Common issues
 
