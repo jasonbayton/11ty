@@ -32,14 +32,16 @@ The following configurations are available for MANAGED SETTINGS:
 
 | Settings intent | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
-| Network & Internet | Mobile, Wi-Fi, hotspot settings combined. | Boolean | WIRELESS_SETTINGS | True |
-| Wi-Fi | Add & connect to known networks. | Boolean | WIFI_SETTINGS | True |
-| Mobile network | Configure roaming and data settings. | Boolean | NETWORK_OPERATOR_SETTINGS | True |
-| APN | Configure SIM APN settings. | Boolean | APN_SETTINGS | True |
-| VPN | Create and connect to VPN connections. | Boolean | VPN_SETTINGS | True |
-| Bluetooth | Connect to & manage peripherals. | Boolean | BLUETOOTH_SETTINGS | True |
+| Network & Internet | Mobile, Wi-Fi, hotspot settings combined | Boolean | WIRELESS_SETTINGS | True |
+| Wi-Fi | Add & connect to known networks | Boolean | WIFI_SETTINGS | True |
+| Mobile network | Configure roaming and data settings | Boolean | NETWORK_OPERATOR_SETTINGS | True |
+| APN | Configure SIM APN settings | Boolean | APN_SETTINGS | True |
+| VPN | Create and connect to VPN connections | Boolean | VPN_SETTINGS | True |
+| Bluetooth | Connect to & manage peripherals | Boolean | BLUETOOTH_SETTINGS | True |
 
 </div>
+
+Note: APN is often OEM-customised. The intent provided has been developed to attempt multiple approaches, but it may not work correctly on your managed estate. Please test before deployment, and feed back with findings.
 
 ## Device configuration
 
@@ -48,13 +50,13 @@ The following configurations are available for MANAGED SETTINGS:
 
 | Settings intent | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
-| Display | Configure timeout, brightness, & display. | Boolean | DISPLAY_SETTINGS | True |
-| Sound | Configure device sound. | Boolean | SOUND_SETTINGS | True |
-| Language | Configure device languages. | Boolean | LOCALE_SETTINGS | True |
-| Date & time | Configure date & time. | Boolean | DATE_SETTINGS | True |
-| Print | Configure print services & settings. | Boolean | ACTION_PRINT_SETTINGS | True |
-| Battery saver | Enable battery saving in emergency situations. | Boolean | BATTERY_SAVER_SETTINGS | True |
-| Battery optimisation | Configure apps excluded from optimisation. | Boolean | IGNORE_BATTERY_OPTIMIZATION_SETTINGS | True |
+| Display | Configure timeout, brightness, & display | Boolean | DISPLAY_SETTINGS | True |
+| Sound | Configure sound settings | Boolean | SOUND_SETTINGS | True |
+| Language | Configure device languages | Boolean | LOCALE_SETTINGS | True |
+| Date & time | Configure date & time | Boolean | DATE_SETTINGS | True |
+| Print | Configure print services & settings | Boolean | ACTION_PRINT_SETTINGS | True |
+| Battery saver | Enable battery saving in emergency situations | Boolean | BATTERY_SAVER_SETTINGS | True |
+| Battery optimisation | Configure apps excluded from optimisation | Boolean | IGNORE_BATTERY_OPTIMIZATION_SETTINGS | True |
 
 </div>
 
@@ -64,10 +66,10 @@ The following configurations are available for MANAGED SETTINGS:
 
 | Settings intent | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
-| Security & Privacy | Review & configure security & privacy settings. | Boolean | SECURITY_SETTINGS | True |
-| Unknown sources | Configure sources permitted to sideload apps. | Boolean | MANAGE_UNKNOWN_APP_SOURCES | True |
-| Developer settings | Configure developer settings, including debugging. | Boolean | APPLICATION_DEVELOPMENT_SETTINGS | True |
-| Accessibility | Configure apps with accessibility permissions. | Boolean | ACCESSIBILITY_SETTINGS | True |
+| Security & Privacy | Review & configure security & privacy settings | Boolean | SECURITY_SETTINGS | True |
+| Unknown sources | Configure sources permitted to sideload apps | Boolean | MANAGE_UNKNOWN_APP_SOURCES | True |
+| Developer settings | Configure developer settings, including debugging | Boolean | APPLICATION_DEVELOPMENT_SETTINGS | True |
+| Accessibility | Configure apps with accessibility permissions | Boolean | ACCESSIBILITY_SETTINGS | True |
 
 </div>
 
@@ -91,8 +93,8 @@ menu</span> )
 
 | Config name | Description | Type | Payload | Default | 
 |--------------------|-------------|------|---------|---------|
-| Support message | Provide a support message in app settings. Support single string or HTML input. | String | SUPPORT_MESSAGE | `<p>This message can be customised through the Support message managed configuration within EMM application policy settings.</p><p>For help and documentation on configuring this application, please read <a href=”https://bayton.org/projects/managed-settings/support”>the documentation</a>.</p>` |
-| Support email address | Support email address to be shown under available actions. | String | SUPPORT_EMAIL | project-support@bayton.org |
+| Support message | Provide a support message in app settings. Support single string or HTML input | String | SUPPORT_MESSAGE | `This message can be customised through the Support message managed configuration within EMM application policy settings. For help configuring this application, please read the documentation.` |
+| Support email address | Support email address to be shown under available actions | String | SUPPORT_EMAIL | project-support@bayton.org |
 | Show feedback | Show the feedback button under available actions. Hiding this will prevent sending feedback to bayton.org for improvements or new features. | Boolean | SHOW_FEEDBACK | True |
 
 <!--| Show reload config | Allow device users to reload config should an issue arise. | Boolean | SHOW_RELOAD_CONFIG | True |-->
@@ -121,14 +123,16 @@ For licensed organisations, read up on [Customising the MANAGED SETTINGS experie
 
 | Config name | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
-| Licensed organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation. | String | LICENCE | `null` |
-| Use BAYTON App Icon | Disable this option to show a generic settings icon for your managed estate. | Boolean | APPLICATION_ICON | True |
-| Custom app title | Provide a name shown in the app header (default: Settings). | String | CUSTOM_APP_TITLE | Settings |
-| Custom title icon | Provide a URL to a public PNG/SVG/JPG image of the size 128x128px. | String | CUSTOM_APP_TITLE_ICON | `null` |
-| Custom theme | Input the name of your provided theme. | String | CUSTOM_APP_THEME | BAYTON |
-| Show BAYTON settings branding | Removal of managed settings text advertising bayton.org and the discord available action; a BAYTON logo will still sit in the footer of the app, below available actions. | Boolean | CUSTOM_REMOVE_BRAND | True |
+| Licensed organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation | String | LICENCE | `null` |
+| Use BAYTON App Icon | Disable this option to show a generic settings icon for your managed estate | Boolean | APPLICATION_ICON | True |
+| Custom app title | Provide a name shown in the app header (default: Settings) | String | CUSTOM_APP_TITLE | Settings |
+| *Custom title icon | Provide a URL to a public PNG/SVG/JPG image of the size 128x128px | String | CUSTOM_APP_TITLE_ICON | `null` |
+| *Custom theme | Input the name of your provided theme | String | CUSTOM_APP_THEME | BAYTON |
+| Show BAYTON settings branding | Removal of managed settings text advertising bayton.org and the discord available action; a BAYTON logo will still sit in the footer of the app, below available actions | Boolean | CUSTOM_REMOVE_BRAND | True |
 
 </div>
+
+*Arriving in a future update.
 
 **Note: Theme and icon customisations require an app re-launch to apply**.
 

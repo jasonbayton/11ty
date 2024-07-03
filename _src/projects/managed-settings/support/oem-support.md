@@ -20,12 +20,15 @@ eleventyNavigation:
 
 The following devices have been approved for compatibility with MANAGED SETTINGS:
 
-- Motorola Thinkphone <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 14</span>
 - Google Pixel (6 and above, though below should work) <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 12-15</span>
 - OnePlus Nord CE 3 Lite 5G (OxygenOS 14) <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 13</span>
 - Samsung Galaxy Tab Active4 Pro 5G (One UI 6.0) <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 14</span>
 
 ## Validated with notes
+
+**Motorola Thinkphone** <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 14</span>
+
+- APN may fail to load
 
 **Xiaomi MIUI 14** <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 13</span>
 
