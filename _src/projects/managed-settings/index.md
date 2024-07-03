@@ -60,6 +60,14 @@ Customisation is available per organisation ID, and costs £500 one-time for up 
 
 *For organisations, EDU, or charities with budget constraints, please get in touch.*
 
+## Get started
+
+You can find the app publicly here:
+
+<a href='https://play.google.com/store/apps/details?id=org.bayton.managedsettings'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="200px"/></a>
+
+And view the handy quick-start [right here](https://bayton.org/projects/managed-settings/support/get-started/).
+
 ## Help & support
 
 Head into the MANAGED SETTINGS documentation for support and guidance:
