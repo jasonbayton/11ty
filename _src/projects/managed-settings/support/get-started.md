@@ -57,7 +57,9 @@ To install it for enterprise management, log in to your EMM platform, navigate t
 ## Configure the application
 
 1. Once selected, open the application configuration for MANAGED SETTINGS, and switch to managed configuration setup.
-2. You may now de-select any Settings intents you don't wish to provide access to, define a support email address, and optionally a support message.
+2. You may now select any Settings intents you wish to provide access to, define a support email address, and optionally a support message.
+
+**Note: If you simply import managed config and save, the MANAGED SETTINGS application will remove access to all intents, showing a blank screen**.
 
 <div class="callout">
 <div class="callout-heading">Formatting support messages</div>
