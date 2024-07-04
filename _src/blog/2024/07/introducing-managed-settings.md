@@ -28,7 +28,7 @@ MANAGED SETTINGS works across fully managed, dedicated, and work profile devices
 
 ## When can I get it?
 
-I'm releasing MANAGED SETTINGS as a free application on Google Play, available today. In spite of its simplicity, a lot of time and effort has been put into this, so if you'd like to support the continued development of projects like this for the betterment of the Android Ecosystem, I'm offering a licensed upgrade for MANAGED SETTINGS which offers (currently) basic customisation of the in-app experience. In an upcoming release this will extend to theming to allow organisations the option of setting a colour scheme for the MANAGED SETTINGS app that'll enable closer alignment to your organisation's brand - but I want to ensure there's demand for that before I commit to it 🙂
+I'm releasing MANAGED SETTINGS as a free application on Google Play, available today. In spite of its simplicity, a lot of time and effort has been put into this, so if you'd like to support the continued development of projects like this for the betterment of the Android Ecosystem, I'm offering a licensed upgrade for MANAGED SETTINGS which offers (currently) basic customisation of the in-app experience. In an upcoming release this will extend to theming to allow organisations the option of setting a colour scheme for the MANAGED SETTINGS app that'll enable closer alignment to the organisation's brand - but I want to ensure there's demand for that before I commit to it 🙂
 
 Get it here:
 
