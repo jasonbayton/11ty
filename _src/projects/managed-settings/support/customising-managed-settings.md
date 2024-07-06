@@ -50,13 +50,17 @@ In order to unlock customisations, input the licensed organisation ID of Android
 - Head to [Google Play admin settings](https://play.google.com/work/adminsettings) and log in with the account you used for your bind
 - Open the managed Google Play iFrame within your EMM, and click the settings icon in the top right of the iFrame
 
-If you've set up your organisation with the new BTE flow, you may also locate your Android Enterprise bind organisation ID through [Third-party Integrations](https://admin.google.com/ac/devices/settings/thirdparty) in the Google Workspace/Cloud identity admin console.
+If you've set up your organisation with the new customer signup (BTE) flow, you may also locate your Android Enterprise bind organisation ID through [Third-party Integrations](https://admin.google.com/ac/devices/settings/thirdparty) in the Google Workspace/Cloud identity admin console.
 
 ## Customise available settings
 
 With a valid organisation ID set, you may continue to configure all customisation options in addition to the standard, unlicensed & freely available settings intents.
 
 ### Custom theme
+
+<div class="callout callout-small">
+Custom theme is expected in release 1.0.1.0
+</div>
 
 For all theme-based customisations, you must specify a colour in HEX code format. [Color Kit](https://colorkit.co/color-picker/) offers a decent tool for colour selection if you require guidance. 
 
@@ -69,6 +73,10 @@ HEX code examples -
 Submitting these colours via [project-support@bayton.org](mailto:project-support@bayton.org) along with your chosen theme name (non-identifiable preferred) will allow for a custom theme to be implemented in an app update, and the provided string can be entered into the theme input to apply. Options for dynamic theming are under review, rendering an app update unnecessary in future.
 
 ### Customising the in-app title icon
+
+<div class="callout callout-small">
+Title icon is expected in release 1.0.1.0
+</div>
 
 The in-app title icon supports any PNG, JPG, or SVG file in the recommended dimensions of 128x128px. 
 
@@ -86,15 +94,15 @@ The in-app title offers a standard alphanumeric input to allow organisations to 
 
 ## Customised example
 
-The following is an example of a customised interface. I call this one _lemon & lime_.
+The following is an example of a customised interface. I call this one _lemon & lime_. 
 
 **Legend** 
 1. Background colour
 2. Card colour
-3. Text colour
-4. Accent colour
-5. Header icon
-6. Title
-7. Branding
+3. Accent colour
+4. Header icon
+5. Title
+6. BAYTON branding
+7. Text colour
 
-![](https://cdn.bayton.org/assets%2Fmanaged_settings%2Fmanaged_settings_branding_mockup.png)
+![](https://cdn.bayton.org/assets%2Fmanaged_settings%ms_customisation.png)
