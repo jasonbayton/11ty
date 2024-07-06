@@ -105,4 +105,4 @@ The following is an example of a customised interface. I call this one _lemon & 
 6. BAYTON branding
 7. Text colour
 
-![](https://cdn.bayton.org/assets%2Fmanaged_settings%ms_customisation.png)
+![](https://cdn.bayton.org/assets/managed_settings/ms_customisation.png)
