@@ -94,7 +94,7 @@ The in-app title offers a standard alphanumeric input to allow organisations to 
 
 ## Customised example
 
-The following is an example of a customised interface. I call this one _lemon & lime_. 
+The following are examples of a customised interface. I call these _lemon & lime_ and _sky_ - they're not available in the app just yet.
 
 **Legend** 
 1. Background colour
