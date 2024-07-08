@@ -20,7 +20,7 @@ If you're having issues configuring or using MANAGED SETTINGS, the below guidanc
 ## Built-in warning/status messages
 
 **Activity may not be available on this device**
-: This shows when a device user taps a Setting (i.e., APN) for which there isn't an activity intent available. This may be because the OEM has implemented a custom activity intent, or the device doesn't have this setting available. Please raise a support request via [project-support@bayton.org](mailto:project-support@bayton.org) to investigate. You will be asked for a [bug report](/android/how-to-capture-device-logs/) after replicating the issue.
+: This shows when a device user taps a Setting (i.e., APN) for which there isn't an activity intent available. This may be because the OEM has implemented a custom activity intent, or the device doesn't have this setting available. Please follow steps under [submitting to support](#submitting-to-support) to have this investigated. You will be asked for a [bug report](/android/how-to-capture-device-logs/) after replicating the issue.
 
 **A supported client is required to email support**
 : The device user has tapped the support card under available actions, but no mail client is available on the device. This warning can be safely ignored if it is intentional, and device users should use another means of emailing the configured support address.
@@ -36,11 +36,7 @@ If you're having issues configuring or using MANAGED SETTINGS, the below guidanc
 
 **Some OEMs/devices do not support AOSP settings intents**
 
-Where alternative intents exist, support will be added. If you're testing with devices that do not open intents, you can submit information to aid in resolution through the following process:
-1. Open your native Android Settings application
-2. Tap in to the Setting (e.g., Wi-Fi) that doesn't launch through MANAGED SETTINGS. Do this several times.
-3. Note the time to the second (13:31:45) when doing this, [then capture a bug report](/android/how-to-capture-device-logs/).
-4. Upload the bug report to the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), inputting the operating system version (14), OEM (Samsung) and Model (Galaxy S24) within the text input.
+Where alternative intents exist, support will be added. If you're testing with devices that do not open intents, please follow steps under [submitting to support](#submitting-to-support) to have this investigated.
 
 OEM/device support is tracked via [this document](/projects/managed-settings/support/oem-support/). I welcome feedback to grow it.
 
@@ -48,9 +44,9 @@ OEM/device support is tracked via [this document](/projects/managed-settings/sup
 
 Particularly prevalent on older Android versions, some devices treat all activity intents as a request to open the Settings application, and provide full access to all device settings. 
 
-If this occurs on a device in your fleet, please submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), inputting the operating system version (14), OEM (Samsung) and Model (Galaxy S24) within the text input. 
+If this occurs on a device in your fleet, please follow steps under [submitting to support](#submitting-to-support) to have this investigated.
 
-Unfortunately support for this scenario may not be possible, but the OEM/model will be added to the OEM support list and I will work to bring it to the attention of any vendor in which this is occurring on a modern Android version.
+Unfortunately support for this scenario may not be possible, but the OEM/model will be added to the [OEM support list](/projects/managed-settings/support/oem-support/) and I will work to bring it to the attention of any vendor in which this is occurring on a modern Android version.
 
 **App cannot be configured on uncertified devices**
 
@@ -117,3 +113,31 @@ For 1, reach out if you believe this to be a mistake.
 For 2, if you have a use case that mandates devices are offline for more than one week at a time, please reach out.
 
 For 3, get in touch with your EMM in the first instance to debug their platform. Loop me in as required to assist.
+
+## Submitting to support
+
+<div class="callout callout-small">
+
+When submitting an issue for support, please do attempt to provide as much information as possible.
+
+</div>
+
+**Licensing/billing issues**
+
+Please email [project-support@bayton.org](mailto:project-support@bayton.org) directly, no need to raise an issue.
+
+**Functionality issues**
+
+**Remember**: Your device may be one of many regional SKUs of one of many OEM models, so the more information you can provide about your device(s) and your issue, the better I can support you.
+
+You can obtain information to aid in resolution through the following process:
+
+1. Open your native Android Settings application
+2. Tap in to the Setting (e.g., Wi-Fi) that doesn't launch through MANAGED SETTINGS. **Do this several times**.
+3. Note the time to the second (13:31:45) when doing this, [then capture a bug report](/android/how-to-capture-device-logs/).
+4. Repeat step 2 & 3, but from the MANAGED SETTINGS intent you're unable to use.
+
+With this information, please create a [new issue](https://github.com/baytonorg/managed-settings-tracker/issues/new?assignees=jasonbayton&labels=bug&projects=&template=bug_report.md&title=Issue%3A+) to be investigated. 
+
+As bug reports can contain sensitive information, you're welcome to use the private [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link) for BRs that may come from a device with user information present. Please input the issue number of the raised request on GitHub so feedback can be linked to the issue.
+
