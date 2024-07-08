@@ -78,6 +78,10 @@ There are new alerts in logging to determine the permissions applications are no
 
 Knowing how many enterprise vendors lean on platform signature permissions today (basically most EMMs, several SaaS products, etc), this has the potential to cause headaches once 15 launches.
 
+## Skip adding personal accounts during company owned work profile provisioning
+
+From 15, Google allow organisation admins to set policies that skip the add-account flow during managed provisioning of a company owned work profile device. 
+
 ## Partial screen recording
 
 If you're like me and record your screen _far too often_ to demonstrate anything from a device feature to a bug, user guides and more, you'll be pleased to hear the previously Pixel-only feature introduced in Android 14 is coming to the wider ecosystem with the 15 update. Now users can limit screen sharing to _just the app_ they want to show, and no longer fret on the possibility to showing something that may not be appropriate for the context. Huzzah!
