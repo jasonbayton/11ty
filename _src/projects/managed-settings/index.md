@@ -54,11 +54,40 @@ Customisations include:
 - Custom in-app heading & logo (logo coming #soon)
 - Leverage a generic application icon
 
-In future versions it'll be possible to configure custom intents also, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities.
+In future versions it'll be possible to configure custom intents also, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities without waiting on me to support it (though happy to do so for popular requests).
 
-Customisation is available per organisation ID, and costs £500 one-time for up to 2,000 devices. £700 for up to 5,000 devices, and £1,000 up to and beyond 10,000 devices.
+### For organisations 
+
+Customisation is available per organisation ID, and licensed accordingly:
+
+<div class="responsive-table-wrapper">
+
+| Devices | Cost | 
+| ------- | ---- |
+| 0 - 2,000 | £500 | 
+| 2,001 - 5,000 | £700 | 
+| 5,001 - ∞ | £1,000 | 
+
+</div>
 
 *For organisations, EDU, or charities with budget constraints, please get in touch.*
+
+If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem. 
+
+### For vendors
+
+If you're an ecosystem partner wishing to licence a version that is customised out of box (no waiting for managed configs to apply), £3,000 will grant you a vendor licence to distribute across your customer base, and a flat £300 for each organisation ID associated with your custom package ID.
+
+<div class="responsive-table-wrapper">
+
+| Devices | Licence | Cost | 
+| ------- | ------- | ---- |
+| ∞ | Customised app | £3,000 | 
+| ∞ | Org ID | £300 |  
+
+</div>
+
+Of course you may choose to license customers on the standard package as organisations above, get in touch to discuss reseller discounts.
 
 ## Get started
 
