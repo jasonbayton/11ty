@@ -87,7 +87,7 @@ If you're an ecosystem partner wishing to licence a version that is customised o
 
 </div>
 
-Of course you may choose to license customers on the standard package as organisations above, get in touch to discuss reseller discounts.
+Of course you may choose to licence customers on the standard package as organisations above, get in touch to discuss reseller discounts.
 
 ## Get started
 
