@@ -137,7 +137,7 @@ You can obtain information to aid in resolution through the following process:
 3. Note the time to the second (13:31:45) when doing this, [then capture a bug report](/android/how-to-capture-device-logs/).
 4. Repeat step 2 & 3, but from the MANAGED SETTINGS intent you're unable to use.
 
-With this information, please create a [new issue](https://github.com/baytonorg/managed-settings-tracker/issues/new?assignees=jasonbayton&labels=bug&projects=&template=bug_report.md&title=Issue%3A+) to be investigated. 
+With this information, please create a [new issue](https://github.com/baytonorg/managed_settings_tracker/issues/new?assignees=jasonbayton&labels=bug&projects=&template=bug_report.md&title=Issue%3A+) to be investigated. 
 
 As bug reports can contain sensitive information, you're welcome to use the private [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link) for BRs that may come from a device with user information present. Please input the issue number of the raised request on GitHub so feedback can be linked to the issue.
 

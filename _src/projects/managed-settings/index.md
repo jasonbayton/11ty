@@ -103,4 +103,4 @@ Head into the MANAGED SETTINGS documentation for support and guidance:
 
 <a class="button" href="support/">View the docs</a>
 
-Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [discord community](https://discord.gg/YUY7jAjayr) or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
+Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [discord community](https://discord.gg/YUY7jAjayr), vote on or raise a [new feature request](https://github.com/baytonorg/managed_settings_tracker), or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 

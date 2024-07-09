@@ -59,7 +59,9 @@ With a valid organisation ID set, you may continue to configure all customisatio
 ### Custom theme
 
 <div class="callout callout-small">
+
 Custom theme is expected in release 1.0.1.0
+
 </div>
 
 For all theme-based customisations, you must specify a colour in HEX code format. [Color Kit](https://colorkit.co/color-picker/) offers a decent tool for colour selection if you require guidance. 
@@ -75,7 +77,9 @@ Submitting these colours via [project-support@bayton.org](mailto:project-support
 ### Customising the in-app title icon
 
 <div class="callout callout-small">
+
 Title icon is expected in release 1.0.1.0
+
 </div>
 
 The in-app title icon supports any PNG, JPG, or SVG file in the recommended dimensions of 128x128px. 
