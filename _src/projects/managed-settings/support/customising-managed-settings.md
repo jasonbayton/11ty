@@ -60,7 +60,7 @@ With a valid organisation ID set, you may continue to configure all customisatio
 
 <div class="callout callout-small">
 
-Custom theme is expected in release 1.0.1.0
+Custom theme is planned for an upcoming release. 
 
 </div>
 
