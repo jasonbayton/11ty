@@ -28,11 +28,8 @@ To set customisation options, your organisation must be licensed. If you do not 
 
 MANAGED SETTINGS offers the following customisations:
 
-**Theme** _- Upcoming_
-: This will allow selection of a colour scheme to match an organisation's brand. It includes **Background colour**, **Card colour**, **Text colour**, and **Accent colour**.
-
 **In-app title icon** _- Upcoming_
-: The option to customise the in-app header icon, defaulted to the MANAGED SETTINGS icon, but will use the generic icon if the respective configuration below is set.
+: The option to customise the in-app title icon, defaulted to the MANAGED SETTINGS icon, but will use the generic icon if the respective configuration below is set.
 
 **App title** _- 1.0.0.0_
 : The option to replace the default app title of **Settings** with another.
@@ -42,6 +39,16 @@ MANAGED SETTINGS offers the following customisations:
 
 **Generic icon** _- 1.0.0.0_
 : The option to swap from the default MANAGED SETTINGS app icon to that of a generic settings app icon as shown on the home screen or app launcher. **MANAGED SETTINGS will close if open when this configuration applies.**
+
+### In future
+
+**Theme**
+: This will allow selection of a colour scheme to match an organisation's brand. It includes **Background colour**, **Card colour**, **Text colour**, and **Accent colour**.
+
+**Custom intents**
+: This will allow organisations to define their own intents, including those to other applications.
+
+If you'd like to see more customisation options, or general features, [raise a feature request](https://github.com/baytonorg/managed_settings_tracker/issues/) or discuss your requirements on the [MANAGED SETTINGS discord channel](https://discord.gg/YUY7jAjayr).
 
 ## Enter your organisation ID
 
@@ -78,7 +85,7 @@ Submitting these colours via [project-support@bayton.org](mailto:project-support
 
 <div class="callout callout-small">
 
-Title icon is expected in release 1.0.1.0
+Title icon is expected in release 1.0.1.0.
 
 </div>
 
@@ -96,15 +103,35 @@ Likewise, if the image file is considerable in size, it may delay loading or tim
 
 The in-app title offers a standard alphanumeric input to allow organisations to use their own company name or custom title. Do consider the length of the title being input, as more than ~20 characters may cause a line break, and look unsightly.
 
+### Adding a custom intent
+
+<div class="callout callout-small">
+
+Custom intent support is planned for an upcoming release. Please vote on it [here](https://github.com/baytonorg/managed_settings_tracker/issues/2).
+
+</div>
+
+To support settings intents not currently provided by MANAGED SETTINGS, custom intents are supported within the managed app configuration. The managed config consists of:
+
+- Title
+- Description
+- Intent
+
+Intents generated will fall under the category **Your organisation** and sit at the very top of the intents list, above Network & connectivity
+
+Custom intents will show an organisation icon (this will not be customisable).
+
+The intent may be for Settings, or it may be for a custom application, MANAGED SETTINGS will not validate it.
+
 ## Customised example
 
-The following are examples of a customised interface. I call these _lemon & lime_ and _sky_ - they're not available in the app just yet.
+The following are examples of a customised interface. I call these _lemon & lime_ and _sky_ - they're not available in the app, just examples.
 
 **Legend** 
 1. Background colour
 2. Card colour
 3. Accent colour
-4. Header icon
+4. Title icon
 5. Title
 6. BAYTON branding
 7. Text colour

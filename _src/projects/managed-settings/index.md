@@ -49,12 +49,11 @@ Out of the box there are **no restrictions** on the number or type of settings y
 
 Customisations include:
 
-- Custom theme (text, background, accent colours) (coming #soon)
 - Hide most BAYTON branding
-- Custom in-app heading & logo (logo coming #soon)
+- Custom in-app title & logo (logo coming #soon)
 - Leverage a generic application icon
 
-In future versions it'll be possible to configure custom intents also, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities without waiting on me to support it (though happy to do so for popular requests).
+In future versions it'll be possible to theme the app, and configure custom intents, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities without waiting on me to support it (though happy to do so for popular requests). If you'd be interested in these features, they will be prioritised once licence revenue starts coming in.
 
 ### For organisations 
 
@@ -72,7 +71,7 @@ Customisation is available per organisation ID, and licensed accordingly:
 
 *For organisations, EDU, or charities with budget constraints, please get in touch.*
 
-If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem. 
+If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem, so I'd appreciate playing fair. 
 
 ### For vendors
 
