@@ -72,7 +72,7 @@ Customisation is available per organisation ID, and licensed accordingly:
 
 *For organisations, EDU, or charities with budget constraints, please get in touch.*
 
-#### 🛟 Priority support
+#### <span class="material-symbols-outlined">support</span> Priority support
 
 MANAGED SETTINGS comes with access to email support, Discord, and documentation. If you'd like additional support, priority offers:
 
