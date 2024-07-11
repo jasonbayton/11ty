@@ -63,16 +63,16 @@ Customisation is available per organisation ID, and licensed accordingly:
 
 | Licence | Devices        | Cost   | Purchase | 
 | ------- | -------------- | ------ | -------- |
-| Org ID  | 0 - 2,000      | £500   | [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
+| **Organisation ID**  | 0 - 2,000      | £500   | [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
 |         | 2,001 - 5,000  | £700   | [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
 |         | 5,001 - ∞      | £1,000 | [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
-| Priority support | ∞     | £1,000p.a | [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
+| **Priority support** | ∞     | £1,000p.a | [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
 
 </div>
 
 *For organisations, EDU, or charities with budget constraints, please get in touch.*
 
-**Priority support** 
+#### 🛟 Priority support
 
 MANAGED SETTINGS comes with access to email support, Discord, and documentation. If you'd like additional support, priority offers:
 
@@ -92,8 +92,8 @@ If you're an ecosystem partner wishing to licence a version that is customised o
 
 | Licence | Devices | Cost | 
 | ------- | ------- | ---- |
-| Customised app | ∞ | £3,000 | 
-| Org ID | ∞ | £300 |  
+| **Customised app** | ∞ | £3,000 | 
+| **Organisation ID** | ∞ | £300 |  
 
 </div>
 
