@@ -63,10 +63,10 @@ Customisation is available per organisation ID, and licensed accordingly:
 
 | Licence | Devices        | Cost   | Purchase | 
 | ------- | -------------- | ------ | -------- |
-| **Organisation ID**  | 0 - 2,000      | £500   | [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
-|         | 2,001 - 5,000  | £700   | [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
-|         | 5,001 - ∞      | £1,000 | [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
-| **Priority support** | ∞     | £1,000p.a | [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
+| **Organisation ID**  | 0 - 2,000      | £500   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
+|         | 2,001 - 5,000  | £700   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
+|         | 5,001 - ∞      | £1,000 | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
+| **Priority support** | ∞     | £1,000p.a | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
 
 </div>
 
