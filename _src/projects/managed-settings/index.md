@@ -61,17 +61,28 @@ Customisation is available per organisation ID, and licensed accordingly:
 
 <div class="responsive-table-wrapper">
 
-| Devices | Cost | 
-| ------- | ---- |
-| 0 - 2,000 | £500 | 
-| 2,001 - 5,000 | £700 | 
-| 5,001 - ∞ | £1,000 | 
+| Licence | Devices        | Cost   | Purchase | 
+| ------- | -------------- | ------ | -------- |
+| Org ID  | 0 - 2,000      | £500   | [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
+|         | 2,001 - 5,000  | £700   | [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
+|         | 5,001 - ∞      | £1,000 | [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
+| Priority support | ∞     | £1,000p.a | [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
 
 </div>
 
 *For organisations, EDU, or charities with budget constraints, please get in touch.*
 
-If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem, so I'd appreciate playing fair. 
+**Priority support** 
+
+MANAGED SETTINGS comes with access to email support, Discord, and documentation. If you'd like additional support, priority offers:
+
+- a dedicated, private communication channel (Discord & voice)
+- faster (UK hours) responses
+- precedence on feature requests. 
+
+It's an annual recurring fee.
+
+Invoicing is available if Stripe isn't your thing. If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem, so dodging fair licensing sucks for everyone. 
 
 ### For vendors
 
@@ -79,10 +90,10 @@ If you're an ecosystem partner wishing to licence a version that is customised o
 
 <div class="responsive-table-wrapper">
 
-| Devices | Licence | Cost | 
+| Licence | Devices | Cost | 
 | ------- | ------- | ---- |
-| ∞ | Customised app | £3,000 | 
-| ∞ | Org ID | £300 |  
+| Customised app | ∞ | £3,000 | 
+| Org ID | ∞ | £300 |  
 
 </div>
 
