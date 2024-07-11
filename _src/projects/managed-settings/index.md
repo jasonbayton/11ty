@@ -74,13 +74,14 @@ Customisation is available per organisation ID, and licensed accordingly:
 
 #### <span class="material-symbols-outlined">support</span> Priority support
 
-MANAGED SETTINGS comes with access to email support, Discord, and documentation. If you'd like additional support, priority offers:
+MANAGED SETTINGS comes with access to email support, access to the Discord community, and documentation. If you'd like additional support, priority offers:
 
-- a dedicated, private communication channel (Discord & voice)
-- faster (UK hours) responses
-- precedence on feature requests. 
+- A dedicated, private communication channel (Discord & voice)
+- Faster (UK hours) responses
+- Precedence on feature requests. 
+- Deployment and configuration assistance
 
-It's an annual recurring fee.
+**It's an annual recurring fee**.
 
 Invoicing is available if Stripe isn't your thing. If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem, so dodging fair licensing sucks for everyone. 
 
