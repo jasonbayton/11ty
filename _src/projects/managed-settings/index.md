@@ -100,6 +100,15 @@ If you're an ecosystem partner wishing to licence a version that is customised o
 
 Of course you may choose to licence customers on the standard package as organisations above, get in touch to discuss reseller discounts.
 
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small"><span class="material-symbols-outlined">sentiment_dissatisfied</span> I don't like this pricing</div>
+
+Hey, that's OK. The pricing reflects my local market and what I think is fair for the effort put in to building and supporting this utility, it's not intended to dissuade use. 
+
+Get in touch to discuss, and we can come to an agreement.
+
+</div>
+
 ## Get started
 
 You can find the app publicly here:
