@@ -132,7 +132,7 @@ For licensed organisations, read up on [Customising the MANAGED SETTINGS experie
 
 </div>
 
-*Anticipated in v.1.0.1.0
+*Anticipated in v.1.0.1.0  
 **Expected in a future release (get in touch to demand)
 
 **Note: Theme and icon customisations require an app re-launch to apply**.
