@@ -21,7 +21,7 @@ In order to leverage MANAGED SETTINGS, the following requirements and recommenda
 
 1. An Enterprise Mobility Management (EMM/MDM) platform or CustomDPC solution
 2. EMM platform or DPC solution support for managed configurations
-3. Android 6.0 or newer
+3. Android 7.0 or newer
 
 ## Network requirements (licensed organisations)
 
@@ -54,3 +54,12 @@ For wider Android Enterprise support, which includes the managed configuration f
    - Allows emailing configured support address from the app
 
 Neither of these are mandatory, however links will fail with a warning.
+
+## Fully offline support
+
+MANAGED SETTINGS, the public version, requires a network connection to validate the application licence for licensed customisations. Given the obvious use case of kiosk and dedicated/single purpose deployments I appreciate this won't work for all organisations. Orgs looking for offline support have two options:
+
+1. Purchase a licence for an unlocked version of MANAGED SETTINGS. Due to loss of visibility, this will be chargeable at the top 5,000+ device rate of £1000 and can be delivered as a private application via the Google Play iFrame or APK
+2. Purchase a fully customised & themed version adapted to your organisation's brand, akin to that offered to MSPs/resellers, for £3,000 with no restrictions. Delivered via Google Play iFrame or APK.
+
+Get in touch via [project-support@bayton.org](mailto:project-support@bayton.org) to discuss.

@@ -16,6 +16,18 @@ eleventyNavigation:
     order: 5
 ---
 
+<div class="callout callout-orange">
+<div class="callout-heading"><span class="material-symbols-outlined">edit_note</span>Contribute to this list</div>
+
+If you've tested MANAGED SETTINGS on your own device and would like to contribute to the supported devices list below, you can:
+
+1. [Raise an issue](https://github.com/baytonorg/managed_settings_tracker/issues/new?assignees=jasonbayton&labels=support&projects=&template=device_support.md&title=Device%3A+) on the MANAGED SETTINGS tracker
+2. Edit this page and submit a PR (link to edit at the bottom right).
+
+Any and all input is appreciated!
+
+</div>
+
 ## Validated working devices
 
 The following devices have been approved for compatibility with MANAGED SETTINGS:
@@ -23,6 +35,7 @@ The following devices have been approved for compatibility with MANAGED SETTINGS
 - Google Pixel (6 and above, though below should work) <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 12-15</span>
 - OnePlus Nord CE 3 Lite 5G (OxygenOS 14) <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 13</span>
 - Samsung Galaxy Tab Active4 Pro 5G (One UI 6.0) <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 14</span>
+- CMF Phone 1 <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 14</span>
 
 ## Validated with notes
 
