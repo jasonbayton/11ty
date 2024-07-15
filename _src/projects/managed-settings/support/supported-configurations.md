@@ -41,7 +41,11 @@ The following configurations are available for MANAGED SETTINGS:
 
 </div>
 
-Note: APN is often OEM-customised. The intent provided has been developed to attempt multiple approaches, but it may not work correctly on your managed estate. Please test before deployment, and feed back with findings.
+Note: 
+- APN is often OEM-customised. The intent provided has been developed to attempt multiple approaches, but it may not work correctly on your managed estate. 
+- Mobile network options may crash if no SIM/Profile is present. A future release will attempt to detect and appropriately disable unsupported intents.
+
+Please test before deployment, and feed back with findings.
 
 ## Device configuration
 
