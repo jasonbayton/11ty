@@ -109,6 +109,12 @@ Get in touch to discuss, and we can come to an agreement.
 
 </div>
 
+## What MANAGED SETTINGS doesn't do
+
+MANAGED SETTINGS does not _change device settings_. It holds no permissions to do so, and this is intentional.
+
+If you feel strongly that MANAGED SETTINGS _should_ be able to change some device settings, submit feedback or raise a feature request (links below)
+
 ## Get started
 
 You can find the app publicly here:

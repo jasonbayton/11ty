@@ -43,7 +43,7 @@ The following configurations are available for MANAGED SETTINGS:
 
 Note: 
 - APN is often OEM-customised. The intent provided has been developed to attempt multiple approaches, but it may not work correctly on your managed estate. 
-- Mobile network options may crash if no SIM/Profile is present. A future release will attempt to detect and appropriately disable unsupported intents.
+- Mobile network options [may crash](https://github.com/baytonorg/managed_settings_tracker/issues/5) if no SIM/Profile is present. A future release will attempt to detect and appropriately disable unsupported intents.
 
 Please test before deployment, and feed back with findings.
 
@@ -130,9 +130,9 @@ For licensed organisations, read up on [Customising the MANAGED SETTINGS experie
 | Licensed organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation | String | LICENCE | `null` |
 | Use BAYTON App Icon | Disable this to show a generic app (home &amp; app drawer) icon for your managed estate | Boolean | APPLICATION_ICON | True |
 | Custom app title | Provide a custom in-app title (default: Settings) | String | CUSTOM_APP_TITLE | Settings |
+| Show BAYTON settings branding | Disable this to remove text advertising bayton.org, a BAYTON logo will still sit in the footer of the app, below available actions | Boolean | CUSTOM_REMOVE_BRAND | True |
 | *Custom title icon | Provide a URL to a public PNG/SVG/JPG image of the size 128x128px | String | CUSTOM_APP_TITLE_ICON | `null` |
 | **Custom theme | Input the name of your provided theme | String | CUSTOM_APP_THEME | BAYTON |
-| Show BAYTON settings branding | Disable this to remove text advertising bayton.org, a BAYTON logo will still sit in the footer of the app, below available actions | Boolean | CUSTOM_REMOVE_BRAND | True |
 
 </div>
 

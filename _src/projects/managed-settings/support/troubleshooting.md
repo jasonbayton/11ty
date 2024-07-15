@@ -68,7 +68,7 @@ Customisations are sent through managed config, and if a device is not online - 
 
 **No access to the licensing server**
 
-If the device(s) cannot reach `ping.projects.bayton.org`, a valid licence cannot be confirmed, and customisations will not apply.
+If the device(s) cannot reach `ping.projects.bayton.org`, a valid licence cannot be confirmed, and customisations will not apply. See [network requirements](/projects/managed-settings/support/managed-settings-requirements/).
 
 **Invalid/unlicensed organisation ID**
 
@@ -96,7 +96,7 @@ This points to an issue between the application and the EMM in the first instanc
 
 ### MANAGED SETTINGS doesn't install
 
-MANAGED SETTINGS requires Android 6.0 and above, running on ARM chipsets. Outside of these requirements, the app should be supported on pretty much all open-market devices. If you're seeing issues, reach out to debug.
+MANAGED SETTINGS requires Android 7.0 and above, running on ARM chipsets. Outside of these requirements, the app should be supported on pretty much all open-market devices. If you're seeing issues, reach out to debug.
 
 ### The configuration unsets itself
 
@@ -107,6 +107,7 @@ Three scenarios where configuration becomes unavailable:
 1. The organisation ID is no longer licensed
 2. The device is offline for an extended period
 3. The EMM/DPC is sending blank/malformed configurations without admin input
+4. There's a bug 🙃
 
 For 1, reach out if you believe this to be a mistake. 
 
@@ -140,4 +141,6 @@ You can obtain information to aid in resolution through the following process:
 With this information, please create a [new issue](https://github.com/baytonorg/managed_settings_tracker/issues/new?assignees=jasonbayton&labels=bug&projects=&template=bug_report.md&title=Issue%3A+) to be investigated. 
 
 As bug reports can contain sensitive information, you're welcome to use the private [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link) for BRs that may come from a device with user information present. Please input the issue number of the raised request on GitHub so feedback can be linked to the issue.
+
+For priority support customers, raise your concern through your dedicated channel.
 
