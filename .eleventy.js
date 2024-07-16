@@ -28,7 +28,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_headers": "/_headers"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/robots.txt": "/robots.txt"});
-  eleventyConfig.addPassthroughCopy({"_src/_data/devices.json": "/data/devices.json"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/entID.xml": "/projects/managed-settings/entID.xml"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/assetlinks.json": "/.well-known/assetlinks.json"});
   eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
