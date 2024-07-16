@@ -4,8 +4,8 @@ const path = require('path');
 
 module.exports = async function() {
     const url = 'https://ping.projects.bayton.org/api/devices';
-    const token = process.env.PING_API;
-    const outputPath = path.join(__dirname, 'devices.json');
+    const token = process.env.PING_API; // Use an environment variable for the token
+    const outputPath = path.join('/opt/build', 'devices.json'); // Writable directory on Netlify
 
     try {
         const response = await fetch(url, {
@@ -25,12 +25,7 @@ module.exports = async function() {
 
         // Get the current date
         const currentDate = new Date();
-
-        // Function to calculate the difference in days
-        function daysDifference(date1, date2) {
-            const timeDifference = date2.getTime() - date1.getTime();
-            return timeDifference / (1000 * 3600 * 24);
-        }
+        console.log(`Current Date: ${currentDate.toISOString()}`);
 
         // Function to calculate the difference in hours
         function hoursDifference(date1, date2) {
@@ -38,23 +33,30 @@ module.exports = async function() {
             return timeDifference / (1000 * 3600);
         }
 
+        // Filter devices updated within the last 24 hours
+        const recent24hDevices = data.filter(device => {
+            const updatedAt = new Date(device.updated_at);
+            const hoursDiff = hoursDifference(updatedAt, currentDate);
+            console.log(`Device updated at: ${updatedAt.toISOString()}, Hours difference: ${hoursDiff}`);
+            return hoursDiff <= 24;
+        });
+
+        // Get the total count of devices updated within the last 24 hours
+        const totalRecent24hDevices = recent24hDevices.length;
+
         // Filter out stale devices and those not updated within 90 days
+        function daysDifference(date1, date2) {
+            const timeDifference = date2.getTime() - date1.getTime();
+            return timeDifference / (1000 * 3600 * 24);
+        }
+
         const nonStaleRecentDevices = data.filter(device => {
             const updatedAt = new Date(device.updated_at);
             return !device.stale && daysDifference(updatedAt, currentDate) <= 90;
         });
 
-        // Filter devices updated within the last 24 hours
-        const recent24hDevices = data.filter(device => {
-            const updatedAt = new Date(device.updated_at);
-            return hoursDifference(updatedAt, currentDate) <= 24;
-        });
-
         // Get the total count of non-stale devices updated within 90 days
         const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
-
-        // Get the total count of devices updated within the last 24 hours
-        const totalRecent24hDevices = recent24hDevices.length;
 
         // Count devices by OS
         const devicesByOS = nonStaleRecentDevices.reduce((acc, device) => {
