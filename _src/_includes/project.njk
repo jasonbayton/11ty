@@ -41,6 +41,7 @@
                         <div class="project-grid-right">
                             {% if page.url.includes("managed-settings") %}
                             {% renderFile "./_src/projects/managed-settings/grid-right.md" %}
+                            {% include "./_parts/project-ms-data-right.njk" %}
                             {% elif page.url.includes("beam") %}
                             {% renderFile "./_src/projects/beam/grid-right.md" %}
                             {% endif %}

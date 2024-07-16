@@ -1,0 +1,62 @@
+<h2>Statistics</h2>
+
+<h3>Devices pinged (24h): {{ devices.totalRecent24hDevices }}</h3>
+
+<div id="os_chart" style="width: 100%; height: 500px;"></div>
+<div id="model_chart" style="width: 100%; height: 500px;"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawOSChart);
+  google.charts.setOnLoadCallback(drawModelChart);
+
+  function applyLegendTextColor(chartId) {
+    const legendTexts = document.querySelectorAll(`#${chartId} text`);
+    legendTexts.forEach(text => {
+      text.style.fill = 'var(--text)';
+    });
+  }
+
+  function drawOSChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['OS Version (API level)', 'Number of Devices'],
+      {% for os, count in devices.devicesByOS %}
+        ['{{ os }}', {{ count }}],
+      {% endfor %}
+    ]);
+
+    var options = {
+      title: 'Device OS Versions (API level)',
+      pieHole: 0.4,
+      backgroundColor: 'transparent',
+      chartArea: { width: '90%', height: '80%' },
+      legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('os_chart'));
+    google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('os_chart'));
+    chart.draw(data, options);
+  }
+
+  function drawModelChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['OEM', 'Number of Devices'],
+      {% for model, count in devices.devicesByMake %}
+        ['{{ model }}', {{ count }}],
+      {% endfor %}
+    ]);
+
+    var options = {
+      title: 'Devices by OEM',
+      pieHole: 0.4,
+      backgroundColor: 'transparent',
+      chartArea: { width: '90%', height: '80%' },
+      legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('model_chart'));
+    google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('model_chart'));
+    chart.draw(data, options);
+  }
+</script>
