@@ -30,7 +30,7 @@ The following configurations are available for MANAGED SETTINGS:
 
 <div class="responsive-table-wrapper">
 
-| Settings intent | Description | Type | Payload | Default | 
+| Settings intent | Description | Type | Intent | Default | 
 |-----------------|-------------|------|---------|---------|
 | Network & Internet | Mobile, Wi-Fi, & hotspot settings combined | Boolean | WIRELESS_SETTINGS | True |
 | Wi-Fi | Add & connect to known networks | Boolean | WIFI_SETTINGS | True |
@@ -52,7 +52,7 @@ Please test before deployment, and feed back with findings.
 <div class="responsive-table-wrapper">
 
 
-| Settings intent | Description | Type | Payload | Default | 
+| Settings intent | Description | Type | Intent | Default | 
 |-----------------|-------------|------|---------|---------|
 | Display | Configure timeout, brightness, & display settings | Boolean | DISPLAY_SETTINGS | True |
 | Sound | Configure sound settings | Boolean | SOUND_SETTINGS | True |
@@ -68,7 +68,7 @@ Please test before deployment, and feed back with findings.
 
 <div class="responsive-table-wrapper">
 
-| Settings intent | Description | Type | Payload | Default | 
+| Settings intent | Description | Type | Intent | Default | 
 |-----------------|-------------|------|---------|---------|
 | Security & privacy | Review & configure security & privacy settings | Boolean | SECURITY_SETTINGS | True |
 | Unknown sources | Configure sources permitted to sideload apps | Boolean | MANAGE_UNKNOWN_APP_SOURCES | True |
@@ -81,7 +81,7 @@ Please test before deployment, and feed back with findings.
 
 <div class="responsive-table-wrapper">
 
-| Settings intent | Description | Type | Payload | Default | 
+| Settings intent | Description | Type | Intent | Default | 
 |-----------------|-------------|------|---------|---------|
 | About device | View details about this device | Boolean | DEVICE_INFO_SETTINGS | True |
 | Work policy information <span class="label label-sup label-green"><span class="material-symbols-outlined">android</span> 10</span> | View policies enforced on this device | Boolean | SHOW_WORK_POLICY_INFO | True |
@@ -98,8 +98,8 @@ menu</span> )
 | Config name | Description | Type | Payload | Default | 
 |--------------------|-------------|------|---------|---------|
 | Support message | Provide a support message in app settings. Support single string or HTML input | String | SUPPORT_MESSAGE | `This message can be customised through the Support message managed configuration within EMM application policy settings. For help configuring this application, please read the documentation.` |
-| Support email address | Support email address to be shown under available actions | String | SUPPORT_EMAIL | project-support@bayton.org |
-| Show feedback & Discord | Show the feedback and Discord buttons under available actions. Hiding these will prevent users providing feedback to bayton.org for improvements or new features | Boolean | SHOW_FEEDBACK | True |
+| Support email address | Support email address to be shown under available actions | String | SUPPORT_MAIL | project-support@bayton.org |
+| Show feedback & Discord | Show the feedback and Discord buttons under available actions. Hiding these will prevent users providing feedback to bayton.org for improvements or new features | Boolean | FEEDBACK_ENABLED | True |
 
 <!--| Show reload config | Allow device users to reload config should an issue arise. | Boolean | SHOW_RELOAD_CONFIG | True |-->
 
@@ -127,10 +127,10 @@ For licensed organisations, read up on [Customising the MANAGED SETTINGS experie
 
 | Config name | Description | Type | Payload | Default | 
 |-----------------|-------------|------|---------|---------|
-| Licensed organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation | String | LICENCE | `null` |
+| Licensed organisation ID | Input an Android Enterprise organisation ID with an active licence to enable customisation | String | ORGANISATION_ID | `null` |
 | Use BAYTON App Icon | Disable this to show a generic app (home &amp; app drawer) icon for your managed estate | Boolean | APPLICATION_ICON | True |
 | Custom app title | Provide a custom in-app title (default: Settings) | String | CUSTOM_APP_TITLE | Settings |
-| Show BAYTON settings branding | Disable this to remove text advertising bayton.org, a BAYTON logo will still sit in the footer of the app, below available actions | Boolean | CUSTOM_REMOVE_BRAND | True |
+| Show BAYTON settings branding | Disable this to remove text advertising bayton.org, a BAYTON logo will still sit in the footer of the app, below available actions | Boolean | REMOVE_BRAND | True |
 | *Custom title icon | Provide a URL to a public PNG/SVG/JPG image of the size 128x128px | String | CUSTOM_APP_TITLE_ICON | `null` |
 | **Custom theme | Input the name of your provided theme | String | CUSTOM_APP_THEME | BAYTON |
 
