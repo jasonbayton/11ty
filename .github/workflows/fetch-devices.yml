@@ -21,6 +21,15 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Prep branch
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b update-devices-data
+          git pull
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Run fetch-devices script
         env:
           PING_API: ${{ secrets.PING_API }}
@@ -28,9 +37,6 @@ jobs:
 
       - name: Create and push changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b update-devices-data
           git add ./_src/_data/devices.json
           git commit -m 'Update devices data'
           git push origin update-devices-data
