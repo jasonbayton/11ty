@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install
@@ -26,10 +26,33 @@ jobs:
           PING_API: ${{ secrets.PING_API }}
         run: node _scripts/fetch-devices.js
 
-      - name: Commit and push changes
+      - name: Create and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b update-devices-data
           git add ./_src/_data/devices.json
           git commit -m 'Update devices data'
-          git push
+          git push origin update-devices-data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Pull Request
+        id: create_pr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update-devices-data
+          title: 'Daily Update: Devices Data'
+          body: 'Automated update of devices data.'
+          labels: 'automated update'
+
+  auto-merge:
+    needs: fetch-devices
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-merge PR
+        uses: pascalgn/automerge-action@v0.14.3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MERGE_LABELS: 'automated update'
