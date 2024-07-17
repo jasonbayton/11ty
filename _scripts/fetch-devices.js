@@ -5,7 +5,7 @@ const path = require('path');
 async function fetchAndSaveDevices() {
     const url = 'https://ping.projects.bayton.org/api/devices';
     const token = process.env.PING_API;
-    const outputPath = path.join(__dirname, '_data', 'devices.json');
+    const outputPath = ('../_src/_data', 'devices.json');
 
     try {
         const response = await fetch(url, {
