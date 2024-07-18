@@ -48,7 +48,7 @@ MANAGED SETTINGS offers the following customisations:
 **Custom intents**
 : This will allow organisations to define their own intents, including those to other applications.
 
-If you'd like to see more customisation options, or general features, [raise a feature request](https://github.com/baytonorg/managed_settings_tracker/issues/) or discuss your requirements on the [MANAGED SETTINGS discord channel](https://discord.gg/YUY7jAjayr).
+If you'd like to see more customisation options, or general features, [raise a feature request](https://github.com/baytonorg/managed_settings_tracker/issues/) or discuss your requirements on the [MANAGED SETTINGS Discord channel](https://discord.gg/YUY7jAjayr).
 
 ## Enter your organisation ID
 
