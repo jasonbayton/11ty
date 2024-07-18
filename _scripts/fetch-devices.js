@@ -1,11 +1,13 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config(); // Load environment variables from .env file
 
 async function fetchAndSaveDevices() {
     const url = 'https://ping.projects.bayton.org/api/devices';
     const token = process.env.PING_API;
     const outputPath = path.join(__dirname, '../_src/_data', 'devices.json');
+
     try {
         const response = await fetch(url, {
             method: 'GET',
@@ -68,12 +70,38 @@ async function fetchAndSaveDevices() {
             return acc;
         }, {});
 
+        // Read the previous day's data
+        let previousData = null;
+        if (fs.existsSync(outputPath)) {
+            previousData = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+        }
+
         const result = {
             totalNonStaleRecentDevices,
             totalRecent24hDevices,
             devicesByOS,
-            devicesByMake
+            devicesByMake,
+            numberChangeByOS: {},
+            numberChangeByMake: {}
         };
+
+        // Calculate number change for OS
+        if (previousData) {
+            for (const os in devicesByOS) {
+                const previousCount = previousData.devicesByOS[os] || 0;
+                const currentCount = devicesByOS[os];
+                const numberChange = currentCount - previousCount;
+                result.numberChangeByOS[os] = numberChange;
+            }
+
+            // Calculate number change for Make
+            for (const make in devicesByMake) {
+                const previousCount = previousData.devicesByMake[make] || 0;
+                const currentCount = devicesByMake[make];
+                const numberChange = currentCount - previousCount;
+                result.numberChangeByMake[make] = numberChange;
+            }
+        }
 
         // Ensure the _data directory exists
         const dataDir = path.dirname(outputPath);
@@ -85,6 +113,12 @@ async function fetchAndSaveDevices() {
         fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
 
         console.log('Data fetched and saved to', outputPath);
+
+        // Compare with previous data and output the difference
+        if (previousData) {
+            const deviceDifference = totalNonStaleRecentDevices - previousData.totalNonStaleRecentDevices;
+            console.log(`Device count changed by ${deviceDifference} compared to the previous day.`);
+        }
     } catch (error) {
         console.error('Error fetching devices:', error);
     }

@@ -1,11 +1,70 @@
+<br>
+<br>
 <h2 class="section-title">Statistics</h2>
 <span>Stats are updated daily.</span>
 
 <h3>Devices pinged (24h): <span class="orange">{{ devices.totalRecent24hDevices }}</span></h3>
 
-<h3>Device distribution</h3>
+<h3>Device distribution (90 day)</h3>
 <div id="os_chart" style="width: 100%; height: 500px;"></div>
+
+<h3>Devices by OS (90 day)</h3>
+<table>
+  <thead>
+    <tr>
+      <th>OS Version (API level)</th>
+      <th># of devices</th>
+      <th>Change (24h)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for os, count in devices.devicesByOS %}
+    <tr>
+      <td>{{ os }}</td>
+      <td>{{ (count / devices.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+      <td>
+        {% set prevCount = devices.totalNonStaleRecentDevices - devices.numberChangeByOS[os] %}
+        {% if prevCount > 0 %}
+          {% set percChange = (devices.numberChangeByOS[os] / prevCount) * 100 %}
+          {{ percChange.toFixed(1) }}%
+        {% else %}
+          N/A
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
 <div id="model_chart" style="width: 100%; height: 500px;"></div>
+
+<h3>Devices by manufacturer (90 day)</h3>
+<table>
+  <thead>
+    <tr>
+      <th>OEM</th>
+      <th># of devices</th>
+      <th>Change (24h)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for make, count in devices.devicesByMake %}
+    <tr>
+      <td>{{ make }}</td>
+      <td>{{ (count / devices.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+      <td>
+        {% set prevCount = devices.totalNonStaleRecentDevices - devices.numberChangeByMake[make] %}
+        {% if prevCount > 0 %}
+          {% set percChange = (devices.numberChangeByMake[make] / prevCount) * 100 %}
+          {{ percChange.toFixed(1) }}%
+        {% else %}
+          N/A
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
