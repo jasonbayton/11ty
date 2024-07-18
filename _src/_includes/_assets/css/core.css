@@ -717,7 +717,7 @@ content#page, content#search, content#archive, content#generator {
   background-color: var(--subtle-bg);
   padding: 20px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #banner_statement {
