@@ -713,6 +713,13 @@ content#page, content#search, content#archive, content#generator {
   float: right;
 }
 
+.stats-panel {
+  background-color: var(--subtle-bg);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
 #banner_statement {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

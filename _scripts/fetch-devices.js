@@ -4,12 +4,14 @@ const path = require('path');
 require('dotenv').config(); // Load environment variables from .env file
 
 async function fetchAndSaveDevices() {
-    const url = 'https://ping.projects.bayton.org/api/devices';
+    const devicesUrl = 'https://ping.projects.bayton.org/api/devices';
+    const licensesUrl = 'https://ping.projects.bayton.org/api/licenses/org.bayton.managedsettings';
     const token = process.env.PING_API;
     const outputPath = path.join(__dirname, '../_src/_data', 'devices.json');
 
     try {
-        const response = await fetch(url, {
+        // Fetch devices
+        const devicesResponse = await fetch(devicesUrl, {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -18,12 +20,32 @@ async function fetchAndSaveDevices() {
             }
         });
 
-        const data = await response.json();
+        const devicesData = await devicesResponse.json();
 
         // Ensure the response is an array
-        if (!Array.isArray(data)) {
-            throw new Error('Response is not an array');
+        if (!Array.isArray(devicesData)) {
+            throw new Error('Devices response is not an array');
         }
+
+        // Fetch licenses
+        const licensesResponse = await fetch(licensesUrl, {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        });
+
+        const licensesData = await licensesResponse.json();
+
+        // Ensure the response is an array
+        if (!Array.isArray(licensesData)) {
+            throw new Error('Licenses response is not an array');
+        }
+
+        // Extract valid license orgIds
+        const validLicenseOrgs = new Set(licensesData);
 
         // Get the current date
         const currentDate = new Date();
@@ -35,7 +57,7 @@ async function fetchAndSaveDevices() {
         }
 
         // Filter devices updated within the last 24 hours
-        const recent24hDevices = data.filter(device => {
+        const recent24hDevices = devicesData.filter(device => {
             const updatedAt = new Date(device.updated_at);
             return hoursDifference(updatedAt, currentDate) <= 24;
         });
@@ -50,13 +72,17 @@ async function fetchAndSaveDevices() {
         }
 
         // Filter out stale devices and those not updated within 90 days
-        const nonStaleRecentDevices = data.filter(device => {
+        const nonStaleRecentDevices = devicesData.filter(device => {
             const updatedAt = new Date(device.updated_at);
             return !device.stale && daysDifference(updatedAt, currentDate) <= 90;
         });
 
         // Get the total count of non-stale devices updated within 90 days
         const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
+
+        // Count devices with valid licenses
+        const licensedDevices = nonStaleRecentDevices.filter(device => validLicenseOrgs.has(device.orgId));
+        const totalLicensedDevices = licensedDevices.length;
 
         // Count devices by OS
         const devicesByOS = nonStaleRecentDevices.reduce((acc, device) => {
@@ -79,6 +105,7 @@ async function fetchAndSaveDevices() {
         const result = {
             totalNonStaleRecentDevices,
             totalRecent24hDevices,
+            totalLicensedDevices,
             devicesByOS,
             devicesByMake,
             numberChangeByOS: {},

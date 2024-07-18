@@ -1,125 +1,139 @@
-<br>
-<br>
-<h2 class="section-title">Statistics</h2>
-<span>Stats are updated daily.</span>
+<div class="stats-panel">
+  <h2 class="section-title">Statistics</h2>
+  <span>Stats are updated daily.</span>
 
-<h3>Devices pinged (24h): <span class="orange">{{ devices.totalRecent24hDevices }}</span></h3>
+  <p>
+  Devices pinged (24h): <b><span class="orange">{{ devices.totalRecent24hDevices }}</span></b> <br>
+  Devices licensed (90 day): <b><span class="orange">{{ (devices.totalLicensedDevices / devices.totalNonStaleRecentDevices * 100).toFixed(1) }}%</span></b>
+  </p>
 
-<h3>Device distribution (90 day)</h3>
-<div id="os_chart" style="width: 100%; height: 500px;"></div>
+  <h3>Device distribution (90 day)</h3>
+  <div id="os_chart" style="max-width: 100%; height: 500px;"></div>
 
-<h3>Devices by OS (90 day)</h3>
-<table>
-  <thead>
-    <tr>
-      <th>OS Version (API level)</th>
-      <th># of devices</th>
-      <th>Change (24h)</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for os, count in devices.devicesByOS %}
-    <tr>
-      <td>{{ os }}</td>
-      <td>{{ (count / devices.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
-      <td>
-        {% set prevCount = devices.totalNonStaleRecentDevices - devices.numberChangeByOS[os] %}
-        {% if prevCount > 0 %}
-          {% set percChange = (devices.numberChangeByOS[os] / prevCount) * 100 %}
-          {{ percChange.toFixed(1) }}%
-        {% else %}
-          N/A
-        {% endif %}
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+  <h3>Devices by OS (90 day)</h3>
+  <div class="responsive-table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>OS Version (API level)</th>
+          <th># of devices</th>
+          <th>Change (24h)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for os, count in devices.devicesByOS %}
+        <tr>
+          <td>{{ os }}</td>
+          <td>{{ (count / devices.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+          <td>
+            {% set prevCount = devices.totalNonStaleRecentDevices - devices.numberChangeByOS[os] %}
+            {% if prevCount > 0 %}
+              {% set percChange = (devices.numberChangeByOS[os] / prevCount) * 100 %}
+              {{ percChange.toFixed(1) }}%
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 
-<div id="model_chart" style="width: 100%; height: 500px;"></div>
+  <div id="model_chart" style="max-width: 100%; height: 500px;"></div>
 
-<h3>Devices by manufacturer (90 day)</h3>
-<table>
-  <thead>
-    <tr>
-      <th>OEM</th>
-      <th># of devices</th>
-      <th>Change (24h)</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for make, count in devices.devicesByMake %}
-    <tr>
-      <td>{{ make }}</td>
-      <td>{{ (count / devices.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
-      <td>
-        {% set prevCount = devices.totalNonStaleRecentDevices - devices.numberChangeByMake[make] %}
-        {% if prevCount > 0 %}
-          {% set percChange = (devices.numberChangeByMake[make] / prevCount) * 100 %}
-          {{ percChange.toFixed(1) }}%
-        {% else %}
-          N/A
-        {% endif %}
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+  <h3>Devices by manufacturer (90 day)</h3>
+  <div class="responsive-table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>OEM</th>
+          <th># of devices</th>
+          <th>Change (24h)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for make, count in devices.devicesByMake %}
+        <tr>
+          <td>{{ make }}</td>
+          <td>{{ (count / devices.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+          <td>
+            {% set prevCount = devices.totalNonStaleRecentDevices - devices.numberChangeByMake[make] %}
+            {% if prevCount > 0 %}
+              {% set percChange = (devices.numberChangeByMake[make] / prevCount) * 100 %}
+              {{ percChange.toFixed(1) }}%
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript">
-  google.charts.load('current', {'packages':['corechart']});
-  google.charts.setOnLoadCallback(drawOSChart);
-  google.charts.setOnLoadCallback(drawModelChart);
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawCharts); 
 
-  function applyLegendTextColor(chartId) {
-    const legendTexts = document.querySelectorAll(`#${chartId} text`);
-    legendTexts.forEach(text => {
-      text.style.fill = 'var(--text)';
-    });
-  }
+    function drawCharts() { 
+      drawOSChart();
+      drawModelChart();
+    }
 
-  function drawOSChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['OS Version (API level)', 'Number of Devices'],
-      {% for os, count in devices.devicesByOS %}
-        ['{{ os }}', {{ count }}],
-      {% endfor %}
-    ]);
+    function applyLegendTextColor(chartId) {
+      const legendTexts = document.querySelectorAll(`#${chartId} text`);
+      legendTexts.forEach(text => {
+        text.style.fill = 'var(--text)';
+      });
+    }
 
-    var options = {
-      title: 'Devices by OS (API level)',
-      pieHole: 0.4,
-      backgroundColor: 'transparent',
-      chartArea: { width: '90%', height: '80%' },
-      legend: { position: 'bottom' },
-      tooltip: { text: 'percentage' }
-    };
+    function drawOSChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['OS Version (API level)', 'Number of Devices'],
+        {% for os, count in devices.devicesByOS %}
+          ['{{ os }}', {{ count }}],
+        {% endfor %}
+      ]);
 
-    var chart = new google.visualization.PieChart(document.getElementById('os_chart'));
-    google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('os_chart'));
-    chart.draw(data, options);
-  }
+      var options = {
+        title: 'Devices by OS (API level)',
+        pieHole: 0.4,
+        backgroundColor: 'transparent',
+        chartArea: { width: '90%', height: '80%' },
+        legend: { position: 'bottom', maxLines: 3 },
+        tooltip: { text: 'percentage' }
+      };
 
-  function drawModelChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['OEM', 'Number of Devices'],
-      {% for model, count in devices.devicesByMake %}
-        ['{{ model }}', {{ count }}],
-      {% endfor %}
-    ]);
+      var chart = new google.visualization.PieChart(document.getElementById('os_chart'));
+      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('os_chart'));
+      chart.draw(data, options);
+    }
 
-    var options = {
-      title: 'Devices by OEM',
-      pieHole: 0.4,
-      backgroundColor: 'transparent',
-      chartArea: { width: '90%', height: '80%' },
-      legend: { position: 'bottom' },
-      tooltip: { text: 'percentage' }
-    };
+    function drawModelChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['OEM', 'Number of Devices'],
+        {% for model, count in devices.devicesByMake %}
+          ['{{ model }}', {{ count }}],
+        {% endfor %}
+      ]);
 
-    var chart = new google.visualization.PieChart(document.getElementById('model_chart'));
-    google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('model_chart'));
-    chart.draw(data, options);
-  }
-</script>
+      var options = {
+        title: 'Devices by OEM',
+        pieHole: 0.4,
+        backgroundColor: 'transparent',
+        chartArea: { width: '90%', height: '80%' },
+        legend: { position: 'bottom', maxLines: 3 },
+        tooltip: { text: 'percentage' }
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('model_chart'));
+      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('model_chart'));
+      chart.draw(data, options);
+
+        // Redraw charts on window resize
+    window.addEventListener('resize', drawCharts); 
+    }
+  </script>
+</div>
