@@ -1,6 +1,6 @@
 {
-  "totalNonStaleRecentDevices": 254,
-  "totalRecent24hDevices": 33,
+  "totalNonStaleRecentDevices": 258,
+  "totalRecent24hDevices": 37,
   "devicesByOS": {
     "27": 13,
     "28": 4,
@@ -8,15 +8,15 @@
     "30": 41,
     "31": 12,
     "32": 10,
-    "33": 12,
-    "34": 47,
-    "35": 17
+    "33": 13,
+    "34": 49,
+    "35": 18
   },
   "devicesByMake": {
     "RHINO": 92,
     "samsung": 18,
     "OnePlus": 44,
-    "Google": 49,
+    "Google": 52,
     "A-gold": 4,
     "Sony": 5,
     "NUU": 8,
@@ -27,7 +27,7 @@
     "TECNO": 1,
     "HMD Global": 1,
     "W&O": 1,
-    "Rhino Mobility": 9,
+    "Rhino Mobility": 10,
     "vivo": 1
   }
 }
