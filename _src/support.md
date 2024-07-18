@@ -145,7 +145,7 @@ If you still don't find what you're looking for, you can [submit a request](http
 Post your request to the:
 
 * [Android Enterprise Help Community](https://androidenterprise.community), 
-* [MobilePros Slack Community](https://mobilepros.org), 
+* [MobilePros Discord Community](https://mobilepros.org), 
 * [MobilePros Telegram group](https://t.me/mobile_pros).
 
 **Benefit:** As a community resource, your request may be picked up by other members of the community well-versed in the topic at hand. Once a resolution is achieved, the issue and resolution are public domain for others to benefit in kind.

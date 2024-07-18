@@ -18,7 +18,7 @@ Going forward I'm not planning on implementing a comments system back into the m
 
 - [Android Enterprise Help Community](https://support.google.com/work/android/community)
 - [EMM.how](https://emm.how)
-- [Mobile Pros Slack Community](https://mobilepros.org)
+- [Mobile Pros Discord Community](https://mobilepros.org)
 - [Reddit](https://www.reddit.com/r/androidenterprise/)
 - You can also ask for content or raise issues with docs/etc on [GitHub](https://github.com/jasonbayton/11ty/discussions) where I keep the source to this website
 

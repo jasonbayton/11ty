@@ -9,7 +9,7 @@
      - Enterprise 
 ---
 
-Damien asked, through the [Mobile Pros](https://mobilepros.org) Slack community:
+Damien asked, through the [Mobile Pros](https://mobilepros.org) Discord community:
 
 > We have approx 5000 COPE devices with just over 4000 of them Samsung all managed using WS1 UEM. Should we use e-FOTA? If not what? What about BYOD devices? Our security team is advising us to cut access to those who don’t have a patch of 2 months old. Our minimum version is OS 12 but this would mean cutting the access to quite a few devices whose manufacturer is no longer rolling out patches! I can do this via compliance policies on WS1 but I find this a bit extreme. [..] Jason, not sure if you can weigh in here? 😉
 

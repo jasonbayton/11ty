@@ -26,7 +26,7 @@ YouTube: [JasonBayton](https://youtube.com/@jasonbayton)
 Android Enterprise Customer Community - [jasonbayton](https://www.androidenterprise.community/t5/user/viewprofilepage/user-id/11)
 
 
-MobilePros Slack: [Join here](https://join.slack.com/t/mobilxperts/shared_invite/zt-3wrzh2o5-e5w8qSyiGF8AcH8_VErDCg)  
+MobilePros Discord: [Join here](https://discord.gg/KGEpPxnjNu)  
 MobilePros Telegram: [Join here](https://t.me/Mobile_Pros)
 
 I do occasionally pop up elsewhere also!
