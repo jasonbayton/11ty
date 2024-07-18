@@ -1,5 +1,5 @@
 ---
-title: Managed Settings
+title: MANAGED SETTINGS
 parent: Projects
 titleimage: '/img/bayton_logos/managed_settings_hero.svg'
 date: '2024-04-30'

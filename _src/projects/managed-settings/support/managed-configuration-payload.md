@@ -1,6 +1,6 @@
 ---
 title: Managed configuration JSON payload
-parent: Managed Settings support
+parent: MANAGED SETTINGS support
 published: '2024-07-16'
 status: publish
 author: 'Jason Bayton'

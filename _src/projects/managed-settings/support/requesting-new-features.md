@@ -1,6 +1,6 @@
 ---
 title: Request a new feature
-parent: Managed Settings support
+parent: MANAGED SETTINGS support
 published: '2024-07-09'
 status: publish
 author: 'Jason Bayton'

@@ -1,6 +1,6 @@
 ---
 title: MANAGED SETTINGS configurations
-parent: Managed Settings support
+parent: MANAGED SETTINGS support
 published: '2024-05-02'
 status: publish
 author: 'Jason Bayton'

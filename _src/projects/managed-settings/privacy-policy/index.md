@@ -1,6 +1,6 @@
 ---
 title: MANAGED SETTINGS Privacy Policy
-parent: Managed Settings
+parent: MANAGED SETTINGS
 published: '2024-06-27'
 status: publish
 author: 'Jason Bayton'

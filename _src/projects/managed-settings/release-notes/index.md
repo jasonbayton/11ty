@@ -1,6 +1,6 @@
 ---
-title: Release notes
-parent: Managed Settings
+title: MANAGED SETTINGS release notes
+parent: MANAGED SETTINGS
 published: '2024-05-20'
 status: publish
 author: 'Jason Bayton'
