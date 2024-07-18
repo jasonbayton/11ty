@@ -45,7 +45,9 @@ If you *don't* leverage a dedicated/kiosk use case in your organisation, but str
 
 MANAGED SETTINGS is a *freemium* application. 
 
-Out of the box there are **no restrictions** on the number or type of settings you can provide access to. If you find the application useful and wish to customise it for your organisation, you can licence MANAGED SETTINGS to your Android Enterprise Organisation ID. 
+Out of the box there are **no restrictions** on the number or type of settings you can provide access to. 
+
+If you find the application useful and wish to support further development, you can licence MANAGED SETTINGS to your Android Enterprise Organisation ID and in return receive additional options to customise it for your organisation. 
 
 Customisations include:
 
@@ -53,7 +55,7 @@ Customisations include:
 - Custom in-app title & logo (logo coming #soon)
 - Leverage a generic application icon
 
-In future versions it'll be possible to theme the app, and configure custom intents, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities without waiting on me to support it (though happy to do so for popular requests). If you'd be interested in these features, they will be prioritised once licence revenue starts coming in.
+In future versions it'll be possible to theme the app, and **configure custom intents**, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities without waiting on me to support it (though happy to do so for popular requests). If you'd be interested in these features, they will be prioritised once licence revenue starts coming in.
 
 ### For organisations 
 
@@ -72,7 +74,7 @@ Customisation is available per organisation ID, and licensed accordingly:
 
 *For organisations, EDU, or charities with budget constraints, please get in touch.*
 
-#### <span class="material-symbols-outlined">support</span> Priority support
+#### <span class="material-symbols-outlined orange">support</span> Priority support
 
 MANAGED SETTINGS comes with access to email support, access to the Discord community, and documentation. If you'd like additional support, priority offers:
 
