@@ -84,17 +84,23 @@ async function fetchAndSaveDevices() {
         const licensedDevices = nonStaleRecentDevices.filter(device => validLicenseOrgs.has(device.orgId));
         const totalLicensedDevices = licensedDevices.length;
 
-        // Count devices by OS
+        // Count devices by OS and sort by number of devices in descending order
         const devicesByOS = nonStaleRecentDevices.reduce((acc, device) => {
             acc[device.os] = (acc[device.os] || 0) + 1;
             return acc;
         }, {});
+        const sortedDevicesByOS = Object.fromEntries(
+            Object.entries(devicesByOS).sort(([, a], [, b]) => b - a)
+        );
 
-        // Count devices by make
+        // Count devices by make and sort by number of devices in descending order
         const devicesByMake = nonStaleRecentDevices.reduce((acc, device) => {
             acc[device.make] = (acc[device.make] || 0) + 1;
             return acc;
         }, {});
+        const sortedDevicesByMake = Object.fromEntries(
+            Object.entries(devicesByMake).sort(([, a], [, b]) => b - a)
+        );
 
         // Read the previous day's data
         let previousData = null;
@@ -106,25 +112,25 @@ async function fetchAndSaveDevices() {
             totalNonStaleRecentDevices,
             totalRecent24hDevices,
             totalLicensedDevices,
-            devicesByOS,
-            devicesByMake,
+            devicesByOS: sortedDevicesByOS,
+            devicesByMake: sortedDevicesByMake,
             numberChangeByOS: {},
             numberChangeByMake: {}
         };
 
         // Calculate number change for OS
         if (previousData) {
-            for (const os in devicesByOS) {
+            for (const os in sortedDevicesByOS) {
                 const previousCount = previousData.devicesByOS[os] || 0;
-                const currentCount = devicesByOS[os];
+                const currentCount = sortedDevicesByOS[os];
                 const numberChange = currentCount - previousCount;
                 result.numberChangeByOS[os] = numberChange;
             }
 
             // Calculate number change for Make
-            for (const make in devicesByMake) {
+            for (const make in sortedDevicesByMake) {
                 const previousCount = previousData.devicesByMake[make] || 0;
-                const currentCount = devicesByMake[make];
+                const currentCount = sortedDevicesByMake[make];
                 const numberChange = currentCount - previousCount;
                 result.numberChangeByMake[make] = numberChange;
             }
