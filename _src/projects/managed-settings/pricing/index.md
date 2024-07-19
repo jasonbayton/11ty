@@ -1,12 +1,14 @@
 ---
 title: MANAGED SETTINGS pricing
 parent: MANAGED SETTINGS
-titleimage: '/img/bayton_logos/managed_settings_hero.svg'
-date: '2024-04-30'
+published: '2024-07-03'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: project-docs
+tags: 
+    - 'Managed Settings'
+    - 'bayton-projects'
 layout: base.njk
 ---
 <div class="pricing-table">
