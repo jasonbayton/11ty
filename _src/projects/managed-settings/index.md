@@ -80,7 +80,7 @@ MANAGED SETTINGS comes with access to email support, access to the Discord commu
 
 - A dedicated, private communication channel (Discord & voice)
 - Faster (UK hours) responses
-- Precedence on feature requests. 
+- Precedence on feature requests 
 - Deployment and configuration assistance
 
 **It's an annual recurring fee**.
@@ -123,7 +123,7 @@ You can find the app publicly here:
 
 <a href='https://play.google.com/store/apps/details?id=org.bayton.managedsettings'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="200px"/></a>
 
-And view the handy quick-start [right here](https://bayton.org/projects/managed-settings/support/get-started/).
+And view the handy quick-start [right here](/projects/managed-settings/support/get-started/).
 
 ## Help & support
 
