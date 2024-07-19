@@ -1,5 +1,5 @@
 ---
-title: Request a new feature
+title: Request a new MANAGED SETTINGS feature
 parent: MANAGED SETTINGS support
 published: '2024-07-09'
 status: publish

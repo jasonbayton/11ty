@@ -14,6 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 2
+    key: Supported configurations (intents)
 ---
 <div class="callout">
 <div class="callout-heading">

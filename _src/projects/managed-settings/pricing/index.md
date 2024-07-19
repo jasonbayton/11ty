@@ -10,6 +10,8 @@ tags:
     - 'Managed Settings'
     - 'bayton-projects'
 layout: base.njk
+eleventyNavigation:
+    key: Pricing
 ---
 <div class="pricing-table">
     <div class="pricing-item">

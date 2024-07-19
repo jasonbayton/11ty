@@ -1,5 +1,5 @@
 ---
-title: Quick start
+title: MANAGED SETTINGS quick start
 parent: MANAGED SETTINGS support
 published: '2024-05-02'
 status: publish

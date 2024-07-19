@@ -10,10 +10,13 @@ tags:
     - 'Managed Settings'
     - 'bayton-projects'
 layout: base.njk
-eleventyNavigation: 
+eleventyNavigation:
+    key: Terms of service
     order: 3
+    
 ---
-_Version 1.0, 27th June, 2024_
+_Version 1.1, 20th July, 2024_  
+<span class="orange">[See repo for change history](https://github.com/jasonbayton/11ty/commits/main/_src/projects/managed-settings/terms-of-service/index.md)</span>
 
 # Terms of Service
 
@@ -28,7 +31,7 @@ Welcome to MANAGED SETTINGS, provided by BAYTON. These Terms of Service govern y
 By continuing to use MANAGED SETTINGS, you accept and agree to be bound by these Terms of Service.
 
 ## User Accounts and License Keys
-Users do not need to create an account to use MANAGED SETTINGS. Enhanced functionality is provided through the use of a license key.
+Users do not need to create an account to use MANAGED SETTINGS. Enhanced functionality is provided through the use of a licence key.
 
 ## Usage of the Application
 MANAGED SETTINGS is intended for enterprise deployment on managed Android devices. It will not function as intended on unmanaged devices. Users are prohibited from:
@@ -37,13 +40,13 @@ MANAGED SETTINGS is intended for enterprise deployment on managed Android device
 - Tampering with or snooping on the application to ascertain proprietary information.
 
 ## Payment Terms
-For customers who purchase a license, BAYTON offers a 30-day period from the date of purchase to request a refund.
+For customers who purchase a licence, BAYTON offers a 30-day period from the date of purchase to request a refund.
 
 ## User Content
 Users cannot submit or upload content within MANAGED SETTINGS. No user-generated content is held or managed by BAYTON.
 
 ## Termination
-BAYTON reserves the right to revoke licenses and terminate contracts if it is discovered that the application has been tampered with, decompiled, or otherwise misused in violation of these terms.
+BAYTON reserves the right to revoke licences and terminate contracts if it is discovered that the application has been tampered with, decompiled, or otherwise misused in violation of these terms.
 
 ## Liability and Disclaimers
 MANAGED SETTINGS is provided "as is" and "as available" without any warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement. BAYTON does not guarantee that the application will be error-free, secure, or available at all times. You agree that your use of the application is at your sole risk.

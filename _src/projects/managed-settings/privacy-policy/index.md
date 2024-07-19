@@ -1,5 +1,5 @@
 ---
-title: MANAGED SETTINGS Privacy Policy
+title: MANAGED SETTINGS privacy policy
 parent: MANAGED SETTINGS
 published: '2024-06-27'
 status: publish
@@ -12,6 +12,7 @@ tags:
 layout: base.njk
 eleventyNavigation: 
     order: 3
+    key: Privacy policy
 ---
 _Version 1.0, 27th June, 2024_
 

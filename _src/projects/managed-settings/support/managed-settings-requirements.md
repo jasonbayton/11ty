@@ -1,5 +1,5 @@
 ---
-title: Requirements for use
+title: MANAGED SETTINGS requirements for use
 parent: MANAGED SETTINGS support
 published: '2024-05-02'
 status: publish

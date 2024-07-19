@@ -10,6 +10,9 @@ tags:
     - Managed Settings
     - 'bayton-projects'
 layout: base.njk
+eleventyNavigation:
+  key: Support
+
 ---
 
 <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-20 grid-gap-mobile-h-0">

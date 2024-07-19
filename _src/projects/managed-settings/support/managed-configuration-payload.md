@@ -1,5 +1,5 @@
 ---
-title: Managed configuration JSON payload
+title: MANAGED SETTINGS managed configuration JSON payload
 parent: MANAGED SETTINGS support
 published: '2024-07-16'
 status: publish
