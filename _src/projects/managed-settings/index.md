@@ -89,7 +89,7 @@ Invoicing is available if Stripe isn't your thing. If your organisation leverage
 
 ### For vendors
 
-If you're an ecosystem partner wishing to licence a version that is customised out of box (no waiting for managed configs to apply), £3,000 will grant you a vendor licence to distribute across your customer base, and a flat £300 for each organisation ID associated with your custom package ID.
+If you're an ecosystem partner (or organisation) wishing to licence a version that is customised out of box (no waiting for managed configs to apply), £3,000 will grant you a vendor licence to distribute across your customer base, and a flat £300 for each organisation ID associated with your custom package ID.
 
 <div class="responsive-table-wrapper">
 
@@ -100,7 +100,7 @@ If you're an ecosystem partner wishing to licence a version that is customised o
 
 </div>
 
-Of course you may choose to licence customers on the standard package as organisations above, get in touch to discuss reseller discounts.
+Of course you may choose to licence customers on the standard package as organisations above, get in touch to discuss reseller discounts. 
 
 <div class="callout callout-blue">
 <div class="callout-heading callout-heading-small"><span class="material-symbols-outlined">sentiment_dissatisfied</span> I don't like this pricing</div>
