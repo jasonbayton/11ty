@@ -433,6 +433,10 @@ button {
   padding: 10px;
 }
 
+#darktoggle {
+  cursor: pointer;
+}
+
 #corner_menu, #menu_modal {
   display: none;
 }
