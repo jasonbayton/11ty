@@ -290,7 +290,7 @@ pre {
   padding: 16px;
   overflow-wrap: anywhere;
   overflow-x: scroll;
-  background-color: var(--dark);
+  background-color: var(--subtle-bg);
   border-radius: 5px;
   color: var(--orange);
 }
