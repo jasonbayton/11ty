@@ -41,6 +41,12 @@ If your organisation struggles with the need to provide access to:
 
 If you *don't* leverage a dedicated/kiosk use case in your organisation, but struggle with the inconsistencies of OEM-customised Settings apps causing confusion with your documented processes and resources, MANAGED SETTINGS offers one consistent, supportable interface that can be deployed across your entire estate. With MANAGED SETTINGS there's no need to document where various Settings intents are stored across OEMs, simply deploy the app, provide universal guidance, and know end users will see all settings as you intend them to be seen.
 
+## What MANAGED SETTINGS doesn't do
+
+MANAGED SETTINGS does not _change device settings_. It holds no permissions to do so, and this is intentional.
+
+If you feel strongly that MANAGED SETTINGS _should_ be able to change some device settings, submit feedback or raise a feature request (links below)
+
 ## What does MANAGED SETTINGS cost?
 
 MANAGED SETTINGS is a *freemium* application. 
@@ -55,7 +61,7 @@ Customisations include:
 - Custom in-app title & logo (logo coming #soon)
 - Leverage a generic application icon
 
-In future versions it'll be possible to theme the app, and **configure custom intents**, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities without waiting on me to support it (though happy to do so for popular requests). If you'd be interested in these features, they will be prioritised once licence revenue starts coming in.
+In future versions it'll be possible to theme the app, and **[configure custom intents](https://github.com/baytonorg/managed_settings_tracker/issues/2)**, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities without waiting on me to support it (though happy to do so for popular requests). If you'd be interested in these features, they will be prioritised once licence revenue starts coming in.
 
 ### For organisations 
 
@@ -111,11 +117,7 @@ Get in touch to discuss, and we can come to an agreement.
 
 </div>
 
-## What MANAGED SETTINGS doesn't do
-
-MANAGED SETTINGS does not _change device settings_. It holds no permissions to do so, and this is intentional.
-
-If you feel strongly that MANAGED SETTINGS _should_ be able to change some device settings, submit feedback or raise a feature request (links below)
+<a class="button" href="pricing">View pricing</a>
 
 ## Get started
 

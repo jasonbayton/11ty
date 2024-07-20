@@ -12,6 +12,7 @@ tags:
 layout: base.njk
 eleventyNavigation:
   key: Support
+  order: 1
 
 ---
 
