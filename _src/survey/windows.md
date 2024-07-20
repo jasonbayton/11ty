@@ -5,7 +5,7 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: page
-layout: QA.njk
+layout: qa.njk
 tags: 
   - survey
 button1:
