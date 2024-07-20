@@ -14,6 +14,7 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginTOC = require("eleventy-plugin-nesting-toc");
 const striptags = require("striptags");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyAutoCacheBuster = require("eleventy-auto-cache-buster");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -37,6 +38,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(embedTwitter);
+  eleventyConfig.addPlugin(eleventyAutoCacheBuster);
   eleventyConfig.addFilter("dateYear", dates.dateYear);
   eleventyConfig.addFilter("dateISO", dates.dateISO);
   eleventyConfig.addFilter("dateWithTime", dates.dateWithTime);
