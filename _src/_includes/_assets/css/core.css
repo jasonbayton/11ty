@@ -428,7 +428,7 @@ button {
   border: 0;
 }
 
-#darktoggle, #corner_search, #corner_menu {
+#darktoggle, #corner_search, #corner_menu, #qr_generate {
   justify-self: center;
   padding: 10px;
 }
@@ -463,7 +463,7 @@ button {
 #navbar {
   display: grid;
   padding: 15px 20px 15px;
-  grid-template-columns: 180px 40px 5fr 60px 60px;
+  grid-template-columns: 180px 40px 5fr 60px 60px 60px;
   align-items: center;
   height: 100px;
   max-width: 2800px;
@@ -1616,7 +1616,7 @@ footer {
   }
 
   #navbar {
-    grid-template-columns: 1fr 60px 60px 60px;
+    grid-template-columns: 1fr 60px 60px 60px 60px;
     padding: 10px 20px;
     font-size: 20px;
   }
@@ -1626,8 +1626,12 @@ footer {
     cursor: pointer;
   }
 
-  #corner_search {
+  #qr_generate {
+    justify-self: end;
     grid-column-start: 2;
+  }
+
+  #corner_search {
     justify-self: end;
   }
 
@@ -1751,6 +1755,27 @@ footer {
     justify-self: start;
   }
 
+}
+
+@media (max-width: 450px) {
+  #navbar {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 300px;
+    grid-row-gap: 20px;
+    min-height: 100px;
+    height: 100%;
+  }
+
+  #bayton_logo {
+    grid-column: 1 / span all;
+    justify-self: center;
+    padding-top: 38px
+}
+
+  #qr_generate, #darktoggle, #corner_search, #corner_menu {
+    justify-self: center;
+    grid-column-start: unset;
+  }
 }
 
 @media (max-width: 390px) {
