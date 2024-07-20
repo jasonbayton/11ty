@@ -1,5 +1,5 @@
 ---
-title: 'Understanding system app availability on managed devices'
+title: 'Understanding system app availability on managed devices (What are vital apps?)'
 published: '2020-04-09'
 status: publish
 author: 'Jason Bayton'
