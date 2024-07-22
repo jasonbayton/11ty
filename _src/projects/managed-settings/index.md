@@ -49,11 +49,11 @@ If you feel strongly that MANAGED SETTINGS _should_ be able to change some devic
 
 ## What does MANAGED SETTINGS cost?
 
-MANAGED SETTINGS is a *freemium* application. 
+MANAGED SETTINGS is a **free** application. 
 
 Out of the box there are **no restrictions** on the number or type of settings you can provide access to. 
 
-If you find the application useful and wish to support further development, you can licence MANAGED SETTINGS to your Android Enterprise Organisation ID and in return receive additional options to customise it for your organisation. 
+If you find the application useful and wish to support further development, you can purchase a _one-time_ licence for MANAGED SETTINGS for your Android Enterprise Organisation ID and in return receive additional options to debrand and customise it for your organisation. 
 
 Customisations include:
 
@@ -63,59 +63,7 @@ Customisations include:
 
 In future versions it'll be possible to theme the app, and **[configure custom intents](https://github.com/baytonorg/managed_settings_tracker/issues/2)**, useful for highly-modified OEM Android builds that may leverage non-standard Android Settings activities without waiting on me to support it (though happy to do so for popular requests). If you'd be interested in these features, they will be prioritised once licence revenue starts coming in.
 
-### For organisations 
-
-Customisation is available per organisation ID, and licensed accordingly:
-
-<div class="responsive-table-wrapper">
-
-| Licence | Devices        | Cost   | Purchase | 
-| ------- | -------------- | ------ | -------- |
-| **Organisation ID**  | 0 - 2,000      | £500   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
-|         | 2,001 - 5,000  | £700   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
-|         | 5,001 - ∞      | £1,000 | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
-| **Priority support** | ∞     | £1,000p.a | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
-
-</div>
-
-*For organisations, EDU, or charities with budget constraints, please get in touch.*
-
-#### <span class="material-symbols-outlined orange">support</span> Priority support
-
-MANAGED SETTINGS comes with access to email support, access to the Discord community, and documentation. If you'd like additional support, priority offers:
-
-- A dedicated, private communication channel (Discord & voice)
-- Faster (UK hours) responses
-- Precedence on feature requests 
-- Deployment and configuration assistance
-
-**It's an annual recurring fee**.
-
-Invoicing is available if Stripe isn't your thing. If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem, so dodging fair licensing sucks for everyone. 
-
-### For vendors
-
-If you're an ecosystem partner (or organisation) wishing to licence a version that is customised out of box (no waiting for managed configs to apply), £3,000 will grant you a vendor licence to distribute across your customer base, and a flat £300 for each organisation ID associated with your custom package ID.
-
-<div class="responsive-table-wrapper">
-
-| Licence | Devices | Cost | 
-| ------- | ------- | ---- |
-| **Customised app** | ∞ | £3,000 | 
-| **Organisation ID** | ∞ | £300 |  
-
-</div>
-
-Of course you may choose to licence customers on the standard package as organisations above, get in touch to discuss reseller discounts. 
-
-<div class="callout callout-blue">
-<div class="callout-heading callout-heading-small"><span class="material-symbols-outlined">sentiment_dissatisfied</span> I don't like this pricing</div>
-
-Hey, that's OK. The pricing reflects my local market and what I think is fair for the effort put in to building and supporting this utility, it's not intended to dissuade use. 
-
-Get in touch to discuss, and we can come to an agreement.
-
-</div>
+The optional licence fee starts at £500, and goes up to £3,000 for a fully customised, private version of the app.
 
 <a class="button" href="pricing">View pricing</a>
 
@@ -134,3 +82,5 @@ Head into the MANAGED SETTINGS documentation for support and guidance:
 <a class="button" href="support/">View the docs</a>
 
 Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [Discord community](https://discord.gg/YUY7jAjayr), vote on or raise a [new feature request](https://github.com/baytonorg/managed_settings_tracker), or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
+
+I can also offer additional priority support for an annual recurring fee, offering faster and more in-depth support, with additional discounts on my [consultancy rate](/support). Details can be found [here](pricing).
