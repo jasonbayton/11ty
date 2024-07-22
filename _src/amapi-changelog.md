@@ -43,7 +43,7 @@ layout: base.njk
 <p>Google has a monthly cadence for features released to the Android Management API, and fortnightly for Android Device Policy. Without timely and detailed release notes (because "bug fixes" provided on <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.work.clouddpc">Google Play</a> don't count) developers have to frequently manually review resources such as the <a href="https://developers.google.com/android/management/reference/rest/v1/enterprises.policies">reference docs</a> for specific changes. Such an important and widely-used service must be held to a high standard for the partners that rely on it.</p-->
 
 <div class="callout callout-red">
-<div class="callout-heading"> <span class="material-symbols-outlined">work_alert</span> No longer tracked </div>
+<div class="callout-heading">No longer tracked</div>
 
 Over the last several months the cadence and reliability of [AMAPI release notes](https://developers.google.com/android/management/release-notes) has improved significantly, and as such the need to monitor the frequency of updates is no longer a concern.
 

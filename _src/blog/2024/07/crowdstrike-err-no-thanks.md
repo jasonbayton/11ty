@@ -15,7 +15,7 @@ In recent days, the tech community has been grappling with the aftermath of a ma
 As organisations recover and reassess their IT strategies, it's absolutely worth taking some time to consider reducing the Windows stronghold - particularly for critical services - and explore alternatives to add a little redundancy to your organisation. The below guide offers a quick and simple run-through for installing alternative operating systems on existing endpoints, be they desktop/laptop or server.
 
 <div class="callout callout-red">
-<div class="callout-heading"><span class="material-symbols-outlined">work_alert</span> Obvious heads-up</div>
+<div class="callout-heading">Obvious heads-up</div>
 
 This guide _doesn't_ go into the nuances of enterprise security beyond some basic best practices. Rather, it's to offer a taste of alternatives for non-production devices for intrigued administrators, or those told by their bosses to take a few eggs out of their basket. Proceed with understanding.
 

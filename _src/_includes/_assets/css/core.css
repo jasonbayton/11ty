@@ -1287,6 +1287,10 @@ footer {
         background-color: #ffffff;
       }
 
+      & .callout-heading::before {
+        content: 'work_alert';
+      }
+
       & .callout-heading-small::after {
         background-color: #ffffff;
       }
@@ -1312,6 +1316,10 @@ footer {
     & .callout-heading::after {
       background-color: #ffffff;
     }
+    
+    & .callout-heading::before {
+      content: 'work_alert';
+    }
 
     & .callout-heading-small::after {
       background-color: #ffffff;
@@ -1331,6 +1339,15 @@ footer {
       background-color: var(--text);
       border-radius: 5px;
       margin-top: 15px;
+    }
+
+    &::before {
+      font-family: "Material Symbols Outlined";
+      content: 'info';
+      padding-right: 5px;
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      max-width: 40px;
+      vertical-align: middle;
     }
 
     & .material-symbols-outlined {
@@ -1373,6 +1390,10 @@ footer {
         font-size: 115%;
         padding-right: 6px;
     }
+  }
+
+  & .callout-icon-sad::before {
+    content: 'sentiment_dissatisfied';
   }
 }
 

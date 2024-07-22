@@ -107,7 +107,7 @@ menu</span> )
 </div>
 
 <div class="callout">
-<div class="callout-heading"><span class="material-symbols-outlined">work_alert</span> Formatting support messages</div>
+<div class="callout-heading">Formatting support messages</div>
 
 FYI, the support message field supports HTML! You may use the following HTML tags: 
 

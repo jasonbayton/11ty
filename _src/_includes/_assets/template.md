@@ -2,7 +2,7 @@ Callout example:
 
 ```html
 <div class="callout callout-orange">
-<div class="callout-heading"><span class="material-symbols-outlined">work_alert</span> Title</div>
+<div class="callout-heading">Title</div>
 
 Text here
 

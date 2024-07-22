@@ -12,9 +12,8 @@ eleventyNavigation:
 layout: base.njk
 ---
 
-<div class="callout">
-
-## This change has been reverted
+<div class="callout callout-red">
+<div class="callout-heading">This change has been reverted</div>
 
 Check out [this article](/blog/2023/09/work-profile-reverted-in-14) for more information. The below no longer applies to Android 14, but may be instead re-appear for Android 15 (or sooner in a QPR - quarterly patch release - if it's ready).
 

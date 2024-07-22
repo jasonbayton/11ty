@@ -13,9 +13,8 @@ eleventyNavigation:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/android-enterprise-emm-cope-support/318'
 ---
-<div class="callout callout-warning">
-
-## The future of COPE
+<div class="callout callout-orange">
+<div class="callout-heading">The future of COPE</div>
 
 How Android Enterprise implements COPE has changed, requiring all of the below EMMs who’ve worked to bring support for the solution set to market to rework COPE support once more from Android 11. Read more [here](/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) and an updated document [here](/android/android-11-cope-changes/).
 

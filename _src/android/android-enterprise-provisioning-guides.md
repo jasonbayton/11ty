@@ -11,9 +11,8 @@ layout: base.njk
 eleventyNavigation:
   order: 19000
 ---
-<div class="callout callout-success">
-
-### What is Android Enterprise?
+<div class="callout callout-green">
+<div class="callout-heading callout-heading-small">What is Android Enterprise?</div>
 
 For information regarding Android Enterprise, including what it is, the deployment scenarios stated below and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)
 

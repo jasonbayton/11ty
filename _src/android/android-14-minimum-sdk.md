@@ -25,9 +25,10 @@ Yes. If a device is enrolled with, or upgraded to Android 14, it will no longer 
 
 No. It's certainly better to ensure apps are targeting the latest API level where possible, but as long as applications target an API level of 23 (Android 6.0) or higher for Android 14, and 24 (Android 7.0) or higher in Android 15, apps will continue to be able to install without issue.
 
-<div class="callout">
+<div class="callout callout-orange">
+<div class="callout-heading callout-heading-small">Head's up</div>
 
-NB: This new policy, like Google Play's [targetSDK requirements](https://support.google.com/googleplay/android-developer/answer/11926878) will increase year-on-year. This means apps that target API levels lower than 24 (7.0) will not install with Android 15 in 2024.
+This new policy, like Google Play's [targetSDK requirements](https://support.google.com/googleplay/android-developer/answer/11926878) will increase year-on-year. This means apps that target API levels lower than 24 (7.0) will not install with Android 15 in 2024.
 
 **Update**: As of Android 15 developer preview, this has increased to targeting an API level below 24 - Android 7.0.
 

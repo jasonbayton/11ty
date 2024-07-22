@@ -110,7 +110,7 @@ If you're an ecosystem partner (or organisation) wishing to licence a version th
 Of course you may choose to licence customers on the standard package as organisations above, get in touch to discuss reseller discounts. 
 
 <div class="callout callout-blue">
-<div class="callout-heading callout-heading-small"><span class="material-symbols-outlined">sentiment_dissatisfied</span> I don't like this pricing</div>
+<div class="callout-heading callout-heading-small callout-icon-sad">I don't like this pricing</div>
 
 Hey, that's OK. The pricing reflects my local market and what I think is fair for the effort put in to building and supporting this utility, it's not intended to dissuade use. 
 

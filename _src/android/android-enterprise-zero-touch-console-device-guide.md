@@ -11,15 +11,15 @@ layout: base.njk
 eleventyNavigation:
   order: 5000
 ---
-<div class="callout">
-<div class"callout-heading">
+<div class="callout callout-blue">
+<div class="callout-heading">
 What is zero-touch enrolment?
 </div>
 
 Zero-touch enrolment has been covered in depth in [What is Android zero-touch enrolment?](/android/what-is-android-zero-touch-enrolment/) This document offers a good overview of what it is and why zero-touch is the future of Android management.
 
 </div>
-<div class="callout">
+<div class="callout callout-orange">
 <div class="callout-heading">This guide is intended for Organisations</div>
 
 There are two scenarios for which the zero-touch console is used, as an organisation or as a reseller. This guide targets the former, a good resource for resellers can be found [here](https://developers.google.com/zero-touch/guides/portal/).
@@ -193,7 +193,7 @@ Input the **Email Address**, **Role** and click **Add**.
 This will send out an invitation to the named account, allowing them to log in and perform their role-specific actions. 
 
 <div class="callout callout-orange">
-<div class="callout-heading-small"><span class="material-symbols-outlined">work_alert</span> Google account required</div>
+<div class="callout-heading callout-heading-small">Google account required</div>
 
 Only Google accounts are supported here, so ensure the email address added either belongs to Google Workspace, Cloud Identity, or is a Google account used for work purposes.
 

@@ -14,9 +14,8 @@ eleventyNavigation:
   order: 22000
 ---
 
-<div class="callout callout-info">
-
-## Android Go & EMM support
+<div class="callout callout-blue">
+<div class="callout-heading">Android Go & EMM support</div>
 
 Check out the post that led to diving deeper with Android Go [here](/blog/2022/08/android-go-emm) following VMware's announcement of official support for Android Go with Workspace One UEM following years of non-support.
 

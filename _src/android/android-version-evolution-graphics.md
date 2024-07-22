@@ -13,9 +13,12 @@ eleventyNavigation:
 ---
 I’ve created two Android evolution graphics: one that simply includes all Android versions, the second that incorporates Android Enterprise.
 
-<div class="callout callout-info"> 
+<div class="callout callout-blue"> 
+<div class="callout-heading callout-heading-small">Head's up</div>
 
-**NB:** From Android 10 there’s only one evolution graphic, which incorporates Android Enterprise. It’s super easy to remove AE references from the PPTx if desired, or grab an older version of the Android-only PPTx. </div>
+From Android 10 there’s only one evolution graphic, which incorporates Android Enterprise. It’s super easy to remove AE references from the PPTx if desired, or grab an older version of the Android-only PPTx. 
+
+</div>
 
 The reasoning for this is twofold:
 

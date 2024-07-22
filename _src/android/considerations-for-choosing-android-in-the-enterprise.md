@@ -13,9 +13,8 @@ eleventyNavigation:
 discourse_permalink:
     - 'https://discuss.bayton.org/t/considerations-for-choosing-android-in-the-enterprise/272'
 ---
-<div class="callout callout-success">
-
-### What is Android Enterprise?
+<div class="callout callout-green">
+<div class="callout-heading callout-heading-small">What is Android Enterprise?</div>
 
 The below document covers off a number of both Android and Android Enterprise features, so some understanding of Android Enterprise is required. To learn more about Android Enterprise, [click here](/android/what-is-android-enterprise-and-why-is-it-used/).
 
@@ -98,9 +97,8 @@ The days of bringing devices on board and hoping the exchange profile applies su
 
 Even today things are improving still, with the [introduction of OEMConfig](/android/what-is-oemconfig/) OEMs can extend on the base set of Android Enterprise APIs in order to deliver bespoke management capabilities in a way that’s faster and more reliable than ever before. OEMConfig offers zero-day support for new features and capabilities without EMM vendors having to lift a finger.
 
-<div class="callout callout-info">
-
-### Did you know?
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">Did you know?</div>
 
 OEMs such as Samsung and Zebra have >1000 APIs available in addition to fundamental Android Enterprise capabilities for incredibly granular management. Through OEMConfig, these APIs can be (and are for Zebra) exposed for simple, zero-day support of every new feature published. More and more OEMs will build out their unique management capabilities as OEMConfig evolves. 
 

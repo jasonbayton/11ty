@@ -16,6 +16,7 @@ eleventyNavigation:
     order: 0
 ---
 <div class="callout">
+<div class="callout-heading callout-heading-small">Head's up</div>
 
 Out of the box, MANAGED SETTINGS comes with no restrictions set on available settings offered. Without any configuration, the application will allow access to all supported Settings activity intents.
 
@@ -28,7 +29,7 @@ MANAGED SETTINGS will work as a standalone application in a mostly-unrestricted 
 If you are using a kiosk-enabled policy today, and have had the settings application available - temporarily or permanently - this must be removed when MANAGED SETTINGS is deployed, otherwise end users will continue to simply leverage the Device Settings application.
 
 <div class="callout callout-red">
-<div class="callout-heading"><span class="material-symbols-outlined">work_alert</span> Settings access must be blocked</div>
+<div class="callout-heading">Settings access must be blocked</div>
 
 If you're using an AMAPI-based EMM, ensure your kiosk settings stipulate access to Settings is **blocked**:
 

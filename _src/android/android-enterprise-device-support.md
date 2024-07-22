@@ -23,9 +23,8 @@ The devices listed below have been tested against a current (at the time of publ
 - Android Enterprise dedicated (COSU or kiosk)
 - Multiple provisioning methods, including [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/)
 
-<div class="callout callout-info">
-
-### OEM or reseller?
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">OEM or reseller?</div>
 
 I welcome additional devices for testing! If you’re an **OEM** or **reseller** of Android devices, you can join **Sony**, **Nokia**, **Huawei**, **Lenovo** and others in lending me anything from Android 6.0.1 or later to independently test. This is a free service, devices can be returned within a week or so. Use my [contact](/contact/) page to get in touch or [email me directly](mailto:jason@bayton.org).
 
