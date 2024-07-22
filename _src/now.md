@@ -7,30 +7,13 @@ excerpt: ''
 type: page
 layout: base.njk
 ---
-Last update: May 2023.
+Last update: July 2024.
 
-## Recovering from cancer
+## I launched MANAGED SETTINGS
 
-Technically I'm in remission for the next 18 months, but as of October 2022 and after almost a year of tests, chemo, the lot, PET scans showed nothing left. 
+An application designed for organisations struggling to provide measured access to device settings in kiosk and locked-down environments, MANAGED SETTINGS is a passion-project I've had in the back of my mind for a few years. More recently I've been able to partner up with a few smart people willing to loan me their time, and projects are beginning to take shape. 
 
-<details>
-<summary><i>Expand here for more details</i></summary>
-
-It was discovered after I broke my Ankle in 2021. The swelling wasn't subsiding still months-later; the opposite, in fact. I didn't know it was broken (it was at the base of the smaller fibula, so I could still walk), but I'd gone to the doctors a few times and left repeatedly with instructions to self-refer to Physiotherapy and a diagnosis it was a bad sprain. An additional fall on the same ankle over Christmas in 2021 led to a hospital visit in Finland where X-Rays discovered the months-old break and bone deterioration that needed further investigation.
-
-My GP back in the UK still resisted sending me for additional tests. At that point the pain was becoming too much to deal with daily and I took myself to the hospital to do the waiting needed there to be (re)X-rayed, before I was then referred for MRI and additional tests. 
-
-The MRI showed the ankle was being attacked by a tumour, which led to a biopsy and diagnosis of [Stage 1E Lymphoma](https://lymphoma-action.org.uk/about-lymphoma-tests-diagnosis-and-staging/stages-lymphoma#:~:text=Stage%201E%20lymphoma%20means%20that,This%20is%20called%20extranodal%20lymphoma.).
-
-</details>
-
-It took 4 months of chemo and a sense of humour, but here we are.. my ankle is slowly regenerating also, though it'll not be the same.
-
-## Revamping the site & content
-
-Between a few years of non-stop, unhealthy work habits, and having to write off most of 2022 to beating Lymphoma, the site content and resources aren't where I want them to be. I'm working on resolving that with new content, collaborations, potentially a couple of partnerships and engagements also. 
-
-I by no means went silent, I've achieved Platinum GPE status with Google and remained active on LinkedIn, etc, but more recently a Google search will pick up content I write on other outlets, and not so much here. I'm actively trying to rebalance this.
+Take a look at MANAGED SETTINGS [here](/projects/managed-settings).
 
 ## Independent consulting
 
@@ -47,18 +30,6 @@ Just recently I've -
 - Assisted with RFQs
 
 If you're interested in the same, my rates align with SME/MSPs and I'm available several hours a month at the moment.
-
-## I wrote a book
-
-What was intended to be an April Fool's joke turned into one of the most enjoyable projects I've worked on in forever, and allows me technically to say I'm an author now, even if it is a 16 page ebook for children. Check it out, and enjoy! - [Daddy's Phone Can't Do That!](/book)
-
-## I launched notes
-
-Given the absolute carnage that is Twitter at the moment, and the realisation that all content is generally vendor-locked to whatever platform it's shared to, I've decided to start using this website as a broadcast hub for notes I'd normally share on social media. 
-
-I've no desire to stop engaging on socials, I recently dusted off my Mastodon account to the contrary, but going forward the short-(but sometimes long-)form [texts](https://www.linkedin.com/posts/jasonbayton_androidenterprise-activity-7031692128967651329-FGUY?utm_source=share&utm_medium=member_desktop) I [typically](https://www.linkedin.com/posts/jasonbayton_androidenterprise-activity-7029404546539896832-JmJ1?utm_source=share&utm_medium=member_desktop) send [out](https://www.linkedin.com/posts/jasonbayton_obligatorymention-androidenterprise-activity-7026857679939629056-hOiG?utm_source=share&utm_medium=member_desktop) to [LinkedIn](https://www.linkedin.com/posts/jasonbayton_androidenterprise-googleworkspace-gsuite-activity-7018285905043939328--Z6B?utm_source=share&utm_medium=member_desktop) will originate and be forever indexed and presented here on this website first.
-
-Check out [notes](/notes).
 
 ## Getting fit
 
