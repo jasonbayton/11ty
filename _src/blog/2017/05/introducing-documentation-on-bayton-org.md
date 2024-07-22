@@ -19,6 +19,7 @@ discourse_permalink:
     - 'https://discuss.bayton.org/t/introducing-documentation-on-bayton-org/82'
 tags:
     - Projects
+    - Meta
 ---
 The way content is published on bayton.org is changing. Despite efforts to incorporate features into posts based on length, complexity, etc, I’ve not been pleased with the results. As such, over the last few weekends I’ve been working on a new area of the site dedicated to long-form, technical articles which will benefit from features like:
 

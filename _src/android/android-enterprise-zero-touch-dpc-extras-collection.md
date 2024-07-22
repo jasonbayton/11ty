@@ -15,23 +15,20 @@ DPC extras can be used to associate Android Enterprise fully managed devices wit
 
 The following examples offer a complete DPC extra snippet that can be copied and pasted into the zero-touch configuration. The items **in bold** will **need to be edited** to suit your environment, though, otherwise the zero-touch enrolment process will fail.
 
-<div class="callout callout-info">
-
-### Editing ADMIN EXTRAS BUNDLE
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">Editing ADMIN EXTRAS BUNDLE</div>
 
 To be of value, the ADMIN\_EXTRAS\_BUNDLE should ideally at least include the server URL or identifier (where appropriate), however lines for username, password, and more can optionally be omitted to allow the config to remain generic.
 
 JSON doesn’t leave room for error – the last line within ADMIN\_EXTRAS\_BUNDLE must not have a trailing comma “,”. See “user” in the MobileIron config has a comma, but “quickstart” does not? If you remove “quickstart”, you’d need to remove the comma from “user” as it then becomes the last line, otherwise it could throw up an error.
 
-</div><div class="callout callout-warning">
-
-### Trust but verify
+</div><div class="callout callout-orange">
+<div class="callout-heading callout-heading-small">Trust but verify</div>
 
 Most of these DPC extra collections have been submitted either by EMM vendors or customers of the EMM referenced. The vendor may make changes to the extras they provide **without my knowledge** so it is recommended should the below extras fail to properly work, that you validate with your EMM before contacting me (but do feel free to reach out with updates!)
 
-</div><div class="callout callout-danger">
-
-### Usernames &amp; passwords
+</div><div class="callout callout-red">
+<div class="callout-heading callout-heading-small">Usernames & passwords</div>
 
 Unless the username and password are stipulated for the purpose of **staging**, they should **not** be included at all due to the potential security risks associated. If an IMEI not belonging to an organisation is mistakenly added (typo, miscommunication, human error), the device will be able to enrol automatically and potentially gain access to corporate resources.
 
