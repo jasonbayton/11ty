@@ -114,7 +114,7 @@ Organisations demand flexibility; in process, use-case, form factor and budget. 
 
 Considering BYOD? Dedicated? Something in between? With four individual solution sets to choose from, Android offers a management scenario to suit all applications.
 
-![](https://cdn.bayton.org/uploads/2017/04/AEtypes-Page-6.png)
+{% include "../_includes/_assets/img/android_enterprise_deployment_scenarios.svg" %}
 *From: [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/)*
 
 The in-depth document [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/#enter-android-enterprise) outlines these deployment scenarios and their applications, while this [infographic](/android/infobyte-did-you-know-android-enterprise-deployment-scenarios/) offers a deep-dive on each deployment scenario specifically.
