@@ -76,6 +76,24 @@ eleventyNavigation:
 </div>
 <div class="grid-right">
 
+## EMM Guides
+
+<div class="support-list">
+  <ul>
+
+  {% for post in collections['Managed Settings'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("EMM setup guides") %}
+
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+
+  </ul>
+</div>
+
 ## Release notes
 
 <div class="support-list">
