@@ -26,6 +26,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
+  eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/fonts": "/fonts"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/_headers": "/_headers"});
   eleventyConfig.addPassthroughCopy({"_src/_includes/robots.txt": "/robots.txt"});
