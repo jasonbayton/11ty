@@ -433,6 +433,36 @@ button {
   padding: 10px;
 }
 
+#qr_generate {
+  position: relative;
+}
+
+.bubble-wrap {
+  display: inline-block;
+  position: absolute;
+  bottom: -30px; /* Position the bubble below the icon */
+  left: -74px;
+  transform: translateX(-50%);
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.bubble-wrap #message_bubble {
+  display: inline;
+  background-color: #ffcc00; /* Bubble background colour */
+  color: #000; /* Text colour */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px 10px; /* Padding around the text */
+  font-size: 12px; /* Adjust font size as needed */
+}
+
+.bubble-wrap .material-symbols-outlined { 
+  transform: rotate(90deg);
+  display: inline-block;
+  /*font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;*/
+  font-weight: 400;
+  max-width: 24px;
+}
+
 #darktoggle {
   cursor: pointer;
 }

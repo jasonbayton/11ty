@@ -17,7 +17,9 @@
         </div>
         <div id="qr_generate">
             <a class="{% if page.url != false and '/qr-generator' in page.url %} active {% endif %}" href="/qr-generator/"><span class="material-symbols-outlined">qr_code_2_add</span></a>
-        </div><div id="corner_search">
+            <div class="bubble-wrap mobile-hidden"><div id="message_bubble">The QR generator is here now</div><span class="material-symbols-outlined">reply</span></div>
+        </div>
+        <div id="corner_search">
             <a class="{% if page.url != false and '/search' in page.url %} active {% endif %}" href="/search/"><span class="material-symbols-outlined">search</span></a>
         </div>
         <div id="darktoggle">
