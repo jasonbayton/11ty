@@ -1945,6 +1945,11 @@ a.gitlog-title {
   padding: 0;
 }
 
+.section-byline {
+  font-size: 80%;
+  font-style: italic;
+}
+
 .post-archive {
   padding-top: 40px;
   float: right;
