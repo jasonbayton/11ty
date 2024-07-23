@@ -51,7 +51,7 @@ eleventyNavigation:
 </div>
 <div class="pricing-item">
         <h3>Priority support</h3>
-        <p class="price">£1,000</p>
+        <p class="price">£1,000(p.a)</p>
         <ul>
             <li>A dedicated, private communication channel (Discord & voice)</li>
             <li>Faster (UK hours) responses</li>
