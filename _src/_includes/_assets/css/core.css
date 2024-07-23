@@ -1313,17 +1313,21 @@ footer {
       background: var(--orange);
       color: #ffffff;
 
-      & .callout-heading::after {
-        background-color: #ffffff;
-      }
+    & .callout-heading::after {
+      background-color: #ffffff;
+    }
 
-      & .callout-heading::before {
-        content: 'work_alert';
-      }
+    & .callout-heading::before {
+      content: 'work_alert';
+    }
 
-      & .callout-heading-small::after {
-        background-color: #ffffff;
-      }
+    & .callout-heading-small::after {
+      background-color: #ffffff;
+    }
+
+    & code {
+      color: var(--light);
+    }
   }
 
   &.callout-blue {
@@ -1353,6 +1357,10 @@ footer {
 
     & .callout-heading-small::after {
       background-color: #ffffff;
+    }
+
+    & code {
+      color: var(--light);
     }
   }
 
