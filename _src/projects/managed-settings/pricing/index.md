@@ -59,7 +59,7 @@ eleventyNavigation:
             <li>Deployment and configuration assistance</li>
             <li>Discounted consultancy (hours)</li>
         </ul>
-        <a href="/projects/managed-settings/#support-priority-support" class="btn">View details</a>
+        <a href="#support-priority-support" class="btn">View details</a>
     </div>
 
 <br><br>
