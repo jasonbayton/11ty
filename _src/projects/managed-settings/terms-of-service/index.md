@@ -11,7 +11,7 @@ tags:
     - 'bayton-projects'
 layout: base.njk
 eleventyNavigation:
-    key: Terms of service
+    title: Terms of service
     order: 3
     
 ---
