@@ -35,7 +35,7 @@ eleventyNavigation:
             <li>Email support</li>
             <li>Community support</li>
         </ul>
-        <a href="/projects/managed-settings/#for-organisations" class="btn">View details</a>
+        <a href="#for-organisations" class="btn">View details</a>
     </div>
     <div class="pricing-item">
         <h3>Vendor/whitelabel</h3>
@@ -46,7 +46,7 @@ eleventyNavigation:
             <li>Flat fee per organisation ID</li>
             <li>6 months of priority support</li>
         </ul>
-        <a href="/projects/managed-settings/#for-vendors" class="btn">View details</a>
+        <a href="#for-vendors" class="btn">View details</a>
     </div>
 </div>
 <div class="pricing-item">
@@ -64,13 +64,13 @@ eleventyNavigation:
 
 <br><br>
 
-### For organisations 
+## For organisations 
 
 Customisation is available per organisation ID, and licensed accordingly:
 
 <div class="responsive-table-wrapper">
 
-| Licence | Devices        | Cost   | Purchase | 
+| Licence | Devices        | Cost   |          | 
 | ------- | -------------- | ------ | -------- |
 | **Organisation ID**  | 0 - 2,000      | £500   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
 |         | 2,001 - 5,000  | £700   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
@@ -94,7 +94,7 @@ MANAGED SETTINGS comes with access to email support, access to the Discord commu
 
 Invoicing is available if Stripe isn't your thing. If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem, so dodging fair licensing sucks for everyone. 
 
-### For vendors
+## For vendors
 
 If you're an ecosystem partner (or organisation) wishing to licence a version that is customised out of box (no waiting for managed configs to apply), £3,000 will grant you a vendor licence to distribute across your customer base, and a flat £300 for each organisation ID associated with your custom package ID.
 
