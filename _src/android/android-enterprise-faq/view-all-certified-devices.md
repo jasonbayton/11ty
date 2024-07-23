@@ -35,7 +35,7 @@ This is surprisingly not that easy to discern for the general public, as Google 
 Instead, there are three indirect means of validating devices are certified:
 
 1. Check the OEM/ODM has an agreement with Google - [https://www.android.com/certified/partners/](https://www.android.com/certified/partners/)
-2. View Google Play's Compatibility document, as any certified device will show up here - [https://support.google.com/googleplay/answer/1727131](ttps://support.google.com/googleplay/answer/1727131)
+2. View Google Play's Compatibility document, as any certified device will show up here - [https://support.google.com/googleplay/answer/1727131](https://support.google.com/googleplay/answer/1727131)
 3. On the device itself, head to Google Play > Settings > About > Play Protect certification. Your device should show "Device is certified"
 
 If the OEM/ODM is listed in link 1, there's a reasonable assumption the hardware they provide has certification, since Google leans on OEMs to certify the hardware they make once they're granted an agreement.
