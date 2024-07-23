@@ -11,7 +11,7 @@ tags:
     - 'bayton-projects'
 layout: base.njk
 eleventyNavigation:
-    key: Pricing
+    title: Pricing
 ---
 <div class="pricing-table">
     <div class="pricing-item">

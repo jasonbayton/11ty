@@ -14,6 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 4
+    title: Managed configuration JSON payload
 ---
 
 The managed configuration payload, for offline/custom DPC use.

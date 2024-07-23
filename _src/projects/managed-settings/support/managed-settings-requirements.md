@@ -14,6 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 1
+    title: Requirements for use
 ---
 In order to leverage MANAGED SETTINGS, the following requirements and recommendations are provided below.
 

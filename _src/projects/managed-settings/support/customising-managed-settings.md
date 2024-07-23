@@ -14,7 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 3
-    key: Customise the experience
+    title: Customise the experience
 ---
 <div class="callout">
 <div class="callout-heading">

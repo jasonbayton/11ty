@@ -12,6 +12,7 @@ tags:
 layout: base.njk
 eleventyNavigation: 
     order: 4
+    title: EMM setup guides
 ---
 
 <div class="support-list">

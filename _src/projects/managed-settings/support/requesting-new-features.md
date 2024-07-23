@@ -14,6 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 4
+    title: Request a new feature
 ---
 
 MANAGED SETTINGS feature requests can be raised on the [public issue tracker](https://github.com/baytonorg/managed_settings_tracker/issues/).

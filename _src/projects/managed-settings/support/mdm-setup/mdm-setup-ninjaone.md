@@ -15,6 +15,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 3
+    title: Configure NinjaOne MDM
 ---
 MANAGED SETTINGS can be set up quickly and easily through NinjaOne MDM. 
 

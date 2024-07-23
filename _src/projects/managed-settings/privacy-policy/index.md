@@ -12,7 +12,7 @@ tags:
 layout: base.njk
 eleventyNavigation: 
     order: 3
-    key: Privacy policy
+    title: Privacy policy
 ---
 _Version 1.0, 27th June, 2024_
 

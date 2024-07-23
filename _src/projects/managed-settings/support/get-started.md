@@ -14,6 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 0
+    title: Quick start
 ---
 <div class="callout">
 <div class="callout-heading callout-heading-small">Head's up</div>

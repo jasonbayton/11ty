@@ -11,7 +11,7 @@ tags:
     - 'bayton-projects'
 layout: base.njk
 eleventyNavigation:
-  key: Support
+  title: Support
   order: 1
 
 ---

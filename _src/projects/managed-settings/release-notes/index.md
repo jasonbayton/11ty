@@ -12,7 +12,7 @@ tags:
 layout: base.njk
 eleventyNavigation:
   order: 2
-  key: Release notes
+  title: Release notes
 ---
 
 ## Release notes
