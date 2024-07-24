@@ -92,7 +92,7 @@ Move to the **Configuration** tab and click **Edit**, then scroll down to **Kios
 ![](https://cdn.bayton.org/assets/managed_settings/managed_settings_emm_setup/appaloosa/Screenshot_2024-07-23_23.43.27.png)
 
 Enable **Kiosk Mode** and ensure:
-- Enable full screen locked app: **Off**
+- Enable fullscreen locked app: **Off**
 - Enable access to device settings: **Off**
 
 Configure additional Kiosk Mode settings as desired and click **Save**.

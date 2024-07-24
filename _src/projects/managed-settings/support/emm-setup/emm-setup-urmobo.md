@@ -1,5 +1,5 @@
 ---
-title: Configure MANAGED SETTINGS for Urmobo EMM
+title: Configure MANAGED SETTINGS for Urmobo MDM
 parent: EMM setup guides for MANAGED SETTINGS
 published: '2024-07-22'
 status: publish
@@ -14,9 +14,9 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 3
-    title: Configure Urmobo EMM
+    title: Configure Urmobo MDM
 ---
-MANAGED SETTINGS can be set up quickly and easily through Urmobo EMM. 
+MANAGED SETTINGS can be set up quickly and easily through Urmobo EMM. This guide covers **only policy configuration** and does not extend to **Entities**.
 
 Prerequisites:
 - Android Enterprise is bound
@@ -43,7 +43,7 @@ Scroll down to **Play Store** and in the open window, search for **BAYTON MANAGE
 
 **Click the icon to select the app**.
 
-Select an appropriate **Assignment type** (install type). I have selected **Force Installed** however it is your choice. A type that prevents uninstallation is ideal.
+Select an appropriate **Install Type**. I have selected **Force Installed** however it is your choice. A type that prevents uninstallation is ideal.
 
 Click **Select**
 
