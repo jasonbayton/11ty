@@ -28,7 +28,7 @@ eleventyNavigation:
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Setup") %}
 
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a></li>
 
   {% endif %}
   {% endfor %}
@@ -46,7 +46,7 @@ eleventyNavigation:
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Customisation") %}
 
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a></li>
 
   {% endif %}
   {% endfor %}
@@ -64,7 +64,7 @@ eleventyNavigation:
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Troubleshooting") %}
 
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a></li>
 
   {% endif %}
   {% endfor %}
@@ -85,7 +85,7 @@ eleventyNavigation:
   {% for tag in post.data.categories %}
   {% if tag.includes("EMM setup guides") %}
 
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a></li>
 
   {% endif %}
   {% endfor %}
@@ -103,7 +103,7 @@ eleventyNavigation:
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Release Notes") %}
 
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a> - {{ post.data.published | dateFull }}</li>
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a> - {{ post.data.published | dateFull }}</li>
 
   {% endif %}
   {% endfor %}

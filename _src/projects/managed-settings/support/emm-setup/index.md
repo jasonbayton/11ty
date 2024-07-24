@@ -22,7 +22,7 @@ eleventyNavigation:
   {% for tag in post.data.categories %}
   {% if tag.includes("EMM setup guides") %}
 
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a></li>
 
   {% endif %}
   {% endfor %}
