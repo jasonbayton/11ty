@@ -140,6 +140,7 @@ content img { border-radius: 5px; }
   padding: 0;
   margin: 0;
   direction: rtl;
+  writing-mode: horizontal-tb;
 
   & li {
     display: inline;
