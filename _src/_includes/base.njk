@@ -122,7 +122,20 @@
                         {% elif tag.includes("FAQ") %}
                         <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/android/android-enterprise-faq/">return to FAQ</a>            
                         {% elif tag.includes("Managed Settings") %}
-                        <span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/projects/managed-settings/">return to project</a>            
+                        <!--span class="material-symbols-outlined">arrow_left_alt</span> <a class="meta-tag" href="/projects/managed-settings/">return to project</a-->                  
+                        {% set breadCrumb = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: false }) %}
+                        <ul class="breadcrumb">
+                            <li class="end-icon"><span class="orange material-symbols-outlined">turn_right</span></li>
+                            <li><span class="material-symbols-outlined">chevron_right</span></li>
+                            {% for entry in breadCrumb | reverse %}
+                            {% if loop.index0 < 2 %}
+                            <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+                            <li><span class="material-symbols-outlined">chevron_right</span></li>
+                            {% endif %}
+                            {%- endfor %}
+                            <li>...</li>
+                        </ul>
+
                         {% endif %}
                         {% endfor %}
                     </div>
