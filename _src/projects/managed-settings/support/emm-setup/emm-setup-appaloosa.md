@@ -19,7 +19,7 @@ eleventyNavigation:
 MANAGED SETTINGS can be set up quickly and easily through Appaloosa. The following guide is written for **Device deployment** through a managed policy.
 
 Prerequisites:
-- Android Enterprise is bound (a connection is present)
+- Android Enterprise is bound
 - A policy exists, or will be created for this guide
 - [Requirements](/projects/managed-settings/support/managed-settings-requirements) are met
 - A [licence key](/projects/managed-settings/pricing), if desired
