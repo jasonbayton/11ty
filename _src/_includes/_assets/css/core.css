@@ -139,8 +139,9 @@ content img { border-radius: 5px; }
   list-style-type: none;
   padding: 0;
   margin: 0;
-  direction: rtl;
-  writing-mode: horizontal-tb;
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+  flex-wrap: wrap-reverse;
 
   & li {
     display: inline;
