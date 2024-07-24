@@ -157,8 +157,6 @@ content img { border-radius: 5px; }
   }
 }
 
-
-
 audio { width: 80%; min-width: 300px; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2062,7 +2060,8 @@ to {
   justify-self: start
 }
 .post-meta-base-right {
-  justify-self: end
+  justify-self: end;
+  align-self: end;
 }
 
 .meta-tiny {
