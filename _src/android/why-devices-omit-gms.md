@@ -40,13 +40,13 @@ Taking the above into consideration then, there are several reasons why a device
 
 3. **Regional Restrictions**: In some regions, manufacturers may choose to omit GMS due to local regulations or market conditions. For example, in China, Google services are blocked, and manufacturers often ship devices with AOSP (Android Open Source Project) and alternative app stores and services. Additionally, some countries may have additional licensing requirements even if the device is GMS certified. This means that manufacturers might prefer to ship devices with AOSP in markets where additional work is needed to avoid the complexity and cost of complying with regional requirements. More details on regional restrictions can be found [here](https://bayton.org/docs/enterprise-mobility/android/how-do-android-devices-become-certified/).
 
-4. AOSP offers OEMs unfettered customisation of the device, software, and overall experience. A kiosk solution for example may boot directly into the customer app and services direct from the factory, completely omitting the laborious Google-mandated setup and provisioning experience in place today.
+4. **Restrictive Requirements**: AOSP offers OEMs unfettered customisation of the device, software, and overall experience. A kiosk solution for example may boot directly into the customer app and services direct from the factory, completely omitting the laborious Google-mandated setup and provisioning experience in place today.
 
 ## GMS and Android Enterprise
 
-Speaking of provisioning.. Unofficially, without GMS certification, modern Android devices do allow for limited Android Enterprise management with an EMM that supports closed network or non-GMS management, or a custom DPC that directly interfaces the Device Policy Manager (DPM) APIs on the Android device. However, assume that account and application-based functionality that leans on Google Play services, Google Play, or any other aspect of the GMS suite of applications will not work.
+Speaking of provisioning: Unofficially, without GMS certification, modern Android devices do allow for limited Android Enterprise management with an EMM that supports closed network or non-GMS management, or a custom DPC that directly interfaces the Device Policy Manager (DPM) APIs on the Android device. However, assume that account and application-based functionality that leans on Google Play services, Google Play, or any other aspect of the GMS suite of applications will not work.
 
-Furthermore, standard provisioning methods will not work, as these are provided by Google's Set Up Wizard (SUW) flow. The only option, unless the AOSP device OEM implements a different solution, is to set an application as a Device Owner (DO) through ADB. More information can be found [here](https://bayton.org/docs/enterprise-mobility/android/is-android-enterprise-supported-on-uncertified-non-gms-devices/).
+Furthermore, standard provisioning methods will not work, as these are provided by Google's Set Up Wizard (SUW) flow. The only option, unless the AOSP device OEM implements a different solution, is to set an application as a Device Owner (DO) through ADB. More information can be found [here](/android/android-enterprise-faq/is-android-enterprise-supported-on-uncertified-devices/).
 
 ## Conclusion
 
