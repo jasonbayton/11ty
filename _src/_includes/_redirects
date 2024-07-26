@@ -46,3 +46,5 @@
 /blog/2017/02/what-is-android-enterprise-android-for-work-and-why-is-it-used/ /android/what-is-android-enterprise-and-why-is-it-used/ 301
 /rss /feed.xml 301
 /?s=* /search/?q=:splat 301
+https://bayton.netlify.app/* https://bayton.org/:splat 301
+https://main--bayton.netlify.app/* https://bayton.org/:splat 301
