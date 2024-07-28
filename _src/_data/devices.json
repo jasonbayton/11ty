@@ -1,6 +1,6 @@
 {
   "totalNonStaleRecentDevices": 291,
-  "totalRecent24hDevices": 71,
+  "totalRecent24hDevices": 53,
   "totalLicensedDevices": 29,
   "devicesByOS": {
     "27": 13,
@@ -30,9 +30,9 @@
     "TECNO": 1,
     "HMD Global": 1,
     "W&O": 1,
-    "vivo": 1,
     "OPPO": 1,
-    "SMT_HK": 1
+    "SMT_HK": 1,
+    "vivo": 1
   },
   "numberChangeByOS": {
     "27": 0,
@@ -41,7 +41,7 @@
     "30": 0,
     "31": 0,
     "32": 0,
-    "33": 1,
+    "33": 0,
     "34": 0,
     "35": 0
   },
@@ -50,7 +50,7 @@
     "Google": 0,
     "OnePlus": 0,
     "samsung": 0,
-    "Rhino Mobility": 1,
+    "Rhino Mobility": 0,
     "NUU": 0,
     "motorola": 0,
     "Nothing": 0,
@@ -62,8 +62,8 @@
     "TECNO": 0,
     "HMD Global": 0,
     "W&O": 0,
-    "vivo": 0,
     "OPPO": 0,
-    "SMT_HK": 0
+    "SMT_HK": 0,
+    "vivo": 0
   }
 }
