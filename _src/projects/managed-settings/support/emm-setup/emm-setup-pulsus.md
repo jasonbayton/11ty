@@ -35,11 +35,11 @@ You'll note in the below configuration steps, nowhere is it mentioned to import 
 
 ## Add MANAGED SETTINGS to Pulsus
 
-Head to **Applications** on the left-hand navigation.
+Head to **APPLICATIONS** on the left-hand navigation.
 
 ![](https://cdn.bayton.org/assets/managed_settings/managed_settings_emm_setup/pulsus/Screenshot_2024-08-01_23.30.42.png)
 
-Click the **+** icon and select **Play Store** under **Android**.
+Click the **+** icon and select **Play Store**.
 
 ![](https://cdn.bayton.org/assets/managed_settings/managed_settings_emm_setup/pulsus/Screenshot_2024-08-01_23.30.48.png)
 
@@ -59,7 +59,7 @@ Scroll down, and assign MANAGED SETTINGS to the appropriate group
 
 ![](https://cdn.bayton.org/assets/managed_settings/managed_settings_emm_setup/pulsus/Screenshot_2024-08-01_23.39.42.png)
 
-Click **Save**. MANAGED SETTINGS will appear in the apps table. 
+Click **SAVE**. MANAGED SETTINGS will appear in the apps table. 
 
 ## Configure MANAGED SETTINGS
 
@@ -67,13 +67,13 @@ Hover over the MANAGED SETTINGS entry in the app table, and click **MCM**
 
 ![](https://cdn.bayton.org/assets/managed_settings/managed_settings_emm_setup/pulsus/Screenshot_2024-08-01_23.35.15.png)
 
-Create a config name, set the appropriate configs, and click **Save**.
+Create a config name, set the appropriate configs, and click **SAVE**.
 
 ![](https://cdn.bayton.org/assets/managed_settings/managed_settings_emm_setup/pulsus/Screenshot_2024-08-01_23.35.33.png)
 
 ## Configure the launcher
 
-On the left-hand navigation, select **Launcher**.
+On the left-hand navigation, select **LAUNCHER**.
 
 ![](https://cdn.bayton.org/assets/managed_settings/managed_settings_emm_setup/pulsus/Screenshot_2024-08-02_00.03.23.png)
 
@@ -83,4 +83,4 @@ Drag MANAGED SETTINGS amongst the configured applications shown in the Launcher 
 
 ![](https://cdn.bayton.org/assets/managed_settings/managed_settings_emm_setup/pulsus/Screenshot_2024-08-02_00.04.06.png)
 
-Configuration is complete.
+Click **SAVE**. Configuration is complete.
