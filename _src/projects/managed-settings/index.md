@@ -4,6 +4,8 @@ parent: Projects
 titleimage: '/img/bayton_logos/managed_settings_hero.svg'
 date: '2024-04-30'
 status: publish
+funding_goal: 4000
+funding: 400
 author: 'Jason Bayton'
 excerpt: ''
 type: page

@@ -40,6 +40,21 @@
                         </div>
                         <div class="project-grid-right">
                             {% if page.url.includes("managed-settings") %}
+                            <section class="funding-bar">
+                                <div class="funding-bar-inner">
+                                    <div class="funding-bar-content">
+                                    <div class="aside-title"><h2>Funding goal</h2></div>
+                                    <div class="funding-progress">
+                                        <div class="funding-progress-bar" style="width: {{ (funding / funding_goal) * 100 }}%;">
+                                        <small>{{ (funding / funding_goal) * 100 }}%</small>
+                                        </div>
+                                    </div>
+                                    <div class="funding-info">
+                                        <span class="funding-amount">1.0.0 goal: £{{ funding_goal }}</span>
+                                    </div>
+                                    </div>
+                                </div>
+                            </section>
                             {% renderFile "./_src/projects/managed-settings/grid-right.md" %}
                             {% include "./_parts/project-ms-data-right.njk" %}
                             {% elif page.url.includes("beam") %}

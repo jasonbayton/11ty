@@ -786,6 +786,40 @@ content#page, content#search, content#archive, content#generator {
   padding-bottom: 20px;
 }
 
+/* Add this to your CSS file */
+.funding-bar {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.funding-bar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.funding-progress {
+  background-color: var(--subtle-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 30px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.funding-progress-bar {
+  background-color: #ff4500;
+  height: 100%;
+  transition: width 0.5s ease;
+
+  & small {
+    padding-left: 5px;
+  }
+}
+
+.funding-info {
+  text-align: right;
+}
+
 @media screen and (max-width: 1800px) {
   .pricing-table {
     grid-template-columns: 1fr;
@@ -2027,6 +2061,7 @@ font-size: 1.25rem;
 #search-field {
 position: relative;
 }
+
 /* Search input spinner */
 #debouncing {
 position: absolute;
@@ -2040,10 +2075,11 @@ background: conic-gradient(#0000 1%, #444);
 mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
 animation: spinner 500ms infinite linear;
 }
+
 @keyframes spinner {
-to {
-  transform: rotate(1turn);
-}
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 .year-heading {
