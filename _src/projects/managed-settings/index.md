@@ -13,9 +13,11 @@ type: page
 layout: project.njk
 ---
 
-**MANAGED SETTINGS is an enterprise-customisable Android settings application designed to provide access to only specific, use case-defined system settings where use of the native Android Settings application is not suitable end user access.**
+**MANAGED SETTINGS is an enterprise-customisable Android settings application designed to provide access to only specific, use case-defined system settings where use of the native Android Settings application is not suitable for end user access.**
 
 ## What does MANAGED SETTINGS do?
+
+MANAGED SETTINGS answers the question: How do we block access to settings, but still allow <span id="dynamic_word">Wi-Fi</span>?
 
 MANAGED SETTINGS gives organisations a means of providing a limited device Settings experience, e.g. _just_ Wi-Fi or Bluetooth, preventing exposing settings that should not be visible or interactive for managed devices.
 
@@ -90,3 +92,5 @@ Head into the MANAGED SETTINGS documentation for support and guidance:
 Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [Discord community](https://discord.gg/YUY7jAjayr), vote on or raise a [new feature request](https://github.com/baytonorg/managed_settings_tracker), or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
 
 I can also offer additional priority support for an annual recurring fee, offering faster and more in-depth support, with additional discounts on my [consultancy rate](/support). Details can be found [here](pricing).
+
+<script src="/js/managed-settings-dynamic-word.js"></script>
