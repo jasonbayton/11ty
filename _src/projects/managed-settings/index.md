@@ -6,19 +6,20 @@ date: '2024-04-30'
 status: publish
 funding_goal: 4000
 funding: 400
+funding_version: 1.0.1
 author: 'Jason Bayton'
 excerpt: ''
 type: page
 layout: project.njk
 ---
 
-MANAGED SETTINGS is a project from BAYTON, offering a customised settings application where access to the native Android Settings application is not suitable for the use case or management scenario.
+**MANAGED SETTINGS is an enterprise-customisable Android settings application designed to provide access to only specific, use case-defined system settings where use of the native Android Settings application is not suitable end user access.**
 
 ## What does MANAGED SETTINGS do?
 
-MANAGED SETTINGS gives organisations a means of providing a limited device Settings experience, preventing over-exposing settings that should not be visible or interactive for managed devices.
+MANAGED SETTINGS gives organisations a means of providing a limited device Settings experience, e.g. _just_ Wi-Fi or Bluetooth, preventing exposing settings that should not be visible or interactive for managed devices.
 
-It achieves this by acting as a gate-keeper for Settings intents - the individual Settings screens available when browsing the preloaded Android Settings app - allowing organisations to define what can and cannot be accessed and changed on device.
+It achieves this by acting as a gatekeeper for Settings intents - the individual Settings screens available when browsing the preloaded Android Settings app - allowing organisations to define what can and cannot be accessed and changed on-device.
 
 <a class="button" href="support/supported-configurations">View configurations</a>
 
@@ -26,9 +27,12 @@ It achieves this by acting as a gate-keeper for Settings intents - the individua
 
 Any installed application has the option of launching specific Android Settings intents, you may be familiar with this when an application asks you to adjust notification settings, allow the app to draw over others, or grant it the accessibility permission to facilitate additional functionality. 
 
-MANAGED SETTINGS takes this approach to act as a utility application for customisable settings-access, it does this through managed configuration, allowing organisations to define the intents made available to managed device end users, while hiding the Android Settings application entirely.
+MANAGED SETTINGS leans on this approach to act as a **utility application** for customisable settings-access, it does this through managed configuration, allowing organisations to define the intents made available to managed device end users, while hiding the Android Settings application entirely.
 
 ## Who is MANAGED SETTINGS for?
+
+Do you have kiosked, or locked-down dedicated devices?  
+Do you struggle to offer consistent documentation on _exactly_ where users must go to alter a setting on managed devices?
 
 The primary use case is in Kiosk or Managed Launcher applications, where the Android Settings application is typically not exposed to device end users intentionally to avoid access to device settings that cannot be locked down entirely through EMM policy.
 
@@ -39,7 +43,7 @@ If your organisation struggles with the need to provide access to:
 - Developer options (debugging and troubleshooting)
 - Display settings (user-specific accommodations)
 
-.. or any number of other device settings _without_ granting access to the full Android Settings application, MANAGED SETTINGS is for you.
+.. or any number of other device settings **_without_ granting access to the full Android Settings application**, MANAGED SETTINGS is for you.
 
 If you *don't* leverage a dedicated/kiosk use case in your organisation, but struggle with the inconsistencies of OEM-customised Settings apps causing confusion with your documented processes and resources, MANAGED SETTINGS offers one consistent, supportable interface that can be deployed across your entire estate. With MANAGED SETTINGS there's no need to document where various Settings intents are stored across OEMs, simply deploy the app, provide universal guidance, and know end users will see all settings as you intend them to be seen.
 

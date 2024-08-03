@@ -1397,6 +1397,10 @@ footer {
     & .callout-heading-small::after {
       background-color: #ffffff;
     }
+
+    & code {
+      color: var(--light);
+    }
   }
 
   &.callout-red {
