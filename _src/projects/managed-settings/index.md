@@ -17,7 +17,7 @@ layout: project.njk
 
 ## What does MANAGED SETTINGS do?
 
-MANAGED SETTINGS answers the question: How do we block access to settings, but still allow <span id="dynamic_word">Wi-Fi</span>?
+MANAGED SETTINGS answers the question: How do we block access to settings, but still allow <span id="dynamic_word"> adding a Wi-Fi network</span>?
 
 MANAGED SETTINGS gives organisations a means of providing a limited device Settings experience, e.g. _just_ Wi-Fi or Bluetooth, preventing exposing settings that should not be visible or interactive for managed devices.
 
