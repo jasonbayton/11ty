@@ -29,6 +29,19 @@ Any and all input is appreciated!
 
 </div>
 
+<div class="callout callout-orange">
+<div class="callout-heading">When the application crashes</div>
+
+The settings intents offered by Android (AOSP) are occasionally either modified or removed. This may be depicted by either a crash out to the home screen, or an immediate return to MANAGED SETTINGS. 
+
+Logic is added to intents called by MANAGED SETTINGS to attempt to catch these, but given the fragmented nature of OEM Settings implementations, even the expected behaviours aren't always consistent.
+
+### If you see a crash
+
+If you're a [**priority support**](/projects/managed-settings/pricing/#support-priority-support) customer, please reach out through your dedicated communication channel. For community or licensed organisations, please [**submit an issue**](https://github.com/baytonorg/managed_settings_tracker/issues/new?assignees=jasonbayton&labels=bug&projects=&template=bug_report.md&title=Issue%3A+) or post to the [Discord community](https://discord.gg/YUY7jAjayr), and it'll be investigated as soon as possible. 
+
+</div>
+
 ## Validated working devices
 
 The following devices have been approved for compatibility with MANAGED SETTINGS:
