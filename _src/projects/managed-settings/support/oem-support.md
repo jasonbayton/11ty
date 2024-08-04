@@ -17,8 +17,8 @@ eleventyNavigation:
     title: OEM validation list
 ---
 
-<div class="callout callout-orange">
-<div class="callout-heading"><span class="material-symbols-outlined">edit_note</span>Contribute to this list</div>
+<div class="callout">
+<div class="callout-heading callout-icon-edit">Contribute to this list</div>
 
 If you've tested MANAGED SETTINGS on your own device and would like to contribute to the supported devices list below, you can:
 

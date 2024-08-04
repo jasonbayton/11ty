@@ -16,9 +16,9 @@ eleventyNavigation:
     order: 2
     title: Supported configurations (intents)
 ---
-<div class="callout">
+<div class="callout callout-orange">
 <div class="callout-heading">
-<span class="material-symbols-outlined">work_alert</span> Default behaviour heads-up
+Default behaviour heads-up
 </div>
 
 Out of the box, MANAGED SETTINGS comes with no restrictions set on available settings offered. Without any configuration, the application will allow access to all supported Settings activity intents.
@@ -106,7 +106,7 @@ menu</span> )
 
 </div>
 
-<div class="callout">
+<div class="callout callout-blue">
 <div class="callout-heading">Formatting support messages</div>
 
 FYI, the support message field supports HTML! You may use the following HTML tags: 

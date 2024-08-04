@@ -1499,6 +1499,9 @@ footer {
   & .callout-icon-sad::before {
     content: 'sentiment_dissatisfied';
   }
+  & .callout-icon-edit::before {
+    content: 'edit_note';
+  }
 }
 
 .heading-anchor { 

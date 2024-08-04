@@ -33,8 +33,8 @@ MANAGED SETTINGS leans on this approach to act as a **utility application** for 
 
 ## Who is MANAGED SETTINGS for?
 
-Do you have kiosked, or locked-down dedicated devices?  
-Do you struggle to offer consistent documentation on _exactly_ where users must go to alter a setting on managed devices?
+- Do you have kiosked, or locked-down dedicated devices?  
+- Do you struggle to offer consistent documentation on _exactly_ where users must go to alter a setting on managed devices?
 
 The primary use case is in Kiosk or Managed Launcher applications, where the Android Settings application is typically not exposed to device end users intentionally to avoid access to device settings that cannot be locked down entirely through EMM policy.
 

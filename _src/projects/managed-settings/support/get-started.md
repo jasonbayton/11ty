@@ -16,7 +16,7 @@ eleventyNavigation:
     order: 0
     title: Quick start
 ---
-<div class="callout">
+<div class="callout callout-blue">
 <div class="callout-heading callout-heading-small">Head's up</div>
 
 Out of the box, MANAGED SETTINGS comes with no restrictions set on available settings offered. Without any configuration, the application will allow access to all supported Settings activity intents.
@@ -60,6 +60,8 @@ To install it for enterprise management, log in to your EMM platform, navigate t
 
 1. Once selected, open the application configuration for MANAGED SETTINGS, and switch to managed configuration setup.
 2. You may now select any Settings intents you wish to provide access to, define a support email address, and optionally a support message.
+
+For details on supported configurations, click [here](/projects/managed-settings/support/supported-configurations/)
 
 **Note: If you simply import managed config and save, the MANAGED SETTINGS application will remove access to all intents, showing a blank screen**.
 
