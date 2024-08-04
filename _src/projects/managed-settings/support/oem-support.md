@@ -36,7 +36,7 @@ The settings intents offered by Android (AOSP) are occasionally either modified 
 
 Logic is added to intents called by MANAGED SETTINGS to attempt to catch these, but given the fragmented nature of OEM Settings implementations, even the expected behaviours aren't always consistent.
 
-### If you see a crash
+<div class="callout-heading callout-heading-small">If you see a crash</div>
 
 If you're a [**priority support**](/projects/managed-settings/pricing/#support-priority-support) customer, please reach out through your dedicated communication channel. For community or licensed organisations, please [**submit an issue**](https://github.com/baytonorg/managed_settings_tracker/issues/new?assignees=jasonbayton&labels=bug&projects=&template=bug_report.md&title=Issue%3A+) or post to the [Discord community](https://discord.gg/YUY7jAjayr), and it'll be investigated as soon as possible. 
 
