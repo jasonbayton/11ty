@@ -1,9 +1,9 @@
 {
-  "totalNonStaleRecentDevices": 298,
-  "totalRecent24hDevices": 28,
+  "totalNonStaleRecentDevices": 299,
+  "totalRecent24hDevices": 32,
   "totalLicensedDevices": 29,
   "devicesByOS": {
-    "27": 14,
+    "27": 15,
     "28": 10,
     "29": 100,
     "30": 44,
@@ -17,7 +17,7 @@
     "RHINO": 95,
     "Google": 66,
     "OnePlus": 47,
-    "samsung": 23,
+    "samsung": 24,
     "Rhino Mobility": 17,
     "NUU": 8,
     "motorola": 6,
@@ -37,7 +37,7 @@
     "realme": 1
   },
   "numberChangeByOS": {
-    "27": 0,
+    "27": 1,
     "28": 0,
     "29": 0,
     "30": 0,
@@ -51,7 +51,7 @@
     "RHINO": 0,
     "Google": 0,
     "OnePlus": 0,
-    "samsung": 0,
+    "samsung": 1,
     "Rhino Mobility": 0,
     "NUU": 0,
     "motorola": 0,
