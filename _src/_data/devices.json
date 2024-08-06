@@ -1,6 +1,6 @@
 {
   "totalNonStaleRecentDevices": 299,
-  "totalRecent24hDevices": 32,
+  "totalRecent24hDevices": 40,
   "totalLicensedDevices": 29,
   "devicesByOS": {
     "27": 15,
@@ -37,7 +37,7 @@
     "realme": 1
   },
   "numberChangeByOS": {
-    "27": 1,
+    "27": 0,
     "28": 0,
     "29": 0,
     "30": 0,
@@ -51,7 +51,7 @@
     "RHINO": 0,
     "Google": 0,
     "OnePlus": 0,
-    "samsung": 1,
+    "samsung": 0,
     "Rhino Mobility": 0,
     "NUU": 0,
     "motorola": 0,
