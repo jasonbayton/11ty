@@ -19,7 +19,7 @@ From Android 15 it is no longer possible to install any application that targets
 
 ## Will this have any impact on EMM-deployed devices?
 
-Yes. If a device is enrolled with, or upgraded to Android 14, it will no longer be possible to install old Android applications. Devices with apps already installed will not be affected.
+Yes. If a device is enrolled with, or upgraded to Android 15, it will no longer be possible to install old Android applications. Devices with apps already installed will not be affected.
 
 ## Do my enterprise apps have to target API level 35 (Android 15)?
 
