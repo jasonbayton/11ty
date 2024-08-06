@@ -28,9 +28,7 @@ No. It's certainly better to ensure apps are targeting the latest API level wher
 <div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">Head's up</div>
 
-This new policy, like Google Play's [targetSDK requirements](https://support.google.com/googleplay/android-developer/answer/11926878) will increase year-on-year. This means apps that target API levels lower than 24 (7.0) will not install with Android 15 in 2024.
-
-**Update**: As of Android 15 developer preview, this has increased to targeting an API level below 24 - Android 7.0.
+This new policy, like Google Play's [targetSDK requirements](https://support.google.com/googleplay/android-developer/answer/11926878) will increase year-on-year. This means apps that target API levels lower than 24 (7.0) will not install with Android 15, and 25/26 (7.1-8.0) with Android 16.
 
 </div>
 
@@ -54,7 +52,7 @@ To overcome this error and install the application anyway, use:
 adb install --bypass-low-target-sdk-block name_of_package.apk
 ```
 
-Note this only works via ADB, there are no other means of bypassing the SDK block.
+**Note this only works via ADB, there are no other means of bypassing the SDK block.**
 
 ## Read more
 
