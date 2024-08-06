@@ -3,7 +3,7 @@ title: 'Android 15 blocks app installs targeting Android versions below 7.0'
 published: '2024-08-05'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: 'You'll see a security exception when installing outdated apps.'
 type: documentation
 tags:
     - Advisories
