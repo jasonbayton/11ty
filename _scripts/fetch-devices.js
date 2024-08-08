@@ -27,6 +27,9 @@ async function fetchAndSaveDevices() {
             throw new Error('Devices response is not an array');
         }
 
+        // Filter devices by the service `managed-settings`
+        const managedSettingsDevices = devicesData.filter(device => device.service === 'managed-settings');
+
         // Fetch licenses
         const licensesResponse = await fetch(licensesUrl, {
             method: 'GET',
@@ -57,7 +60,7 @@ async function fetchAndSaveDevices() {
         }
 
         // Filter devices updated within the last 24 hours
-        const recent24hDevices = devicesData.filter(device => {
+        const recent24hDevices = managedSettingsDevices.filter(device => {
             const updatedAt = new Date(device.updated_at);
             return hoursDifference(updatedAt, currentDate) <= 24;
         });
@@ -72,7 +75,7 @@ async function fetchAndSaveDevices() {
         }
 
         // Filter out stale devices and those not updated within 90 days
-        const nonStaleRecentDevices = devicesData.filter(device => {
+        const nonStaleRecentDevices = managedSettingsDevices.filter(device => {
             const updatedAt = new Date(device.updated_at);
             return !device.stale && daysDifference(updatedAt, currentDate) <= 90;
         });
