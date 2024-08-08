@@ -13,6 +13,15 @@ type: page
 layout: project.njk
 ---
 
+<div class="callout callout-blue">
+<div class="callout-heading>Don't mind the mess...</div>
+
+PACKAGE SEARCH is brand new, so much so I haven't done the ✨marketing✨ just yet. There's some basic information below, and if you want to know how this area of the site will look shortly, check out [MANAGED SETTINGS](/projects/managed-settings/)
+
+👋 Thanks!
+
+</div>
+
 PACKAGE SEARCH allows for quick and easy extraction of application package names and pertinent application information.
 
 Android Enterprise-enabled organisations can effortlessly deploy PACKAGE SEARCH not only to fetch an application's package name, but also:
@@ -33,3 +42,9 @@ You can find the app publicly here:
 ## Help & support
 
 That's not quite ready yet. Come back soon!
+
+Quick tips:
+
+- Tap the app icon of any application that should be hosted in Google Play to go directly to the Play Store listing
+- Tap the status (enabled/disabled) to open on-device app information
+- Press and hold on an app card to copy the package name of the app to the clipboard
