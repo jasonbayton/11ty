@@ -46,5 +46,5 @@ That's not quite ready yet. Come back soon!
 Quick tips:
 
 - Tap the app icon of any application that should be hosted in Google Play to go directly to the Play Store listing
-- Tap the status (enabled/disabled) to open on-device app information
+- Tap the status (enabled/disabled) to open on-device app information (if present)
 - Press and hold on an app card to copy the package name of the app to the clipboard
