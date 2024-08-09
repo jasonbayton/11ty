@@ -14,7 +14,7 @@ layout: project.njk
 ---
 
 <div class="callout callout-blue">
-<div class="callout-heading>Don't mind the mess...</div>
+<div class="callout-heading">Don't mind the mess...</div>
 
 PACKAGE SEARCH is brand new, so much so I haven't done the ✨marketing✨ just yet. There's some basic information below, and if you want to know how this area of the site will look shortly, check out [MANAGED SETTINGS](/projects/managed-settings/)
 
