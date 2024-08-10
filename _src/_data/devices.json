@@ -1,6 +1,6 @@
 {
-  "totalNonStaleRecentDevices": 304,
-  "totalRecent24hDevices": 51,
+  "totalNonStaleRecentDevices": 306,
+  "totalRecent24hDevices": 57,
   "totalLicensedDevices": 29,
   "devicesByOS": {
     "27": 15,
@@ -8,16 +8,16 @@
     "29": 100,
     "30": 45,
     "31": 16,
-    "32": 10,
+    "32": 11,
     "33": 22,
-    "34": 66,
+    "34": 67,
     "35": 20
   },
   "devicesByMake": {
     "RHINO": 95,
     "Google": 68,
     "OnePlus": 47,
-    "samsung": 25,
+    "samsung": 26,
     "Rhino Mobility": 18,
     "NUU": 8,
     "motorola": 6,
@@ -34,40 +34,42 @@
     "OPPO": 1,
     "SMT_HK": 1,
     "TECNO MOBILE LIMITED": 1,
-    "realme": 1
+    "realme": 1,
+    "Microsoft": 1
   },
   "numberChangeByOS": {
     "27": 0,
     "28": 0,
     "29": 0,
-    "30": -3,
+    "30": 0,
     "31": 0,
-    "32": -1,
+    "32": 1,
     "33": 0,
     "34": 1,
     "35": 0
   },
   "numberChangeByMake": {
     "RHINO": 0,
-    "Google": -1,
-    "OnePlus": -2,
-    "samsung": 0,
+    "Google": 0,
+    "OnePlus": 0,
+    "samsung": 1,
     "Rhino Mobility": 0,
     "NUU": 0,
-    "motorola": -1,
+    "motorola": 0,
     "Nothing": 0,
     "Sony": 0,
     "HONOR": 0,
     "A-gold": 0,
     "Xiaomi": 0,
     "unknown": 0,
-    "vivo": 1,
+    "vivo": 0,
     "TECNO": 0,
     "HMD Global": 0,
     "W&O": 0,
     "OPPO": 0,
     "SMT_HK": 0,
     "TECNO MOBILE LIMITED": 0,
-    "realme": 0
+    "realme": 0,
+    "Microsoft": 1
   }
 }
