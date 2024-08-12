@@ -55,19 +55,12 @@
                                     </div>
                                 </div>
                             </section>
-                            {% renderFile "./_src/projects/managed-settings/grid-right.md" %}
-                            {% include "./_parts/project-ms-data-right.njk" %}
+                            {% renderFile "./_src/_includes/_parts/projects/ms-grid-right.md" %}
+                            {% include "./_parts/projects/project-ms-data-right.njk" %}
                             {% elif page.url.includes("beam") %}
                             {% renderFile "./_src/projects/beam/grid-right.md" %}
                             {% endif %}
                             {% if categories %}
-                            <!--div class="padding-30 padding-lr-0">
-                                <hr>
-                                Associated topics:
-                                {% for category in categories %}
-                                <a class="blood-orange" href="/tags/{{ category | slugify }}/">{{category}}</a> 
-                                {% endfor %}
-                            </div-->
                             {% endif %}
             </section>
 
