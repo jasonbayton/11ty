@@ -27,9 +27,6 @@ async function fetchAndSaveDevices() {
             throw new Error('Devices response is not an array');
         }
 
-        // Filter devices by the service `managed-settings`
-        const managedSettingsDevices = devicesData.filter(device => device.service === 'managed-settings');
-
         // Fetch licenses
         const licensesResponse = await fetch(licensesUrl, {
             method: 'GET',
@@ -59,51 +56,71 @@ async function fetchAndSaveDevices() {
             return timeDifference / (1000 * 3600);
         }
 
-        // Filter devices updated within the last 24 hours
-        const recent24hDevices = managedSettingsDevices.filter(device => {
-            const updatedAt = new Date(device.updated_at);
-            return hoursDifference(updatedAt, currentDate) <= 24;
-        });
-
-        // Get the total count of devices updated within the last 24 hours
-        const totalRecent24hDevices = recent24hDevices.length;
-
         // Function to calculate the difference in days
         function daysDifference(date1, date2) {
             const timeDifference = date2.getTime() - date1.getTime();
             return timeDifference / (1000 * 3600 * 24);
         }
 
-        // Filter out stale devices and those not updated within 90 days
-        const nonStaleRecentDevices = managedSettingsDevices.filter(device => {
-            const updatedAt = new Date(device.updated_at);
-            return !device.stale && daysDifference(updatedAt, currentDate) <= 90;
-        });
+        // Function to process devices by service
+        function processDevices(devices) {
+            // Filter devices updated within the last 24 hours
+            const recent24hDevices = devices.filter(device => {
+                const updatedAt = new Date(device.updated_at);
+                return hoursDifference(updatedAt, currentDate) <= 24;
+            });
 
-        // Get the total count of non-stale devices updated within 90 days
-        const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
+            // Get the total count of devices updated within the last 24 hours
+            const totalRecent24hDevices = recent24hDevices.length;
 
-        // Count devices with valid licenses
-        const licensedDevices = nonStaleRecentDevices.filter(device => validLicenseOrgs.has(device.orgId));
-        const totalLicensedDevices = licensedDevices.length;
+            // Filter out stale devices and those not updated within 90 days
+            const nonStaleRecentDevices = devices.filter(device => {
+                const updatedAt = new Date(device.updated_at);
+                return !device.stale && daysDifference(updatedAt, currentDate) <= 90;
+            });
 
-        // Count devices by OS and sort by number of devices in descending order
-        const devicesByOS = nonStaleRecentDevices.reduce((acc, device) => {
-            acc[device.os] = (acc[device.os] || 0) + 1;
-            return acc;
-        }, {});
-        const sortedDevicesByOS = Object.fromEntries(
-            Object.entries(devicesByOS).sort(([, a], [, b]) => b - a)
-        );
+            // Get the total count of non-stale devices updated within 90 days
+            const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
 
-        // Count devices by make and sort by number of devices in descending order
-        const devicesByMake = nonStaleRecentDevices.reduce((acc, device) => {
-            acc[device.make] = (acc[device.make] || 0) + 1;
-            return acc;
-        }, {});
-        const sortedDevicesByMake = Object.fromEntries(
-            Object.entries(devicesByMake).sort(([, a], [, b]) => b - a)
-        );
+            // Count devices with valid licenses
+            const licensedDevices = nonStaleRecentDevices.filter(device => validLicenseOrgs.has(device.orgId));
+            const totalLicensedDevices = licensedDevices.length;
+
+            // Count devices by OS and sort by number of devices in descending order
+            const devicesByOS = nonStaleRecentDevices.reduce((acc, device) => {
+                acc[device.os] = (acc[device.os] || 0) + 1;
+                return acc;
+            }, {});
+            const sortedDevicesByOS = Object.fromEntries(
+                Object.entries(devicesByOS).sort(([, a], [, b]) => b - a)
+            );
+
+            // Count devices by make and sort by number of devices in descending order
+            const devicesByMake = nonStaleRecentDevices.reduce((acc, device) => {
+                acc[device.make] = (acc[device.make] || 0) + 1;
+                return acc;
+            }, {});
+            const sortedDevicesByMake = Object.fromEntries(
+                Object.entries(devicesByMake).sort(([, a], [, b]) => b - a)
+            );
+
+            return {
+                totalNonStaleRecentDevices,
+                totalRecent24hDevices,
+                totalLicensedDevices,
+                devicesByOS: sortedDevicesByOS,
+                devicesByMake: sortedDevicesByMake,
+                numberChangeByOS: {},
+                numberChangeByMake: {}
+            };
+        }
+
+        // Process devices for each service
+        const managedSettingsDevices = devicesData.filter(device => device.service === 'managed-settings');
+        const packageSearchDevices = devicesData.filter(device => device.service === 'package-search');
+
+        const managedSettingsResult = processDevices(managedSettingsDevices);
+        const packageSearchResult = processDevices(packageSearchDevices);
 
         // Read the previous day's data
         let previousData = null;
@@ -111,49 +128,46 @@ async function fetchAndSaveDevices() {
             previousData = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
         }
 
-        const result = {
-            totalNonStaleRecentDevices,
-            totalRecent24hDevices,
-            totalLicensedDevices,
-            devicesByOS: sortedDevicesByOS,
-            devicesByMake: sortedDevicesByMake,
-            numberChangeByOS: {},
-            numberChangeByMake: {}
-        };
-
-        // Calculate number change for OS
+        // Calculate number change for OS and make
         if (previousData) {
-            for (const os in sortedDevicesByOS) {
-                const previousCount = previousData.devicesByOS[os] || 0;
-                const currentCount = sortedDevicesByOS[os];
-                const numberChange = currentCount - previousCount;
-                result.numberChangeByOS[os] = numberChange;
-            }
+            ['managedSettings', 'packageSearch'].forEach(service => {
+                const currentData = service === 'managedSettings' ? managedSettingsResult : packageSearchResult;
+                const prevData = previousData[service] || {};
+                const prevOS = prevData.devicesByOS || {};
+                const prevMake = prevData.devicesByMake || {};
 
-            // Calculate number change for Make
-            for (const make in sortedDevicesByMake) {
-                const previousCount = previousData.devicesByMake[make] || 0;
-                const currentCount = sortedDevicesByMake[make];
-                const numberChange = currentCount - previousCount;
-                result.numberChangeByMake[make] = numberChange;
-            }
-        }
+                for (const os in currentData.devicesByOS) {
+                    const previousCount = prevOS[os] || 0;
+                    const currentCount = currentData.devicesByOS[os];
+                    const numberChange = currentCount - previousCount;
+                    currentData.numberChangeByOS[os] = numberChange;
+                }
 
-        // Ensure the _data directory exists
-        const dataDir = path.dirname(outputPath);
-        if (!fs.existsSync(dataDir)) {
-            fs.mkdirSync(dataDir, { recursive: true });
+                for (const make in currentData.devicesByMake) {
+                    const previousCount = prevMake[make] || 0;
+                    const currentCount = currentData.devicesByMake[make];
+                    const numberChange = currentCount - previousCount;
+                    currentData.numberChangeByMake[make] = numberChange;
+                }
+            });
         }
 
         // Write the result to a JSON file
+        const result = {
+            managedSettings: managedSettingsResult,
+            packageSearch: packageSearchResult
+        };
         fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
 
         console.log('Data fetched and saved to', outputPath);
 
         // Compare with previous data and output the difference
         if (previousData) {
-            const deviceDifference = totalNonStaleRecentDevices - previousData.totalNonStaleRecentDevices;
-            console.log(`Device count changed by ${deviceDifference} compared to the previous day.`);
+            const managedSettingsDiff = result.managedSettings.totalNonStaleRecentDevices - previousData.managedSettings.totalNonStaleRecentDevices;
+            const packageSearchDiff = result.packageSearch.totalNonStaleRecentDevices - previousData.packageSearch.totalNonStaleRecentDevices;
+
+            console.log(`Managed Settings device count changed by ${managedSettingsDiff} compared to the previous day.`);
+            console.log(`Package Search device count changed by ${packageSearchDiff} compared to the previous day.`);
         }
     } catch (error) {
         console.error('Error fetching devices:', error);

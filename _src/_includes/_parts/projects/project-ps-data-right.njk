@@ -5,12 +5,11 @@
   <hr>
 
   <p>
-    Devices pinged (24h): <b><span class="orange">{{ devices.managedSettings.totalRecent24hDevices }}</span></b> <br>
-    Devices licensed (90 day): <b><span class="orange">{{ (devices.managedSettings.totalLicensedDevices / devices.managedSettings.totalNonStaleRecentDevices * 100).toFixed(1) }}%</span></b>
+    Devices pinged (24h): <b><span class="orange">{{ devices.packageSearch.totalRecent24hDevices }}</span></b> <br>
   </p>
 
   <h3>Devices by OS (90 day)</h3>
-  <div id="os_chart_managed_settings" style="max-width: 100%; height: 500px;"></div>
+  <div id="os_chart_package_search" style="max-width: 100%; height: 500px;"></div>
 
   <div class="responsive-table-wrapper">
     <table>
@@ -22,14 +21,14 @@
         </tr>
       </thead>
       <tbody>
-        {% for os, count in devices.managedSettings.devicesByOS %}
+        {% for os, count in devices.packageSearch.devicesByOS %}
         <tr>
           <td>{{ os }}</td>
-          <td>{{ (count / devices.managedSettings.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+          <td>{{ (count / devices.packageSearch.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
           <td>
-            {% set prevCount = devices.managedSettings.totalNonStaleRecentDevices - devices.managedSettings.numberChangeByOS[os] %}
+            {% set prevCount = devices.packageSearch.totalNonStaleRecentDevices - devices.packageSearch.numberChangeByOS[os] %}
             {% if prevCount > 0 %}
-              {% set percChange = (devices.managedSettings.numberChangeByOS[os] / prevCount) * 100 %}
+              {% set percChange = (devices.packageSearch.numberChangeByOS[os] / prevCount) * 100 %}
               {{ percChange.toFixed(1) }}%
             {% else %}
               N/A
@@ -42,7 +41,7 @@
   </div>
 
   <h3>Devices by manufacturer (90 day)</h3>
-  <div id="model_chart_managed_settings" style="max-width: 100%; height: 500px;"></div>
+  <div id="model_chart_package_search" style="max-width: 100%; height: 500px;"></div>
   
   <div class="responsive-table-wrapper">
     <table>
@@ -54,14 +53,14 @@
         </tr>
       </thead>
       <tbody>
-        {% for make, count in devices.managedSettings.devicesByMake %}
+        {% for make, count in devices.packageSearch.devicesByMake %}
         <tr>
           <td>{{ make }}</td>
-          <td>{{ (count / devices.managedSettings.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+          <td>{{ (count / devices.packageSearch.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
           <td>
-            {% set prevCount = devices.managedSettings.totalNonStaleRecentDevices - devices.managedSettings.numberChangeByMake[make] %}
+            {% set prevCount = devices.packageSearch.totalNonStaleRecentDevices - devices.packageSearch.numberChangeByMake[make] %}
             {% if prevCount > 0 %}
-              {% set percChange = (devices.managedSettings.numberChangeByMake[make] / prevCount) * 100 %}
+              {% set percChange = (devices.packageSearch.numberChangeByMake[make] / prevCount) * 100 %}
               {{ percChange.toFixed(1) }}%
             {% else %}
               N/A
@@ -76,11 +75,11 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
     google.charts.load('current', {'packages':['corechart']});
-    google.charts.setOnLoadCallback(drawChartsManagedSettings); 
+    google.charts.setOnLoadCallback(drawChartsPackageSearch); 
 
-    function drawChartsManagedSettings() { 
-      drawOSChartManagedSettings();
-      drawModelChartManagedSettings();
+    function drawChartsPackageSearch() { 
+      drawOSChartPackageSearch();
+      drawModelChartPackageSearch();
     }
 
     function applyLegendTextColor(chartId) {
@@ -90,10 +89,10 @@
       });
     }
 
-    function drawOSChartManagedSettings() {
+    function drawOSChartPackageSearch() {
       var data = google.visualization.arrayToDataTable([
         ['OS Version (API level)', 'Number of Devices'],
-        {% for os, count in devices.managedSettings.devicesByOS %}
+        {% for os, count in devices.packageSearch.devicesByOS %}
           ['{{ os }}', {{ count }}],
         {% endfor %}
       ]);
@@ -107,15 +106,15 @@
         tooltip: { text: 'percentage' }
       };
 
-      var chart = new google.visualization.PieChart(document.getElementById('os_chart_managed_settings'));
-      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('os_chart_managed_settings'));
+      var chart = new google.visualization.PieChart(document.getElementById('os_chart_package_search'));
+      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('os_chart_package_search'));
       chart.draw(data, options);
     }
 
-    function drawModelChartManagedSettings() {
+    function drawModelChartPackageSearch() {
       var data = google.visualization.arrayToDataTable([
         ['OEM', 'Number of Devices'],
-        {% for model, count in devices.managedSettings.devicesByMake %}
+        {% for model, count in devices.packageSearch.devicesByMake %}
           ['{{ model }}', {{ count }}],
         {% endfor %}
       ]);
@@ -129,12 +128,12 @@
         tooltip: { text: 'percentage' }
       };
 
-      var chart = new google.visualization.PieChart(document.getElementById('model_chart_managed_settings'));
-      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('model_chart_managed_settings'));
+      var chart = new google.visualization.PieChart(document.getElementById('model_chart_package_search'));
+      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('model_chart_package_search'));
       chart.draw(data, options);
 
       // Redraw charts on window resize
-      window.addEventListener('resize', drawChartsManagedSettings); 
+      window.addEventListener('resize', drawChartsPackageSearch); 
     }
   </script>
 </div>

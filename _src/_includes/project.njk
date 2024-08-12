@@ -57,8 +57,11 @@
                             </section>
                             {% renderFile "./_src/_includes/_parts/projects/ms-grid-right.md" %}
                             {% include "./_parts/projects/project-ms-data-right.njk" %}
+                            {% elif page.url.includes("package-search") %}
+                            {% renderFile "./_src/_includes/_parts/projects/ps-grid-right.md" %}
+                            {% include "./_parts/projects/project-ps-data-right.njk" %}
                             {% elif page.url.includes("beam") %}
-                            {% renderFile "./_src/projects/beam/grid-right.md" %}
+                            {% renderFile "./_src/_includes/_parts/projects/beam-grid-right.md" %}
                             {% endif %}
                             {% if categories %}
                             {% endif %}
