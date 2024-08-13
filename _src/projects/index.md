@@ -30,6 +30,24 @@ Perfect for Kiosk deployment scenarios, or simply limiting the settings availabl
 
 <div class="project-image">
 
+{% include "../_includes/_assets/img/bayton_logos/package_search_hero.svg" %}
+
+</div>
+
+<div class="project-description">
+
+## PACKAGE SEARCH
+
+PACKAGE SEARCH is an enterprise-biased Android application inspection utility designed to provide detailed information about the apps running on managed Android devices.
+
+Ideal for quickly locating and monitoring applications & their metadata. Even shows unavailable apps other package viewers don't!
+
+<a class="button" href="package-search">Check it out</a>
+
+</div>
+
+<div class="project-image">
+
 {% include "../_includes/_assets/img/bayton_logos/project_placeholder.svg" %}
 
 </div>

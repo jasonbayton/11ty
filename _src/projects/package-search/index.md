@@ -1,7 +1,7 @@
 ---
 title: PACKAGE SEARCH
 parent: Projects
-titleimage: '/img/bayton_logos/project_placeholder.svg'
+titleimage: '/img/bayton_logos/package_search_hero.svg'
 date: '2024-08-09'
 status: publish
 funding_goal: 4000

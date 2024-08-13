@@ -1,6 +1,6 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
-    const words = ['package names', 'target API (Android) versions', 'application versions', 'Play Store listings', 'application version codes', 'last updated', 'install type', 'device SPL level'];
+    const words = ['package names', 'target API (Android) versions', 'application versions', 'Play Store listings', 'application version codes', 'date last updated', 'install types', 'device SPL level'];
     const element = document.getElementById('dynamic_word');
     let index = 0;
 
