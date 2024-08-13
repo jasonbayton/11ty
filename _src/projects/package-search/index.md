@@ -18,7 +18,7 @@ layout: project.njk
 
 PACKAGE SEARCH offers organisations and private individuals alike a simple, efficient way of viewing <span id="dynamic_word">installed applications</span>.
 
-A core USP of PACKAGE SEARCH is the ability to view applications _not available for the current user_. In other words, applications disabled predominantly by the Android Enterprise managed provisioning flow. This applies both for company owned, fully managed devices, as well as offering visibility into system applications not enabled within a personally owned work profile deployment, allowing organisations to deploy PACKAGE SEARCH under any deployment scenario knowing all applications - enabled, disabled, and unavailable, will be present.evice.
+A core USP of PACKAGE SEARCH is the ability to view applications _not available for the current user_. In other words, applications disabled predominantly by the Android Enterprise managed provisioning flow. This applies both for company owned, fully managed devices, as well as offering visibility into system applications not enabled within a personally owned work profile deployment, allowing organisations to deploy PACKAGE SEARCH under any deployment scenario knowing all applications - enabled, disabled, and unavailable, will be present within the app.
 
 ## Who is PACKAGE SEARCH for?
 
