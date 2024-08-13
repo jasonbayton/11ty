@@ -1,1 +1,1 @@
-![managed settings preview](https://cdn.bayton.org/assets/managed_settings/managed_settings_hero_gif.gif)
+![managed settings preview](https://cdn.bayton.org/assets/package_search/package_search_hero_gif.gif)
