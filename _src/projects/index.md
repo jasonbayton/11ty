@@ -11,6 +11,7 @@ eleventyNavigation:
 ---
 
 <div class="projects-overview">
+
 <div class="project-image">
 
 {% include "_src/_includes/_assets/img/bayton_logos/managed_settings_hero.svg" %}
@@ -28,12 +29,13 @@ Perfect for Kiosk deployment scenarios, or simply limiting the settings availabl
 
 </div>
 
+<!--  -->
+
 <div class="project-image">
 
 {% include "../_includes/_assets/img/bayton_logos/package_search_hero_animated.svg" %}
 
 </div>
-
 <div class="project-description">
 
 ## PACKAGE SEARCH
@@ -45,6 +47,27 @@ Ideal for quickly locating and monitoring applications & their metadata. Even sh
 <a class="button" href="package-search">Check it out</a>
 
 </div>
+
+<!--  -->
+
+<div class="project-image">
+
+{% include "../_includes/_assets/img/bayton_logos/qr_code_hero.svg" %}
+
+</div>
+<div class="project-description">
+
+## QR CODE GENERATOR
+
+QR code generator is a web utility for generating Android Enterprise enrolment QR codes from AMAPI enrolment tokens.
+
+It is a simple alternative to manually editing `JSON` code, allowing rapid custom QR codes creation with system app configuration, Wi-Fi config, and more, when your EMM platform doesn't support the customisations needed.
+
+<a class="button" href="/qr-generator">Check it out</a>
+
+</div>
+
+<!--  -->
 
 <div class="project-image">
 

@@ -1,23 +1,23 @@
 ---
-title: Request a new MANAGED SETTINGS feature
-parent: MANAGED SETTINGS support
+title: Request a new PACKAGE SEARCH feature
+parent: PACKAGE SEARCH support
 published: '2024-07-09'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: project-docs
 tags: 
-    - 'Managed Settings'
+    - 'Package Search'
     - 'bayton-projects'
 categories: 
-    - Managed Settings Customisation
+    - Package Search Customisation
 layout: base.njk
 eleventyNavigation: 
     order: 4
     title: Request a new feature
 ---
 
-MANAGED SETTINGS feature requests can be raised on the [public issue tracker](https://github.com/baytonorg/managed_settings_tracker/issues/).
+PACKAGE SEARCH feature requests can be raised on the [public issue tracker](https://github.com/baytonorg/package_search_tracker/issues/).
 
 If the feature request you wish to see implemented is **already present**, please select the corresponding issue and add a 👍 to indicate a vote. A GitHub account is required.
 

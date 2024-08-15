@@ -18,7 +18,7 @@ layout: project.njk
 
 PACKAGE SEARCH offers organisations and private individuals alike a simple, efficient way of viewing <span id="dynamic_word">installed applications</span>.
 
-A core USP of PACKAGE SEARCH is the ability to view applications _not available for the current user_. In other words, applications disabled predominantly by the Android Enterprise managed provisioning flow. This applies both for company owned, fully managed devices, as well as offering visibility into system applications not enabled within a personally owned work profile deployment, allowing organisations to deploy PACKAGE SEARCH under any deployment scenario knowing all applications - enabled, disabled, and unavailable, will be present within the app.
+A core USP (unique selling point) of PACKAGE SEARCH is the ability to view applications _not available for the current user_. In other words, applications disabled predominantly by the Android Enterprise managed provisioning flow. This applies both for company-owned fully managed devices, as well as offering visibility into system applications not enabled within a personally owned work profile deployment, allowing organisations to deploy PACKAGE SEARCH under any deployment scenario knowing all applications - enabled, disabled, and unavailable, will be present within the app.
 
 ## Who is PACKAGE SEARCH for?
 
@@ -34,7 +34,7 @@ The primary use case for PACKAGE SEARCH is to locate the names and package names
 
 .. and more! PACKAGE SEARCH is a quickly-evolving application.
 
-Due to what it is, PACKAGE SEARCH can be useful for consumers and private individuals also. Feedback is critically important to me, so I do encourage use and honest feedback.
+Due to the nature of the application, PACKAGE SEARCH can be useful for consumers and private individuals alike also. Feedback is critically important to me, so I do encourage use and honest feedback.
 
 ## What does PACKAGE SEARCH cost?
 
@@ -48,9 +48,13 @@ You can find the app publicly here:
 
 ## Help & support
 
-**That's not quite ready yet. Come back soon!**
+Head into the PACKAGE SEARCH documentation for support and guidance:
 
-Quick tips:
+<a class="button" href="support/">View the docs</a>
+
+Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSclD6_rkmgIZB_82qmuDoh_yavdA-yO71AuHfURr9oXqyw5AA/viewform?usp=sf_link), post to the [Discord community](https://discord.gg/5yMfb9UWm9), or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
+
+### Quick tips:
 
 - Tap the app icon of any application that should be hosted in Google Play to go directly to the Play Store listing
 - Tap the state (enabled/disabled) to open on-device app information (if present)
