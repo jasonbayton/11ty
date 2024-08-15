@@ -30,7 +30,7 @@ Perfect for Kiosk deployment scenarios, or simply limiting the settings availabl
 
 <div class="project-image">
 
-{% include "../_includes/_assets/img/bayton_logos/package_search_hero.svg" %}
+{% include "../_includes/_assets/img/bayton_logos/package_search_hero_animated.svg" %}
 
 </div>
 
