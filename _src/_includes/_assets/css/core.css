@@ -1963,7 +1963,16 @@ footer {
   list-style-type: none;
 }
 
+.project-nav details {
+  padding-bottom: 20px;
+}
+
+.project-nav details summary {
+  font-weight: 700;
+}
+
 .project-nav ul {
+  margin-top: 0;
   padding-left: initial;
   padding-left: 20px;
   padding-top: 5px;

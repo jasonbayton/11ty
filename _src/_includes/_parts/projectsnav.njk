@@ -2,18 +2,30 @@
     <h2>Projects</h2>
 </div>
 
-{% set navPages = collections.all | eleventyNavigation("Projects") %}
-{% macro renderNavListItem(entry) -%}
+{% macro renderNavListItem(entry) %}
 <li>
   <a href="{{ entry.url }}" {% if entry.url == page.url %} class="active"{% endif %}>{{ entry.title }}</a>
-{%- if entry.children.length -%}
+  {% if entry.children.length %}
   <ul>
-    {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+    {% for child in entry.children %}{{ renderNavListItem(child) }}{% endfor %}
   </ul>
-{%- endif -%}
+  {% endif %}
 </li>
-{%- endmacro %}
+{% endmacro %}
 
-<ul>
-{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
-</ul>
+{% for project in projects %}
+
+<details {% if project.slug in page.url %} open{% endif %}>
+  <summary>{{ project.name }} <a href="/projects/{{ project.slug }}"><span class="material-symbols-outlined">web_traffic</span></a></summary>
+  
+  {% set navPages = collections.all | eleventyNavigation(project.name) %}
+  
+  <ul>
+    {% for entry in navPages %}
+      {{ renderNavListItem(entry) }}
+    {% endfor %}
+  </ul>
+  
+</details>
+
+{% endfor %}

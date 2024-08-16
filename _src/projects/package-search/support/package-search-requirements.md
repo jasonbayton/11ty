@@ -24,7 +24,7 @@ In order to leverage PACKAGE SEARCH, the following requirements and recommendati
 
 ## Network requirements
 
-The following endpoints will be occasionally called for analytics and functionality (e.g. fetching additional Google Play information for applications)
+The following endpoints will be occasionally called for analytics and functionality (e.g. fetching additional Google Play information for applications):
 
 1. https://ping.projects.bayton.org:443
 2. gcm-http.googleapis.com:443/5228-5230
@@ -35,7 +35,7 @@ The following endpoints will be occasionally called for analytics and functional
 7. firebaseinstallations.googleapis.com:443
 8. android-safebrowsing.google.com:443
 
-_PING is the activation/licensing service. 2 through 9 are general Android Enterprise and Google infrastructure endpoints_.
+_PING is the activation/licensing service. 2 through 9 are general Android Enterprise and Google infrastructure endpoints, including notification support, which isn't implemented, but may be in future_.
 
 These endpoints are optional: 
 
