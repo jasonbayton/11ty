@@ -17,7 +17,7 @@ discourse_permalink:
 ---
 One of the biggest limitations with LXD I’ve found to date is the inability to mount remote shares on unprivileged containers. While it’s still not possible at this point to mount CIFS shares from within a container directly, I’ve figured out a way to get around this by first mounting the shares on the LXD host and then using `lxd config device add` to mount them in my containers from there.
 
-So continuing the recent [LXD theme]([/search/?q=lxd)), in this article we’ll work through mounting CIFs shares read/write on containers.
+So continuing the recent [LXD theme](/search/?q=lxd), in this article we’ll work through mounting CIFs shares read/write on containers.
 
 <div class="callout"> 
 
