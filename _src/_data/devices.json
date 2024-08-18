@@ -1,6 +1,6 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 325,
+    "totalNonStaleRecentDevices": 328,
     "totalRecent24hDevices": 91,
     "totalLicensedDevices": 29,
     "devicesByOS": {
@@ -8,17 +8,17 @@
       "28": 10,
       "29": 105,
       "30": 45,
-      "31": 16,
+      "31": 17,
       "32": 11,
       "33": 30,
-      "34": 71,
+      "34": 73,
       "35": 21
     },
     "devicesByMake": {
       "RHINO": 97,
       "Google": 71,
-      "OnePlus": 47,
-      "samsung": 30,
+      "OnePlus": 48,
+      "samsung": 31,
       "Rhino Mobility": 23,
       "NUU": 8,
       "HONOR": 6,
@@ -36,25 +36,26 @@
       "W&O": 1,
       "SMT_HK": 1,
       "TECNO": 1,
-      "Microsoft": 1
+      "Microsoft": 1,
+      "TCL": 1
     },
     "numberChangeByOS": {
       "27": 0,
       "28": 0,
-      "29": 3,
+      "29": 0,
       "30": 0,
-      "31": 0,
+      "31": 1,
       "32": 0,
-      "33": 4,
-      "34": 1,
+      "33": 0,
+      "34": 2,
       "35": 0
     },
     "numberChangeByMake": {
-      "RHINO": 2,
+      "RHINO": 0,
       "Google": 0,
-      "OnePlus": 0,
-      "samsung": 3,
-      "Rhino Mobility": 3,
+      "OnePlus": 1,
+      "samsung": 1,
+      "Rhino Mobility": 0,
       "NUU": 0,
       "HONOR": 0,
       "motorola": 0,
@@ -71,12 +72,13 @@
       "W&O": 0,
       "SMT_HK": 0,
       "TECNO": 0,
-      "Microsoft": 0
+      "Microsoft": 0,
+      "TCL": 1
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 203,
-    "totalRecent24hDevices": 138,
+    "totalNonStaleRecentDevices": 205,
+    "totalRecent24hDevices": 133,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
@@ -87,7 +89,7 @@
       "31": 16,
       "32": 17,
       "33": 29,
-      "34": 78,
+      "34": 80,
       "35": 5
     },
     "devicesByMake": {
@@ -95,32 +97,32 @@
       "samsung": 40,
       "motorola": 35,
       "OnePlus": 23,
-      "Nothing": 10,
+      "Nothing": 12,
       "Microsoft": 1,
-      "Fairphone": 1,
-      "vivo": 1
+      "vivo": 1,
+      "Fairphone": 1
     },
     "numberChangeByOS": {
-      "26": 1,
-      "27": 2,
-      "28": 1,
-      "29": 1,
-      "30": 6,
-      "31": 3,
-      "32": 2,
-      "33": 4,
-      "34": 10,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 2,
       "35": 0
     },
     "numberChangeByMake": {
-      "Google": 11,
-      "samsung": 7,
-      "motorola": 9,
-      "OnePlus": 2,
-      "Nothing": 0,
+      "Google": 0,
+      "samsung": 0,
+      "motorola": 0,
+      "OnePlus": 0,
+      "Nothing": 2,
       "Microsoft": 0,
-      "Fairphone": 0,
-      "vivo": 1
+      "vivo": 0,
+      "Fairphone": 0
     }
   }
 }
