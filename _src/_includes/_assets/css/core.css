@@ -1998,6 +1998,10 @@ footer {
   list-style-type: none;
 }
 
+.support-list summary h3 {
+  display: inline-block;
+}
+
 .docnav-topic-title {
   font-weight: 700;
 }

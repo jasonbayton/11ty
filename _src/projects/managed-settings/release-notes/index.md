@@ -18,17 +18,24 @@ eleventyNavigation:
 ## Release notes
 
 <div class="support-list">
-  <ul>
+{% set first_item = true %}
+{% for post in collections['Managed Settings'] | reverse %}
+{% for tag in post.data.categories %}
+{% if tag.includes("Managed Settings Release Notes") %}
 
-  {% for post in collections['Managed Settings'] %}
-  {% for tag in post.data.categories %}
-  {% if tag.includes("Managed Settings Release Notes") %}
+<!-- Start the details element -->
+<details {% if first_item %}open{% set first_item = false %}{% endif %}> <!-- Automatically open the first item -->
+<!-- Summary element contains the title and date -->
+<summary><h3><a href="{{ post.url }}">{{ post.data.eleventyNavigation.title }}</h3></a> - {{ post.data.published | dateFull }}</summary>
 
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a> - {{ post.data.published | dateFull }}</li>
+<!-- Content of the release note -->
+<div class="release-content">
+{{ post.templateContent | safe }}
+</div>
+</details>
+<!-- End of details element -->
 
-  {% endif %}
-  {% endfor %}
-  {% endfor %}
-
-  </ul>
+{% endif %}
+{% endfor %}
+{% endfor %}
 </div>
