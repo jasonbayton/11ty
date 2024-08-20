@@ -47,8 +47,10 @@ For wider Android Enterprise support, which includes access to Google Play, acco
 
 1. Availability of a browser within the managed environment (webview is intentionally not implemented)
    - Allows access to feedback form and app support links
+2. A document reader and/or supported share targets
+   - Allows viewing and sharing CSV file exports 
 
-This is not mandatory, however links will fail with a warning.
+This is not mandatory, however actions will fail with a warning.
 
 ## Fully offline support
 

@@ -59,8 +59,8 @@ Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIp
 - Tap the app icon of any application that should be hosted in Google Play to go directly to the Play Store listing
 - Tap the state (enabled/disabled) to open on-device app information (if present)
 - Press and hold on an app card to copy the package name of the app to the clipboard
-- Get to help information for PACKAGE SEARCH by tapping on the PACKAGE SEARCH icon in the top left.
-- Tap the disabled phone icon (top-right) to immediately filter to unavailable applications
+- Get help and see available actions for PACKAGE SEARCH by tapping on the PACKAGE SEARCH icon in the top left
+- Tap the filter icon (top-right) to view filter and sorting options
 - Use filters for more precise search queries, the following are supported:
   - name:
   - package:
@@ -70,12 +70,14 @@ Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIp
   - target:
   - state:
   - type:
+  - profile:
 
 Examples include:
 
 - `package:org.bayton.managedsettings`
 - `min: 24`
 - `state:unavailable`
+- `profile:other`
 
 I can also offer additional priority support for an annual recurring fee, offering faster and more in-depth support, with additional discounts on my [consultancy rate](/support). Details can be found [here]([/projects/managed-settings/pricing/#support-priority-support) (via MANAGED SETTINGS pricing).
 
