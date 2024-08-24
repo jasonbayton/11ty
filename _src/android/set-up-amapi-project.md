@@ -7,7 +7,9 @@ excerpt: ''
 type: documentation
 tags: 
     - Development
+permalink: false
 layout: base.njk
+eleventyExcludeFromCollections: true
 eleventyNavigation:
   order: 7000
 ---
