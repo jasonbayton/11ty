@@ -52,6 +52,26 @@ Ideal for quickly locating and monitoring applications & their metadata. Even sh
 
 <div class="project-image">
 
+{% include "../_includes/_assets/img/bayton_logos/managed_info_hero.svg" %}
+
+</div>
+<div class="project-description">
+
+## MANAGED INFO
+
+MANAGED INFO is a utility application designed to offer managed config-defined help & support information directly on managed devices. 
+
+Useful in multi-app kiosk deployments for quick access to corporate assistance, but equally at home in the app draw for quick reference as needed.
+
+
+<a class="button" href="managed-info">Check it out</a>
+
+</div>
+
+<!--  -->
+
+<div class="project-image">
+
 {% include "../_includes/_assets/img/bayton_logos/qr_code_hero.svg" %}
 
 </div>

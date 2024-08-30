@@ -15,7 +15,7 @@ eleventyNavigation:
     order: 3
     
 ---
-_Version 1.1, 20th July, 2024_  
+_Version 1.2, 30th August, 2024_  
 <span class="orange">[See repo for change history](https://github.com/jasonbayton/11ty/commits/main/_src/projects/managed-settings/terms-of-service/index.md)</span>
 
 # Terms of Service
@@ -30,7 +30,7 @@ Welcome to MANAGED SETTINGS, provided by BAYTON. These Terms of Service govern y
 ## Acceptance of Terms
 By continuing to use MANAGED SETTINGS, you accept and agree to be bound by these Terms of Service.
 
-## User Accounts and License Keys
+## User Accounts and Licence Keys
 Users do not need to create an account to use MANAGED SETTINGS. Enhanced functionality is provided through the use of a licence key.
 
 ## Usage of the Application

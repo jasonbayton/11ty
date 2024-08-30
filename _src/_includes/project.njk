@@ -20,6 +20,8 @@
                     {% include "./_assets/img/bayton_logos/beam_hero.svg" %}
                     {% elif page.url.includes("package-search") %}
                     {% include "./_assets/img/bayton_logos/package_search_hero_animated.svg" %}
+                    {% elif page.url.includes("managed-info") %}
+                    {% include "./_assets/img/bayton_logos/managed_info_hero.svg" %}
                     {% else %}
                     {% include "./_assets/img/bayton_logos/project_placeholder.svg" %}
                     {% endif %}
@@ -62,6 +64,9 @@
                             {% elif page.url.includes("package-search") %}
                             {% renderFile "./_src/_includes/_parts/projects/ps-grid-right.md" %}
                             {% include "./_parts/projects/project-ps-data-right.njk" %}
+                            {% elif page.url.includes("managed-info") %}
+                            {% renderFile "./_src/_includes/_parts/projects/mi-grid-right.md" %}
+                            {% include "./_parts/projects/project-mi-data-right.njk" %}
                             {% elif page.url.includes("beam") %}
                             {% renderFile "./_src/_includes/_parts/projects/beam-grid-right.md" %}
                             {% endif %}

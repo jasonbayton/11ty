@@ -1,0 +1,139 @@
+<div class="stats-panel">
+  <h2 class="section-title">Statistics</h2>
+  <span class="section-byline">Stats are updated daily.</span>
+
+  <hr>
+
+  <p>
+    Devices pinged (24h): <b><span class="orange">{{ devices.managedInfo.totalRecent24hDevices }}</span></b> <br>
+  </p>
+
+  <h3>Devices by OS (90 day)</h3>
+  <div id="os_chart_managed_info" style="max-width: 100%; height: 500px;"></div>
+
+  <div class="responsive-table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>OS Version (API level)</th>
+          <th>% of devices</th>
+          <th>Change (24h)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for os, count in devices.managedInfo.devicesByOS %}
+        <tr>
+          <td>{{ os }}</td>
+          <td>{{ (count / devices.managedInfo.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+          <td>
+            {% set prevCount = devices.managedInfo.totalNonStaleRecentDevices - devices.managedInfo.numberChangeByOS[os] %}
+            {% if prevCount > 0 %}
+              {% set percChange = (devices.managedInfo.numberChangeByOS[os] / prevCount) * 100 %}
+              {{ percChange.toFixed(1) }}%
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Devices by manufacturer (90 day)</h3>
+  <div id="model_chart_managed_info" style="max-width: 100%; height: 500px;"></div>
+  
+  <div class="responsive-table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>OEM</th>
+          <th>% of devices</th>
+          <th>Change (24h)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for make, count in devices.managedInfo.devicesByMake %}
+        <tr>
+          <td>{{ make }}</td>
+          <td>{{ (count / devices.managedInfo.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+          <td>
+            {% set prevCount = devices.managedInfo.totalNonStaleRecentDevices - devices.managedInfo.numberChangeByMake[make] %}
+            {% if prevCount > 0 %}
+              {% set percChange = (devices.managedInfo.numberChangeByMake[make] / prevCount) * 100 %}
+              {{ percChange.toFixed(1) }}%
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChartsmanagedInfo); 
+
+    function drawChartsmanagedInfo() { 
+      drawOSChartmanagedInfo();
+      drawModelChartmanagedInfo();
+    }
+
+    function applyLegendTextColor(chartId) {
+      const legendTexts = document.querySelectorAll(`#${chartId} text`);
+      legendTexts.forEach(text => {
+        text.style.fill = 'var(--text)';
+      });
+    }
+
+    function drawOSChartmanagedInfo() {
+      var data = google.visualization.arrayToDataTable([
+        ['OS Version (API level)', 'Number of Devices'],
+        {% for os, count in devices.managedInfo.devicesByOS %}
+          ['{{ os }}', {{ count }}],
+        {% endfor %}
+      ]);
+
+      var options = {
+        title: 'Devices by OS (API level)',
+        pieHole: 0.4,
+        backgroundColor: 'transparent',
+        chartArea: { width: '90%', height: '80%' },
+        legend: { position: 'bottom', maxLines: 3 },
+        tooltip: { text: 'percentage' }
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('os_chart_managed_info'));
+      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('os_chart_managed_info'));
+      chart.draw(data, options);
+    }
+
+    function drawModelChartmanagedInfo() {
+      var data = google.visualization.arrayToDataTable([
+        ['OEM', 'Number of Devices'],
+        {% for model, count in devices.managedInfo.devicesByMake %}
+          ['{{ model }}', {{ count }}],
+        {% endfor %}
+      ]);
+
+      var options = {
+        title: 'Devices by OEM',
+        pieHole: 0.4,
+        backgroundColor: 'transparent',
+        chartArea: { width: '90%', height: '80%' },
+        legend: { position: 'bottom', maxLines: 3 },
+        tooltip: { text: 'percentage' }
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('model_chart_managed_info'));
+      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('model_chart_managed_info'));
+      chart.draw(data, options);
+
+      // Redraw charts on window resize
+      window.addEventListener('resize', drawChartsmanagedInfo); 
+    }
+  </script>
+</div>
