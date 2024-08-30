@@ -5,7 +5,7 @@ published: '2024-08-08'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: project-docs
+type: page
 tags: 
     - 'bayton-projects'
 layout: base.njk
