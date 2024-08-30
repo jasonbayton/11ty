@@ -29,7 +29,12 @@ To install it for enterprise management, log in to your EMM platform, navigate t
 
 ## Configure the application
 
-<div class="callout callout-small">Without a configuration, a welcome card is displayed. When a managed config payload is deployed, this automatically goes away.</div>
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small"> Head's up</div>
+
+Without a configuration, a welcome card is displayed. When a managed config payload is deployed, this automatically goes away.
+
+</div>
 
 1. Once selected, open the application configuration for MANAGED INFO, and switch to managed configuration setup.
 2. You may now configure how MANAGED INFO displays to end users, including enabling or disabling:
