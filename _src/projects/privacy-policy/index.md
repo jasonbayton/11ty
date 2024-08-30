@@ -1,15 +1,12 @@
 ---
-title: PACKAGE SEARCH privacy policy
-parent: PACKAGE SEARCH
+title: BAYTON projects privacy policy
+parent: Projects
 published: '2024-08-08'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: project-docs
 tags: 
-    - 'Package Search'
-    - 'Managed Settings'
-    - 'Managed Info'
     - 'bayton-projects'
 layout: base.njk
 eleventyNavigation: 
