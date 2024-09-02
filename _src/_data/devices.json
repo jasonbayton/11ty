@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 382,
-    "totalRecent24hDevices": 196,
+    "totalNonStaleRecentDevices": 383,
+    "totalRecent24hDevices": 177,
     "totalLicensedDevices": 29,
     "devicesByOS": {
       "27": 17,
@@ -11,7 +11,7 @@
       "31": 20,
       "32": 12,
       "33": 57,
-      "34": 88,
+      "34": 89,
       "35": 22
     },
     "devicesByMake": {
@@ -19,7 +19,7 @@
       "Google": 76,
       "OnePlus": 49,
       "Rhino Mobility": 44,
-      "samsung": 42,
+      "samsung": 43,
       "NUU": 8,
       "motorola": 8,
       "Nothing": 7,
@@ -50,8 +50,8 @@
       "30": 0,
       "31": 0,
       "32": 0,
-      "33": 1,
-      "34": 0,
+      "33": 0,
+      "34": 1,
       "35": 0
     },
     "numberChangeByMake": {
@@ -85,8 +85,8 @@
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 298,
-    "totalRecent24hDevices": 344,
+    "totalNonStaleRecentDevices": 300,
+    "totalRecent24hDevices": 367,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
@@ -96,14 +96,14 @@
       "30": 70,
       "31": 20,
       "32": 23,
-      "33": 36,
+      "33": 37,
       "34": 129,
-      "35": 7
+      "35": 8
     },
     "devicesByMake": {
       "Google": 133,
-      "samsung": 59,
-      "motorola": 52,
+      "samsung": 60,
+      "motorola": 53,
       "OnePlus": 33,
       "Nothing": 15,
       "vivo": 1,
@@ -122,13 +122,13 @@
       "31": 0,
       "32": 0,
       "33": 1,
-      "34": 1,
-      "35": 0
+      "34": 0,
+      "35": 1
     },
     "numberChangeByMake": {
-      "Google": 1,
+      "Google": 0,
       "samsung": 1,
-      "motorola": 0,
+      "motorola": 1,
       "OnePlus": 0,
       "Nothing": 0,
       "vivo": 0,
