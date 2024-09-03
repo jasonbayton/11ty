@@ -6,6 +6,7 @@ require('dotenv').config(); // Load environment variables from .env file
 async function fetchAndSaveDevices() {
     const devicesUrl = 'https://ping.projects.bayton.org/api/devices';
     const licensesUrl = 'https://ping.projects.bayton.org/api/licenses/org.bayton.managedsettings';
+    const managedInfoLicensesUrl = 'https://ping.projects.bayton.org/api/licenses/org.bayton.managedinfo';
     const token = process.env.PING_API;
     const outputPath = path.join(__dirname, '../_src/_data', 'devices.json');
 
@@ -27,7 +28,7 @@ async function fetchAndSaveDevices() {
             throw new Error('Devices response is not an array');
         }
 
-        // Fetch licenses
+        // Fetch licenses for managed-settings and package-search
         const licensesResponse = await fetch(licensesUrl, {
             method: 'GET',
             headers: {
@@ -37,15 +38,27 @@ async function fetchAndSaveDevices() {
             }
         });
 
-        const licensesData = await licensesResponse.json();
+        // Fetch licenses for managed-info
+        const managedInfoLicensesResponse = await fetch(managedInfoLicensesUrl, {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        });
 
-        // Ensure the response is an array
-        if (!Array.isArray(licensesData)) {
+        const licensesData = await licensesResponse.json();
+        const managedInfoLicensesData = await managedInfoLicensesResponse.json();
+
+        // Ensure the responses are arrays
+        if (!Array.isArray(licensesData) || !Array.isArray(managedInfoLicensesData)) {
             throw new Error('Licenses response is not an array');
         }
 
         // Extract valid license orgIds
         const validLicenseOrgs = new Set(licensesData);
+        const validManagedInfoLicenseOrgs = new Set(managedInfoLicensesData);
 
         // Get the current date
         const currentDate = new Date();
@@ -63,7 +76,7 @@ async function fetchAndSaveDevices() {
         }
 
         // Function to process devices by service
-        function processDevices(devices) {
+        function processDevices(devices, validLicenses) {
             // Filter devices updated within the last 24 hours
             const recent24hDevices = devices.filter(device => {
                 const updatedAt = new Date(device.updated_at);
@@ -83,7 +96,7 @@ async function fetchAndSaveDevices() {
             const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
 
             // Count devices with valid licenses
-            const licensedDevices = nonStaleRecentDevices.filter(device => validLicenseOrgs.has(device.orgId));
+            const licensedDevices = nonStaleRecentDevices.filter(device => validLicenses.has(device.orgId));
             const totalLicensedDevices = licensedDevices.length;
 
             // Count devices by OS and sort by number of devices in descending order
@@ -118,9 +131,11 @@ async function fetchAndSaveDevices() {
         // Process devices for each service
         const managedSettingsDevices = devicesData.filter(device => device.service === 'managed-settings');
         const packageSearchDevices = devicesData.filter(device => device.service === 'package-search');
+        const managedInfoDevices = devicesData.filter(device => device.service === 'managed-info');
 
-        const managedSettingsResult = processDevices(managedSettingsDevices);
-        const packageSearchResult = processDevices(packageSearchDevices);
+        const managedSettingsResult = processDevices(managedSettingsDevices, validLicenseOrgs);
+        const packageSearchResult = processDevices(packageSearchDevices, validLicenseOrgs);
+        const managedInfoResult = processDevices(managedInfoDevices, validManagedInfoLicenseOrgs);
 
         // Read the previous day's data
         let previousData = null;
@@ -130,8 +145,10 @@ async function fetchAndSaveDevices() {
 
         // Calculate number change for OS and make
         if (previousData) {
-            ['managedSettings', 'packageSearch'].forEach(service => {
-                const currentData = service === 'managedSettings' ? managedSettingsResult : packageSearchResult;
+            ['managedSettings', 'packageSearch', 'managedInfo'].forEach(service => {
+                const currentData = service === 'managedSettings' ? managedSettingsResult
+                    : service === 'packageSearch' ? packageSearchResult
+                    : managedInfoResult;
                 const prevData = previousData[service] || {};
                 const prevOS = prevData.devicesByOS || {};
                 const prevMake = prevData.devicesByMake || {};
@@ -155,7 +172,8 @@ async function fetchAndSaveDevices() {
         // Write the result to a JSON file
         const result = {
             managedSettings: managedSettingsResult,
-            packageSearch: packageSearchResult
+            packageSearch: packageSearchResult,
+            managedInfo: managedInfoResult
         };
         fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
 
@@ -165,9 +183,11 @@ async function fetchAndSaveDevices() {
         if (previousData) {
             const managedSettingsDiff = result.managedSettings.totalNonStaleRecentDevices - previousData.managedSettings.totalNonStaleRecentDevices;
             const packageSearchDiff = result.packageSearch.totalNonStaleRecentDevices - previousData.packageSearch.totalNonStaleRecentDevices;
+            const managedInfoDiff = result.managedInfo.totalNonStaleRecentDevices - previousData.managedInfo.totalNonStaleRecentDevices;
 
             console.log(`Managed Settings device count changed by ${managedSettingsDiff} compared to the previous day.`);
             console.log(`Package Search device count changed by ${packageSearchDiff} compared to the previous day.`);
+            console.log(`Managed Info device count changed by ${managedInfoDiff} compared to the previous day.`);
         }
     } catch (error) {
         console.error('Error fetching devices:', error);
