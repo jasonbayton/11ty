@@ -10,7 +10,7 @@ tags:
 ---
 
 {% for tag in collections.tagsList %}
-{% if tag not in ["blog", "android-docs", "notes", "bayton-projects", "ps-release-notes", "ms-release-notes"] %}
+{% if tag not in ["blog", "android-docs", "notes", "bayton-projects", "ps-release-notes", "mi-release-notes", "ms-release-notes"] %}
 <div class="year-block">
     <div class="section-title extra-bold">
     {{ tag }} (<a class="" href="/tags/{{ tag | slugify }}/">#{{ tag | slugify }}</a>)
