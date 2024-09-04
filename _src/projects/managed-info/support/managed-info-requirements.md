@@ -35,7 +35,7 @@ The following endpoints will be occasionally called for analytics and functional
 7. firebaseinstallations.googleapis.com:443
 8. android-safebrowsing.google.com:443
 
-_PING is the activation/licensing service. 2 through 9 are general Android Enterprise and Google infrastructure endpoints, including notification support, which isn't implemented, but may be in future_.
+_PING is the activation/licensing service. 2 through 8 are general Android Enterprise and Google infrastructure endpoints, including notification support, which isn't implemented, but may be in future_.
 
 These endpoints are optional: 
 
@@ -59,3 +59,5 @@ This is not mandatory, however actions will fail with a warning.
 ## Fully offline support
 
 MANAGED INFO can work in a fully-offline environment, though managed configuration will need to be delivered via alternative methods. Future functionality may be limited, however will have no impact on the core use case of the application.
+
+Customisations currently cannot work in a fully offline environment. Licensing has a 48 hour network unavailability grace period from the last successful PING before licensed features are disabled. Get in touch if this is a concern.
