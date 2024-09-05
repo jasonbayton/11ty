@@ -77,28 +77,42 @@ async function fetchAndSaveDevices() {
 
         // Function to process devices by service
         function processDevices(devices, validLicenses) {
-            // Filter devices updated within the last 24 hours
-            const recent24hDevices = devices.filter(device => {
+            // Create a Map to track unique device IDs
+            const uniqueDevices = new Map();
+        
+            // Get the current date
+            const currentDate = new Date();
+        
+            // Filter out stale devices, those not updated within 90 days, and exclude duplicates
+            const nonStaleRecentDevices = devices.filter(device => {
+                const updatedAt = new Date(device.updated_at);
+                // Check if the device is non-stale and updated within the last 90 days
+                if (!device.stale && daysDifference(updatedAt, currentDate) <= 90) {
+                    // Check if the device ID is unique
+                    if (!uniqueDevices.has(device.id)) {
+                        uniqueDevices.set(device.id, device);
+                        return true; // Include the device
+                    }
+                }
+                return false; // Exclude the device if it's stale, too old, or a duplicate
+            });
+        
+            // Filter devices updated within the last 24 hours that are non-stale and unique
+            const recent24hDevices = nonStaleRecentDevices.filter(device => {
                 const updatedAt = new Date(device.updated_at);
                 return hoursDifference(updatedAt, currentDate) <= 24;
             });
-
-            // Get the total count of devices updated within the last 24 hours
-            const totalRecent24hDevices = recent24hDevices.length;
-
-            // Filter out stale devices and those not updated within 90 days
-            const nonStaleRecentDevices = devices.filter(device => {
-                const updatedAt = new Date(device.updated_at);
-                return !device.stale && daysDifference(updatedAt, currentDate) <= 90;
-            });
-
+        
             // Get the total count of non-stale devices updated within 90 days
             const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
-
+        
+            // Get the total count of non-stale, unique devices updated within the last 24 hours
+            const totalRecent24hDevices = recent24hDevices.length;
+        
             // Count devices with valid licenses
             const licensedDevices = nonStaleRecentDevices.filter(device => validLicenses.has(device.orgId));
             const totalLicensedDevices = licensedDevices.length;
-
+        
             // Count devices by OS and sort by number of devices in descending order
             const devicesByOS = nonStaleRecentDevices.reduce((acc, device) => {
                 acc[device.os] = (acc[device.os] || 0) + 1;
@@ -107,7 +121,7 @@ async function fetchAndSaveDevices() {
             const sortedDevicesByOS = Object.fromEntries(
                 Object.entries(devicesByOS).sort(([, a], [, b]) => b - a)
             );
-
+        
             // Count devices by make and sort by number of devices in descending order
             const devicesByMake = nonStaleRecentDevices.reduce((acc, device) => {
                 acc[device.make] = (acc[device.make] || 0) + 1;
@@ -116,7 +130,7 @@ async function fetchAndSaveDevices() {
             const sortedDevicesByMake = Object.fromEntries(
                 Object.entries(devicesByMake).sort(([, a], [, b]) => b - a)
             );
-
+        
             return {
                 totalNonStaleRecentDevices,
                 totalRecent24hDevices,
