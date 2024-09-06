@@ -29,8 +29,18 @@ Useful in a multi-app kiosk environment as a means of providing help & support i
 
 ## What does MANAGED INFO cost?
 
-MANAGED INFO is a **free** application. I may add customisation options to the application, akin to MANAGED SETTINGS, in future. This depends on demand. 
+MANAGED INFO is a **free** application. An optional licence unlocks additional customisation options, including:
+
+- Hiding branding
+- Custom app title
+- Custom information cards
+- Disabling fun (😁)
+
 If desired, MANAGED INFO can be organisation-branded as a custom application. Please do get in touch if interested.
+
+View more details and pricing information:
+
+<a class="button" href="pricing">View pricing</a>
 
 ## Get started
 
