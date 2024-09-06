@@ -56,4 +56,4 @@ If you've set up your organisation with the new customer signup (BTE) flow, you 
 
 ## Customise available settings
 
-With a valid organisation ID set, you may continue to configure all customisation options in addition to the standard, unlicensed & freely available settings intents.
+With a valid organisation ID set, you may continue to configure all customisation options in addition to the standard, unlicensed & freely available configurations.
