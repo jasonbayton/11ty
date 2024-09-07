@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 392,
-    "totalRecent24hDevices": 14,
+    "totalNonStaleRecentDevices": 394,
+    "totalRecent24hDevices": 18,
     "totalLicensedDevices": 29,
     "devicesByOS": {
       "27": 17,
@@ -10,15 +10,15 @@
       "30": 51,
       "31": 20,
       "32": 12,
-      "33": 60,
+      "33": 61,
       "34": 90,
-      "35": 23
+      "35": 24
     },
     "devicesByMake": {
       "RHINO": 100,
-      "Google": 78,
+      "Google": 79,
       "OnePlus": 52,
-      "Rhino Mobility": 45,
+      "Rhino Mobility": 46,
       "samsung": 44,
       "NUU": 8,
       "motorola": 8,
@@ -50,15 +50,15 @@
       "30": 0,
       "31": 0,
       "32": 0,
-      "33": 0,
+      "33": 1,
       "34": 0,
-      "35": 0
+      "35": 1
     },
     "numberChangeByMake": {
       "RHINO": 0,
-      "Google": 0,
+      "Google": 1,
       "OnePlus": 0,
-      "Rhino Mobility": 0,
+      "Rhino Mobility": 1,
       "samsung": 0,
       "NUU": 0,
       "motorola": 0,
@@ -85,7 +85,7 @@
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 306,
+    "totalNonStaleRecentDevices": 308,
     "totalRecent24hDevices": 30,
     "totalLicensedDevices": 0,
     "devicesByOS": {
@@ -96,17 +96,17 @@
       "30": 70,
       "31": 20,
       "32": 24,
-      "33": 38,
-      "34": 132,
+      "33": 39,
+      "34": 133,
       "35": 8
     },
     "devicesByMake": {
       "Google": 133,
-      "samsung": 63,
+      "samsung": 64,
       "motorola": 53,
       "OnePlus": 33,
       "Nothing": 15,
-      "MobiWire": 2,
+      "MobiWire": 3,
       "vivo": 1,
       "LGE": 1,
       "Microsoft": 1,
@@ -123,17 +123,17 @@
       "30": 0,
       "31": 0,
       "32": 0,
-      "33": 0,
-      "34": 0,
+      "33": 1,
+      "34": 1,
       "35": 0
     },
     "numberChangeByMake": {
       "Google": 0,
-      "samsung": 0,
+      "samsung": 1,
       "motorola": 0,
       "OnePlus": 0,
       "Nothing": 0,
-      "MobiWire": 0,
+      "MobiWire": 1,
       "vivo": 0,
       "LGE": 0,
       "Microsoft": 0,
@@ -145,7 +145,7 @@
   },
   "managedInfo": {
     "totalNonStaleRecentDevices": 33,
-    "totalRecent24hDevices": 3,
+    "totalRecent24hDevices": 2,
     "totalLicensedDevices": 1,
     "devicesByOS": {
       "28": 2,
