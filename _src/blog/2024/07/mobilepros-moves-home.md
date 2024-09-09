@@ -24,4 +24,6 @@ You can start joining our new Discord community today. Just follow this [link](h
 
 I look forward to seeing you all there!
 
-(Oh, and for good measure, I've also pushed a static copy of Mobile Pros' Slack history to [archive.mobilepros.org](https://archive.mobilepros.org) through the exceptionally simple tool from [hfran](https://pypi.org/project/slack-export-viewer/). I was doing the work to migrate, I figured I might as well!)
+~~(Oh, and for good measure, I've also pushed a static copy of Mobile Pros' Slack history to [archive.mobilepros.org](https://archive.mobilepros.org) through the exceptionally simple tool from [hfran](https://pypi.org/project/slack-export-viewer/). I was doing the work to migrate, I figured I might as well!)~~
+
+^ Not any more :)
