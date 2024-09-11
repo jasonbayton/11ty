@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 396,
-    "totalRecent24hDevices": 20,
+    "totalNonStaleRecentDevices": 397,
+    "totalRecent24hDevices": 18,
     "totalLicensedDevices": 29,
     "devicesByOS": {
       "27": 17,
@@ -10,7 +10,7 @@
       "30": 51,
       "31": 20,
       "32": 12,
-      "33": 62,
+      "33": 63,
       "34": 91,
       "35": 24
     },
@@ -18,7 +18,7 @@
       "RHINO": 100,
       "Google": 79,
       "OnePlus": 52,
-      "samsung": 46,
+      "samsung": 47,
       "Rhino Mobility": 46,
       "NUU": 8,
       "motorola": 8,
@@ -85,34 +85,34 @@
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 309,
-    "totalRecent24hDevices": 30,
+    "totalNonStaleRecentDevices": 313,
+    "totalRecent24hDevices": 39,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
       "27": 9,
       "28": 2,
       "29": 2,
-      "30": 70,
+      "30": 72,
       "31": 20,
       "32": 24,
       "33": 39,
       "34": 134,
-      "35": 8
+      "35": 10
     },
     "devicesByMake": {
-      "Google": 133,
+      "Google": 135,
       "samsung": 65,
       "motorola": 53,
-      "OnePlus": 33,
+      "OnePlus": 35,
       "Nothing": 15,
       "MobiWire": 3,
       "vivo": 1,
       "LGE": 1,
       "Microsoft": 1,
-      "Zebra Technologies": 1,
       "OPPO": 1,
       "Xiaomi": 1,
+      "Zebra Technologies": 1,
       "Fairphone": 1
     },
     "numberChangeByOS": {
@@ -120,31 +120,31 @@
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": 0,
+      "30": 2,
       "31": 0,
       "32": 0,
       "33": 0,
-      "34": 1,
-      "35": 0
+      "34": 0,
+      "35": 2
     },
     "numberChangeByMake": {
-      "Google": 0,
-      "samsung": 1,
+      "Google": 2,
+      "samsung": 0,
       "motorola": 0,
-      "OnePlus": 0,
+      "OnePlus": 2,
       "Nothing": 0,
       "MobiWire": 0,
       "vivo": 0,
       "LGE": 0,
       "Microsoft": 0,
-      "Zebra Technologies": 0,
       "OPPO": 0,
       "Xiaomi": 0,
+      "Zebra Technologies": 0,
       "Fairphone": 0
     }
   },
   "managedInfo": {
-    "totalNonStaleRecentDevices": 33,
+    "totalNonStaleRecentDevices": 34,
     "totalRecent24hDevices": 3,
     "totalLicensedDevices": 1,
     "devicesByOS": {
@@ -153,10 +153,10 @@
       "31": 3,
       "32": 3,
       "34": 5,
-      "35": 8
+      "35": 9
     },
     "devicesByMake": {
-      "Google": 18,
+      "Google": 19,
       "OnePlus": 12,
       "unknown": 2,
       "samsung": 1
@@ -167,10 +167,10 @@
       "31": 0,
       "32": 0,
       "34": 0,
-      "35": 0
+      "35": 1
     },
     "numberChangeByMake": {
-      "Google": 0,
+      "Google": 1,
       "OnePlus": 0,
       "unknown": 0,
       "samsung": 0
