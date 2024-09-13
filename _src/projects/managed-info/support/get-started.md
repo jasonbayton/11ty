@@ -47,6 +47,7 @@ Quick settings and contact details are reliant on filling out the contact inform
 
 - Contact details items will vanish (ie, remove the phone number, the phone information row will vanish)
 - The quick setting will remain, but show an unconfigured error if tapped (ie the call quick setting will show, but tapping it does nothing)
+- If you clear all contact details data, a warning will show on the device.
 
 You choose the information you provide, naturally, but be mindful of the above when doing so.
 
