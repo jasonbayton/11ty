@@ -116,11 +116,12 @@ Book a call with me
 Please prepare a detailed Scope and/or Statement of Work (SoW) defining your objectives, team involved, main PoC's, as well as a budget and time window for the engagement to review, as this will allow efficient use of time on our call.
 
 **Fee options:** 
+* Per-hour (<span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/fZe9Byccw0HG7SM3cd))
 * 1/2 day (up to 4h)
 * Full day (up to 8h)
 * Fixed per project
 
-NB: Hours may be consumed ad-hoc, across multiple days as required. 1/2 days start at £600, negotiable up or down. If you have budget constraints, contact me to discuss.
+NB: Hours may be consumed ad-hoc, across multiple days as required. If you have budget constraints, contact me to discuss.
 
 ## Not ready to start?
 
