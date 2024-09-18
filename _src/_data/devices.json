@@ -1,14 +1,14 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 423,
-    "totalRecent24hDevices": 20,
+    "totalNonStaleRecentDevices": 424,
+    "totalRecent24hDevices": 18,
     "totalLicensedDevices": 29,
     "devicesByOS": {
       "27": 17,
       "28": 12,
       "29": 109,
       "30": 51,
-      "31": 30,
+      "31": 31,
       "32": 14,
       "33": 65,
       "34": 98,
@@ -17,7 +17,7 @@
     "devicesByMake": {
       "RHINO": 100,
       "Google": 82,
-      "samsung": 67,
+      "samsung": 68,
       "OnePlus": 52,
       "Rhino Mobility": 46,
       "NUU": 8,
@@ -50,16 +50,16 @@
       "28": 0,
       "29": 0,
       "30": 0,
-      "31": 2,
-      "32": 1,
-      "33": 2,
-      "34": 2,
+      "31": 1,
+      "32": 0,
+      "33": 0,
+      "34": 0,
       "35": 0
     },
     "numberChangeByMake": {
       "RHINO": 0,
       "Google": 0,
-      "samsung": 5,
+      "samsung": 1,
       "OnePlus": 0,
       "Rhino Mobility": 0,
       "NUU": 0,
@@ -70,7 +70,7 @@
       "Sony": 0,
       "A-gold": 0,
       "unknown": 0,
-      "Zebra Technologies": 1,
+      "Zebra Technologies": 0,
       "TECNO MOBILE LIMITED": 0,
       "realme": 0,
       "vivo": 0,
@@ -85,27 +85,27 @@
       "Honeywell": 0,
       "Microsoft": 0,
       "iWaylink": 0,
-      "Crosscall": 1
+      "Crosscall": 0
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 359,
-    "totalRecent24hDevices": 34,
+    "totalNonStaleRecentDevices": 361,
+    "totalRecent24hDevices": 35,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
       "27": 13,
       "28": 2,
-      "29": 2,
+      "29": 3,
       "30": 88,
       "31": 24,
       "32": 27,
       "33": 45,
-      "34": 145,
+      "34": 146,
       "35": 12
     },
     "devicesByMake": {
-      "Google": 153,
+      "Google": 154,
       "samsung": 72,
       "motorola": 62,
       "OnePlus": 40,
@@ -120,29 +120,30 @@
       "HMD Global": 1,
       "realme": 1,
       "Fairphone": 1,
-      "Xiaomi": 1
+      "Xiaomi": 1,
+      "Acer": 1
     },
     "numberChangeByOS": {
       "26": 0,
       "27": 0,
       "28": 0,
-      "29": 0,
-      "30": 3,
+      "29": 1,
+      "30": 0,
       "31": 0,
       "32": 0,
-      "33": 1,
-      "34": 0,
+      "33": 0,
+      "34": 1,
       "35": 0
     },
     "numberChangeByMake": {
-      "Google": 2,
+      "Google": 1,
       "samsung": 0,
       "motorola": 0,
-      "OnePlus": 1,
+      "OnePlus": 0,
       "Nothing": 0,
       "LGE": 0,
       "MobiWire": 0,
-      "Zebra Technologies": 1,
+      "Zebra Technologies": 0,
       "unknown": 0,
       "vivo": 0,
       "Microsoft": 0,
@@ -150,7 +151,8 @@
       "HMD Global": 0,
       "realme": 0,
       "Fairphone": 0,
-      "Xiaomi": 0
+      "Xiaomi": 0,
+      "Acer": 1
     }
   },
   "managedInfo": {
