@@ -46,13 +46,13 @@ const qrBuilder = () => {
     let scale;
     let errorCorrectionLevel;
 
-    if (dataLength > 2400) {
+    if (dataLength > 2600) {
         scale = 10;
         errorCorrectionLevel = 'L'; // Low error correction, maximum data capacity
-    } else if (dataLength > 1600) {
+    } else if (dataLength > 2000) {
         scale = 6;
         errorCorrectionLevel = 'M'; // Medium error correction
-    } else if (dataLength > 1000) {
+    } else if (dataLength > 1800) {
         scale = 4;
         errorCorrectionLevel = 'Q'; // Quartile error correction
     } else {
