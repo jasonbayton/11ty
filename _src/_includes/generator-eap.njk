@@ -256,85 +256,91 @@
                     </div>
                 </div>
 
-                <p><b>Configure EAP settings</b><br>
-                If EAP was selected as the Wi-Fi security type, configure EAP settings below.</p>
+                <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
+                    <div class="provisioning-options-left field">
+                        <p><b>Configure EAP settings</b><br>
+                        If EAP was selected as the Wi-Fi security type, configure EAP settings below.</p>
 
-                <!-- Configure Wi-Fi network
-                        "android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE":"NONE, WPA, WEP or EAP",
-                        "android.app.extra.PROVISIONING_WIFI_SSID":"xxxxx",
-                        "android.app.extra.PROVISIONING_WIFI_HIDDEN":"true/false",
-                        "android.app.extra.PROVISIONING_WIFI_PASSWORD":"xxxxx",
-                        "android.app.extra.PROVISIONING_WIFI_PAC_URL":"xxxxx",
-                        "android.app.extra.PROVISIONING_WIFI_PROXY_HOST":"xxxxx",
-                        "android.app.extra.PROVISIONING_WIFI_PROXY_PORT":"xxxxx",
-                        "android.app.extra.PROVISIONING_WIFI_PROXY_BYPASS":"xxxxx",
-                -->
+                        <!-- Configure Wi-Fi network
+                                "android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE":"NONE, WPA, WEP or EAP",
+                                "android.app.extra.PROVISIONING_WIFI_SSID":"xxxxx",
+                                "android.app.extra.PROVISIONING_WIFI_HIDDEN":"true/false",
+                                "android.app.extra.PROVISIONING_WIFI_PASSWORD":"xxxxx",
+                                "android.app.extra.PROVISIONING_WIFI_PAC_URL":"xxxxx",
+                                "android.app.extra.PROVISIONING_WIFI_PROXY_HOST":"xxxxx",
+                                "android.app.extra.PROVISIONING_WIFI_PROXY_PORT":"xxxxx",
+                                "android.app.extra.PROVISIONING_WIFI_PROXY_BYPASS":"xxxxx",
+                        -->
 
-                <div id="eap_method" class="field-qr">
-                    <div class="field-title">
-                        <label for="eap_select">EAP method</label>
-                    </div>
-                    <select name="PROVISIONING_WIFI_EAP_METHOD" id="eap_select" class="input-text input-dropdown" data-qr-key="android.app.extra.PROVISIONING_WIFI_EAP_METHOD">
-                        <option value="">-- Select --</option>
-                        <option value="PEAP">PEAP</option>
-                        <option value="TLS">TLS</option>
-                        <option value="TTLS">TTLS</option>
-                        <option value="PWD">PWD</option>
-                        <option value="SIM">SIM</option>
-                        <option value="AKA">AKA</option>
-                        <option value="AKA_PRIME">AKA_PRIME</option>
-                    </select>
-                </div>
-                <div id="phase2_auth" class="field-qr">
-                    <div class="field-title">
-                        <label for="phase2_select">Phase 2 authentication</label>
-                    </div>
-                    <select name="PROVISIONING_WIFI_EAP_METHOD" id="phase2_select" class="input-text input-dropdown" data-qr-key="android.app.extra.PROVISIONING_WIFI_PHASE2_AUTH">
-                        <option value="">-- Select --</option>
-                        <option value="NONE">NONE</option>
-                        <option value="PAP">PAP</option>
-                        <option value="MSCHAP">MSCHAP</option>
-                        <option value="MSCHAPV2">MSCHAPV2</option>
-                        <option value="GTC">GTC</option>
-                        <option value="SIM">SIM</option>
-                        <option value="AKA">AKA</option>
-                        <option value="AKA_PRIME">AKA_PRIME</option>
-                    </select>
-                </div>
+                        <div id="eap_method" class="field-qr">
+                            <div class="field-title">
+                                <label for="eap_select">EAP method</label>
+                            </div>
+                            <select name="PROVISIONING_WIFI_EAP_METHOD" id="eap_select" class="input-text input-dropdown" data-qr-key="android.app.extra.PROVISIONING_WIFI_EAP_METHOD">
+                                <option value="">-- Select --</option>
+                                <option value="PEAP">PEAP</option>
+                                <option value="TLS">TLS</option>
+                                <option value="TTLS">TTLS</option>
+                                <option value="PWD">PWD</option>
+                                <option value="SIM">SIM</option>
+                                <option value="AKA">AKA</option>
+                                <option value="AKA_PRIME">AKA_PRIME</option>
+                            </select>
+                        </div>
+                        <div id="phase2_auth" class="field-qr">
+                            <div class="field-title">
+                                <label for="phase2_select">Phase 2 authentication</label>
+                            </div>
+                            <select name="PROVISIONING_WIFI_EAP_METHOD" id="phase2_select" class="input-text input-dropdown" data-qr-key="android.app.extra.PROVISIONING_WIFI_PHASE2_AUTH">
+                                <option value="">-- Select --</option>
+                                <option value="NONE">NONE</option>
+                                <option value="PAP">PAP</option>
+                                <option value="MSCHAP">MSCHAP</option>
+                                <option value="MSCHAPV2">MSCHAPV2</option>
+                                <option value="GTC">GTC</option>
+                                <option value="SIM">SIM</option>
+                                <option value="AKA">AKA</option>
+                                <option value="AKA_PRIME">AKA_PRIME</option>
+                            </select>
+                        </div>
 
-                <div id="wifi_identity" class="field-qr">
-                    <div class="field-title">
-                        <label for="wifiidentity_field">Wi-Fi Identity</label>
-                    </div>
-                    <input type="text" placeholder="WIFI_IDENTITY" id="wifiidentity_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_IDENTITY">
-                </div>
+                        <div id="wifi_identity" class="field-qr">
+                            <div class="field-title">
+                                <label for="wifiidentity_field">Wi-Fi Identity</label>
+                            </div>
+                            <input type="text" placeholder="WIFI_IDENTITY" id="wifiidentity_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_IDENTITY">
+                        </div>
 
-                <div id="wifi_anonymous_identity" class="field-qr">
-                    <div class="field-title">
-                        <label for="anonymousidentity_field">Wi-Fi Anonymous Identity</label>
-                    </div>
-                    <input type="text" placeholder="WIFI_ANONYMOUS_IDENTITY" id="anonymousidentity_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_ANONYMOUS_IDENTITY">
-                </div>
+                        <div id="wifi_anonymous_identity" class="field-qr">
+                            <div class="field-title">
+                                <label for="anonymousidentity_field">Wi-Fi Anonymous Identity</label>
+                            </div>
+                            <input type="text" placeholder="WIFI_ANONYMOUS_IDENTITY" id="anonymousidentity_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_ANONYMOUS_IDENTITY">
+                        </div>
 
-                <div id="wifi_domain" class="field-qr">
-                    <div class="field-title">
-                        <label for="domain_field">Wi-Fi Domain</label>
-                    </div>
-                    <input type="text" placeholder="WIFI_DOMAIN" id="domain_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_DOMAIN">
-                </div>
+                        <div id="wifi_domain" class="field-qr">
+                            <div class="field-title">
+                                <label for="domain_field">Wi-Fi Domain</label>
+                            </div>
+                            <input type="text" placeholder="WIFI_DOMAIN" id="domain_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_DOMAIN">
+                        </div>
 
-                <div id="wifi_ca_cert" class="field-qr">
-                    <div class="field-title">
-                        <label for="cacert_field">Wi-Fi CA certificate, base64 format</label>
-                    </div>
-                    <input type="text" placeholder="WIFI_CA_CERTIFICATE" id="cacert_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_CA_CERTIFICATE">
-                </div>
+                        <div id="wifi_ca_cert" class="field-qr">
+                            <div class="field-title">
+                                <label for="cacert_field">Wi-Fi CA certificate, base64 format</label>
+                            </div>
+                            <input type="text" placeholder="WIFI_CA_CERTIFICATE" id="cacert_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_CA_CERTIFICATE">
+                        </div>
 
-                <div id="wifi_user_cert" class="field-qr">
-                    <div class="field-title">
-                        <label for="usercert_field">Wi-Fi user certificate, base64 format</label>
+                        <div id="wifi_user_cert" class="field-qr">
+                            <div class="field-title">
+                                <label for="usercert_field">Wi-Fi user certificate, base64 format</label>
+                            </div>
+                            <input type="text" placeholder="WIFI_USER_CERTIFICATE" id="usercert_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_USER_CERTIFICATE">
+                        </div>
                     </div>
-                    <input type="text" placeholder="WIFI_USER_CERTIFICATE" id="usercert_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_USER_CERTIFICATE">
+                    <div class="wifi-options-right field field-mobile">
+                    </div>
                 </div>
 
                 <!-- END JSON
