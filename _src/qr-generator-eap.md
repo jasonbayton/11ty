@@ -1,9 +1,9 @@
 ---
-title: Android Enterprise AMAPI QR code generator 
-date: 2023-12-18
+title: Android Enterprise AMAPI QR code generator (EAP EA)
+date: 2024-09-18
 tags:
-layout: generator.njk
-alert: This page is <b>aggressively cached</b>. If the QR isn't generating, try a hard refresh (CRTL/CMD + SHIFT + R).
+layout: generator-eap.njk
+alert: This is an early access/experimental copy of the main QR generator supporting EAP. Go back to the original generator with the nav icon above.
 type: page
 ---
 

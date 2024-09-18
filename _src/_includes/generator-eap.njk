@@ -192,6 +192,7 @@
                                 <option value="">-- Select --</option>
                                 <option value="WPA">WPA/WPA2 PSK</option>
                                 <option value="WEP">WEP</option>
+                                <option value="EAP">EAP</option>
                                 <option value="NONE">None</option>
                             </select>
                         </div>
@@ -255,7 +256,7 @@
                     </div>
                 </div>
 
-                <!--p><b>Configure EAP settings</b><br>
+                <p><b>Configure EAP settings</b><br>
                 If EAP was selected as the Wi-Fi security type, configure EAP settings below.</p>
 
                 <!-- Configure Wi-Fi network
@@ -269,7 +270,7 @@
                         "android.app.extra.PROVISIONING_WIFI_PROXY_BYPASS":"xxxxx",
                 -->
 
-                <!--div id="eap_method" class="field-qr">
+                <div id="eap_method" class="field-qr">
                     <div class="field-title">
                         <label for="eap_select">EAP method</label>
                     </div>
@@ -334,7 +335,7 @@
                         <label for="usercert_field">Wi-Fi user certificate, base64 format</label>
                     </div>
                     <input type="text" placeholder="WIFI_USER_CERTIFICATE" id="usercert_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_USER_CERTIFICATE">
-                </div-->
+                </div>
 
                 <!-- END JSON
 
