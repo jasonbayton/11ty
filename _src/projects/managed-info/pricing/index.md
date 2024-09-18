@@ -107,7 +107,7 @@ If you're an ecosystem partner (or organisation) wishing to licence a version th
 
 </div>
 
-Of course you may choose to licence customers on the standard package as organisations above, get in touch to discuss reseller discounts. 
+Of course, you may choose to licence customers on the standard package as organisations above, get in touch to discuss reseller discounts. 
 
 <div class="callout callout-blue">
 <div class="callout-heading callout-heading-small callout-icon-sad">I don't like this pricing</div>
