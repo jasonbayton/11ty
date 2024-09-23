@@ -60,8 +60,10 @@ const qrBuilder = () => {
         errorCorrectionLevel = 'H'; // High error correction, maximum reliability
     }
 
+    const canvas = document.getElementById('generated_qr');
+
     window.QRCode.toCanvas(
-        document.getElementById('generated_qr'),
+        canvas,
         qrDataString,
         {
             errorCorrectionLevel: errorCorrectionLevel,
@@ -75,26 +77,30 @@ const qrBuilder = () => {
         function (error) {
             if (error) {
                 console.error(error);
-                errorMessageElement.innerText = 'Error generating QR code (' + dataLength + ' characters): ' + error.message;
-                // Clear previous QR code and download link
-                const canvas = document.getElementById('generated_qr');
-                if (canvas) {
-                    const ctx = canvas.getContext('2d');
-                    ctx.clearRect(0, 0, canvas.width, canvas.height);
-                }
+                errorMessageElement.innerText =
+                    'Error generating QR code (' + dataLength + ' characters): ' + error.message;
+                // Hide the canvas when there is an error
+                canvas.style.display = 'none';
+                // Clear previous download link
                 document.getElementById('download_qr').innerHTML = '';
                 // Do not clear the JSON code block
             } else {
                 // Clear any previous error messages
                 errorMessageElement.innerText = '';
 
-                // Proceed with the rest of your code
-                document.getElementById('download_qr').innerHTML = '<a class="button" id="generate_download">Download QR</a>';
+                // Show the canvas when QR code is successfully generated
+                canvas.style.display = 'block';
 
-                const canvas = document.getElementById('generated_qr');
+                // Proceed with the rest of your code
+                document.getElementById('download_qr').innerHTML =
+                    '<a class="button" id="generate_download">Download QR</a>';
+
                 const link = document.getElementById('generate_download');
                 link.setAttribute('download', 'provisioning_qr.png');
-                link.setAttribute('href', canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"));
+                link.setAttribute(
+                    'href',
+                    canvas.toDataURL('image/png').replace('image/png', 'image/octet-stream')
+                );
             }
         }
     );
