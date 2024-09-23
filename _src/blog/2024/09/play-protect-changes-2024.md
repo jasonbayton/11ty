@@ -9,7 +9,7 @@ tags:
     - Enterprise
 ---
 
-In a surprise announcement this week, Google have confirmed sideloaded applications - such as those deployed via EMM solutions - will no longer be sent to Google servers for Google Play Protect scanning on enterprise-managed devices.
+In a surprise announcement last week, Google have confirmed sideloaded applications - such as those deployed via EMM solutions - will no longer be sent to Google servers for Google Play Protect scanning on enterprise-managed devices.
 
 ## Why apps are sent to Google
 
@@ -50,4 +50,4 @@ This announcement stems from a [lengthy & passionate post](https://www.androiden
 
 It's a considerable win for the community and those who use it 😁
 
-If you're on the fence about joining up to share your own feedback, I would hope this example of Google and the customer ecosystem working together to improve the experience for everyone offers the nudge you need.
+If you're on the fence about joining up to share your own feedback, I would hope this example of Google and the customer ecosystem working together to improve the experience for everyone offers the nudge you need. Find a link to join in the share box below 👇
