@@ -25,7 +25,13 @@ tags:
     - Enterprise
     - Reviews
 ---
-<div class="alert alert-warning">This article was published in 2014. There are two new articles you may find interesting: [Miradore Online MDM Review: A second Look](/2015/03/miradore-online-mdm-review-a-second-look/) &amp; [Miradore Online MDM: Expanding management with subscriptions](/2016/02/miradore-online-mdm-expanding-management-with-subscriptions/).</div>At this point in time, it’s very unlikely mobile isn’t already a part of most organisations in some way or another. Whether it’s a case of supplying devices to employees or granting access to corporate resources (such as email) on personally-owned devices, organisations need some form of control over the data they’re granting access to and perhaps even a fail-safe for when a device is lost or stolen. For these reasons, EMM and MDM solutions were created.
+<div class="callout callout-orange">
+
+This article was published in 2014. There are two new articles you may find interesting: [Miradore Online MDM Review: A second Look](/2015/03/miradore-online-mdm-review-a-second-look/) & [Miradore Online MDM: Expanding management with subscriptions](/2016/02/miradore-online-mdm-expanding-management-with-subscriptions/).
+
+</div>
+
+At this point in time, it’s very unlikely mobile isn’t already a part of most organisations in some way or another. Whether it’s a case of supplying devices to employees or granting access to corporate resources (such as email) on personally-owned devices, organisations need some form of control over the data they’re granting access to and perhaps even a fail-safe for when a device is lost or stolen. For these reasons, EMM and MDM solutions were created.
 
 When you think of [MDM solutions](https://en.wikipedia.org/wiki/Mobile_device_management), which companies come to mind? [AirWatch](https://www.air-watch.com)? [Mobile Iron](https://mobileiron.com)? [Good](https://good.com)? [MaaS360](https://www.maas360.com)?
 
