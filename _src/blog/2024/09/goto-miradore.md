@@ -16,7 +16,7 @@ Fast-forward to 2022, when Miradore announced its acquisition by Goto, I met the
 
 However, the honeymoon period is certainly over now. Since the acquisition, Goto has more and more shown its disdain for Miradore's core USP, systematically stripping away key features from the free tier and fundamentally altering the product's value proposition and accessibility.
 
-## The Erosion of the Free Tier
+## The erosion of the free tier
 
 Last December, a significant change came when Goto removed essential functionalities from the free plan. Email configuration, VPN setup, Wi-Fi settings, contacts management, and mail were no longer accessible without a paid subscription. Details of these changes weren't outlined in Miradore's release notes, instead opting to send direct emails to certain customers only. I personally heard about it second-hand. Nevertheless, the impact was felt by long-time users who had integrated these features into their device management workflows.
 
@@ -29,7 +29,7 @@ This effectively crippled the efficiency that Miradore once offered. Administrat
 
 But Goto isn't finished. Later this year, they have announced plans to cap the number of devices on the free plan to 50, down from unlimited. The forthcoming changes were communicated through another [release note](https://www.miradore.com/knowledge/releases/changes-to-miradores-free-plan-device-limit/) recently.
 
-## The Impact on organisations
+## The impact on organisations
 
 These cumulative changes have made Miradore's free tier not just limited but virtually unusable for organisations of any moderate size and/or complexity.
 
