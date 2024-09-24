@@ -1,6 +1,6 @@
 ---
 title: 'Google Play Protect no longer sends sideloaded applications for scanning on enterprise-managed devices'
-date: '2024-09-19'
+date: '2024-09-23'
 status: publish
 author: 'Jason Bayton'
 excerpt: "Farewell, bothersome prompts!"

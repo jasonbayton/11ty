@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 430,
-    "totalRecent24hDevices": 14,
+    "totalNonStaleRecentDevices": 431,
+    "totalRecent24hDevices": 13,
     "totalLicensedDevices": 29,
     "devicesByOS": {
       "27": 17,
@@ -11,13 +11,13 @@
       "31": 33,
       "32": 15,
       "33": 66,
-      "34": 100,
+      "34": 101,
       "35": 27
     },
     "devicesByMake": {
       "RHINO": 100,
       "Google": 83,
-      "samsung": 72,
+      "samsung": 73,
       "OnePlus": 52,
       "Rhino Mobility": 46,
       "NUU": 8,
@@ -53,13 +53,13 @@
       "31": 0,
       "32": 0,
       "33": 0,
-      "34": 0,
+      "34": 1,
       "35": 0
     },
     "numberChangeByMake": {
       "RHINO": 0,
       "Google": 0,
-      "samsung": 0,
+      "samsung": 1,
       "OnePlus": 0,
       "Rhino Mobility": 0,
       "NUU": 0,
@@ -89,8 +89,8 @@
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 368,
-    "totalRecent24hDevices": 30,
+    "totalNonStaleRecentDevices": 377,
+    "totalRecent24hDevices": 37,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
@@ -101,11 +101,11 @@
       "31": 24,
       "32": 27,
       "33": 45,
-      "34": 151,
-      "35": 13
+      "34": 155,
+      "35": 18
     },
     "devicesByMake": {
-      "Google": 158,
+      "Google": 167,
       "samsung": 74,
       "motorola": 62,
       "OnePlus": 40,
@@ -133,11 +133,11 @@
       "31": 0,
       "32": 0,
       "33": 0,
-      "34": 1,
-      "35": 0
+      "34": 4,
+      "35": 5
     },
     "numberChangeByMake": {
-      "Google": 1,
+      "Google": 9,
       "samsung": 0,
       "motorola": 0,
       "OnePlus": 0,
@@ -158,8 +158,8 @@
     }
   },
   "managedInfo": {
-    "totalNonStaleRecentDevices": 34,
-    "totalRecent24hDevices": 1,
+    "totalNonStaleRecentDevices": 35,
+    "totalRecent24hDevices": 2,
     "totalLicensedDevices": 2,
     "devicesByOS": {
       "28": 2,
@@ -167,10 +167,10 @@
       "31": 3,
       "32": 3,
       "34": 5,
-      "35": 9
+      "35": 10
     },
     "devicesByMake": {
-      "Google": 19,
+      "Google": 20,
       "OnePlus": 12,
       "unknown": 2,
       "samsung": 1
@@ -181,10 +181,10 @@
       "31": 0,
       "32": 0,
       "34": 0,
-      "35": 0
+      "35": 1
     },
     "numberChangeByMake": {
-      "Google": 0,
+      "Google": 1,
       "OnePlus": 0,
       "unknown": 0,
       "samsung": 0

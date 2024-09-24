@@ -25,7 +25,13 @@ tags:
     - Enterprise
     - Reviews
 ---
-<div class="alert alert-warning">This article was published in 2014. There are two new articles you may find interesting: [Miradore Online MDM Review: A second Look](/2015/03/miradore-online-mdm-review-a-second-look/) &amp; [Miradore Online MDM: Expanding management with subscriptions](/2016/02/miradore-online-mdm-expanding-management-with-subscriptions/).</div>At this point in time, it’s very unlikely mobile isn’t already a part of most organisations in some way or another. Whether it’s a case of supplying devices to employees or granting access to corporate resources (such as email) on personally-owned devices, organisations need some form of control over the data they’re granting access to and perhaps even a fail-safe for when a device is lost or stolen. For these reasons, EMM and MDM solutions were created.
+<div class="callout callout-orange">
+
+This article was published in 2014. There are two new articles you may find interesting: [Miradore Online MDM Review: A second Look](/2015/03/miradore-online-mdm-review-a-second-look/) & [Miradore Online MDM: Expanding management with subscriptions](/2016/02/miradore-online-mdm-expanding-management-with-subscriptions/).
+
+</div>
+
+At this point in time, it’s very unlikely mobile isn’t already a part of most organisations in some way or another. Whether it’s a case of supplying devices to employees or granting access to corporate resources (such as email) on personally-owned devices, organisations need some form of control over the data they’re granting access to and perhaps even a fail-safe for when a device is lost or stolen. For these reasons, EMM and MDM solutions were created.
 
 When you think of [MDM solutions](https://en.wikipedia.org/wiki/Mobile_device_management), which companies come to mind? [AirWatch](https://www.air-watch.com)? [Mobile Iron](https://mobileiron.com)? [Good](https://good.com)? [MaaS360](https://www.maas360.com)?
 
@@ -45,60 +51,37 @@ The enrolment process is fairly straightforward, initially requiring the user of
 
 *Enrolment workflow from the console:*
 
- <style type="text/css">
-			#gallery-20 {
-				margin: auto;
-			}
-			#gallery-20 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 20%;
-			}
-			#gallery-20 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-20 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
+![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-1.png)
 
-<div class="gallery galleryid-0 gallery-columns-5 gallery-size-thumbnail" id="gallery-20"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-2.png)
 
-[![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-1.png)](/2014/07/miradore-online-free-mdm/enrol-step-1/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-2.png)](/2014/07/miradore-online-free-mdm/enrol-step-2/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-3.png)](/2014/07/miradore-online-free-mdm/enrol-step-3/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-4.png)](/2014/07/miradore-online-free-mdm/enrol-step-4/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-5.png)](/2014/07/miradore-online-free-mdm/enrol-step-5/) </dt></dl>  
- </div>*Enrolment workflow on the device:*
+![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-3.png)
 
- <style type="text/css">
-			#gallery-21 {
-				margin: auto;
-			}
-			#gallery-21 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 20%;
-			}
-			#gallery-21 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-21 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
+![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-4.png)
 
-<div class="gallery galleryid-0 gallery-columns-5 gallery-size-thumbnail" id="gallery-21"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+![](https://cdn.bayton.org/uploads/2014/07/Enrol-step-5.png)  
 
-[![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-13-44.png)](/2014/07/miradore-online-free-mdm/screenshot_2014-07-02-09-13-44/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-14-04.png)](/2014/07/miradore-online-free-mdm/screenshot_2014-07-02-09-14-04/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-14-16.png)](/2014/07/miradore-online-free-mdm/screenshot_2014-07-02-09-14-16/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-16-59.png)](/2014/07/miradore-online-free-mdm/screenshot_2014-07-02-09-16-59/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-17-06.png)](/2014/07/miradore-online-free-mdm/screenshot_2014-07-02-09-17-06/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+*Enrolment workflow on the device:*
 
-[![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-17-36.png)](/2014/07/miradore-online-free-mdm/screenshot_2014-07-02-09-17-36/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-17-21.png)](/2014/07/miradore-online-free-mdm/screenshot_2014-07-02-09-17-21/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-17-48.png)](/2014/07/miradore-online-free-mdm/screenshot_2014-07-02-09-17-48/) </dt></dl>   
- </div>
+![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-13-44.png)
+
+![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-14-04.png)
+
+![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-14-16.png)
+
+![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-16-59.png)
+
+![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-17-06.png)
+
+![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-17-36.png)
+
+![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-17-21.png)
+
+![](https://cdn.bayton.org/uploads/2014/07/Screenshot_2014-07-02-09-17-48.png)
  
- As shown in the gallery above, on enrolling a Samsung device you’re prompted with not one, but two system notifications. The first is the agreement to Samsung’s terms (presumably due to Miradore using their APIs) and the second to agree to allowing Miradore to administer the device. Once enrolled the devices show up on the *devices* dashboard and are ready to receive their relevant MDM profiles.
+As shown in the gallery above, on enrolling a Samsung device you’re prompted with not one, but two system notifications. The first is the agreement to Samsung’s terms (presumably due to Miradore using their APIs) and the second to agree to allowing Miradore to administer the device. Once enrolled the devices show up on the *devices* dashboard and are ready to receive their relevant MDM profiles.
 
-[![Devices view – Miradore Online – baytonorg](https://cdn.bayton.org/uploads/2014/07/Devices-view-%E2%80%93-Miradore-Online-%E2%80%93-baytonorg.png)](https://cdn.bayton.org/uploads/2014/07/Devices-view-%E2%80%93-Miradore-Online-%E2%80%93-baytonorg.png)
+![Devices view – Miradore Online – baytonorg](https://cdn.bayton.org/uploads/2014/07/Devices-view-%E2%80%93-Miradore-Online-%E2%80%93-baytonorg.png)
 
 ### Configuration profiles
 
@@ -110,61 +93,25 @@ For now the policies available are adequate for basic management of devices and 
 
 *Configuring a profile:*
 
- <style type="text/css">
-			#gallery-22 {
-				margin: auto;
-			}
-			#gallery-22 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-22 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-22 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
+![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-1.png)
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-22"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-2.png)
 
-[![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-1.png)](/2014/07/miradore-online-free-mdm/create-a-profile-1/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-2.png)](/2014/07/miradore-online-free-mdm/create-a-profile-2/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-3a.png)](/2014/07/miradore-online-free-mdm/create-a-profile-3a/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-3b.png)
 
-[![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-3b.png)](/2014/07/miradore-online-free-mdm/create-a-profile-3b/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-3c.png)](/2014/07/miradore-online-free-mdm/create-a-profile-3c/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-4.png)](/2014/07/miradore-online-free-mdm/create-a-profile-4/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-4.png)
 
-[![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-5.png)](/2014/07/miradore-online-free-mdm/create-a-profile-5/) </dt></dl>   
- </div>*Deploying a profile:*
+![](https://cdn.bayton.org/uploads/2014/07/Create-a-profile-5.png)
 
- <style type="text/css">
-			#gallery-23 {
-				margin: auto;
-			}
-			#gallery-23 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-23 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-23 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
+*Deploying a profile:*
 
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-23"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+![](https://cdn.bayton.org/uploads/2014/07/Deploy-profile.png)
 
-[![](https://cdn.bayton.org/uploads/2014/07/Deploy-profile.png)](/2014/07/miradore-online-free-mdm/deploy-profile/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Deploy-profile-2.png)](/2014/07/miradore-online-free-mdm/deploy-profile-2/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/Deploy-profile-3.png)](/2014/07/miradore-online-free-mdm/deploy-profile-3/) </dt></dl>  
- </div>
- 
- The profiles deploy quickly and provide the functionality advertised. Once applied, it’s easy to forget the device is being managed at all; Miradore sits in the background whirring away, allowing the user of the device to get on with what they want to do.
+![](https://cdn.bayton.org/uploads/2014/07/Deploy-profile-2.png)
+
+![](https://cdn.bayton.org/uploads/2014/07/Deploy-profile-3.png)
+
+The profiles deploy quickly and provide the functionality advertised. Once applied, it’s easy to forget the device is being managed at all; Miradore sits in the background whirring away, allowing the user of the device to get on with what they want to do.
 
 ### Dashboard &amp; device management
 
@@ -186,6 +133,6 @@ I certainly haven’t covered every aspect of Miradore in this article, there’
 
 Of what I have seen, Miradore is clearly on a roll with their platform. It won’t compare with the market leaders, but from what I can gather it was never supposed to; acting rather as a complimentary product for their existing portfolio of solutions that just happens to be open to anyone. In tandem with their other solutions (asset management, etc) it looks like it could be a nice little add-on, but equally as a simple, no frills, pleasantly simple and clean solution to manage a small number of mobile devices (Android/iOS/WinPhone) it does the job nicely.
 
-<span style="color: #404040;">I’m looking forward to seeing where it goes. I’d like to see granular control over device hardware (most of which is accessible through APIs/SDKs on all platforms) for shutting off WIFI, bluetooth, GPS, etc. I’d also like to see it poll for location occasionally (which is currently a set-and-forget manual option within the interface) and black/block lists for applications. Enrolment could be a little slicker too, but I can see that improving going forward anyway, so that won’t be a problem.</span>  
+I’m looking forward to seeing where it goes. I’d like to see granular control over device hardware (most of which is accessible through APIs/SDKs on all platforms) for shutting off WIFI, bluetooth, GPS, etc. I’d also like to see it poll for location occasionally (which is currently a set-and-forget manual option within the interface) and black/block lists for applications. Enrolment could be a little slicker too, but I can see that improving going forward anyway, so that won’t be a problem. 
   
 Keep it up Miradore, I think you’re on to a winner!
