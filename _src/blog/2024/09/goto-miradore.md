@@ -1,5 +1,5 @@
 ---
-title: 'How Goto's acquisition of Miradore is eroding a once-promising MDM solution'
+title: "How Goto's acquisition of Miradore is eroding a once-promising MDM solution"
 date: '2024-09-24'
 status: publish
 author: 'Jason Bayton'
