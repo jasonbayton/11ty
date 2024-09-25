@@ -22,6 +22,8 @@ Last December, a significant change came when Goto removed essential functionali
 
 The situation worsened then in April; Goto further restricted the free tier by limiting mass actions — a cornerstone feature for any MDM solution. According to the [official announcement](https://www.miradore.com/knowledge/releases/premium-plus-trial-and-changes-to-the-free-plan/):
 
+> We have modified our Free plan and limited the mass actions. From now on, Free plan customers can:
+> 
 > - **Deploy configuration profiles one device at a time**
 > - **Synchronize a single device at a time**
 
