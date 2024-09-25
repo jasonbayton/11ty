@@ -10,6 +10,8 @@ tags:
 ---
 Back in 2014, I discovered Miradore, an ITSM solution with a then-emerging Mobile Device Management (MDM) product that promised a robust set of features for managing Android devices. My initial review, [Miradore Online: Free MDM](https://bayton.org/blog/2014/07/miradore-online-free-mdm/), highlighted the platform's potential and its generous free tier, which made it stand out in a market otherwise dominated by costly alternatives. 
 
+Miradore isn't _defined_ by their free tier, of course, there's a rather large and feature-rich product behind it. It's what drew me in to their product in the first place however, and has been a consistent, defining feature of their platform for more than a decade.
+
 Over the years, I revisited Miradore multiple times, documenting its growth and the expansion of its feature set in articles like [Miradore Online MDM Review: A Second Look](https://bayton.org/blog/2015/03/miradore-online-mdm-review-a-second-look/) and [Miradore Online MDM: Expanding Management with Subscriptions](https://bayton.org/blog/2016/02/miradore-online-mdm-expanding-management-with-subscriptions/).
 
 In 2022, when Miradore announced its acquisition by Goto, I met the news with cautious optimism. Goto, a company known for its suite of remote work tools, seemed like a reasonably safe choice to nurture Miradore's growth. Official announcements from both parties, such as [Goto Acquires Miradore](https://www.goto.com/blog/goto-acquires-miradore) and [Miradore Acquired by Goto: What Happens Next?](https://www.miradore.com/blog/miradore-acquired-by-goto-what-happens-next/), painted a rosy picture of enhanced resources and expanded capabilities.
