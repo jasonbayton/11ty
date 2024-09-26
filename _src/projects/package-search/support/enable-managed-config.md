@@ -59,7 +59,7 @@ TestDPC is a wonderful application built and maintained by Pietro & peers at Goo
 - Within TestDPC, search or scroll to **App restrictions manager**
 - In this subsection, scroll to PACKAGE SEARCH
 - Tap PACKAGE SEARCH
-- Tap **SET*
+- Tap **SET**
 
 PACKAGE SEARCH is now configured to view and display managed configurations. 
 
@@ -69,7 +69,7 @@ PACKAGE SEARCH is now configured to view and display managed configurations.
 
 Typically delegated scopes are found within application configurations. Within your EMM when adding an application, you should see delegated scopes alongside install type, managed config, install priority/constraints, and so on. It should provide a drop-down or checkbox list for scopes able to be delegated to an application. Select MANAGED_CONFIGURATION, or if the EMM provides their own lable for scopes, look out for Managed Configuration, App configuration, or a similar sounding option.
 
-Further guidance may be found in [EMM setup guides](emm-setup). Documentation isn't provided for every EMM on the market currently. If you'd like guidance for your particular EMM, please [raise an issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&projects=&template=content-request.md&title=%5BContent+request%5D). If you happen to know your EMM vendor leverages AMAPI, you may also raise a support request with them, providing above AMAPI JSON example and requesting guidance on how this is applied to your policies.
+Further guidance may be found in [EMM setup guides](../emm-setup). Documentation isn't provided for every EMM on the market currently. If you'd like guidance for your particular EMM, please [raise an issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&projects=&template=content-request.md&title=%5BContent+request%5D). If you happen to know your EMM vendor leverages AMAPI, you may also raise a support request with them, providing above AMAPI JSON example and requesting guidance on how this is applied to your policies.
 
 ## Add your EMM guide
 
@@ -79,7 +79,7 @@ If you're an EMM vendor reading this and would like to contribute guidance, plea
 - Optional screenshots
 - Guidance beginning from importing PACKAGE SEARCH, configuring it appropriately, and saving for deployment.
 
-A template file is highlighted below for a direct PR to [EMM setup guides](emm-setup).
+A template file is highlighted below for a direct PR to [EMM setup guides](../emm-setup).
 
 ```markdown
 ---
