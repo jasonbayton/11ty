@@ -7,7 +7,7 @@ author: 'Jason Bayton'
 excerpt: ''
 type: project-docs
 tags: 
-    - 'PACKAGE SEARCH'
+    - 'Package Search'
     - 'bayton-projects'
 categories: 
     - EMM setup guides
