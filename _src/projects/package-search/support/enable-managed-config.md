@@ -52,7 +52,7 @@ In the above, PACKAGE SEARCH is being pushed to a device silently with the `PREI
 
 ## TestDPC
 
-TestDPC is a wonderful application built and maintained by Pietro & peers at Google. It's an ideal utility for testing EMM policies and APIs, and should form part of your technical arsenal if you are in any way involved with development or support of EMM platforms.
+[TestDPC](https://play.google.com/store/apps/details?id=com.afwsamples.testdpc) is a wonderful application built and maintained by Pietro & peers at Google. It's an ideal utility for testing EMM policies and APIs, and should form part of your technical arsenal if you are in any way involved with development or support of EMM platforms.
 
 **Steps to configure PACKAGE SEARCH**:
 
