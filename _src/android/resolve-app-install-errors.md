@@ -99,6 +99,20 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 : This often happens when the Play Store determines an app is not compatible with the device it has been assigned to. Commonly this is permission or - more specifically - feature related. The specific features requested (either explicitly with `uses-feature` or automatically through assumed feature requirement if _only_ `uses-permission` is declared without `uses-feature`), are not available on the hardware.
 : Review the permissions/features in use, and if you'd like to use a permission without _mandating_ the associated feature be present, declare `android:required="false"` explicitly per-permission that isn't critical to functionality.
 
+## Google Play & iFrame errors
+
+`You cannot rollout this release because it does not allow any existing users to upgrade to the newly added APKs`
+: Your version code is likely lower than the already-uploaded application version. Increase the version code and try again.
+
+`APK signed in debug mode`
+: You're attempting to upload an APK that isn't signed as `release`. Google Play doesn't accept test or debug versions of apps. Sign the APK for release and try again.
+
+`APK has been signed with an insecure key size`
+: The application has been signed with a too-small key size. Use a stronger signing key to sign the application and try again.
+
+`APK size too big`
+: Google Play has a size limitation for uploads. Avoid uploading files in excess of 150MB. If your app really is that large, you should consider switching to AAB and upload it through the Google Play developer console. Where possible try to lean on external resources and on-demand payloads.
+
 ## Missing anything? 
 
 [Raise an issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&projects=&template=content-request.md&title=%5BContent+request%5D), or [get in touch](/contact).
