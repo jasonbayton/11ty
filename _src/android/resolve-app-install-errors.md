@@ -113,6 +113,10 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 `APK size too big`
 : Google Play has a size limitation for uploads. Avoid uploading files in excess of 150MB. If your app really is that large, you should consider switching to AAB and upload it through the Google Play developer console. Where possible try to lean on external resources and on-demand payloads.
 
+`APK contains an app restriction schema that failed to parse. Restriction [name_of_bundle] has one or more invalid nested restrictions.`
+: Ensure the XML `app_restrictions` schema is valid and try again.
+: Additionally, Google Play has an undocumented limit on the depth of nested restrictions within an application. In testing this is two `bundle` restriction types. If a third `bundle` is added, any restrictions added, even if valid, will be flagged as invalid by Google Play.
+
 ## Missing anything? 
 
 [Raise an issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&projects=&template=content-request.md&title=%5BContent+request%5D), or [get in touch](/contact).
