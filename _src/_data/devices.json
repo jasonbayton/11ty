@@ -1,7 +1,7 @@
 {
   "managedSettings": {
     "totalNonStaleRecentDevices": 327,
-    "totalRecent24hDevices": 18,
+    "totalRecent24hDevices": 24,
     "totalLicensedDevices": 4,
     "devicesByOS": {
       "27": 5,
@@ -48,7 +48,7 @@
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": -2,
+      "30": 0,
       "31": 0,
       "32": 0,
       "33": 0,
@@ -59,7 +59,7 @@
       "samsung": 0,
       "Google": 0,
       "Rhino Mobility": 0,
-      "OnePlus": -2,
+      "OnePlus": 0,
       "RHINO": 0,
       "Nothing": 0,
       "motorola": 0,
@@ -88,7 +88,7 @@
   },
   "packageSearch": {
     "totalNonStaleRecentDevices": 441,
-    "totalRecent24hDevices": 30,
+    "totalRecent24hDevices": 28,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
@@ -131,7 +131,7 @@
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": 1,
+      "30": 0,
       "31": 0,
       "32": 0,
       "33": 0,
@@ -139,7 +139,7 @@
       "35": 0
     },
     "numberChangeByMake": {
-      "Google": 1,
+      "Google": 0,
       "samsung": 0,
       "motorola": 0,
       "OnePlus": 0,
@@ -164,21 +164,21 @@
     }
   },
   "managedInfo": {
-    "totalNonStaleRecentDevices": 56,
-    "totalRecent24hDevices": 10,
+    "totalNonStaleRecentDevices": 58,
+    "totalRecent24hDevices": 5,
     "totalLicensedDevices": 16,
     "devicesByOS": {
       "28": 2,
       "30": 17,
-      "31": 6,
+      "31": 7,
       "32": 3,
       "34": 13,
-      "35": 15
+      "35": 16
     },
     "devicesByMake": {
-      "Google": 31,
+      "Google": 32,
       "OnePlus": 16,
-      "HONOR": 3,
+      "HONOR": 4,
       "unknown": 2,
       "RHINO": 2,
       "samsung": 1,
@@ -186,15 +186,15 @@
     },
     "numberChangeByOS": {
       "28": 0,
-      "30": 4,
+      "30": 0,
       "31": 1,
       "32": 0,
-      "34": 1,
-      "35": 2
+      "34": 0,
+      "35": 1
     },
     "numberChangeByMake": {
-      "Google": 3,
-      "OnePlus": 4,
+      "Google": 1,
+      "OnePlus": 0,
       "HONOR": 1,
       "unknown": 0,
       "RHINO": 0,
