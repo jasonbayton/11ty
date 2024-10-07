@@ -1,17 +1,17 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 327,
-    "totalRecent24hDevices": 24,
+    "totalNonStaleRecentDevices": 324,
+    "totalRecent24hDevices": 20,
     "totalLicensedDevices": 4,
     "devicesByOS": {
       "27": 5,
       "28": 8,
-      "29": 23,
+      "29": 21,
       "30": 28,
       "31": 33,
       "32": 12,
       "33": 69,
-      "34": 139,
+      "34": 138,
       "35": 10
     },
     "devicesByMake": {
@@ -19,9 +19,9 @@
       "Google": 60,
       "Rhino Mobility": 47,
       "OnePlus": 24,
-      "RHINO": 20,
+      "RHINO": 18,
       "Nothing": 7,
-      "motorola": 6,
+      "motorola": 5,
       "Zebra Technologies": 5,
       "unknown": 4,
       "Xiaomi": 3,
@@ -47,12 +47,12 @@
     "numberChangeByOS": {
       "27": 0,
       "28": 0,
-      "29": 0,
+      "29": -2,
       "30": 0,
       "31": 0,
       "32": 0,
       "33": 0,
-      "34": 0,
+      "34": -1,
       "35": 0
     },
     "numberChangeByMake": {
@@ -60,9 +60,9 @@
       "Google": 0,
       "Rhino Mobility": 0,
       "OnePlus": 0,
-      "RHINO": 0,
+      "RHINO": -2,
       "Nothing": 0,
-      "motorola": 0,
+      "motorola": -1,
       "Zebra Technologies": 0,
       "unknown": 0,
       "Xiaomi": 0,
@@ -88,7 +88,7 @@
   },
   "packageSearch": {
     "totalNonStaleRecentDevices": 441,
-    "totalRecent24hDevices": 28,
+    "totalRecent24hDevices": 24,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
@@ -164,21 +164,21 @@
     }
   },
   "managedInfo": {
-    "totalNonStaleRecentDevices": 58,
-    "totalRecent24hDevices": 5,
+    "totalNonStaleRecentDevices": 61,
+    "totalRecent24hDevices": 6,
     "totalLicensedDevices": 16,
     "devicesByOS": {
       "28": 2,
       "30": 17,
-      "31": 7,
+      "31": 8,
       "32": 3,
-      "34": 13,
-      "35": 16
+      "34": 14,
+      "35": 17
     },
     "devicesByMake": {
-      "Google": 32,
-      "OnePlus": 16,
-      "HONOR": 4,
+      "Google": 33,
+      "OnePlus": 17,
+      "HONOR": 5,
       "unknown": 2,
       "RHINO": 2,
       "samsung": 1,
@@ -189,12 +189,12 @@
       "30": 0,
       "31": 1,
       "32": 0,
-      "34": 0,
+      "34": 1,
       "35": 1
     },
     "numberChangeByMake": {
       "Google": 1,
-      "OnePlus": 0,
+      "OnePlus": 1,
       "HONOR": 1,
       "unknown": 0,
       "RHINO": 0,
