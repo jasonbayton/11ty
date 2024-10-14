@@ -19,7 +19,6 @@ eleventyNavigation:
         <p class="price">Free</p>
         <ul>
             <li>Access to quick actions, device details, organisation message, and contact information</li>
-            <li>Set support message & contact info</li>
             <li>Email support</li>
             <li>Community support</li>
         </ul>
@@ -27,11 +26,12 @@ eleventyNavigation:
     </div>
     <div class="pricing-item popular">
         <h3>Organisation licence</h3>
-        <p class="price">From £300</p>
+        <p class="price">From £500</p>
         <ul>
             <li>Hide most BAYTON branding</li>
             <li>Custom in-app title</li>
             <li>Custom cards</li>
+            <li>Launch apps and intents
             <li>Email support</li>
             <li>Community support</li>
         </ul>
@@ -39,7 +39,7 @@ eleventyNavigation:
     </div>
     <div class="pricing-item">
         <h3>Vendor/whitelabel</h3>
-        <p class="price">From £2,000</p>
+        <p class="price">From £3,000</p>
         <ul>
             <li>Custom branding</li>
             <li>Custom app functionality</li>
