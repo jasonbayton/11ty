@@ -31,6 +31,7 @@ The primary use case for PACKAGE SEARCH is to locate the names and package names
 - Track applications with too-low target API versions
 - See when applications were last updated
 - Full text search, as well as filters (see below)
+- View assigned managed configurations to an application
 
 .. and more! PACKAGE SEARCH is a quickly-evolving application.
 
@@ -79,6 +80,6 @@ Examples include:
 - `state:unavailable`
 - `profile:other`
 
-I can also offer additional priority support for an annual recurring fee, offering faster and more in-depth support, with additional discounts on my [consultancy rate](/support). Details can be found [here]([/projects/managed-settings/pricing/#support-priority-support) (via MANAGED SETTINGS pricing).
+I can also offer additional priority support for an annual recurring fee, offering faster and more in-depth support, with additional discounts on my [consultancy rate](/support). Details can be found [here](/projects/managed-settings/pricing/#support-priority-support) (via MANAGED SETTINGS pricing).
 
 <script src="/js/package-search-dynamic-word.js"></script>
