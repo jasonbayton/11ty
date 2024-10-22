@@ -82,6 +82,8 @@ At least in _theory_. In practice I was not constrained by such limitations when
 
 We can assume this may be resolved in the near future.
 
+_+++ @Google case ID 00060181_
+
 ## Security & privacy changes
 
 With COPE aside, here are some security related changes introduced with Android 15:
@@ -127,6 +129,14 @@ From Android 15, applications with the permission `android.permission.MANAGE_DEV
 It is an alternative to identifiers such as IMEI and serial number, which Google no longer grants access to for applications without the appropriate device or profile owner role, or `DELEGATION_CERT_INSTALL` via policy, and becomes the default and only option for fetching a unique device identifier for personally owned work profile devices in future.
 
 To be clear - applications in a personally owned work profile deployment up to now with the delegated permission of `DELEGATION_CERT_INSTALL` have been able to fetch a device serial number with relative ease, something that defeats the entire purpose of restricting access to the identifiers, considered to be personally identifiable information, in the first place. That loophole is closing.
+
+_+++ @Google I have a case open here - 00060119 - as I'm unable to retrieve delegated scopes on Android 15 in COPE with the below snippet. This works fine in 14, and fine in 15 as fully managed. There's an issue preventing this working within the work profile in 15._
+
+```kotlin
+val dpm = context.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
+val delegatedScopes = dpm.getDelegatedScopes(null, context.packageName)
+```
+_+++_
 
 ### Security exceptions for sensors-related permissions
 
