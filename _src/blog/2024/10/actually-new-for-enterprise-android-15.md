@@ -58,7 +58,7 @@ Google state these must be initially configured at provisioning time, but do not
 
 Again, quite light on details for execution.
 
-_+++ @Google - do the app defaults here extend to the private space also?_
+_+++ @Google - do the app defaults here extend to the private space also? Is there more explicit direction for configuring these things?_
 
 ### Application allow and blocklist policies in the private space
 
@@ -105,6 +105,8 @@ Though there are no enteprise-specific changes to factory reset protection, I be
 - Adding accounts, passwords, and applications will no longer be possible while FRP is active
 
 Going forward it will be evermore important to ensure both FRP, and enterprise FRP (wherein organisations set the allowlisted Google accounts), are properly maintained and processes correctly followed for resetting devices, if the EMM does not turn FRP off by default (hi, Omnissa..)
+
+_+++ @Google I haven't been able to locate docs for this since ~ April, can I get this confirmed?_
 
 ### A bump to minimum SDK version for installation of apps
 
