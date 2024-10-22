@@ -36,18 +36,18 @@ In the context of this article, COPE is simply a use case, and how it’s implem
 
 I’ve had some hands on with 11, but via TestDPC have yet to see any real change between 10 and 11 on what can be configured with the enhanced work profile experience. I’ll update as required when this changes.
 
-What’s happening
-----------------
+## What’s happening
 
 Google are no longer supporting the use of work profiles on fully managed devices (WPoFMD) in Android 11. Instead, they’re working on something they’re calling an enhanced work profile experience (what I’ll refer to throughout for simplicity and differentiation as *enhanced work profile*).
 
-![](https://cdn.bayton.org/uploads/2020/02/baytonI-3.png) 
-
-**The key difference between the two is how they’re provisioned.**
+<div class="callout callout-blue">
+<div class="callout-heading"> The key difference between the two is how they’re provisioned </div>
 
 Today AE COPE provisions the device fully managed, then inflates a work profile for corporate apps, leaving the managed parent profile available for personal use. It’s still a fully managed device and so IT have equivalent control and visibility to any other fully managed deployment scenario.
 
 Enhanced work profile, like a normal work profile, sets the device up with a work profile only, just as if it were enrolled manually by an end user enrolling an already setup device having gone through the Android first run wizard. Utilising ZT or QR in this case simply shortens the time to enrolment, and offers organisations the opportunity to flag the device as corporate owned, which in turn expands the set of policies permitted to enforce on devices.
+
+</div>
 
 Enhanced work profile is said to offer all the benefits of a work profile deployment in having a separately encrypted, isolated profile for work apps and data, but with the addition of many of the policies available on a fully managed device available to the EMM admin, while removing any policies that may potentially infringe on user privacy (numerous).
 
@@ -63,8 +63,7 @@ The enhanced work profile should offer several new parent profile restrictions a
 
 In any case, for end users the UX should remain basically unchanged and as such the need for end user training ahead of migrating enrolment processes from WPoFMD to enhanced work profile will be unnecessary – unless DPC identifier or NFC provisioning is utilised, in which case organisations will need to switch to QR or zero-touch provisioning instead.
 
-In the name of privacy
-----------------------
+## In the name of privacy
 
 Work profiles on fully managed devices have, since their introduction with Android 8.0, offered the most comparable experience to legacy Device Admin management available with Android Enterprise; the organisation separates and protects all corporate data within what would have been a container, now a work profile with AE, while maintaining full visibility and control over the device the organisation has provided to employees.
 
@@ -90,8 +89,7 @@ Google advertise the replacement of COPE in its current form as a big win for IT
 
 Neither view is right or wrong, justifications can be provided for either side of the fence on which you sit, however Google have chosen to make it harder for those who don’t desire abject privacy with no wiggle-room.
 
-An un-Android approach
-----------------------
+## An un-Android approach
 
 Android revolves heavily around being a flexible OS designed for everyone. It is baffling therefore to see Google seemingly saying *we don’t like how it’s being used* and removing a management scenario many organisations want to leverage.
 
@@ -115,8 +113,7 @@ It’s worth pointing out equally how easy this is to bypass for organisations w
 
 There are multiple parties involved here. If users don’t like the terms under which personal use is permitted, they don’t have to use their corporate device for personal use. If an organisation isn’t transparent in how a device is managed then that becomes a matter to be taken up through the appropriate channels as regulations exist to handle breaches of privacy where consent isn’t provided.
 
-The cost of enthusiastic adoption
----------------------------------
+## The cost of enthusiastic adoption
 
 Speaking to EMM vendors the feeling is consistent, those who went out and implemented support for WPoFMD are less than pleased with Google’s abrupt decision to remove an entire solution set. The time, effort, and the amount of backtracking that’ll be required after development of documentation, marketing and more of the support for something few vendors adopted can’t be understated. Once a source of pride and differentiation, for those who’ve launched support this is now a significant burden.
 
@@ -136,8 +133,7 @@ Knowing some organisations spent an extortionate amount of time on fully managed
 
 There have equally been many organisations sticking with [device administrator](/android/android-enterprise-vs-device-administrator-legacy-enrolment/) until their EMM supports WPoFMD. Learning from 11 the deployment scenario aligns less closely with legacy DA may further delay migrations to Android Enterprise, the last thing the ecosystem needs.
 
-A better way
-------------
+## A better way
 
 None of this is to say many organisations *won’t* be happy with the news of enhanced privacy of course, There are examples of organisations today who go out of their way to collect as little non-work relevant data on devices as possible through already-present EMM privacy settings, and having that responsibility pulled into how the OS functions by default will be a reassurance. There are undoubtedly equally those on DA today who will be *more* enthused to switch to enhanced work profile than they would have been for WPoFMD.
 
