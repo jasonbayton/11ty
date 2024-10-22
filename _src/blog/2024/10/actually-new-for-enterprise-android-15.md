@@ -52,6 +52,12 @@ To be absolutely clear, these defaults will be whatever the Android device ships
 
 Obviously considered, Google have opted to at most set the default system app, and in doing so prevent the opposite happening where a user may choose to use a non-recommended (or downright potentially harmful app) as their default.
 
+Google state these must be initially configured at provisioning time, but do not indicate how. If being set retrospectively, as any existing device updating to Android 15 would need to, can be done through the use of allowlists: 
+
+> The default messaging app can be set at any time. To enforce OEM defaults for dialer and browser after set up, this control must be combined with an app allowlist.
+
+Again, quite light on details for execution.
+
 _+++ @Google - do the app defaults here extend to the private space also?_
 
 ### Application allow and blocklist policies in the private space
@@ -66,7 +72,7 @@ As it turns out, nope.
 
 > Android 15 for business introduces the ability to apply a limited set of security restrictions to specific apps outside the Work Profile. Existing personal app allowlist or blocklist policies can be extended to the new private space feature. In the future, additional privacy preserving security configurations for core apps will be introduced and made backward compatible with Android 15.
 >
-> _[via](https://support.google.com/work/android/answer/15528640#zippy=%2Cprivate-space-for-personal-profile%2Cesim-management-for-managed-devices%2Csecurity-restrictions-for-apps-outside-the-work-profile-on-company-owned-devices%2Candroid-theft-protection%2Cenforce-the-default-app-selection-for-calls-messaging-and-web-browsing-when-setting-up-company-owned-devices%2Cscreen-brightness-timeout-controls-for-company-owned-personally-enabled-cope-devices%2Cniap-audit-logging-requirements:~:text=Android%2015%20for%20business%20introduces%20the,made%20backward%20compatible%20with%20Android%2015.)
+> [via](https://support.google.com/work/android/answer/15528640#zippy=%2Cprivate-space-for-personal-profile%2Cesim-management-for-managed-devices%2Csecurity-restrictions-for-apps-outside-the-work-profile-on-company-owned-devices%2Candroid-theft-protection%2Cenforce-the-default-app-selection-for-calls-messaging-and-web-browsing-when-setting-up-company-owned-devices%2Cscreen-brightness-timeout-controls-for-company-owned-personally-enabled-cope-devices%2Cniap-audit-logging-requirements:~:text=Android%2015%20for%20business%20introduces%20the,made%20backward%20compatible%20with%20Android%2015.)
 
 The policies applied for permitted or blocked apps in a COPE deployment scenario also apply to the private space. 
 
@@ -78,7 +84,7 @@ We can assume this may be resolved in the near future.
 
 ## Security & privacy changes
 
-With COPE aside, here are some security related changes introduced with Android 15
+With COPE aside, here are some security related changes introduced with Android 15:
 
 ### Migration of events from logcat to SecurityLog
 
@@ -90,7 +96,37 @@ The intention is to more closely align with NIAP requirements, and allow for qui
 
 In addition, Android adds an event for the [backup service being toggled](https://developer.android.com/reference/android/app/admin/SecurityLog#TAG_BACKUP_SERVICE_TOGGLED) by an admin which will also now be available for admins from 15 when pulling security logs.
 
-## Security exceptions for sensors-related permissions
+### Improvements to Factory Reset Protection 
+
+Though there are no enteprise-specific changes to factory reset protection, I believe it important to highlight some changes made to how it works within the context of an enterprise device, namely:
+
+- Enabling OEM unlock in developer settings will no longer deactivate FRP
+- Bypassing the setup wizard, which isn't uncommon for dedicated devices/OEMs, will no longer deactivate FRP.
+- Adding accounts, passwords, and applications will no longer be possible while FRP is active
+
+Going forward it will be evermore important to ensure both FRP, and enterprise FRP (wherein organisations set the allowlisted Google accounts), are properly maintained and processes correctly followed for resetting devices, if the EMM does not turn FRP off by default (hi, Omnissa..)
+
+### A bump to minimum SDK version for installation of apps
+
+As expected, the restriction on installing applications targeting very old versions of Android is getting a bump. In Android 15 it will no longer be possible to install apps targeting API level 23 - Android Marshmallow / 6.0 - or older. Only apps that target Android 7.0 - API level 24 - or later will be permitted. 
+
+```bash
+jason@MBP Downloads % adb install app-release.apk
+Performing Streamed Install
+adb: failed to install app-release.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 23]
+```
+
+Just as last year, we're talking about applications targeting a version of Android 10+ years old. While some organisations with line-of-business apps that haven't seen an update in half a decade may balk at the idea of getting their applications updated or rewritten, the justification behind this limitation is solid - security. Where apps targeting <6.0 were able to abuse the old permissioning system (pre-runtime!), apps targeting 7.0 are still able to abuse device administrator and similar APIs. This isn't something you want potentially leveraged directly or indirectly on your managed estate.
+
+### Restrictions on device identifiers for personally owned devices
+
+From Android 15, applications with the permission `android.permission.MANAGE_DEVICE_POLICY_CERTIFICATES` will be able to fetch `getEnrollmentSpecificId`, which is an enrolment-specific, unique device identifier that persists across re-enrolments when done so into the same deployment scenario (i.e fully managed or personally owned work profile), by the same vendor agent, into the same enterprise (organisation/bind).
+
+It is an alternative to identifiers such as IMEI and serial number, which Google no longer grants access to for applications without the appropriate device or profile owner role, or `DELEGATION_CERT_INSTALL` via policy, and becomes the default and only option for fetching a unique device identifier for personally owned work profile devices in future.
+
+To be clear - applications in a personally owned work profile deployment up to now with the delegated permission of `DELEGATION_CERT_INSTALL` have been able to fetch a device serial number with relative ease, something that defeats the entire purpose of restricting access to the identifiers, considered to be personally identifiable information, in the first place. That loophole is closing.
+
+### Security exceptions for sensors-related permissions
 
 From 15, device admins targeting API level 35, including DPCs and device admin role holders, will begin throwing security exceptions when attempting to set permissions for some sensors-specific permissions, including:
 
@@ -110,29 +146,9 @@ The two scenarios where this is expected to happen is:
 
 While this has been in place since Android 12, previously this would have silently failed. In future security exceptions will be triggered which should make it easier to debug. 
 
-## Improvements to Factory Reset Protection 
+## New restrictions 
 
-Though there are no enteprise-specific changes to factory reset protection, I believe it important to highlight some changes made to how it works within the context of an enterprise device, namely:
-
-- Enabling OEM unlock in developer settings will no longer deactivate FRP
-- Bypassing the setup wizard, which isn't uncommon for dedicated devices/OEMs, will no longer deactivate FRP.
-- Adding accounts, passwords, and applications will no longer be possible while FRP is active
-
-Going forward it will be evermore important to ensure both FRP, and enterprise FRP (wherein organisations set the allowlisted Google accounts), are properly maintained and processes correctly followed for resetting devices, if the EMM does not turn FRP off by default (hi, Omnissa..)
-
-## A bump to minimum SDK version for installation of apps
-
-As expected, the restriction on installing applications targeting very old versions of Android is getting a bump. In Android 15 it will no longer be possible to install apps targeting API level 23 - Android Marshmallow / 6.0 - or older. Only apps that target Android 7.0 - API level 24 - or later will be permitted. 
-
-```bash
-jason@MBP Downloads % adb install app-release.apk
-Performing Streamed Install
-adb: failed to install app-release.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 23]
-```
-
-Just as last year, we're talking about applications targeting a version of Android 10+ years old. While some organisations with line-of-business apps that haven't seen an update in half a decade may balk at the idea of getting their applications updated or rewritten, the justification behind this limitation is solid - security. Where apps targeting <6.0 were able to abuse the old permissioning system (pre-runtime!), apps targeting 7.0 are still able to abuse device administrator and similar APIs. This isn't something you want potentially leveraged directly or indirectly on your managed estate.
-
-## Content protection policy
+### Content protection policy
 
 The content protection policy offers admin control of a new feature for real-time threat detection within the Google Play Protect arsenal of protections covered [in a prior security blog](https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html) from February.
 
@@ -146,17 +162,17 @@ For EMM vendors, this is already present in AMAPI as `contentProtectionPolicy` u
 
 Android 15 also introduces the permission `android.permission.MANAGE_DEVICE_POLICY_CONTENT_PROTECTION` for apps which are _not_ the device or profile owner to be able to interface with this API.
 
-### Google Play Protect app scanning changes
+#### Google Play Protect app scanning changes
 
 In a related note, in September 2024 Google made a considerable change that will placate any organisation dealing with sideloaded enterprise applications, including those installed via the EMM DPC (agent), internal services, or sideloaded in more traditional ways. These applications will no longer be sent to Google for scanning, and no longer prompt end users to take any action against them _unless they are known to Google to be potentially harmful_. More information [here](/blog/2024/09/play-protect-changes-2024/).
 
-## Disallow NFC radio
+### Disallow NFC radio
 
 As it says on the tin. If you're thinking _"Don't we already have an API for NFC?"_ Yes we do, but that's to control the beaming of data between devices. This is a full on radio disable and will probably live under `DeviceRadioState` in AMAPI at some point later.
 
 This appears to be a natural progression from the earlier `DISALLOW_CHANGE_NEAR_FIELD_COMMUNICATION_RADIO` which prevents the turning on/off NFC in settings.
 
-## Disallow Thread Network
+### Disallow Thread Network
 
 At the time of writing, Google developer docs still don't have an entry for the Thread API, but reference it in the [UserManager docs](https://developer.android.com/reference/android/os/UserManager#DISALLOW_THREAD_NETWORK) as an unlinked entity. At some point the link to UserManager should go to the right place.
 
@@ -173,9 +189,9 @@ If that's too ambiguous, the CTS docs reference the hardware feature `android.ha
 
 It looks like it'll be a relatively straightforward boolean (on/off) restriction allowing managed devices to interface with thread network devices.
 
-## eSIM management
+### eSIM management
 
-### Disallow SIM Globally
+#### Disallow SIM Globally
 
 The API I found earlier in the year appears to be a subset of a larger eSIM management framework being introduced with Android 15. For completeness, as the earlier post was quite light, here's what **Disallow SIM Globally** actually means:
 
@@ -189,7 +205,7 @@ In my testing, with the restriction enabled I was able to go into settings, begi
 
 The experience could be improved dramatically here just with the addition of management UI, and preferably earlier in the process of adding an eSIM, also.
 
-### Expanding 9.0 APIs for eSIM managemnet
+#### Expanding 9.0 APIs for eSIM managemnet
 
 More broadly Android 15 introduces eSIM configuration capabilities via EMM. Based on what I've been able to find, eSIM management is directly associated with eSIM subscription management introduced in Android 9.0, and has been expanded in 15 to allow remote configuration via EMM, or the appropriate permission:
 
@@ -199,7 +215,45 @@ It would appear EMM vendors with either custom DPCs or via AMAPI will be able to
 
 Personally owned device users **will be able to remove the configured eSIM**, though for company owned devices, the additional policy `DISALLOW_CONFIG_MOBILE_NETWORKS` can be set to ensure eSIMs aren't deleted.
 
-## Vital apps mandate for document previewer
+### Control over Private Space
+
+Android 15 introduces Private Space, the ability for users to allocate a selection of apps in a private, authenticated profile on the device. 
+
+These applications are isolated - similar to a work profile - from the rest of the applications on the primary parent profile.
+
+The way this is managed is nuanced, per Google: 
+
+> The default value for an unmanaged user is false. For users with a device owner set, the default value is true and the device owner currently cannot change it to false. On organization-owned managed profile devices, the default value is false but the profile owner can change it to true via the parent profile to block creating of private profiles on the personal user.
+
+So in other words private space is disabled for fully managed devices by default, and cannot be enabled. For work profile-enabled company owned devices, this _can_ be managed. 
+
+In testing, my fully managed device _does_ indeed fail to create a private space, but doesn't indicate why - it simply fails.
+
+#### Expansion of general management policies into the Private Space
+
+If you're still worried the Private Space may become a wild-west of hidden app and user activity, fret not! Policies that have previously applied device-wide, like the installation of apps from unknown sources, are _still device-wide_. The Private Space adopts these restrictions with no additional management overhead.
+
+### Disallow assist content
+
+This restriction allows administrators to prevent privileged apps, such as Assistant, from receiving contextual device information. These include screenshots, package names, and more. Useful for admins wishing to reduce the sprawl of information access privileged apps can have. This is scope-specific, so on fully managed devices will apply device-wide, but on profile-enabled devices restricts only to the managed profile.
+
+### Circle to search
+
+Relatively straightforward, an enterprise API is being introduced to lock down circle to search - the most unnecessarily hyped up feature I've seen in a long time. This is a nice continuation of assist content above, limiting the amount of data being sent to Google services.
+
+### Widget management is back?!
+
+With Android 15, `setKeyguardDisabledFeatures` has been expanded with widget management to coincide with the re-introduction of lockscreen widgets for tablet devices. At this time it appears to only apply to widgets in managed profiles, with Google explicitly stating:
+
+> ..the profile owner of an organization-owned managed profile can set `KEYGUARD_DISABLE_WIDGETS_ALL` which affects the parent user when called on the parent profile.
+
+More testing is needed to determine why this isn't available for fully managed devices. 
+
+To note for wider context, lock screen widgets were removed way back in 5.0 citing, if I remember correctly, low use. With the recent focus on tablets, and Apple adding their own, Google clearly figured they matter again!
+
+## Other changes and requirements for 15
+
+### Vital apps mandate for document previewer
 
 For wider vital apps context, read this [recent doc](https://bayton.org/android/what-are-vital-apps/). 
 
@@ -209,7 +263,7 @@ In fact, when I was [building devices for enterprise](https://bayton.org/blog/20
 
 But not all OEMs consider this, or really think about enterprise at all, and so it's nice to see Google identifying the gap and plugging it accordingly going forward. 
 
-## Platform signed permission management
+### Platform signed permission management
 
 When a vendor works with an OEM to get their application _platform singed_, the application is granted all system-level permissions available on the device. As you can imagine, that is an _unprecedented_ level of device access to data and services reserved normally for only the OEM system apps, and Google's preloaded suite of applications. 
 
@@ -221,21 +275,13 @@ There are new alerts in logging to determine the permissions applications are no
 
 Knowing how many enterprise vendors lean on platform signature permissions today (basically most EMMs, several SaaS products, etc), this has the potential to cause headaches once 15 launches.
 
-## Screen recording improvements
+### Screen recording improvements
 
 If you're like me and record your screen _far too often_ to demonstrate anything from a device feature to a bug, user guides and more, you'll be pleased to hear the previously Pixel-only feature introduced in Android 14 is coming to the wider ecosystem with the 15 update. Now users can limit screen sharing to _just the app_ they want to show, and no longer fret on the possibility to showing something that may not be appropriate for the context. 
 
 Continuing the theme of recording, this is not so much an enterprise feature in and of itself explicitly, but Android 15 will alert apps when the screen is being recorded, allowing them to hide contents. 
 
 I can imagine this might be useful for enterprise applications across the board to bolster DLP (data loss prevention), and based on murmurings in Tech News, Google is testing restrictions in Chrome to prevent sensitive information from being recorded (addresses, card details, passwords, etc). 
-
-## Restrictions on device identifiers for personally owned devices
-
-From Android 15, applications with the permission `android.permission.MANAGE_DEVICE_POLICY_CERTIFICATES` will be able to fetch `getEnrollmentSpecificId`, which is an enrolment-specific, unique device identifier that persists across re-enrolments when done so into the same deployment scenario (i.e fully managed or personally owned work profile), by the same vendor agent, into the same enterprise (organisation/bind).
-
-It is an alternative to identifiers such as IMEI and serial number, which Google no longer grants access to for applications without the appropriate device or profile owner role, or `DELEGATION_CERT_INSTALL` via policy, and becomes the default and only option for fetching a unique device identifier for personally owned work profile devices in future.
-
-To be clear - applications in a personally owned work profile deployment up to now with the delegated permission of `DELEGATION_CERT_INSTALL` have been able to fetch a device serial number with relative ease, something that defeats the entire purpose of restricting access to the identifiers, considered to be personally identifiable information, in the first place. That loophole is closing.
 
 ## Broader system update visibility
 
@@ -252,38 +298,6 @@ All of this is offered either through GOTA, Google's OTA management server many 
 ## Check MTE status
 
 Expanding on the options for getting and setting MTE policies in Android 14, in 15 it will now be possible to merely query the current state (evidently something that should have, but didn't, quite make it to the 14 release!)
-
-## Control over Private Space
-
-Android 15 introduces Private Space, the ability for users to allocate a selection of apps in a private, authenticated profile on the device. 
-
-These applications are isolated - similar to a work profile - from the rest of the applications on the primary parent profile.
-
-The way this is managed is nuanced, per Google: 
-
-> The default value for an unmanaged user is false. For users with a device owner set, the default value is true and the device owner currently cannot change it to false. On organization-owned managed profile devices, the default value is false but the profile owner can change it to true via the parent profile to block creating of private profiles on the personal user.
-
-So in other words private space is disabled for fully managed devices by default, and cannot be enabled. For work profile-enabled company owned devices, this _can_ be managed. 
-
-In testing, my fully managed device _does_ indeed fail to create a private space, but doesn't indicate why - it simply fails.
-
-## Disallow assist content
-
-This restriction allows administrators to prevent privileged apps, such as Assistant, from receiving contextual device information. These include screenshots, package names, and more. Useful for admins wishing to reduce the sprawl of information access privileged apps can have. This is scope-specific, so on fully managed devices will apply device-wide, but on profile-enabled devices restricts only to the managed profile.
-
-## Circle to search
-
-Relatively straightforward, an enterprise API is being introduced to lock down circle to search - the most unnecessarily hyped up feature I've seen in a long time. This is a nice continuation of assist content above, limiting the amount of data being sent to Google services.
-
-## Widget management is back?!
-
-With Android 15, `setKeyguardDisabledFeatures` has been expanded with widget management to coincide with the re-introduction of lockscreen widgets for tablet devices. At this time it appears to only apply to widgets in managed profiles, with Google explicitly stating:
-
-> the profile owner of an organization-owned managed profile can set `KEYGUARD_DISABLE_WIDGETS_ALL` which affects the parent user when called on the parent profile.
-
-More testing is needed to determine why this isn't available for fully managed devices. 
-
-To note for wider context, lock screen widgets were removed way back in 5.0 citing, if I remember correctly, low use. With the recent focus on tablets, and Apple adding their own, Google clearly figured they matter again!
 
 ## Deeper dedicated device experience management
 
