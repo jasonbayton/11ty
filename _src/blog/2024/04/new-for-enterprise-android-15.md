@@ -8,6 +8,14 @@
  tags:
      - Enterprise
 ---
+
+<div class="callout callout-blue">
+<div class="callout-heading"> Android 15 is live! </div>
+
+Android 15 is now live, check out the [latest article](/blog/2024/10/actually-new-for-enterprise-android-15/) for what ultimately landed!
+
+</div>
+
 It's that time of year again. Android 15 is available in pre-release, and combined with some of the changes I've seen committed to the developer documentation, there are a few tasty treats for organisations to come in the next dessert (Vanilla Ice-cream to don't you know).
 
 This is, as last year, a non-definitive and unconfirmed list of changes. Like the work profile changes in Android 14 things can change at any point and without warning. 
@@ -42,7 +50,9 @@ As it says on the tin. If you're thinking _"Don't we already have an API for NFC
 
 ## Disallow Thread Network
 
-I'm assuming this is related to comms with [thread devices](https://en.wikipedia.org/wiki/Thread_(network_protocol)), no additional context has been provided, but you can assume what's coming.
+~~I'm assuming this is related to comms with [thread devices](https://en.wikipedia.org/wiki/Thread_(network_protocol)), no additional context has been provided, but you can assume what's coming.~~
+
+Unfortunately it appears this was removed a few months after finding the API.
 
 ## Disallow SIM Globally
 
@@ -50,11 +60,13 @@ This sounds like it's ticking off a long-desired feature request to fully disabl
 
 ## Vital apps mandate for document previewer
 
-I touched on this in a [recent doc](https://bayton.org/android/what-are-vital-apps/). The absence of a document preview application for managed devices has been quite a noisy complaint from organisations for many years, overshadowed only by missing camera &/ gallery applications. None of these apps have been mandated by Google for the fully managed/work profile user experience, and so the common trend is to see them simply not added.
+~~I touched on this in a [recent doc](https://bayton.org/android/what-are-vital-apps/). The absence of a document preview application for managed devices has been quite a noisy complaint from organisations for many years, overshadowed only by missing camera &/ gallery applications. None of these apps have been mandated by Google for the fully managed/work profile user experience, and so the common trend is to see them simply not added.~~
 
-In fact, when I was [building devices for enterprise](https://bayton.org/blog/2023/08/product-files-the-doordash-tablet/#the-android-journey), I spent a decent amount of time learning the intricacies of vital apps and considering the use cases of customers to determine what was vital to productivity. I'd always opt to deploy Files By Google as the "Downloads" application, as this killed two birds with one stone - file preview support & a file (download) manager. Any photos taken could then be viewed in this app.
+~~In fact, when I was [building devices for enterprise](https://bayton.org/blog/2023/08/product-files-the-doordash-tablet/#the-android-journey), I spent a decent amount of time learning the intricacies of vital apps and considering the use cases of customers to determine what was vital to productivity. I'd always opt to deploy Files By Google as the "Downloads" application, as this killed two birds with one stone - file preview support & a file (download) manager. Any photos taken could then be viewed in this app.~~
 
-But not all OEMs consider this, or really think about enterprise at all, and so it's nice to see Google identifying the gap and plugging it accordingly.. even if it took several years to do so.
+~~But not all OEMs consider this, or really think about enterprise at all, and so it's nice to see Google identifying the gap and plugging it accordingly.. even if it took several years to do so.~~
+
+It appears at some point ahead of release Google reversed their decision.
 
 ## A switch to feature flagging
 
@@ -198,6 +210,6 @@ Something of a placeholder at the moment, because I don't _fully_ understand the
 
 Once the scope of wider DPM role holders is clear, I'll update this here.
 
-## More to come!
+## That's all folks!
 
-As 15 continues to develop, I'll update this list accordingly. Feel free to reach out with anything you find also!
+15 is now live, check out the [latest article](/blog/2024/10/actually-new-for-enterprise-android-15/) for what ultimately landed!
