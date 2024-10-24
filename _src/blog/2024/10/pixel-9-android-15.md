@@ -35,13 +35,14 @@ Via policy the following also has no effect on the appearance of these apps with
 }
 ```
 
-### Workaround
-
-These apps can be disabled from the work profile with a long-press (from app drawer) > App info > Disable 
-
-It's unusual to see apps pop into the profile after provisioning, which suggests to me the [vital apps config](/android/what-are-vital-apps/) isn't to blame directly.
+It's unusual to see apps pop into the profile after provisioning, which suggests to me the [vital apps config](/android/what-are-vital-apps/) isn't to blame directly, but nonetheless, something's up:
 
 ![work profile](https://cdn.bayton.org/uploads/2024/screenshot-1729773116591.png)
+
+### Workaround
+
+1. These apps can be disabled from the work profile with a long-press (from app drawer) > App info > Disable 
+2. You can also instruct users to deselect the default apps during setup at the appropriate screen.
 
 ## Delegated scopes undetectable in the work profile
 
