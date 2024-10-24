@@ -327,6 +327,16 @@ Managing dedicated devices, which have always been treated identically to any ot
 
 Unfortunately a few years too late for the almost 5 years I supported dedicated devices on a daily basis, but I look forward to future projects benefitting from these changes.
 
+## What got removed
+
+### Dedicated document preview app
+
+In the [earlier Android 15](/blog/2024/04/new-for-enterprise-android-15/#vital-apps-mandate-for-document-previewer) article I referenced a new mandate for OEMs to include a document viewing app, saying: 
+
+> The absence of a document preview application for managed devices has been quite a noisy complaint from organisations for many years, overshadowed only by missing camera &/ gallery applications. None of these apps have been mandated by Google for the fully managed/work profile user experience, and so the common trend is to see them simply not added.
+
+It appears Google changed their mind on this, which is not uncommon across releases by any means. The 4 or so years I spent working on Android hardware I saw many instances where proposals ultimately didn't make it - sometimes due to an internal direction change, sometimes pressure from OEMs. Either way it looks like that has happened here also, so we'll go another year without a dedicated document preview app.
+
 ## Did I miss anything?
 
 If I did, [you know where to find me](https://linkedin.com/in/jasonbayton).
