@@ -24,10 +24,6 @@ Google have been busy this year boosting the functionality of COPE, and it's a t
 
 What's new for COPE in Android 15?
 
-### Skip adding personal accounts during company owned work profile provisioning
-
-Google allow organisation admins to set provisioning-time configurations that skip the add-account flow during managed provisioning of a company owned work profile device. This is a small quality-of-life improvement that will shorten down the COPE provisioning time for scenarios where either users don't wish to immediately add a personal account and complete the full setup of their device, _or_ where devices are perhaps staged elsewhere and sent to users registered and ready to go. 
-
 ### Control of parent profile screen settings in company owned work profile deployment scenarios
 
 For company owned devices running work profile, the following previously _fully managed-only_ restrictions can be applied to devices:
@@ -192,23 +188,6 @@ As it says on the tin. If you're thinking _"Don't we already have an API for NFC
 
 This appears to be a natural progression from the earlier `DISALLOW_CHANGE_NEAR_FIELD_COMMUNICATION_RADIO` which prevents the turning on/off NFC in settings.
 
-### Disallow Thread Network
-
-At the time of writing, Google developer docs still don't have an entry for the Thread API, but reference it in the [UserManager docs](https://developer.android.com/reference/android/os/UserManager#DISALLOW_THREAD_NETWORK) as an unlinked entity. At some point the link to UserManager should go to the right place.
-
-In the meantime, thankfully it appears the [source for CTS](https://android.googlesource.com/platform/cts/+/1257265206c59ed8e3802a8b7ece53fb890c80f9%5E1..1257265206c59ed8e3802a8b7ece53fb890c80f9/) contains a test for this API. From that it's somewhat clear what this API is intended for, and we no longer need to assume:
-
-```java
-// If the device doesn't support Thread then as long as the user restriction doesn't throw an
-// exception when setting - we can assume it's fine
-@RequireFeature("android.hardware.thread_network")
-@RequiresFlagsEnabled(Flags.FLAG_THREAD_USER_RESTRICTION_ENABLED)
-```
-
-If that's too ambiguous, the CTS docs reference the hardware feature `android.hardware.thread_network`, which [additional](https://android.googlesource.com/platform/frameworks/native/+/510a1070e61a507151e29f3496db75cd7187015a%5E1..510a1070e61a507151e29f3496db75cd7187015a/) source [commits](https://android.googlesource.com/platform/frameworks/base.git/+/8801a720cde7e2770894fb77d0a48a0e85e35f53%5E1..8801a720cde7e2770894fb77d0a48a0e85e35f53/) tie directly to [Thread network](https://en.wikipedia.org/wiki/Thread_(network_protocol)) support.
-
-It looks like it'll be a relatively straightforward boolean (on/off) restriction allowing managed devices to interface with thread network devices.
-
 ### eSIM management
 
 #### Disallow SIM Globally
@@ -320,14 +299,13 @@ With Better Together Enterprise, Google is introducing a new provisioning option
 Such distinguishing features between knowledge worker devices and the new dedicated devices flag include:
 
 - Setup Wizard customisation
-- Skipping/prevention of Google account setup
 - Default restrictions within the Android experience
 
 Managing dedicated devices, which have always been treated identically to any other consumer Android device on the market, has been a frustrating experience; devices an end user would never use shouldn't need to configure accounts, access Google Play, deal with all of the setup wizard interruptions around privacy callouts and more.. and now it looks like Google are finally doing something about it.
 
 Unfortunately a few years too late for the almost 5 years I supported dedicated devices on a daily basis, but I look forward to future projects benefitting from these changes.
 
-## What got removed
+## What didn't make it
 
 ### Dedicated document preview app
 
@@ -336,6 +314,39 @@ In the [earlier Android 15](/blog/2024/04/new-for-enterprise-android-15/#vital-a
 > The absence of a document preview application for managed devices has been quite a noisy complaint from organisations for many years, overshadowed only by missing camera &/ gallery applications. None of these apps have been mandated by Google for the fully managed/work profile user experience, and so the common trend is to see them simply not added.
 
 It appears Google changed their mind on this, which is not uncommon across releases by any means. The 4 or so years I spent working on Android hardware I saw many instances where proposals ultimately didn't make it - sometimes due to an internal direction change, sometimes pressure from OEMs. Either way it looks like that has happened here also, so we'll go another year without a dedicated document preview app.
+
+### Skip adding personal accounts during company owned work profile provisioning
+
+In the earlier article I referenced a change I interpreted as offering the possibility for organisation admins to set provisioning-time configurations that skip the add-account flow during managed provisioning of a company owned work profile device. This would have been a small quality-of-life improvement that would shorten down the COPE provisioning time for scenarios where either:
+
+- users don't wish to immediately add a personal account and complete the full setup of their device, _or_ 
+- where devices are perhaps staged elsewhere and sent to users registered and ready to go. 
+
+It turns out the source was not clearly updated, conflating two independent restrictions. Alas, we won't see this in 15.
+
+With that said, it has been submitted as a feature request to Google! In future we may see a provisioning time option similar to allow the skipping of personal setup, perhaps palmed off to deferred setup, or triggered on the first boot after provisioning completes. 
+
+Why would it be useful? Mostly echoing the above - organisations still pre-provision devices, even those on zero-touch, before sending them out to users in an effort to reduce the hand-holding needed for setting up a device. With the COPE model there are privacy and ethical considerations preventing the setup of a personal profile with a user's account, and obviously skipping the account setup renders the setup process less intuitive, even with deferred setup.
+
+Ensuring the work side is sorted, then shipping it out to an end user to add their Google account and go I find quite an enticing option in this and similar scenarios.
+
+### Disallow Thread Network
+
+At the time of writing, Google developer docs still don't have an entry for the Thread API, but reference it in the [UserManager docs](https://developer.android.com/reference/android/os/UserManager#DISALLOW_THREAD_NETWORK) as an unlinked entity. At some point the link to UserManager should go to the right place.
+
+In the meantime it appears the [source for CTS](https://android.googlesource.com/platform/cts/+/1257265206c59ed8e3802a8b7ece53fb890c80f9%5E1..1257265206c59ed8e3802a8b7ece53fb890c80f9/) contains a test for this API. From that it's somewhat clear what this API is intended for, and we no longer need to assume:
+
+```java
+// If the device doesn't support Thread then as long as the user restriction doesn't throw an
+// exception when setting - we can assume it's fine
+@RequireFeature("android.hardware.thread_network")
+@RequiresFlagsEnabled(Flags.FLAG_THREAD_USER_RESTRICTION_ENABLED)
+```
+
+If that's too ambiguous, the CTS docs reference the hardware feature `android.hardware.thread_network`, which [additional](https://android.googlesource.com/platform/frameworks/native/+/510a1070e61a507151e29f3496db75cd7187015a%5E1..510a1070e61a507151e29f3496db75cd7187015a/) source [commits](https://android.googlesource.com/platform/frameworks/base.git/+/8801a720cde7e2770894fb77d0a48a0e85e35f53%5E1..8801a720cde7e2770894fb77d0a48a0e85e35f53/) tie directly to [Thread network](https://en.wikipedia.org/wiki/Thread_(network_protocol)) support.
+
+It looks like it'll be a relatively straightforward boolean (on/off) restriction allowing managed devices to interface with thread network devices when it's added to Android at a later date.
+
 
 ## Did I miss anything?
 
