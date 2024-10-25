@@ -93,6 +93,26 @@ Unfortunately the policy doesn't apply. The below GIF shows the correct applicat
 
 Don't permit Private Space until this is fixed, if this is a concern. This is with Android Engineering, and a Google Play update is expected to resolve this in due course.
 
+## Disappearance of distributed applications when personal Play Store mode set
+
+After enrolment - once more in the company owned, work profile deployment scenario - setting a personal Play Store policy leads to the removal of `PREINSTALLED` applications within the work profile, preventing their reinstallation. Here's an overview on a newly-enrolled device:
+
+https://www.youtube.com/watch?v=TDFH6JC6WOQ
+
+In my testing, the application _may_ return at a later point, but it risks disappearance once more when the policy updates.
+
+The replication steps, if the video isn't your cup of tea, are:
+
+1. Enrol a device into a company owned, work profile deployment scenario
+2. Set a personal usage policy for Play Store mode, I chose allowlist.
+3. Installed applications in the work profile vanish.
+
+### Workaround
+
+None I'm aware of at the moment.
+
+This has been escalated to Android Engineering.
+
 ## Reinforcing the need to test & validate
 
 It's not unusual to find issues with new releases, and these examples prove yet again the importance of testing and validating all of your organisation's managed device use cases before rolling out a major release or brand-new device.
