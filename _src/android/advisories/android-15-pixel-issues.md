@@ -2,6 +2,7 @@
  title: "Known issues with Pixel 9 and Android 15 for enterprise"
  published: '2024-10-24'
  status: publish
+ permalink: false
  author: 'Jason Bayton'
  excerpt: "A few issues you should be aware of if deploying Pixel 9 to your estate."
  type: documentation
