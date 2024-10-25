@@ -55,7 +55,7 @@ The expected response if a scope has been delegated is `[CERT_INSTALL]` (for exa
 
 In testing on a Pixel running Android 14, I faced no issue from within the work profile. Likewise on 15 this works perfectly fine from the parent profile, in a fully managed deployment scenario. Below are two pixels, one on 14 and one on 15 leveraging the exact same policy:
 
-![gif showing device identifer](https://cdn.bayton.org/uploads/2024/2024-10-24_14.06.54.gif)
+![gif showing device identifier](https://cdn.bayton.org/uploads/2024/2024-10-24_14.06.54.gif)
 
 (Taken from a video submission to Google, hence the quality).
 
