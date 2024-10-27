@@ -12,7 +12,7 @@ excerpt: ''
 type: page
 layout: project.njk
 ---
-**PACKAGE SEARCH is an enterprise-biased Android application inspection utility designed to provide detailed information about the apps running on managed Android devices.**
+**PACKAGE SEARCH is an enterprise-biased Android application inspection utility designed to provide detailed information about the apps installed on managed Android devices.**
 
 ## What does PACKAGE SEARCH do?
 
