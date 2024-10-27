@@ -72,13 +72,15 @@ Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIp
   - state:
   - type:
   - profile:
+  - source:
 
 Examples include:
 
 - `package:org.bayton.managedsettings`
-- `min: 24`
+- `min:24`
 - `state:unavailable`
 - `profile:other`
+- `source:shell`
 
 I can also offer additional priority support for an annual recurring fee, offering faster and more in-depth support, with additional discounts on my [consultancy rate](/support). Details can be found [here](/projects/managed-settings/pricing/#support-priority-support) (via MANAGED SETTINGS pricing).
 
