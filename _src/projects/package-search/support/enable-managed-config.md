@@ -25,7 +25,7 @@ Useful for debugging and troubleshooting purposes, assigned managed configuratio
 - Ensure variables or custom data is applying correctly from the EMM (for example `$email$` is translated by the EMM correctly to `user@email.com`) 
 - View in real-time applied configurations without the lengthy and cumbersome process of pulling device logs.
 
-In order to leverage this feature, PACKAGE SEARCH requires the delegation of a Device Policy Manager permission, `MANAGED_CONFIGURATION`, also referred to in Android as `DELEGATION_APP_RESTRICTIONS`. Here's how you can configure this.
+In order to leverage this feature, PACKAGE SEARCH requires the delegation of a Device Policy Manager scope, `MANAGED_CONFIGURATION`, also referred to in Android as `DELEGATION_APP_RESTRICTIONS`. The following documents how you can configure this.
 
 <div class="callout callout-blue">
 <div class="callout-heading">Head's up</div>
@@ -34,6 +34,14 @@ The API behind the MANAGED_CONFIGURATION delegated scope supports _multiple_ app
 
 </div>
 
+<div class="callout callout-red">
+<div class="callout-heading">Caution</div>
+
+Be aware PACKAGE SEARCH will show the received managed config as it is provided by the EMM on any device configured. This may include identying information, secrets, keys, and anything else you may not wish end-users to have visibility of.
+
+It is recommended this feature be used in a closed testing environment only, unless you are comfortable with the potential risk.
+
+</div>
 
 ## Android Management API
 
@@ -64,6 +72,10 @@ In the above, PACKAGE SEARCH is being pushed to a device silently with the `PREI
 PACKAGE SEARCH is now configured to view and display managed configurations. 
 
 **Note**: TestDPC supports only _one_ App restrictions manager at a time, however this API supports multiple apps. If you're testing another application requiring the same scope you'll have to temporarily switch between that and PACKAGE SEARCH to enable PS functionality.
+
+## Workspace One UEM
+
+[This link](https://kb.omnissa.com/s/article/89115) describes how a delegated scope can be configured with WS1 UEM, further guidance will be provided in the [EMM setup guides](../emm-setup) in due course.
 
 ## EMM vendor setup
 
