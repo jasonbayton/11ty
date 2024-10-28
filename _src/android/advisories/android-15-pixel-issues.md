@@ -20,7 +20,7 @@ If you're deploying Pixel 9 with Android 15 to your estate, here are some (non-e
 
 During the provisioning and setup flow, users are deferred to the setup wizard to add a personal account and set up their device normally. During this, the [PAI](https://bayton.org/blog/2024/03/play-auto-install/) screen offers Googles suite of applications.
 
-When permitting installation of these apps, both **Pixel Studio** and **Pixel Screenshots** find their way into the managed work profile once installed, and it is not possible to remove them. 
+When permitting installation of these apps, both **Pixel Studio** and **Pixel Screenshots** find their way into the managed work profile once installed, and it is not possible to remove them. This is despite nether app being in the PAI list, they appear to hop onto the process of updating and deploying.
 
 Via policy the following also has no effect on the appearance of these apps within the profile:
 
@@ -37,12 +37,14 @@ Via policy the following also has no effect on the appearance of these apps with
 
 It's unusual to see apps pop into the profile after provisioning, which suggests to me the [vital apps config](/android/what-are-vital-apps/) isn't to blame directly, but nonetheless, a configuration _somewhere_ is leading to this:
 
-![work profile](https://cdn.bayton.org/uploads/2024/screenshot-1729773116591.png)
+https://www.youtube.com/watch?v=vmrL7WI2OmQ
+
+Furthermore, updating these apps manually from Google Play after setup, if automatic setup is skipped/stopped for example, will result in the same behaviour.
 
 ### Workaround
 
 1. These apps can be disabled from the work profile with a long-press (from app drawer) > App info > Disable 
-2. You can also instruct users to deselect the default apps during personal setup at the appropriate screen.
+2. You can instruct users to uncheck all apps at the PAI screen, however as these problem apps aren't displayed this may not achieve anything.
 
 ## Delegated scopes undetectable in the work profile
 
