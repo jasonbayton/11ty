@@ -6,7 +6,7 @@ date: '2024-04-30'
 status: publish
 funding_goal: 4000
 funding: 400
-funding_version: 1.0.1
+funding_version: 1.x
 author: 'Jason Bayton'
 excerpt: ''
 type: page
