@@ -18,9 +18,9 @@ If you're deploying Pixel 9 with Android 15 to your estate, here are some (non-e
 
 ## Company owned managed profile and vital apps
 
-During the provisioning and setup flow, users are deferred to the setup wizard to add a personal account and set up their device normally. During this, the [PAI](https://bayton.org/blog/2024/03/play-auto-install/) screen offers Googles suite of applications.
+During the provisioning and setup flow, users are deferred to the setup wizard to add a personal account and set up their device normally. After the [PAI](https://bayton.org/blog/2024/03/play-auto-install/) screen offering Googles suite of applications, setup completes and apps begin installing & updating.
 
-When permitting installation of these apps, both **Pixel Studio** and **Pixel Screenshots** find their way into the managed work profile once installed, and it is not possible to remove them. This is despite nether app being in the PAI list, they appear to hop onto the process of updating and deploying.
+On update, both **Pixel Studio** and **Pixel Screenshots** find their way into the managed work profile. This is despite neither app being in the PAI list, they appear to update shortly after setup completes, and the act of updating is what triggers their arrival within the work profile.
 
 Via policy the following also has no effect on the appearance of these apps within the profile:
 
@@ -39,12 +39,12 @@ It's unusual to see apps pop into the profile after provisioning, which suggests
 
 https://www.youtube.com/watch?v=vmrL7WI2OmQ
 
-Furthermore, updating these apps manually from Google Play after setup, if automatic setup is skipped/stopped for example, will result in the same behaviour.
+For further clarity, updating these apps manually from Google Play after setup, if automatic setup is skipped/stopped for example, will result in the same behaviour. This confirms to me it is the act of pushing a new version of the app to devices, as until that happens these apps remain where they belong, in the parent profile.
 
 ### Workaround
 
 1. These apps can be disabled from the work profile with a long-press (from app drawer) > App info > Disable 
-2. You can instruct users to uncheck all apps at the PAI screen, however as these problem apps aren't displayed this may not achieve anything.
+2. Update policies targeting these apps may help, though that is untested.
 
 ## Delegated scopes undetectable in the work profile
 
@@ -59,7 +59,7 @@ The expected response if a scope has been delegated is `[CERT_INSTALL]` (for exa
 
 In testing on a Pixel running Android 14, I faced no issue from within the work profile. Likewise on 15 this works perfectly fine from the parent profile, in a fully managed deployment scenario. Below are two pixels, one on 14 and one on 15 leveraging the exact same policy:
 
-![gif showing device identifier](https://cdn.bayton.org/uploads/2024/2024-10-24_14.06.54.gif)
+![GIF showing device identifier](https://cdn.bayton.org/uploads/2024/2024-10-24_14.06.54.gif)
 
 (Taken from a video submission to Google, hence the quality).
 
@@ -71,9 +71,11 @@ This has been escalated to Android engineering,
 
 ## Application of personal Play Store policies to the Private Space 
 
-Another COPE issue, the documentation suggests `personalUsagePolicies` for `personalPlayStoreMode` that define application availability within the parent profile of a company owned work profile device are also applicable to the Play Store within the Private Space.
+**As of Monday October 28, this has been fixed with a Google Play update**
 
-In my test case, I have applied personal use policies to my Pixel 9:
+~~Another COPE issue, the documentation suggests `personalUsagePolicies` for `personalPlayStoreMode` that define application availability within the parent profile of a company owned work profile device are also applicable to the Play Store within the Private Space.~~
+
+~~In my test case, I have applied personal use policies to my Pixel 9:~~
 
 ```json
 "personalUsagePolicies": {
@@ -87,13 +89,13 @@ In my test case, I have applied personal use policies to my Pixel 9:
 },
 ```
 
-Unfortunately the policy doesn't apply. The below GIF shows the correct application in the personal Play Store, but the Private Space Play Store does not respect the policy applied:
+~~Unfortunately the policy doesn't apply. The below GIF shows the correct application in the personal Play Store, but the Private Space Play Store does not respect the policy applied:~~
 
 ![play store mode private space](https://cdn.bayton.org/uploads/2024/2024-10-24_13.50.52.gif)
 
-### Workaround
+~~### Workaround~~
 
-Don't permit Private Space until this is fixed, if this is a concern. This is with Android Engineering, and a Google Play update is expected to resolve this in due course.
+~~Don't permit Private Space until this is fixed, if this is a concern. This is with Android Engineering, and a Google Play update is expected to resolve this in due course.~~
 
 ## Disappearance of distributed applications when personal Play Store mode set
 
