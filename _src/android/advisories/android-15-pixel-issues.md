@@ -16,6 +16,15 @@ I've been running through standard enterprise validation, ensuring to include th
 
 If you're deploying Pixel 9 with Android 15 to your estate, here are some (non-exhaustive) issues to be aware of:
 
+<div class="callout callout-orange">
+<div class="callout-heading callout-heading-small">This is Pixel 9 only</div>
+
+Unless otherwise stated, the issues described below have only been replicated on my Pixel 9 XL Pro. Other devices running Android 15 may be fine.
+
+Undertake your own testing accordingly, and feel free to [get in touch](mailto:jason@bayton.org) with feedback!
+
+</div>
+
 ## Company owned managed profile and vital apps
 
 During the provisioning and setup flow, users are deferred to the setup wizard to add a personal account and set up their device normally. After the [PAI](https://bayton.org/blog/2024/03/play-auto-install/) screen offering Googles suite of applications, setup completes and apps begin installing & updating.
@@ -39,7 +48,7 @@ It's unusual to see apps pop into the profile after provisioning, which suggests
 
 https://www.youtube.com/watch?v=vmrL7WI2OmQ
 
-For further clarity, updating these apps manually from Google Play after setup, if automatic setup is skipped/stopped for example, will result in the same behaviour. This confirms to me it is the act of pushing a new version of the app to devices, as until that happens these apps remain where they belong, in the parent profile.
+For further clarity, updating these apps manually from Google Play after setup, if automatic setup is skipped/stopped for example, will result in the same behaviour. This confirms to me, it is the act of pushing a new version of the app to devices, as until that happens these apps remain where they belong, in the parent profile.
 
 ### Workaround
 
@@ -57,11 +66,9 @@ val delegatedScopes = dpm.getDelegatedScopes(null, context.packageName)
 
 The expected response if a scope has been delegated is `[CERT_INSTALL]` (for example). What returns instead is `[]`. 
 
-In testing on a Pixel running Android 14, I faced no issue from within the work profile. Likewise on 15 this works perfectly fine from the parent profile, in a fully managed deployment scenario. Below are two pixels, one on 14 and one on 15 leveraging the exact same policy:
+In testing on a Pixel 6 Pro running Android 14, I faced no issue from within the work profile. Likewise on 15 this works perfectly fine from the parent profile, in a fully managed deployment scenario. It also works fine on the Pixel 6 Pro when updated to 15, so it's seemingly isolated _only_ to the Pixel 9 XL Pro I'm testing with. Below are two pixels, one on 14 and one on 15 leveraging the exact same policy:
 
-![GIF showing device identifier](https://cdn.bayton.org/uploads/2024/2024-10-24_14.06.54.gif)
-
-(Taken from a video submission to Google, hence the quality).
+![image showing device identifier](https://cdn.bayton.org/uploads/2024/missing_scope.png)
 
 ### Workaround
 
@@ -89,9 +96,7 @@ This has been escalated to Android engineering,
 },
 ```
 
-~~Unfortunately the policy doesn't apply. The below GIF shows the correct application in the personal Play Store, but the Private Space Play Store does not respect the policy applied:~~
-
-![play store mode private space](https://cdn.bayton.org/uploads/2024/2024-10-24_13.50.52.gif)
+~~Unfortunately the policy doesn't apply. [This GIF](https://cdn.bayton.org/uploads/2024/2024-10-24_13.50.52.gif) shows the correct application in the personal Play Store, but the Private Space Play Store does not respect the policy applied.~~
 
 ~~### Workaround~~
 
