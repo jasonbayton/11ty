@@ -123,7 +123,7 @@ To be clear - applications in a personally-owned work profile deployment up to n
 <div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">Head's up</div>
 
-At time of writing there's a bug in 15 - on Pixel at least - preventing delegated scopes from being retrieved by managed apps within the work profile. It works fine in the parent profile. If you'd like to validate this yourself, here's a snippet to call from within an application:
+At time of writing there's a bug in 15 - on the Pixel 9 Pro XL at least - preventing delegated scopes from being retrieved by managed apps within the work profile. It works fine in the parent profile. If you'd like to validate this yourself, here's a snippet to call from within an application:
 
 ```kotlin
 val dpm = context.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
