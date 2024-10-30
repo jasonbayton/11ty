@@ -1388,7 +1388,7 @@ footer {
     }
 
     & code {
-      color: var(--light);
+      color: var(--bright);
     }
   }
 
