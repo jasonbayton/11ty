@@ -100,7 +100,7 @@ Google come pretty close with their requirements, in fact going a little overboa
 - Google Setup Wizard
 - Default contacts app
 - Default downloads app
-- Default dialer
+- Default dialler
 - Default launcher
 - Default settings
 - Google app 

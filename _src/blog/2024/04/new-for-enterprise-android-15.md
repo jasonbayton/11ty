@@ -202,7 +202,7 @@ Such distinguishing features between knowledge worker devices and the new dedica
 
 Managing dedicated devices, which have always been treated identically to any other consumer Android device on the market, has been a frustrating experience; devices an end user would never use shouldn't need to configure accounts, access Google Play, deal with all of the setup wizard interruptions around privacy callouts and more.. and now it looks like Google are finally doing something about it.
 
-Unfortunately a few years too late for the almost 5 years I supported dedicated devices on a daily basis, but I look forward to future projects benefitting from these changes.
+Unfortunately a few years too late for the almost 5 years I supported dedicated devices on a daily basis, but I look forward to future projects benefiting from these changes.
 
 ## Additional management roles
 

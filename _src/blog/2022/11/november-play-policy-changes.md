@@ -13,7 +13,7 @@ tags:
 Google has since relaxed the timeline for when the November changes take place. Developers now have until 31/01/2023. Furthermore, permanently private applications, such as those made private in the Play console, as well as those uploaded via the API or managed Google Play iFrame, are <strong>exempt</strong> from this policy change.
 </div>
 
-It's no secret many organisations struggle to keep pace with Google's Play Polices, often relying on applications built years prior benefitting from few updates to maintain minimum viable compatibility, eventually either breaking for newer devices, or having updates rejected for policy violations corresponding to app behaviour that was never an issue when the application was first uploaded.
+It's no secret many organisations struggle to keep pace with Google's Play Polices, often relying on applications built years prior benefiting from few updates to maintain minimum viable compatibility, eventually either breaking for newer devices, or having updates rejected for policy violations corresponding to app behaviour that was never an issue when the application was first uploaded.
 
 Equally common are how these applications have historically been distributed; through EMM solutions as APK files pushed to devices, rather than leaning on Google Play. 
 

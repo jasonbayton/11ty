@@ -84,7 +84,7 @@ But! It's not what I'd consider fully formed just yet.
 
 In Android 14, organisations will be able to assign the SIM(s) on a corporate owned device to the work profile (so COPE only) as an all-or-nothing policy. This absolutely covers use cases where organisations provide a device and SIM for work while allowing personal use, but clearly doesn't cover the desired behaviour to associate 1 of multiple SIMs to the work profile, while the other is left to the parent profile; the ideal eventuality for BYO and COPE users.
 
-A new related API is `setDefaultDialerApplication`, which permits the DPC to set an explicit dialer in relation to this SIM management API (`ManagedSubscriptionsPolicy`), which is handy. This also compliments the default SMS API introduced way back in Android 10.
+A new related API is `setDefaultDialerApplication`, which permits the DPC to set an explicit dialler in relation to this SIM management API (`ManagedSubscriptionsPolicy`), which is handy. This also compliments the default SMS API introduced way back in Android 10.
 
 Behaviour-wise, it meets expectations, per Google:
 

@@ -331,7 +331,7 @@ It is, regardless, so much better than an organisation holding complete control 
 
 Despite being the closest deployment scenario to legacy DA management with corporate containerisation available, it took until Android 8.0 for work profiles on fully managed devices – or COPE, or COMP, or managed work profiles, or whatever else the deployment scenario has been called over the years – to debut on Android Enterprise.
 
-Benefitting both from full device control due to it’s fully managed state, and profile-level separation of corporate data, WPoFMD offers the perfect deployment scenario where personal use is permitted on a corporate device without the DLP risks of mixing work and personal apps in-profile as would be the case if personal usage was permitted on a fully managed device.
+Benefiting both from full device control due to it’s fully managed state, and profile-level separation of corporate data, WPoFMD offers the perfect deployment scenario where personal use is permitted on a corporate device without the DLP risks of mixing work and personal apps in-profile as would be the case if personal usage was permitted on a fully managed device.
 
 It’s unfortunately still not [supported universally today](/android/android-enterprise-emm-cope-support/), over two years later, with a number of known EMM vendors in the ecosystem. The likes of SOTI, MaaS360, [Intune](/2019/10/why-intune-doesnt-support-android-enterprise-cope/) and even Google themselves with their Android Management API still don’t support COPE, leaving organisations around the world needlessly waiting, or working around the requirement by opting to deploy work profile only and forego device-level management.
 
@@ -433,7 +433,7 @@ Hopefully in 2020 it’ll get to a point where choosing between AMAPI or Play EM
 
 ### More devices than ever before are patched and secure
 
-It is extremely likely your Android device, whether bought for business or as a consumer, is benefitting from the enormous drive to get OEMs patching more frequently and for longer.
+It is extremely likely your Android device, whether bought for business or as a consumer, is benefiting from the enormous drive to get OEMs patching more frequently and for longer.
 
 ![](https://cdn.bayton.org/uploads/2020/01/image-3.png)
 

@@ -90,7 +90,7 @@ Please allow 2023 to be the year I can finally configure the shared use case, in
 
 Not a fortnight ago was I answering questions about SIM management for work profile deployments. The ability to assign individual SIMs in dual-SIM devices to work and personal profiles is a persistent feature request that's been in demand almost as long as work profile has existed; the fact it was in my list in 2019 already implies it was a common request among my customers and ecosystem circles. 
 
-More features around SIM management, dedicated dialer and call management features between the profiles, not massively dissimilar to the features released in 13 for [NFC](https://blog.google/products/android-enterprise/android-13/#:~:text=All%20Android%2013%20devices%20can%20also%20now%20use%20Near%2Dfield%20communication%20(NFC)%20from%20work%20apps%20to%20enable%20use%20cases%20like%20digital%20access%20badges%20and%20tap%2Dto%2Dpay%20from%20work%20profile) continue to be requested around the ecosystem, and this would be a lovely feature to have.
+More features around SIM management, dedicated dialler and call management features between the profiles, not massively dissimilar to the features released in 13 for [NFC](https://blog.google/products/android-enterprise/android-13/#:~:text=All%20Android%2013%20devices%20can%20also%20now%20use%20Near%2Dfield%20communication%20(NFC)%20from%20work%20apps%20to%20enable%20use%20cases%20like%20digital%20access%20badges%20and%20tap%2Dto%2Dpay%20from%20work%20profile) continue to be requested around the ecosystem, and this would be a lovely feature to have.
 
 ## More AMAPI scopes (companion app control)
 
