@@ -1,6 +1,6 @@
 ---
  title: "Android 15: What's new for enterprise?"
- date: '2024-10-30'
+ date: '2024-10-31'
  status: publish
  author: 'Jason Bayton'
  excerpt: "Android 15 has launched! Here's what's actually new for enterprise in this release."
