@@ -14,9 +14,11 @@ It has been a rather odd series of events this year; Pixel typically receives th
 
 Hopefully that doesn't become the norm, I'm not a fan of delaying announcements until an OEM is ready with their own implementation; I can't imagine Google would have done this if Oppo, Samsung, HMD or others asked for the same.
 
-I could have covered this post off for the most-part after the AOSP drop, I chose to wait until Google released their marketing materials. AOSP/developer docs rarely tell the whole story of enterprise support in an Android release, and 15 has been no different; I'd covered pretty much everything I found for AOSP in [What's new (so far) for enterprise in Android 15](/blog/2024/04/new-for-enterprise-android-15/) and so it was the wider Google Play Services and undocumented functionality capabilities that were left to be covered.
+That said, here we are.
 
-The below aims to provide a comprehensive overview of [Android 15](https://blog.google/products/android-enterprise/android-15-for-business/) enterprise features, so may skip some items mentioned in the blog from April. Feel free to jump back there (link above) for more general Android 15 features. Here we go!
+I could have covered this post off for the most-part after the AOSP drop, I chose to wait until Google released their marketing materials. AOSP/developer docs rarely tell the whole story of enterprise support in an Android release, and 15 has been no different; I'd covered pretty much everything I found for AOSP in [What's new (so far) for enterprise in Android 15](/blog/2024/04/new-for-enterprise-android-15/) and so it was the wider Google Play Services and undocumented functionalities that were left to be covered.
+
+The below aims to provide a comprehensive overview of enterprise features, so may skip some items mentioned in the blog from April. Feel free to jump back there (link above) for more general Android 15 features. Let's start with COPE.
 
 ## Enhancements to company-owned work profiles (COPE)
 
@@ -32,7 +34,13 @@ For company-owned devices running work profile, the following previously _fully 
 - Screen brightness (the actual brightness or the screen)
 - Screen brightness mode (manual or automatic)
 
-Google announced these as power management controls, I suppose they could contribute to lower power use at the cost of user satisfaction if you were to enforce these on personal-use devices. They could also contribute to significantly higher power use. I'm not sure what use cases were identified here that led to it being framed this way, but I imagine this could be a frustrating experience for knowledge workers; who would want to use a device outside on a Summer's day and be limited to 30% brightness?
+Google announced these as power management controls, I suppose they could contribute to lower power use at the cost of user satisfaction if you were to enforce fixed brightness on personal-use devices. They could also contribute to significantly higher power use. 
+
+I'm not sure what use cases were identified here that led to it being framed this way, but I imagine this could be a frustrating experience for knowledge workers if not implemented by organisations appropriately; who could use a device outside on a Summer's day while being limited to 30% brightness? Who would want to check an incoming call or notification in the middle of the night with a screen that doesn't adapt to the ambient conditions of the room, but rather turn on at 100% brightness? 
+
+In contrast, enforcing automatic would be a sensible default.
+
+Be mindful if deploying fixed brightness or brightness modes to personal-use devices. 
 
 ### Application defaults in the personal profile for company-owned work profile devices
 
@@ -46,15 +54,17 @@ Google states these must be initially configured at provisioning time. That is t
 
 > The default messaging app can be set at any time. To enforce OEM defaults for dialler and browser after set up, this control must be combined with an app allowlist.
 
-### Application allow and blocklist policies in the private space
+These do not apply to Android 15's Private Space (discussed below), as these applications should _not_ be present in the Space to begin with.
+
+### Application allow and blocklist policies in the Private Space
 
 When Google announced Private Space with 15, I wrongfully anticipated this to be a mostly non-enterprise feature that wouldn't coexist in the management space. After all, it comes across as the work profile for unmanaged devices, in a way (certainly the tech it's built on tells me this). 
 
 But here we are! The multiple work profiles on one device [I've been asking for](/android/android-enterprise-feature-requests) that Google said they'd never support 😁.
 
-While it's blocked on fully managed devices (which would be a great use case for a reversed COPE, I'll touch on below), it's very much possible to create a private space in COPE and co-exist with the work profile. 
+While it's blocked on fully managed devices (which would be a great use case for a reversed COPE, I'll touch on below), it's very much possible to create a Private Space in COPE and co-exist with the work profile. 
 
-*Hang on*, you may be thinking, *doesn't that just mean users can add apps to a private space if they're not permitted to add them to their personal profile?*
+*Hang on*, you may be thinking, *doesn't that just mean users can add apps to a Private Space if they're not permitted to add them to their personal profile?*
 
 As it turns out, no.
 
@@ -64,15 +74,15 @@ As it turns out, no.
 
 The policies applied for permitted or blocked apps in a COPE deployment scenario also apply to the Private Space. 
 
-#### The case for private spaces on fully managed devices
+#### The case for Private Space on fully managed devices
 
 It popped up in the [AE Customer Community](https://www.androidenterprise.community/t5/news-info/enhanced-employee-and-device-protection-with-android-15-for/bc-p/8824/highlight/true#M136) and I think it's worth further discussion:
 
-> I quite like the prospect of reversing the existing COPE model to fully manage the device, but have an inaccessible profile (private space) for workers. Maximum control of the device with a lower-perceived, but potentially acceptable level of privacy for workers. As indicated for pool/shared devices where you auth, but can pop a few personal apps for break/other reasons the admins can ultimately remove at will.. I like it.
+> I quite like the prospect of reversing the existing COPE model to fully manage the device, but have an inaccessible profile (Private Space) for workers. Maximum control of the device with a lower-perceived, but potentially acceptable level of privacy for workers. As indicated for pool/shared devices where you auth, but can pop a few personal apps for break/other reasons the admins can ultimately remove at will.. I like it.
 
-Private Space has obviously not been enabled on fully managed devices due to the privacy concerns, I would assume, previously associated with work profiles on fully managed devices. Furthermore, I would expect there are nuances within a fully managed and dedicated use cases (which are mostly shared under the Device Owner (DO) ownership model) that would render this feature incompatible and possibly cause problems. It's also likely a lot of work resurrecting deprecated approaches to cross-profile policies and such that would bring this much closer to pre-11 Android fully managed devices with work profiles,
+Private Space has obviously not been enabled on fully managed devices due to the privacy concerns, I would assume, previously associated with work profiles on fully managed devices. Furthermore, I would expect there are nuances within a fully managed and dedicated use cases (which are mostly shared under the Device Owner (DO) ownership model) that would render this feature incompatible and possibly cause problems. It's also likely a lot of work resurrecting deprecated approaches to cross-profile policies and such that would bring this much closer to pre-11 Android fully managed devices with work profiles..
 
-..but it could be disabled by default, as it is for fully managed devices, and in organisations that want to allow a reverse-COPE wherein personal apps and data live in a separately encrypted, isolated container with limited cross-profile oversight (personal usage policies would have to apply on fully managed only, _just_ for private space), it could work.
+..but it could be disabled by default, as it is for fully managed devices, and in organisations that want to allow a reverse-COPE wherein personal apps and data live in a separately encrypted, isolated container with limited cross-profile oversight (personal usage policies would have to apply on fully managed only, _just_ for Private Space), it could work.
 
 And it should, as it would further add the flexibility organisations want as the personally-owned vs company-owned debate rages on amongst admins.
 
@@ -218,11 +228,11 @@ The way this is managed is nuanced, per Google:
 
 > The default value for an unmanaged user is false. For users with a device owner set, the default value is true and the device owner currently cannot change it to false. On organization-owned managed profile devices, the default value is false but the profile owner can change it to true via the parent profile to block creating of private profiles on the personal user.
 
-So in other words private space is disabled for fully managed devices by default, and cannot be enabled. For work profile-enabled company-owned devices, this _can_ be managed. 
+So in other words Private Space is disabled for fully managed devices by default, and cannot be enabled. For work profile-enabled company-owned devices, this _can_ be managed. 
 
-In testing, my fully managed device _does_ indeed fail to create a private space, but doesn't indicate why - it simply fails:
+In testing, my fully managed device _does_ indeed fail to create a Private Space, but doesn't indicate why - it simply fails:
 
-[![set up private space](https://cdn.bayton.org/uploads/2024/set_up_private_space.png)](https://cdn.bayton.org/uploads/2024/set_up_private_space.png)
+[![set up Private Space](https://cdn.bayton.org/uploads/2024/set_up_private_space.png)](https://cdn.bayton.org/uploads/2024/set_up_private_space.png)
 
 Again, an interjection of the DPC to say this isn't possible would tremendously improve the UX.
 
