@@ -12,55 +12,41 @@ Android 15 [launched officially](https://blog.google/products/android/android-15
 
 It has been a rather odd series of events this year; Pixel typically receives the latest and greatest version of Android in tandem with its release to AOSP, and the marketing and messaging goes out in unison for Android as a whole, but with Pixel's delay it caused something of an anticlimactic debut for AOSP, with most of the Android 15 blogs and announcements only really happening at Pixel's launch. 
 
-Hopefully that doesn't become the norm, I'm not a fan of delaying announcements until an OEM is ready with their own implementation; I can't imagine Google would have done this if Oppo, Samsung, HMD or others asked for the same.
+Hopefully that doesn't become the norm, I'm not a fan of delaying announcements until an OEM - Pixel or otherwise - is ready with their own implementation; I can't imagine Google would have done this if Oppo, Samsung, HMD or others asked for the same.
 
 That said, here we are.
 
 I could have covered this post off for the most-part after the AOSP drop, I chose to wait until Google released their marketing materials. AOSP/developer docs rarely tell the whole story of enterprise support in an Android release, and 15 has been no different; I'd covered pretty much everything I found for AOSP in [What's new (so far) for enterprise in Android 15](/blog/2024/04/new-for-enterprise-android-15/) and so it was the wider Google Play Services and undocumented functionalities that were left to be covered.
 
-The below aims to provide a comprehensive overview of enterprise features, so may skip some items mentioned in the blog from April. Feel free to jump back there (link above) for more general Android 15 features. Let's start with COPE.
+The below aims to provide a comprehensive overview of enterprise features, so may skip some items mentioned in the blog from April. Feel free to jump back there (link above) for more general Android 15 features. Let's start with a headline feature.
 
-## Enhancements to company-owned work profiles (COPE)
+## Private Space
 
-Google has been busy this year boosting the functionality of the company-owned work profile deployment scenario, and it's a trend I'm here for. Still struggling with the loss of [work profiles on fully managed devices](/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/), every small bump in functionality that regains _some_ control over the parent (personal) profile of a **company-owned device** is an utter treat.
-
-What's new for COPE in Android 15?
-
-### Control of parent profile screen settings in company-owned work profile deployment scenarios
-
-For company-owned devices running work profile, the following previously _fully managed-only_ restrictions can be applied to devices:
-
-- Screen off timeout (not to be confused with time to lock, which still supersedes this in terms of hierarchy)
-- Screen brightness (the actual brightness or the screen)
-- Screen brightness mode (manual or automatic)
-
-Google announced these as power management controls, I suppose they could contribute to lower power use at the cost of user satisfaction if you were to enforce fixed brightness on personal-use devices. They could also contribute to significantly higher power use. 
-
-I'm not sure what use cases were identified here that led to it being framed this way, but I imagine this could be a frustrating experience for knowledge workers if not implemented by organisations appropriately; who could use a device outside on a Summer's day while being limited to 30% brightness? Who would want to check an incoming call or notification in the middle of the night with a screen that doesn't adapt to the ambient conditions of the room, but rather turn on at 100% brightness? 
-
-In contrast, enforcing automatic would be a sensible default.
-
-Be mindful if deploying fixed brightness or brightness modes to personal-use devices. 
-
-### Application defaults in the personal profile for company-owned work profile devices
-
-Extending further control of the personal side of the device for COPE deployments, Google is allowing organisations in Android 15 to set default applications for the dialler, messaging app, and browser.
-
-To be absolutely clear, these defaults will be whatever the Android device ships with, so it wouldn't be possible to set Edge as a default in the personal profile across a managed estate. Rather, Samsung may default to Samsung Internet, Pixel to Chrome, etc. This avoids a potential privacy risk in allowing organisations to set _their_ preferred apps as the personal default, complete with whatever identifying information and usage data they may be able to extract from the personal profile and into corporate servers.
-
-By implementing these defaults, organisations prevent the opposite scenario where a user may choose to use a non-recommended (or downright potentially harmful app) as their default in the personal profile, and open the device up to additional security risks.
-
-Google states these must be initially configured at provisioning time. That is to say set in the policy applied at the time of enrolment. If being set retrospectively, as would be required for any existing device *updating* to Android 15, this can be done through the use of allowlists: 
-
-> The default messaging app can be set at any time. To enforce OEM defaults for dialler and browser after set up, this control must be combined with an app allowlist.
-
-These do not apply to Android 15's Private Space (discussed below), as these applications should _not_ be present in the Space to begin with.
-
-### Application allow and blocklist policies in the Private Space
+Android 15 introduces Private Space, the ability for users to protect a selection of apps in a private, additionally-authenticated profile on the device. These applications are isolated - similar to a work profile - from the rest of the applications on the primary parent profile.
 
 When Google announced Private Space with 15, I wrongfully anticipated this to be a mostly non-enterprise feature that wouldn't coexist in the management space. After all, it comes across as the work profile for unmanaged devices, in a way (certainly the tech it's built on tells me this). 
 
 But here we are! The multiple work profiles on one device [I've been asking for](/android/android-enterprise-feature-requests) that Google said they'd never support 😁.
+
+### Default behaviour for managed devices
+
+The way this is managed is nuanced, per Google: 
+
+> The default value for an unmanaged user is false. For users with a device owner set, the default value is true and the device owner currently cannot change it to false. On organization-owned managed profile devices, the default value is false but the profile owner can change it to true via the parent profile to block creating of private profiles on the personal user.
+
+So in other words Private Space is disabled for fully managed devices by default, and cannot be enabled. For work profile-enabled company-owned devices, this _can_ be managed. 
+
+In testing, my fully managed device _does_ indeed fail to create a Private Space, but doesn't indicate why - it simply fails:
+
+[![set up Private Space](https://cdn.bayton.org/uploads/2024/set_up_private_space.png)](https://cdn.bayton.org/uploads/2024/set_up_private_space.png)
+
+An interjection from the DPC to say this isn't possible would tremendously improve the UX.
+
+### General management policies in the Private Space
+
+If you're concerned the Private Space may become a wild-west of hidden app and user activity, fret not! Policies that have previously applied device-wide, such as the installation of apps from unknown sources, are _still device-wide_. The Private Space adopts these restrictions with no additional management overhead.
+
+### Application management in the Private Space
 
 While it's blocked on fully managed devices (which would be a great use case for a reversed COPE, I'll touch on below), it's very much possible to create a Private Space in COPE and co-exist with the work profile. 
 
@@ -84,11 +70,57 @@ Private Space has obviously not been enabled on fully managed devices due to the
 
 ..but it could be disabled by default, as it is for fully managed devices, and in organisations that want to allow a reverse-COPE wherein personal apps and data live in a separately encrypted, isolated container with limited cross-profile oversight (personal usage policies would have to apply on fully managed only, _just_ for Private Space), it could work.
 
-And it should, as it would further add the flexibility organisations want as the personally-owned vs company-owned debate rages on amongst admins.
+Supporting this would further add the flexibility organisations want as the personally-owned vs company-owned debate rages on amongst admins.
+
+### What Private Space _isn't_
+
+Fort Knox. 
+
+Unfortunately, and Google to their credit [do highlight this](https://support.google.com/android/answer/15341885?hl=en-GB), Private Space is still a profile running within Android; the applications installed in this space can be detected with relative ease and so although it makes it extremely difficult to access app _data_, it doesn't prevent the determined from piecing together a perception of someone based on the apps they're hiding away. Assuming they have access to the device.
+
+I do feel it could be improved, for example with the work profile implementation there are policies that prevent an app _inside_ the profile from locating applications _outside_ of it, so if I run [PACKAGE SEARCH](/projects/package-search) within a work profile, I cannot see the user apps installed in the parent profile. 
+
+I do appreciate this is not 1:1, effectively asking apps in the parent profile to be blocked from running package manager searches on any packages flagged against the Private Space, but I'd like to believe it's possible.
+
+**So that's Private Space**. Next? COPE:
+
+## Enhancements to company-owned work profiles (COPE)
+
+Google has been busy this year boosting the functionality of the company-owned work profile deployment scenario, and it's a trend I'm here for! Still struggling with the loss of [work profiles on fully managed devices](/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/), every small bump in functionality that regains _some_ control over the parent (personal) profile of a **company-owned device** is nothing short of a treat.
+
+Here's what's new in Android 15:
+
+### Control of parent profile screen settings in company-owned work profile deployment scenarios
+
+For company-owned devices running work profile, the following previously _fully managed-only_ restrictions can be applied to devices:
+
+- Screen off timeout (not to be confused with time to lock, which still supersedes this in terms of hierarchy)
+- Screen brightness (the actual brightness or the screen)
+- Screen brightness mode (manual or automatic)
+
+Google announced these as power management controls, I suppose they could contribute to lower power consumption at the cost of user satisfaction if you were to enforce fixed brightness on personal-use devices. They could also contribute to significantly higher power consumption. 
+
+I'm not sure what use cases were identified here that led to it being framed this way, but I imagine this could be a frustrating experience for knowledge workers if not implemented by organisations appropriately; who could use a device outside on a Summer's day while being limited to 30% brightness? Who would want to check an incoming call or notification in the middle of the night with a screen that doesn't adapt to the ambient conditions of the room, but rather turn on at 100% brightness? 
+
+In contrast, enforcing automatic would be a sensible default. Be mindful if deploying fixed brightness or brightness modes to personal-use devices. 
+
+### Application defaults in the personal profile for company-owned work profile devices
+
+Extending further control of the personal side of the device for COPE deployments, Google is allowing organisations in Android 15 to set default applications for the dialler, messaging app, and browser.
+
+To be absolutely clear, these defaults will be whatever the Android device ships with, so it wouldn't be possible to set Edge as a default in the personal profile across a managed estate. Rather, Samsung may default to Samsung Internet, Pixel to Chrome, etc. This avoids a potential privacy risk in allowing organisations to set _their_ preferred apps as the personal default, complete with whatever identifying information and usage data they may be able to extract from the personal profile and into corporate servers.
+
+By implementing these defaults, organisations prevent the opposite scenario where a user may choose to use a non-recommended (or downright potentially harmful app) as their default in the personal profile, and open the device up to additional security risks.
+
+Google states these must be initially configured at provisioning time. That is to say set in the policy applied at the time of enrolment. If being set retrospectively, as would be required for any existing device *updating* to Android 15, this can be done through the use of allowlists: 
+
+> The default messaging app can be set at any time. To enforce OEM defaults for dialler and browser after set up, this control must be combined with an app allowlist.
+
+These do not apply to Android 15's Private Space (discussed below), as these applications [should _not_](/android/advisories/android-15-pixel-issues/#presence-of-dialler-messaging-within-the-private-space) be present in the Space to begin with.
 
 ## Security & privacy changes
 
-With COPE aside, here are some security related changes introduced with Android 15:
+Android 15 additionally introduces a fair few security improvements also, some of which include: 
 
 ### Migration of events from logcat to SecurityLog
 
@@ -133,7 +165,7 @@ To be clear - applications in a personally-owned work profile deployment up to n
 <div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">Head's up</div>
 
-At time of writing there's a bug in 15 - on the Pixel 9 Pro XL at least - preventing delegated scopes from being retrieved by managed apps within the work profile. It works fine in the parent profile. If you'd like to validate this yourself, here's a snippet to call from within an application:
+At time of writing [there's a bug in 15](/android/advisories/android-15-pixel-issues/#delegated-scopes-undetectable-in-the-work-profile) - on the Pixel 9 Pro XL at least - preventing delegated scopes from being retrieved by managed apps within the work profile. It works fine in the parent profile. If you'd like to validate this yourself, here's a snippet to call from within an application:
 
 ```kotlin
 val dpm = context.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
@@ -164,6 +196,8 @@ While this has been in place since Android 12, previously this would have silent
 
 ## New restrictions 
 
+It wouldn't be an Android release unless we saw a few new features to manage. Here's the run-down:
+
 ### Content protection policy
 
 The content protection policy offers admin control of a new feature for real-time threat detection within the Google Play Protect arsenal of protections covered [in a prior security blog](https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html) from February.
@@ -174,7 +208,7 @@ It is _buried deep_ in Settings.
 
 When the configuration is unspecified, currently the respective toggle is off for fully managed devices. Switching to `enforced` then enables the setting. 
 
-This is a great approach, sympathetic to the feedback its announcement generated from administrators already frustrated with overbearing Google Play Protect policies which cannot be disabled (full disclosure, I'm generally in favour of GPP, but I'm aware of the problems it causes for some organisations).
+This is a great approach, sympathetic to the feedback its announcement generated from administrators already frustrated with overbearing Google Play Protect policies that cannot be disabled (full disclosure, I'm generally in favour of GPP, but I'm aware of the problems it causes for some organisations), while allowing its use for organisations that feel they need it.
 
 For EMM vendors, this is already present in AMAPI as `contentProtectionPolicy` under `AdvancedSecurityOverrides`.
 
@@ -191,6 +225,8 @@ As it says on the tin. If you're thinking _"Don't we already have an API for NFC
 This appears to be a natural progression from the earlier `DISALLOW_CHANGE_NEAR_FIELD_COMMUNICATION_RADIO` which prevents the turning on/off NFC in settings.
 
 ### eSIM management
+
+eSIM has been given a respectable amount of attention in 15. Here's what's new:
 
 #### Disallow SIM Globally
 
@@ -218,35 +254,13 @@ Further, it will even support partial payloads! Providing the device has already
 
 Personally-owned device users **will be able to remove the configured eSIM**, though for company-owned devices, the additional policy `DISALLOW_CONFIG_MOBILE_NETWORKS` can be set to ensure eSIMs aren't deleted.
 
-### Control over Private Space
-
-Android 15 introduces Private Space, the ability for users to allocate a selection of apps in a private, authenticated profile on the device. 
-
-These applications are isolated - similar to a work profile - from the rest of the applications on the primary parent profile.
-
-The way this is managed is nuanced, per Google: 
-
-> The default value for an unmanaged user is false. For users with a device owner set, the default value is true and the device owner currently cannot change it to false. On organization-owned managed profile devices, the default value is false but the profile owner can change it to true via the parent profile to block creating of private profiles on the personal user.
-
-So in other words Private Space is disabled for fully managed devices by default, and cannot be enabled. For work profile-enabled company-owned devices, this _can_ be managed. 
-
-In testing, my fully managed device _does_ indeed fail to create a Private Space, but doesn't indicate why - it simply fails:
-
-[![set up Private Space](https://cdn.bayton.org/uploads/2024/set_up_private_space.png)](https://cdn.bayton.org/uploads/2024/set_up_private_space.png)
-
-Again, an interjection of the DPC to say this isn't possible would tremendously improve the UX.
-
-#### Expansion of general management policies into the Private Space
-
-If you're still worried the Private Space may become a wild-west of hidden app and user activity, fret not! Policies that have previously applied device-wide, like the installation of apps from unknown sources, are _still device-wide_. The Private Space adopts these restrictions with no additional management overhead.
-
 ### Disallow assist content
 
 This restriction allows administrators to prevent privileged apps, such as Assistant, from receiving contextual device information. These include screenshots, package names, and more. Useful for admins wishing to reduce the sprawl of information access privileged apps can have. This is scope-specific, so on fully managed devices will apply device-wide, but on profile-enabled devices restricts only to the managed profile.
 
 ### Circle to search
 
-Relatively straightforward, an enterprise API is being introduced to lock down circle to search - the most unnecessarily hyped up feature I've seen in a long time. This is a nice continuation of assist content above, limiting the amount of data being sent to Google services.
+Relatively straightforward, an enterprise API is being introduced to lock down circle to search - one of the most hyped up features I've seen in a long time.. but probably not something organisations want accidentally invoking on dedicated devices while customers try to order a Big Mac! This is a nice continuation of assist content above, limiting the amount of data being sent to Google services.
 
 ### Widget management is back?!
 
@@ -260,6 +274,8 @@ To note for wider context, lock screen widgets were removed way back in 5.0 citi
 
 ## Other changes and requirements for 15
 
+Rounding off what's new, here are some additional features that don't fit into the above categories:
+
 ### Platform signed permission management
 
 When a vendor works with an OEM to get their application _platform singed_, the application is granted all system-level permissions available on the device. As you can imagine, that is an _unprecedented_ level of device access to data and services reserved normally for only the OEM system apps, and Google's preloaded suite of applications. 
@@ -270,7 +286,7 @@ There's an additional config to allow platform-signed shared UIDs for non-system
 
 There are new alerts in logging to determine the permissions applications are no longer retaining access to, which vendors should already start looking at today to avoid loss of functionality.
 
-Knowing how many enterprise vendors lean on platform signature permissions today (basically most EMMs, several SaaS products, etc), this has the potential to cause headaches once 15 launches.
+Knowing how many enterprise vendors lean on platform signature permissions today (basically most EMMs, several SaaS products, etc), this has the potential to cause headaches as 15 lands on devices, unless OEMs and vendors work together proactively to avoid this.
 
 ### Screen recording improvements
 
@@ -298,18 +314,22 @@ Expanding on the options for getting and setting MTE policies in Android 14, in 
 
 ## Deeper dedicated device experience management
 
-With Better Together Enterprise, Google is introducing a new provisioning option for dedicated devices, in addition to `PERSONAL_USAGE_ALLOWED` and `PERSONAL_USAGE_DISALLOWED`, Google are introducing a third `allowPersonalUsage` AMAPI enrolment token configuration option of `DEDICATED_DEVICE`. 
+With Better Together Enterprise, AKA the new customer signup flow, Google is introducing a new provisioning option for dedicated devices, in addition to `PERSONAL_USAGE_ALLOWED` and `PERSONAL_USAGE_DISALLOWED`, Google are introducing a third `allowPersonalUsage` AMAPI enrolment token configuration option of `DEDICATED_DEVICE`. 
+
+That alone isn't an Android 15 feature, but an accompanying flag OEMs can set from 15 _within the device software_ declaring it a dedicated device should give many dedicated device-based organisations a reason to take note.
 
 Such distinguishing features between knowledge worker devices and the new dedicated devices flag include:
 
 - Setup Wizard customisation
 - Default restrictions within the Android experience
 
-Managing dedicated devices, which have always been treated identically to any other consumer Android device on the market, has been a frustrating experience; devices an end user would never use shouldn't need to configure accounts, access Google Play, deal with all the setup wizard interruptions around privacy callouts and more.. and now it looks like Google are finally doing something about it.
+Managing dedicated devices, which have always been treated identically to any other consumer Android device on the market, has been a frustrating experience; devices an end user would never use shouldn't need to configure accounts, access Google Play, deal with all the setup wizard interruptions around privacy callouts and more. I'd really hoped the [EDLA licence](/blog/2024/01/certifying-android-devices/#what-makes-the-edla-different) would have solved a lot of problems, but so many years now after its introduction the differentiation is still minimal from MADA.
 
-Unfortunately a few years too late for the almost 5 years I supported dedicated devices on a daily basis, but I look forward to future projects benefiting from these changes.
+Fortunately it looks like Google are taking another approach. _Unfortunately_ a few years too late for the almost 5 years I supported dedicated devices on a daily basis, but I look forward to future projects benefiting from these changes.
 
 ## What didn't make it
+
+These didn't make it today, but may pop up in a QPR or future Android version release:
 
 ### Dedicated document preview app
 
