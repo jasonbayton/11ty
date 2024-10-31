@@ -92,6 +92,58 @@ The replication steps, if the video isn't your cup of tea, are:
 2. Apply a policy. Initiall I was replicating this with Play Store model under personal usage policies, but I can replicate it without this on personally-owned work profile also.
 3. Installed applications in the work profile vanish.
 
+Here's the policy deployed, this is via AMAPI:
+
+```json
+{
+  "name": "enterprises/LC01qtbcq4/policies/missingapps",
+  "version": "1",
+  "applications": [
+    {
+      "packageName": "org.bayton.managedinfo",
+      "installType": "FORCE_INSTALLED",
+      "managedConfiguration": {
+        "customisation_settings": {
+          "organisation_id": "testytesty",
+          "enable_device_identifiers": true
+        }
+      },
+      "delegatedScopes": [
+        "CERT_INSTALL"
+      ]
+    },
+    {
+      "packageName": "com.google.android.apps.pixel.agent",
+      "installType": "BLOCKED"
+    },
+    {
+      "packageName": "com.google.android.apps.pixel.creativeassistant",
+      "installType": "BLOCKED"
+    },
+    {
+      "packageName": "org.bayton.packagesearch",
+      "installType": "FORCE_INSTALLED",
+      "delegatedScopes": [
+        "MANAGED_CONFIGURATIONS"
+      ],
+      "userControlSettings": "USER_CONTROL_DISALLOWED"
+    }
+  ],
+  "defaultPermissionPolicy": "GRANT",
+  "playStoreMode": "WHITELIST",
+  "advancedSecurityOverrides": {
+    "untrustedAppsPolicy": "ALLOW_INSTALL_DEVICE_WIDE",
+    "developerSettings": "DEVELOPER_SETTINGS_ALLOWED"
+  },
+  "crossProfilePolicies": {
+    "crossProfileCopyPaste": "CROSS_PROFILE_COPY_PASTE_ALLOWED",
+    "crossProfileDataSharing": "CROSS_PROFILE_DATA_SHARING_ALLOWED"
+  }
+}
+```
+
+Of 9 personally-owned work profile and 23 company-owned work profile deployments I've set up testing this, across two different, unique enterprise IDs, this has been consistently replicable.
+
 ### Workaround
 
 None I'm aware of at the moment.
