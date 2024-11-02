@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 294,
-    "totalRecent24hDevices": 23,
+    "totalNonStaleRecentDevices": 295,
+    "totalRecent24hDevices": 22,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
@@ -12,11 +12,11 @@
       "31": 30,
       "32": 5,
       "33": 62,
-      "34": 137,
+      "34": 138,
       "35": 16
     },
     "devicesByMake": {
-      "samsung": 142,
+      "samsung": 143,
       "Google": 40,
       "Rhino Mobility": 35,
       "OnePlus": 11,
@@ -58,7 +58,7 @@
       "35": 0
     },
     "numberChangeByMake": {
-      "samsung": 2,
+      "samsung": 1,
       "Google": 0,
       "Rhino Mobility": 0,
       "OnePlus": 0,
@@ -66,7 +66,7 @@
       "RHINO": 0,
       "Zebra Technologies": 0,
       "Xiaomi": 0,
-      "realme": -1,
+      "realme": 0,
       "TCL": 0,
       "TECNO": 0,
       "vivo": 0,
@@ -89,26 +89,26 @@
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 527,
-    "totalRecent24hDevices": 33,
+    "totalNonStaleRecentDevices": 530,
+    "totalRecent24hDevices": 34,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 1,
       "27": 16,
       "28": 9,
       "29": 4,
-      "30": 125,
+      "30": 126,
       "31": 29,
       "32": 35,
       "33": 55,
-      "34": 188,
+      "34": 190,
       "35": 65
     },
     "devicesByMake": {
       "Google": 250,
-      "samsung": 93,
+      "samsung": 95,
       "motorola": 65,
-      "OnePlus": 56,
+      "OnePlus": 57,
       "Nothing": 15,
       "HONOR": 7,
       "LGE": 6,
@@ -136,18 +136,18 @@
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": 0,
+      "30": 1,
       "31": 0,
       "32": 0,
       "33": 0,
       "34": 2,
-      "35": 1
+      "35": 0
     },
     "numberChangeByMake": {
-      "Google": 1,
+      "Google": 0,
       "samsung": 2,
       "motorola": 0,
-      "OnePlus": 0,
+      "OnePlus": 1,
       "Nothing": 0,
       "HONOR": 0,
       "LGE": 0,
@@ -173,7 +173,7 @@
   },
   "managedInfo": {
     "totalNonStaleRecentDevices": 132,
-    "totalRecent24hDevices": 7,
+    "totalRecent24hDevices": 4,
     "totalLicensedDevices": 46,
     "devicesByOS": {
       "28": 3,
@@ -203,10 +203,10 @@
       "32": 0,
       "33": 0,
       "34": 0,
-      "35": 3
+      "35": 0
     },
     "numberChangeByMake": {
-      "Google": 3,
+      "Google": 0,
       "OnePlus": 0,
       "samsung": 0,
       "HONOR": 0,
