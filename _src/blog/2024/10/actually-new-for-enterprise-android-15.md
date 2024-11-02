@@ -78,9 +78,12 @@ Fort Knox.
 
 Unfortunately, and Google to their credit [do highlight this](https://support.google.com/android/answer/15341885?hl=en-GB), Private Space is still a profile running within Android; the applications installed in this space can be detected with relative ease and so although it makes it extremely difficult to access app _data_, it doesn't prevent the determined from piecing together a perception of someone based on the apps they're hiding away. Assuming they have access to the device.
 
+[![Private Space and Package Search](https://cdn.bayton.org/uploads/2024/private_space_ps.png)](https://cdn.bayton.org/uploads/2024/private_space_ps.png)  
+_Giant Private Space icons added in PACKAGE SEARCH for emphasis only_.
+
 I do feel it could be improved, for example with the work profile implementation there are policies that prevent an app _inside_ the profile from locating applications _outside_ of it, so if I run [PACKAGE SEARCH](/projects/package-search) within a work profile, I cannot see the user apps installed in the parent profile. 
 
-I do appreciate this is not 1:1, effectively asking apps in the parent profile to be blocked from running package manager searches on any packages flagged against the Private Space, but I'd like to believe it's possible.
+I appreciate this is not 1:1, effectively asking apps in the parent profile to be blocked from running package manager searches on any packages flagged against the Private Space, but I'd like to believe it's possible.
 
 **So that's Private Space**. Next? COPE:
 
