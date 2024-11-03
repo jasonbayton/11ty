@@ -94,28 +94,28 @@ Software
 
 <div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-4"><dl class="gallery-item"> <dt class="gallery-icon portrait">
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141754/)
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)
 
 </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142341/)
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)
 
 </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141749/)
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)
 
 </dt></dl>
 <dl class="gallery-item"> <dt class="gallery-icon portrait">
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141737/)
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)
 
 </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-141942/)
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)
 
 </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
 
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)](/2017/07/hands-on-with-the-nokia-3/screenshot_20170730-142412/)
+[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)
 
 </dt></dl>
  </div>
