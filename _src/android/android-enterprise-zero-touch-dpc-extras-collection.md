@@ -318,6 +318,17 @@ Reach out to your vendor to ask when this functionality will be available.
 }
 </pre>
 
+## Wizy
+
+<pre>
+{
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":<strong>true/false</strong>,
+"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
+"com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN":"[\"<strong>enrollment-id</strong>\"]"
+}
+}
+</pre>
+
 Want to configure multiple domains? See [here](/android/android-enterprise-faq/configure-google-workspace-permitted-domains)
 ## Other interesting zero-touch config options
 
