@@ -8,7 +8,7 @@ type: documentation
 tags:
     - General
 eleventyNavigation:
-  order: 2000
+  order: 4000
 layout: base.njk
 ---
 Private Space was introduced in Android 15 to offer a new, isolated profile type for devices permitted for personal use. This profile allows end-users to create a private space for applications that users may wish to secure behind additional authentication, hide from out of sight of the main (parent) profile, or simply associate with a different primary Google account from that used within the parent profile.
