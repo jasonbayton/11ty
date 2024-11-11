@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 1000
 layout: base.njk
 ---
-Android's work profile was introduced in Android 5.0 Lollipop to address the challenge of managing and securing corporate data on personal devices. In Android 10 this was expanded to the COPE use case, allowing an organisation to inflate a work profile on a fully managed device, while keeping complete control over said device. Finally in Android 11, [Google adjusted the COPE use case](/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) to mirror that of BYOD, with a modicum of additional device management to aid balance between control and privacy. 
+Android's work profile was introduced in Android 5.0 Lollipop to address the challenge of managing and securing corporate data on personal devices. In Android 10 this was expanded to the COPE use case, allowing an organisation to inflate a work profile on a fully managed device, while keeping complete control over said device. Finally, in Android 11, [Google adjusted the COPE use case](/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) to mirror that of BYOD, with a modicum of additional device management to aid balance between control and privacy. 
 
 So then, what is work profile?
 
