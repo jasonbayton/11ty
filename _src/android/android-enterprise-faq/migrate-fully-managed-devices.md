@@ -15,5 +15,5 @@ eleventyNavigation:
   key: "Is it possible to migrate fully managed devices between EMM solutions?"
   order: 26000
 --- 
-Yes, however EMM support on both EMM solutions is required, and I’m not aware of any today who support this except for the Android Management API.
+Yes, however EMM support on both EMM solutions is required, and I’m not aware of any today who support this except for the Android Management API (and this is only for Play EMM API to AMAPI migrations).
 

@@ -15,7 +15,8 @@ eleventyNavigation:
   key: "Can organisations deploy applications to the parent profile in a COPE deployment?"
   order: 30000
 --- 
-**Android 8-10** – Yes, for work profiles on fully managed devices, however this would need to be supported by the EMM. VMware Workspace One UEM can do this for example by uploading an APK to the console, though there are no current examples of EMMs being able to push Google Play applications to both profiles.
+**Android 8-10** – Yes, for work profiles on fully managed devices, however this would need to be supported by the EMM. VMware Workspace One UEM could do this for example by uploading an APK to the console, though there are no current examples of EMMs being able to push Google Play applications to both profiles.
 
 **Android 11+** – No, this is not supported for work profiles on company owned devices.
 
+**Note**: Through [personal usage policies on COPE devices](/android/android-enterprise-faq/manage-personal-apps-work-profile) it's possible to make apps available within the work profile, however these will not be _installed_. 

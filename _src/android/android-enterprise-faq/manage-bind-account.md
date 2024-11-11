@@ -16,7 +16,11 @@ eleventyNavigation:
 --- 
 ## Customer signup bind management
 
-This FAQ will be updated for customer signup in the imminent future.
+When a bind is associated to the customer signup flow introduced in 2024, it is permanently associated with the Google Workspace environment/domain used during the bind setup process. 
+
+While bind migration between Google Workspace environments is not currently documented by Google, it is no longer associated to a single Google account, and any user with the appropriate permissions within the Google Workspace tenant is able to manage the bind.
+
+Information on user role management in Google Workspace can be found [here](https://support.google.com/a/answer/7519580?hl=en), while managing users can be found [here](https://support.google.com/a/answer/33310?hl=en).
 
 ## Legacy bind management
 
@@ -48,7 +52,7 @@ The same recommendations continue to apply when adding new accounts - if you're 
 
 In other words, don't do what I did when I bound my EMM to `emmsetup@gmail.com` back in 2017 (see above).
 
-Note also that **Google Workspace accounts are not supported** for administering enterprises. If a Google Workspace user is invited, they will receive an invite only to be informed "G Suite users are not supported":
+Note also that **Google Workspace accounts are not supported** for administering enterprises with the legacy bind management flow. If a Google Workspace user is invited, they will receive an invite only to be informed "G Suite users are not supported":
 
 ![](https://cdn.bayton.org/uploads/android/android-enterprise-faq/manage-bind-account/Screenshot_2023-05-13_08.11.58.png)
 
