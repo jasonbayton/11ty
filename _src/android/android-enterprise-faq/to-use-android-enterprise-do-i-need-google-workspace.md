@@ -17,7 +17,7 @@ eleventyNavigation:
 ---
 No. 
 
-While the new signup flow introduced in 2024 how guides administrators towards creating a managed Google Workspace environment, there is no cost to this, and domain validation is optional. 
+While the new signup flow introduced in 2024 now guides administrators towards creating a managed Google Workspace environment, there is no cost to this, and domain validation is optional. 
 
 Furthermore, should an organisation choose to opt out of Google Workspace, they can continue creating a bind with a standard Gmail account, and the EMM will create unique and generic managed Google Play service accounts on each Android device that allow sign in to the Google Play Store for application management as it has always been.
 
