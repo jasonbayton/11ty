@@ -55,6 +55,27 @@ Below you’ll find a number of frequently asked questions I receive related to 
 {% endfor %}
 {% endfor %}
 
+## Private Space 
+
+{% for post in collections['FAQ'] %}
+{% for tag in post.data.categories %}
+{% if tag.includes("Private Space") %}
+<div class="post-block">
+<div class="post-body">
+
+### [{{ post.data.title }}]({{ post.url | url }})
+
+<div class="post-content">
+
+{{ post.content | safe }}
+
+</div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
 ## Fully managed
 
 {% for post in collections['FAQ'] %}

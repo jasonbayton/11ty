@@ -118,6 +118,6 @@ This restriction is not yet available in [AMAPI](https://developers.google.com/a
 
 ## Private Space FAQs
 
-These can be found under the [Android Enterprise FAQ](https://bayton.org/android/android-enterprise-faq/).
+These can be found under the [Android Enterprise FAQ](/android/android-enterprise-faq/#private-space).
 
 
