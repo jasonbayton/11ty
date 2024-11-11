@@ -90,7 +90,7 @@ A. Disabling addition of accounts on work profile prevents it on fully managed a
 ### 3.4. COSU (Dedicated)  
 
 
-A. Full access to device settings, bypasses restrictions when entering settings like wifi, bluetooth, location, through the kiosk menu (MI Core)
+A. Full access to device settings, bypasses restrictions when entering settings like Wi-Fi, bluetooth, location, through the kiosk menu (MI Core)
 
 ## 4. Recommendation
 

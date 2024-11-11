@@ -50,6 +50,6 @@ Be aware on managed Android devices, bookmarks [can't be placed on the home scre
 
 Other things to consider - 
 - The order you input the subfolders and URLs reflects directly in Chrome
-- If you input a child folder (eg: `"children"`), ensure you list the name (eg: `"name":"Internal URLs"`)
+- If you input a child folder (e.g.: `"children"`), ensure you list the name (e.g.: `"name":"Internal URLs"`)
 - All normal json rules apply. You can use a json validator to be sure it's valid before committing it
 - If Chrome doesn't show the bookmarks, though other configs (eg homepage) change, the syntax is invalid

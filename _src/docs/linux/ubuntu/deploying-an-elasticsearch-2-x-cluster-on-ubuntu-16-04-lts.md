@@ -206,7 +206,7 @@ iface eth0 inet dhcp
     <strong> network 10.11.12.0</strong>
 ```
 
-The bold entry above is what needs to be added to all three servers, where `<strong>address 10.11.12.10</strong>` may be any IP range, as long as each server has a different IP on one universal subnet (eg: `10.11.12.10`, `10.11.12.11`, `10.11.12.12`)
+The bold entry above is what needs to be added to all three servers, where `<strong>address 10.11.12.10</strong>` may be any IP range, as long as each server has a different IP on one universal subnet (e.g.: `10.11.12.10`, `10.11.12.11`, `10.11.12.12`)
 
 Finally, run:
 

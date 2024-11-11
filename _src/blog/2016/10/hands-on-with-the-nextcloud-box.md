@@ -108,7 +108,7 @@ Unfortunately at the moment Snapweb itself requires manual installation via the 
 
 `sudo snap install snapweb --beta`
 
-However following this the interface will be available either via the internal IP or hostname on port 4200, eg: <https://ubuntu-standard.local:4200>. The Nexcloud Box wiki explains how this can be setup as an external site from within Nextcloud itself [here](https://github.com/nextcloud/nextcloud-snap/wiki/How-to-manage-your-snaps). Snapweb will be installed by default in this way in the future.
+However following this the interface will be available either via the internal IP or hostname on port 4200, e.g.: <https://ubuntu-standard.local:4200>. The Nexcloud Box wiki explains how this can be setup as an external site from within Nextcloud itself [here](https://github.com/nextcloud/nextcloud-snap/wiki/How-to-manage-your-snaps). Snapweb will be installed by default in this way in the future.
 
 <div class="callout callout-danger"> 
 

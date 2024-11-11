@@ -105,7 +105,7 @@ The BlackBerry Hub? Yes, that’s what they’re calling a central location dedi
 
 Replying to messages of course brings up the keyboard. As stock keyboards go, the BlackBerry keyboard is very good. The keys are easy to tap even with my large thumbs and it quickly learns how a user types. Typically within two to three letters into a word it’ll offer you the word you’re likely trying to type, allowing a simple swipe up on the next key (as opposed to tapping it) to complete the word. It works very well.
 
-Finishing off the gestures, sliding from the top down will expose a small settings panel, allowing you to quickly toggle WIFI, bluetooth, etc.
+Finishing off the gestures, sliding from the top down will expose a small settings panel, allowing you to quickly toggle Wi-Fi, bluetooth, etc.
 
 [![IMG_00000007](https://cdn.bayton.org/uploads/2013/03/IMG_00000007-614x1024.png)](https://cdn.bayton.org/uploads/2013/03/IMG_00000007.png)
 

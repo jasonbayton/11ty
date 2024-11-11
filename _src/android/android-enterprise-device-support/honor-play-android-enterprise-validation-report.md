@@ -56,7 +56,7 @@ The process otherwise runs without issue, and behaves as expected.
 
 Zero-touch provisioning **is possible**, however the manufacturer ID must be Honor’s parent company, Huawei, when importing devices into the zero-touch portal.
 
-The only recommendation would be to reorder the setup wizard somewhat, it should not be necessary to navigate through a number of steps before even being prompted for WiFi (which does not auto-continue once connected, requiring one more manual tap).
+The only recommendation would be to reorder the setup wizard somewhat, it should not be necessary to navigate through a number of steps before even being prompted for Wi-Fi (which does not auto-continue once connected, requiring one more manual tap).
 
 ![](https://cdn.bayton.org/uploads/2019/03/Screenshot_20190326_233941_com.huawei.hwstartupguide.jpg)
 

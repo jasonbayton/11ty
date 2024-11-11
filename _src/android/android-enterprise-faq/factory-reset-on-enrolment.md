@@ -19,5 +19,5 @@ Normally this would suggest either the respective Android Enterprise configurati
 
 Ensure the user of the device is in the correct Active Directory group (if relevant) or EMM group to receive the correct profiles, otherwise check the binding.
 
-Occasionally and with some EMMs this may also happen if more than one device is enrolled with the same Device Identifier, eg: Serial Number or IMEI. Validate all Device Identifiers are unique (at least within an OEM/model) as it's not uncommon to see duplicates in the wild.
+Occasionally and with some EMMs this may also happen if more than one device is enrolled with the same Device Identifier, e.g.: Serial Number or IMEI. Validate all Device Identifiers are unique (at least within an OEM/model) as it's not uncommon to see duplicates in the wild.
 

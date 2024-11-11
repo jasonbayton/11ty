@@ -99,11 +99,11 @@ We’ll initiate the rooting process by working with the exploid file. The explo
 *<span style="color: #003366;">cd sqlite\_stmt\_journals  
 chmod 755 exploid</span>*
 
-Once those commands have been executed, keep your G1 close as before you run the next command you’ll need to make sure you’re on a screen that allows you to toggle the wifi on and off. Either a **widget**, or **Settings &gt; Wireless controls.** No matter what you use, be ready to switch it on and off (or off and on) again **as soon as you execute this next command!**
+Once those commands have been executed, keep your G1 close as before you run the next command you’ll need to make sure you’re on a screen that allows you to toggle the Wi-Fi on and off. Either a **widget**, or **Settings &gt; Wireless controls.** No matter what you use, be ready to switch it on and off (or off and on) again **as soon as you execute this next command!**
 
 *<span style="color: #003366;">./exploid</span>*
 
-**Quick!** Toggle the wifi! Have you done that? Good. Now we can move on. That command just created the temporary root access needed to continue with the root process, and as such, you should now be able to run this command:
+**Quick!** Toggle the Wi-Fi! Have you done that? Good. Now we can move on. That command just created the temporary root access needed to continue with the root process, and as such, you should now be able to run this command:
 
 *<span style="color: #003366;">rootshell</span>*
 

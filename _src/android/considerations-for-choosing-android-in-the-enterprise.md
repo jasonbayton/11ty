@@ -184,7 +184,7 @@ What’s more, organisations can take application distribution a step further wi
 
 System update control is critical in enterprise, administrators need the control to be able to force updates on devices, postpone updates, and schedule them for outside of working hours.
 
-Application update control may be just as important, whether to update immediately, over WiFi only, not at all or during a scheduled time slot.
+Application update control may be just as important, whether to update immediately, over Wi-Fi only, not at all or during a scheduled time slot.
 
 Android does all of this, providing complete, granular control over when and how updates occur for managed devices to ensure devices remain secure, or to offer a little extra time for testing before initiating a corporate roll-out. Samsung’s e-FOTA service takes this a step further, offering the ability to target a particular OS version until such time later versions have been validated by the business.
 

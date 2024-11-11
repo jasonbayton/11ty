@@ -58,7 +58,7 @@ That’s pretty incredible.
 
 It also means zero day support for new features and functionality, as the OEM can literally publish the updated OEMConfig version in tandem with a device upgrade (or release it in line with a device announcement) and keep it constantly up to date; there are even instances where functionality could be introduced with a patch ad-hoc to address issues or a change in behaviour without having to wait for a major version update.
 
-Furthermore, the OEMConfig app can run privileged, meaning it may have extremely granular control over hardware and software features on the device. It’s not limited to toggling bluetooth/wifi alone, for example.
+Furthermore, the OEMConfig app can run privileged, meaning it may have extremely granular control over hardware and software features on the device. It’s not limited to toggling bluetooth/Wi-Fi alone, for example.
 
 With this support, organisations will finally be able to enrol devices knowing every API made for the device will be supported from day one, irrespective of the EMM. It’s an incredibly powerful solution to an age-old problem.
 

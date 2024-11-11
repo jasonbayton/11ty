@@ -302,7 +302,7 @@ Android enterprise clearly outshines legacy enrolment for application management
 * Global: Restrictions
   * Group specific: restrictions
     * Sub-group specific: VPN profile
-    * Sub-group specific: location-specific WiFi configuration
+    * Sub-group specific: location-specific Wi-Fi configuration
     * …
   * ...
 * ...

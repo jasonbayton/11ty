@@ -78,7 +78,7 @@ As soon as you have a success message you have flashed the BIOS. You can now reb
 
 Install Windows as you would on any computer and let it do what it needs to. After a while you’ll find yourself on that ever-familiar Windows desktop undoubtedly wondering why it’s 800×600. Whoops! Not to worry though! There are two ways about this:
 
-A) Connect to Wifi and start updating, in one of the optional updates, the most up-to-date VGA driver will be there waiting to be installed.
+A) Connect to Wi-Fi and start updating, in one of the optional updates, the most up-to-date VGA driver will be there waiting to be installed.
 
 B) If you’re not interested in waiting, you can click Start &gt; Control Panel &gt; Appearance and Personalization &gt; Display &gt; Adjust Screen Resolution (left-hand link). Click “Advanced settings” then “Properties”, select the “Driver” tab and finally, click “Update Driver”.
 
@@ -110,7 +110,7 @@ Once you’re run your Windows Experience Index, you’ll get a score of around 
 
 (Click to enlarge)
 
-And that, everyone, is a successful Windows 7 installation onto a Cr-48, also now known as “Wn-R48” because it’s so completely awesome. There are some aspects I’m working on, such as enabling the mobile internet card. As I use my streak for Wifi tethering, I’ve not yet looked into the card in all honesty. There are threads about this on [ChromeOS lounge](https://www.chromeoslounge.com/cr-48-chrome-notebook/807-cr48-gobi2000-use-other-oses.html "ChromeOS lounge") so I will be getting to it at some point.
+And that, everyone, is a successful Windows 7 installation onto a Cr-48, also now known as “Wn-R48” because it’s so completely awesome. There are some aspects I’m working on, such as enabling the mobile internet card. As I use my streak for Wi-Fi tethering, I’ve not yet looked into the card in all honesty. There are threads about this on [ChromeOS lounge](https://www.chromeoslounge.com/cr-48-chrome-notebook/807-cr48-gobi2000-use-other-oses.html "ChromeOS lounge") so I will be getting to it at some point.
 
 Additionally, if you currently open “Computer” you’ll notice you have under 4GB of storage remaining. I strongly recommend using a large(ish) SD card for storage where possible. I’ve even moved my User Data folder for Chrome to the SD \[broken\] as it takes up so much space.
 

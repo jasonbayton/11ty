@@ -151,11 +151,11 @@ Utilising this method foregoes the need for the device to be local to administra
 
 ### QR provisioning
 
-In Android 7.0 Nougat, the ability to provision a device with a QR code was introduced for both local and remote provisioning for OEMs who choose to support it (most do). By tapping on **Welcome** 6 times when the device boots into the setup Wizard, it will prompt the device to connect to WiFi and start QR enrolment, downloading a QR reader with which to scan an EMM enrolment code such as this one for MobileIron (and it will scan, if you’d like to try, however you’ll need a MobileIron Core to complete enrolment):
+In Android 7.0 Nougat, the ability to provision a device with a QR code was introduced for both local and remote provisioning for OEMs who choose to support it (most do). By tapping on **Welcome** 6 times when the device boots into the setup Wizard, it will prompt the device to connect to Wi-Fi and start QR enrolment, downloading a QR reader with which to scan an EMM enrolment code such as this one for MobileIron (and it will scan, if you’d like to try, however you’ll need a MobileIron Core to complete enrolment):
 
 ![](https://cdn.bayton.org/uploads/2017/08/static_qr_code_without_logo-5.png)
 
-In Android 9.0 Pie, the QR package is bundled into the system and therefore doesn’t require a download. This offers much faster provisioning as the device no longer needs to connect to the internet to download the QR package. New in 9 also is the ability to add WiFi credentials to the QR, thus removing one further step from the process. It easily provisions 3x faster than in older Android versions.
+In Android 9.0 Pie, the QR package is bundled into the system and therefore doesn’t require a download. This offers much faster provisioning as the device no longer needs to connect to the internet to download the QR package. New in 9 also is the ability to add Wi-Fi credentials to the QR, thus removing one further step from the process. It easily provisions 3x faster than in older Android versions.
 
 <div class="callout callout-success">
 

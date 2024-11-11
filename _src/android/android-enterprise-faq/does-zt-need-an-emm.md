@@ -17,5 +17,5 @@ eleventyNavigation:
 --- 
 Yes. 
 
-Zero-touch is just a provisioning method which deploys an EMM agent to your device over the air (OTA), to enrol into a Fully Managed Device profile using Android Enterprise (not legacy Device Admin) APIs. Google do not provide a free EMM solution, though device management is available through Google Workspace (G Suite) with the appropriate licenses.
+Zero-touch is just a provisioning method which deploys an EMM agent to your device over the air (OTA), to enrol into a Fully Managed Device profile using Android Enterprise (not legacy Device Admin) APIs. Google do not provide a free EMM solution, though device management is available through Google Workspace (G Suite) with the appropriate licences.
 

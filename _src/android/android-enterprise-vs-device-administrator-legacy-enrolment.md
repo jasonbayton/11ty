@@ -56,7 +56,7 @@ When EMMs do implement these bespoke APIs, in addition to having to request *dev
 ![](https://cdn.bayton.org/uploads/2017/10/apisupport-e1507840615305.png)
 *AirWatch restriction support by different OEMs*
 
-Beyond basic security policies and perhaps a simple email/WiFi/etc configuration then, outside of the bigger OEMs (Samsung, Huawei, Sony, others to a lesser degree), there’s not a lot administrators can manipulate and control with a legacy-managed Android device, which already makes them rather unappealing for use in an enterprise setting.
+Beyond basic security policies and perhaps a simple email/Wi-Fi/etc configuration then, outside of the bigger OEMs (Samsung, Huawei, Sony, others to a lesser degree), there’s not a lot administrators can manipulate and control with a legacy-managed Android device, which already makes them rather unappealing for use in an enterprise setting.
 
 The exception, as mentioned above, is Samsung. When a Samsung device is enrolled normally (as in, not via Knox Premium), EMM administrators have management over the device to a degree similar to that of an Android Enterprise [fully managed](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) device; there are an abundance of restrictions available and excellent visibility of device posture. Samsung’s DA offering isn’t perfect however, and encounters many of the other shortfalls of DA.
 

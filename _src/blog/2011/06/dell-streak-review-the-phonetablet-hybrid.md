@@ -38,7 +38,7 @@ I have used some phones in my time, but I have never had anything as powerful an
 
 In my opinion, battery life is the most important aspect of a smartphone and as such takes priority over other aspects listed here. After all, without a decent battery you can’t take advantage of the features the phone offers!
 
-On average, I generally get around 36 hours of battery life with fairly heavy usage, it’s fantastic. I find Bluetooth and 3G generally hog the battery most, though 3G being far worse. As such, whenever I have the choice, I use WIFI and keep data turned off.
+On average, I generally get around 36 hours of battery life with fairly heavy usage, it’s fantastic. I find Bluetooth and 3G generally hog the battery most, though 3G being far worse. As such, whenever I have the choice, I use Wi-Fi and keep data turned off.
 
 36 hours may seem alright, pretty much what you can get out of a lot of smartphones currently on the market. The difference is, however, the Streak is the only phone with a 5″ screen. Powering such a large screen can’t be easy on the battery and taking that into consideration it’s easy to see why 36 hours is quite impressive.
 

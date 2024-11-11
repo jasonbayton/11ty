@@ -74,7 +74,7 @@ Below is a list of checks undertaken for each provisioning process. For fully ma
 
 #### Zero-touch
 
-- Does not display the first run wizard after connecting to WiFi and instead after successful provisioning, goes directly to the home screen. 
+- Does not display the first run wizard after connecting to Wi-Fi and instead after successful provisioning, goes directly to the home screen. 
   - This includes “setup complete”, “OEM account” or permissions screens not directly related to the DPC being installed.
 - Correctly passes through DPC extras (like EMM server name, user ID, etc)
 - Performs a factory reset if not enrolled into EMM within one hour of provisioning, or if provisioning was bypassed.

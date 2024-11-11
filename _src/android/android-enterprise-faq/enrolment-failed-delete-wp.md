@@ -17,7 +17,7 @@ eleventyNavigation:
 --- 
 There are a few options available:
 
-**Reboot the device and re-enrol** as sometimes all it takes is a reboot, and the EMM will prompt it’s deletion as it provisions the profile once again.
+**Reboot the device and re-enrol** as sometimes all it takes is a reboot, and the EMM will prompt its deletion as it provisions the profile once again.
 
 **Manually delete the work profile** by heading to *Settings &gt; Accounts*. The work profile will be listed and should be removable here.
 

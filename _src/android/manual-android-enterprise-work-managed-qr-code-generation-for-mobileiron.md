@@ -25,7 +25,7 @@ How it works
 
 When taking a factory-reset device out of the box, the Android setup wizard presents a “Welcome” screen. While this can and does vary on exact wording and placement, normally tapping on the “Welcome” text or a similarly placed logo 6 times in the same place will invoke the QR setup process.
 
-Once invoked, the device will request a WiFi connection, perform a few initial checks, automatically download a QR reader and start it, ready to be presented with a QR code.
+Once invoked, the device will request a Wi-Fi connection, perform a few initial checks, automatically download a QR reader and start it, ready to be presented with a QR code.
 
 From there on the process is similar to that of the NFC and wireless token enrolment methods, with the setup wizard being largely skipped and the MobileIron agent instead presented for enrolment of the now work-managed device.
 

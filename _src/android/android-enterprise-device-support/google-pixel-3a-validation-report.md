@@ -124,10 +124,10 @@ There are numerous issues with the MobileIron kiosk, these are not limited to th
 - No access to settings other than those explicitly permitted
 - Kiosk auto-launches
 
-Despite the relevant configurations in place, it is effortless to escape the MobileIron kiosk if any access to settings has been granted. For example should WiFi settings be available:
+Despite the relevant configurations in place, it is effortless to escape the MobileIron kiosk if any access to settings has been granted. For example should Wi-Fi settings be available:
 
 - Tap kiosk settings
-- Tap WiFi
+- Tap Wi-Fi
 - In the systems settings screen, tap the back arrow or hamburger menu
 - Full settings access is granted
 

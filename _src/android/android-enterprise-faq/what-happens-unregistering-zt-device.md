@@ -15,7 +15,7 @@ eleventyNavigation:
   key: "What happens if a device is unregistered from the zero-touch console?"
   order: 42000
 --- 
-This action results in the device being irreversibly removed from zero-touch management. Please contact the device reseller to add it back in. The IMEI or serial (WiFi only devices) will be required.
+This action results in the device being irreversibly removed from zero-touch management. Please contact the device reseller to add it back in. The IMEI or serial (Wi-Fi only devices) will be required.
 
 Any currently-enrolled devices will not be impacted until they are factory reset.
 
