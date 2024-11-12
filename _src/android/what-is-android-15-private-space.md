@@ -102,7 +102,9 @@ Private Space is only supported on personally-owned work profile, and company-ow
 
 Private Space conforms to all of the device-wide policies applicable with work profile deployments, this includes such restrictions as preventing app installation from unknown sources, for example.
 
-In company-owned work profile deployments (COPE) this also includes application policies; allow & block list policies that would apply to the parent profile, preventing unfettered access to Google Play, also apply within the Private Space. This prevents end-users circumventing enterprise policy by simply installing disallowed apps within the Private Space.
+In company-owned work profile deployments (COPE), this also includes application policies; allow & block list policies that would apply to the parent profile, preventing unfettered access to Google Play, also apply within the Private Space*. This prevents end-users circumventing enterprise policy by simply installing disallowed apps within the Private Space.
+
+*This is currently only supported on AMAPI, for customDPC EMMs, administrators are not able to restrict the applications users install within the Private Space. Consider this before enabling it.
 
 Finally, for company-owned work profile devices, the Private Space can be fully disabled to prevent its use entirely.
 

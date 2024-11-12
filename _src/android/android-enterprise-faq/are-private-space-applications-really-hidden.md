@@ -14,4 +14,4 @@ eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   order: 1000
 --- 
-Applications within the Private Space may be detected through the use of ADB, or on-device [package viewers](/projects/package-search). While application _data_ is fully secure and isolated from visibility, the presence of applications themselves cannot today be entirely hidden from view for anyone determined.
+Applications within the Private Space may be detected through the use of ADB, or on-device [package viewers](/projects/package-search). While application _data_ is fully secure and isolated from visibility, the presence of the applications themselves cannot today be entirely hidden from view for anyone determined enough to go looking for them.

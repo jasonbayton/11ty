@@ -58,7 +58,7 @@ As it turns out, no.
 >
 > _[via](https://support.google.com/work/android/answer/15528640#zippy=%2Cprivate-space-for-personal-profile%2Cesim-management-for-managed-devices%2Csecurity-restrictions-for-apps-outside-the-work-profile-on-company-owned-devices%2Candroid-theft-protection%2Cenforce-the-default-app-selection-for-calls-messaging-and-web-browsing-when-setting-up-company-owned-devices%2Cscreen-brightness-timeout-controls-for-company-owned-personally-enabled-cope-devices%2Cniap-audit-logging-requirements:~:text=Android%2015%20for%20business%20introduces%20the,made%20backward%20compatible%20with%20Android%2015.)_
 
-The policies applied for permitted or blocked apps in a COPE deployment scenario also apply to the Private Space. 
+The policies applied for permitted or blocked apps in a COPE deployment scenario also apply to the Private Space for AMAPI enrolments. CustomDPC EMMs will gain the same functionality at a later date (no ETA provided by Google).
 
 #### The case for Private Space on fully managed devices
 
