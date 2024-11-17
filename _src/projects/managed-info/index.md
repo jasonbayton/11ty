@@ -12,7 +12,7 @@ excerpt: ''
 type: page
 layout: project.njk
 ---
-**MANAGED INFO is an information, or support, utility designed to provide managed Android device users with a simple interface configured with actions, support information, and device details.**
+**MANAGED INFO is an information & support utility designed to provide managed Android device users with a simple interface configured with actions, support information, and device details.**
 
 ## What does MANAGED INFO do?
 
