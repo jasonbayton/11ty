@@ -39,7 +39,7 @@ eleventyNavigation:
     </div>
     <div class="pricing-item">
         <h3>Vendor/whitelabel</h3>
-        <p class="price">From £3,000</p>
+        <p class="price">From £2,000</p>
         <ul>
             <li>Custom branding</li>
             <li>Custom app functionality</li>
