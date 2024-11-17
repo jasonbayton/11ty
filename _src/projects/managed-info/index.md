@@ -36,7 +36,7 @@ MANAGED INFO is a **free** application. An optional licence unlocks additional c
 - Custom information cards
 - Disabling fun (😁)
 
-If desired, MANAGED INFO can be organisation-branded as a custom application. Please do get in touch if interested.
+If desired, MANAGED INFO can be organisation-branded as a custom application. Please get in touch if interested.
 
 View more details and pricing information:
 
