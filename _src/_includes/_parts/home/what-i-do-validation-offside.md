@@ -1,7 +1,11 @@
 - HMD Global
-- Motorola/Lenovo
+- Nuu Mobile
+- Motorola
+- Pixel
+- Lenovo
 - Sony Mobile
 - Bullitt Group (CAT) 
 - BQ
 - OnePlus
 - Miradore (MDM)
+- Appaloosa

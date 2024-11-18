@@ -45,7 +45,7 @@ PACKAGE SEARCH is a **free** application. If you'd like to contribute to continu
 
 You can find the app publicly here:
 
-[![get it on play](https://cdn.bayton.org/assets/resources/get_it_on_google.svg)](https://play.google.com/store/apps/details?id=org.bayton.packagesearch)
+<a href="https://play.google.com/store/apps/details?id=org.bayton.packagesearch">{% include "_src/_includes/_assets/img/site_media/get_it_on_google.svg" %}</a>
 
 ## Help & support
 

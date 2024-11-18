@@ -1,10 +1,12 @@
 - 8,000 device Android Enterprise deployment with Library For All & Save the Children AU
 - MobileIron Cloud Android Enterprise healthcheck
-- Microsoft Intune Windows, iOS, MacOS & Android deployment
+- Microsoft Intune MacOS & Android deployment
 - Google Workspace Android & ChromeOS deployment
 - SOTI remote troubleshooting & policy analysis
+- NinjaOne MDM healthcheck
 - 100,000 device deployment on the Android Management API
 - OEM consultation for EMM support of an Android-based AR device
+- OEM consultation for OEM Config project
 
 <div class="side-note">
 
