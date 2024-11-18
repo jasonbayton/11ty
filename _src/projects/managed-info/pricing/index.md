@@ -26,7 +26,7 @@ eleventyNavigation:
     </div>
     <div class="pricing-item popular">
         <h3>Organisation licence</h3>
-        <p class="price">From £500</p>
+        <p class="price">From £300</p>
         <ul>
             <li>Hide most BAYTON branding</li>
             <li>Custom in-app title</li>
@@ -39,7 +39,7 @@ eleventyNavigation:
     </div>
     <div class="pricing-item">
         <h3>Vendor/whitelabel</h3>
-        <p class="price">From £3,000</p>
+        <p class="price">From £2,000</p>
         <ul>
             <li>Custom branding</li>
             <li>Custom app functionality</li>
