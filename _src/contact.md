@@ -27,6 +27,5 @@ Android Enterprise Customer Community - [jasonbayton](https://www.androidenterpr
 
 
 MobilePros Discord: [Join here](https://discord.gg/KGEpPxnjNu)  
-MobilePros Telegram: [Join here](https://t.me/Mobile_Pros)
 
 I do occasionally pop up elsewhere also!
