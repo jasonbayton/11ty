@@ -84,7 +84,7 @@ Customisation is available per organisation ID, and licensed accordingly:
 
 ### Application bundles
 
-Bundle MANAGED SETTINGS and MANAGED INFO for at a discounted combined cost
+Bundle MANAGED SETTINGS and MANAGED INFO at a discounted combined cost.
 
 <div class="responsive-table-wrapper">
 
