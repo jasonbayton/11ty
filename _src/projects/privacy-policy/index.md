@@ -13,7 +13,7 @@ eleventyNavigation:
     order: 3
     title: Privacy policy
 ---
-_Version 1.1, 30th August, 2024_
+_Version 1.1, 11th December, 2024_
 
 ## Introduction
 Welcome to BAYTON projects. This privacy policy explains how I collect, use, disclose, and safeguard your information when you use or engage with my projects. By using these projects, you agree to the collection and use of information in accordance with this policy.
@@ -24,7 +24,7 @@ Welcome to BAYTON projects. This privacy policy explains how I collect, use, dis
 
 ## Application Details
 **Application Name(s)**: PACKAGE SEARCH, MANAGED SETTINGS, MANAGED INFO, QR CODE  
-**Purpose**: Application information and package name extraction, settings management, information management, device provisioning
+**Purpose**: Application information and package name extraction, settings management, information management, device provisioning.
 
 ## Definitions
 - **Personal Data**: Any information that relates to an identified or identifiable individual.
@@ -33,10 +33,10 @@ Welcome to BAYTON projects. This privacy policy explains how I collect, use, dis
 
 ## Data Collection
 ### Types of Data Collected
-- **Basic Device Details**: Non-identifiable information including Android device make, model, OS version, the application in use, and the licence key used may be collected.
+- **Basic Device Details**: Non-identifiable information including Android device make, model, OS version, the application in use, the country a device resides in, and the licence key used may be collected.
 
 ### Collection Methods
-- **Basic Device Details**: Collected on application/project engagement and sent to the BAYTON application activation server.
+- **Basic Device Details**: Collected on application/project engagement and sent to the BAYTON application activation (PING) server.
 
 ### Cookies and Tracking Technologies
 I do not use cookies or similar tracking technologies in-app.
@@ -53,7 +53,7 @@ I do not use cookies or similar tracking technologies in-app.
 - **Legitimate Interests**: Processing is necessary for the legitimate interests of BAYTON, such as improving my services, provided these interests are not overridden by the user's rights and interests.
 
 ## Data Sharing
-- **Third Parties**: I do not share user data with any third parties.
+- **Third Parties**: I do not actively share user data with any specific third parties, however aggregated usage data is available on the respective project pages showing install base and hardware variance as graphs.
 - **International Transfers**: No international data transfers are conducted.
 
 ## Data Retention
