@@ -94,7 +94,7 @@ Bundle MANAGED SETTINGS and MANAGED INFO at a discounted combined cost.
 |                      | 0 - 2,000      | £700      | Get in touch                                                                                                 |
 |                      | 2,001 - 5,000  | £100      | Get in touch                                                                                                 |
 |                      | 5,001 - ∞      | £1,500    | Get in touch                                                                                                 |
-| **Priority support** | ∞              | £1,200p.a | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
+| **Priority support** | ∞              | £1,200p.a | Get in touch                                                                                                 | 
 
 </div>
 
