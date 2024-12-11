@@ -72,6 +72,24 @@ async function fetchAndSaveDevices() {
             return timeDifference / (1000 * 3600 * 24);
         };
 
+        // Count devices by a specific field
+        const countByField = (devices, field) => {
+            return devices.reduce((acc, device) => {
+                const key = device[field] || 'Unknown';
+                acc[key] = (acc[key] || 0) + 1;
+                return acc;
+            }, {});
+        };
+
+        // Count devices by country (case-insensitive)
+        const countByCountry = (devices) => {
+            return devices.reduce((acc, device) => {
+                const country = (device.countryCode || 'Unknown').toUpperCase(); // Normalize to uppercase
+                acc[country] = (acc[country] || 0) + 1;
+                return acc;
+            }, {});
+        };
+
         // Function to process devices by service
         function processDevices(devices, validLicenses) {
             // Create a Map to track unique device IDs
@@ -109,17 +127,10 @@ async function fetchAndSaveDevices() {
             const licensedDevices = nonStaleRecentDevices.filter(device => validLicenses.has(device.orgId));
             const totalLicensedDevices = licensedDevices.length;
 
-            // Count devices by OS and make
-            const countByField = (devices, field) => {
-                return devices.reduce((acc, device) => {
-                    const key = device[field] || 'Unknown';
-                    acc[key] = (acc[key] || 0) + 1;
-                    return acc;
-                }, {});
-            };
-
+            // Count devices by OS, make, and country
             const devicesByOS = countByField(nonStaleRecentDevices, 'os');
             const devicesByMake = countByField(nonStaleRecentDevices, 'make');
+            const devicesByCountry = countByCountry(nonStaleRecentDevices);
 
             // Sort counts in descending order
             const sortCountsDesc = counts => {
@@ -130,6 +141,7 @@ async function fetchAndSaveDevices() {
 
             const sortedDevicesByOS = sortCountsDesc(devicesByOS);
             const sortedDevicesByMake = sortCountsDesc(devicesByMake);
+            const sortedDevicesByCountry = sortCountsDesc(devicesByCountry);
 
             return {
                 totalNonStaleRecentDevices,
@@ -137,8 +149,10 @@ async function fetchAndSaveDevices() {
                 totalLicensedDevices,
                 devicesByOS: sortedDevicesByOS,
                 devicesByMake: sortedDevicesByMake,
+                devicesByCountry: sortedDevicesByCountry,
                 numberChangeByOS: {},
-                numberChangeByMake: {}
+                numberChangeByMake: {},
+                numberChangeByCountry: {}
             };
         }
 
@@ -157,7 +171,7 @@ async function fetchAndSaveDevices() {
             previousData = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
         }
 
-        // Calculate number change for OS and make
+        // Calculate number change for OS, make, and country
         if (previousData) {
             ['managedSettings', 'packageSearch', 'managedInfo'].forEach(service => {
                 const currentData = service === 'managedSettings' ? managedSettingsResult
@@ -166,6 +180,7 @@ async function fetchAndSaveDevices() {
                 const prevData = previousData[service] || {};
                 const prevOS = prevData.devicesByOS || {};
                 const prevMake = prevData.devicesByMake || {};
+                const prevCountry = prevData.devicesByCountry || {};
 
                 // Combine all OS keys
                 const allOS = new Set([...Object.keys(currentData.devicesByOS), ...Object.keys(prevOS)]);
@@ -183,6 +198,15 @@ async function fetchAndSaveDevices() {
                     const currentCount = currentData.devicesByMake[make] || 0;
                     const numberChange = currentCount - previousCount;
                     currentData.numberChangeByMake[make] = numberChange;
+                }
+
+                // Combine all country keys
+                const allCountries = new Set([...Object.keys(currentData.devicesByCountry), ...Object.keys(prevCountry)]);
+                for (const country of allCountries) {
+                    const previousCount = prevCountry[country] || 0;
+                    const currentCount = currentData.devicesByCountry[country] || 0;
+                    const numberChange = currentCount - previousCount;
+                    currentData.numberChangeByCountry[country] = numberChange;
                 }
             });
         }

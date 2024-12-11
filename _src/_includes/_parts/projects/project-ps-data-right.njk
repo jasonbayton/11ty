@@ -72,6 +72,38 @@
     </table>
   </div>
 
+  <h3>Devices by Country (90 day)</h3>
+  <div id="country_chart_package_search" style="max-width: 100%; height: 500px;"></div>
+
+  <div class="responsive-table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Country Code</th>
+          <th>% of devices</th>
+          <th>Change (24h)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for country, count in devices.packageSearch.devicesByCountry %}
+        <tr>
+          <td>{{ country }}</td>
+          <td>{{ (count / devices.packageSearch.totalNonStaleRecentDevices * 100).toFixed(1) }}%</td>
+          <td>
+            {% set prevCount = devices.packageSearch.totalNonStaleRecentDevices - devices.packageSearch.numberChangeByCountry[country] %}
+            {% if prevCount > 0 %}
+              {% set percChange = (devices.packageSearch.numberChangeByCountry[country] / prevCount) * 100 %}
+              {{ percChange.toFixed(1) }}%
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
     google.charts.load('current', {'packages':['corechart']});
@@ -80,6 +112,7 @@
     function drawChartsPackageSearch() { 
       drawOSChartPackageSearch();
       drawModelChartPackageSearch();
+      drawCountryChartPackageSearch(); // Add the new country chart
     }
 
     function applyLegendTextColor(chartId) {
@@ -130,6 +163,31 @@
 
       var chart = new google.visualization.PieChart(document.getElementById('model_chart_package_search'));
       google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('model_chart_package_search'));
+      chart.draw(data, options);
+
+      // Redraw charts on window resize
+      window.addEventListener('resize', drawChartsPackageSearch); 
+    }
+
+    function drawCountryChartPackageSearch() {
+      var data = google.visualization.arrayToDataTable([
+        ['Country Code', 'Number of Devices'],
+        {% for country, count in devices.packageSearch.devicesByCountry %}
+          ['{{ country }}', {{ count }}],
+        {% endfor %}
+      ]);
+
+      var options = {
+        title: 'Devices by Country',
+        pieHole: 0.4,
+        backgroundColor: 'transparent',
+        chartArea: { width: '90%', height: '80%' },
+        legend: { position: 'bottom', maxLines: 3 },
+        tooltip: { text: 'percentage' }
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('country_chart_package_search'));
+      google.visualization.events.addListener(chart, 'ready', () => applyLegendTextColor('country_chart_package_search'));
       chart.draw(data, options);
 
       // Redraw charts on window resize
