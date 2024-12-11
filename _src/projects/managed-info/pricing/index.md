@@ -115,7 +115,7 @@ Invoicing is available if Stripe isn't your thing. If your organisation leverage
 
 If you're an ecosystem partner (or organisation) there are two current approaches:
 
-**Resell**: Licence customers on the standard package (as above). Get in touch to discuss reseller discounts
+**Resell**: Licence customers on the standard package (as above). Get in touch to discuss reseller discounts.
 
 **Whitelabel**: Licence a version that is customised out of box (no waiting for managed configs to apply). £3,000 will grant you a vendor licence to distribute across your customer base, and a flat £300 for each organisation ID associated with your custom package ID, or £0.30 per device.
 
