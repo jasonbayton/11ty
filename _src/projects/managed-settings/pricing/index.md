@@ -53,11 +53,7 @@ eleventyNavigation:
         <h3>Priority support</h3>
         <p class="price">£1,000(p.a)</p>
         <ul>
-            <li>A dedicated, private communication channel (Discord & voice)</li>
-            <li>Faster (UK hours) responses</li>
-            <li>Precedence on feature requests</li>
-            <li>Deployment and configuration assistance</li>
-            <li>Discounted consultancy (hours)</li>
+            <li>Add a support contract for enhanced assistance with BAYTON apps & your deployment(s)</li>
         </ul>
         <a href="#support-priority-support" class="btn">View details</a>
     </div>
@@ -72,8 +68,8 @@ Customisation is available per organisation ID, and licensed as below. All but P
 
 | Licence              | Devices                  | Cost      |                                                                                                              | 
 | -------------------- | ------------------------ | --------- | ------------------------------------------------------------------------------------------------------------ |
-| **Organisation ID**  | Per device               | £0.50     | Get in touch                                                                                                 |
-|                      | Per device incl. support | £1        | Get in touch                                                                                                 |
+| **Organisation ID**  | Per device               | £0.50     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/8wM7tqdgAcqo8WQ7sE) |
+|                      | Per device incl. support | £1        | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/28o2967Wg9eca0UbIV) |
 |                      | 0 - 2,000                | £500      | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
 |                      | 2,001 - 5,000            | £700      | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
 |                      | 5,001 - ∞                | £1,000    | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
@@ -81,9 +77,8 @@ Customisation is available per organisation ID, and licensed as below. All but P
 
 </div>
 
-*For organisations or EDU with budget constraints, please get in touch.*
-
-### Application bundles
+<div class="callout callout-green">
+<div class="callout-heading callout-heading-small">Application bundles</div>
 
 Bundle MANAGED SETTINGS and MANAGED INFO at a discounted, combined, one-time cost.
 
@@ -99,19 +94,9 @@ Bundle MANAGED SETTINGS and MANAGED INFO at a discounted, combined, one-time cos
 | **Priority support** | ∞                        | £1,500p.a | Get in touch                                                                                                 | 
 
 </div>
+</div>
 
-### <span class="material-symbols-outlined orange">support</span> Priority support
-
-MANAGED SETTINGS comes with access to email support, access to the Discord community, and documentation. If you'd like additional support, priority offers:
-
-- A dedicated, private communication channel (Discord & voice)
-- Faster (UK hours) responses
-- Precedence on feature requests 
-- Deployment and configuration assistance
-
-**It's an annual recurring fee**.
-
-Invoicing is available if Stripe isn't your thing. If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem, so dodging fair licensing sucks for everyone. 
+*For organisations or EDU with budget constraints, please get in touch.*
 
 ## Charities & NPOs
 
@@ -134,6 +119,20 @@ If you're an ecosystem partner (or organisation) there are two current approache
 |                     | Per device | £0.30  |  
 
 </div>
+
+## <span class="material-symbols-outlined orange">support</span> Priority support
+
+MANAGED SETTINGS comes with access to email support, access to the Discord community, and documentation. If you'd like additional support, priority offers:
+
+- A dedicated, private communication channel (Discord & voice)
+- Faster (UK hours) responses
+- Precedence on feature requests 
+- Deployment and configuration assistance
+- Discounted consultancy (hours)
+
+**It's an annual recurring fee**.
+
+Invoicing is available if Stripe isn't your thing. If your organisation leverages multiple organisation IDs as one company, licence your primary ID. If each ID is an individual organisation please licence accordingly. I won't know either way, but the earnings go towards funding continued projects and free support in the ecosystem, so dodging fair licensing sucks for everyone. 
 
 <div class="callout callout-blue">
 <div class="callout-heading callout-heading-small callout-icon-sad">I don't like this pricing</div>
