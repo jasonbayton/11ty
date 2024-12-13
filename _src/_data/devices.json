@@ -1,25 +1,25 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 454,
-    "totalRecent24hDevices": 69,
+    "totalNonStaleRecentDevices": 462,
+    "totalRecent24hDevices": 85,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "26": 3,
       "27": 3,
-      "28": 8,
+      "28": 6,
       "29": 9,
-      "30": 66,
+      "30": 69,
       "31": 39,
       "32": 4,
-      "33": 123,
-      "34": 180,
-      "35": 19
+      "33": 126,
+      "34": 183,
+      "35": 20
     },
     "devicesByMake": {
-      "samsung": 323,
-      "Google": 32,
+      "samsung": 327,
+      "Google": 33,
+      "motorola": 19,
       "Xiaomi": 16,
-      "motorola": 15,
       "OnePlus": 11,
       "realme": 8,
       "Topicon": 5,
@@ -27,13 +27,13 @@
       "Rhino Mobility": 4,
       "Zebra Technologies": 4,
       "TCL": 4,
-      "vivo": 3,
       "OPPO": 3,
       "ZTE": 3,
       "Crosscall": 2,
       "TECNO": 2,
       "Amazon": 2,
       "RHINO": 2,
+      "vivo": 2,
       "BLU": 2,
       "ITEL": 1,
       "HONOR": 1,
@@ -45,10 +45,10 @@
       "Microsoft": 1
     },
     "devicesByCountry": {
-      "UNKNOWN": 429,
-      "BR": 14,
-      "GB": 5,
-      "US": 3,
+      "UNKNOWN": 417,
+      "BR": 29,
+      "GB": 8,
+      "US": 5,
       "BE": 1,
       "SG": 1,
       "GT": 1
@@ -56,20 +56,20 @@
     "numberChangeByOS": {
       "26": 0,
       "27": 0,
-      "28": 0,
+      "28": -2,
       "29": 0,
-      "30": 1,
+      "30": 3,
       "31": 0,
-      "32": 1,
-      "33": 4,
-      "34": 2,
-      "35": 0
+      "32": 0,
+      "33": 3,
+      "34": 3,
+      "35": 1
     },
     "numberChangeByMake": {
-      "samsung": 7,
+      "samsung": 4,
       "Google": 1,
+      "motorola": 4,
       "Xiaomi": 0,
-      "motorola": 0,
       "OnePlus": 0,
       "realme": 0,
       "Topicon": 0,
@@ -77,13 +77,13 @@
       "Rhino Mobility": 0,
       "Zebra Technologies": 0,
       "TCL": 0,
-      "vivo": 0,
       "OPPO": 0,
       "ZTE": 0,
       "Crosscall": 0,
       "TECNO": 0,
       "Amazon": 0,
       "RHINO": 0,
+      "vivo": -1,
       "BLU": 0,
       "ITEL": 0,
       "HONOR": 0,
@@ -95,9 +95,9 @@
       "Microsoft": 0
     },
     "numberChangeByCountry": {
-      "UNKNOWN": 1,
-      "BR": 4,
-      "GB": 1,
+      "UNKNOWN": -12,
+      "BR": 15,
+      "GB": 3,
       "US": 2,
       "BE": 0,
       "SG": 0,
@@ -105,24 +105,24 @@
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 304,
-    "totalRecent24hDevices": 35,
+    "totalNonStaleRecentDevices": 307,
+    "totalRecent24hDevices": 38,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "27": 5,
       "28": 14,
       "29": 2,
-      "30": 64,
+      "30": 62,
       "31": 11,
       "32": 12,
       "33": 21,
-      "34": 105,
-      "35": 70
+      "34": 108,
+      "35": 72
     },
     "devicesByMake": {
       "Google": 135,
-      "samsung": 79,
-      "OnePlus": 27,
+      "samsung": 82,
+      "OnePlus": 28,
       "HONOR": 9,
       "unknown": 8,
       "MobiWire": 8,
@@ -132,12 +132,12 @@
       "LENOVO": 4,
       "Zebra Technologies": 3,
       "Weiheng digital company limited": 3,
-      "realme": 2,
       "Honeywell": 2,
       "TCL": 2,
       "Acer": 1,
       "Rhino Mobility": 1,
       "TECNO MOBILE LIMITED": 1,
+      "realme": 1,
       "Sony": 1,
       "QEMU": 1,
       "Fairphone": 1,
@@ -145,27 +145,36 @@
       "Xiaomi": 1
     },
     "devicesByCountry": {
-      "UNKNOWN": 289,
-      "GB": 10,
-      "US": 2,
+      "UNKNOWN": 270,
+      "GB": 17,
+      "US": 5,
+      "FR": 2,
+      "NL": 2,
+      "SE": 2,
       "XK": 2,
-      "FR": 1
+      "IT": 1,
+      "NZ": 1,
+      "JM": 1,
+      "PL": 1,
+      "IN": 1,
+      "DE": 1,
+      "ES": 1
     },
     "numberChangeByOS": {
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": 0,
+      "30": -2,
       "31": 0,
-      "32": -1,
+      "32": 0,
       "33": 0,
-      "34": 2,
-      "35": 0
+      "34": 3,
+      "35": 2
     },
     "numberChangeByMake": {
-      "Google": -1,
-      "samsung": 2,
-      "OnePlus": 0,
+      "Google": 0,
+      "samsung": 3,
+      "OnePlus": 1,
       "HONOR": 0,
       "unknown": 0,
       "MobiWire": 0,
@@ -175,12 +184,12 @@
       "LENOVO": 0,
       "Zebra Technologies": 0,
       "Weiheng digital company limited": 0,
-      "realme": 0,
       "Honeywell": 0,
       "TCL": 0,
       "Acer": 0,
       "Rhino Mobility": 0,
       "TECNO MOBILE LIMITED": 0,
+      "realme": -1,
       "Sony": 0,
       "QEMU": 0,
       "Fairphone": 0,
@@ -188,28 +197,37 @@
       "Xiaomi": 0
     },
     "numberChangeByCountry": {
-      "UNKNOWN": -5,
-      "GB": 3,
-      "US": 0,
-      "XK": 2,
-      "FR": 1
+      "UNKNOWN": -19,
+      "GB": 7,
+      "US": 3,
+      "FR": 1,
+      "NL": 2,
+      "SE": 2,
+      "XK": 0,
+      "IT": 1,
+      "NZ": 1,
+      "JM": 1,
+      "PL": 1,
+      "IN": 1,
+      "DE": 1,
+      "ES": 1
     }
   },
   "managedInfo": {
-    "totalNonStaleRecentDevices": 125,
-    "totalRecent24hDevices": 10,
+    "totalNonStaleRecentDevices": 127,
+    "totalRecent24hDevices": 7,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "28": 3,
       "30": 37,
       "31": 6,
-      "32": 4,
+      "32": 5,
       "33": 3,
       "34": 29,
-      "35": 43
+      "35": 44
     },
     "devicesByMake": {
-      "Google": 66,
+      "Google": 68,
       "OnePlus": 34,
       "samsung": 11,
       "HONOR": 5,
@@ -221,15 +239,16 @@
       "LENOVO": 1
     },
     "devicesByCountry": {
-      "UNKNOWN": 112,
-      "GB": 5,
-      "US": 2,
+      "UNKNOWN": 111,
+      "GB": 6,
+      "US": 3,
       "JM": 1,
       "SG": 1,
       "EC": 1,
       "PH": 1,
       "AU": 1,
-      "XK": 1
+      "XK": 1,
+      "DE": 1
     },
     "numberChangeByOS": {
       "28": 0,
@@ -237,13 +256,13 @@
       "31": 0,
       "32": 1,
       "33": 0,
-      "34": 1,
-      "35": 0
+      "34": 0,
+      "35": 1
     },
     "numberChangeByMake": {
-      "Google": 1,
+      "Google": 2,
       "OnePlus": 0,
-      "samsung": 1,
+      "samsung": 0,
       "HONOR": 0,
       "RHINO": 0,
       "unknown": 0,
@@ -261,7 +280,8 @@
       "EC": 0,
       "PH": 0,
       "AU": 0,
-      "XK": 1
+      "XK": 0,
+      "DE": 1
     }
   }
 }
