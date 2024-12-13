@@ -27,7 +27,7 @@ eleventyNavigation:
     </div>
     <div class="pricing-item popular">
         <h3>Organisation licence</h3>
-        <p class="price">From £500<br><i></small>or £0.50 per device</small></i></p>
+        <p class="price">From £500<br><i><small>or £0.50 per device</small></i></p>
         <ul>
             <li>Hide most BAYTON branding</li>
             <li>Custom in-app title & logo</li>
