@@ -29,17 +29,29 @@ To set customisation options, your organisation must be licensed. If you do not 
 
 MANAGED INFO offers the following customisations:
 
-**Disable settings** _- 1.0.0.2_
-: The option to disable access to MANAGED INFO settings, where BAYTON branding, links, and resources are provided. This will also adjust the left-hand application icon to lessen the SWIRL branding.
-
 **App title** _- 1.0.0.1_
 : The option to replace the default app title of **Info** with another.
+
+**Disable settings** _- 1.0.0.2_
+: The option to disable access to MANAGED INFO settings, where BAYTON branding, links, and resources are provided. This will also adjust the left-hand application icon to reduce the SWIRL branding.
+
+**Text cards** _-1.0.0.2_
+: Allows for a custom card with a custom title to be configured. 
 
 **Disable fun** _- 1.0.0.3_
 : Removes the Baydroid mascot and swaps with a generic icon for warning states.
 
-**Custom card** _-1.0.0.2_
-: Allows for a custom card with a custom title to be configured. It'll show underneath the organisation message when all items are enabled.
+**Show device identifiers** _- 1.0.0.7_
+: Show device identifiers, **IMEI**, **Serial number**, **Android ID**, and **Enrolment-specific ID**. This requires the delegated scope CERT_INSTALL and the permission READ_PHONE_STATE.
+
+**Application & message cards** _- 1.0.0.8_
+: Configure application cards. These cards hold one application and a text description. Useful for displaying an app with either a call to action, or a description.
+
+**Application grid cards** _- 1.0.0.8_
+: Configure an app grid. Like a traditional launcher, but neatly laid out within a card. These cards support a fixed icons-per-line, or unlimited with automatic wrap.
+
+**Vertical and horizontal stacks** _-1.0.0.8_
+: Create cards in all directions. Supports stack-order as well as global order. Currently supports Text stacks.
 
 ### In future
 
