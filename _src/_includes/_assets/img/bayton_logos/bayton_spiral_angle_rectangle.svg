@@ -1,5 +1,6 @@
 <svg width="170" height="27" viewBox="0 0 2871 462" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="bayton_swirl_angle_rectangle">
+        <!-- if homepage, go full-white -->
         {% if page.url == '/' %}
         <g id="dynamic">
             <g id="text">
