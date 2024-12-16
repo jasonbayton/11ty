@@ -66,14 +66,14 @@ Customisation is available per organisation ID, and licensed as below. All but P
 
 <div class="responsive-table-wrapper">
 
-| Licence              | Devices                  | Cost      |                                                                                                              | 
-| -------------------- | ------------------------ | --------- | ------------------------------------------------------------------------------------------------------------ |
-| **Organisation ID**  | Per device               | £0.50     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/8wM7tqdgAcqo8WQ7sE) |
-|                      | Per device incl. support | £1        | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/28o2967Wg9eca0UbIV) |
-|                      | 0 - 2,000                | £500      | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
-|                      | 2,001 - 5,000            | £700      | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
-|                      | 5,001 - ∞                | £1,000    | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
-| **Priority support** | ∞                        | £1,000p.a | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
+| Licence              | Devices                  | Cost    | Type        |                                                                                                              | 
+| -------------------- | ------------------------ | --------| ----------- | ------------------------------------------------------------------------------------------------------------ |
+| **Organisation ID**  | Per device               | £0.50   | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/8wM7tqdgAcqo8WQ7sE) |
+|                      | Per device incl. support | £1      | Per annum   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/28o2967Wg9eca0UbIV) |
+|                      | 0 - 2,000                | £500    | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
+|                      | 2,001 - 5,000            | £700    | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
+|                      | 5,001 - ∞                | £1,000  | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
+| **Priority support** | ∞                        | £1,000  | Per annum   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
 
 </div>
 
@@ -84,14 +84,14 @@ Bundle MANAGED SETTINGS and MANAGED INFO at a discounted, combined, one-time cos
 
 <div class="responsive-table-wrapper">
 
-| Licence              | Devices                  | Cost      |                                                                                                              | 
-| -------------------- | ------------------------ | --------- | ------------------------------------------------------------------------------------------------------------ |
-| **Organisation ID**  | Per device               | £0.80     | Get in touch                                                                                                 |
-|                      | Per device incl. Support | £1.60     | Get in touch                                                                                                 |
-|                      | 0 - 2,000                | £700      | Get in touch                                                                                                 |
-|                      | 2,001 - 5,000            | £100      | Get in touch                                                                                                 |
-|                      | 5,001 - ∞                | £1,500    | Get in touch                                                                                                 |
-| **Priority support** | ∞                        | £1,500p.a | Get in touch                                                                                                 | 
+| Licence              | Devices                  | Cost      | Type        |                                                                                                            | 
+| -------------------- | ------------------------ | --------- | ----------- | ---------------------------------------------------------------------------------------------------------- |
+| **Organisation ID**  | Per device               | £0.80  | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/dR6fZWa4o620b4YeV8)  | 
+|                      | Per device incl. support | £1.60  | Per annum   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEU3dafoIgGEdd6bIX)  |
+|                      | 0 - 2,000                | £700   | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/bIY5lidgAbmk5KE7sI)  |
+|                      | 2,001 - 5,000            | £1000  | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUdRO4K4gGE2ys4gx)  |
+|                      | 5,001 - ∞                | £1,500 | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/cN27tq5O81LK1uo8wO)  |
+| **Priority support** | ∞                        | £1,500 | Per annum   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/cN27tqekE4XWc928wP)  | 
 
 </div>
 </div>
