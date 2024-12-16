@@ -53,7 +53,7 @@ eleventyNavigation:
         <h3>Priority support</h3>
         <p class="price">£1,000(p.a)</p>
         <ul>
-            <li>Add a support contract for enhanced assistance with BAYTON apps & your deployment(s)</li>
+            <li>Receive enhanced assistance for BAYTON apps within your deployment(s)</li>
         </ul>
         <a href="#support-priority-support" class="btn">View details</a>
     </div>
