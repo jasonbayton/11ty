@@ -5,7 +5,13 @@
     <div id="navbar">
         <div id="bayton_logo">
             <a class="bayton-logo-dynamic" href="/">
-                {% include "../_assets/img/bayton_logos/bayton_spiral_angle_rectangle.svg" %}
+                {% set today = "now" | dateFormat("MM-dd") %}
+                
+                {% if (today >= "12-01" or today <= "01-05") %}
+                    {% include "../_assets/img/bayton_logos/prod_snow_bayton_spiral_angle_rectangle.svg" %}
+                {% else %}
+                    {% include "../_assets/img/bayton_logos/bayton_spiral_angle_rectangle.svg" %}
+                {% endif %}
             </a>    
         </div>
         <div id="nav_links" class="mobile-hidden">
