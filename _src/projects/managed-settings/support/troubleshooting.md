@@ -110,11 +110,11 @@ Three scenarios where configuration becomes unavailable:
 3. The EMM/DPC is sending blank/malformed configurations without admin input
 4. There's a bug 🙃
 
-For 1, reach out if you believe this to be a mistake. 
+For: 
 
-For 2, if you have a use case that mandates devices are offline for more than one week at a time, please reach out.
-
-For 3, get in touch with your EMM in the first instance to debug their platform. Loop me in as required to assist.
+1. Reach out if you believe this to be a mistake. 
+2. If you have a use case that mandates devices are offline for more than one week at a time, please reach out.
+3. Get in touch with your EMM in the first instance to debug their platform. Loop me in as required to assist.
 
 ## Submitting to support
 

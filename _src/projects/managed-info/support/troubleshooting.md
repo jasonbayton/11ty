@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting issues with MANAGED INFO
-parent: MANAGED SETTINGS support
+parent: MANAGED INFO support
 published: '2024-12-16'
 status: publish
 author: 'Jason Bayton'
@@ -35,6 +35,17 @@ If you're having issues configuring or using MANAGED INFO, the below guidance ma
 **App cannot be configured on uncertified devices**
 
 MANAGED INFO requires a GMS/Play Protect certified device with a modern management platform (EMM) to configure it. _If_ your EMM supports offline/AOSP deployment of uncertified devices, _and_ can support the configuration of applications through managed config _without_ access to Google Play, get in touch, and I'll provide the necessary information to offer support for this use case.
+
+**App does not launch from MANAGED INFO when in kiosk mode**
+
+If you're seeing this behaviour, the chances are the application you're trying to launch is not listed in your EMM policy. Although MANAGED INFO has flexible customisation options for how, where, and when applications show, the EMM policy defines what applications are allowed to launch under what circumstances. 
+
+For example, 
+
+1. You add the Google Play Store to a multi-app card. The application icon and name shows within MANAGED INFO. Tapping it does nothing.
+2. You add the Google Play Store as a system application to your EMM policy, `com.android.vending`. Tapping the application now launches fine.
+
+If you see behaviour that doesn't match the above, but applications are failing to launch, please reach out to debug.
 
 ## Common issues
 
@@ -83,11 +94,11 @@ Three scenarios where configuration becomes unavailable:
 3. The EMM/DPC is sending blank/malformed configurations without admin input
 4. There's a bug 🙃
 
-For 1, reach out if you believe this to be a mistake. 
+For: 
 
-For 2, if you have a use case that mandates devices are offline for more than one week at a time, please reach out.
-
-For 3, get in touch with your EMM in the first instance to debug their platform. Loop me in as required to assist.
+1. Reach out if you believe this to be a mistake. 
+2. If you have a use case that mandates devices are offline for more than one week at a time, please reach out.
+3. Get in touch with your EMM in the first instance to debug their platform. Loop me in as required to assist.
 
 ## Submitting to support
 
