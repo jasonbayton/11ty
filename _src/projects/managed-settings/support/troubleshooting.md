@@ -16,7 +16,7 @@ eleventyNavigation:
     order: 4
     title: Troubleshooting issues
 ---
-If you're having issues configuring or using MANAGED SETTINGS, the below guidance may help. If not, feel free to contact [project-support@bayton.org](mailto:project-support@bayton.org) or join the [ BAYTON Discord](https://discord.gg/YUY7jAjayr).
+If you're having issues configuring or using MANAGED SETTINGS, the below guidance may help. If not, feel free to contact [project-support@bayton.org](mailto:project-support@bayton.org) or join the [BAYTON Discord](https://discord.gg/YUY7jAjayr).
 
 ## Built-in warning/status messages
 
