@@ -50,8 +50,11 @@ MANAGED INFO offers the following customisations:
 **Application grid cards** _- 1.0.0.8_
 : Configure an app grid. Like a traditional launcher, but neatly laid out within a card. These cards support a fixed icons-per-line, or unlimited with automatic wrap.
 
-**Vertical and horizontal stacks** _-1.0.0.8_
-: Create cards in all directions. Supports stack-order as well as global order. Currently supports Text stacks.
+**Vertical and horizontal text stacks** _-1.0.0.8_
+: Create cards in all directions. Supports stack-order as well as global order.
+
+**Vertical and horizontal app & grid stacks** _-1.0.0.8_
+: App cards and app grid cards in all directions. Supports stack-order as well as global order.
 
 ### In future
 
