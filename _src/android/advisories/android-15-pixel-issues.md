@@ -56,24 +56,26 @@ For further clarity, updating these apps manually from Google Play after setup, 
 
 ## Delegated scopes undetectable in the work profile
 
-One affecting me directly as I spend more time adding delegated admin features to [PACKAGE SEARCH](/projects/package-search) and [MANAGED INFO](/projects/managed-info), it's seemingly not possible to fetch managed scopes from within the work profile in 15. I've tested this again in the company-owned work profile and personally-owned work profile deployment scenario. When calling:
+**As of December 9th, this has been fixed by Android engineering**
+
+~~One affecting me directly as I spend more time adding delegated admin features to [PACKAGE SEARCH](/projects/package-search) and [MANAGED INFO](/projects/managed-info), it's seemingly not possible to fetch managed scopes from within the work profile in 15. I've tested this again in the company-owned work profile and personally-owned work profile deployment scenario. When calling:~~
 
 ```kotlin
 val dpm = context.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
 val delegatedScopes = dpm.getDelegatedScopes(null, context.packageName)
 ```
 
-The expected response if a scope has been delegated is `[CERT_INSTALL]` (for example). What returns instead is `[]`. 
+~~The expected response if a scope has been delegated is `[CERT_INSTALL]` (for example). What returns instead is `[]`.~~
 
-In testing on a Pixel 6 Pro running Android 14, I faced no issue from within the work profile. Likewise on 15 this works perfectly fine from the parent profile, in a fully managed deployment scenario. It also works fine on the Pixel 6 Pro when updated to 15 as a company-owned device, but I can replicate it on personally-owned (BYOD), so it's something of an inconsistent one. Below are two Pixels, one on 14 and one on 15 leveraging the exact same policy as a company-owned work profile device:
+~~In testing on a Pixel 6 Pro running Android 14, I faced no issue from within the work profile. Likewise on 15 this works perfectly fine from the parent profile, in a fully managed deployment scenario. It also works fine on the Pixel 6 Pro when updated to 15 as a company-owned device, but I can replicate it on personally-owned (BYOD), so it's something of an inconsistent one. Below are two Pixels, one on 14 and one on 15 leveraging the exact same policy as a company-owned work profile device:~~
 
 ![image showing device identifier](https://cdn.bayton.org/uploads/2024/missing_scope.png)
 
-### Workaround
+### ~~Workaround~~
 
-Nothing I'm aware of just yet. 
+~~Nothing I'm aware of just yet.~~
 
-This has been escalated to Android engineering.
+~~This has been escalated to Android engineering.~~
 
 ## Disappearance of distributed applications
 
@@ -182,7 +184,7 @@ This has been escalated to Android Engineering.
 
 ~~Unfortunately the policy doesn't apply. [This GIF](https://cdn.bayton.org/uploads/2024/2024-10-24_13.50.52.gif) shows the correct application in the personal Play Store, but the Private Space Play Store does not respect the policy applied.~~
 
-~~### Workaround~~
+### ~~Workaround~~
 
 ~~Don't permit Private Space until this is fixed, if this is a concern. This is with Android Engineering, and a Google Play update is expected to resolve this in due course.~~
 
