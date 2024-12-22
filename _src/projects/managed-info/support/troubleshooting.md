@@ -45,6 +45,8 @@ For example,
 1. You add the Google Play Store to a multi-app card. The application icon and name shows within MANAGED INFO. Tapping it does nothing.
 2. You add the Google Play Store as a system application to your EMM policy, `com.android.vending`. Tapping the application now launches fine.
 
+This will equally apply to the call, map, web, and email **Quick actions**.
+
 If you see behaviour that doesn't match the above, but applications are failing to launch, please reach out to debug.
 
 ## Common issues
@@ -71,7 +73,7 @@ If you're licensed, please ensure the organisation ID added to the managed confi
 
 **Ensure devices are able to connect to the internet.** 
 
-Licence validation is performed on every app launch. If MANAGED INFO is unable to reach the PING service, it will retry for 5 days before clearing the licensed state. All customisations will then disable.
+Licence validation is performed on every app launch. If MANAGED INFO is unable to reach the PING service, it will retry for 7 days before clearing the licensed state. All customisations will then disable.
 
 ### Customisations don't update
 
@@ -81,16 +83,16 @@ Please follow steps under [submitting to support](#submitting-to-support) to hav
 
 ### MANAGED INFO doesn't install
 
-MANAGED INFO requires Android 7.0 and above, running on ARM chipsets. Outside of these requirements, the app should be supported on pretty much all open-market devices. If you're seeing issues, reach out to debug.
+MANAGED INFO requires Android 7.0 and above, running on ARM chipsets. Beyond these requirements, the app should be supported on pretty much all open-market devices. If you're seeing issues, reach out to debug.
 
 ### The configuration unsets itself
 
-MANAGED INFO will retrieve/receive the managed configuration either from the DPC or companion application via EMM, or from disk. It will then cache the configuration on an ongoing basis until a new configuration is received. 
+MANAGED INFO will receive the managed configuration either from the DPC or companion application via EMM, or from disk. It will then cache the configuration on an ongoing basis until a new configuration is received. 
 
 Three scenarios where configuration becomes unavailable:
 
-1. The organisation ID is no longer licensed
-2. The device is offline for an extended period
+1. The organisation ID is no longer licensed. View the licensed state in settings or fetch a bug report remotely, `PING service` will indicate status.
+2. The device is offline for an extended period. This is currently 7 days, but I'm open to feedback.
 3. The EMM/DPC is sending blank/malformed configurations without admin input
 4. There's a bug 🙃
 
@@ -123,6 +125,6 @@ You can obtain information to aid in resolution through the following process:
 
 With this information, please create a [new issue](https://github.com/baytonorg/managed_info_tracker/issues/new?assignees=jasonbayton&labels=bug&projects=&template=bug_report.md&title=Issue%3A+) to be investigated. 
 
-As bug reports can contain sensitive information, you're welcome to use the private [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link) for BRs that may come from a device with user information present. Please input the issue number of the raised request on GitHub so feedback can be linked to the issue.
+As bug reports (BR) can contain sensitive information, you're welcome to use the private [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link) for BRs that may come from a device with user information present. Please input the issue number of the raised request on GitHub, so feedback can be linked to the issue.
 
 For priority support customers, raise your concern through your dedicated channel.
