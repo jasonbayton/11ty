@@ -742,12 +742,16 @@ content#home {
     background-color: var(--background);
   }
 
-  & input {
+  & input, textarea {
     background-color: var(--background);
 
     &::placeholder {
       color: var(--text);
     }
+  }
+
+  & textarea {
+    height: 300px;
   }
 }
 
@@ -1163,6 +1167,12 @@ section#posts {
 
 .android-topic ul li a {
   text-decoration: none;
+}
+
+#qr_type .button {
+  background: black;
+  border: black;
+  margin: 10px;
 }
 
 .field {

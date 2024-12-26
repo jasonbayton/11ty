@@ -62,22 +62,66 @@
                         "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":"https://play.google.com/managed/downloadManagingApp?identifier=setup",
                 -->
 
+                <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
+                    <div class="dpc-options-left field">
+                        <b>Configure DPC options</b>
+                        <br>
+                        <br>
+                        
+                        <div id="component_name" class="field-qr">
+                            <div class="field-title">
+                                <label for="token_field">Component name</label>
+                            </div>
+                            <input type="text" placeholder="PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME" id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME">
+                        </div>
+
+                        <div id="admin_signature_checksum" class="field-qr">
+                            <div class="field-title">
+                                <label for="token_field">Admin signature checksum</label>
+                            </div>
+                            <input type="text" placeholder="PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM" id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM">
+                        </div>
+
+                        <div id="admin_package_checksum" class="field-qr">
+                            <div class="field-title">
+                                <label for="token_field">Admin package checksum</label>
+                            </div>
+                            <input type="text" placeholder="PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM." id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM">
+                        </div>
+
+                        <div id="admin_package_checksum" class="field-qr">
+                            <div class="field-title">
+                                <label for="token_field">Package download location</label>
+                            </div>
+                            <input type="text" placeholder="PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION" id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION">
+                        </div>
+                    </div>
+                    <div class="dpc-options-right field field-mobile">
+                        <div id="token_description" class="field-description">
+                            <details class="details-desktop">
+                                <summary><b>Description</b></summary>
+                                {% renderFile "_src/_includes/_parts/generator/dpc-intro.md" %}
+                            </details>
+                        </div>
+                    </div>
+                </div> 
+
                 <!-- Insert token
                         "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
                             "com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN":"xxxxxxx"
                         },
                 -->
                 <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
-                    <div id="amapi_token" class="field">
+                    <div id="extras_bundle" class="field">
                         <div class="field-title">
-                            <label for="token_field">Token*</label>
+                            <label for="token_field">DPC extras</label>
                         </div>
-                        <input type="text" placeholder="This is required for automatic enrolment" id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE|com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN">
+                        <textarea id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE"> </textarea>
                     </div>
                     <div id="token_description" class="field-description field field-mobile">
                         <details class="details-desktop">
                             <summary><b>Description</b></summary>
-                            {% renderFile "_src/_includes/_parts/generator/token-input.md" %}
+                            {% renderFile "_src/_includes/_parts/generator/dpc-extras.md" %}
                         </details>
                     </div>
                 </div> 
@@ -95,8 +139,9 @@
 
                 <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
                     <div class="provisioning-options-left field">
-                        <p><b>Configure provisioning options</b></p>
-
+                        <b>Configure provisioning options</b>
+                        <br>
+                        <br>
                         <div id="sysapps" class="check">
                             <div class="field-title">
                                 <input type="checkbox" placeholder="" id="sysapps_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED" data-qr-bool>
@@ -176,7 +221,9 @@
                 </div>
                 <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
                     <div class="provisioning-options-left field">
-                        <p><b>Configure Wi-Fi network</b></p>
+                        <b>Configure Wi-Fi network</b>
+                        <br>
+                        <br>
 
                         <!-- Configure Wi-Fi network
                                 "android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE":"NONE, WPA, WEP or EAP",
@@ -371,7 +418,7 @@
         <footer>
             {% include "./_parts/footer.njk" %}
             <script src="/js/qrcode.js"></script>
-            <script src="/js/qr-generator.js"></script>
+            <script src="/js/qr-generator-dpc.js"></script>
         </footer>
     </body>
 </html>

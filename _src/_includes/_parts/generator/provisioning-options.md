@@ -1,4 +1,4 @@
-Theses provisioning options are optional configuration items that affect the behaviour during and after the provisioning process. Here's a brief description of each:
+These provisioning options are optional configuration items that affect the behaviour during and after the provisioning process. Here's a brief description of each:
 
 `android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED`
     : If set to true, all system apps will be enabled during the provisioning process. If false, only the necessary, vital system apps required for device functionality will be enabled. **Learn more about [vital apps](/android/what-are-vital-apps)**.
