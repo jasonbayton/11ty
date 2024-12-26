@@ -1170,9 +1170,10 @@ section#posts {
 }
 
 #qr_type .button {
-  background: black;
-  border: black;
+  background: var(--background);
+  border: var(--background);
   margin-right: 10px;
+  margin-bittom: 10px;
 }
 
 .field {
