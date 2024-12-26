@@ -1170,8 +1170,8 @@ section#posts {
 }
 
 #qr_type .button {
-  background: var(--background);
-  border: var(--background);
+  background: var(--subtle-bg);
+  border: var(--subtle-bg);
   margin-right: 10px;
   margin-bittom: 10px;
 }
