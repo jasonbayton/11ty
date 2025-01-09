@@ -86,8 +86,16 @@
     grid-template-columns: 1fr;
 }
 
+.grid-column-1-explicit {
+    grid-template-columns: minmax(0, 1fr);
+}
+
 .grid-column-2 {
     grid-template-columns: 1fr 1fr;
+}
+
+.grid-column-2-explicit {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 
 .grid-column-3 {
@@ -389,6 +397,14 @@
 
   .grid-column-mobile-2 {
       grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-column-mobile-1-explicit {
+      grid-template-columns: minmax(0, 1fr);
+  }
+
+  .grid-column-mobile-2-explicit {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
 
   .grid-row-start-mobile-1 {

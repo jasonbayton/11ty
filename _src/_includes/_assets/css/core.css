@@ -282,6 +282,22 @@ a:hover {
   color: var(--blue);
 }
 
+.text-red {
+  color: var(--main-red);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
