@@ -62,11 +62,22 @@
                         "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":"https://play.google.com/managed/downloadManagingApp?identifier=setup",
                 -->
 
-                <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
+                <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
                     <div class="dpc-options-left field">
                         <b>Configure DPC options</b>
                         <br>
                         <br>
+
+                        <!--div class="callout callout-blue">
+                            <div class="field-title">
+                                <label for="dpc_selector">Select Pre-Configured DPC</label>
+                            </div>
+                            <select id="dpc_selector" class="input-text input-dropdown">
+                                <option value="">-- Select a DPC --</option>
+                                <option value="omnissa_hub">Omnissa Hub</option>
+                                <option value="google_dpc">Android Device Policy</option>
+                            </select>
+                        </div-->
                         
                         <div id="component_name" class="field-qr">
                             <div class="field-title">
@@ -113,10 +124,14 @@
                 -->
                 <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
                     <div id="extras_bundle" class="field">
+                        <b>Configure DPC extras</b>
+                        <br>
+                        <br>
+
                         <div class="field-title">
                             <label for="token_field">DPC extras</label>
                         </div>
-                        <textarea id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE"> </textarea>
+                        <textarea id="token_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE"></textarea>
                     </div>
                     <div id="token_description" class="field-description field field-mobile">
                         <details class="details-desktop">
@@ -393,6 +408,7 @@
                 }
 
                 -->
+                <div id="error_message" class="text-align-right text-red"></div>
 
                 <h4 class="post-title post-archive">
                     <a class="button" id="generate_code">Generate QR</a><br>
@@ -403,10 +419,10 @@
 
                 <div class="post-block" id="download_qr">
                 </div>
-
+                 
                 <div class="post-block" id="json_code">
                 </div>
-
+                
                 <div class="changelog-qr-generator">
                     {% include "./_parts/gitlog.njk" %}
                 </div>
