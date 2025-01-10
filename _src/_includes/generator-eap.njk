@@ -41,8 +41,8 @@
             <section id="page_content">
                 <div id="qr_type">
                     <a class="button button-small {% if currentPage == '/qr-generator' %}active{% endif %}" href="/qr-generator">AMAPI</a>
-                    <a class="button button-small {% if currentPage == '/qr-generator-eap' %}active{% endif %}" href="/qr-generator-eap">AMAPI & EAP</a>
                     <a class="button button-small {% if currentPage == '/qr-generator-dpc' %}active{% endif %}" href="/qr-generator-dpc">Custom DPC</a>
+                    <a class="button button-small {% if currentPage == '/zt-generator' %}active{% endif %}" href="/zt-generator">ZT DPC extras</a>
                 </div>
                 <div class="section-title base-title">
                     {{ title }}
@@ -121,7 +121,8 @@
                         <div id="screen_on" class="check">
                             <div class="field-title">
                                 <input type="checkbox" placeholder="" id="screenon_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_KEEP_SCREEN_ON" data-qr-bool>
-                                <label for="screenon_field">Keep screen on (⚠️ Android 13 only)</label>
+                                <label for="screenon_field">Keep screen on <span class="label label-green"><span class="material-symbols-outlined">android</span> 13</span></label>
+
                             </div>
                         </div>
 
@@ -191,7 +192,7 @@
 
                         <div id="wifi_security" class="field-qr">
                             <div class="field-title">
-                                <label for="security_select">Wi-Fi Security</label>
+                                <label for="security_select">Wi-Fi security</label>
                             </div>
                             <select name="WIFI_SECURITY_TYPE" id="security_select" class="input-text input-dropdown" data-qr-key="android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE">
                                 <option value="">-- Select --</option>
@@ -218,7 +219,7 @@
 
                         <div id="wifi_password" class="field-qr">
                             <div class="field-title">
-                                <label for="password_field">Wi-Fi Password</label>
+                                <label for="password_field">Wi-Fi password</label>
                             </div>
                             <input type="password" placeholder="WIFI_PASSWORD" id="password_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PASSWORD">
                         </div>
@@ -232,21 +233,21 @@
 
                         <div id="wifi_proxy_host" class="field-qr">
                             <div class="field-title">
-                                <label for="proxyhost_field">Wi-Fi Proxy Host</label>
+                                <label for="proxyhost_field">Wi-Fi proxy host</label>
                             </div>
                             <input type="text" placeholder="WIFI_PROXY_HOST" id="proxyhost_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_HOST">
                         </div>
 
                         <div id="wifi_proxy_port" class="field-qr">
                             <div class="field-title">
-                                <label for="proxyport_field">Wi-Fi Proxy Port</label>
+                                <label for="proxyport_field">Wi-Fi proxy port</label>
                             </div>
                             <input type="text" placeholder="WIFI_PROXY_PORT" id="proxyport_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_PORT">
                         </div>
 
                         <div id="wifi_proxy_bypass" class="field-qr">
                             <div class="field-title">
-                                <label for="proxybypass_field">Wi-Fi Proxy Bypass URL</label>
+                                <label for="proxybypass_field">Wi-Fi proxy bypass URL</label>
                             </div>
                             <input type="text" placeholder="WIFI_PROXY_BYPASS" id="proxybypass_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_BYPASS">
                         </div>
@@ -263,7 +264,7 @@
 
                 <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
                     <div class="provisioning-options-left field">
-                        <p><b>Configure EAP settings</b><br>
+                        <p><b>Configure EAP settings</b> <span class="label label-orange"><span class="material-symbols-outlined">error</span> BETA</span><br>
                         If EAP was selected as the Wi-Fi security type, configure EAP settings below.</p>
 
                         <!-- Configure Wi-Fi network
@@ -311,21 +312,21 @@
 
                         <div id="wifi_identity" class="field-qr">
                             <div class="field-title">
-                                <label for="wifiidentity_field">Wi-Fi Identity</label>
+                                <label for="wifiidentity_field">Wi-Fi identity</label>
                             </div>
                             <input type="text" placeholder="WIFI_IDENTITY" id="wifiidentity_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_IDENTITY">
                         </div>
 
                         <div id="wifi_anonymous_identity" class="field-qr">
                             <div class="field-title">
-                                <label for="anonymousidentity_field">Wi-Fi Anonymous Identity</label>
+                                <label for="anonymousidentity_field">Wi-Fi anonymous identity</label>
                             </div>
                             <input type="text" placeholder="WIFI_ANONYMOUS_IDENTITY" id="anonymousidentity_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_ANONYMOUS_IDENTITY">
                         </div>
 
                         <div id="wifi_domain" class="field-qr">
                             <div class="field-title">
-                                <label for="domain_field">Wi-Fi Domain</label>
+                                <label for="domain_field">Wi-Fi domain</label>
                             </div>
                             <input type="text" placeholder="WIFI_DOMAIN" id="domain_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_DOMAIN">
                         </div>

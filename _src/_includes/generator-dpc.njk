@@ -41,8 +41,8 @@
             <section id="page_content">
                 <div id="qr_type">
                     <a class="button button-small {% if currentPage == '/qr-generator' %}active{% endif %}" href="/qr-generator">AMAPI</a>
-                    <a class="button button-small {% if currentPage == '/qr-generator-eap' %}active{% endif %}" href="/qr-generator-eap">AMAPI & EAP</a>
                     <a class="button button-small {% if currentPage == '/qr-generator-dpc' %}active{% endif %}" href="/qr-generator-dpc">Custom DPC</a>
+                    <a class="button button-small {% if currentPage == '/zt-generator' %}active{% endif %}" href="/zt-generator">ZT DPC extras</a>
                 </div>
                 <div class="section-title base-title">
                     {{ title }}
@@ -181,7 +181,7 @@
                         <div id="screen_on" class="check">
                             <div class="field-title">
                                 <input type="checkbox" placeholder="" id="screenon_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_KEEP_SCREEN_ON" data-qr-bool>
-                                <label for="screenon_field">Keep screen on (⚠️ Android 13 only)</label>
+                                <label for="screenon_field">Keep screen on <span class="label label-green"><span class="material-symbols-outlined">android</span> 13</span></label>
                             </div>
                         </div>
 
@@ -213,14 +213,14 @@
                     <div class="provisioning-options-left field">                
                         <div id="set_locale" class="field-qr">
                             <div class="field-title">
-                                <label for="setlocale_field">Set Locale</label> (<a href="https://www.localeplanet.com/icu/" target="_blank">Ref</a>)
+                                <label for="setlocale_field">Set locale</label> (<a href="https://www.localeplanet.com/icu/" target="_blank">Ref</a>)
                             </div>
                             <input type="text" placeholder="en_US" id="setlocale_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_LOCALE">
                         </div>
 
                         <div id="set_timezone" class="field-qr">
                             <div class="field-title">
-                                <label for="settz_field">Set Timezone</label> (<a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank">Ref</a>)
+                                <label for="settz_field">Set timezone</label> (<a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank">Ref</a>)
                             </div>
                             <input type="text" placeholder="Europe/London or Etc/GMT-8" id="settz_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_TIME_ZONE">
                         </div>
@@ -253,7 +253,7 @@
 
                         <div id="wifi_security" class="field-qr">
                             <div class="field-title">
-                                <label for="security_select">Wi-Fi Security</label>
+                                <label for="security_select">Wi-Fi security</label>
                             </div>
                             <select name="WIFI_SECURITY_TYPE" id="security_select" class="input-text input-dropdown" data-qr-key="android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE">
                                 <option value="">-- Select --</option>
@@ -279,7 +279,7 @@
 
                         <div id="wifi_password" class="field-qr">
                             <div class="field-title">
-                                <label for="password_field">Wi-Fi Password</label>
+                                <label for="password_field">Wi-Fi password</label>
                             </div>
                             <input type="password" placeholder="WIFI_PASSWORD" id="password_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PASSWORD">
                         </div>
@@ -293,21 +293,21 @@
 
                         <div id="wifi_proxy_host" class="field-qr">
                             <div class="field-title">
-                                <label for="proxyhost_field">Wi-Fi Proxy Host</label>
+                                <label for="proxyhost_field">Wi-Fi proxy host</label>
                             </div>
                             <input type="text" placeholder="WIFI_PROXY_HOST" id="proxyhost_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_HOST">
                         </div>
 
                         <div id="wifi_proxy_port" class="field-qr">
                             <div class="field-title">
-                                <label for="proxyport_field">Wi-Fi Proxy Port</label>
+                                <label for="proxyport_field">Wi-Fi proxy port</label>
                             </div>
                             <input type="text" placeholder="WIFI_PROXY_PORT" id="proxyport_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_PORT">
                         </div>
 
                         <div id="wifi_proxy_bypass" class="field-qr">
                             <div class="field-title">
-                                <label for="proxybypass_field">Wi-Fi Proxy Bypass URL</label>
+                                <label for="proxybypass_field">Wi-Fi proxy bypass URL</label>
                             </div>
                             <input type="text" placeholder="WIFI_PROXY_BYPASS" id="proxybypass_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_WIFI_PROXY_BYPASS">
                         </div>
