@@ -14,9 +14,7 @@ The generator automatically adds brackets and spacing, so just enter the extras 
 For AMAPI-based EMMs (Intune, NinjaOne, etc) if not using the [AMAPI generator](/qr-generator) it would require:
 
 ```json
-"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN": "YourEnrolmentToken" 
-}
 ```
 
 **Remember**: This field requires valid JSON, so don't forget those commas on all but the last line of extras, otherwise the QR code will error.

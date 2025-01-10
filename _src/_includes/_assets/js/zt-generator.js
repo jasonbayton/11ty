@@ -50,9 +50,10 @@ const generateZTJson = () => {
             value = el.value.trim();
             if (value === "") return;
             try {
-                const parsedValue = JSON.parse(value);
+                const wrappedValue = `{"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{${value}}}`;
+                const parsedValue = JSON.parse(wrappedValue);
                 if (Object.keys(parsedValue).length > 0) {
-                    qrData[key] = parsedValue;
+                    qrData[key] = parsedValue["android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE"];
                 }
             } catch (error) {
                 console.error('Invalid JSON:', error);
@@ -78,4 +79,5 @@ const generateZTJson = () => {
 
 // Event listeners for both buttons
 document.getElementById('generate_json').addEventListener('click', generateZTJson);
-document.getElementById('extract_json').addEventListener('click', extractZTJson);
+document.getElementById('convert_json').addEventListener('click', extractZTJson);
+
