@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Standard Head Section -->
+        {% include "./_parts/head.njk" %}
+
+        <!-- Auto-expanding details for UX consistency -->
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function() {
+                function toggleDetailsOpen() {
+                    var openDetails = document.querySelectorAll('.details-desktop');
+                    if (window.innerWidth > 900) {
+                        openDetails.forEach(function(details) {
+                            if (!details.hasAttribute('open')) {
+                                details.setAttribute('open', 'open');
+                            }
+                        });
+                    } else {
+                        openDetails.forEach(function(details) {
+                            if (details.hasAttribute('open')) {
+                                details.removeAttribute('open');
+                            }
+                        });
+                    }
+                }
+                toggleDetailsOpen();
+                window.addEventListener('resize', toggleDetailsOpen);
+            });
+        </script>
+    </head>
+
+    <body>
+        <header>
+            {% include "./_parts/header.njk" %}
+        </header>
+
+        <content id="generator">
+            <section id="page_content">
+
+                <!-- Page Navigation Section -->
+                <div id="qr_type">
+                    <a class="button button-small {% if currentPage == '/qr-generator' %}active{% endif %}" href="/qr-generator">AMAPI</a>
+                    <a class="button button-small {% if currentPage == '/qr-generator-dpc' %}active{% endif %}" href="/qr-generator-dpc">Custom DPC</a>
+                    <a class="button button-small {% if currentPage == '/zt-generator' %}active{% endif %}" href="/zt-generator">ZT DPC extras</a>
+                </div>
+
+                <!-- Title Section -->
+                <div class="section-title base-title">
+                    {{ title }}
+                </div>
+
+                <!-- Alert Section -->
+                {% if alert %}
+                <div class="callout callout-small">
+                    <p><span class="material-symbols-outlined">quick_reference</span> {{ alert | safe }}</p>
+                </div>
+                {% endif %}
+
+                {{ content | safe }}
+
+                <!-- ========================================= -->
+                <!--         SECTION 1: ZT JSON GENERATION    -->
+                <!-- ========================================= -->
+
+                <!-- DPC Extras Section -->
+                <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
+                    <div id="extras_bundle" class="field">
+                        <b>Configure DPC Extras</b><br><br>
+                        <!-- Input for DPC extras -->
+                        <div class="field-title">
+                            <label for="token_field_generator">DPC extras</label>
+                        </div>
+                        <textarea id="token_field_generator" class="input-text" data-qr-key="android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE"></textarea>
+                    </div>
+                    <!-- Description -->
+                    <div class="field-description field field-mobile">
+                        <details class="details-desktop">
+                            <summary><b>Description</b></summary>
+                            {% renderFile "_src/_includes/_parts/generator/dpc-extras.md" %}
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Provisioning Options Section -->
+                <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
+                    <div class="field">
+                        <b>Configure provisioning options</b><br><br>
+
+                        <!-- System Apps -->
+                        <div class="field-title">
+                            <input type="checkbox" id="sysapps_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED" data-qr-bool>
+                            <label for="sysapps_field">Enable system apps</label>
+                        </div>
+
+                        <!-- Mobile Network -->
+                        <div class="field-title">
+                            <input type="checkbox" id="mobilenetwork_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_USE_MOBILE_DATA" data-qr-bool>
+                            <label for="mobilenetwork_field">Use mobile network</label>
+                        </div>
+
+                        <!-- Offline Provisioning -->
+                        <div class="field-title">
+                            <input type="checkbox" id="provisionoffline_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_ALLOW_OFFLINE" data-qr-bool>
+                            <label for="provisionoffline_field">Allow offline provisioning</label>
+                        </div>
+
+                        <!-- Keep Screen On -->
+                        <div class="field-title">
+                            <input type="checkbox" id="screenon_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_KEEP_SCREEN_ON" data-qr-bool>
+                            <label for="screenon_field">Keep screen on <span class="label label-green"><span class="material-symbols-outlined">android</span> 13</span></label>
+                        </div>
+                    </div>
+                    <!-- Description -->
+                    <div class="field-description field field-mobile">
+                        <details class="details-desktop">
+                            <summary><b>Description</b></summary>
+                            {% renderFile "_src/_includes/_parts/generator/provisioning-options.md" %}
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Locale and Timezone Section (Now Separate) -->
+                <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
+                    <div class="field">
+                        <b>Locale & timezone configuration</b><br><br>
+
+                        <!-- Locale -->
+                        <div class="field-title">
+                            <label for="setlocale_field">Set locale (e.g., en_GB)</label>
+                            <input type="text" placeholder="en_US" id="setlocale_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_LOCALE">
+                        </div>
+
+                        <!-- Timezone -->
+                        <div class="field-title">
+                            <label for="settz_field">Set timezone (e.g., Europe/London)</label>
+                            <input type="text" placeholder="Europe/London" id="settz_field" class="input-text" data-qr-key="android.app.extra.PROVISIONING_TIME_ZONE">
+                        </div>
+                    </div>
+                    <!-- Description -->
+                    <div class="field-description field field-mobile">
+                        <details class="details-desktop">
+                            <summary><b>Description</b></summary>
+                            {% renderFile "_src/_includes/_parts/generator/locale-timezone.md" %}
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Error and Generate Button -->
+                <div id="error_message_generator" class="text-align-right text-red"></div>
+                <div class="post-block">
+                    <h4 class="post-title padding-top-40 text-align-right">
+                        <a class="button" id="generate_json">Generate JSON</a>
+                    </h4>
+                </div>
+                <div class="post-block" id="json_output_generator"></div>
+
+                <!-- ========================================= -->
+                <!--         SECTION 2: ZT JSON EXTRACTION    -->
+                <!-- ========================================= -->
+                <h2 class="post-title" id="convert-an-existing-json-payload">Convert an existing JSON payload</h2>
+                <p>Paste an existing QR JSON payload provided - presumably by an EMM - to convert it into a zero-touch-friendly DPC extras payload.</p>
+
+                <!-- JSON Extraction Section -->
+                <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
+                    <div class="field">
+                        <div class="field-title">
+                            <label for="json_input_extractor">Paste JSON payload</label>
+                        </div>
+                        <textarea id="json_input_extractor" class="input-text" rows="10"></textarea>
+                    </div>
+                    <!-- Description -->
+                    <div class="field-description field field-mobile">
+                        <details class="details-desktop">
+                            <summary><b>Description</b></summary>
+                            {% renderFile "_src/_includes/_parts/generator/json-extraction.md" %}
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Error Message and Extract Button -->
+                <div id="error_message_extractor" class="text-align-right text-red"></div>
+                <div class="post-block">
+                    <h4 class="post-title padding-top-40 text-align-right">
+                        <a class="button" id="generate_json">Convert</a>
+                    </h4>
+                </div>
+
+                <div class="post-block" id="json_output_extractor"></div>
+
+            </section>
+            
+            <!-- Feedback Section -->
+            {% include "./_parts/feedback.njk" %}
+        </content>
+
+        <footer>
+            {% include "./_parts/footer.njk" %}
+            <!-- JavaScript File -->
+            <script src="/js/zt-generator.js"></script>
+        </footer>
+    </body>
+</html>
