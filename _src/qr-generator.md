@@ -2,7 +2,7 @@
 title: Android Enterprise AMAPI QR code generator 
 date: 2023-12-18
 tags:
-layout: generator.njk
+layout: generator-eap.njk
 alert: This page is <b>aggressively cached</b>. If the QR isn't generating, try a hard refresh (CRTL/CMD + SHIFT + R).
 type: page
 ---
