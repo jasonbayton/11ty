@@ -264,7 +264,7 @@
 
                 <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
                     <div class="provisioning-options-left field">
-                        <p><b>Configure EAP settings</b> <span class="label label-orange"><span class="material-symbols-outlined">error</span> BETA</span><br>
+                        <p><b>Configure EAP settings</b> <span class="label label-orange">BETA</span><br>
                         If EAP was selected as the Wi-Fi security type, configure EAP settings below.</p>
 
                         <!-- Configure Wi-Fi network
@@ -346,6 +346,10 @@
                         </div>
                     </div>
                     <div class="wifi-options-right field field-mobile">
+                        <details class="details-desktop">
+                                <summary><b>Description</b></summary>
+                                {% renderFile "_src/_includes/_parts/generator/wifi-eap.md" %}
+                            </details>
                     </div>
                 </div>
 
