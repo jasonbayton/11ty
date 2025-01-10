@@ -26,11 +26,16 @@ const populateFormFromDPC = (dpcKey) => {
     });
 };
 
-// Event listener for DPC selection
-document.getElementById('dpc_selector').addEventListener('change', (event) => {
-    const selectedDPC = event.target.value;
-    populateFormFromDPC(selectedDPC);
-});
+// Event listener for DPC selection (with null check)
+const dpcSelectorElement = document.getElementById('dpc_selector');
+if (dpcSelectorElement) {
+    dpcSelectorElement.addEventListener('change', (event) => {
+        const selectedDPC = event.target.value;
+        populateFormFromDPC(selectedDPC);
+    });
+} else {
+    console.warn("Element #dpc_selector not found in the DOM.");
+}
 
 const qrBuilder = () => {
     const qrElements = document.querySelectorAll('[data-qr-key]');
