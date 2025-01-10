@@ -83,39 +83,59 @@
 
                 <!-- Provisioning Options Section -->
                 <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
-                    <div class="field">
-                        <b>Configure provisioning options</b><br><br>
+                    <div class="provisioning-options-left field">
+                        <p><b>Configure provisioning options</b></p>
 
-                        <!-- System Apps -->
-                        <div class="field-title">
-                            <input type="checkbox" id="sysapps_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED" data-qr-bool>
-                            <label for="sysapps_field">Enable system apps</label>
+                        <div id="sysapps" class="check">
+                            <div class="field-title">
+                                <input type="checkbox" placeholder="" id="sysapps_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED" data-qr-bool>
+                                <label for="sysapps_field">Enable system apps</label>
+                            </div>
                         </div>
 
-                        <!-- Mobile Network -->
-                        <div class="field-title">
-                            <input type="checkbox" id="mobilenetwork_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_USE_MOBILE_DATA" data-qr-bool>
-                            <label for="mobilenetwork_field">Use mobile network</label>
+                        <div id="mobile_network" class="check">
+                            <div class="field-title">
+                                <input type="checkbox" placeholder="" id="mobilenetwork_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_USE_MOBILE_DATA" data-qr-bool>
+                                <label for="mobilenetwork_field">Use mobile network for provisioning</label>
+                            </div>
                         </div>
 
-                        <!-- Offline Provisioning -->
-                        <div class="field-title">
-                            <input type="checkbox" id="provisionoffline_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_ALLOW_OFFLINE" data-qr-bool>
-                            <label for="provisionoffline_field">Allow offline provisioning</label>
+                        <div id="provision_offline" class="check">
+                            <div class="field-title">
+                                <input type="checkbox" placeholder="" id="provisionoffline_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_ALLOW_OFFLINE" data-qr-bool>
+                                <label for="provisionoffline_field">Allow offline provisioning</label>
+                            </div>
                         </div>
 
-                        <!-- Keep Screen On -->
-                        <div class="field-title">
-                            <input type="checkbox" id="screenon_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_KEEP_SCREEN_ON" data-qr-bool>
-                            <label for="screenon_field">Keep screen on <span class="label label-green"><span class="material-symbols-outlined">android</span> 13</span></label>
+                        <div id="screen_on" class="check">
+                            <div class="field-title">
+                                <input type="checkbox" placeholder="" id="screenon_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_KEEP_SCREEN_ON" data-qr-bool>
+                                <label for="screenon_field">Keep screen on <span class="label label-green"><span class="material-symbols-outlined">android</span> 13</span></label>
+
+                            </div>
+                        </div>
+
+                        <div id="skip_encryption" class="check">
+                            <div class="field-title">
+                                <input type="checkbox" placeholder="" id="encryption_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_SKIP_ENCRYPTION" data-qr-bool>
+                                <label for="encryption_field">Skip encryption</label>
+                            </div>
+                        </div>
+
+                        <div id="skip_education" class="check">
+                            <div class="field-title">
+                                <input type="checkbox" placeholder="" id="education_field" class="input-check" data-qr-key="android.app.extra.PROVISIONING_SKIP_EDUCATION_SCREENS" data-qr-bool>
+                                <label for="education_field">Skip education screens</label>
+                            </div>
                         </div>
                     </div>
-                    <!-- Description -->
-                    <div class="field-description field field-mobile">
-                        <details class="details-desktop">
-                            <summary><b>Description</b></summary>
-                            {% renderFile "_src/_includes/_parts/generator/provisioning-options.md" %}
-                        </details>
+                    <div class="provisioning-options-right field field-mobile">
+                        <div id="provisioning_options" class="field-description">
+                            <details class="details-desktop">
+                                <summary><b>Description</b></summary>
+                                {% renderFile "_src/_includes/_parts/generator/provisioning-options.md" %}
+                            </details>
+                        </div>
                     </div>
                 </div>
 
