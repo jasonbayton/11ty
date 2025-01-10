@@ -429,6 +429,7 @@ td {
 
 .responsive-table-wrapper thead {
   background-color: transparent;
+  color: var(--text);
 }
 
 .responsive-table-wrapper tr th {
@@ -1455,6 +1456,10 @@ footer {
     & .responsive-table-wrapper td {
       background: #4e0000!important;
     }
+
+    & .responsive-table-wrapper th {
+      color: #ffffff;
+    }
   }
 
   &.callout-blue {
@@ -1475,6 +1480,10 @@ footer {
 
     & .responsive-table-wrapper td {
       background: #003b55!important;
+    }
+
+    & .responsive-table-wrapper th {
+      color: #ffffff;
     }
   }
 
@@ -1501,6 +1510,10 @@ footer {
     & .responsive-table-wrapper td {
       background: #4e0000!important;
     }
+
+    & .responsive-table-wrapper th {
+      color: #ffffff;
+    }
   }
 
   &.callout-green {
@@ -1521,6 +1534,10 @@ footer {
 
     & .responsive-table-wrapper td {
       background: #086a00!important;
+    }
+
+    & .responsive-table-wrapper th {
+      color: #ffffff;
     }
   }
 
