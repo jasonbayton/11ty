@@ -16,3 +16,5 @@ To assist in building better configurations, the below form has been created to 
 **No information is stored**. If you refresh the page, everything will be reset. This is intentional as I have no interest in holding on to your JSON information, Wi-Fi details, or enrolment tokens. That said, as with all third-party applications you use this at your own risk. Check with your boss before you use this tool if you feel you need to.
 
 When you click **Generate JSON**, all submitted information is processed locally, and the returned data is embedded ephemerally in this page. Edit the submitted text and click extract again to regenerate it, or refresh the page to clear it.
+
+_Where's the DPC input?! - There's no need for this. The DPC is selected from the zero-touch configuration._
