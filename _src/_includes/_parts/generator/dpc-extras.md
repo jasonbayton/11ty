@@ -17,7 +17,7 @@ For AMAPI-based EMMs (Intune, NinjaOne, etc) if not using the [AMAPI generator](
 "com.google.android.apps.work.clouddpc.EXTRA_ENROLLMENT_TOKEN": "YourEnrolmentToken" 
 ```
 
-**Remember**: This field requires valid JSON, so don't forget those commas on all but the last line of extras, otherwise the QR code will error.
+**Remember**: This field requires valid JSON, so don't forget those commas on all but the last line of extras otherwise you'll encounter errors.
 
 <div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">Head's up</div>
