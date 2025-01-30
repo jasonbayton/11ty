@@ -15,7 +15,7 @@ This is, as last year, a non-definitive and unconfirmed list of changes. Like th
 
 Here we go!
 
-## No nump to minimum SDK version for installation of apps
+## No bump to minimum SDK version for installation of apps
 
 The first beta does _not_ include a change to minimum SDK for app installation. Will it come later? We shall see. 
 
@@ -25,7 +25,7 @@ If you're interested in what "targeting" is, it looks like this within an applic
 
 ```kotlin
 defaultConfig {
-    applicationId = "org.bayton.example.apptrackdemo"
+    applicationId = "org.bayton.example"
     minSdk = 24
     targetSdk = 23
     versionCode = 1
@@ -33,7 +33,7 @@ defaultConfig {
 }
 ```
 
-Minimum SDK is the lowest version of Android an application will support, this typically changes when new features introduced could cause compatibility issues. It could also change when a developer no longer wishes to support a very old version of Android. In either case the application will no longer be available for installation from Google Play on an affected device, and will error when sideloaded.
+Minimum SDK is the lowest version of Android an application will support, this typically changes when new features introduced could cause compatibility issues. It could also change when a developer no longer wishes to support an older version of Android. In either case the application will no longer be available for installation from Google Play on an affected device, and will error when sideloaded.
 
 With the shift in timing for this release it's not clear if this'll be mandated so soon after the bump to 24 in 15, or if that'll come in a quarterly release at a later point. Currently 16 follows 15: only apps that target Android 7.0 - API level 24 - or later will be permitted. 
 
@@ -49,7 +49,7 @@ To reiterate my sentiment from last year on this topic:
 
 # App functions control
 
-Not _too_ much is currently known about this feature arriving in 16, but from what I've [found](https://developer.android.com/reference/android/app/appfunctions/AppFunctionManager), this looks like a new way of allowing applications to interact with one another through the publishing of "functions" an app can perform. 
+Not _too_ much research has been done about this feature arriving in 16, but from what I've [found](https://developer.android.com/reference/android/app/appfunctions/AppFunctionManager), this looks like a new way of allowing applications to interact with one another through the publishing of "functions" an app can perform. 
 
 Google's example here suggests an assistant app can search on-device for applications with a known function for creating a note, which replaces a slightly more convoluted approach app developers have to take today:
 
@@ -57,7 +57,7 @@ Google's example here suggests an assistant app can search on-device for applica
 
 This _feels_, and not just because of the example used, like it'll make the lives of Gemini, ChatGPT, and many other assistant application developers far easier. What I _don't_ get from the example offered is how to target apps. I could have Keep, Obsidian, and several other apps offering a function to create a note. I'm sure this will be explained in due course though (if it isn't already and I just missed it).
 
-For enterprise, Google has added a few restrictions on app functions. They can be disabled outright and disabled cross-profile. Hopefully we'll see similar to Credential Manager and Widget APIs, that allow a block with package exclusions.
+For enterprise, Google has added a few restrictions on app functions; they can currently be disabled outright, and disabled cross-profile. I'm hopeful we'll see this ecpand to follow Credential Manager and Widget APIs that allow a block with package exclusions for greater control. We'll see.
 
 ## Disallow NFC radio
 
@@ -65,9 +65,11 @@ Originally found in the Android 15 documentation, this one was referenced in the
 
 > As it says on the tin. If you're thinking _"Don't we already have an API for NFC?"_ Yes we do, but that's to control the beaming of data between devices. This is a full on radio disable and will probably live under `DeviceRadioState` in AMAPI at some point later.
 
-This was originally found when Android 15 was in beta, and didn't make it to production. As of this release it's now officially showing up as a Baklava feature.
+As of this release it's now officially showing up as a Baklava feature.
 
 ## Disallow Thread Network
+
+Here's another previously-referenced feature to show up confirmed for Baklava.
 
 This is related to comms with [thread devices](https://en.wikipedia.org/wiki/Thread_(network_protocol)). Again, it's a cut-and-dry, simple restriction. More details on its use will come in time.
 
