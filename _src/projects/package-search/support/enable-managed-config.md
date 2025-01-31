@@ -91,11 +91,11 @@ If you're an EMM vendor reading this and would like to contribute guidance, plea
 - Optional screenshots
 - Guidance beginning from importing PACKAGE SEARCH, configuring it appropriately, and saving for deployment.
 
-A template file is highlighted below for a direct PR to [EMM setup guides](../emm-setup). Name the file `deletegated-scope-setup-VENDOR.md`, adjust vendor as required.
+A template file is highlighted below for a direct PR to [EMM setup guides](../emm-setup). Name the file `deletegated-scope-setup-VENDOR.md`, adjust VENDOR_NAME and publishing details as required.
 
 ```markdown
 ---
-title: Configure PACKAGE SEARCH for VENDORNAME
+title: Configure PACKAGE SEARCH for VENDOR_NAME
 parent: EMM setup guides for PACKAGE SEARCH
 published: '2024-07-22'
 status: publish
@@ -103,14 +103,14 @@ author: 'Jason Bayton'
 excerpt: ''
 type: project-docs
 tags: 
-    - 'PACKAGE SEARCH'
+    - 'Package Search'
     - 'bayton-projects'
 categories: 
     - EMM setup guides
 layout: base.njk
 eleventyNavigation: 
     order: 3
-    title: Configure VENDORNAME
+    title: Configure VENDOR_NAME
 ---
 
 Add your steps here. Ensure you update title, published date, and eleventyNavigation title above.
