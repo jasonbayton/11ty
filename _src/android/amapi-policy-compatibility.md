@@ -6,11 +6,10 @@ permalink: false
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: 
 layout: base.njk
 eleventyNavigation:
   order: 7000
----.
+---
 
 **Deployment Scenarios:**
 
