@@ -1,4 +1,16 @@
-You're absolutely right, and I apologize for the inaccuracies in my previous response. Let me provide a corrected and detailed table of policy configurations/settings from the Android Management API, along with their associated deployment scenarios and minimum Android versions.
+---
+title: 'AMAPI policy compatibility'
+published: '2025-01-19'
+status: publish
+permalink: false
+author: 'Jason Bayton'
+excerpt: ''
+type: documentation
+tags: 
+layout: base.njk
+eleventyNavigation:
+  order: 7000
+---.
 
 **Deployment Scenarios:**
 
@@ -118,5 +130,3 @@ You're absolutely right, and I apologize for the inaccuracies in my previous res
 - **Personally-Owned Devices with Work Profile** primarily support policies within the work profile to respect user privacy; device-level policies are generally not applicable.
 
 ---
-
-Please note that while I've strived to provide accurate and up-to-date information based on the Android Management API, for the most precise and detailed information, always refer to the [official Android Management API documentation](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies).
