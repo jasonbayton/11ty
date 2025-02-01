@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 728,
-    "totalRecent24hDevices": 107,
+    "totalNonStaleRecentDevices": 750,
+    "totalRecent24hDevices": 122,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
@@ -9,18 +9,19 @@
       "27": 5,
       "28": 13,
       "29": 9,
-      "30": 92,
+      "30": 93,
       "31": 36,
       "32": 2,
       "33": 146,
-      "34": 403,
+      "34": 424,
       "35": 16
     },
     "devicesByMake": {
       "samsung": 344,
-      "motorola": 261,
+      "motorola": 267,
       "Google": 27,
       "OPPO": 17,
+      "HMD Global": 16,
       "OnePlus": 13,
       "Xiaomi": 12,
       "realme": 7,
@@ -45,10 +46,10 @@
       "CUBOT": 1
     },
     "devicesByCountry": {
-      "BR": 417,
-      "UNKNOWN": 191,
+      "BR": 423,
+      "UNKNOWN": 190,
+      "GB": 42,
       "US": 39,
-      "GB": 25,
       "ES": 13,
       "IT": 7,
       "CA": 4,
@@ -70,9 +71,9 @@
       "SE": 1,
       "MW": 1,
       "CL": 1,
-      "ID": 1,
       "AT": 1,
-      "BD": 1
+      "BD": 1,
+      "ID": 1
     },
     "numberChangeByOS": {
       "25": 0,
@@ -80,18 +81,19 @@
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": 2,
+      "30": 1,
       "31": 0,
       "32": 0,
       "33": 0,
-      "34": 7,
+      "34": 21,
       "35": 0
     },
     "numberChangeByMake": {
       "samsung": 0,
-      "motorola": 8,
+      "motorola": 6,
       "Google": 0,
       "OPPO": 0,
+      "HMD Global": 16,
       "OnePlus": 0,
       "Xiaomi": 0,
       "realme": 0,
@@ -104,7 +106,7 @@
       "Rhino Mobility": 0,
       "vivo": 0,
       "BLU": 0,
-      "ITEL": 1,
+      "ITEL": 0,
       "Sky_Devices": 0,
       "LGE": 0,
       "TECNO": 0,
@@ -116,10 +118,10 @@
       "CUBOT": 0
     },
     "numberChangeByCountry": {
-      "BR": 10,
-      "UNKNOWN": -2,
+      "BR": 6,
+      "UNKNOWN": -1,
+      "GB": 17,
       "US": 0,
-      "GB": 0,
       "ES": 0,
       "IT": 0,
       "CA": 0,
@@ -141,31 +143,31 @@
       "SE": 0,
       "MW": 0,
       "CL": 0,
-      "ID": 0,
       "AT": 0,
-      "BD": 1
+      "BD": 0,
+      "ID": 0
     }
   },
   "packageSearch": {
     "totalNonStaleRecentDevices": 231,
-    "totalRecent24hDevices": 35,
+    "totalRecent24hDevices": 32,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
       "27": 2,
       "28": 17,
       "29": 2,
-      "30": 47,
-      "31": 11,
+      "30": 46,
+      "31": 12,
       "32": 8,
       "33": 22,
       "34": 84,
       "35": 35
     },
     "devicesByMake": {
-      "samsung": 98,
+      "samsung": 99,
       "Google": 70,
-      "OnePlus": 22,
+      "OnePlus": 21,
       "Zebra Technologies": 6,
       "MobiWire": 5,
       "HONOR": 5,
@@ -185,7 +187,7 @@
       "Fairphone": 1
     },
     "devicesByCountry": {
-      "UNKNOWN": 85,
+      "UNKNOWN": 84,
       "GB": 32,
       "US": 27,
       "NL": 9,
@@ -193,9 +195,9 @@
       "AU": 7,
       "SE": 7,
       "DE": 7,
+      "PL": 6,
       "BE": 6,
       "FR": 6,
-      "PL": 5,
       "CA": 5,
       "ES": 4,
       "JM": 3,
@@ -220,19 +222,19 @@
       "28": 0,
       "29": 0,
       "30": -1,
-      "31": 0,
+      "31": 1,
       "32": 0,
       "33": 0,
-      "34": -2,
+      "34": 0,
       "35": 0
     },
     "numberChangeByMake": {
-      "samsung": -1,
+      "samsung": 1,
       "Google": 0,
       "OnePlus": -1,
       "Zebra Technologies": 0,
       "MobiWire": 0,
-      "HONOR": -1,
+      "HONOR": 0,
       "Weiheng digital company limited": 0,
       "LGE": 0,
       "unknown": 0,
@@ -249,7 +251,7 @@
       "Fairphone": 0
     },
     "numberChangeByCountry": {
-      "UNKNOWN": -4,
+      "UNKNOWN": -1,
       "GB": 0,
       "US": 0,
       "NL": 0,
@@ -257,9 +259,9 @@
       "AU": 0,
       "SE": 0,
       "DE": 0,
-      "BE": 1,
+      "PL": 1,
+      "BE": 0,
       "FR": 0,
-      "PL": 0,
       "CA": 0,
       "ES": 0,
       "JM": 0,
@@ -281,7 +283,7 @@
   },
   "managedInfo": {
     "totalNonStaleRecentDevices": 172,
-    "totalRecent24hDevices": 10,
+    "totalRecent24hDevices": 11,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
@@ -318,8 +320,8 @@
       "NG": 1,
       "BE": 1,
       "NZ": 1,
-      "ES": 1,
       "NL": 1,
+      "ES": 1,
       "FR": 1
     },
     "numberChangeByOS": {
@@ -357,8 +359,8 @@
       "NG": 0,
       "BE": 0,
       "NZ": 0,
-      "ES": 0,
       "NL": 0,
+      "ES": 0,
       "FR": 0
     }
   }
