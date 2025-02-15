@@ -1107,8 +1107,8 @@ section#posts {
 
 section#sponsor_rrjfc {
   text-align: center;
-  padding: 30px 0;
-  margin-top: 60px;
+  padding: 60px 0;
+  margin-top: 100px;
   background:
     /* Left/right transparent fade */
     linear-gradient(
@@ -1126,7 +1126,7 @@ section#sponsor_rrjfc {
     max-width: 100%;
     text-align: center;
     margin: auto;
-    padding: 20px 0;
+    padding: 40px 0;
   }
 
 }
