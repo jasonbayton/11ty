@@ -1122,13 +1122,22 @@ section#sponsor_rrjfc {
     );
   color: #fff;
 
-  & .rrjfc-logo img {
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    padding: 40px 0;
-  }
+    & .rrjfc-text {
+      padding: 0 0 40px;
 
+      & small {
+        padding-top: 10px;
+        font-size: 14px;
+        display: block;
+      } 
+    }
+
+    & .rrjfc-logo {
+      img {
+        margin: auto;
+        border-radius: 20px;
+      }
+    }
 }
 
 #author_bio {
