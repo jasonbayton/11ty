@@ -1105,6 +1105,32 @@ section#posts {
   padding-bottom: 0;
 }
 
+section#sponsor_rrjfc {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  background:
+    /* Left/right transparent fade */
+    linear-gradient(
+      to right,
+      rgba(56, 151, 61) 0%,       /* transparent at 0%  */
+      rgb(56, 151, 61) 5%,       /* transparent at 0%  */
+      rgba(46, 125, 50, 1) 40%,      /* solid green by 15% */
+      rgba(46, 125, 50, 1) 60%,      /* solid green until 85% */
+      rgba(56, 151, 61) 95%,      /* solid green until 85% */
+      rgba(56, 151, 61) 100%      /* transparent at 100% */
+    );
+  color: #fff;
+
+  & .rrjfc-logo img {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+}
+
 #author_bio {
   padding-top: 20px;
   text-align: right;
