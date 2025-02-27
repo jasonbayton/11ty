@@ -27,6 +27,7 @@ NinjaOne MDM supports the assignment of delegated scopes through the application
 4. Scroll down to **Delegated scope overrides**
 5. Add the _Grants access to managed configurations management_ scope
 6. Click Save
+7. Save the policy
 
 PACKAGE SEARCH will now be granted the managed configurations delegated scope, and will be able to view and display managed config assigned to any application.
 
