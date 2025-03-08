@@ -10,11 +10,11 @@ layout: base.njk
 
 ## Modern device management can seem overwhelming, but it doesn't have to be.
 
-Hello 👋, I'm Jason, a certified Android SME with a passion for simplifying the complex world of modern device management. For years, I've been a guiding voice in the mobility space, offering my expertise to organisations across the globe through my website here and Social Media ( [<img src="/img/icons/linkedin.svg" class="image-inline-text">](https://linkedin.com/in/jasonbayton) ). My journey began with the first HTC Dream (G1) back in the 2000's, and I've dedicated myself to becoming a recognised authority in modern Android management since it's introduction back in 2014.
+Hello 👋, I'm Jason, a certified Android SME with a passion for simplifying the complex world of modern device management. For years I've been a guiding voice in the mobility space, offering my expertise to organisations across the globe through my website here and on social media ( [<img src="/img/icons/linkedin.svg" class="image-inline-text">](https://linkedin.com/in/jasonbayton) ). My journey began with the first HTC Dream (G1) back in the 2000's, and I've dedicated myself to becoming a recognised authority in modern Android management since it's introduction back in 2014.
 
-I've collaborated with and consulted for leading Android OEMs, Enterprise Mobility vendors, NGOs, multiple fortune listed organisations, and my work has been acknowledged and promoted by industry giants like Google, Sony, Nokia, and many more. Whether you're a small business looking to implement your first mobility strategy or a multinational corporation planning a full-scale device rollout, I've done it all before.
+I've collaborated with, and consulted for, leading Android OEMs, Enterprise Mobility vendors, NGOs, multiple fortune listed organisations, and my work has been acknowledged and promoted by industry giants including Google, Sony, Nokia, and many more. Whether you're a small business looking to implement your first mobility strategy or a multinational corporation planning a full-scale device rollout, I've done it all before.
 
-Recognising the growing need for specialised, hands-on support, I've now made the necessary changes to offer sustainable commercial support as an independent contractor over and above what I offer at no cost already. As your mobility partner, I can offer you the necessary knowledge and resources needed to achieve your mobility goals. From strategy planning to end-to-end deployment, I offer a range of services tailored to your specific needs.
+As your mobility partner, I can offer you the necessary knowledge and resources needed to achieve your mobility goals. From strategy planning to end-to-end deployment, I offer a range of services tailored to your specific needs.
 
 So, let's embark on this journey together and make your enterprise mobility vision a reality.
 
