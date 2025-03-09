@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 935,
-    "totalRecent24hDevices": 133,
+    "totalNonStaleRecentDevices": 936,
+    "totalRecent24hDevices": 111,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 4,
@@ -10,18 +10,18 @@
       "28": 9,
       "29": 9,
       "30": 105,
-      "31": 47,
+      "31": 46,
       "32": 2,
       "33": 147,
-      "34": 592,
+      "34": 594,
       "35": 14
     },
     "devicesByMake": {
-      "motorola": 419,
-      "samsung": 368,
+      "motorola": 420,
+      "samsung": 367,
       "HMD Global": 36,
+      "LENOVO": 24,
       "Google": 23,
-      "LENOVO": 23,
       "OPPO": 16,
       "OnePlus": 12,
       "asus": 8,
@@ -43,11 +43,11 @@
       "Rhino Mobility": 1
     },
     "devicesByCountry": {
-      "BR": 618,
-      "UNKNOWN": 91,
+      "BR": 619,
+      "UNKNOWN": 90,
       "GB": 68,
       "US": 66,
-      "IT": 23,
+      "IT": 24,
       "ES": 13,
       "DE": 12,
       "IE": 5,
@@ -82,18 +82,18 @@
       "28": 0,
       "29": 0,
       "30": 0,
-      "31": 0,
+      "31": -1,
       "32": 0,
       "33": 0,
       "34": 2,
       "35": 0
     },
     "numberChangeByMake": {
-      "motorola": 2,
-      "samsung": 0,
+      "motorola": 1,
+      "samsung": -1,
       "HMD Global": 0,
+      "LENOVO": 1,
       "Google": 0,
-      "LENOVO": 0,
       "OPPO": 0,
       "OnePlus": 0,
       "asus": 0,
@@ -115,11 +115,11 @@
       "Rhino Mobility": 0
     },
     "numberChangeByCountry": {
-      "BR": 2,
-      "UNKNOWN": 0,
+      "BR": 1,
+      "UNKNOWN": -1,
       "GB": 0,
       "US": 0,
-      "IT": 0,
+      "IT": 1,
       "ES": 0,
       "DE": 0,
       "IE": 0,
@@ -149,8 +149,8 @@
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 205,
-    "totalRecent24hDevices": 20,
+    "totalNonStaleRecentDevices": 204,
+    "totalRecent24hDevices": 17,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
@@ -160,11 +160,11 @@
       "31": 8,
       "32": 7,
       "33": 20,
-      "34": 69,
+      "34": 68,
       "35": 40
     },
     "devicesByMake": {
-      "samsung": 96,
+      "samsung": 95,
       "Google": 62,
       "OnePlus": 22,
       "Zebra Technologies": 5,
@@ -177,14 +177,14 @@
       "Acer": 1,
       "Microsoft": 1,
       "CHAINWAY": 1,
-      "Fairphone": 1,
+      "A-gold": 1,
       "realme": 1,
-      "A-gold": 1
+      "Fairphone": 1
     },
     "devicesByCountry": {
       "GB": 39,
       "US": 32,
-      "UNKNOWN": 22,
+      "UNKNOWN": 21,
       "SE": 12,
       "NL": 11,
       "CN": 9,
@@ -221,11 +221,11 @@
       "31": 0,
       "32": 0,
       "33": 0,
-      "34": 3,
+      "34": -1,
       "35": 0
     },
     "numberChangeByMake": {
-      "samsung": 3,
+      "samsung": -1,
       "Google": 0,
       "OnePlus": 0,
       "Zebra Technologies": 0,
@@ -238,14 +238,14 @@
       "Acer": 0,
       "Microsoft": 0,
       "CHAINWAY": 0,
-      "Fairphone": 0,
+      "A-gold": 0,
       "realme": 0,
-      "A-gold": 0
+      "Fairphone": 0
     },
     "numberChangeByCountry": {
-      "GB": 3,
+      "GB": 0,
       "US": 0,
-      "UNKNOWN": 0,
+      "UNKNOWN": -1,
       "SE": 0,
       "NL": 0,
       "CN": 0,
@@ -277,7 +277,7 @@
   },
   "managedInfo": {
     "totalNonStaleRecentDevices": 173,
-    "totalRecent24hDevices": 7,
+    "totalRecent24hDevices": 6,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
@@ -316,8 +316,8 @@
       "BE": 1,
       "NZ": 1,
       "ES": 1,
-      "NL": 1,
       "CH": 1,
+      "NL": 1,
       "FR": 1
     },
     "numberChangeByOS": {
@@ -327,7 +327,7 @@
       "30": 0,
       "31": 0,
       "32": 0,
-      "33": 1,
+      "33": 0,
       "34": 0,
       "35": 0
     },
@@ -339,7 +339,7 @@
       "motorola": 0,
       "unknown": 0,
       "A-gold": 0,
-      "Zebra Technologies": 1
+      "Zebra Technologies": 0
     },
     "numberChangeByCountry": {
       "US": 0,
@@ -357,8 +357,8 @@
       "BE": 0,
       "NZ": 0,
       "ES": 0,
+      "CH": 0,
       "NL": 0,
-      "CH": 1,
       "FR": 0
     }
   }
