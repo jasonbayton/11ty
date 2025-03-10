@@ -642,7 +642,7 @@ content#home {
 }
 
 .img-ticker {
-  animation: ticker 160s linear infinite;
+  /*animation: ticker 160s linear infinite;*/
 }
 
 .ticker-item img {
@@ -1757,7 +1757,7 @@ footer {
   }
 
   .img-ticker {
-    animation: ticker 120s linear infinite;
+    /*animation: ticker 120s linear infinite;*/
   }
 
   #intro_subheading, .home-subheading {
@@ -1969,7 +1969,7 @@ footer {
   }
 
   .img-ticker {
-    animation: ticker 50s linear infinite;
+    /*animation: ticker 50s linear infinite;*/
   }
 
   #partner_logos #vendor_logo_container {
@@ -2018,7 +2018,7 @@ footer {
   h5 { font-size: 14px; }
 
   .img-ticker {
-    animation: ticker 25s linear infinite;
+    /*animation: ticker 25s linear infinite;*/
   }
 
   .post-social .meta-grid {
@@ -2076,7 +2076,7 @@ footer {
   }
 
   .img-ticker {
-    animation: ticker 20s linear infinite;
+    /*animation: ticker 20s linear infinite;*/
   }
 
   section#link_out {

@@ -7,19 +7,42 @@
                                     <img src="{{ logo }}" alt="vendor logo">
                                 </div>
                             {% endfor %}
-                            {% for logo in logos %}
-                                <div class="ticker-item">
-                                    <img src="{{ logo }}" alt="vendor logo">
-                                </div>
-                            {% endfor %}
-                            {% for logo in logos %}
-                                <div class="ticker-item">
-                                    <img src="{{ logo }}" alt="vendor logo">
-                                </div>
-                            {% endfor %}
                             </div>
                         </div>
                     </div>
                     <div id="vendor_disclaimer">
                         Have we worked together? Support me by <a href="https://github.com/jasonbayton/11ty/issues/new">adding your logo</a>!
                     </div>
+
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function () {
+                            const ticker = document.querySelector(".ticker");
+                            const tickerItems = Array.from(ticker.children);
+                            
+                            // Ensure we have enough content to scroll smoothly
+                            tickerItems.forEach((item) => {
+                                const clone = item.cloneNode(true);
+                                ticker.appendChild(clone);
+                            });
+
+                            let scrollAmount = 0;
+                            const speed = 0.5; // Adjust speed as needed
+
+                            function animateTicker() {
+                                scrollAmount -= speed;
+
+                                // When the first item moves fully out of view, move it to the end
+                                const firstItemWidth = ticker.firstElementChild.offsetWidth + 30;
+                                if (Math.abs(scrollAmount) >= firstItemWidth) {
+                                    const firstItem = ticker.firstElementChild;
+                                    ticker.appendChild(firstItem);
+                                    scrollAmount += firstItemWidth; // Adjust the scroll position without jumping
+                                }
+
+                                ticker.style.transform = `translateX(${scrollAmount}px)`;
+                                requestAnimationFrame(animateTicker);
+                            }
+
+                            animateTicker();
+                        });
+                    </script>
