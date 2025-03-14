@@ -73,13 +73,13 @@ Here's another previously-referenced feature to show up confirmed for Baklava.
 
 This is related to comms with [thread devices](https://en.wikipedia.org/wiki/Thread_(network_protocol)). Again, it's a cut-and-dry, simple restriction. More details on its use will come in time.
 
-## Automatic time & Automatic timezone policies
+## Automatic time & automatic time zone policies
 
-New in 16 as of (around) beta 3 are two new policies, automatic time and automatic timezone.
+New in 16 as of (around) beta 3 are two new policies, automatic time and automatic time zone.
 
-Both of these APIs have existed since Android 11 with [`setAutoTimeEnabled`](https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setAutoTimeEnabled(android.content.ComponentName,%20boolean)) and [`setAutoTimeZoneEnabled`](https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setAutoTimeZoneEnabled(android.content.ComponentName,%20boolean)) respectively, and even prior to 11 there were APIs the interfaced time and timezone.
+Both of these APIs have existed since Android 11 with [`setAutoTimeEnabled`](https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setAutoTimeEnabled(android.content.ComponentName,%20boolean)) and [`setAutoTimeZoneEnabled`](https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setAutoTimeZoneEnabled(android.content.ComponentName,%20boolean)) respectively, and even prior to 11 there were APIs that influenced time and time zone settings.
 
-There's currently no justification for revamping these _again_, and I don't want to speculate, but as and when more information is shared I will update here.
+There's currently no justification documented for revamping these _again_, and I don't want to speculate, but as and when more information is shared I will update here.
 
 ## That's not all folks!
 
