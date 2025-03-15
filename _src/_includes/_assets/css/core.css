@@ -442,7 +442,7 @@ td {
 }
 
 .responsive-table-wrapper td {
-  background: var(--light);
+  background: var(--subtle-bg);
 }
 
 .responsive-table-wrapper td:first-child {
