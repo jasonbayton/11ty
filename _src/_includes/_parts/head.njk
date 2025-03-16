@@ -54,30 +54,32 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
 
         <script>
-        function spaNavigate(data) {
-  // Fallback for browsers that don't support this API:
-  if (!document.startViewTransition) {
-    updateTheDOMSomehow(data);
-    return;
-  }
+                function spaNavigate(data) {
+          // Fallback for browsers that don't support this API:
+          if (!document.startViewTransition) {
+            updateTheDOMSomehow(data);
+            return;
+          }
 
-  document.startViewTransition(() => updateTheDOMSomehow(data));
-}
-</script>
+          document.startViewTransition(() => updateTheDOMSomehow(data));
+        }
+        </script>
 
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/pwabuilder-sw.js').then(function(registration) {
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-      }, function(err) {
-        console.log('ServiceWorker registration failed: ', err);
-      });
-    });
-  }
-</script>
+        <script>
+          if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+              navigator.serviceWorker.register('/pwabuilder-sw.js').then(function(registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+              }, function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+              });
+            });
+          }
+        </script>
 
-<script
-  src="https://js.sentry-cdn.com/04d3928a43344b9786687c888e37027d.min.js"
-  crossorigin="anonymous">
-</script>
+        <script src="/js/service-worker-FE-update.js"></script>
+        
+        <script
+          src="https://js.sentry-cdn.com/04d3928a43344b9786687c888e37027d.min.js"
+          crossorigin="anonymous">
+        </script>

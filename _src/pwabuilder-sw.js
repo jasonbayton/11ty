@@ -1,18 +1,23 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.5.4/workbox-sw.js');
 
-// Define the name of the cache
-const CACHE = "offline-pages";
+// Define the names of the caches (include versioning for cache versioning)
+const CACHE = "offline-pages-v1";
+const STATIC_ASSETS_CACHE = "static-assets-v1";
+const DATA_CACHE = "data-cache-v1";
 
 // Define the name of the background sync queue
 const bgSyncQueueName = "bg-sync-queue";
 
 // Define the offline fallback page
-const offlineFallbackPage = "offline";
-
-// Define an array of URLs to be cached offline
+const offlineFallbackPage = '/offline.html';
 const offlinecache = [
-  '/offline/'
+  '/offline.html'
 ];
+
+// Precache the offline fallback page using Workbox precaching
+workbox.precaching.precacheAndRoute([
+  { url: '/offline.html', revision: '1' }
+]);
 
 // Event listener for the message event
 self.addEventListener("message", (event) => {
@@ -22,7 +27,7 @@ self.addEventListener("message", (event) => {
 });
 
 // Event listener for the install event
-self.addEventListener('install', async (event) => {
+self.addEventListener('install', (event) => {
   event.waitUntil(
     Promise.all([
       // Add the offline cache to the cache storage
@@ -43,9 +48,22 @@ self.addEventListener('install', async (event) => {
       })
     ])
   );
-  caches.open(CACHE).then(cache => {
-    console.log('Offline cache contents:', cache.keys());
-  });
+});
+
+// Activation event to clean up old caches
+self.addEventListener('activate', (event) => {
+  const expectedCaches = [CACHE, STATIC_ASSETS_CACHE, DATA_CACHE];
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (!expectedCaches.includes(cacheName)) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
 });
 
 // Check if navigation preload is supported
@@ -54,55 +72,44 @@ if (workbox.navigationPreload.isSupported()) {
   workbox.navigationPreload.enable();
 }
 
-// Register a route to cache all requests
+// Define a plugin to notify clients when new content is available
+const newContentPlugin = {
+  async cacheDidUpdate({request, oldResponse, newResponse}) {
+    // Notify clients if a new network response is cached
+    if (newResponse) {
+      const clients = await self.clients.matchAll();
+      for (const client of clients) {
+        client.postMessage({ type: 'NEW_CONTENT_AVAILABLE', url: request.url });
+      }
+    }
+  }
+};
+
+// Register a route for navigation requests with a NetworkFirst strategy and the newContentPlugin
 workbox.routing.registerRoute(
-  new RegExp('/*'),
-  new workbox.strategies.StaleWhileRevalidate({
+  ({ request }) => request.mode === 'navigate',
+  new workbox.strategies.NetworkFirst({
     cacheName: CACHE,
     plugins: [
-      // Print a message to the console when a response is fetched from the network
       new workbox.expiration.ExpirationPlugin({
-        onCacheEntryAdded: () => console.log('New entry added to cache.'),
-        onCacheEntryUpdated: () => console.log('Entry updated in cache.'),
-        onCacheEntryDeleted: () => console.log('Entry deleted from cache.'),
-        onQuotaExceeded: () => console.warn('Quota exceeded.'),
-        onExpirationComplete: () => console.log('Expired entries removed from cache.')
-      })
-    ]
+        maxEntries: 50,
+        maxAgeSeconds: 7 * 24 * 60 * 60, // 1 week
+      }),
+      newContentPlugin
+    ],
   })
 );
 
-// Event listener for the fetch event
-self.addEventListener('fetch', (event) => {
+// Set a catch handler to serve the offline fallback for navigations
+workbox.routing.setCatchHandler(async ({ event }) => {
   if (event.request.mode === 'navigate') {
-    event.respondWith((async () => {
-      try {
-        const preloadResp = await event.preloadResponse;
-
-        if (preloadResp) {
-          return preloadResp;
-        }
-
-        const networkResp = await fetch(event.request);
-        return networkResp;
-      } catch (error) {
-        console.log('Network request for offline page failed. Serving offline page from cache.');
-        const cache = await caches.open(CACHE);
-        const cachedResp = await cache.match(offlineFallbackPage);
-        if (cachedResp) {
-          return cachedResp;
-        }
-        // If no cached response is available, show the offline page
-        return caches.match('/offline/');
-      }
-    })());
-    caches.open(CACHE).then(cache => {
-      console.log('Cache contents:', cache.keys());
-  });
+    return caches.match(offlineFallbackPage);
   }
+  return Response.error();
 });
 
-// Event listener for the sync event
+
+// Event listener for the background sync event
 self.addEventListener('sync', (event) => {
   if (event.tag === bgSyncQueueName) {
     event.waitUntil(handleBackgroundSync());
@@ -112,9 +119,9 @@ self.addEventListener('sync', (event) => {
 // Event listener for the periodic sync event
 self.addEventListener('periodicsync', (event) => {
   if (event.tag === 'sync-data') {
-  event.waitUntil(handlePeriodicSync());
+    event.waitUntil(handlePeriodicSync());
   }
-  });
+});
 
 // Handle background sync requests here
 async function handleBackgroundSync() {
@@ -134,6 +141,12 @@ async function handleBackgroundSync() {
         await caches.open(CACHE)
           .then((cache) => cache.put(request, networkResponse.clone()));
 
+        // Notify clients about updated content.
+        const clients = await self.clients.matchAll();
+        for (const client of clients) {
+          client.postMessage({ type: 'NEW_CONTENT_AVAILABLE', url: request.url });
+        }
+
         // Remove the request from the queue.
         await removeRequestFromQueue(bgSyncQueueName, id);
       }
@@ -149,40 +162,38 @@ async function handlePeriodicSync() {
     console.log("Periodic Sync Started");
 
     // Cache static assets for offline use
-    const cacheName = "static-assets";
     const urlsToCache = [
-      "/offline/",
+      "/offline.html",
     ];
-    const cache = await caches.open(cacheName);
-    await cache.addAll(urlsToCache);
+    const staticCache = await caches.open(STATIC_ASSETS_CACHE);
+    await staticCache.addAll(urlsToCache);
 
-    // Update cache with new content
+    // Update cache with new content from API
     const updateCache = async () => {
       const response = await fetch("/api/data");
-      const cache = await caches.open("data-cache");
-      cache.put("/api/data", response.clone());
+      const dataCache = await caches.open(DATA_CACHE);
+      dataCache.put("/api/data", response.clone());
     };
     await updateCache();
 
-    // Provide fallback page when there is no network connectivity
-    const fallbackPage = async () => {
-      const cache = await caches.open("offline-cache");
-      const cachedResponse = await cache.match("/offline/");
-      return cachedResponse || Response.error();
-    };
+    // Notify clients about new API data
+    const clients = await self.clients.matchAll();
+    for (const client of clients) {
+      client.postMessage({ type: 'NEW_DATA_AVAILABLE', url: '/api/data' });
+    }
 
-    // Invalidate outdated cache entries
+    // Invalidate outdated cache entries in DATA_CACHE
     const invalidateCache = async () => {
-      const cache = await caches.open("data-cache");
-      const keys = await cache.keys();
+      const dataCache = await caches.open(DATA_CACHE);
+      const keys = await dataCache.keys();
       const now = Date.now();
       keys.forEach(async (key) => {
-        const response = await cache.match(key);
+        const response = await dataCache.match(key);
         const headers = response.headers;
         const dateHeader = headers.get("date");
         const date = new Date(dateHeader).getTime();
         if (now - date > 24 * 60 * 60 * 1000) {
-          await cache.delete(key);
+          await dataCache.delete(key);
         }
       });
     };
@@ -193,4 +204,3 @@ async function handlePeriodicSync() {
     console.error("Periodic Sync Failed: ", err);
   }
 }
-
