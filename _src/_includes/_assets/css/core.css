@@ -66,6 +66,7 @@
     --brand-background: #00284d;
     --brand-text: #cfcfcf;
     --orange-opacity: #ff450066;
+    --subtle-bg: #242424;
   }
 
   [data-theme='light'] {
@@ -83,6 +84,7 @@
     --brand-text: #333333;
     --main-blue: #0283bd;
     --main-green: #15B007;
+    --subtle-bg: #f1f1f1;
   }
 }
 
