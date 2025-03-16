@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     includeMatches: true,
     ignoreLocation: true,
     // Needs to be a strict match
-    threshold: 0.0,
+    threshold: 0.4,
     keys: ["title", "content"],
   };
 
