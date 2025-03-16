@@ -47,7 +47,7 @@ Instead, more granular control over applications updated from Play are needed:
 
 ## Granular system update management
 
-This came up in a conversation with [Alex](https://www.linkedin.com/in/alexander-hermann-50ba5a225/]. For the last several years we've had pretty basic native system update management for Android - 
+This came up in a conversation with [Alex](https://www.linkedin.com/in/alexander-hermann-50ba5a225/). For the last several years we've had pretty basic native system update management for Android - 
 
 * Automatic: Updates and reboots a device as soon as an update is available
 * Windowed: Updates and reboots a device during a set time window local to the Android device
