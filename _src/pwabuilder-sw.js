@@ -164,6 +164,10 @@ async function handlePeriodicSync() {
     // Cache static assets for offline use
     const urlsToCache = [
       "/offline.html",
+      "/manifest.json",
+      "/css/core.css",
+      "/css/base.css",
+      "/js/fuse-search.js",
     ];
     const staticCache = await caches.open(STATIC_ASSETS_CACHE);
     await staticCache.addAll(urlsToCache);
