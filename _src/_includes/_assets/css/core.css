@@ -1643,6 +1643,15 @@ footer {
     }
   }
 
+  & .callout-button {
+    padding: 20px 0;
+
+    &.callout-button-right {
+      text-align: right;
+      padding-right: 10px;
+    }
+  }
+
   & .callout-icon-sad::before {
     content: 'sentiment_dissatisfied';
   }
