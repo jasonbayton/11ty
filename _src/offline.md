@@ -8,6 +8,6 @@ type: page
 layout: base.njk
 permalink: /offline.html
 ---
-**It looks like you're offline! **
+**It looks like you're offline!**
 
 Unfortunately this website requires an internet connection to fetch new content (but pages you visited while online will still be available).
