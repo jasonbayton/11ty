@@ -133,6 +133,30 @@ If you're a software vendor building out a management platform, be that with the
   </div>
 </div>
 
+<!-- Service 8: Text left, image right -->
+<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+  
+  <div class="service-text">
+    <h3>Software development</h3>
+
+I work closely with a network of trusted partners to develop bespoke Android-based application or solutions projects.
+
+An example of projects I've brought to life include:
+
+- [MANAGED SETTINGS](/projects/managed-setttings)
+- [QR code generator](/qr-generator)
+- [PACKAGE SEARCH](/projects/package-search)
+- Custom APN management (end-customer)
+- OTA device agent (OEM)
+
+With deep experience of the Android Enterprise ecosystem, we can build anything from OEM config applications to EMM platforms, custom DPCs and more. Together, we can bring your Android visions to life.
+
+  </div>
+  <div class="service-image mobile-hidden">
+    <img src="/img/development_services.png" alt="Development Services">
+  </div>
+</div>
+
 ## Get started
 
 Ready? Let's go:
