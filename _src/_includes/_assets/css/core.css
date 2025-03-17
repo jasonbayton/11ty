@@ -1050,11 +1050,6 @@ div:hover path#exclude, div:active path#exclude {
   fill: var(--orange)
 }
 
-#well_hey img {
-  max-width: 50px;
-  margin: 0;
-}
-
 :is(.heading-wrapper :is(h1, h2, h3, h4)) {
   display: inline;
 }
@@ -1140,6 +1135,10 @@ section#sponsor_rrjfc {
         border-radius: 20px;
       }
     }
+}
+
+.service-image {
+  padding-top: 20px;
 }
 
 #author_bio {
@@ -1641,6 +1640,15 @@ footer {
       & .material-symbols-outlined {
         font-size: 115%;
         padding-right: 6px;
+    }
+  }
+
+  & .callout-button {
+    padding: 20px 0;
+
+    &.callout-button-right {
+      text-align: right;
+      padding-right: 10px;
     }
   }
 

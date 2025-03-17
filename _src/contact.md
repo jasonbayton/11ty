@@ -14,7 +14,6 @@ Here's a non-exhaustive list of ways to contact me. These aren't regularly updat
 Email: [jason@bayton.org](mailto:jason@bayton.org)  
 Phone: [+447975537754](tel:+447975537754)  
 LinkedIn: [/in/jasonbayton](https://linkedin.com/in/jasonbayton)  
-Twitter: [@jasonbayton](https://twitter.com/jasonbayton)  
 Mastodon: [@bayton@fosstodon.org](https://fosstodon.org/@bayton)  
 WhatsApp: +447975537754  
 Telegram: [JasonBayton](https://t.me/JasonBayton)  
