@@ -137,9 +137,11 @@ If you're a software vendor building out a management platform, be that with the
 
 Ready? Let's go:
 
+<div class="padding-top-20 padding-bottom-20">
 <a class="button" href="/contact">
 Book a call with me
 </a>
+</div>
 
 Please prepare a detailed scope and/or Statement of Work (SoW) defining your objectives, team involved, as well as a budget and time window for the engagement to review, as this will allow efficient use of time on our call.
 
