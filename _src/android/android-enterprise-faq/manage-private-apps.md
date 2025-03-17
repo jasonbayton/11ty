@@ -28,4 +28,4 @@ More information: [Create and manage private apps for Android Enterprise](/andro
 
 Where the Play iFrame isn’t supported, it’s possible to upload and distribute through the [Google Play Console](https://play.google.com/apps/publish/) but keep in mind there’s a $25 fee to set up a developer account.
 
-**Note**: Google Play will only permit one package name (com.app.name) for an application across the whole Google Play estate, meaning if you wish to upload an app privately today, and make it available publicly later, you **must use unique package names for each upload**.
+**Note**: Google Play will only permit one package name (`com.app.name`) for an application across the whole Google Play estate, meaning if you wish to upload an app privately today, and make it available publicly later, you **must use unique package names for each upload**.
