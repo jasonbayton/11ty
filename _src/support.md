@@ -91,7 +91,7 @@ Is the thought of managing your fleet or Android and/or ChromeOS devices giving 
 
 Offload the day-to-day management of your Google estate in its entirety. I'll handle onboarding, offboarding, BAU activities and provide a comfortable SLA for all requests. 
 
-Device management starts at £0.60 per device, per month, billed annually (£7.20), and decreases by commitment duration (12-60 months). This includes the EMM licence.
+Device management starts at £0.60 per device, per month, billed annually (£7.20), and decreases by commitment duration (12-60 months). This includes the device management licence for Android. 
 
 Optional enhanced support is available on request.
 
