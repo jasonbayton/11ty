@@ -1,18 +1,3 @@
-// const git = require('simple-git')();
-// const fg = require('fast-glob');
-
-// module.exports = async () => {
-//     const files = await fg(['_src/**/*.md']);
-//     const history = {};
-  
-//     for (const file of files) {
-//       const log = await git.log({ file, n: 3 }); // Limit to 3 commits per file
-//       history[`./${file}`] = log.all;
-//     }
-  
-//     return history;
-//   };
-
 // This project uses a hybrid caching strategy to improve build performance by reducing repeated Git history scans.
 // Workflow: `npm run refresh:git-history`: Updates a cached gitHistory.json by refreshing only changed files using `git diff HEAD~1` (or falling back to a full scan in CI).
 // `npm run build`: Refreshes git history and then runs Eleventy for production builds.
@@ -24,21 +9,25 @@ const fs = require('fs');
 const path = require('path');
 
 const CACHE_PATH = path.resolve(__dirname, './gitHistory.json');
+const CACHE_MAX_AGE_HOURS = 24;
 
 async function getChangedFiles() {
   try {
-    const diff = await git.diff(['--name-only', 'HEAD~1']);
-    const changed = diff.split('\n').filter(file => file.endsWith('.md'));
+    const diff = await git.diff(['--name-only', '--cached']);
+    const unstaged = await git.diff(['--name-only']);
+    const changedFiles = [...diff.split('\n'), ...unstaged.split('\n')]
+      .filter(file => file.endsWith('.md'))
+      .filter((value, index, self) => value && self.indexOf(value) === index);
 
-    if (changed.length === 0) {
-      console.warn('⚠️ No changes detected or shallow clone detected, falling back to full scan.');
+    if (changedFiles.length === 0) {
+      console.warn('📦 No changes detected, falling back to full scan.');
       const fallback = await git.raw(['ls-files', '_src/**/*.md']);
       return fallback.split('\n').filter(file => file.endsWith('.md'));
     }
 
-    return changed;
+    return changedFiles;
   } catch (e) {
-    console.error('Error fetching changed files, falling back to full markdown scan.', e);
+    console.error('📦 Error fetching changed files, falling back to full markdown scan.', e);
     const files = await git.raw(['ls-files', '_src/**/*.md']);
     return files.split('\n').filter(file => file.endsWith('.md'));
   }
@@ -59,7 +48,23 @@ module.exports = async () => {
     files = allFiles.split('\n').filter(file => file.endsWith('.md'));
   } else {
     cache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-    files = await getChangedFiles();
+    const stats = fs.statSync(CACHE_PATH);
+    const ageInHours = (Date.now() - stats.mtimeMs) / (1000 * 60 * 60);
+
+    if (ageInHours > CACHE_MAX_AGE_HOURS) {
+      console.warn(`📦 Cache is older than ${CACHE_MAX_AGE_HOURS} hours. Running full scan.`);
+      const allFiles = await git.raw(['ls-files', '_src/**/*.md']);
+      files = allFiles.split('\n').filter(file => file.endsWith('.md'));
+    } else {
+      const cachedFiles = Object.keys(cache);
+      const changedFiles = await getChangedFiles();
+      files = changedFiles.filter(file => !cachedFiles.includes(`./${file}`));
+    }
+  }
+
+  if (files.length === 0) {
+    console.log('📦 Full scan up to date.');
+    return cache;
   }
 
   for (const file of files) {
