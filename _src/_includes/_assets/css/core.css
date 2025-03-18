@@ -224,7 +224,7 @@ blockquote::after{
 .label {
   font-size: 70%;
   padding: 0 3px;
-  background: var(--light);
+  background-color: var(--light);
   border-radius: 5px;
   text-wrap: nowrap;
 
@@ -234,22 +234,22 @@ blockquote::after{
   }
 
   &.label-green {
-    background: var(--main-green);
+    background-color: var(--main-green);
     color: white;
   }
 
   &.label-orange {
-    background: var(--orange);
+    background-color: var(--orange);
     color: white;
   }
 
   &.label-main-blue {
-    background: var(--main-blue);
+    background-color: var(--main-blue);
     color: white;
   }
 
   &.label-blue {
-    background: var(--blue);
+    background-color: var(--blue);
     color: white;
   }
 
@@ -353,7 +353,7 @@ input[type=time],
 input[type=checkbox],
 textarea,
 select {
-  background: var(--input);
+  background-color: var(--input);
   color: var(--text);
   border: 0;
   padding: 13px;
@@ -373,7 +373,7 @@ input:focus {
 }
 
 .banner {
-  background: var(--orange);
+  background-color: var(--orange);
   padding: 10px;
   border-radius: 5px;
   color: var(--bright);
@@ -444,7 +444,7 @@ td {
 }
 
 .responsive-table-wrapper td {
-  background: var(--subtle-bg);
+  background-color: var(--subtle-bg);
 }
 
 .responsive-table-wrapper td:first-child {
@@ -754,7 +754,7 @@ content#home {
 
 .post-social, .generator-bg {
   padding: 15px 30px;
-  background: var(--subtle-bg);
+  background-color: var(--subtle-bg);
   border-radius: 20px;
 
   & select {
@@ -924,15 +924,15 @@ content#page, content#search, content#archive, content#generator {
 .pricing-item .btn {
   display: inline-block;
   padding: 10px 20px;
-  background: var(--orange);
+  background-color: var(--orange);
   color: var(--bright);
   text-decoration: none;
   border-radius: 5px;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .pricing-item .btn:hover {
-  background: var(--main-blue);
+  background-color: var(--main-blue);
 }
 
 .pricing-item.popular {
@@ -946,7 +946,7 @@ content#page, content#search, content#archive, content#generator {
   top: -10px;
   left: 50%;
   transform: translateX(-50%);
-  background: var(--main-blue);
+  background-color: var(--main-blue);
   color: var(--bright);
   padding: 5px 10px;
   border-radius: 5px;
@@ -1223,7 +1223,7 @@ section#sponsor_rrjfc {
 }
 
 #qr_type .button {
-  background: var(--subtle-bg);
+  background-color: var(--subtle-bg);
   border: var(--subtle-bg);
   margin-right: 10px;
   margin-bottom: 10px;
@@ -1467,10 +1467,10 @@ footer {
     border-radius: 5px;
     box-sizing: border-box;
     color: var(--brand-text);
-    background: var(--subtle-bg);
+    background-color: var(--subtle-bg);
 
   &.callout-orange {
-      background: var(--orange);
+      background-color: var(--orange);
       color: #ffffff;
 
     & .callout-heading::after {
@@ -1490,7 +1490,7 @@ footer {
     }
 
     & .responsive-table-wrapper td {
-      background: #4e0000!important;
+      background-color: #4e0000!important;
     }
 
     & .responsive-table-wrapper th {
@@ -1499,7 +1499,7 @@ footer {
   }
 
   &.callout-blue {
-    background: var(--main-blue);
+    background-color: var(--main-blue);
     color: #ffffff;
 
     & .callout-heading::after {
@@ -1515,7 +1515,7 @@ footer {
     }
 
     & .responsive-table-wrapper td {
-      background: #003b55!important;
+      background-color: #003b55!important;
     }
 
     & .responsive-table-wrapper th {
@@ -1524,7 +1524,7 @@ footer {
   }
 
   &.callout-red {
-    background: var(--main-red);
+    background-color: var(--main-red);
     color: #ffffff;
 
     & .callout-heading::after {
@@ -1544,7 +1544,7 @@ footer {
     }
 
     & .responsive-table-wrapper td {
-      background: #4e0000!important;
+      background-color: #4e0000!important;
     }
 
     & .responsive-table-wrapper th {
@@ -1553,7 +1553,7 @@ footer {
   }
 
   &.callout-green {
-    background: var(--main-green);
+    background-color: var(--main-green);
     color: #ffffff;
 
     & .callout-heading::after {
@@ -1569,7 +1569,7 @@ footer {
     }
 
     & .responsive-table-wrapper td {
-      background: #086a00!important;
+      background-color: #086a00!important;
     }
 
     & .responsive-table-wrapper th {
@@ -1629,7 +1629,7 @@ footer {
   &.callout-small {
       border: 0;
       padding: 3px;
-      background: var(--dark);
+      background-color: var(--dark);
       color: var(--bright);
       margin: 30px 0 0;
 
@@ -1898,7 +1898,7 @@ footer {
     border: none;
     font-size: 1.5em;
     cursor: pointer;
-    background: var(--background);
+    background-color: var(--background);
     box-shadow: none;
     color: var(--text);
   }
@@ -2352,7 +2352,7 @@ section#sharebox {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   padding: 20px;
-  background: var(--main-green);
+  background-color: var(--main-green);
   border-radius: 5px;
   color: #000000;
 }
@@ -2369,7 +2369,7 @@ section#sharebox {
 }
 
 .link-icons a:hover {
-  background: rgba(255, 255, 255, 0.586);
+  background-color: rgba(255, 255, 255, 0.586);
   transition: 0.5s ease-in-out;
   border-radius: 5px;
   padding: 2px 4px;
@@ -2398,7 +2398,7 @@ section#link_out {
 
 section#note_overview {
   border-radius: 5px;
-  background: var(--orange);
+  background-color: var(--orange);
   color: var(--bright);
 }
 
