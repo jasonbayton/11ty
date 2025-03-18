@@ -6,7 +6,8 @@
   "scripts": {
     "refresh:git-history": "node _src/_data/gitHistory.js",
     "build": "npm run refresh:git-history && npx @11ty/eleventy",
-    "serve": "npm run refresh:git-history && npx @11ty/eleventy --serve"
+    "serve": "npm run refresh:git-history && npx @11ty/eleventy --serve",
+    "incremental": "npm run refresh:git-history && npx @11ty/eleventy --serve --incremental"
   },
   "keywords": [],
   "author": "",
