@@ -22,24 +22,28 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginTOC)
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
-  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/css": "/css"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/js": "/js"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/img": "/img"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_assets/fonts": "/fonts"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_redirects": "/_redirects"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/_headers": "/_headers"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/robots.txt": "/robots.txt"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/entID.xml": "/projects/managed-settings/entID.xml"});
-  eleventyConfig.addPassthroughCopy({"_src/_includes/assetlinks.json": "/.well-known/assetlinks.json"});
-  eleventyConfig.addPassthroughCopy({"_src/favicon.ico": "/favicon.ico"});
-  eleventyConfig.addPassthroughCopy({"_src/manifest.json": "/manifest.json"});
-  eleventyConfig.addPassthroughCopy({"_src/pwabuilder-sw.js": "/pwabuilder-sw.js"});
-  eleventyConfig.addPassthroughCopy({"_src/image": "/image"});
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(embedTwitter);
   eleventyConfig.addPlugin(eleventyAutoCacheBuster);
+
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+  eleventyConfig.addPassthroughCopy({
+    "_src/_includes/_assets/css": "css",
+    "_src/_includes/_assets/js": "js",
+    "_src/_includes/_assets/img": "img",
+    "_src/_includes/_assets/fonts": "fonts",
+    "_src/_includes/_redirects": "_redirects",
+    "_src/_includes/_headers": "_headers",
+    "_src/_includes/robots.txt": "robots.txt",
+    "_src/_includes/entID.xml": "projects/managed-settings/entID.xml",
+    "_src/_includes/assetlinks.json": ".well-known/assetlinks.json",
+    "_src/favicon.ico": "favicon.ico",
+    "_src/manifest.json": "manifest.json",
+    "_src/pwabuilder-sw.js": "pwabuilder-sw.js",
+    "_src/image": "image"
+  });
+
   eleventyConfig.addFilter("dateYear", dates.dateYear);
   eleventyConfig.addFilter("dateISO", dates.dateISO);
   eleventyConfig.addFilter("dateWithTime", dates.dateWithTime);
@@ -47,7 +51,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dateFormat", dates.dateFormat);
 
 // truncate
-
   eleventyConfig.addFilter("truncate", function (str = "", limit = 30) {
     return str.toString()
       .trim()
@@ -139,6 +142,9 @@ eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"));
         .replaceAll("&nbsp;", " ")
     );
   });
+
+// throttle watch
+  eleventyConfig.setWatchThrottleWaitTime(600); // in milliseconds
 
 // 11ty output
     return {
