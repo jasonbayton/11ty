@@ -97,7 +97,7 @@ Examples:
   <div class="service-text">
     <h3>Complete mobility management</h3>
 
-Is the thought of managing your fleet or Android and/or ChromeOS devices giving you a headache?
+**Is the thought of managing your fleet or Android and/or ChromeOS devices giving you a headache?**
 
 Offload the day-to-day management of your Google estate in its entirety. I'll handle onboarding, offboarding, BAU activities and provide a comfortable SLA for all requests. 
 
