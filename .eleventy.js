@@ -146,11 +146,6 @@ eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"));
 // throttle watch
   eleventyConfig.setWatchThrottleWaitTime(600); // in milliseconds
 
-// does content have heading
-  eleventyConfig.addFilter("hasHeading", content => {
-    return /<h[1-6][^>]*>/.test(content);
-  });
-
 // 11ty output
     return {
       markdownTemplateEngine: "njk",

@@ -24,10 +24,10 @@
                     <h2>Contents</h2>
                 </div>
                 <div id="article_contents_list" class="toc">
-                    {% if content | hasHeading %}
-                        {{ content | toc | safe }}
+                    {% if content | toc %}
+                    {{ content | toc | safe }}
                     {% else %}
-                        {{ title }}
+                    {{ title }}
                     {% endif %}
                 </div> 
                 {% if type.includes("documentation") %}
@@ -178,7 +178,7 @@
                 </div>
                 {% endif %}
                 {% if (not type.includes("archive")) and (not type.includes("note"))  %}
-                {% if content | hasHeading %}
+                {% if content | toc %}
                 <div id="mobile_toc">
                     <details>
                         <summary>Contents</summary>
