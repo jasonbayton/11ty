@@ -1,12 +1,10 @@
 var toggle = document.getElementById("darktoggle");
-  toggle.onclick = function() {
-    var currentTheme = document.documentElement.getAttribute("data-theme");
-    var targetTheme = "light";
-    if (currentTheme === "light") {
-      targetTheme = "dark";
-    }
+toggle.onclick = function() {
+  var currentTheme = document.documentElement.getAttribute("data-theme");
+  var targetTheme = currentTheme === "light" ? "dark" : "light";
 
-  document.documentElement.setAttribute('data-theme', targetTheme)
+  // We assume .js-theme-applied is already present after page load, but now transitions will be allowed
+  document.documentElement.setAttribute('data-theme', targetTheme);
   localStorage.setItem('theme', targetTheme);
 };
 

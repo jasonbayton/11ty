@@ -2438,3 +2438,15 @@ section#note_overview {
     font-size: 30px;
   }
 }
+
+/* Added nested CSS block */
+html, body, [data-theme="light"], [data-theme="dark"] {
+  transition: none;
+}
+
+html.js-theme-applied, 
+html.js-theme-applied body, 
+html.js-theme-applied [data-theme="light"], 
+html.js-theme-applied [data-theme="dark"] {
+  transition: background-color 1.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
