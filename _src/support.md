@@ -8,6 +8,8 @@ type: page
 layout: base.njk
 ---
 
+<div class="callout">
+
 ## Modern device management can seem overwhelming, but it doesn't have to be.
 
 I've collaborated with, and/or consulted for, leading Android OEMs, Enterprise Mobility vendors, NGOs, carriers, multiple fortune listed organisations, and my work has been acknowledged and promoted by industry giants including Google, Sony, Nokia (HMD), and many more. Whether you're a small business looking to implement your first mobility strategy or a multinational corporation planning a full-scale device rollout, I've done it all before.
@@ -15,6 +17,14 @@ I've collaborated with, and/or consulted for, leading Android OEMs, Enterprise M
 As your mobility partner, I can offer you the necessary knowledge and resources needed to achieve your mobility goals. From strategy planning to end-to-end deployment, I offer a range of services tailored to your specific needs.
 
 So, let's embark on this journey together and make your enterprise mobility vision a reality.
+
+<div class="callout-button callout-button-right">
+<a class="button" href="#get-started">
+Get started
+</a>
+</div>
+
+</div>
 
 <!-- Service 1: Image left, text right -->
 <div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
