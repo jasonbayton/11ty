@@ -1847,6 +1847,7 @@ footer {
   #corner_menu {
     display: unset;
     justify-self: end;
+    cursor: pointer;
   }
 
   #menu_modal {
