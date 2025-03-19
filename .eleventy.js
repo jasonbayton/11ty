@@ -25,8 +25,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(embedTwitter);
-  eleventyConfig.addPlugin(eleventyAutoCacheBuster);
-
+  eleventyConfig.addPlugin(eleventyAutoCacheBuster, {
+    enableLogging: true,
+  });
   eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
   eleventyConfig.addPassthroughCopy({
     "_src/_includes/_assets/css": "css",
