@@ -1752,6 +1752,97 @@ footer {
   100% { transform: translateX(-100%); }  /* This value should be the total width of all the logos */
 }
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 0px;
+  gap: 40px;
+
+  .contact-info {
+    h1 {
+      font-size: 50px;
+      font-weight: 700;
+      margin-top: 0;
+    }
+
+    h2 {
+      & .material-symbols-outlined {
+        font-size: 70px;
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+
+    .highlight {
+      color: var(--orange);
+    }
+  }
+
+  .contact-form {
+    display: grid;
+    gap: 20px;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      input,
+      textarea {
+        padding: 15px;
+        background-color: var(--input);
+        color: var(--text);
+        border: 1px solid var(--dark);
+        border-radius: 5px;
+
+        &:focus {
+          outline: none;
+          border-color: var(--orange);
+        }
+      }
+
+      textarea {
+        resize: vertical;
+        min-height: 150px;
+      }
+    }
+
+    .cta-btn {
+      padding: 15px;
+      background: var(--orange);
+      color: var(--bright);
+      font-weight: bold;
+      font-size: inherit;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: var(--blood-orange);
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    padding: 50px 20px;
+
+    .contact-info h1 {
+      font-size: 36px;
+    }
+  }
+}
+
 /* Media */
 
 @media (min-width: 1800px) {

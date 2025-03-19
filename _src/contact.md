@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Get in touch
 date: '2010-04-19T21:09:21+01:00'
 status: publish
 author: 'Jason Bayton'
@@ -9,22 +9,55 @@ tags:
 layout: base.njk
 id: 426
 ---
-Here's a non-exhaustive list of ways to contact me. These aren't regularly updated. 
 
-Email: [jason@bayton.org](mailto:jason@bayton.org)  
-Phone: [+447975537754](tel:+447975537754)  
-LinkedIn: [/in/jasonbayton](https://linkedin.com/in/jasonbayton)  
-Mastodon: [@bayton@fosstodon.org](https://fosstodon.org/@bayton)  
-WhatsApp: +447975537754  
-Telegram: [JasonBayton](https://t.me/JasonBayton)  
-Signal: +447975537754  
-Instagram: [baytonjason](https://instagram.com/baytonjason)  
-Threads: [baytonjason](https://threads.net/@baytonjason)  
-Bluesky: [@jason.bayton.org](https://bsky.app/profile/jason.bayton.org)  
-YouTube: [JasonBayton](https://youtube.com/@jasonbayton)  
-Android Enterprise Customer Community - [jasonbayton](https://www.androidenterprise.community/t5/user/viewprofilepage/user-id/11)
+<section class="contact-hero">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h1>Let’s do <span class="highlight">something great</span> together.</h1>
+      <p>Ready to bring your project to life or discuss a collaboration? Reach out and I’ll get back to you as soon as possible.</p>
+    </div>
+    <form name="contact" method="POST" data-netlify="true" class="contact-form">
+      <input type="hidden" name="form-name" value="contact">
+      <div class="form-group">
+        <label for="name">Name<span class="orange">*</span></label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email<span class="orange">*</span></label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message<span class="orange">*</span></label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="cta-btn">Let's go</button>
+    </form>
+  </div>
+</section>
 
-
-MobilePros Discord: [Join here](https://discord.gg/KGEpPxnjNu)  
-
-I do occasionally pop up elsewhere also!
+<section class="contact-hero">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h2><span class="material-symbols-outlined">
+alternate_email
+</span> Direct contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:jason@bayton.org">jason@bayton.org</a></p>
+      <p><strong>Number:</strong> <a href="tel:+447975537754">+44 7975 537754</a><br>
+      <small>Phone, Signal, WhatsApp...</p>
+    </div>
+    <div class="contact-info">
+      <h2><span class="material-symbols-outlined">
+globe_uk
+</span> Find me online</h2>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jasonbayton">/in/jasonbayton</a></p>
+      <p><strong>Mastodon:</strong> <a href="https://fosstodon.org/@bayton">@bayton@fosstodon.org</a></p>
+      <p><strong>Telegram:</strong> <a href="https://t.me/JasonBayton">JasonBayton</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/baytonjason">baytonjason</a></p>
+      <p><strong>Threads:</strong> <a href="https://threads.net/@baytonjason">baytonjason</a></p>
+      <p><strong>Bluesky:</strong> <a href="https://bsky.app/profile/jason.bayton.org">@jason.bayton.org</a></p>
+      <p><strong>YouTube:</strong> <a href="https://youtube.com/@jasonbayton">JasonBayton</a></p>
+      <p><strong>Android Enterprise Community:</strong> <a href="https://www.androidenterprise.community/t5/user/viewprofilepage/user-id/11">jasonbayton</a></p>
+      <p><strong>MobilePros Discord:</strong> <a href="https://discord.gg/KGEpPxnjNu">Join here</a></p>
+    </div>
+  </div>
+</section>
