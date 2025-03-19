@@ -11,34 +11,40 @@ id: 426
 ---
 
 <section class="contact-hero">
-  <div class="contact-grid">
-    <div class="contact-info">
-      <h1>Let’s do <span class="highlight">something great</span> together.</h1>
-      <p>Ready to bring your project to life or discuss a collaboration? Reach out and I’ll get back to you as soon as possible.</p>
-    </div>
-    <form name="contact" method="POST" data-netlify="true" class="contact-form">
-      <input type="hidden" name="form-name" value="contact">
-      <div class="form-group">
-        <label for="name">Name<span class="orange">*</span></label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email<span class="orange">*</span></label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="message">Message<span class="orange">*</span></label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-      <button type="submit" class="cta-btn">Let's go</button>
-    </form>
+<div class="contact-grid">
+<div class="contact-info">
+  <h1>Let’s do <span class="highlight">something great</span> together.</h1>
+  <p>Ready to bring your project to life or discuss a collaboration? Reach out and I’ll get back to you as soon as possible.</p>
+
+  <div class="scroll-down">
+    <a href="#contact-details">
+      Don't like forms? <span class="material-symbols-outlined">arrow_circle_down</span> 
+    </a>
   </div>
+</div>
+<form name="contact" method="POST" data-netlify="true" class="contact-form">
+  <input type="hidden" name="form-name" value="contact">
+  <div class="form-group">
+    <label for="name">Name<span class="orange">*</span></label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email<span class="orange">*</span></label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Message<span class="orange">*</span></label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  <button type="submit" class="cta-btn">Let's go</button>
+</form>
+</div>
 </section>
 
 <section class="contact-hero">
   <div class="contact-grid">
     <div class="contact-info">
-      <h2><span class="material-symbols-outlined">
+      <h2 id="contact-details"><span class="material-symbols-outlined">
 alternate_email
 </span> Direct contact</h2>
       <p><strong>Email:</strong> <a href="mailto:jason@bayton.org">jason@bayton.org</a></p>

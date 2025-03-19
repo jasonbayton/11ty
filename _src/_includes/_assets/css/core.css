@@ -1780,6 +1780,26 @@ footer {
     .highlight {
       color: var(--orange);
     }
+    .scroll-down {
+      font-size: 16px;
+      margin-top: 60px;
+      padding-right: 10px;
+      text-align: right;
+
+      @media (max-width: 900px) {
+        margin-top: 30px;
+      }
+
+      & a {
+        text-decoration: none;
+
+        & .material-symbols-outlined {
+          font-size: 26px;
+          padding-left: 5px;
+          font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+      }
+    }
   }
 
   .contact-form {
