@@ -26,7 +26,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(embedTwitter);
   eleventyConfig.addPlugin(eleventyAutoCacheBuster, {
-    enableLogging: true,
     hashAlgorithm: "sha256",
     hashTruncate: 24,
   });
