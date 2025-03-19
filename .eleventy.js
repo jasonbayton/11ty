@@ -27,6 +27,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(embedTwitter);
   eleventyConfig.addPlugin(eleventyAutoCacheBuster, {
     enableLogging: true,
+    hashAlgorithm: "sha256",
+    hashTruncate: 24,
   });
   eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
   eleventyConfig.addPassthroughCopy({
