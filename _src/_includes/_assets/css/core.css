@@ -1416,6 +1416,11 @@ footer {
 #social_icons {
   font-size: 30px;
   display: inline;
+
+  & img {
+    display: inline;
+    width: 26px;
+  }
 }
 
 #made_by {
