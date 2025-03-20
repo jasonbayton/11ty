@@ -10,6 +10,8 @@ layout: base.njk
 id: 426
 ---
 
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
 <section class="contact-hero">
 <div class="contact-grid">
 <div class="contact-info">
@@ -41,6 +43,7 @@ id: 426
     <textarea id="message" name="message" required></textarea>
   </div>
   <div class="submit-group">
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAABB0CbFwPsQWKHA6"></div>
     <button type="submit" class="cta-btn">Let's go</button>
   </div>
 </form>
