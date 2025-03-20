@@ -51,9 +51,9 @@ id: 426
 </section>
 
 <section class="contact-hero">
-  <div class="contact-grid">
+  <div class="contact-grid" id="contact-details">
     <div class="contact-info">
-      <h2 id="contact-details"><span class="material-symbols-outlined">
+      <h2><span class="material-symbols-outlined">
 alternate_email
 </span> Direct contact</h2>
       <p><strong>Email:</strong> <a href="mailto:jason@bayton.org">jason@bayton.org</a></p>
