@@ -49,7 +49,7 @@ alternate_email
 </span> Direct contact</h2>
       <p><strong>Email:</strong> <a href="mailto:jason@bayton.org">jason@bayton.org</a></p>
       <p><strong>Number:</strong> <a href="tel:+447975537754">+44 7975 537754</a><br>
-      <small>Phone, Signal, WhatsApp...</p>
+      <small>If you'd like to reach out, WhatsApp & Signal are preferred</small></p>
     </div>
     <div class="contact-info">
       <h2><span class="material-symbols-outlined">

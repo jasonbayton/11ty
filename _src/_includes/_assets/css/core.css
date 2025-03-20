@@ -1796,6 +1796,10 @@ footer {
     p {
       margin-top: 20px;
       font-size: 24px;
+
+      small {
+        font-size: 14px;
+      }
     }
 
     .highlight {
