@@ -22,7 +22,7 @@ id: 426
     </a>
   </div>
 </div>
-<form name="contact" method="POST" data-netlify="true" class="contact-form">
+<form name="contact" method="POST" data-netlify="true" action="/contact/success/" class="contact-form">
   <input type="hidden" name="form-name" value="contact">
   <div class="form-group">
     <label for="name">Name<span class="orange">*</span></label>
