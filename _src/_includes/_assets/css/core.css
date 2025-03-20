@@ -1872,6 +1872,7 @@ footer {
       display: flex;
       flex-direction: row;
       gap: 20px;
+      justify-content: space-between;
     }
 
     .cta-btn {
@@ -1886,7 +1887,7 @@ footer {
       transition: background-color 0.3s ease;
       max-width: 250px;
       width: 100%;
-      justify-self: end;
+      height: fit-content;
 
       &:hover {
         background-color: var(--blood-orange);
