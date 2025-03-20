@@ -36,8 +36,10 @@ id: 426
     <label for="message">Message<span class="orange">*</span></label>
     <textarea id="message" name="message" required></textarea>
   </div>
-  <div data-netlify-recaptcha="true"></div>
-  <button type="submit" class="cta-btn">Let's go</button>
+  <div class="submit-group">
+    <div data-netlify-recaptcha="true"></div>
+    <button type="submit" class="cta-btn">Let's go</button>
+  </div>
 </form>
 </div>
 </section>

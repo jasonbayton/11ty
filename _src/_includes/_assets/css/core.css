@@ -1,5 +1,10 @@
 /*  core */
 
+.material-symbols-outlined {
+  max-width: min-content;
+  width: 1em;
+}
+
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation-duration: 0.5s;
@@ -1822,6 +1827,7 @@ footer {
         & .material-symbols-outlined {
           font-size: 26px;
           padding-left: 5px;
+          max-width: 32px;
           font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
       }
@@ -1860,6 +1866,12 @@ footer {
         resize: vertical;
         min-height: 150px;
       }
+    }
+
+    .submit-group {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
     }
 
     .cta-btn {
