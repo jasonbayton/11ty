@@ -22,7 +22,7 @@ id: 426
     </a>
   </div>
 </div>
-<form name="contact" method="POST" data-netlify="true" action="/contact/success/" class="contact-form">
+<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/contact/success/" class="contact-form">
   <input type="hidden" name="form-name" value="contact">
   <div class="form-group">
     <label for="name">Name<span class="orange">*</span></label>
@@ -36,6 +36,7 @@ id: 426
     <label for="message">Message<span class="orange">*</span></label>
     <textarea id="message" name="message" required></textarea>
   </div>
+  <div data-netlify-recaptcha="true"></div>
   <button type="submit" class="cta-btn">Let's go</button>
 </form>
 </div>
