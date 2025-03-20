@@ -1786,6 +1786,10 @@ footer {
       & .material-symbols-outlined {
         font-size: 70px;
         font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+
+        @media screen and (max-width: 900px) {
+          font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
       }
     }
 
