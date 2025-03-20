@@ -1872,7 +1872,7 @@ footer {
       display: flex;
       flex-direction: row;
       gap: 20px;
-      justify-content: space-between;
+      justify-content: end;
     }
 
     .cta-btn {

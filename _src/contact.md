@@ -22,8 +22,12 @@ id: 426
     </a>
   </div>
 </div>
-<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/contact/success/" class="contact-form">
-  <input type="hidden" name="form-name" value="contact">
+<form name="contact" method="POST" action="https://submit-form.com/EqdSdyyV1" class="contact-form">
+  <input
+    type="hidden"
+    name="_redirect"
+    value="https://bayton.org/contact/success"
+  />
   <div class="form-group">
     <label for="name">Name<span class="orange">*</span></label>
     <input type="text" id="name" name="name" required>
@@ -37,7 +41,6 @@ id: 426
     <textarea id="message" name="message" required></textarea>
   </div>
   <div class="submit-group">
-    <div data-netlify-recaptcha="true"></div>
     <button type="submit" class="cta-btn">Let's go</button>
   </div>
 </form>
