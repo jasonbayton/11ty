@@ -148,10 +148,10 @@ eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"));
 // throttle watch
   eleventyConfig.setWatchThrottleWaitTime(600); // in milliseconds
 
-// does content have heading
-  eleventyConfig.addFilter("hasHeading", content => {
-    return /<h[1-6][^>]*>/.test(content);
-  });
+// does content have headings with anchors
+eleventyConfig.addFilter("hasHeading", content => {
+  return /<div class="heading-wrapper">.*?<h[1-6][^>]*>.*?<\/h[1-6]>.*?<a class="heading-anchor"[^>]*>.*?<\/a>.*?<\/div>/s.test(content);
+});
 
 // 11ty output
     return {
