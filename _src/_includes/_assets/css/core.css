@@ -1228,7 +1228,11 @@ section#sponsor_rrjfc {
   border: var(--subtle-bg);
   margin-right: 10px;
   margin-bottom: 10px;
-  color: var(--text)
+  color: var(--text);
+
+  &.active {
+    color: var(--blood-orange);
+  }
 }
 
 .field {

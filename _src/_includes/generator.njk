@@ -40,9 +40,9 @@
         <content id="generator">
             <section id="page_content">
                 <div id="qr_type" class="padding-bottom-10">
-                    <a class="button button-small {% if currentPage == '/qr-generator' %}active{% endif %}" href="/qr-generator">AMAPI</a>
-                    <a class="button button-small {% if currentPage == '/qr-generator-eap' %}active{% endif %}" href="/qr-generator-eap">AMAPI & EAP</a>
-                    <a class="button button-small {% if currentPage == '/qr-generator-dpc' %}active{% endif %}" href="/qr-generator-dpc">Custom DPC</a>
+                    <a class="button button-small {% if page.url and page.url == '/qr-generator/' %}active{% endif %}" href="/qr-generator">AMAPI</a>
+                    <a class="button button-small {% if page.url and page.url == '/qr-generator-dpc/' %}active{% endif %}" href="/qr-generator-dpc">Custom DPC</a>
+                    <a class="button button-small {% if page.url and page.url == '/zt-generator/' %}active{% endif %}" href="/zt-generator">ZT DPC extras</a>
                 </div>
                 <div class="section-title base-title">
                     {{ title }}
