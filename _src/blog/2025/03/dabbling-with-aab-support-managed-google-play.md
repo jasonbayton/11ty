@@ -172,7 +172,7 @@ And finally, it pushed to my test device nice and quickly, no fuss at all. Note 
 
 ### What needs work?
 
-While in the iFrame, I figured testing it here also would be reasonable. Here's one of a few snags with the process currently, which I'll state after the image:
+While in the iFrame, I'd be remiss if I didn't test it here also. Here's one of a few snags with the process currently, which I'll state after the image:
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_05.00.52.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_05.00.52.png)
 
@@ -193,7 +193,13 @@ It's worth pointing out when Google _does_ allow direct AAB uploads from the iFr
 > - Use the Play Console to create the private app with an AAB
 > - Use the iframe to create the private app with an APK then switch to AAB.
 
-Tying back to the callout above, if you have desires to use your own key with all uploaded apps, follow their advice and use the console to upload a new application.
+Tying back to the callout above, if you have desires to use your own key with all uploaded apps, follow their advice and use the console with a full developer account to upload a new application.
+
+Finally, and hopefully another symptom of this not yet being fully rolled out, is the lack of permissions for key management:
+
+[![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-23_11.45.35.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-23_11.45.35.png)
+
+It's an ongoing frustration generally, actually; permissions are overly restrictive across the portal. I'd like to be able to have my delegated accounts (i.e. jason@bayton.org, not the Google service account) act like an admin when it is granted admin permissions, I haven't been able to get that working as yet.
 
 ## In summary 
 
