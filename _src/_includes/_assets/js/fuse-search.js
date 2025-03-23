@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const searchOptions = {
     includeMatches: true,
     ignoreLocation: true,
-    // Needs to be a strict match
+    useExtendedSearch: true,
     threshold: 0.4,
     keys: ["title", "content"],
   };
@@ -67,8 +67,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Get search input
   const searchInput = document.getElementById("searchField");
 
-  // Focus on search
-  searchInput.focus();
+  // Focus on search if search input exists
+  if (searchInput) {
+    searchInput.focus();
+  }
 
   // Get search from URL
   const urlQuery = new URLSearchParams(window.location.search);
@@ -81,32 +83,34 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   // Watch key evets on search input
-  searchInput.addEventListener(
-    "keyup",
-    debounce(function () {
-      // Get search value
-      const searchValue = searchInput.value.trim();
+  if (searchInput) {
+    searchInput.addEventListener(
+      "keyup",
+      debounce(function () {
+        // Get search value
+        const searchValue = searchInput.value.trim();
 
-      // Handle URL
-      if (searchValue === "") {
-        // Remove URL query as search is empty
-        urlQuery.delete("q");
-        window.history.replaceState({}, "", `${window.location.pathname}`);
-        deleteSpinner();
-      } else {
-        // Set URL query
-        urlQuery.set("q", searchValue);
-        window.history.replaceState(
-          {},
-          "",
-          `${window.location.pathname}?${urlQuery}`
-        );
-      }
+        // Handle URL
+        if (searchValue === "") {
+          // Remove URL query as search is empty
+          urlQuery.delete("q");
+          window.history.replaceState({}, "", `${window.location.pathname}`);
+          deleteSpinner();
+        } else {
+          // Set URL query
+          urlQuery.set("q", searchValue);
+          window.history.replaceState(
+            {},
+            "",
+            `${window.location.pathname}?${urlQuery}`
+          );
+        }
 
-      // Run search
-      handleSearch(searchValue);
-    })
-  );
+        // Run search
+        handleSearch(searchValue);
+      })
+    )
+  };
 
   // Method to handle new searches
   async function handleSearch(searchString) {
