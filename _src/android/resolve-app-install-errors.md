@@ -1,5 +1,5 @@
 ---
-title: "How to resolve common Android app install failures (with errors)"
+title: "How to resolve common Android app install failures (including error messages)"
 published: '2024-04-29'
 status: publish
 author: 'Jason Bayton'
