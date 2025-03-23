@@ -156,7 +156,7 @@ Send the change(s) for review..
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_04.55.16.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_04.55.16.png)
 
-.. and voilà!
+..and voilà!
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_04.57.01.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_04.57.01.png)
 
@@ -197,7 +197,7 @@ Tying back to the callout above, if you have desires to use your own key with al
 
 ## In summary 
 
-Google's move toward supporting Android App Bundles for private app distribution in the managed Google Play iFrame is well overdue, but great to see. While clearly still in the rollout phase, early exploration shows what's already possible and highlights some of the areas needing further refinement.
+Google's move toward supporting Android App Bundles for private app distribution in the managed Google Play iFrame is well overdue, but great to see. While clearly still in the rollout phase, early exploration shows what's already possible and highlights some areas needing further refinement.
 
 For organisations ready to embrace smaller app sizes, streamlined deployments, and more flexible/redundant key management, the transition from APK to AAB is worth considering, at least when it becomes fully available; full support within the iFrame will undoubtedly make this process smoother and more broadly accessible in the near future.
 
