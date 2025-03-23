@@ -57,8 +57,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     includeMatches: true,
     ignoreLocation: true,
     useExtendedSearch: true,
-    threshold: 0.4,
-    keys: ["title", "content"],
+    threshold: 0.3,
+    keys: ["title", "content", "url"],
   };
 
   // Init fuse
