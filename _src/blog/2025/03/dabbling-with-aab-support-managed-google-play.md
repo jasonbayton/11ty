@@ -37,7 +37,9 @@ As well as significantly reducing app sizes through dynamically generated, optim
 
 Release management is also simplified, as developers maintain only a single upload file, eliminating the need to manually handle multiple APK variants for different architectures or feature sets.
 
-Additionally, AAB leverages App Signing by Google Play, centralising key management, potentially increasing security, and simplifying key recovery — particularly beneficial in enterprise contexts.
+Additionally, AAB leverages App Signing by Google Play, centralising key management, potentially increasing security, and simplifying key recovery — particularly sometimes beneficial in organisations who have struggled with key storage and management in the past.
+
+Finally, AABs allow for larger uploads to Google Play, exceeding the 100MB APK limit that appears to be a blocker for the organisations I've worked with quite often. 
 
 ### Leveraging AABs with Android Enterprise
 
