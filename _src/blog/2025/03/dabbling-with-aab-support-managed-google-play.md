@@ -1,5 +1,5 @@
 ---
- title: "AAB support for private apps in the managed Google Play iFrame is coming, take a look here"
+ title: "AAB support for private apps in the managed Google Play iFrame is coming, take a first look here"
  date: '2025-03-22'
  status: publish
  author: 'Jason Bayton'
@@ -178,7 +178,7 @@ While in the iFrame, I figured testing it here also would be reasonable. Here's 
 
 Did you see it? _It still references **APK file**_, but it does in fact allow the upload of an AAB. Luckily the file extension is conveniently left in place (thanks, Google!) so you can see it is, indeed, an AAB. Based on Google's help doc, what we can expect to see, at some point, is a more generic label replacing **APK file**:
 
-![](https://storage.googleapis.com/support-kms-prod/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g)
+[![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g)
 
 One of the other snags that currently exists is the inability to upload an AAB as a new application from the iFrame, even having followed Google's guidance in enabling Play app signing. 
 
