@@ -178,7 +178,7 @@ While in the iFrame, I'd be remiss if I didn't test it here also. Here's one of 
 
 Did you see it? _It still references **APK file**_, but it does in fact allow the upload of an AAB. Luckily the file extension is conveniently left in place (thanks, Google!) so you can see it is, indeed, an AAB. Based on Google's help doc, what we can expect to see, at some point, is a more generic label replacing **APK file**:
 
-[![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g)
+[![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g.png)
 
 One of the other snags that currently exists is the inability to upload an AAB as a new application from the iFrame, even having followed Google's guidance in enabling Play app signing. 
 
