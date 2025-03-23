@@ -199,7 +199,7 @@ Finally, and hopefully another symptom of this not yet being fully rolled out, i
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-23_11.45.35.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-23_11.45.35.png)
 
-It's an ongoing frustration generally, actually; permissions are overly restrictive across the portal. I'd like to be able to have my delegated accounts (i.e. jason@bayton.org, not the Google service account) act like an admin when it is granted admin permissions, I haven't been able to get that working as yet.
+It's an ongoing frustration generally, actually; permissions are overly restrictive across the portal due to the unique way Android Enterprise app management is set up. I'd like to be able to have my delegated accounts (i.e. jason@bayton.org, not the Google service account) act like an admin when it is granted admin permissions: create apps here, rotate keys in this instance, and so on. I haven't been able to get that working as yet.
 
 ## In summary 
 
