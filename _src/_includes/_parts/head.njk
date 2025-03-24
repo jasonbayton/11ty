@@ -25,7 +25,7 @@
         </script>
         <meta charset="utf-8">
         <title>{{ title }} | Jason Bayton</title>
-        <meta name="title" property="og:title" content=" {{ title }} | Jason Bayton ">
+        <meta name="title" property="og:title" content=" {{ title }} | Jason Bayton">
         <link rel="canonical" href="https://bayton.org{{ page.url }}">
         <meta name="description" content="The website of Jason Bayton">
         <meta name="subtitle" content="Simplifying modern Android management">
@@ -35,6 +35,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#ff4500">
         <meta name="view-transition" content="same-origin">
+        <meta property="og:locale" content="en_GB">
+	      <meta name="robots" content="index, follow">
         <meta property="og:title" content=" {{ title }} | Jason Bayton ">
         {% set description = excerpt or "Simplifying modern Android management" %}
         <meta property="og:description" content="{{ description | striptags | escape }}">
