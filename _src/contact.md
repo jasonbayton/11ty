@@ -15,7 +15,7 @@ id: 426
 <section class="contact-hero">
 <div class="contact-grid">
 <div class="contact-info">
-  <h1>Let’s do <span class="highlight">something great</span> together.</h1>
+  <h2 class="page-subtitle">Let’s do <span class="highlight">something great</span> together.</h2>
   <p>Ready to bring your project to life or discuss a collaboration? Reach out and I’ll get back to you as soon as possible.</p>
 
   <div class="scroll-down">

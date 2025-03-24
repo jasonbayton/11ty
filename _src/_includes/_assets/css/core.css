@@ -1800,7 +1800,7 @@ footer {
   }
 
   .contact-info {
-    h1 {
+    h2.page-subtitle {
       font-size: 50px;
       font-weight: 700;
       margin-top: 0;
