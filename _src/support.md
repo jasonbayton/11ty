@@ -97,11 +97,11 @@ Examples:
   <div class="service-text">
     <h3>Complete mobility management</h3>
 
-**Is the thought of managing your fleet or Android and/or ChromeOS devices giving you a headache?**
+**Is the thought of managing your fleet of Android and/or ChromeOS devices a bit daunting?**
 
-Offload the day-to-day management of your Google estate in its entirety. I'll handle onboarding, offboarding, BAU activities and provide a comfortable SLA for all requests. 
+Offload the day-to-day management of your Google estate in its entirety. I'll handle onboarding, offboarding, BAU activities and provide a comfortable SLA for all requests.
 
-Device management starts at **£0.60 per device**, per month, billed annually (**£7.20**), and decreases by commitment duration (12-60 months). This includes the device management licence for Android. 
+Device management is available at **£0.60 per device**, per month, billed annually (**£7.20**), and decreases by commitment duration (12-60 months). This includes the device management licence for Android.
 
 Optional enhanced support is available on request.
 
