@@ -153,7 +153,7 @@ I work closely with a network of trusted partners to develop bespoke Android-bas
 
 An example of projects I've brought to life include:
 
-- [MANAGED SETTINGS](/projects/managed-setttings)
+- [MANAGED SETTINGS](/projects/managed-settings)
 - [QR code generator](/qr-generator)
 - [PACKAGE SEARCH](/projects/package-search)
 - Custom APN management (end-customer)
