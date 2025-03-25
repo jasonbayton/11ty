@@ -1146,6 +1146,11 @@ section#sponsor_rrjfc {
   & h2 {
     font-size: 36px;
     font-weight: 700;
+
+    @media screen and (max-width: 900px) {
+      font-size: 30px;
+      
+    }
   }
 }
 
@@ -1811,6 +1816,11 @@ footer {
       font-size: 50px;
       font-weight: 700;
       margin-top: 0;
+
+      @media screen and (max-width: 900px) {
+        font-size: 36px;
+        
+      }
     }
 
     h2 {
@@ -1901,7 +1911,7 @@ footer {
       @media screen and (max-width: 900px) {
         justify-self: end;
       }
-      
+
       & h3.cta {
         margin: 0;
       }

@@ -1,5 +1,5 @@
 ---
-title: Succeed with Android
+title: Need help?
 date: '2023-01-22'
 status: publish
 author: 'Jason Bayton'
@@ -13,7 +13,7 @@ layout: base.njk
     <!-- Left column -->
     <div class="contact-info">
       <h2 class="page-subtitle">Modern device management <span class="highlight">made simple</span>.</h2>
-      <p>From strategy to development, and deployment, I provide expert Android Enterprise services for organisations of all sizes. Let’s bring your vision to life together.</p>
+      <p>From strategy to development, deployment to in-life support, I provide expert Android Enterprise services for organisations of all sizes. Let’s bring your vision to life together.</p>
     </div>
     <!-- Right column -->
     <div class="contact-form">
@@ -28,7 +28,7 @@ layout: base.njk
 </div>
 
 <!-- Service 1: Image left, text right -->
-<div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-30 padding-top-40 padding-bottom-40">
+<div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-image mobile-hidden">
     <img src="/img/strategy.png" alt="Mobility Strategy">
   </div>
@@ -43,7 +43,7 @@ We'll look at your objectives and goals. Document your _why_, and ensure we buil
 </div>
 
 <!-- Service 2: Text left, image right -->
-<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-text">
     <h2>Device selection & solution validation</h2>
     
@@ -58,7 +58,7 @@ With a focus on overall TCO rather than short-term quick wins, together we'll en
 </div>
 
 <!-- Service 3: Image left, text right -->
-<div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+<div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-image mobile-hidden">
     <img src="/img/support.png" alt="End to end deployment & support">
   </div>
@@ -73,7 +73,7 @@ Whether you’re rolling out 10 or 10,000 devices, I can help you define your re
 </div>
 
 <!-- Service 4: Text left, image right -->
-<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-text">
     <h2>In-life support</h2>
 
@@ -93,7 +93,7 @@ Examples:
 </div>
 
 <!-- Service 5: Image left, text right -->
-<div class="service-item callout callout-blue grid grid-column-1-2 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+<div class="service-item callout callout-blue grid grid-column-1-2 grid-column-mobile-1 grid-gap-20 padding-top-20 padding-bottom-40 margin-top-40 margin-bottom-40">
 <div class="service-image mobile-hidden">
     <img src="/img/bayton_mobility.png" alt="Activities">
   </div>   
@@ -117,7 +117,7 @@ Get started
 </div>
 
 <!-- Service 6: Text left, image right -->
-<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-text">
     <h2>OEM product validation</h2>
 
@@ -132,7 +132,7 @@ If you're an EMM or related solution provider (MTD, insights, etc) looking for h
 </div>
 
 <!-- Service 7: Image left, text right -->
-<div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+<div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-image mobile-hidden">
     <img src="/img/gms_apps.png" alt="Certification and Product Development">
   </div>
@@ -147,7 +147,7 @@ If you're a software vendor building out a management platform, be that with the
 </div>
 
 <!-- Service 8: Text left, image right -->
-<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+<div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   
   <div class="service-text">
     <h2>Software development</h2>
