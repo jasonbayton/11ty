@@ -8,33 +8,34 @@ type: page
 layout: base.njk
 ---
 
-<div class="callout">
-
-## Modern device management can seem overwhelming, but it doesn't have to be.
-
-I've collaborated with, and/or consulted for, leading Android OEMs, Enterprise Mobility vendors, NGOs, carriers, multiple fortune listed organisations, and my work has been acknowledged and promoted by industry giants including Google, Sony, Nokia (HMD), and many more. Whether you're a small business looking to implement your first mobility strategy or a multinational corporation planning a full-scale device rollout, I've done it all before.
-
-As your mobility partner, I can offer you the necessary knowledge and resources needed to achieve your mobility goals. From strategy planning to end-to-end deployment, I offer a range of services tailored to your specific needs.
-
-So, let's embark on this journey together and make your enterprise mobility vision a reality.
-
-<div class="callout-button callout-button-right">
-<a class="button" href="#get-started">
-Get started
-</a>
-</div>
-
+<div class="contact-hero">
+  <div class="contact-grid">
+    <!-- Left column -->
+    <div class="contact-info">
+      <h2 class="page-subtitle">Modern device management <span class="highlight">made simple</span>.</h2>
+      <p>From strategy to development, and deployment, I provide expert Android Enterprise services for organisations of all sizes. Let’s bring your vision to life together.</p>
+    </div>
+    <!-- Right column -->
+    <div class="contact-form">
+    <div class="support-cta">
+     {% include "./_includes/_assets/img/swirl-arrow-bottom-right-icon.svg" %}
+      <h3 class="cta">
+        <a class="button" href="/contact">Reach out</a>
+      </h3>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- Service 1: Image left, text right -->
-<div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
+<div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-30 padding-top-40 padding-bottom-40">
   <div class="service-image mobile-hidden">
     <img src="/img/strategy.png" alt="Mobility Strategy">
   </div>
   <div class="service-text">
-<h3>Mobility strategy</h3>
+<h2>Mobility strategy</h2>
 
-Are you in the early stages of planning for mobile device management in your organisation? Unsure of what to support? _How to start?_ 
+Are you in the early stages of planning for mobile device management in your organisation? Unsure of what to support? With experience supporting leading Android OEMs, Fortune-listed organisations, and everything in between, I’ll help you confidently define what success looks like.
 
 We'll look at your objectives and goals. Document your _why_, and ensure we build a strategy that balances investment with guaranteed productivity, security, and user acceptance.
 
@@ -44,9 +45,11 @@ We'll look at your objectives and goals. Document your _why_, and ensure we buil
 <!-- Service 2: Text left, image right -->
 <div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
   <div class="service-text">
-    <h3>Device selection & solution validation</h3>
+    <h2>Device selection & solution validation</h2>
     
-I've collaborated with all major Android OEMs and leading EMM vendors in the last several years. Do you want to cut through the marketing and focus on hardware, form factors, and solutions _tailored to your use case?_ I challenge you to find someone who's gone hands-on with more product. With a focus on overall TCO rather than short-term quick wins, together we'll ensure your organisation is running the best possible hardware for the best return on investment over the period _you define_. 
+Having collaborated with all major Android OEMs and leading EMM vendors — and with my work acknowledged and promoted by the likes of Google, Sony, Samsung, and HMD/Nokia - I can help cut through the marketing and focus on solutions tailored to your use case.
+
+With a focus on overall TCO rather than short-term quick wins, together we'll ensure your organisation is running the best possible hardware for the best return on investment over the period _you define_. 
 
   </div>
   <div class="service-image mobile-hidden">
@@ -60,11 +63,11 @@ I've collaborated with all major Android OEMs and leading EMM vendors in the las
     <img src="/img/support.png" alt="End to end deployment & support">
   </div>
   <div class="service-text">
-    <h3>End to end deployment & support</h3>
+    <h2>End to end deployment & support</h2>
     
-The hard work's done; you know what you want to support and how you're going to do it. The devices are ordered and the licences purchased. Now you've just got to build your policies, configurations, define you application requirements, integrate with your in-house infrastructure and _actually enrol_ the hardware. 
+The hard work's done; you know what you want to support and how you're going to do it. The devices are ordered and the licences purchased. Now you've just got to build your policies, configurations, define your application requirements, integrate with your in-house infrastructure and _actually enrol_ the hardware. 
 
-I can help you define your policy requirements, set your security baselines, integrate your chosen vendor into your existing infrastructure, develop documentation and guides, train up internal support staff and power users, and more. Zero-touch? Obviously. eFOTA? Of course. Once we're finished your deployment will be humming away like well-oiled machine.
+Whether you’re rolling out 10 or 10,000 devices, I can help you define your requirements, set security baselines, train up staff, and deploy with confidence — drawing on experience across global enterprise rollouts and vendor integrations. Once we're finished your deployment will be humming away like well-oiled machine.
 
   </div>
 </div>
@@ -72,7 +75,7 @@ I can help you define your policy requirements, set your security baselines, int
 <!-- Service 4: Text left, image right -->
 <div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
   <div class="service-text">
-    <h3>In-life support</h3>
+    <h2>In-life support</h2>
 
 Keeping your systems in tip-top shape is vital to long-term viability. Whether you need help with EMM migrations, regular health checks, integration with solutions like Google Workspace and IDPs like Okta, or validating your Android Enterprise setup, my in-life support is here to make sure everything runs smoothly. 
 
@@ -95,11 +98,11 @@ Examples:
     <img src="/img/bayton_mobility.png" alt="Activities">
   </div>   
   <div class="service-text">
-    <h3>Complete mobility management</h3>
+    <h2>Complete mobility management</h2>
 
 **Is the thought of managing your fleet of Android and/or ChromeOS devices a bit daunting?**
 
-Offload the day-to-day management of your Google estate in its entirety. I'll handle onboarding, offboarding, BAU activities and provide a comfortable SLA for all requests.
+Offload the day-to-day management of your Google estate with confidence — this service is built on years of enterprise experience across NGOs, carriers, and global businesses, with scalable support for any fleet size. I'll handle onboarding, offboarding, BAU activities, and provide a comfortable SLA for all requests.
 
 Device management is available at **£0.60 per device**, per month, billed annually (**£7.20**), and decreases by commitment duration (12-60 months). This includes the device management licence for Android.
 
@@ -116,7 +119,7 @@ Get started
 <!-- Service 6: Text left, image right -->
 <div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
   <div class="service-text">
-    <h3>OEM product validation</h3>
+    <h2>OEM product validation</h2>
 
 Bringing new Android hardware to market? Looking to validate it for enterprise? ~~GMS~~ Play Protect certification will do so much, Android Enterprise Recommended a little more, but if you want true product validation across a range of EMM vendors, talk to me. No other validation in the ecosystem tests Android Enterprise compatibility like I do, with a minimum of a [270-point base report](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1.pdf) and detailed analysis of required improvements.
 
@@ -134,7 +137,7 @@ If you're an EMM or related solution provider (MTD, insights, etc) looking for h
     <img src="/img/gms_apps.png" alt="Certification and Product Development">
   </div>
   <div class="service-text">
-    <h3>Certification and product development</h3>
+    <h2>Certification and product development</h2>
 
 Building an Android device? I've been there, and I know GMS inside-out. From dedicated, completely bespoke devices for specific use cases, to ensuring consumer devices fare well for enterprise, I can assist in every phase of product development and ensure your Android builds are ready for Google certification. If the terms MADA, EDLA, GMS, CTS, Backporting, GRF, and LR/MR/SMR sound familiar to you, I've done it all.
 
@@ -147,7 +150,7 @@ If you're a software vendor building out a management platform, be that with the
 <div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-30 padding-top-20 padding-bottom-20">
   
   <div class="service-text">
-    <h3>Software development</h3>
+    <h2>Software development</h2>
 
 I work closely with a network of trusted partners to develop bespoke Android-based application or solutions projects.
 
@@ -167,7 +170,12 @@ With deep experience of the Android Enterprise ecosystem, we can build anything 
   </div>
 </div>
 
+<div class="service-item padding-top-40 padding-bottom-40">
+<div class="service-text">
+
 ## Get started
+
+</div>
 
 Ready? Let's go:
 
@@ -187,9 +195,13 @@ Please prepare a detailed scope and/or Statement of Work (SoW) defining your obj
 
 NB: Hours may be consumed ad-hoc, across multiple days as required. If you have budget constraints, contact me to discuss.
 
-<div class="padding-top-20">
+</div>
+<div class="service-item padding-top-40 padding-bottom-40">
+<div class="service-text">
 
 ## Not ready to start?
+
+</div>
 
 No worries, feel free to continue to make use of my community support channels:
 
@@ -198,9 +210,13 @@ No worries, feel free to continue to make use of my community support channels:
 
 ### Docs
 
-Take a look at [/android](/android), and if you don't see what you're looking for, try [/search](/search). There's a high likelihood your question may have been covered either directly, or indirectly, through existing docs.
+Browse guides, FAQs, and troubleshooting tips.
 
-If you still don't find what you're looking for, you can [submit a request](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) for content and I'll get to it as soon as I'm able.
+<a href="/android" class="button small">Explore Docs</a>
+
+If you don't see what you're looking for, try [/search](/search). There's a high likelihood your question may have been covered either directly, or indirectly, through existing docs.
+
+If you still don't find what you're looking for, you can [submit a request](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&template=content-request.md&title=%5BContent+request%5D) for content, and I'll get to it as soon as I'm able.
 
 **Benefit:** 24/7 access, many subjects and FAQs already covered, and if there's something missing it can be requested!
 
@@ -209,19 +225,27 @@ If you still don't find what you're looking for, you can [submit a request](http
 
 ### Community 
 
-Post your request to the:
+Join me in one of my favourite communities.
 
-* [Android Enterprise Help Community](https://androidenterprise.community), 
-* [MobilePros Discord Community](https://mobilepros.org)
+<a href="https://mobilepros.org" class="button small">Mobile Pros</a>
+
+You may also: 
+
+* [Join the BAYTON discord](https://discord.gg/ub46Wgu5eC), 
+* [Join the Android Enterprise Community](https://androidenterprise.community)
 
 **Benefit:** As a community resource, your request may be picked up by other members of the community well-versed in the topic at hand. Once a resolution is achieved, the issue and resolution are public domain for others to benefit in kind.
 
 </div>
 <div class="">
 
-### Email/message
+### Contact directly
 
-Use my [contact](/contact) details to send me your request and I will respond when able. Please ensure your request is fully-formed, including the issue, any error messages or related information, full device details, EMM details, etc, and if you have media to support the issue (pictures, videos, ...), this will be of great help also.
+Submit a private request with all the details for personalised help.
+
+<a href="/contact" class="button small">Contact Me</a>
+
+Send your request and I will respond when able. Please ensure your request is fully-formed, including the issue, any error messages or related information, full device details, EMM details, etc, and if you have media to support the issue (pictures, videos, ...), this will be of great help also.
 
 **Benefit:** Private & sensitive topics may be covered. Bug reports and other PII can be shared without making this data publicly available. 
 

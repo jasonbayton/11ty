@@ -1142,6 +1142,13 @@ section#sponsor_rrjfc {
   padding-top: 20px;
 }
 
+.service-text {
+  & h2 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+}
+
 #author_bio {
   padding-top: 20px;
   text-align: right;
@@ -1885,6 +1892,33 @@ footer {
         resize: vertical;
         min-height: 150px;
       }
+    }
+
+    & .support-cta {
+      justify-self: center;
+      align-content: center;
+
+      @media screen and (max-width: 900px) {
+        justify-self: end;
+      }
+      
+      & h3.cta {
+        margin: 0;
+      }
+
+      & svg {
+        margin-left: -20px;
+        padding-bottom: 30px;
+
+        @media screen and (max-width: 900px) {
+          display: none;
+        }
+      }
+    }
+
+    & h3.cta {
+      margin: 0;
+
     }
 
     .submit-group {
