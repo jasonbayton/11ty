@@ -15,6 +15,7 @@ const pluginTOC = require("eleventy-plugin-nesting-toc");
 const striptags = require("striptags");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyAutoCacheBuster = require("eleventy-auto-cache-buster");
+//const generateOgImages = require("./plugins/og_generator");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -152,6 +153,12 @@ eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"));
 eleventyConfig.addFilter("hasHeading", content => {
   return /<div class="heading-wrapper">.*?<h[1-6][^>]*>.*?<\/h[1-6]>.*?<a class="heading-anchor"[^>]*>.*?<\/a>.*?<\/div>/s.test(content);
 });
+
+//eleventyConfig.addCollection("ogAllPages", (collectionApi) => {
+//  const pages = collectionApi.getAll();
+//  generateOgImages(pages); // Run the OG generator here
+//  return pages; // You can safely return this even if unused elsewhere
+//});
 
 // 11ty output
     return {
