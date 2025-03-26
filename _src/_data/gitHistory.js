@@ -67,11 +67,11 @@ module.exports = async () => {
     return cache;
   }
 
-  for (const file of files) {
-    console.log(`📦 Refreshing history for: ${file}`);
+console.log(`📦 Refreshing history for ${files.length} file(s)...`);
+for (const file of files) {
     const history = await getGitLog(file);
     cache[`./${file}`] = history;
-  }
+}
 
   fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
   console.log(`📦 gitHistory cache updated for ${files.length} file(s).`);
