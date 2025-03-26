@@ -32,6 +32,43 @@ layout: base.njk
   </div>
 </div>
 
+<!-- Section shortcuts -->
+<h3><small>Jump to..</small></h3>
+<div class="service-shortcuts grid grid-column-4 grid-column-mobile-2 grid-gap-20 padding-bottom-40">
+  <a href="#mobility-strategy" class="shortcut-card">
+    <span class="material-symbols-outlined">hub</span>
+    <span>Strategy</span>
+  </a>
+  <a href="#device-selection-solution-validation" class="shortcut-card">
+    <span class="material-symbols-outlined">devices</span>
+    <span>Selection</span>
+  </a>
+  <a href="#end-to-end-deployment-support" class="shortcut-card">
+    <span class="material-symbols-outlined">rocket_launch</span>
+    <span>Deployment</span>
+  </a>
+  <a href="#in-life-support" class="shortcut-card">
+    <span class="material-symbols-outlined">support_agent</span>
+    <span>Support</span>
+  </a>
+  <a href="#complete-mobility-management" class="shortcut-card">
+    <span class="material-symbols-outlined">manage_accounts</span>
+    <span>Management</span>
+  </a>
+  <a href="#oem-product-validation" class="shortcut-card">
+    <span class="material-symbols-outlined">task_alt</span>
+    <span>Validation</span>
+  </a>
+  <a href="#certification-product-development" class="shortcut-card">
+    <span class="material-symbols-outlined">build</span>
+    <span>Build</span>
+  </a>
+  <a href="#software-development" class="shortcut-card">
+    <span class="material-symbols-outlined">code</span>
+    <span>Development</span>
+  </a>
+</div>
+
 <!-- Service 1: Image left, text right -->
 <div class="service-item grid grid-column-1-2 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-image mobile-hidden">
@@ -52,7 +89,7 @@ We'll look at your objectives and goals. Document your _why_, and ensure we buil
   <div class="service-text">
     <h2 id="device-selection-solution-validation">Device selection & solution validation</h2>
     
-Having collaborated with all major Android OEMs and leading EMM vendors — and with my work acknowledged and promoted by the likes of Google, Sony, Samsung, and HMD/Nokia - I can help cut through the marketing and focus on solutions tailored to your use case.
+Having collaborated with all major Android OEMs and leading EMM vendors - and with my work acknowledged and promoted by the likes of Google, Sony, Samsung, and HMD/Nokia - I can help cut through the marketing and focus on solutions tailored to your use case.
 
 With a focus on overall TCO rather than short-term quick wins, together we'll ensure your organisation is running the best possible hardware for the best return on investment over the period _you define_. 
 
@@ -72,7 +109,7 @@ With a focus on overall TCO rather than short-term quick wins, together we'll en
     
 The hard work's done; you know what you want to support and how you're going to do it. The devices are ordered and the licences purchased. Now you've just got to build your policies, configurations, define your application requirements, integrate with your in-house infrastructure and _actually enrol_ the hardware. 
 
-Whether you’re rolling out 10 or 10,000 devices, I can help you define your requirements, set security baselines, train up staff, and deploy with confidence — drawing on experience across global enterprise rollouts and vendor integrations. Once we're finished your deployment will be humming away like well-oiled machine.
+Whether you’re rolling out 10 or 10,000 devices, I can help you define your requirements, set security baselines, train up staff, and deploy with confidence - drawing on experience across global enterprise rollouts and vendor integrations. Once we're finished your deployment will be humming away like well-oiled machine.
 
   </div>
 </div>
@@ -107,7 +144,7 @@ Examples:
 
 **Is the thought of managing your fleet of Android and/or ChromeOS devices a bit daunting?**
 
-Offload the day-to-day management of your Google estate with confidence — this service is built on years of enterprise experience across NGOs, carriers, and global businesses, with scalable support for any fleet size. I'll handle onboarding, offboarding, BAU activities, and provide a comfortable SLA for all requests.
+Offload the day-to-day management of your Google estate with confidence - this service is built on years of enterprise experience across NGOs, carriers, and global businesses, with scalable support for any fleet size. I'll handle onboarding, offboarding, BAU activities, and provide a comfortable SLA for all requests.
 
 Device management is available at **£0.60 per device**, per month, billed annually (**£7.20**), and decreases by commitment duration (12-60 months). This includes the device management licence for Android.
 
@@ -157,7 +194,7 @@ If you're a software vendor building out a management platform, be that with the
   <div class="service-text">
     <h2 id="software-development">Software development</h2>
 
-I work closely with a network of trusted partners to develop bespoke Android-based application or solutions projects.
+I work closely with a network of trusted partners to develop bespoke Android-based applications and solutions at approachable rates.
 
 An example of projects I've brought to life include:
 
@@ -167,7 +204,7 @@ An example of projects I've brought to life include:
 - Custom APN management (end-customer)
 - OTA device agent (OEM)
 
-With deep experience of the Android Enterprise ecosystem, we can build anything from OEM config applications to EMM platforms, custom DPCs and more. Together, we can bring your Android visions to life.
+With deep experience of the Android Enterprise ecosystem, it's possible to build anything from OEM config applications to EMM platforms, custom DPCs and more. Together, we can bring your Android visions to life.
 
   </div>
   <div class="service-image mobile-hidden">
