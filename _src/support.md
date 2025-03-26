@@ -13,7 +13,7 @@ layout: base.njk
     <!-- Left column -->
     <div class="contact-info">
       <h2 class="page-subtitle">Modern device management <span class="highlight">made simple</span>.</h2>
-      <p>From strategy to development, deployment to in-life support, I provide expert Android Enterprise services for organisations of all sizes. Let’s bring your vision to life together.</p>
+      <p>From strategy to development, deployment to in-life support, I provide expert Android Enterprise support & consultancy for organisations of all sizes. Let’s bring your <span class="highlight">vision to life</span> together.</p>
     </div>
     <!-- Right column -->
     <div class="contact-form">
@@ -22,6 +22,11 @@ layout: base.njk
       <h3 class="cta">
         <a class="button" href="/contact">Reach out</a>
       </h3>
+      <div class="scroll-down">
+    <a href="#mobility-strategy">
+      Keep reading <span class="material-symbols-outlined">arrow_circle_down</span> 
+    </a>
+  </div>
       </div>
     </div>
   </div>
@@ -33,7 +38,7 @@ layout: base.njk
     <img src="/img/strategy.png" alt="Mobility Strategy">
   </div>
   <div class="service-text">
-<h2>Mobility strategy</h2>
+<h2 id="mobility-strategy">Mobility strategy</h2>
 
 Are you in the early stages of planning for mobile device management in your organisation? Unsure of what to support? With experience supporting leading Android OEMs, Fortune-listed organisations, and everything in between, I’ll help you confidently define what success looks like.
 
@@ -45,7 +50,7 @@ We'll look at your objectives and goals. Document your _why_, and ensure we buil
 <!-- Service 2: Text left, image right -->
 <div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-text">
-    <h2>Device selection & solution validation</h2>
+    <h2 id="device-selection-solution-validation">Device selection & solution validation</h2>
     
 Having collaborated with all major Android OEMs and leading EMM vendors — and with my work acknowledged and promoted by the likes of Google, Sony, Samsung, and HMD/Nokia - I can help cut through the marketing and focus on solutions tailored to your use case.
 
@@ -63,7 +68,7 @@ With a focus on overall TCO rather than short-term quick wins, together we'll en
     <img src="/img/support.png" alt="End to end deployment & support">
   </div>
   <div class="service-text">
-    <h2>End to end deployment & support</h2>
+    <h2 id="end-to-end-deployment-support">End to end deployment & support</h2>
     
 The hard work's done; you know what you want to support and how you're going to do it. The devices are ordered and the licences purchased. Now you've just got to build your policies, configurations, define your application requirements, integrate with your in-house infrastructure and _actually enrol_ the hardware. 
 
@@ -75,7 +80,7 @@ Whether you’re rolling out 10 or 10,000 devices, I can help you define your re
 <!-- Service 4: Text left, image right -->
 <div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-text">
-    <h2>In-life support</h2>
+    <h2 id="in-life-support">In-life support</h2>
 
 Keeping your systems in tip-top shape is vital to long-term viability. Whether you need help with EMM migrations, regular health checks, integration with solutions like Google Workspace and IDPs like Okta, or validating your Android Enterprise setup, my in-life support is here to make sure everything runs smoothly. 
 
@@ -93,12 +98,12 @@ Examples:
 </div>
 
 <!-- Service 5: Image left, text right -->
-<div class="service-item callout callout-blue grid grid-column-1-2 grid-column-mobile-1 grid-gap-20 padding-top-20 padding-bottom-40 margin-top-40 margin-bottom-40">
+<div id="cmm"class="service-item callout callout-blue grid grid-column-1-2 grid-column-mobile-1 grid-gap-20 padding-top-20 padding-bottom-40 margin-top-40 margin-bottom-40">
 <div class="service-image mobile-hidden">
     <img src="/img/bayton_mobility.png" alt="Activities">
   </div>   
   <div class="service-text">
-    <h2>Complete mobility management</h2>
+    <h2 id="complete-mobility-management">Complete mobility management</h2>
 
 **Is the thought of managing your fleet of Android and/or ChromeOS devices a bit daunting?**
 
@@ -119,7 +124,7 @@ Get started
 <!-- Service 6: Text left, image right -->
 <div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   <div class="service-text">
-    <h2>OEM product validation</h2>
+    <h2 id="oem-product-validation">OEM product validation</h2>
 
 Bringing new Android hardware to market? Looking to validate it for enterprise? ~~GMS~~ Play Protect certification will do so much, Android Enterprise Recommended a little more, but if you want true product validation across a range of EMM vendors, talk to me. No other validation in the ecosystem tests Android Enterprise compatibility like I do, with a minimum of a [270-point base report](https://cdn.bayton.org/uploads/2019/05/Bayton_AE_validation_Pixel3a.1.1.pdf) and detailed analysis of required improvements.
 
@@ -137,7 +142,7 @@ If you're an EMM or related solution provider (MTD, insights, etc) looking for h
     <img src="/img/gms_apps.png" alt="Certification and Product Development">
   </div>
   <div class="service-text">
-    <h2>Certification and product development</h2>
+    <h2 id="certification-product-development">Certification and product development</h2>
 
 Building an Android device? I've been there, and I know GMS inside-out. From dedicated, completely bespoke devices for specific use cases, to ensuring consumer devices fare well for enterprise, I can assist in every phase of product development and ensure your Android builds are ready for Google certification. If the terms MADA, EDLA, GMS, CTS, Backporting, GRF, and LR/MR/SMR sound familiar to you, I've done it all.
 
@@ -150,7 +155,7 @@ If you're a software vendor building out a management platform, be that with the
 <div class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-40 padding-bottom-40">
   
   <div class="service-text">
-    <h2>Software development</h2>
+    <h2 id="software-development">Software development</h2>
 
 I work closely with a network of trusted partners to develop bespoke Android-based application or solutions projects.
 
