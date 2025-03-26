@@ -89,32 +89,32 @@ If you're on the fence, pros and cons:
 
 **Pros:**
 
-- Simplified Key Management:
-  : Google securely stores and manages your app signing keys, reducing the complexity and risk of losing keys.
+**Simplified key management**:
+: Google securely stores and manages your app signing keys, reducing the complexity and risk of losing keys.
 
-- They're stored securely:
-  : Google uses strong cryptographic security standards to store keys securely, minimising potential breaches or key leaks.
+**They're stored securely**:
+: Google uses strong cryptographic security standards to store keys securely, minimising potential breaches or key leaks.
 
-- Easy key recovery:
-  : In case of compromised or lost upload keys, Google provides a straightforward and secure method for recovery without losing your app’s listing and user base.
+**Easy key recovery**:
+: In case of compromised or lost upload keys, Google provides a straightforward and secure method for recovery without losing your app’s listing and user base.
 
-- Optimised distribution:
-  : Google Play can leverage advanced features like dynamic feature modules and optimised delivery because they control the final signing process.
+**Optimised distribution**:
+: Google Play can leverage advanced features like dynamic feature modules and optimised delivery because they control the final signing process.
 
 **Cons:**
 
-- Loss of direct control:
-  : You relinquish direct control over your signing keys to Google, leaving your app's distribution and security dependent on Google's practices and infrastructure (via Play).
+**Loss of direct control**:
+: You relinquish direct control over your signing keys to Google, leaving your app's distribution and security dependent on Google's practices and infrastructure (via Play).
 
-- Dependence on Google:
-  : You'll require careful planning if you choose to distribute your app via alternative channels (non-Play) to ensure friction points are minimised.
+**Dependence on Google**:
+: You'll require careful planning if you choose to distribute your app via alternative channels (non-Play) to ensure friction points are minimised.
 
-- Security concerns:
-  : Organisations with strict security or compliance policies might find Google's key management approach incompatible with their internal security practices.
+**Security concerns**:
+: Organisations with strict security or compliance policies might find Google's key management approach incompatible with their internal security practices.
 
 Ultimately, whether Google Play App Signing is suitable depends on your organisation’s requirements for security, flexibility, compliance, and control.
 
-That isn't a finite list. Still here? Let's continue!
+That isn't a finite list, and I'm also _not an expert_, so feel free to read more into this through other sources. Still here? Let's continue!
 
 </div>
 
