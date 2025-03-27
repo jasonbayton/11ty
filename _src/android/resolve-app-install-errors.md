@@ -120,6 +120,12 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 `Play App Signing Terms of Service not accepted`
 : You'll need to set up Play app signing from within the Play Console in order to upload AAB files from the iFrame. Follow my guide [here](/blog/2025/03/dabbling-with-aab-support-managed-google-play/).
 
+`For uploading an App Bundle you must be enrolled in Play App Signing`
+: If you're trying to replace an APK with an AAB, you'll need to enrol in Play app signing, as above.
+
+`APK signed with a key that is also used to sign an APK that is delivered to users. Because this app is enrolled in App Signing, you should create a different key to sign the APKs of this app.`
+: This should be self-explanatory, if inconvenient. You already have an app being delivered from Play with the key used to sign this app bundle, and Google wants you to use an alternative. If you'd like to use the key all the same, upload the AAB via the Google Play console instead.
+
 ## Missing anything? 
 
 [Raise an issue](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&projects=&template=content-request.md&title=%5BContent+request%5D), or [get in touch](/contact).
