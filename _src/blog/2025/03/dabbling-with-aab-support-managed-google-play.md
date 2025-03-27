@@ -13,6 +13,15 @@ The Android App Bundle (AAB) is a modern application packaging format introduced
 
 The AAB format has been available to Android developers since 2018, and mandatory for new app uploads from the Google Play console since 2021. The Google Play iFrame, used by enterprises for private app distribution, has however historically mandated APK uploads. Based on a [recently-updated help doc](https://support.google.com/work/android/answer/9146439), support for AAB in enterprise scenarios appears to be now possible, although it doesn't seem fully rolled out yet.
 
+<div class="callout callout-blue">
+<div class="callout-heading">
+It's live!
+</div>
+
+Not a day or so after this article went up, Google [announced](https://www.androidenterprise.community/blog/news/product-update-android-app-bundle-support-in-managed-google-play/10626) general availability, including answering some questions and touching on scenarios raised below. I'll dot additional thoughts in callouts like this one where relevant with updated data.
+
+</div>
+
 All the same, I spent some time figuring out what's possible so you don't have to!
 
 ## How AAB and APKs differ
@@ -37,7 +46,7 @@ As well as significantly reducing app sizes through dynamically generated, optim
 
 Release management is also simplified, as developers maintain only a single upload file, eliminating the need to manually handle multiple APK variants for different architectures or feature sets.
 
-Additionally, AAB leverages App Signing by Google Play, centralising key management, potentially increasing security, and simplifying key recovery — particularly sometimes beneficial in organisations who have struggled with key storage and management in the past.
+Additionally, AAB leverages App Signing by Google Play, centralising key management, potentially increasing security, and simplifying key recovery - particularly sometimes beneficial in organisations who have struggled with key storage and management in the past.
 
 Finally, AABs allow for larger uploads to Google Play, exceeding the 100MB APK limit that appears to be a blocker for the organisations I've worked with quite often. 
 
@@ -50,7 +59,17 @@ In enterprise scenarios, Android App Bundles enable organisations to deliver tai
 For the context of this article, I opted to take an existing APK and convert it to AAB. There are two reasons for this:
 
 1. It seemed like the more complex approach, so makes for more interesting reading.
-2. Google hasn't yet turned on AAB uploads for _new_ private apps from the iFrame for my enterprises. So I couldn't show that if I wanted to.
+2. Google hadn't yet turned on AAB uploads for _new_ private apps from the iFrame for my enterprises.
+
+<div class="callout">
+<div class="callout-heading callout-heading-small">
+General availability update
+</div>
+
+I have added the experience for new AAB uploads towards the end.
+
+</div>
+
 
 Here's where we start; I have a private application uploaded as an APK:
 
@@ -95,8 +114,17 @@ If you're on the fence, pros and cons:
 **They're stored securely**:
 : Google uses strong cryptographic security standards to store keys securely, minimising potential breaches or key leaks.
 
-**Easy key recovery**:
-: In case of compromised or lost upload keys, Google provides a straightforward and secure method for recovery without losing your app’s listing and user base.
+~~**Easy key recovery**:~~
+: ~~In case of compromised or lost upload keys, Google provides a straightforward and secure method for recovery without losing your app’s listing and user base.~~
+
+<div class="callout callout-red">
+<div class="callout-heading-small">
+General availability update
+</div>
+
+According to [App bundle FAQs](https://support.google.com/googleplay/work/answer/9496237#zippy=%2Capp-bundle-faqs), key recovery is not supported for iFrame-uploaded applications at this time, which is a significant omission to the benefits of AAB. Instead, for this feature, a full developer account is required.
+
+</div>
 
 **Optimised distribution**:
 : Google Play can leverage advanced features like dynamic feature modules and optimised delivery because they control the final signing process.
@@ -172,23 +200,58 @@ And finally, it pushed to my test device nice and quickly, no fuss at all. Note 
 
 <small class="orange"><i>Note: I'm aware this is not the same device, their version sizes matched on 1.0, though.</i></small>
 
+### Updating from the iFrame
+
+While in the iFrame, I'd be remiss if I didn't test it here also. It's literally a case of editing the app as normal, and just selecting the AAB instead:
+
+[![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-27_at_22.42.20.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-27_at_22.42.20.png)
+
+Done.
+
+### Upload a new AAB from the iFrame
+
+With AAB support fully rolled-out, testing AAB uploads via the iFrame directly turned out to be a _lot_ simpler.
+
+First, I add a new app:
+
+[![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-27_at_22.04.01.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-27_at_22.04.01.png)
+
+Then, I upload my AAB and accept the terms. I definitely read these again. Create!
+
+[![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-27_at_22.04.43.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-27_at_22.04.43.png)
+
+And as quickly as that, my AAB is uploaded:
+
+[![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-27_at_22.11.25.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-27_at_22.11.25.png)
+
 ### What needs work?
 
-While in the iFrame, I'd be remiss if I didn't test it here also. Here's one of a few snags with the process currently, which I'll state after the image:
+<div class="callout callout">
+<div class="callout-heading callout-heading-small">
+General availability update
+</div>
+
+The first two of the following issues are resolved, as noted by the demonstration of uploading a new AAB added above. Feel free to skip to [key management](#key-management).
+
+</div>
+
+~~While in the iFrame, I'd be remiss if I didn't test it here also. Here's one of a few snags with the process currently, which I'll state after the image:~~
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_05.00.52.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_05.00.52.png)
 
-Did you see it? _It still references **APK file**_, but it does in fact allow the upload of an AAB. Luckily the file extension is conveniently left in place (thanks, Google!) so you can see it is, indeed, an AAB. Based on Google's help doc, what we can expect to see, at some point, is a more generic label replacing **APK file**:
+~~Did you see it? _It still references **APK file**_, but it does in fact allow the upload of an AAB. Luckily the file extension is conveniently left in place (thanks, Google!) so you can see it is, indeed, an AAB. Based on Google's help doc, what we can expect to see, at some point, is a more generic label replacing **APK file**:~~
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/c2fFO20XkB4oolOHgI03JNS6jf1RDfeDFM7g.png)
 
-One of the other snags that currently exists is the inability to upload an AAB as a new application from the iFrame, even having followed Google's guidance in enabling Play app signing. 
+~~One of the other snags that currently exists is the inability to upload an AAB as a new application from the iFrame, even having followed Google's guidance in enabling Play app signing.~~
 
-The upload _allows_ the selection of an AAB, but the submit button remains greyed out. [I went into browser tools and manually enabled the button](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_05.14.09.png), only to be met with another error:
+~~The upload _allows_ the selection of an AAB, but the submit button remains greyed out. [I went into browser tools and manually enabled the button](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_05.14.09.png), only to be met with another error:~~
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_05.14.37.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_05.14.37.png)
 
-It's worth pointing out when Google _does_ allow direct AAB uploads from the iFrame, they'll generate the key:
+### Key management
+
+It's worth pointing out when doing AAB uploads from the iFrame, Google will generate the key:
 
 > Note: Private apps that are created for the first time by uploading an AAB to the iframe will use a Google-generated app signing key. Use one of the options below to use your own signing key:
 >
@@ -201,12 +264,21 @@ Finally, and hopefully another symptom of this not yet being fully rolled out, i
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-23_11.45.35.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-23_11.45.35.png)
 
+<div class="callout callout-red">
+<div class="callout-heading callout-heading-small">
+General availability update
+</div>
+
+Unfortunately this won't change. Google have, as above, limited the options admins have for key management with iFrame-uploaded AABs. It's too bad, as it looks like the below concern has been further validated once again.
+
+</div>
+
 It's an ongoing frustration generally, actually; permissions are overly restrictive across the portal due to the unique way Android Enterprise app management is set up. I'd like to be able to have my delegated accounts (i.e. jason@bayton.org, not the Google service account) act like an admin when it is granted admin permissions: create apps here, rotate keys in this instance, and so on. I haven't been able to get that working as yet.
 
 ## In summary 
 
-Google's move toward supporting Android App Bundles for private app distribution in the managed Google Play iFrame is well overdue, but great to see. While clearly still in the rollout phase, early exploration shows what's already possible and highlights some areas needing further refinement.
+Google's move toward supporting Android App Bundles for private app distribution in the managed Google Play iFrame is well overdue, but great to see. ~~While clearly still in the rollout phase, early exploration shows what's already possible and highlights some areas needing further refinement.~~
 
-For organisations ready to embrace smaller app sizes, streamlined deployments, and more flexible/redundant key management, the transition from APK to AAB is worth considering, at least when it becomes fully available; full support within the iFrame will undoubtedly make this process smoother and more broadly accessible in the near future.
+For organisations ready to embrace smaller app sizes, streamlined deployments, ~~and more flexible/redundant key management,~~ the transition from APK to AAB is worth considering, ~~at least when it becomes fully available; full support within the iFrame will undoubtedly make this process smoother and more broadly accessible in the near future.~~
 
-As always, plan your strategy carefully—particularly around key management and app distribution—to align with your organisation's security, compliance, and operational requirements.
+As always, plan your strategy carefully - particularly around key management and app distribution - to align with your organisation's security, compliance, and operational requirements.
