@@ -118,7 +118,7 @@ If you're on the fence, pros and cons:
 : ~~In case of compromised or lost upload keys, Google provides a straightforward and secure method for recovery without losing your app’s listing and user base.~~
 
 <div class="callout callout-red">
-<div class="callout-heading-small">
+<div class="callout-heading callout-heading-small">
 General availability update
 </div>
 
