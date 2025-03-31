@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 1001,
-    "totalRecent24hDevices": 128,
+    "totalNonStaleRecentDevices": 1002,
+    "totalRecent24hDevices": 114,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 4,
@@ -12,15 +12,15 @@
       "30": 101,
       "31": 44,
       "32": 1,
-      "33": 161,
-      "34": 657,
+      "33": 163,
+      "34": 656,
       "35": 6,
       "36": 5
     },
     "devicesByMake": {
       "motorola": 448,
-      "samsung": 387,
-      "LENOVO": 42,
+      "samsung": 386,
+      "LENOVO": 43,
       "HMD Global": 42,
       "Google": 19,
       "OPPO": 13,
@@ -43,14 +43,15 @@
       "vivo": 1,
       "Sky_Devices": 1,
       "TECNO": 1,
-      "Honeywell": 1
+      "Honeywell": 1,
+      "INFINIX": 1
     },
     "devicesByCountry": {
-      "BR": 658,
+      "BR": 657,
       "GB": 86,
       "UNKNOWN": 78,
       "US": 66,
-      "IT": 42,
+      "IT": 43,
       "DE": 17,
       "ES": 13,
       "IE": 6,
@@ -61,6 +62,7 @@
       "BE": 3,
       "IN": 2,
       "AT": 2,
+      "DZ": 2,
       "EG": 2,
       "NL": 1,
       "IL": 1,
@@ -69,7 +71,6 @@
       "CL": 1,
       "TW": 1,
       "ID": 1,
-      "DZ": 1,
       "TR": 1,
       "IQ": 1,
       "MW": 1
@@ -83,14 +84,14 @@
       "30": 0,
       "31": 0,
       "32": 0,
-      "33": 0,
-      "34": 3,
+      "33": 2,
+      "34": -1,
       "35": 0,
       "36": 0
     },
     "numberChangeByMake": {
-      "motorola": 1,
-      "samsung": 0,
+      "motorola": 0,
+      "samsung": -1,
       "LENOVO": 1,
       "HMD Global": 0,
       "Google": 0,
@@ -100,7 +101,7 @@
       "Gigaset": 0,
       "Topicon": 0,
       "HUAWEI": 0,
-      "realme": 1,
+      "realme": 0,
       "Xiaomi": 0,
       "Zebra Technologies": 0,
       "Microsoft": 0,
@@ -114,10 +115,11 @@
       "vivo": 0,
       "Sky_Devices": 0,
       "TECNO": 0,
-      "Honeywell": 0
+      "Honeywell": 0,
+      "INFINIX": 1
     },
     "numberChangeByCountry": {
-      "BR": 1,
+      "BR": -1,
       "GB": 0,
       "UNKNOWN": 0,
       "US": 0,
@@ -132,6 +134,7 @@
       "BE": 0,
       "IN": 0,
       "AT": 0,
+      "DZ": 1,
       "EG": 0,
       "NL": 0,
       "IL": 0,
@@ -140,15 +143,14 @@
       "CL": 0,
       "TW": 0,
       "ID": 0,
-      "DZ": 0,
       "TR": 0,
-      "IQ": 1,
+      "IQ": 0,
       "MW": 0
     }
   },
   "packageSearch": {
     "totalNonStaleRecentDevices": 200,
-    "totalRecent24hDevices": 26,
+    "totalRecent24hDevices": 29,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
@@ -289,7 +291,7 @@
   },
   "managedInfo": {
     "totalNonStaleRecentDevices": 60,
-    "totalRecent24hDevices": 5,
+    "totalRecent24hDevices": 6,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
