@@ -1833,7 +1833,7 @@ footer {
   100% { transform: translateX(-100%); }  /* This value should be the total width of all the logos */
 }
 
-.contact-grid {
+.contact-grid, .impactful-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 100px 0px;
@@ -1856,7 +1856,7 @@ footer {
     100% { transform: rotate(360deg); }
   }
 
-  .contact-info {
+  .contact-info, .impactful-hero {
     h2.page-subtitle {
       font-size: 50px;
       font-weight: 700;
