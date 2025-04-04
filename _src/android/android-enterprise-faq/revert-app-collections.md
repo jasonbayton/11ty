@@ -21,6 +21,8 @@ While this is simple, it lacks control.
 
 For organisations interested in customising the Google Play experience for managed devices, Google offers app collections. App collections allow defining an explicit layout, such as below, with the applications curated by the organisation. 
 
+![](https://cdn.bayton.org/uploads/android/android-enterprise-faq/app-collections/Screenshot_2025-04-04_23.35.43.png)
+
 While it's great, it can also become a burden. Applications assigned won't automatically pop up in Google Play after app collections are created, for example, and keeping this up to date is a reason organisations try it out, and subsequently abandon the idea.
 
 Unfortunately the managed Google Play iFrame doesn't support just _turning it off_. Instead, a support request will likely need to be raised with the EMM vendor.
