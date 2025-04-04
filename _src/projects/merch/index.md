@@ -12,7 +12,7 @@ eleventyNavigation:
 
 <style>
   .impactful-layout {
-    gap: 40px;
+    gap: 80px;
 
     @media (max-width: 900px) {
       gap: 20px;
