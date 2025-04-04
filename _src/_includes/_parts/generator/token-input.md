@@ -3,6 +3,6 @@ The Android Enterprise Enrolment Token is a unique identifier that is used to en
 <div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">Head's up</div>
 
-The enrolment token should be closely guarded as it grants access to the organisation's EMM platform and may grant access to sensitive corporate resources. If the token is compromised, it should be revoked immediately and a new one generated.
+The enrolment token should be closely guarded as it grants access to the organisation's EMM platform and may allow access to sensitive corporate resources. If the token is compromised, it should be revoked immediately and a new one generated.
 
 </div>
