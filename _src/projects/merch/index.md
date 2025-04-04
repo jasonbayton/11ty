@@ -51,7 +51,9 @@ If you support Android day-to-day, you no doubt know this feeling all too well. 
 
 ### My other device is fully managed
 
-Nothing to see here. I lead by example with my _other_ device.
+The daily's just for testing. Don't ask about Magisk.
+
+My other device? Fully locked down, zero control, just how I(T) like it.
 
 </div>
 <div class="product-image">
