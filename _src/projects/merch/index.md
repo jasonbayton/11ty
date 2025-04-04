@@ -127,7 +127,7 @@ Let this shirt remind you and those around you: clock off and enjoy your day.
 
 🙃.
 
-Available with extra Z's for those who need it.
+Available with extra Z's for those who spell it wrong.
 
 </div>
 <div class="product-image">
