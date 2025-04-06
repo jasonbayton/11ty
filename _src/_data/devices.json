@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 1017,
-    "totalRecent24hDevices": 161,
+    "totalNonStaleRecentDevices": 1018,
+    "totalRecent24hDevices": 138,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 4,
@@ -9,16 +9,16 @@
       "27": 3,
       "28": 9,
       "29": 7,
-      "30": 103,
-      "31": 43,
+      "30": 104,
+      "31": 42,
       "32": 2,
-      "33": 166,
-      "34": 643,
-      "35": 30,
+      "33": 165,
+      "34": 621,
+      "35": 54,
       "36": 5
     },
     "devicesByMake": {
-      "motorola": 455,
+      "motorola": 456,
       "samsung": 388,
       "LENOVO": 48,
       "HMD Global": 42,
@@ -49,10 +49,10 @@
       "Elo Touch Solutions": 1
     },
     "devicesByCountry": {
-      "BR": 667,
+      "BR": 669,
       "GB": 87,
       "UNKNOWN": 74,
-      "US": 68,
+      "US": 67,
       "IT": 48,
       "DE": 19,
       "ES": 13,
@@ -82,12 +82,12 @@
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": 0,
-      "31": 0,
-      "32": 1,
-      "33": 0,
-      "34": -19,
-      "35": 20,
+      "30": 1,
+      "31": -1,
+      "32": 0,
+      "33": -1,
+      "34": -22,
+      "35": 24,
       "36": 0
     },
     "numberChangeByMake": {
@@ -119,13 +119,13 @@
       "INFINIX": 0,
       "vivo": 0,
       "RHINO": 0,
-      "Elo Touch Solutions": 1
+      "Elo Touch Solutions": 0
     },
     "numberChangeByCountry": {
-      "BR": 1,
+      "BR": 2,
       "GB": 0,
       "UNKNOWN": 0,
-      "US": 1,
+      "US": -1,
       "IT": 0,
       "DE": 0,
       "ES": 0,
@@ -151,8 +151,8 @@
     }
   },
   "packageSearch": {
-    "totalNonStaleRecentDevices": 191,
-    "totalRecent24hDevices": 27,
+    "totalNonStaleRecentDevices": 192,
+    "totalRecent24hDevices": 25,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
@@ -162,7 +162,7 @@
       "31": 10,
       "32": 5,
       "33": 23,
-      "34": 73,
+      "34": 74,
       "35": 26,
       "36": 7
     },
@@ -171,10 +171,10 @@
       "Google": 39,
       "OnePlus": 17,
       "Zebra Technologies": 5,
+      "motorola": 4,
       "Lenovo": 4,
       "HONOR": 3,
       "Xiaomi": 3,
-      "motorola": 3,
       "Honeywell": 3,
       "Crosscall": 3,
       "CUBOT": 2,
@@ -193,7 +193,7 @@
     },
     "devicesByCountry": {
       "GB": 33,
-      "US": 23,
+      "US": 24,
       "DE": 17,
       "FR": 15,
       "SE": 12,
@@ -226,25 +226,25 @@
     },
     "numberChangeByOS": {
       "25": 0,
-      "28": 1,
+      "28": 0,
       "29": 0,
       "30": 0,
       "31": 0,
       "32": 0,
       "33": 0,
-      "34": -1,
+      "34": 1,
       "35": 0,
       "36": 0
     },
     "numberChangeByMake": {
-      "samsung": -1,
+      "samsung": 0,
       "Google": 0,
       "OnePlus": 0,
       "Zebra Technologies": 0,
+      "motorola": 1,
       "Lenovo": 0,
       "HONOR": 0,
       "Xiaomi": 0,
-      "motorola": 0,
       "Honeywell": 0,
       "Crosscall": 0,
       "CUBOT": 0,
@@ -259,19 +259,19 @@
       "Blackview": 0,
       "LGE": 0,
       "realme": 0,
-      "unknown": 1
+      "unknown": 0
     },
     "numberChangeByCountry": {
       "GB": 0,
-      "US": 0,
+      "US": 1,
       "DE": 0,
       "FR": 0,
-      "SE": -1,
+      "SE": 0,
       "PL": 0,
       "UNKNOWN": 0,
       "NL": 0,
       "ES": 0,
-      "CA": 1,
+      "CA": 0,
       "AU": 0,
       "CN": 0,
       "BE": 0,
@@ -297,7 +297,7 @@
   },
   "managedInfo": {
     "totalNonStaleRecentDevices": 58,
-    "totalRecent24hDevices": 6,
+    "totalRecent24hDevices": 5,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
@@ -340,14 +340,14 @@
       "29": 0,
       "30": 0,
       "31": 0,
-      "32": 1,
-      "33": -1,
+      "32": 0,
+      "33": 0,
       "34": 0,
       "35": 0,
       "36": 0
     },
     "numberChangeByMake": {
-      "samsung": -1,
+      "samsung": 0,
       "Google": 0,
       "OnePlus": 0,
       "unknown": 0,
@@ -355,7 +355,7 @@
       "motorola": 0,
       "A-gold": 0,
       "Zebra Technologies": 0,
-      "Elo Touch Solutions": 1
+      "Elo Touch Solutions": 0
     },
     "numberChangeByCountry": {
       "US": 0,
