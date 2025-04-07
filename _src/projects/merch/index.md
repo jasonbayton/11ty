@@ -106,7 +106,7 @@ We own `LEAVE_ALL_SYSTEM_APPS_ENABLED: false`.
 
 ### Work (profile)/life balance
 
-Android's work profile offers as close to running two different devices as is achievable through one device. 
+Android's work profile offers an experience as close to running two different devices as is achievable without.. well.. two devices. 
 
 But if you never turn the work profile off, it defeats the purpose.
 
