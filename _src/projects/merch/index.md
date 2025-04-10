@@ -216,6 +216,7 @@ They really do.
       <option value="Work (profile)/life balance">Work (profile)/life balance</option>
       <option value="Managed by my organisation">Managed by my organisation</option>
       <option value="This human was reported lost">This human was reported lost</option>
+      <option value="Release notes save lives">Release notes save lives</option>
     </select>
   </div>
   <div class="form-group">
@@ -223,7 +224,7 @@ They really do.
     <input type="text" id="country" name="country" required>
   </div>
   <div class="form-group">
-    <label for="message">Message</label>
+    <label for="message">Message (optional)</label>
     <textarea id="message" name="message"></textarea>
   </div>
   <div class="submit-group">
