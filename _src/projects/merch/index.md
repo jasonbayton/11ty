@@ -28,7 +28,7 @@ Fancy supporting the website, _and_ a local business? I'm working with a printer
 <div class="impactful-hero">
 <h2 class="page-subtitle">T-Shirts</h2>
 <p>100% Cotton, XS - 6XL.</p>
-<span class="text-orange">£15</span> + shipping. The order form is <a href="#contact-form">below</a>.
+<span class="text-orange">£15</span> + shipping (£5-10 depending on UK/EU, import duties not included). The order form is <a href="#contact-form">below</a>.
 </div>
 <p></p>
 
@@ -167,13 +167,14 @@ They really do.
 </div>
 
 <!--  -->
+
 </div>
 </div>
 <div id="contact-form"></div>
 <div class="impactful-layout">
 <div class="contact-info">
   <h2 class="page-subtitle">Fancy one? <span class="highlight">Go on then</span>.</h2>
-  <p>Provide your preferences and contact details, once shipping is calculated, an invoice will be sent over.</p>
+  <p>Provide your preferences and contact details, once ready to print, further instructions will be provided.</p>
 </div>
 <form name="contact" method="POST" action="https://submit-form.com/UVQaml5dX" class="contact-form">
   <input
@@ -190,7 +191,7 @@ They really do.
     <input type="email" id="email" name="email" required>
   </div>
   <div class="form-group">
-    <label for="size">T-Shirt Size<span class="orange">*</span></label>
+    <label for="size">T-Shirt size<span class="orange">*</span></label>
     <select id="size" name="size" required>
       <option value="">Select a size</option>
       <option value="XS">XS</option>
@@ -206,7 +207,7 @@ They really do.
     </select>
   </div>
   <div class="form-group">
-    <label for="design">T-Shirt Design<span class="orange">*</span></label>
+    <label for="design">T-Shirt design<span class="orange">*</span></label>
     <select id="design" name="design" required>
       <option value="">Select a design</option>
       <option value="Keep calm & adb bugreport">Keep calm & adb bugreport</option>
