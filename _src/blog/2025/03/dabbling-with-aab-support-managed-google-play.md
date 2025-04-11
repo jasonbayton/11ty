@@ -3,7 +3,7 @@
  date: '2025-03-22'
  status: publish
  author: 'Jason Bayton'
- excerpt: "Recent updates to Google docs suggest AAB support for application uploads are on the horizon, but it's not quite there for me.. yet."
+ excerpt: "Google now supports AAB application updates, and I got hands-on with it."
  type: post
  tags:
      - Enterprise
