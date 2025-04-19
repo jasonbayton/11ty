@@ -1,7 +1,7 @@
 {
   "managedSettings": {
-    "totalNonStaleRecentDevices": 1091,
-    "totalRecent24hDevices": 154,
+    "totalNonStaleRecentDevices": 1095,
+    "totalRecent24hDevices": 139,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 3,
@@ -13,13 +13,13 @@
       "31": 43,
       "32": 3,
       "33": 179,
-      "34": 541,
-      "35": 168,
+      "34": 543,
+      "35": 170,
       "36": 5
     },
     "devicesByMake": {
-      "motorola": 484,
-      "samsung": 394,
+      "motorola": 487,
+      "samsung": 395,
       "LENOVO": 55,
       "HMD Global": 43,
       "Zebra Technologies": 31,
@@ -43,13 +43,13 @@
       "Xiaomi": 1,
       "TECNO": 1,
       "BLU": 1,
-      "TCL": 1,
       "vivo": 1,
-      "Samsung": 1
+      "Samsung": 1,
+      "TCL": 1
     },
     "devicesByCountry": {
-      "BR": 696,
-      "GB": 97,
+      "BR": 699,
+      "GB": 98,
       "UNKNOWN": 74,
       "US": 64,
       "IT": 55,
@@ -77,26 +77,26 @@
       "MA": 1
     },
     "numberChangeByOS": {
-      "25": 1,
+      "25": 0,
       "26": 0,
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": -1,
+      "30": 0,
       "31": 0,
       "32": 0,
-      "33": 2,
+      "33": 0,
       "34": 2,
-      "35": 3,
+      "35": 2,
       "36": 0
     },
     "numberChangeByMake": {
-      "motorola": 4,
-      "samsung": 2,
-      "LENOVO": -1,
+      "motorola": 3,
+      "samsung": 1,
+      "LENOVO": 0,
       "HMD Global": 0,
       "Zebra Technologies": 0,
-      "Google": 1,
+      "Google": 0,
       "OPPO": 0,
       "Gigaset": 0,
       "OnePlus": 0,
@@ -116,16 +116,16 @@
       "Xiaomi": 0,
       "TECNO": 0,
       "BLU": 0,
-      "TCL": 0,
       "vivo": 0,
-      "Samsung": 1
+      "Samsung": 0,
+      "TCL": 0
     },
     "numberChangeByCountry": {
-      "BR": 4,
-      "GB": 2,
-      "UNKNOWN": 1,
+      "BR": 3,
+      "GB": 1,
+      "UNKNOWN": 0,
       "US": 0,
-      "IT": -1,
+      "IT": 0,
       "DE": 0,
       "ES": 0,
       "IE": 0,
@@ -147,12 +147,12 @@
       "TR": 0,
       "GR": 0,
       "IN": 0,
-      "MA": 1
+      "MA": 0
     }
   },
   "packageSearch": {
     "totalNonStaleRecentDevices": 172,
-    "totalRecent24hDevices": 17,
+    "totalRecent24hDevices": 15,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 1,
@@ -228,11 +228,11 @@
       "32": 0,
       "33": 0,
       "34": 0,
-      "35": -1,
+      "35": 0,
       "36": 0
     },
     "numberChangeByMake": {
-      "samsung": -1,
+      "samsung": 0,
       "Google": 0,
       "OnePlus": 0,
       "LENOVO": 0,
@@ -270,7 +270,7 @@
       "AU": 0,
       "FI": 0,
       "AT": 0,
-      "IT": -1,
+      "IT": 0,
       "GR": 0,
       "BR": 0,
       "RU": 0,
