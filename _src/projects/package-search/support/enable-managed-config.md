@@ -37,7 +37,7 @@ The API behind the MANAGED_CONFIGURATION delegated scope supports _multiple_ app
 <div class="callout callout-red">
 <div class="callout-heading">Caution</div>
 
-Be aware PACKAGE SEARCH will show the received managed config as it is provided by the EMM on any device configured. This may include identying information, secrets, keys, and anything else you may not wish end-users to have visibility of.
+Be aware PACKAGE SEARCH will show the received managed config as it is provided by the EMM on any device configured. This may include identifying information, secrets, keys, and anything else you may not wish end-users to have visibility of.
 
 It is recommended this feature be used in a closed testing environment only, unless you are comfortable with the potential risk.
 
@@ -79,7 +79,7 @@ PACKAGE SEARCH is now configured to view and display managed configurations.
 
 ## EMM vendor setup
 
-Typically delegated scopes are found within application configurations. Within your EMM when adding an application, you should see delegated scopes alongside install type, managed config, install priority/constraints, and so on. It should provide a drop-down or checkbox list for scopes able to be delegated to an application. Select MANAGED_CONFIGURATION, or if the EMM provides their own lable for scopes, look out for Managed Configuration, App configuration, or a similar sounding option.
+Typically delegated scopes are found within application configurations. Within your EMM when adding an application, you should see delegated scopes alongside install type, managed config, install priority/constraints, and so on. It should provide a drop-down or checkbox list for scopes able to be delegated to an application. Select MANAGED_CONFIGURATION, or if the EMM provides their own label for scopes, look out for Managed Configuration, App configuration, or a similar sounding option.
 
 Further guidance may be found in [EMM setup guides](../emm-setup). Documentation isn't provided for every EMM on the market currently. If you'd like guidance for your particular EMM, please [raise a request](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&projects=&template=content-request.md&title=%5BContent+request%5D). If you happen to know your EMM vendor leverages AMAPI, you may also raise a support request with them, providing above AMAPI JSON example and requesting guidance on how this is applied to your policies.
 
