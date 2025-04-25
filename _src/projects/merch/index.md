@@ -20,7 +20,7 @@ eleventyNavigation:
   }
 </style>
 
-Fancy supporting the website, _and_ a local business? I'm working with a printer just up the road from me to bring the following items to life! Other colours and garments may be available on request, just ask!
+Fancy supporting the website, _and_ a local business? I'm working with a local printer to bring the following items to life! Other colours and garments may be available on request, just ask.
 
 <small>Prints are done in batches for cost management. Images are for demonstration only, actual final product design may vary slightly in colour/shape.</small>
 
