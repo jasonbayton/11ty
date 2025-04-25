@@ -25,7 +25,7 @@ When the version on-device is older than that of Google Play, a banner will be s
 
 Like so:
 
-![](https://cdn.bayton.org/uploads/2025/package-search-sync/Screenshot_1.png)
+![](https://cdn.bayton.org/uploads/2025/package-search-sync/Screenshot_2.png)
 
 This is another troubleshooting tool administrators and end-users alike can use to validate installed application versions when Google Play isn't available due to policy.
 
@@ -33,7 +33,7 @@ This is another troubleshooting tool administrators and end-users alike can use 
 
 Simply head to settings (the menu icon, top-right from the PACKAGE SEARCH app list), then toggle the option on:
 
-![](https://cdn.bayton.org/uploads/2025/package-search-sync/Screenshot_2.png)
+![](https://cdn.bayton.org/uploads/2025/package-search-sync/Screenshot_1.png)
 
 This will: 
 
