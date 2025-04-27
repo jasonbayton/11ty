@@ -44,3 +44,7 @@ This will:
 All of the heavy lifting is done by the PING service, this consumes little to no additional battery and a fraction of data. 
 
 PING checks for application updates roughly every 8 hours, but only queries packages that haven't been checked within the last 24 hours; so typically within a day of updating on Google Play, the warning will become visible if the application hasn't updated already.
+
+## Limitations
+
+1. Limited support for beta version codes. PACKAGE SEARCH compares all version codes to that provided by PING, however PING does not (yet) resolve version codes in the beta/open testing channel. Apps in Beta may report an update is available on Google Play and can be ignored.
