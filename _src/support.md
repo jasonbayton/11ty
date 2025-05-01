@@ -48,7 +48,7 @@ layout: base.njk
     <span>Deployment</span>
   </a>
   <a href="#in-life-support" class="shortcut-card">
-    <span class="material-symbols-outlined">support_agent</span>
+    <span class="material-symbols-outlined">support</span>
     <span>Support</span>
   </a>
   <a href="#complete-mobility-management" class="shortcut-card">
