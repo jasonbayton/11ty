@@ -1,1 +1,1 @@
-![package search preview](https://cdn.bayton.org/assets/package_search/package_search_hero_gif.gif)
+![package search preview](https://cdn.bayton.org/assets/package_search/package_search_hero_gif.1.0.6.5.gif)
