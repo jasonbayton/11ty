@@ -1,5 +1,5 @@
 ---
-title: System app database
+title: Android system app database
 published: '2025-05-03'
 status: publish
 author: 'Jason Bayton'
@@ -12,8 +12,12 @@ eleventyNavigation:
   order: 20000
 ---
 
-<div class="filters-grid" style="display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-bottom: 1rem;">
-<input type="text" id="searchInput" placeholder="Search package or app name..." style="flex: 2 1 60%; min-width: 200px;" />
+Below you'll find a table of system apps across various devices. These devices have opted in to cloud sync in [PACKAGE SEARCH](/projects/package-search/support/enable-package-sync) to build this database, and it is through the volunteering of PACKAGE SEARCH users that this database grows.
+
+Packages are synced daily.
+
+<div class="filters-grid" style=" padding-top:40px; display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-bottom: 1rem;">
+<input type="text" id="searchInput" placeholder="Search package, app name, OS, device, or model..." style="flex: 2 1 60%; min-width: 200px;" />
 <div style="display: flex; gap: 0.5rem; flex: 1 1 35%; justify-content: flex-end; flex-wrap: wrap;">
 <select id="filterMake"><option value="">All OEMs</option></select>
 <select id="filterModel"><option value="">All Models</option></select>
