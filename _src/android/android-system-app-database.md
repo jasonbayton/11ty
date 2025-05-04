@@ -26,7 +26,7 @@ Packages are updated here daily.
 </div>
 
 <div class="responsive-table-wrapper">
-<table id="appTable" style="table-layout: fixed;" width: 100%;>
+<table id="appTable" style="table-layout: fixed; width: 100%; min-width: 800px; border-collapse: border">
 <thead>
 <tr>
 <th>App Name</th>
