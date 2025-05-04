@@ -1,0 +1,35 @@
+name: Fetch Packages
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  fetch-devices:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'  # Use the latest Node.js LTS version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run fetch-devices script
+        env:
+          PING_API: ${{ secrets.PINGDIR_API }}
+        run: node _scripts/fetch-packages.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add ./_src/_data/packages.json
+          git commit -m 'Update devices data'
+          git push
