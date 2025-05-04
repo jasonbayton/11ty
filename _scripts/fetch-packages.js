@@ -47,9 +47,14 @@ async function fetchAndSavePackages() {
             }
         }
 
-        // Convert sets to arrays and split device info into objects
+        // Convert sets to arrays and split device info into objects, sorted by first app name
         const finalOutput = {};
-        for (const [pkg, data] of Object.entries(result)) {
+        for (const pkg of Object.keys(result).sort((a, b) => {
+            const aName = Array.from(result[a].appNames)[0] || a;
+            const bName = Array.from(result[b].appNames)[0] || b;
+            return aName.localeCompare(bName);
+        })) {
+            const data = result[pkg];
             finalOutput[pkg] = {
                 appNames: Array.from(data.appNames),
                 devices: Array.from(data.devices).map(str => {

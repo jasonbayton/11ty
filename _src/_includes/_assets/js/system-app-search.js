@@ -47,12 +47,14 @@ async function buildTable() {
       allOS.map(o => `<option value="${o}" ${o === selectedOS ? 'selected' : ''}>${o}</option>`).join('');
   }
 
-  [filterMake, filterModel, filterOS, searchInput].forEach(el =>
-    el.addEventListener('input', () => {
-      updateFilters();
-      render();
-    })
-  );
+  [filterMake, filterModel, filterOS, searchInput].forEach(el => {
+    ['input', 'change', 'keyup'].forEach(evt => {
+      el.addEventListener(evt, () => {
+        updateFilters();
+        render();
+      });
+    });
+  });
 
   function render() {
     const q = searchInput.value.toLowerCase();
@@ -60,18 +62,18 @@ async function buildTable() {
     const selectedModel = filterModel.value;
     const selectedOS = filterOS.value;
 
-    const matches =
-      (!q ||
-        row.packageName.toLowerCase().includes(q) ||
-        row.appName.toLowerCase().includes(q) ||
-        row.make.toLowerCase().includes(q) ||
-        row.model.toLowerCase().includes(q) ||
-        row.os.toLowerCase().includes(q)) &&
-      (!selectedMake || row.make === selectedMake) &&
-      (!selectedModel || row.model === selectedModel) &&
-      (!selectedOS || row.os === selectedOS);
-
     rows.forEach(row => {
+      const matches =
+        (!q ||
+          row.packageName.toLowerCase().includes(q) ||
+          row.appName.toLowerCase().includes(q) ||
+          row.make.toLowerCase().includes(q) ||
+          row.model.toLowerCase().includes(q) ||
+          row.os.toLowerCase().includes(q)) &&
+        (!selectedMake || row.make.includes(selectedMake)) &&
+        (!selectedModel || row.model.includes(selectedModel)) &&
+        (!selectedOS || row.os.includes(selectedOS));
+
       row.element.style.display = matches ? '' : 'none';
     });
   }
