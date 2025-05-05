@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight
   workflow_dispatch: # Allows manual triggering
+  # Webhook
+  repository_dispatch:
+    types:
+      - webhook
 
 jobs:
   fetch-devices:
