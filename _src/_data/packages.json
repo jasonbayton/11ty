@@ -53,7 +53,8 @@
   },
   "com.samsung.accessibility": {
     "appNames": [
-      "Accessibility"
+      "Accessibility",
+      "Eingabehilfe"
     ],
     "devices": [
       {
@@ -75,7 +76,8 @@
   },
   "com.sec.hearingadjust": {
     "appNames": [
-      "Adapt sound"
+      "Adapt sound",
+      "Adapt Sound"
     ],
     "devices": [
       {
@@ -185,7 +187,8 @@
   },
   "com.google.android.apps.aiwallpapers": {
     "appNames": [
-      "AI wallpaper"
+      "AI wallpaper",
+      "KI-Hintergrund"
     ],
     "devices": [
       {
@@ -541,7 +544,8 @@
   },
   "com.google.android.setupwizard": {
     "appNames": [
-      "Android Setup"
+      "Android Setup",
+      "Android-Einrichtung"
     ],
     "devices": [
       {
@@ -725,7 +729,8 @@
     "appNames": [
       "Android system",
       "Ad Privacy",
-      "Ad privacy"
+      "Ad privacy",
+      "Datenschutz bei Werbung"
     ],
     "devices": [
       {
@@ -773,7 +778,8 @@
   "android": {
     "appNames": [
       "Android System",
-      "Android system"
+      "Android system",
+      "Android-System"
     ],
     "devices": [
       {
@@ -1384,7 +1390,8 @@
   },
   "com.samsung.android.app.updatecenter": {
     "appNames": [
-      "App update"
+      "App update",
+      "App-Update"
     ],
     "devices": [
       {
@@ -1447,7 +1454,8 @@
   },
   "com.samsung.android.mapsagent": {
     "appNames": [
-      "Application recommendations"
+      "Application recommendations",
+      "Anwendungsempfehlungen"
     ],
     "devices": [
       {
@@ -1523,7 +1531,8 @@
   "com.samsung.android.aremojieditor": {
     "appNames": [
       "AR Emoji Editor",
-      "Avatar Editor"
+      "Avatar Editor",
+      "Avatar-Editor"
     ],
     "devices": [
       {
@@ -1735,7 +1744,8 @@
   },
   "com.samsung.android.rampart": {
     "appNames": [
-      "Auto Blocker"
+      "Auto Blocker",
+      "Automatische Sperre"
     ],
     "devices": [
       {
@@ -1769,7 +1779,8 @@
   },
   "com.sec.android.autodoodle.service": {
     "appNames": [
-      "Auto doodle"
+      "Auto doodle",
+      "Automatisch zeichnen"
     ],
     "devices": [
       {
@@ -1791,7 +1802,8 @@
   },
   "com.sec.mhs.smarttethering": {
     "appNames": [
-      "Auto Hotspot"
+      "Auto Hotspot",
+      "Auto-Hotspot"
     ],
     "devices": [
       {
@@ -1813,7 +1825,8 @@
   },
   "com.samsung.android.samsungpassautofill": {
     "appNames": [
-      "Autofill with Samsung Pass"
+      "Autofill with Samsung Pass",
+      "Formulare von Samsung Pass ausfüllen lassen"
     ],
     "devices": [
       {
@@ -1835,7 +1848,8 @@
   },
   "com.samsung.android.privateaccesstokens": {
     "appNames": [
-      "Automatic verification"
+      "Automatic verification",
+      "Automatische Bestätigung"
     ],
     "devices": [
       {
@@ -1877,7 +1891,8 @@
   "com.sec.android.mimage.avatarstickers": {
     "appNames": [
       "Avatar Stickers",
-      "AR Emoji Stickers"
+      "AR Emoji Stickers",
+      "Avatar-Sticker"
     ],
     "devices": [
       {
@@ -2123,7 +2138,8 @@
   },
   "com.android.providers.blockednumber": {
     "appNames": [
-      "Blocked Numbers Storage"
+      "Blocked Numbers Storage",
+      "Speicher für blockierte Nummern"
     ],
     "devices": [
       {
@@ -2521,7 +2537,8 @@
   "com.android.providers.calendar": {
     "appNames": [
       "Calendar storage",
-      "Calendar Storage"
+      "Calendar Storage",
+      "Kalenderspeicher"
     ],
     "devices": [
       {
@@ -2583,7 +2600,8 @@
   },
   "com.samsung.android.incallui": {
     "appNames": [
-      "Call"
+      "Call",
+      "Anruf"
     ],
     "devices": [
       {
@@ -2605,7 +2623,8 @@
   },
   "com.samsung.android.mdecservice": {
     "appNames": [
-      "Call & text on other devices"
+      "Call & text on other devices",
+      "Anrufe/SMS auf anderen Geräten"
     ],
     "devices": [
       {
@@ -2689,7 +2708,8 @@
   },
   "com.samsung.android.callassistant": {
     "appNames": [
-      "Call Services"
+      "Call Services",
+      "Anrufdienste"
     ],
     "devices": [
       {
@@ -2706,7 +2726,8 @@
   },
   "com.samsung.android.app.telephonyui": {
     "appNames": [
-      "Call settings"
+      "Call settings",
+      "Anrufeinstellungen"
     ],
     "devices": [
       {
@@ -2772,7 +2793,8 @@
   },
   "com.sec.android.app.camera": {
     "appNames": [
-      "Camera"
+      "Camera",
+      "Kamera"
     ],
     "devices": [
       {
@@ -2848,7 +2870,8 @@
   "com.samsung.android.hwresourceshare": {
     "appNames": [
       "Camera Share",
-      "Camera sharing"
+      "Camera sharing",
+      "Kamerafreigabe"
     ],
     "devices": [
       {
@@ -2966,7 +2989,8 @@
   "com.google.android.captiveportallogin": {
     "appNames": [
       "Captive portal login",
-      "Captive Portal Login"
+      "Captive Portal Login",
+      "Anmeldung über Captive Portal"
     ],
     "devices": [
       {
@@ -3251,7 +3275,8 @@
     "appNames": [
       "CarrierDefaultApp",
       "Carrier Communications",
-      "Operator communications"
+      "Operator communications",
+      "Kommunikation mit Mobilfunkanbieter"
     ],
     "devices": [
       {
@@ -3409,7 +3434,8 @@
   "com.android.certinstaller": {
     "appNames": [
       "Certificate Installer",
-      "Certificate installer"
+      "Certificate installer",
+      "Zertifikatsinstallationsprogramm"
     ],
     "devices": [
       {
@@ -3669,7 +3695,8 @@
   },
   "com.samsung.android.app.clipboardedge": {
     "appNames": [
-      "Clipboard edge"
+      "Clipboard edge",
+      "Zwischenablage"
     ],
     "devices": [
       {
@@ -8326,7 +8353,8 @@
   "com.samsung.android.biometrics.app.setting": {
     "appNames": [
       "com.samsung.android.biometrics.app.setting",
-      "Biometrics"
+      "Biometrics",
+      "Biometrische Daten"
     ],
     "devices": [
       {
@@ -8940,7 +8968,8 @@
   },
   "com.android.companiondevicemanager": {
     "appNames": [
-      "Companion Device Manager"
+      "Companion Device Manager",
+      "Begleitgerät-Manager"
     ],
     "devices": [
       {
@@ -9127,7 +9156,8 @@
   },
   "com.wsomacp": {
     "appNames": [
-      "Configuration message"
+      "Configuration message",
+      "Konfigurationsnachricht"
     ],
     "devices": [
       {
@@ -9149,7 +9179,8 @@
   },
   "com.samsung.android.cidmanager": {
     "appNames": [
-      "Configuration update"
+      "Configuration update",
+      "Konfigurationsupdate"
     ],
     "devices": [
       {
@@ -9172,7 +9203,8 @@
   "com.samsung.android.sdm.config": {
     "appNames": [
       "Configuration update",
-      "Service provider setup"
+      "Service provider setup",
+      "Dienstanbieter­einrichtung"
     ],
     "devices": [
       {
@@ -9273,7 +9305,8 @@
   },
   "com.samsung.android.app.contacts": {
     "appNames": [
-      "Contacts"
+      "Contacts",
+      "Kontakte"
     ],
     "devices": [
       {
@@ -9349,7 +9382,8 @@
   },
   "com.samsung.android.providers.contacts": {
     "appNames": [
-      "Contacts Storage"
+      "Contacts Storage",
+      "Kontaktspeicher"
     ],
     "devices": [
       {
@@ -9485,7 +9519,8 @@
   "com.android.internal.display.cutout.emulation.corner": {
     "appNames": [
       "Corner cutout",
-      "Corner display cutout"
+      "Corner display cutout",
+      "Aussparung in der Ecke"
     ],
     "devices": [
       {
@@ -9555,7 +9590,8 @@
   "com.android.credentialmanager": {
     "appNames": [
       "Credential Manager",
-      "Credential manager"
+      "Credential manager",
+      "Anmeldedaten-Manager"
     ],
     "devices": [
       {
@@ -9592,7 +9628,8 @@
   },
   "com.samsung.android.app.camera.sticker.facearavatar.preload": {
     "appNames": [
-      "Crocro and friends"
+      "Crocro and friends",
+      "Crocro und Freunde"
     ],
     "devices": [
       {
@@ -9677,7 +9714,8 @@
   "com.samsung.android.rubin.app": {
     "appNames": [
       "Customisation Service",
-      "Customization Service"
+      "Customization Service",
+      "Personalisierter Dienst"
     ],
     "devices": [
       {
@@ -9770,7 +9808,8 @@
   "com.android.bips": {
     "appNames": [
       "Default Print Service",
-      "Default print service"
+      "Default print service",
+      "Standarddruckdienst"
     ],
     "devices": [
       {
@@ -9832,7 +9871,8 @@
   },
   "com.samsung.android.lool": {
     "appNames": [
-      "Device care"
+      "Device care",
+      "Gerätewartung"
     ],
     "devices": [
       {
@@ -9995,7 +10035,8 @@
   "com.samsung.android.sm.devicesecurity": {
     "appNames": [
       "Device security",
-      "App protection"
+      "App protection",
+      "App-Schutz"
     ],
     "devices": [
       {
@@ -10056,7 +10097,8 @@
   },
   "com.android.devicediagnostics": {
     "appNames": [
-      "DeviceDiagnostics"
+      "DeviceDiagnostics",
+      "Gerätediagnose"
     ],
     "devices": [
       {
@@ -10279,7 +10321,8 @@
   },
   "com.samsung.android.forest": {
     "appNames": [
-      "Digital Wellbeing"
+      "Digital Wellbeing",
+      "Digitales Wohlbefinden"
     ],
     "devices": [
       {
@@ -10367,7 +10410,8 @@
   },
   "com.samsung.android.app.vex.scanner": {
     "appNames": [
-      "Document scanner"
+      "Document scanner",
+      "Dokumentenscanner"
     ],
     "devices": [
       {
@@ -10380,7 +10424,8 @@
   "com.android.internal.display.cutout.emulation.double": {
     "appNames": [
       "Double cutout",
-      "Double display cutout"
+      "Double display cutout",
+      "Doppelte Aussparung"
     ],
     "devices": [
       {
@@ -10437,7 +10482,8 @@
   },
   "com.android.providers.downloads": {
     "appNames": [
-      "Download Manager"
+      "Download Manager",
+      "Download-Manager"
     ],
     "devices": [
       {
@@ -10606,7 +10652,8 @@
   },
   "com.samsung.android.app.sketchbook": {
     "appNames": [
-      "Drawing assist"
+      "Drawing assist",
+      "Zeichnungs-Assistent"
     ],
     "devices": [
       {
@@ -10987,7 +11034,8 @@
   },
   "com.sec.android.app.safetyassurance": {
     "appNames": [
-      "Emergency sharing"
+      "Emergency sharing",
+      "Notfallfreigabe"
     ],
     "devices": [
       {
@@ -11009,7 +11057,8 @@
   },
   "com.samsung.android.emergency": {
     "appNames": [
-      "Emergency SOS"
+      "Emergency SOS",
+      "Notfall-SOS"
     ],
     "devices": [
       {
@@ -11215,7 +11264,8 @@
   },
   "com.android.externalstorage": {
     "appNames": [
-      "External Storage"
+      "External Storage",
+      "Externer Speicher"
     ],
     "devices": [
       {
@@ -11306,7 +11356,8 @@
   },
   "com.samsung.android.bluelightfilter": {
     "appNames": [
-      "Eye comfort shield"
+      "Eye comfort shield",
+      "Augenkomfort"
     ],
     "devices": [
       {
@@ -11516,7 +11567,8 @@
   "com.google.android.gms.supervision": {
     "appNames": [
       "Family Link parental controls",
-      "System parental controls"
+      "System parental controls",
+      "Jugendschutzeinstellungen"
     ],
     "devices": [
       {
@@ -11564,7 +11616,8 @@
   "com.sec.android.widgetapp.easymodecontactswidget": {
     "appNames": [
       "Favourite Contacts",
-      "Favorite Contacts"
+      "Favorite Contacts",
+      "Bevorzugte Kontakte"
     ],
     "devices": [
       {
@@ -11610,7 +11663,8 @@
   },
   "com.google.android.documentsui": {
     "appNames": [
-      "Files"
+      "Files",
+      "Dateien"
     ],
     "devices": [
       {
@@ -11836,7 +11890,8 @@
   },
   "com.android.location.fused": {
     "appNames": [
-      "Fused Location"
+      "Fused Location",
+      "Kombinierte Standortbest."
     ],
     "devices": [
       {
@@ -11899,7 +11954,8 @@
   "com.samsung.android.aremoji": {
     "appNames": [
       "Galaxy Avatar",
-      "AR Emoji"
+      "AR Emoji",
+      "Galaxy-Avatar"
     ],
     "devices": [
       {
@@ -11955,7 +12011,8 @@
   },
   "com.samsung.android.dbsc": {
     "appNames": [
-      "Galaxy Service Setup"
+      "Galaxy Service Setup",
+      "Galaxy-Dienst-Einrichtung"
     ],
     "devices": [
       {
@@ -12011,7 +12068,8 @@
   },
   "com.samsung.android.themecenter": {
     "appNames": [
-      "Galaxy Themes Service"
+      "Galaxy Themes Service",
+      "Galaxy Themes-Dienst"
     ],
     "devices": [
       {
@@ -12033,7 +12091,8 @@
   },
   "com.samsung.android.widget.pictureframe": {
     "appNames": [
-      "Gallery"
+      "Gallery",
+      "Galerie"
     ],
     "devices": [
       {
@@ -12055,7 +12114,8 @@
   },
   "com.sec.android.gallery3d": {
     "appNames": [
-      "Gallery"
+      "Gallery",
+      "Galerie"
     ],
     "devices": [
       {
@@ -12072,7 +12132,8 @@
   },
   "com.samsung.storyservice": {
     "appNames": [
-      "Gallery stories"
+      "Gallery stories",
+      "Gallery-Storys"
     ],
     "devices": [
       {
@@ -12704,7 +12765,8 @@
   },
   "com.google.android.syncadapters.calendar": {
     "appNames": [
-      "Google Calendar Sync"
+      "Google Calendar Sync",
+      "Google Kalender-Synchronisierung"
     ],
     "devices": [
       {
@@ -12748,7 +12810,8 @@
   },
   "com.google.android.gms.location.history": {
     "appNames": [
-      "Google Location History"
+      "Google Location History",
+      "Google-Standortverlauf"
     ],
     "devices": [
       {
@@ -12973,7 +13036,8 @@
   },
   "com.google.android.gms": {
     "appNames": [
-      "Google Play services"
+      "Google Play services",
+      "Google Play-Dienste"
     ],
     "devices": [
       {
@@ -13098,7 +13162,8 @@
   "com.google.android.safetycenter.resources": {
     "appNames": [
       "Google Safety Centre resources",
-      "Google Safety Center Resources"
+      "Google Safety Center Resources",
+      "Google Sicherheitscenter-Ressourcen"
     ],
     "devices": [
       {
@@ -13344,7 +13409,8 @@
   },
   "com.samsung.android.mobileservice": {
     "appNames": [
-      "Group Sharing"
+      "Group Sharing",
+      "Gruppenfreigabe"
     ],
     "devices": [
       {
@@ -13422,7 +13488,8 @@
   },
   "com.google.android.healthconnect.controller": {
     "appNames": [
-      "Health Connect"
+      "Health Connect",
+      "Health Connect"
     ],
     "devices": [
       {
@@ -13553,7 +13620,8 @@
   },
   "com.android.htmlviewer": {
     "appNames": [
-      "HTML Viewer"
+      "HTML Viewer",
+      "HTML-Anzeige"
     ],
     "devices": [
       {
@@ -13742,7 +13810,8 @@
   },
   "com.android.inputdevices": {
     "appNames": [
-      "Input Devices"
+      "Input Devices",
+      "Eingabegeräte"
     ],
     "devices": [
       {
@@ -13892,7 +13961,8 @@
   },
   "com.samsung.android.app.interpreter": {
     "appNames": [
-      "Interpreter"
+      "Interpreter",
+      "Dolmetscher"
     ],
     "devices": [
       {
@@ -14344,7 +14414,8 @@
   },
   "com.sec.android.emergencylauncher": {
     "appNames": [
-      "Launcher"
+      "Launcher",
+      "Startprogramm"
     ],
     "devices": [
       {
@@ -14407,7 +14478,8 @@
   },
   "com.microsoft.appmanager": {
     "appNames": [
-      "Link to Windows"
+      "Link to Windows",
+      "Link zu Windows"
     ],
     "devices": [
       {
@@ -14424,7 +14496,8 @@
   },
   "com.samsung.android.mdx": {
     "appNames": [
-      "Link to Windows Service"
+      "Link to Windows Service",
+      "Link zu Windows-Dienst"
     ],
     "devices": [
       {
@@ -14459,7 +14532,8 @@
   "com.google.audio.hearing.visualization.accessibility.scribe": {
     "appNames": [
       "Live Transcribe and Sound Notifications",
-      "Live Transcribe & Sound Notifications"
+      "Live Transcribe & Sound Notifications",
+      "Automatische Transkription & Geräusch­­­­­benachrichtigungen"
     ],
     "devices": [
       {
@@ -14482,7 +14556,8 @@
   "com.android.wallpaper.livepicker": {
     "appNames": [
       "Live Wallpaper Picker",
-      "Live wallpaper selector"
+      "Live wallpaper selector",
+      "Live-Hintergrund-Auswahl"
     ],
     "devices": [
       {
@@ -14619,7 +14694,8 @@
   },
   "com.sec.android.app.magnifier": {
     "appNames": [
-      "Magnifier"
+      "Magnifier",
+      "Vergrößerung"
     ],
     "devices": [
       {
@@ -14934,7 +15010,8 @@
   "com.google.android.providers.media.module": {
     "appNames": [
       "Media",
-      "Media picker"
+      "Media picker",
+      "Media-Auswahl"
     ],
     "devices": [
       {
@@ -15257,7 +15334,8 @@
   },
   "com.touchtype.swiftkey": {
     "appNames": [
-      "Microsoft SwiftKey Keyboard"
+      "Microsoft SwiftKey Keyboard",
+      "Microsoft SwiftKey-Tastatur"
     ],
     "devices": [
       {
@@ -15424,7 +15502,8 @@
   },
   "com.samsung.android.app.routines": {
     "appNames": [
-      "Modes and Routines"
+      "Modes and Routines",
+      "Modi und Routinen"
     ],
     "devices": [
       {
@@ -15569,7 +15648,8 @@
   },
   "com.samsung.android.mtp": {
     "appNames": [
-      "MTP application"
+      "MTP application",
+      "MTP-Anwendung"
     ],
     "devices": [
       {
@@ -15591,7 +15671,8 @@
   },
   "com.android.mtp": {
     "appNames": [
-      "MTP Host"
+      "MTP Host",
+      "MTP-Host"
     ],
     "devices": [
       {
@@ -15653,7 +15734,8 @@
   },
   "com.samsung.android.inputshare": {
     "appNames": [
-      "Multi control"
+      "Multi control",
+      "Mehrfachsteuerung"
     ],
     "devices": [
       {
@@ -15697,7 +15779,8 @@
   },
   "com.sec.android.app.myfiles": {
     "appNames": [
-      "My Files"
+      "My Files",
+      "Eigene Dateien"
     ],
     "devices": [
       {
@@ -15736,7 +15819,8 @@
   },
   "com.samsung.android.easysetup": {
     "appNames": [
-      "Nearby device scanning"
+      "Nearby device scanning",
+      "Suche nach Geräten in der Nähe"
     ],
     "devices": [
       {
@@ -15758,7 +15842,8 @@
   },
   "com.samsung.android.beaconmanager": {
     "appNames": [
-      "Nearby device scanning"
+      "Nearby device scanning",
+      "Geräte in der Nähe suchen"
     ],
     "devices": [
       {
@@ -15780,7 +15865,8 @@
   },
   "com.samsung.android.mydevice": {
     "appNames": [
-      "Nearby devices"
+      "Nearby devices",
+      "Geräte in der Nähe"
     ],
     "devices": [
       {
@@ -15838,7 +15924,8 @@
   },
   "com.google.android.networkstack": {
     "appNames": [
-      "Network manager"
+      "Network manager",
+      "Netzwerkmanager"
     ],
     "devices": [
       {
@@ -15921,7 +16008,8 @@
   },
   "com.samsung.ssu": {
     "appNames": [
-      "Network unlock"
+      "Network unlock",
+      "Netzentsperrung"
     ],
     "devices": [
       {
@@ -15933,7 +16021,8 @@
   },
   "com.samsung.android.networkdiagnostic": {
     "appNames": [
-      "NetworkDiagnostic"
+      "NetworkDiagnostic",
+      "Netzwerkdiagnose"
     ],
     "devices": [
       {
@@ -16390,7 +16479,8 @@
   },
   "com.sec.android.app.launcher": {
     "appNames": [
-      "One UI Home"
+      "One UI Home",
+      "One UI-Startbildschirm"
     ],
     "devices": [
       {
@@ -16685,7 +16775,8 @@
   },
   "com.google.android.packageinstaller": {
     "appNames": [
-      "Package installer"
+      "Package installer",
+      "Paketinstallation"
     ],
     "devices": [
       {
@@ -16821,7 +16912,8 @@
   },
   "com.samsung.android.app.parentalcare": {
     "appNames": [
-      "Parental controls"
+      "Parental controls",
+      "Kindersicherungen"
     ],
     "devices": [
       {
@@ -16862,7 +16954,8 @@
   },
   "com.samsung.android.service.peoplestripe": {
     "appNames": [
-      "People"
+      "People",
+      "Personen"
     ],
     "devices": [
       {
@@ -16913,7 +17006,8 @@
   },
   "com.google.android.permissioncontroller": {
     "appNames": [
-      "Permission controller"
+      "Permission controller",
+      "Berechtigungssteuerung"
     ],
     "devices": [
       {
@@ -16984,7 +17078,8 @@
   },
   "com.samsung.android.privacydashboard": {
     "appNames": [
-      "Permission usage"
+      "Permission usage",
+      "Berechtigungsnutzung"
     ],
     "devices": [
       {
@@ -17057,7 +17152,8 @@
   },
   "com.samsung.crane": {
     "appNames": [
-      "Phone"
+      "Phone",
+      "Telefon"
     ],
     "devices": [
       {
@@ -17079,7 +17175,8 @@
   },
   "com.samsung.android.dialer": {
     "appNames": [
-      "Phone"
+      "Phone",
+      "Telefon"
     ],
     "devices": [
       {
@@ -17156,7 +17253,8 @@
   "com.android.providers.telephony": {
     "appNames": [
       "Phone and Messaging Storage",
-      "Phone Call/SMS Storage"
+      "Phone Call/SMS Storage",
+      "Telefon- und SMS-Speicher"
     ],
     "devices": [
       {
@@ -17220,7 +17318,8 @@
     "appNames": [
       "Phone calls",
       "Phone Calls",
-      "Call Management"
+      "Call Management",
+      "Telefonanrufe"
     ],
     "devices": [
       {
@@ -17283,7 +17382,8 @@
   "com.android.phone": {
     "appNames": [
       "Phone services",
-      "Phone Services"
+      "Phone Services",
+      "Telefondienste"
     ],
     "devices": [
       {
@@ -17393,7 +17493,8 @@
   },
   "com.sec.android.mimage.photoretouching": {
     "appNames": [
-      "Photo Editor"
+      "Photo Editor",
+      "Foto-Editor"
     ],
     "devices": [
       {
@@ -17415,7 +17516,8 @@
   },
   "com.android.dreams.phototable": {
     "appNames": [
-      "Photo Screensavers"
+      "Photo Screensavers",
+      "Foto-Bildschirmschoner"
     ],
     "devices": [
       {
@@ -17469,7 +17571,8 @@
   },
   "com.google.android.apps.photos": {
     "appNames": [
-      "Photos"
+      "Photos",
+      "Fotos"
     ],
     "devices": [
       {
@@ -17492,7 +17595,8 @@
   "com.google.android.photopicker": {
     "appNames": [
       "Photos & videos",
-      "Photos and videos"
+      "Photos and videos",
+      "Fotos & Videos"
     ],
     "devices": [
       {
@@ -17796,7 +17900,8 @@
   },
   "com.samsung.android.app.dofviewer": {
     "appNames": [
-      "Portrait"
+      "Portrait",
+      "Porträt"
     ],
     "devices": [
       {
@@ -17916,7 +18021,8 @@
   },
   "com.android.printspooler": {
     "appNames": [
-      "Print Spooler"
+      "Print Spooler",
+      "Druck-Spooler"
     ],
     "devices": [
       {
@@ -18124,7 +18230,8 @@
   "com.android.internal.display.cutout.emulation.hole": {
     "appNames": [
       "Punch hole cutout",
-      "Punch Hole cutout"
+      "Punch Hole cutout",
+      "Ausschnitt für Punch-Hole-Display"
     ],
     "devices": [
       {
@@ -18304,7 +18411,8 @@
   },
   "com.samsung.android.mdx.kit": {
     "appNames": [
-      "Quick Share Connectivity"
+      "Quick Share Connectivity",
+      "Quick Share-Konnektivität"
     ],
     "devices": [
       {
@@ -18405,7 +18513,8 @@
   },
   "com.samsung.android.app.omcagent": {
     "appNames": [
-      "Recommended apps"
+      "Recommended apps",
+      "Empfohlene Apps"
     ],
     "devices": [
       {
@@ -18621,7 +18730,8 @@
   },
   "com.sec.app.RilErrorNotifier": {
     "appNames": [
-      "RilNotifier"
+      "RilNotifier",
+      "Fehler"
     ],
     "devices": [
       {
@@ -18778,7 +18888,8 @@
   },
   "com.samsung.safetyinformation": {
     "appNames": [
-      "Safety information"
+      "Safety information",
+      "Sicherheitsinformationen"
     ],
     "devices": [
       {
@@ -18860,7 +18971,8 @@
   },
   "com.osp.app.signin": {
     "appNames": [
-      "Samsung account"
+      "Samsung account",
+      "Samsung Account"
     ],
     "devices": [
       {
@@ -18928,7 +19040,8 @@
   },
   "com.samsung.android.app.smartcapture": {
     "appNames": [
-      "Samsung capture"
+      "Samsung capture",
+      "Smart-Aufnahme"
     ],
     "devices": [
       {
@@ -19078,7 +19191,8 @@
   },
   "com.sec.android.app.desktoplauncher": {
     "appNames": [
-      "Samsung DeX home"
+      "Samsung DeX home",
+      "Samsung DeX Home"
     ],
     "devices": [
       {
@@ -19122,7 +19236,8 @@
   },
   "com.sec.android.app.ve.vebgm": {
     "appNames": [
-      "Samsung Editing Assets"
+      "Samsung Editing Assets",
+      "Samsung-Bearbeitungsressourcen"
     ],
     "devices": [
       {
@@ -19221,7 +19336,8 @@
   },
   "com.samsung.android.honeyboard": {
     "appNames": [
-      "Samsung Keyboard"
+      "Samsung Keyboard",
+      "Samsung-Tastatur"
     ],
     "devices": [
       {
@@ -19243,7 +19359,8 @@
   },
   "com.samsung.android.kidsinstaller": {
     "appNames": [
-      "Samsung Kids Installer"
+      "Samsung Kids Installer",
+      "Samsung Kids-Installationsprogramm"
     ],
     "devices": [
       {
@@ -19383,7 +19500,8 @@
   },
   "com.sec.android.app.SecSetupWizard": {
     "appNames": [
-      "Samsung setup wizard"
+      "Samsung setup wizard",
+      "Samsung Einrichtungsassistent"
     ],
     "devices": [
       {
@@ -19417,7 +19535,8 @@
   },
   "com.samsung.SMT": {
     "appNames": [
-      "Samsung text-to-speech engine"
+      "Samsung text-to-speech engine",
+      "Samsung Text-zu-Sprache-Engine"
     ],
     "devices": [
       {
@@ -19439,7 +19558,8 @@
   },
   "com.samsung.android.app.earphonetypec": {
     "appNames": [
-      "Samsung USB-C headset"
+      "Samsung USB-C headset",
+      "Samsung USB-C-Headset"
     ],
     "devices": [
       {
@@ -20075,7 +20195,8 @@
   "com.google.android.apps.setupwizard.searchselector": {
     "appNames": [
       "Search engine selector",
-      "Search Engine Selector"
+      "Search Engine Selector",
+      "Suchmaschinenauswahl"
     ],
     "devices": [
       {
@@ -20179,7 +20300,8 @@
   },
   "com.samsung.knox.securefolder": {
     "appNames": [
-      "Secure Folder"
+      "Secure Folder",
+      "Sicherer Ordner"
     ],
     "devices": [
       {
@@ -20208,7 +20330,8 @@
   },
   "com.samsung.android.fast": {
     "appNames": [
-      "Secure Wi-Fi"
+      "Secure Wi-Fi",
+      "Sicheres WLAN"
     ],
     "devices": [
       {
@@ -20397,7 +20520,8 @@
   },
   "com.samsung.android.setting.multisound": {
     "appNames": [
-      "Separate app sound"
+      "Separate app sound",
+      "Separater App-Ton"
     ],
     "devices": [
       {
@@ -20507,7 +20631,8 @@
   },
   "com.android.settings": {
     "appNames": [
-      "Settings"
+      "Settings",
+      "Einstellungen"
     ],
     "devices": [
       {
@@ -20586,7 +20711,8 @@
   },
   "com.android.providers.settings": {
     "appNames": [
-      "Settings Storage"
+      "Settings Storage",
+      "Einstellungsspeicher"
     ],
     "devices": [
       {
@@ -20648,7 +20774,8 @@
   },
   "com.android.settings.intelligence": {
     "appNames": [
-      "Settings Suggestions"
+      "Settings Suggestions",
+      "Einstellungsvorschläge"
     ],
     "devices": [
       {
@@ -20882,7 +21009,8 @@
   "com.android.simappdialog": {
     "appNames": [
       "Sim app dialogue",
-      "Sim App Dialog"
+      "Sim App Dialog",
+      "SIM-App-Dialogfeld"
     ],
     "devices": [
       {
@@ -20956,7 +21084,8 @@
   },
   "com.android.stk2": {
     "appNames": [
-      "SIM toolkit"
+      "SIM toolkit",
+      "SIM-Toolkit"
     ],
     "devices": [
       {
@@ -20975,7 +21104,8 @@
     "appNames": [
       "SIM Toolkit",
       "SIM toolkit",
-      "SIM Tool Kit"
+      "SIM Tool Kit",
+      "SIM-Toolkit"
     ],
     "devices": [
       {
@@ -21117,7 +21247,8 @@
   },
   "com.samsung.android.singletake.service": {
     "appNames": [
-      "Single take"
+      "Single take",
+      "Single Take"
     ],
     "devices": [
       {
@@ -21236,7 +21367,8 @@
   "com.samsung.android.smartsuggestions": {
     "appNames": [
       "Smart suggestions",
-      "Personal data intelligence"
+      "Personal data intelligence",
+      "Persönliche Daten-Intelligenz"
     ],
     "devices": [
       {
@@ -21432,7 +21564,8 @@
   },
   "com.sec.android.soagent": {
     "appNames": [
-      "Software update"
+      "Software update",
+      "Software-Update"
     ],
     "devices": [
       {
@@ -21454,7 +21587,8 @@
   },
   "com.wssyncmldm": {
     "appNames": [
-      "Software update"
+      "Software update",
+      "Software-Update"
     ],
     "devices": [
       {
@@ -21529,7 +21663,8 @@
   },
   "com.samsung.android.app.soundpicker": {
     "appNames": [
-      "Sound picker"
+      "Sound picker",
+      "Sound-Auswahl"
     ],
     "devices": [
       {
@@ -21551,7 +21686,8 @@
   },
   "com.sec.android.app.soundalive": {
     "appNames": [
-      "Sound quality and effects"
+      "Sound quality and effects",
+      "Tonqualität und Effekte"
     ],
     "devices": [
       {
@@ -21649,7 +21785,8 @@
       "Speech Services by Google",
       "Speech Recognition and Synthesis from Google",
       "Google Text-to-speech engine",
-      "Google Text-to-speech Engine"
+      "Google Text-to-speech Engine",
+      "Spracherkennung und -Synthese von Google"
     ],
     "devices": [
       {
@@ -21817,7 +21954,8 @@
   },
   "com.android.storagemanager": {
     "appNames": [
-      "Storage Manager"
+      "Storage Manager",
+      "Speichermanager"
     ],
     "devices": [
       {
@@ -21864,7 +22002,8 @@
   },
   "com.samsung.android.hwresourceshare.storage": {
     "appNames": [
-      "Storage Share"
+      "Storage Share",
+      "Speicherfreigabe"
     ],
     "devices": [
       {
@@ -22002,7 +22141,8 @@
   "com.google.android.connectivity.resources": {
     "appNames": [
       "System connectivity resources",
-      "System Connectivity Resources"
+      "System Connectivity Resources",
+      "Systemverbindungsressourcen"
     ],
     "devices": [
       {
@@ -22097,7 +22237,8 @@
   },
   "com.android.traceur": {
     "appNames": [
-      "System Tracing"
+      "System Tracing",
+      "Ablaufverfolgung"
     ],
     "devices": [
       {
@@ -22154,7 +22295,8 @@
   },
   "com.android.systemui": {
     "appNames": [
-      "System UI"
+      "System UI",
+      "System-UI"
     ],
     "devices": [
       {
@@ -22307,7 +22449,8 @@
   "com.android.wifi.resources": {
     "appNames": [
       "System Wi-Fi resources",
-      "System Wi-Fi Resources"
+      "System Wi-Fi Resources",
+      "System-WLAN-Ressourcen"
     ],
     "devices": [
       {
@@ -22510,7 +22653,8 @@
   "com.android.internal.display.cutout.emulation.tall": {
     "appNames": [
       "Tall cutout",
-      "Tall display cutout"
+      "Tall display cutout",
+      "Hohe Aussparung"
     ],
     "devices": [
       {
@@ -22591,7 +22735,8 @@
   },
   "com.samsung.android.app.taskedge": {
     "appNames": [
-      "Tasks"
+      "Tasks",
+      "Tätigkeiten"
     ],
     "devices": [
       {
@@ -23072,7 +23217,8 @@
   },
   "com.android.providers.userdictionary": {
     "appNames": [
-      "User Dictionary"
+      "User Dictionary",
+      "Mein Wörterbuch"
     ],
     "devices": [
       {
@@ -23343,7 +23489,8 @@
   "com.samsung.android.vtcamerasettings": {
     "appNames": [
       "Video call effects",
-      "Video effects"
+      "Video effects",
+      "Videoeffekte"
     ],
     "devices": [
       {
@@ -23388,7 +23535,8 @@
   },
   "com.samsung.android.video": {
     "appNames": [
-      "Video Player"
+      "Video Player",
+      "Video-Player"
     ],
     "devices": [
       {
@@ -23449,7 +23597,8 @@
   },
   "com.samsung.android.bixby.wakeup": {
     "appNames": [
-      "Voice wake-up"
+      "Voice wake-up",
+      "Mit Sprache wecken"
     ],
     "devices": [
       {
@@ -23609,7 +23758,8 @@
   },
   "com.samsung.android.app.dressroom": {
     "appNames": [
-      "Wallpaper and style"
+      "Wallpaper and style",
+      "Hintergrundbild und Stil"
     ],
     "devices": [
       {
@@ -23631,7 +23781,8 @@
   },
   "com.samsung.android.dynamiclock": {
     "appNames": [
-      "Wallpaper services"
+      "Wallpaper services",
+      "Hintergrundbilddienste"
     ],
     "devices": [
       {
@@ -23689,7 +23840,8 @@
   },
   "com.android.internal.display.cutout.emulation.waterfall": {
     "appNames": [
-      "Waterfall cutout"
+      "Waterfall cutout",
+      "Aussparung für Wasserfall-Display"
     ],
     "devices": [
       {
@@ -23785,7 +23937,8 @@
   },
   "com.sec.android.daemonapp": {
     "appNames": [
-      "Weather"
+      "Weather",
+      "Wetter"
     ],
     "devices": [
       {
@@ -23844,7 +23997,8 @@
   },
   "com.sec.unifiedwfc": {
     "appNames": [
-      "Wi-Fi Calling"
+      "Wi-Fi Calling",
+      "WLAN-Anrufe"
     ],
     "devices": [
       {
@@ -23878,7 +24032,8 @@
   },
   "com.samsung.android.net.wifi.wifiguider": {
     "appNames": [
-      "Wi-Fi tips"
+      "Wi-Fi tips",
+      "WLAN-Tipps"
     ],
     "devices": [
       {
@@ -23978,7 +24133,8 @@
   "com.google.android.cellbroadcastreceiver": {
     "appNames": [
       "Wireless emergency alerts",
-      "Emergency alerts"
+      "Emergency alerts",
+      "Notfallbenachrichtigungen an Mobilgeräte"
     ],
     "devices": [
       {
@@ -24126,7 +24282,8 @@
   "com.android.managedprovisioning": {
     "appNames": [
       "Work Setup",
-      "Work profile setup"
+      "Work profile setup",
+      "Einrichtung des Arbeitsprofils"
     ],
     "devices": [
       {
