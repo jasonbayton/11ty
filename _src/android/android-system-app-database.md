@@ -1,5 +1,5 @@
 ---
-title: Android system app database
+title: Android system apps database
 published: '2025-05-03'
 status: publish
 author: 'Jason Bayton'
