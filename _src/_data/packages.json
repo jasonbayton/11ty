@@ -94,6 +94,18 @@
       }
     ]
   },
+  "com.nuumobile.agingtest": {
+    "appNames": [
+      "AgingTest"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.oplus.aiunit": {
     "appNames": [
       "AI Service Engine"
@@ -198,7 +210,8 @@
   },
   "com.google.android.marvin.talkback": {
     "appNames": [
-      "Android Accessibility Suite"
+      "Android Accessibility Suite",
+      "TalkBack"
     ],
     "devices": [
       {
@@ -220,6 +233,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "RHINO",
@@ -344,6 +362,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -389,6 +412,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "RHINO",
@@ -445,6 +473,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -490,6 +523,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -597,7 +635,8 @@
   },
   "android": {
     "appNames": [
-      "Android System"
+      "Android System",
+      "Android system"
     ],
     "devices": [
       {
@@ -624,6 +663,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -739,6 +783,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -781,6 +830,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -1394,6 +1448,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -1524,6 +1583,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -1638,6 +1702,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -1684,6 +1753,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -1762,6 +1836,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -1809,6 +1888,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -1834,6 +1918,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.mediatek.bluetooth.dtt": {
+    "appNames": [
+      "BT Tool"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -1927,6 +2023,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -1996,6 +2097,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -2249,6 +2355,11 @@
         "os": "28"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -2356,6 +2467,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -2570,6 +2686,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -2633,6 +2754,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -2921,6 +3047,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -2985,6 +3116,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -3182,6 +3318,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -3222,6 +3363,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -3664,6 +3810,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -3726,6 +3877,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -4105,6 +4261,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -4152,6 +4313,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -4632,6 +4798,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -4669,6 +4840,11 @@
         "os": "28"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -4689,6 +4865,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -6420,6 +6601,11 @@
         "os": "28"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -6437,6 +6623,11 @@
         "os": "28"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -6452,6 +6643,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -6513,6 +6709,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "RHINO",
@@ -6614,6 +6815,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -7229,6 +7435,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -7242,6 +7453,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.nbbsw.compatiblemark": {
+    "appNames": [
+      "CompatibleMark"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -7315,6 +7538,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -7443,6 +7671,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -7507,6 +7740,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -7739,6 +7977,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -7820,6 +8063,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -8367,6 +8615,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -8414,6 +8667,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -8440,6 +8698,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -8496,13 +8759,19 @@
   },
   "com.mediatek.providers.drm": {
     "appNames": [
-      "DRM Protected Content Storage"
+      "DRM Protected Content Storage",
+      "DRM-Protected Content Storage"
     ],
     "devices": [
       {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -8563,6 +8832,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -8689,6 +8963,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -8717,6 +8996,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -8828,6 +9112,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -8908,6 +9197,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -9077,6 +9371,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.nbbsw.factory_test": {
+    "appNames": [
+      "FactoryTest"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -9328,6 +9634,18 @@
       }
     ]
   },
+  "com.adups.fota.sysoper": {
+    "appNames": [
+      "FotaProvider"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.monotype.android.font.foundation": {
     "appNames": [
       "Foundation"
@@ -9369,6 +9687,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -9468,6 +9791,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -9495,6 +9823,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -9807,6 +10140,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -9888,6 +10226,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -9912,6 +10255,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -9993,6 +10341,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -10011,7 +10364,8 @@
   },
   "com.google.android.partnersetup": {
     "appNames": [
-      "Google Partner Setup"
+      "Google Partner Setup",
+      "Google Partner Set Up"
     ],
     "devices": [
       {
@@ -10038,6 +10392,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -10117,6 +10476,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -10162,6 +10526,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -10234,6 +10603,11 @@
         "os": "28"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -10274,6 +10648,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -10401,6 +10780,18 @@
       }
     ]
   },
+  "com.nbbird.hardwareinfo": {
+    "appNames": [
+      "HardwareInfo"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.samsung.android.hdmapp": {
     "appNames": [
       "HdmApp"
@@ -10500,6 +10891,18 @@
       }
     ]
   },
+  "com.android.protips": {
+    "appNames": [
+      "Home screen tips"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.agui.hotspotlimit": {
     "appNames": [
       "Hotspotlimit"
@@ -10541,6 +10944,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -10667,6 +11075,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -10704,6 +11117,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -10870,6 +11288,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -11149,6 +11572,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -11173,6 +11601,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "RHINO",
@@ -11344,6 +11777,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -11398,6 +11836,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -11410,6 +11853,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -11549,6 +11997,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -11637,6 +12090,18 @@
       }
     ]
   },
+  "com.nbbsw.mmi_test": {
+    "appNames": [
+      "MMITest"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.mms.service": {
     "appNames": [
       "MmsService",
@@ -11667,6 +12132,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -11730,6 +12200,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -11742,6 +12217,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -11754,6 +12234,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -11766,6 +12251,23 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
+  "com.mediatek.mtklogger.proxy": {
+    "appNames": [
+      "MTKLoggerProxy"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -11810,6 +12312,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -12036,6 +12543,18 @@
       }
     ]
   },
+  "com.baidu.map.location": {
+    "appNames": [
+      "NetworkLocation"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.unisoc.networksliceserver": {
     "appNames": [
       "NetworkSliceAgent"
@@ -12157,6 +12676,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -12347,6 +12871,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "RHINO",
@@ -12658,6 +13187,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -12690,6 +13224,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -12737,6 +13276,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -12996,6 +13540,11 @@
         "os": "28"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -13032,6 +13581,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -13083,6 +13637,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -13131,6 +13690,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -13144,6 +13708,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.agenew.peakli.phoneinfo": {
+    "appNames": [
+      "PhoneInfo"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -13613,6 +14189,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -13658,6 +14239,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -13766,6 +14352,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -13925,7 +14516,8 @@
   },
   "com.android.launcher3": {
     "appNames": [
-      "Quickstep"
+      "Quickstep",
+      "Launcher3"
     ],
     "devices": [
       {
@@ -13937,6 +14529,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -15061,6 +15658,18 @@
       }
     ]
   },
+  "com.mediatek.sensorhub.ui": {
+    "appNames": [
+      "SensorHub"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.samsung.android.setting.multisound": {
     "appNames": [
       "Separate app sound"
@@ -15152,6 +15761,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -15214,6 +15828,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -15348,6 +15967,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -15455,7 +16079,8 @@
   },
   "com.android.stk": {
     "appNames": [
-      "SIM Toolkit"
+      "SIM Toolkit",
+      "SIM Tool Kit"
     ],
     "devices": [
       {
@@ -15482,6 +16107,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -15547,9 +16177,26 @@
         "os": "28"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      }
+    ]
+  },
+  "com.mtk.telephony": {
+    "appNames": [
+      "SimRecoveryTestTool"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -15658,6 +16305,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "org.simalliance.openmobileapi.service": {
+    "appNames": [
+      "SmartcardService"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -15870,6 +16529,7 @@
     "appNames": [
       "Speech Services by Google",
       "Speech Recognition and Synthesis from Google",
+      "Google Text-to-speech engine",
       "Google Text-to-speech Engine"
     ],
     "devices": [
@@ -15897,6 +16557,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -15999,6 +16664,18 @@
       }
     ]
   },
+  "com.st.nfc.dta.mobile": {
+    "appNames": [
+      "STNFCDta"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.storagemanager": {
     "appNames": [
       "Storage Manager"
@@ -16018,6 +16695,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -16301,6 +16983,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -16518,6 +17205,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -16886,6 +17578,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -16922,6 +17619,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "org.simalliance.openmobileapi.uicc1terminal": {
+    "appNames": [
+      "Uicc1TerminalService"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
+  "org.simalliance.openmobileapi.uicc2terminal": {
+    "appNames": [
+      "Uicc2TerminalService"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -17004,6 +17725,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -17065,6 +17791,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -17306,6 +18037,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -17639,6 +18375,18 @@
       }
     ]
   },
+  "com.mediatek.engineermodecmas": {
+    "appNames": [
+      "Wireless Emergency Alerts"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.oplus.wirelesssettings": {
     "appNames": [
       "Wireless Settings"
@@ -17660,6 +18408,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -17731,6 +18484,11 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -17744,6 +18502,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.bird.writeimei": {
+    "appNames": [
+      "Write Device id"
+    ],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -17780,6 +18550,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
