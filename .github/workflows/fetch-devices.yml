@@ -31,5 +31,12 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add ./_src/_data/devices.json
+
+          # Check if there are any changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          
           git commit -m 'Update devices data'
           git push
