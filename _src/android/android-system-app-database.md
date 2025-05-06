@@ -6,13 +6,14 @@ author: 'Jason Bayton'
 tags: 
     - App management
 excerpt: ''
+alert: 'This is a brand new service, and will evolve in response to feedback and iterative improvements. Feel free to let me know your thoughts.'
 type: documentation
 layout: base.njk
 eleventyNavigation:
-  order: 20000
+  order: 10000
 ---
 
-Below you'll find a table of system apps across various devices. These devices have opted in to cloud sync in [PACKAGE SEARCH](/projects/package-search/support/enable-package-sync) to build this database, and it is through the volunteering of PACKAGE SEARCH users that this database grows.
+Below you'll find a table of system apps across various devices. These devices have opted in to cloud sync in [PACKAGE SEARCH](/projects/package-search/support/system-apps-database) to build this database, and it is through the volunteering of PACKAGE SEARCH users that this database grows.
 
 Packages are updated here daily.
 
