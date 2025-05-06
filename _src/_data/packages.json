@@ -5,9 +5,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -31,31 +41,27 @@
       }
     ]
   },
-  "com.google.android.adservices.api": {
+  "com.samsung.accessibility": {
     "appNames": [
-      "Ad privacy",
-      "Ad Privacy"
+      "Accessibility"
     ],
     "devices": [
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.hearingadjust": {
+    "appNames": [
+      "Adapt sound"
+    ],
+    "devices": [
       {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -130,6 +136,30 @@
       }
     ]
   },
+  "com.unisoc.enginecore": {
+    "appNames": [
+      "AIEngineServer"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.service.aircommand": {
+    "appNames": [
+      "Air command"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.aod": {
     "appNames": [
       "Always-On Display"
@@ -139,6 +169,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.app.aodservice": {
+    "appNames": [
+      "AlwaysOnDisplay"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -165,6 +207,16 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -178,11 +230,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -192,9 +239,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -242,16 +299,44 @@
       }
     ]
   },
-  "com.android.egg": {
+  "com.google.android.glasses.core": {
     "appNames": [
-      "Android Easter Egg",
-      "Android R Easter Egg"
+      "Android Glasses Core"
     ],
     "devices": [
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.egg": {
+    "appNames": [
+      "Android S Easter Egg",
+      "Android Easter Egg",
+      "Android R Easter Egg"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -272,23 +357,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      }
-    ]
-  },
-  "com.google.android.glasses.core": {
-    "appNames": [
-      "Android Glasses Core"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
       }
     ]
   },
@@ -298,9 +366,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -316,11 +399,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -342,9 +420,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -365,11 +458,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -379,9 +467,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -402,11 +505,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -417,9 +515,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -440,11 +553,45 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.adservices.api": {
+    "appNames": [
+      "Android system",
+      "Ad privacy",
+      "Ad Privacy"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       },
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
       }
     ]
   },
@@ -454,9 +601,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -477,11 +639,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -520,9 +677,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -547,9 +714,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -570,11 +752,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -613,9 +790,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -634,6 +821,11 @@
       "android.auto_generated_rro_vendor__"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
@@ -711,6 +903,18 @@
       }
     ]
   },
+  "android.overlay.bluetoothres": {
+    "appNames": [
+      "android.overlay.bluetoothres"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "android.overlay.common": {
     "appNames": [
       "android.overlay.common"
@@ -723,6 +927,42 @@
       }
     ]
   },
+  "android.overlay.framework": {
+    "appNames": [
+      "android.overlay.framework"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "android.overlay.multiuser": {
+    "appNames": [
+      "android.overlay.multiuser"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "android.overlay.navbar": {
+    "appNames": [
+      "android.overlay.navbar"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "android.overlay.target": {
     "appNames": [
       "android.overlay.target"
@@ -732,6 +972,66 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "android.unisoc_framework_res.overlay": {
+    "appNames": [
+      "android.unisoc_framework_res.overlay"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.dsi.ant.sample.acquirechannels": {
+    "appNames": [
+      "ANT + DUT"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.dsi.ant.service.socket": {
+    "appNames": [
+      "ANT Radio Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.dsi.ant.server": {
+    "appNames": [
+      "ANT+ HAL service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.dsi.ant.plugins.antplus": {
+    "appNames": [
+      "ANT+ Plugins Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -836,6 +1136,18 @@
       }
     ]
   },
+  "com.samsung.android.app.updatecenter": {
+    "appNames": [
+      "App update"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.appbooster": {
     "appNames": [
       "AppBooster"
@@ -877,6 +1189,42 @@
       }
     ]
   },
+  "com.samsung.android.mapsagent": {
+    "appNames": [
+      "Application recommendations"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.applinker": {
+    "appNames": [
+      "AppLinker"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.appsedge": {
+    "appNames": [
+      "Apps"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.theme.color.aquamarine": {
     "appNames": [
       "Aquamarine"
@@ -886,6 +1234,46 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.samsung.android.aremojieditor": {
+    "appNames": [
+      "AR Emoji Editor"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.google.ar.core": {
+    "appNames": [
+      "ARCore",
+      "Google Play Services for AR"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
       }
     ]
   },
@@ -973,6 +1361,30 @@
       }
     ]
   },
+  "com.samsung.android.audiomirroring": {
+    "appNames": [
+      "AudioMirroring"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.authfw": {
+    "appNames": [
+      "Authentication Framework"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.example": {
     "appNames": [
       "Auto Dialer"
@@ -982,6 +1394,54 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.sec.android.autodoodle.service": {
+    "appNames": [
+      "Auto doodle"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.mhs.smarttethering": {
+    "appNames": [
+      "Auto Hotspot"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.samsungpassautofill": {
+    "appNames": [
+      "Autofill with Samsung Pass"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.DataCreate": {
+    "appNames": [
+      "Automation Test"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -1014,6 +1474,18 @@
       }
     ]
   },
+  "com.sec.android.provider.badge": {
+    "appNames": [
+      "BadgeProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.statistics.rom": {
     "appNames": [
       "Basic Data Services"
@@ -1032,9 +1504,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -1077,6 +1559,30 @@
       }
     ]
   },
+  "com.samsung.android.bbc.bbcagent": {
+    "appNames": [
+      "BBCAgent"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.bixbyvision.framework": {
+    "appNames": [
+      "BixbyVision Framework"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.theme.color.black": {
     "appNames": [
       "Black"
@@ -1107,9 +1613,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -1130,11 +1651,54 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.bluetooth": {
+    "appNames": [
+      "Bluetooth",
+      "Bluetooth Legacy"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
       }
     ]
   },
@@ -1155,41 +1719,15 @@
       }
     ]
   },
-  "com.android.bluetooth": {
+  "com.sec.android.app.bluetoothagent": {
     "appNames": [
-      "Bluetooth Legacy",
-      "Bluetooth"
+      "Bluetooth Agent"
     ],
     "devices": [
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -1199,9 +1737,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -1222,11 +1775,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -1236,9 +1784,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -1259,11 +1822,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.brightnessbackupservice": {
+    "appNames": [
+      "BrightnessBNR"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -1332,9 +1902,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -1355,11 +1940,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.incallui": {
+    "appNames": [
+      "Call"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.mdecservice": {
+    "appNames": [
+      "Call & text on other devices"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -1369,9 +1973,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -1392,11 +2011,54 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.app.telephonyui": {
+    "appNames": [
+      "Call settings"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.callbgprovider": {
+    "appNames": [
+      "CallBGProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.incall.contentprovider": {
+    "appNames": [
+      "CallContentProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.camera": {
+    "appNames": [
+      "Camera"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -1453,15 +2115,37 @@
       }
     ]
   },
+  "com.sprd.cameracalibration": {
+    "appNames": [
+      "CameraCalibration"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.cameraextensions": {
     "appNames": [
       "CameraExtensionsProxy"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -1477,6 +2161,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.factory.cameralyzer": {
+    "appNames": [
+      "Cameralyzer"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sprd.camta": {
+    "appNames": [
+      "CamTA"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -1499,9 +2207,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -1526,14 +2244,14 @@
     ],
     "devices": [
       {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
       }
     ]
   },
@@ -1583,6 +2301,18 @@
       }
     ]
   },
+  "com.spreadtrum.proxy.nfwlocation": {
+    "appNames": [
+      "Carrier Location"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.locationproxy": {
     "appNames": [
       "Carrier Location Services"
@@ -1618,14 +2348,19 @@
     ],
     "devices": [
       {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
       }
     ]
   },
@@ -1675,15 +2410,81 @@
       }
     ]
   },
+  "com.android.carrierdefaultapp": {
+    "appNames": [
+      "CarrierDefaultApp",
+      "Operator communications",
+      "Carrier Communications"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.sec.android.CcInfo": {
+    "appNames": [
+      "CcInfo"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.cellbroadcastservice": {
     "appNames": [
       "Cell Broadcast Service"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -1744,9 +2545,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -1767,11 +2583,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -1799,9 +2610,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -1822,11 +2648,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.sec.android.app.chromecustomizations": {
+    "appNames": [
+      "ChromeCustomizations"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -1944,6 +2777,30 @@
       }
     ]
   },
+  "com.samsung.android.app.clipboardedge": {
+    "appNames": [
+      "Clipboard edge"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.clipboardsaveservice": {
+    "appNames": [
+      "ClipboardSaveService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.deskclock": {
     "appNames": [
       "Clock"
@@ -1958,6 +2815,54 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.android.deskclock": {
+    "appNames": [
+      "Clock"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.cmfa.AuthTouch": {
+    "appNames": [
+      "CMFA AuthTouchService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.cmfa.framework": {
+    "appNames": [
+      "CMFA Framework"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.cmh": {
+    "appNames": [
+      "CMHProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -1991,9 +2896,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -2014,11 +2934,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -2057,6 +2972,21 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -2070,11 +3000,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -2123,6 +3048,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2227,9 +3157,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -2250,11 +3195,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -2264,9 +3204,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -2287,11 +3242,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -2369,6 +3319,11 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -2386,9 +3341,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2470,42 +3435,25 @@
       }
     ]
   },
-  "com.google.android.ondevicepersonalization.services": {
-    "appNames": [
-      "com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      }
-    ]
-  },
   "com.android.ons": {
     "appNames": [
       "com.android.ons"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2541,6 +3489,18 @@
       }
     ]
   },
+  "com.android.overlay.wallpaperconfig": {
+    "appNames": [
+      "com.android.overlay.wallpaperconfig"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.phone.auto_generated_characteristics_rro": {
     "appNames": [
       "com.android.phone.auto_generated_characteristics_rro"
@@ -2564,9 +3524,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2594,6 +3564,18 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.phone.injection": {
+    "appNames": [
+      "com.android.phone.injection"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -2662,9 +3644,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -2685,11 +3682,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -2716,9 +3708,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -2739,11 +3746,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -2753,9 +3755,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2908,9 +3920,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2959,6 +3981,11 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -2979,6 +4006,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -3053,9 +4085,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -3076,11 +4123,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -3106,6 +4148,11 @@
       "com.android.smspush"
     ],
     "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -3163,9 +4210,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -3508,6 +4565,18 @@
       }
     ]
   },
+  "com.android.unisoc.telephony.server": {
+    "appNames": [
+      "com.android.unisoc.telephony.server.RadioInteractorApp"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.uwb.resources.pixel": {
     "appNames": [
       "com.android.uwb.resources.pixel"
@@ -3543,9 +4612,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -3566,11 +4650,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -3580,6 +4659,21 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -3588,11 +4682,6 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -3602,6 +4691,11 @@
     ],
     "devices": [
       {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -3610,11 +4704,18 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.android.wifi.dialog": {
+    "appNames": [
+      "com.android.wifi.dialog"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -3666,6 +4767,30 @@
       }
     ]
   },
+  "com.android.wifi.resources.uni_marlin3": {
+    "appNames": [
+      "com.android.wifi.resources.uni_marlin3"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.android.wifi.resources.uni_marlin3.mainline": {
+    "appNames": [
+      "com.android.wifi.resources.uni_marlin3.mainline"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.wifi.system.mainline.resources.overlay": {
     "appNames": [
       "com.android.wifi.system.mainline.resources.overlay"
@@ -3687,6 +4812,30 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.unidialog": {
+    "appNames": [
+      "com.android.wifi.unidialog"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.android.wifi.uniresources.marlin3": {
+    "appNames": [
+      "com.android.wifi.uniresources.marlin3"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -3774,6 +4923,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -3876,6 +5030,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -4052,6 +5211,42 @@
       }
     ]
   },
+  "com.google.android.nearby.halfsheet": {
+    "appNames": [
+      "com.google.android.nearby.halfsheet"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.google.android.networkstack.tethering.overlay": {
+    "appNames": [
+      "com.google.android.networkstack.tethering.overlay",
+      "TetheringConfigOverlay",
+      "TetheringResOverlay"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.networkstack.tethering.overlay2021": {
     "appNames": [
       "com.google.android.networkstack.tethering.overlay2021"
@@ -4090,6 +5285,44 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.ondevicepersonalization.services": {
+    "appNames": [
+      "com.google.android.ondevicepersonalization.services",
+      "com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
       }
     ]
   },
@@ -4152,6 +5385,16 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4168,6 +5411,16 @@
       "com.google.android.overlay.gmsconfig.common"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
@@ -4191,6 +5444,11 @@
     ],
     "devices": [
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -4213,6 +5471,16 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4224,6 +5492,16 @@
       "com.google.android.overlay.gmsconfig.gsa"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
@@ -4247,6 +5525,11 @@
     ],
     "devices": [
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4258,6 +5541,16 @@
       "com.google.android.overlay.gmsconfig.photos"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
@@ -4275,6 +5568,11 @@
       "com.google.android.overlay.gmsconfig.searchlauncherqs"
     ],
     "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
@@ -4296,6 +5594,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.Velvet": {
+    "appNames": [
+      "com.google.android.overlay.gmsconfig.Velvet"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -4339,6 +5649,16 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4350,11 +5670,45 @@
       }
     ]
   },
+  "com.google.android.overlay.modules.cellbroadcastreceiver": {
+    "appNames": [
+      "com.google.android.overlay.modules.cellbroadcastreceiver"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.google.android.overlay.modules.cellbroadcastservice": {
+    "appNames": [
+      "com.google.android.overlay.modules.cellbroadcastservice"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.overlay.modules.documentsui": {
     "appNames": [
       "com.google.android.overlay.modules.documentsui"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -4373,6 +5727,16 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4389,6 +5753,16 @@
       "com.google.android.overlay.modules.modulemetadata.forframework"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -4407,6 +5781,16 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4423,6 +5807,16 @@
       "com.google.android.overlay.modules.permissioncontroller.forframework"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -4625,9 +6019,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -4851,6 +6255,11 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -5011,14 +6420,14 @@
     ],
     "devices": [
       {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
       }
     ]
   },
@@ -5028,14 +6437,14 @@
     ],
     "devices": [
       {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
       }
     ]
   },
@@ -5092,6 +6501,24 @@
       "com.mediatek.gbaservice"
     ],
     "devices": [
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.ims": {
+    "appNames": [
+      "com.mediatek.ims.ImsApp",
+      "ImsApp"
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -5507,6 +6934,114 @@
       }
     ]
   },
+  "com.samsung.android.biometrics.app.setting": {
+    "appNames": [
+      "com.samsung.android.biometrics.app.setting"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.knox.attestation": {
+    "appNames": [
+      "com.samsung.android.knox.attestation"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.networkstack.tethering.overlay": {
+    "appNames": [
+      "com.samsung.android.networkstack.tethering.overlay"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.smartface.overlay": {
+    "appNames": [
+      "com.samsung.android.smartface.overlay"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.wallpaper.res": {
+    "appNames": [
+      "com.samsung.android.wallpaper.res"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.wifi.p2paware.resources": {
+    "appNames": [
+      "com.samsung.android.wifi.p2paware.resources"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.wifi.resources": {
+    "appNames": [
+      "com.samsung.android.wifi.resources"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.wifi.softap.resources": {
+    "appNames": [
+      "com.samsung.android.wifi.softap.resources"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.wifi.softapwpathree.resources": {
+    "appNames": [
+      "com.samsung.android.wifi.softapwpathree.resources"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.slsi.telephony.oemril": {
     "appNames": [
       "com.samsung.slsi.telephony.oemril.OemRilApp"
@@ -5536,6 +7071,54 @@
       }
     ]
   },
+  "com.samsung.ucs.agent.ese": {
+    "appNames": [
+      "com.samsung.ucs.agent.ese"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.bcservice": {
+    "appNames": [
+      "com.sec.bcservice"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.epdg": {
+    "appNames": [
+      "com.sec.epdg"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.phone": {
+    "appNames": [
+      "com.sec.phone"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.ses.entitlement.o2": {
     "appNames": [
       "com.ses.entitlement.o2.EntitlementApp"
@@ -5545,6 +7128,66 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.sprd.linkturbo": {
+    "appNames": [
+      "com.sprd.linkturbo.LinkTurboManagerApp"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sprd.srmi": {
+    "appNames": [
+      "com.sprd.srmi.SrmiApp"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.spreadtrum.ims": {
+    "appNames": [
+      "com.spreadtrum.ims.ImsApp"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.unisoc.auto_generated_rro_product__": {
+    "appNames": [
+      "com.unisoc.auto_generated_rro_product__"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.unisoc.phone": {
+    "appNames": [
+      "com.unisoc.phone.UniTelephonyApp"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -5566,9 +7209,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -5589,11 +7247,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -5626,15 +7279,42 @@
       }
     ]
   },
+  "android.autoinstalls.config.samsung": {
+    "appNames": [
+      "ConfigAPK"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.configupdater": {
     "appNames": [
       "ConfigUpdater"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -5655,11 +7335,42 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.wsomacp": {
+    "appNames": [
+      "Configuration message"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.cidmanager": {
+    "appNames": [
+      "Configuration update"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.sdm.config": {
+    "appNames": [
+      "Configuration update"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -5680,6 +7391,42 @@
       }
     ]
   },
+  "com.samsung.android.ConnectivityOverlay": {
+    "appNames": [
+      "ConnectivityOverlay"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.ConnectivityUxOverlay": {
+    "appNames": [
+      "ConnectivityUxOverlay"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.contacts": {
+    "appNames": [
+      "Contacts"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.contacts": {
     "appNames": [
       "Contacts"
@@ -5689,6 +7436,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -5724,6 +7476,18 @@
       }
     ]
   },
+  "com.samsung.android.providers.contacts": {
+    "appNames": [
+      "Contacts Storage"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.providers.contacts": {
     "appNames": [
       "Contacts Storage"
@@ -5733,6 +7497,16 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -5753,11 +7527,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -5778,6 +7547,30 @@
       }
     ]
   },
+  "com.samsung.android.container": {
+    "appNames": [
+      "ContainerService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.mcfds": {
+    "appNames": [
+      "Continuity Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.internal.display.cutout.emulation.corner": {
     "appNames": [
       "Corner cutout",
@@ -5785,9 +7578,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -5808,11 +7616,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -5856,6 +7659,18 @@
       }
     ]
   },
+  "com.samsung.android.app.camera.sticker.facearavatar.preload": {
+    "appNames": [
+      "Crocro and friends"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.ambient.streaming": {
     "appNames": [
       "Cross-device services",
@@ -5884,6 +7699,18 @@
       }
     ]
   },
+  "com.samsung.sec.android.application.csc": {
+    "appNames": [
+      "CSC"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.customize.coreapp": {
     "appNames": [
       "CustCoreApp"
@@ -5893,6 +7720,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.rubin.app": {
+    "appNames": [
+      "Customisation Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -5944,16 +7783,43 @@
       }
     ]
   },
-  "com.android.bips": {
+  "com.samsung.android.dck.timesync": {
     "appNames": [
-      "Default print service",
-      "Default Print Service"
+      "DckTimeSyncApplication"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.android.bips": {
+    "appNames": [
+      "Default Print Service",
+      "Default print service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -5974,11 +7840,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.lool": {
+    "appNames": [
+      "Device care"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -6035,9 +7908,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -6102,6 +7985,30 @@
       }
     ]
   },
+  "com.samsung.android.sm.devicesecurity": {
+    "appNames": [
+      "Device security"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.kgclient": {
+    "appNames": [
+      "Device Services"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.work.oobconfig": {
     "appNames": [
       "Device setup"
@@ -6133,6 +8040,18 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      }
+    ]
+  },
+  "com.sec.android.app.factorykeystring": {
+    "appNames": [
+      "DeviceKeystring"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -6206,6 +8125,30 @@
       }
     ]
   },
+  "com.sec.android.app.dexonpc": {
+    "appNames": [
+      "DeX for PC"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.diagmonagent": {
+    "appNames": [
+      "DiagMonAgent"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.postmanservice": {
     "appNames": [
       "Diagnostic Tool"
@@ -6242,6 +8185,30 @@
       }
     ]
   },
+  "com.samsung.android.carkey": {
+    "appNames": [
+      "Digital Key Framework"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.forest": {
+    "appNames": [
+      "Digital Wellbeing"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.wellbeing": {
     "appNames": [
       "Digital Wellbeing"
@@ -6251,6 +8218,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -6328,9 +8300,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -6351,11 +8338,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -6365,9 +8347,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -6388,11 +8385,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -6402,9 +8394,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -6425,11 +8432,36 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.android.documentsui": {
+    "appNames": [
+      "Downloads",
+      "Files"
+    ],
+    "devices": [
       {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      }
+    ]
+  },
+  "com.samsung.android.dqagent": {
+    "appNames": [
+      "DQA"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -6479,6 +8511,18 @@
       }
     ]
   },
+  "com.sec.android.app.parser": {
+    "appNames": [
+      "DRParser Mode"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.ndsf": {
     "appNames": [
       "DSF"
@@ -6488,6 +8532,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.dsms": {
+    "appNames": [
+      "Dsms"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.da.daagent": {
+    "appNames": [
+      "Dual Messenger"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -6509,9 +8577,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -6544,6 +8622,42 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.android.easyonehand": {
+    "appNames": [
+      "EasyOneHand"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.cocktailbarservice": {
+    "appNames": [
+      "Edge panels"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.app.newtrim": {
+    "appNames": [
+      "Editor Lite"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -6583,29 +8697,6 @@
       }
     ]
   },
-  "com.google.android.cellbroadcastreceiver": {
-    "appNames": [
-      "Emergency alerts",
-      "Wireless emergency alerts"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      }
-    ]
-  },
   "com.android.emergency": {
     "appNames": [
       "Emergency information",
@@ -6616,6 +8707,16 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -6631,11 +8732,30 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.sec.android.app.safetyassurance": {
+    "appNames": [
+      "Emergency sharing"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.emergency": {
+    "appNames": [
+      "Emergency SOS"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -6648,6 +8768,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.android.provider.emergencymode": {
+    "appNames": [
+      "EmergencyProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -6680,6 +8812,18 @@
       }
     ]
   },
+  "com.sprd.engineermode": {
+    "appNames": [
+      "EngineerMode"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.mediatek.engineermode": {
     "appNames": [
       "EngineerMode"
@@ -6704,15 +8848,66 @@
       }
     ]
   },
+  "com.sec.enterprise.mdm.services.simpin": {
+    "appNames": [
+      "Enterprise Sim Pin Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.epdgtestapp": {
+    "appNames": [
+      "EpdgTestApp"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.telephonyui.esimclient": {
+    "appNames": [
+      "EsimClient"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.externalstorage": {
     "appNames": [
       "External Storage"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -6733,11 +8928,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -6770,6 +8960,30 @@
       }
     ]
   },
+  "com.samsung.android.bluelightfilter": {
+    "appNames": [
+      "Eye comfort shield"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.facatfunction": {
+    "appNames": [
+      "FacAtFunction"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.settings.future.biometrics.faceenroll": {
     "appNames": [
       "Face Enroll"
@@ -6791,6 +9005,42 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.samsung.faceservice": {
+    "appNames": [
+      "FaceService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.aircommandmanager": {
+    "appNames": [
+      "FACM"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.yk.factorytest": {
+    "appNames": [
+      "Factory mode"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -6820,6 +9070,80 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.sec.factory.camera": {
+    "appNames": [
+      "FactoryCamera"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.providers.factory": {
+    "appNames": [
+      "FactoryTestProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.google.android.gms.supervision": {
+    "appNames": [
+      "Family Link parental controls",
+      "System parental controls"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.sec.android.widgetapp.easymodecontactswidget": {
+    "appNames": [
+      "Favourite Contacts"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -6853,9 +9177,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -6866,24 +9200,6 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.documentsui": {
-    "appNames": [
-      "Files",
-      "Downloads"
-    ],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -6969,6 +9285,42 @@
       }
     ]
   },
+  "com.samsung.android.provider.filterprovider": {
+    "appNames": [
+      "Filter Provider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.fmm": {
+    "appNames": [
+      "Find My Mobile"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.galaxyfinder": {
+    "appNames": [
+      "Finder"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.turnsilent": {
     "appNames": [
       "Flip to mute"
@@ -6981,15 +9333,42 @@
       }
     ]
   },
+  "com.monotype.android.font.foundation": {
+    "appNames": [
+      "Foundation"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.location.fused": {
     "appNames": [
       "Fused Location"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7010,11 +9389,78 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.gru": {
+    "appNames": [
+      "Galaxy Resource Updater"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.themestore": {
+    "appNames": [
+      "Galaxy Themes"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.themecenter": {
+    "appNames": [
+      "Galaxy Themes Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.widget.pictureframe": {
+    "appNames": [
+      "Gallery"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.storyservice": {
+    "appNames": [
+      "Gallery stories"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.game.gos": {
+    "appNames": [
+      "Game Optimizing Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -7041,6 +9487,16 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -7059,11 +9515,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -7079,20 +9530,20 @@
       }
     ]
   },
-  "com.android.internal.systemui.navbar.gestural": {
+  "com.android.internal.systemui.navbar.gestural_wide_back": {
     "appNames": [
       "Gestural Navigation Bar"
     ],
     "devices": [
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       },
       {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -7111,25 +9562,27 @@
       }
     ]
   },
-  "com.android.internal.systemui.navbar.gestural_wide_back": {
+  "com.samsung.internal.systemui.navbar.sec_gestural": {
     "appNames": [
       "Gestural Navigation Bar"
     ],
     "devices": [
       {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.internal.systemui.navbar.sec_gestural_no_hint": {
+    "appNames": [
+      "Gestural Navigation Bar"
+    ],
+    "devices": [
       {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -7138,6 +9591,70 @@
       "Gestural Navigation Bar"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.internal.systemui.navbar.gestural_no_hint": {
+    "appNames": [
+      "Gestural Navigation Bar"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.android.internal.systemui.navbar.gestural": {
+    "appNames": [
+      "Gestural Navigation Bar"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
@@ -7160,6 +9677,16 @@
       "Gestural Navigation Bar"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
@@ -7198,6 +9725,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.service.pentastic": {
+    "appNames": [
+      "Glance"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -7248,9 +9787,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7271,11 +9825,62 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.hotwordenrollment.xgoogle": {
+    "appNames": [
+      "Google Assistant",
+      "Hey Google Hotword"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       },
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.hotwordenrollment.okgoogle": {
+    "appNames": [
+      "Google Assistant",
+      "OK Google Hotword"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
       }
     ]
   },
@@ -7291,20 +9896,32 @@
       }
     ]
   },
+  "com.google.android.syncadapters.calendar": {
+    "appNames": [
+      "Google Calendar Sync"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.syncadapters.contacts": {
     "appNames": [
       "Google Contacts Sync"
     ],
     "devices": [
       {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
       }
     ]
   },
@@ -7314,9 +9931,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -7346,9 +9973,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7369,11 +10011,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -7383,9 +10020,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7406,11 +10058,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -7450,9 +10097,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7468,33 +10130,6 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      }
-    ]
-  },
-  "com.google.ar.core": {
-    "appNames": [
-      "Google Play Services for AR"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -7509,9 +10144,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7532,11 +10182,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -7547,9 +10192,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -7574,6 +10229,16 @@
     ],
     "devices": [
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -7582,11 +10247,6 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -7596,9 +10256,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7619,11 +10294,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -7667,6 +10337,11 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
@@ -7683,21 +10358,15 @@
       }
     ]
   },
-  "com.google.android.networkstack.overlay": {
+  "com.samsung.gpuwatchapp": {
     "appNames": [
-      "GoogleNetworkStackResOverlay",
-      "com.google.android.networkstack.overlay"
+      "GPUWatch"
     ],
     "devices": [
       {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -7710,6 +10379,42 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.samsung.android.mobileservice": {
+    "appNames": [
+      "Group Sharing"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.sdk.handwriting": {
+    "appNames": [
+      "HandwritingService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.hdmapp": {
+    "appNames": [
+      "HdmApp"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -7764,29 +10469,6 @@
       }
     ]
   },
-  "com.android.hotwordenrollment.xgoogle": {
-    "appNames": [
-      "Hey Google Hotword",
-      "Google Assistant"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      }
-    ]
-  },
   "com.oplus.synergy": {
     "appNames": [
       "HeySynergy"
@@ -7811,6 +10493,18 @@
       }
     ]
   },
+  "com.hiya.star": {
+    "appNames": [
+      "Hiya Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.agui.hotspotlimit": {
     "appNames": [
       "Hotspotlimit"
@@ -7829,9 +10523,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7852,29 +10561,66 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
-  "com.mediatek.ims": {
+  "com.sec.android.app.hwmoduletest": {
     "appNames": [
-      "ImsApp",
-      "com.mediatek.ims.ImsApp"
+      "HwModuleTest"
     ],
     "devices": [
       {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.iaft": {
+    "appNames": [
+      "iaft"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.imsservice": {
+    "appNames": [
+      "IMS Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.advp.imssettings": {
+    "appNames": [
+      "IMS Settings"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.imslogger": {
+    "appNames": [
+      "ImsLogger"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -7901,9 +10647,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -7924,11 +10685,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -7950,6 +10706,11 @@
     ],
     "devices": [
       {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -7958,11 +10719,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -8002,6 +10758,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.ipservice": {
+    "appNames": [
+      "IPService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8084,9 +10852,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -8107,11 +10890,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -8127,6 +10905,30 @@
       }
     ]
   },
+  "com.samsung.android.keycustomizationinfobackupservice": {
+    "appNames": [
+      "KeyCustomizationInfoBNR"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.kfa": {
+    "appNames": [
+      "KFA"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.iqqijni.bbkeyboard": {
     "appNames": [
       "Kika-Keyboard"
@@ -8136,6 +10938,102 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.samsung.klmsagent": {
+    "appNames": [
+      "KLMS Agent"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.knox.analytics.uploader": {
+    "appNames": [
+      "Knox Analytics Uploader"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.enterprise.knox.cloudmdm.smdms": {
+    "appNames": [
+      "Knox Enrollment Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.knox.pushmanager": {
+    "appNames": [
+      "KnoxPushManager"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.knox.vpn.proxyhandler": {
+    "appNames": [
+      "KnoxVpnPacProcessor"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.knox.kpecore": {
+    "appNames": [
+      "KPECore"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.emergencylauncher": {
+    "appNames": [
+      "Launcher"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.cover.ledcover": {
+    "appNames": [
+      "LED Cover Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8163,6 +11061,18 @@
       }
     ]
   },
+  "com.samsung.android.service.livedrawing": {
+    "appNames": [
+      "Live messages"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.audio.hearing.visualization.accessibility.scribe": {
     "appNames": [
       "Live Transcribe and Sound Notifications"
@@ -8182,9 +11092,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -8205,11 +11130,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.localeoverlaymanager": {
+    "appNames": [
+      "Locale Overlay Manager"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8243,14 +11175,26 @@
     ],
     "devices": [
       {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.app.readingglass": {
+    "appNames": [
+      "Magnify"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8260,9 +11204,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -8287,9 +11241,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -8360,9 +11324,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -8383,11 +11362,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -8405,6 +11379,18 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.mdm": {
+    "appNames": [
+      "MDMApp"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8434,13 +11420,24 @@
   },
   "com.google.android.providers.media.module": {
     "appNames": [
+      "Media",
       "Media picker"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -8459,6 +11456,18 @@
       }
     ]
   },
+  "com.samsung.android.mdx.quickboard": {
+    "appNames": [
+      "Media and devices"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.providers.media.module": {
     "appNames": [
       "Media Storage"
@@ -8473,10 +11482,16 @@
   },
   "com.google.android.apps.tachyon": {
     "appNames": [
+      "Meet Installer",
       "Meet",
       "Duo"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
@@ -8501,6 +11516,18 @@
       }
     ]
   },
+  "com.samsung.android.messaging": {
+    "appNames": [
+      "Messages"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.messaging": {
     "appNames": [
       "Messages"
@@ -8510,6 +11537,16 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -8530,11 +11567,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -8547,6 +11579,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.swiftkey.swiftkeyconfigurator": {
+    "appNames": [
+      "Microsoft SwiftKey Factory Settings"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.touchtype.swiftkey": {
+    "appNames": [
+      "Microsoft SwiftKey Keyboard"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8574,6 +11630,18 @@
       }
     ]
   },
+  "com.samsung.mlp": {
+    "appNames": [
+      "mlp"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.mms.service": {
     "appNames": [
       "MmsService",
@@ -8581,9 +11649,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -8604,11 +11687,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.server.wifi.mobilewips": {
+    "appNames": [
+      "MobileWips"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8684,15 +11774,42 @@
       }
     ]
   },
+  "com.samsung.android.mtp": {
+    "appNames": [
+      "MTP application"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.mtp": {
     "appNames": [
       "MTP Host"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -8713,11 +11830,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.inputshare": {
+    "appNames": [
+      "Multi control"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8743,6 +11867,18 @@
       }
     ]
   },
+  "com.sec.android.app.myfiles": {
+    "appNames": [
+      "My Files"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.verizon.mips.services": {
     "appNames": [
       "My Verizon Services"
@@ -8757,6 +11893,42 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.easysetup": {
+    "appNames": [
+      "Nearby device scanning"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.beaconmanager": {
+    "appNames": [
+      "Nearby device scanning"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.allshare.service.mediashare": {
+    "appNames": [
+      "Nearby Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -8790,9 +11962,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -8808,18 +11990,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.networkstack": {
-    "appNames": [
-      "Network manager"
-    ],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
       }
     ]
   },
@@ -8835,6 +12005,18 @@
       }
     ]
   },
+  "com.android.networkstack": {
+    "appNames": [
+      "Network manager"
+    ],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.nas": {
     "appNames": [
       "Network services"
@@ -8844,6 +12026,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.networkdiagnostic": {
+    "appNames": [
+      "NetworkDiagnostic"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.unisoc.networksliceserver": {
+    "appNames": [
+      "NetworkSliceAgent"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -8859,9 +12065,22 @@
       }
     ]
   },
+  "com.samsung.android.networkstack": {
+    "appNames": [
+      "NetworkStackOverlay"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.networkstack.overlay": {
     "appNames": [
       "NetworkStackOverlay",
+      "NetworkStackOverlayGsi",
       "NetworkStackResOverlay"
     ],
     "devices": [
@@ -8869,6 +12088,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -8882,17 +12106,57 @@
       }
     ]
   },
+  "com.google.android.networkstack.overlay": {
+    "appNames": [
+      "NetworkStackOverlay",
+      "GoogleNetworkStackResOverlay",
+      "com.google.android.networkstack.overlay"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.nfc": {
     "appNames": [
+      "NFC",
       "NFC Migration",
       "Nfc Service",
       "NFC Service"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -8913,11 +12177,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -8983,9 +12242,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -9009,6 +12278,18 @@
       }
     ]
   },
+  "com.sec.vsim.ericssonnsds.webapp": {
+    "appNames": [
+      "NSDSWebApp"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.theme.color.ocean": {
     "appNames": [
       "Ocean"
@@ -9018,6 +12299,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.samsung.android.sdk.ocr": {
+    "appNames": [
+      "OCRDataProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -9035,29 +12328,6 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
-      }
-    ]
-  },
-  "com.android.hotwordenrollment.okgoogle": {
-    "appNames": [
-      "OK Google Hotword",
-      "Google Assistant"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
       }
     ]
   },
@@ -9079,6 +12349,11 @@
     ],
     "devices": [
       {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9087,11 +12362,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.android.internal.systemui.onehanded.gestural": {
+    "appNames": [
+      "One Handed Mode"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.launcher": {
+    "appNames": [
+      "One UI Home"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -9148,40 +12442,6 @@
       "OpenCapabilityService"
     ],
     "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      }
-    ]
-  },
-  "com.android.carrierdefaultapp": {
-    "appNames": [
-      "Operator communications",
-      "Carrier Communications",
-      "CarrierDefaultApp"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -9321,6 +12581,23 @@
       }
     ]
   },
+  "com.android.hotspot2.osulogin": {
+    "appNames": [
+      "OsuLogin"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.hotspot2.osulogin": {
     "appNames": [
       "OsuLogin"
@@ -9330,6 +12607,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -9348,15 +12630,15 @@
       }
     ]
   },
-  "com.android.hotspot2.osulogin": {
+  "com.sprd.omacp": {
     "appNames": [
-      "OsuLogin"
+      "OtaOmaHandler"
     ],
     "devices": [
       {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -9390,9 +12672,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -9413,11 +12710,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -9427,9 +12719,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -9450,11 +12757,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -9470,6 +12772,18 @@
       }
     ]
   },
+  "com.netflix.partner.activation": {
+    "appNames": [
+      "PartnerNetflixActivation"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.swatch.gps": {
     "appNames": [
       "Pedometer"
@@ -9479,6 +12793,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.samsung.android.service.peoplestripe": {
+    "appNames": [
+      "People"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -9494,15 +12820,37 @@
       }
     ]
   },
+  "com.samsung.android.peripheral.framework": {
+    "appNames": [
+      "Peripheral Framework"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.permissioncontroller": {
     "appNames": [
       "Permission controller"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -9545,6 +12893,30 @@
       }
     ]
   },
+  "com.samsung.android.privacydashboard": {
+    "appNames": [
+      "Permission usage"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.personalization": {
+    "appNames": [
+      "Perso"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.safetyhub": {
     "appNames": [
       "Personal Safety"
@@ -9562,6 +12934,30 @@
       }
     ]
   },
+  "com.samsung.crane": {
+    "appNames": [
+      "Phone"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.dialer": {
+    "appNames": [
+      "Phone"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.dialer": {
     "appNames": [
       "Phone"
@@ -9571,6 +12967,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -9595,14 +12996,14 @@
     ],
     "devices": [
       {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
       }
     ]
   },
@@ -9613,9 +13014,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -9636,11 +13052,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -9652,9 +13063,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -9675,23 +13101,34 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
   "com.android.phone": {
     "appNames": [
+      "Phone services",
       "Phone Services"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -9712,11 +13149,42 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.yk.phonetest": {
+    "appNames": [
+      "PhoneTest"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.android.gallery3d": {
+    "appNames": [
+      "Photo Edit"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.mimage.photoretouching": {
+    "appNames": [
+      "Photo Editor"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -9726,9 +13194,31 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.samsung.android.photoremasterservice": {
+    "appNames": [
+      "PhotoRemasterService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -9761,6 +13251,11 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -9774,6 +13269,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.sprd.providers.photos": {
+    "appNames": [
+      "Photos Types Storage"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -10032,6 +13539,18 @@
       }
     ]
   },
+  "com.samsung.android.app.dofviewer": {
+    "appNames": [
+      "Portrait"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.powermonitor": {
     "appNames": [
       "Power Monitor"
@@ -10041,6 +13560,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.sprd.powersavemodelauncher": {
+    "appNames": [
+      "PowerSaveModeLauncher"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -10062,9 +13593,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -10085,11 +13631,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -10099,9 +13640,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -10122,11 +13678,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -10136,9 +13687,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -10187,9 +13748,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -10210,11 +13786,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -10237,9 +13808,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -10323,11 +13904,45 @@
       }
     ]
   },
+  "com.samsung.android.aware.service": {
+    "appNames": [
+      "Quick Share Agent"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.mdx.kit": {
+    "appNames": [
+      "Quick Share Connectivity"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.launcher3": {
     "appNames": [
       "Quickstep"
     ],
     "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
@@ -10337,11 +13952,6 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -10376,6 +13986,18 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.rcs": {
+    "appNames": [
+      "RcsSettings"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -10422,6 +14044,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.remoteprovisioner": {
+    "appNames": [
+      "RemoteProvisioner"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -10544,6 +14178,30 @@
       }
     ]
   },
+  "com.sec.app.RilErrorNotifier": {
+    "appNames": [
+      "RilNotifier"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.unisoc.silent.reboot": {
+    "appNames": [
+      "ROR"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.agui.rotationcontrol": {
     "appNames": [
       "Rotation Control"
@@ -10650,6 +14308,18 @@
       }
     ]
   },
+  "com.samsung.safetyinformation": {
+    "appNames": [
+      "Safety information"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.theme.icon_pack.sam.settings": {
     "appNames": [
       "Sam"
@@ -10710,6 +14380,354 @@
       }
     ]
   },
+  "com.osp.app.signin": {
+    "appNames": [
+      "Samsung account"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.apex": {
+    "appNames": [
+      "Samsung ApexService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.coldwalletservice": {
+    "appNames": [
+      "Samsung Blockchain Keystore"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.smartcapture": {
+    "appNames": [
+      "Samsung capture"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.billing": {
+    "appNames": [
+      "Samsung Checkout"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.scpm": {
+    "appNames": [
+      "Samsung Cloud Platform Manager"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.scs": {
+    "appNames": [
+      "Samsung Core Services"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.sdhms": {
+    "appNames": [
+      "Samsung Device Health Manager Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.desktopmode.uiservice": {
+    "appNames": [
+      "Samsung DeX"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.desktoplauncher": {
+    "appNames": [
+      "Samsung DeX home"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.dexsystemui": {
+    "appNames": [
+      "Samsung DeX System UI"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.ve.vebgm": {
+    "appNames": [
+      "Samsung Editing Assets"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.pregpudriver.ex9830": {
+    "appNames": [
+      "Samsung EX9830 Dev GPUDriver"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.gamedriver.ex9830": {
+    "appNames": [
+      "Samsung EX9830 GameDriver"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.honeyboard": {
+    "appNames": [
+      "Samsung Keyboard"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.location.nsflp2": {
+    "appNames": [
+      "Samsung Location SDK"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.mcfserver": {
+    "appNames": [
+      "Samsung Multi Connectivity"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.samsungpass": {
+    "appNames": [
+      "Samsung Pass"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.spayfw": {
+    "appNames": [
+      "Samsung PaymentFramework"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.spp.push": {
+    "appNames": [
+      "Samsung Push Service"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.SecSetupWizard": {
+    "appNames": [
+      "Samsung setup wizard"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.SMT": {
+    "appNames": [
+      "Samsung text-to-speech engine"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.earphonetypec": {
+    "appNames": [
+      "Samsung USB-C headset"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.svoiceime": {
+    "appNames": [
+      "Samsung voice input"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.dkey": {
+    "appNames": [
+      "Samsung Wallet Digital Key"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.euicc": {
+    "appNames": [
+      "SamsungEuiccService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.oda.service": {
+    "appNames": [
+      "SamsungOdaService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.monotype.android.font.samsungone": {
+    "appNames": [
+      "SamsungOne"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.samsungpositioning": {
+    "appNames": [
+      "SamsungPositioning"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.theme.color.sand": {
     "appNames": [
       "Sand"
@@ -10743,6 +14761,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.camerasdkservice": {
+    "appNames": [
+      "SCameraService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.cameraxservice": {
+    "appNames": [
+      "SCameraXService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -10855,9 +14897,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -10868,6 +14920,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.providers.media": {
+    "appNames": [
+      "Sec Media Storage"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.secsoundpicker": {
+    "appNames": [
+      "SecSoundPicker"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -10889,9 +14965,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -10912,11 +15003,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -10932,6 +15018,42 @@
       }
     ]
   },
+  "com.samsung.aasaservice": {
+    "appNames": [
+      "SecurityPolicy"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.sve": {
+    "appNames": [
+      "SecVideoEngineService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sem.factoryapp": {
+    "appNames": [
+      "SEMFactoryApp"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.agui.calibration": {
     "appNames": [
       "Sensor Calibration"
@@ -10944,15 +15066,90 @@
       }
     ]
   },
+  "com.samsung.android.setting.multisound": {
+    "appNames": [
+      "Separate app sound"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.appseparation": {
+    "appNames": [
+      "Separated Apps"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.servicemodeapp": {
+    "appNames": [
+      "Service mode"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.RilServiceModeApp": {
+    "appNames": [
+      "Service mode RIL"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.location.nfwlocationprivacy": {
+    "appNames": [
+      "Service provider location"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.settings": {
     "appNames": [
       "Settings"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -10973,11 +15170,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -11004,9 +15196,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11027,11 +15234,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -11040,6 +15242,21 @@
       "Settings Suggestions"
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
@@ -11054,11 +15271,42 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.app.settings.bixby": {
+    "appNames": [
+      "SettingsBixby"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.setupwizardlegalprovider": {
+    "appNames": [
+      "SetupWizardLegalProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.spreadtrum.sgps": {
+    "appNames": [
+      "SGPS"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -11080,9 +15328,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11103,11 +15366,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.shortcutbackupservice": {
+    "appNames": [
+      "ShortcutBNR"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.modem.settings": {
+    "appNames": [
+      "SilentLogging"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -11118,9 +15400,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11141,11 +15438,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -11172,9 +15464,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11195,11 +15502,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -11212,6 +15514,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.ims.smk": {
+    "appNames": [
+      "SimMobilityKit"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -11233,14 +15547,62 @@
     ],
     "devices": [
       {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.singletake.service": {
+    "appNames": [
+      "Single take"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.skms.android.agent": {
+    "appNames": [
+      "SKMSAgentService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.location": {
+    "appNames": [
+      "slocation"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.smartcallprovider": {
+    "appNames": [
+      "Smart Call"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -11256,6 +15618,54 @@
       }
     ]
   },
+  "com.samsung.android.smartsuggestions": {
+    "appNames": [
+      "Smart suggestions"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.easyMover.Agent": {
+    "appNames": [
+      "Smart Switch Agent"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.visualars": {
+    "appNames": [
+      "Smart Touch Call"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.smartmirroring": {
+    "appNames": [
+      "Smart View"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.smartengine": {
     "appNames": [
       "SmartEngine"
@@ -11265,6 +15675,66 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.smartface": {
+    "appNames": [
+      "SmartFaceService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.smartfpsadjuster": {
+    "appNames": [
+      "SmartFPSAdjuster"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.service.stplatform": {
+    "appNames": [
+      "SmartThings Framework"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.soagent": {
+    "appNames": [
+      "Software update"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.wssyncmldm": {
+    "appNames": [
+      "Software update"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -11280,6 +15750,18 @@
       }
     ]
   },
+  "com.tencent.soter.soterserver": {
+    "appNames": [
+      "soter_server"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.accessibility.soundamplifier": {
     "appNames": [
       "Sound Amplifier"
@@ -11289,6 +15771,30 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      }
+    ]
+  },
+  "com.samsung.android.app.soundpicker": {
+    "appNames": [
+      "Sound picker"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.soundalive": {
+    "appNames": [
+      "Sound quality and effects"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -11318,6 +15824,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -11362,14 +15873,30 @@
   },
   "com.google.android.tts": {
     "appNames": [
+      "Speech Services by Google",
       "Speech Recognition and Synthesis from Google",
       "Google Text-to-speech Engine"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11390,11 +15917,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -11470,6 +15992,50 @@
       }
     ]
   },
+  "com.samsung.android.stickercenter": {
+    "appNames": [
+      "Sticker Center"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.android.storagemanager": {
+    "appNames": [
+      "Storage Manager"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.storagemanager": {
     "appNames": [
       "Storage Manager",
@@ -11488,28 +16054,6 @@
       }
     ]
   },
-  "com.android.storagemanager": {
-    "appNames": [
-      "Storage Manager"
-    ],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      }
-    ]
-  },
   "com.oplus.subsys": {
     "appNames": [
       "Subsystem Service"
@@ -11522,15 +16066,37 @@
       }
     ]
   },
+  "com.samsung.android.sume.nn.service": {
+    "appNames": [
+      "SumeNNService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.mainline.telemetry": {
     "appNames": [
       "Support components"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -11546,6 +16112,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.svcagent": {
+    "appNames": [
+      "SVC Agent"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -11583,9 +16161,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -11628,34 +16216,6 @@
       }
     ]
   },
-  "com.google.android.gms.supervision": {
-    "appNames": [
-      "System parental controls",
-      "Family Link parental controls"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      }
-    ]
-  },
   "com.oplus.exsystemservice": {
     "appNames": [
       "System Service"
@@ -11674,9 +16234,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11697,11 +16272,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -11711,9 +16281,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11734,11 +16319,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.android.wifi.uniresources": {
+    "appNames": [
+      "System Uni Wi-Fi Resources"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.doogee.update": {
+    "appNames": [
+      "System Update"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -11747,6 +16351,23 @@
       "System Upgrade Services"
     ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.uwb.resources": {
+    "appNames": [
+      "System UWB Resources"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -11765,6 +16386,11 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -11776,15 +16402,21 @@
       }
     ]
   },
-  "com.android.uwb.resources": {
+  "com.android.wifi.resources": {
     "appNames": [
-      "System UWB Resources"
+      "System Wi-Fi resources",
+      "System Wi-Fi Resources"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
+        "model": "OnePlus8Pro",
+        "os": "30"
       }
     ]
   },
@@ -11800,6 +16432,11 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -11813,18 +16450,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.wifi.resources": {
-    "appNames": [
-      "System Wi-Fi Resources"
-    ],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
       }
     ]
   },
@@ -11845,6 +16470,35 @@
       }
     ]
   },
+  "com.samsung.android.service.tagservice": {
+    "appNames": [
+      "Tags"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.android.apps.tag": {
+    "appNames": [
+      "Tags"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.tag": {
     "appNames": [
       "Tags"
@@ -11854,6 +16508,16 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11868,23 +16532,6 @@
       {
         "make": "RHINO",
         "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      }
-    ]
-  },
-  "com.android.apps.tag": {
-    "appNames": [
-      "Tags"
-    ],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
         "os": "34"
       }
     ]
@@ -11901,6 +16548,18 @@
       }
     ]
   },
+  "com.samsung.android.accessibility.talkback": {
+    "appNames": [
+      "TalkBack"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.internal.display.cutout.emulation.tall": {
     "appNames": [
       "Tall cutout",
@@ -11908,9 +16567,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11931,11 +16605,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -11963,6 +16632,18 @@
       }
     ]
   },
+  "com.samsung.android.app.taskedge": {
+    "appNames": [
+      "Tasks"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.theme.icon.teardrop": {
     "appNames": [
       "Teardrop"
@@ -11972,6 +16653,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.samsung.sec.android.teegris.tui_service": {
+    "appNames": [
+      "TEEgrisTuiService"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -12005,9 +16698,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -12055,11 +16758,29 @@
       }
     ]
   },
+  "com.sec.automation": {
+    "appNames": [
+      "TetheringAutomation"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.networkstack.tethering.overlay": {
     "appNames": [
+      "TetheringConfigOverlayGsi",
       "TetheringResOverlay"
     ],
     "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -12068,18 +16789,6 @@
     ]
   },
   "com.android.networkstack.tethering.inprocess.overlay": {
-    "appNames": [
-      "TetheringResOverlay"
-    ],
-    "devices": [
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      }
-    ]
-  },
-  "com.google.android.networkstack.tethering.overlay": {
     "appNames": [
       "TetheringResOverlay"
     ],
@@ -12127,6 +16836,30 @@
       }
     ]
   },
+  "com.sec.android.app.quicktool": {
+    "appNames": [
+      "Tools"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.service.airviewdictionary": {
+    "appNames": [
+      "Translate"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.internal.systemui.navbar.transparent": {
     "appNames": [
       "Transparent navigation bar"
@@ -12166,6 +16899,18 @@
       }
     ]
   },
+  "com.sprd.uasetting": {
+    "appNames": [
+      "UASetting"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.pantanal.ums": {
     "appNames": [
       "Ubiquitous Manager Service"
@@ -12187,6 +16932,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.unisoc": {
+    "appNames": [
+      "unisoc system"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -12214,15 +16971,42 @@
       }
     ]
   },
+  "com.sec.usbsettings": {
+    "appNames": [
+      "USBSettings"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.providers.userdictionary": {
     "appNames": [
       "User Dictionary"
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -12243,11 +17027,42 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.uwb": {
+    "appNames": [
+      "UwbApplication"
+    ],
+    "devices": [
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.uwbtest": {
+    "appNames": [
+      "UwbTest"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sprd.validationtools": {
+    "appNames": [
+      "ValidationTools"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -12383,6 +17198,42 @@
       }
     ]
   },
+  "com.samsung.android.vtcamerasettings": {
+    "appNames": [
+      "Video call effects"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.sec.android.app.vepreload": {
+    "appNames": [
+      "Video Editor"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.video": {
+    "appNames": [
+      "Video Player"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.accessibility.voiceaccess": {
     "appNames": [
       "Voice Access"
@@ -12412,6 +17263,18 @@
       }
     ]
   },
+  "com.sec.android.app.volumemonitorprovider": {
+    "appNames": [
+      "VolumeMonitorProvider"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.privacy.wildlife": {
     "appNames": [
       "VPN by Google"
@@ -12430,9 +17293,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -12453,11 +17331,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -12467,9 +17340,26 @@
     ],
     "devices": [
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.app.dressroom": {
+    "appNames": [
+      "Wallpaper and style"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -12488,6 +17378,18 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.dynamiclock": {
+    "appNames": [
+      "Wallpaper services"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -12533,9 +17435,19 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -12556,6 +17468,30 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.wcmurlsnetworkstack": {
+    "appNames": [
+      "WcmUrlsNetworkStackOverlay"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.app.watchmanagerstub": {
+    "appNames": [
+      "Wearable Manager Installer"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -12601,6 +17537,42 @@
       }
     ]
   },
+  "com.sec.unifiedwfc": {
+    "appNames": [
+      "Wi-Fi Calling"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.allshare.service.fileshare": {
+    "appNames": [
+      "Wi-Fi Direct"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.net.wifi.wifiguider": {
+    "appNames": [
+      "Wi-Fi tips"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.wifibackuprestore": {
     "appNames": [
       "WifiBackupRestore"
@@ -12630,6 +17602,34 @@
       "Wireless Earphones"
     ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.google.android.cellbroadcastreceiver": {
+    "appNames": [
+      "Wireless emergency alerts",
+      "Emergency alerts"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -12685,6 +17685,30 @@
       }
     ]
   },
+  "com.sec.android.app.wlantest": {
+    "appNames": [
+      "WlanTest"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.knox.containercore": {
+    "appNames": [
+      "Work profile"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.managedprovisioning": {
     "appNames": [
       "Work Setup",
@@ -12692,9 +17716,24 @@
     ],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -12715,11 +17754,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -12756,6 +17790,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.sprd.logmanager": {
+    "appNames": [
+      "YLog"
+    ],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
