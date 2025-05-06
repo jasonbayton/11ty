@@ -11,6 +11,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -23,11 +28,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -102,13 +102,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -148,6 +148,29 @@
       }
     ]
   },
+  "com.google.android.aicore": {
+    "appNames": [
+      "AI Core",
+      "AICore"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.aiunit": {
     "appNames": [
       "AI Service Engine"
@@ -179,29 +202,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
-      }
-    ]
-  },
-  "com.google.android.aicore": {
-    "appNames": [
-      "AICore",
-      "AI Core"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       }
     ]
   },
@@ -283,6 +283,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -295,11 +300,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -330,6 +330,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -342,11 +347,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -420,6 +420,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -437,11 +442,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -482,6 +482,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -499,11 +504,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -551,6 +551,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -568,11 +573,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -613,6 +613,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -630,11 +635,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -676,6 +676,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -693,11 +698,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -724,14 +724,19 @@
   "com.google.android.adservices.api": {
     "appNames": [
       "Android system",
-      "Ad privacy",
-      "Ad Privacy"
+      "Ad Privacy",
+      "Ad privacy"
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -747,11 +752,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -783,6 +783,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -800,11 +805,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -852,13 +852,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -874,6 +874,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -886,11 +891,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -921,6 +921,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -938,11 +943,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -978,17 +978,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       }
     ]
@@ -1022,6 +1022,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -1034,11 +1039,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -1064,17 +1064,17 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -1324,13 +1324,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -1423,13 +1423,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -1568,17 +1568,17 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -1899,13 +1899,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -1955,6 +1955,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -1967,11 +1972,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -2133,6 +2133,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -2150,11 +2155,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -2196,6 +2196,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -2213,11 +2218,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -2253,13 +2253,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -2297,6 +2297,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -2314,11 +2319,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -2359,6 +2359,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -2376,11 +2381,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -2531,6 +2531,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -2548,11 +2553,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -2637,6 +2637,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -2654,11 +2659,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -2799,13 +2799,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -2887,6 +2887,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -2899,11 +2904,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -2976,6 +2976,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -2988,11 +2993,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -3040,13 +3040,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -3069,13 +3069,31 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
-      },
+      }
+    ]
+  },
+  "com.google.android.carrierlocation": {
+    "appNames": [
+      "Carrier Location",
+      "Operator Location"
+    ],
+    "devices": [
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -3110,13 +3128,31 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
-      },
+      }
+    ]
+  },
+  "com.android.omadm.service": {
+    "appNames": [
+      "Carrier Provisioning Service",
+      "DMService"
+    ],
+    "devices": [
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -3154,13 +3190,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -3183,27 +3219,50 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
-      },
+      }
+    ]
+  },
+  "com.google.android.wfcactivation": {
+    "appNames": [
+      "Carrier Setup",
+      "Operator setup"
+    ],
+    "devices": [
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
   "com.android.carrierdefaultapp": {
     "appNames": [
       "CarrierDefaultApp",
-      "Operator communications",
-      "Carrier Communications"
+      "Carrier Communications",
+      "Operator communications"
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -3219,11 +3278,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -3281,6 +3335,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -3293,11 +3352,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -3365,6 +3419,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -3382,11 +3441,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -3415,24 +3469,6 @@
       }
     ]
   },
-  "com.google.android.avatarpicker": {
-    "appNames": [
-      "Choose a picture",
-      "Google Pixel Avatar Picker"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      }
-    ]
-  },
   "com.android.chrome": {
     "appNames": [
       "Chrome"
@@ -3442,6 +3478,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -3462,11 +3503,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -3519,19 +3555,19 @@
   },
   "com.google.android.wallpaper.effects": {
     "appNames": [
-      "Cinematic wallpaper",
-      "Cinematic Wallpaper"
+      "Cinematic Wallpaper",
+      "Cinematic wallpaper"
     ],
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -3793,6 +3829,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -3810,11 +3851,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -3850,13 +3886,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -3967,6 +4003,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -3974,11 +4015,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -4016,13 +4052,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4033,13 +4069,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4062,17 +4098,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       }
     ]
@@ -4086,6 +4122,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -4106,11 +4147,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -4151,6 +4187,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -4163,11 +4204,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -4208,13 +4244,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4225,13 +4261,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4254,13 +4290,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4271,6 +4307,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -4278,11 +4319,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -4303,6 +4339,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -4315,11 +4356,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -4374,13 +4410,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4391,13 +4427,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4413,6 +4449,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -4425,11 +4466,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -4484,17 +4520,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       }
     ]
@@ -4511,6 +4547,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -4518,11 +4559,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -4543,13 +4579,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4608,13 +4644,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -4636,6 +4672,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -4653,11 +4694,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -4693,13 +4729,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4712,6 +4748,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -4732,11 +4773,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -4777,6 +4813,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -4784,11 +4825,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -4826,17 +4862,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       }
     ]
@@ -4848,13 +4884,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4901,13 +4937,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4918,13 +4954,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -4952,6 +4988,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -4959,11 +5000,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -5008,6 +5044,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -5015,11 +5056,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -5035,6 +5071,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -5042,11 +5083,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       }
     ]
   },
@@ -5122,6 +5158,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -5139,11 +5180,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -5179,13 +5215,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5218,13 +5254,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -5250,13 +5286,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5272,6 +5308,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -5279,11 +5320,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -5304,13 +5340,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5321,13 +5357,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5338,13 +5374,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5355,13 +5391,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5372,13 +5408,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5389,13 +5425,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5406,13 +5442,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5423,13 +5459,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5440,13 +5476,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5565,13 +5601,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -5599,13 +5635,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5616,13 +5652,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5689,6 +5725,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -5706,11 +5747,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -5962,13 +5998,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5979,13 +6015,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -5996,13 +6032,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6037,6 +6073,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -6049,11 +6090,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -6086,13 +6122,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6115,13 +6151,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6132,13 +6168,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6147,6 +6183,11 @@
       "com.google.android.federatedcompute"
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
@@ -6161,11 +6202,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -6191,13 +6227,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6208,13 +6244,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6237,13 +6273,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6254,13 +6290,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6271,13 +6307,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6288,17 +6324,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -6325,13 +6361,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6342,13 +6378,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6405,13 +6441,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6452,6 +6488,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -6464,11 +6505,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -6506,13 +6542,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6832,13 +6868,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -6849,13 +6885,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7144,13 +7180,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7161,13 +7197,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7178,13 +7214,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7195,13 +7231,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7212,13 +7248,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7229,13 +7265,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7246,13 +7282,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7263,13 +7299,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7333,6 +7369,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -7345,11 +7386,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -7375,17 +7411,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -7419,13 +7455,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7436,13 +7472,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7465,13 +7501,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7506,13 +7542,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7523,13 +7559,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7540,13 +7576,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7557,13 +7593,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7574,6 +7610,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -7581,11 +7622,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -7618,13 +7654,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7659,13 +7695,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7676,13 +7712,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7693,13 +7729,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7710,13 +7746,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -7727,13 +7763,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -8696,13 +8732,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -8914,6 +8950,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -8931,11 +8972,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -8983,13 +9019,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -9039,6 +9075,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -9056,11 +9097,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -9163,13 +9199,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -9217,6 +9253,24 @@
       }
     ]
   },
+  "com.android.sdm.plugins.connmo": {
+    "appNames": [
+      "ConnMO",
+      "SDMService"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
   "com.samsung.android.app.contacts": {
     "appNames": [
       "Contacts"
@@ -9246,6 +9300,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -9253,11 +9312,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -9322,6 +9376,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -9334,11 +9393,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -9369,17 +9423,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       }
     ]
@@ -9441,6 +9495,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -9458,11 +9517,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -9500,10 +9554,15 @@
   },
   "com.android.credentialmanager": {
     "appNames": [
-      "Credential manager",
-      "Credential Manager"
+      "Credential Manager",
+      "Credential manager"
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
@@ -9512,11 +9571,6 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -9560,19 +9614,19 @@
   },
   "com.google.ambient.streaming": {
     "appNames": [
-      "Cross-device services",
-      "Cross-Device Services"
+      "Cross-Device Services",
+      "Cross-device services"
     ],
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -9726,6 +9780,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -9743,11 +9802,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -9805,13 +9859,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -9829,19 +9883,19 @@
   },
   "com.google.android.apps.pixel.dcservice": {
     "appNames": [
-      "Device connectivity service",
-      "Device Connectivity Service"
+      "Device Connectivity Service",
+      "Device connectivity service"
     ],
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -9857,6 +9911,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -9869,11 +9928,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -9894,13 +9948,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -9923,13 +9977,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -9990,13 +10044,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -10007,17 +10061,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       }
     ]
@@ -10044,6 +10098,18 @@
       }
     ]
   },
+  "com.google.android.devicelockcontroller": {
+    "appNames": [
+      "DeviceLockController"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.devicelockcontroller": {
     "appNames": [
       "DeviceLockController"
@@ -10063,18 +10129,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      }
-    ]
-  },
-  "com.google.android.devicelockcontroller": {
-    "appNames": [
-      "DeviceLockController"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       }
     ]
   },
@@ -10252,6 +10306,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -10259,11 +10318,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -10294,24 +10348,6 @@
       }
     ]
   },
-  "com.android.omadm.service": {
-    "appNames": [
-      "DMService",
-      "Carrier Provisioning Service"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      }
-    ]
-  },
   "com.google.android.dreamlinerupdater": {
     "appNames": [
       "Dock Updater"
@@ -10319,13 +10355,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -10354,6 +10390,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -10371,11 +10412,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -10411,6 +10447,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -10428,11 +10469,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -10473,6 +10509,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -10490,11 +10531,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -10587,13 +10623,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -10751,6 +10787,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -10763,11 +10804,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -10914,6 +10950,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -10926,11 +10967,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -11024,13 +11060,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -11189,6 +11225,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -11206,11 +11247,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -11246,13 +11282,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -11399,13 +11435,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -11490,6 +11526,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -11502,11 +11543,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -11584,6 +11620,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -11596,11 +11637,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -11621,13 +11657,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -11810,6 +11846,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -11827,11 +11868,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -12131,6 +12167,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -12143,11 +12184,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -12347,6 +12383,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -12359,11 +12400,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -12523,6 +12559,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -12540,11 +12581,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -12586,17 +12622,17 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -12624,17 +12660,17 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -12722,6 +12758,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -12734,11 +12775,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -12774,6 +12810,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -12791,11 +12832,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -12837,6 +12873,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -12854,11 +12895,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -12899,21 +12935,39 @@
       }
     ]
   },
-  "com.google.android.odad": {
+  "com.google.android.avatarpicker": {
     "appNames": [
-      "Google Play Protect service",
-      "Google Play Protect Service"
+      "Google Pixel Avatar Picker",
+      "Choose a picture"
     ],
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
-      },
+      }
+    ]
+  },
+  "com.google.android.odad": {
+    "appNames": [
+      "Google Play Protect Service",
+      "Google Play Protect service"
+    ],
+    "devices": [
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -12926,6 +12980,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -12946,11 +13005,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -12991,6 +13045,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -13008,11 +13067,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -13054,6 +13108,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -13066,11 +13125,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -13133,6 +13187,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -13150,11 +13209,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -13207,13 +13261,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -13229,17 +13283,17 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -13373,17 +13427,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -13509,6 +13563,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -13526,11 +13585,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -13676,13 +13730,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -13695,6 +13749,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -13715,11 +13774,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -13794,17 +13848,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -13960,6 +14014,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -13977,11 +14036,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -14438,6 +14492,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -14455,11 +14514,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -14604,6 +14658,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -14616,11 +14675,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -14651,6 +14705,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -14663,11 +14722,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -14705,13 +14759,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -14754,6 +14808,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -14771,11 +14830,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -14811,13 +14865,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -14890,6 +14944,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -14902,11 +14961,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -15037,6 +15091,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -15054,11 +15113,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -15284,6 +15338,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -15301,11 +15360,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -15547,6 +15601,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -15564,11 +15623,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -15626,13 +15680,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -15670,13 +15724,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -15794,6 +15848,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -15806,11 +15865,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -15966,6 +16020,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -15973,11 +16032,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -16013,8 +16067,8 @@
   "com.android.nfc": {
     "appNames": [
       "NFC",
-      "NFC Migration",
       "Nfc Service",
+      "NFC Migration",
       "NFC Service"
     ],
     "devices": [
@@ -16022,6 +16076,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -16042,11 +16101,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -16094,13 +16148,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -16111,17 +16165,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -16153,6 +16207,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -16165,11 +16224,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -16268,13 +16322,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -16433,42 +16487,6 @@
       }
     ]
   },
-  "com.google.android.carrierlocation": {
-    "appNames": [
-      "Operator Location",
-      "Carrier Location"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      }
-    ]
-  },
-  "com.google.android.wfcactivation": {
-    "appNames": [
-      "Operator setup",
-      "Carrier Setup"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      }
-    ]
-  },
   "oplus.frameworkres.overlay.display.product": {
     "appNames": [
       "oplus.frameworkres.overlay.display.product"
@@ -16599,6 +16617,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -16606,11 +16629,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -16677,6 +16695,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -16694,11 +16717,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -16739,6 +16757,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -16756,11 +16779,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -16905,6 +16923,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -16917,11 +16940,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -17015,13 +17033,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17088,6 +17106,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -17095,11 +17118,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -17148,6 +17166,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -17165,11 +17188,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -17212,6 +17230,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -17229,11 +17252,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -17275,6 +17293,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -17292,11 +17315,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -17473,10 +17491,15 @@
   },
   "com.google.android.photopicker": {
     "appNames": [
-      "Photos and videos",
-      "Photos & videos"
+      "Photos & videos",
+      "Photos and videos"
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
@@ -17491,11 +17514,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -17528,31 +17546,31 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
   "com.google.android.apps.camera.services": {
     "appNames": [
-      "Pixel Camera services",
-      "Pixel Camera Services"
+      "Pixel Camera Services",
+      "Pixel Camera services"
     ],
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17575,31 +17593,31 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
   "com.google.pixel.livewallpaper": {
     "appNames": [
-      "Pixel live wallpaper",
-      "Pixel Live Wallpaper"
+      "Pixel Live Wallpaper",
+      "Pixel live wallpaper"
     ],
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17617,19 +17635,19 @@
   },
   "com.google.android.pixel.setupwizard": {
     "appNames": [
-      "Pixel setup",
-      "Pixel Setup"
+      "Pixel Setup",
+      "Pixel setup"
     ],
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17640,13 +17658,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17669,13 +17687,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17686,13 +17704,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17703,13 +17721,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17720,13 +17738,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17737,13 +17755,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17754,13 +17772,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -17846,6 +17864,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -17863,11 +17886,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -17908,6 +17926,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -17925,11 +17948,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -17970,6 +17988,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -17982,11 +18005,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -18041,6 +18059,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -18058,11 +18081,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -18116,6 +18134,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -18128,11 +18151,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -18346,13 +18364,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -18363,13 +18381,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -18445,13 +18463,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -18508,19 +18526,19 @@
   },
   "com.google.android.repairmode": {
     "appNames": [
-      "Repair mode",
-      "Repair Mode"
+      "Repair Mode",
+      "Repair mode"
     ],
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -18591,13 +18609,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -18743,13 +18761,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -20054,24 +20072,6 @@
       }
     ]
   },
-  "com.android.sdm.plugins.connmo": {
-    "appNames": [
-      "SDMService",
-      "ConnMO"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      }
-    ]
-  },
   "com.google.android.apps.setupwizard.searchselector": {
     "appNames": [
       "Search engine selector",
@@ -20082,6 +20082,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -20097,11 +20102,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -20235,6 +20235,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -20252,11 +20257,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -20517,6 +20517,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -20534,11 +20539,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -20574,13 +20574,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -20593,6 +20593,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -20613,11 +20618,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -20785,6 +20785,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -20802,11 +20807,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -20892,6 +20892,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -20909,11 +20914,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -20944,13 +20944,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -20985,6 +20985,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -21002,11 +21007,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -21212,6 +21212,24 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.storagemanager": {
+    "appNames": [
+      "Smart Storage",
+      "Storage Manager"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -21560,13 +21578,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -21577,6 +21595,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -21584,11 +21607,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -21641,6 +21659,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -21658,11 +21681,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -21844,24 +21862,6 @@
       }
     ]
   },
-  "com.google.android.storagemanager": {
-    "appNames": [
-      "Storage Manager",
-      "Smart Storage"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      }
-    ]
-  },
   "com.samsung.android.hwresourceshare.storage": {
     "appNames": [
       "Storage Share"
@@ -21915,6 +21915,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -21927,11 +21932,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -21979,13 +21979,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -22012,6 +22012,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -22024,11 +22029,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -22107,6 +22107,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -22124,11 +22129,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -22164,6 +22164,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -22181,11 +22186,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -22284,6 +22284,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -22291,11 +22296,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -22334,10 +22334,15 @@
   },
   "com.google.android.wifi.resources": {
     "appNames": [
-      "System Wi-Fi resources",
-      "System Wi-Fi Resources"
+      "System Wi-Fi Resources",
+      "System Wi-Fi resources"
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
@@ -22347,11 +22352,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "RHINO",
@@ -22372,13 +22372,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -22438,6 +22438,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -22450,11 +22455,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -22520,6 +22520,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -22537,11 +22542,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -22676,17 +22676,17 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -22730,13 +22730,13 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -22869,17 +22869,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -23082,6 +23082,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -23099,11 +23104,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -23427,17 +23427,17 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -23522,6 +23522,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -23539,11 +23544,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
@@ -23569,6 +23569,24 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.apps.wallpaper": {
+    "appNames": [
+      "Wallpaper & style",
+      "Wallpaper and style"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -23608,24 +23626,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
-      }
-    ]
-  },
-  "com.google.android.apps.wallpaper": {
-    "appNames": [
-      "Wallpaper and style",
-      "Wallpaper & style"
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       }
     ]
   },
@@ -23699,6 +23699,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -23711,11 +23716,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -23814,19 +23814,19 @@
   },
   "com.android.DeviceAsWebcam": {
     "appNames": [
-      "Webcam service",
-      "Webcam Service"
+      "Webcam Service",
+      "Webcam service"
     ],
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -23988,17 +23988,17 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
         "make": "samsung",
         "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
       },
       {
@@ -24136,6 +24136,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       },
@@ -24153,11 +24158,6 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
       },
       {
         "make": "NUU",
