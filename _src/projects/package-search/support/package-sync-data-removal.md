@@ -25,5 +25,5 @@ If you'd like this data removed from PING, please:
 
 1. Turn off the setting in PACKAGE SEARCH
 2. Make a copy of the UUID in Settings
-3. Submit your request to [mailto:project-support@bayton.org](project-support@bayton.org) with the UUID of your device.
+3. Submit your request to [project-support@bayton.org](mailto:project-support@bayton.org) with the UUID of your device.
 4. Data will be expunged within 24 hours of acknowledgement
