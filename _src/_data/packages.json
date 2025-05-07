@@ -2902,6 +2902,18 @@
       }
     ]
   },
+  "com.android.browser": {
+    "appName": "Browser",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      }
+    ]
+  },
   "com.mediatek.bluetooth.dtt": {
     "appName": "BT Tool",
     "userFacing": false,
@@ -2994,6 +3006,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "OnePlus",
@@ -3389,6 +3406,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.mediatek.camera": {
+    "appName": "Camera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       }
     ]
   },
@@ -4577,6 +4606,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       }
     ]
   },
@@ -4868,6 +4902,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -11437,7 +11476,7 @@
   },
   "com.android.contacts": {
     "appName": "Contacts",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -12680,6 +12719,11 @@
         "os": "33"
       },
       {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -13002,7 +13046,7 @@
   },
   "com.android.documentsui": {
     "appName": "Downloads",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -13102,6 +13146,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "OnePlus",
@@ -13237,9 +13286,59 @@
       }
     ]
   },
+  "com.google.android.apps.tachyon": {
+    "appName": "Duo",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Meet"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Meet"
+      },
+      {
+        "locale": "",
+        "name": "Meet Installer"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
   "com.mediatek.duraspeed": {
     "appName": "DuraSpeed",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -14221,6 +14320,11 @@
         "os": "36"
       },
       {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -14360,6 +14464,18 @@
   },
   "com.android.turnsilent": {
     "appName": "Flip to mute",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      }
+    ]
+  },
+  "com.android.fmradio": {
+    "appName": "FM Radio",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -14739,6 +14855,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.agui.game": {
+    "appName": "Game mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       }
     ]
   },
@@ -15168,6 +15296,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "OnePlus",
@@ -15623,6 +15756,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "OnePlus",
@@ -16999,6 +17137,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -17935,6 +18078,11 @@
         "os": "35"
       },
       {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -18234,47 +18382,6 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
-      }
-    ]
-  },
-  "com.google.android.apps.tachyon": {
-    "appName": "Meet",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Meet Installer"
-      },
-      {
-        "locale": "",
-        "name": "Duo"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -18984,6 +19091,18 @@
       }
     ]
   },
+  "com.android.music": {
+    "appName": "Music",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      }
+    ]
+  },
   "com.android.musicfx": {
     "appName": "MusicFX",
     "userFacing": false,
@@ -19616,6 +19735,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.mediatek.notebook": {
+    "appName": "Notebook",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       }
     ]
   },
@@ -20799,7 +20930,7 @@
   },
   "com.android.dialer": {
     "appName": "Phone",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -21235,6 +21366,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "OnePlus",
@@ -25419,7 +25555,7 @@
   },
   "com.android.stk": {
     "appName": "SIM Toolkit",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -26050,6 +26186,18 @@
       }
     ]
   },
+  "com.agold.newsos": {
+    "appName": "SOS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      }
+    ]
+  },
   "com.tencent.soter.soterserver": {
     "appName": "soter_server",
     "userFacing": false,
@@ -26145,6 +26293,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.soundrecorder": {
+    "appName": "Sound Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       }
     ]
   },
@@ -26516,6 +26676,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.agui.studentmodel": {
+    "appName": "Student mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       }
     ]
   },
@@ -27746,6 +27918,18 @@
       }
     ]
   },
+  "com.agoldcomm.toolbox": {
+    "appName": "Toolbox",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      }
+    ]
+  },
   "com.sec.android.app.quicktool": {
     "appName": "Tools",
     "userFacing": false,
@@ -27765,6 +27949,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.agold.trackrecord": {
+    "appName": "TrackBack",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       }
     ]
   },
@@ -29424,6 +29620,11 @@
         "os": "35"
       },
       {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -29459,6 +29660,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "OnePlus",
