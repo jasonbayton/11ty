@@ -35,12 +35,14 @@ Packages are updated here daily.
 <th>OEM</th>
 <th>Model</th>
 <th>OS</th>
+<th>Also known by</th>
+<th>User-facing</th>
 </tr>
 </thead>
 <tbody>
 {% for pkg, entry in packages %}
 <tr>
-  <td>{{ entry.appNames[0] or pkg }}</td>
+  <td>{{ entry.appName or pkg }}</td>
   <td><code>{{ pkg }}</code></td>
   <td>
     {%- set makes = "" -%}
@@ -75,6 +77,14 @@ Packages are updated here daily.
       {%- set osVersions = osVersions + device.os + "," -%}
     {%- endfor -%}
   </td>
+  <td>
+    {%- if entry.additionalLocales and entry.additionalLocales.length > 0 -%}
+      {%- for alt in entry.additionalLocales -%}
+        {%- if not loop.first -%}, {% endif -%}{{ alt.name }}
+      {%- endfor -%}
+    {%- endif -%}
+  </td>
+  <td>{{ entry.userFacing }}</td>
 </tr>
 {% endfor %}
 </tbody>

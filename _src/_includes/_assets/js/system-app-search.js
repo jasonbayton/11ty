@@ -6,14 +6,16 @@ async function buildTable() {
   const filterOS = document.getElementById('filterOS');
 
   const rows = Array.from(tableBody.querySelectorAll('tr')).map(tr => {
-    const [pkgCell, appCell, makeCell, modelCell, osCell] = tr.children;
+    const [pkgCell, appCell, makeCell, modelCell, osCell, alsoCell, userFacingCell] = tr.children;
     return {
       element: tr,
       packageName: pkgCell.textContent.trim(),
       appName: appCell.textContent.trim(),
       make: makeCell.textContent.trim(),
       model: modelCell.textContent.trim(),
-      os: osCell.textContent.trim()
+      os: osCell.textContent.trim(),
+      alsoKnownBy: alsoCell.textContent.trim(),
+      userFacing: userFacingCell.textContent.trim().toLowerCase()
     };
   }).filter(row =>
     row.make !== '' || row.model !== '' || row.os !== ''
@@ -69,7 +71,9 @@ async function buildTable() {
           row.appName.toLowerCase().includes(q) ||
           row.make.toLowerCase().includes(q) ||
           row.model.toLowerCase().includes(q) ||
-          row.os.toLowerCase().includes(q)) &&
+          row.os.toLowerCase().includes(q) ||
+          row.alsoKnownBy.toLowerCase().includes(q) ||
+          row.userFacing.toLowerCase().includes(q)) &&
         (!selectedMake || row.make.includes(selectedMake)) &&
         (!selectedModel || row.model.includes(selectedModel)) &&
         (!selectedOS || row.os.includes(selectedOS));

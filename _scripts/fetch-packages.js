@@ -32,31 +32,124 @@ async function fetchAndSavePackages() {
             const os = row.os || 'UnknownOS';
             const systemPackages = JSON.parse(row.system_packages || '[]');
 
-            for (const { packageName, appName } of systemPackages) {
+            for (const pkgEntry of systemPackages) {
+                const { packageName, appName } = pkgEntry;
                 if (!packageName) continue;
 
                 if (!result[packageName]) {
                     result[packageName] = {
-                        appNames: new Set(),
+                        namesByLocale: new Map(),
+                        fallbackNames: [],
+                        userFacing: false,
                         devices: new Set()
                     };
                 }
 
-                result[packageName].appNames.add(appName || packageName);
+                if (typeof appName === 'object' && appName !== null) {
+                    const loc = appName.locale?.toLowerCase();
+                    if (loc && typeof appName.value === 'string') {
+                        result[packageName].namesByLocale.set(loc, appName.value);
+                    }
+                } else if (typeof appName === 'string') {
+                    // Store the value directly for non-object appName, using empty string as locale key
+                    result[packageName].namesByLocale.set('', appName);
+                }
+
+                // Track fallback names if no locale and value is string and not yet seen
+                if (typeof appName === 'string' && !result[packageName].fallbackNames.includes(appName)) {
+                    result[packageName].fallbackNames.push(appName);
+                }
+
+                if ('userFacing' in pkgEntry) {
+                    result[packageName].userFacing ||= pkgEntry.userFacing === true;
+                }
+
                 result[packageName].devices.add(`${make}||${model}||${os}`);
             }
         }
 
-        // Convert sets to arrays and split device info into objects, sorted by first app name
+        // Refactored output structure
         const finalOutput = {};
         for (const pkg of Object.keys(result).sort((a, b) => {
-            const aName = Array.from(result[a].appNames)[0] || a;
-            const bName = Array.from(result[b].appNames)[0] || b;
+            const aName = (() => {
+                const data = result[a];
+                const nameMap = data.namesByLocale;
+                const fallbackNames = data.fallbackNames;
+                let preferredName;
+                if (nameMap.has('en-us')) {
+                    preferredName = nameMap.get('en-us');
+                } else {
+                    const fallback = Array.from(nameMap.entries()).find(([k]) => k.startsWith('en'));
+                    if (fallback) {
+                        preferredName = fallback[1];
+                    } else if (fallbackNames.length > 0) {
+                        preferredName = fallbackNames[0];
+                    } else {
+                        preferredName = Array.from(nameMap.values())[0] || a;
+                    }
+                }
+                return preferredName || a;
+            })();
+            const bName = (() => {
+                const data = result[b];
+                const nameMap = data.namesByLocale;
+                const fallbackNames = data.fallbackNames;
+                let preferredName;
+                if (nameMap.has('en-us')) {
+                    preferredName = nameMap.get('en-us');
+                } else {
+                    const fallback = Array.from(nameMap.entries()).find(([k]) => k.startsWith('en'));
+                    if (fallback) {
+                        preferredName = fallback[1];
+                    } else if (fallbackNames.length > 0) {
+                        preferredName = fallbackNames[0];
+                    } else {
+                        preferredName = Array.from(nameMap.values())[0] || b;
+                    }
+                }
+                return preferredName || b;
+            })();
             return aName.localeCompare(bName);
         })) {
             const data = result[pkg];
+            const nameMap = data.namesByLocale;
+            const fallbackNames = data.fallbackNames;
+
+            let preferredName;
+            if (nameMap.has('en-us')) {
+                preferredName = nameMap.get('en-us');
+            } else {
+                const fallback = Array.from(nameMap.entries()).find(([k]) => k.startsWith('en'));
+                if (fallback) {
+                    preferredName = fallback[1];
+                } else if (fallbackNames.length > 0) {
+                    preferredName = fallbackNames[0];
+                } else {
+                    preferredName = Array.from(nameMap.values())[0] || pkg;
+                }
+            }
+
+            const seenNames = new Set();
+            seenNames.add(preferredName);
+
+            const additionalLocales = Array.from(nameMap.entries())
+                .filter(([_, name]) => !seenNames.has(name))
+                .map(([locale, name]) => {
+                    seenNames.add(name);
+                    return { locale, name };
+                });
+
+            for (const fallbackName of fallbackNames) {
+                if (!seenNames.has(fallbackName)) {
+                    additionalLocales.push({ locale: '', name: fallbackName });
+                    seenNames.add(fallbackName);
+                }
+            }
+
             finalOutput[pkg] = {
-                appNames: Array.from(data.appNames),
+                appName: preferredName,
+                userFacing: data.userFacing,
+                additionalLocales,
                 devices: Array.from(data.devices).map(str => {
                     const [make, model, os] = str.split('||');
                     return { make, model, os };
