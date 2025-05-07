@@ -35,6 +35,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -99,7 +104,8 @@
   },
   "com.google.android.apps.scone": {
     "appNames": [
-      "Adaptive Connectivity Services"
+      "Adaptive Connectivity Services",
+      "Aanpasbare connectiviteitsservices"
     ],
     "devices": [
       {
@@ -110,6 +116,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -170,6 +181,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -281,7 +297,8 @@
   "com.google.android.marvin.talkback": {
     "appNames": [
       "Android Accessibility Suite",
-      "TalkBack"
+      "TalkBack",
+      "Android Toegankelijkheidstools"
     ],
     "devices": [
       {
@@ -308,6 +325,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -357,6 +379,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -382,6 +409,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -394,6 +426,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -405,6 +442,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -455,6 +497,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -514,6 +561,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -545,6 +597,7 @@
   "com.google.android.setupwizard": {
     "appNames": [
       "Android Setup",
+      "Android Set-up",
       "Android-Einrichtung"
     ],
     "devices": [
@@ -587,6 +640,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -651,6 +709,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -709,6 +772,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -730,6 +798,7 @@
       "Android system",
       "Ad Privacy",
       "Ad privacy",
+      "Advertentieprivacy",
       "Datenschutz bei Werbung"
     ],
     "devices": [
@@ -759,6 +828,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -779,6 +853,7 @@
     "appNames": [
       "Android System",
       "Android system",
+      "Android-systeem",
       "Android-System"
     ],
     "devices": [
@@ -823,6 +898,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -865,6 +945,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -897,6 +982,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -961,6 +1051,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -996,6 +1091,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -1047,6 +1147,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -1087,6 +1192,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -1337,6 +1447,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -1436,6 +1551,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -1557,44 +1677,6 @@
       "AR Zone"
     ],
     "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.google.ar.core": {
-    "appNames": [
-      "ARCore",
-      "Google Play Services for AR"
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
       {
         "make": "samsung",
         "model": "SM-S906B",
@@ -1921,6 +2003,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -1960,7 +2047,8 @@
   },
   "com.android.dreams.basic": {
     "appNames": [
-      "Basic Daydreams"
+      "Basic Daydreams",
+      "Algemene dagdromen"
     ],
     "devices": [
       {
@@ -1997,6 +2085,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -2139,6 +2232,7 @@
   "com.android.providers.blockednumber": {
     "appNames": [
       "Blocked Numbers Storage",
+      "Opslag voor geblokkeerde nummers",
       "Speicher für blockierte Nummern"
     ],
     "devices": [
@@ -2181,6 +2275,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -2246,6 +2345,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -2275,6 +2379,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -2347,6 +2456,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -2407,6 +2521,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -2490,7 +2609,8 @@
   },
   "com.google.android.calculator": {
     "appNames": [
-      "Calculator"
+      "Calculator",
+      "Rekenmachine"
     ],
     "devices": [
       {
@@ -2502,12 +2622,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.calendar": {
     "appNames": [
-      "Calendar"
+      "Calendar",
+      "Agenda"
     ],
     "devices": [
       {
@@ -2519,6 +2645,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -2538,6 +2669,7 @@
     "appNames": [
       "Calendar storage",
       "Calendar Storage",
+      "Agenda-opslag",
       "Kalenderspeicher"
     ],
     "devices": [
@@ -2580,6 +2712,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -2688,6 +2825,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -2828,6 +2970,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -2929,6 +3076,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -2990,6 +3142,7 @@
     "appNames": [
       "Captive portal login",
       "Captive Portal Login",
+      "Inloggen via captive portal",
       "Anmeldung über Captive Portal"
     ],
     "devices": [
@@ -3017,6 +3170,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -3071,6 +3229,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -3100,13 +3263,19 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.carrierlocation": {
     "appNames": [
       "Carrier Location",
-      "Operator Location"
+      "Operator Location",
+      "Provider toegang geven tot locatie"
     ],
     "devices": [
       {
@@ -3117,6 +3286,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -3159,6 +3333,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -3176,6 +3355,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -3221,6 +3405,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -3250,13 +3439,19 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.wfcactivation": {
     "appNames": [
       "Carrier Setup",
-      "Operator setup"
+      "Operator setup",
+      "Provider instellen"
     ],
     "devices": [
       {
@@ -3268,6 +3463,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -3276,6 +3476,7 @@
       "CarrierDefaultApp",
       "Carrier Communications",
       "Operator communications",
+      "Berichten van provider",
       "Kommunikation mit Mobilfunkanbieter"
     ],
     "devices": [
@@ -3308,6 +3509,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -3379,6 +3585,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -3435,6 +3646,7 @@
     "appNames": [
       "Certificate Installer",
       "Certificate installer",
+      "Certificaat-installatie",
       "Zertifikatsinstallationsprogramm"
     ],
     "devices": [
@@ -3477,6 +3689,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -3541,6 +3758,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -3582,7 +3804,8 @@
   "com.google.android.wallpaper.effects": {
     "appNames": [
       "Cinematic Wallpaper",
-      "Cinematic wallpaper"
+      "Cinematic wallpaper",
+      "Filmische achtergrond"
     ],
     "devices": [
       {
@@ -3593,6 +3816,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -3730,7 +3958,8 @@
   },
   "com.google.android.deskclock": {
     "appNames": [
-      "Clock"
+      "Clock",
+      "Klok"
     ],
     "devices": [
       {
@@ -3742,6 +3971,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -3890,6 +4124,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -3919,6 +4158,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -4049,6 +4293,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4086,6 +4335,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4102,6 +4356,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -4137,6 +4396,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4186,6 +4450,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4228,14 +4497,14 @@
         "os": "35"
       },
       {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
       },
       {
         "make": "NUU",
@@ -4246,6 +4515,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -4278,6 +4552,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4295,6 +4574,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4307,6 +4591,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4323,6 +4612,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -4346,6 +4640,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -4388,6 +4687,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -4444,6 +4748,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4460,6 +4769,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -4500,6 +4814,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4525,6 +4844,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4559,6 +4883,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4593,6 +4922,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -4612,6 +4946,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -4683,6 +5022,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4733,6 +5077,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4762,6 +5111,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -4812,6 +5166,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4859,6 +5218,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -4901,6 +5265,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4918,6 +5287,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4929,6 +5303,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -4971,6 +5350,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -4987,6 +5371,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5032,6 +5421,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -5088,6 +5482,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5110,6 +5509,23 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.settings.future.overlay.cheetah": {
+    "appNames": [
+      "com.android.settings.future.overlay.cheetah"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5121,6 +5537,18 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.settings.overlay.cheetah": {
+    "appNames": [
+      "com.android.settings.overlay.cheetah"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5146,6 +5574,18 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.settings.overlay.gp4bc": {
+    "appNames": [
+      "com.android.settings.overlay.gp4bc"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5219,6 +5659,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5248,6 +5693,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5290,6 +5740,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5319,6 +5774,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5354,6 +5814,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -5374,6 +5839,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5390,6 +5860,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5408,6 +5883,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5424,6 +5904,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5442,6 +5927,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5458,6 +5948,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5476,6 +5971,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5493,6 +5993,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5509,6 +6014,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5637,6 +6147,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -5669,6 +6184,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -5685,6 +6205,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -5784,6 +6309,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -6032,6 +6562,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6049,6 +6584,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6065,6 +6605,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -6119,6 +6664,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -6156,6 +6706,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6185,6 +6740,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6201,6 +6761,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -6229,6 +6794,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -6261,6 +6831,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6277,6 +6852,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -6307,6 +6887,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6324,6 +6909,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6340,6 +6930,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -6363,6 +6958,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -6395,6 +6995,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6411,6 +7016,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -6475,6 +7085,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6487,6 +7102,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6498,6 +7118,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -6532,6 +7157,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -6576,6 +7206,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6588,6 +7223,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6599,6 +7239,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -6902,6 +7547,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -6918,6 +7568,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7214,6 +7869,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7230,6 +7890,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7248,6 +7913,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7264,6 +7934,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7282,6 +7957,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7298,6 +7978,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7316,6 +8001,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7332,6 +8022,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7415,6 +8110,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7452,6 +8152,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7463,6 +8168,18 @@
       }
     ]
   },
+  "com.google.android.settings.overlay.clearcallingsettings2022": {
+    "appNames": [
+      "com.google.android.settings.overlay.clearcallingsettings2022"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.android.settings.overlay.pixelvpnconfig": {
     "appNames": [
       "com.google.android.settings.overlay.pixelvpnconfig"
@@ -7471,6 +8188,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7489,6 +8211,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7506,6 +8233,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7517,6 +8249,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7534,6 +8271,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7559,6 +8301,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7575,6 +8322,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7593,6 +8345,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7610,6 +8367,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7626,6 +8388,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7649,6 +8416,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -7688,6 +8460,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7700,6 +8477,18 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.euiccpixel.overlay.gs201": {
+    "appNames": [
+      "com.google.euiccpixel.overlay.gs201"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7729,6 +8518,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7746,6 +8540,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -7762,6 +8561,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -7796,6 +8600,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -8126,6 +8935,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -8767,6 +9581,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -9013,6 +9832,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9054,6 +9878,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -9136,6 +9965,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -9238,6 +10072,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -9300,6 +10139,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -9328,7 +10172,8 @@
   },
   "com.google.android.contacts": {
     "appNames": [
-      "Contacts"
+      "Contacts",
+      "Contacten"
     ],
     "devices": [
       {
@@ -9355,6 +10200,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -9405,7 +10255,8 @@
   },
   "com.android.providers.contacts": {
     "appNames": [
-      "Contacts Storage"
+      "Contacts Storage",
+      "Opslag contacten"
     ],
     "devices": [
       {
@@ -9439,6 +10290,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9469,6 +10325,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -9520,6 +10381,7 @@
     "appNames": [
       "Corner cutout",
       "Corner display cutout",
+      "Hoek-cutout",
       "Aussparung in der Ecke"
     ],
     "devices": [
@@ -9557,6 +10419,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -9610,6 +10477,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9652,7 +10524,8 @@
   "com.google.ambient.streaming": {
     "appNames": [
       "Cross-Device Services",
-      "Cross-device services"
+      "Cross-device services",
+      "Cross-device-services"
     ],
     "devices": [
       {
@@ -9663,6 +10536,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
@@ -9809,6 +10687,7 @@
     "appNames": [
       "Default Print Service",
       "Default print service",
+      "Standaard afdrukservice",
       "Standarddruckdienst"
     ],
     "devices": [
@@ -9853,6 +10732,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9894,7 +10778,8 @@
   },
   "android.autoinstalls.config.google.nexus": {
     "appNames": [
-      "Device configuration"
+      "Device configuration",
+      "Apparaatconfiguratie"
     ],
     "devices": [
       {
@@ -9905,6 +10790,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -9935,6 +10825,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -9970,6 +10865,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9994,6 +10894,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -10023,6 +10928,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
@@ -10080,7 +10990,8 @@
   },
   "com.google.android.apps.work.oobconfig": {
     "appNames": [
-      "Device setup"
+      "Device setup",
+      "Apparaatinstallatie"
     ],
     "devices": [
       {
@@ -10091,6 +11002,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -10115,6 +11031,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -10160,6 +11081,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
@@ -10282,6 +11208,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -10344,7 +11275,8 @@
   },
   "com.google.android.apps.wellbeing": {
     "appNames": [
-      "Digital Wellbeing"
+      "Digital Wellbeing",
+      "Digitaal welzijn"
     ],
     "devices": [
       {
@@ -10366,6 +11298,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -10405,6 +11342,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -10425,6 +11367,7 @@
     "appNames": [
       "Double cutout",
       "Double display cutout",
+      "Dubbele cutout",
       "Doppelte Aussparung"
     ],
     "devices": [
@@ -10464,6 +11407,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10483,6 +11431,7 @@
   "com.android.providers.downloads": {
     "appNames": [
       "Download Manager",
+      "Downloadbeheer",
       "Download-Manager"
     ],
     "devices": [
@@ -10525,6 +11474,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -10587,6 +11541,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -10677,6 +11636,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -10694,6 +11658,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -10856,6 +11825,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -11026,6 +12000,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11115,6 +12094,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -11265,6 +12249,7 @@
   "com.android.externalstorage": {
     "appNames": [
       "External Storage",
+      "Externe opslag",
       "Externer Speicher"
     ],
     "devices": [
@@ -11309,6 +12294,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11327,7 +12317,8 @@
   },
   "com.google.android.flipendo": {
     "appNames": [
-      "Extreme Battery Saver"
+      "Extreme Battery Saver",
+      "Extreme batterijbesparing"
     ],
     "devices": [
       {
@@ -11338,6 +12329,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -11407,6 +12403,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -11493,6 +12494,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -11568,6 +12574,7 @@
     "appNames": [
       "Family Link parental controls",
       "System parental controls",
+      "Ouderlijk toezicht van systeem",
       "Jugendschutzeinstellungen"
     ],
     "devices": [
@@ -11595,6 +12602,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -11664,6 +12676,7 @@
   "com.google.android.documentsui": {
     "appNames": [
       "Files",
+      "Bestanden",
       "Dateien"
     ],
     "devices": [
@@ -11693,6 +12706,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11717,6 +12735,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
@@ -11891,6 +12914,7 @@
   "com.android.location.fused": {
     "appNames": [
       "Fused Location",
+      "Samengestelde locatie",
       "Kombinierte Standortbest."
     ],
     "devices": [
@@ -11933,6 +12957,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -12257,6 +13286,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12468,6 +13502,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12590,6 +13629,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -12654,6 +13698,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12697,6 +13746,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -12733,6 +13787,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -12811,6 +13870,7 @@
   "com.google.android.gms.location.history": {
     "appNames": [
       "Google Location History",
+      "Locatiegeschiedenis van Google",
       "Google-Standortverlauf"
     ],
     "devices": [
@@ -12843,6 +13903,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -12905,6 +13970,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -12970,6 +14040,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -13001,7 +14076,8 @@
   "com.google.android.avatarpicker": {
     "appNames": [
       "Google Pixel Avatar Picker",
-      "Choose a picture"
+      "Choose a picture",
+      "Afbeelding kiezen"
     ],
     "devices": [
       {
@@ -13012,6 +14088,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -13019,7 +14100,8 @@
   "com.google.android.odad": {
     "appNames": [
       "Google Play Protect Service",
-      "Google Play Protect service"
+      "Google Play Protect service",
+      "Google Play Protect-service"
     ],
     "devices": [
       {
@@ -13031,12 +14113,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.gms": {
     "appNames": [
       "Google Play services",
+      "Google Play-services",
       "Google Play-Dienste"
     ],
     "devices": [
@@ -13081,9 +14169,57 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.google.ar.core": {
+    "appNames": [
+      "Google Play Services for AR",
+      "ARCore"
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -13143,6 +14279,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -13163,6 +14304,7 @@
     "appNames": [
       "Google Safety Centre resources",
       "Google Safety Center Resources",
+      "Google Veiligheidscentrum-bronnen",
       "Google Sicherheitscenter-Ressourcen"
     ],
     "devices": [
@@ -13190,6 +14332,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -13286,6 +14433,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -13316,6 +14468,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -13332,6 +14489,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -13360,6 +14522,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -13486,6 +14653,18 @@
       }
     ]
   },
+  "com.google.android.apps.healthdata": {
+    "appNames": [
+      "Health Connect"
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.android.healthconnect.controller": {
     "appNames": [
       "Health Connect",
@@ -13506,6 +14685,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -13562,13 +14746,19 @@
   },
   "com.android.internal.display.cutout.emulation.noCutout": {
     "appNames": [
-      "Hide"
+      "Hide",
+      "Verbergen"
     ],
     "devices": [
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -13621,6 +14811,7 @@
   "com.android.htmlviewer": {
     "appNames": [
       "HTML Viewer",
+      "HTML-viewer",
       "HTML-Anzeige"
     ],
     "devices": [
@@ -13663,6 +14854,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -13805,12 +15001,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.android.inputdevices": {
     "appNames": [
       "Input Devices",
+      "Invoerapparaten",
       "Eingabegeräte"
     ],
     "devices": [
@@ -13853,6 +15055,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -13929,6 +15136,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -14074,6 +15286,7 @@
   "com.android.keychain": {
     "appNames": [
       "Key Chain",
+      "Sleutelhanger",
       "Key chain"
     ],
     "devices": [
@@ -14116,6 +15329,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -14533,6 +15751,7 @@
     "appNames": [
       "Live Transcribe and Sound Notifications",
       "Live Transcribe & Sound Notifications",
+      "Live transcriptie & Geluidsmeldingen",
       "Automatische Transkription & Geräusch­­­­­benachrichtigungen"
     ],
     "devices": [
@@ -14547,6 +15766,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -14556,6 +15780,7 @@
   "com.android.wallpaper.livepicker": {
     "appNames": [
       "Live Wallpaper Picker",
+      "Interactieve achtergrondkiezer",
       "Live wallpaper selector",
       "Live-Hintergrund-Auswahl"
     ],
@@ -14594,6 +15819,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -14753,6 +15983,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -14800,6 +16035,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -14842,6 +16082,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -14866,6 +16111,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -14874,7 +16124,8 @@
   },
   "com.google.android.feedback": {
     "appNames": [
-      "Market Feedback Agent"
+      "Market Feedback Agent",
+      "Market-feedbackagent"
     ],
     "devices": [
       {
@@ -14918,6 +16169,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -14947,6 +16203,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -15011,6 +16272,7 @@
     "appNames": [
       "Media",
       "Media picker",
+      "Mediakiezer",
       "Media-Auswahl"
     ],
     "devices": [
@@ -15038,6 +16300,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -15100,8 +16367,8 @@
   },
   "com.google.android.apps.tachyon": {
     "appNames": [
-      "Meet Installer",
       "Meet",
+      "Meet Installer",
       "Duo"
     ],
     "devices": [
@@ -15163,7 +16430,8 @@
   },
   "com.google.android.apps.messaging": {
     "appNames": [
-      "Messages"
+      "Messages",
+      "Berichten"
     ],
     "devices": [
       {
@@ -15200,6 +16468,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -15450,6 +16723,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15672,6 +16950,7 @@
   "com.android.mtp": {
     "appNames": [
       "MTP Host",
+      "MTP-host",
       "MTP-Host"
     ],
     "devices": [
@@ -15714,6 +16993,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -15774,6 +17058,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -15813,6 +17102,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -15925,6 +17219,7 @@
   "com.google.android.networkstack": {
     "appNames": [
       "Network manager",
+      "Netwerkbeheer",
       "Netzwerkmanager"
     ],
     "devices": [
@@ -15952,6 +17247,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -16123,6 +17423,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16202,6 +17507,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16227,12 +17537,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.euiccpixel": {
     "appNames": [
-      "NFC/eSE/eSIM firmware updater"
+      "NFC/eSE/eSIM firmware updater",
+      "Firmware-updater NFC/eSE/e-simkaart"
     ],
     "devices": [
       {
@@ -16243,6 +17559,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -16266,6 +17587,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -16318,6 +17644,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -16417,6 +17748,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -16721,6 +18057,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16776,6 +18117,7 @@
   "com.google.android.packageinstaller": {
     "appNames": [
       "Package installer",
+      "Pakket-installatie",
       "Paketinstallation"
     ],
     "devices": [
@@ -16818,6 +18160,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -16880,6 +18227,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -17007,6 +18359,7 @@
   "com.google.android.permissioncontroller": {
     "appNames": [
       "Permission controller",
+      "Rechtenbeheer",
       "Berechtigungssteuerung"
     ],
     "devices": [
@@ -17034,6 +18387,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -17123,7 +18481,8 @@
   },
   "com.google.android.apps.safetyhub": {
     "appNames": [
-      "Personal Safety"
+      "Personal Safety",
+      "Persoonlijke veiligheid"
     ],
     "devices": [
       {
@@ -17134,6 +18493,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -17198,7 +18562,8 @@
   },
   "com.google.android.dialer": {
     "appNames": [
-      "Phone"
+      "Phone",
+      "Telefoon"
     ],
     "devices": [
       {
@@ -17215,6 +18580,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -17253,6 +18623,7 @@
   "com.android.providers.telephony": {
     "appNames": [
       "Phone and Messaging Storage",
+      "Opslag telefoon/berichten",
       "Phone Call/SMS Storage",
       "Telefon- und SMS-Speicher"
     ],
@@ -17298,6 +18669,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -17319,6 +18695,7 @@
       "Phone calls",
       "Phone Calls",
       "Call Management",
+      "Telefoon­gesprekken",
       "Telefonanrufe"
     ],
     "devices": [
@@ -17363,6 +18740,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -17383,6 +18765,7 @@
     "appNames": [
       "Phone services",
       "Phone Services",
+      "Telefoonservices",
       "Telefondienste"
     ],
     "devices": [
@@ -17425,6 +18808,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -17572,6 +18960,7 @@
   "com.google.android.apps.photos": {
     "appNames": [
       "Photos",
+      "Foto's",
       "Fotos"
     ],
     "devices": [
@@ -17589,6 +18978,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -17596,6 +18990,7 @@
     "appNames": [
       "Photos & videos",
       "Photos and videos",
+      "Foto's en video's",
       "Fotos & Videos"
     ],
     "devices": [
@@ -17618,6 +19013,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -17657,6 +19057,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -17675,6 +19080,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -17686,6 +19096,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -17703,6 +19118,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -17722,6 +19142,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -17740,7 +19165,8 @@
   "com.google.android.pixel.setupwizard": {
     "appNames": [
       "Pixel Setup",
-      "Pixel setup"
+      "Pixel setup",
+      "Pixel instellen"
     ],
     "devices": [
       {
@@ -17751,6 +19177,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -17768,6 +19199,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -17798,6 +19234,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -17815,12 +19256,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.apps.tips": {
     "appNames": [
-      "Pixel Tips"
+      "Pixel Tips",
+      "Pixel-tips"
     ],
     "devices": [
       {
@@ -17831,6 +19278,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -17849,12 +19301,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.apps.weather": {
     "appNames": [
-      "Pixel Weather"
+      "Pixel Weather",
+      "Het Weer van Pixel"
     ],
     "devices": [
       {
@@ -17865,6 +19323,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -17882,6 +19345,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -18003,6 +19471,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18022,6 +19495,7 @@
   "com.android.printspooler": {
     "appNames": [
       "Print Spooler",
+      "Afdrukspooler",
       "Druck-Spooler"
     ],
     "devices": [
@@ -18064,6 +19538,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -18111,6 +19590,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -18199,6 +19683,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18231,6 +19720,7 @@
     "appNames": [
       "Punch hole cutout",
       "Punch Hole cutout",
+      "Cameragat-cutout",
       "Ausschnitt für Punch-Hole-Display"
     ],
     "devices": [
@@ -18263,6 +19753,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -18479,6 +19974,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -18495,6 +19995,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -18538,6 +20043,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -18578,6 +20088,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
@@ -18623,20 +20138,27 @@
   },
   "com.android.internal.display.cutout.emulation.avoidAppsInCutout": {
     "appNames": [
-      "Render apps below cutout area"
+      "Render apps below cutout area",
+      "Apps renderen onder display-cutout"
     ],
     "devices": [
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.repairmode": {
     "appNames": [
       "Repair Mode",
-      "Repair mode"
+      "Repair mode",
+      "Reparatiemodus"
     ],
     "devices": [
       {
@@ -18648,29 +20170,46 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.retaildemo": {
     "appNames": [
-      "Retail Demo"
+      "Retail Demo",
+      "com.google.android.retaildemo"
     ],
     "devices": [
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.google.android.apps.retaildemo.preload": {
     "appNames": [
-      "Retail demo services"
+      "Retail demo services",
+      "Services voor demo voor de detailhandel"
     ],
     "devices": [
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -18724,6 +20263,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -18866,7 +20410,8 @@
   },
   "com.android.safetyregulatoryinfo": {
     "appNames": [
-      "Safety & regulatory manual"
+      "Safety & regulatory manual",
+      "Handleiding voor veiligheid en regelgeving"
     ],
     "devices": [
       {
@@ -18883,6 +20428,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -20196,6 +21746,7 @@
     "appNames": [
       "Search engine selector",
       "Search Engine Selector",
+      "Kiezer voor zoekmachine",
       "Suchmaschinenauswahl"
     ],
     "devices": [
@@ -20223,6 +21774,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -20385,6 +21941,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -20632,6 +22193,7 @@
   "com.android.settings": {
     "appNames": [
       "Settings",
+      "Instellingen",
       "Einstellungen"
     ],
     "devices": [
@@ -20676,6 +22238,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -20694,7 +22261,8 @@
   },
   "com.google.android.settings.intelligence": {
     "appNames": [
-      "Settings Services"
+      "Settings Services",
+      "Instellingenassistent"
     ],
     "devices": [
       {
@@ -20706,12 +22274,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.android.providers.settings": {
     "appNames": [
       "Settings Storage",
+      "Opslagruimte voor instellingen",
       "Einstellungsspeicher"
     ],
     "devices": [
@@ -20754,6 +22328,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -20946,6 +22525,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21049,6 +22633,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21067,7 +22656,8 @@
   },
   "com.google.android.euicc": {
     "appNames": [
-      "SIM Manager"
+      "SIM Manager",
+      "Sim-manager"
     ],
     "devices": [
       {
@@ -21078,6 +22668,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -21105,6 +22700,7 @@
       "SIM Toolkit",
       "SIM toolkit",
       "SIM Tool Kit",
+      "SIM-toolkit",
       "SIM-Toolkit"
     ],
     "devices": [
@@ -21147,6 +22743,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -21349,7 +22950,8 @@
   "com.google.android.storagemanager": {
     "appNames": [
       "Smart Storage",
-      "Storage Manager"
+      "Storage Manager",
+      "Opslagbeheer"
     ],
     "devices": [
       {
@@ -21360,6 +22962,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -21651,12 +23258,18 @@
   },
   "com.google.android.accessibility.soundamplifier": {
     "appNames": [
-      "Sound Amplifier"
+      "Sound Amplifier",
+      "Geluidsversterker"
     ],
     "devices": [
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -21709,7 +23322,8 @@
   },
   "com.google.android.soundpicker": {
     "appNames": [
-      "Sounds"
+      "Sounds",
+      "Geluiden"
     ],
     "devices": [
       {
@@ -21721,12 +23335,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
   "com.android.soundpicker": {
     "appNames": [
-      "Sounds"
+      "Sounds",
+      "Geluiden"
     ],
     "devices": [
       {
@@ -21748,6 +23368,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -21782,10 +23407,11 @@
   },
   "com.google.android.tts": {
     "appNames": [
-      "Speech Services by Google",
       "Speech Recognition and Synthesis from Google",
+      "Speech Services by Google",
       "Google Text-to-speech engine",
       "Google Text-to-speech Engine",
+      "Spraakherkenning en -synthese van Google",
       "Spracherkennung und -Synthese von Google"
     ],
     "devices": [
@@ -21828,6 +23454,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -22073,6 +23704,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22113,7 +23749,8 @@
   },
   "com.google.android.accessibility.switchaccess": {
     "appNames": [
-      "Switch Access"
+      "Switch Access",
+      "Toegang via schakelaar"
     ],
     "devices": [
       {
@@ -22124,6 +23761,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
@@ -22142,6 +23784,7 @@
     "appNames": [
       "System connectivity resources",
       "System Connectivity Resources",
+      "Resources voor systeemconnectiviteit",
       "Systemverbindungsressourcen"
     ],
     "devices": [
@@ -22169,6 +23812,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -22277,6 +23925,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22296,6 +23949,7 @@
   "com.android.systemui": {
     "appNames": [
       "System UI",
+      "Systeem-UI",
       "System-UI"
     ],
     "devices": [
@@ -22338,6 +23992,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -22440,6 +24099,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22478,7 +24142,8 @@
   "com.google.android.wifi.resources": {
     "appNames": [
       "System Wi-Fi Resources",
-      "System Wi-Fi resources"
+      "System Wi-Fi resources",
+      "Wifi-bronnen systeem"
     ],
     "devices": [
       {
@@ -22495,6 +24160,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -22521,6 +24191,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -22610,6 +24285,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22654,6 +24334,7 @@
     "appNames": [
       "Tall cutout",
       "Tall display cutout",
+      "Hoge cutout",
       "Hohe Aussparung"
     ],
     "devices": [
@@ -22691,6 +24372,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -22806,6 +24492,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -22838,6 +24529,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -22881,6 +24577,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -23026,6 +24727,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -23218,6 +24924,7 @@
   "com.android.providers.userdictionary": {
     "appNames": [
       "User Dictionary",
+      "Gebruikerswoordenboek",
       "Mein Wörterbuch"
     ],
     "devices": [
@@ -23260,6 +24967,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -23589,6 +25301,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -23649,12 +25366,18 @@
   },
   "com.google.android.apps.privacy.wildlife": {
     "appNames": [
-      "VPN by Google"
+      "VPN by Google",
+      "VPN van Google"
     ],
     "devices": [
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -23705,6 +25428,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -23724,7 +25452,8 @@
   "com.google.android.apps.wallpaper": {
     "appNames": [
       "Wallpaper & style",
-      "Wallpaper and style"
+      "Wallpaper and style",
+      "Achtergrond en stijl"
     ],
     "devices": [
       {
@@ -23735,6 +25464,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -23841,6 +25575,7 @@
   "com.android.internal.display.cutout.emulation.waterfall": {
     "appNames": [
       "Waterfall cutout",
+      "Waterval-cutout",
       "Aussparung für Wasserfall-Display"
     ],
     "devices": [
@@ -23873,6 +25608,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -23979,6 +25719,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       }
     ]
@@ -24134,6 +25879,7 @@
     "appNames": [
       "Wireless emergency alerts",
       "Emergency alerts",
+      "Mobiele noodmeldingen",
       "Notfallbenachrichtigungen an Mobilgeräte"
     ],
     "devices": [
@@ -24156,6 +25902,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -24283,6 +26034,7 @@
     "appNames": [
       "Work Setup",
       "Work profile setup",
+      "Werkinstelling",
       "Einrichtung des Arbeitsprofils"
     ],
     "devices": [
@@ -24325,6 +26077,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       },
       {
         "make": "RHINO",
@@ -24429,6 +26186,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -24449,6 +26211,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   }
