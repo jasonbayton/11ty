@@ -575,7 +575,7 @@
         "name": "Android S Easter Egg"
       },
       {
-        "locale": "",
+        "locale": "en-za",
         "name": "Android R Easter Egg"
       }
     ],
@@ -907,6 +907,10 @@
     "additionalLocales": [
       {
         "locale": "",
+        "name": "Android Setup"
+      },
+      {
+        "locale": "en-za",
         "name": "Android Setup"
       }
     ],
@@ -2666,6 +2670,10 @@
       {
         "locale": "en-gb",
         "name": "Bluetooth"
+      },
+      {
+        "locale": "en-za",
+        "name": "Bluetooth"
       }
     ],
     "devices": [
@@ -2957,7 +2965,7 @@
   },
   "com.google.android.calculator": {
     "appName": "Calculator",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -2994,7 +3002,7 @@
   },
   "com.google.android.calendar": {
     "appName": "Calendar",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -3423,7 +3431,7 @@
   },
   "com.android.camera2": {
     "appName": "Camera",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -3761,6 +3769,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "CarrierDefaultApp"
+      },
+      {
+        "locale": "en-za",
         "name": "CarrierDefaultApp"
       },
       {
@@ -4545,7 +4557,7 @@
   },
   "com.google.android.deskclock": {
     "appName": "Clock",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -13049,7 +13061,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-za",
         "name": "Files"
       }
     ],
@@ -13139,7 +13151,7 @@
   },
   "com.google.android.apps.docs": {
     "appName": "Drive",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -15279,7 +15291,7 @@
   },
   "com.google.android.gm": {
     "appName": "Gmail",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -15744,10 +15756,14 @@
   },
   "com.google.android.videos": {
     "appName": "Google Play Movies & TV",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
+        "name": "Google TV"
+      },
+      {
+        "locale": "en-za",
         "name": "Google TV"
       }
     ],
@@ -17133,8 +17149,13 @@
   },
   "com.google.android.keep": {
     "appName": "Keep Notes",
-    "userFacing": false,
-    "additionalLocales": [],
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "en-za",
+        "name": "Keep notes"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -18059,7 +18080,7 @@
   },
   "com.google.android.apps.maps": {
     "appName": "Maps",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -21048,6 +21069,10 @@
         "name": "Phone calls"
       },
       {
+        "locale": "en-za",
+        "name": "Call Management"
+      },
+      {
         "locale": "",
         "name": "Telefoon­gesprekken"
       },
@@ -21345,7 +21370,7 @@
   },
   "com.google.android.apps.photos": {
     "appName": "Photos",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -22260,7 +22285,7 @@
   },
   "com.syntheticsoft.telecomm": {
     "appName": "PsychicMonkey",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -22280,6 +22305,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "Punch hole cutout"
+      },
+      {
+        "locale": "en-za",
         "name": "Punch hole cutout"
       },
       {
@@ -25454,6 +25483,10 @@
         "name": "Sim app dialogue"
       },
       {
+        "locale": "en-za",
+        "name": "Sim app dialogue"
+      },
+      {
         "locale": "",
         "name": "SIM-App-Dialogfeld"
       }
@@ -25558,12 +25591,12 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "SIM toolkit"
+        "locale": "en-za",
+        "name": "SIM Tool Kit"
       },
       {
         "locale": "",
-        "name": "SIM Tool Kit"
+        "name": "SIM toolkit"
       },
       {
         "locale": "",
@@ -26416,12 +26449,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Speech Services by Google"
+        "locale": "en-za",
+        "name": "Google Text-to-speech engine"
       },
       {
         "locale": "",
-        "name": "Google Text-to-speech engine"
+        "name": "Speech Services by Google"
       },
       {
         "locale": "",
@@ -29601,7 +29634,7 @@
   },
   "com.google.android.youtube": {
     "appName": "YouTube",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -29653,7 +29686,7 @@
   },
   "com.google.android.apps.youtube.music": {
     "appName": "YouTube Music",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
