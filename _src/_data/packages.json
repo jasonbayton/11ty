@@ -1,7 +1,11 @@
 {
   "com.android.internal.systemui.navbar.threebutton": {
     "appNames": [
-      "3 Button Navigation Bar"
+      "3 Button Navigation Bar",
+      {
+        "value": "3 Button Navigation Bar",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -110,7 +114,11 @@
   "com.google.android.apps.scone": {
     "appNames": [
       "Adaptive Connectivity Services",
-      "Aanpasbare connectiviteitsservices"
+      "Aanpasbare connectiviteitsservices",
+      {
+        "value": "Adaptive Connectivity Services",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -174,7 +182,11 @@
   "com.google.android.aicore": {
     "appNames": [
       "AI Core",
-      "AICore"
+      "AICore",
+      {
+        "value": "AI Core",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -313,6 +325,10 @@
     "appNames": [
       "Android Accessibility Suite",
       "Android Toegankelijkheidstools",
+      {
+        "value": "Android Accessibility Suite",
+        "locale": "en-US"
+      },
       "TalkBack"
     ],
     "devices": [
@@ -365,7 +381,11 @@
   },
   "com.google.android.projection.gearhead": {
     "appNames": [
-      "Android Auto"
+      "Android Auto",
+      {
+        "value": "Android Auto",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -495,7 +515,11 @@
     "appNames": [
       "Android S Easter Egg",
       "Android Easter Egg",
-      "Android R Easter Egg"
+      "Android R Easter Egg",
+      {
+        "value": "Android Easter Egg",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -567,7 +591,11 @@
   },
   "com.google.android.ext.services": {
     "appNames": [
-      "Android Services Library"
+      "Android Services Library",
+      {
+        "value": "Android Services Library",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -648,6 +676,10 @@
     "appNames": [
       "Android Setup",
       "Android Set-up",
+      {
+        "value": "Android Setup",
+        "locale": "en-US"
+      },
       "Android-Einrichtung"
     ],
     "devices": [
@@ -720,7 +752,11 @@
   },
   "com.google.android.ext.shared": {
     "appNames": [
-      "Android Shared Library"
+      "Android Shared Library",
+      {
+        "value": "Android Shared Library",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -793,7 +829,11 @@
   "com.google.android.apps.restore": {
     "appNames": [
       "Android Switch",
-      "Android Setup"
+      "Android Setup",
+      {
+        "value": "Android Switch",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -864,6 +904,10 @@
       "Ad Privacy",
       "Ad privacy",
       "Advertentieprivacy",
+      {
+        "value": "Ad Privacy",
+        "locale": "en-US"
+      },
       "Datenschutz bei Werbung"
     ],
     "devices": [
@@ -924,6 +968,10 @@
       "Android System",
       "Android system",
       "Android-systeem",
+      {
+        "value": "Android System",
+        "locale": "en-US"
+      },
       "Android-System"
     ],
     "devices": [
@@ -1008,7 +1056,11 @@
   },
   "com.android.angle": {
     "appNames": [
-      "Android System Angle"
+      "Android System Angle",
+      {
+        "value": "Android System Angle",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -1035,7 +1087,11 @@
   },
   "com.google.android.as": {
     "appNames": [
-      "Android System Intelligence"
+      "Android System Intelligence",
+      {
+        "value": "Android System Intelligence",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -1092,7 +1148,11 @@
   },
   "com.google.android.webview": {
     "appNames": [
-      "Android System WebView"
+      "Android System WebView",
+      {
+        "value": "Android System WebView",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -1164,7 +1224,11 @@
   },
   "android.auto_generated_characteristics_rro": {
     "appNames": [
-      "android.auto_generated_characteristics_rro"
+      "android.auto_generated_characteristics_rro",
+      {
+        "value": "android.auto_generated_characteristics_rro",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -1213,7 +1277,11 @@
   },
   "android.auto_generated_rro_product__": {
     "appNames": [
-      "android.auto_generated_rro_product__"
+      "android.auto_generated_rro_product__",
+      {
+        "value": "android.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -1265,7 +1333,11 @@
   },
   "android.auto_generated_rro_vendor__": {
     "appNames": [
-      "android.auto_generated_rro_vendor__"
+      "android.auto_generated_rro_vendor__",
+      {
+        "value": "android.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -1540,7 +1612,11 @@
   },
   "com.vzw.apnlib": {
     "appNames": [
-      "apnlib"
+      "apnlib",
+      {
+        "value": "apnlib",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -1650,7 +1726,11 @@
   },
   "com.verizon.services": {
     "appNames": [
-      "AppDirectedSMS"
+      "AppDirectedSMS",
+      {
+        "value": "AppDirectedSMS",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2106,7 +2186,11 @@
   },
   "com.google.android.pixel.avatarpicker": {
     "appNames": [
-      "AvatarPickerPixelOverlay"
+      "AvatarPickerPixelOverlay",
+      {
+        "value": "AvatarPickerPixelOverlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2168,7 +2252,11 @@
   "com.android.dreams.basic": {
     "appNames": [
       "Basic Daydreams",
-      "Algemene dagdromen"
+      "Algemene dagdromen",
+      {
+        "value": "Basic Daydreams",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2358,6 +2446,10 @@
     "appNames": [
       "Blocked Numbers Storage",
       "Opslag voor geblokkeerde nummers",
+      {
+        "value": "Blocked Numbers Storage",
+        "locale": "en-US"
+      },
       "Speicher für blockierte Nummern"
     ],
     "devices": [
@@ -2431,7 +2523,11 @@
   "com.android.bluetooth": {
     "appNames": [
       "Bluetooth",
-      "Bluetooth Legacy"
+      "Bluetooth Legacy",
+      {
+        "value": "Bluetooth Legacy",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2503,7 +2599,11 @@
   },
   "com.google.android.bluetooth": {
     "appNames": [
-      "Bluetooth"
+      "Bluetooth",
+      {
+        "value": "Bluetooth",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2552,7 +2652,11 @@
   },
   "com.android.bluetoothmidiservice": {
     "appNames": [
-      "Bluetooth MIDI Service"
+      "Bluetooth MIDI Service",
+      {
+        "value": "Bluetooth MIDI Service",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2624,7 +2728,11 @@
   },
   "com.android.bookmarkprovider": {
     "appNames": [
-      "Bookmark Provider"
+      "Bookmark Provider",
+      {
+        "value": "Bookmark Provider",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2760,7 +2868,11 @@
   "com.google.android.calculator": {
     "appNames": [
       "Calculator",
-      "Rekenmachine"
+      "Rekenmachine",
+      {
+        "value": "Calculator",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2777,6 +2889,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -2788,7 +2905,11 @@
   "com.google.android.calendar": {
     "appNames": [
       "Calendar",
-      "Agenda"
+      "Agenda",
+      {
+        "value": "Calendar",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -2805,6 +2926,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -2830,6 +2956,10 @@
       "Calendar storage",
       "Calendar Storage",
       "Agenda-opslag",
+      {
+        "value": "Calendar Storage",
+        "locale": "en-US"
+      },
       "Kalenderspeicher"
     ],
     "devices": [
@@ -2948,7 +3078,11 @@
   },
   "com.android.calllogbackup": {
     "appNames": [
-      "Call Log Backup/Restore"
+      "Call Log Backup/Restore",
+      {
+        "value": "Call Log Backup/Restore",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3128,7 +3262,11 @@
   },
   "com.google.android.GoogleCamera": {
     "appNames": [
-      "Camera"
+      "Camera",
+      {
+        "value": "Camera",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3222,7 +3360,11 @@
   },
   "com.android.cameraextensions": {
     "appNames": [
-      "CameraExtensionsProxy"
+      "CameraExtensionsProxy",
+      {
+        "value": "CameraExtensionsProxy",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3323,6 +3465,10 @@
       "Captive portal login",
       "Captive Portal Login",
       "Inloggen via captive portal",
+      {
+        "value": "Captive Portal Login",
+        "locale": "en-US"
+      },
       "Anmeldung über Captive Portal"
     ],
     "devices": [
@@ -3402,7 +3548,11 @@
   },
   "com.android.captiveportallogin.overlay": {
     "appNames": [
-      "CaptivePortalLoginOverlay"
+      "CaptivePortalLoginOverlay",
+      {
+        "value": "CaptivePortalLoginOverlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3441,7 +3591,11 @@
   },
   "com.google.android.apps.carrier.log": {
     "appNames": [
-      "Carrier App Logging"
+      "Carrier App Logging",
+      {
+        "value": "Carrier App Logging",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3470,7 +3624,11 @@
     "appNames": [
       "Carrier Location",
       "Operator Location",
-      "Provider toegang geven tot locatie"
+      "Provider toegang geven tot locatie",
+      {
+        "value": "Carrier Location",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3521,7 +3679,11 @@
   },
   "com.android.sdm.plugins.dcmo": {
     "appNames": [
-      "Carrier OMADM"
+      "Carrier OMADM",
+      {
+        "value": "Carrier OMADM",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3549,7 +3711,11 @@
   "com.android.omadm.service": {
     "appNames": [
       "Carrier Provisioning Service",
-      "DMService"
+      "DMService",
+      {
+        "value": "Carrier Provisioning Service",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3603,7 +3769,11 @@
   },
   "com.google.android.carrier": {
     "appNames": [
-      "Carrier Settings"
+      "Carrier Settings",
+      {
+        "value": "Carrier Settings",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3642,7 +3812,11 @@
   },
   "com.google.android.carriersetup": {
     "appNames": [
-      "Carrier Setup"
+      "Carrier Setup",
+      {
+        "value": "Carrier Setup",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3671,7 +3845,11 @@
     "appNames": [
       "Carrier Setup",
       "Operator setup",
-      "Provider instellen"
+      "Provider instellen",
+      {
+        "value": "Carrier Setup",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3702,6 +3880,10 @@
       "Carrier Communications",
       "Operator communications",
       "Berichten van provider",
+      {
+        "value": "Carrier Communications",
+        "locale": "en-US"
+      },
       "Kommunikation mit Mobilfunkanbieter"
     ],
     "devices": [
@@ -3786,7 +3968,11 @@
   },
   "com.google.android.cellbroadcastservice": {
     "appNames": [
-      "Cell Broadcast Service"
+      "Cell Broadcast Service",
+      {
+        "value": "Cell Broadcast Service",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -3882,6 +4068,10 @@
       "Certificate Installer",
       "Certificate installer",
       "Certificaat-installatie",
+      {
+        "value": "Certificate Installer",
+        "locale": "en-US"
+      },
       "Zertifikatsinstallationsprogramm"
     ],
     "devices": [
@@ -3954,7 +4144,11 @@
   },
   "com.android.chrome": {
     "appNames": [
-      "Chrome"
+      "Chrome",
+      {
+        "value": "Chrome",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4050,7 +4244,11 @@
     "appNames": [
       "Cinematic Wallpaper",
       "Cinematic wallpaper",
-      "Filmische achtergrond"
+      "Filmische achtergrond",
+      {
+        "value": "Cinematic Wallpaper",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4209,7 +4407,11 @@
   "com.google.android.deskclock": {
     "appNames": [
       "Clock",
-      "Klok"
+      "Klok",
+      {
+        "value": "Clock",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4226,6 +4428,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -4335,7 +4542,11 @@
   },
   "com.android.backupconfirm": {
     "appNames": [
-      "com.android.backupconfirm"
+      "com.android.backupconfirm",
+      {
+        "value": "com.android.backupconfirm",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4407,7 +4618,11 @@
   },
   "com.android.bips.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.bips.auto_generated_rro_product__"
+      "com.android.bips.auto_generated_rro_product__",
+      {
+        "value": "com.android.bips.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4534,7 +4749,11 @@
   },
   "com.android.cellbroadcastreceiver": {
     "appNames": [
-      "com.android.cellbroadcastreceiver"
+      "com.android.cellbroadcastreceiver",
+      {
+        "value": "com.android.cellbroadcastreceiver",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4593,7 +4812,11 @@
   },
   "com.android.cellbroadcastreceiver.overlay.pixel": {
     "appNames": [
-      "com.android.cellbroadcastreceiver.overlay.pixel"
+      "com.android.cellbroadcastreceiver.overlay.pixel",
+      {
+        "value": "com.android.cellbroadcastreceiver.overlay.pixel",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4620,7 +4843,11 @@
   },
   "com.android.cellbroadcastservice.overlay.pixel": {
     "appNames": [
-      "com.android.cellbroadcastservice.overlay.pixel"
+      "com.android.cellbroadcastservice.overlay.pixel",
+      {
+        "value": "com.android.cellbroadcastservice.overlay.pixel",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4659,7 +4886,11 @@
   },
   "com.android.companiondevicemanager.auto_generated_characteristics_rro": {
     "appNames": [
-      "com.android.companiondevicemanager.auto_generated_characteristics_rro"
+      "com.android.companiondevicemanager.auto_generated_characteristics_rro",
+      {
+        "value": "com.android.companiondevicemanager.auto_generated_characteristics_rro",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4691,7 +4922,11 @@
   },
   "com.android.cts.ctsshim": {
     "appNames": [
-      "com.android.cts.ctsshim"
+      "com.android.cts.ctsshim",
+      {
+        "value": "com.android.cts.ctsshim",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4763,7 +4998,11 @@
   },
   "com.android.cts.priv.ctsshim": {
     "appNames": [
-      "com.android.cts.priv.ctsshim"
+      "com.android.cts.priv.ctsshim",
+      {
+        "value": "com.android.cts.priv.ctsshim",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4835,7 +5074,11 @@
   },
   "com.android.devicediagnostics.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.devicediagnostics.auto_generated_rro_product__"
+      "com.android.devicediagnostics.auto_generated_rro_product__",
+      {
+        "value": "com.android.devicediagnostics.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4862,7 +5105,11 @@
   },
   "com.android.devicediagnostics.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.android.devicediagnostics.auto_generated_rro_vendor__"
+      "com.android.devicediagnostics.auto_generated_rro_vendor__",
+      {
+        "value": "com.android.devicediagnostics.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4889,7 +5136,11 @@
   },
   "com.android.hbmsvmanager": {
     "appNames": [
-      "com.android.hbmsvmanager"
+      "com.android.hbmsvmanager",
+      {
+        "value": "com.android.hbmsvmanager",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4923,7 +5174,11 @@
   },
   "com.android.healthconnect.overlay": {
     "appNames": [
-      "com.android.healthconnect.overlay"
+      "com.android.healthconnect.overlay",
+      {
+        "value": "com.android.healthconnect.overlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4950,7 +5205,11 @@
   },
   "com.android.imsserviceentitlement": {
     "appNames": [
-      "com.android.imsserviceentitlement"
+      "com.android.imsserviceentitlement",
+      {
+        "value": "com.android.imsserviceentitlement",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -4987,7 +5246,11 @@
   },
   "com.android.localtransport": {
     "appNames": [
-      "com.android.localtransport"
+      "com.android.localtransport",
+      {
+        "value": "com.android.localtransport",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5049,7 +5312,11 @@
   },
   "com.android.nfc.overlay": {
     "appNames": [
-      "com.android.nfc.overlay"
+      "com.android.nfc.overlay",
+      {
+        "value": "com.android.nfc.overlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5061,7 +5328,11 @@
   },
   "com.android.nfc.overlay.common": {
     "appNames": [
-      "com.android.nfc.overlay.common"
+      "com.android.nfc.overlay.common",
+      {
+        "value": "com.android.nfc.overlay.common",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5073,7 +5344,11 @@
   },
   "com.android.omadm.service.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.omadm.service.auto_generated_rro_product__"
+      "com.android.omadm.service.auto_generated_rro_product__",
+      {
+        "value": "com.android.omadm.service.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5100,7 +5375,11 @@
   },
   "com.android.omadm.service.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.android.omadm.service.auto_generated_rro_vendor__"
+      "com.android.omadm.service.auto_generated_rro_vendor__",
+      {
+        "value": "com.android.omadm.service.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5127,7 +5406,11 @@
   },
   "com.android.ons": {
     "appNames": [
-      "com.android.ons"
+      "com.android.ons",
+      {
+        "value": "com.android.ons",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5189,7 +5472,11 @@
   },
   "com.android.ons.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.android.ons.auto_generated_rro_vendor__"
+      "com.android.ons.auto_generated_rro_vendor__",
+      {
+        "value": "com.android.ons.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5223,7 +5510,11 @@
   },
   "com.android.phone.auto_generated_characteristics_rro": {
     "appNames": [
-      "com.android.phone.auto_generated_characteristics_rro"
+      "com.android.phone.auto_generated_characteristics_rro",
+      {
+        "value": "com.android.phone.auto_generated_characteristics_rro",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5255,7 +5546,11 @@
   },
   "com.android.phone.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.phone.auto_generated_rro_product__"
+      "com.android.phone.auto_generated_rro_product__",
+      {
+        "value": "com.android.phone.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5302,7 +5597,11 @@
   },
   "com.android.phone.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.android.phone.auto_generated_rro_vendor__"
+      "com.android.phone.auto_generated_rro_vendor__",
+      {
+        "value": "com.android.phone.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5377,7 +5676,11 @@
   },
   "com.android.providers.contacts.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.providers.contacts.auto_generated_rro_product__"
+      "com.android.providers.contacts.auto_generated_rro_product__",
+      {
+        "value": "com.android.providers.contacts.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5410,7 +5713,11 @@
   "com.android.providers.media": {
     "appNames": [
       "com.android.providers.media",
-      "Media Storage"
+      "Media Storage",
+      {
+        "value": "com.android.providers.media",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5482,7 +5789,11 @@
   },
   "com.android.providers.media.overlay.pixel": {
     "appNames": [
-      "com.android.providers.media.overlay.pixel"
+      "com.android.providers.media.overlay.pixel",
+      {
+        "value": "com.android.providers.media.overlay.pixel",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5509,7 +5820,11 @@
   },
   "com.android.providers.partnerbookmarks": {
     "appNames": [
-      "com.android.providers.partnerbookmarks"
+      "com.android.providers.partnerbookmarks",
+      {
+        "value": "com.android.providers.partnerbookmarks",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5581,7 +5896,11 @@
   },
   "com.android.providers.settings.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.providers.settings.auto_generated_rro_product__"
+      "com.android.providers.settings.auto_generated_rro_product__",
+      {
+        "value": "com.android.providers.settings.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5645,7 +5964,11 @@
   },
   "com.android.providers.telephony.auto_generated_characteristics_rro": {
     "appNames": [
-      "com.android.providers.telephony.auto_generated_characteristics_rro"
+      "com.android.providers.telephony.auto_generated_characteristics_rro",
+      {
+        "value": "com.android.providers.telephony.auto_generated_characteristics_rro",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5677,7 +6000,11 @@
   },
   "com.android.providers.telephony.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.providers.telephony.auto_generated_rro_product__"
+      "com.android.providers.telephony.auto_generated_rro_product__",
+      {
+        "value": "com.android.providers.telephony.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5745,7 +6072,11 @@
   },
   "com.android.safetyregulatoryinfo.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.safetyregulatoryinfo.auto_generated_rro_product__"
+      "com.android.safetyregulatoryinfo.auto_generated_rro_product__",
+      {
+        "value": "com.android.safetyregulatoryinfo.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5772,7 +6103,11 @@
   },
   "com.android.sdm.plugins.diagmon": {
     "appNames": [
-      "com.android.sdm.plugins.diagmon"
+      "com.android.sdm.plugins.diagmon",
+      {
+        "value": "com.android.sdm.plugins.diagmon",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5811,7 +6146,11 @@
   },
   "com.android.server.telecom.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.server.telecom.auto_generated_rro_product__"
+      "com.android.server.telecom.auto_generated_rro_product__",
+      {
+        "value": "com.android.server.telecom.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5882,7 +6221,11 @@
   },
   "com.android.settings.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.settings.auto_generated_rro_product__"
+      "com.android.settings.auto_generated_rro_product__",
+      {
+        "value": "com.android.settings.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5919,7 +6262,11 @@
   },
   "com.android.settings.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.android.settings.auto_generated_rro_vendor__"
+      "com.android.settings.auto_generated_rro_vendor__",
+      {
+        "value": "com.android.settings.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -5999,7 +6346,11 @@
   },
   "com.android.settings.overlay.g8v0u": {
     "appNames": [
-      "com.android.settings.overlay.g8v0u"
+      "com.android.settings.overlay.g8v0u",
+      {
+        "value": "com.android.settings.overlay.g8v0u",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6059,7 +6410,11 @@
   },
   "com.android.settings.overlay.raven": {
     "appNames": [
-      "com.android.settings.overlay.raven"
+      "com.android.settings.overlay.raven",
+      {
+        "value": "com.android.settings.overlay.raven",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6071,7 +6426,11 @@
   },
   "com.android.sharedstoragebackup": {
     "appNames": [
-      "com.android.sharedstoragebackup"
+      "com.android.sharedstoragebackup",
+      {
+        "value": "com.android.sharedstoragebackup",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6143,7 +6502,11 @@
   },
   "com.android.simappdialog.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.simappdialog.auto_generated_rro_product__"
+      "com.android.simappdialog.auto_generated_rro_product__",
+      {
+        "value": "com.android.simappdialog.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6192,7 +6555,11 @@
   },
   "com.android.systemui.accessibility.accessibilitymenu": {
     "appNames": [
-      "com.android.systemui.accessibility.accessibilitymenu"
+      "com.android.systemui.accessibility.accessibilitymenu",
+      {
+        "value": "com.android.systemui.accessibility.accessibilitymenu",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6234,7 +6601,11 @@
   },
   "com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__"
+      "com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__",
+      {
+        "value": "com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6261,7 +6632,11 @@
   },
   "com.android.systemui.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.systemui.auto_generated_rro_product__"
+      "com.android.systemui.auto_generated_rro_product__",
+      {
+        "value": "com.android.systemui.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6308,7 +6683,11 @@
   },
   "com.android.systemui.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.android.systemui.auto_generated_rro_vendor__"
+      "com.android.systemui.auto_generated_rro_vendor__",
+      {
+        "value": "com.android.systemui.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6335,7 +6714,11 @@
   },
   "com.android.systemui.clocks.bignum": {
     "appNames": [
-      "com.android.systemui.clocks.bignum"
+      "com.android.systemui.clocks.bignum",
+      {
+        "value": "com.android.systemui.clocks.bignum",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6362,7 +6745,11 @@
   },
   "com.android.systemui.clocks.calligraphy": {
     "appNames": [
-      "com.android.systemui.clocks.calligraphy"
+      "com.android.systemui.clocks.calligraphy",
+      {
+        "value": "com.android.systemui.clocks.calligraphy",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6389,7 +6776,11 @@
   },
   "com.android.systemui.clocks.flex": {
     "appNames": [
-      "com.android.systemui.clocks.flex"
+      "com.android.systemui.clocks.flex",
+      {
+        "value": "com.android.systemui.clocks.flex",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6416,7 +6807,11 @@
   },
   "com.android.systemui.clocks.growth": {
     "appNames": [
-      "com.android.systemui.clocks.growth"
+      "com.android.systemui.clocks.growth",
+      {
+        "value": "com.android.systemui.clocks.growth",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6443,7 +6838,11 @@
   },
   "com.android.systemui.clocks.inflate": {
     "appNames": [
-      "com.android.systemui.clocks.inflate"
+      "com.android.systemui.clocks.inflate",
+      {
+        "value": "com.android.systemui.clocks.inflate",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6470,7 +6869,11 @@
   },
   "com.android.systemui.clocks.metro": {
     "appNames": [
-      "com.android.systemui.clocks.metro"
+      "com.android.systemui.clocks.metro",
+      {
+        "value": "com.android.systemui.clocks.metro",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6497,7 +6900,11 @@
   },
   "com.android.systemui.clocks.numoverlap": {
     "appNames": [
-      "com.android.systemui.clocks.numoverlap"
+      "com.android.systemui.clocks.numoverlap",
+      {
+        "value": "com.android.systemui.clocks.numoverlap",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6524,7 +6931,11 @@
   },
   "com.android.systemui.clocks.weather": {
     "appNames": [
-      "com.android.systemui.clocks.weather"
+      "com.android.systemui.clocks.weather",
+      {
+        "value": "com.android.systemui.clocks.weather",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6659,7 +7070,11 @@
   },
   "com.android.systemui.plugin.globalactions.wallet": {
     "appNames": [
-      "com.android.systemui.plugin.globalactions.wallet"
+      "com.android.systemui.plugin.globalactions.wallet",
+      {
+        "value": "com.android.systemui.plugin.globalactions.wallet",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6703,7 +7118,11 @@
   },
   "com.android.traceur.auto_generated_rro_product__": {
     "appNames": [
-      "com.android.traceur.auto_generated_rro_product__"
+      "com.android.traceur.auto_generated_rro_product__",
+      {
+        "value": "com.android.traceur.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6730,7 +7149,11 @@
   },
   "com.android.traceur.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.android.traceur.auto_generated_rro_vendor__"
+      "com.android.traceur.auto_generated_rro_vendor__",
+      {
+        "value": "com.android.traceur.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -6808,7 +7231,11 @@
   },
   "com.android.wallpaperbackup": {
     "appNames": [
-      "com.android.wallpaperbackup"
+      "com.android.wallpaperbackup",
+      {
+        "value": "com.android.wallpaperbackup",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7096,7 +7523,11 @@
   },
   "com.google.android.apps.cbrsnetworkmonitor": {
     "appNames": [
-      "com.google.android.apps.cbrsnetworkmonitor"
+      "com.google.android.apps.cbrsnetworkmonitor",
+      {
+        "value": "com.google.android.apps.cbrsnetworkmonitor",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7123,7 +7554,11 @@
   },
   "com.google.android.apps.internal.betterbug": {
     "appNames": [
-      "com.google.android.apps.internal.betterbug"
+      "com.google.android.apps.internal.betterbug",
+      {
+        "value": "com.google.android.apps.internal.betterbug",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7150,7 +7585,11 @@
   },
   "com.google.android.apps.pixel.relationships": {
     "appNames": [
-      "com.google.android.apps.pixel.relationships"
+      "com.google.android.apps.pixel.relationships",
+      {
+        "value": "com.google.android.apps.pixel.relationships",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7189,7 +7628,11 @@
   },
   "com.google.android.apps.scone.overlays": {
     "appNames": [
-      "com.google.android.apps.scone.overlays"
+      "com.google.android.apps.scone.overlays",
+      {
+        "value": "com.google.android.apps.scone.overlays",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7206,7 +7649,11 @@
   },
   "com.google.android.appsearch.apk": {
     "appNames": [
-      "com.google.android.appsearch.apk"
+      "com.google.android.appsearch.apk",
+      {
+        "value": "com.google.android.appsearch.apk",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7265,7 +7712,11 @@
   },
   "com.google.android.connectivity.resources.overlay": {
     "appNames": [
-      "com.google.android.connectivity.resources.overlay"
+      "com.google.android.connectivity.resources.overlay",
+      {
+        "value": "com.google.android.connectivity.resources.overlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7304,7 +7755,11 @@
   },
   "com.google.android.documentsui.theme.pixel": {
     "appNames": [
-      "com.google.android.documentsui.theme.pixel"
+      "com.google.android.documentsui.theme.pixel",
+      {
+        "value": "com.google.android.documentsui.theme.pixel",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7331,7 +7786,11 @@
   },
   "com.google.android.euiccoverlay": {
     "appNames": [
-      "com.google.android.euiccoverlay"
+      "com.google.android.euiccoverlay",
+      {
+        "value": "com.google.android.euiccoverlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7358,7 +7817,11 @@
   },
   "com.google.android.federatedcompute": {
     "appNames": [
-      "com.google.android.federatedcompute"
+      "com.google.android.federatedcompute",
+      {
+        "value": "com.google.android.federatedcompute",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7410,7 +7873,11 @@
   },
   "com.google.android.flipendo.auto_generated_rro_product__": {
     "appNames": [
-      "com.google.android.flipendo.auto_generated_rro_product__"
+      "com.google.android.flipendo.auto_generated_rro_product__",
+      {
+        "value": "com.google.android.flipendo.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7437,7 +7904,11 @@
   },
   "com.google.android.flipendo.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.google.android.flipendo.auto_generated_rro_vendor__"
+      "com.google.android.flipendo.auto_generated_rro_vendor__",
+      {
+        "value": "com.google.android.flipendo.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7476,7 +7947,11 @@
   },
   "com.google.android.googlequicksearchbox.nga_resources": {
     "appNames": [
-      "com.google.android.googlequicksearchbox.nga_resources"
+      "com.google.android.googlequicksearchbox.nga_resources",
+      {
+        "value": "com.google.android.googlequicksearchbox.nga_resources",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7503,7 +7978,11 @@
   },
   "com.google.android.grilservice": {
     "appNames": [
-      "com.google.android.grilservice"
+      "com.google.android.grilservice",
+      {
+        "value": "com.google.android.grilservice",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7530,7 +8009,11 @@
   },
   "com.google.android.hardwareinfo": {
     "appNames": [
-      "com.google.android.hardwareinfo"
+      "com.google.android.hardwareinfo",
+      {
+        "value": "com.google.android.hardwareinfo",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7557,7 +8040,11 @@
   },
   "com.google.android.health.connect.backuprestore": {
     "appNames": [
-      "com.google.android.health.connect.backuprestore"
+      "com.google.android.health.connect.backuprestore",
+      {
+        "value": "com.google.android.health.connect.backuprestore",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7604,7 +8091,11 @@
   },
   "com.google.android.iwlan": {
     "appNames": [
-      "com.google.android.iwlan"
+      "com.google.android.iwlan",
+      {
+        "value": "com.google.android.iwlan",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7631,7 +8122,11 @@
   },
   "com.google.android.microdroid.empty_payload": {
     "appNames": [
-      "com.google.android.microdroid.empty_payload"
+      "com.google.android.microdroid.empty_payload",
+      {
+        "value": "com.google.android.microdroid.empty_payload",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7704,7 +8199,11 @@
   },
   "com.google.android.networkstack.tethering.overlay2021": {
     "appNames": [
-      "com.google.android.networkstack.tethering.overlay2021"
+      "com.google.android.networkstack.tethering.overlay2021",
+      {
+        "value": "com.google.android.networkstack.tethering.overlay2021",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7776,7 +8275,11 @@
   "com.google.android.ondevicepersonalization.services": {
     "appNames": [
       "com.google.android.ondevicepersonalization.services",
-      "com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication"
+      "com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication",
+      {
+        "value": "com.android.ondevicepersonalization.services.OnDevicePersonalizationApplication",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7833,7 +8336,11 @@
   },
   "com.google.android.overlay.DeviceAsWebcam": {
     "appNames": [
-      "com.google.android.overlay.DeviceAsWebcam"
+      "com.google.android.overlay.DeviceAsWebcam",
+      {
+        "value": "com.google.android.overlay.DeviceAsWebcam",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -7850,7 +8357,11 @@
   },
   "com.google.android.overlay.devicelockcontroller": {
     "appNames": [
-      "com.google.android.overlay.devicelockcontroller"
+      "com.google.android.overlay.devicelockcontroller",
+      {
+        "value": "com.google.android.overlay.devicelockcontroller",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8196,7 +8707,11 @@
   },
   "com.google.android.overlay.googleconfig": {
     "appNames": [
-      "com.google.android.overlay.googleconfig"
+      "com.google.android.overlay.googleconfig",
+      {
+        "value": "com.google.android.overlay.googleconfig",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8223,7 +8738,11 @@
   },
   "com.google.android.overlay.googlewebview": {
     "appNames": [
-      "com.google.android.overlay.googlewebview"
+      "com.google.android.overlay.googlewebview",
+      {
+        "value": "com.google.android.overlay.googlewebview",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8528,7 +9047,11 @@
   },
   "com.google.android.overlay.permissioncontroller": {
     "appNames": [
-      "com.google.android.overlay.permissioncontroller"
+      "com.google.android.overlay.permissioncontroller",
+      {
+        "value": "com.google.android.overlay.permissioncontroller",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8555,7 +9078,11 @@
   },
   "com.google.android.overlay.pixelconfig2018": {
     "appNames": [
-      "com.google.android.overlay.pixelconfig2018"
+      "com.google.android.overlay.pixelconfig2018",
+      {
+        "value": "com.google.android.overlay.pixelconfig2018",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8582,7 +9109,11 @@
   },
   "com.google.android.overlay.pixelconfig2019": {
     "appNames": [
-      "com.google.android.overlay.pixelconfig2019"
+      "com.google.android.overlay.pixelconfig2019",
+      {
+        "value": "com.google.android.overlay.pixelconfig2019",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8609,7 +9140,11 @@
   },
   "com.google.android.overlay.pixelconfig2019midyear": {
     "appNames": [
-      "com.google.android.overlay.pixelconfig2019midyear"
+      "com.google.android.overlay.pixelconfig2019midyear",
+      {
+        "value": "com.google.android.overlay.pixelconfig2019midyear",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8636,7 +9171,11 @@
   },
   "com.google.android.overlay.pixelconfig2021": {
     "appNames": [
-      "com.google.android.overlay.pixelconfig2021"
+      "com.google.android.overlay.pixelconfig2021",
+      {
+        "value": "com.google.android.overlay.pixelconfig2021",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8663,7 +9202,11 @@
   },
   "com.google.android.overlay.pixelconfigcommon": {
     "appNames": [
-      "com.google.android.overlay.pixelconfigcommon"
+      "com.google.android.overlay.pixelconfigcommon",
+      {
+        "value": "com.google.android.overlay.pixelconfigcommon",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8690,7 +9233,11 @@
   },
   "com.google.android.overlay.trafficlightfaceoverlay": {
     "appNames": [
-      "com.google.android.overlay.trafficlightfaceoverlay"
+      "com.google.android.overlay.trafficlightfaceoverlay",
+      {
+        "value": "com.google.android.overlay.trafficlightfaceoverlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8712,7 +9259,11 @@
   },
   "com.google.android.overlay.udfpsoverlay": {
     "appNames": [
-      "com.google.android.overlay.udfpsoverlay"
+      "com.google.android.overlay.udfpsoverlay",
+      {
+        "value": "com.google.android.overlay.udfpsoverlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8787,7 +9338,11 @@
   },
   "com.google.android.sdksandbox": {
     "appNames": [
-      "com.google.android.sdksandbox"
+      "com.google.android.sdksandbox",
+      {
+        "value": "com.google.android.sdksandbox",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8844,7 +9399,11 @@
   },
   "com.google.android.server.deviceconfig.resources": {
     "appNames": [
-      "com.google.android.server.deviceconfig.resources"
+      "com.google.android.server.deviceconfig.resources",
+      {
+        "value": "com.google.android.server.deviceconfig.resources",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8915,7 +9474,11 @@
   },
   "com.google.android.storagemanager.auto_generated_rro_product__": {
     "appNames": [
-      "com.google.android.storagemanager.auto_generated_rro_product__"
+      "com.google.android.storagemanager.auto_generated_rro_product__",
+      {
+        "value": "com.google.android.storagemanager.auto_generated_rro_product__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8942,7 +9505,11 @@
   },
   "com.google.android.storagemanager.auto_generated_rro_vendor__": {
     "appNames": [
-      "com.google.android.storagemanager.auto_generated_rro_vendor__"
+      "com.google.android.storagemanager.auto_generated_rro_vendor__",
+      {
+        "value": "com.google.android.storagemanager.auto_generated_rro_vendor__",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -8986,7 +9553,11 @@
   },
   "com.google.android.systemui.overlay.pixelbatteryhealthconfig": {
     "appNames": [
-      "com.google.android.systemui.overlay.pixelbatteryhealthconfig"
+      "com.google.android.systemui.overlay.pixelbatteryhealthconfig",
+      {
+        "value": "com.google.android.systemui.overlay.pixelbatteryhealthconfig",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9042,7 +9613,11 @@
   },
   "com.google.android.telephony": {
     "appNames": [
-      "com.google.android.telephony"
+      "com.google.android.telephony",
+      {
+        "value": "com.google.android.telephony",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9069,7 +9644,11 @@
   },
   "com.google.android.uvexposurereporter": {
     "appNames": [
-      "com.google.android.uvexposurereporter"
+      "com.google.android.uvexposurereporter",
+      {
+        "value": "com.google.android.uvexposurereporter",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9096,7 +9675,11 @@
   },
   "com.google.android.uwb.resources.pixel": {
     "appNames": [
-      "com.google.android.uwb.resources.pixel"
+      "com.google.android.uwb.resources.pixel",
+      {
+        "value": "com.google.android.uwb.resources.pixel",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9118,7 +9701,11 @@
   },
   "com.google.android.virtualmachine.res": {
     "appNames": [
-      "com.google.android.virtualmachine.res"
+      "com.google.android.virtualmachine.res",
+      {
+        "value": "com.google.android.virtualmachine.res",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9145,7 +9732,11 @@
   },
   "com.google.android.wifi.dialog": {
     "appNames": [
-      "com.google.android.wifi.dialog"
+      "com.google.android.wifi.dialog",
+      {
+        "value": "com.google.android.wifi.dialog",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9199,7 +9790,11 @@
   },
   "com.google.android.wifi.resources.pixel": {
     "appNames": [
-      "com.google.android.wifi.resources.pixel"
+      "com.google.android.wifi.resources.pixel",
+      {
+        "value": "com.google.android.wifi.resources.pixel",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9226,7 +9821,11 @@
   },
   "com.google.euiccpixel.overlay.gs101": {
     "appNames": [
-      "com.google.euiccpixel.overlay.gs101"
+      "com.google.euiccpixel.overlay.gs101",
+      {
+        "value": "com.google.euiccpixel.overlay.gs101",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9267,7 +9866,11 @@
   },
   "com.google.euiccpixel.permissions": {
     "appNames": [
-      "com.google.euiccpixel.permissions"
+      "com.google.euiccpixel.permissions",
+      {
+        "value": "com.google.euiccpixel.permissions",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9294,7 +9897,11 @@
   },
   "com.google.pixel.camera.services": {
     "appNames": [
-      "com.google.pixel.camera.services.PersistentApplication"
+      "com.google.pixel.camera.services.PersistentApplication",
+      {
+        "value": "com.google.pixel.camera.services.PersistentApplication",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9321,7 +9928,11 @@
   },
   "com.google.pixel.digitalkey.timesync": {
     "appNames": [
-      "com.google.pixel.digitalkey.timesync.CccDkTimeSyncApplication"
+      "com.google.pixel.digitalkey.timesync.CccDkTimeSyncApplication",
+      {
+        "value": "com.google.pixel.digitalkey.timesync.CccDkTimeSyncApplication",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9343,7 +9954,11 @@
   },
   "com.google.pixel.iwlan": {
     "appNames": [
-      "com.google.pixel.iwlan"
+      "com.google.pixel.iwlan",
+      {
+        "value": "com.google.pixel.iwlan",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9360,7 +9975,11 @@
   },
   "com.google.SSRestartDetector": {
     "appNames": [
-      "com.google.SSRestartDetector"
+      "com.google.SSRestartDetector",
+      {
+        "value": "com.google.SSRestartDetector",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -9704,7 +10323,11 @@
   },
   "com.qorvo.uwb.vendorservice": {
     "appNames": [
-      "com.qorvo.uwb.vendorservice.android.UwbApp"
+      "com.qorvo.uwb.vendorservice.android.UwbApp",
+      {
+        "value": "com.qorvo.uwb.vendorservice.android.UwbApp",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -10345,7 +10968,11 @@
   },
   "com.samsung.slsi.telephony.oemril": {
     "appNames": [
-      "com.samsung.slsi.telephony.oemril.OemRilApp"
+      "com.samsung.slsi.telephony.oemril.OemRilApp",
+      {
+        "value": "com.samsung.slsi.telephony.oemril.OemRilApp",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -10569,6 +11196,10 @@
   "com.android.companiondevicemanager": {
     "appNames": [
       "Companion Device Manager",
+      {
+        "value": "Companion Device Manager",
+        "locale": "en-US"
+      },
       "Begleitgerät-Manager"
     ],
     "devices": [
@@ -10653,7 +11284,11 @@
   },
   "com.google.android.compos.payload": {
     "appNames": [
-      "CompOS"
+      "CompOS",
+      {
+        "value": "CompOS",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -10714,7 +11349,11 @@
   },
   "com.google.android.configupdater": {
     "appNames": [
-      "ConfigUpdater"
+      "ConfigUpdater",
+      {
+        "value": "ConfigUpdater",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -10856,7 +11495,11 @@
   },
   "com.google.android.connectivitythermalpowermanager": {
     "appNames": [
-      "Connectivity Thermal Power Manager"
+      "Connectivity Thermal Power Manager",
+      {
+        "value": "Connectivity Thermal Power Manager",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -10928,7 +11571,11 @@
   "com.android.sdm.plugins.connmo": {
     "appNames": [
       "ConnMO",
-      "SDMService"
+      "SDMService",
+      {
+        "value": "ConnMO",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -10979,7 +11626,11 @@
   "com.google.android.contacts": {
     "appNames": [
       "Contacts",
-      "Contacten"
+      "Contacten",
+      {
+        "value": "Contacts",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11067,7 +11718,11 @@
   "com.android.providers.contacts": {
     "appNames": [
       "Contacts Storage",
-      "Opslag contacten"
+      "Opslag contacten",
+      {
+        "value": "Contacts Storage",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11124,7 +11779,11 @@
   },
   "com.android.providers.contactkeys": {
     "appNames": [
-      "ContactsKeys Storage"
+      "ContactsKeys Storage",
+      {
+        "value": "ContactsKeys Storage",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11203,6 +11862,10 @@
       "Corner cutout",
       "Corner display cutout",
       "Hoek-cutout",
+      {
+        "value": "Corner cutout",
+        "locale": "en-US"
+      },
       "Aussparung in der Ecke"
     ],
     "devices": [
@@ -11284,6 +11947,10 @@
     "appNames": [
       "Credential Manager",
       "Credential manager",
+      {
+        "value": "Credential Manager",
+        "locale": "en-US"
+      },
       "Anmeldedaten-Manager"
     ],
     "devices": [
@@ -11356,7 +12023,11 @@
     "appNames": [
       "Cross-Device Services",
       "Cross-device services",
-      "Cross-device-services"
+      "Cross-device-services",
+      {
+        "value": "Cross-Device Services",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11524,6 +12195,10 @@
       "Default Print Service",
       "Default print service",
       "Standaard afdrukservice",
+      {
+        "value": "Default Print Service",
+        "locale": "en-US"
+      },
       "Standarddruckdienst"
     ],
     "devices": [
@@ -11620,7 +12295,11 @@
   "android.autoinstalls.config.google.nexus": {
     "appNames": [
       "Device configuration",
-      "Apparaatconfiguratie"
+      "Apparaatconfiguratie",
+      {
+        "value": "Device configuration",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11660,7 +12339,11 @@
   "com.google.android.apps.pixel.dcservice": {
     "appNames": [
       "Device Connectivity Service",
-      "Device connectivity service"
+      "Device connectivity service",
+      {
+        "value": "Device Connectivity Service",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11687,7 +12370,11 @@
   },
   "com.google.android.apps.turbo": {
     "appNames": [
-      "Device Health Services"
+      "Device Health Services",
+      {
+        "value": "Device Health Services",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11739,7 +12426,11 @@
   },
   "com.google.android.turboadapter": {
     "appNames": [
-      "Device Health Services Adapter"
+      "Device Health Services Adapter",
+      {
+        "value": "Device Health Services Adapter",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11778,7 +12469,11 @@
   },
   "com.google.android.apps.work.clouddpc": {
     "appNames": [
-      "Device Policy"
+      "Device Policy",
+      {
+        "value": "Device Policy",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11857,7 +12552,11 @@
   "com.google.android.apps.work.oobconfig": {
     "appNames": [
       "Device setup",
-      "Apparaatinstallatie"
+      "Apparaatinstallatie",
+      {
+        "value": "Device setup",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -11885,6 +12584,10 @@
   "com.android.devicediagnostics": {
     "appNames": [
       "DeviceDiagnostics",
+      {
+        "value": "DeviceDiagnostics",
+        "locale": "en-US"
+      },
       "Gerätediagnose"
     ],
     "devices": [
@@ -11939,7 +12642,11 @@
   },
   "com.google.android.devicelockcontroller": {
     "appNames": [
-      "DeviceLockController"
+      "DeviceLockController",
+      {
+        "value": "DeviceLockController",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -12082,7 +12789,11 @@
   },
   "com.google.android.apps.diagnosticstool": {
     "appNames": [
-      "DiagnosticsTool"
+      "DiagnosticsTool",
+      {
+        "value": "DiagnosticsTool",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -12094,6 +12805,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -12162,7 +12878,11 @@
   "com.google.android.apps.wellbeing": {
     "appNames": [
       "Digital Wellbeing",
-      "Digitaal welzijn"
+      "Digitaal welzijn",
+      {
+        "value": "Digital Wellbeing",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -12221,7 +12941,11 @@
   },
   "com.google.android.dreamlinerupdater": {
     "appNames": [
-      "Dock Updater"
+      "Dock Updater",
+      {
+        "value": "Dock Updater",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -12264,6 +12988,10 @@
       "Double cutout",
       "Double display cutout",
       "Dubbele cutout",
+      {
+        "value": "Double cutout",
+        "locale": "en-US"
+      },
       "Doppelte Aussparung"
     ],
     "devices": [
@@ -12333,6 +13061,10 @@
     "appNames": [
       "Download Manager",
       "Downloadbeheer",
+      {
+        "value": "Download Manager",
+        "locale": "en-US"
+      },
       "Download-Manager"
     ],
     "devices": [
@@ -12405,7 +13137,11 @@
   },
   "com.android.providers.downloads.ui": {
     "appNames": [
-      "Downloads"
+      "Downloads",
+      {
+        "value": "Downloads",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -12535,7 +13271,11 @@
   },
   "com.google.assistant.hubui": {
     "appNames": [
-      "Dreams"
+      "Dreams",
+      {
+        "value": "Dreams",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -12562,7 +13302,11 @@
   },
   "com.google.android.apps.docs": {
     "appNames": [
-      "Drive"
+      "Drive",
+      {
+        "value": "Drive",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -12579,6 +13323,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -12714,7 +13463,11 @@
   },
   "com.android.dynsystem": {
     "appNames": [
-      "Dynamic System Updates"
+      "Dynamic System Updates",
+      {
+        "value": "Dynamic System Updates",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -12892,7 +13645,11 @@
   "com.android.emergency": {
     "appNames": [
       "Emergency information",
-      "com.android.emergency"
+      "com.android.emergency",
+      {
+        "value": "Emergency information",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -13014,7 +13771,11 @@
   },
   "com.google.android.apps.emojiwallpaper": {
     "appNames": [
-      "Emoji Workshop Wallpaper"
+      "Emoji Workshop Wallpaper",
+      {
+        "value": "Emoji Workshop Wallpaper",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -13186,6 +13947,10 @@
     "appNames": [
       "External Storage",
       "Externe opslag",
+      {
+        "value": "External Storage",
+        "locale": "en-US"
+      },
       "Externer Speicher"
     ],
     "devices": [
@@ -13259,7 +14024,11 @@
   "com.google.android.flipendo": {
     "appNames": [
       "Extreme Battery Saver",
-      "Extreme batterijbesparing"
+      "Extreme batterijbesparing",
+      {
+        "value": "Extreme Battery Saver",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -13428,7 +14197,11 @@
   },
   "com.google.android.factoryota": {
     "appNames": [
-      "Factory OTA Mode"
+      "Factory OTA Mode",
+      {
+        "value": "Factory OTA Mode",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -13526,6 +14299,10 @@
       "Family Link parental controls",
       "System parental controls",
       "Ouderlijk toezicht van systeem",
+      {
+        "value": "System parental controls",
+        "locale": "en-US"
+      },
       "Jugendschutzeinstellungen"
     ],
     "devices": [
@@ -13633,6 +14410,10 @@
     "appNames": [
       "Files",
       "Bestanden",
+      {
+        "value": "Files",
+        "locale": "en-US"
+      },
       "Dateien"
     ],
     "devices": [
@@ -13685,7 +14466,11 @@
   },
   "com.google.android.apps.nbu.files": {
     "appNames": [
-      "Files by Google"
+      "Files by Google",
+      {
+        "value": "Files by Google",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -13881,6 +14666,10 @@
     "appNames": [
       "Fused Location",
       "Samengestelde locatie",
+      {
+        "value": "Fused Location",
+        "locale": "en-US"
+      },
       "Kombinierte Standortbest."
     ],
     "devices": [
@@ -14223,7 +15012,11 @@
   },
   "com.google.android.inputmethod.latin": {
     "appNames": [
-      "Gboard"
+      "Gboard",
+      {
+        "value": "Gboard",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -14444,7 +15237,11 @@
   },
   "com.android.internal.systemui.navbar.gestural": {
     "appNames": [
-      "Gestural Navigation Bar"
+      "Gestural Navigation Bar",
+      {
+        "value": "Gestural Navigation Bar",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -14591,7 +15388,11 @@
   },
   "com.google.android.gm": {
     "appNames": [
-      "Gmail"
+      "Gmail",
+      {
+        "value": "Gmail",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -14613,6 +15414,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -14640,7 +15446,11 @@
   },
   "com.google.android.googlequicksearchbox": {
     "appNames": [
-      "Google"
+      "Google",
+      {
+        "value": "Google",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -14713,7 +15523,11 @@
   "com.android.hotwordenrollment.xgoogle": {
     "appNames": [
       "Google Assistant",
-      "Hey Google Hotword"
+      "Hey Google Hotword",
+      {
+        "value": "Hey Google Hotword",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -14761,7 +15575,11 @@
   "com.android.hotwordenrollment.okgoogle": {
     "appNames": [
       "Google Assistant",
-      "OK Google Hotword"
+      "OK Google Hotword",
+      {
+        "value": "OK Google Hotword",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -14872,6 +15690,10 @@
     "appNames": [
       "Google Location History",
       "Locatiegeschiedenis van Google",
+      {
+        "value": "Google Location History",
+        "locale": "en-US"
+      },
       "Google-Standortverlauf"
     ],
     "devices": [
@@ -14934,7 +15756,11 @@
   },
   "com.google.android.onetimeinitializer": {
     "appNames": [
-      "Google One Time Init"
+      "Google One Time Init",
+      {
+        "value": "Google One Time Init",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15007,6 +15833,10 @@
   "com.google.android.partnersetup": {
     "appNames": [
       "Google Partner Setup",
+      {
+        "value": "Google Partner Setup",
+        "locale": "en-US"
+      },
       "Google Partner Set Up"
     ],
     "devices": [
@@ -15093,7 +15923,11 @@
     "appNames": [
       "Google Pixel Avatar Picker",
       "Choose a picture",
-      "Afbeelding kiezen"
+      "Afbeelding kiezen",
+      {
+        "value": "Google Pixel Avatar Picker",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15122,7 +15956,11 @@
     "appNames": [
       "Google Play Protect Service",
       "Google Play Protect service",
-      "Google Play Protect-service"
+      "Google Play Protect-service",
+      {
+        "value": "Google Play Protect Service",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15151,6 +15989,10 @@
     "appNames": [
       "Google Play services",
       "Google Play-services",
+      {
+        "value": "Google Play services",
+        "locale": "en-US"
+      },
       "Google Play-Dienste"
     ],
     "devices": [
@@ -15224,7 +16066,11 @@
   "com.google.ar.core": {
     "appNames": [
       "Google Play Services for AR",
-      "ARCore"
+      "ARCore",
+      {
+        "value": "Google Play Services for AR",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15271,7 +16117,11 @@
   },
   "com.android.vending": {
     "appNames": [
-      "Google Play Store"
+      "Google Play Store",
+      {
+        "value": "Google Play Store",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15346,6 +16196,10 @@
       "Google Safety Centre resources",
       "Google Safety Center Resources",
       "Google Veiligheidscentrum-bronnen",
+      {
+        "value": "Google Safety Center Resources",
+        "locale": "en-US"
+      },
       "Google Sicherheitscenter-Ressourcen"
     ],
     "devices": [
@@ -15435,7 +16289,11 @@
   },
   "com.google.android.gsf": {
     "appNames": [
-      "Google Services Framework"
+      "Google Services Framework",
+      {
+        "value": "Google Services Framework",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15507,7 +16365,11 @@
   },
   "com.google.android.videos": {
     "appNames": [
-      "Google TV"
+      "Google TV",
+      {
+        "value": "Google Play Movies & TV",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15527,6 +16389,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       }
@@ -15534,7 +16401,11 @@
   },
   "com.google.android.apps.wallpaper.pixel": {
     "appNames": [
-      "Google Wallpaper Images"
+      "Google Wallpaper Images",
+      {
+        "value": "Google Wallpaper Images",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15561,7 +16432,11 @@
   },
   "com.google.android.apps.carrier.carrierwifi": {
     "appNames": [
-      "Google Wi-Fi Provisioner"
+      "Google Wi-Fi Provisioner",
+      {
+        "value": "Google Wi-Fi Provisioner",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15722,6 +16597,10 @@
   "com.google.android.apps.healthdata": {
     "appNames": [
       "Health Connect",
+      {
+        "value": "Health Connect",
+        "locale": "en-US"
+      },
       "Health Connect"
     ],
     "devices": [
@@ -15729,6 +16608,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -15740,7 +16624,11 @@
   "com.google.android.healthconnect.controller": {
     "appNames": [
       "Health Connect",
-      "Health Connect"
+      "Health Connect",
+      {
+        "value": "Health Connect",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15824,7 +16712,11 @@
   "com.android.internal.display.cutout.emulation.noCutout": {
     "appNames": [
       "Hide",
-      "Verbergen"
+      "Verbergen",
+      {
+        "value": "Hide",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -15894,6 +16786,10 @@
     "appNames": [
       "HTML Viewer",
       "HTML-viewer",
+      {
+        "value": "HTML Viewer",
+        "locale": "en-US"
+      },
       "HTML-Anzeige"
     ],
     "devices": [
@@ -16076,7 +16972,11 @@
   },
   "com.shannon.imsservice": {
     "appNames": [
-      "ImsService"
+      "ImsService",
+      {
+        "value": "ImsService",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -16105,6 +17005,10 @@
     "appNames": [
       "Input Devices",
       "Invoerapparaten",
+      {
+        "value": "Input Devices",
+        "locale": "en-US"
+      },
       "Eingabegeräte"
     ],
     "devices": [
@@ -16216,7 +17120,11 @@
   },
   "com.android.intentresolver": {
     "appNames": [
-      "IntentResolver"
+      "IntentResolver",
+      {
+        "value": "IntentResolver",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -16389,6 +17297,10 @@
     "appNames": [
       "Key Chain",
       "Sleutelhanger",
+      {
+        "value": "Key Chain",
+        "locale": "en-US"
+      },
       "Key chain"
     ],
     "devices": [
@@ -16859,6 +17771,10 @@
       "Live Transcribe and Sound Notifications",
       "Live Transcribe & Sound Notifications",
       "Live transcriptie & Geluidsmeldingen",
+      {
+        "value": "Live Transcribe & Sound Notifications",
+        "locale": "en-US"
+      },
       "Automatische Transkription & Geräusch­­­­­benachrichtigungen"
     ],
     "devices": [
@@ -16879,6 +17795,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       },
@@ -16893,6 +17814,10 @@
     "appNames": [
       "Live Wallpaper Picker",
       "Interactieve achtergrondkiezer",
+      {
+        "value": "Live Wallpaper Picker",
+        "locale": "en-US"
+      },
       "Live wallpaper selector",
       "Live-Hintergrund-Auswahl"
     ],
@@ -17071,7 +17996,11 @@
   },
   "com.google.android.modulemetadata": {
     "appNames": [
-      "Main components"
+      "Main components",
+      {
+        "value": "Main components",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -17128,7 +18057,11 @@
   },
   "com.google.mainline.adservices": {
     "appNames": [
-      "Main components"
+      "Main components",
+      {
+        "value": "Main components",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -17197,7 +18130,11 @@
   },
   "com.android.managedprovisioning.overlay": {
     "appNames": [
-      "ManagedProvisioningPixelOverlay"
+      "ManagedProvisioningPixelOverlay",
+      {
+        "value": "ManagedProvisioningPixelOverlay",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -17224,7 +18161,11 @@
   },
   "com.google.android.apps.maps": {
     "appNames": [
-      "Maps"
+      "Maps",
+      {
+        "value": "Maps",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -17249,6 +18190,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       },
@@ -17262,7 +18208,11 @@
   "com.google.android.feedback": {
     "appNames": [
       "Market Feedback Agent",
-      "Market-feedbackagent"
+      "Market-feedbackagent",
+      {
+        "value": "Market Feedback Agent",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -17334,7 +18284,11 @@
   },
   "com.google.android.markup": {
     "appNames": [
-      "Markup"
+      "Markup",
+      {
+        "value": "Markup",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -17420,6 +18374,10 @@
       "Media",
       "Media picker",
       "Mediakiezer",
+      {
+        "value": "Media picker",
+        "locale": "en-US"
+      },
       "Media-Auswahl"
     ],
     "devices": [
@@ -17583,7 +18541,11 @@
   "com.google.android.apps.messaging": {
     "appNames": [
       "Messages",
-      "Berichten"
+      "Berichten",
+      {
+        "value": "Messages",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -17836,6 +18798,10 @@
   "com.android.mms.service": {
     "appNames": [
       "MmsService",
+      {
+        "value": "MmsService",
+        "locale": "en-US"
+      },
       "Information services"
     ],
     "devices": [
@@ -18113,6 +19079,10 @@
     "appNames": [
       "MTP Host",
       "MTP-host",
+      {
+        "value": "MTP Host",
+        "locale": "en-US"
+      },
       "MTP-Host"
     ],
     "devices": [
@@ -18208,7 +19178,11 @@
   },
   "com.android.musicfx": {
     "appNames": [
-      "MusicFX"
+      "MusicFX",
+      {
+        "value": "MusicFX",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -18263,7 +19237,11 @@
   },
   "com.verizon.mips.services": {
     "appNames": [
-      "My Verizon Services"
+      "My Verizon Services",
+      {
+        "value": "My Verizon Services",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -18397,6 +19375,10 @@
     "appNames": [
       "Network manager",
       "Netwerkbeheer",
+      {
+        "value": "Network manager",
+        "locale": "en-US"
+      },
       "Netzwerkmanager"
     ],
     "devices": [
@@ -18586,6 +19568,10 @@
     "appNames": [
       "NetworkStackOverlay",
       "NetworkStackOverlayGsi",
+      {
+        "value": "NetworkStackOverlay",
+        "locale": "en-US"
+      },
       "NetworkStackResOverlay"
     ],
     "devices": [
@@ -18650,6 +19636,10 @@
       "NFC",
       "Nfc Service",
       "NFC Migration",
+      {
+        "value": "Nfc Service",
+        "locale": "en-US"
+      },
       "NFC Service"
     ],
     "devices": [
@@ -18745,7 +19735,11 @@
   "com.google.euiccpixel": {
     "appNames": [
       "NFC/eSE/eSIM firmware updater",
-      "Firmware-updater NFC/eSE/e-simkaart"
+      "Firmware-updater NFC/eSE/e-simkaart",
+      {
+        "value": "NFC/eSE/eSIM firmware updater",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -18772,7 +19766,11 @@
   },
   "com.android.role.notes.enabled": {
     "appNames": [
-      "Notes Role enabled"
+      "Notes Role enabled",
+      {
+        "value": "Notes Role enabled",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -18819,7 +19817,11 @@
   },
   "com.android.theme.font.notoserifsource": {
     "appNames": [
-      "Noto Serif / Source Sans Pro"
+      "Noto Serif / Source Sans Pro",
+      {
+        "value": "Noto Serif / Source Sans Pro",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -18949,7 +19951,11 @@
   },
   "com.google.omadm.trigger": {
     "appNames": [
-      "OemDmTrigger"
+      "OemDmTrigger",
+      {
+        "value": "OemDmTrigger",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -19255,7 +20261,11 @@
   },
   "com.google.android.hotspot2.osulogin": {
     "appNames": [
-      "OsuLogin"
+      "OsuLogin",
+      {
+        "value": "OsuLogin",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -19340,6 +20350,10 @@
     "appNames": [
       "Package installer",
       "Pakket-installatie",
+      {
+        "value": "Package installer",
+        "locale": "en-US"
+      },
       "Paketinstallation"
     ],
     "devices": [
@@ -19412,7 +20426,11 @@
   },
   "com.android.pacprocessor": {
     "appNames": [
-      "PacProcessor"
+      "PacProcessor",
+      {
+        "value": "PacProcessor",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -19592,6 +20610,10 @@
     "appNames": [
       "Permission controller",
       "Rechtenbeheer",
+      {
+        "value": "Permission controller",
+        "locale": "en-US"
+      },
       "Berechtigungssteuerung"
     ],
     "devices": [
@@ -19719,7 +20741,11 @@
   "com.google.android.apps.safetyhub": {
     "appNames": [
       "Personal Safety",
-      "Persoonlijke veiligheid"
+      "Persoonlijke veiligheid",
+      {
+        "value": "Personal Safety",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -19805,7 +20831,11 @@
   "com.google.android.dialer": {
     "appNames": [
       "Phone",
-      "Telefoon"
+      "Telefoon",
+      {
+        "value": "Phone",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -19871,6 +20901,10 @@
     "appNames": [
       "Phone and Messaging Storage",
       "Opslag telefoon/berichten",
+      {
+        "value": "Phone and Messaging Storage",
+        "locale": "en-US"
+      },
       "Phone Call/SMS Storage",
       "Telefon- und SMS-Speicher"
     ],
@@ -19948,6 +20982,10 @@
       "Phone Calls",
       "Call Management",
       "Telefoon­gesprekken",
+      {
+        "value": "Phone Calls",
+        "locale": "en-US"
+      },
       "Telefonanrufe"
     ],
     "devices": [
@@ -20023,6 +21061,10 @@
       "Phone services",
       "Phone Services",
       "Telefoonservices",
+      {
+        "value": "Phone Services",
+        "locale": "en-US"
+      },
       "Telefondienste"
     ],
     "devices": [
@@ -20223,6 +21265,10 @@
     "appNames": [
       "Photos",
       "Foto's",
+      {
+        "value": "Photos",
+        "locale": "en-US"
+      },
       "Fotos"
     ],
     "devices": [
@@ -20248,6 +21294,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       }
@@ -20258,6 +21309,10 @@
       "Photos & videos",
       "Photos and videos",
       "Foto's en video's",
+      {
+        "value": "Photos & videos",
+        "locale": "en-US"
+      },
       "Fotos & Videos"
     ],
     "devices": [
@@ -20317,7 +21372,11 @@
   },
   "com.google.android.apps.wearables.maestro.companion": {
     "appNames": [
-      "Pixel Buds"
+      "Pixel Buds",
+      {
+        "value": "Pixel Buds",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20345,7 +21404,11 @@
   "com.google.android.apps.camera.services": {
     "appNames": [
       "Pixel Camera Services",
-      "Pixel Camera services"
+      "Pixel Camera services",
+      {
+        "value": "Pixel Camera Services",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20394,7 +21457,11 @@
   },
   "com.google.android.apps.nexuslauncher": {
     "appNames": [
-      "Pixel Launcher"
+      "Pixel Launcher",
+      {
+        "value": "Pixel Launcher",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20422,7 +21489,11 @@
   "com.google.pixel.livewallpaper": {
     "appNames": [
       "Pixel Live Wallpaper",
-      "Pixel live wallpaper"
+      "Pixel live wallpaper",
+      {
+        "value": "Pixel Live Wallpaper",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20463,7 +21534,11 @@
     "appNames": [
       "Pixel Setup",
       "Pixel setup",
-      "Pixel instellen"
+      "Pixel instellen",
+      {
+        "value": "Pixel Setup",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20490,7 +21565,11 @@
   },
   "com.google.android.apps.dreamliner": {
     "appNames": [
-      "Pixel Stand"
+      "Pixel Stand",
+      {
+        "value": "Pixel Stand",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20529,7 +21608,11 @@
   },
   "com.google.android.pixelsystemservice": {
     "appNames": [
-      "Pixel System Service"
+      "Pixel System Service",
+      {
+        "value": "Pixel System Service",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20556,7 +21639,11 @@
   },
   "com.google.android.apps.customization.pixel": {
     "appNames": [
-      "Pixel Themes"
+      "Pixel Themes",
+      {
+        "value": "Pixel Themes",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20584,7 +21671,11 @@
   "com.google.android.apps.tips": {
     "appNames": [
       "Pixel Tips",
-      "Pixel-tips"
+      "Pixel-tips",
+      {
+        "value": "Pixel Tips",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20611,7 +21702,11 @@
   },
   "com.google.android.apps.pixel.support": {
     "appNames": [
-      "Pixel Troubleshooting"
+      "Pixel Troubleshooting",
+      {
+        "value": "Pixel Troubleshooting",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20639,7 +21734,11 @@
   "com.google.android.apps.weather": {
     "appNames": [
       "Pixel Weather",
-      "Het Weer van Pixel"
+      "Het Weer van Pixel",
+      {
+        "value": "Pixel Weather",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20666,7 +21765,11 @@
   },
   "com.google.android.pixelnfc": {
     "appNames": [
-      "pixelnfc"
+      "pixelnfc",
+      {
+        "value": "pixelnfc",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20764,7 +21867,11 @@
   },
   "com.google.android.printservice.recommendation": {
     "appNames": [
-      "Print Service Recommendation Service"
+      "Print Service Recommendation Service",
+      {
+        "value": "Print Service Recommendation Service",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20838,6 +21945,10 @@
     "appNames": [
       "Print Spooler",
       "Afdrukspooler",
+      {
+        "value": "Print Spooler",
+        "locale": "en-US"
+      },
       "Druck-Spooler"
     ],
     "devices": [
@@ -20910,7 +22021,11 @@
   },
   "com.google.android.as.oss": {
     "appNames": [
-      "Private Compute Services"
+      "Private Compute Services",
+      {
+        "value": "Private Compute Services",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -20991,7 +22106,11 @@
   },
   "com.android.proxyhandler": {
     "appNames": [
-      "ProxyHandler"
+      "ProxyHandler",
+      {
+        "value": "ProxyHandler",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21078,6 +22197,10 @@
       "Punch hole cutout",
       "Punch Hole cutout",
       "Cameragat-cutout",
+      {
+        "value": "Punch Hole cutout",
+        "locale": "en-US"
+      },
       "Ausschnitt für Punch-Hole-Display"
     ],
     "devices": [
@@ -21193,7 +22316,11 @@
   },
   "com.shannon.qualifiednetworksservice": {
     "appNames": [
-      "QualifiedNetworksService"
+      "QualifiedNetworksService",
+      {
+        "value": "QualifiedNetworksService",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21329,7 +22456,11 @@
   },
   "com.samsung.slsi.telephony.oem.oemrilhookservice": {
     "appNames": [
-      "RadioConfigService"
+      "RadioConfigService",
+      {
+        "value": "RadioConfigService",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21356,7 +22487,11 @@
   },
   "com.shannon.rcsservice": {
     "appNames": [
-      "RcsService"
+      "RcsService",
+      {
+        "value": "RcsService",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21413,7 +22548,11 @@
   },
   "com.google.android.apps.recorder": {
     "appNames": [
-      "Recorder"
+      "Recorder",
+      {
+        "value": "Recorder",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21425,6 +22564,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -21459,7 +22603,11 @@
   },
   "com.google.android.rkpdapp": {
     "appNames": [
-      "RemoteProvisioner"
+      "RemoteProvisioner",
+      {
+        "value": "RemoteProvisioner",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21526,7 +22674,11 @@
   "com.android.internal.display.cutout.emulation.avoidAppsInCutout": {
     "appNames": [
       "Render apps below cutout area",
-      "Apps renderen onder display-cutout"
+      "Apps renderen onder display-cutout",
+      {
+        "value": "Render apps below cutout area",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21550,7 +22702,11 @@
     "appNames": [
       "Repair Mode",
       "Repair mode",
-      "Reparatiemodus"
+      "Reparatiemodus",
+      {
+        "value": "Repair Mode",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21649,7 +22805,11 @@
   },
   "com.google.RilConfigService": {
     "appNames": [
-      "RilConfig"
+      "RilConfig",
+      {
+        "value": "RilConfig",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -21813,7 +22973,11 @@
   "com.android.safetyregulatoryinfo": {
     "appNames": [
       "Safety & regulatory manual",
-      "Handleiding voor veiligheid en regelgeving"
+      "Handleiding voor veiligheid en regelgeving",
+      {
+        "value": "Safety & regulatory manual",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -23154,6 +24318,10 @@
       "Search engine selector",
       "Search Engine Selector",
       "Kiezer voor zoekmachine",
+      {
+        "value": "Search Engine Selector",
+        "locale": "en-US"
+      },
       "Suchmaschinenauswahl"
     ],
     "devices": [
@@ -23316,7 +24484,11 @@
   },
   "com.android.se": {
     "appNames": [
-      "SecureElementApplication"
+      "SecureElementApplication",
+      {
+        "value": "SecureElementApplication",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -23611,6 +24783,10 @@
     "appNames": [
       "Settings",
       "Instellingen",
+      {
+        "value": "Settings",
+        "locale": "en-US"
+      },
       "Einstellungen"
     ],
     "devices": [
@@ -23684,7 +24860,11 @@
   "com.google.android.settings.intelligence": {
     "appNames": [
       "Settings Services",
-      "Instellingenassistent"
+      "Instellingenassistent",
+      {
+        "value": "Settings Services",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -23713,6 +24893,10 @@
     "appNames": [
       "Settings Storage",
       "Opslagruimte voor instellingen",
+      {
+        "value": "Settings Storage",
+        "locale": "en-US"
+      },
       "Einstellungsspeicher"
     ],
     "devices": [
@@ -23913,7 +25097,11 @@
   },
   "com.android.shell": {
     "appNames": [
-      "Shell"
+      "Shell",
+      {
+        "value": "Shell",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -24031,6 +25219,10 @@
     "appNames": [
       "Sim app dialogue",
       "Sim App Dialog",
+      {
+        "value": "Sim App Dialog",
+        "locale": "en-US"
+      },
       "SIM-App-Dialogfeld"
     ],
     "devices": [
@@ -24099,7 +25291,11 @@
   "com.google.android.euicc": {
     "appNames": [
       "SIM Manager",
-      "Sim-manager"
+      "Sim-manager",
+      {
+        "value": "SIM Manager",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -24148,6 +25344,10 @@
       "SIM toolkit",
       "SIM Tool Kit",
       "SIM-toolkit",
+      {
+        "value": "SIM Toolkit",
+        "locale": "en-US"
+      },
       "SIM-Toolkit"
     ],
     "devices": [
@@ -24403,7 +25603,11 @@
     "appNames": [
       "Smart Storage",
       "Storage Manager",
-      "Opslagbeheer"
+      "Opslagbeheer",
+      {
+        "value": "Smart Storage",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -24716,7 +25920,11 @@
   "com.google.android.accessibility.soundamplifier": {
     "appNames": [
       "Sound Amplifier",
-      "Geluidsversterker"
+      "Geluidsversterker",
+      {
+        "value": "Sound Amplifier",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -24728,6 +25936,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -24785,7 +25998,11 @@
   "com.google.android.soundpicker": {
     "appNames": [
       "Sounds",
-      "Geluiden"
+      "Geluiden",
+      {
+        "value": "Sounds",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -24813,7 +26030,11 @@
   "com.android.soundpicker": {
     "appNames": [
       "Sounds",
-      "Geluiden"
+      "Geluiden",
+      {
+        "value": "Sounds",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -24884,6 +26105,10 @@
       "Google Text-to-speech engine",
       "Google Text-to-speech Engine",
       "Spraakherkenning en -synthese van Google",
+      {
+        "value": "Speech Recognition and Synthesis from Google",
+        "locale": "en-US"
+      },
       "Spracherkennung und -Synthese von Google"
     ],
     "devices": [
@@ -25152,7 +26377,11 @@
   },
   "com.google.mainline.telemetry": {
     "appNames": [
-      "Support components"
+      "Support components",
+      {
+        "value": "Support components",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -25232,7 +26461,11 @@
   "com.google.android.accessibility.switchaccess": {
     "appNames": [
       "Switch Access",
-      "Toegang via schakelaar"
+      "Toegang via schakelaar",
+      {
+        "value": "Switch Access",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -25272,6 +26505,10 @@
       "System connectivity resources",
       "System Connectivity Resources",
       "Resources voor systeemconnectiviteit",
+      {
+        "value": "System Connectivity Resources",
+        "locale": "en-US"
+      },
       "Systemverbindungsressourcen"
     ],
     "devices": [
@@ -25378,6 +26615,10 @@
   "com.android.traceur": {
     "appNames": [
       "System Tracing",
+      {
+        "value": "System Tracing",
+        "locale": "en-US"
+      },
       "Ablaufverfolgung"
     ],
     "devices": [
@@ -25447,6 +26688,10 @@
     "appNames": [
       "System UI",
       "Systeem-UI",
+      {
+        "value": "System UI",
+        "locale": "en-US"
+      },
       "System-UI"
     ],
     "devices": [
@@ -25582,7 +26827,11 @@
   },
   "com.google.android.uwb.resources": {
     "appNames": [
-      "System UWB Resources"
+      "System UWB Resources",
+      {
+        "value": "System UWB Resources",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -25650,7 +26899,11 @@
     "appNames": [
       "System Wi-Fi Resources",
       "System Wi-Fi resources",
-      "Wifi-bronnen systeem"
+      "Wifi-bronnen systeem",
+      {
+        "value": "System Wi-Fi Resources",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -25692,7 +26945,11 @@
   },
   "com.google.android.systemui.gxoverlay": {
     "appNames": [
-      "SystemUIGX"
+      "SystemUIGX",
+      {
+        "value": "SystemUIGX",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -25768,7 +27025,11 @@
   },
   "com.google.android.tag": {
     "appNames": [
-      "Tags"
+      "Tags",
+      {
+        "value": "Tags",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -25857,6 +27118,10 @@
       "Tall cutout",
       "Tall display cutout",
       "Hoge cutout",
+      {
+        "value": "Tall cutout",
+        "locale": "en-US"
+      },
       "Hohe Aussparung"
     ],
     "devices": [
@@ -26012,7 +27277,11 @@
   },
   "com.android.virtualization.terminal": {
     "appNames": [
-      "Terminal"
+      "Terminal",
+      {
+        "value": "Terminal",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -26027,6 +27296,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       }
@@ -26034,7 +27308,11 @@
   },
   "com.google.android.networkstack.tethering": {
     "appNames": [
-      "Tethering"
+      "Tethering",
+      {
+        "value": "Tethering",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -26103,7 +27381,11 @@
   },
   "com.google.android.tetheringentitlement": {
     "appNames": [
-      "Tethering Entitlement"
+      "Tethering Entitlement",
+      {
+        "value": "Tethering Entitlement",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -26252,7 +27534,11 @@
   },
   "com.android.internal.systemui.navbar.transparent": {
     "appNames": [
-      "Transparent navigation bar"
+      "Transparent navigation bar",
+      {
+        "value": "Transparent navigation bar",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -26472,6 +27758,10 @@
     "appNames": [
       "User Dictionary",
       "Gebruikerswoordenboek",
+      {
+        "value": "User Dictionary",
+        "locale": "en-US"
+      },
       "Mein Wörterbuch"
     ],
     "devices": [
@@ -26834,7 +28124,11 @@
   },
   "com.google.android.apps.accessibility.voiceaccess": {
     "appNames": [
-      "Voice Access"
+      "Voice Access",
+      {
+        "value": "Voice Access",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -26941,7 +28235,11 @@
   },
   "com.android.vpndialogs": {
     "appNames": [
-      "VpnDialogs"
+      "VpnDialogs",
+      {
+        "value": "VpnDialogs",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -27015,7 +28313,11 @@
     "appNames": [
       "Wallpaper & style",
       "Wallpaper and style",
-      "Achtergrond en stijl"
+      "Achtergrond en stijl",
+      {
+        "value": "Wallpaper & style",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -27143,6 +28445,10 @@
     "appNames": [
       "Waterfall cutout",
       "Waterval-cutout",
+      {
+        "value": "Waterfall cutout",
+        "locale": "en-US"
+      },
       "Aussparung für Wasserfall-Display"
     ],
     "devices": [
@@ -27280,7 +28586,11 @@
   "com.android.DeviceAsWebcam": {
     "appNames": [
       "Webcam Service",
-      "Webcam service"
+      "Webcam service",
+      {
+        "value": "Webcam Service",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -27457,6 +28767,10 @@
       "Wireless emergency alerts",
       "Emergency alerts",
       "Mobiele noodmeldingen",
+      {
+        "value": "Wireless emergency alerts",
+        "locale": "en-US"
+      },
       "Notfallbenachrichtigungen an Mobilgeräte"
     ],
     "devices": [
@@ -27617,6 +28931,10 @@
       "Work Setup",
       "Work profile setup",
       "Werkinstelling",
+      {
+        "value": "Work Setup",
+        "locale": "en-US"
+      },
       "Einrichtung des Arbeitsprofils"
     ],
     "devices": [
@@ -27754,7 +29072,11 @@
   },
   "com.google.android.youtube": {
     "appNames": [
-      "YouTube"
+      "YouTube",
+      {
+        "value": "YouTube",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -27779,6 +29101,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       },
@@ -27791,7 +29118,11 @@
   },
   "com.google.android.apps.youtube.music": {
     "appNames": [
-      "YouTube Music"
+      "YouTube Music",
+      {
+        "value": "YouTube Music",
+        "locale": "en-US"
+      }
     ],
     "devices": [
       {
@@ -27808,6 +29139,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
       },
       {
         "make": "Google",
