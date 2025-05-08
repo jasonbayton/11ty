@@ -45,6 +45,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -149,6 +154,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -499,6 +509,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -564,6 +579,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -696,6 +716,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -793,6 +818,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -898,6 +928,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -978,6 +1013,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -1064,6 +1104,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -1157,6 +1202,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -1216,6 +1266,11 @@
         "os": "36"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -1261,6 +1316,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -1338,6 +1398,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -1454,6 +1519,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -1603,6 +1673,54 @@
       }
     ]
   },
+  "android.overlay.common.all_devices": {
+    "appName": "android.overlay.common.all_devices",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "android.overlay.common.networkstack": {
+    "appName": "android.overlay.common.networkstack",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "android.overlay.common.tetris": {
+    "appName": "android.overlay.common.tetris",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "android.overlay.common.tetris.vnd": {
+    "appName": "android.overlay.common.tetris.vnd",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "android.overlay.framework": {
     "appName": "android.overlay.framework",
     "userFacing": false,
@@ -1612,6 +1730,30 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "android.overlay.gms.region.all": {
+    "appName": "android.overlay.gms.region.all",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "android.overlay.gms.region.eea": {
+    "appName": "android.overlay.gms.region.eea",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -1831,6 +1973,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.nothing.applocker": {
+    "appName": "App locker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -2128,6 +2282,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -2222,6 +2381,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -2600,6 +2764,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -2827,6 +2996,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -2971,6 +3145,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -3053,6 +3232,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -3133,6 +3317,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -3299,6 +3488,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -3366,6 +3560,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -3470,6 +3669,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -3606,6 +3810,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -3815,6 +4024,18 @@
       }
     ]
   },
+  "com.nothing.camera": {
+    "appName": "Camera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.hihonor.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -3928,6 +4149,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -4056,6 +4282,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -4233,6 +4464,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -4571,6 +4807,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -4702,6 +4943,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -4794,6 +5040,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -5068,6 +5319,11 @@
         "os": "36"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -5273,6 +5529,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -5379,6 +5640,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5425,9 +5691,26 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.carrierconfig.overlay.vendornt": {
+    "appName": "com.android.carrierconfig.overlay.vendornt",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -5470,6 +5753,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -5666,6 +5954,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -5748,6 +6041,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -5825,6 +6123,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.euicc.partner": {
+    "appName": "com.android.euicc.partner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -5932,6 +6242,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5989,6 +6304,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -6012,6 +6332,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.microdroid.empty_payload": {
+    "appName": "com.android.microdroid.empty_payload",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -6139,6 +6471,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -6204,6 +6541,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -6534,6 +6876,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -6638,6 +6985,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -6725,6 +7077,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.android.providers.settings.overlay.common": {
+    "appName": "com.android.providers.settings.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -7070,6 +7434,18 @@
       }
     ]
   },
+  "com.android.settings.overlay.base": {
+    "appName": "com.android.settings.overlay.base",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.settings.overlay.cheetah": {
     "appName": "com.android.settings.overlay.cheetah",
     "userFacing": false,
@@ -7154,6 +7530,30 @@
       }
     ]
   },
+  "com.android.settings.overlay.personalsafety": {
+    "appName": "com.android.settings.overlay.personalsafety",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.settings.overlay.product": {
+    "appName": "com.android.settings.overlay.product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.settings.overlay.raven": {
     "appName": "com.android.settings.overlay.raven",
     "userFacing": false,
@@ -7162,6 +7562,30 @@
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.settings.overlay.turbo": {
+    "appName": "com.android.settings.overlay.turbo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.setupwizardoverlay.overlay.tetris_base": {
+    "appName": "com.android.setupwizardoverlay.overlay.tetris_base",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
         "os": "35"
       }
     ]
@@ -7220,6 +7644,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -7321,6 +7750,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -7673,6 +8107,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay.all_devices": {
+    "appName": "com.android.systemui.overlay.all_devices",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.systemui.overlay.common": {
     "appName": "com.android.systemui.overlay.common",
     "userFacing": false,
@@ -7769,6 +8215,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay.gms": {
+    "appName": "com.android.systemui.overlay.gms",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.systemui.overlay.pearloverlay2024": {
     "appName": "com.android.systemui.overlay.pearloverlay2024",
     "userFacing": false,
@@ -7778,6 +8236,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.tetris": {
+    "appName": "com.android.systemui.overlay.tetris",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -7919,6 +8389,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7991,6 +8466,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -8058,6 +8538,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -8123,6 +8608,54 @@
       }
     ]
   },
+  "com.android.wifi.disable_dual.resources.overlay": {
+    "appName": "com.android.wifi.disable_dual.resources.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.wifi.mainline.disable_dual.resources.overlay": {
+    "appName": "com.android.wifi.mainline.disable_dual.resources.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.wifi.mainline.overlay.common": {
+    "appName": "com.android.wifi.mainline.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.wifi.mainline.overlay.tetris": {
+    "appName": "com.android.wifi.mainline.overlay.tetris",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.wifi.mainline.resources.overlay": {
     "appName": "com.android.wifi.mainline.resources.overlay",
     "userFacing": false,
@@ -8132,6 +8665,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -8149,6 +8687,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -8221,6 +8764,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8236,6 +8784,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -8414,6 +8967,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8569,6 +9127,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -8768,6 +9331,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -9032,6 +9600,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9079,6 +9652,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -9121,6 +9699,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9156,6 +9739,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -9200,6 +9788,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -9221,6 +9814,18 @@
       }
     ]
   },
+  "com.google.android.overlay.gmsconfig.healthconnect": {
+    "appName": "com.google.android.overlay.gmsconfig.healthconnect",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.overlay.gmsconfig.personalsafety": {
     "appName": "com.google.android.overlay.gmsconfig.personalsafety",
     "userFacing": false,
@@ -9235,6 +9840,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -9267,6 +9877,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -9328,6 +9943,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -9336,6 +9956,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.tetheringentitlement": {
+    "appName": "com.google.android.overlay.gmsconfig.tetheringentitlement",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -9431,6 +10063,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9517,6 +10154,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -9564,6 +10206,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -9594,6 +10241,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -9621,6 +10273,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -9670,6 +10327,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -9715,6 +10377,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -9973,6 +10640,18 @@
       }
     ]
   },
+  "com.google.android.permissioncontroller.overlay.nothing": {
+    "appName": "com.google.android.permissioncontroller.overlay.nothing",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.permissioncontroller.overlay.oplus": {
     "appName": "com.google.android.permissioncontroller.overlay.oplus",
     "userFacing": false,
@@ -10072,6 +10751,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10122,6 +10806,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -10430,6 +11119,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10703,6 +11397,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10776,6 +11475,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10829,6 +11533,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10846,6 +11555,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10861,6 +11575,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -10895,6 +11614,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10922,6 +11646,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -10975,6 +11704,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -11050,6 +11784,114 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.nothing.gallery.overlay.config": {
+    "appName": "com.nothing.gallery.overlay.config",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.launcher.overlay.config": {
+    "appName": "com.nothing.launcher.overlay.config",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.ntfactorytest.overlay.tetris": {
+    "appName": "com.nothing.ntfactorytest.overlay.tetris",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.userguide.overlay.product": {
+    "appName": "com.nothing.userguide.overlay.product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.wallpaper.overlay.config": {
+    "appName": "com.nothing.wallpaper.overlay.config",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nt.android.overlay.gmsconfig.odad": {
+    "appName": "com.nt.android.overlay.gmsconfig.odad",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nt.android.overlay.gmsconfig.safetycenter": {
+    "appName": "com.nt.android.overlay.gmsconfig.safetycenter",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nt.android.overlay.gmsconfig.settings": {
+    "appName": "com.nt.android.overlay.gmsconfig.settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nt.android.overlay.gmsconfig.settingsprovider": {
+    "appName": "com.nt.android.overlay.gmsconfig.settingsprovider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -12137,6 +12979,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -12199,6 +13046,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.compos.payload": {
+    "appName": "CompOS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -12290,6 +13149,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -12591,6 +13455,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12709,6 +13578,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -12754,6 +13628,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -12870,6 +13749,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12943,6 +13827,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -13002,6 +13891,10 @@
       {
         "locale": "nl-nl",
         "name": "Cross-device-services"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Cross-device services"
       }
     ],
     "devices": [
@@ -13019,6 +13912,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -13155,6 +14053,18 @@
       }
     ]
   },
+  "com.mediatek.datachannel.service": {
+    "appName": "DataChannel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.qti.dcf": {
     "appName": "dcf",
     "userFacing": false,
@@ -13193,6 +14103,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -13287,6 +14202,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -13502,6 +14422,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -13705,6 +14630,11 @@
         "os": "36"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -13764,6 +14694,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -14020,6 +14955,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -14161,6 +15101,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -14247,6 +15192,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -14327,6 +15277,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -14496,6 +15451,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -14692,6 +15652,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -14769,6 +15734,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -15017,6 +15987,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -15351,6 +16326,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -15769,6 +16749,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -15846,6 +16831,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -16072,6 +17062,30 @@
       }
     ]
   },
+  "com.tools.fps": {
+    "appName": "FPS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.focaltech.ft_terminal_test": {
+    "appName": "FT Terminal Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.location.fused": {
     "appName": "Fused Location",
     "userFacing": false,
@@ -16135,6 +17149,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -16361,6 +17380,18 @@
       }
     ]
   },
+  "com.nothing.gallery": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.hihonor.photos": {
     "appName": "Gallery",
     "userFacing": true,
@@ -16551,6 +17582,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -16789,6 +17825,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -16961,6 +18002,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -16986,6 +18032,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.goodix.fingerprint.setting": {
+    "appName": "Goodix_Enroll",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -17043,6 +18101,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -17202,6 +18265,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -17284,6 +18352,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -17364,6 +18437,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -17503,6 +18581,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -17537,6 +18620,10 @@
       {
         "locale": "nl-nl",
         "name": "Google Play Protect-service"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Google Play Protect service"
       }
     ],
     "devices": [
@@ -17554,6 +18641,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -17627,6 +18719,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -17687,6 +18784,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -17759,6 +18861,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -17839,6 +18946,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -17960,6 +19072,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -18042,6 +19159,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -18256,6 +19378,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18335,6 +19462,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -18731,6 +19863,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -18995,6 +20132,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -19106,6 +20248,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -19278,6 +20425,23 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.thirdparty": {
+    "appName": "Ketchum",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -19344,6 +20508,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -19924,6 +21093,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -20000,6 +21174,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -20025,6 +21204,18 @@
       }
     ]
   },
+  "com.nothing.logkit": {
+    "appName": "Log tool",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.location.lppe.main": {
     "appName": "LPPe Service",
     "userFacing": false,
@@ -20044,6 +21235,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -20156,6 +21352,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -20221,6 +21422,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -20339,6 +21545,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -20414,6 +21625,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -20515,6 +21731,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -20537,6 +21758,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -20628,6 +21854,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -20651,6 +21882,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.nothing.gallery.media.proxy": {
+    "appName": "Media Proxy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -20761,6 +22004,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -21003,6 +22251,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -21101,6 +22354,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -21249,6 +22507,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21298,6 +22561,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -21439,6 +22707,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -21569,6 +22842,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -21834,6 +23112,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -21985,6 +23268,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -21997,6 +23285,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -22129,6 +23422,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -22211,6 +23509,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -22343,6 +23646,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22361,6 +23669,186 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.nothing.user.center": {
+    "appName": "Nothing Account",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.agreement": {
+    "appName": "Nothing Agreement",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.launcher": {
+    "appName": "Nothing Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.appservice": {
+    "appName": "Nothing OS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.ntscreenshot": {
+    "appName": "Nothing Screenshot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.wallpaper": {
+    "appName": "Nothing Wallpaper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.hearthstone": {
+    "appName": "Nothing Widgets",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.smartcenter": {
+    "appName": "Nothing X",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.cardservice": {
+    "appName": "NothingCardService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.experience": {
+    "appName": "NothingExperience",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.introduction": {
+    "appName": "NothingIntroduction",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.OfflineOTAUpgradeApp": {
+    "appName": "NothingOfflineOtaUpdate",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "android.autoinstalls.config.Nothing": {
+    "appName": "NothingPAIStub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.customization.pixel": {
+    "appName": "NothingWallpapersBasicColorStub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.wallpapersstub": {
+    "appName": "NothingWallpapersStub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -22408,6 +23896,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -22462,6 +23955,30 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.nothing.ntfactorytest": {
+    "appName": "NTFactoryTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.nothing.ntgamedashboard": {
+    "appName": "NtGameDashboard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -22572,6 +24089,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -23169,6 +24691,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -23291,6 +24818,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -23371,6 +24903,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -23587,6 +25124,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -23722,6 +25264,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -23828,6 +25375,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -23953,6 +25505,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -24060,6 +25617,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -24153,6 +25715,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -24380,6 +25947,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -24438,6 +26010,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -25003,6 +26580,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -25094,6 +26676,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -25159,6 +26746,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -25298,6 +26890,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -25397,6 +26994,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -25759,6 +27361,18 @@
       }
     ]
   },
+  "com.nothing.soundrecorder": {
+    "appName": "Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.hihonor.soundrecorder": {
     "appName": "Recorder",
     "userFacing": false,
@@ -25846,6 +27460,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -25993,6 +27612,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -27705,6 +29329,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -27885,6 +29514,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -28279,6 +29913,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -28402,6 +30041,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -28473,6 +30117,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -28542,6 +30191,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.setupwizard.overlay": {
+    "appName": "SetupWizardOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -28635,6 +30296,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -28771,6 +30437,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -28816,6 +30487,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -28899,6 +30575,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -29018,6 +30699,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -29729,6 +31415,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -29839,6 +31530,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -30026,6 +31722,11 @@
         "os": "30"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -30136,6 +31837,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -30213,6 +31919,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -30319,6 +32030,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -30461,6 +32177,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -30491,6 +32212,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.nothing.proxy": {
+    "appName": "System Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -30548,6 +32281,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -30634,6 +32372,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -30723,6 +32466,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
         "os": "35"
       },
       {
@@ -30864,6 +32612,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -31002,6 +32755,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -31109,6 +32867,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -31223,6 +32986,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -31297,6 +33065,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -31354,6 +33127,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -31469,6 +33247,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -31481,6 +33264,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -31558,6 +33346,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.nothing.userguide": {
+    "appName": "Tips & Feedback",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -31674,6 +33474,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -31692,6 +33497,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.nothing.audioeffect": {
+    "appName": "TranssionService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -31946,6 +33763,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -32503,6 +34325,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -32670,6 +34497,18 @@
       }
     ]
   },
+  "com.wapi.wapicertmanager": {
+    "appName": "WAPI certificate",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
   "com.wapi.wapicertmanage": {
     "appName": "WAPI certificate",
     "userFacing": false,
@@ -32735,6 +34574,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -32826,6 +34670,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.nothing.weather": {
+    "appName": "Weather",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -33106,6 +34962,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -33326,6 +35187,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -33478,6 +35344,11 @@
         "os": "34"
       },
       {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -33533,6 +35404,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "HONOR",
