@@ -106,12 +106,12 @@
         "name": "Ad privacy"
       },
       {
-        "locale": "",
-        "name": "Android system"
+        "locale": "nl-nl",
+        "name": "Advertentieprivacy"
       },
       {
         "locale": "",
-        "name": "Advertentieprivacy"
+        "name": "Android system"
       }
     ],
     "devices": [
@@ -204,7 +204,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Aanpasbare connectiviteitsservices"
       }
     ],
@@ -285,6 +285,10 @@
     "additionalLocales": [
       {
         "locale": "",
+        "name": "AICore"
+      },
+      {
+        "locale": "nl-nl",
         "name": "AICore"
       }
     ],
@@ -379,6 +383,30 @@
       }
     ]
   },
+  "com.hihonor.airlink": {
+    "appName": "AirLink",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.hisight": {
+    "appName": "AirSharingClient",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.oplus.aod": {
     "appName": "Always-On Display",
     "userFacing": false,
@@ -430,7 +458,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Android Toegankelijkheidstools"
       }
     ],
@@ -469,6 +497,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -556,7 +589,7 @@
   },
   "com.google.android.apps.betterbug": {
     "appName": "Android Beta Feedback",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -603,12 +636,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-za",
-        "name": "Android R Easter Egg"
+        "locale": "en-gb",
+        "name": "Android S Easter Egg"
       },
       {
-        "locale": "",
-        "name": "Android S Easter Egg"
+        "locale": "en-za",
+        "name": "Android R Easter Egg"
       }
     ],
     "devices": [
@@ -661,6 +694,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -757,6 +795,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -795,7 +838,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Android Set-up"
       },
       {
@@ -853,6 +896,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -932,6 +980,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -960,10 +1013,6 @@
       {
         "locale": "",
         "name": "Android Setup"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Data restore tool"
       },
       {
         "locale": "en-za",
@@ -1017,6 +1066,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -1043,11 +1097,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Android system"
-      },
-      {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Android-systeem"
       },
       {
@@ -1105,6 +1155,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -1283,6 +1338,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -1600,6 +1660,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "androidhnext": {
+    "appName": "androidhnext",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -2153,6 +2225,18 @@
       }
     ]
   },
+  "com.hihonor.audioaccessorymanager": {
+    "appName": "AudioAccessoryManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.oplus.audio.effectcenter": {
     "appName": "AudioEffectCenter",
     "userFacing": false,
@@ -2402,6 +2486,30 @@
       }
     ]
   },
+  "com.hihonor.awareness": {
+    "appName": "Awareness",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.koBackup": {
+    "appName": "Backup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.sec.android.provider.badge": {
     "appName": "BadgeProvider",
     "userFacing": false,
@@ -2441,7 +2549,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Algemene dagdromen"
       }
     ],
@@ -2490,6 +2598,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -2654,7 +2767,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Opslag voor geblokkeerde nummers"
       },
       {
@@ -2712,6 +2825,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -2853,6 +2971,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -2928,6 +3051,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -3007,6 +3135,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -3025,6 +3158,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.brain": {
+    "appName": "Brain",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -3097,6 +3242,11 @@
         "os": "35"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -3108,7 +3258,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Rekenmachine"
       }
     ],
@@ -3155,12 +3305,24 @@
       }
     ]
   },
+  "com.hihonor.calculator": {
+    "appName": "Calculator",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.calendar": {
     "appName": "Calendar",
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Agenda"
       }
     ],
@@ -3229,17 +3391,29 @@
       }
     ]
   },
+  "com.hihonor.calendar": {
+    "appName": "Calendar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.providers.calendar": {
     "appName": "Calendar Storage",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Calendar storage"
+        "locale": "nl-nl",
+        "name": "Agenda-opslag"
       },
       {
         "locale": "",
-        "name": "Agenda-opslag"
+        "name": "Calendar storage"
       },
       {
         "locale": "",
@@ -3296,6 +3470,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -3636,6 +3815,18 @@
       }
     ]
   },
+  "com.hihonor.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.oplus.camera": {
     "appName": "Camera",
     "userFacing": false,
@@ -3826,7 +4017,7 @@
         "name": "Captive portal login"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Inloggen via captive portal"
       }
     ],
@@ -3865,6 +4056,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -3989,12 +4185,12 @@
         "name": "Operator communications"
       },
       {
-        "locale": "en-za",
-        "name": "CarrierDefaultApp"
+        "locale": "nl-nl",
+        "name": "Berichten van provider"
       },
       {
-        "locale": "",
-        "name": "Berichten van provider"
+        "locale": "en-za",
+        "name": "CarrierDefaultApp"
       }
     ],
     "devices": [
@@ -4069,7 +4265,7 @@
         "name": "Operator Location"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Provider toegang geven tot locatie"
       }
     ],
@@ -4153,6 +4349,10 @@
     "additionalLocales": [
       {
         "locale": "",
+        "name": "DMService"
+      },
+      {
+        "locale": "nl-nl",
         "name": "DMService"
       }
     ],
@@ -4281,7 +4481,7 @@
         "name": "Operator setup"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Provider instellen"
       }
     ],
@@ -4371,6 +4571,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4433,12 +4638,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Certificate installer"
+        "locale": "nl-nl",
+        "name": "Certificaat-installatie"
       },
       {
         "locale": "",
-        "name": "Certificaat-installatie"
+        "name": "Certificate installer"
       },
       {
         "locale": "",
@@ -4495,6 +4700,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -4586,6 +4796,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4638,7 +4853,7 @@
         "name": "Cinematic wallpaper"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Filmische achtergrond"
       }
     ],
@@ -4817,7 +5032,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Klok"
       }
     ],
@@ -4898,6 +5113,18 @@
       }
     ]
   },
+  "com.hihonor.deskclock": {
+    "appName": "Clock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.cmfa.AuthTouch": {
     "appName": "CMFA AuthTouchService",
     "userFacing": false,
@@ -4955,9 +5182,26 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.cooperatedconfig": {
+    "appName": "Collaborative configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -5027,6 +5271,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -5239,6 +5488,18 @@
       }
     ]
   },
+  "com.android.cellbroadcastreceiver.overlay": {
+    "appName": "com.android.cellbroadcastreceiver.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.cellbroadcastreceiver.overlay.common": {
     "appName": "com.android.cellbroadcastreceiver.overlay.common",
     "userFacing": false,
@@ -5405,6 +5666,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5482,6 +5748,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5554,6 +5825,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.frameworkres.overlay": {
+    "appName": "com.android.frameworkres.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -5704,6 +5987,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -5916,6 +6204,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -6345,6 +6638,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -6593,6 +6891,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.google.android.networkstack.permissionconfig": {
+    "appName": "com.android.server.NetworkPermissionConfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -6910,6 +7220,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -7346,6 +7661,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay": {
+    "appName": "com.android.systemui.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.systemui.overlay.common": {
     "appName": "com.android.systemui.overlay.common",
     "userFacing": false,
@@ -7664,6 +7991,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7724,6 +8056,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -7812,6 +8149,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -8737,6 +9079,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8853,6 +9200,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8915,6 +9267,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -9160,6 +9517,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9200,6 +9562,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -9256,6 +9623,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9298,6 +9670,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9338,6 +9715,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -9576,6 +9958,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.packageinstaller.overlay": {
+    "appName": "com.google.android.packageinstaller.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -10264,6 +10658,30 @@
       }
     ]
   },
+  "com.hihonor.browserhomepage": {
+    "appName": "com.hihonor.browserhomepage",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.permissioncontroller.overlay": {
+    "appName": "com.hihonor.permissioncontroller.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.mediatek": {
     "appName": "com.mediatek",
     "userFacing": false,
@@ -10730,6 +11148,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -10790,6 +11213,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -10849,6 +11277,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -11704,6 +12137,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11854,6 +12292,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11957,6 +12400,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.handoff": {
+    "appName": "Connected Apps",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -12095,7 +12550,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Contacten"
       }
     ],
@@ -12164,6 +12619,18 @@
       }
     ]
   },
+  "com.hihonor.contacts": {
+    "appName": "Contacts",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.providers.contacts": {
     "appName": "Contacts Storage",
     "userFacing": false,
@@ -12196,7 +12663,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Opslag contacten"
       }
     ],
@@ -12240,6 +12707,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -12343,7 +12815,7 @@
         "name": "Corner display cutout"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Hoek-cutout"
       },
       {
@@ -12528,7 +13000,7 @@
         "name": "Cross-device services"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Cross-device-services"
       }
     ],
@@ -12757,7 +13229,7 @@
         "name": "Default print service"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Standaard afdrukservice"
       },
       {
@@ -12838,6 +13310,30 @@
       }
     ]
   },
+  "com.hihonor.printservice": {
+    "appName": "Default Print Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.trustcircle": {
+    "appName": "Device authentication service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.lool": {
     "appName": "Device care",
     "userFacing": true,
@@ -12865,12 +13361,24 @@
       }
     ]
   },
+  "com.hihonor.android.clone": {
+    "appName": "Device Clone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "android.autoinstalls.config.google.nexus": {
     "appName": "Device configuration",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Apparaatconfiguratie"
       }
     ],
@@ -12906,6 +13414,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.iconnect": {
+    "appName": "Device connection service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -13127,7 +13647,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Apparaatinstallatie"
       }
     ],
@@ -13459,7 +13979,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Digitaal welzijn"
       }
     ],
@@ -13498,6 +14018,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -13581,7 +14106,7 @@
         "name": "Double display cutout"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Dubbele cutout"
       },
       {
@@ -13662,7 +14187,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Downloadbeheer"
       },
       {
@@ -13720,6 +14245,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -13797,6 +14327,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -13958,6 +14493,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -14059,6 +14599,18 @@
       }
     ]
   },
+  "com.dts.dtsxultra": {
+    "appName": "DTS:X Ultra",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.da.daagent": {
     "appName": "Dual Messenger",
     "userFacing": false,
@@ -14087,6 +14639,10 @@
     "additionalLocales": [
       {
         "locale": "",
+        "name": "Meet"
+      },
+      {
+        "locale": "en-gb",
         "name": "Meet"
       },
       {
@@ -14134,6 +14690,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -14208,6 +14769,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -14345,6 +14911,18 @@
       }
     ]
   },
+  "com.hihonor.email": {
+    "appName": "Email",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.email.partnerprovider": {
     "appName": "EmailPartnerProvider",
     "userFacing": false,
@@ -14391,6 +14969,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Emergency"
+      },
+      {
         "locale": "",
         "name": "com.android.emergency"
       }
@@ -14435,6 +15017,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -14706,7 +15293,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Externe opslag"
       },
       {
@@ -14766,6 +15353,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -14792,7 +15384,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Extreme batterijbesparing"
       }
     ],
@@ -15129,14 +15721,14 @@
   },
   "com.google.android.documentsui": {
     "appName": "Files",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
         "name": "Dateien"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Bestanden"
       }
     ],
@@ -15177,6 +15769,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15190,6 +15787,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.filemanager": {
+    "appName": "Files",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -15468,7 +16077,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Samengestelde locatie"
       },
       {
@@ -15528,6 +16137,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15546,6 +16160,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.searchservice": {
+    "appName": "Fusion Search Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -15732,6 +16358,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.photos": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -16151,6 +16789,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16313,6 +16956,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -16397,6 +17045,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16456,6 +17109,11 @@
         "os": "35"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -16481,6 +17139,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -16493,7 +17156,7 @@
         "name": "Google-Standortverlauf"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Locatiegeschiedenis van Google"
       }
     ],
@@ -16537,6 +17200,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -16616,6 +17284,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16693,6 +17366,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16735,7 +17413,7 @@
         "name": "Choose a picture"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Afbeelding kiezen"
       }
     ],
@@ -16768,6 +17446,14 @@
     "additionalLocales": [
       {
         "locale": "",
+        "name": "Google TV"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Google TV"
+      },
+      {
+        "locale": "nl-nl",
         "name": "Google TV"
       },
       {
@@ -16812,6 +17498,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -16844,7 +17535,7 @@
         "name": "Google Play Protect service"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Google Play Protect-service"
       }
     ],
@@ -16876,7 +17567,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Google Play-services"
       },
       {
@@ -16934,6 +17625,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -17065,6 +17761,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -17099,7 +17800,7 @@
         "name": "Google Safety Centre resources"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Google Veiligheidscentrum-bronnen"
       }
     ],
@@ -17138,6 +17839,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -17252,6 +17958,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -17444,6 +18155,18 @@
       }
     ]
   },
+  "com.hihonor.powergenie": {
+    "appName": "HAware",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.hdmapp": {
     "appName": "HdmApp",
     "userFacing": false,
@@ -17468,7 +18191,7 @@
   },
   "com.google.android.apps.healthdata": {
     "appName": "Health Connect",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -17499,6 +18222,10 @@
     "additionalLocales": [
       {
         "locale": "",
+        "name": "Health Connect"
+      },
+      {
+        "locale": "nl-nl",
         "name": "Health Connect"
       }
     ],
@@ -17643,7 +18370,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Verbergen"
       }
     ],
@@ -17662,6 +18389,30 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.hihonor.hiview": {
+    "appName": "hiview",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.hiviewtunnel": {
+    "appName": "HiViewTunnel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -17687,6 +18438,102 @@
       }
     ]
   },
+  "com.hihonor.android.hnaps": {
+    "appName": "HnAps",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.behaviorauth": {
+    "appName": "HnBehaviorAuth",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.coauthservice": {
+    "appName": "HnCoAuthService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.dmsdp": {
+    "appName": "HnDMSDP",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.devicegroupmanage": {
+    "appName": "HnGroupManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.nearby": {
+    "appName": "HnNearby",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.securitypluginbase": {
+    "appName": "HnSecurityPluginBase",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.hnstartupguide": {
+    "appName": "HnStartupGuide",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.protips": {
     "appName": "Home screen tips",
     "userFacing": false,
@@ -17696,6 +18543,114 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.hihonor.controlcenter": {
+    "appName": "HONOR Connect Control Center",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.android.launcher": {
+    "appName": "HONOR Home",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.id": {
+    "appName": "HONOR ID",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.lens": {
+    "appName": "Honor Lens",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.android.pushagent": {
+    "appName": "HONOR Push",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.search": {
+    "appName": "HONOR Search",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.android.instantshare": {
+    "appName": "HONOR Share",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.systemserver": {
+    "appName": "Honor System Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.pcassistant": {
+    "appName": "HonorConnect",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -17716,7 +18671,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "HTML-viewer"
       },
       {
@@ -17774,6 +18729,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -17838,6 +18798,30 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.iaware": {
+    "appName": "iAware",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.bluetooth": {
+    "appName": "Import via Bluetooth",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -17934,12 +18918,24 @@
       }
     ]
   },
+  "com.hihonor.autoinstallapkfrommcc": {
+    "appName": "Information",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.inputdevices": {
     "appName": "Input Devices",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Invoerapparaten"
       },
       {
@@ -17999,6 +18995,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18017,6 +19018,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.detectrepair": {
+    "appName": "Intelligent Diagnosis",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -18051,6 +19064,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -18268,7 +19286,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Sleutelhanger"
       },
       {
@@ -18326,6 +19344,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -18631,6 +19654,18 @@
       }
     ]
   },
+  "com.hihonor.languagedownloader": {
+    "appName": "LanguageDownloader",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.sec.android.emergencylauncher": {
     "appName": "Launcher",
     "userFacing": false,
@@ -18772,7 +19807,7 @@
   },
   "com.google.audio.hearing.visualization.accessibility.scribe": {
     "appName": "Live Transcribe & Sound Notifications",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -18783,7 +19818,7 @@
         "name": "Live Transcribe and Sound Notifications"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Live transcriptie & Geluidsmeldingen"
       }
     ],
@@ -18830,7 +19865,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Interactieve achtergrondkiezer"
       },
       {
@@ -18889,6 +19924,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18934,6 +19974,18 @@
       }
     ]
   },
+  "com.hihonor.lbs": {
+    "appName": "Location Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.mediatek.lbs.em2.ui": {
     "appName": "LocationEM2",
     "userFacing": false,
@@ -18960,6 +20012,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -18992,6 +20049,18 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.magazine": {
+    "appName": "Magazine Unlock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -19085,6 +20154,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -19260,6 +20334,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -19281,7 +20360,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Market-feedbackagent"
       }
     ],
@@ -19335,6 +20414,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -19478,6 +20562,18 @@
       }
     ]
   },
+  "com.hihonor.medialibrary": {
+    "appName": "Media Library",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.providers.media.module": {
     "appName": "Media picker",
     "userFacing": false,
@@ -19487,12 +20583,12 @@
         "name": "Media-Auswahl"
       },
       {
-        "locale": "",
-        "name": "Media"
+        "locale": "nl-nl",
+        "name": "Mediakiezer"
       },
       {
         "locale": "",
-        "name": "Mediakiezer"
+        "name": "Media"
       }
     ],
     "devices": [
@@ -19530,6 +20626,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -19611,7 +20712,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Berichten"
       }
     ],
@@ -19699,6 +20800,11 @@
         "os": "35"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -19721,6 +20827,11 @@
         "os": "35"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -19741,6 +20852,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -19818,6 +20934,11 @@
         "os": "35"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -19826,7 +20947,7 @@
   },
   "com.touchtype.swiftkey": {
     "appName": "Microsoft SwiftKey Keyboard",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -19843,6 +20964,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -19901,6 +21027,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.hihonor.mmitest": {
+    "appName": "MMITest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -19963,6 +21101,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -20080,6 +21223,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.motionservice": {
+    "appName": "Motions",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -20224,7 +21379,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "MTP-host"
       },
       {
@@ -20284,6 +21439,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -20329,6 +21489,42 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.associateassistant": {
+    "appName": "Multi-Screen Collaboration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.hndockbar": {
+    "appName": "Multi-Window",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.msdp": {
+    "appName": "Multimodal Sensor Data Platform",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -20408,6 +21604,18 @@
       }
     ]
   },
+  "com.hihonor.phoneservice": {
+    "appName": "My HONOR",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.verizon.mips.services": {
     "appName": "My Verizon Services",
     "userFacing": false,
@@ -20432,6 +21640,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.hihonor.android.FloatTasks": {
+    "appName": "Navigation Dock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -20573,7 +21793,7 @@
         "name": "Netzwerkmanager"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Netwerkbeheer"
       }
     ],
@@ -20612,6 +21832,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -20656,6 +21881,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.hihonor.carrierlocation": {
+    "appName": "Network Provider Location Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -20802,6 +22039,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "com.android.networkstack.overlay"
+      },
+      {
         "locale": "",
         "name": "NetworkStackOverlayGsi"
       },
@@ -20830,6 +22071,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -20903,12 +22149,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "NFC"
+        "locale": "nl-nl",
+        "name": "NFC Migration"
       },
       {
         "locale": "",
-        "name": "NFC Migration"
+        "name": "NFC"
       },
       {
         "locale": "",
@@ -21015,7 +22261,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Firmware-updater NFC/eSE/e-simkaart"
       }
     ],
@@ -21051,6 +22297,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.hihonor.notepad": {
+    "appName": "Notepad",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -21204,6 +22462,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.numberidentity": {
+    "appName": "Number Identifier",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -21815,10 +23085,20 @@
     ]
   },
   "org.codeaurora.ims": {
-    "appName": "org.codeaurora.ims.ImsApp",
+    "appName": "org.codeaurora.ims",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "org.codeaurora.ims.ImsApp"
+      }
+    ],
     "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -21845,6 +23125,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -21946,7 +23231,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Pakket-installatie"
       },
       {
@@ -22004,6 +23289,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -22083,6 +23373,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22147,6 +23442,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.hihonor.keychain": {
+    "appName": "Password Vault",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -22239,7 +23546,7 @@
         "name": "Berechtigungssteuerung"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Rechtenbeheer"
       }
     ],
@@ -22278,6 +23585,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -22379,7 +23691,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Persoonlijke veiligheid"
       }
     ],
@@ -22487,7 +23799,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Telefoon"
       }
     ],
@@ -22556,12 +23868,28 @@
       }
     ]
   },
+  "com.android.incallui": {
+    "appName": "Phone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.providers.telephony": {
     "appName": "Phone and Messaging Storage",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
+        "name": "Phone/Messaging Storage"
+      },
+      {
+        "locale": "nl-nl",
         "name": "Opslag telefoon/berichten"
       },
       {
@@ -22625,6 +23953,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22659,16 +23992,16 @@
         "name": "Call Management"
       },
       {
+        "locale": "nl-nl",
+        "name": "Telefoon­gesprekken"
+      },
+      {
         "locale": "en-za",
         "name": "Call Management"
       },
       {
         "locale": "",
         "name": "Phone calls"
-      },
-      {
-        "locale": "",
-        "name": "Telefoon­gesprekken"
       },
       {
         "locale": "",
@@ -22727,6 +24060,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22753,12 +24091,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Phone services"
+        "locale": "nl-nl",
+        "name": "Telefoonservices"
       },
       {
         "locale": "",
-        "name": "Telefoonservices"
+        "name": "Phone services"
       },
       {
         "locale": "",
@@ -22815,6 +24153,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -22944,6 +24287,11 @@
         "os": "30"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -22981,7 +24329,7 @@
         "name": "Fotos"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Foto's"
       }
     ],
@@ -23027,6 +24375,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -23047,12 +24400,12 @@
         "name": "Fotos & Videos"
       },
       {
-        "locale": "en-gb",
-        "name": "Photos and videos"
+        "locale": "nl-nl",
+        "name": "Foto's en video's"
       },
       {
-        "locale": "",
-        "name": "Foto's en video's"
+        "locale": "en-gb",
+        "name": "Photos and videos"
       }
     ],
     "devices": [
@@ -23085,6 +24438,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -23276,7 +24634,7 @@
         "name": "Pixel setup"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Pixel instellen"
       }
     ],
@@ -23401,7 +24759,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Pixel-tips"
       }
     ],
@@ -23460,7 +24818,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Het Weer van Pixel"
       }
     ],
@@ -23645,6 +25003,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -23671,7 +25034,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Afdrukspooler"
       },
       {
@@ -23729,6 +25092,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -23850,6 +25218,30 @@
       }
     ]
   },
+  "com.hihonor.desktop.explorer": {
+    "appName": "Projection Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.android.projectmenu": {
+    "appName": "ProjectMenu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.proxyhandler": {
     "appName": "ProxyHandler",
     "userFacing": false,
@@ -23906,6 +25298,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -23952,12 +25349,12 @@
         "name": "Punch hole cutout"
       },
       {
-        "locale": "en-za",
-        "name": "Punch hole cutout"
+        "locale": "nl-nl",
+        "name": "Cameragat-cutout"
       },
       {
-        "locale": "",
-        "name": "Cameragat-cutout"
+        "locale": "en-za",
+        "name": "Punch hole cutout"
       }
     ],
     "devices": [
@@ -24337,7 +25734,7 @@
   },
   "com.google.android.apps.recorder": {
     "appName": "Recorder",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -24359,6 +25756,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.hihonor.soundrecorder": {
+    "appName": "Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -24467,7 +25876,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Apps renderen onder display-cutout"
       }
     ],
@@ -24498,7 +25907,7 @@
         "name": "Repair mode"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Reparatiemodus"
       }
     ],
@@ -24531,11 +25940,11 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Services voor demo voor de detailhandel"
+        "name": "Retail demo services"
       },
       {
-        "locale": "",
-        "name": "Retail demo services"
+        "locale": "nl-nl",
+        "name": "Services voor demo voor de detailhandel"
       }
     ],
     "devices": [
@@ -24776,7 +26185,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Handleiding voor veiligheid en regelgeving"
       }
     ],
@@ -26170,6 +27579,18 @@
       }
     ]
   },
+  "com.hihonor.screenrecorder": {
+    "appName": "Screen recording",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.oplus.screenrecorder": {
     "appName": "Screen recording",
     "userFacing": false,
@@ -26218,6 +27639,18 @@
       }
     ]
   },
+  "com.hihonor.HnMultiScreenShot": {
+    "appName": "Scrollshot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.apps.setupwizard.searchselector": {
     "appName": "Search Engine Selector",
     "userFacing": false,
@@ -26231,7 +27664,7 @@
         "name": "Search engine selector"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Kiezer voor zoekmachine"
       }
     ],
@@ -26270,6 +27703,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -26396,7 +27834,12 @@
   "com.android.se": {
     "appName": "SecureElementApplication",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "SecureElementService"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -26442,6 +27885,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -26527,6 +27975,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.securityserver": {
+    "appName": "SecurityServer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -26759,7 +28219,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Instellingen"
       },
       {
@@ -26819,6 +28279,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -26845,7 +28310,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Instellingenassistent"
       }
     ],
@@ -26877,7 +28342,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Opslagruimte voor instellingen"
       },
       {
@@ -26935,6 +28400,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -27087,6 +28557,18 @@
       }
     ]
   },
+  "com.hihonor.android.internal.app": {
+    "appName": "Share",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.coloros.assistantscreen": {
     "appName": "Shelf",
     "userFacing": false,
@@ -27153,6 +28635,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -27310,7 +28797,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Sim-manager"
       }
     ],
@@ -27346,16 +28833,16 @@
         "name": "SIM Tool Kit"
       },
       {
+        "locale": "nl-nl",
+        "name": "SIM-toolkit"
+      },
+      {
         "locale": "en-za",
         "name": "SIM Tool Kit"
       },
       {
         "locale": "",
         "name": "SIM toolkit"
-      },
-      {
-        "locale": "",
-        "name": "SIM-toolkit"
       },
       {
         "locale": "",
@@ -27644,6 +29131,18 @@
       }
     ]
   },
+  "com.hihonor.smartshot": {
+    "appName": "Smart screenshots",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.coloros.smartsidebar": {
     "appName": "Smart Sidebar",
     "userFacing": false,
@@ -27665,7 +29164,7 @@
         "name": "Storage Manager"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Opslagbeheer"
       }
     ],
@@ -27979,6 +29478,18 @@
       }
     ]
   },
+  "com.hihonor.ouc": {
+    "appName": "Software update",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.oplus.ota": {
     "appName": "Software update",
     "userFacing": false,
@@ -28034,10 +29545,10 @@
   },
   "com.google.android.accessibility.soundamplifier": {
     "appName": "Sound Amplifier",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Geluidsversterker"
       }
     ],
@@ -28150,7 +29661,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Geluiden"
       }
     ],
@@ -28182,7 +29693,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Geluiden"
       }
     ],
@@ -28258,6 +29769,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "Spraakherkenning en -synthese van Google"
+      },
+      {
         "locale": "en-za",
         "name": "Google Text-to-speech engine"
       },
@@ -28268,10 +29783,6 @@
       {
         "locale": "",
         "name": "Google Text-to-speech Engine"
-      },
-      {
-        "locale": "",
-        "name": "Spraakherkenning en -synthese van Google"
       },
       {
         "locale": "",
@@ -28328,6 +29839,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -28620,6 +30136,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -28668,7 +30189,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Toegang via schakelaar"
       }
     ],
@@ -28710,6 +30231,42 @@
       }
     ]
   },
+  "com.hihonor.imedia.sws": {
+    "appName": "Switch audio",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.synergy": {
+    "appName": "Synergy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.hihonor.systemappsupdater": {
+    "appName": "System Apps Updater",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.connectivity.resources": {
     "appName": "System Connectivity Resources",
     "userFacing": false,
@@ -28723,7 +30280,7 @@
         "name": "System connectivity resources"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Resources voor systeemconnectiviteit"
       }
     ],
@@ -28762,6 +30319,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -28821,6 +30383,18 @@
       }
     ]
   },
+  "com.hihonor.systemmanager": {
+    "appName": "System Manager",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.heytap.mcs": {
     "appName": "System Messages",
     "userFacing": false,
@@ -28842,12 +30416,12 @@
         "name": "Jugendschutzeinstellungen"
       },
       {
-        "locale": "",
-        "name": "Family Link parental controls"
+        "locale": "nl-nl",
+        "name": "Ouderlijk toezicht van systeem"
       },
       {
         "locale": "",
-        "name": "Ouderlijk toezicht van systeem"
+        "name": "Family Link parental controls"
       }
     ],
     "devices": [
@@ -29002,7 +30576,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Systeem-UI"
       },
       {
@@ -29060,6 +30634,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -29230,6 +30809,11 @@
         "os": "30"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
@@ -29245,12 +30829,12 @@
         "name": "System Wi-Fi resources"
       },
       {
-        "locale": "en-gb",
-        "name": "System Wi-Fi resources"
+        "locale": "nl-nl",
+        "name": "Wifi-bronnen systeem"
       },
       {
-        "locale": "",
-        "name": "Wifi-bronnen systeem"
+        "locale": "en-gb",
+        "name": "System Wi-Fi resources"
       }
     ],
     "devices": [
@@ -29472,7 +31056,7 @@
         "name": "Tall display cutout"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Hoge cutout"
       },
       {
@@ -29713,6 +31297,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -29847,6 +31436,10 @@
       {
         "locale": "",
         "name": "TetheringResOverlay"
+      },
+      {
+        "locale": "en-gb",
+        "name": "com.android.networkstack.tethering.overlay"
       }
     ],
     "devices": [
@@ -29854,6 +31447,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -29915,6 +31513,18 @@
       }
     ]
   },
+  "com.hihonor.android.thememanager": {
+    "appName": "Themes",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.apps.pixel.health": {
     "appName": "Thermometer",
     "userFacing": false,
@@ -29936,6 +31546,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.hihonor.tips": {
+    "appName": "Tips",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -30087,6 +31709,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.hihonor.deviceauth": {
+    "appName": "TrustedDeviceAuth",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -30254,7 +31888,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Gebruikerswoordenboek"
       },
       {
@@ -30312,6 +31946,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -30466,6 +32105,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -30627,6 +32271,18 @@
       }
     ]
   },
+  "com.hihonor.videoeditor": {
+    "appName": "Video Editor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.video": {
     "appName": "Video Player",
     "userFacing": false,
@@ -30774,7 +32430,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "VPN van Google"
       }
     ],
@@ -30847,6 +32503,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -30877,7 +32538,7 @@
         "name": "Wallpaper and style"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Achtergrond en stijl"
       }
     ],
@@ -31030,7 +32691,7 @@
         "name": "Aussparung für Wasserfall-Display"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Waterval-cutout"
       }
     ],
@@ -31168,6 +32829,18 @@
       }
     ]
   },
+  "com.hihonor.android.totemweather": {
+    "appName": "Weather",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.coloros.weather.service": {
     "appName": "Weather Services",
     "userFacing": false,
@@ -31260,6 +32933,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.hihonor.android.wfdft": {
+    "appName": "Wi-Fi Direct",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -31376,12 +33061,12 @@
         "name": "Notfallbenachrichtigungen an Mobilgeräte"
       },
       {
-        "locale": "",
-        "name": "Emergency alerts"
+        "locale": "nl-nl",
+        "name": "Mobiele noodmeldingen"
       },
       {
         "locale": "",
-        "name": "Mobiele noodmeldingen"
+        "name": "Emergency alerts"
       }
     ],
     "devices": [
@@ -31421,6 +33106,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -31458,6 +33148,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.hihonor.android.mirrorshare": {
+    "appName": "Wireless Projection",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -31564,7 +33266,7 @@
         "name": "Work profile setup"
       },
       {
-        "locale": "",
+        "locale": "nl-nl",
         "name": "Werkinstelling"
       },
       {
@@ -31622,6 +33324,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -31766,6 +33473,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -31818,6 +33530,11 @@
         "os": "34"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -31826,6 +33543,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.hihonor.assistant": {
+    "appName": "YOYO Suggestions",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   }
