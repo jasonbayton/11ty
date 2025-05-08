@@ -40,6 +40,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -98,11 +103,11 @@
       },
       {
         "locale": "en-gb",
-        "name": "Android system"
+        "name": "Ad privacy"
       },
       {
         "locale": "",
-        "name": "Ad privacy"
+        "name": "Android system"
       },
       {
         "locale": "",
@@ -139,6 +144,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -254,6 +264,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.aiqi.dazhiai": {
+    "appName": "AI Album",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -444,6 +466,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -499,6 +526,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -571,12 +603,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Android S Easter Egg"
-      },
-      {
         "locale": "en-za",
         "name": "Android R Easter Egg"
+      },
+      {
+        "locale": "",
+        "name": "Android S Easter Egg"
       }
     ],
     "devices": [
@@ -624,6 +656,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -713,6 +750,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -808,6 +850,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -880,6 +927,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -908,6 +960,10 @@
       {
         "locale": "",
         "name": "Android Setup"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Data restore tool"
       },
       {
         "locale": "en-za",
@@ -956,6 +1012,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -982,7 +1043,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Android system"
       },
       {
@@ -1039,6 +1100,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -1137,6 +1203,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -1207,6 +1278,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -1313,6 +1389,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -1519,6 +1600,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.yftmba.anrtool": {
+    "appName": "AnrTool",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -1954,20 +2047,20 @@
       }
     ]
   },
-  "com.fido.fido2client": {
-    "appName": "asmsdk",
+  "com.mediatek.mt6878.gamedriver": {
+    "appName": "Arm GPU Game Driver",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
-        "make": "OnePlus",
-        "model": "CPH2465",
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
   },
-  "com.coloros.lockassistant": {
-    "appName": "Assistant",
+  "com.fido.fido2client": {
+    "appName": "asmsdk",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -1984,8 +2077,30 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.coloros.lockassistant": {
+    "appName": "Assistant",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
         "os": "34"
       }
     ]
@@ -2372,6 +2487,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -2589,6 +2709,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -2723,6 +2848,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -2795,6 +2925,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -2865,6 +3000,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -2979,6 +3119,16 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -2987,6 +3137,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -3016,9 +3171,19 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -3029,6 +3194,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -3064,7 +3234,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "Calendar storage"
       },
       {
@@ -3121,6 +3291,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -3247,6 +3422,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -3417,6 +3597,23 @@
       }
     ]
   },
+  "com.android.camera2": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      }
+    ]
+  },
   "com.mediatek.camera": {
     "appName": "Camera",
     "userFacing": false,
@@ -3426,18 +3623,16 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
-      }
-    ]
-  },
-  "com.android.camera2": {
-    "appName": "Camera",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
+      },
       {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -3539,6 +3734,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -3573,6 +3773,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.lamp": {
+    "appName": "Camping lights",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -3648,6 +3860,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -3769,15 +3986,11 @@
       },
       {
         "locale": "en-gb",
-        "name": "CarrierDefaultApp"
+        "name": "Operator communications"
       },
       {
         "locale": "en-za",
         "name": "CarrierDefaultApp"
-      },
-      {
-        "locale": "",
-        "name": "Operator communications"
       },
       {
         "locale": "",
@@ -3819,6 +4032,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -4148,6 +4366,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4269,6 +4492,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4286,6 +4514,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.chlidmode": {
+    "appName": "Child mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -4339,6 +4579,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -4429,6 +4674,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.android.theme.icon.circle": {
+    "appName": "Circle",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -4571,6 +4828,16 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -4623,6 +4890,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -4752,6 +5024,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4848,6 +5125,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -4934,6 +5216,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -5113,6 +5400,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5183,6 +5475,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -5347,6 +5644,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5397,6 +5699,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -5503,7 +5810,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "com.google.android.ondevicepersonalization.services"
       }
     ],
@@ -5537,6 +5844,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -5601,6 +5913,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5653,6 +5970,23 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.partnerbrowsercustomizations.example": {
+    "appName": "com.android.partnerbrowsercustomizations.example",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -5849,6 +6183,10 @@
       {
         "locale": "",
         "name": "Media Storage"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Media Storage"
       }
     ],
     "devices": [
@@ -5896,6 +6234,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -5995,6 +6338,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -6559,6 +6907,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -6648,6 +7001,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -7229,6 +7587,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7296,6 +7659,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7351,6 +7719,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -7419,6 +7792,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7430,6 +7808,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -7491,6 +7874,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7502,6 +7890,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -7674,6 +8067,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7824,6 +8222,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -8020,6 +8423,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8104,47 +8512,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      }
-    ]
-  },
-  "com.google.android.networkstack.tethering.overlay": {
-    "appName": "com.google.android.networkstack.tethering.overlay",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "TetheringConfigOverlay"
-      },
-      {
-        "locale": "",
-        "name": "TetheringResOverlay"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -8318,6 +8685,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8360,6 +8732,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8392,6 +8769,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8422,6 +8804,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -8461,6 +8848,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8486,6 +8878,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -8515,6 +8912,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8542,6 +8944,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8557,6 +8964,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -8657,6 +9069,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8738,6 +9155,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8773,6 +9195,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -8824,6 +9251,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8861,6 +9293,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8896,6 +9333,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -9231,6 +9673,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9276,6 +9723,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -9579,6 +10031,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9631,6 +10088,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.cellbroadcastuiresoverlay": {
+    "appName": "com.google.cellbroadcastuiresoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -9811,6 +10280,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9833,6 +10307,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9853,6 +10332,23 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.carrierexpress": {
+    "appName": "com.mediatek.carrierexpress",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -9868,11 +10364,52 @@
       }
     ]
   },
+  "com.mediatek.entitlement": {
+    "appName": "com.mediatek.entitlement.EntitlementApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.entitlement.fcm": {
+    "appName": "com.mediatek.entitlement.fcm",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.entitlement.o2": {
+    "appName": "com.mediatek.entitlement.o2.EntitlementApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.mediatek.frameworkresoverlay": {
     "appName": "com.mediatek.frameworkresoverlay",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -9886,6 +10423,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9897,6 +10439,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -9925,6 +10472,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9949,6 +10501,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9967,11 +10524,40 @@
       }
     ]
   },
+  "com.mediatek.op18.mms": {
+    "appName": "com.mediatek.op18.mms",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op18.omacp": {
+    "appName": "com.mediatek.op18.omacp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.mediatek.SettingsProviderResOverlay": {
     "appName": "com.mediatek.SettingsProviderResOverlay",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -10008,6 +10594,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -10980,6 +11571,66 @@
       }
     ]
   },
+  "com.yft.theme.circle": {
+    "appName": "com.yft.theme.circle",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.theme.line": {
+    "appName": "com.yft.theme.line",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.theme.metal": {
+    "appName": "com.yft.theme.metal",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.theme.smart": {
+    "appName": "com.yft.theme.smart",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.theme.square": {
+    "appName": "com.yft.theme.square",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.engineermode": {
     "appName": "CommercialEngineerMode",
     "userFacing": false,
@@ -11046,6 +11697,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -11191,6 +11847,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -11470,6 +12131,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11569,6 +12235,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -11722,6 +12393,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11764,7 +12440,7 @@
         "name": "Anmeldedaten-Manager"
       },
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Credential manager"
       }
     ],
@@ -11788,6 +12464,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -11918,6 +12599,18 @@
       }
     ]
   },
+  "com.easycontrol.customersys": {
+    "appName": "customerSys",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.rubin.app": {
     "appName": "Customisation Service",
     "userFacing": false,
@@ -12019,12 +12712,48 @@
       }
     ]
   },
+  "com.debug.loggerui": {
+    "appName": "DebugLoggerUI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.theme.icon.line": {
+    "appName": "Default",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.theme.icon.default": {
+    "appName": "Default",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.bips": {
     "appName": "Default Print Service",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Default print service"
       },
       {
@@ -12081,6 +12810,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -12241,6 +12975,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -12488,6 +13227,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -12751,6 +13495,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12882,6 +13631,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12963,6 +13717,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -13035,6 +13794,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -13060,6 +13824,10 @@
     "appName": "Downloads",
     "userFacing": true,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Files"
+      },
       {
         "locale": "en-za",
         "name": "Files"
@@ -13160,9 +13928,19 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -13173,6 +13951,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -13191,7 +13974,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "DRM-Protected Content Storage"
       }
     ],
@@ -13307,10 +14090,6 @@
         "name": "Meet"
       },
       {
-        "locale": "en-gb",
-        "name": "Meet"
-      },
-      {
         "locale": "",
         "name": "Meet Installer"
       }
@@ -13332,14 +14111,29 @@
         "os": "35"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -13362,6 +14156,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -13406,6 +14205,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -13427,6 +14231,18 @@
       }
     ]
   },
+  "com.yft.dynamicwallpaper": {
+    "appName": "DynamicWallpaper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.coloros.activation": {
     "appName": "E-warranty card",
     "userFacing": false,
@@ -13435,6 +14251,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.easylauncher": {
+    "appName": "Easy Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -13546,6 +14374,18 @@
       }
     ]
   },
+  "com.mediatek.cellbroadcastreceiver": {
+    "appName": "Emergency alerts",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.emergency": {
     "appName": "Emergency information",
     "userFacing": false,
@@ -13590,6 +14430,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -13746,6 +14591,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -13909,6 +14759,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -14110,6 +14965,18 @@
       }
     ]
   },
+  "com.yft.factorymode": {
+    "appName": "Factory Mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.factoryota": {
     "appName": "Factory OTA Mode",
     "userFacing": false,
@@ -14305,6 +15172,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -14324,12 +15196,22 @@
   "com.google.android.apps.nbu.files": {
     "appName": "Files by Google",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Files Go"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       },
       {
         "make": "A-gold",
@@ -14342,9 +15224,19 @@
         "os": "35"
       },
       {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -14440,6 +15332,18 @@
       }
     ]
   },
+  "com.google.android.apps.adm": {
+    "appName": "Find My Device",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.fmm": {
     "appName": "Find My Mobile",
     "userFacing": false,
@@ -14474,6 +15378,18 @@
       }
     ]
   },
+  "com.ykjjx.flashlight": {
+    "appName": "FlashLight",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.turnsilent": {
     "appName": "Flip to mute",
     "userFacing": false,
@@ -14492,9 +15408,24 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -14590,6 +15521,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -14882,6 +15818,18 @@
       }
     ]
   },
+  "com.yft.gamemode": {
+    "appName": "Game mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.game.gos": {
     "appName": "Game Optimizing Service",
     "userFacing": false,
@@ -14962,6 +15910,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15021,6 +15974,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -15104,6 +16062,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15183,6 +16146,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15223,6 +16191,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -15310,9 +16283,19 @@
         "os": "35"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -15323,6 +16306,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -15402,6 +16390,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -15541,6 +16534,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15613,6 +16611,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15683,6 +16686,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -15774,9 +16782,19 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -15789,6 +16807,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -15797,6 +16820,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.music": {
+    "appName": "Google Play Music",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -15894,6 +16929,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -16020,6 +17060,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16090,6 +17135,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16135,6 +17185,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -16192,6 +17247,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -16464,6 +17524,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16706,6 +17771,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16924,6 +17994,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -17008,6 +18083,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -17152,11 +18232,20 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Keep notes"
+      },
+      {
         "locale": "en-za",
         "name": "Keep notes"
       }
     ],
     "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -17166,6 +18255,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -17227,6 +18321,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -17785,6 +18884,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -17880,6 +18984,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -17925,6 +19034,18 @@
       }
     ]
   },
+  "com.mediatek.magtapp": {
+    "appName": "MAGTApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.modulemetadata": {
     "appName": "Main components",
     "userFacing": false,
@@ -17959,6 +19080,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -18016,6 +19142,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -18099,9 +19230,19 @@
         "os": "35"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -18112,6 +19253,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -18186,6 +19332,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18226,6 +19377,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -18270,6 +19426,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -18287,6 +19448,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -18321,7 +19487,7 @@
         "name": "Media-Auswahl"
       },
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "Media"
       },
       {
@@ -18359,6 +19525,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -18486,6 +19657,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18569,6 +19745,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.theme.icon.metal": {
+    "appName": "Metal",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -18684,6 +19872,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -18765,6 +19958,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -18891,6 +20089,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18928,6 +20131,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.mediatek.gnss.nonframeworklbs": {
+    "appName": "MTK Non-Framework Location-Based Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -19064,6 +20279,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -19148,6 +20368,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -19384,6 +20609,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -19509,6 +20739,30 @@
       }
     ]
   },
+  "com.mediatek.networkstack.gooverlay": {
+    "appName": "NetworkStackGoogleGoResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.networkstack.nongooverlay": {
+    "appName": "NetworkStackGoogleResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.networkstack.inprocess.overlay": {
     "appName": "NetworkStackInProcessResOverlay",
     "userFacing": false,
@@ -19620,12 +20874,36 @@
       }
     ]
   },
+  "com.mediatek.networkstack.overlay": {
+    "appName": "NetworkStackResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.cardemulateion": {
+    "appName": "NFC Card Emulation",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.nfc": {
     "appName": "Nfc Service",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "NFC"
       },
       {
@@ -19682,6 +20960,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -19797,6 +21080,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -19857,6 +21145,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -20055,6 +21348,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -20180,6 +21478,90 @@
       }
     ]
   },
+  "com.mediatek.op07.wfo": {
+    "appName": "OP07Wos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op08.ims": {
+    "appName": "OP08Ims",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op08.wfo": {
+    "appName": "OP08Wos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op12.ims": {
+    "appName": "OP12Ims",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op12.settings": {
+    "appName": "OP12Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op20.settings": {
+    "appName": "OP20Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op20.systemui": {
+    "appName": "OP20SystemUI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.ocs": {
     "appName": "OpenCapabilityService",
     "userFacing": false,
@@ -20188,6 +21570,162 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op08.phone": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op07.telecom": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op07.dialer": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op20.phone": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op12.phone": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op12.systemui": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op08.settings": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op07.settings": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op08.systemui": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op07.systemui": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op08.dialer": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op18.telecom": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.op12.dialer": {
+    "appName": "OperatorPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -20341,6 +21879,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -20458,6 +22001,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -20528,6 +22076,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -20606,6 +22159,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.yft.stepcount": {
+    "appName": "Pedometer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -20708,6 +22273,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -20820,6 +22390,11 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -20828,6 +22403,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -20933,6 +22513,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21035,6 +22620,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21066,11 +22656,15 @@
       },
       {
         "locale": "en-gb",
-        "name": "Phone calls"
+        "name": "Call Management"
       },
       {
         "locale": "en-za",
         "name": "Call Management"
+      },
+      {
+        "locale": "",
+        "name": "Phone calls"
       },
       {
         "locale": "",
@@ -21128,6 +22722,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21154,7 +22753,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "Phone services"
       },
       {
@@ -21211,6 +22810,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -21393,9 +22997,19 @@
         "os": "35"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -21406,6 +23020,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -21428,7 +23047,7 @@
         "name": "Fotos & Videos"
       },
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Photos and videos"
       },
       {
@@ -21461,6 +23080,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -22016,6 +23640,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22097,6 +23726,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22152,6 +23786,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -22262,6 +23901,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22353,6 +23997,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22424,6 +24073,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.qr_codescan": {
+    "appName": "QRCode Scan",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -22544,7 +24205,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Launcher3"
       }
     ],
@@ -22568,6 +24229,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -22768,6 +24434,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22909,6 +24580,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -23080,6 +24756,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.yft.superscreen": {
+    "appName": "S-capture",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -24579,6 +26267,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -24746,6 +26439,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -24905,6 +26603,18 @@
       }
     ]
   },
+  "com.yft.sensorcalibration": {
+    "appName": "SensorCalibration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.mediatek.sensorhub.ui": {
     "appName": "SensorHub",
     "userFacing": false,
@@ -24962,6 +26672,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.easycontrol.customercenter": {
+    "appName": "Service Center",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -25092,6 +26814,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -25205,6 +26932,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -25230,6 +26962,10 @@
     "appName": "Settings Suggestions",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Settings suggestions"
+      },
       {
         "locale": "",
         "name": "Einstellungsvorschläge"
@@ -25260,6 +26996,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -25409,6 +27150,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -25533,6 +27279,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -25590,6 +27341,10 @@
     "appName": "SIM Toolkit",
     "userFacing": true,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "SIM Tool Kit"
+      },
       {
         "locale": "en-za",
         "name": "SIM Tool Kit"
@@ -25652,6 +27407,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -25766,6 +27526,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -25997,6 +27762,18 @@
       }
     ]
   },
+  "com.yft.smarttouch": {
+    "appName": "Smart Touch",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.visualars": {
     "appName": "Smart Touch Call",
     "userFacing": false,
@@ -26105,6 +27882,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.smartratswitch.service": {
+    "appName": "SmartRatSwitch",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -26335,9 +28124,24 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -26407,6 +28211,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -26516,6 +28325,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -26546,6 +28360,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.android.theme.icon.square": {
+    "appName": "Square",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -26789,6 +28615,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -26858,6 +28689,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -26923,6 +28759,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -26968,6 +28809,18 @@
       }
     ]
   },
+  "com.yft.systemmanager": {
+    "appName": "System Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.heytap.mcs": {
     "appName": "System Messages",
     "userFacing": false,
@@ -26989,7 +28842,7 @@
         "name": "Jugendschutzeinstellungen"
       },
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "Family Link parental controls"
       },
       {
@@ -27027,6 +28880,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -27113,6 +28971,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -27136,7 +28999,7 @@
   },
   "com.android.systemui": {
     "appName": "System UI",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -27194,6 +29057,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -27236,6 +29104,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.oukitel.update": {
+    "appName": "System Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -27304,6 +29184,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -27360,6 +29245,10 @@
         "name": "System Wi-Fi resources"
       },
       {
+        "locale": "en-gb",
+        "name": "System Wi-Fi resources"
+      },
+      {
         "locale": "",
         "name": "Wifi-bronnen systeem"
       }
@@ -27384,6 +29273,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -27519,6 +29413,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -27621,6 +29520,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -27730,6 +29634,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -27797,6 +29706,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -27881,6 +29795,51 @@
       }
     ]
   },
+  "com.google.android.networkstack.tethering.overlay": {
+    "appName": "TetheringConfigOverlay",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "com.google.android.networkstack.tethering.overlay"
+      },
+      {
+        "locale": "en-gb",
+        "name": "com.google.android.networkstack.tethering.overlay"
+      },
+      {
+        "locale": "",
+        "name": "TetheringResOverlay"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.networkstack.tethering.overlay": {
     "appName": "TetheringConfigOverlayGsi",
     "userFacing": false,
@@ -27903,6 +29862,30 @@
       }
     ]
   },
+  "com.mediatek.networkstack.tethering.overlay": {
+    "appName": "TetheringResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.networkstack.tethering.googleoverlay": {
+    "appName": "TetheringResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.networkstack.tethering.inprocess.overlay": {
     "appName": "TetheringResOverlay",
     "userFacing": false,
@@ -27920,6 +29903,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -27948,6 +29936,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.yft.tool": {
+    "appName": "ToolBag",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -27981,6 +29981,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "cn.sh.yftmba.yfttorch": {
+    "appName": "Torch",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -28033,6 +30045,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -28292,6 +30309,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -28447,6 +30469,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.ims.pco": {
+    "appName": "Verizon activation",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -28702,6 +30736,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -28803,6 +30842,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -28863,12 +30907,22 @@
   "com.android.wallpaper": {
     "appName": "Wallpaper & style",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Wallpaper and style"
+      }
+    ],
     "devices": [
       {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -29015,6 +31069,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -29342,6 +31401,11 @@
         "os": "35"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -29350,6 +31414,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -29491,6 +31560,10 @@
         "name": "Work profile setup"
       },
       {
+        "locale": "en-gb",
+        "name": "Work profile setup"
+      },
+      {
         "locale": "",
         "name": "Werkinstelling"
       },
@@ -29544,6 +31617,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -29617,6 +31695,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -29653,9 +31736,19 @@
         "os": "35"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       },
       {
         "make": "OnePlus",
@@ -29666,6 +31759,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -29695,6 +31793,11 @@
         "os": "36"
       },
       {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -29708,6 +31811,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       },
       {
         "make": "Google",
