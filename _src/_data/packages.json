@@ -300,6 +300,10 @@
       {
         "locale": "nl-nl",
         "name": "AICore"
+      },
+      {
+        "locale": "en-gb",
+        "name": "AICore"
       }
     ],
     "devices": [
@@ -4503,6 +4507,10 @@
       {
         "locale": "nl-nl",
         "name": "Provider toegang geven tot locatie"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Operator Location"
       }
     ],
     "devices": [
@@ -4589,6 +4597,10 @@
       },
       {
         "locale": "nl-nl",
+        "name": "DMService"
+      },
+      {
+        "locale": "en-gb",
         "name": "DMService"
       }
     ],
@@ -4719,6 +4731,10 @@
       {
         "locale": "nl-nl",
         "name": "Provider instellen"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Operator setup"
       }
     ],
     "devices": [
@@ -5106,6 +5122,10 @@
       {
         "locale": "nl-nl",
         "name": "Filmische achtergrond"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Cinematic wallpaper"
       }
     ],
     "devices": [
@@ -10671,6 +10691,10 @@
       {
         "locale": "",
         "name": "Retail Demo"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Retail Demo"
       }
     ],
     "devices": [
@@ -13357,6 +13381,10 @@
       {
         "locale": "",
         "name": "SDMService"
+      },
+      {
+        "locale": "en-gb",
+        "name": "SDMService"
       }
     ],
     "devices": [
@@ -14355,6 +14383,10 @@
     "additionalLocales": [
       {
         "locale": "",
+        "name": "Device connectivity service"
+      },
+      {
+        "locale": "en-gb",
         "name": "Device connectivity service"
       }
     ],
@@ -18493,6 +18525,10 @@
       {
         "locale": "nl-nl",
         "name": "Afbeelding kiezen"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Choose a picture"
       }
     ],
     "devices": [
@@ -19433,7 +19469,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "Google Assistant"
       }
     ],
@@ -24060,7 +24096,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "Google Assistant"
       }
     ],
@@ -26084,6 +26120,10 @@
       {
         "locale": "",
         "name": "Pixel Camera services"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Pixel Camera services"
       }
     ],
     "devices": [
@@ -26165,6 +26205,10 @@
       {
         "locale": "",
         "name": "Pixel live wallpaper"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Pixel live wallpaper"
       }
     ],
     "devices": [
@@ -26213,6 +26257,10 @@
       {
         "locale": "nl-nl",
         "name": "Pixel instellen"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Pixel setup"
       }
     ],
     "devices": [
@@ -27528,6 +27576,10 @@
       {
         "locale": "nl-nl",
         "name": "Reparatiemodus"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Repair mode"
       }
     ],
     "devices": [
@@ -27564,6 +27616,10 @@
       {
         "locale": "nl-nl",
         "name": "Services voor demo voor de detailhandel"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Retail demo services"
       }
     ],
     "devices": [
@@ -30852,6 +30908,10 @@
       {
         "locale": "nl-nl",
         "name": "Opslagbeheer"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Storage Manager"
       }
     ],
     "devices": [
@@ -32999,7 +33059,7 @@
   },
   "com.android.virtualization.terminal": {
     "appName": "Terminal",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -33315,7 +33375,7 @@
   },
   "com.google.android.apps.pixel.health": {
     "appName": "Thermometer",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -34367,6 +34427,10 @@
       {
         "locale": "nl-nl",
         "name": "Achtergrond en stijl"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Wallpaper and style"
       }
     ],
     "devices": [
@@ -34715,6 +34779,10 @@
     "additionalLocales": [
       {
         "locale": "",
+        "name": "Webcam service"
+      },
+      {
+        "locale": "en-gb",
         "name": "Webcam service"
       }
     ],
