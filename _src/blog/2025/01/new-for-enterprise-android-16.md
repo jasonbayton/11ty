@@ -81,6 +81,21 @@ Both of these APIs have existed since Android 11 with [`setAutoTimeEnabled`](htt
 
 There's currently no justification documented for revamping these _again_, and I don't want to speculate, but as and when more information is shared I will update here.
 
+## Improvements to provisioning
+
+For years now Android has bloated out the provisioning flow with screen after screen of additional prompts, messages, and delays. Admins want to initiate provisioning and just have it provision, and the longer that takes the more frustrating it becomes to potentially have to do this; whether that's end-users getting their devices, or employees in staging environments doing 5, 50, 500 devices at a time - every minute counts.
+
+In 16 Google have taken steps to improve this, and, well, the proof is in the pudding - 
+
+https://www.youtube.com/watch?v=i_73MhGGsDc
+
+In my limited testing on two generations of Pixel devices, I noted:
+
+- Fewer interactions needed, so if you lose focus and do something else while the device is provisioning, it's less likely to be stuck on a screen waiting for a button press.
+- Faster provisioning times, for work profiles on company-owned devices at least. Fully managed was more or less the same amount of time, but either way at about 2 minutes it's not terrible.
+
+This is amazing to see, though as I mentioned on [LinkedIn](https://www.linkedin.com/posts/jasonbayton_androidenterprise-activity-7326566273050451969-eABI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAG2naoB4JYfpSbZlhfEBgsmJT5fgSUKD6g), I'd hope OEM setup screens are targeted next. They took up a majority of the final stages of setup in the video above.
+
 ## That's not all folks!
 
 This is extremely short and sweet given how early in the process we are for 16. Expect several more betas with several more changes. Check back here again soon!
