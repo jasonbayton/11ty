@@ -6838,10 +6838,6 @@
       {
         "locale": "",
         "name": "Media Storage"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Media Storage"
       }
     ],
     "devices": [
@@ -11617,7 +11613,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "ImsApp"
       }
     ],
@@ -16822,12 +16818,7 @@
   "com.google.android.apps.nbu.files": {
     "appName": "Files by Google",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Files Go"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "Google",
@@ -19469,7 +19460,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Google Assistant"
       }
     ],
@@ -24096,7 +24087,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Google Assistant"
       }
     ],
