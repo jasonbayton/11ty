@@ -53,13 +53,23 @@ You choose the information you provide, naturally, but be mindful of the above w
 
 ### Formatting the organisation message 
 
-FYI, the organisation message field supports HTML! You may use the following HTML tags: 
+FYI, the organisation message field supports HTML & Markdown! You may use the following HTML tags: 
 
 - `<P>` - HTML paragraph 
 - `<A>` - HTML link
 - `<B>` - HTML bold
 - `<I>` - HTML italic
 - `<BR>` - HTML new line
+
+Or respective markdown tags:
+
+- `*Italic*`
+- `**Bold**`
+- `# Heading`
+- ``code``
+- `[links](links)`
+- `![image](image)`
+- `1.` / `*` - Lists
 
 Feel free to customise this message as desired, or simply input a string.
 

@@ -85,6 +85,14 @@ Please follow steps under [submitting to support](#submitting-to-support) to hav
 
 MANAGED INFO requires Android 7.0 and above, running on ARM chipsets. Beyond these requirements, the app should be supported on pretty much all open-market devices. If you're seeing issues, reach out to debug.
 
+### MANAGED INFO closes when setting launcher to enabled
+
+This is a quirk of Android, switching between a main activity and an alias activity will close the application. When MANAGED INFO closes, look out for the updated app name, INFO Launcher, and reopen it. It will then be using the alias activity that supports being set as the device launcher. The same behaviour applies when switching launcher back off.
+
+### Unable to set MANAGED INFO as the default persistent preferred activity application for HOME
+
+Make sure the launcher configuration has been adjusted within the managed configuration. Out of the box MANAGED INFO doesn't support being set as the launcher as it can disrupt home navigation on devices.
+
 ### The configuration unsets itself
 
 MANAGED INFO will receive the managed configuration either from the DPC or companion application via EMM, or from disk. It will then cache the configuration on an ongoing basis until a new configuration is received. 

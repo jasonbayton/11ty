@@ -56,6 +56,36 @@ MANAGED INFO offers the following customisations:
 **Vertical and horizontal app & grid stacks** _-1.0.0.8_
 : App cards and app grid cards in all directions. Supports stack-order as well as global order.
 
+**Hide the top bar** _-1.0.1.6_
+: Remove the top application bar with title, settings, etc.
+
+**Integrate MANAGED SETTINGS** _-1.0.1.6_
+: Allow end-users to open MANAGED SETTINGS directly from the topbar (hidden or not) for access to a limited settings experience.
+
+**Card transparency** _-1.0.1.6_
+: Configure card transparency, and toggle app grid mode (card or launcher style) 
+
+**Headings** _-1.0.1.6_
+: Add standalone headings for visual separation of sections
+
+**Modular device details** _-1.0.1.6_
+: Configure visibility of device details cards individually.
+ 
+**Application background image** _-1.0.1.7_
+: Configure, via URL, a background image for MANAGED INFO.
+ 
+**Theme colours** _-1.0.1.7_
+: Customise the main theme colours of the app - background, card, and text.
+  
+**Device details button** _-1.0.2.0_
+: Show device details in an overlaid bottom sheet (modal) instead of within the main card stack.
+   
+**Configure heading sizes** _-1.0.3.0_
+: When adding a heading, choose from three sizes.
+    
+**Launcher mode** _-1.0.3.0_
+: Enable launcher mode to support persistent preferred intents, a more flexible home/launcher approach to the kiosk experience.
+
 ### In future
 
 If you'd like to see more customisation options, or general features, [raise a feature request](https://github.com/baytonorg/managed_info_tracker/issues/) or discuss your requirements on the [MANAGED INFO Discord channel](https://discord.gg/7VzRZWVkht).
