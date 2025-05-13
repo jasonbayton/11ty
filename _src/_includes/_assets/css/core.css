@@ -712,6 +712,10 @@ content#home {
   grid-row: 2/3;
 }
 
+.projects-content {
+  align-self: center;
+}
+
 #community_offside {
   display: grid;
   grid-template-columns: 1fr 1fr;

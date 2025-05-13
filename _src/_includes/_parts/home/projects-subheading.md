@@ -1,0 +1,1 @@
+Solutions & utilities to level-up your Android Enterprise management capabilities. Learn more about [MANAGED SETTINGS](https://bayton.org/projects/managed-settings), [MANAGED INFO](https://bayton.org/projects/managed-info), [PACKAGE SEARCH](https://bayton.org/projects/package-search) and [more](https://bayton.org/projects/). 

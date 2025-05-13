@@ -40,6 +40,23 @@
                 {% include "./_parts/partner-logos.njk" %}
             </section>
 
+            <section id="projects" class="home-section">
+                <div class="grid grid-column-3-1 gap-30 grid-column-mobile-1">
+                    <div class="projects-content">
+                        <div class="home-heading">
+                            Projects
+                        </div>
+                        <div class="home-subheading">
+                            {% renderFile "./_src/_includes/_parts/home/projects-subheading.md" %}
+                        </div>
+                    </div>
+                    <div class="projects-content">
+                        <img src="https://cdn.bayton.org/assets/projects/bayton_appgroup.svg" alt="appgroup" class="projects-logo">
+                    </div>
+                </div>
+            </section>
+
+
             {% include "./_parts/highlights_home.njk" %}
             <section id="posts_container">
                 <section id="posts" class="home-section">
