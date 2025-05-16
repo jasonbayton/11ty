@@ -2059,6 +2059,37 @@
       }
     ]
   },
+  "com.samsung.android.sm.devicesecurity": {
+    "appName": "App protection",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "App-Schutz"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Device security"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.appplatform": {
     "appName": "App Services",
     "userFacing": false,
@@ -2341,7 +2372,7 @@
   },
   "com.samsung.android.arzone": {
     "appName": "AR Zone",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -2929,10 +2960,19 @@
       }
     ]
   },
-  "com.samsung.android.visionintelligence": {
-    "appName": "Bixby Vision",
+  "com.samsung.android.biometrics.app.setting": {
+    "appName": "Biometrics",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Biometrische Daten"
+      },
+      {
+        "locale": "en-gb",
+        "name": "com.samsung.android.biometrics.app.setting"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -2952,14 +2992,36 @@
     ]
   },
   "com.samsung.android.bixby.agent": {
-    "appName": "Bixby Voice",
-    "userFacing": false,
+    "appName": "Bixby",
+    "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Bixby"
+        "locale": "en-gb",
+        "name": "Bixby Voice"
       }
     ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.visionintelligence": {
+    "appName": "Bixby Vision",
+    "userFacing": false,
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -3125,70 +3187,13 @@
       }
     ]
   },
-  "com.google.android.bluetooth": {
-    "appName": "Bluetooth",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      }
-    ]
-  },
-  "com.sec.android.app.bluetoothagent": {
-    "appName": "Bluetooth Agent",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
   "com.android.bluetooth": {
-    "appName": "Bluetooth Legacy",
+    "appName": "Bluetooth",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "en-za",
-        "name": "Bluetooth"
+        "locale": "nl-nl",
+        "name": "Bluetooth Legacy"
       }
     ],
     "devices": [
@@ -3271,6 +3276,55 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.google.android.bluetooth": {
+    "appName": "Bluetooth",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      }
+    ]
+  },
+  "com.sec.android.app.bluetoothagent": {
+    "appName": "Bluetooth Agent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -3698,7 +3752,7 @@
   },
   "com.samsung.android.calendar": {
     "appName": "Calendar",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -3726,16 +3780,24 @@
     ]
   },
   "com.android.providers.calendar": {
-    "appName": "Calendar Storage",
+    "appName": "Calendar storage",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Calendar Storage"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Calendar Storage"
+      },
       {
         "locale": "nl-nl",
         "name": "Agenda-opslag"
       },
       {
-        "locale": "",
-        "name": "Calendar storage"
+        "locale": "en-za",
+        "name": "Calendar Storage"
       },
       {
         "locale": "",
@@ -4211,7 +4273,7 @@
     ]
   },
   "com.samsung.android.hwresourceshare": {
-    "appName": "Camera Share",
+    "appName": "Camera sharing",
     "userFacing": false,
     "additionalLocales": [
       {
@@ -4220,7 +4282,7 @@
       },
       {
         "locale": "",
-        "name": "Camera sharing"
+        "name": "Camera Share"
       }
     ],
     "devices": [
@@ -5050,16 +5112,24 @@
     ]
   },
   "com.android.certinstaller": {
-    "appName": "Certificate Installer",
+    "appName": "Certificate installer",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Certificate Installer"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Certificate Installer"
+      },
       {
         "locale": "nl-nl",
         "name": "Certificaat-installatie"
       },
       {
-        "locale": "",
-        "name": "Certificate installer"
+        "locale": "en-za",
+        "name": "Certificate Installer"
       },
       {
         "locale": "",
@@ -5526,7 +5596,7 @@
   },
   "com.sec.android.app.clockpackage": {
     "appName": "Clock",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -9719,6 +9789,52 @@
       }
     ]
   },
+  "com.google.android.networkstack.tethering.overlay": {
+    "appName": "com.google.android.networkstack.tethering.overlay",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "TetheringResOverlay"
+      },
+      {
+        "locale": "",
+        "name": "TetheringConfigOverlay"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.networkstack.tethering.overlay2021": {
     "appName": "com.google.android.networkstack.tethering.overlay2021",
     "userFacing": false,
@@ -12635,17 +12751,17 @@
       }
     ]
   },
-  "com.samsung.android.biometrics.app.setting": {
-    "appName": "com.samsung.android.biometrics.app.setting",
+  "com.samsung.android.app.cocktailbarservice": {
+    "appName": "com.samsung.android.app.cocktailbarservice",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Biometrische Daten"
+        "name": "Edge panels"
       },
       {
-        "locale": "",
-        "name": "Biometrics"
+        "locale": "en-gb",
+        "name": "Edge panels"
       }
     ],
     "devices": [
@@ -12653,11 +12769,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -12775,6 +12886,32 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.uwb": {
+    "appName": "com.samsung.android.uwb.UwbApplication",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "UwbApplication"
+      },
+      {
+        "locale": "en-gb",
+        "name": "UwbApplication"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -14438,7 +14575,7 @@
     ]
   },
   "com.samsung.android.rubin.app": {
-    "appName": "Customisation Service",
+    "appName": "Customization Service",
     "userFacing": false,
     "additionalLocales": [
       {
@@ -14446,8 +14583,8 @@
         "name": "Personalisierter Dienst"
       },
       {
-        "locale": "",
-        "name": "Customization Service"
+        "locale": "en-gb",
+        "name": "Customisation Service"
       }
     ],
     "devices": [
@@ -14993,37 +15130,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      }
-    ]
-  },
-  "com.samsung.android.sm.devicesecurity": {
-    "appName": "Device security",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "App-Schutz"
-      },
-      {
-        "locale": "",
-        "name": "App protection"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -16136,86 +16242,6 @@
       }
     ]
   },
-  "com.google.android.apps.tachyon": {
-    "appName": "Duo",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Meet"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Meet"
-      },
-      {
-        "locale": "",
-        "name": "Meet Installer"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
   "com.mediatek.duraspeed": {
     "appName": "DuraSpeed",
     "userFacing": true,
@@ -16370,28 +16396,6 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.samsung.android.app.cocktailbarservice": {
-    "appName": "Edge panels",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "com.samsung.android.app.cocktailbarservice"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
       },
       {
         "make": "samsung",
@@ -17212,8 +17216,88 @@
       }
     ]
   },
+  "com.google.android.gms.supervision": {
+    "appName": "Family Link parental controls",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Jugendschutzeinstellungen"
+      },
+      {
+        "locale": "en-gb",
+        "name": "System parental controls"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Ouderlijk toezicht van systeem"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
   "com.sec.android.widgetapp.easymodecontactswidget": {
-    "appName": "Favourite Contacts",
+    "appName": "Favorite Contacts",
     "userFacing": false,
     "additionalLocales": [
       {
@@ -17221,8 +17305,8 @@
         "name": "Bevorzugte Kontakte"
       },
       {
-        "locale": "",
-        "name": "Favorite Contacts"
+        "locale": "en-gb",
+        "name": "Favourite Contacts"
       }
     ],
     "devices": [
@@ -17840,7 +17924,7 @@
   },
   "com.sec.android.app.samsungapps": {
     "appName": "Galaxy Store",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -17938,7 +18022,7 @@
   },
   "com.sec.android.gallery3d": {
     "appName": "Gallery",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -18036,28 +18120,6 @@
       }
     ]
   },
-  "com.samsung.android.game.gamehome": {
-    "appName": "Game Launcher",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Gaming Hub"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
   "com.agui.game": {
     "appName": "Game mode",
     "userFacing": false,
@@ -18096,6 +18158,28 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.game.gamehome": {
+    "appName": "Gaming Hub",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Game Launcher"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -18734,6 +18818,128 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.hotwordenrollment.xgoogle": {
+    "appName": "Google Assistant",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Hey Google Hotword"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Hey Google Hotword"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.hotwordenrollment.okgoogle": {
+    "appName": "Google Assistant",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "OK Google Hotword"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "OK Google Hotword"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -20090,63 +20296,6 @@
       }
     ]
   },
-  "com.android.hotwordenrollment.xgoogle": {
-    "appName": "Hey Google Hotword",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Google Assistant"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
   "com.oplus.synergy": {
     "appName": "HeySynergy",
     "userFacing": false,
@@ -20974,7 +21123,7 @@
   },
   "com.samsung.android.app.interpreter": {
     "appName": "Interpreter",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -21376,6 +21525,33 @@
       }
     ]
   },
+  "com.samsung.android.knox.containercore": {
+    "appName": "KnoxCore",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Work profile"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.knox.kfbp": {
     "appName": "KnoxFrameBufferProvider",
     "userFacing": false,
@@ -21630,7 +21806,7 @@
   },
   "com.microsoft.appmanager": {
     "appName": "Link to Windows",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -22538,13 +22714,29 @@
       }
     ]
   },
+  "com.hihonor.medialibrary": {
+    "appName": "Media Library",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.mdx.quickboard": {
-    "appName": "Media and devices",
+    "appName": "Media output",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Media output"
+        "name": "Media and devices"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Media and devices"
       }
     ],
     "devices": [
@@ -22557,18 +22749,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.medialibrary": {
-    "appName": "Media Library",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -22695,6 +22875,82 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.apps.tachyon": {
+    "appName": "Meet",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "en-za",
+        "name": "Duo"
+      },
+      {
+        "locale": "",
+        "name": "Meet Installer"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
       }
     ]
   },
@@ -24269,29 +24525,25 @@
       }
     ]
   },
-  "com.yft.cardemulateion": {
-    "appName": "NFC Card Emulation",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      }
-    ]
-  },
   "com.android.nfc": {
-    "appName": "Nfc Service",
+    "appName": "NFC",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Nfc Service"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Nfc Service"
+      },
       {
         "locale": "nl-nl",
         "name": "NFC Migration"
       },
       {
-        "locale": "",
-        "name": "NFC"
+        "locale": "en-za",
+        "name": "Nfc Service"
       },
       {
         "locale": "",
@@ -24372,6 +24624,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yft.cardemulateion": {
+    "appName": "NFC Card Emulation",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -24932,63 +25196,6 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
-      }
-    ]
-  },
-  "com.android.hotwordenrollment.okgoogle": {
-    "appName": "OK Google Hotword",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Google Assistant"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -26464,7 +26671,7 @@
     ]
   },
   "com.android.server.telecom": {
-    "appName": "Phone Calls",
+    "appName": "Phone calls",
     "userFacing": false,
     "additionalLocales": [
       {
@@ -26485,7 +26692,7 @@
       },
       {
         "locale": "",
-        "name": "Phone calls"
+        "name": "Phone Calls"
       },
       {
         "locale": "",
@@ -26581,16 +26788,24 @@
     ]
   },
   "com.android.phone": {
-    "appName": "Phone Services",
+    "appName": "Phone services",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Phone Services"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Phone Services"
+      },
       {
         "locale": "nl-nl",
         "name": "Telefoonservices"
       },
       {
-        "locale": "",
-        "name": "Phone services"
+        "locale": "en-za",
+        "name": "Phone Services"
       },
       {
         "locale": "",
@@ -28378,7 +28593,7 @@
   },
   "com.samsung.android.app.reminder": {
     "appName": "Reminder",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -29065,12 +29280,12 @@
     ]
   },
   "com.samsung.android.scpm": {
-    "appName": "Samsung Cloud Platform Manager",
+    "appName": "Samsung Cloud Assistant",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Samsung Cloud Assistant"
+        "locale": "en-gb",
+        "name": "Samsung Cloud Platform Manager"
       }
     ],
     "devices": [
@@ -29283,7 +29498,7 @@
   },
   "com.samsung.android.app.spage": {
     "appName": "Samsung Free",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -29397,6 +29612,33 @@
     "appName": "Samsung Location SDK",
     "userFacing": false,
     "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.providers.media": {
+    "appName": "Samsung Media Storage",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Sec Media Storage"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -30364,33 +30606,6 @@
       }
     ]
   },
-  "com.samsung.android.providers.media": {
-    "appName": "Sec Media Storage",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Samsung Media Storage"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
   "com.samsung.android.secsoundpicker": {
     "appName": "SecSoundPicker",
     "userFacing": false,
@@ -30418,6 +30633,37 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.knox.securefolder": {
+    "appName": "Secure Folder",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "SecureFolder"
+      },
+      {
+        "locale": "",
+        "name": "Sicherer Ordner"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
       {
         "make": "samsung",
         "model": "SM-S931B",
@@ -30553,37 +30799,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.samsung.knox.securefolder": {
-    "appName": "SecureFolder",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Sicherer Ordner"
-      },
-      {
-        "locale": "",
-        "name": "Secure Folder"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -31552,9 +31767,13 @@
     ]
   },
   "com.android.stk": {
-    "appName": "SIM Toolkit",
+    "appName": "SIM toolkit",
     "userFacing": true,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "SIM Toolkit"
+      },
       {
         "locale": "en-gb",
         "name": "SIM Tool Kit"
@@ -31566,10 +31785,6 @@
       {
         "locale": "en-za",
         "name": "SIM Tool Kit"
-      },
-      {
-        "locale": "",
-        "name": "SIM toolkit"
       },
       {
         "locale": "",
@@ -31655,16 +31870,16 @@
     ]
   },
   "com.android.stk2": {
-    "appName": "SIM Toolkit",
+    "appName": "SIM toolkit",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "SIM-Toolkit"
+        "locale": "en-gb",
+        "name": "SIM Toolkit"
       },
       {
         "locale": "",
-        "name": "SIM toolkit"
+        "name": "SIM-Toolkit"
       }
     ],
     "devices": [
@@ -31970,7 +32185,7 @@
   },
   "com.sec.android.easyMover": {
     "appName": "Smart Switch",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -32854,6 +33069,33 @@
       }
     ]
   },
+  "com.sec.android.app.vepreload": {
+    "appName": "Studio",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Video Editor"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "34"
+      }
+    ]
+  },
   "com.rivotek.tblenovo.stylusui": {
     "appName": "StylusUI",
     "userFacing": false,
@@ -33232,86 +33474,6 @@
       }
     ]
   },
-  "com.google.android.gms.supervision": {
-    "appName": "System parental controls",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Jugendschutzeinstellungen"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Ouderlijk toezicht van systeem"
-      },
-      {
-        "locale": "",
-        "name": "Family Link parental controls"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
   "com.oplus.exsystemservice": {
     "appName": "System Service",
     "userFacing": false,
@@ -33659,7 +33821,7 @@
     ]
   },
   "com.android.wifi.resources": {
-    "appName": "System Wi-Fi resources",
+    "appName": "System Wi-Fi Resources",
     "userFacing": false,
     "additionalLocales": [
       {
@@ -33667,8 +33829,12 @@
         "name": "System-WLAN-Ressourcen"
       },
       {
-        "locale": "",
-        "name": "System Wi-Fi Resources"
+        "locale": "en-gb",
+        "name": "System Wi-Fi resources"
+      },
+      {
+        "locale": "en-za",
+        "name": "System Wi-Fi resources"
       }
     ],
     "devices": [
@@ -34300,52 +34466,6 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.google.android.networkstack.tethering.overlay": {
-    "appName": "TetheringConfigOverlay",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "com.google.android.networkstack.tethering.overlay"
-      },
-      {
-        "locale": "en-gb",
-        "name": "TetheringResOverlay"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -34995,34 +35115,12 @@
     ]
   },
   "com.sec.android.widgetapp.webmanual": {
-    "appName": "User manual",
+    "appName": "User guide",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "User guide"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.samsung.android.uwb": {
-    "appName": "UwbApplication",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "com.samsung.android.uwb.UwbApplication"
+        "locale": "en-gb",
+        "name": "User manual"
       }
     ],
     "devices": [
@@ -35244,33 +35342,6 @@
       {
         "locale": "",
         "name": "Video effects"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.sec.android.app.vepreload": {
-    "appName": "Video Editor",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Studio"
       }
     ],
     "devices": [
@@ -36295,33 +36366,6 @@
     "appName": "WlanTest",
     "userFacing": false,
     "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.samsung.android.knox.containercore": {
-    "appName": "Work profile",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "KnoxCore"
-      }
-    ],
     "devices": [
       {
         "make": "samsung",
