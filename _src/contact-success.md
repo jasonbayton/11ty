@@ -28,19 +28,3 @@ permalink: /contact/success/
     {% include "./_includes/_assets/img/bayton_logos/swirl_check.svg" %}
   </div>
 </div>
-
-<style>
-  .logo-spin img {
-  width: 150px;
-  animation: spinPause 6s infinite ease-in-out;
-}
-
-@keyframes spinPause {
-  0%   { transform: rotate(0deg); }
-  20%  { transform: rotate(180deg); }
-  40%  { transform: rotate(360deg); }
-  60%  { transform: rotate(360deg); }
-  80%  { transform: rotate(360deg); }
-  100% { transform: rotate(360deg); }
-}
-</style>

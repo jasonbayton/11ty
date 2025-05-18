@@ -13,8 +13,8 @@ id: 426
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 <section class="contact-hero">
-<div class="contact-grid">
-<div class="contact-info">
+<div class="impactful-layout">
+<div class="impactful-hero">
   <h2 class="page-subtitle">Let’s do <span class="highlight">something great</span> together.</h2>
   <p>Ready to bring your project to life or discuss a collaboration? Reach out and I’ll get back to you as soon as possible.</p>
 

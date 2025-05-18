@@ -1837,6 +1837,10 @@ footer {
   100% { transform: translateX(-100%); }  /* This value should be the total width of all the logos */
 }
 
+.highlight {
+  color: var(--orange);
+}
+
 .contact-grid, .impactful-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2029,10 +2033,24 @@ footer {
     grid-template-columns: 1fr;
     padding: 20px 0px 50px;
 
-    .contact-info h1 {
+    .contact-info h1, .impactful-hero h1 {
       font-size: 36px;
     }
   }
+}
+
+.logo-spin img {
+  width: 150px;
+  animation: spinPause 6s infinite ease-in-out;
+}
+
+@keyframes spinPause {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(180deg); }
+  40%  { transform: rotate(360deg); }
+  60%  { transform: rotate(360deg); }
+  80%  { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
 }
 
 /* Media */
