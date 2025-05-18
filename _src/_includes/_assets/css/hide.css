@@ -6,10 +6,6 @@
   display: grid;
 }
 
-.mobile-hidden {
-  display: unset;
-}
-
 @media (max-width: 900px) {
  
   .mobile-hidden {
