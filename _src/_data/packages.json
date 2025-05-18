@@ -9796,10 +9796,6 @@
       {
         "locale": "en-gb",
         "name": "TetheringResOverlay"
-      },
-      {
-        "locale": "",
-        "name": "TetheringConfigOverlay"
       }
     ],
     "devices": [
@@ -24422,10 +24418,6 @@
       },
       {
         "locale": "",
-        "name": "NetworkStackOverlayGsi"
-      },
-      {
-        "locale": "",
         "name": "NetworkStackResOverlay"
       }
     ],
@@ -24477,12 +24469,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "com.google.android.networkstack.overlay"
-      },
-      {
         "locale": "en-gb",
         "name": "GoogleNetworkStackResOverlay"
+      },
+      {
+        "locale": "",
+        "name": "com.google.android.networkstack.overlay"
       }
     ],
     "devices": [
@@ -34479,12 +34471,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "TetheringResOverlay"
-      },
-      {
         "locale": "en-gb",
         "name": "com.android.networkstack.tethering.overlay"
+      },
+      {
+        "locale": "",
+        "name": "TetheringResOverlay"
       }
     ],
     "devices": [
