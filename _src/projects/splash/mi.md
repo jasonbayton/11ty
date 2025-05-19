@@ -203,11 +203,9 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
 <h2 id="get-started">Seen enough?</h2>
 </div>
 <h3>Pricing</h3>
-<p>MANAGED INFO is available at no cost for standard info cards and support messaging. If you'd like to explore endless customisation, trials are available before committing to a licence. 
+<p>MANAGED INFO is available at no cost for standard info cards and support messaging. If you'd like to explore endless customisation, trials are available before committing to a licence, and bundled-pricing is available for MANAGED SETTINGS, also.</p>
 
 Just [get in touch](/contact).
-
-</p>
 
 <div class="pricing-table padding-top-40">
     <div class="pricing-item">
