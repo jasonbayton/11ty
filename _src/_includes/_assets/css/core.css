@@ -830,6 +830,20 @@ content#page, content#search, content#archive, content#generator {
   float: right;
 }
 
+.project-logo-separator {
+  display: grid;
+  grid-template-columns: 2fr 50px 2fr;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+
+  & hr {
+    width: 100%;
+  }
+
+}
+
 .stats-panel {
   background-color: var(--subtle-bg);
   padding: 20px;

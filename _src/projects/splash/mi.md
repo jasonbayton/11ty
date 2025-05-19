@@ -19,20 +19,26 @@ layout: base.njk
 <div class="cta-group padding-top-40">
 <a href="https://play.google.com/store/apps/details?id=org.bayton.managedinfo">{% include "_src/_includes/_assets/img/site_media/get_it_on_google.svg" %}</a>
 
-<div class="grid-align-center padding-top-100 padding-top-mobile-100">
+<div class="grid-align-center padding-top-200 padding-top-mobile-100">
 <a href="#basic-use">
 Learn more <span class="material-symbols-outlined">arrow_circle_down</span> 
 </a>
 </div>
+</div>
+</div>
 
-</div>
-</div>
 <div class="hero-image grid grid-column-2 grid-align-center grid-gap-40 mobile-hidden">
 <img class="padding-top-80" width="350px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_hero.png" alt="MANAGED INFO hero">
 <img width="350px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_full_kiosk.png" alt="MANAGED INFO kiosk">
 </div>
 </div>
 </header>
+
+<div class="project-logo-separator padding-top-200 padding-mobile-top-100">
+<hr>
+{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_animate.svg" %}
+<hr>
+</div>
 
 <section id="basic-use" class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-200 padding-mobile-top-100">
 <div class="service-text grid-align-middle grid-mobile-align-top">
@@ -43,11 +49,21 @@ for end-users, right off the mark.</p>
 <p>No more <a href="https://en.wikipedia.org/wiki/Twenty_questions">20-questions</a> just to get a ticket open.
 <h3>Adjust features and functionality to suit</h3>
 <p>All cards can be turned off, several can be customised. Hide the dialler on tablets, or turn off quick actions all together. Use basic HTML/Markdown to deploy a comprehensive support message. Build a layout to suit your needs <span class="highlight">completely free</span>. 
+
+[View docs & get started](/projects/managed-info)
+
 </div>
+
 <div class="service-image grid-align-right grid-mobile-align-center">
 <img width="500px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_basic_features.png" alt="Customisation screenshot">
 </div>
 </section>
+
+<div class="project-logo-separator padding-top-200 padding-mobile-top-100">
+<hr>
+{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_animate.svg" %}
+<hr>
+</div>
 
 <section id="device-info" class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-200 padding-mobile-top-100">
 <div class="service-text grid-align-middle grid-mobile-align-top">
@@ -66,11 +82,20 @@ for end-users, right off the mark.</p>
 <p>MANAGED INFO makes for a great in-kiosk shortcut for device information, particularly if the MDM/EMM doesn't offer similar on-device contextual information; just turn off all but the revelant cards, and deploy to devices.</p>
 
 <p>Need more still? Show important identifiers like serial and IMEI with an organisation licence.</p>
+
+[Check out the quickstart](/projects/managed-info/support/get-started/)
+
 </div>
 <div class="service-image grid-align-right grid-mobile-align-center">
 <img width="350px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_device_details.png" alt="Device details screen">
 </div>
 </section>
+
+<div class="project-logo-separator padding-top-200 padding-mobile-top-100">
+<hr>
+{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_animate.svg" %}
+<hr>
+</div>
 
 <section id="kiosk" class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-200 padding-mobile-top-100">
 <div class="service-text grid-align-middle grid-mobile-align-top">
@@ -85,6 +110,12 @@ for end-users, right off the mark.</p>
 </div>
 </section>
 
+<div class="project-logo-separator padding-top-200 padding-mobile-top-100">
+<hr>
+{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_animate.svg" %}
+<hr>
+</div>
+
 <section id="kiosk" class="service-item grid grid-column-2 grid-column-mobile-1 grid-gap-60 padding-top-200 padding-mobile-top-100">
 <div class="service-text grid-align-middle grid-mobile-align-top">
 <h2>Endless customisation</h2>
@@ -98,11 +129,19 @@ for end-users, right off the mark.</p>
 - Card titles
 - ..and more
 
+[See all customisations](/projects/managed-info/support/customising-managed-info/)
+
 </div>
 <div class="service-image grid-align-right grid-mobile-align-center">
 <img width="750px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_usecases.png" alt="Full kiosk layout">
 </div>
 </section>
+
+<div class="project-logo-separator padding-top-200 padding-mobile-top-100">
+<hr>
+{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_animate.svg" %}
+<hr>
+</div>
 
 <section id="kiosk" class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-200 padding-mobile-top-100">
 <div class="service-text grid-align-middle grid-mobile-align-top">
@@ -115,25 +154,48 @@ for end-users, right off the mark.</p>
 </div>
 </section>
 
+<div class="project-logo-separator padding-top-200 padding-mobile-top-100">
+<hr>
+{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_animate.svg" %}
+<hr>
+</div>
+
 <section id="kiosk" class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-200 padding-mobile-top-100">
 <div class="service-text grid-align-middle grid-mobile-align-top">
 <h2>MANAGED SETTINGS integration</h2>
 <p>Combine the powerful kiosk capabilities of MANAGED INFO with the bespoke, limited Settings experience offered by MANAGED SETTINGS to offer fine-grained, hyper-granular control to the areas of a device end-users can access.</p>
+
+Check out [MANAGED SETTINGS](/projects/managed-settings)
+
 </div>
 <div class="service-image grid-align-right grid-mobile-align-center">
 <img width="350px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_ms_integration_frame.gif" alt="Full kiosk layout">
 </div>
 </section>
 
+<div class="project-logo-separator padding-top-200 padding-mobile-top-100">
+<hr>
+{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_animate.svg" %}
+<hr>
+</div>
+
 <section id="kiosk" class="service-item grid grid-column-2-1 grid-column-mobile-1 grid-gap-60 padding-top-200 padding-mobile-top-100">
 <div class="service-text grid-align-middle grid-mobile-align-top">
 <h2>Comprehensive configuration options</h2>
 <p>Every aspect of MANAGED INFO is configured through an EMM of choice, with some of the deepest nesting available of it's kind, MANAGED INFO can be as infomational or lean as desired.</p>
+
+[View managed configuration schema](/projects/managed-info/support/managed-configuration-payload/)
 </div>
 <div class="service-image grid-align-right grid-mobile-align-center">
 <img src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_mc_example.png" alt="Full kiosk layout">
 </div>
 </section>
+
+<div class="project-logo-separator padding-top-200 padding-bottom-200 padding-mobile-top-100 padding-mobile-bottom-100">
+<hr>
+{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_animate.svg" %}
+<hr>
+</div>
 
 <div class="service-item padding-top-40 padding-bottom-40">
 <div class="service-text">
@@ -157,7 +219,9 @@ Just [get in touch](/contact).
             <li>Email support</li>
             <li>Community support</li>
         </ul>
-        <a href="https://play.google.com/store/apps/details?id=org.bayton.managedinfo" class="btn">Get it</a>
+        <div class="grid-align-center">
+        <a href="https://play.google.com/store/apps/details?id=org.bayton.managedinfo">{% include "_src/_includes/_assets/img/site_media/get_it_on_google.svg" %}</a>
+        </div>
     </div>
     <div class="pricing-item popular">
         <h3>Organisation licence</h3>
