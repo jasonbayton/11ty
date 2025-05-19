@@ -64,7 +64,7 @@ MANAGED INFO is a utility application designed to offer managed config-defined h
 Useful in multi-app kiosk deployments for quick access to corporate assistance, but equally at home in the app draw for quick reference as needed.
 
 
-<a class="button" href="managed-info">Check it out</a>
+<a class="button" href="/projects/splash/mi">Check it out</a>
 
 </div>
 
