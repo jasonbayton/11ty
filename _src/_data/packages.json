@@ -84,7 +84,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -111,7 +111,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -195,7 +195,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -222,7 +222,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -386,7 +386,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -468,7 +468,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -629,7 +629,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -774,7 +774,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -883,7 +883,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -996,7 +996,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -1088,7 +1088,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -1184,7 +1184,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -1285,7 +1285,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -1396,7 +1396,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -1488,7 +1488,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -1604,7 +1604,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -1656,7 +1656,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2086,7 +2086,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2125,7 +2125,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2215,7 +2215,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2240,11 +2240,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -2269,121 +2264,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.samsung.android.aremoji": {
-    "appName": "AR Emoji",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Galaxy-Avatar"
-      },
-      {
-        "locale": "",
-        "name": "Galaxy Avatar"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.samsung.android.aremojieditor": {
-    "appName": "AR Emoji Editor",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Avatar-Editor"
-      },
-      {
-        "locale": "",
-        "name": "Avatar Editor"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.sec.android.mimage.avatarstickers": {
-    "appName": "AR Emoji Stickers",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Avatar-Sticker"
-      },
-      {
-        "locale": "",
-        "name": "Avatar Stickers"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
   "com.samsung.android.arzone": {
     "appName": "AR Zone",
-    "userFacing": true,
+    "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -2435,11 +2327,6 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -2550,7 +2437,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2572,7 +2459,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2594,7 +2481,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2638,7 +2525,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2665,7 +2552,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2692,23 +2579,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.samsung.android.privateaccesstokens": {
-    "appName": "Automatic verification",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Automatische Bestätigung"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
         "os": "35"
       }
     ]
@@ -2722,11 +2592,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -2739,6 +2604,80 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.samsung.android.aremojieditor": {
+    "appName": "Avatar Editor",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Avatar-Editor"
+      },
+      {
+        "locale": "en-gb",
+        "name": "AR Emoji Editor"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.avatarpicker": {
+    "appName": "Avatar Picker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.sec.android.mimage.avatarstickers": {
+    "appName": "Avatar Stickers",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "AR Emoji Stickers"
+      },
+      {
+        "locale": "",
+        "name": "Avatar-Sticker"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -2811,7 +2750,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2910,7 +2849,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2956,7 +2895,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -2987,7 +2926,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3014,7 +2953,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3036,7 +2975,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3058,7 +2997,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3183,7 +3122,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3280,7 +3219,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3329,7 +3268,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3421,7 +3360,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3513,7 +3452,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3547,7 +3486,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3763,7 +3702,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3888,7 +3827,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3915,7 +3854,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -3942,7 +3881,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4029,7 +3968,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4051,7 +3990,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4078,7 +4017,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4100,7 +4039,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4122,7 +4061,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4149,7 +4088,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4273,16 +4212,12 @@
     ]
   },
   "com.samsung.android.hwresourceshare": {
-    "appName": "Camera sharing",
+    "appName": "Camera Share",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "",
         "name": "Kamerafreigabe"
-      },
-      {
-        "locale": "",
-        "name": "Camera Share"
       }
     ],
     "devices": [
@@ -4294,7 +4229,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4378,7 +4313,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4395,7 +4330,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4521,7 +4456,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4703,7 +4638,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -4994,7 +4929,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5071,7 +5006,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5220,7 +5155,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5324,7 +5259,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5346,7 +5281,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5521,7 +5456,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5607,7 +5542,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5654,11 +5589,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -5692,7 +5622,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5825,7 +5755,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -5931,7 +5861,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -6174,6 +6104,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -6265,7 +6200,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -6357,7 +6292,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -6625,7 +6560,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -6787,7 +6722,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -6869,7 +6804,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -6965,6 +6900,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -7011,7 +6951,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -7210,7 +7150,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -7329,7 +7269,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -7388,7 +7328,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -7450,6 +7390,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -7647,7 +7592,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -8012,7 +7957,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -8109,11 +8054,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -8187,7 +8127,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -8745,7 +8685,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -8837,7 +8777,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -8904,7 +8844,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -8958,7 +8898,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -9349,6 +9289,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -9515,7 +9460,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -9719,7 +9664,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -9827,7 +9772,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10023,7 +9968,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10085,7 +10030,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10174,7 +10119,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10236,7 +10181,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10327,7 +10272,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10391,7 +10336,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10516,7 +10461,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10538,7 +10483,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10560,7 +10505,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10617,7 +10562,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10674,7 +10619,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10691,6 +10636,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -10748,7 +10698,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10805,7 +10755,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -10862,7 +10812,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -11238,7 +11188,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -11291,6 +11241,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -12747,29 +12702,15 @@
       }
     ]
   },
-  "com.samsung.android.app.cocktailbarservice": {
-    "appName": "com.samsung.android.app.cocktailbarservice",
+  "com.samsung.android.internal.overlay.config.default_contextual_search": {
+    "appName": "com.samsung.android.internal.overlay.config.default_contextual_search",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Edge panels"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Edge panels"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12791,7 +12732,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12803,6 +12744,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -12820,7 +12766,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12842,7 +12788,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12864,7 +12810,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12886,33 +12832,19 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
-  "com.samsung.android.uwb": {
-    "appName": "com.samsung.android.uwb.UwbApplication",
+  "com.samsung.android.uwb.resources.mccmncregulation": {
+    "appName": "com.samsung.android.uwb.resources.mccmncregulation",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "UwbApplication"
-      },
-      {
-        "locale": "en-gb",
-        "name": "UwbApplication"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12934,7 +12866,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12951,7 +12883,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12968,7 +12900,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12985,7 +12917,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -12997,6 +12929,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -13019,7 +12956,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13041,7 +12978,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13053,6 +12990,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -13070,7 +13012,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13104,7 +13046,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13141,6 +13083,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -13157,7 +13104,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13179,7 +13126,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13231,11 +13178,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -13252,7 +13194,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13274,7 +13216,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13296,7 +13238,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13318,7 +13260,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13559,7 +13501,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13644,7 +13586,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13736,7 +13678,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13763,7 +13705,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13790,38 +13732,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.samsung.android.sdm.config": {
-    "appName": "Configuration update",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Dienstanbieter­einrichtung"
-      },
-      {
-        "locale": "",
-        "name": "Service provider setup"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
         "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -13882,7 +13793,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13904,7 +13815,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -13967,7 +13878,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14090,7 +14001,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14210,6 +14121,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -14231,7 +14147,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14253,7 +14169,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14348,7 +14264,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14438,7 +14354,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14465,7 +14381,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14542,7 +14458,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14597,7 +14513,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14679,7 +14595,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14825,7 +14741,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -14888,7 +14804,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15054,7 +14970,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15159,7 +15075,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15234,6 +15150,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -15255,7 +15176,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15362,7 +15283,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15384,7 +15305,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15452,7 +15373,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15474,7 +15395,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15501,7 +15422,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15635,6 +15556,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -15753,7 +15679,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15854,7 +15780,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15946,7 +15872,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -15999,7 +15925,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16166,7 +16092,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16200,7 +16126,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16234,7 +16160,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16338,7 +16264,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16396,7 +16322,19 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.app.cocktailbarservice": {
+    "appName": "Edge panels",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -16418,7 +16356,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16591,7 +16529,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16618,7 +16556,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16736,6 +16674,33 @@
       }
     ]
   },
+  "com.sec.enterprise.knox.cloudmdm.smdms": {
+    "appName": "Enrollment Service",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Knox Enrollment Service"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
   "com.sec.enterprise.mdm.services.simpin": {
     "appName": "Enterprise Sim Pin Service",
     "userFacing": false,
@@ -16745,11 +16710,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -16783,7 +16743,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16805,7 +16765,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16822,7 +16782,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16923,7 +16883,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -16994,7 +16954,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17016,7 +16976,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17067,7 +17027,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17089,7 +17049,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17174,7 +17134,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17208,87 +17168,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.google.android.gms.supervision": {
-    "appName": "Family Link parental controls",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Jugendschutzeinstellungen"
-      },
-      {
-        "locale": "en-gb",
-        "name": "System parental controls"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Ouderlijk toezicht van systeem"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -17319,7 +17199,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17424,7 +17304,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17580,7 +17460,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17614,7 +17494,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17716,7 +17596,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17841,7 +17721,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17854,6 +17734,37 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.samsung.android.aremoji": {
+    "appName": "Galaxy Avatar",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "AR Emoji"
+      },
+      {
+        "locale": "",
+        "name": "Galaxy-Avatar"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -17870,7 +17781,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17892,7 +17803,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17914,7 +17825,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17936,7 +17847,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17958,7 +17869,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -17985,7 +17896,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18012,7 +17923,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18039,7 +17950,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18090,7 +18001,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18112,7 +18023,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18158,7 +18069,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18180,7 +18091,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18287,12 +18198,17 @@
   },
   "com.google.android.apps.bard": {
     "appName": "Gemini",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -18336,11 +18252,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -18362,7 +18273,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18384,7 +18295,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18427,11 +18338,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -18453,7 +18359,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18535,7 +18441,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18577,11 +18483,6 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
         "os": "34"
       }
     ]
@@ -18712,7 +18613,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -18828,129 +18729,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.android.hotwordenrollment.xgoogle": {
-    "appName": "Google Assistant",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Hey Google Hotword"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Hey Google Hotword"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.android.hotwordenrollment.okgoogle": {
-    "appName": "Google Assistant",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "OK Google Hotword"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "OK Google Hotword"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -18999,7 +18778,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -19122,7 +18901,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -19214,7 +18993,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -19306,7 +19085,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -19600,7 +19379,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -19657,7 +19436,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -19749,7 +19528,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -19834,7 +19613,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -19963,7 +19742,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20042,7 +19821,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20064,7 +19843,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20103,7 +19882,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20125,7 +19904,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20171,7 +19950,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20264,7 +20043,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20289,6 +20068,63 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.hotwordenrollment.xgoogle": {
+    "appName": "Hey Google Hotword",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Google Assistant"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -20373,7 +20209,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20702,7 +20538,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20724,7 +20560,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20746,7 +20582,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20792,7 +20628,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20814,7 +20650,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20836,7 +20672,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -20976,7 +20812,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21101,7 +20937,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21135,7 +20971,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21157,7 +20993,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21371,7 +21207,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21396,11 +21232,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -21413,11 +21244,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -21451,7 +21277,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21473,34 +21299,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.sec.enterprise.knox.cloudmdm.smdms": {
-    "appName": "Knox Enrollment Service",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Enrollment Service"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
         "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -21517,7 +21316,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21544,7 +21343,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21556,6 +21355,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -21573,7 +21377,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21585,6 +21389,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -21607,7 +21416,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21619,6 +21428,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -21641,7 +21455,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21658,7 +21472,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21680,7 +21494,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21719,7 +21533,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21736,7 +21550,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21823,7 +21637,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21850,7 +21664,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -21863,11 +21677,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -21922,7 +21731,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22017,7 +21826,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22029,6 +21838,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -22202,7 +22016,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22303,7 +22117,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22370,7 +22184,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22491,7 +22305,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22588,7 +22402,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22642,7 +22456,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22710,6 +22524,18 @@
       }
     ]
   },
+  "com.samsung.android.mdx.quickboard": {
+    "appName": "Media and devices",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      }
+    ]
+  },
   "com.hihonor.medialibrary": {
     "appName": "Media Library",
     "userFacing": false,
@@ -22719,32 +22545,6 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
-      }
-    ]
-  },
-  "com.samsung.android.mdx.quickboard": {
-    "appName": "Media output",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Media and devices"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Media and devices"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -22834,7 +22634,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22946,7 +22746,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -22975,7 +22775,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23062,7 +22862,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23089,7 +22889,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23116,7 +22916,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23143,7 +22943,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23180,6 +22980,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -23196,7 +23001,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23223,7 +23028,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23255,7 +23060,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23439,7 +23244,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23461,7 +23266,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23473,6 +23278,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -23500,7 +23310,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23536,6 +23346,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -23699,7 +23514,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23800,7 +23615,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23827,7 +23642,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -23949,7 +23764,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -24027,7 +23842,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -24054,7 +23869,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -24071,6 +23886,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -24093,7 +23913,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -24215,7 +24035,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -24307,7 +24127,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -24404,7 +24224,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -24616,7 +24436,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -24763,7 +24583,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -25020,7 +24840,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -25054,7 +24874,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -25124,7 +24944,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -25191,6 +25011,63 @@
       }
     ]
   },
+  "com.android.hotwordenrollment.okgoogle": {
+    "appName": "OK Google Hotword",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Google Assistant"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.olc": {
     "appName": "Olc",
     "userFacing": false,
@@ -25254,11 +25131,6 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -25285,7 +25157,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -25307,7 +25179,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -25762,7 +25634,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -25956,7 +25828,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26048,7 +25920,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26082,7 +25954,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26157,7 +26029,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26182,11 +26054,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -26272,7 +26139,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26323,7 +26190,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26345,7 +26212,38 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.smartsuggestions": {
+    "appName": "Personal data intelligence",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Persönliche Daten-Intelligenz"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Smart suggestions"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -26405,6 +26303,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -26431,7 +26334,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26458,7 +26361,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26658,7 +26561,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26775,7 +26678,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26888,7 +26791,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -26912,6 +26815,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -26963,7 +26871,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -27005,7 +26913,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -27027,7 +26935,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -27184,6 +27092,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -27645,7 +27558,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -27773,7 +27686,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -27874,7 +27787,33 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.privateaccesstokens": {
+    "appName": "Private Access Tokens",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Automatische Bestätigung"
+      },
+      {
+        "locale": "",
+        "name": "Automatic verification"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -27941,7 +27880,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28093,7 +28032,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28199,7 +28138,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28327,7 +28266,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28349,7 +28288,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28376,7 +28315,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28516,7 +28455,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28596,7 +28535,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28660,7 +28599,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28874,7 +28813,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -28891,7 +28830,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29063,7 +29002,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29150,7 +29089,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29175,11 +29114,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -29196,6 +29130,33 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.sec.sve": {
+    "appName": "Samsung Call Media",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "SecVideoEngineService"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -29223,7 +29184,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29245,7 +29206,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29267,7 +29228,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29294,7 +29255,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29316,7 +29277,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29338,7 +29299,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29360,7 +29321,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29387,7 +29348,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29409,7 +29370,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29436,7 +29397,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29472,7 +29433,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29484,7 +29445,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29501,7 +29462,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29530,7 +29491,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29557,7 +29518,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29584,7 +29545,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29596,6 +29557,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -29618,7 +29584,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29645,7 +29611,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29667,7 +29633,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29713,7 +29679,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29740,7 +29706,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29762,7 +29728,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29789,7 +29755,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29828,7 +29794,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29855,7 +29821,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29889,7 +29855,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29906,7 +29872,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29923,7 +29889,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29945,7 +29911,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -29979,7 +29945,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30001,7 +29967,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30023,7 +29989,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30045,7 +30011,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30058,6 +30024,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -30069,6 +30040,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -30086,7 +30062,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30103,7 +30079,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30120,7 +30096,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30149,7 +30125,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30161,6 +30137,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -30190,7 +30171,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30207,7 +30188,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30224,7 +30205,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30241,7 +30222,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30258,7 +30239,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30275,7 +30256,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30292,7 +30273,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30309,7 +30290,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30379,7 +30360,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30401,7 +30382,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30594,7 +30575,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30616,7 +30597,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30633,7 +30614,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30664,7 +30645,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30703,7 +30684,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30795,7 +30776,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30829,7 +30810,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30842,33 +30823,6 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
-      }
-    ]
-  },
-  "com.sec.sve": {
-    "appName": "SecVideoEngineService",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Samsung Call Media"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -30902,7 +30856,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30965,7 +30919,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -30987,7 +30941,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31021,7 +30975,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31043,7 +30997,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31065,7 +31019,38 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.sdm.config": {
+    "appName": "Service provider setup",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Dienstanbieter­einrichtung"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Configuration update"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -31166,7 +31151,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31299,7 +31284,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31370,7 +31355,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31383,11 +31368,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -31404,7 +31384,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31438,7 +31418,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31578,7 +31558,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31600,7 +31580,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31622,7 +31602,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31717,7 +31697,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31857,7 +31837,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31888,7 +31868,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -31922,7 +31902,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32010,7 +31990,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32032,7 +32012,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32054,7 +32034,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32076,7 +32056,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32144,37 +32124,6 @@
       }
     ]
   },
-  "com.samsung.android.smartsuggestions": {
-    "appName": "Smart suggestions",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Persönliche Daten-Intelligenz"
-      },
-      {
-        "locale": "",
-        "name": "Personal data intelligence"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
   "com.sec.android.easyMover": {
     "appName": "Smart Switch",
     "userFacing": true,
@@ -32188,7 +32137,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32210,7 +32159,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32244,7 +32193,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32266,7 +32215,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32312,7 +32261,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32334,7 +32283,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32351,12 +32300,12 @@
     ]
   },
   "com.samsung.android.service.stplatform": {
-    "appName": "SmartThings Framework",
+    "appName": "SmartThings Companion",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "SmartThings Companion"
+        "locale": "en-gb",
+        "name": "SmartThings Framework"
       }
     ],
     "devices": [
@@ -32373,7 +32322,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32400,7 +32349,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32427,7 +32376,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32468,7 +32417,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32551,7 +32500,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32578,7 +32527,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32848,7 +32797,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -32954,7 +32903,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33028,7 +32977,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33045,6 +32994,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
         "os": "35"
       }
     ]
@@ -33084,7 +33038,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33121,11 +33075,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -33202,7 +33151,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33224,7 +33173,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33402,7 +33351,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33463,6 +33412,86 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.gms.supervision": {
+    "appName": "System parental controls",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Jugendschutzeinstellungen"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Ouderlijk toezicht van systeem"
+      },
+      {
+        "locale": "",
+        "name": "Family Link parental controls"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -33573,7 +33602,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33674,7 +33703,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33766,7 +33795,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33858,7 +33887,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33972,7 +34001,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -33999,7 +34028,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34095,7 +34124,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34190,7 +34219,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34241,7 +34270,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34270,7 +34299,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34396,7 +34425,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34462,7 +34491,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34672,7 +34701,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34765,7 +34794,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -34939,11 +34968,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
       }
     ]
   },
@@ -34989,7 +35013,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35090,7 +35114,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35107,24 +35131,26 @@
     ]
   },
   "com.sec.android.widgetapp.webmanual": {
-    "appName": "User guide",
+    "appName": "User manual",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "User manual"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
+      }
+    ]
+  },
+  "com.samsung.android.uwb": {
+    "appName": "UwbApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
       {
         "make": "samsung",
-        "model": "SM-S906B",
-        "os": "34"
+        "model": "SM-N986B",
+        "os": "33"
       }
     ]
   },
@@ -35141,7 +35167,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35260,6 +35286,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
       }
     ]
   },
@@ -35323,8 +35354,20 @@
       }
     ]
   },
+  "com.hihonor.videoeditor": {
+    "appName": "Video Editor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.vtcamerasettings": {
-    "appName": "Video call effects",
+    "appName": "Video effects",
     "userFacing": false,
     "additionalLocales": [
       {
@@ -35332,8 +35375,8 @@
         "name": "Videoeffekte"
       },
       {
-        "locale": "",
-        "name": "Video effects"
+        "locale": "en-gb",
+        "name": "Video call effects"
       }
     ],
     "devices": [
@@ -35350,19 +35393,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.videoeditor": {
-    "appName": "Video Editor",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
+        "os": "35"
       }
     ]
   },
@@ -35389,7 +35420,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35438,7 +35469,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35465,7 +35496,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35504,7 +35535,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35618,7 +35649,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35712,7 +35743,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35739,7 +35770,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35873,7 +35904,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35895,7 +35926,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35917,7 +35948,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -35944,7 +35975,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -36055,7 +36086,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -36106,7 +36137,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -36147,7 +36178,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -36273,7 +36304,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -36372,7 +36403,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -36481,7 +36512,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
@@ -36633,7 +36664,7 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "34"
+        "os": "35"
       }
     ]
   },
