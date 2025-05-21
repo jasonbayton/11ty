@@ -16,10 +16,10 @@ layout: base.njk
 <img class="margin-auto padding-30" width="500px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_mobile_triple.png" alt="MANAGED INFO hero" alt="MANAGED INFO kiosk">
 </div>
 <p>Provide end-users pertinent information about your organisation, roll out guidance and messaging, or build a traditional kiosk with custom background support. Designed for Android Enterprise deployments, and built to support your fleet at scale.</p>
-<div class="cta-group padding-top-40">
-<a href="https://play.google.com/store/apps/details?id=org.bayton.managedinfo">{% include "_src/_includes/_assets/img/site_media/get_it_on_google.svg" %}</a>
-
-<div class="grid-align-center padding-top-200 padding-top-mobile-100">
+<div class="cta-group padding-top-40 grid grid-column-2">
+<a class="grid-align-center" href="https://play.google.com/store/apps/details?id=org.bayton.managedinfo">{% include "_src/_includes/_assets/img/site_media/get_it_on_google.svg" %}</a>
+<a class="button grid-align-center" href="/projects/managed-info">Tech docs</a>
+<div class="grid-align-center grid-column-span-all padding-top-200 padding-top-mobile-100">
 <a href="#basic-use">
 Learn more <span class="material-symbols-outlined">arrow_circle_down</span> 
 </a>
