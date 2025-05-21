@@ -32,6 +32,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -128,6 +133,10 @@
         "name": "Ad privacy"
       },
       {
+        "locale": "ru-ru",
+        "name": "Конфиденциальность в рекламе"
+      },
+      {
         "locale": "nl-nl",
         "name": "Advertentieprivacy"
       },
@@ -151,6 +160,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -267,6 +281,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.aftersalecalibrationtool": {
+    "appName": "AfterSaleCalibrationTool",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -438,6 +464,30 @@
       }
     ]
   },
+  "com.transsion.kolun.aiservice": {
+    "appName": "AIService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.aisettings": {
+    "appName": "AiSettings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.aod": {
     "appName": "Always-On Display",
     "userFacing": false,
@@ -489,6 +539,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Специальные возможности"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android Toegankelijkheidstools"
       }
@@ -503,6 +557,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -580,6 +639,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -707,6 +771,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -821,6 +890,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -904,6 +978,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Настройка устройства Android"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android Set-up"
       },
@@ -927,6 +1005,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -1019,6 +1102,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -1122,6 +1210,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -1193,6 +1286,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Система Android"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android-systeem"
       },
@@ -1216,6 +1313,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -1354,6 +1456,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -1419,6 +1526,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -1560,6 +1672,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -2192,6 +2309,18 @@
       }
     ]
   },
+  "com.transsion.tabe": {
+    "appName": "APPIOT",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.mapsagent": {
     "appName": "Application recommendations",
     "userFacing": false,
@@ -2276,6 +2405,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.mediatek.mt6895.gamedriver": {
+    "appName": "Arm GPU Game Driver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -2392,6 +2533,18 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.audiosmartconnect": {
+    "appName": "Audio Link",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -2771,6 +2924,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Стандартные заставки"
+      },
+      {
         "locale": "nl-nl",
         "name": "Algemene dagdromen"
       }
@@ -2790,6 +2947,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3030,6 +3192,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Память Заблокированных номеров"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag voor geblokkeerde nummers"
       },
@@ -3053,6 +3219,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3150,6 +3321,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3275,7 +3451,12 @@
   "com.android.bluetoothmidiservice": {
     "appName": "Bluetooth MIDI Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Bluetooth-сервис интерфейса электронных музыкальных инструментов"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -3291,6 +3472,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3367,7 +3553,12 @@
   "com.android.bookmarkprovider": {
     "appName": "Bookmark Provider",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Проводник закладок"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -3383,6 +3574,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3731,6 +3927,10 @@
         "name": "Calendar Storage"
       },
       {
+        "locale": "ru-ru",
+        "name": "Память календаря"
+      },
+      {
         "locale": "nl-nl",
         "name": "Agenda-opslag"
       },
@@ -3758,6 +3958,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3831,6 +4036,18 @@
       }
     ]
   },
+  "com.westalgo.factorycamera": {
+    "appName": "CalibrationTool",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.incallui": {
     "appName": "Call",
     "userFacing": true,
@@ -3888,7 +4105,12 @@
   "com.android.calllogbackup": {
     "appName": "Call Log Backup/Restore",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Резервная копия журнала вызовов/Восстановить"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -3904,6 +4126,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -4245,10 +4472,27 @@
       }
     ]
   },
+  "com.transsion.camerademo": {
+    "appName": "CameraDemo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.cameraextensions": {
     "appName": "CameraExtensionsProxy",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Прокси расширений камеры"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -4264,6 +4508,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -4383,6 +4632,10 @@
         "name": "Captive portal login"
       },
       {
+        "locale": "ru-ru",
+        "name": "Авторизация на странице входа"
+      },
+      {
         "locale": "nl-nl",
         "name": "Inloggen via captive portal"
       }
@@ -4402,6 +4655,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -4521,6 +4779,18 @@
       }
     ]
   },
+  "com.transsion.carlcare": {
+    "appName": "Carlcare",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.apps.carrier.log": {
     "appName": "Carrier App Logging",
     "userFacing": false,
@@ -4561,6 +4831,10 @@
         "name": "Operator communications"
       },
       {
+        "locale": "ru-ru",
+        "name": "Уведомления оператора связи"
+      },
+      {
         "locale": "nl-nl",
         "name": "Berichten van provider"
       },
@@ -4584,6 +4858,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -4954,6 +5233,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -5059,6 +5343,10 @@
         "name": "Certificate Installer"
       },
       {
+        "locale": "ru-ru",
+        "name": "Программа установки сертификата"
+      },
+      {
         "locale": "nl-nl",
         "name": "Certificaat-installatie"
       },
@@ -5086,6 +5374,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -5190,6 +5483,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -5688,6 +5986,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -5809,6 +6112,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -5918,6 +6226,18 @@
       }
     ]
   },
+  "com.android.cellbroadcast.overlay": {
+    "appName": "com.android.cellbroadcast.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.cellbroadcastreceiver": {
     "appName": "com.android.cellbroadcastreceiver",
     "userFacing": false,
@@ -5932,6 +6252,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -6133,6 +6458,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -6223,6 +6553,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -6451,6 +6786,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -6501,6 +6841,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -6569,6 +6914,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "Nothing",
         "model": "A015",
@@ -6680,6 +7030,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -6745,6 +7100,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -7088,6 +7448,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -7200,6 +7565,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -7857,6 +8227,18 @@
       }
     ]
   },
+  "com.android.settings.resoverlay": {
+    "appName": "com.android.settings.resoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.setupwizardoverlay.overlay.tetris_base": {
     "appName": "com.android.setupwizardoverlay.overlay.tetris_base",
     "userFacing": false,
@@ -7888,6 +8270,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -8024,6 +8411,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -8374,6 +8766,18 @@
       }
     ]
   },
+  "com.android.systemui.os.overlay": {
+    "appName": "com.android.systemui.os.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.systemui.overlay": {
     "appName": "com.android.systemui.overlay",
     "userFacing": false,
@@ -8562,6 +8966,18 @@
       }
     ]
   },
+  "com.android.systemui.signal.overlay": {
+    "appName": "com.android.systemui.signal.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.telephony.imsmedia": {
     "appName": "com.android.telephony.imsmedia.ImsMediaApplication",
     "userFacing": false,
@@ -8658,6 +9074,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -8708,6 +9129,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -8792,6 +9218,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -8851,8 +9282,18 @@
   "com.android.wallpaperpicker": {
     "appName": "com.android.wallpaperpicker",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обои"
+      }
+    ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -8956,6 +9397,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -8982,6 +9428,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -9063,6 +9514,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -9084,6 +9540,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -9251,6 +9712,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -9416,6 +9882,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -9627,6 +10098,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -9741,6 +10217,10 @@
       {
         "locale": "en-gb",
         "name": "TetheringResOverlay"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "TetheringResOverlay"
       }
     ],
     "devices": [
@@ -9748,6 +10228,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -9880,6 +10365,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -9936,6 +10426,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -9981,6 +10476,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -10087,6 +10587,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -10132,6 +10637,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -10202,6 +10712,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -10429,6 +10944,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -10520,6 +11040,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -10575,6 +11100,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -10656,6 +11186,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -10702,6 +11237,18 @@
       }
     ]
   },
+  "com.google.android.overlay.modules.packageinstaller": {
+    "appName": "com.google.android.overlay.modules.packageinstaller",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.overlay.modules.permissioncontroller": {
     "appName": "com.google.android.overlay.modules.permissioncontroller",
     "userFacing": false,
@@ -10711,6 +11258,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -10768,6 +11320,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -11146,6 +11703,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -11206,6 +11768,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -11524,6 +12091,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -11796,6 +12368,18 @@
       }
     ]
   },
+  "com.infinix": {
+    "appName": "com.infinix",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.lenovo.lenovoprivacy": {
     "appName": "com.lenovo.lenovoprivacy",
     "userFacing": false,
@@ -11813,6 +12397,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -11850,6 +12439,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -11917,6 +12511,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -11975,6 +12574,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12001,6 +12605,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -12029,6 +12638,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12055,11 +12669,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "ImsApp"
+      },
+      {
         "locale": "en-gb",
         "name": "ImsApp"
       }
     ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -12109,6 +12732,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -12173,6 +12801,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12228,6 +12861,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -13312,6 +13950,234 @@
       }
     ]
   },
+  "com.theme.icondefaultshape": {
+    "appName": "com.theme.icondefaultshape",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_b85": {
+    "appName": "com.theme.icondefaultshape_b85",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_color": {
+    "appName": "com.theme.icondefaultshape_color",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_e23": {
+    "appName": "com.theme.icondefaultshape_e23",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_mlbb": {
+    "appName": "com.theme.icondefaultshape_mlbb",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_pubg": {
+    "appName": "com.theme.icondefaultshape_pubg",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_radiant": {
+    "appName": "com.theme.icondefaultshape_radiant",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_rov": {
+    "appName": "com.theme.icondefaultshape_rov",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_s30": {
+    "appName": "com.theme.icondefaultshape_s30",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion": {
+    "appName": "com.transsion",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.aichargeprovider": {
+    "appName": "com.transsion.aichargeprovider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.childmode.resoverlay": {
+    "appName": "com.transsion.childmode.resoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.net.wifi": {
+    "appName": "com.transsion.net.wifi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.overlaysuw.resoverlay": {
+    "appName": "com.transsion.overlaysuw.resoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.regionframeworkresoverlay": {
+    "appName": "com.transsion.regionframeworkresoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.theme.icon": {
+    "appName": "com.transsion.theme.icon",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.thub.res": {
+    "appName": "com.transsion.thub.res",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.trproduct.overlaysuw.resoverlay": {
+    "appName": "com.transsion.trproduct.overlaysuw.resoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.trproductframeworkresoverlay": {
+    "appName": "com.transsion.trproductframeworkresoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.unisoc.auto_generated_rro_product__": {
     "appName": "com.unisoc.auto_generated_rro_product__",
     "userFacing": false,
@@ -13413,6 +14279,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Дополнительный Диспетчер Устройств"
+      },
+      {
         "locale": "",
         "name": "Begleitgerät-Manager"
       }
@@ -13432,6 +14302,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -13550,6 +14425,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -13609,6 +14489,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -13794,6 +14679,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.connectivity.resources.overlay": {
+    "appName": "ConnectivityResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -14010,6 +14907,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Хранилище контактов"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag contacten"
       }
@@ -14024,6 +14925,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -14173,6 +15079,18 @@
       }
     ]
   },
+  "com.transsion.tower": {
+    "appName": "ControlTower",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.internal.display.cutout.emulation.corner": {
     "appName": "Corner cutout",
     "userFacing": false,
@@ -14180,6 +15098,10 @@
       {
         "locale": "",
         "name": "Corner display cutout"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "В правом углу"
       },
       {
         "locale": "nl-nl",
@@ -14205,6 +15127,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -14301,6 +15228,10 @@
         "name": "Anmeldedaten-Manager"
       },
       {
+        "locale": "ru-ru",
+        "name": "Менеджер учетных данных"
+      },
+      {
         "locale": "en-gb",
         "name": "Credential manager"
       }
@@ -14315,6 +15246,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -14605,6 +15541,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -14654,6 +15595,10 @@
         "name": "Default print service"
       },
       {
+        "locale": "ru-ru",
+        "name": "Служба Печати по умолчанию"
+      },
+      {
         "locale": "nl-nl",
         "name": "Standaard afdrukservice"
       },
@@ -14677,6 +15622,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -15189,6 +16139,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -15431,6 +16386,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Цифровое благополучие"
+      },
+      {
         "locale": "nl-nl",
         "name": "Digitaal welzijn"
       }
@@ -15445,6 +16404,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -15597,6 +16561,10 @@
         "name": "Double display cutout"
       },
       {
+        "locale": "ru-ru",
+        "name": "Сверху и снизу"
+      },
+      {
         "locale": "nl-nl",
         "name": "Dubbele cutout"
       },
@@ -15620,6 +16588,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -15688,6 +16661,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Диспетчер загрузки"
+      },
+      {
         "locale": "nl-nl",
         "name": "Downloadbeheer"
       },
@@ -15711,6 +16688,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -15787,7 +16769,12 @@
   "com.android.providers.downloads.ui": {
     "appName": "Downloads",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Загрузки"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -15803,6 +16790,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -15976,7 +16968,12 @@
   "com.google.android.apps.docs": {
     "appName": "Drive",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Диск"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -15987,6 +16984,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -16186,6 +17188,18 @@
       }
     ]
   },
+  "com.transsion.dynamicbar": {
+    "appName": "Dynamic Bar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.dynsystem": {
     "appName": "Dynamic System Updates",
     "userFacing": false,
@@ -16205,6 +17219,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -16326,6 +17345,18 @@
       }
     ]
   },
+  "com.transsion.easypic": {
+    "appName": "EasyPic",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.app.cocktailbarservice": {
     "appName": "Edge panels",
     "userFacing": false,
@@ -16430,12 +17461,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Emergency"
+        "locale": "ru-ru",
+        "name": "com.android.emergency"
       },
       {
-        "locale": "",
-        "name": "com.android.emergency"
+        "locale": "en-gb",
+        "name": "Emergency"
       }
     ],
     "devices": [
@@ -16448,6 +17479,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -16623,23 +17659,16 @@
       }
     ]
   },
-  "com.sprd.engineermode": {
-    "appName": "EngineerMode",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      }
-    ]
-  },
   "com.mediatek.engineermode": {
     "appName": "EngineerMode",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -16659,6 +17688,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.sprd.engineermode": {
+    "appName": "EngineerMode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
       }
     ]
   },
@@ -16791,6 +17832,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Внешняя память"
+      },
+      {
         "locale": "nl-nl",
         "name": "Externe opslag"
       },
@@ -16814,6 +17859,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -17203,6 +18253,18 @@
       }
     ]
   },
+  "com.idea.questionnaire": {
+    "appName": "Feedback",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.fido.asm": {
     "appName": "FIDO UAF1.0 ASM",
     "userFacing": false,
@@ -17236,6 +18298,10 @@
         "name": "Dateien"
       },
       {
+        "locale": "ru-ru",
+        "name": "Файлы"
+      },
+      {
         "locale": "nl-nl",
         "name": "Bestanden"
       }
@@ -17255,6 +18321,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -17323,7 +18394,12 @@
   "com.google.android.apps.nbu.files": {
     "appName": "Files by Google",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Google Files"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -17334,6 +18410,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -17566,6 +18647,18 @@
       }
     ]
   },
+  "com.transsion.os.typeface": {
+    "appName": "FontManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.adups.fota.sysoper": {
     "appName": "FotaProvider",
     "userFacing": false,
@@ -17629,6 +18722,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Геоданные из нескольких источников"
+      },
+      {
         "locale": "nl-nl",
         "name": "Samengestelde locatie"
       },
@@ -17652,6 +18749,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -18213,6 +19315,18 @@
       }
     ]
   },
+  "com.geniex.vsimhelper": {
+    "appName": "GENIEX Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.internal.systemui.navbar.gestural_wide_back": {
     "appName": "Gestural Navigation Bar",
     "userFacing": false,
@@ -18222,6 +19336,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -18310,6 +19429,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -18384,6 +19508,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -18454,6 +19583,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -18556,6 +19690,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -18632,8 +19771,18 @@
   "com.goodix.fingerprint.setting": {
     "appName": "Goodix_Enroll",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "In-Display Fingerprint"
+      }
+    ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "Nothing",
         "model": "A015",
@@ -18660,6 +19809,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -18757,6 +19911,10 @@
       {
         "locale": "",
         "name": "Google Kalender-Synchronisierung"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Синхронизация Google Календаря"
       }
     ],
     "devices": [
@@ -18764,6 +19922,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -18823,6 +19986,10 @@
         "name": "Google-Standortverlauf"
       },
       {
+        "locale": "ru-ru",
+        "name": "История местоположений"
+      },
+      {
         "locale": "nl-nl",
         "name": "Locatiegeschiedenis van Google"
       }
@@ -18842,6 +20009,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -18924,6 +20096,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19016,6 +20193,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19150,6 +20332,10 @@
         "name": "Google TV"
       },
       {
+        "locale": "ru-ru",
+        "name": "Google TV"
+      },
+      {
         "locale": "en-gb",
         "name": "Google TV"
       },
@@ -19172,6 +20358,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -19287,6 +20478,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Сервисы Google Play"
+      },
+      {
         "locale": "nl-nl",
         "name": "Google Play-services"
       },
@@ -19310,6 +20505,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19409,6 +20609,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -19443,7 +20648,12 @@
   "com.android.vending": {
     "appName": "Google Play Store",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Google Play"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -19459,6 +20669,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19545,6 +20760,10 @@
         "name": "Google Safety Centre resources"
       },
       {
+        "locale": "ru-ru",
+        "name": "Ресурсы Центра безопасности Google"
+      },
+      {
         "locale": "nl-nl",
         "name": "Google Veiligheidscentrum-bronnen"
       }
@@ -19564,6 +20783,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19673,6 +20897,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19990,6 +21219,10 @@
         "name": "Health Connect"
       },
       {
+        "locale": "ru-ru",
+        "name": "Здоровье и спорт"
+      },
+      {
         "locale": "nl-nl",
         "name": "Health Connect"
       }
@@ -20004,6 +21237,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20078,6 +21316,10 @@
       {
         "locale": "en-gb",
         "name": "Google Assistant"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Google Assistant"
       }
     ],
     "devices": [
@@ -20095,6 +21337,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20164,6 +21411,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.talpa.hiservice": {
+    "appName": "HiLanguageService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -20446,6 +21705,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Средство просмотра HTML"
+      },
+      {
         "locale": "nl-nl",
         "name": "HTML-viewer"
       },
@@ -20469,6 +21732,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20703,6 +21971,18 @@
       }
     ]
   },
+  "tech.palm.id": {
+    "appName": "Infinix ID",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.hihonor.autoinstallapkfrommcc": {
     "appName": "Information",
     "userFacing": false,
@@ -20719,6 +21999,10 @@
     "appName": "Input Devices",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Устройства ввода"
+      },
       {
         "locale": "nl-nl",
         "name": "Invoerapparaten"
@@ -20743,6 +22027,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20898,6 +22187,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -21115,6 +22409,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Брелок"
+      },
+      {
         "locale": "nl-nl",
         "name": "Sleutelhanger"
       },
@@ -21138,6 +22436,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -21232,6 +22535,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.transsion.keyguardclock": {
+    "appName": "KeyguardClock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -21740,6 +23055,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Каталог живых обоев"
+      },
+      {
         "locale": "nl-nl",
         "name": "Interactieve achtergrondkiezer"
       },
@@ -21767,6 +23086,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -21935,8 +23259,18 @@
   "com.mediatek.location.lppe.main": {
     "appName": "LPPe Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Служба LPPe"
+      }
+    ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -22065,6 +23399,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -22140,6 +23479,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -22230,7 +23574,12 @@
   "com.google.android.apps.maps": {
     "appName": "Maps",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Карты"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -22246,6 +23595,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -22314,6 +23668,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Отзывы о Маркете"
+      },
+      {
         "locale": "nl-nl",
         "name": "Market-feedbackagent"
       }
@@ -22333,6 +23691,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -22463,8 +23826,18 @@
   "com.mediatek.mdmconfig": {
     "appName": "MDMConfig",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Конфигурация управления мобильными устройствами"
+      }
+    ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -22495,8 +23868,18 @@
   "com.mediatek.mdmlsample": {
     "appName": "MDMLSample",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Пример MDML"
+      }
+    ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -22557,6 +23940,10 @@
         "name": "Media-Auswahl"
       },
       {
+        "locale": "ru-ru",
+        "name": "Инструмент выбора медиа"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mediakiezer"
       },
@@ -22580,6 +23967,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -22697,6 +24089,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -23082,6 +24479,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -23175,6 +24577,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -23373,6 +24780,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -23426,8 +24838,18 @@
   "com.mediatek.gnss.nonframeworklbs": {
     "appName": "MTK Non-Framework Location-Based Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "MTK Non-Framework LBS (MTK не Фреймворк LBS)"
+      }
+    ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -23523,6 +24945,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Хост-система MTP"
+      },
+      {
         "locale": "nl-nl",
         "name": "MTP-host"
       },
@@ -23546,6 +24972,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -23708,6 +25139,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -23917,6 +25353,18 @@
       }
     ]
   },
+  "com.transsion.nephilim": {
+    "appName": "Nephilim",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.netflix.mediaclient": {
     "appName": "Netflix",
     "userFacing": false,
@@ -23962,6 +25410,10 @@
         "name": "Netzwerkmanager"
       },
       {
+        "locale": "ru-ru",
+        "name": "Менеджер сетей"
+      },
+      {
         "locale": "nl-nl",
         "name": "Netwerkbeheer"
       }
@@ -23981,6 +25433,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -24195,6 +25652,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -24233,12 +25695,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "com.android.networkstack.overlay"
+        "locale": "ru-ru",
+        "name": "NetworkStackResOverlay"
       },
       {
-        "locale": "",
-        "name": "NetworkStackResOverlay"
+        "locale": "en-gb",
+        "name": "com.android.networkstack.overlay"
       }
     ],
     "devices": [
@@ -24251,6 +25713,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -24289,6 +25756,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "NetworkStackGoogleResOverlay"
+      },
+      {
         "locale": "en-gb",
         "name": "GoogleNetworkStackResOverlay"
       },
@@ -24298,6 +25769,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -24350,6 +25826,10 @@
         "name": "Nfc Service"
       },
       {
+        "locale": "ru-ru",
+        "name": "Служба NFC"
+      },
+      {
         "locale": "nl-nl",
         "name": "NFC Migration"
       },
@@ -24377,6 +25857,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -24544,6 +26029,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -24788,6 +26278,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -25018,6 +26513,10 @@
       {
         "locale": "en-gb",
         "name": "Google Assistant"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Google Assistant"
       }
     ],
     "devices": [
@@ -25035,6 +26534,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -25085,6 +26589,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -25239,6 +26748,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.overlaysuw": {
+    "appName": "OOBE",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
         "os": "34"
       }
     ]
@@ -25654,6 +27175,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -25736,6 +27262,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Установщик пакетов"
+      },
+      {
         "locale": "nl-nl",
         "name": "Pakket-installatie"
       },
@@ -25759,6 +27289,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -25835,7 +27370,12 @@
   "com.android.pacprocessor": {
     "appName": "PacProcessor",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Процессор Pac"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -25851,6 +27391,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26066,6 +27611,10 @@
         "name": "Berechtigungssteuerung"
       },
       {
+        "locale": "ru-ru",
+        "name": "Контролер разрешений"
+      },
+      {
         "locale": "nl-nl",
         "name": "Rechtenbeheer"
       }
@@ -26085,6 +27634,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26252,6 +27806,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Личная безопасность"
+      },
+      {
         "locale": "nl-nl",
         "name": "Persoonlijke veiligheid"
       }
@@ -26266,6 +27824,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -26465,6 +28028,10 @@
         "name": "Phone/Messaging Storage"
       },
       {
+        "locale": "ru-ru",
+        "name": "Память номеров/SMS/MMS"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag telefoon/berichten"
       },
@@ -26492,6 +28059,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26578,6 +28150,10 @@
         "name": "Call Management"
       },
       {
+        "locale": "ru-ru",
+        "name": "Телефонные вызовы"
+      },
+      {
         "locale": "nl-nl",
         "name": "Telefoon­gesprekken"
       },
@@ -26609,6 +28185,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26695,6 +28276,10 @@
         "name": "Phone Services"
       },
       {
+        "locale": "ru-ru",
+        "name": "Телефон"
+      },
+      {
         "locale": "nl-nl",
         "name": "Telefoonservices"
       },
@@ -26722,6 +28307,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26948,6 +28538,10 @@
         "name": "Fotos"
       },
       {
+        "locale": "ru-ru",
+        "name": "Фото"
+      },
+      {
         "locale": "nl-nl",
         "name": "Foto's"
       }
@@ -26962,6 +28556,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27029,6 +28628,10 @@
         "name": "Fotos & Videos"
       },
       {
+        "locale": "ru-ru",
+        "name": "Фото и видео"
+      },
+      {
         "locale": "nl-nl",
         "name": "Foto's en video's"
       },
@@ -27047,6 +28650,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27535,6 +29143,18 @@
       }
     ]
   },
+  "android.autoinstalls.config.transsion.device": {
+    "appName": "PlayAutoInstall",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.app.dofviewer": {
     "appName": "Portrait",
     "userFacing": false,
@@ -27619,6 +29239,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -27695,6 +29320,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Спулер печати"
+      },
+      {
         "locale": "nl-nl",
         "name": "Afdrukspooler"
       },
@@ -27718,6 +29347,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27836,6 +29470,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27965,6 +29604,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -28061,6 +29705,10 @@
         "name": "Punch hole cutout"
       },
       {
+        "locale": "ru-ru",
+        "name": "Вырез Punch Hole"
+      },
+      {
         "locale": "nl-nl",
         "name": "Cameragat-cutout"
       },
@@ -28084,6 +29732,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -28324,11 +29977,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "com.android.launcher3"
+      },
+      {
         "locale": "en-gb",
         "name": "Launcher3"
       }
     ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -28574,8 +30236,18 @@
   "com.android.rkpdapp": {
     "appName": "RemoteProvisioner",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Дистанционное средство подготовки"
+      }
+    ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "samsung",
         "model": "SM-S931B",
@@ -28741,6 +30413,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -29003,6 +30680,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.statisticalsales": {
+    "appName": "SalesStatistics",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -30401,8 +32090,18 @@
   "com.mediatek.schpwronoff": {
     "appName": "Schedule power on & off",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Включение/выключение по расписанию и перезагрузка"
+      }
+    ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -30714,6 +32413,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -30792,6 +32496,18 @@
       }
     ]
   },
+  "com.scorpio.securitycom": {
+    "appName": "SecurityPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.aasaservice": {
     "appName": "SecurityPolicy",
     "userFacing": false,
@@ -30857,6 +32573,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.reallytek.wg": {
+    "appName": "SemiAutoMidtest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -31059,6 +32787,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Настройки"
+      },
+      {
         "locale": "nl-nl",
         "name": "Instellingen"
       },
@@ -31082,6 +32814,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -31192,6 +32929,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Хранилище настроек"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslagruimte voor instellingen"
       },
@@ -31215,6 +32956,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -31297,6 +33043,10 @@
         "name": "Settings suggestions"
       },
       {
+        "locale": "ru-ru",
+        "name": "Предложения Настроек"
+      },
+      {
         "locale": "",
         "name": "Einstellungsvorschläge"
       }
@@ -31306,6 +33056,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -31473,7 +33228,12 @@
   "com.android.shell": {
     "appName": "Shell",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Оболочка"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -31489,6 +33249,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -31615,6 +33380,10 @@
         "name": "Sim app dialogue"
       },
       {
+        "locale": "ru-ru",
+        "name": "Диалог Sim Приложения"
+      },
+      {
         "locale": "en-za",
         "name": "Sim app dialogue"
       },
@@ -31638,6 +33407,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -31751,6 +33525,10 @@
         "name": "SIM Tool Kit"
       },
       {
+        "locale": "ru-ru",
+        "name": "SIM-Меню"
+      },
+      {
         "locale": "nl-nl",
         "name": "SIM-toolkit"
       },
@@ -31778,6 +33556,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -31923,6 +33706,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -32194,6 +33982,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.mol": {
+    "appName": "Smart translate",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -32607,6 +34407,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Звуки"
+      },
+      {
         "locale": "nl-nl",
         "name": "Geluiden"
       }
@@ -32621,6 +34425,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -32664,6 +34473,18 @@
       }
     ]
   },
+  "com.transsion.connectx.mirror.source": {
+    "appName": "source-service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.theme.color.space": {
     "appName": "Space",
     "userFacing": false,
@@ -32688,10 +34509,26 @@
       }
     ]
   },
+  "com.transsion.spacesaversdk": {
+    "appName": "Space service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.tts": {
     "appName": "Speech Recognition and Synthesis from Google",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Распознавание и синтез речи от Google"
+      },
       {
         "locale": "nl-nl",
         "name": "Spraakherkenning en -synthese van Google"
@@ -32728,6 +34565,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -32837,6 +34679,18 @@
       }
     ]
   },
+  "com.transsion.succ": {
+    "appName": "StabilityUniCloudControl",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.coloros.bootreg": {
     "appName": "Startup Wizard",
     "userFacing": false,
@@ -32924,6 +34778,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Менеджер Памяти"
+      },
+      {
         "locale": "",
         "name": "Speichermanager"
       }
@@ -32933,6 +34791,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -33097,6 +34960,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -33299,6 +35167,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -33424,6 +35297,10 @@
         "name": "Jugendschutzeinstellungen"
       },
       {
+        "locale": "ru-ru",
+        "name": "Родительский контроль Family Link"
+      },
+      {
         "locale": "nl-nl",
         "name": "Ouderlijk toezicht van systeem"
       },
@@ -33447,6 +35324,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -33524,6 +35406,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Трассировка системы"
+      },
+      {
         "locale": "",
         "name": "Ablaufverfolgung"
       }
@@ -33543,6 +35429,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -33611,6 +35502,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Интерфейс системы"
+      },
+      {
         "locale": "nl-nl",
         "name": "Systeem-UI"
       },
@@ -33634,6 +35529,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -33770,12 +35670,22 @@
   "com.android.uwb.resources": {
     "appName": "System UWB Resources",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Системные ресурсы UWB"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -33900,6 +35810,10 @@
         "name": "System Wi-Fi resources"
       },
       {
+        "locale": "ru-ru",
+        "name": "Системные ресурсы Wi-Fi"
+      },
+      {
         "locale": "nl-nl",
         "name": "Wifi-bronnen systeem"
       },
@@ -33918,6 +35832,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -34008,12 +35927,22 @@
   "com.android.apps.tag": {
     "appName": "Tags",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Теги"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -34137,6 +36066,10 @@
         "name": "Tall display cutout"
       },
       {
+        "locale": "ru-ru",
+        "name": "Сверху"
+      },
+      {
         "locale": "nl-nl",
         "name": "Hoge cutout"
       },
@@ -34160,6 +36093,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -34303,11 +36241,33 @@
       }
     ]
   },
-  "com.mediatek.telephony": {
-    "appName": "Telephony Assist",
+  "com.trustonic.teeservice": {
+    "appName": "TeeСервис",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.telephony": {
+    "appName": "Telephony Assist",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Телефонный помощник"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -34321,6 +36281,18 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.teop": {
+    "appName": "TEOP",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
         "os": "34"
       }
     ]
@@ -34371,6 +36343,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -34500,6 +36477,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "TetheringResOverlay"
+      },
+      {
         "locale": "en-gb",
         "name": "com.android.networkstack.tethering.overlay"
       },
@@ -34509,6 +36490,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -34522,6 +36508,28 @@
       {
         "make": "HONOR",
         "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.networkstack.tethering.inprocess.overlay": {
+    "appName": "TetheringResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
       {
@@ -34565,28 +36573,16 @@
       }
     ]
   },
-  "com.android.networkstack.tethering.inprocess.overlay": {
-    "appName": "TetheringResOverlay",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      }
-    ]
-  },
   "com.android.customization.themes": {
     "appName": "Themes",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -34717,6 +36713,18 @@
       }
     ]
   },
+  "com.hoffnung": {
+    "appName": "TPMS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.agold.trackrecord": {
     "appName": "TrackBack",
     "userFacing": false,
@@ -34726,6 +36734,102 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.transsion.aisupportercore": {
+    "appName": "TranAISupporterCore",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.trancare": {
+    "appName": "Trancare",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.tranengine": {
+    "appName": "TranEngine",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.tranfacmode": {
+    "appName": "TranfacMode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.hamal": {
+    "appName": "TranHamal",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.multiwindow": {
+    "appName": "TranMultiWindow",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.necessity": {
+    "appName": "TranNecessity",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.resolver": {
+    "appName": "TranResolver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -34755,6 +36859,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -35022,6 +37131,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Словарь пользователя"
+      },
+      {
         "locale": "nl-nl",
         "name": "Gebruikerswoordenboek"
       },
@@ -35045,6 +37158,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -35168,6 +37286,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.uxdetector": {
+    "appName": "Uxdetector",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -35582,6 +37712,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -35698,11 +37833,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Обои и стиль"
+      },
+      {
         "locale": "en-gb",
         "name": "Wallpaper and style"
       }
     ],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -35831,6 +37975,10 @@
         "name": "Aussparung für Wasserfall-Display"
       },
       {
+        "locale": "ru-ru",
+        "name": "Вырез на экране Waterfall"
+      },
+      {
         "locale": "nl-nl",
         "name": "Waterval-cutout"
       }
@@ -35850,6 +37998,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36051,6 +38204,18 @@
       }
     ]
   },
+  "com.transsion.iotservice": {
+    "appName": "WelinkService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.qualcomm.wfd.service": {
     "appName": "Wfd Service",
     "userFacing": false,
@@ -36232,6 +38397,10 @@
         "name": "Notfallbenachrichtigungen an Mobilgeräte"
       },
       {
+        "locale": "ru-ru",
+        "name": "Экстренные оповещения по беспроводным сетям"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mobiele noodmeldingen"
       },
@@ -36255,6 +38424,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36420,6 +38594,10 @@
         "name": "Work profile setup"
       },
       {
+        "locale": "ru-ru",
+        "name": "Рабочий профиль"
+      },
+      {
         "locale": "nl-nl",
         "name": "Werkinstelling"
       },
@@ -36443,6 +38621,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36516,6 +38699,18 @@
       }
     ]
   },
+  "com.transsion.fmradio": {
+    "appName": "WOW FM",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
   "com.bird.writeimei": {
     "appName": "Write Device id",
     "userFacing": false,
@@ -36525,6 +38720,30 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.xui.xhide": {
+    "appName": "XHide",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.XOSLauncher": {
+    "appName": "XOS Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   },
@@ -36557,6 +38776,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -36605,6 +38829,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36684,6 +38913,11 @@
         "os": "36"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -36751,6 +38985,654 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.transsion.zahooc": {
+    "appName": "Za-Hooc",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.sk": {
+    "appName": "Безопасная клавиатура",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.notebook": {
+    "appName": "Блокнот",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.quicktools": {
+    "appName": "Быстрая блокировка",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.livewallpaper.magictouch": {
+    "appName": "Волшебное прикосновение",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.aod": {
+    "appName": "Всегда на дисплее",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.gallery20": {
+    "appName": "Галерея AI",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.microintelligence": {
+    "appName": "Действия и жесты",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.childmode": {
+    "appName": "Детский режим",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.soundrecorder": {
+    "appName": "Диктофон",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.filemanagerx": {
+    "appName": "Диспетчер файлов",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.livewallpaper.page": {
+    "appName": "Живые обои",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.livewallpaper.fantasy": {
+    "appName": "Живые обои",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.screenrecorder": {
+    "appName": "Запись экрана",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.applock": {
+    "appName": "Защита приложений паролем",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.ossettingsext": {
+    "appName": "Звонки",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.irremote": {
+    "appName": "ИК-пульт дистанционного управления",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.kolun.assistant": {
+    "appName": "Интеллектуальные функции",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.calendar": {
+    "appName": "Календарь",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.calculator": {
+    "appName": "Калькулятор",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.camera": {
+    "appName": "Камера",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.dualapp": {
+    "appName": "Клонирование приложений",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.letswitch": {
+    "appName": "Клонирование телефона",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.compass": {
+    "appName": "Компас",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.livewallpaper.spacecraft": {
+    "appName": "Космический корабль – Меха Оранжевый",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.livewallpaper.airship": {
+    "appName": "Межгалактический – Синий",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.magicfont": {
+    "appName": "Менеджер шрифтов",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.inearmonitor": {
+    "appName": "Мониторинг внутри уха",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "tech.palm.find": {
+    "appName": "Найти мое",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.cloudserver": {
+    "appName": "Облачный сервис",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.plat.appupdate": {
+    "appName": "Обновление приложений",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.systemupdate": {
+    "appName": "Обновление системы",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.keyguardtheme": {
+    "appName": "Обои",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.thunderback": {
+    "appName": "Плавающие окна",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.livewallpaper.mecha": {
+    "appName": "Пламя X-Меха",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.rlk.weathers": {
+    "appName": "Погода",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.faceid": {
+    "appName": "Разблокировка по лицу",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.manualguide": {
+    "appName": "Руководство пользователя",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.screencapture": {
+    "appName": "Скриншоты",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.smartpanel": {
+    "appName": "Смарт-панель",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.smartmessage": {
+    "appName": "Сообщения",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.sh.smart.caller": {
+    "appName": "Телефон",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.dtsaudio": {
+    "appName": "Технология DTS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.scanningrecharger": {
+    "appName": "Умное сканирование",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.mediapipefilters": {
+    "appName": "Устройство для изменения фона",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.agingfunction": {
+    "appName": "Функция старения",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.deskclock": {
+    "appName": "Часы",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.livewallpaper.saibo": {
+    "appName": "Черный Кибер X-Вселенная",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.batterylab": {
+    "appName": "Экономия заряда аккумулятора и энергопотребления",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.magazineservice.xos": {
+    "appName": "Экран блокировки с динамическими обоями",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.transsion.repaircard": {
+    "appName": "Электронный гарантийный талон",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yandex.searchapp": {
+    "appName": "Яндекс",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.yandex.browser": {
+    "appName": "Яндекс Браузер",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "ru.yandex.androidkeyboard": {
+    "appName": "Яндекс Клавиатура",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
       }
     ]
   }
