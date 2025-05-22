@@ -57,6 +57,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -141,6 +146,10 @@
         "name": "Advertentieprivacy"
       },
       {
+        "locale": "en-de",
+        "name": "Ad privacy"
+      },
+      {
         "locale": "",
         "name": "Android system"
       }
@@ -180,6 +189,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -347,6 +361,10 @@
       {
         "locale": "en-gb",
         "name": "AICore"
+      },
+      {
+        "locale": "en-de",
+        "name": "AICore"
       }
     ],
     "devices": [
@@ -386,6 +404,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.xiaomi.aiasst.vision": {
+    "appName": "AI subtitles",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -534,6 +564,18 @@
       }
     ]
   },
+  "com.miui.analytics": {
+    "appName": "Analytics",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.marvin.talkback": {
     "appName": "Android Accessibility Suite",
     "userFacing": false,
@@ -582,6 +624,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -664,6 +711,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -806,6 +858,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -918,6 +975,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -1042,6 +1104,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -1137,6 +1204,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -1238,6 +1310,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -1348,6 +1425,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -1476,6 +1558,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -1563,6 +1650,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -1604,6 +1696,30 @@
       }
     ]
   },
+  "android.aosp.overlay": {
+    "appName": "android.aosp.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "android.aosp.overlay.telephony": {
+    "appName": "android.aosp.overlay.telephony",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "android.auto_generated_characteristics_rro": {
     "appName": "android.auto_generated_characteristics_rro",
     "userFacing": false,
@@ -1628,6 +1744,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -1834,6 +1955,42 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "android.miui.home.launcher.res": {
+    "appName": "android.miui.home.launcher.res",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "android.miui.overlay": {
+    "appName": "android.miui.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "android.miui.overlay.telephony": {
+    "appName": "android.miui.overlay.telephony",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -2246,6 +2403,18 @@
       }
     ]
   },
+  "com.mi.globalminusscreen": {
+    "appName": "App vault",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.appbooster": {
     "appName": "AppBooster",
     "userFacing": false,
@@ -2495,6 +2664,18 @@
       }
     ]
   },
+  "com.mediatek.atci.service": {
+    "appName": "Atci_service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.athena": {
     "appName": "Athena",
     "userFacing": false,
@@ -2528,6 +2709,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Nothing",
@@ -2760,6 +2946,18 @@
       }
     ]
   },
+  "com.longcheertel.AutoTest": {
+    "appName": "Autotest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.aremojieditor": {
     "appName": "Avatar Editor",
     "userFacing": true,
@@ -2794,8 +2992,18 @@
   "com.android.avatarpicker": {
     "appName": "Avatar Picker",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Avatar picker"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-S906B",
@@ -2870,6 +3078,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.miui.backup": {
+    "appName": "Backup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -2979,6 +3199,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -3027,6 +3252,18 @@
       }
     ]
   },
+  "com.miui.powerkeeper": {
+    "appName": "Battery and performance",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.agui.batterystatsdumper": {
     "appName": "Battery Stats Dumper",
     "userFacing": false,
@@ -3057,6 +3294,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.face": {
+    "appName": "Biometric",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -3256,6 +3505,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -3302,7 +3556,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "nl-nl",
+        "locale": "en-de",
         "name": "Bluetooth Legacy"
       }
     ],
@@ -3353,9 +3607,9 @@
         "os": "30"
       },
       {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -3448,6 +3702,18 @@
       }
     ]
   },
+  "com.xiaomi.bluetooth": {
+    "appName": "Bluetooth Extension",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.bluetoothmidiservice": {
     "appName": "Bluetooth MIDI Service",
     "userFacing": false,
@@ -3509,6 +3775,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -3546,6 +3817,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.extraphoto": {
+    "appName": "Bokeh",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -3609,6 +3892,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -3719,6 +4007,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.xiaomi.barrage": {
+    "appName": "Bullet screen notification",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -3902,6 +4202,18 @@
       }
     ]
   },
+  "com.xiaomi.calendar": {
+    "appName": "Calendar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.hihonor.calendar": {
     "appName": "Calendar",
     "userFacing": false,
@@ -3993,6 +4305,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -4163,6 +4480,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -4195,6 +4517,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.server.telecom.overlay.miui": {
+    "appName": "Call Management",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -4390,6 +4724,18 @@
       }
     ]
   },
+  "com.android.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.nothing.camera": {
     "appName": "Camera",
     "userFacing": false,
@@ -4530,6 +4876,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -4579,6 +4930,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.cameramind": {
+    "appName": "CameraMind",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -4638,6 +5001,10 @@
       {
         "locale": "nl-nl",
         "name": "Inloggen via captive portal"
+      },
+      {
+        "locale": "en-de",
+        "name": "Captive portal login"
       }
     ],
     "devices": [
@@ -4675,6 +5042,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -4839,6 +5211,10 @@
         "name": "Berichten van provider"
       },
       {
+        "locale": "en-de",
+        "name": "Operator communications"
+      },
+      {
         "locale": "en-za",
         "name": "CarrierDefaultApp"
       }
@@ -4885,6 +5261,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -4926,15 +5307,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Operator Location"
-      },
-      {
         "locale": "nl-nl",
         "name": "Provider toegang geven tot locatie"
       },
       {
         "locale": "en-gb",
+        "name": "Operator Location"
+      },
+      {
+        "locale": "en-de",
         "name": "Operator Location"
       }
     ],
@@ -5017,15 +5398,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "DMService"
-      },
-      {
         "locale": "nl-nl",
         "name": "DMService"
       },
       {
         "locale": "en-gb",
+        "name": "DMService"
+      },
+      {
+        "locale": "en-de",
         "name": "DMService"
       }
     ],
@@ -5155,15 +5536,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Operator setup"
-      },
-      {
         "locale": "nl-nl",
         "name": "Provider instellen"
       },
       {
         "locale": "en-gb",
+        "name": "Operator setup"
+      },
+      {
+        "locale": "en-de",
         "name": "Operator setup"
       }
     ],
@@ -5251,6 +5632,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -5351,6 +5737,10 @@
         "name": "Certificaat-installatie"
       },
       {
+        "locale": "en-de",
+        "name": "Certificate Installer"
+      },
+      {
         "locale": "en-za",
         "name": "Certificate Installer"
       },
@@ -5409,6 +5799,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -5520,6 +5915,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -5588,15 +5988,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Cinematic wallpaper"
-      },
-      {
         "locale": "nl-nl",
         "name": "Filmische achtergrond"
       },
       {
         "locale": "en-gb",
+        "name": "Cinematic wallpaper"
+      },
+      {
+        "locale": "en-de",
         "name": "Cinematic wallpaper"
       }
     ],
@@ -5707,6 +6107,18 @@
       }
     ]
   },
+  "com.longcheertel.cit": {
+    "appName": "cit test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.rhinomobility.eng": {
     "appName": "CIT Test",
     "userFacing": false,
@@ -5728,6 +6140,30 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.miui.cleaner": {
+    "appName": "Cleaner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.phrase": {
+    "appName": "Clipboard and frequent phrases",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -5846,7 +6282,7 @@
   },
   "com.android.deskclock": {
     "appName": "Clock",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -5858,6 +6294,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -5875,6 +6316,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.miui.cloudbackup": {
+    "appName": "Cloud backup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -6021,6 +6474,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -6101,6 +6559,18 @@
       }
     ]
   },
+  "com.android.bluetooth.overlay": {
+    "appName": "com.android.bluetooth.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.carrierconfig": {
     "appName": "com.android.carrierconfig",
     "userFacing": false,
@@ -6140,6 +6610,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -6194,6 +6669,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.carrierconfig.overlay.miui": {
+    "appName": "com.android.carrierconfig.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -6277,6 +6764,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -6426,6 +6918,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -6491,6 +6988,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -6588,6 +7090,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -6801,6 +7308,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -6819,6 +7331,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.inputsettings.overlay.miui": {
+    "appName": "com.android.inputsettings.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -6866,6 +7390,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -6918,6 +7447,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Nothing",
@@ -7050,6 +7584,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -7127,6 +7666,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -7190,15 +7734,80 @@
       }
     ]
   },
+  "com.android.overlay.gmscontactprovider": {
+    "appName": "com.android.overlay.gmscontactprovider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.overlay.gmssettingprovider": {
     "appName": "com.android.overlay.gmssettingprovider",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.android.overlay.gmssettings": {
+    "appName": "com.android.overlay.gmssettings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.overlay.gmstelecomm": {
+    "appName": "com.android.overlay.gmstelecomm",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.overlay.gmstelephony": {
+    "appName": "com.android.overlay.gmstelephony",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.overlay.systemui": {
+    "appName": "com.android.overlay.systemui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -7255,6 +7864,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -7342,6 +7956,18 @@
       }
     ]
   },
+  "com.android.phone.cust.overlay.miui": {
+    "appName": "com.android.phone.cust.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.phone.injection": {
     "appName": "com.android.phone.injection",
     "userFacing": false,
@@ -7363,6 +7989,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.phone.overlay.miui": {
+    "appName": "com.android.phone.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -7481,6 +8119,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -7602,6 +8245,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -7719,6 +8367,18 @@
       }
     ]
   },
+  "com.android.providers.settings.overlay": {
+    "appName": "com.android.providers.settings.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.providers.settings.overlay.common": {
     "appName": "com.android.providers.settings.overlay.common",
     "userFacing": false,
@@ -7757,6 +8417,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -7792,6 +8457,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.providers.telephony.overlay.miui": {
+    "appName": "com.android.providers.telephony.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -8167,6 +8844,18 @@
       }
     ]
   },
+  "com.android.settings.overlay.miui": {
+    "appName": "com.android.settings.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.settings.overlay.oriole": {
     "appName": "com.android.settings.overlay.oriole",
     "userFacing": false,
@@ -8307,6 +8996,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -8397,6 +9091,18 @@
       }
     ]
   },
+  "com.android.stk.overlay.miui": {
+    "appName": "com.android.stk.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.systemui.accessibility.accessibilitymenu": {
     "appName": "com.android.systemui.accessibility.accessibilitymenu",
     "userFacing": false,
@@ -8421,6 +9127,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -8766,6 +9477,30 @@
       }
     ]
   },
+  "com.android.systemui.gesture.line.overlay": {
+    "appName": "com.android.systemui.gesture.line.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.systemui.navigation.bar.overlay": {
+    "appName": "com.android.systemui.navigation.bar.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.systemui.os.overlay": {
     "appName": "com.android.systemui.os.overlay",
     "userFacing": false,
@@ -8910,6 +9645,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay.miui": {
+    "appName": "com.android.systemui.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.systemui.overlay.pearloverlay2024": {
     "appName": "com.android.systemui.overlay.pearloverlay2024",
     "userFacing": false,
@@ -8987,6 +9734,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.thememanager.customizethemeconfig.config.overlay": {
+    "appName": "com.android.thememanager.customizethemeconfig.config.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -9084,6 +9843,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -9166,6 +9930,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -9246,6 +10015,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -9337,6 +10111,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -9402,6 +10181,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -9432,6 +10216,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -9508,6 +10297,18 @@
       }
     ]
   },
+  "com.android.wifi.resources.xiaomi": {
+    "appName": "com.android.wifi.resources.xiaomi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.wifi.system.mainline.resources.overlay": {
     "appName": "com.android.wifi.system.mainline.resources.overlay",
     "userFacing": false,
@@ -9517,6 +10318,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -9544,6 +10350,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -9657,11 +10468,6 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       }
@@ -9732,6 +10538,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -9759,6 +10570,30 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.google.android.cellbroadcastreceiver.overlay.miui": {
+    "appName": "com.google.android.cellbroadcastreceiver.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.google.android.cellbroadcastservice.overlay.miui": {
+    "appName": "com.google.android.cellbroadcastservice.overlay.miui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -9902,6 +10737,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -10111,6 +10951,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -10375,6 +11220,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -10441,6 +11291,11 @@
         "os": "33"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -10498,6 +11353,11 @@
         "os": "30"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -10550,6 +11410,11 @@
         "os": "30"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -10600,6 +11465,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -10657,6 +11527,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -10723,6 +11598,11 @@
         "os": "33"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -10758,6 +11638,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -10933,6 +11818,18 @@
       }
     ]
   },
+  "com.google.android.overlay.healthconnect": {
+    "appName": "com.google.android.overlay.healthconnect",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.overlay.modules.captiveportallogin.forframework": {
     "appName": "com.google.android.overlay.modules.captiveportallogin.forframework",
     "userFacing": false,
@@ -10957,6 +11854,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -11055,6 +11957,11 @@
         "os": "33"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -11117,6 +12024,11 @@
         "os": "33"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -11164,6 +12076,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -11199,6 +12116,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -11275,6 +12197,11 @@
         "os": "33"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -11335,6 +12262,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -11723,6 +12655,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -11783,6 +12720,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -12171,6 +13113,18 @@
       }
     ]
   },
+  "com.google.android.wifi.resources.xiaomi": {
+    "appName": "com.google.android.wifi.resources.xiaomi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.cellbroadcastuiresoverlay": {
     "appName": "com.google.cellbroadcastuiresoverlay",
     "userFacing": false,
@@ -12413,6 +13367,11 @@
         "os": "27"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12455,6 +13414,11 @@
         "os": "27"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12487,6 +13451,11 @@
         "os": "27"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12514,6 +13483,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -12579,6 +13553,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12611,6 +13590,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12641,6 +13625,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -12694,6 +13683,11 @@
         "os": "27"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12738,6 +13732,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12764,6 +13763,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
       {
         "make": "RHINO",
         "model": "T8",
@@ -12806,6 +13810,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12832,6 +13841,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -12865,6 +13879,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -12901,9 +13920,194 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.miui.core.internal.services": {
+    "appName": "com.miui.core.internal.services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.system": {
+    "appName": "com.miui.internal.app.SystemApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.miwallpaper.config.overlay": {
+    "appName": "com.miui.miwallpaper.config.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.miwallpaper.overlay": {
+    "appName": "com.miui.miwallpaper.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.miwallpaper.overlay.customize": {
+    "appName": "com.miui.miwallpaper.overlay.customize",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.permissioncontroller.overlay": {
+    "appName": "com.miui.permissioncontroller.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.phone.carriers.overlay.h3g": {
+    "appName": "com.miui.phone.carriers.overlay.h3g",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.phone.carriers.overlay.vodafone": {
+    "appName": "com.miui.phone.carriers.overlay.vodafone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.qr": {
+    "appName": "com.miui.qr.InfoApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.rom": {
+    "appName": "com.miui.rom",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.settings.rro.device.hide.statusbar.overlay": {
+    "appName": "com.miui.settings.rro.device.hide.statusbar.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.settings.rro.device.type.overlay": {
+    "appName": "com.miui.settings.rro.device.type.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.system.overlay": {
+    "appName": "com.miui.system.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.wallpaper.overlay": {
+    "appName": "com.miui.wallpaper.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.wallpaper.overlay.customize": {
+    "appName": "com.miui.wallpaper.overlay.customize",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -14202,6 +15406,42 @@
       }
     ]
   },
+  "com.xiaomi.micloud.sdk": {
+    "appName": "com.xiaomi.micloudsdk.SdkApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.phone.overlay": {
+    "appName": "com.xiaomi.phone.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.touchservice": {
+    "appName": "com.xiaomi.touchservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.yft.theme.circle": {
     "appName": "com.yft.theme.circle",
     "userFacing": false,
@@ -14339,6 +15579,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -14428,6 +15673,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Nothing",
@@ -14524,6 +15774,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -14721,11 +15976,11 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "SDMService"
       },
       {
-        "locale": "en-gb",
+        "locale": "en-de",
         "name": "SDMService"
       }
     ],
@@ -14820,6 +16075,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -14854,12 +16114,22 @@
   "com.android.contacts": {
     "appName": "Contacts",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Contacts and dialer"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -14957,6 +16227,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -15017,6 +16292,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Nothing",
@@ -15159,6 +16439,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -15234,6 +16519,10 @@
       {
         "locale": "en-gb",
         "name": "Credential manager"
+      },
+      {
+        "locale": "en-de",
+        "name": "Credential manager"
       }
     ],
     "devices": [
@@ -15261,6 +16550,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -15326,15 +16620,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Cross-device services"
-      },
-      {
         "locale": "nl-nl",
         "name": "Cross-device-services"
       },
       {
         "locale": "en-gb",
+        "name": "Cross-device services"
+      },
+      {
+        "locale": "en-de",
         "name": "Cross-device services"
       }
     ],
@@ -15353,6 +16647,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Nothing",
@@ -15500,6 +16799,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -15544,6 +16848,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -15603,6 +16912,10 @@
         "name": "Standaard afdrukservice"
       },
       {
+        "locale": "en-de",
+        "name": "Default print service"
+      },
+      {
         "locale": "",
         "name": "Standarddruckdienst"
       }
@@ -15657,6 +16970,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -15831,11 +17149,11 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Device connectivity service"
       },
       {
-        "locale": "en-gb",
+        "locale": "en-de",
         "name": "Device connectivity service"
       }
     ],
@@ -15896,6 +17214,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -16092,6 +17415,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -16144,6 +17472,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -16198,6 +17531,30 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.miui.systemui.overlay.devices.android": {
+    "appName": "DevicesAndroidOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.systemui.devices.overlay": {
+    "appName": "DevicesOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -16431,6 +17788,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -16620,6 +17982,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -16725,6 +18092,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -16768,7 +18140,7 @@
   },
   "com.android.providers.downloads.ui": {
     "appName": "Downloads",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "ru-ru",
@@ -16825,6 +18197,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -17182,6 +18559,11 @@
         "os": "27"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -17244,6 +18626,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -17311,6 +18698,18 @@
       }
     ]
   },
+  "com.miui.misound": {
+    "appName": "Earphones",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.yft.easylauncher": {
     "appName": "Easy Launcher",
     "userFacing": false,
@@ -17366,6 +18765,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.miui.aod": {
+    "appName": "Edit Lock screen",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -17509,6 +18920,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -17678,6 +19094,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -17894,6 +19315,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -18265,6 +19691,18 @@
       }
     ]
   },
+  "com.miui.bugreport": {
+    "appName": "Feedback",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.fido.asm": {
     "appName": "FIDO UAF1.0 ASM",
     "userFacing": false,
@@ -18286,6 +19724,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.mi.android.globalFileexplorer": {
+    "appName": "File Manager",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -18341,6 +19791,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -18545,6 +20000,18 @@
       }
     ]
   },
+  "com.xiaomi.finddevice": {
+    "appName": "Find device",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.apps.adm": {
     "appName": "Find My Device",
     "userFacing": false,
@@ -18588,6 +20055,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.goodix.gftest": {
+    "appName": "Fingerpirnt test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -18644,6 +20123,30 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.miui.fm": {
+    "appName": "FM Radio",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.fmservice": {
+    "appName": "FM Radio Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -18784,6 +20287,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -19056,6 +20564,18 @@
       }
     ]
   },
+  "com.miui.gallery": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.nothing.gallery": {
     "appName": "Gallery",
     "userFacing": true,
@@ -19125,6 +20645,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.glgm": {
+    "appName": "Game Centre",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -19253,6 +20785,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -19533,6 +21070,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -19645,6 +21187,18 @@
       }
     ]
   },
+  "com.xiaomi.mipicks": {
+    "appName": "GetApps",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.service.pentastic": {
     "appName": "Glance",
     "userFacing": false,
@@ -19723,6 +21277,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -19846,6 +21405,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -19931,6 +21495,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       },
       {
@@ -20036,6 +21605,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -20073,6 +21647,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.google.android.apps.subscriptions.red": {
+    "appName": "Google One",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -20131,6 +21717,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -20230,6 +21821,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -20288,15 +21884,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Choose a picture"
-      },
-      {
         "locale": "nl-nl",
         "name": "Afbeelding kiezen"
       },
       {
         "locale": "en-gb",
+        "name": "Choose a picture"
+      },
+      {
+        "locale": "en-de",
         "name": "Choose a picture"
       }
     ],
@@ -20341,6 +21937,10 @@
       },
       {
         "locale": "nl-nl",
+        "name": "Google TV"
+      },
+      {
+        "locale": "en-de",
         "name": "Google TV"
       },
       {
@@ -20433,15 +22033,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Google Play Protect service"
-      },
-      {
         "locale": "nl-nl",
         "name": "Google Play Protect-service"
       },
       {
         "locale": "en-gb",
+        "name": "Google Play Protect service"
+      },
+      {
+        "locale": "en-de",
         "name": "Google Play Protect service"
       }
     ],
@@ -20540,6 +22140,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -20706,6 +22311,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -20766,6 +22376,10 @@
       {
         "locale": "nl-nl",
         "name": "Google Veiligheidscentrum-bronnen"
+      },
+      {
+        "locale": "en-de",
+        "name": "Google Safety Centre resources"
       }
     ],
     "devices": [
@@ -20803,6 +22417,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -20934,6 +22553,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -21050,6 +22674,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.ugd": {
+    "appName": "GPU Driver Updater",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -21188,7 +22824,11 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
+        "name": "Health Connect"
+      },
+      {
+        "locale": "en-de",
         "name": "Health Connect"
       }
     ],
@@ -21202,6 +22842,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -21252,6 +22897,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -21580,6 +23230,18 @@
       }
     ]
   },
+  "com.mi.globallayout": {
+    "appName": "HomeLayout",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.hihonor.controlcenter": {
     "appName": "HONOR Connect Control Center",
     "userFacing": false,
@@ -21769,6 +23431,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -21832,6 +23499,18 @@
       }
     ]
   },
+  "com.xiaomi.phone": {
+    "appName": "HyperPhone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.sec.android.iaft": {
     "appName": "iaft",
     "userFacing": false,
@@ -21863,6 +23542,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "org.ifaa.aidl.manager": {
+    "appName": "IFAAService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -22064,6 +23755,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -22162,6 +23858,11 @@
         "os": "30"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -22204,6 +23905,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -22244,6 +23950,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.milink.service": {
+    "appName": "Interconnectivity services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -22471,6 +24189,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -23010,6 +24733,10 @@
       {
         "locale": "nl-nl",
         "name": "Live transcriptie & Geluidsmeldingen"
+      },
+      {
+        "locale": "en-de",
+        "name": "Live Transcribe and Sound Notifications"
       }
     ],
     "devices": [
@@ -23118,6 +24845,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -23211,6 +24943,11 @@
         "os": "27"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -23241,6 +24978,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.bsp.logmanager": {
+    "appName": "Log generator",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -23280,6 +25029,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -23324,6 +25078,28 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.google.android.apps.magicportrait": {
+    "appName": "Magic portrait",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Magisch portret"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -23372,6 +25148,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -23417,6 +25198,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -23501,6 +25287,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -23563,6 +25354,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -23630,6 +25426,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -23728,6 +25529,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -23801,6 +25607,18 @@
       }
     ]
   },
+  "com.miui.systemui.carriers.overlay": {
+    "appName": "MccMncOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.mdm": {
     "appName": "MDMApp",
     "userFacing": false,
@@ -23849,6 +25667,11 @@
         "os": "27"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -23889,6 +25712,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -23989,6 +25817,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -24051,6 +25884,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.miui.mediaviewer": {
+    "appName": "Media viewer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -24227,6 +26072,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -24279,6 +26129,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -24306,6 +26161,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -24330,6 +26190,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       },
       {
@@ -24398,6 +26263,66 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.mi.globalbrowser": {
+    "appName": "Mi Browser",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.payment": {
+    "appName": "Mi Coin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.accessibility": {
+    "appName": "Mi Ditto",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.videoplayer": {
+    "appName": "Mi Video",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.micloudsync": {
+    "appName": "MiCloudSync",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -24473,6 +26398,18 @@
       }
     ]
   },
+  "org.mipay.android.manager": {
+    "appName": "MipayService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.miravision.ui": {
     "appName": "MiraVision",
     "userFacing": false,
@@ -24489,6 +26426,11 @@
         "os": "28"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -24501,6 +26443,30 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.trustservice": {
+    "appName": "MiTrustService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.miwallpaper": {
+    "appName": "MiWallpaper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -24612,6 +26578,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -24771,6 +26742,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.miui.msa.global": {
+    "appName": "msa",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -25009,6 +26992,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -25125,6 +27113,18 @@
       }
     ]
   },
+  "com.miui.player": {
+    "appName": "Music",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.musicfx": {
     "appName": "MusicFX",
     "userFacing": false,
@@ -25154,6 +27154,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -25455,6 +27460,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -25618,6 +27628,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -25634,6 +27649,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -25694,6 +27714,10 @@
     "appName": "NetworkStackOverlay",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "NetworkStackResOverlay"
+      },
       {
         "locale": "ru-ru",
         "name": "NetworkStackResOverlay"
@@ -25796,11 +27820,28 @@
       }
     ]
   },
+  "com.android.networkstack.overlay.miui": {
+    "appName": "NetworkStackOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.networkstack.overlay": {
     "appName": "NetworkStackResOverlay",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -25831,6 +27872,10 @@
       },
       {
         "locale": "nl-nl",
+        "name": "NFC Migration"
+      },
+      {
+        "locale": "en-de",
         "name": "NFC Migration"
       },
       {
@@ -25892,6 +27937,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -26044,6 +28094,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -26257,6 +28312,18 @@
       }
     ]
   },
+  "com.miui.notification": {
+    "appName": "Notifications",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.theme.font.notoserifsource": {
     "appName": "Noto Serif / Source Sans Pro",
     "userFacing": false,
@@ -26301,6 +28368,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -27143,6 +29215,11 @@
         "os": "30"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -27213,6 +29290,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.wdstechnology.android.kryten": {
+    "appName": "OTA access point configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -27326,6 +29415,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -27363,6 +29457,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.global.packageinstaller": {
+    "appName": "Package installer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -27426,6 +29532,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -27656,6 +29767,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -27744,6 +29860,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.lbe.security.miui": {
+    "appName": "Permissions",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -27839,6 +29967,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -27959,6 +30092,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -28012,6 +30150,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
       {
         "make": "HONOR",
         "model": "HEY-W09",
@@ -28094,6 +30237,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -28222,6 +30370,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -28284,6 +30437,10 @@
         "name": "Telefoonservices"
       },
       {
+        "locale": "en-de",
+        "name": "Phone Services"
+      },
+      {
         "locale": "en-za",
         "name": "Phone Services"
       },
@@ -28342,6 +30499,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -28593,6 +30755,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -28638,6 +30805,10 @@
       {
         "locale": "en-gb",
         "name": "Photos and videos"
+      },
+      {
+        "locale": "en-de",
+        "name": "Photos and videos"
       }
     ],
     "devices": [
@@ -28670,6 +30841,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -28752,11 +30928,11 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Pixel Camera services"
       },
       {
-        "locale": "en-gb",
+        "locale": "en-de",
         "name": "Pixel Camera services"
       }
     ],
@@ -28837,11 +31013,11 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Pixel live wallpaper"
       },
       {
-        "locale": "en-gb",
+        "locale": "en-de",
         "name": "Pixel live wallpaper"
       }
     ],
@@ -28885,15 +31061,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Pixel setup"
-      },
-      {
         "locale": "nl-nl",
         "name": "Pixel instellen"
       },
       {
         "locale": "en-gb",
+        "name": "Pixel setup"
+      },
+      {
+        "locale": "en-de",
         "name": "Pixel setup"
       }
     ],
@@ -28950,7 +31126,12 @@
   "com.google.android.apps.pixel.creativeassistant": {
     "appName": "Pixel Studio",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "com.google.android.apps.pixel.creativeassistant"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -29155,6 +31336,18 @@
       }
     ]
   },
+  "android.autoinstalls.config.Xiaomi.model": {
+    "appName": "PlayAutoInstalls",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.app.dofviewer": {
     "appName": "Portrait",
     "userFacing": false,
@@ -29274,6 +31467,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -29384,6 +31582,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -29492,6 +31695,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -29547,6 +31755,28 @@
       }
     ]
   },
+  "com.android.privatespace": {
+    "appName": "Private space",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Privégedeelte"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
   "com.agui.shortcutsettings": {
     "appName": "Programmable key",
     "userFacing": false,
@@ -29580,6 +31810,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.android.provision": {
+    "appName": "Provision",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -29637,6 +31879,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -29713,6 +31960,10 @@
         "name": "Cameragat-cutout"
       },
       {
+        "locale": "en-de",
+        "name": "Punch hole cutout"
+      },
+      {
         "locale": "en-za",
         "name": "Punch hole cutout"
       }
@@ -29757,6 +32008,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -30254,6 +32510,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -30319,15 +32580,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Repair mode"
-      },
-      {
         "locale": "nl-nl",
         "name": "Reparatiemodus"
       },
       {
         "locale": "en-gb",
+        "name": "Repair mode"
+      },
+      {
+        "locale": "en-de",
         "name": "Repair mode"
       }
     ],
@@ -30417,6 +32678,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -30604,6 +32870,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.xiaomi.mtb": {
+    "appName": "Rueban(MTB)",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -32007,6 +34285,18 @@
       }
     ]
   },
+  "com.longcheertel.sarauth": {
+    "appName": "SarUI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.apps.stargate": {
     "appName": "Satellite Gateway",
     "userFacing": false,
@@ -32157,6 +34447,18 @@
       }
     ]
   },
+  "com.miui.screenshot": {
+    "appName": "Screenshot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.screenshot": {
     "appName": "Screenshot",
     "userFacing": false,
@@ -32208,6 +34510,10 @@
       {
         "locale": "nl-nl",
         "name": "Kiezer voor zoekmachine"
+      },
+      {
+        "locale": "en-de",
+        "name": "Search engine selector"
       }
     ],
     "devices": [
@@ -32443,6 +34749,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -32480,6 +34791,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.securitycenter": {
+    "appName": "Security",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -32597,6 +34920,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.fingerprints.sensortesttool": {
+    "appName": "Sensor Test Tool",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -32782,6 +35117,18 @@
       }
     ]
   },
+  "com.miui.miservice": {
+    "appName": "Services & feedback",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.settings": {
     "appName": "Settings",
     "userFacing": true,
@@ -32851,6 +35198,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -32888,6 +35240,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.misettings": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -32993,6 +35357,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -33081,6 +35450,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -33286,6 +35660,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -33349,6 +35728,18 @@
       }
     ]
   },
+  "com.silead.fingerprint": {
+    "appName": "silead manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.sec.modem.settings": {
     "appName": "SilentLogging",
     "userFacing": false,
@@ -33382,6 +35773,10 @@
       {
         "locale": "ru-ru",
         "name": "Диалог Sim Приложения"
+      },
+      {
+        "locale": "en-de",
+        "name": "Sim app dialogue"
       },
       {
         "locale": "en-za",
@@ -33437,6 +35832,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -33533,6 +35933,10 @@
         "name": "SIM-toolkit"
       },
       {
+        "locale": "en-de",
+        "name": "SIM Toolkit"
+      },
+      {
         "locale": "en-za",
         "name": "SIM Tool Kit"
       },
@@ -33591,6 +35995,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -33877,15 +36286,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Storage Manager"
-      },
-      {
         "locale": "nl-nl",
         "name": "Opslagbeheer"
       },
       {
         "locale": "en-gb",
+        "name": "Storage Manager"
+      },
+      {
+        "locale": "en-de",
         "name": "Storage Manager"
       }
     ],
@@ -34236,12 +36645,22 @@
   "com.tencent.soter.soterserver": {
     "appName": "soter_server",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "SoterService"
+      }
+    ],
     "devices": [
       {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -34447,6 +36866,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -34600,6 +37024,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -34823,6 +37252,11 @@
         "os": "30"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -34982,6 +37416,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -35071,6 +37510,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -35121,6 +37565,18 @@
       }
     ]
   },
+  "com.xiaomi.discover": {
+    "appName": "System apps updater",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.hihonor.systemappsupdater": {
     "appName": "System Apps Updater",
     "userFacing": false,
@@ -35148,6 +37604,10 @@
       {
         "locale": "nl-nl",
         "name": "Resources voor systeemconnectiviteit"
+      },
+      {
+        "locale": "en-de",
+        "name": "System connectivity resources"
       }
     ],
     "devices": [
@@ -35185,6 +37645,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -35228,6 +37693,30 @@
       }
     ]
   },
+  "com.miui.daemon": {
+    "appName": "System Daemon",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.securitycore": {
+    "appName": "System features plug-in",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.qualcomm.qti.services.systemhelper": {
     "appName": "System Helper Service",
     "userFacing": false,
@@ -35236,6 +37725,18 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.home": {
+    "appName": "System launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -35346,6 +37847,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -35377,6 +37883,30 @@
       }
     ]
   },
+  "com.miui.core": {
+    "appName": "System SDK",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.guardprovider": {
+    "appName": "System security components",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.exsystemservice": {
     "appName": "System Service",
     "userFacing": false,
@@ -35386,6 +37916,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.miui.securityadd": {
+    "appName": "System service plugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -35459,6 +38001,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -35566,6 +38113,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -35603,6 +38155,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "miui.systemui.plugin": {
+    "appName": "System UI Plug-in",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -35690,6 +38254,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       },
       {
@@ -35785,6 +38354,11 @@
         "os": "30"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -35806,10 +38380,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "System Wi-Fi resources"
-      },
-      {
         "locale": "ru-ru",
         "name": "Системные ресурсы Wi-Fi"
       },
@@ -35819,6 +38389,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "System Wi-Fi resources"
+      },
+      {
+        "locale": "en-de",
         "name": "System Wi-Fi resources"
       }
     ],
@@ -35947,6 +38521,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       },
       {
@@ -36125,6 +38704,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -36242,14 +38826,24 @@
     ]
   },
   "com.trustonic.teeservice": {
-    "appName": "TeeСервис",
+    "appName": "TeeService",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "TeeСервис"
+      }
+    ],
     "devices": [
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -36267,6 +38861,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -36363,6 +38962,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -36545,6 +39149,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -36562,6 +39171,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -36569,6 +39183,18 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miuix.editor": {
+    "appName": "textaction",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
         "os": "35"
       }
     ]
@@ -36592,6 +39218,18 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.thememanager": {
+    "appName": "Themes",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -36876,6 +39514,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -37068,6 +39711,18 @@
       }
     ]
   },
+  "com.android.updater": {
+    "appName": "Updater",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "de.axelspringer.yana.zeropage": {
     "appName": "upday",
     "userFacing": false,
@@ -37193,6 +39848,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -37603,6 +40263,18 @@
       }
     ]
   },
+  "com.miui.audiomonitor": {
+    "appName": "Voice Call Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.bixby.wakeup": {
     "appName": "Voice wake-up",
     "userFacing": false,
@@ -37635,6 +40307,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -37747,6 +40424,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -37793,15 +40475,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Wallpaper and style"
-      },
-      {
         "locale": "nl-nl",
         "name": "Achtergrond en stijl"
       },
       {
         "locale": "en-gb",
+        "name": "Wallpaper and style"
+      },
+      {
+        "locale": "en-de",
         "name": "Wallpaper and style"
       }
     ],
@@ -38025,6 +40707,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -38173,11 +40860,11 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Webcam service"
       },
       {
-        "locale": "en-gb",
+        "locale": "en-de",
         "name": "Webcam service"
       }
     ],
@@ -38196,6 +40883,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -38446,6 +41138,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -38658,6 +41355,11 @@
         "os": "36"
       },
       {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -38735,6 +41437,78 @@
       }
     ]
   },
+  "com.xiaomi.account": {
+    "appName": "Xiaomi Account",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.miui.cloudservice": {
+    "appName": "Xiaomi Cloud",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.aicr": {
+    "appName": "Xiaomi HyperAI Engine",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.xmsf": {
+    "appName": "Xiaomi service framework",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.xmsfkeeper": {
+    "appName": "Xiaomi Service Framework Keeper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.xiaomi.simactivate.service": {
+    "appName": "Xiaomi SIM Activation Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.transsion.XOSLauncher": {
     "appName": "XOS Launcher",
     "userFacing": false,
@@ -38771,6 +41545,18 @@
       }
     ]
   },
+  "com.miui.yellowpage": {
+    "appName": "Yellow pages",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.ygps": {
     "appName": "YGPS",
     "userFacing": false,
@@ -38790,6 +41576,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -38864,6 +41655,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -39633,6 +42429,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.silead.factorytest": {
+    "appName": "指纹测试",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   }
