@@ -601,6 +601,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -644,11 +649,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -823,6 +823,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -876,11 +881,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -947,6 +947,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -995,11 +1000,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -1069,6 +1069,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -1122,11 +1127,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -1171,6 +1171,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -1224,11 +1229,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -1282,6 +1282,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -1330,11 +1335,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -1392,6 +1392,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -1445,11 +1450,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -1615,6 +1615,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -1668,11 +1673,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -3081,18 +3081,6 @@
       }
     ]
   },
-  "com.miui.backup": {
-    "appName": "Backup",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      }
-    ]
-  },
   "com.hihonor.koBackup": {
     "appName": "Backup",
     "userFacing": false,
@@ -3102,6 +3090,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.miui.backup": {
+    "appName": "Backup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -3169,6 +3169,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -3217,11 +3222,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -3470,6 +3470,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -3525,11 +3530,6 @@
         "os": "35"
       },
       {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -3575,6 +3575,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -3625,11 +3630,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -3740,6 +3740,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -3793,11 +3798,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -3859,6 +3859,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -3912,11 +3917,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -4028,14 +4028,14 @@
     "additionalLocales": [],
     "devices": [
       {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -4202,18 +4202,6 @@
       }
     ]
   },
-  "com.xiaomi.calendar": {
-    "appName": "Calendar",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      }
-    ]
-  },
   "com.hihonor.calendar": {
     "appName": "Calendar",
     "userFacing": false,
@@ -4223,6 +4211,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.xiaomi.calendar": {
+    "appName": "Calendar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -4270,6 +4270,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -4325,11 +4330,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -4680,6 +4680,18 @@
       }
     ]
   },
+  "com.hihonor.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.camera2": {
     "appName": "Camera",
     "userFacing": true,
@@ -4745,18 +4757,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.camera": {
-    "appName": "Camera",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -5024,6 +5024,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -5062,11 +5067,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -5614,6 +5614,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -5652,11 +5657,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -5766,6 +5766,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -5819,11 +5824,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -5880,6 +5880,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -5933,11 +5938,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -6280,6 +6280,18 @@
       }
     ]
   },
+  "com.hihonor.deskclock": {
+    "appName": "Clock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.deskclock": {
     "appName": "Clock",
     "userFacing": true,
@@ -6304,18 +6316,6 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.deskclock": {
-    "appName": "Clock",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -6439,6 +6439,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -6492,11 +6497,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -6955,6 +6955,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -7008,11 +7013,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -7057,6 +7057,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -7110,11 +7115,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -7367,6 +7367,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -7410,11 +7415,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -7641,6 +7641,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -7684,11 +7689,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -8210,6 +8210,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -8263,11 +8268,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -8567,6 +8567,23 @@
       }
     ]
   },
+  "com.google.android.networkstack.permissionconfig": {
+    "appName": "com.android.server.NetworkPermissionConfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.networkstack.permissionconfig": {
     "appName": "com.android.server.NetworkPermissionConfig",
     "userFacing": false,
@@ -8576,23 +8593,6 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
-      }
-    ]
-  },
-  "com.google.android.networkstack.permissionconfig": {
-    "appName": "com.android.server.NetworkPermissionConfig",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -8961,6 +8961,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -9014,11 +9019,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -9895,6 +9895,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -9950,11 +9955,6 @@
         "os": "35"
       },
       {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9985,6 +9985,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -10035,11 +10040,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -10213,6 +10213,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -10236,11 +10241,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -11333,6 +11333,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -11371,11 +11376,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -11509,6 +11509,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -11547,11 +11552,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -11630,6 +11630,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -11658,11 +11663,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -11942,6 +11942,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -11975,11 +11980,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -12009,6 +12009,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -12042,11 +12047,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -12103,6 +12103,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -12136,11 +12141,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -12182,6 +12182,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -12215,11 +12220,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -12249,6 +12249,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -12282,11 +12287,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -15544,6 +15544,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -15597,11 +15602,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -15741,6 +15741,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -15794,11 +15799,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -16111,6 +16111,18 @@
       }
     ]
   },
+  "com.hihonor.contacts": {
+    "appName": "Contacts",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.contacts": {
     "appName": "Contacts",
     "userFacing": true,
@@ -16130,18 +16142,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.contacts": {
-    "appName": "Contacts",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -16197,6 +16197,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -16245,11 +16250,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -17763,6 +17763,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -17806,11 +17811,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -18057,6 +18057,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -18110,11 +18115,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -18164,6 +18164,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -18217,11 +18222,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -18363,6 +18363,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -18406,11 +18411,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "Google",
@@ -18603,6 +18603,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -18646,11 +18651,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -18872,12 +18872,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "ru-ru",
-        "name": "com.android.emergency"
-      },
-      {
         "locale": "en-gb",
         "name": "Emergency"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "com.android.emergency"
       }
     ],
     "devices": [
@@ -18890,6 +18890,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -18940,11 +18945,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -19282,6 +19282,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -19335,11 +19340,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -19773,6 +19773,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -19811,11 +19816,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -20254,6 +20254,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -20307,11 +20312,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -20564,6 +20564,18 @@
       }
     ]
   },
+  "com.hihonor.photos": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.miui.gallery": {
     "appName": "Gallery",
     "userFacing": true,
@@ -20585,18 +20597,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.photos": {
-    "appName": "Gallery",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -21045,6 +21045,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -21088,11 +21093,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -21244,6 +21244,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -21297,11 +21302,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "Google",
@@ -21370,6 +21370,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -21423,11 +21428,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -21488,6 +21488,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -21503,11 +21508,6 @@
         "os": "35"
       },
       {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -21519,6 +21519,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -21537,11 +21542,6 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
         "os": "31"
       }
     ]
@@ -21578,6 +21578,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -21623,11 +21628,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -21684,6 +21684,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -21737,11 +21742,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -21786,6 +21786,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -21839,11 +21844,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -21928,11 +21928,11 @@
         "name": "Google TV"
       },
       {
-        "locale": "ru-ru",
+        "locale": "en-gb",
         "name": "Google TV"
       },
       {
-        "locale": "en-gb",
+        "locale": "ru-ru",
         "name": "Google TV"
       },
       {
@@ -21958,6 +21958,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -22003,11 +22008,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "Google",
@@ -22107,6 +22107,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -22160,11 +22165,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -22276,6 +22276,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -22329,11 +22334,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -22399,6 +22399,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -22432,11 +22437,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -22518,6 +22518,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -22571,11 +22576,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -23396,6 +23396,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -23449,11 +23454,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -23720,6 +23720,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -23773,11 +23778,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -23843,6 +23843,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -23861,11 +23866,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -24156,6 +24156,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -24209,11 +24214,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -24815,6 +24815,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -24858,11 +24863,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -24965,14 +24965,14 @@
     "additionalLocales": [],
     "devices": [
       {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -25180,6 +25180,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -25218,11 +25223,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -25393,6 +25393,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -25446,11 +25451,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "Google",
@@ -25494,6 +25494,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -25547,11 +25552,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -25797,6 +25797,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -25835,11 +25840,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -25936,6 +25936,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -25979,11 +25984,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "samsung",
@@ -26124,6 +26124,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -26132,11 +26137,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "samsung",
@@ -26156,6 +26156,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -26164,11 +26169,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "samsung",
@@ -26188,6 +26188,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -26196,11 +26201,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "samsung",
@@ -26338,14 +26338,14 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -26370,14 +26370,14 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -26495,18 +26495,6 @@
       }
     ]
   },
-  "com.nbbsw.mmi_test": {
-    "appName": "MMITest",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      }
-    ]
-  },
   "com.hihonor.mmitest": {
     "appName": "MMITest",
     "userFacing": false,
@@ -26516,6 +26504,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.nbbsw.mmi_test": {
+    "appName": "MMITest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
       }
     ]
   },
@@ -26543,6 +26543,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -26598,11 +26603,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -26957,6 +26957,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -27010,11 +27015,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -27440,6 +27440,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -27478,11 +27483,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -27719,12 +27719,12 @@
         "name": "NetworkStackResOverlay"
       },
       {
-        "locale": "ru-ru",
-        "name": "NetworkStackResOverlay"
-      },
-      {
         "locale": "en-gb",
         "name": "com.android.networkstack.overlay"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "NetworkStackResOverlay"
       }
     ],
     "devices": [
@@ -27737,6 +27737,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -27756,11 +27761,6 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
         "os": "31"
       },
       {
@@ -29205,6 +29205,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -29222,11 +29227,6 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
         "os": "31"
       },
       {
@@ -29380,6 +29380,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -29433,11 +29438,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -29499,6 +29499,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -29552,11 +29557,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -29747,6 +29747,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -29785,11 +29790,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -30123,6 +30123,23 @@
       }
     ]
   },
+  "com.android.incallui": {
+    "appName": "Phone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.dialer": {
     "appName": "Phone",
     "userFacing": true,
@@ -30142,23 +30159,6 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
-      }
-    ]
-  },
-  "com.android.incallui": {
-    "appName": "Phone",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -30202,6 +30202,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -30257,11 +30262,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -30335,6 +30335,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -30388,11 +30393,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -30466,6 +30466,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -30519,11 +30524,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -30643,6 +30643,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -30656,11 +30661,6 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "samsung",
@@ -30720,6 +30720,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -30775,11 +30780,6 @@
         "os": "35"
       },
       {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -30795,16 +30795,16 @@
         "name": "Fotos & Videos"
       },
       {
+        "locale": "en-gb",
+        "name": "Photos and videos"
+      },
+      {
         "locale": "ru-ru",
         "name": "Фото и видео"
       },
       {
         "locale": "nl-nl",
         "name": "Foto's en video's"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Photos and videos"
       },
       {
         "locale": "en-de",
@@ -30821,6 +30821,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -30856,11 +30861,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -31126,12 +31126,7 @@
   "com.google.android.apps.pixel.creativeassistant": {
     "appName": "Pixel Studio",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "com.google.android.apps.pixel.creativeassistant"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "Google",
@@ -31432,6 +31427,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -31485,11 +31485,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -31547,6 +31542,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -31600,11 +31600,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -31846,6 +31841,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -31899,11 +31899,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -32404,18 +32399,6 @@
       }
     ]
   },
-  "com.nothing.soundrecorder": {
-    "appName": "Recorder",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      }
-    ]
-  },
   "com.hihonor.soundrecorder": {
     "appName": "Recorder",
     "userFacing": false,
@@ -32425,6 +32408,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.nothing.soundrecorder": {
+    "appName": "Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -34533,6 +34528,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -34561,11 +34561,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -34719,6 +34714,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -34767,11 +34767,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -35163,6 +35158,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -35216,11 +35216,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -35322,6 +35317,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -35375,11 +35375,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -35625,6 +35620,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -35678,11 +35678,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -36991,6 +36986,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -37044,11 +37044,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -37396,6 +37391,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -37434,11 +37434,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -37627,6 +37622,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -37665,11 +37665,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -37753,18 +37748,6 @@
       }
     ]
   },
-  "com.yft.systemmanager": {
-    "appName": "System Manager",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      }
-    ]
-  },
   "com.hihonor.systemmanager": {
     "appName": "System Manager",
     "userFacing": true,
@@ -37774,6 +37757,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.yft.systemmanager": {
+    "appName": "System Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -38078,6 +38073,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -38131,11 +38131,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -38344,6 +38339,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -38361,11 +38361,6 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
         "os": "31"
       },
       {
@@ -38944,6 +38939,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -38982,11 +38982,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -39081,12 +39076,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "ru-ru",
-        "name": "TetheringResOverlay"
-      },
-      {
         "locale": "en-gb",
         "name": "com.android.networkstack.tethering.overlay"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "TetheringResOverlay"
       },
       {
         "locale": "",
@@ -39094,6 +39089,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
@@ -39107,11 +39107,6 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
         "os": "31"
       },
       {
@@ -39199,6 +39194,18 @@
       }
     ]
   },
+  "com.hihonor.android.thememanager": {
+    "appName": "Themes",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.customization.themes": {
     "appName": "Themes",
     "userFacing": false,
@@ -39230,18 +39237,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.android.thememanager": {
-    "appName": "Themes",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -39815,6 +39810,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -39868,11 +39868,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -40389,6 +40384,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -40442,11 +40442,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -40819,18 +40814,6 @@
       }
     ]
   },
-  "com.nothing.weather": {
-    "appName": "Weather",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      }
-    ]
-  },
   "com.hihonor.android.totemweather": {
     "appName": "Weather",
     "userFacing": false,
@@ -40840,6 +40823,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.nothing.weather": {
+    "appName": "Weather",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
       }
     ]
   },
@@ -41118,6 +41113,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -41156,11 +41156,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -41320,6 +41315,11 @@
         "os": "36"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -41373,11 +41373,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "RHINO",
@@ -41622,6 +41617,11 @@
         "os": "33"
       },
       {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -41677,11 +41677,6 @@
         "os": "35"
       },
       {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -41707,6 +41702,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       },
       {
         "make": "INFINIX",
@@ -41747,11 +41747,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       },
       {
         "make": "Google",
