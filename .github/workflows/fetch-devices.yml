@@ -2,7 +2,7 @@ name: Fetch Devices
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
+    - cron: '0 1 * * *' # Runs daily at midnight
   workflow_dispatch: # Allows manual triggering
 
 jobs:
