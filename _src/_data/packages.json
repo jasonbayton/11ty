@@ -77,6 +77,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -122,6 +127,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.qualcomm.qtil.aptxacu": {
+    "appName": "acu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -204,6 +221,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -295,6 +317,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.qualcomm.qti.gpudrivers.lahaina.api30": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -518,6 +552,18 @@
       }
     ]
   },
+  "com.qualcomm.qtil.aptxals": {
+    "appName": "als",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.aod": {
     "appName": "Always-On Display",
     "userFacing": false,
@@ -651,6 +697,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -726,6 +777,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -883,6 +939,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -1000,6 +1061,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -1129,6 +1195,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -1229,6 +1300,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -1335,6 +1411,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -1450,6 +1531,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -1573,6 +1659,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -1673,6 +1764,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -2012,6 +2108,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -2063,6 +2164,30 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "android.overlay.commonres": {
+    "appName": "android.overlay.commonres",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
+  "android.overlay.commonres.is540": {
+    "appName": "android.overlay.commonres.is540",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -2132,8 +2257,25 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "android.qvaoverlay.common": {
+    "appName": "android.qvaoverlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -2538,6 +2680,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.qualcomm.qtil.aptxui": {
+    "appName": "aptxui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -3224,6 +3378,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -3530,6 +3689,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -3630,6 +3794,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -3800,6 +3969,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -3917,6 +4091,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -4038,6 +4217,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -4098,6 +4282,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -4177,6 +4366,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -4330,6 +4524,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -4498,6 +4697,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -4760,6 +4964,18 @@
       }
     ]
   },
+  "com.ts.camera": {
+    "appName": "Camera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.camera": {
     "appName": "Camera",
     "userFacing": false,
@@ -4894,6 +5110,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -5067,6 +5288,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -5279,6 +5505,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -5659,6 +5890,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5826,6 +6062,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -5938,6 +6179,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -6257,6 +6503,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -6388,6 +6639,11 @@
         "os": "31"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -6497,6 +6753,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -6632,6 +6893,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -6665,6 +6931,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -6784,6 +7055,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -7015,6 +7291,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7115,6 +7396,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -7323,6 +7609,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7415,6 +7706,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -7599,6 +7895,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -7689,6 +7990,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -7986,6 +8292,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -8141,6 +8452,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -8186,6 +8502,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.providers.overlay.common": {
+    "appName": "com.android.providers.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -8268,6 +8596,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -8649,6 +8982,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -8790,8 +9128,25 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.settings.overlay.commonres": {
+    "appName": "com.android.settings.overlay.commonres",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -9021,6 +9376,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9088,6 +9448,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -9142,6 +9507,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -9543,8 +9913,25 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.commonres": {
+    "appName": "com.android.systemui.overlay.commonres",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -9858,6 +10245,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -9955,6 +10347,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10042,6 +10439,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10114,6 +10516,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -10255,8 +10662,25 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.lahaina": {
+    "appName": "com.android.wifi.resources.overlay.lahaina",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -10754,6 +11178,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -10966,6 +11395,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -11306,6 +11740,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11378,6 +11817,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11428,6 +11872,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -11485,6 +11934,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -11554,6 +12008,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11613,6 +12072,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11665,6 +12129,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11700,6 +12169,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -11871,6 +12345,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11982,6 +12461,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12047,6 +12531,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -12143,6 +12632,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12222,6 +12716,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -12287,6 +12786,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -12668,6 +13172,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -13079,6 +13588,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -14308,6 +14822,18 @@
       }
     ]
   },
+  "com.qti.diagservices": {
+    "appName": "com.qti.diagservices",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.qti.dpmserviceapp": {
     "appName": "com.qti.dpmserviceapp",
     "userFacing": false,
@@ -14319,8 +14845,37 @@
         "os": "31"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.qti.pasrservice": {
+    "appName": "com.qti.pasrservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
+  "com.qti.phone": {
+    "appName": "com.qti.phone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -14330,6 +14885,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -14367,6 +14927,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -14384,8 +14949,25 @@
         "os": "31"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.qualcomm.qti.biometrics.fingerprint.service": {
+    "appName": "com.qualcomm.qti.biometrics.fingerprint.service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -14396,8 +14978,25 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.qualcomm.qti.dynamicddsservice": {
+    "appName": "com.qualcomm.qti.dynamicddsservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -14438,6 +15037,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.server.wigig.tethering.rro": {
+    "appName": "com.qualcomm.qti.server.wigig.tethering.rro",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.qualcomm.qti.telephonyservice": {
     "appName": "com.qualcomm.qti.telephonyservice",
     "userFacing": false,
@@ -14447,6 +15058,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -14473,6 +15089,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -14485,6 +15106,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -14496,6 +15122,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -14512,6 +15143,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -15262,6 +15898,18 @@
       }
     ]
   },
+  "com.thundercomm.usb": {
+    "appName": "com.thundercomm.usb",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.transsion": {
     "appName": "com.transsion",
     "userFacing": false,
@@ -15604,6 +16252,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -15799,6 +16452,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -16095,6 +16753,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16250,6 +16913,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -16459,6 +17127,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16567,6 +17240,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -16657,6 +17335,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -16793,6 +17476,18 @@
       }
     ]
   },
+  "com.isafemobile.datacentricswitcher": {
+    "appName": "DataCentricSwitcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.mediatek.datachannel.service": {
     "appName": "DataChannel",
     "userFacing": false,
@@ -16815,6 +17510,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -16990,6 +17690,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -17229,6 +17934,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -17504,6 +18214,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -17813,6 +18528,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18002,6 +18722,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18117,6 +18842,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -18222,6 +18952,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -18411,6 +19146,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -18651,6 +19391,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -18945,6 +19690,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -19248,6 +19998,18 @@
       }
     ]
   },
+  "com.plum.EuiccOverlayApp": {
+    "appName": "EuiccOverlayApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.externalstorage": {
     "appName": "External Storage",
     "userFacing": false,
@@ -19340,6 +20102,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -19818,6 +20585,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -19905,6 +20677,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -20312,6 +21089,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -20807,6 +21589,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -20900,6 +21687,11 @@
         "os": "31"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -20989,6 +21781,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -21095,6 +21892,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21150,6 +21952,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -21304,6 +22111,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -21428,6 +22240,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -21630,6 +22447,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21744,6 +22566,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -21844,6 +22671,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -22010,6 +22842,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -22165,6 +23002,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -22336,6 +23178,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22439,6 +23286,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22488,6 +23340,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       },
       {
@@ -22578,6 +23435,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -22660,6 +23522,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -22857,7 +23724,7 @@
   },
   "com.google.android.healthconnect.controller": {
     "appName": "Health Connect",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -22912,6 +23779,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -23227,6 +24099,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -23456,6 +24333,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -23508,6 +24390,42 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "isafemobile.platform": {
+    "appName": "i.safe MOBILE Framework Resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
+  "com.isafemobile.isafemobileparts": {
+    "appName": "i.safe MOBILE Framework Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
+  "com.isafemobile.isafemobilesettings": {
+    "appName": "i.safe MOBILE Framework Settings Provider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -23780,6 +24698,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -23920,6 +24843,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -24006,6 +24934,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "isafemobile.platform.IS540": {
+    "appName": "isafemobile.platform.IS540",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -24107,6 +25047,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -24214,6 +25159,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -24865,6 +25815,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -24975,6 +25930,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -25002,6 +25962,18 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.tc.logclient": {
+    "appName": "LogClient",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -25053,6 +26025,18 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
+  "com.qti.ltebc": {
+    "appName": "LTE Broadcast Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -25225,6 +26209,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -25300,6 +26289,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -25453,6 +26447,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -25552,6 +26551,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -25842,6 +26846,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -25986,6 +26995,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -26090,6 +27104,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -26605,6 +27624,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -27017,6 +28041,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -27174,6 +28203,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -27483,6 +28517,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -27954,6 +28993,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -28109,6 +29153,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -28388,6 +29437,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -29188,6 +30242,11 @@
         "os": "31"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -29228,6 +30287,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -29440,6 +30504,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -29557,6 +30626,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -29792,6 +30866,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -29984,6 +31063,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -30105,6 +31189,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -30264,6 +31353,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -30395,6 +31489,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -30524,6 +31623,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -30778,6 +31882,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -31487,6 +32596,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -31602,6 +32716,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -31703,6 +32822,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -31901,6 +33025,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -32025,6 +33154,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -32069,6 +33203,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -32084,6 +33223,23 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
+  "vendor.qti.qesdk.sysservice": {
+    "appName": "QesdkSysApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -32099,6 +33255,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.qmmi": {
+    "appName": "QMMI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.qr_codescan": {
     "appName": "QRCode Scan",
     "userFacing": false,
@@ -32107,6 +33275,18 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.quicinc.voice.activation": {
+    "appName": "Qualcomm Voice Assist",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -32273,6 +33453,11 @@
         "os": "31"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -32303,6 +33488,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.goodix.rawdata": {
+    "appName": "RawDataTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -32520,6 +33717,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -32660,6 +33862,18 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
+  "com.qualcomm.qti.ridemodeaudio": {
+    "appName": "RideMode Recording list",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       }
     ]
@@ -34579,6 +35793,18 @@
       }
     ]
   },
+  "com.thundercomm.secserver": {
+    "appName": "Secserver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.secsoundpicker": {
     "appName": "SecSoundPicker",
     "userFacing": false,
@@ -34767,6 +35993,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -35218,6 +36449,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -35377,6 +36613,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -35465,6 +36706,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -35680,6 +36926,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -35849,6 +37100,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -35899,6 +37155,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -36005,6 +37266,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -36420,6 +37686,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.qti.xdivert": {
+    "appName": "Smart-Divert",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -36881,6 +38159,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -37044,6 +38327,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -37262,6 +38550,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -37436,6 +38729,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -37518,6 +38816,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -37667,6 +38970,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -37721,6 +39029,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -37855,6 +39168,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -38018,6 +39336,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -38131,6 +39454,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -38262,6 +39590,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -38362,6 +39695,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -38586,6 +39924,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -38719,6 +40062,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -38788,6 +40136,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.tc.keys": {
+    "appName": "TcKeyService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -38982,6 +40342,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -39219,6 +40584,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       },
       {
@@ -39524,6 +40894,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -39748,6 +41123,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -39868,6 +41248,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -40003,6 +41388,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -40014,6 +41404,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -40030,6 +41425,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -40444,6 +41844,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -40532,6 +41937,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       },
       {
@@ -40722,6 +42132,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -40908,6 +42323,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -41158,6 +42578,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -41375,6 +42800,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -41521,6 +42951,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -41677,6 +43112,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -41747,6 +43187,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Google",
