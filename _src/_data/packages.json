@@ -77,6 +77,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -110,6 +115,10 @@
       {
         "locale": "",
         "name": "Eingabehilfe"
+      },
+      {
+        "locale": "it-it",
+        "name": "Accessibilità"
       }
     ],
     "devices": [
@@ -121,6 +130,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -161,6 +175,10 @@
       {
         "locale": "nl-nl",
         "name": "Advertentieprivacy"
+      },
+      {
+        "locale": "it-it",
+        "name": "Privacy per gli annunci"
       },
       {
         "locale": "en-de",
@@ -223,6 +241,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -267,6 +290,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -316,6 +344,18 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.qualcomm.qti.gpudrivers.kalama.api33": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       }
     ]
@@ -460,6 +500,10 @@
       {
         "locale": "",
         "name": "KI-Hintergrund"
+      },
+      {
+        "locale": "it-it",
+        "name": "Sfondo IA"
       }
     ],
     "devices": [
@@ -471,6 +515,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -501,6 +550,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       }
     ]
   },
@@ -589,6 +643,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -779,6 +838,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -939,6 +1003,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -1063,6 +1132,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -1112,6 +1186,10 @@
       {
         "locale": "nl-nl",
         "name": "Android Set-up"
+      },
+      {
+        "locale": "it-it",
+        "name": "Configurazione Android"
       },
       {
         "locale": "",
@@ -1192,6 +1270,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -1299,6 +1382,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -1413,6 +1501,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -1450,6 +1543,10 @@
       {
         "locale": "nl-nl",
         "name": "Android-systeem"
+      },
+      {
+        "locale": "it-it",
+        "name": "Sistema Android"
       },
       {
         "locale": "",
@@ -1530,6 +1627,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -1659,6 +1761,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -1763,6 +1870,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -1926,6 +2038,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -1981,6 +2098,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -2486,6 +2608,10 @@
       {
         "locale": "en-gb",
         "name": "Device security"
+      },
+      {
+        "locale": "it-it",
+        "name": "Protezione app"
       }
     ],
     "devices": [
@@ -2497,6 +2623,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -2525,6 +2656,10 @@
       {
         "locale": "",
         "name": "App-Update"
+      },
+      {
+        "locale": "it-it",
+        "name": "Aggiornamento app"
       }
     ],
     "devices": [
@@ -2536,6 +2671,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -2639,6 +2779,10 @@
       {
         "locale": "",
         "name": "Anwendungsempfehlungen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Suggerimenti sull'applicazione"
       }
     ],
     "devices": [
@@ -2650,6 +2794,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -2929,6 +3078,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -2951,6 +3105,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -2963,12 +3122,21 @@
       {
         "locale": "",
         "name": "Automatische Sperre"
+      },
+      {
+        "locale": "it-it",
+        "name": "Blocco automatico"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3002,6 +3170,10 @@
       {
         "locale": "",
         "name": "Automatisch zeichnen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Disegno automatico"
       }
     ],
     "devices": [
@@ -3013,6 +3185,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3029,6 +3206,10 @@
       {
         "locale": "",
         "name": "Auto-Hotspot"
+      },
+      {
+        "locale": "it-it",
+        "name": "Hotspot automatico"
       }
     ],
     "devices": [
@@ -3040,6 +3221,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3056,6 +3242,10 @@
       {
         "locale": "",
         "name": "Formulare von Samsung Pass ausfüllen lassen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Riempimento automatico di Samsung Pass"
       }
     ],
     "devices": [
@@ -3067,6 +3257,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3123,6 +3318,10 @@
       {
         "locale": "en-gb",
         "name": "AR Emoji Editor"
+      },
+      {
+        "locale": "it-it",
+        "name": "Editor avatar"
       }
     ],
     "devices": [
@@ -3134,6 +3333,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3176,6 +3380,10 @@
       {
         "locale": "",
         "name": "Avatar-Sticker"
+      },
+      {
+        "locale": "it-it",
+        "name": "Adesivi avatar"
       }
     ],
     "devices": [
@@ -3187,6 +3395,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3276,6 +3489,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -3304,6 +3522,10 @@
       {
         "locale": "nl-nl",
         "name": "Algemene dagdromen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Daydream di base"
       }
     ],
     "devices": [
@@ -3375,6 +3597,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3452,6 +3679,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -3480,6 +3712,10 @@
       {
         "locale": "en-gb",
         "name": "com.samsung.android.biometrics.app.setting"
+      },
+      {
+        "locale": "it-it",
+        "name": "Dati biometrici"
       }
     ],
     "devices": [
@@ -3491,6 +3727,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3522,6 +3763,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -3544,6 +3790,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -3562,6 +3813,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3606,6 +3862,10 @@
       {
         "locale": "nl-nl",
         "name": "Opslag voor geblokkeerde nummers"
+      },
+      {
+        "locale": "it-it",
+        "name": "Archivio numeri bloccati"
       },
       {
         "locale": "",
@@ -3686,6 +3946,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3796,6 +4061,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -3862,6 +4132,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -3966,6 +4241,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -4093,6 +4373,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -4144,6 +4429,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -4214,6 +4504,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -4382,12 +4677,22 @@
   "com.samsung.android.calendar": {
     "appName": "Calendar",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Calendario"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -4439,6 +4744,10 @@
       {
         "locale": "nl-nl",
         "name": "Agenda-opslag"
+      },
+      {
+        "locale": "it-it",
+        "name": "Spazio di archiviazione in Calendario"
       },
       {
         "locale": "en-za",
@@ -4526,6 +4835,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -4571,6 +4885,10 @@
       {
         "locale": "",
         "name": "Anruf"
+      },
+      {
+        "locale": "it-it",
+        "name": "Chiama"
       }
     ],
     "devices": [
@@ -4582,6 +4900,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -4598,6 +4921,10 @@
       {
         "locale": "",
         "name": "Anrufe/SMS auf anderen Geräten"
+      },
+      {
+        "locale": "it-it",
+        "name": "Chiamata e testo su altri dispositivi"
       }
     ],
     "devices": [
@@ -4609,6 +4936,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -4699,6 +5031,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -4744,12 +5081,21 @@
       {
         "locale": "",
         "name": "Anrufdienste"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi di chiamata"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -4766,6 +5112,10 @@
       {
         "locale": "",
         "name": "Anrufeinstellungen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Impostazioni chiamata"
       }
     ],
     "devices": [
@@ -4777,6 +5127,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -4803,6 +5158,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -4821,6 +5181,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -4848,6 +5213,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -5007,12 +5377,21 @@
       {
         "locale": "",
         "name": "Kamerafreigabe"
+      },
+      {
+        "locale": "it-it",
+        "name": "Condivisione fotocamera"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -5109,6 +5488,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -5224,6 +5608,10 @@
         "name": "Inloggen via captive portal"
       },
       {
+        "locale": "it-it",
+        "name": "Accesso a captive portal"
+      },
+      {
         "locale": "en-de",
         "name": "Captive portal login"
       }
@@ -5287,6 +5675,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -5437,6 +5830,10 @@
         "name": "Berichten van provider"
       },
       {
+        "locale": "it-it",
+        "name": "Comunicazioni con l'operatore"
+      },
+      {
         "locale": "en-de",
         "name": "Operator communications"
       },
@@ -5504,6 +5901,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -5819,6 +6221,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -5887,6 +6294,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -5971,6 +6383,10 @@
       {
         "locale": "nl-nl",
         "name": "Certificaat-installatie"
+      },
+      {
+        "locale": "it-it",
+        "name": "Installatore certificato"
       },
       {
         "locale": "en-de",
@@ -6059,6 +6475,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -6181,6 +6602,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -6220,6 +6646,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -6420,6 +6851,10 @@
       {
         "locale": "",
         "name": "Zwischenablage"
+      },
+      {
+        "locale": "it-it",
+        "name": "Appunti Tag edge"
       }
     ],
     "devices": [
@@ -6431,6 +6866,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -6623,6 +7063,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -6752,6 +7197,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -6890,6 +7340,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -7199,6 +7654,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -7288,6 +7748,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -7395,6 +7860,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -7708,6 +8178,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -7895,6 +8370,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -7989,6 +8469,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -8174,6 +8659,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -8452,6 +8942,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -8595,6 +9090,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -8752,6 +9252,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -9373,6 +9878,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -10245,6 +10755,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -10347,6 +10862,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -10439,6 +10959,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -10515,6 +11040,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -10977,6 +11507,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -11175,6 +11710,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -11397,6 +11937,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -11527,6 +12072,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "RHINO",
@@ -11740,6 +12290,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -11814,6 +12369,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -11936,6 +12496,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -12005,6 +12570,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -12129,6 +12699,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -12200,6 +12775,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -12345,6 +12925,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -12383,6 +12968,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -12401,6 +12991,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -12458,6 +13053,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -12533,6 +13133,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -12572,6 +13177,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -12629,6 +13239,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -12716,6 +13331,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -12785,6 +13405,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -13174,6 +13799,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -13243,6 +13873,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15145,6 +15780,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -15187,6 +15827,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15209,6 +15854,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15226,6 +15876,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15239,6 +15894,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15265,6 +15925,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15283,6 +15948,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15309,6 +15979,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15319,6 +15994,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-S906B",
@@ -15343,6 +16023,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15356,6 +16041,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15377,6 +16067,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15394,6 +16089,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15407,6 +16107,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15433,6 +16138,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15455,6 +16165,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15472,6 +16187,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15485,6 +16205,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15523,6 +16248,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15537,6 +16267,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       }
     ]
   },
@@ -15549,6 +16284,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       }
     ]
   },
@@ -15560,6 +16300,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15577,6 +16322,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15599,6 +16349,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15671,6 +16426,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15689,6 +16449,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -15715,6 +16480,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -15733,6 +16503,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -16171,6 +16946,10 @@
         "name": "Дополнительный Диспетчер Устройств"
       },
       {
+        "locale": "it-it",
+        "name": "Gestione dispositivi associati"
+      },
+      {
         "locale": "",
         "name": "Begleitgerät-Manager"
       }
@@ -16249,6 +17028,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -16368,6 +17152,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -16454,6 +17243,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -16487,6 +17281,10 @@
       {
         "locale": "",
         "name": "Konfigurationsnachricht"
+      },
+      {
+        "locale": "it-it",
+        "name": "Messaggio di configurazione"
       }
     ],
     "devices": [
@@ -16498,6 +17296,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -16514,6 +17317,10 @@
       {
         "locale": "",
         "name": "Konfigurationsupdate"
+      },
+      {
+        "locale": "it-it",
+        "name": "Aggiornamento config."
       }
     ],
     "devices": [
@@ -16525,6 +17332,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -16590,6 +17402,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -16620,6 +17437,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -16672,6 +17494,10 @@
       {
         "locale": "",
         "name": "Kontakte"
+      },
+      {
+        "locale": "it-it",
+        "name": "Rubrica"
       }
     ],
     "devices": [
@@ -16683,6 +17509,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -16815,6 +17646,10 @@
       {
         "locale": "",
         "name": "Kontaktspeicher"
+      },
+      {
+        "locale": "it-it",
+        "name": "Spazio di archiviazione contatti"
       }
     ],
     "devices": [
@@ -16826,6 +17661,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -16972,6 +17812,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -17000,6 +17845,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -17018,6 +17868,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -17054,6 +17909,10 @@
       {
         "locale": "nl-nl",
         "name": "Hoek-cutout"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritaglio angolo"
       },
       {
         "locale": "",
@@ -17127,6 +17986,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -17194,6 +18058,10 @@
         "name": "Credential manager"
       },
       {
+        "locale": "it-it",
+        "name": "Gestore delle credenziali"
+      },
+      {
         "locale": "en-de",
         "name": "Credential manager"
       }
@@ -17240,6 +18108,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -17273,6 +18146,10 @@
       {
         "locale": "",
         "name": "Crocro und Freunde"
+      },
+      {
+        "locale": "it-it",
+        "name": "Crocro e i suoi amici"
       }
     ],
     "devices": [
@@ -17284,6 +18161,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -17375,6 +18257,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -17415,6 +18302,10 @@
       {
         "locale": "en-gb",
         "name": "Customisation Service"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizio di personalizzazione"
       }
     ],
     "devices": [
@@ -17426,6 +18317,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -17534,6 +18430,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -17610,6 +18511,10 @@
       {
         "locale": "nl-nl",
         "name": "Standaard afdrukservice"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizio di stampa predefinito"
       },
       {
         "locale": "en-de",
@@ -17692,6 +18597,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -17761,6 +18671,10 @@
       {
         "locale": "",
         "name": "Gerätewartung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Assistenza dispositivo"
       }
     ],
     "devices": [
@@ -17772,6 +18686,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -17936,6 +18855,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -18057,6 +18981,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -18101,6 +19030,10 @@
       {
         "locale": "",
         "name": "Gerätediagnose"
+      },
+      {
+        "locale": "it-it",
+        "name": "Diagnostica dispositivo"
       }
     ],
     "devices": [
@@ -18135,6 +19068,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -18159,6 +19097,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -18300,12 +19243,22 @@
   "com.sec.android.app.dexonpc": {
     "appName": "DeX for PC",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "DeX per PC"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -18327,6 +19280,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -18390,12 +19348,22 @@
   "com.diotek.sec.lookup.dictionary": {
     "appName": "Dictionary",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Dizionario"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -18421,6 +19389,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -18433,6 +19406,10 @@
       {
         "locale": "",
         "name": "Digitales Wohlbefinden"
+      },
+      {
+        "locale": "it-it",
+        "name": "Benessere digitale"
       }
     ],
     "devices": [
@@ -18444,6 +19421,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -18595,12 +19577,21 @@
       {
         "locale": "",
         "name": "Dokumentenscanner"
+      },
+      {
+        "locale": "it-it",
+        "name": "Scanner documenti"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -18649,6 +19640,10 @@
       {
         "locale": "nl-nl",
         "name": "Dubbele cutout"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritaglio doppio"
       },
       {
         "locale": "",
@@ -18722,6 +19717,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -18759,6 +19759,10 @@
       {
         "locale": "nl-nl",
         "name": "Downloadbeheer"
+      },
+      {
+        "locale": "it-it",
+        "name": "Gestione download"
       },
       {
         "locale": "",
@@ -18842,6 +19846,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -18875,6 +19884,10 @@
       {
         "locale": "ru-ru",
         "name": "Загрузки"
+      },
+      {
+        "locale": "it-it",
+        "name": "Download"
       }
     ],
     "devices": [
@@ -18954,6 +19967,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -19028,6 +20046,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -19040,12 +20063,21 @@
       {
         "locale": "",
         "name": "Zeichnungs-Assistent"
+      },
+      {
+        "locale": "it-it",
+        "name": "Assistente al disegno"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       }
     ]
@@ -19210,6 +20242,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -19244,6 +20281,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -19264,7 +20306,12 @@
   "com.samsung.android.da.daagent": {
     "appName": "Dual Messenger",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Doppio Account"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -19274,6 +20321,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -19393,6 +20445,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -19484,6 +20541,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -19538,6 +20600,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -19715,6 +20782,10 @@
       {
         "locale": "",
         "name": "Notfallfreigabe"
+      },
+      {
+        "locale": "it-it",
+        "name": "Condivisione di emergenza"
       }
     ],
     "devices": [
@@ -19726,6 +20797,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -19742,6 +20818,10 @@
       {
         "locale": "",
         "name": "Notfall-SOS"
+      },
+      {
+        "locale": "it-it",
+        "name": "SOS di emergenza"
       }
     ],
     "devices": [
@@ -19753,6 +20833,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -19908,6 +20993,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -19954,6 +21044,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -19976,6 +21071,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -19989,6 +21089,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -20021,6 +21126,10 @@
       {
         "locale": "nl-nl",
         "name": "Externe opslag"
+      },
+      {
+        "locale": "it-it",
+        "name": "Archivio esterno"
       },
       {
         "locale": "",
@@ -20104,6 +21213,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -20181,6 +21295,10 @@
       {
         "locale": "",
         "name": "Augenkomfort"
+      },
+      {
+        "locale": "it-it",
+        "name": "Protezione occhi"
       }
     ],
     "devices": [
@@ -20192,6 +21310,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -20214,6 +21337,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -20269,6 +21397,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -20287,6 +21420,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -20376,6 +21514,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -20410,6 +21553,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -20426,6 +21574,10 @@
       {
         "locale": "en-gb",
         "name": "Favourite Contacts"
+      },
+      {
+        "locale": "it-it",
+        "name": "Contatti preferiti"
       }
     ],
     "devices": [
@@ -20437,6 +21589,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -20521,6 +21678,10 @@
       {
         "locale": "nl-nl",
         "name": "Bestanden"
+      },
+      {
+        "locale": "it-it",
+        "name": "File"
       }
     ],
     "devices": [
@@ -20582,6 +21743,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -20772,6 +21938,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -20804,7 +21975,12 @@
   "com.samsung.android.fmm": {
     "appName": "Find My Mobile",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Trova dispositivo personale"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -20814,6 +21990,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -20968,6 +22149,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21091,6 +22277,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -21131,7 +22322,7 @@
   },
   "com.samsung.android.aremoji": {
     "appName": "Galaxy Avatar",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "en-gb",
@@ -21155,6 +22346,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21168,6 +22364,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -21194,6 +22395,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21206,12 +22412,21 @@
       {
         "locale": "",
         "name": "Galaxy-Dienst-Einrichtung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Configurazione servizio Galaxy"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -21238,6 +22453,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21260,6 +22480,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21272,6 +22497,10 @@
       {
         "locale": "",
         "name": "Galaxy Themes-Dienst"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizio Galaxy Themes"
       }
     ],
     "devices": [
@@ -21283,6 +22512,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -21299,6 +22533,10 @@
       {
         "locale": "",
         "name": "Galerie"
+      },
+      {
+        "locale": "it-it",
+        "name": "Galleria"
       }
     ],
     "devices": [
@@ -21310,6 +22548,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -21326,6 +22569,10 @@
       {
         "locale": "",
         "name": "Galerie"
+      },
+      {
+        "locale": "it-it",
+        "name": "Galleria"
       }
     ],
     "devices": [
@@ -21337,6 +22584,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -21389,6 +22641,10 @@
       {
         "locale": "",
         "name": "Gallery-Storys"
+      },
+      {
+        "locale": "it-it",
+        "name": "Storie nella Galleria"
       }
     ],
     "devices": [
@@ -21400,6 +22656,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -21422,6 +22683,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -21484,6 +22750,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21491,7 +22762,7 @@
   },
   "com.samsung.android.game.gamehome": {
     "appName": "Gaming Hub",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "en-gb",
@@ -21503,6 +22774,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -21634,6 +22910,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21720,6 +23001,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21738,6 +23024,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -21816,6 +23107,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -21889,6 +23185,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -22009,12 +23310,22 @@
   "com.samsung.android.service.pentastic": {
     "appName": "Glance",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Riduci a icona"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       }
     ]
   },
@@ -22108,6 +23419,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -22242,6 +23558,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -22296,6 +23617,10 @@
       {
         "locale": "ru-ru",
         "name": "Синхронизация Google Календаря"
+      },
+      {
+        "locale": "it-it",
+        "name": "Sinc. Google Calendar"
       }
     ],
     "devices": [
@@ -22322,6 +23647,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -22378,6 +23708,10 @@
       {
         "locale": "nl-nl",
         "name": "Locatiegeschiedenis van Google"
+      },
+      {
+        "locale": "it-it",
+        "name": "Cronologia delle posizioni Google"
       }
     ],
     "devices": [
@@ -22444,6 +23778,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -22566,6 +23905,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -22670,6 +24014,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -22923,6 +24272,10 @@
         "name": "Google Play-services"
       },
       {
+        "locale": "it-it",
+        "name": "Google Play Services"
+      },
+      {
         "locale": "",
         "name": "Google Play-Dienste"
       }
@@ -23004,6 +24357,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -23073,6 +24431,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -23178,6 +24541,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -23223,6 +24591,10 @@
       {
         "locale": "nl-nl",
         "name": "Google Veiligheidscentrum-bronnen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Risorse Centro sicurezza online Google"
       },
       {
         "locale": "en-de",
@@ -23283,6 +24655,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -23435,6 +24812,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -23524,6 +24906,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -23574,6 +24961,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -23613,6 +25005,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -23631,6 +25028,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -23677,6 +25079,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -23737,6 +25144,10 @@
       {
         "locale": "nl-nl",
         "name": "Health Connect"
+      },
+      {
+        "locale": "it-it",
+        "name": "Connessione Salute"
       }
     ],
     "devices": [
@@ -23778,6 +25189,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -23878,6 +25294,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -23985,6 +25406,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -24252,6 +25678,10 @@
         "name": "HTML-viewer"
       },
       {
+        "locale": "it-it",
+        "name": "Visualizzatore HTML"
+      },
+      {
         "locale": "",
         "name": "HTML-Anzeige"
       }
@@ -24333,6 +25763,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -24372,6 +25807,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -24446,6 +25886,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -24504,6 +25949,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -24526,6 +25976,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -24544,6 +25999,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -24615,6 +26075,10 @@
       {
         "locale": "nl-nl",
         "name": "Invoerapparaten"
+      },
+      {
+        "locale": "it-it",
+        "name": "Dispositivi di immissione"
       },
       {
         "locale": "",
@@ -24695,6 +26159,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -24843,6 +26312,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -24900,12 +26374,21 @@
       {
         "locale": "",
         "name": "Dolmetscher"
+      },
+      {
+        "locale": "it-it",
+        "name": "Interprete"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -24928,6 +26411,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25080,6 +26568,10 @@
         "name": "Sleutelhanger"
       },
       {
+        "locale": "it-it",
+        "name": "Portachiavi"
+      },
+      {
         "locale": "",
         "name": "Key chain"
       }
@@ -25158,6 +26650,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25264,6 +26761,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -25286,6 +26788,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -25299,6 +26806,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25330,6 +26842,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -25343,6 +26860,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25364,6 +26886,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -25377,6 +26904,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25403,6 +26935,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -25416,6 +26953,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25442,6 +26984,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -25455,6 +27002,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25477,6 +27029,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25505,6 +27062,10 @@
       {
         "locale": "",
         "name": "Startprogramm"
+      },
+      {
+        "locale": "it-it",
+        "name": "Menu di avvio"
       }
     ],
     "devices": [
@@ -25516,6 +27077,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25609,6 +27175,10 @@
       {
         "locale": "",
         "name": "Link zu Windows"
+      },
+      {
+        "locale": "it-it",
+        "name": "Collegamento a Windows"
       }
     ],
     "devices": [
@@ -25620,6 +27190,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25636,6 +27211,10 @@
       {
         "locale": "",
         "name": "Link zu Windows-Dienst"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizio Collegamento a Windows"
       }
     ],
     "devices": [
@@ -25651,6 +27230,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -25659,12 +27243,22 @@
   "com.samsung.android.service.livedrawing": {
     "appName": "Live messages",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Messaggi live"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       }
     ]
   },
@@ -25683,6 +27277,10 @@
       {
         "locale": "nl-nl",
         "name": "Live transcriptie & Geluidsmeldingen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Trascrizione Istantanea e Notifiche di Suoni"
       },
       {
         "locale": "en-de",
@@ -25716,6 +27314,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -25738,6 +27341,10 @@
       {
         "locale": "nl-nl",
         "name": "Interactieve achtergrondkiezer"
+      },
+      {
+        "locale": "it-it",
+        "name": "Selettore sfondo animato"
       },
       {
         "locale": "",
@@ -25815,6 +27422,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -25849,6 +27461,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -25927,6 +27544,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -26094,6 +27716,10 @@
       {
         "locale": "",
         "name": "Vergrößerung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Lente"
       }
     ],
     "devices": [
@@ -26109,6 +27735,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -26117,12 +27748,22 @@
   "com.samsung.android.app.readingglass": {
     "appName": "Magnify",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Ingrandisci"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       }
     ]
   },
@@ -26209,6 +27850,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -26288,6 +27934,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -26447,6 +28098,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -26553,6 +28209,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -26636,6 +28297,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -26780,6 +28446,10 @@
         "name": "Mediakiezer"
       },
       {
+        "locale": "it-it",
+        "name": "Selettore media"
+      },
+      {
         "locale": "",
         "name": "Media"
       }
@@ -26843,6 +28513,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -26916,6 +28591,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       }
     ]
@@ -26995,6 +28675,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -27021,12 +28706,22 @@
   "com.samsung.android.messaging": {
     "appName": "Messages",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Messaggi"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -27042,6 +28737,10 @@
       {
         "locale": "nl-nl",
         "name": "Berichten"
+      },
+      {
+        "locale": "it-it",
+        "name": "Messaggi"
       }
     ],
     "devices": [
@@ -27106,6 +28805,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -27159,6 +28863,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -27191,6 +28900,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -27219,6 +28933,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -27264,6 +28983,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -27277,6 +29001,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -27368,6 +29097,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -27380,6 +29114,10 @@
       {
         "locale": "",
         "name": "Microsoft SwiftKey-Tastatur"
+      },
+      {
+        "locale": "it-it",
+        "name": "Tastiera Microsoft SwiftKey"
       }
     ],
     "devices": [
@@ -27396,6 +29134,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -27624,6 +29367,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -27667,6 +29415,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -27684,6 +29437,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -27696,6 +29454,10 @@
       {
         "locale": "",
         "name": "Modi und Routinen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Modalità e routine"
       }
     ],
     "devices": [
@@ -27707,6 +29469,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -27748,6 +29515,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -27927,6 +29699,10 @@
       {
         "locale": "",
         "name": "MTP-Anwendung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Applicazione MTP"
       }
     ],
     "devices": [
@@ -27938,6 +29714,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -27958,6 +29739,10 @@
       {
         "locale": "nl-nl",
         "name": "MTP-host"
+      },
+      {
+        "locale": "it-it",
+        "name": "Host MTP"
       },
       {
         "locale": "",
@@ -28041,6 +29826,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -28074,6 +29864,10 @@
       {
         "locale": "",
         "name": "Mehrfachsteuerung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Controllo multiplo"
       }
     ],
     "devices": [
@@ -28085,6 +29879,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -28223,6 +30022,10 @@
       {
         "locale": "",
         "name": "Eigene Dateien"
+      },
+      {
+        "locale": "it-it",
+        "name": "Archivio"
       }
     ],
     "devices": [
@@ -28234,6 +30037,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -28301,6 +30109,10 @@
       {
         "locale": "",
         "name": "Suche nach Geräten in der Nähe"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ricerca dispositivi vicini"
       }
     ],
     "devices": [
@@ -28312,6 +30124,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -28328,6 +30145,10 @@
       {
         "locale": "",
         "name": "Geräte in der Nähe suchen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ricerca dispositivi vicini"
       }
     ],
     "devices": [
@@ -28339,6 +30160,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -28355,12 +30181,21 @@
       {
         "locale": "",
         "name": "Geräte in der Nähe"
+      },
+      {
+        "locale": "it-it",
+        "name": "Dispositivi vicini"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -28383,6 +30218,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -28519,6 +30359,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -28600,12 +30445,21 @@
       {
         "locale": "",
         "name": "Netzentsperrung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Sblocco della rete"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       }
     ]
@@ -28617,6 +30471,10 @@
       {
         "locale": "",
         "name": "Netzwerkdiagnose"
+      },
+      {
+        "locale": "it-it",
+        "name": "Diagnostica di rete"
       }
     ],
     "devices": [
@@ -28628,6 +30486,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -28740,6 +30603,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -28993,6 +30861,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -29152,6 +31025,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -29439,6 +31317,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -29490,6 +31373,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -29560,6 +31448,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -29682,6 +31575,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -29791,6 +31689,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -29798,7 +31701,7 @@
   },
   "com.microsoft.skydrive": {
     "appName": "OneDrive",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -29809,6 +31712,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -30289,6 +32197,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -30423,6 +32336,10 @@
         "name": "Pakket-installatie"
       },
       {
+        "locale": "it-it",
+        "name": "Installazione pacchetti"
+      },
+      {
         "locale": "",
         "name": "Paketinstallation"
       }
@@ -30501,6 +32418,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -30628,6 +32550,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -30673,12 +32600,21 @@
       {
         "locale": "",
         "name": "Kindersicherungen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Controllo genitori"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -30743,6 +32679,10 @@
       {
         "locale": "",
         "name": "Personen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Persone"
       }
     ],
     "devices": [
@@ -30754,6 +32694,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -30802,6 +32747,10 @@
       {
         "locale": "nl-nl",
         "name": "Rechtenbeheer"
+      },
+      {
+        "locale": "it-it",
+        "name": "App di controllo autorizzazioni"
       }
     ],
     "devices": [
@@ -30866,6 +32815,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -30923,6 +32877,10 @@
       {
         "locale": "",
         "name": "Berechtigungsnutzung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Uso autorizzazione"
       }
     ],
     "devices": [
@@ -30934,6 +32892,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -30958,7 +32921,12 @@
   "com.sec.android.app.personalization": {
     "appName": "Perso",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Personale"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -30968,6 +32936,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -30988,6 +32961,10 @@
       {
         "locale": "en-gb",
         "name": "Smart suggestions"
+      },
+      {
+        "locale": "it-it",
+        "name": "Assistente dati personali"
       }
     ],
     "devices": [
@@ -30999,6 +32976,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -31086,6 +33068,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -31098,6 +33085,10 @@
       {
         "locale": "",
         "name": "Telefon"
+      },
+      {
+        "locale": "it-it",
+        "name": "Telefono"
       }
     ],
     "devices": [
@@ -31109,6 +33100,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -31125,6 +33121,10 @@
       {
         "locale": "",
         "name": "Telefon"
+      },
+      {
+        "locale": "it-it",
+        "name": "Telefono"
       }
     ],
     "devices": [
@@ -31136,6 +33136,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -31268,6 +33273,10 @@
         "name": "Opslag telefoon/berichten"
       },
       {
+        "locale": "it-it",
+        "name": "Memoria telefono/messaggi"
+      },
+      {
         "locale": "",
         "name": "Phone Call/SMS Storage"
       },
@@ -31353,6 +33362,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -31398,6 +33412,10 @@
       {
         "locale": "nl-nl",
         "name": "Telefoon­gesprekken"
+      },
+      {
+        "locale": "it-it",
+        "name": "Chiamate telefoniche"
       },
       {
         "locale": "en-za",
@@ -31489,6 +33507,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -31534,6 +33557,10 @@
       {
         "locale": "nl-nl",
         "name": "Telefoonservices"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi telefonici"
       },
       {
         "locale": "en-de",
@@ -31625,6 +33652,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -31675,6 +33707,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -31711,6 +33748,10 @@
       {
         "locale": "",
         "name": "Foto-Editor"
+      },
+      {
+        "locale": "it-it",
+        "name": "Editor immagini"
       }
     ],
     "devices": [
@@ -31722,6 +33763,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -31738,6 +33784,10 @@
       {
         "locale": "",
         "name": "Foto-Bildschirmschoner"
+      },
+      {
+        "locale": "it-it",
+        "name": "Screensaver fotografici"
       }
     ],
     "devices": [
@@ -31768,6 +33818,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -31786,6 +33841,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -31916,6 +33976,10 @@
         "name": "Foto's en video's"
       },
       {
+        "locale": "it-it",
+        "name": "Foto e video"
+      },
+      {
         "locale": "en-de",
         "name": "Photos and videos"
       }
@@ -31969,6 +34033,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -32459,6 +34528,10 @@
       {
         "locale": "",
         "name": "Porträt"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritratto"
       }
     ],
     "devices": [
@@ -32470,6 +34543,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -32596,6 +34674,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -32716,6 +34799,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -32751,6 +34839,10 @@
         "name": "Automatische Bestätigung"
       },
       {
+        "locale": "it-it",
+        "name": "Verifica automatica"
+      },
+      {
         "locale": "",
         "name": "Automatic verification"
       }
@@ -32759,6 +34851,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -32821,6 +34918,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -33025,6 +35127,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -33082,6 +35189,10 @@
       {
         "locale": "nl-nl",
         "name": "Cameragat-cutout"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritaglio per hole punch"
       },
       {
         "locale": "en-de",
@@ -33154,6 +35265,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -33203,6 +35319,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -33222,6 +35343,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -33349,6 +35475,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -33357,7 +35488,12 @@
   "com.samsung.android.aware.service": {
     "appName": "Quick Share Agent",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Agente di Quick Share"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -33367,6 +35503,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -33383,6 +35524,10 @@
       {
         "locale": "",
         "name": "Quick Share-Konnektivität"
+      },
+      {
+        "locale": "it-it",
+        "name": "Connettività Quick Share"
       }
     ],
     "devices": [
@@ -33394,6 +35539,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -33549,6 +35699,10 @@
       {
         "locale": "",
         "name": "Empfohlene Apps"
+      },
+      {
+        "locale": "it-it",
+        "name": "Applicazioni consigliate"
       }
     ],
     "devices": [
@@ -33560,6 +35714,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -33635,12 +35794,22 @@
   "com.samsung.android.app.reminder": {
     "appName": "Reminder",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Promemoria"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -33714,6 +35883,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -33949,6 +36123,10 @@
       {
         "locale": "",
         "name": "Fehler"
+      },
+      {
+        "locale": "it-it",
+        "name": "Errore"
       }
     ],
     "devices": [
@@ -33960,6 +36138,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -33977,6 +36160,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34150,6 +36338,10 @@
       {
         "locale": "",
         "name": "Sicherheitsinformationen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Informazioni di sicurezza"
       }
     ],
     "devices": [
@@ -34161,6 +36353,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34264,6 +36461,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34332,6 +36534,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34344,6 +36551,10 @@
       {
         "locale": "",
         "name": "Smart-Aufnahme"
+      },
+      {
+        "locale": "it-it",
+        "name": "Acquisizione Samsung"
       }
     ],
     "devices": [
@@ -34355,6 +36566,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34381,6 +36597,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34403,6 +36624,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34415,6 +36641,10 @@
       {
         "locale": "en-gb",
         "name": "Samsung Cloud Platform Manager"
+      },
+      {
+        "locale": "it-it",
+        "name": "Assistente Samsung Cloud"
       }
     ],
     "devices": [
@@ -34426,6 +36656,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34452,6 +36687,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34470,6 +36710,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34496,6 +36741,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34508,6 +36758,10 @@
       {
         "locale": "",
         "name": "Samsung DeX Home"
+      },
+      {
+        "locale": "it-it",
+        "name": "Schermata Home di Samsung DeX"
       }
     ],
     "devices": [
@@ -34519,6 +36773,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34545,6 +36804,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34557,6 +36821,10 @@
       {
         "locale": "",
         "name": "Samsung-Bearbeitungsressourcen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Risorse di editing Samsung"
       }
     ],
     "devices": [
@@ -34568,6 +36836,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34666,6 +36939,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34678,6 +36956,10 @@
       {
         "locale": "",
         "name": "Samsung-Tastatur"
+      },
+      {
+        "locale": "it-it",
+        "name": "Tastiera Samsung"
       }
     ],
     "devices": [
@@ -34689,6 +36971,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34705,6 +36992,10 @@
       {
         "locale": "",
         "name": "Samsung Kids-Installationsprogramm"
+      },
+      {
+        "locale": "it-it",
+        "name": "Programma di installazione di Samsung Kids"
       }
     ],
     "devices": [
@@ -34716,6 +37007,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34759,6 +37055,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34786,6 +37087,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34804,6 +37110,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34854,6 +37165,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34866,6 +37182,10 @@
       {
         "locale": "",
         "name": "Samsung Pay Framework"
+      },
+      {
+        "locale": "it-it",
+        "name": "Samsung Pay Framework"
       }
     ],
     "devices": [
@@ -34877,6 +37197,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34903,6 +37228,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -34915,6 +37245,10 @@
       {
         "locale": "",
         "name": "Samsung Einrichtungsassistent"
+      },
+      {
+        "locale": "it-it",
+        "name": "Configurazione guidata Samsung"
       }
     ],
     "devices": [
@@ -34930,7 +37264,24 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.samsung.gamedriver.sm8550": {
+    "appName": "Samsung SM8550 GameDriver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       }
     ]
@@ -34954,6 +37305,10 @@
       {
         "locale": "",
         "name": "Samsung Text-zu-Sprache-Engine"
+      },
+      {
+        "locale": "it-it",
+        "name": "Motore sintesi vocale Samsung"
       }
     ],
     "devices": [
@@ -34965,6 +37320,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -34981,6 +37341,10 @@
       {
         "locale": "",
         "name": "Samsung USB-C-Headset"
+      },
+      {
+        "locale": "it-it",
+        "name": "Auricolare Samsung USB-C"
       }
     ],
     "devices": [
@@ -34992,6 +37356,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35030,6 +37399,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35043,6 +37417,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35086,6 +37465,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35120,6 +37504,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35138,6 +37527,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35164,6 +37558,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35186,6 +37585,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35199,6 +37603,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35220,6 +37629,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35233,6 +37647,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35254,6 +37673,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35267,6 +37691,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35300,6 +37729,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35313,6 +37747,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35346,6 +37785,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35359,6 +37803,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35380,6 +37829,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35393,6 +37847,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35414,6 +37873,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35427,6 +37891,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35448,6 +37917,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35461,6 +37935,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35547,6 +38026,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35565,6 +38049,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35721,6 +38210,10 @@
         "name": "Kiezer voor zoekmachine"
       },
       {
+        "locale": "it-it",
+        "name": "Selettore motore di ricerca"
+      },
+      {
         "locale": "en-de",
         "name": "Search engine selector"
       }
@@ -35777,6 +38270,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -35822,6 +38320,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -35835,6 +38338,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35855,6 +38363,10 @@
       {
         "locale": "",
         "name": "Sicherer Ordner"
+      },
+      {
+        "locale": "it-it",
+        "name": "Area Personale"
       }
     ],
     "devices": [
@@ -35866,6 +38378,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35894,6 +38411,10 @@
       {
         "locale": "",
         "name": "Sicheres WLAN"
+      },
+      {
+        "locale": "it-it",
+        "name": "Wi-Fi protetto"
       }
     ],
     "devices": [
@@ -35905,6 +38426,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -35995,6 +38521,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -36074,6 +38605,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -36116,6 +38652,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -36192,6 +38733,10 @@
       {
         "locale": "",
         "name": "Separater App-Ton"
+      },
+      {
+        "locale": "it-it",
+        "name": "Separa audio applicazione"
       }
     ],
     "devices": [
@@ -36203,6 +38748,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -36225,6 +38775,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -36263,6 +38818,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -36281,6 +38841,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -36307,6 +38872,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -36323,6 +38893,10 @@
       {
         "locale": "en-gb",
         "name": "Configuration update"
+      },
+      {
+        "locale": "it-it",
+        "name": "Configurazione gestore telefonico"
       }
     ],
     "devices": [
@@ -36334,6 +38908,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -36366,6 +38945,10 @@
       {
         "locale": "nl-nl",
         "name": "Instellingen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Impostazioni"
       },
       {
         "locale": "",
@@ -36446,6 +39029,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -36532,6 +39120,10 @@
         "name": "Opslagruimte voor instellingen"
       },
       {
+        "locale": "it-it",
+        "name": "Memoria impostazioni"
+      },
+      {
         "locale": "",
         "name": "Einstellungsspeicher"
       }
@@ -36613,6 +39205,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -36650,6 +39247,10 @@
       {
         "locale": "ru-ru",
         "name": "Предложения Настроек"
+      },
+      {
+        "locale": "it-it",
+        "name": "Suggerimenti impostazioni"
       },
       {
         "locale": "",
@@ -36708,6 +39309,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -36753,6 +39359,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -36783,6 +39394,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -36926,6 +39542,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -36969,6 +39590,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -36999,6 +39625,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37100,6 +39731,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -37189,6 +39825,10 @@
         "name": "SIM-toolkit"
       },
       {
+        "locale": "it-it",
+        "name": "Servizi SIM"
+      },
+      {
         "locale": "en-de",
         "name": "SIM Toolkit"
       },
@@ -37268,6 +39908,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -37305,6 +39950,10 @@
       {
         "locale": "",
         "name": "SIM-Toolkit"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi SIM"
       }
     ],
     "devices": [
@@ -37316,6 +39965,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37350,6 +40004,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37432,6 +40091,10 @@
       {
         "locale": "",
         "name": "Single Take"
+      },
+      {
+        "locale": "it-it",
+        "name": "Scatto singolo"
       }
     ],
     "devices": [
@@ -37443,6 +40106,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37469,6 +40137,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -37491,6 +40164,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -37509,6 +40187,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37594,6 +40277,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -37602,7 +40290,12 @@
   "com.sec.android.easyMover.Agent": {
     "appName": "Smart Switch Agent",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Agente Smart Switch"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -37612,6 +40305,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37650,6 +40348,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -37680,6 +40383,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37742,6 +40450,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -37760,6 +40473,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37803,6 +40521,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -37815,6 +40538,10 @@
       {
         "locale": "",
         "name": "Software-Update"
+      },
+      {
+        "locale": "it-it",
+        "name": "Aggiornamento software"
       }
     ],
     "devices": [
@@ -37826,6 +40553,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37842,6 +40574,10 @@
       {
         "locale": "",
         "name": "Software-Update"
+      },
+      {
+        "locale": "it-it",
+        "name": "Aggiornamento software"
       }
     ],
     "devices": [
@@ -37853,6 +40589,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37894,6 +40635,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -37976,6 +40722,10 @@
       {
         "locale": "",
         "name": "Sound-Auswahl"
+      },
+      {
+        "locale": "it-it",
+        "name": "Selezionatore audio"
       }
     ],
     "devices": [
@@ -37987,6 +40737,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -38003,6 +40758,10 @@
       {
         "locale": "",
         "name": "Tonqualität und Effekte"
+      },
+      {
+        "locale": "it-it",
+        "name": "Qualità audio ed effetti"
       }
     ],
     "devices": [
@@ -38014,6 +40773,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -38236,6 +41000,10 @@
         "name": "Spraakherkenning en -synthese van Google"
       },
       {
+        "locale": "it-it",
+        "name": "Riconoscimento e sintesi vocale di Google"
+      },
+      {
         "locale": "en-za",
         "name": "Google Text-to-speech engine"
       },
@@ -38326,6 +41094,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -38468,6 +41241,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -38492,6 +41270,10 @@
       {
         "locale": "ru-ru",
         "name": "Менеджер Памяти"
+      },
+      {
+        "locale": "it-it",
+        "name": "Gestione archiviazione"
       },
       {
         "locale": "",
@@ -38550,6 +41332,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -38573,12 +41360,21 @@
       {
         "locale": "",
         "name": "Speicherfreigabe"
+      },
+      {
+        "locale": "it-it",
+        "name": "Condivisione archiviazione"
       }
     ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -38618,6 +41414,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -38729,6 +41530,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -38768,6 +41574,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -38904,6 +41715,10 @@
         "name": "Resources voor systeemconnectiviteit"
       },
       {
+        "locale": "it-it",
+        "name": "Risorse per connettività di sistema"
+      },
+      {
         "locale": "en-de",
         "name": "System connectivity resources"
       }
@@ -38970,6 +41785,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -39028,6 +41848,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -39114,6 +41939,10 @@
         "name": "Ouderlijk toezicht van systeem"
       },
       {
+        "locale": "it-it",
+        "name": "Controllo genitori di sistema"
+      },
+      {
         "locale": "",
         "name": "Family Link parental controls"
       }
@@ -39167,6 +41996,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -39265,6 +42099,10 @@
         "name": "Трассировка системы"
       },
       {
+        "locale": "it-it",
+        "name": "Tracciamento del sistema"
+      },
+      {
         "locale": "",
         "name": "Ablaufverfolgung"
       }
@@ -39336,6 +42174,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -39373,6 +42216,10 @@
       {
         "locale": "nl-nl",
         "name": "Systeem-UI"
+      },
+      {
+        "locale": "it-it",
+        "name": "UI sistema"
       },
       {
         "locale": "",
@@ -39453,6 +42300,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -39590,6 +42442,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -39661,6 +42518,10 @@
         "name": "System Wi-Fi resources"
       },
       {
+        "locale": "it-it",
+        "name": "Risorse Wi-Fi sistema"
+      },
+      {
         "locale": "en-za",
         "name": "System Wi-Fi resources"
       }
@@ -39695,6 +42556,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "isafemobile",
@@ -39812,7 +42678,12 @@
   "com.samsung.android.service.tagservice": {
     "appName": "Tags",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Tag"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -39822,6 +42693,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -39838,6 +42714,10 @@
       {
         "locale": "ru-ru",
         "name": "Теги"
+      },
+      {
+        "locale": "it-it",
+        "name": "Tag"
       }
     ],
     "devices": [
@@ -39859,6 +42739,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -39969,6 +42854,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -39989,6 +42879,10 @@
       {
         "locale": "nl-nl",
         "name": "Hoge cutout"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritaglio alto"
       },
       {
         "locale": "",
@@ -40062,6 +42956,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -40119,6 +43018,10 @@
       {
         "locale": "",
         "name": "Tätigkeiten"
+      },
+      {
+        "locale": "it-it",
+        "name": "Funzioni"
       }
     ],
     "devices": [
@@ -40130,6 +43033,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -40344,6 +43252,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -40427,6 +43340,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -40685,7 +43603,12 @@
   "com.sec.android.app.quicktool": {
     "appName": "Tools",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Strumenti"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -40695,6 +43618,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -40839,12 +43767,22 @@
   "com.samsung.android.service.airviewdictionary": {
     "appName": "Translate",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Traduci"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       }
     ]
   },
@@ -40891,6 +43829,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -40981,6 +43924,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       }
     ]
@@ -41102,6 +44050,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       }
     ]
   },
@@ -41151,6 +44104,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -41167,6 +44125,10 @@
       {
         "locale": "nl-nl",
         "name": "Gebruikerswoordenboek"
+      },
+      {
+        "locale": "it-it",
+        "name": "Dizionario utente"
       },
       {
         "locale": "",
@@ -41250,6 +44212,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -41321,6 +44288,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -41474,6 +44446,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -41562,6 +44539,10 @@
       {
         "locale": "en-gb",
         "name": "Video call effects"
+      },
+      {
+        "locale": "it-it",
+        "name": "Effetti video"
       }
     ],
     "devices": [
@@ -41573,6 +44554,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -41589,6 +44575,10 @@
       {
         "locale": "",
         "name": "Video-Player"
+      },
+      {
+        "locale": "it-it",
+        "name": "Lettore video"
       }
     ],
     "devices": [
@@ -41600,6 +44590,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -41617,6 +44612,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       }
     ]
@@ -41645,6 +44645,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -41677,6 +44682,10 @@
       {
         "locale": "",
         "name": "Mit Sprache wecken"
+      },
+      {
+        "locale": "it-it",
+        "name": "Attivazione vocale"
       }
     ],
     "devices": [
@@ -41688,6 +44697,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -41732,6 +44746,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -41841,6 +44860,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -41958,6 +44982,10 @@
       {
         "locale": "",
         "name": "Hintergrundbild und Stil"
+      },
+      {
+        "locale": "it-it",
+        "name": "Sfondo e stile"
       }
     ],
     "devices": [
@@ -41969,6 +44997,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -41985,6 +45018,10 @@
       {
         "locale": "",
         "name": "Hintergrundbilddienste"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi per gli sfondi"
       }
     ],
     "devices": [
@@ -41996,6 +45033,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -42068,6 +45110,10 @@
       {
         "locale": "nl-nl",
         "name": "Waterval-cutout"
+      },
+      {
+        "locale": "it-it",
+        "name": "Curvatura Waterfall"
       }
     ],
     "devices": [
@@ -42132,6 +45178,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -42175,6 +45226,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -42197,6 +45253,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -42209,6 +45270,10 @@
       {
         "locale": "",
         "name": "Wetter"
+      },
+      {
+        "locale": "it-it",
+        "name": "Meteo"
       }
     ],
     "devices": [
@@ -42220,6 +45285,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -42342,6 +45412,10 @@
       {
         "locale": "",
         "name": "WLAN-Anrufe"
+      },
+      {
+        "locale": "it-it",
+        "name": "Chiamata Wi-Fi"
       }
     ],
     "devices": [
@@ -42353,6 +45427,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -42393,6 +45472,10 @@
       {
         "locale": "",
         "name": "WLAN-Tipps"
+      },
+      {
+        "locale": "it-it",
+        "name": "Suggerimenti sul Wi-Fi"
       }
     ],
     "devices": [
@@ -42404,6 +45487,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -42445,6 +45533,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -42512,6 +45605,10 @@
         "name": "Mobiele noodmeldingen"
       },
       {
+        "locale": "it-it",
+        "name": "Avvisi di emergenza wireless"
+      },
+      {
         "locale": "",
         "name": "Emergency alerts"
       }
@@ -42575,6 +45672,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -42693,6 +45795,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -42717,6 +45824,10 @@
       {
         "locale": "nl-nl",
         "name": "Werkinstelling"
+      },
+      {
+        "locale": "it-it",
+        "name": "Configurazione per il lavoro"
       },
       {
         "locale": "",
@@ -42797,6 +45908,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
@@ -43109,6 +46225,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
         "os": "35"
       },
       {
