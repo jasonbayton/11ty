@@ -13,7 +13,7 @@ layout: base.njk
 <div class="impactful-hero">
 <h2 class="page-subtitle">A hybrid kiosk and info app for <span class="highlight">any use case</span>.</h2>
 <div class="hero-image desktop-hidden">
-<img class="margin-auto padding-30" width="500px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_mobile_triple.png" alt="MANAGED INFO hero" alt="MANAGED INFO kiosk">
+<img class="margin-auto padding-30 padding-mobile-0" width="500px" src="https://cdn.bayton.org/assets/managed_info/mi-stock-imagery/info_mobile_triple.png" alt="MANAGED INFO hero" alt="MANAGED INFO kiosk">
 </div>
 <p>Provide end-users pertinent information about your organisation, roll out guidance and messaging, or build a traditional kiosk with custom background support. Designed for Android Enterprise deployments, and built to support your fleet at scale.</p>
 <div class="cta-group padding-top-40 grid grid-column-2">
