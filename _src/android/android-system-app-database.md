@@ -17,7 +17,7 @@ Below you'll find a table of system apps across various devices. These devices h
 
 Packages are updated here daily. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
 
-_Tip: Hold **Shift** while scrolling with a mouse to move horizontally across the table, if it overflows._
+_Tip: Hold **Shift** while scrolling with a mouse to move horizontally across the table, if it overflows. Cells with lots of data can be scrolled vertically, also._
 
 <div class="filters-grid" style=" padding-top:40px; display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-bottom: 1rem;">
 <input type="text" id="searchInput" placeholder="Search package, app name, OS, device, or model..." style="flex: 2 1 60%; min-width: 200px;" />
@@ -46,46 +46,49 @@ _Tip: Hold **Shift** while scrolling with a mouse to move horizontally across th
 <tr>
   <td>{{ entry.appName or pkg }}</td>
   <td><code>{{ pkg }}</code></td>
-  <td>
-    {%- set makes = "" -%}
-    {%- for device in entry.devices -%}
-      {%- if loop.first -%}
-        {{ device.make }}
-      {%- elif not device.make in makes -%}
-        , {{ device.make }}
-      {%- endif -%}
-      {%- set makes = makes + device.make + "," -%}
-    {%- endfor -%}
-  </td>
-  <td>
-    {%- set models = "" -%}
-    {%- for device in entry.devices -%}
-      {%- if loop.first -%}
-        {{ device.model }}
-      {%- elif not device.model in models -%}
-        , {{ device.model }}
-      {%- endif -%}
-      {%- set models = models + device.model + "," -%}
-    {%- endfor -%}
-  </td>
-  <td>
-    {%- set osVersions = "" -%}
-    {%- for device in entry.devices -%}
-      {%- if loop.first -%}
-        {{ device.os }}
-      {%- elif not device.os in osVersions -%}
-        , {{ device.os }}
-      {%- endif -%}
-      {%- set osVersions = osVersions + device.os + "," -%}
-    {%- endfor -%}
-  </td>
-  <td>
-    {%- if entry.additionalLocales and entry.additionalLocales.length > 0 -%}
-      {%- for alt in entry.additionalLocales -%}
-        {%- if not loop.first -%}, {% endif -%}{{ alt.name }}
-      {%- endfor -%}
+  <td><div class="scrollable">
+  {%- set makes = "" -%}
+  {%- for device in entry.devices -%}
+    {%- if loop.first -%}
+      {{ device.make }}
+    {%- elif not device.make in makes -%}
+      , {{ device.make }}
     {%- endif -%}
-  </td>
+    {%- set makes = makes + device.make + "," -%}
+  {%- endfor -%}
+</div></td>
+
+<td><div class="scrollable">
+  {%- set models = "" -%}
+  {%- for device in entry.devices -%}
+    {%- if loop.first -%}
+      {{ device.model }}
+    {%- elif not device.model in models -%}
+      , {{ device.model }}
+    {%- endif -%}
+    {%- set models = models + device.model + "," -%}
+  {%- endfor -%}
+</div></td>
+
+<td><div class="scrollable">
+  {%- set osVersions = "" -%}
+  {%- for device in entry.devices -%}
+    {%- if loop.first -%}
+      {{ device.os }}
+    {%- elif not device.os in osVersions -%}
+      , {{ device.os }}
+    {%- endif -%}
+    {%- set osVersions = osVersions + device.os + "," -%}
+  {%- endfor -%}
+</div></td>
+
+<td><div class="scrollable">
+  {%- if entry.additionalLocales and entry.additionalLocales.length > 0 -%}
+    {%- for alt in entry.additionalLocales -%}
+      {%- if not loop.first -%}, {% endif -%}{{ alt.name }}
+    {%- endfor -%}
+  {%- endif -%}
+</div></td>
   <td>{{ entry.userFacing }}</td>
 </tr>
 {% endfor %}

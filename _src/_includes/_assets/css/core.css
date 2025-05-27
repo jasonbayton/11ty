@@ -460,6 +460,14 @@ td {
   border-radius: 0 10px 10px 0;
 }
 
+.scrollable {
+  max-height: 4.5em; /* limit vertical size */
+  overflow-y: auto;
+  white-space: normal;
+  line-height: 1.5;
+  padding-right: 4px;
+}
+
 .button {
   /* background-color: var(--brand-background); */
   border: 4px solid var(--orange);
