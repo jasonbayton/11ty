@@ -3985,7 +3985,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-de",
+        "locale": "",
         "name": "Bluetooth Legacy"
       }
     ],
@@ -4079,11 +4079,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -11418,11 +11413,6 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
         "os": "36"
       }
     ]
@@ -27706,6 +27696,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
       }
     ]
   },
@@ -34994,6 +34989,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       }
     ]
