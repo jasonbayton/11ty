@@ -3271,6 +3271,37 @@
       }
     ]
   },
+  "com.samsung.android.privateaccesstokens": {
+    "appName": "Automatic verification",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Automatische Bestätigung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Verifica automatica"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
   "com.sec.android.app.DataCreate": {
     "appName": "Automation Test",
     "userFacing": false,
@@ -6335,6 +6366,113 @@
       }
     ]
   },
+  "com.android.cellbroadcastreceiver": {
+    "appName": "Cell Broadcasts",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "com.android.cellbroadcastreceiver"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "com.android.cellbroadcastreceiver"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "com.android.cellbroadcastreceiver"
+      },
+      {
+        "locale": "en-gb",
+        "name": "com.android.cellbroadcastreceiver"
+      },
+      {
+        "locale": "en-de",
+        "name": "com.android.cellbroadcastreceiver"
+      },
+      {
+        "locale": "en-za",
+        "name": "com.android.cellbroadcastreceiver"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.android.cellbroadcastreceiver.overlay": {
     "appName": "CellBroadcastReceiverModuleOverlay",
     "userFacing": false,
@@ -7443,88 +7581,6 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.cellbroadcastreceiver": {
-    "appName": "com.android.cellbroadcastreceiver",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
       }
     ]
   },
@@ -21762,25 +21818,29 @@
       }
     ]
   },
-  "com.hihonor.filemanager": {
-    "appName": "Files",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      }
-    ]
-  },
   "com.google.android.apps.nbu.files": {
-    "appName": "Files by Google",
+    "appName": "Files",
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Files by Google"
+      },
+      {
         "locale": "ru-ru",
         "name": "Google Files"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Files by Google"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Files by Google"
+      },
+      {
+        "locale": "en-de",
+        "name": "Files by Google"
       }
     ],
     "devices": [
@@ -21848,6 +21908,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.hihonor.filemanager": {
+    "appName": "Files",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
       }
     ]
   },
@@ -34817,41 +34889,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "35"
-      }
-    ]
-  },
-  "com.samsung.android.privateaccesstokens": {
-    "appName": "Private Access Tokens",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Automatische Bestätigung"
-      },
-      {
-        "locale": "it-it",
-        "name": "Verifica automatica"
-      },
-      {
-        "locale": "",
-        "name": "Automatic verification"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S918B",
-        "os": "35"
       },
       {
         "make": "samsung",
