@@ -42,6 +42,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -134,6 +139,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -216,6 +226,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -291,6 +306,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -808,6 +828,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -958,6 +983,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -1090,6 +1120,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -1228,6 +1263,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -1338,6 +1378,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -1459,6 +1504,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -1583,6 +1633,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -1736,6 +1791,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -1826,6 +1886,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -2013,6 +2078,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -2083,6 +2153,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -2606,12 +2681,12 @@
         "name": "App-Schutz"
       },
       {
-        "locale": "en-gb",
-        "name": "Device security"
-      },
-      {
         "locale": "it-it",
         "name": "Protezione app"
+      },
+      {
+        "locale": "",
+        "name": "Device security"
       }
     ],
     "devices": [
@@ -2624,6 +2699,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -2675,6 +2755,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -2705,6 +2790,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.aura.oobe.samsung.gl": {
+    "appName": "AppCloud",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
         "os": "34"
       }
     ]
@@ -2798,6 +2895,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -2829,6 +2931,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       }
     ]
   },
@@ -3078,6 +3185,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -3136,6 +3248,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -3189,6 +3306,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -3222,6 +3344,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3311,6 +3438,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       }
     ]
   },
@@ -3520,6 +3652,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -3589,6 +3726,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -3710,6 +3852,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -3741,12 +3888,12 @@
         "name": "Biometrische Daten"
       },
       {
-        "locale": "en-gb",
-        "name": "com.samsung.android.biometrics.app.setting"
-      },
-      {
         "locale": "it-it",
         "name": "Dati biometrici"
+      },
+      {
+        "locale": "",
+        "name": "com.samsung.android.biometrics.app.setting"
       }
     ],
     "devices": [
@@ -3759,6 +3906,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3935,6 +4087,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -4052,6 +4209,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -4162,6 +4324,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -4223,6 +4390,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -4352,6 +4524,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -4717,6 +4894,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -4814,6 +4996,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -4930,6 +5117,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -5010,6 +5202,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -5121,6 +5318,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -5157,6 +5359,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -5184,6 +5391,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -5208,6 +5420,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -5240,6 +5457,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -5487,6 +5709,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -5548,6 +5775,18 @@
       }
     ]
   },
+  "com.samsung.adaptivebrightnessgo": {
+    "appName": "CameraLightSensor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      }
+    ]
+  },
   "com.sec.factory.cameralyzer": {
     "appName": "Cameralyzer",
     "userFacing": false,
@@ -5557,6 +5796,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -5672,6 +5916,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -5893,6 +6142,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -6247,6 +6501,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -6291,6 +6550,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -6566,6 +6830,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -6690,6 +6959,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -6780,6 +7054,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -7099,6 +7378,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -7139,6 +7423,18 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.app.clockpack": {
+    "appName": "Clock style",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
         "os": "34"
       }
     ]
@@ -7193,6 +7489,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -7286,6 +7587,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -7434,6 +7740,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -7757,6 +8068,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -7867,6 +8183,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -8194,6 +8515,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -8396,6 +8722,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -8486,6 +8817,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -8948,6 +9284,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -9097,6 +9438,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -9887,6 +10233,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -10047,6 +10398,11 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
         "os": "34"
       },
       {
@@ -10791,6 +11147,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -10866,6 +11227,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -10968,6 +11334,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -11087,6 +11458,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -11744,6 +12120,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -11973,6 +12354,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -12118,6 +12504,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -12326,6 +12717,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -12396,6 +12792,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -12527,6 +12928,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -12597,6 +13003,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -12725,6 +13136,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -12822,6 +13238,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "OUKITEL",
@@ -12961,6 +13382,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -13024,6 +13450,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -13048,6 +13479,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -13085,6 +13521,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -13162,6 +13603,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -13273,6 +13719,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -13362,6 +13813,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -13437,6 +13893,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -13828,6 +14289,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -15910,6 +16376,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -15981,6 +16452,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -16008,6 +16484,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -16032,6 +16513,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -16079,6 +16565,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -16098,6 +16589,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -16142,6 +16638,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -16194,6 +16695,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -16218,6 +16724,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -16301,6 +16812,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -16409,6 +16925,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -16482,6 +17003,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -16506,6 +17032,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -16536,6 +17067,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -16560,6 +17096,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -17042,6 +17583,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -17208,6 +17754,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -17252,6 +17803,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -17356,6 +17912,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -17389,6 +17950,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -17458,6 +18024,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -17494,6 +18065,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -17566,6 +18142,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -17718,6 +18299,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -17901,6 +18487,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -18000,6 +18591,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -18142,6 +18738,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -18310,6 +18911,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -18608,6 +19214,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -18743,6 +19354,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -18884,6 +19500,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -19037,6 +19658,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -19154,6 +19780,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19340,6 +19971,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -19478,6 +20114,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19733,6 +20374,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -19857,6 +20503,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -19976,6 +20627,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -20099,6 +20755,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20298,6 +20959,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -20334,6 +21000,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20378,6 +21049,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20464,6 +21140,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -20597,6 +21278,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -20657,6 +21343,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20857,6 +21548,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -20890,6 +21586,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -21049,6 +21750,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -21068,6 +21774,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       }
     ]
   },
@@ -21097,6 +21808,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -21222,6 +21938,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -21370,6 +22091,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -21394,6 +22120,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -21453,6 +22184,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -21477,6 +22213,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -21570,6 +22311,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -21606,6 +22352,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -21770,6 +22521,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -22010,6 +22766,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -22063,6 +22824,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -22221,6 +22987,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -22302,6 +23073,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -22467,6 +23243,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -22498,6 +23279,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -22525,6 +23311,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -22549,6 +23340,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -22588,6 +23384,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -22624,6 +23425,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -22657,6 +23463,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -22732,6 +23543,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -22756,6 +23572,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -22819,6 +23640,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -23020,6 +23846,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -23073,6 +23904,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -23100,6 +23936,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -23123,6 +23964,11 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
         "os": "34"
       },
       {
@@ -23179,6 +24025,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -23223,6 +24074,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -23304,6 +24160,11 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
         "os": "34"
       },
       {
@@ -23449,6 +24310,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -23585,6 +24451,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -23717,6 +24588,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -23816,6 +24692,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -23932,6 +24813,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -24042,6 +24928,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -24384,6 +25275,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -24568,6 +25464,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -24705,6 +25606,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -24839,6 +25745,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -24968,6 +25879,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -25033,6 +25949,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -25077,6 +25998,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -25101,6 +26027,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -25152,6 +26083,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -25242,6 +26178,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -25479,6 +26420,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -25790,6 +26736,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -25883,6 +26834,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -25958,6 +26914,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -26021,6 +26982,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -26048,6 +27014,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -26072,6 +27043,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26187,6 +27163,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -26364,6 +27345,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -26484,6 +27470,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26680,6 +27671,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -26777,6 +27773,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       }
     ]
   },
@@ -26833,6 +27834,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -26860,6 +27866,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -26882,6 +27893,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -26897,7 +27913,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "Work profile"
       }
     ],
@@ -26911,6 +27927,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26955,6 +27976,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27007,6 +28033,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -27056,6 +28087,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -27075,6 +28111,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27102,6 +28143,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27150,6 +28196,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27381,6 +28432,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -27457,6 +28513,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -27812,6 +28873,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -27895,6 +28961,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -27987,6 +29058,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -28130,6 +29206,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -28239,6 +29320,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -28378,6 +29464,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -28482,18 +29573,6 @@
       }
     ]
   },
-  "com.samsung.android.mdx.quickboard": {
-    "appName": "Media and devices",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      }
-    ]
-  },
   "com.hihonor.medialibrary": {
     "appName": "Media Library",
     "userFacing": false,
@@ -28503,6 +29582,28 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.samsung.android.mdx.quickboard": {
+    "appName": "Media output",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Media and devices"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       }
     ]
   },
@@ -28561,6 +29662,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -28717,6 +29823,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -28797,6 +29908,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -28835,6 +29951,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -28934,6 +30055,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -28971,6 +30097,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -29006,6 +30137,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -29399,6 +30535,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -29492,6 +30633,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -29547,6 +30693,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -29795,6 +30946,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -29856,6 +31012,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -30118,6 +31279,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -30205,6 +31371,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -30238,6 +31409,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -30406,6 +31582,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -30567,6 +31748,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -30681,6 +31867,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -30898,6 +32089,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -31083,6 +32279,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -31359,6 +32560,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -31451,6 +32657,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -31738,6 +32949,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -31766,6 +32982,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -31790,6 +33011,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -32259,6 +33485,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -32453,6 +33684,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -32582,6 +33818,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -32691,6 +33932,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -32772,6 +34018,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -32860,6 +34111,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -32973,6 +34229,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -33014,6 +34275,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -33217,6 +34483,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -33394,6 +34665,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -33539,6 +34815,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -33682,6 +34963,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -33844,6 +35130,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -33882,6 +35173,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -34629,6 +35925,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -34709,6 +36010,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -34836,6 +36142,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -34941,6 +36252,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -35134,6 +36450,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -35280,6 +36601,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -35527,6 +36853,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -35556,6 +36887,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -35592,6 +36928,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -35770,6 +37111,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -35860,6 +37206,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -35921,6 +37272,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -36194,6 +37550,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -36213,6 +37574,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36409,6 +37775,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -36513,6 +37884,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -36586,6 +37962,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -36622,6 +38003,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -36646,6 +38032,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36676,6 +38067,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -36691,12 +38087,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Samsung Cloud Platform Manager"
-      },
-      {
         "locale": "it-it",
         "name": "Assistente Samsung Cloud"
+      },
+      {
+        "locale": "",
+        "name": "Samsung Cloud Platform Manager"
       }
     ],
     "devices": [
@@ -36709,6 +38105,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36763,6 +38164,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36889,6 +38295,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37027,6 +38438,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -37060,6 +38476,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37122,7 +38543,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "",
         "name": "Sec Media Storage"
       }
     ],
@@ -37136,6 +38557,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37280,6 +38706,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -37313,6 +38744,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37373,6 +38809,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37448,6 +38889,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37610,6 +39056,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -37634,6 +39085,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37703,6 +39159,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -37722,6 +39183,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37778,6 +39244,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37850,12 +39321,22 @@
   "com.samsung.SMT.lang_ru_ru_f00": {
     "appName": "SamsungTTS Russian Voice 1",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "SamsungTTS Russian Default voice 1 - Classic"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37878,6 +39359,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37925,6 +39411,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -37932,6 +39423,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.SMT.lang_en_us_f00": {
+    "appName": "SamsungTTS US English Default voice 1 - Classic",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       }
     ]
   },
@@ -38297,6 +39800,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -38372,6 +39880,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -38391,6 +39904,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -38482,6 +40000,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -38531,6 +40054,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -38654,6 +40182,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -38804,6 +40337,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -38828,6 +40366,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -38870,6 +40413,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -38897,6 +40445,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -38921,6 +40474,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -38961,6 +40519,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -39037,6 +40600,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -39212,6 +40780,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -39326,6 +40899,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -39396,6 +40974,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       }
     ]
   },
@@ -39408,6 +40991,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -39447,6 +41035,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -39549,6 +41142,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -39642,6 +41240,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -39678,6 +41281,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -39741,6 +41349,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -39920,6 +41533,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -40021,6 +41639,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -40057,6 +41680,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40189,6 +41817,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -40216,6 +41849,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -40240,6 +41878,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40329,6 +41972,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -40358,6 +42006,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40397,6 +42050,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40502,6 +42160,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -40526,6 +42189,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40609,6 +42277,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -40642,6 +42315,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40688,6 +42366,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40793,6 +42476,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -40826,6 +42514,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -41104,6 +42797,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -41293,6 +42991,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -41347,6 +43050,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -41552,6 +43260,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -41627,6 +43340,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -41805,6 +43523,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -42026,6 +43749,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -42186,6 +43914,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -42308,6 +44041,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -42484,6 +44222,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -42593,6 +44336,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -42789,6 +44537,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -42906,6 +44659,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -42966,6 +44724,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -43274,6 +45037,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -43393,6 +45161,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -43864,6 +45637,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -44156,6 +45934,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -44217,6 +46000,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -44308,7 +46096,7 @@
     ]
   },
   "com.sec.android.widgetapp.webmanual": {
-    "appName": "User manual",
+    "appName": "User guide",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -44316,6 +46104,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       }
     ]
   },
@@ -44646,6 +46439,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -44870,6 +46668,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -45053,6 +46856,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -45086,6 +46894,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -45195,6 +47008,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -45278,6 +47096,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -45302,6 +47125,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -45338,6 +47166,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -45483,6 +47316,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -45586,6 +47424,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -45695,6 +47538,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -45847,6 +47695,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -45916,6 +47769,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -46233,6 +48091,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
