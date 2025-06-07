@@ -12,31 +12,40 @@ excerpt: ''
 type: page
 layout: project.njk
 ---
-**MANAGED INFO is an information & support utility designed to provide managed Android device users with a simple interface configured with actions, support information, and device details.**
+**MANAGED INFO is a powerful information and support utility for Android Enterprise deployments, offering a flexible interface for delivering actions, support content, and contextual device details — now with hybrid kiosk and launcher functionality.**
 
 ## What does MANAGED INFO do?
 
-MANAGED INFO allows an administrator to configure:
+MANAGED INFO enables administrators to configure:
 
-- Quick actions, for calling, emailing, browsing a website, or pulling up a configured location
-- Organisation messages, with basic HTML support, allowing for rich, admin-defined messaging in-app
-- Contact information
-- Device details
+- **Quick actions**: Call, email, browse a website, or open a map location at a tap
+- **Organisation messages**: Show rich messages using HTML for onboarding, compliance, or guidance
+- **Contact information**: Display relevant IT or business support details
+- **Device details**: Surface technical and diagnostic info from the device itself
+- **Custom layouts**: Build fully bespoke experiences with stack-based layouts, app cards, banners, section titles, and more
+- **Launcher mode**: Transform MANAGED INFO into a custom home screen, replacing the Android launcher
+- **Admin override**: Secure local access to full device capabilities via PIN, bypassing kiosk constraints temporarily
 
 ## Who is MANAGED INFO for?
 
-Useful in a multi-app kiosk environment as a means of providing help & support information, but equally offers typical knowledge worker deployment scenarios direct access to organisation-defined information at the tap of an icon.
+- **Kiosk deployments**: Deliver support, compliance, and access to key apps in retail, healthcare, or logistics environments
+- **Knowledge worker devices**: Offer rich, branded help content and device info to staff
+- **Custom deployments**: Build role-based or team-specific layouts using branded templates, colours, and app sets
+
+Whether you're running a multi-app kiosk environment or offering a branded launcher experience, MANAGED INFO adapts to your environment — fully configurable via any supported EMM.
 
 ## What does MANAGED INFO cost?
 
 MANAGED INFO is a **free** application. An optional licence unlocks additional customisation options, including:
 
-- Hiding branding
-- Custom app title
-- Custom information cards
-- Disabling fun (😁)
+- **Custom cards and banners**
+- **Organisation branding**
+- **App grid configuration**
+- **Theming and layout control**
+- **Device identifiers**
+- **“Fun” toggle 😁**
 
-If desired, MANAGED INFO can be organisation-branded as a custom application. Please get in touch if interested.
+Licensing can be per device, or a flat fee per organisation. Branding and white-label builds are also available.
 
 View more details and pricing information:
 
