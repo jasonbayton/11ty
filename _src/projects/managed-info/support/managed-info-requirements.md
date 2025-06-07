@@ -56,8 +56,8 @@ For wider Android Enterprise support, which includes access to Google Play, acco
 
 This is not mandatory, however actions will fail with a warning.
 
-## Fully offline support
+## Fully-offline support
 
 MANAGED INFO can work in a fully-offline environment, though managed configuration will need to be delivered via alternative methods. Future functionality may be limited, however will have no impact on the core use case of the application.
 
-Customisations currently cannot work in a fully offline environment. Licensing has a 48 hour network unavailability grace period from the last successful PING before licensed features are disabled. Get in touch if this is a concern.
+Customisations currently cannot work in a fully offline environment. Licensing has a 30-day network unavailability grace period from the last successful PING before licensed features are disabled. Get in touch if this is a concern.

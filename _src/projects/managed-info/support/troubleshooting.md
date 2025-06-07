@@ -100,7 +100,7 @@ MANAGED INFO will receive the managed configuration either from the DPC or compa
 Three scenarios where configuration becomes unavailable:
 
 1. The organisation ID is no longer licensed. View the licensed state in settings or fetch a bug report remotely, `PING service` will indicate status.
-2. The device is offline for an extended period. This is currently 7 days, but I'm open to feedback.
+2. The device is offline for an extended period. This is currently 30 days, but I'm open to feedback.
 3. The EMM/DPC is sending blank/malformed configurations without admin input
 4. There's a bug 🙃
 

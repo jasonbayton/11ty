@@ -45,15 +45,15 @@ Without a configuration, a welcome card is displayed. When a managed config payl
 
 Quick settings and contact details are reliant on filling out the contact information. If the default entries are blanked with no additional data provided:
 
-- Contact details items will vanish (ie, remove the phone number, the phone information row will vanish)
-- The quick setting will remain, but show an unconfigured error if tapped (ie the call quick setting will show, but tapping it does nothing)
+- Contact details items will vanish (i.e., remove the phone number, the phone information row will vanish)
+- The quick setting will remain, but show an unconfigured error if tapped (i.e. the call quick setting will show, but tapping it does nothing)
 - If you clear all contact details data, a warning will show on the device.
 
 You choose the information you provide, naturally, but be mindful of the above when doing so.
 
 ### Formatting the organisation message 
 
-FYI, the organisation message field supports HTML & Markdown! You may use the following HTML tags: 
+The organisation message field supports HTML & Markdown! You may use the following HTML tags: 
 
 - `<P>` - HTML paragraph 
 - `<A>` - HTML link
@@ -74,3 +74,21 @@ Or respective markdown tags:
 Feel free to customise this message as desired, or simply input a string.
 
 Once configured and ready to deploy, push the application to desired devices.
+
+## Licence setup & advanced configuration
+
+With a licence, available either as a one-time fee for the entire organisation, or £0.50 for each device requiring advanced configuration (see [pricing](/projects/managed-info/pricing)), it then becomes possible to unlock the full suite of cards and settings MANAGED INFO has to offer. 
+
+To configure the licence:
+
+1. Open MANAGED INFO managed configuration settings within the EMM in use.
+2. Scroll to **Customisation settings**
+3. Input the provided licence key in **Licensed organisation ID**.
+
+Once licensed, the following configurations will become functional:
+
+- Customisation settings
+- Kiosk settings
+- Build a card layout
+
+Additionally, it will be possible to switch the device info cards to a button in the top bar.

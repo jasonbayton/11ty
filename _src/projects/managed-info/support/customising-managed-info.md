@@ -85,6 +85,19 @@ MANAGED INFO offers the following customisations:
     
 **Launcher mode** _-1.0.3.0_
 : Enable launcher mode to support persistent preferred intents, a more flexible home/launcher approach to the kiosk experience.
+    
+**Admin override for kiosk** _-1.0.4.0_
+: When MANAGED INFO is in kiosk or launcher mode, an admin override feature is present to allow access to all device applications, temporarily.
+
+**Admin override password for kiosk** _-1.0.5.0_
+: When MANAGED INFO is in kiosk or launcher mode, an admin override feature can be enabled or disabled by an admin, with a password, to allow access to all device applications, temporarily.
+
+**Theme override** _-1.0.5.0_
+: The base theme (dark, light) can be manually configured to assist in default colour alignment based on use case.
+
+**Additional colour options** _-1.0.5.0_
+: It is possible to set unique text colours based on whether the text is in a card, or on the background of the app (e.g., card titles vs card content).
+
 
 ### In future
 
