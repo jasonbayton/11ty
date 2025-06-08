@@ -17,70 +17,57 @@ eleventyNavigation:
     title: Configuration scenarios
 ---
 
-Explore practical examples of how to deploy MANAGED INFO for different use cases. These serve as inspiration or starting points when defining your own managed configuration.
+Explore practical examples of how to deploy MANAGED INFO for different use cases. These serve as inspiration when defining your own managed configuration.
 
 ## 1. Support hub for knowledge workers
 
 **Goal**: Provide IT support, contact details, and a helpful message.
 
 **Recommended config**:
-- `enable_quick_actions = true`
-- `quick_action_settings`: enable email, phone, and web
-- `contact_info`: set email, phone, support site, helpdesk address
-- `enable_org_message = true` + rich message in `org_message`  
-    **Example**:  
+- **Show quick actions** = true
+- **Manage individual quick actions**: email, phone, and web
+- **Contact information**: set helpdesk email, phone, support site, address
+- **Show organisation message card** = true + message in **Organisation message**  
     > “If you need assistance, please contact IT Support via the details below. We're here to help with any device or access issues.”
-- `enable_contact_details = true`
-- `enable_device_details = true` (optional)
+- **Show contact details card** = true
+- **Show device details card** = true (optional)
 
 **Ideal for**: Front-line staff, field engineers, hybrid employees.
-
----
 
 ## 2. Simple info screen for kiosk devices
 
 **Goal**: Show device ID, organisation details, and support info only.
 
 **Recommended config**:
-- `enable_quick_actions = false`
-- `enable_contact_details = true`
-- `enable_device_details = true`
-- `enable_device_identifiers = true` (requires licence)
-- `allow_fun = false`
-- `custom_app_title = "Support Info"` (requires licence)
-- Reorder top-level cards via `set_order`
+- **Show quick actions** = false
+- **Show contact details card** = true
+- **Show organisation message card** = true + **Organisation message**  
+    > “Asset # '\$variable$'”
 
-**Ideal for**: Shared tablets, unmanned kiosks, digital signage.
+**Ideal for**: Shared tablets, unmanned kiosks, digital signage requiring declaration of ownership.
 
----
-
-## 3. Multi-App launcher layout (licensed use case)
+## 3. Multi-App launcher layout (licensed)
 
 **Goal**: Present a grid of approved applications with friendly labels.
 
 **Recommended config**:
-- `card_stacks > stack_multi_app_card`: one or more stacks with:
-  - `grid_columns = 3` (or desired layout)
-  - Comma-separated `package_names`
-  - Optional gaps via `,,`
-  - `stack_multi_app_card_title` for context
-- `kiosk_custom_background_image` or `kiosk_custom_background_colour`
-- Optional: `kiosk_custom_card_colour` and `kiosk_custom_text_colour`
-- `enable_stack = true`
+- **Application grid card stack**: one or more stacks with:
+  - **Grid columns** = 4 (or desired layout)
+  - Comma-separated **Package names**
+  - Optional gaps via added commas `,,`
+  - **Card title** for context
+- **Custom background image** or **Custom background colour**
+- Optional: **Custom card colour** and **Custom card text colour**
 
-**Ideal for**: Company devices, training tablets, role-based deployments.
+**Ideal for**: Company devices, training tablets, role-based deployments, logistics, warehousing
 
----
-
-## 4. Single-app cards with context (licensed use case)
+## 4. Single-app cards with context (licensed)
 
 **Goal**: Highlight an app with an explainer or warning.
 
 **Recommended config**:
-- `card_stacks > stack_single_app_card`:
-  - Provide `package_name`, message, and title
-  - `enable_single_app_stack_card = true`
-  - Consider a heading for context
+- **App and message card stack**:
+  - Provide **Package name**, message, and (optional) title
 
 **Example**:  
 > “Use Google Drive to access shared documents. You’ll need your work email address.”
@@ -89,18 +76,18 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 ---
 
-## 5. Custom theme for brand consistency (licensed use case)
+## 5. Custom theme for brand consistency (licensed)
 
 **Goal**: Fully themed visual experience with brand colours and logo.
 
 **Recommended config**:
-- `custom_app_title = "MyCo Info Hub"`
-- `allow_fun = false`
-- `kiosk_custom_background_image = <url or base64>`
-- `kiosk_custom_card_colour = "#F4F4F4"`
-- `kiosk_custom_text_colour = "#000000"`
-- `kiosk_custom_background_text_colour = "#004080"`
-- Optional: enable `kiosk_enable_launcher`
+- **Custom app title** = "MyCo Info Hub"
+- **Allow fun** = false
+- **Custom background image** = <url or base64>
+- **Custom card colour** = "#F4F4F4"
+- **Custom card text colour** = "#000000"
+- **Custom background text colour** = "#004080"
+- Optional: enable **Enable launcher**
 
 **Ideal for**: Internal rollouts across managed corporate fleets.
 
@@ -111,9 +98,9 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 **Goal**: Grant full device access temporarily, with PIN-protected override.
 
 **Recommended config**:
-- `kiosk_enable_launcher = true`
-- `kiosk_enable_admin_override = true`
-- `kiosk_admin_password = "12345"` (or managed secret)
+- **Enable launcher** = true
+- **Enable admin override** = true
+- **Admin override code** = "12345" (or managed secret)
 
 **Ideal for**: IT teams deploying in kiosk mode with minimal friction.
 
@@ -124,9 +111,9 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 **Goal**: Provide only a single message or action.
 
 **Recommended config**:
-- Disable all toggles except `enable_org_message = true`
-- Set `org_message = "<i>This device is provisioned by XYZ Ltd.</i>"`
-- Optional: `custom_app_title = ""`
+- Disable all toggles except **Show organisation message card** = true
+- Set **Organisation message** = "<i>This device is provisioned by XYZ Ltd.</i>"
+- Optional: **Custom app title** = ""
 
 **Ideal for**: Provisioning context, lost device info, device setup testing.
 
