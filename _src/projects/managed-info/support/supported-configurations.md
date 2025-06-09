@@ -174,8 +174,7 @@ Each stack (`stack_bundle`) may contain:
 | Package Names | `stack_multi_app_card_package_names` | `string` | `com.android.chrome, org.bayton.packagesearch` | Comma-separated list of package names or URLs |
 | Card Order | `stack_multi_app_card_order` | `int` | `0` | Order of the card in the stack |
 | Grid Columns | `stack_multi_app_card_grid_columns` | `int` | `0` | Grid column count, `0` = auto |
-| Space Evenly | `stack_multi_app_card_space_evenly` | `bool` |  | Whether apps are spaced evenly |
-| Blocklist Mode | `stack_multi_app_card_blocklist` | `bool` |  | If `true`, this card will display **all apps EXCEPT** those listed |
+| Blocklist Mode | `stack_multi_app_card_blocklist` | `bool` | false | If `true`, this card will display **all apps EXCEPT** those listed |
 | Enable Multi-App Card | `enable_multi_app_stack_card` | `bool` | `false` | Enables this multi-app grid card in the stack. |
 
 </div>
@@ -214,7 +213,7 @@ Each stack (`stack_bundle`) may contain:
 | Setting | Key | Type | Default | Description |
 |---------|-----|------|---------|-------------|
 | Video Embed Title | `stack_video_embed_card_title` | `string` | `Video card title` | Optional title |
-| Video URL | `stack_video_embed_card_url` | `string` | `https://www.youtube.com/watch?v=ezb8wJitEmI` | YouTube video URL |
+| Video URL | `stack_video_embed_card_url` | `string` |  | YouTube video URL |
 | Card Order | `stack_video_embed_card_order` | `int` | `0` | Order of card |
 
 </div>
