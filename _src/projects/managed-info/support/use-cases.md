@@ -113,4 +113,4 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 ## More ideas?
 
-Have your own configuration or use case you'd like featured? [Contribute to the tracker](https://github.com/baytonorg/managed_info_tracker/issues/) or join the [MANAGED INFO Discord](https://discord.gg/7VzRZWVkht) to share and explore others.
+Have your own configuration or use case you'd like featured? [Contribute to the tracker](https://github.com/baytonorg/managed_info_tracker/issues/) or join the [BAYTON Discord](https://discord.gg/7VzRZWVkht) to share and explore others.
