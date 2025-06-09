@@ -455,55 +455,6 @@
       }
     ]
   },
-  "com.google.android.aicore": {
-    "appName": "AI Core",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "AICore"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "AICore"
-      },
-      {
-        "locale": "en-gb",
-        "name": "AICore"
-      },
-      {
-        "locale": "en-de",
-        "name": "AICore"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      }
-    ]
-  },
   "com.oplus.aiunit": {
     "appName": "AI Service Engine",
     "userFacing": false,
@@ -561,6 +512,43 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.aicore": {
+    "appName": "AICore",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "AI Core"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
       }
     ]
   },
@@ -23301,29 +23289,25 @@
       }
     ]
   },
-  "com.google.android.apps.nbu.files": {
+  "com.hihonor.filemanager": {
     "appName": "Files",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      }
+    ]
+  },
+  "com.google.android.apps.nbu.files": {
+    "appName": "Files by Google",
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Files by Google"
-      },
-      {
         "locale": "ru-ru",
         "name": "Google Files"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Files by Google"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Files by Google"
-      },
-      {
-        "locale": "en-de",
-        "name": "Files by Google"
       }
     ],
     "devices": [
@@ -23391,18 +23375,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      }
-    ]
-  },
-  "com.hihonor.filemanager": {
-    "appName": "Files",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
       }
     ]
   },
@@ -26339,112 +26311,6 @@
       }
     ]
   },
-  "com.google.android.videos": {
-    "appName": "Google Play Movies & TV",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Google TV"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Google TV"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "Google TV"
-      },
-      {
-        "locale": "en-be",
-        "name": "Google TV"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Google TV"
-      },
-      {
-        "locale": "en-de",
-        "name": "Google TV"
-      },
-      {
-        "locale": "en-za",
-        "name": "Google TV"
-      }
-    ],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      }
-    ]
-  },
   "com.google.android.music": {
     "appName": "Google Play Music",
     "userFacing": false,
@@ -27128,6 +26994,83 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.videos": {
+    "appName": "Google TV",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
       }
     ]
   },
@@ -30160,12 +30103,20 @@
     ]
   },
   "com.google.android.apps.magicportrait": {
-    "appName": "Magic portrait",
+    "appName": "Magic Portrait",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "nl-nl",
         "name": "Magisch portret"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Magic portrait"
+      },
+      {
+        "locale": "en-de",
+        "name": "Magic portrait"
       }
     ],
     "devices": [
@@ -37855,12 +37806,20 @@
     ]
   },
   "com.android.privatespace": {
-    "appName": "Private space",
+    "appName": "Private Space",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "nl-nl",
         "name": "Privégedeelte"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Private space"
+      },
+      {
+        "locale": "en-de",
+        "name": "Private space"
       }
     ],
     "devices": [
