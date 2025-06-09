@@ -74,8 +74,6 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 **Ideal for**: New user onboarding, app-based workflows, policy comms.
 
----
-
 ## 5. Custom theme for brand consistency (licensed)
 
 **Goal**: Fully themed visual experience with brand colours and logo.
@@ -83,15 +81,13 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 **Recommended config**:
 - **Custom app title** = "MyCo Info Hub"
 - **Allow fun** = false
-- **Custom background image** = <url or base64>
+- **Custom background image** = `<url or base64>`
 - **Custom card colour** = "#F4F4F4"
 - **Custom card text colour** = "#000000"
 - **Custom background text colour** = "#004080"
 - Optional: enable **Enable launcher**
 
 **Ideal for**: Internal rollouts across managed corporate fleets.
-
----
 
 ## 6. Admin testing mode / local debugging
 
@@ -104,8 +100,6 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 **Ideal for**: IT teams deploying in kiosk mode with minimal friction.
 
----
-
 ## 7. Minimal mode
 
 **Goal**: Provide only a single message or action.
@@ -116,8 +110,6 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 - Optional: **Custom app title** = ""
 
 **Ideal for**: Provisioning context, lost device info, device setup testing.
-
----
 
 ## More ideas?
 
