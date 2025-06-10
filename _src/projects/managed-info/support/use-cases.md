@@ -1,5 +1,5 @@
 ---
-title: MANAGED INFO sonfiguration scenarios
+title: MANAGED INFO use cases
 parent: MANAGED INFO support
 published: '2024-06-08'
 status: publish
@@ -14,10 +14,14 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 4
-    title: Configuration scenarios
+    title: Use cases
 ---
 
 Explore practical examples of how to deploy MANAGED INFO for different use cases. These serve as inspiration when defining your own managed configuration.
+
+<div class="grid grid-column-2-1 grid-column-mobile-1 grid-gap-40 grid-gap-mobile-0 padding-tb-30 padding-mobile-tb-10">
+
+<div>
 
 ## 1. Support hub for knowledge workers
 
@@ -34,9 +38,19 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 **Ideal for**: Front-line staff, field engineers, hybrid employees.
 
+</div>
+<div class="grid-align-center">
+<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-1-support-hub.png" width="300px">
+</div>
+</div>
+
+<div class="grid grid-column-2-1 grid-column-mobile-1 grid-gap-40 grid-gap-mobile-0 padding-tb-30 padding-mobile-tb-10">
+
+<div>
+
 ## 2. Simple info screen for kiosk devices
 
-**Goal**: Show device ID, organisation details, and support info only.
+**Goal**: Show device asset ID, organisation details, and support info only.
 
 **Recommended config**:
 - **Show quick actions** = false
@@ -46,20 +60,43 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 **Ideal for**: Shared tablets, unmanned kiosks, digital signage requiring declaration of ownership.
 
+</div>
+<div class="grid-align-center">
+<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-2-basic-support.png" width="300px">
+</div>
+</div>
+
+
+<div class="grid grid-column-2-1 grid-column-mobile-1 grid-gap-40 grid-gap-mobile-0 padding-tb-30 padding-mobile-tb-10">
+
+<div>
+
 ## 3. Multi-App launcher layout (licensed)
 
 **Goal**: Present a grid of approved applications with friendly labels.
 
 **Recommended config**:
+- **Text card** with identifying details (variables supported)
 - **Application grid card stack**: one or more stacks with:
   - **Grid columns** = 4 (or desired layout)
   - Comma-separated **Package names**
   - Optional gaps via added commas `,,`
-  - **Card title** for context
+  - Optional **Card title** for context (not shown)
+  - Grid card transparency enabled
 - **Custom background image** or **Custom background colour**
 - Optional: **Custom card colour** and **Custom card text colour**
 
 **Ideal for**: Company devices, training tablets, role-based deployments, logistics, warehousing
+
+</div>
+<div class="grid-align-center">
+<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-custom-kiosk.png" width="300px">
+</div>
+</div>
+
+<div class="grid grid-column-2-1 grid-column-mobile-1 grid-gap-40 grid-gap-mobile-0 padding-tb-30 padding-mobile-tb-10">
+
+<div>
 
 ## 4. Single-app cards with context (licensed)
 
@@ -74,42 +111,31 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 **Ideal for**: New user onboarding, app-based workflows, policy comms.
 
-## 5. Custom theme for brand consistency (licensed)
+</div>
+<div class="grid-align-center">
+<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-4-get-started.png" width="300px">
+</div>
+</div>
 
-**Goal**: Fully themed visual experience with brand colours and logo.
+<div class="grid grid-column-2-1 grid-column-mobile-1 grid-gap-40 grid-gap-mobile-0 padding-tb-30 padding-mobile-tb-10">
 
-**Recommended config**:
-- **Custom app title** = "MyCo Info Hub"
-- **Allow fun** = false
-- **Custom background image** = `<url or base64>`
-- **Custom card colour** = "#F4F4F4"
-- **Custom card text colour** = "#000000"
-- **Custom background text colour** = "#004080"
-- Optional: enable **Enable launcher**
+<div>
 
-**Ideal for**: Internal rollouts across managed corporate fleets.
-
-## 6. Admin testing mode / local debugging
-
-**Goal**: Grant full device access temporarily, with PIN-protected override.
-
-**Recommended config**:
-- **Enable launcher** = true
-- **Enable admin override** = true
-- **Admin override code** = "12345" (or managed secret)
-
-**Ideal for**: IT teams deploying in kiosk mode with minimal friction.
-
-## 7. Minimal mode
+## 5. Minimal mode
 
 **Goal**: Provide only a single message or action.
 
 **Recommended config**:
 - Disable all toggles except **Show organisation message card** = true
 - Set **Organisation message** = "<i>This device is provisioned by XYZ Ltd.</i>"
-- Optional: **Custom app title** = ""
 
 **Ideal for**: Provisioning context, lost device info, device setup testing.
+
+</div>
+<div class="grid-align-center">
+<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-5-simplistic.png" width="300px">
+</div>
+</div>
 
 ## More ideas?
 
