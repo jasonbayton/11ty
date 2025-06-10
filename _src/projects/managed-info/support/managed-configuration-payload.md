@@ -13,7 +13,7 @@ categories:
     - Managed Info Customisation
 layout: base.njk
 eleventyNavigation: 
-    order: 4
+    order: 7
     title: Managed configuration JSON payload
 ---
 

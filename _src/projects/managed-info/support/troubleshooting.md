@@ -13,7 +13,7 @@ categories:
     - Managed Info Troubleshooting
 layout: base.njk
 eleventyNavigation: 
-    order: 4
+    order: 7
     title: Troubleshooting issues
 ---
 If you're having issues configuring or using MANAGED INFO, the below guidance may help. If not, feel free to contact [project-support@bayton.org](mailto:project-support@bayton.org) or join the [BAYTON Discord](https://discord.gg/YUY7jAjayr).

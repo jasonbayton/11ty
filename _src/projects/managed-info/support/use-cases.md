@@ -13,7 +13,7 @@ categories:
     - Managed Info Customisation
 layout: base.njk
 eleventyNavigation: 
-    order: 3
+    order: 4
     title: Configuration scenarios
 ---
 

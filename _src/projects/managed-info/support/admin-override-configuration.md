@@ -13,7 +13,7 @@ categories:
     - Managed Info Setup
 layout: base.njk
 eleventyNavigation: 
-    order: 4
+    order: 8
     title: Using admin override configuration in kiosk mode
 ---
 
