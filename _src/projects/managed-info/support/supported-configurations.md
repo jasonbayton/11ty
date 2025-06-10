@@ -25,7 +25,7 @@ Managed Configurations enable you to:
 - Define structured layouts using cards, grids, and kiosk elements
 - Configure device details visibility and theming
 
----
+The full managed configuration payload can be seen [here](/projects/managed-info/support/managed-configuration-payload/).
 
 ## Core Controls
 
