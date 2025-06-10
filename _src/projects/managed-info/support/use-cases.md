@@ -90,7 +90,7 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 </div>
 <div class="grid-align-center">
-<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-custom-kiosk.png" width="300px">
+<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-3-custom-kiosk.png" width="300px">
 </div>
 </div>
 
@@ -121,7 +121,31 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 <div>
 
-## 5. Minimal mode
+## 5. Lockdown mode (licensed)
+
+**Goal**: Prevent access to all but minimum required apps outside of permitted times.
+
+**Recommended config**:
+- Disable everything except **Custom cards**
+- Set **Text card** = "`# Time's up \n\n It's time to take a break, little man. \n\n Pop the device on charge and find something else to do. \n\n *The below apps are available, if needed*`"
+- Set **App grid card** with the desired applications.
+  - Leave title blank
+- Enabled app grid card transparency
+- Set background image URL
+
+**Ideal for**: Provisioning context, lost device info, device setup testing.
+
+</div>
+<div class="grid-align-center">
+<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-5-lockdown.png" width="300px">
+</div>
+</div>
+
+<div class="grid grid-column-2-1 grid-column-mobile-1 grid-gap-40 grid-gap-mobile-0 padding-tb-30 padding-mobile-tb-10">
+
+<div>
+
+## 6. Minimal mode
 
 **Goal**: Provide only a single message or action.
 
@@ -133,7 +157,7 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 </div>
 <div class="grid-align-center">
-<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-5-simplistic.png" width="300px">
+<img src="https://cdn.bayton.org/assets/managed_info/mi-use-cases/use-case-6-simplistic.png" width="300px">
 </div>
 </div>
 
