@@ -112,6 +112,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -293,6 +298,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -824,6 +834,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -991,16 +1006,16 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Android S Easter Egg"
-      },
-      {
         "locale": "en-be",
         "name": "Android R Easter Egg"
       },
       {
         "locale": "en-za",
         "name": "Android R Easter Egg"
+      },
+      {
+        "locale": "",
+        "name": "Android S Easter Egg"
       }
     ],
     "devices": [
@@ -1107,6 +1122,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -1251,6 +1271,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -1410,6 +1435,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -1529,6 +1559,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -1664,6 +1699,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -1808,6 +1848,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -1962,6 +2007,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -2086,6 +2136,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -2266,6 +2321,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -3115,6 +3175,18 @@
       }
     ]
   },
+  "com.aura.oobe.lenovo": {
+    "appName": "AppServices",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.qualcomm.qtil.aptxui": {
     "appName": "aptxui",
     "userFacing": false,
@@ -3192,6 +3264,18 @@
       }
     ]
   },
+  "com.mediatek.mt6983.gamedriver": {
+    "appName": "Arm GPU Game Driver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.fido.fido2client": {
     "appName": "asmsdk",
     "userFacing": false,
@@ -3223,6 +3307,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -4353,6 +4442,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -4477,6 +4571,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -4688,6 +4787,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -4829,6 +4933,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -5033,6 +5142,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -5122,6 +5236,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -5195,10 +5314,6 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Calendar Storage"
-      },
-      {
-        "locale": "en-gb",
         "name": "Calendar Storage"
       },
       {
@@ -5330,6 +5445,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -5546,6 +5666,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -5896,6 +6021,18 @@
       }
     ]
   },
+  "com.lenovotab.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.oemextensions": {
     "appName": "Camera Extensions Service",
     "userFacing": false,
@@ -6056,6 +6193,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -6275,6 +6417,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -6976,6 +7123,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -7176,6 +7328,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -7358,6 +7515,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -7734,6 +7896,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -8016,6 +8183,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -8176,6 +8348,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -8656,6 +8833,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -8780,6 +8962,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -9167,6 +9354,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -9406,6 +9598,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -9520,6 +9717,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -10058,6 +10260,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -10229,6 +10436,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -10254,6 +10466,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -11131,6 +11348,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -11298,6 +11520,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -11744,6 +11971,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -12152,6 +12384,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -12274,6 +12511,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -12376,6 +12618,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -12462,6 +12709,11 @@
       {
         "make": "isafemobile",
         "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -12553,6 +12805,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -12594,6 +12851,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -12704,6 +12966,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -12735,6 +13002,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -13049,6 +13321,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -13214,6 +13491,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -13505,6 +13787,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -13609,6 +13896,52 @@
       }
     ]
   },
+  "com.google.android.networkstack.overlay": {
+    "appName": "com.google.android.networkstack.overlay",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "NetworkStackGoogleResOverlay"
+      },
+      {
+        "locale": "en-gb",
+        "name": "GoogleNetworkStackResOverlay"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.networkstack.tethering.emulator": {
     "appName": "com.google.android.networkstack.tethering.emulator",
     "userFacing": false,
@@ -13673,6 +14006,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -13917,6 +14255,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -14004,6 +14347,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -14058,6 +14406,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.comms.wifi": {
+    "appName": "com.google.android.overlay.gmsconfig.comms.wifi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -14125,6 +14485,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -14215,6 +14580,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -14271,6 +14641,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -14338,6 +14713,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -14417,6 +14797,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -14626,6 +15011,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -14772,6 +15162,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -14851,6 +15246,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -14968,6 +15368,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -15062,6 +15467,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -15141,6 +15551,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -15602,6 +16017,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -16173,6 +16593,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -16398,15 +16823,39 @@
       }
     ]
   },
-  "com.lenovo.lenovoprivacy": {
-    "appName": "com.lenovo.lenovoprivacy",
+  "com.lgsi.android.overlay.common": {
+    "appName": "com.lgsi.android.overlay.common",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
         "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.lgsi.android.overlay.special.framework": {
+    "appName": "com.lgsi.android.overlay.special.framework",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.lgsi.android.overlay.special.systemui": {
+    "appName": "com.lgsi.android.overlay.special.systemui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -16454,6 +16903,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -16495,6 +16949,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -16640,6 +17099,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -16677,6 +17141,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -16713,6 +17182,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -16819,6 +17293,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -16835,6 +17314,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -16897,6 +17381,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -16919,6 +17408,23 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.systemuiwmshellresoverlay": {
+    "appName": "com.mediatek.systemuiwmshellresoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -16930,6 +17436,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -16957,6 +17468,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -18560,6 +19076,18 @@
       }
     ]
   },
+  "com.tblenovo.launcher.overlay": {
+    "appName": "com.tblenovo.launcher.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.theme.icondefaultshape": {
     "appName": "com.theme.icondefaultshape",
     "userFacing": false,
@@ -18920,6 +19448,126 @@
       }
     ]
   },
+  "com.zui.dynamic.color.overlay": {
+    "appName": "com.zui.dynamic.color.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.blue": {
+    "appName": "com.zui.theme.settings.overlay.blue",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.golden": {
+    "appName": "com.zui.theme.settings.overlay.golden",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.grace": {
+    "appName": "com.zui.theme.settings.overlay.grace",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.lime": {
+    "appName": "com.zui.theme.settings.overlay.lime",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.mostbeautiful": {
+    "appName": "com.zui.theme.settings.overlay.mostbeautiful",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.pink": {
+    "appName": "com.zui.theme.settings.overlay.pink",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.tabui": {
+    "appName": "com.zui.theme.settings.overlay.tabui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.thin": {
+    "appName": "com.zui.theme.settings.overlay.thin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zuisdk": {
+    "appName": "com.zuisdk",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.engineermode": {
     "appName": "CommercialEngineerMode",
     "userFacing": false,
@@ -19053,6 +19701,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -19290,6 +19943,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -19696,6 +20354,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -19857,6 +20520,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -20126,6 +20794,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -20263,6 +20936,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -20376,6 +21054,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -20619,6 +21302,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -20777,6 +21465,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -20814,6 +21507,23 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tblenovo.desktoplauncher": {
+    "appName": "Desktop Smart Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -21060,6 +21770,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -21161,6 +21876,23 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tblenovo.tabpushout": {
+    "appName": "Device Service Support",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -21401,6 +22133,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -21780,6 +22517,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -21875,6 +22617,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -21887,6 +22634,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.dolby.dolbyvisionservice": {
+    "appName": "Dolby Vision",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -22009,6 +22768,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -22156,6 +22920,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -22289,6 +23058,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -22511,6 +23285,11 @@
       {
         "make": "isafemobile",
         "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -22824,6 +23603,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -23058,10 +23842,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Emergency"
-      },
-      {
         "locale": "ru-ru",
         "name": "com.android.emergency"
       }
@@ -23145,6 +23925,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -23333,6 +24118,18 @@
       }
     ]
   },
+  "com.lenovo.EngineeringCode": {
+    "appName": "Engineering Code",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.mediatek.engineermode": {
     "appName": "EngineerMode",
     "userFacing": false,
@@ -23367,6 +24164,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -23444,6 +24246,18 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      }
+    ]
+  },
+  "com.google.android.apps.mediahome.launcher": {
+    "appName": "Entertainment Space",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -23681,6 +24495,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -23853,6 +24672,18 @@
       }
     ]
   },
+  "com.tbsmart.levision": {
+    "appName": "Face-recognition",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.faceservice": {
     "appName": "FaceService",
     "userFacing": false,
@@ -24014,6 +24845,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.example.android.factoryreset": {
+    "appName": "FactoryReset",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -24281,6 +25124,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -24382,6 +25230,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -25132,6 +25985,18 @@
       }
     ]
   },
+  "com.zui.keyboardupdate": {
+    "appName": "Firmware update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.ykjjx.flashlight": {
     "appName": "FlashLight",
     "userFacing": false,
@@ -25413,6 +26278,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -26059,6 +26929,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -26169,6 +27044,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -26290,6 +27170,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -26427,6 +27312,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -26496,6 +27386,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -26671,6 +27566,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -26829,6 +27729,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -27075,6 +27980,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -27209,6 +28119,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -27333,6 +28248,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -27559,6 +28479,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -27763,6 +28688,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -27892,6 +28822,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -28064,6 +28999,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -28153,6 +29093,11 @@
       {
         "make": "isafemobile",
         "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -28252,6 +29197,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -28576,6 +29526,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -28604,6 +29559,18 @@
       }
     ]
   },
+  "com.lenovo.hecplatform.hecagent": {
+    "appName": "HECAgent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.coloros.operationManual": {
     "appName": "Help & feedback",
     "userFacing": false,
@@ -28620,10 +29587,6 @@
     "appName": "Hey Google Hotword",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Google Assistant"
-      },
       {
         "locale": "ru-ru",
         "name": "Google Assistant"
@@ -28678,6 +29641,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -28921,6 +29889,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.zui.homesettings": {
+    "appName": "HomeSettings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -29169,6 +30149,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -29616,6 +30601,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -29778,6 +30768,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -30003,6 +30998,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -30146,6 +31146,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -30212,6 +31217,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.google.android.apps.kids.home": {
+    "appName": "Kids Space",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -30653,6 +31670,54 @@
       }
     ]
   },
+  "com.lenovo.hec.lenovoextend": {
+    "appName": "Lenovo Freestyle",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.lenovo.lsf": {
+    "appName": "Lenovo ID",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.wifip2p": {
+    "appName": "Lenovo One",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.lenovo.tab_extreme": {
+    "appName": "Lenovo Tab Extreme",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.lenovo.tab_k10": {
     "appName": "Lenovo Tab K10",
     "userFacing": false,
@@ -30662,6 +31727,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.tblenovo.center": {
+    "appName": "Lenovo Vantage",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -30677,6 +31754,18 @@
       }
     ]
   },
+  "android.autoinstalls.config.Lenovo.tablet": {
+    "appName": "Lenovo_PAI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.tblenovo.landscapevision.lenovolandscapevision": {
     "appName": "LenovoLandscapeVision",
     "userFacing": false,
@@ -30686,6 +31775,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.lenovo.launcher.provider": {
+    "appName": "LenovoLauncherProvider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -30995,6 +32096,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -31206,6 +32312,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -31230,6 +32341,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -31456,6 +32572,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -31555,6 +32676,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -31729,6 +32855,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -31862,6 +32993,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -32212,6 +33348,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -32380,6 +33521,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -32532,6 +33678,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -32878,6 +34029,18 @@
       }
     ]
   },
+  "com.longcheertel.midtest": {
+    "appName": "Midtest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.agui.minimode": {
     "appName": "Mini mode",
     "userFacing": false,
@@ -32936,6 +34099,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -33124,6 +34292,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -33331,6 +34504,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -33613,6 +34791,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -34194,6 +35377,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -34412,6 +35600,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -34454,10 +35647,6 @@
       {
         "locale": "",
         "name": "NetworkStackResOverlay"
-      },
-      {
-        "locale": "en-gb",
-        "name": "com.android.networkstack.overlay"
       },
       {
         "locale": "ru-ru",
@@ -34511,54 +35700,14 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      }
-    ]
-  },
-  "com.google.android.networkstack.overlay": {
-    "appName": "NetworkStackOverlay",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "ru-ru",
-        "name": "NetworkStackGoogleResOverlay"
-      },
-      {
-        "locale": "en-gb",
-        "name": "GoogleNetworkStackResOverlay"
-      },
-      {
-        "locale": "",
-        "name": "com.google.android.networkstack.overlay"
-      }
-    ],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
       }
     ]
   },
@@ -34606,7 +35755,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "Nfc Service"
+        "name": "NFC Migration"
       },
       {
         "locale": "ru-ru",
@@ -34730,6 +35879,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -34846,6 +36000,18 @@
       }
     ]
   },
+  "com.zui.notes": {
+    "appName": "Notepad",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.role.notes.enabled": {
     "appName": "Notes Role enabled",
     "userFacing": false,
@@ -34919,6 +36085,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -35226,6 +36397,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -35370,6 +36546,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -35382,6 +36563,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -35433,10 +36619,6 @@
     "appName": "OK Google Hotword",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Google Assistant"
-      },
       {
         "locale": "ru-ru",
         "name": "Google Assistant"
@@ -35491,6 +36673,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -35615,6 +36802,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.longcheer.stress_test": {
+    "appName": "One-touch Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -35814,6 +37013,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.opera.preinstall": {
+    "appName": "Opera Preinstall Data",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -36136,6 +37347,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -36390,6 +37606,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -36534,6 +37755,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -36642,6 +37868,18 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.lenovo.penservice": {
+    "appName": "Pen",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -36821,6 +38059,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -37059,6 +38302,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -37290,10 +38538,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Phone/Messaging Storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Память номеров/SMS/MMS"
       },
@@ -37421,6 +38665,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -37443,10 +38692,6 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Call Management"
-      },
-      {
-        "locale": "en-gb",
         "name": "Call Management"
       },
       {
@@ -37582,6 +38827,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -37746,6 +38996,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -38043,6 +39298,11 @@
       {
         "make": "isafemobile",
         "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -38923,6 +40183,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -39063,6 +40328,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -39162,6 +40432,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -39399,6 +40674,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -39553,6 +40833,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -39993,6 +41278,30 @@
       }
     ]
   },
+  "com.motorola.mobiledesktop.core": {
+    "appName": "Ready For Engine",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.readyforsignature.app": {
+    "appName": "ReadyForSignatureApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.app.omcagent": {
     "appName": "Recommended apps",
     "userFacing": false,
@@ -40232,6 +41541,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -40426,6 +41740,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -42480,6 +43799,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -42788,6 +44112,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -42966,12 +44295,7 @@
   "com.android.se": {
     "appName": "SecureElementApplication",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "SecureElementService"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -43071,6 +44395,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -43635,6 +44964,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -43660,6 +44994,28 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.lenovo.lenovoprivacy": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "com.lenovo.lenovoprivacy"
+      }
+    ],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -43833,6 +45189,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -43846,6 +45207,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.android.providers.settings": {
+    "appName": "Settings Storage",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -43947,6 +45320,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -44006,6 +45384,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -44202,6 +45585,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -44423,6 +45811,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -44496,7 +45889,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "SIM Tool Kit"
+        "name": "SIM Toolkit"
       },
       {
         "locale": "ru-ru",
@@ -44895,6 +46288,18 @@
       }
     ]
   },
+  "com.zui.udevice": {
+    "appName": "Smart accessories",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.smartcallprovider": {
     "appName": "Smart Call",
     "userFacing": false,
@@ -44924,6 +46329,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.tblenovo.launcher": {
+    "appName": "Smart Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -45251,6 +46668,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -45734,6 +47156,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -45937,6 +47364,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -45962,6 +47394,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.lenovo.screensplit": {
+    "appName": "Split Screen",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -46179,6 +47623,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -46400,6 +47849,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -46506,6 +47960,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -46677,6 +48136,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -46909,6 +48373,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -47099,6 +48568,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -47243,6 +48717,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -47316,6 +48795,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -47434,6 +48918,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -47514,6 +49003,11 @@
       {
         "make": "isafemobile",
         "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -47793,6 +49287,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -47967,6 +49466,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -48281,6 +49785,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -48379,20 +49888,12 @@
     ]
   },
   "com.android.networkstack.tethering.overlay": {
-    "appName": "TetheringConfigOverlayGsi",
+    "appName": "TetheringResOverlay",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "en-gb",
         "name": "com.android.networkstack.tethering.overlay"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "TetheringResOverlay"
-      },
-      {
-        "locale": "",
-        "name": "TetheringResOverlay"
       }
     ],
     "devices": [
@@ -48420,6 +49921,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -48441,6 +49947,11 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -48552,6 +50063,30 @@
       }
     ]
   },
+  "com.zui.theme.settings": {
+    "appName": "Themes",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.themes.provider": {
+    "appName": "Themes Provider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.apps.pixel.health": {
     "appName": "Thermometer",
     "userFacing": true,
@@ -48585,6 +50120,18 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      }
+    ]
+  },
+  "com.tblenovo.lenovowhatsnew": {
+    "appName": "Tips",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -48886,6 +50433,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -49017,6 +50569,23 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.uface": {
+    "appName": "uface",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -49286,6 +50855,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -49311,6 +50885,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -49804,6 +51383,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -49969,6 +51553,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -50178,6 +51767,18 @@
       }
     ]
   },
+  "com.tblenovo.wallpaper": {
+    "appName": "Wallpapers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.uxdesign": {
     "appName": "Wallpapers & style",
     "userFacing": false,
@@ -50327,6 +51928,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -50469,6 +52075,18 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.lenovo.weathercenter": {
+    "appName": "Weather Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -50742,6 +52360,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -50766,6 +52389,10 @@
         "name": "Notfallbenachrichtigungen an Mobilgeräte"
       },
       {
+        "locale": "en-gb",
+        "name": "Emergency alerts"
+      },
+      {
         "locale": "ru-ru",
         "name": "Экстренные оповещения по беспроводным сетям"
       },
@@ -50776,10 +52403,6 @@
       {
         "locale": "it-it",
         "name": "Avvisi di emergenza wireless"
-      },
-      {
-        "locale": "",
-        "name": "Emergency alerts"
       }
     ],
     "devices": [
@@ -50866,6 +52489,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -51003,10 +52631,6 @@
         "name": "Work profile setup"
       },
       {
-        "locale": "en-gb",
-        "name": "Work profile setup"
-      },
-      {
         "locale": "ru-ru",
         "name": "Рабочий профиль"
       },
@@ -51127,6 +52751,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       },
       {
@@ -51452,6 +53081,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -51539,6 +53173,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -51571,6 +53210,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
     ]
   },
@@ -51582,6 +53226,30 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.pp": {
+    "appName": "ZUI Performance Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.freeform.sidebar": {
+    "appName": "ZuiFreeformBar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
