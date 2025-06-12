@@ -89,6 +89,8 @@ When submitting a PR for **code changes**, ensure you:
 - Ensure you’ve updated the correct language file.
 - Ensure strings remain consistent with other translations (only the text changes, not the structure).
 
+**Please include a name you wish to be credited against, as names of contributors are listed in the application.**
+
 ## When Will Translations Appear in the App?
 
 Translations submitted via PR will be reviewed and merged into the codebase. Once merged, they will appear in the next release of PACKAGE SEARCH, which is updated periodically based on changes, bug fixes, and new features.
