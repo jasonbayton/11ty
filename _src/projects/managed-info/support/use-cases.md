@@ -145,7 +145,7 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 <div>
 
-## 6. Minimal mode
+## 6. Minimal
 
 **Goal**: Provide only a single message or action.
 
