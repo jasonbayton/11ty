@@ -47,4 +47,4 @@ PING checks for application updates roughly every 8 hours, but only queries pack
 
 ## Limitations
 
-1. Limited support for beta version codes & complex application distribution setus. PACKAGE SEARCH compares all version codes to that provided by PING, however PING does not (yet) resolve version codes in the beta/open testing channel. Apps in Beta may report an update is available on Google Play and can be ignored. Additionally, applications that leverage a complex Google Play deployment strategy consisting of several active version codes may not always be reliably picked up, though there is logic to attempt to handle this.
+1. Limited support for beta version codes & complex application distribution setups. PACKAGE SEARCH compares all version codes to that provided by PING, however PING does not (yet) resolve version codes in the beta/open testing channel. Apps in Beta may report an update is available on Google Play and can be ignored. Additionally, applications that leverage a complex Google Play deployment strategy consisting of several active version codes may not always be reliably picked up, though there is logic to attempt to handle this.
