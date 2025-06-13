@@ -55,6 +55,24 @@ eleventyNavigation:
   </ul>
 </div>
 
+## Features & functionality
+
+<div class="support-list">
+  <ul>
+
+  {% for post in collections['Managed Info'] %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Managed Info Features") %}
+
+  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a></li>
+
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+
+  </ul>
+</div>
+
 ## Troubleshooting
 
 <div class="support-list">

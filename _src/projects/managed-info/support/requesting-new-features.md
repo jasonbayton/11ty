@@ -13,7 +13,7 @@ categories:
     - Managed Info Customisation
 layout: base.njk
 eleventyNavigation: 
-    order: 6
+    order: 7
     title: Request a new feature
 ---
 
