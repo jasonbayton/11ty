@@ -304,7 +304,7 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
       "key": "enable_device_details_button",
       "type": "BOOL",
       "title": "Show device details button",
-      "description": "Show device details in an overlay accessible via a button in the top nav. Useful for enticing end users to share a little more about the device they're using, if needed.",
+      "description": "Show device details in an overlay accessible via a button in the top bar. Useful for enticing end users to share a little more about the device they're using, if needed. This will be hidden if both top bar and MANAGED SETTINGS integration are disabled.",
       "defaultValue": false
     },
     {
@@ -352,6 +352,13 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
           "type": "BOOL",
           "title": "Show network information",
           "description": "Shows information about active Wi-Fi and mobile networks.",
+          "defaultValue": true
+        },
+        {
+          "key": "device_details_enable_connectivity_check",
+          "type": "BOOL",
+          "title": "Show Android Enterprise connectivity information",
+          "description": "Runs a network test on all Android Enterprise hosts to validate connectivity, and displays a report.",
           "defaultValue": true
         }
       ]
@@ -448,7 +455,7 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
           "key": "kiosk_enable_top_bar",
           "type": "BOOL",
           "title": "Show top bar",
-          "description": "Turning this off will hide the top bar, including the app title and settings button.",
+          "description": "Turning this off will hide the top bar, including the app title and settings button. If MANAGED SETTINGS integration is enabled, a minimal top bar is shown instead.",
           "defaultValue": true
         },
         {
@@ -457,6 +464,27 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
           "title": "MANAGED SETTINGS integration",
           "description": "This will replace the settings icon in the top-right with that of MANAGED SETTINGS if the top bar is present, or a standalone icon if not. Requires separate configuration of the MANAGED SETTINGS app to define permitted settings.",
           "defaultValue": false
+        },
+        {
+          "key": "kiosk_override_theme",
+          "type": "CHOICE",
+          "title": "System theme override",
+          "description": "Overrides the system theme colours to the mode defined. This allows a fixed light or dark mode with the respective default colours to suit an appropriate use case.",
+          "entries": [
+            {
+              "value": "automatic",
+              "name": "Automatic"
+            },
+            {
+              "value": "dark",
+              "name": "Dark"
+            },
+            {
+              "value": "light",
+              "name": "Light"
+            }
+          ],
+          "defaultValue": "Automatic"
         },
         {
           "key": "kiosk_custom_background_image",
@@ -482,8 +510,15 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
         {
           "key": "kiosk_custom_text_colour",
           "type": "STRING",
-          "title": "Custom text colour",
-          "description": "This sets the colour of app labels and headings, and overrides the standard system-responsive light/dark theme colours. Use a HEX key - #FFFFFF for white, #000000 for black, etc.",
+          "title": "Custom card text colour",
+          "description": "This sets the colour of app labels, and overrides the standard system-responsive light/dark theme colours for text on cards. Use a HEX key - #FFFFFF for white, #000000 for black, etc.",
+          "defaultValue": ""
+        },
+        {
+          "key": "kiosk_custom_background_text_colour",
+          "type": "STRING",
+          "title": "Custom background text colour",
+          "description": "This sets the colour of headings, card titles and top bar text. This overrides the standard system-responsive light/dark theme colours. Use a HEX key - #FFFFFF for white, #000000 for black, etc.",
           "defaultValue": ""
         },
         {
@@ -508,10 +543,17 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
           "defaultValue": false
         },
         {
+          "key": "kiosk_enable_admin_override",
+          "type": "BOOL",
+          "title": "Enable admin override",
+          "description": "When using MANAGED INFO as the device kiosk/launcher app, the admin override provides access to all applications on the device temporarily. Long-pressing on the settings icon(s) will bring up a code input, which can be defined below. Depending on policies applied to the device, applications not explicitly allowlisted in-policy may not launch. This is a limitation of locktask mode.",
+          "defaultValue": false
+        },
+        {
           "key": "kiosk_admin_password",
           "type": "STRING",
-          "title": "Kiosk admin override code",
-          "description": "When using MANAGED INFO as the device kiosk/launcher app, the admin override provides access to all applications on the device temporarily. Long-pressing on the settings icon(s) will bring up a code input, which can be defined here.",
+          "title": "Admin override code",
+          "description": "Define the admin override code.",
           "defaultValue": ""
         }
       ]
