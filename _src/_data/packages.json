@@ -13102,7 +13102,12 @@
   "com.google.android.apps.pixel.relationships": {
     "appName": "com.google.android.apps.pixel.relationships",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Pixel VIPs"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -13118,6 +13123,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
       }
     ]
   },
@@ -14137,11 +14147,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
       },
       {
         "make": "Xiaomi",
