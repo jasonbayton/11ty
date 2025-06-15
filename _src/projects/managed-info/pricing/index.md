@@ -16,6 +16,8 @@ eleventyNavigation:
 
 MANAGED INFO is available at no cost for standard info cards and support messaging. If you'd like to explore endless customisation, **trials are available** before committing to a licence, please [get in touch](/contact) to request one.
 
+<br>
+
 <div class="pricing-table">
     <div class="pricing-item">
         <h3>Ecosystem</h3>
