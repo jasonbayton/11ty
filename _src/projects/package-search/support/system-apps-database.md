@@ -19,21 +19,13 @@ eleventyNavigation:
 
 As of version [1.0.6.5](/projects/package-search/release-notes/1065) PACKAGE SEARCH offers a feature to enable the synchronisation of system applications with the [system apps database](/android/android-system-app-database).
 
-Unlike [package sync & version tracking](/projects/package-search/support/enable-package-sync), no user application data is collected, ensuring any and all apps synced to the database are only those that reside on the device from factory. In addition, version tracking is not enabled for this feature.
-
-When enabled, PACKAGE SEARCH will send to the PING service all declared system apps, along with the device and operating system from which the system apps were found, at most once a day. These applications will then populate on the [system apps database](/android/android-system-app-database), allowing organisations to search for any system apps associated with a device for the purpose of troubleshooting or system apps management within an EMM.
-
-## Don't EMMs already collect this information?
-
-Sure, many do. Some do not. This database is useful either for when applications are not available in the EMM, or the partner supporting an organisation doesn't have immediate access to the customer's EMM.
-
-This is another troubleshooting tool administrators and partners alike can use to validate preloaded system apps when needed.
+When enabled, PACKAGE SEARCH will send to the PING service all declared **system apps**, along with the device and operating system from which the system apps were found, at most once a day. These applications will then populate in the [system apps database](/android/android-system-app-database), allowing organisations to search for any system apps associated with a device for the purpose of troubleshooting or system apps management within an EMM.
 
 ## How to enable
 
-Simply head to settings (the menu icon, top-right from the PACKAGE SEARCH app list), then toggle the option on:
+Simply head to settings (the menu icon, top-right from the PACKAGE SEARCH app list), then toggle the option on: **Contribute to the system apps database**
 
-**Contribute to the system apps database**
+![PS sysapp db](https://cdn.bayton.org/assets/package_search/ps_sysappdb.png)
 
 This will:
 
@@ -43,3 +35,13 @@ This will:
 All the heavy lifting is done by the PING service, this consumes little to no additional battery and a fraction of data.
 
 PING will attempt to sync to the application database whenever a new device is added to the API, however it can take up to a day for the database to update on this website.
+
+## Don't EMMs already collect this information?
+
+Sure, many do. Some do not. This database is useful either for when applications are not available in the EMM, or the partner supporting an organisation doesn't have immediate access to the customer's EMM.
+
+This is another troubleshooting tool administrators and partners alike can use to validate preloaded system apps when needed.
+
+## How is this different to package sync & version tracking?
+
+Unlike [package sync & version tracking](/projects/package-search/support/enable-package-sync), no user application data is collected, ensuring any and all apps synced to the database are only those that reside on the device from factory. In addition, version tracking is not enabled for this feature.
