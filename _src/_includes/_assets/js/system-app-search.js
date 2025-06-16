@@ -34,48 +34,28 @@ async function buildTable() {
   }
 
   function updateFilters() {
-  const selectedMake = filterMake.value;
-  const selectedModel = filterModel.value;
-  const selectedOS = filterOS.value;
+    const selectedMake = filterMake.value;
+    const selectedModel = filterModel.value;
+    const selectedOS = filterOS.value;
 
-  // Start with all deviceAppMatrix, filter down as selections are made
-  let filteredDevices = window.deviceAppMatrix;
-  if (selectedMake) filteredDevices = filteredDevices.filter(d => d.make === selectedMake);
-  if (selectedModel) filteredDevices = filteredDevices.filter(d => d.model === selectedModel);
-  if (selectedOS) filteredDevices = filteredDevices.filter(d => d.os === selectedOS);
+    // Start with all deviceAppMatrix, filter down as selections are made
+    let filteredDevices = window.deviceAppMatrix;
+    if (selectedMake) filteredDevices = filteredDevices.filter(d => d.make === selectedMake);
+    if (selectedModel) filteredDevices = filteredDevices.filter(d => d.model === selectedModel);
+    if (selectedOS) filteredDevices = filteredDevices.filter(d => d.os === selectedOS);
 
-  // Build valid dropdown options from filteredDevices
-  const makes = [...new Set(filteredDevices.map(d => d.make))].sort();
-  const models = [...new Set(filteredDevices.map(d => d.model))].sort();
-  const oses = [...new Set(filteredDevices.map(d => d.os))].sort();
+    // Build valid dropdown options from filteredDevices
+    const makes = [...new Set(filteredDevices.map(d => d.make))].sort();
+    const models = [...new Set(filteredDevices.map(d => d.model))].sort();
+    const oses = [...new Set(filteredDevices.map(d => d.os))].sort();
 
-  filterMake.innerHTML = `<option value="">All OEMs</option>` +
-    makes.map(m => `<option value="${m}" ${m === selectedMake ? 'selected' : ''}>${m}</option>`).join('');
-  filterModel.innerHTML = `<option value="">All Models</option>` +
-    models.map(m => `<option value="${m}" ${m === selectedModel ? 'selected' : ''}>${m}</option>`).join('');
-  filterOS.innerHTML = `<option value="">All OS</option>` +
-    oses.map(o => `<option value="${o}" ${o === selectedOS ? 'selected' : ''}>${o}</option>`).join('');
-
-  let changed = false;
-  // If Make is empty, and only one option (not counting 'All OEMs'), select it
-  if (!filterMake.value && makes.length === 1) {
-    filterMake.value = makes[0];
-    changed = true;
+    filterMake.innerHTML = `<option value="">All OEMs</option>` +
+      makes.map(m => `<option value="${m}" ${m === selectedMake ? 'selected' : ''}>${m}</option>`).join('');
+    filterModel.innerHTML = `<option value="">All Models</option>` +
+      models.map(m => `<option value="${m}" ${m === selectedModel ? 'selected' : ''}>${m}</option>`).join('');
+    filterOS.innerHTML = `<option value="">All OS</option>` +
+      oses.map(o => `<option value="${o}" ${o === selectedOS ? 'selected' : ''}>${o}</option>`).join('');
   }
-  if (!filterModel.value && models.length === 1) {
-    filterModel.value = models[0];
-    changed = true;
-  }
-  if (!filterOS.value && oses.length === 1) {
-    filterOS.value = oses[0];
-    changed = true;
-  }
-  // If we auto-changed, run updateFilters again to cascade the effect
-  if (changed) {
-    updateFilters();
-    return;
-  }
-}
 
   [filterMake, filterModel, filterOS, searchInput].forEach(el => {
     ['input', 'change', 'keyup'].forEach(evt => {
