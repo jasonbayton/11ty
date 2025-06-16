@@ -20,7 +20,9 @@ window.packages = {{ packages | dump | safe }};
 
 Below you'll find a table of system apps across various devices. [These devices](#contributing-devices) have opted in to system app sync in [PACKAGE SEARCH](/projects/package-search/) to build this database, and it is through the volunteering of PACKAGE SEARCH users that this database grows.
 
-<a class="button" src="/projects/package-search/support/system-apps-database">Learn how to contribute</a>
+<a class="" src="/projects/package-search/support/system-apps-database">Learn how to contribute</a>.
+
+<a href="https://play.google.com/store/apps/details?id=org.bayton.packagesearch">{% include "_src/_includes/_assets/img/site_media/get_it_on_google.svg" %}</a>
 
 Packages are updated here daily. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
 
