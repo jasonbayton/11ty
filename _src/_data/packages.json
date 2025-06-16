@@ -67,6 +67,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -259,6 +264,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -789,6 +799,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -1224,6 +1239,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -1385,6 +1405,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -1510,6 +1535,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -1657,6 +1687,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -1799,6 +1834,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -1967,6 +2007,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -2087,6 +2132,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -2210,6 +2260,11 @@
         "os": "35"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -2292,6 +2347,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -3182,6 +3242,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -3247,6 +3312,23 @@
       }
     ]
   },
+  "com.mediatek.mt6983.gamedriver": {
+    "appName": "Arm GPU Game Driver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.mediatek.mt6878.gamedriver": {
     "appName": "Arm GPU Game Driver",
     "userFacing": false,
@@ -3261,18 +3343,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      }
-    ]
-  },
-  "com.mediatek.mt6983.gamedriver": {
-    "appName": "Arm GPU Game Driver",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "TB132FU",
-        "os": "34"
       }
     ]
   },
@@ -3297,6 +3367,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -3384,6 +3459,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -3780,11 +3860,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Avatar picker"
+      },
+      {
         "locale": "en-gb",
         "name": "Avatar picker"
       }
     ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
@@ -4016,6 +4105,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -4392,6 +4486,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -4527,6 +4626,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -4737,6 +4841,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -4884,6 +4993,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -5112,6 +5226,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -5204,6 +5323,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -5396,6 +5520,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -5617,6 +5746,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -5973,6 +6107,18 @@
       }
     ]
   },
+  "com.zui.camera": {
+    "appName": "Camera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -6076,6 +6222,18 @@
       }
     ]
   },
+  "com.zui.camera.assistant": {
+    "appName": "CameraAssistant",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.sprd.cameracalibration": {
     "appName": "CameraCalibration",
     "userFacing": false,
@@ -6149,6 +6307,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -6373,6 +6536,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -7078,6 +7246,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -7278,6 +7451,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -7466,6 +7644,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -7871,6 +8054,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -8133,6 +8321,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -8304,6 +8497,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -8691,6 +8889,11 @@
         "os": "35"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -8781,6 +8984,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -8913,6 +9121,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -9309,6 +9522,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -9396,6 +9614,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -9558,6 +9781,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -9673,6 +9901,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -9892,6 +10125,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -10210,6 +10448,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -10386,6 +10629,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -10462,6 +10710,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -10600,6 +10853,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -10758,6 +11016,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.sarmanager": {
+    "appName": "com.android.sarmanager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       }
     ]
   },
@@ -11013,6 +11283,18 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.settings.overlay": {
+    "appName": "com.android.settings.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       }
     ]
   },
@@ -11298,6 +11580,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -11486,6 +11773,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -12349,6 +12641,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -12459,6 +12756,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -12576,6 +12878,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -12782,6 +13089,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -12827,6 +13139,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -12948,6 +13265,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -12983,6 +13305,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -13201,6 +13528,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -13323,6 +13655,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -13462,6 +13799,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -13757,6 +14099,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -13932,6 +14279,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
@@ -14002,6 +14354,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -14225,6 +14582,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -14310,6 +14672,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -14422,8 +14789,25 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.cts": {
+    "appName": "com.google.android.overlay.gmsconfig.cts",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       }
     ]
   },
@@ -14456,6 +14840,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -14543,6 +14932,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -14686,6 +15080,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -14783,6 +15182,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -14981,6 +15385,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -15127,6 +15536,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -15214,6 +15628,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -15276,6 +15695,11 @@
         "os": "35"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -15331,6 +15755,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -15432,6 +15861,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -15517,6 +15951,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -15985,6 +16424,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -16074,6 +16518,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -16492,6 +16941,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -16525,6 +16979,18 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.wifi.inception.resources.overlay": {
+    "appName": "com.google.android.wifi.inception.resources.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       }
     ]
   },
@@ -16835,6 +17301,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -16845,6 +17316,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -16878,6 +17354,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -16932,6 +17413,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -16966,12 +17452,22 @@
   "com.mediatek.callrecorder": {
     "appName": "com.mediatek.callrecorder",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Call Recorder"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -17011,6 +17507,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -17081,6 +17582,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -17123,6 +17629,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -17163,6 +17674,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -17275,6 +17791,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -17311,6 +17832,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
@@ -17361,6 +17887,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -17439,6 +17970,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -17459,6 +17995,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -19453,6 +19994,30 @@
       }
     ]
   },
+  "com.zui.android.overlay.common": {
+    "appName": "com.zui.android.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
+  "com.zui.android.overlay.product": {
+    "appName": "com.zui.android.overlay.product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.zui.dynamic.color.overlay": {
     "appName": "com.zui.dynamic.color.overlay",
     "userFacing": false,
@@ -19460,8 +20025,37 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.zui.launcher.overlay": {
+    "appName": "com.zui.launcher.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
+  "com.zui.SecretCode": {
+    "appName": "com.zui.SecretCode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       }
     ]
   },
@@ -19470,6 +20064,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -19484,6 +20083,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -19494,6 +20098,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -19508,6 +20117,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -19518,6 +20132,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -19532,6 +20151,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -19542,6 +20166,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -19556,6 +20185,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -19566,6 +20200,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -19657,6 +20296,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -19785,6 +20429,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -19805,6 +20454,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.tblenovo.ue.config": {
+    "appName": "configApk",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       }
     ]
   },
@@ -19899,6 +20560,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -20314,6 +20980,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -20483,6 +21154,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -20567,6 +21243,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -20754,6 +21435,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -20901,6 +21587,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -21029,6 +21720,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -21228,6 +21924,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -21287,6 +21988,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -21420,6 +22126,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -21508,6 +22219,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -21740,6 +22456,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -21879,6 +22600,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
@@ -21894,6 +22620,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -22005,6 +22736,11 @@
         "os": "35"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -22109,6 +22845,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -22482,6 +23223,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -22620,6 +23366,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
@@ -22647,6 +23398,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -22729,6 +23485,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -22875,6 +23636,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -23014,6 +23780,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -23261,6 +24032,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -23561,6 +24337,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -24111,6 +24892,18 @@
       }
     ]
   },
+  "com.validation": {
+    "appName": "Engineer Mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.engineercamera": {
     "appName": "EngineerCamera",
     "userFacing": false,
@@ -24128,6 +24921,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -24260,6 +25058,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -24448,6 +25251,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -24643,6 +25451,18 @@
       }
     ]
   },
+  "com.lenovo.tablet.facedetect": {
+    "appName": "Face Detector",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.settings.future.biometrics.faceenroll": {
     "appName": "Face Enroll",
     "userFacing": false,
@@ -24682,6 +25502,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -25089,6 +25914,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -25201,6 +26031,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -25984,6 +26819,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -25997,8 +26837,25 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.zui.keyboardupdate.olympia": {
+    "appName": "Firmware update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       }
     ]
   },
@@ -26234,6 +27091,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -26889,6 +27751,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -27272,6 +28139,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -27436,6 +28308,18 @@
       }
     ]
   },
+  "com.goodix.fingerprint": {
+    "appName": "GFManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.service.pentastic": {
     "appName": "Glance",
     "userFacing": false,
@@ -27529,6 +28413,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -27685,6 +28574,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -27940,6 +28834,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -28074,6 +28973,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -28204,6 +29108,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -28434,6 +29343,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -28643,6 +29557,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -28788,6 +29707,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -28954,6 +29878,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -29071,6 +30000,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -29178,6 +30112,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -29491,6 +30430,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -29626,6 +30570,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -29904,6 +30853,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -30107,6 +31061,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -30305,8 +31264,18 @@
   "org.ifaa.aidl.manager": {
     "appName": "IFAAService",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "IFAAManagerApp"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
@@ -30556,6 +31525,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -30797,6 +31771,18 @@
       }
     ]
   },
+  "com.zui.resolver": {
+    "appName": "IntentResolver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.interconnectcollectkit": {
     "appName": "InterconnectCollectKit",
     "userFacing": false,
@@ -30990,6 +31976,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -31099,6 +32090,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -31230,6 +32226,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -31694,6 +32695,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -31706,6 +32712,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -31716,6 +32727,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -31742,6 +32758,33 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "android.autoinstalls.config.Lenovo.tablet": {
+    "appName": "Lenovo_PAI",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "PAI"
+      }
+    ],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -31756,18 +32799,6 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
-      }
-    ]
-  },
-  "android.autoinstalls.config.Lenovo.tablet": {
-    "appName": "Lenovo_PAI",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "TB132FU",
-        "os": "34"
       }
     ]
   },
@@ -32061,6 +33092,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -32179,6 +33215,11 @@
         "os": "28"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -32289,6 +33330,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -32342,6 +33388,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -32532,6 +33583,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -32642,6 +33698,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -32820,6 +33881,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -32949,6 +34015,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -33308,6 +34379,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -33496,6 +34572,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -33634,6 +34715,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -34086,6 +35172,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -34248,6 +35339,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -34495,6 +35591,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -34749,6 +35850,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -34945,6 +36051,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -35337,6 +36448,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -35598,6 +36714,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
@@ -35688,6 +36809,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -35837,6 +36963,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -36051,6 +37182,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -36357,6 +37493,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -36549,6 +37690,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
@@ -36564,6 +37710,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -36658,6 +37809,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -37029,6 +38185,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -37394,6 +38555,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -37561,6 +38727,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -37708,6 +38879,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -37884,6 +39060,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -38020,6 +39201,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -38556,6 +39742,10 @@
       },
       {
         "locale": "",
+        "name": "Mobile Network Configuration"
+      },
+      {
+        "locale": "",
         "name": "Phone Call/SMS Storage"
       },
       {
@@ -38618,6 +39808,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -38785,6 +39980,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -38894,6 +40094,10 @@
       },
       {
         "locale": "",
+        "name": "Mobile Data"
+      },
+      {
+        "locale": "",
         "name": "Telefondienste"
       }
     ],
@@ -38952,6 +40156,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -39271,6 +40480,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -39391,6 +40605,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -40138,6 +41357,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -40283,6 +41507,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -40398,6 +41627,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -40629,6 +41863,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -40794,6 +42033,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -41286,8 +42530,18 @@
   "com.motorola.mobiledesktop.core": {
     "appName": "Ready For Engine",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Smart Connect Engine"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -41300,6 +42554,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -41516,6 +42775,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -41721,6 +42985,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -43902,6 +45171,18 @@
       }
     ]
   },
+  "com.zui.camera.qr": {
+    "appName": "Scan QR code",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.schpwronoff": {
     "appName": "Schedule power on & off",
     "userFacing": false,
@@ -44085,6 +45366,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -44356,6 +45642,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -44919,6 +46210,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -44990,18 +46286,6 @@
       }
     ]
   },
-  "com.xiaomi.misettings": {
-    "appName": "Settings",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      }
-    ]
-  },
   "com.lenovo.lenovoprivacy": {
     "appName": "Settings",
     "userFacing": false,
@@ -45014,6 +46298,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
@@ -45021,6 +46310,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.xiaomi.misettings": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -45144,6 +46445,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -45218,8 +46524,18 @@
   "com.motorola.android.providers.settings": {
     "appName": "Settings Storage",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Settings storage"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -45283,6 +46599,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -45383,8 +46704,18 @@
   "com.tblenovo.setup": {
     "appName": "SetupWizardExt",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Settings Wizard"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -45541,6 +46872,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -46155,6 +47491,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -46300,6 +47641,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -46333,6 +47679,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.motorola.mobiledesktop": {
+    "appName": "Smart Connect",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       }
     ]
@@ -46671,6 +48029,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -46864,6 +48227,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "aidlserverdemo"
+      },
+      {
         "locale": "en-gb",
         "name": "SoterService"
       }
@@ -46873,6 +48240,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -47126,6 +48498,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -47319,6 +48696,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -47405,8 +48787,18 @@
   "com.lenovo.screensplit": {
     "appName": "Split Screen",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "SplitScreen"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -47447,6 +48839,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.lenovo.screensaver": {
+    "appName": "Standby Mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       }
     ]
   },
@@ -47594,6 +48998,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -47809,6 +49218,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -47930,6 +49344,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -48099,6 +49518,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -48223,6 +49647,18 @@
       }
     ]
   },
+  "com.zui.launcher": {
+    "appName": "System Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.launcher": {
     "appName": "System Launcher",
     "userFacing": false,
@@ -48336,6 +49772,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -48528,6 +49969,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -48672,6 +50118,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -48779,23 +50230,21 @@
       }
     ]
   },
-  "com.oukitel.update": {
-    "appName": "System Update",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      }
-    ]
-  },
   "com.lenovo.ota": {
     "appName": "System Update",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "System update"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -48804,6 +50253,18 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oukitel.update": {
+    "appName": "System Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
         "os": "34"
       }
     ]
@@ -48906,6 +50367,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -49068,6 +50534,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -49262,6 +50733,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -49427,6 +50903,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -49745,6 +51226,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -49919,6 +51405,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
@@ -49943,6 +51434,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -50056,6 +51552,23 @@
       }
     ]
   },
+  "com.zui.theme.settings": {
+    "appName": "Themes",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.thememanager": {
     "appName": "Themes",
     "userFacing": true,
@@ -50068,23 +51581,16 @@
       }
     ]
   },
-  "com.zui.theme.settings": {
-    "appName": "Themes",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "TB132FU",
-        "os": "34"
-      }
-    ]
-  },
   "com.zui.themes.provider": {
     "appName": "Themes Provider",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -50133,6 +51639,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
@@ -50398,6 +51909,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -50570,6 +52086,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -50810,6 +52331,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -50886,6 +52412,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -51375,6 +52906,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -51511,6 +53047,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -51578,6 +53119,18 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.zui.wallpapersetting": {
+    "appName": "Wallpaper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       }
     ]
@@ -51888,6 +53441,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -52090,6 +53648,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -52111,6 +53674,10 @@
     "appName": "Webcam Service",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Webcam service"
+      },
       {
         "locale": "en-gb",
         "name": "Webcam service"
@@ -52134,6 +53701,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
         "os": "35"
       },
       {
@@ -52354,8 +53926,18 @@
   "com.google.android.wifi.resources.overlay": {
     "appName": "WifiResGoogleOverlay",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "com.google.android.wifi.resources.overlay"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -52455,6 +54037,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -52627,6 +54214,18 @@
       }
     ]
   },
+  "com.zui.desktoplauncher": {
+    "appName": "Work Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.managedprovisioning": {
     "appName": "Work Setup",
     "userFacing": false,
@@ -52707,6 +54306,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -53046,6 +54650,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -53153,6 +54762,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -53213,6 +54827,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       },
@@ -53242,6 +54861,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
       }
@@ -53252,6 +54876,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB132FU",
