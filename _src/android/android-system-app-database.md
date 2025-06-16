@@ -13,7 +13,12 @@ eleventyNavigation:
   order: 10000
 ---
 
-Below you'll find a table of system apps across various devices. These devices have opted in to cloud sync in [PACKAGE SEARCH](/projects/package-search/support/system-apps-database) to build this database, and it is through the volunteering of PACKAGE SEARCH users that this database grows.
+<script>
+window.deviceAppMatrix = {{ deviceAppMatrix | dump | safe }};
+window.packages = {{ packages | dump | safe }};
+</script>
+
+Below you'll find a table of system apps across various devices. [These devices](#contributing-devices) have opted in to cloud sync in [PACKAGE SEARCH](/projects/package-search/support/system-apps-database) to build this database, and it is through the volunteering of PACKAGE SEARCH users that this database grows.
 
 Packages are updated here daily. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
 
@@ -28,7 +33,7 @@ _Tip: Hold **Shift** while scrolling with a mouse to move horizontally across th
 </div>
 </div>
 
-<div class="responsive-table-wrapper">
+<div class="responsive-table-wrapper padding-bottom-40">
 <table id="appTable" style="table-layout: fixed; width: 100%; min-width: 1000px; border-collapse: border">
 <thead>
 <tr>
@@ -90,6 +95,33 @@ _Tip: Hold **Shift** while scrolling with a mouse to move horizontally across th
   {%- endif -%}
 </div></td>
   <td>{{ entry.userFacing }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+## Contributing devices
+
+Devices that have contributed system applications to this table: <span class="highlight"> **{{ deviceAppMatrix.length }}** </span>
+
+<div class="responsive-table-wrapper">
+<table id="deviceTable" style="table-layout: fixed; width: 100%; min-width: 400px; border-collapse: border">
+<thead>
+<tr>
+  <th>OEM</th>
+  <th>Model</th>
+  <th>OS</th>
+  <th>Application count</th>
+</tr>
+</thead>
+<tbody>
+{% for dev in deviceAppMatrix %}
+<tr>
+  <td>{{ dev.make }}</td>
+  <td>{{ dev.model }}</td>
+  <td>{{ dev.os }}</td>
+  <td>{{ dev.apps.length }}</td>
 </tr>
 {% endfor %}
 </tbody>

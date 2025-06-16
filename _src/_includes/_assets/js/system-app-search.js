@@ -5,49 +5,77 @@ async function buildTable() {
   const filterModel = document.getElementById('filterModel');
   const filterOS = document.getElementById('filterOS');
 
-  const rows = Array.from(tableBody.querySelectorAll('tr')).map(tr => {
-    const [pkgCell, appCell, makeCell, modelCell, osCell, alsoCell, userFacingCell] = tr.children;
-    return {
+  // Build rows from window.packages, linking to table elements
+  const rows = [];
+  for (const [pkg, entry] of Object.entries(window.packages)) {
+    // Create comma-separated lists as rendered in the table
+    const makes = Array.from(new Set(entry.devices.map(d => d.make))).join(', ');
+    const models = Array.from(new Set(entry.devices.map(d => d.model))).join(', ');
+    const oses = Array.from(new Set(entry.devices.map(d => d.os))).join(', ');
+    const alsoKnownBy = entry.additionalLocales && entry.additionalLocales.length
+      ? entry.additionalLocales.map(alt => alt.name).join(', ')
+      : '';
+
+    // Find the TR element for rendering
+    const tr = Array.from(tableBody.children).find(tr =>
+      tr.children[1] && tr.children[1].textContent.replace(/`/g,'').trim() === pkg
+    );
+
+    rows.push({
       element: tr,
-      packageName: pkgCell.textContent.trim(),
-      appName: appCell.textContent.trim(),
-      make: makeCell.textContent.trim(),
-      model: modelCell.textContent.trim(),
-      os: osCell.textContent.trim(),
-      alsoKnownBy: alsoCell.textContent.trim(),
-      userFacing: userFacingCell.textContent.trim().toLowerCase()
-    };
-  }).filter(row =>
-    row.make !== '' || row.model !== '' || row.os !== ''
-  );
+      packageName: pkg,
+      appName: entry.appName,
+      make: makes,
+      model: models,
+      os: oses,
+      alsoKnownBy: alsoKnownBy,
+      userFacing: entry.userFacing ? entry.userFacing.toString().toLowerCase() : ''
+    });
+  }
 
   function updateFilters() {
-    const selectedMake = filterMake.value;
-    const selectedModel = filterModel.value;
-    const selectedOS = filterOS.value;
+  const selectedMake = filterMake.value;
+  const selectedModel = filterModel.value;
+  const selectedOS = filterOS.value;
 
-    const clean = val => (val || '').toString().trim().replace(/\s+/g, ' ');
+  // Start with all deviceAppMatrix, filter down as selections are made
+  let filteredDevices = window.deviceAppMatrix;
+  if (selectedMake) filteredDevices = filteredDevices.filter(d => d.make === selectedMake);
+  if (selectedModel) filteredDevices = filteredDevices.filter(d => d.model === selectedModel);
+  if (selectedOS) filteredDevices = filteredDevices.filter(d => d.os === selectedOS);
 
-    const extractUnique = (getter) => {
-      return [...new Set(
-        rows
-          .flatMap(row => getter(row).split(',').map(clean))
-          .filter(Boolean)
-      )].sort();
-    };
+  // Build valid dropdown options from filteredDevices
+  const makes = [...new Set(filteredDevices.map(d => d.make))].sort();
+  const models = [...new Set(filteredDevices.map(d => d.model))].sort();
+  const oses = [...new Set(filteredDevices.map(d => d.os))].sort();
 
-    const allMakes = extractUnique(row => row.make);
-    filterMake.innerHTML = `<option value="">All OEMs</option>` +
-      allMakes.map(m => `<option value="${m}" ${m === selectedMake ? 'selected' : ''}>${m}</option>`).join('');
+  filterMake.innerHTML = `<option value="">All OEMs</option>` +
+    makes.map(m => `<option value="${m}" ${m === selectedMake ? 'selected' : ''}>${m}</option>`).join('');
+  filterModel.innerHTML = `<option value="">All Models</option>` +
+    models.map(m => `<option value="${m}" ${m === selectedModel ? 'selected' : ''}>${m}</option>`).join('');
+  filterOS.innerHTML = `<option value="">All OS</option>` +
+    oses.map(o => `<option value="${o}" ${o === selectedOS ? 'selected' : ''}>${o}</option>`).join('');
 
-    const allModels = extractUnique(row => row.model);
-    filterModel.innerHTML = `<option value="">All Models</option>` +
-      allModels.map(m => `<option value="${m}" ${m === selectedModel ? 'selected' : ''}>${m}</option>`).join('');
-
-    const allOS = extractUnique(row => row.os).filter(v => /^[0-9]{1,2}(\.\d+)?$/.test(v));
-    filterOS.innerHTML = `<option value="">All OS</option>` +
-      allOS.map(o => `<option value="${o}" ${o === selectedOS ? 'selected' : ''}>${o}</option>`).join('');
+  let changed = false;
+  // If Make is empty, and only one option (not counting 'All OEMs'), select it
+  if (!filterMake.value && makes.length === 1) {
+    filterMake.value = makes[0];
+    changed = true;
   }
+  if (!filterModel.value && models.length === 1) {
+    filterModel.value = models[0];
+    changed = true;
+  }
+  if (!filterOS.value && oses.length === 1) {
+    filterOS.value = oses[0];
+    changed = true;
+  }
+  // If we auto-changed, run updateFilters again to cascade the effect
+  if (changed) {
+    updateFilters();
+    return;
+  }
+}
 
   [filterMake, filterModel, filterOS, searchInput].forEach(el => {
     ['input', 'change', 'keyup'].forEach(evt => {
@@ -74,9 +102,9 @@ async function buildTable() {
           row.os.toLowerCase().includes(q) ||
           row.alsoKnownBy.toLowerCase().includes(q) ||
           row.userFacing.toLowerCase().includes(q)) &&
-        (!selectedMake || row.make.includes(selectedMake)) &&
-        (!selectedModel || row.model.includes(selectedModel)) &&
-        (!selectedOS || row.os.includes(selectedOS));
+        (!selectedMake || row.make.split(',').map(s => s.trim()).includes(selectedMake)) &&
+        (!selectedModel || row.model.split(',').map(s => s.trim()).includes(selectedModel)) &&
+        (!selectedOS || row.os.split(',').map(s => s.trim()).includes(selectedOS));
 
       row.element.style.display = matches ? '' : 'none';
     });
