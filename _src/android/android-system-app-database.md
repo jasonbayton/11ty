@@ -18,7 +18,9 @@ window.deviceAppMatrix = {{ deviceAppMatrix | dump | safe }};
 window.packages = {{ packages | dump | safe }};
 </script>
 
-Below you'll find a table of system apps across various devices. [These devices](#contributing-devices) have opted in to cloud sync in [PACKAGE SEARCH](/projects/package-search/support/system-apps-database) to build this database, and it is through the volunteering of PACKAGE SEARCH users that this database grows.
+Below you'll find a table of system apps across various devices. [These devices](#contributing-devices) have opted in to cloud sync in [PACKAGE SEARCH](/projects/package-search/) to build this database, and it is through the volunteering of PACKAGE SEARCH users that this database grows.
+
+[Learn how to contribute](/projects/package-search/support/system-apps-database).
 
 Packages are updated here daily. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
 
