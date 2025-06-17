@@ -127,6 +127,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -193,6 +198,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -330,6 +340,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -453,6 +468,18 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      }
+    ]
+  },
+  "com.qualcomm.qti.gpudrivers.lito.api30": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -702,6 +729,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -882,6 +914,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -989,6 +1026,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -1054,16 +1096,16 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Android S Easter Egg"
+      },
+      {
         "locale": "en-be",
         "name": "Android R Easter Egg"
       },
       {
         "locale": "en-za",
         "name": "Android R Easter Egg"
-      },
-      {
-        "locale": "",
-        "name": "Android S Easter Egg"
       }
     ],
     "devices": [
@@ -1181,6 +1223,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -1340,6 +1387,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -1517,6 +1569,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -1652,6 +1709,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -1802,6 +1864,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -1965,6 +2032,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -2133,6 +2205,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -2273,6 +2350,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -2680,6 +2762,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -2829,6 +2916,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -3013,6 +3105,18 @@
       }
     ]
   },
+  "com.orange.update": {
+    "appName": "App Center",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.multiapp": {
     "appName": "App Cloner",
     "userFacing": false,
@@ -3091,6 +3195,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.aura.oobe.deutsche": {
+    "appName": "App Selector",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -3212,6 +3328,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "de.telekom.tsc": {
+    "appName": "AppEnabler",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -3341,12 +3469,22 @@
   "com.qualcomm.qtil.aptxui": {
     "appName": "aptxui",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "als"
+      }
+    ],
     "devices": [
       {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -4289,6 +4427,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -4687,6 +4830,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -4822,6 +4970,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -5052,6 +5205,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -5211,6 +5369,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -5367,6 +5530,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -5452,6 +5620,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -5561,6 +5734,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -5794,6 +5972,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -6025,6 +6208,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -6191,6 +6379,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.qualcomm.qti.callfeaturessetting": {
+    "appName": "CallFeatureSetting",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -6406,6 +6606,18 @@
       }
     ]
   },
+  "com.fp.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.oemextensions": {
     "appName": "Camera Extensions Service",
     "userFacing": false,
@@ -6594,6 +6806,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -6834,6 +7051,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -6970,7 +7192,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "Operator communications"
+        "name": "CarrierDefaultApp"
       },
       {
         "locale": "ru-ru",
@@ -7092,6 +7314,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -7280,6 +7507,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -7552,6 +7784,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -7783,6 +8020,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -7981,6 +8223,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -8371,6 +8618,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -8520,6 +8772,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -8686,6 +8943,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -8861,6 +9123,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -8927,6 +9194,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -9067,6 +9339,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -9368,6 +9645,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -9510,6 +9792,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -9592,6 +9879,28 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.email.partnerprovider": {
+    "appName": "com.android.email.partnerprovider.ContextApplication",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "EmailPartnerProvider"
+      }
+    ],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -9792,6 +10101,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -9941,6 +10255,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -10202,6 +10521,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -10332,6 +10656,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -10672,6 +11001,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -10889,6 +11223,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -11068,6 +11407,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -11544,6 +11888,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -11717,6 +12066,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -12026,6 +12380,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -12103,6 +12462,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -12688,6 +13052,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -13219,6 +13588,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -13331,6 +13705,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -13354,6 +13733,10 @@
       {
         "locale": "ru-ru",
         "name": "Обои"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Wallpapers"
       }
     ],
     "devices": [
@@ -13386,6 +13769,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -13428,6 +13816,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -13607,6 +14000,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -13631,6 +14029,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.target": {
+    "appName": "com.android.wifi.resources.overlay.target",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -13994,6 +14404,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -14007,6 +14422,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.cellbroadcastreceiver.overlay.common": {
+    "appName": "com.google.android.cellbroadcastreceiver.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -14144,6 +14571,18 @@
       }
     ]
   },
+  "com.google.android.euicc.overlay": {
+    "appName": "com.google.android.euicc.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.euiccoverlay": {
     "appName": "com.google.android.euiccoverlay",
     "userFacing": false,
@@ -14275,6 +14714,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -15058,6 +15502,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -15160,6 +15609,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -15220,6 +15674,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -15328,6 +15787,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -15425,6 +15889,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -15492,6 +15961,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -15571,6 +16045,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -15616,6 +16095,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -15663,6 +16147,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -15881,6 +16370,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -16042,6 +16536,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -16137,6 +16636,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -16278,6 +16782,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -16387,6 +16896,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -16482,6 +16996,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -16970,6 +17489,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -17114,6 +17638,18 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.setupwizard.overlay": {
+    "appName": "com.google.android.setupwizard.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19024,6 +19560,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -19039,6 +19580,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19051,6 +19597,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19068,6 +19619,23 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
+  "com.qti.qualcomm.mstatssystemservice": {
+    "appName": "com.qti.qualcomm.mstatssystemservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19080,6 +19648,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19092,6 +19665,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19109,6 +19687,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.qualcomm.embms": {
+    "appName": "com.qualcomm.embms",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19131,6 +19721,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -19165,6 +19760,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19177,6 +19777,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19189,6 +19794,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19201,6 +19811,23 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
+  "com.qualcomm.qti.qms.service.connectionsecurity": {
+    "appName": "com.qualcomm.qti.qms.service.connectionsecurity",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19213,6 +19840,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19249,6 +19881,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -19264,6 +19901,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19281,6 +19923,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19298,6 +19945,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19315,6 +19967,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19342,6 +19999,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19354,6 +20016,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -19366,6 +20033,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -20194,6 +20866,42 @@
       }
     ]
   },
+  "com.t2m.euiccoverlay": {
+    "appName": "com.t2m.euiccoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
+  "com.t2m.overlay.aptxals": {
+    "appName": "com.t2m.overlay.aptxals",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
+  "com.t2m.overlay.googlequicksearchbox": {
+    "appName": "com.t2m.overlay.googlequicksearchbox",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.tblenovo.launcher.overlay": {
     "appName": "com.tblenovo.launcher.overlay",
     "userFacing": false,
@@ -20939,6 +21647,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -21026,6 +21739,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.confdialer": {
+    "appName": "ConfDialer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.qti.confuridialer": {
     "appName": "Conference URI Dialer",
     "userFacing": false,
@@ -21035,6 +21760,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -21206,6 +21936,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -21626,6 +22361,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -21812,6 +22552,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -22098,6 +22843,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -22580,6 +23330,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -22675,10 +23430,6 @@
     "appName": "Default Print Service",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Default print service"
-      },
       {
         "locale": "ru-ru",
         "name": "Служба Печати по умолчанию"
@@ -22815,6 +23566,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -23207,6 +23963,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.qti.qualcomm.deviceinfo": {
+    "appName": "Device Info",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -23953,6 +24721,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -24239,6 +25012,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -24397,6 +25175,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -24550,6 +25333,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -24787,6 +25575,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -25114,6 +25907,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -25312,18 +26110,6 @@
       }
     ]
   },
-  "com.android.email.partnerprovider": {
-    "appName": "EmailPartnerProvider",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      }
-    ]
-  },
   "com.mediatek.emcamera": {
     "appName": "EmCamera",
     "userFacing": false,
@@ -25357,6 +26143,10 @@
     "appName": "Emergency information",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "com.android.emergency"
+      },
       {
         "locale": "ru-ru",
         "name": "com.android.emergency"
@@ -25456,6 +26246,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -26085,6 +26880,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -26506,6 +27306,18 @@
       }
     ]
   },
+  "com.fairphone.activator": {
+    "appName": "Fairphone Activation Logger",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.pixel.familyspace": {
     "appName": "Family Space",
     "userFacing": false,
@@ -26579,6 +27391,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.tct.endusertest": {
+    "appName": "Feedback",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -26767,6 +27591,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -27822,6 +28651,42 @@
       }
     ]
   },
+  "net.fetnet.fetvod": {
+    "appName": "friDay Video",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
+  "com.fet.fridaywallet": {
+    "appName": "friDay理財+",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
+  "com.gohappy.mobileapp": {
+    "appName": "friDay購物",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.focaltech.ft_terminal_test": {
     "appName": "FT Terminal Test",
     "userFacing": false,
@@ -27971,6 +28836,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -28658,6 +29528,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -28793,6 +29668,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -28919,6 +29799,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -29070,6 +29955,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -29145,6 +30035,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -29346,6 +30241,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -29520,6 +30420,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -29793,6 +30698,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -29942,6 +30852,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -30082,6 +30997,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -30326,6 +31246,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -30545,6 +31470,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -30696,6 +31626,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -30751,6 +31686,18 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      }
+    ]
+  },
+  "com.fp.android.gmsintegration": {
+    "appName": "Google Sample Home Screen",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -30885,6 +31832,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -30990,6 +31942,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -31950,6 +32907,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -32329,6 +33291,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -32824,6 +33791,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -33012,6 +33984,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -33258,6 +34235,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -33414,6 +34396,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -34424,6 +35411,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -34559,6 +35551,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -34672,6 +35669,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -34945,6 +35947,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -35060,6 +36067,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -35248,6 +36260,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -35401,6 +36418,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -35791,6 +36813,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -35993,6 +37020,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -36182,6 +37214,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -36716,6 +37753,18 @@
       }
     ]
   },
+  "com.android.mmi": {
+    "appName": "MMITest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.mms.service": {
     "appName": "MmsService",
     "userFacing": false,
@@ -36845,6 +37894,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -37399,6 +38453,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -37605,6 +38664,18 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      }
+    ]
+  },
+  "com.fairphone.myfairphone": {
+    "appName": "My Fairphone",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -38041,6 +39112,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -38443,7 +39519,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "NFC Migration"
+        "name": "Nfc Service"
       },
       {
         "locale": "ru-ru",
@@ -38584,6 +39660,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -39129,6 +40210,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -39227,6 +40313,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.iris": {
+    "appName": "NXTVISION",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -40009,6 +41107,18 @@
       }
     ]
   },
+  "com.orange.aura.oobe": {
+    "appName": "Orange Manual Selector",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.theme.color.orchid": {
     "appName": "Orchid",
     "userFacing": false,
@@ -40045,6 +41155,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -40107,6 +41222,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -40392,6 +41512,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -40549,6 +41674,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -40740,6 +41870,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -40885,6 +42020,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -41132,6 +42272,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -41330,6 +42475,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -41518,6 +42668,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -41695,6 +42850,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -41884,6 +43044,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -42053,6 +43218,11 @@
         "os": "35"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -42209,6 +43379,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -42343,6 +43518,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -42965,6 +44145,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.poweroffalarm": {
+    "appName": "PowerOffAlarm",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.sprd.powersavemodelauncher": {
     "appName": "PowerSaveModeLauncher",
     "userFacing": false,
@@ -43127,6 +44319,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -43286,6 +44483,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -43401,6 +44603,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -43662,6 +44869,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -43834,6 +45046,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -43883,6 +45100,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -43908,6 +45130,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -43920,6 +45147,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -43959,6 +45191,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.server.qtiwifi": {
+    "appName": "QtiWifiService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      }
+    ]
+  },
   "com.quicinc.voice.activation": {
     "appName": "Qualcomm Voice Assist",
     "userFacing": false,
@@ -43968,6 +45212,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -44129,10 +45378,6 @@
       {
         "locale": "ru-ru",
         "name": "com.android.launcher3"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Launcher3"
       }
     ],
     "devices": [
@@ -44180,6 +45425,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -44780,6 +46030,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -47244,6 +48499,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -47252,6 +48512,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.qualcomm.qti.seccamservice": {
+    "appName": "SecCamService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -47375,6 +48647,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.qualcomm.qti.services.secureui": {
+    "appName": "Secure UI Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -47543,6 +48827,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -48166,6 +49455,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -48410,6 +49704,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -48554,6 +49853,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -48849,6 +50153,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -49081,6 +50390,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -49141,6 +50455,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -49154,7 +50473,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "SIM Toolkit"
+        "name": "SIM Tool Kit"
       },
       {
         "locale": "ru-ru",
@@ -49291,6 +50610,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -49361,6 +50685,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -49899,6 +51228,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -50351,7 +51685,7 @@
   },
   "com.android.soundrecorder": {
     "appName": "Sound Recorder",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -50373,6 +51707,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -50523,6 +51862,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -50740,6 +52084,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -51031,6 +52380,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -51070,6 +52424,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "android.autoinstalls.config.t2m.fp4t": {
+    "appName": "Stub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -51262,6 +52628,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -51598,6 +52969,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -51657,6 +53033,11 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -51751,6 +53132,10 @@
         "name": "Jugendschutzeinstellungen"
       },
       {
+        "locale": "en-gb",
+        "name": "Family Link parental controls"
+      },
+      {
         "locale": "ru-ru",
         "name": "Родительский контроль Family Link"
       },
@@ -51765,10 +53150,6 @@
       {
         "locale": "es-ru",
         "name": "Controles parentales del sistema"
-      },
-      {
-        "locale": "",
-        "name": "Family Link parental controls"
       }
     ],
     "devices": [
@@ -51866,6 +53247,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -52073,6 +53459,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -52229,6 +53620,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -52390,6 +53786,11 @@
         "os": "34"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -52537,6 +53938,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -52840,6 +54246,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -53025,6 +54436,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -53348,6 +54764,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -53635,6 +55056,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -54191,6 +55617,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -54331,6 +55762,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -54513,6 +55949,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -54669,6 +56110,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -54686,6 +56132,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -54708,6 +56159,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -55254,6 +56710,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -55370,6 +56831,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -55648,6 +57114,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -55913,6 +57384,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -56265,6 +57741,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -56563,6 +58044,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -56713,6 +58199,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -56725,6 +58216,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -56900,6 +58396,11 @@
         "os": "36"
       },
       {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -57000,6 +58501,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       },
       {
         "make": "HONOR",
@@ -57748,6 +59254,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.fetself": {
+    "appName": "遠傳心生活",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   }
