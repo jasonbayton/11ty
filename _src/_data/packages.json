@@ -5,14 +5,14 @@
     "additionalLocales": [],
     "devices": [
       {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
       }
     ]
   },
@@ -65,6 +65,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -140,11 +145,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -290,6 +290,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -358,11 +363,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -886,6 +886,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -959,11 +964,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -1016,6 +1016,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -1076,11 +1081,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -1212,6 +1212,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -1285,11 +1290,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -1381,6 +1381,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -1459,11 +1464,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -1723,6 +1723,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -1801,11 +1806,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -1888,6 +1888,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -1961,11 +1966,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -2061,6 +2061,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -2139,11 +2144,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -2247,6 +2247,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -2315,11 +2320,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -2394,6 +2394,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -2474,11 +2479,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -2545,6 +2545,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -2567,11 +2572,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -2644,6 +2644,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -2686,11 +2691,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -2742,6 +2742,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -2758,11 +2763,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -4627,6 +4627,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -4695,11 +4700,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -5040,6 +5040,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -5118,11 +5123,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -5206,6 +5206,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -5276,11 +5281,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -5309,17 +5309,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -5444,6 +5444,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -5522,11 +5527,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -5623,6 +5623,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -5701,11 +5706,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -6047,6 +6047,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -6100,11 +6105,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -6273,6 +6273,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -6351,11 +6356,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -6519,6 +6519,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -6597,11 +6602,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -7149,6 +7149,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -7222,11 +7227,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -7402,6 +7402,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -7475,11 +7480,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -7687,6 +7687,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -7745,11 +7750,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -8155,6 +8155,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -8228,11 +8233,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -8384,6 +8384,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -8464,11 +8469,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -8518,17 +8518,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -8599,6 +8599,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -8677,11 +8682,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -9047,6 +9047,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -9090,11 +9095,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -9388,6 +9388,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -9468,11 +9473,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -9501,17 +9501,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -9603,6 +9603,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -9671,11 +9676,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -9863,6 +9863,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -9916,11 +9921,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -10060,6 +10060,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -10087,11 +10092,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -10167,6 +10167,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -10245,11 +10250,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -10324,6 +10324,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -10404,11 +10409,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -10437,17 +10437,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -10668,6 +10668,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -10716,11 +10721,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -10809,6 +10809,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -10882,11 +10887,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -11088,6 +11088,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -11158,11 +11163,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -11223,6 +11223,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -11298,11 +11303,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -11507,6 +11507,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -11534,11 +11539,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -11585,17 +11585,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -11627,17 +11627,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -11800,17 +11800,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -11879,6 +11879,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -11954,11 +11959,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -12077,6 +12077,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -12157,11 +12162,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -12239,17 +12239,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -12336,6 +12336,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -12363,11 +12368,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -12399,17 +12399,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -12619,17 +12619,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -12710,17 +12710,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -13112,6 +13112,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -13192,11 +13197,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -13225,17 +13225,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -13354,6 +13354,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -13407,11 +13412,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -13437,17 +13437,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -13489,17 +13489,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -13531,17 +13531,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -14080,6 +14080,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -14091,11 +14096,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -14180,17 +14180,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -14284,6 +14284,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -14337,11 +14342,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -14414,6 +14414,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -14496,11 +14501,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -14556,6 +14556,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -14621,11 +14626,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -15282,6 +15282,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -15345,11 +15350,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -15604,6 +15604,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -15672,11 +15677,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -15917,6 +15917,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -15980,11 +15985,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -17204,17 +17204,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -17241,17 +17241,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -18074,17 +18074,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -18239,17 +18239,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -18472,6 +18472,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -18542,11 +18547,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -18582,6 +18582,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -18642,11 +18647,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -19026,6 +19026,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -19058,11 +19063,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -23129,6 +23129,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -23207,11 +23212,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -23464,6 +23464,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -23542,11 +23547,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -23897,6 +23897,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -23965,11 +23970,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -24112,6 +24112,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24185,11 +24190,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -24217,6 +24217,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -24251,11 +24256,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -24413,6 +24413,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24481,11 +24486,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -24591,6 +24591,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24654,11 +24659,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -25197,6 +25197,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -25270,11 +25275,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -25891,6 +25891,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -25923,11 +25928,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -26012,6 +26012,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -26060,11 +26065,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -26419,6 +26419,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -26487,11 +26492,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -26698,6 +26698,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -26766,11 +26771,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -26866,6 +26866,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -26944,11 +26949,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -27048,6 +27048,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -27126,11 +27131,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -27329,6 +27329,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -27387,11 +27392,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -27654,6 +27654,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -27727,11 +27732,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -28042,6 +28042,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -28105,11 +28110,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -28669,6 +28669,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -28747,11 +28752,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -29415,6 +29415,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -29483,11 +29488,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -30694,6 +30694,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -30772,11 +30777,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -31409,6 +31409,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -31477,11 +31482,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -31817,6 +31817,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -31890,11 +31895,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -32123,6 +32123,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -32191,11 +32196,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -32314,6 +32314,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -32392,11 +32397,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -32774,6 +32774,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -32852,11 +32857,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -32931,6 +32931,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33011,11 +33016,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -33086,6 +33086,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -33097,11 +33102,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -33193,6 +33193,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33271,11 +33276,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -33431,6 +33431,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33509,11 +33514,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -33602,6 +33602,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33670,11 +33675,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -33808,6 +33808,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33886,11 +33891,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -34414,6 +34414,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34477,11 +34482,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -35288,6 +35288,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -35366,11 +35371,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -35818,6 +35818,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -35896,11 +35901,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -36043,6 +36043,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -36106,11 +36111,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -36471,6 +36471,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -36549,11 +36554,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -37504,6 +37504,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -37572,11 +37577,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -38084,6 +38084,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -38159,11 +38164,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -38214,6 +38214,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -38284,11 +38289,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -38426,6 +38426,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -38494,11 +38499,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -38586,6 +38586,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -38666,11 +38671,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -38699,6 +38699,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -38710,11 +38715,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -38992,6 +38992,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -39065,11 +39070,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -39403,6 +39403,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -39481,11 +39486,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -40168,6 +40168,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -40246,11 +40251,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -40760,6 +40760,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -40838,11 +40843,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -41020,6 +41020,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -41062,11 +41067,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -41480,6 +41480,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -41553,11 +41558,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -42050,6 +42050,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -42125,11 +42130,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -42172,17 +42172,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -42306,6 +42306,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -42363,11 +42368,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -42625,6 +42625,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -42693,11 +42698,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -43812,6 +43812,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -43844,11 +43849,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -44003,6 +44003,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -44081,11 +44086,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -44182,6 +44182,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -44260,11 +44265,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -44538,6 +44538,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -44611,11 +44616,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -44823,6 +44823,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -44866,11 +44871,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -45026,6 +45026,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -45074,11 +45079,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -45216,6 +45216,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -45294,11 +45299,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -45410,6 +45410,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -45488,11 +45493,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -45612,6 +45612,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -45690,11 +45695,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -45989,6 +45989,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -46052,11 +46057,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -46135,6 +46135,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -46198,11 +46203,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -46352,17 +46352,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -46568,17 +46568,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -46975,6 +46975,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47053,11 +47058,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -47149,6 +47149,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47229,11 +47234,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -47284,6 +47284,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -47354,11 +47359,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -47555,6 +47555,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47633,11 +47638,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -47742,6 +47742,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47810,11 +47815,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -48526,6 +48526,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -48537,11 +48542,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -51568,6 +51568,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -51641,11 +51646,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -52200,6 +52200,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -52278,11 +52283,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -52374,17 +52374,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -52476,6 +52476,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -52554,11 +52559,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -52952,6 +52952,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -53030,11 +53035,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -53200,6 +53200,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -53268,11 +53273,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -53447,6 +53447,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -53510,11 +53515,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -54671,17 +54671,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -54729,6 +54729,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -54789,11 +54794,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -54948,6 +54948,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -55026,11 +55031,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -55272,6 +55272,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -55325,11 +55330,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -55524,6 +55524,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -55597,11 +55602,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -55878,6 +55878,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -55951,11 +55956,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -56188,6 +56188,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -56256,11 +56261,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -56413,6 +56413,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -56481,11 +56486,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -56581,6 +56581,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -56659,11 +56664,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -56862,6 +56862,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -56889,11 +56894,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -57048,6 +57048,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -57080,11 +57085,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -57255,6 +57255,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -57303,11 +57308,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -57432,6 +57432,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -57500,11 +57505,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -57775,6 +57775,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -57848,11 +57853,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -58529,6 +58529,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -58586,11 +58591,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       },
       {
@@ -59027,6 +59027,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -59105,11 +59110,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -59830,6 +59830,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -59910,11 +59915,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -59968,17 +59968,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -60008,6 +60008,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -60026,11 +60031,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -60256,6 +60256,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -60324,11 +60329,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -60539,6 +60539,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -60561,11 +60566,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
         "os": "36"
       }
     ]
@@ -60910,6 +60910,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -60978,11 +60983,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -61213,6 +61213,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -61291,11 +61296,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -61671,6 +61671,11 @@
         "os": "27"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -61741,11 +61746,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -61796,6 +61796,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -61851,11 +61856,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
