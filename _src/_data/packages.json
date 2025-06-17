@@ -720,6 +720,18 @@
       }
     ]
   },
+  "com.sonyericsson.album": {
+    "appName": "Album",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.qualcomm.qtil.aptxals": {
     "appName": "als",
     "userFacing": false,
@@ -1165,6 +1177,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -1322,6 +1339,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -1504,6 +1526,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -1644,6 +1671,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -1969,6 +2001,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -2287,6 +2324,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -2458,6 +2500,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -2936,6 +2983,18 @@
       }
     ]
   },
+  "android.res.overlay_305": {
+    "appName": "android.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "android.unisoc_framework_res.overlay": {
     "appName": "android.unisoc_framework_res.overlay",
     "userFacing": false,
@@ -2962,6 +3021,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.sonyericsson.idd.agent": {
+    "appName": "Anonymous Usage Stats",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -3058,6 +3129,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.sonymobile.apnupdater": {
+    "appName": "APN Updater",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -3521,6 +3604,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.arkamys.audio": {
+    "appName": "ArkamysAudio",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -4372,6 +4467,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -4765,6 +4865,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -4915,6 +5020,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -5140,6 +5250,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -5302,6 +5417,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -5469,8 +5589,25 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.btidd": {
+    "appName": "btidd",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
         "os": "27"
       }
     ]
@@ -5691,6 +5828,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -5905,6 +6047,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -6141,6 +6288,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -6440,6 +6592,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -7088,6 +7245,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -7497,6 +7659,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -7955,6 +8122,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -8158,6 +8330,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -8578,6 +8755,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -8682,6 +8864,18 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      }
+    ]
+  },
+  "com.sonymobile.advancedwidget.clock": {
+    "appName": "Clock widgets",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -8892,6 +9086,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -9039,6 +9238,18 @@
       }
     ]
   },
+  "com.android.browser.res.overlay_305": {
+    "appName": "com.android.browser.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.carrierconfig": {
     "appName": "com.android.carrierconfig",
     "userFacing": false,
@@ -9078,6 +9289,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -9255,6 +9471,18 @@
       }
     ]
   },
+  "com.android.carrierconfig.res.overlay_305": {
+    "appName": "com.android.carrierconfig.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.cellbroadcast.overlay": {
     "appName": "com.android.cellbroadcast.overlay",
     "userFacing": false,
@@ -9306,6 +9534,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "Google",
@@ -9592,6 +9825,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -9737,6 +9975,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -10807,6 +11050,18 @@
       }
     ]
   },
+  "com.android.partnerbrowsercustomizations.chromeHomepage": {
+    "appName": "com.android.partnerbrowsercustomizations.chromeHomepage",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.partnerbrowsercustomizations.example": {
     "appName": "com.android.partnerbrowsercustomizations.example",
     "userFacing": false,
@@ -11033,6 +11288,30 @@
       }
     ]
   },
+  "com.android.phone.product.res.overlay": {
+    "appName": "com.android.phone.product.res.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.android.phone.res.overlay_305": {
+    "appName": "com.android.phone.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.pixeldisplayservice": {
     "appName": "com.android.pixeldisplayservice",
     "userFacing": false,
@@ -11168,6 +11447,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -11356,6 +11640,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -11439,6 +11728,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.providers.partnerbookmarks.res.overlay_305": {
+    "appName": "com.android.providers.partnerbookmarks.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -12230,6 +12531,18 @@
       }
     ]
   },
+  "com.android.settings.res.overlay_305": {
+    "appName": "com.android.settings.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.settings.resoverlay": {
     "appName": "com.android.settings.resoverlay",
     "userFacing": false,
@@ -12325,6 +12638,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -12466,6 +12784,11 @@
         "os": "33"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -12491,6 +12814,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.stk.product.res.overlay.common": {
+    "appName": "com.android.stk.product.res.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -13258,6 +13593,18 @@
       }
     ]
   },
+  "com.android.systemui.res.overlay_305": {
+    "appName": "com.android.systemui.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.systemui.signal.overlay": {
     "appName": "com.android.systemui.signal.overlay",
     "userFacing": false,
@@ -13535,6 +13882,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -13665,6 +14017,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -18451,6 +18808,11 @@
         "os": "34"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -18508,6 +18870,11 @@
         "os": "34"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -18558,6 +18925,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -18830,6 +19202,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -19127,6 +19504,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -20842,6 +21224,222 @@
       }
     ]
   },
+  "com.sonyericsson.album.product.res.overlay": {
+    "appName": "com.sonyericsson.album.product.res.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonyericsson.conversations.res.overlay_305": {
+    "appName": "com.sonyericsson.conversations.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonyericsson.crashmonitor": {
+    "appName": "com.sonyericsson.crashmonitor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonyericsson.settings.dragon.res.overlay": {
+    "appName": "com.sonyericsson.settings.dragon.res.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonyericsson.settings.res.overlay_305": {
+    "appName": "com.sonyericsson.settings.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonyericsson.setupwizard.res.overlay_305": {
+    "appName": "com.sonyericsson.setupwizard.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonyericsson.trackid.res.overlay_305": {
+    "appName": "com.sonyericsson.trackid.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonyericsson.updatecenter.res.overlay_305": {
+    "appName": "com.sonyericsson.updatecenter.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.android.contacts.res.overlay_305": {
+    "appName": "com.sonymobile.android.contacts.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.android.dialer.res.overlay_305": {
+    "appName": "com.sonymobile.android.dialer.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.anondata": {
+    "appName": "com.sonymobile.anondata",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.crashmonitor.system": {
+    "appName": "com.sonymobile.crashmonitor.system",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.customizationselector.res.overlay_305": {
+    "appName": "com.sonymobile.customizationselector.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.email.dragon.res.overlay": {
+    "appName": "com.sonymobile.email.dragon.res.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.email.res.overlay_305": {
+    "appName": "com.sonymobile.email.res.overlay_305",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.home.product.res.overlay": {
+    "appName": "com.sonymobile.home.product.res.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.idd.permission.application_certificate": {
+    "appName": "com.sonymobile.idd.permission.application_certificate",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.rcahandler": {
+    "appName": "com.sonymobile.rcahandler",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.sprd.linkturbo": {
     "appName": "com.sprd.linkturbo.LinkTurboManagerApp",
     "userFacing": false,
@@ -21043,6 +21641,18 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      }
+    ]
+  },
+  "com.touchtype.swiftkey.res.overlay": {
+    "appName": "com.touchtype.swiftkey.res.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -21594,6 +22204,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -21780,6 +22395,30 @@
       }
     ]
   },
+  "com.sonymobile.updatecenter.config.autoinstall": {
+    "appName": "Config-auto-install-stub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.updatecenter.config.latecmz": {
+    "appName": "Config-late-cmz-stub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.tblenovo.ue.config": {
     "appName": "configApk",
     "userFacing": false,
@@ -21883,6 +22522,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -22406,6 +23050,18 @@
       }
     ]
   },
+  "com.sonymobile.android.contacts": {
+    "appName": "Contacts",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.samsung.android.providers.contacts": {
     "appName": "Contacts Storage",
     "userFacing": false,
@@ -22504,6 +23160,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -23201,6 +23862,18 @@
       }
     ]
   },
+  "com.sonyericsson.customizedsettings": {
+    "appName": "Customised settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.samsung.android.rubin.app": {
     "appName": "Customization Service",
     "userFacing": false,
@@ -23241,6 +23914,18 @@
       }
     ]
   },
+  "com.sonymobile.customizationselector": {
+    "appName": "CustomizationSelector",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.systemui.theme.dark": {
     "appName": "Dark",
     "userFacing": false,
@@ -23250,6 +23935,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -23513,6 +24203,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -24002,6 +24697,18 @@
       }
     ]
   },
+  "com.mediatek.mediatekdm": {
+    "appName": "Device Management",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.google.android.apps.work.clouddpc": {
     "appName": "Device Policy",
     "userFacing": true,
@@ -24134,6 +24841,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "Google",
@@ -24346,6 +25058,18 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      }
+    ]
+  },
+  "com.sonyericsson.devicemonitor": {
+    "appName": "devicemonitor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -25122,6 +25846,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -25208,6 +25937,18 @@
       }
     ]
   },
+  "com.sonyericsson.android.bootinfo": {
+    "appName": "DownloadAgent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.providers.downloads.ui": {
     "appName": "Downloads",
     "userFacing": true,
@@ -25280,6 +26021,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -25395,6 +26141,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -25544,6 +26295,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -25619,6 +26375,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -26122,6 +26883,18 @@
       }
     ]
   },
+  "com.sonymobile.email": {
+    "appName": "Email",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.mediatek.emcamera": {
     "appName": "EmCamera",
     "userFacing": false,
@@ -26131,6 +26904,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -26208,6 +26986,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -26479,6 +27262,18 @@
       }
     ]
   },
+  "com.yha.engineering": {
+    "appName": "Engineering model",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.mediatek.engineermode": {
     "appName": "EngineerMode",
     "userFacing": false,
@@ -26579,6 +27374,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.sonymobile.enterprise.service": {
+    "appName": "Enterprise Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -26825,6 +27632,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -27095,6 +27907,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.facebook.katana": {
+    "appName": "Facebook",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -28539,6 +29363,18 @@
       }
     ]
   },
+  "com.mediatek.fmradio": {
+    "appName": "FM radio",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.fmradio": {
     "appName": "FM Radio",
     "userFacing": true,
@@ -28604,6 +29440,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.sonymobile.mtp.extension.fotaupdate": {
+    "appName": "fota update service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -28783,6 +29631,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -29436,6 +30289,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -30198,6 +31056,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -30283,6 +31146,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -30367,6 +31235,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -30466,6 +31339,11 @@
         "os": "28"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -30560,6 +31438,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -30799,6 +31682,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -30946,6 +31834,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -31049,6 +31942,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
       {
         "make": "NUU",
         "model": "N5501L",
@@ -31191,6 +32089,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -31415,6 +32318,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -31779,6 +32687,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -31909,6 +32822,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -33240,6 +34158,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -33639,6 +34562,18 @@
       }
     ]
   },
+  "com.sonymobile.infoapp": {
+    "appName": "Info App",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.hihonor.autoinstallapkfrommcc": {
     "appName": "Information",
     "userFacing": false,
@@ -33736,6 +34671,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -33889,6 +34829,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -34343,6 +35288,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -35368,6 +36318,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -35506,6 +36461,11 @@
         "os": "28"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -35574,6 +36534,18 @@
       }
     ]
   },
+  "com.sonyericsson.lockscreen.uxpnxt": {
+    "appName": "Lock screen settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.bsp.logmanager": {
     "appName": "Log generator",
     "userFacing": false,
@@ -35610,6 +36582,18 @@
       }
     ]
   },
+  "com.sonyericsson.xhs": {
+    "appName": "Lounge",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.mediatek.location.lppe.main": {
     "appName": "LPPe Service",
     "userFacing": false,
@@ -35629,6 +36613,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -36217,6 +37206,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -36365,6 +37359,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -36572,6 +37571,11 @@
         "os": "34"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -36617,6 +37621,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -36992,6 +38001,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -37163,6 +38177,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -37275,6 +38294,11 @@
         "os": "34"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -37322,6 +38346,11 @@
         "os": "34"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -37367,6 +38396,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "Xiaomi",
@@ -37539,6 +38573,11 @@
         "os": "35"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
@@ -37587,6 +38626,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "samsung",
@@ -37841,6 +38885,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -38176,6 +39225,11 @@
         "os": "28"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -38191,6 +39245,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -38242,6 +39301,11 @@
         "os": "28"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -38259,6 +39323,11 @@
         "os": "28"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -38270,6 +39339,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
       {
         "make": "NUU",
         "model": "N5501L",
@@ -38315,6 +39389,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.sonyericsson.mtp": {
+    "appName": "MTP extension service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -38398,6 +39484,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -38590,6 +39681,18 @@
       }
     ]
   },
+  "com.sonyericsson.music": {
+    "appName": "Music",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.miui.player": {
     "appName": "Music",
     "userFacing": false,
@@ -38631,6 +39734,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -39276,6 +40384,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -39614,6 +40727,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -39704,6 +40822,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.sonymobile.nfcextension": {
+    "appName": "NFC extension",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -40561,6 +41691,18 @@
       }
     ]
   },
+  "com.sonyericsson.android.omacp": {
+    "appName": "OMA Client Provisioning",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.mediatek.omacp": {
     "appName": "Omacp",
     "userFacing": false,
@@ -40575,6 +41717,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -41371,6 +42518,11 @@
         "os": "28"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -41457,6 +42609,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -41621,6 +42778,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -42525,6 +43687,18 @@
       }
     ]
   },
+  "com.sonymobile.android.dialer": {
+    "appName": "Phone",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.android.providers.telephony": {
     "appName": "Phone and Messaging Storage",
     "userFacing": false,
@@ -42613,6 +43787,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -42797,6 +43976,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -42991,6 +44175,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -43074,6 +44263,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.sonymobile.telephony.extension": {
+    "appName": "Phone Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -43341,6 +44542,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -43562,6 +44768,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.sonymobile.pip": {
+    "appName": "pip",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -44080,6 +45298,18 @@
       }
     ]
   },
+  "android.autoinstalls.config.sony.xperia": {
+    "appName": "Play Auto Installs configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "android.autoinstalls.config.transsion.device": {
     "appName": "PlayAutoInstall",
     "userFacing": false,
@@ -44142,6 +45372,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.sonymobile.addoncamera.portraitselfie": {
+    "appName": "Portrait selfie",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -44264,6 +45506,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -44428,6 +45675,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -44814,6 +46066,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -45974,6 +47231,18 @@
       }
     ]
   },
+  "com.sonymobile.retaildemo": {
+    "appName": "Retail Demo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.google.android.apps.retaildemo.preload": {
     "appName": "Retail Demo Services",
     "userFacing": false,
@@ -46194,6 +47463,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.gd.mobicore.pa": {
+    "appName": "RootPA",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -49040,6 +50321,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -49128,6 +50414,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.sonyericsson.android.servicemenu": {
+    "appName": "Service Menu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -49402,6 +50700,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -49485,6 +50788,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.sonyericsson.settings": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -49649,6 +50964,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -49922,6 +51242,18 @@
       }
     ]
   },
+  "com.sonyericsson.setupwizard": {
+    "appName": "Setup guide",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.tblenovo.setup": {
     "appName": "SetupWizardExt",
     "userFacing": false,
@@ -50098,6 +51430,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -50423,6 +51760,18 @@
       }
     ]
   },
+  "com.sonymobile.simlockunlockapp": {
+    "appName": "SIM lock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.google.android.euicc": {
     "appName": "SIM Manager",
     "userFacing": false,
@@ -50570,6 +51919,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -50801,6 +52155,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
       {
         "make": "NUU",
         "model": "N5501L",
@@ -51254,6 +52613,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -51491,6 +52855,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.sonyericsson.updatecenter": {
+    "appName": "Software update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -52033,6 +53409,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -52347,6 +53728,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -52528,6 +53914,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.sonymobile.support": {
+    "appName": "Support",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -53569,6 +54967,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -54213,6 +55616,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -54662,6 +56070,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.sonyericsson.tetherentitlementcheck": {
+    "appName": "Tether Entitlement Check",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -55209,6 +56629,18 @@
       }
     ]
   },
+  "com.sonymobile.smtofrgbc": {
+    "appName": "ToF/RGBC sensor test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.yft.tool": {
     "appName": "ToolBag",
     "userFacing": false,
@@ -55544,6 +56976,11 @@
         "os": "28"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -55677,6 +57114,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -55688,6 +57130,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
       {
         "make": "NUU",
         "model": "N5501L",
@@ -55704,6 +57151,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.sonyericsson.mtp.extension.update": {
+    "appName": "Update service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -55894,6 +57353,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
@@ -56657,6 +58121,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -56971,6 +58440,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.sonyericsson.wappush": {
+    "appName": "WAP Push",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -57401,6 +58882,18 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.sonymobile.wifi": {
+    "appName": "Wi-Fi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       }
     ]
   },
@@ -57991,6 +59484,11 @@
         "os": "30"
       },
       {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -58197,6 +59695,42 @@
       }
     ]
   },
+  "com.sonyericsson.textinput.chinese": {
+    "appName": "Xperia Chinese keyboard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.home": {
+    "appName": "Xperia Home",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
+  "com.sonymobile.xperialounge.services": {
+    "appName": "Xperia™ Lounge Pass",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      }
+    ]
+  },
   "com.qualcomm.qti.xrcb": {
     "appName": "XRCB",
     "userFacing": false,
@@ -58262,6 +59796,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "NUU",
@@ -58351,6 +59890,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
       },
       {
         "make": "LENOVO",
