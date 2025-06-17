@@ -8819,6 +8819,18 @@
       }
     ]
   },
+  "com.aiqi.dazhiai.overlay": {
+    "appName": "com.aiqi.dazhiai.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.backupconfirm": {
     "appName": "com.android.backupconfirm",
     "userFacing": false,
