@@ -142,6 +142,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -360,6 +365,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -442,6 +452,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.motorola.dynamicvolume": {
+    "appName": "Adaptive volume",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -961,6 +983,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -1078,6 +1105,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -1138,16 +1170,16 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Android S Easter Egg"
-      },
-      {
         "locale": "en-be",
         "name": "Android R Easter Egg"
       },
       {
         "locale": "en-za",
         "name": "Android R Easter Egg"
+      },
+      {
+        "locale": "",
+        "name": "Android S Easter Egg"
       }
     ],
     "devices": [
@@ -1285,6 +1317,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -1459,6 +1496,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -1646,6 +1688,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -1801,6 +1848,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -1963,6 +2015,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -1978,6 +2035,10 @@
     "appName": "Android System",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Android system"
+      },
       {
         "locale": "ru-ru",
         "name": "Система Android"
@@ -2139,6 +2200,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -2317,6 +2383,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -2472,6 +2543,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -2694,6 +2770,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -2764,6 +2845,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3030,6 +3116,18 @@
       }
     ]
   },
+  "android.overlay.microsoft.common": {
+    "appName": "android.overlay.microsoft.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "android.overlay.multiuser": {
     "appName": "android.overlay.multiuser",
     "userFacing": false,
@@ -3288,6 +3386,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -3300,6 +3403,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.motorola.brapps": {
+    "appName": "App Box",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -3858,6 +3973,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -3945,6 +4065,18 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.att.phone.extensions": {
+    "appName": "ATT Phone Extension",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -4697,6 +4829,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -5120,6 +5257,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -5276,6 +5418,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -5353,6 +5500,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.bluetooth.aptxmode": {
+    "appName": "Bluetooth audio",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -5522,6 +5681,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -5701,6 +5865,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -5886,6 +6055,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -5976,6 +6150,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -6105,6 +6284,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -6353,6 +6537,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -6597,6 +6786,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -7019,6 +7213,18 @@
       }
     ]
   },
+  "com.motorola.camera3": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.oemextensions": {
     "appName": "Camera Extensions Service",
     "userFacing": false,
@@ -7059,6 +7265,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.imagertuning_u": {
+    "appName": "Camera Tuner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -7222,6 +7440,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -7477,6 +7700,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -7613,7 +7841,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "CarrierDefaultApp"
+        "name": "Operator communications"
       },
       {
         "locale": "ru-ru",
@@ -7752,6 +7980,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -7815,6 +8048,18 @@
       }
     ]
   },
+  "com.motorola.nfwlocationattribution": {
+    "appName": "Carrier location access",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.locationproxy": {
     "appName": "Carrier Location Services",
     "userFacing": false,
@@ -7823,6 +8068,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.verizon.loginengine.unbranded": {
+    "appName": "Carrier Login Engine",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -7904,6 +8161,18 @@
       }
     ]
   },
+  "com.motorola.omadm.service": {
+    "appName": "Carrier Provisioning Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.ims": {
     "appName": "Carrier Services",
     "userFacing": false,
@@ -7951,6 +8220,18 @@
       }
     ]
   },
+  "com.motorola.carrierconfig": {
+    "appName": "Carrier Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.carrier": {
     "appName": "Carrier Settings",
     "userFacing": false,
@@ -7980,6 +8261,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -8069,6 +8355,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -8230,6 +8521,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -8283,10 +8579,6 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Certificate Installer"
-      },
-      {
-        "locale": "en-gb",
         "name": "Certificate Installer"
       },
       {
@@ -8462,6 +8754,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -8677,6 +8974,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -9095,6 +9397,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -9268,6 +9575,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -9466,6 +9778,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -9673,6 +9990,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -9814,6 +10136,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -9921,6 +10248,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -9987,6 +10319,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.cellbroadcastservice.overlay": {
+    "appName": "com.android.cellbroadcastservice.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -10247,6 +10591,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -10402,6 +10751,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -10718,6 +11072,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -10882,6 +11241,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -11158,6 +11522,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -11172,7 +11541,12 @@
   "com.android.ons": {
     "appName": "com.android.ons",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "com.android.ons.ONSApp"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -11298,6 +11672,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -11671,6 +12050,18 @@
       }
     ]
   },
+  "com.android.phone.overlay.carriersettings": {
+    "appName": "com.android.phone.overlay.carriersettings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.phone.overlay.common": {
     "appName": "com.android.phone.overlay.common",
     "userFacing": false,
@@ -11695,6 +12086,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -11712,6 +12108,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.phone.overlay.motcommon": {
+    "appName": "com.android.phone.overlay.motcommon",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -11961,6 +12369,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -12157,6 +12570,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -12251,6 +12669,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -12411,6 +12834,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.providers.telephony.overlay.carriersettings": {
+    "appName": "com.android.providers.telephony.overlay.carriersettings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -12722,6 +13157,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -13192,6 +13632,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -13412,6 +13857,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -13503,6 +13953,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -13543,6 +13998,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -14097,6 +14557,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -14339,6 +14804,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -14496,6 +14966,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -14621,6 +15096,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -14938,6 +15418,18 @@
       }
     ]
   },
+  "com.android.wifi.resources.overlay.motCommon": {
+    "appName": "com.android.wifi.resources.overlay.motCommon",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.wifi.resources.overlay.oplus": {
     "appName": "com.android.wifi.resources.overlay.oplus",
     "userFacing": false,
@@ -14964,6 +15456,90 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.WifiRes6GhzEnable": {
+    "appName": "com.android.wifi.resources.overlay.WifiRes6GhzEnable",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.WifiResDualStaApDisablePRC": {
+    "appName": "com.android.wifi.resources.overlay.WifiResDualStaApDisablePRC",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.WifiResDualStaApDisableROW": {
+    "appName": "com.android.wifi.resources.overlay.WifiResDualStaApDisableROW",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.WifiResDualStaApEnablePRC": {
+    "appName": "com.android.wifi.resources.overlay.WifiResDualStaApEnablePRC",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.WifiResDualStaApEnableROW": {
+    "appName": "com.android.wifi.resources.overlay.WifiResDualStaApEnableROW",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.WifiResSoftap80211axEnable": {
+    "appName": "com.android.wifi.resources.overlay.WifiResSoftap80211axEnable",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.WifiVodafoneOverlay": {
+    "appName": "com.android.wifi.resources.overlay.WifiVodafoneOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -15347,6 +15923,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -15674,6 +16255,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -15980,6 +16566,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -16470,6 +17061,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -16582,6 +17178,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -16652,6 +17253,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -16770,6 +17376,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -16877,6 +17488,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -16954,6 +17570,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -17041,6 +17662,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -17150,6 +17776,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -17383,6 +18014,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -17554,6 +18190,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -17659,6 +18300,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -17815,6 +18461,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -17934,6 +18585,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -18039,6 +18695,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -18542,6 +19203,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -18642,6 +19308,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -19064,6 +19735,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -20505,6 +21181,426 @@
       }
     ]
   },
+  "com.motorola.actions.overlay": {
+    "appName": "com.motorola.actions.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.coresettingsext.overlay.bronco": {
+    "appName": "com.motorola.android.coresettingsext.overlay.bronco",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.coresettingsext.overlay.doubletap": {
+    "appName": "com.motorola.android.coresettingsext.overlay.doubletap",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.launcher.overlay.animation.scale": {
+    "appName": "com.motorola.android.launcher.overlay.animation.scale",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.launcher.overlay.applabeltwolines": {
+    "appName": "com.motorola.android.launcher.overlay.applabeltwolines",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.launcher.overlay.koodo": {
+    "appName": "com.motorola.android.launcher.overlay.koodo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.launcher.overlay.mvnos": {
+    "appName": "com.motorola.android.launcher.overlay.mvnos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.launcher.overlay.retail": {
+    "appName": "com.motorola.android.launcher.overlay.retail",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.launcher.overlay.retail.row": {
+    "appName": "com.motorola.android.launcher.overlay.retail.row",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.launcher.overlay.telus": {
+    "appName": "com.motorola.android.launcher.overlay.telus",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.networkstack.overlay.mcc460": {
+    "appName": "com.motorola.android.networkstack.overlay.mcc460",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.networkstack.tethering.overlay.motCommon": {
+    "appName": "com.motorola.android.networkstack.tethering.overlay.motCommon",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.overlay.common": {
+    "appName": "com.motorola.android.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.overlay.crystaltalkai": {
+    "appName": "com.motorola.android.overlay.crystaltalkai",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.overlay.lpptoga": {
+    "appName": "com.motorola.android.overlay.lpptoga",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.overlay.qcom.common": {
+    "appName": "com.motorola.android.overlay.qcom.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.overlay.wfd": {
+    "appName": "com.motorola.android.overlay.wfd",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.providers.chromehomepage": {
+    "appName": "com.motorola.android.providers.chromehomepage",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.providers.settings.auto_generated_rro_product__": {
+    "appName": "com.motorola.android.providers.settings.auto_generated_rro_product__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.providers.settings.overlay.dppcamera": {
+    "appName": "com.motorola.android.providers.settings.overlay.dppcamera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.providers.settings.overlay.dppnone": {
+    "appName": "com.motorola.android.providers.settings.overlay.dppnone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.settings.overlay.bronco": {
+    "appName": "com.motorola.android.settings.overlay.bronco",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.settings.overlay.fps.display": {
+    "appName": "com.motorola.android.settings.overlay.fps.display",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.settings.overlay.global": {
+    "appName": "com.motorola.android.settings.overlay.global",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.settings.overlay.webcam": {
+    "appName": "com.motorola.android.settings.overlay.webcam",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.bug2go": {
+    "appName": "com.motorola.bug2go",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.callredirectionservice": {
+    "appName": "com.motorola.callredirectionservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.contacts.preloadcontacts.overlay.vzw": {
+    "appName": "com.motorola.contacts.preloadcontacts.overlay.vzw",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.msimsettings.overlay": {
+    "appName": "com.motorola.msimsettings.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.overlay.launcher3": {
+    "appName": "com.motorola.overlay.launcher3",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.safetycenter.resources.overlay": {
+    "appName": "com.motorola.safetycenter.resources.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.setup.auto_generated_rro_product__": {
+    "appName": "com.motorola.setup.auto_generated_rro_product__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.setup.overlay.pai": {
+    "appName": "com.motorola.setup.overlay.pai",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.systemserver": {
+    "appName": "com.motorola.systemserver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.wifi.motowifimetrics": {
+    "appName": "com.motorola.wifi.motowifimetrics",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.nothing.gallery.overlay.config": {
     "appName": "com.nothing.gallery.overlay.config",
     "userFacing": false,
@@ -20610,6 +21706,102 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.att": {
+    "appName": "com.oem.euiccpartnerapp.overlay.att",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.cc": {
+    "appName": "com.oem.euiccpartnerapp.overlay.cc",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.dish": {
+    "appName": "com.oem.euiccpartnerapp.overlay.dish",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.na": {
+    "appName": "com.oem.euiccpartnerapp.overlay.na",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.retca": {
+    "appName": "com.oem.euiccpartnerapp.overlay.retca",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.tmo": {
+    "appName": "com.oem.euiccpartnerapp.overlay.tmo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.usc": {
+    "appName": "com.oem.euiccpartnerapp.overlay.usc",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.vzw": {
+    "appName": "com.oem.euiccpartnerapp.overlay.vzw",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -20745,6 +21937,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -20787,6 +21984,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -20814,6 +22016,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -20870,6 +22077,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -20891,6 +22103,11 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -20938,6 +22155,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -20980,6 +22202,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -21002,6 +22229,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -21070,6 +22302,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -21092,6 +22329,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -21143,6 +22385,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -21168,6 +22415,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -21195,6 +22447,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -21222,6 +22479,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -21244,6 +22506,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -21281,6 +22548,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -22537,6 +23809,18 @@
       }
     ]
   },
+  "com.tmobile.echolocate.system": {
+    "appName": "com.tmobile.echolocate.system",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.touchtype.swiftkey.res.overlay": {
     "appName": "com.touchtype.swiftkey.res.overlay",
     "userFacing": false,
@@ -23209,6 +24493,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -23542,6 +24831,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -23970,6 +25264,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -24052,6 +25351,10 @@
     "appName": "Contacts Storage",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Contacts storage"
+      },
       {
         "locale": "ru-ru",
         "name": "Хранилище контактов"
@@ -24185,6 +25488,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -24488,6 +25796,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -24515,6 +25828,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.motorola.motocit": {
+    "appName": "CQATest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -24656,6 +25981,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -24785,6 +26115,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -25120,6 +26455,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Default print service"
+      },
+      {
         "locale": "ru-ru",
         "name": "Служба Печати по умолчанию"
       },
@@ -25277,6 +26616,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -25308,7 +26652,12 @@
   "com.motorola.demo": {
     "appName": "Demo mode",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Retail mode"
+      }
+    ],
     "devices": [
       {
         "make": "LENOVO",
@@ -25324,6 +26673,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -25335,6 +26689,18 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.systemui.desk": {
+    "appName": "DesktopSystemUI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -25399,6 +26765,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.motocare": {
+    "appName": "Device Care",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -25469,6 +26847,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "android.autoinstalls.config.motorola.layout": {
+    "appName": "Device configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -25627,6 +27017,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -25662,6 +27057,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.motorola.genie": {
+    "appName": "Device Help",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -25703,6 +27110,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.motorola.ccc.devicemanagement": {
+    "appName": "Device Management",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -26060,6 +27479,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -26489,6 +27913,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -26588,6 +28017,23 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.dolby.dolbyui": {
+    "appName": "Dolby Atmos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -26773,6 +28219,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -26944,6 +28395,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -27126,6 +28582,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -27389,6 +28850,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -27556,6 +29022,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.msimsettings": {
+    "appName": "Dual SIM settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -27729,6 +29207,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -27789,6 +29272,18 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.easyprefix": {
+    "appName": "Easy Prefix",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -28107,6 +29602,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -28394,6 +29894,18 @@
       }
     ]
   },
+  "com.microsoft.android.cloudconnect": {
+    "appName": "Enhanced Windows 365 App Exp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.sec.enterprise.knox.cloudmdm.smdms": {
     "appName": "Enrollment Service",
     "userFacing": false,
@@ -28428,6 +29940,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.enterprise.adapter.service": {
+    "appName": "Enterprise Adapter Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -28473,6 +29997,18 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.entitlement": {
+    "appName": "Entitlement",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -28582,10 +30118,26 @@
       }
     ]
   },
+  "com.oem.euiccpartnerapp": {
+    "appName": "EuiccPartnerApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.externalstorage": {
     "appName": "External Storage",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "External storage"
+      },
       {
         "locale": "ru-ru",
         "name": "Внешняя память"
@@ -28747,6 +30299,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -29201,6 +30758,18 @@
       }
     ]
   },
+  "com.motorola.spaces": {
+    "appName": "Family Space",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.sec.android.widgetapp.easymodecontactswidget": {
     "appName": "Favorite Contacts",
     "userFacing": false,
@@ -29485,6 +31054,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -29607,6 +31181,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -30487,6 +32066,30 @@
       }
     ]
   },
+  "com.motorola.android.fmradio": {
+    "appName": "FMRadioService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.theme.font.Exo2Regular": {
+    "appName": "FontExo2Regular",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.transsion.os.typeface": {
     "appName": "FontManager",
     "userFacing": false,
@@ -30564,6 +32167,18 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.freeform": {
+    "appName": "Freeform",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -30772,6 +32387,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -31324,6 +32944,18 @@
       }
     ]
   },
+  "com.motorola.gamemode": {
+    "appName": "Games",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.game.gamehome": {
     "appName": "Gaming Hub",
     "userFacing": true,
@@ -31482,6 +33114,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -31595,6 +33232,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -31726,6 +33368,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -31892,6 +33539,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -31967,6 +33619,23 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.gesture": {
+    "appName": "Gesture navigation tutorial",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -32193,6 +33862,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -32394,6 +34068,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -32530,6 +34209,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.motorola.launcherconfig": {
+    "appName": "Google Launcher Config",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -32680,6 +34371,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -32705,6 +34401,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -32852,6 +34553,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -33009,6 +34715,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -33273,6 +34984,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -33348,6 +35064,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -33511,6 +35232,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -33670,6 +35396,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -33888,6 +35619,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -34005,6 +35741,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -34117,6 +35858,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -34479,6 +36225,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -34542,6 +36293,10 @@
     "appName": "Hey Google Hotword",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Google Assistant"
+      },
       {
         "locale": "ru-ru",
         "name": "Google Assistant"
@@ -34619,6 +36374,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -34633,6 +36393,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.hiddenmenuapp": {
+    "appName": "HiddenMenu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -34661,6 +36433,23 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.internal.systemui.navbar.hidegestural": {
+    "appName": "Hide Gestural Navigation Bar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -35368,6 +37157,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -35736,6 +37530,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Input devices"
+      },
+      {
         "locale": "ru-ru",
         "name": "Устройства ввода"
       },
@@ -35896,6 +37694,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -36108,6 +37911,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -36128,6 +37936,18 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.livewallpaper3": {
+    "appName": "Interactive wallpapers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -36549,6 +38369,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -37099,6 +38924,18 @@
       }
     ]
   },
+  "com.lenovo.lsf.user": {
+    "appName": "Lenovo ID",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.zui.wifip2p": {
     "appName": "Lenovo One",
     "userFacing": false,
@@ -37228,6 +39065,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.lifetimedata": {
+    "appName": "LifetimeData",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -37418,6 +39267,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Live wallpaper picker"
+      },
+      {
         "locale": "ru-ru",
         "name": "Каталог живых обоев"
       },
@@ -37574,6 +39427,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -37717,6 +39575,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -38159,6 +40022,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -38284,6 +40152,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -38496,6 +40369,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -38666,6 +40544,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -38733,6 +40616,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.microsoft.deviceexperiencesservice": {
+    "appName": "MDEService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -39067,6 +40962,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -39284,6 +41184,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -39481,6 +41386,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -40248,6 +42158,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -40256,6 +42171,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.amazon.appmanager": {
+    "appName": "Mobile Device Information Provider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -40322,6 +42249,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.bach.modemstats": {
+    "appName": "Modem Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -40425,6 +42364,342 @@
       {
         "make": "HONOR",
         "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.moto": {
+    "appName": "Moto",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.actions": {
+    "appName": "Moto Actions & Gestures",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.aiservices": {
+    "appName": "Moto AI Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.launcher3": {
+    "appName": "Moto App Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.camera3.content.ai": {
+    "appName": "Moto Camera Content 3",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.dciservice": {
+    "appName": "Moto DCI Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.discovery": {
+    "appName": "Moto Discovery",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.leanbacklauncher": {
+    "appName": "Moto Experience Hub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.help": {
+    "appName": "Moto feedback",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.help.extlog": {
+    "appName": "Moto Feedback Assistant",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.hce": {
+    "appName": "Moto HCE Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.securityhub": {
+    "appName": "Moto Secure",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.smart5g": {
+    "appName": "Moto Smart 5G",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.enterprise.service": {
+    "appName": "Moto Thinkshield-MM",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.mototour": {
+    "appName": "Moto Tour",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.timeweatherwidget": {
+    "appName": "Moto Widget",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.nfc": {
+    "appName": "MotoNfcSetup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.faceunlock": {
+    "appName": "Motorola face unlock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.appdirectedsmsproxy": {
+    "appName": "Motorola Message Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.ccc.notification": {
+    "appName": "Motorola Notifications",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.ccc.mainplm": {
+    "appName": "Motorola Services Main",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.coresettingsext": {
+    "appName": "Motorola Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.slpc_sys": {
+    "appName": "Motorola Slpc System",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.ccc.ota": {
+    "appName": "Motorola software update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.thermalservice": {
+    "appName": "Motorola Thermal Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.securityhubext": {
+    "appName": "MotoSecurityHubExt",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.motosignature2.app": {
+    "appName": "MotoSignature2App",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.motosignature.app": {
+    "appName": "MotoSignatureApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -40840,6 +43115,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -41170,6 +43450,18 @@
       }
     ]
   },
+  "com.motorola.mykey": {
+    "appName": "My key",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.verizon.mips.services": {
     "appName": "My Verizon Services",
     "userFacing": false,
@@ -41199,6 +43491,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.motorola.android.nativedropboxagent": {
+    "appName": "NativeDropBoxAgent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -41553,6 +43857,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -41962,7 +44271,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "Nfc Service"
+        "name": "NFC service"
       },
       {
         "locale": "ru-ru",
@@ -42123,6 +44432,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -42369,6 +44683,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -42952,6 +45271,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Google Assistant"
+      },
+      {
         "locale": "ru-ru",
         "name": "Google Assistant"
       }
@@ -43028,6 +45351,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -43042,6 +45370,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.provisioning": {
+    "appName": "OMA client provisioning",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -43101,6 +45441,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.omadm.vzw": {
+    "appName": "OMADM Client",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -43698,6 +46050,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -43850,6 +46207,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -44083,6 +46445,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -44262,6 +46629,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -44270,6 +46642,30 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.paks": {
+    "appName": "PAKS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.paks.notification": {
+    "appName": "PAKS Notification",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -44355,6 +46751,18 @@
       }
     ]
   },
+  "com.android.theme.icon.pebble": {
+    "appName": "Pebble",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.swatch.gps": {
     "appName": "Pedometer",
     "userFacing": false,
@@ -44434,6 +46842,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.appforecast": {
+    "appName": "Performance",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -44611,6 +47031,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -44871,6 +47296,23 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.personalize": {
+    "appName": "Personalise",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -45079,6 +47521,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -45125,6 +47572,10 @@
     "appName": "Phone and Messaging Storage",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Phone and messaging storage"
+      },
       {
         "locale": "ru-ru",
         "name": "Память номеров/SMS/MMS"
@@ -45294,6 +47745,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -45490,6 +47946,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -45507,10 +47968,6 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Phone Services"
-      },
-      {
-        "locale": "en-gb",
         "name": "Phone Services"
       },
       {
@@ -45690,6 +48147,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -46054,6 +48516,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -46198,6 +48665,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -46897,6 +49369,18 @@
       }
     ]
   },
+  "com.motorola.contacts.preloadcontacts": {
+    "appName": "Preloaded Contacts Loader",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.service.ims.presence": {
     "appName": "Presence",
     "userFacing": false,
@@ -47053,6 +49537,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -47229,6 +49718,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -47354,6 +49848,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -47635,6 +50134,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -47817,6 +50321,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -47869,6 +50378,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -48258,6 +50772,18 @@
       }
     ]
   },
+  "com.motorola.rcsConfigService": {
+    "appName": "RCS Config Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.shannon.rcsservice": {
     "appName": "RcsService",
     "userFacing": false,
@@ -48320,6 +50846,11 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -48445,6 +50976,18 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.audiorecorder": {
+    "appName": "Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -48617,6 +51160,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -48756,6 +51304,18 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      }
+    ]
+  },
+  "com.motorola.revoker.services": {
+    "appName": "Revoker services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -48952,6 +51512,30 @@
       }
     ]
   },
+  "com.android.theme.font.RobotoSlabRegular": {
+    "appName": "RobotoSlabRegular",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.theme.font.RookeryRegular": {
+    "appName": "RookeryRegular",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.gd.mobicore.pa": {
     "appName": "RootPA",
     "userFacing": false,
@@ -48985,6 +51569,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.android.theme.icon.round": {
+    "appName": "Round",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -49051,12 +51647,22 @@
   "com.android.theme.icon.roundedrect": {
     "appName": "Rounded Rectangle",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Rounded rectangle"
+      }
+    ],
     "devices": [
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -51143,6 +53749,18 @@
       }
     ]
   },
+  "com.motorola.screenshoteditor": {
+    "appName": "Screenshot editor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.agui.screenshotpolicy": {
     "appName": "ScreenShot Policy",
     "userFacing": false,
@@ -51303,6 +53921,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -51394,6 +54017,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.securevault": {
+    "appName": "Secure folder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -51641,6 +54276,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -52280,6 +54920,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -52347,6 +54992,30 @@
       }
     ]
   },
+  "com.motorola.comcast.settings.extensions": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.carriersettingsext": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.settings.intelligence": {
     "appName": "Settings Services",
     "userFacing": false,
@@ -52393,6 +55062,10 @@
     "appName": "Settings Storage",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Settings storage"
+      },
       {
         "locale": "ru-ru",
         "name": "Хранилище настроек"
@@ -52556,6 +55229,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -52574,6 +55252,10 @@
       {
         "locale": "",
         "name": "Settings storage"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Settings storage"
       }
     ],
     "devices": [
@@ -52585,6 +55267,11 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -52707,6 +55394,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -52754,6 +55446,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.setup": {
+    "appName": "Setup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -53032,6 +55736,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -53270,6 +55979,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -53342,6 +56056,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -53355,7 +56074,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "SIM Tool Kit"
+        "name": "SIM Toolkit"
       },
       {
         "locale": "ru-ru",
@@ -53510,6 +56229,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -53868,6 +56592,23 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.motcameradesktop": {
+    "appName": "Smart Connect video",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -54406,6 +57147,18 @@
       }
     ]
   },
+  "com.motorola.android.fota": {
+    "appName": "Software update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.sait.sohservice": {
     "appName": "SoHService",
     "userFacing": false,
@@ -54794,6 +57547,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -54841,6 +57599,42 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.sstservice": {
+    "appName": "Spatial Sound",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.spectrum.cm.headless": {
+    "appName": "Spectrum Mobile",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.spectrum.setup.extensions": {
+    "appName": "Spectrum Setup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -55026,6 +57820,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -55332,6 +58131,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -55599,6 +58403,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -55721,6 +58530,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -55951,6 +58765,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -56258,6 +59077,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -56348,6 +59172,10 @@
     "appName": "System Tracing",
     "userFacing": true,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "System tracing"
+      },
       {
         "locale": "ru-ru",
         "name": "Трассировка системы"
@@ -56486,6 +59314,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -56661,6 +59494,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -56828,6 +59666,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -57086,6 +59929,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -57308,6 +60156,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -57507,6 +60360,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -57594,6 +60452,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -57848,6 +60711,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -58594,6 +61462,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -58733,6 +61606,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -59107,6 +61985,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -59244,6 +62127,66 @@
       }
     ]
   },
+  "com.motorola.android.systemui.overlay.sprint": {
+    "appName": "vendor_frameworkres_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.systemui.overlay.att": {
+    "appName": "vendor_frameworkres_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.systemui.overlay.tmo": {
+    "appName": "vendor_frameworkres_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.systemui.overlay.usc": {
+    "appName": "vendor_frameworkres_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.systemui.overlay.vzw": {
+    "appName": "vendor_frameworkres_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
   "vendor.qti.imsdatachannel": {
     "appName": "vendor.qti.imsdatachannel",
     "userFacing": false,
@@ -59295,6 +62238,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -59329,6 +62277,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -59343,6 +62296,18 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.vzw.pco.extensions.pcoreceiver": {
+    "appName": "Verizon Pco Extensions",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
@@ -59910,6 +62875,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -59918,6 +62888,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.vzw.apnservice": {
+    "appName": "VZWAPNService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -59980,6 +62962,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -60331,6 +63318,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -60606,6 +63598,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -60659,6 +63656,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.motorola.attvowifi": {
+    "appName": "Wi-Fi Calling",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -60843,10 +63852,6 @@
         "name": "Notfallbenachrichtigungen an Mobilgeräte"
       },
       {
-        "locale": "en-gb",
-        "name": "Emergency alerts"
-      },
-      {
         "locale": "ru-ru",
         "name": "Экстренные оповещения по беспроводным сетям"
       },
@@ -60861,6 +63866,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "無線緊急警報"
+      },
+      {
+        "locale": "",
+        "name": "Emergency alerts"
       }
     ],
     "devices": [
@@ -60978,6 +63987,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -61129,6 +64143,10 @@
       {
         "locale": "",
         "name": "Work profile setup"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Device Setup"
       },
       {
         "locale": "ru-ru",
@@ -61291,6 +64309,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       },
       {
         "make": "HONOR",
@@ -61514,6 +64537,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -61536,6 +64564,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
       }
     ]
   },
@@ -61741,6 +64774,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -61853,6 +64891,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -61899,6 +64942,11 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
         "os": "34"
       }
     ]
