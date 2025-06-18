@@ -155,6 +155,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -169,6 +174,10 @@
       {
         "locale": "it-it",
         "name": "Accessibilità"
+      },
+      {
+        "locale": "es-es",
+        "name": "Accesibilidad"
       }
     ],
     "devices": [
@@ -196,6 +205,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -247,6 +261,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "廣告隱私權"
+      },
+      {
+        "locale": "es-es",
+        "name": "Privacidad en la publicidad"
       },
       {
         "locale": "",
@@ -378,6 +396,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -415,6 +438,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -1118,6 +1146,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -1332,6 +1365,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -1511,6 +1549,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -1545,6 +1588,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Android 設定"
+      },
+      {
+        "locale": "es-es",
+        "name": "Configuración de Android"
       },
       {
         "locale": "",
@@ -1701,6 +1748,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -1863,6 +1915,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -2028,6 +2085,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -2054,6 +2116,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Android 系統"
+      },
+      {
+        "locale": "es-es",
+        "name": "Sistema Android"
       },
       {
         "locale": "",
@@ -2215,6 +2281,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -2396,6 +2467,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -2558,6 +2634,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -2778,6 +2859,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -2855,6 +2941,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -3496,6 +3587,10 @@
         "name": "Protezione app"
       },
       {
+        "locale": "es-es",
+        "name": "Protección de aplicaciones"
+      },
+      {
         "locale": "",
         "name": "Device security"
       }
@@ -3525,6 +3620,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -3568,6 +3668,10 @@
       {
         "locale": "it-it",
         "name": "Aggiornamento app"
+      },
+      {
+        "locale": "es-es",
+        "name": "Actualización de aplicaciones"
       }
     ],
     "devices": [
@@ -3595,6 +3699,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -3635,6 +3744,11 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -3735,6 +3849,10 @@
       {
         "locale": "it-it",
         "name": "Suggerimenti sull'applicazione"
+      },
+      {
+        "locale": "es-es",
+        "name": "Recomendaciones de la aplicación"
       }
     ],
     "devices": [
@@ -3762,6 +3880,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -3790,6 +3913,11 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -3859,13 +3987,23 @@
   },
   "com.samsung.android.arzone": {
     "appName": "AR Zone",
-    "userFacing": false,
-    "additionalLocales": [],
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Zona AR"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4150,6 +4288,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4177,6 +4320,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4191,6 +4339,10 @@
       {
         "locale": "it-it",
         "name": "Blocco automatico"
+      },
+      {
+        "locale": "es-es",
+        "name": "Bloqueador automático"
       }
     ],
     "devices": [
@@ -4213,6 +4365,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4244,6 +4401,10 @@
       {
         "locale": "it-it",
         "name": "Disegno automatico"
+      },
+      {
+        "locale": "es-es",
+        "name": "Dibujo automático"
       }
     ],
     "devices": [
@@ -4271,6 +4432,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4285,6 +4451,10 @@
       {
         "locale": "it-it",
         "name": "Hotspot automatico"
+      },
+      {
+        "locale": "es-es",
+        "name": "Conexión compartida automática"
       }
     ],
     "devices": [
@@ -4312,6 +4482,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4326,6 +4501,10 @@
       {
         "locale": "it-it",
         "name": "Riempimento automatico di Samsung Pass"
+      },
+      {
+        "locale": "es-es",
+        "name": "Autocompletar (Samsung Pass)"
       }
     ],
     "devices": [
@@ -4348,6 +4527,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4396,6 +4580,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4443,6 +4632,10 @@
       {
         "locale": "it-it",
         "name": "Editor avatar"
+      },
+      {
+        "locale": "es-es",
+        "name": "Editor AR Emoji"
       }
     ],
     "devices": [
@@ -4465,6 +4658,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4519,6 +4717,10 @@
       {
         "locale": "it-it",
         "name": "Adesivi avatar"
+      },
+      {
+        "locale": "es-es",
+        "name": "Stickers AR Emoji"
       }
     ],
     "devices": [
@@ -4541,6 +4743,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4666,6 +4873,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4700,6 +4912,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "基本互動螢幕保護"
+      },
+      {
+        "locale": "es-es",
+        "name": "Salvapantallas básico"
       }
     ],
     "devices": [
@@ -4842,6 +5058,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4915,6 +5136,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -4948,6 +5174,10 @@
         "name": "Dati biometrici"
       },
       {
+        "locale": "es-es",
+        "name": "Datos biométricos"
+      },
+      {
         "locale": "",
         "name": "com.samsung.android.biometrics.app.setting"
       }
@@ -4977,6 +5207,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -5109,6 +5344,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "儲存已封鎖的號碼"
+      },
+      {
+        "locale": "es-es",
+        "name": "Almacenamiento de números bloqueados"
       },
       {
         "locale": "",
@@ -5270,6 +5509,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -5431,6 +5675,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -5500,6 +5749,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -5696,6 +5950,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -5880,6 +6139,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -5941,6 +6205,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -6062,6 +6331,11 @@
       {
         "make": "HONOR",
         "model": "LLY-LX3",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -6299,6 +6573,10 @@
       {
         "locale": "it-it",
         "name": "Calendario"
+      },
+      {
+        "locale": "es-es",
+        "name": "Calendario"
       }
     ],
     "devices": [
@@ -6321,6 +6599,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -6389,6 +6672,10 @@
       {
         "locale": "en-za",
         "name": "Calendar Storage"
+      },
+      {
+        "locale": "es-es",
+        "name": "Almacenamiento de calendario"
       },
       {
         "locale": "",
@@ -6550,6 +6837,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -6576,6 +6868,10 @@
       {
         "locale": "it-it",
         "name": "Chiama"
+      },
+      {
+        "locale": "es-es",
+        "name": "Llamar"
       }
     ],
     "devices": [
@@ -6603,6 +6899,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -6617,6 +6918,10 @@
       {
         "locale": "it-it",
         "name": "Chiamata e testo su altri dispositivi"
+      },
+      {
+        "locale": "es-es",
+        "name": "Llamadas y mensajes en otros dispositivos"
       }
     ],
     "devices": [
@@ -6639,6 +6944,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -6801,6 +7111,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -6868,6 +7183,10 @@
       {
         "locale": "it-it",
         "name": "Impostazioni chiamata"
+      },
+      {
+        "locale": "es-es",
+        "name": "Ajustes de llamada"
       }
     ],
     "devices": [
@@ -6895,6 +7214,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -6927,6 +7251,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -6986,6 +7315,10 @@
       {
         "locale": "",
         "name": "Kamera"
+      },
+      {
+        "locale": "es-es",
+        "name": "Cámara"
       }
     ],
     "devices": [
@@ -7013,6 +7346,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -7455,6 +7793,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -7466,6 +7809,11 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -7489,6 +7837,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -7576,6 +7929,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "網頁認證入口登入"
+      },
+      {
+        "locale": "es-es",
+        "name": "Inicio de sesión en portal cautivo"
       }
     ],
     "devices": [
@@ -7713,6 +8070,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -7866,6 +8228,10 @@
       {
         "locale": "en-za",
         "name": "CarrierDefaultApp"
+      },
+      {
+        "locale": "es-es",
+        "name": "Comunicaciones del operador"
       }
     ],
     "devices": [
@@ -7988,6 +8354,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -8392,6 +8763,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -8534,6 +8910,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -8608,6 +8989,10 @@
       {
         "locale": "en-za",
         "name": "Certificate Installer"
+      },
+      {
+        "locale": "es-es",
+        "name": "Instalador de certificados"
       },
       {
         "locale": "",
@@ -8769,6 +9154,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -8989,6 +9379,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -9021,6 +9416,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -9239,6 +9639,10 @@
       {
         "locale": "it-it",
         "name": "Appunti Tag edge"
+      },
+      {
+        "locale": "es-es",
+        "name": "Portapapeles Edge"
       }
     ],
     "devices": [
@@ -9261,6 +9665,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -9408,7 +9817,12 @@
   "com.sec.android.app.clockpackage": {
     "appName": "Clock",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Reloj"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -9424,6 +9838,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -9452,11 +9871,21 @@
   "com.samsung.android.app.clockpack": {
     "appName": "Clock style",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Estilo de reloj"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -9499,6 +9928,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -9543,6 +9977,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -9793,6 +10232,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -10003,6 +10447,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -10604,6 +11053,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -10766,6 +11220,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -11256,6 +11715,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -11535,6 +11999,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -11687,6 +12156,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -12377,6 +12851,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -12583,6 +13062,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -13645,6 +14129,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -13861,6 +14350,11 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -14817,6 +15311,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -14979,6 +15478,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -15111,6 +15615,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -15224,6 +15733,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -15936,6 +16450,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -16268,6 +16787,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -16581,6 +17105,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -16803,6 +17332,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -17074,6 +17608,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -17191,6 +17730,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -17384,6 +17928,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -17501,6 +18050,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -17677,6 +18231,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -17786,6 +18345,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -18027,6 +18591,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -18059,6 +18628,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -18091,6 +18665,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -18203,6 +18782,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -18315,6 +18899,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -18474,6 +19063,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -18598,6 +19192,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -18710,6 +19309,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -19216,6 +19820,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -19323,6 +19932,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22307,6 +22921,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22553,6 +23172,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22646,6 +23270,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22690,6 +23319,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22722,6 +23356,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22754,6 +23393,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22786,6 +23430,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22835,6 +23484,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22862,6 +23516,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22911,6 +23570,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22965,6 +23629,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -22997,6 +23666,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -23085,6 +23759,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -23141,6 +23820,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -23195,6 +23879,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -23278,6 +23967,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -23310,6 +24004,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -23342,6 +24041,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -23374,6 +24078,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -24347,6 +25056,10 @@
         "name": "隨附裝置管理工具"
       },
       {
+        "locale": "es-es",
+        "name": "Gestor de dispositivos complementario"
+      },
+      {
         "locale": "",
         "name": "Begleitgerät-Manager"
       }
@@ -24506,6 +25219,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -24684,6 +25402,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -24846,6 +25569,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -24860,6 +25588,10 @@
       {
         "locale": "it-it",
         "name": "Messaggio di configurazione"
+      },
+      {
+        "locale": "es-es",
+        "name": "Mensaje de configuración"
       }
     ],
     "devices": [
@@ -24887,6 +25619,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -24901,6 +25638,10 @@
       {
         "locale": "it-it",
         "name": "Aggiornamento config."
+      },
+      {
+        "locale": "es-es",
+        "name": "Actualizar configuración"
       }
     ],
     "devices": [
@@ -24928,6 +25669,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -25004,6 +25750,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -25048,6 +25799,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -25103,6 +25859,10 @@
       {
         "locale": "it-it",
         "name": "Rubrica"
+      },
+      {
+        "locale": "es-es",
+        "name": "Contactos"
       }
     ],
     "devices": [
@@ -25130,6 +25890,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -25317,6 +26082,10 @@
       {
         "locale": "it-it",
         "name": "Spazio di archiviazione contatti"
+      },
+      {
+        "locale": "es-es",
+        "name": "Almacenamiento de contactos"
       }
     ],
     "devices": [
@@ -25344,6 +26113,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -25602,6 +26376,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -25629,6 +26408,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -25663,6 +26447,10 @@
       {
         "locale": "it-it",
         "name": "Ritaglio angolo"
+      },
+      {
+        "locale": "es-es",
+        "name": "Recorte de la esquina"
       },
       {
         "locale": "",
@@ -25804,6 +26592,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -25882,6 +26675,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "憑證管理工具"
+      },
+      {
+        "locale": "es-es",
+        "name": "Gestor de credenciales"
       }
     ],
     "devices": [
@@ -25994,6 +26791,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -26152,6 +26954,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -26206,6 +27013,10 @@
       {
         "locale": "it-it",
         "name": "Servizio di personalizzazione"
+      },
+      {
+        "locale": "es-es",
+        "name": "Servicio de personalización"
       }
     ],
     "devices": [
@@ -26228,6 +27039,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -26475,6 +27291,10 @@
         "name": "Default print service"
       },
       {
+        "locale": "es-es",
+        "name": "Servicio de impresión predeterminado"
+      },
+      {
         "locale": "",
         "name": "Standarddruckdienst"
       }
@@ -26624,6 +27444,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -26738,6 +27563,10 @@
       {
         "locale": "it-it",
         "name": "Assistenza dispositivo"
+      },
+      {
+        "locale": "es-es",
+        "name": "Mantenimiento del dispositivo"
       }
     ],
     "devices": [
@@ -26765,6 +27594,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -27025,6 +27859,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -27230,6 +28069,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -27385,6 +28229,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -27630,6 +28479,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -27696,6 +28550,10 @@
       {
         "locale": "it-it",
         "name": "Dizionario"
+      },
+      {
+        "locale": "es-es",
+        "name": "Diccionario"
       }
     ],
     "devices": [
@@ -27713,6 +28571,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -27754,6 +28617,10 @@
       {
         "locale": "it-it",
         "name": "Benessere digitale"
+      },
+      {
+        "locale": "es-es",
+        "name": "Salud digital"
       }
     ],
     "devices": [
@@ -27781,6 +28648,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -28088,6 +28960,10 @@
         "name": "Ritaglio doppio"
       },
       {
+        "locale": "es-es",
+        "name": "Recorte doble"
+      },
+      {
         "locale": "",
         "name": "Doppelte Aussparung"
       }
@@ -28227,6 +29103,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -28249,6 +29130,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "下載管理員"
+      },
+      {
+        "locale": "es-es",
+        "name": "Administrador de descargas"
       },
       {
         "locale": "",
@@ -28410,6 +29295,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -28440,6 +29330,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "下載內容"
+      },
+      {
+        "locale": "es-es",
+        "name": "Descargas"
       }
     ],
     "devices": [
@@ -28597,6 +29491,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -28669,6 +29568,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -28929,6 +29833,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -28973,6 +29882,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -28995,6 +29909,10 @@
       {
         "locale": "it-it",
         "name": "Doppio Account"
+      },
+      {
+        "locale": "es-es",
+        "name": "Mensajería dual"
       }
     ],
     "devices": [
@@ -29022,6 +29940,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -29220,6 +30143,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -29317,6 +30245,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -29335,12 +30268,22 @@
   "com.samsung.android.app.cocktailbarservice": {
     "appName": "Edge panels",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "com.samsung.android.app.cocktailbarservice"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -29390,6 +30333,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -29624,6 +30572,10 @@
       {
         "locale": "it-it",
         "name": "Condivisione di emergenza"
+      },
+      {
+        "locale": "es-es",
+        "name": "Compartir en una emergencia"
       }
     ],
     "devices": [
@@ -29651,6 +30603,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -29665,6 +30622,10 @@
       {
         "locale": "it-it",
         "name": "SOS di emergenza"
+      },
+      {
+        "locale": "es-es",
+        "name": "Mensaje de emergencia"
       }
     ],
     "devices": [
@@ -29692,6 +30653,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -29940,6 +30906,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -29980,6 +30951,11 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -30054,6 +31030,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30081,6 +31062,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30153,6 +31139,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "外部儲存裝置"
+      },
+      {
+        "locale": "es-es",
+        "name": "Almacenamiento externo"
       },
       {
         "locale": "",
@@ -30314,6 +31304,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30377,6 +31372,10 @@
       {
         "locale": "it-it",
         "name": "Protezione occhi"
+      },
+      {
+        "locale": "es-es",
+        "name": "Protector de la vista"
       }
     ],
     "devices": [
@@ -30404,6 +31403,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30436,6 +31440,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30543,6 +31552,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30575,6 +31589,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30675,6 +31694,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30731,6 +31755,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30785,6 +31814,10 @@
       {
         "locale": "it-it",
         "name": "Contatti preferiti"
+      },
+      {
+        "locale": "es-es",
+        "name": "Contactos favoritos"
       }
     ],
     "devices": [
@@ -30807,6 +31840,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -30935,6 +31973,10 @@
       {
         "locale": "it-it",
         "name": "File"
+      },
+      {
+        "locale": "es-es",
+        "name": "Archivos"
       }
     ],
     "devices": [
@@ -31067,6 +32109,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -31842,6 +32889,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -31881,6 +32933,10 @@
       {
         "locale": "it-it",
         "name": "Trova dispositivo personale"
+      },
+      {
+        "locale": "es-es",
+        "name": "Buscar mi móvil"
       }
     ],
     "devices": [
@@ -31908,6 +32964,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32155,6 +33216,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32241,6 +33307,10 @@
       {
         "locale": "nl-nl",
         "name": "Samengestelde locatie"
+      },
+      {
+        "locale": "es-es",
+        "name": "Ubicación combinada"
       },
       {
         "locale": "",
@@ -32402,6 +33472,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32433,6 +33508,10 @@
       {
         "locale": "",
         "name": "Galaxy-Avatar"
+      },
+      {
+        "locale": "es-es",
+        "name": "AR Emoji"
       }
     ],
     "devices": [
@@ -32455,6 +33534,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32509,6 +33593,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32523,6 +33612,10 @@
       {
         "locale": "it-it",
         "name": "Configurazione servizio Galaxy"
+      },
+      {
+        "locale": "es-es",
+        "name": "Configuración de Servicio Galaxy"
       }
     ],
     "devices": [
@@ -32545,6 +33638,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32577,6 +33675,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32609,6 +33712,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32623,6 +33731,10 @@
       {
         "locale": "it-it",
         "name": "Servizio Galaxy Themes"
+      },
+      {
+        "locale": "es-es",
+        "name": "Servicio de Galaxy Themes"
       }
     ],
     "devices": [
@@ -32650,6 +33762,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32664,6 +33781,10 @@
       {
         "locale": "it-it",
         "name": "Galleria"
+      },
+      {
+        "locale": "es-es",
+        "name": "Galería"
       }
     ],
     "devices": [
@@ -32691,6 +33812,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32705,6 +33831,10 @@
       {
         "locale": "it-it",
         "name": "Galleria"
+      },
+      {
+        "locale": "es-es",
+        "name": "Galería"
       }
     ],
     "devices": [
@@ -32732,6 +33862,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32797,6 +33932,10 @@
       {
         "locale": "it-it",
         "name": "Storie nella Galleria"
+      },
+      {
+        "locale": "es-es",
+        "name": "Historias de Galería"
       }
     ],
     "devices": [
@@ -32824,6 +33963,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32856,6 +34000,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32929,6 +34078,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -32980,6 +34134,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -33237,6 +34396,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -33269,6 +34433,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -33301,6 +34470,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -33373,6 +34547,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -33405,6 +34584,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -33552,6 +34736,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -33623,6 +34812,11 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -33875,6 +35069,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -34081,6 +35280,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -34125,6 +35329,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Google 日曆同步處理"
+      },
+      {
+        "locale": "es-es",
+        "name": "Sincronización de Google Calendar"
       }
     ],
     "devices": [
@@ -34172,6 +35380,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -34247,6 +35460,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Google 定位記錄"
+      },
+      {
+        "locale": "es-es",
+        "name": "Historial de ubicaciones de Google"
       }
     ],
     "devices": [
@@ -34384,6 +35601,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -34568,6 +35790,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -34730,6 +35957,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -34836,6 +36068,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Google Play 服務"
+      },
+      {
+        "locale": "es-es",
+        "name": "Servicios de Google Play"
       },
       {
         "locale": "",
@@ -34997,6 +36233,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -35074,6 +36315,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -35245,6 +36491,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -35279,6 +36530,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Google 安全中心資源"
+      },
+      {
+        "locale": "es-es",
+        "name": "Recursos del Centro de Seguridad de Google"
       }
     ],
     "devices": [
@@ -35411,6 +36666,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -35475,6 +36735,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Google 服務架構"
+      },
+      {
+        "locale": "es-es",
+        "name": "Framework de servicios de Google"
       }
     ],
     "devices": [
@@ -35632,6 +36896,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -35868,6 +37137,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -35917,6 +37191,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -35939,6 +37218,10 @@
       {
         "locale": "",
         "name": "Gruppenfreigabe"
+      },
+      {
+        "locale": "es-es",
+        "name": "Compartir con grupos"
       }
     ],
     "devices": [
@@ -35966,6 +37249,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -35998,6 +37286,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -36059,6 +37352,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -36126,6 +37424,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "健康資料同步"
+      },
+      {
+        "locale": "es-es",
+        "name": "Salud conectada"
       }
     ],
     "devices": [
@@ -36238,6 +37540,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -36299,6 +37606,10 @@
       },
       {
         "locale": "ru-ru",
+        "name": "Google Assistant"
+      },
+      {
+        "locale": "es-es",
         "name": "Google Assistant"
       }
     ],
@@ -36382,6 +37693,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -36540,6 +37856,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -37011,6 +38332,10 @@
         "name": "HTML檢視器"
       },
       {
+        "locale": "es-es",
+        "name": "Visor de HTML"
+      },
+      {
         "locale": "",
         "name": "HTML-Anzeige"
       }
@@ -37170,6 +38495,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -37202,6 +38532,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -37287,6 +38622,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -37385,6 +38725,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -37417,6 +38762,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -37449,6 +38799,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -37548,6 +38903,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "輸入裝置"
+      },
+      {
+        "locale": "es-es",
+        "name": "Dispositivos de introducción de datos"
       },
       {
         "locale": "",
@@ -37709,6 +39068,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -37924,6 +39288,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38040,6 +39409,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38384,6 +39758,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38412,6 +39791,11 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -38498,6 +39882,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38530,6 +39919,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38557,6 +39951,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38594,6 +39993,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38643,6 +40047,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38697,6 +40106,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38751,6 +40165,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38778,6 +40197,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38810,6 +40234,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -38863,6 +40292,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -39207,6 +40641,10 @@
       {
         "locale": "en-de",
         "name": "Live Transcribe and Sound Notifications"
+      },
+      {
+        "locale": "es-es",
+        "name": "Transcripción instantánea y Notificaciones de sonidos"
       }
     ],
     "devices": [
@@ -39259,6 +40697,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -39285,6 +40728,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "動態桌布挑選器"
+      },
+      {
+        "locale": "es-es",
+        "name": "Selector de fondo animado"
       },
       {
         "locale": "",
@@ -39440,6 +40887,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -39827,6 +41279,10 @@
       {
         "locale": "it-it",
         "name": "Lente"
+      },
+      {
+        "locale": "es-es",
+        "name": "Lupa"
       }
     ],
     "devices": [
@@ -39854,6 +41310,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -40035,6 +41496,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -40167,6 +41633,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -40382,6 +41853,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -40400,6 +41876,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Market 意見回饋代理程式"
+      },
+      {
+        "locale": "es-es",
+        "name": "Agente comentarios Market"
       }
     ],
     "devices": [
@@ -40557,6 +42037,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -40660,6 +42145,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -40796,6 +42286,10 @@
       {
         "locale": "",
         "name": "Media and devices"
+      },
+      {
+        "locale": "es-es",
+        "name": "Salida multimedia"
       }
     ],
     "devices": [
@@ -40807,6 +42301,11 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -40834,6 +42333,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "媒體選擇器"
+      },
+      {
+        "locale": "es-es",
+        "name": "Selector de medios"
       },
       {
         "locale": "",
@@ -40975,6 +42478,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -41197,6 +42705,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -41219,6 +42732,10 @@
       {
         "locale": "it-it",
         "name": "Messaggi"
+      },
+      {
+        "locale": "es-es",
+        "name": "Mensajes"
       }
     ],
     "devices": [
@@ -41241,6 +42758,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -41259,6 +42781,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "訊息"
+      },
+      {
+        "locale": "es-es",
+        "name": "Mensajes"
       }
     ],
     "devices": [
@@ -41401,6 +42927,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -41458,6 +42989,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -41515,6 +43051,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -41572,6 +43113,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -42171,6 +43717,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -42227,6 +43778,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -42275,6 +43831,10 @@
       {
         "locale": "it-it",
         "name": "Modalità e routine"
+      },
+      {
+        "locale": "es-es",
+        "name": "Modos y rutinas"
       }
     ],
     "devices": [
@@ -42302,6 +43862,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -42906,6 +44471,10 @@
       {
         "locale": "it-it",
         "name": "Applicazione MTP"
+      },
+      {
+        "locale": "es-es",
+        "name": "Aplicación MTP"
       }
     ],
     "devices": [
@@ -42933,6 +44502,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -42967,6 +44541,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "媒體傳輸通訊協定主機"
+      },
+      {
+        "locale": "es-es",
+        "name": "Host de MTP"
       },
       {
         "locale": "",
@@ -43128,6 +44706,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -43142,6 +44725,10 @@
       {
         "locale": "it-it",
         "name": "Controllo multiplo"
+      },
+      {
+        "locale": "es-es",
+        "name": "Multicontrol"
       }
     ],
     "devices": [
@@ -43164,6 +44751,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -43386,6 +44978,10 @@
       {
         "locale": "it-it",
         "name": "Archivio"
+      },
+      {
+        "locale": "es-es",
+        "name": "Mis archivos"
       }
     ],
     "devices": [
@@ -43413,6 +45009,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -43539,6 +45140,10 @@
       {
         "locale": "it-it",
         "name": "Ricerca dispositivi vicini"
+      },
+      {
+        "locale": "es-es",
+        "name": "Buscar dispositivos cercanos"
       }
     ],
     "devices": [
@@ -43566,6 +45171,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -43580,6 +45190,10 @@
       {
         "locale": "it-it",
         "name": "Ricerca dispositivi vicini"
+      },
+      {
+        "locale": "es-es",
+        "name": "Buscar dispositivos"
       }
     ],
     "devices": [
@@ -43607,6 +45221,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -43665,6 +45284,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -43735,6 +45359,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "網路管理工具"
+      },
+      {
+        "locale": "es-es",
+        "name": "Administrador de redes"
       }
     ],
     "devices": [
@@ -43872,6 +45500,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -43997,6 +45630,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -44134,6 +45772,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -44447,6 +46090,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -44693,6 +46341,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -45022,6 +46675,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -45078,6 +46736,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -45277,6 +46940,10 @@
       {
         "locale": "ru-ru",
         "name": "Google Assistant"
+      },
+      {
+        "locale": "es-es",
+        "name": "Google Assistant"
       }
     ],
     "devices": [
@@ -45359,6 +47026,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -45476,6 +47148,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -45486,6 +47163,10 @@
       {
         "locale": "",
         "name": "One UI-Startbildschirm"
+      },
+      {
+        "locale": "es-es",
+        "name": "Inicio de One UI"
       }
     ],
     "devices": [
@@ -45513,6 +47194,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -45557,6 +47243,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -46135,6 +47826,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -46299,6 +47995,10 @@
         "name": "套件安裝程式"
       },
       {
+        "locale": "es-es",
+        "name": "Instalador de paquetes"
+      },
+      {
         "locale": "",
         "name": "Paketinstallation"
       }
@@ -46458,6 +48158,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -46642,6 +48347,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -46692,6 +48402,10 @@
       {
         "locale": "it-it",
         "name": "Controllo genitori"
+      },
+      {
+        "locale": "es-es",
+        "name": "Controles parentales"
       }
     ],
     "devices": [
@@ -46714,6 +48428,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -46815,6 +48534,10 @@
       {
         "locale": "it-it",
         "name": "Persone"
+      },
+      {
+        "locale": "es-es",
+        "name": "Personas"
       }
     ],
     "devices": [
@@ -46842,6 +48565,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -46883,6 +48611,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -46909,6 +48642,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "權限控制器"
+      },
+      {
+        "locale": "es-es",
+        "name": "Controlador de permisos"
       }
     ],
     "devices": [
@@ -47046,6 +48783,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -47084,6 +48826,10 @@
       {
         "locale": "it-it",
         "name": "Uso autorizzazione"
+      },
+      {
+        "locale": "es-es",
+        "name": "Uso de permisos"
       }
     ],
     "devices": [
@@ -47111,6 +48857,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -47165,6 +48916,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -47183,6 +48939,10 @@
       {
         "locale": "it-it",
         "name": "Assistente dati personali"
+      },
+      {
+        "locale": "es-es",
+        "name": "Sugerencias inteligentes"
       }
     ],
     "devices": [
@@ -47205,6 +48965,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -47385,6 +49150,10 @@
       {
         "locale": "it-it",
         "name": "Telefono"
+      },
+      {
+        "locale": "es-es",
+        "name": "Teléfono"
       }
     ],
     "devices": [
@@ -47412,6 +49181,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -47593,6 +49367,10 @@
         "name": "通話/訊息儲存"
       },
       {
+        "locale": "es-es",
+        "name": "Almacenamiento de mensajes y teléfono"
+      },
+      {
         "locale": "",
         "name": "Mobile Network Configuration"
       },
@@ -47760,6 +49538,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -47794,6 +49577,10 @@
       {
         "locale": "en-za",
         "name": "Call Management"
+      },
+      {
+        "locale": "es-es",
+        "name": "Llamadas de teléfono"
       },
       {
         "locale": "",
@@ -47959,6 +49746,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -47997,6 +49789,10 @@
       {
         "locale": "en-za",
         "name": "Phone Services"
+      },
+      {
+        "locale": "es-es",
+        "name": "Servicios telefónicos"
       },
       {
         "locale": "",
@@ -48162,6 +49958,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -48246,6 +50047,10 @@
       {
         "locale": "it-it",
         "name": "Editor immagini"
+      },
+      {
+        "locale": "es-es",
+        "name": "Editor de fotos"
       }
     ],
     "devices": [
@@ -48273,6 +50078,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -48291,6 +50101,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "相片螢幕保護程式"
+      },
+      {
+        "locale": "es-es",
+        "name": "Salvapantallas de fotos"
       }
     ],
     "devices": [
@@ -48348,6 +50162,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -48558,6 +50377,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "相片和影片"
+      },
+      {
+        "locale": "es-es",
+        "name": "Fotos y vídeos"
       }
     ],
     "devices": [
@@ -48680,6 +50503,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -49274,6 +51102,10 @@
       {
         "locale": "it-it",
         "name": "Ritratto"
+      },
+      {
+        "locale": "es-es",
+        "name": "Retrato"
       }
     ],
     "devices": [
@@ -49301,6 +51133,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -49552,6 +51389,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -49570,6 +51412,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "列印處理服務"
+      },
+      {
+        "locale": "es-es",
+        "name": "Cola de impresión"
       },
       {
         "locale": "",
@@ -49731,6 +51577,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -49863,6 +51714,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -50147,6 +52003,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -50197,6 +52058,10 @@
       {
         "locale": "en-za",
         "name": "Punch hole cutout"
+      },
+      {
+        "locale": "es-es",
+        "name": "Recorte redondo"
       }
     ],
     "devices": [
@@ -50329,6 +52194,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -50420,6 +52290,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -50495,6 +52370,18 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.qualcomm.qti.smq": {
+    "appName": "QTR",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -50585,6 +52472,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -50595,6 +52487,10 @@
       {
         "locale": "it-it",
         "name": "Agente di Quick Share"
+      },
+      {
+        "locale": "es-es",
+        "name": "Agente de Quick Share"
       }
     ],
     "devices": [
@@ -50622,6 +52518,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -50636,6 +52537,10 @@
       {
         "locale": "it-it",
         "name": "Connettività Quick Share"
+      },
+      {
+        "locale": "es-es",
+        "name": "Conectividad de Quick Share"
       }
     ],
     "devices": [
@@ -50663,6 +52568,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -50883,6 +52793,10 @@
       {
         "locale": "it-it",
         "name": "Applicazioni consigliate"
+      },
+      {
+        "locale": "es-es",
+        "name": "Aplicaciones recomendadas"
       }
     ],
     "devices": [
@@ -50910,6 +52824,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51032,6 +52951,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51173,6 +53097,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51455,6 +53384,10 @@
       {
         "locale": "it-it",
         "name": "Errore"
+      },
+      {
+        "locale": "es-es",
+        "name": "Error"
       }
     ],
     "devices": [
@@ -51482,6 +53415,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51509,6 +53447,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51748,6 +53691,10 @@
       {
         "locale": "it-it",
         "name": "Informazioni di sicurezza"
+      },
+      {
+        "locale": "es-es",
+        "name": "Información de seguridad"
       }
     ],
     "devices": [
@@ -51775,6 +53722,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51884,6 +53836,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51908,6 +53865,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51934,6 +53896,10 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
+        "name": "SecVideoEngineService"
+      },
+      {
+        "locale": "es-es",
         "name": "SecVideoEngineService"
       }
     ],
@@ -51962,6 +53928,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -51976,6 +53947,10 @@
       {
         "locale": "it-it",
         "name": "Acquisizione Samsung"
+      },
+      {
+        "locale": "es-es",
+        "name": "Captura de Samsung"
       }
     ],
     "devices": [
@@ -52003,6 +53978,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52035,6 +54015,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52067,6 +54052,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52077,6 +54067,10 @@
       {
         "locale": "it-it",
         "name": "Assistente Samsung Cloud"
+      },
+      {
+        "locale": "es-es",
+        "name": "Asistente de Samsung Cloud"
       },
       {
         "locale": "",
@@ -52108,6 +54102,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52135,6 +54134,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52167,6 +54171,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52298,6 +54307,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52363,6 +54377,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52397,6 +54416,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52411,6 +54435,10 @@
       {
         "locale": "it-it",
         "name": "Tastiera Samsung"
+      },
+      {
+        "locale": "es-es",
+        "name": "Teclado Samsung"
       }
     ],
     "devices": [
@@ -52438,6 +54466,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52452,6 +54485,10 @@
       {
         "locale": "it-it",
         "name": "Programma di installazione di Samsung Kids"
+      },
+      {
+        "locale": "es-es",
+        "name": "Instalador de Samsung Kids"
       }
     ],
     "devices": [
@@ -52479,6 +54516,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52523,6 +54565,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52560,6 +54607,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52587,6 +54639,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52638,6 +54695,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52674,6 +54736,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52706,6 +54773,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52720,6 +54792,10 @@
       {
         "locale": "it-it",
         "name": "Configurazione guidata Samsung"
+      },
+      {
+        "locale": "es-es",
+        "name": "Asistente de configuración de Samsung"
       }
     ],
     "devices": [
@@ -52747,6 +54823,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52785,6 +54866,10 @@
       {
         "locale": "it-it",
         "name": "Motore sintesi vocale Samsung"
+      },
+      {
+        "locale": "es-es",
+        "name": "Motor de texto a voz de Samsung"
       }
     ],
     "devices": [
@@ -52812,6 +54897,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -52892,6 +54982,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53024,6 +55119,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53056,6 +55156,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53088,6 +55193,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53132,6 +55242,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53159,6 +55274,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53186,6 +55306,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53208,6 +55333,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53247,6 +55377,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53269,6 +55404,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53303,6 +55443,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53312,6 +55457,10 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
+        "name": "SamsungTTS Russian Default voice 1 - Classic"
+      },
+      {
+        "locale": "es-es",
         "name": "SamsungTTS Russian Default voice 1 - Classic"
       }
     ],
@@ -53335,6 +55484,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53362,6 +55516,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53384,6 +55543,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53411,6 +55575,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53445,6 +55614,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53467,6 +55641,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53489,6 +55668,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53822,6 +56006,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "搜尋引擎選取器"
+      },
+      {
+        "locale": "es-es",
+        "name": "Selector de motor de búsqueda"
       }
     ],
     "devices": [
@@ -53934,6 +56122,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -53990,6 +56183,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54017,6 +56215,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54047,6 +56250,10 @@
       {
         "locale": "it-it",
         "name": "Area Personale"
+      },
+      {
+        "locale": "es-es",
+        "name": "Carpeta segura"
       }
     ],
     "devices": [
@@ -54069,6 +56276,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54093,6 +56305,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54107,6 +56324,10 @@
       {
         "locale": "it-it",
         "name": "Wi-Fi protetto"
+      },
+      {
+        "locale": "es-es",
+        "name": "Wi-Fi segura"
       }
     ],
     "devices": [
@@ -54134,6 +56355,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54291,6 +56517,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54364,6 +56595,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54509,6 +56745,10 @@
       {
         "locale": "it-it",
         "name": "Separa audio applicazione"
+      },
+      {
+        "locale": "es-es",
+        "name": "Sonido de aplicación independiente"
       }
     ],
     "devices": [
@@ -54536,6 +56776,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54568,6 +56813,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54624,6 +56874,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54656,6 +56911,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54688,6 +56948,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54706,6 +56971,10 @@
       {
         "locale": "it-it",
         "name": "Configurazione gestore telefonico"
+      },
+      {
+        "locale": "es-es",
+        "name": "Actualizar configuración"
       }
     ],
     "devices": [
@@ -54733,6 +57002,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -54772,6 +57046,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "設定"
+      },
+      {
+        "locale": "es-es",
+        "name": "Ajustes"
       },
       {
         "locale": "",
@@ -54933,6 +57211,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -55081,6 +57364,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "設定儲存"
+      },
+      {
+        "locale": "es-es",
+        "name": "Almacenamiento de configuración"
       },
       {
         "locale": "",
@@ -55242,6 +57529,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -55291,6 +57583,10 @@
       {
         "locale": "it-it",
         "name": "Suggerimenti impostazioni"
+      },
+      {
+        "locale": "es-es",
+        "name": "Sugerencias de ajustes"
       },
       {
         "locale": "",
@@ -55402,6 +57698,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -55418,6 +57719,11 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -55446,6 +57752,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -55529,6 +57840,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -55749,6 +58065,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -55781,6 +58102,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -55825,6 +58151,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -55851,6 +58182,10 @@
       {
         "locale": "en-za",
         "name": "Sim app dialogue"
+      },
+      {
+        "locale": "es-es",
+        "name": "Cuadro de diálogo de la aplicación de SIM"
       },
       {
         "locale": "",
@@ -55992,6 +58327,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56103,6 +58443,10 @@
       {
         "locale": "en-za",
         "name": "SIM Tool Kit"
+      },
+      {
+        "locale": "es-es",
+        "name": "Kit herramientas SIM"
       },
       {
         "locale": "",
@@ -56244,6 +58588,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56262,6 +58611,10 @@
       {
         "locale": "it-it",
         "name": "Servizi SIM"
+      },
+      {
+        "locale": "es-es",
+        "name": "Kit herramientas SIM"
       }
     ],
     "devices": [
@@ -56289,6 +58642,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56355,6 +58713,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56499,6 +58862,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56531,6 +58899,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56580,6 +58953,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56727,6 +59105,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56737,6 +59120,10 @@
       {
         "locale": "it-it",
         "name": "Agente Smart Switch"
+      },
+      {
+        "locale": "es-es",
+        "name": "Agente de Smart Switch"
       }
     ],
     "devices": [
@@ -56764,6 +59151,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56808,6 +59200,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56847,6 +59244,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56930,6 +59332,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56962,6 +59369,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -56994,6 +59406,10 @@
       {
         "locale": "en-gb",
         "name": "SmartThings Framework"
+      },
+      {
+        "locale": "es-es",
+        "name": "SmartThings Framework"
       }
     ],
     "devices": [
@@ -57016,6 +59432,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -57030,6 +59451,10 @@
       {
         "locale": "it-it",
         "name": "Aggiornamento software"
+      },
+      {
+        "locale": "es-es",
+        "name": "Actualización de software"
       }
     ],
     "devices": [
@@ -57057,6 +59482,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -57071,6 +59501,10 @@
       {
         "locale": "it-it",
         "name": "Aggiornamento software"
+      },
+      {
+        "locale": "es-es",
+        "name": "Actualización de software"
       }
     ],
     "devices": [
@@ -57098,6 +59532,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -57183,6 +59622,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -57282,6 +59726,10 @@
       {
         "locale": "it-it",
         "name": "Selezionatore audio"
+      },
+      {
+        "locale": "es-es",
+        "name": "Selector de sonido"
       }
     ],
     "devices": [
@@ -57309,6 +59757,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -57323,6 +59776,10 @@
       {
         "locale": "it-it",
         "name": "Qualità audio ed effetti"
+      },
+      {
+        "locale": "es-es",
+        "name": "Efectos y calidad del sonido"
       }
     ],
     "devices": [
@@ -57350,6 +59807,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -57668,6 +60130,10 @@
         "name": "Google Text-to-speech engine"
       },
       {
+        "locale": "es-es",
+        "name": "Reconocimiento y síntesis de voz de Google"
+      },
+      {
         "locale": "",
         "name": "Speech Services by Google"
       },
@@ -57835,6 +60301,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -57997,6 +60468,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -58023,6 +60499,10 @@
       {
         "locale": "it-it",
         "name": "Gestione archiviazione"
+      },
+      {
+        "locale": "es-es",
+        "name": "Administrador de almacenamiento"
       },
       {
         "locale": "",
@@ -58139,6 +60619,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -58416,6 +60901,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -58448,6 +60938,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -58643,6 +61138,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "系統連線資源"
+      },
+      {
+        "locale": "es-es",
+        "name": "Recursos de conectividad del sistema"
       }
     ],
     "devices": [
@@ -58780,6 +61279,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -58963,6 +61467,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "系統家長監護功能"
+      },
+      {
+        "locale": "es-es",
+        "name": "Controles parentales de Family Link"
       }
     ],
     "devices": [
@@ -59090,6 +61598,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -59183,6 +61696,10 @@
       {
         "locale": "it-it",
         "name": "Tracciamento del sistema"
+      },
+      {
+        "locale": "es-es",
+        "name": "Trazado del sistema"
       },
       {
         "locale": "",
@@ -59324,6 +61841,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -59346,6 +61868,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "系統使用者介面"
+      },
+      {
+        "locale": "es-es",
+        "name": "IU sistema"
       },
       {
         "locale": "",
@@ -59507,6 +62033,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -59676,6 +62207,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -59768,6 +62304,10 @@
       {
         "locale": "en-za",
         "name": "System Wi-Fi resources"
+      },
+      {
+        "locale": "es-es",
+        "name": "Recursos Wi‑Fi del sistema"
       }
     ],
     "devices": [
@@ -59840,6 +62380,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -60012,6 +62557,10 @@
       {
         "locale": "it-it",
         "name": "Tag"
+      },
+      {
+        "locale": "es-es",
+        "name": "Etiquetas"
       }
     ],
     "devices": [
@@ -60059,6 +62608,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -60205,6 +62759,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -60227,6 +62786,10 @@
       {
         "locale": "it-it",
         "name": "Ritaglio alto"
+      },
+      {
+        "locale": "es-es",
+        "name": "Recorte alto"
       },
       {
         "locale": "",
@@ -60368,6 +62931,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -60406,6 +62974,10 @@
       {
         "locale": "it-it",
         "name": "Funzioni"
+      },
+      {
+        "locale": "es-es",
+        "name": "Tareas"
       }
     ],
     "devices": [
@@ -60428,6 +63000,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -60726,6 +63303,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -60807,6 +63389,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -61182,6 +63769,10 @@
       {
         "locale": "it-it",
         "name": "Strumenti"
+      },
+      {
+        "locale": "es-es",
+        "name": "Herramientas"
       }
     ],
     "devices": [
@@ -61204,6 +63795,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -61470,6 +64066,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -61749,6 +64350,11 @@
         "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -61815,6 +64421,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -61837,6 +64448,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "使用者字典"
+      },
+      {
+        "locale": "es-es",
+        "name": "Diccionario del usuario"
       },
       {
         "locale": "",
@@ -61998,6 +64613,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -62026,7 +64646,12 @@
   "com.sec.android.widgetapp.webmanual": {
     "appName": "User guide",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Guía de usuario"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -62036,6 +64661,11 @@
       {
         "make": "samsung",
         "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -62443,6 +65073,10 @@
       {
         "locale": "it-it",
         "name": "Effetti video"
+      },
+      {
+        "locale": "es-es",
+        "name": "Efectos de videollamada"
       }
     ],
     "devices": [
@@ -62465,6 +65099,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -62479,6 +65118,10 @@
       {
         "locale": "it-it",
         "name": "Lettore video"
+      },
+      {
+        "locale": "es-es",
+        "name": "Reproductor de vídeo"
       }
     ],
     "devices": [
@@ -62506,6 +65149,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -62587,6 +65235,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -62699,6 +65352,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -62888,6 +65546,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63032,6 +65695,10 @@
       {
         "locale": "it-it",
         "name": "Sfondo e stile"
+      },
+      {
+        "locale": "es-es",
+        "name": "Fondo de pantalla y estilo"
       }
     ],
     "devices": [
@@ -63059,6 +65726,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63073,6 +65745,10 @@
       {
         "locale": "it-it",
         "name": "Servizi per gli sfondi"
+      },
+      {
+        "locale": "es-es",
+        "name": "Servicios de fondos de pantalla"
       }
     ],
     "devices": [
@@ -63100,6 +65776,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63194,6 +65875,10 @@
       {
         "locale": "it-it",
         "name": "Curvatura Waterfall"
+      },
+      {
+        "locale": "es-es",
+        "name": "Recorte de cascada"
       }
     ],
     "devices": [
@@ -63326,6 +66011,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63358,6 +66048,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63390,6 +66085,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63404,6 +66104,10 @@
       {
         "locale": "it-it",
         "name": "Meteo"
+      },
+      {
+        "locale": "es-es",
+        "name": "Tiempo"
       }
     ],
     "devices": [
@@ -63431,6 +66135,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63629,6 +66338,10 @@
       {
         "locale": "it-it",
         "name": "Chiamata Wi-Fi"
+      },
+      {
+        "locale": "es-es",
+        "name": "Llamadas Wi-Fi"
       }
     ],
     "devices": [
@@ -63656,6 +66369,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63711,6 +66429,10 @@
       {
         "locale": "it-it",
         "name": "Suggerimenti sul Wi-Fi"
+      },
+      {
+        "locale": "es-es",
+        "name": "Consejos de Wi-Fi"
       }
     ],
     "devices": [
@@ -63733,6 +66455,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63784,6 +66511,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -63866,6 +66598,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "無線緊急警報"
+      },
+      {
+        "locale": "es-es",
+        "name": "Alertas de emergencia inalámbricas"
       },
       {
         "locale": "",
@@ -64002,6 +66738,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -64121,6 +66862,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -64163,6 +66909,10 @@
       {
         "locale": "zh-hant-uz",
         "name": "Work 設定檔設定"
+      },
+      {
+        "locale": "es-es",
+        "name": "Configuración de trabajo"
       },
       {
         "locale": "",
@@ -64324,6 +67074,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -64787,6 +67542,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
