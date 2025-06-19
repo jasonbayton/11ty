@@ -133,6 +133,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -263,6 +268,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -462,6 +472,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -580,6 +595,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -731,6 +751,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.gpudrivers.pineapple.api34": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.qualcomm.qti.gpudrivers.lito.api30": {
     "appName": "Adreno Graphics Drivers",
     "userFacing": false,
@@ -870,6 +902,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -923,6 +960,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -1098,6 +1140,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -1403,6 +1450,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -1657,6 +1709,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -1877,6 +1934,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -2120,6 +2182,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -2323,6 +2390,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -2533,6 +2605,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -2773,6 +2850,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -2999,6 +3081,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -3202,6 +3289,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -3492,6 +3584,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -4479,6 +4576,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -4818,6 +4920,18 @@
       }
     ]
   },
+  "com.ironsrc.aura.tmo": {
+    "appName": "AppSelector",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.aura.oobe.lenovo": {
     "appName": "AppServices",
     "userFacing": false,
@@ -5086,6 +5200,18 @@
       }
     ]
   },
+  "com.sec.providers.assisteddialing": {
+    "appName": "Assisted Dialing",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.coloros.floatassistant": {
     "appName": "Assistive Ball",
     "userFacing": false,
@@ -5261,6 +5387,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -5329,6 +5460,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -5413,6 +5549,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -5528,6 +5669,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -5622,6 +5768,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -5711,6 +5862,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -5776,6 +5932,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -5934,6 +6095,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -6016,7 +6182,7 @@
   },
   "com.sec.android.mimage.avatarstickers": {
     "appName": "Avatar Stickers",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -6073,6 +6239,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -6243,6 +6414,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -6442,6 +6618,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -6590,6 +6771,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -6705,6 +6891,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -6777,6 +6968,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -6844,6 +7040,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -6907,6 +7108,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -7122,6 +7328,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -7333,6 +7544,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -7478,6 +7694,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -7679,6 +7900,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -7912,6 +8138,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -8058,6 +8289,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -8186,6 +8422,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -8729,6 +8970,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -8875,6 +9121,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -8960,6 +9211,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -9131,6 +9387,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -9268,6 +9529,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -9357,6 +9623,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -9434,6 +9705,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -9507,6 +9783,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -9605,6 +9886,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -9900,6 +10186,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -10076,6 +10367,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -10443,6 +10739,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -10777,6 +11078,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -11255,6 +11561,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -11282,6 +11593,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.android.Cdfs": {
+    "appName": "CDFS MODE Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -11398,6 +11721,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -11686,6 +12014,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -11951,6 +12284,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -12064,6 +12402,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -12357,6 +12700,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -12761,6 +13109,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -13012,6 +13365,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -13272,6 +13630,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -13775,6 +14138,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -13933,6 +14301,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -14140,6 +14513,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -14679,6 +15057,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -15003,6 +15386,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -15196,6 +15584,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -15498,6 +15891,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -15970,6 +16368,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -16212,6 +16615,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -16501,6 +16909,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -17359,6 +17772,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -18615,6 +19033,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -18812,6 +19235,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -18999,6 +19427,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -19163,6 +19596,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -19899,6 +20337,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -20266,6 +20709,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -20624,6 +21072,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -20921,6 +21374,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -21212,6 +21670,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -21370,6 +21833,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -21622,6 +22090,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -21770,6 +22243,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -21991,6 +22469,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -22420,6 +22903,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -22532,6 +23020,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -22605,6 +23098,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -22727,6 +23225,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -22888,6 +23391,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -22991,6 +23499,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -23108,6 +23621,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -23281,6 +23799,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -23434,6 +23957,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -23984,6 +24512,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -24132,6 +24665,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -27041,6 +27579,18 @@
       }
     ]
   },
+  "com.qualcomm.overlay.target": {
+    "appName": "com.qualcomm.overlay.target",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.qualcomm.qcrilmsgtunnel": {
     "appName": "com.qualcomm.qcrilmsgtunnel",
     "userFacing": false,
@@ -27473,6 +28023,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -27564,6 +28119,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -27631,6 +28191,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -27683,6 +28248,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -27726,6 +28296,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -27807,6 +28382,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -27834,6 +28414,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.nfc.resources.usa": {
+    "appName": "com.samsung.android.nfc.resources.usa",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -27880,6 +28472,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -27957,6 +28554,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -28065,6 +28667,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -28128,6 +28735,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -28199,6 +28811,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -28261,6 +28878,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -28304,6 +28926,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -28366,6 +28993,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -28447,6 +29079,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -28504,6 +29141,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -28546,6 +29188,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -28579,6 +29226,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -28640,6 +29292,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -28697,6 +29354,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -28726,6 +29388,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -28763,6 +29430,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -28805,6 +29477,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -28870,6 +29547,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -28897,6 +29579,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.InputEventApp": {
+    "appName": "com.samsung.InputEventApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -29010,6 +29704,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -29083,6 +29782,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -29164,6 +29868,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -29237,6 +29946,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -29580,6 +30294,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.test.LTEfunctionality": {
+    "appName": "com.test.LTEfunctionality",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -30382,6 +31108,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -30645,6 +31376,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -30812,6 +31548,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -30946,6 +31687,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -31036,6 +31782,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -31161,6 +31912,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -31246,6 +32002,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -31381,6 +32142,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -31652,6 +32418,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -31903,6 +32674,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -31975,6 +32751,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -32002,6 +32783,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.tmobile.dm.cm": {
+    "appName": "Content Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -32043,6 +32836,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -32232,6 +33030,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -32474,6 +33277,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -32590,6 +33398,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -32756,6 +33569,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -32885,6 +33703,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -33330,6 +34153,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -33555,6 +34383,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -33839,6 +34672,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -33991,6 +34829,18 @@
       }
     ]
   },
+  "com.tmobile.pr.adapt": {
+    "appName": "Device Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.apps.work.clouddpc": {
     "appName": "Device Policy",
     "userFacing": true,
@@ -34110,6 +34960,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -34262,6 +35117,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -34330,6 +35190,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -34567,6 +35432,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -34620,6 +35490,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -34755,6 +35630,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -34798,6 +35678,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -34877,6 +35762,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -35130,6 +36020,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -35365,6 +36260,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -35588,6 +36488,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -35828,6 +36733,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -35985,6 +36895,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -36037,6 +36952,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -36310,6 +37230,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -36395,6 +37320,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -36493,6 +37423,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -36700,6 +37635,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -36877,6 +37817,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -37029,6 +37974,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -37352,6 +38302,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -37442,6 +38397,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -37744,6 +38704,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -37886,6 +38851,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       }
@@ -37934,6 +38904,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -38005,6 +38980,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -38059,6 +39039,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -38272,6 +39257,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -38455,6 +39445,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -38528,6 +39523,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -38684,6 +39684,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -38757,6 +39762,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -38906,6 +39916,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -39003,6 +40018,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -39131,6 +40151,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -39405,6 +40430,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -40264,6 +41294,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -40379,6 +41414,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -40680,6 +41720,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -40936,6 +41981,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -41078,6 +42128,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -41136,6 +42191,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -41203,6 +42263,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -41291,6 +42356,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -41368,6 +42438,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -41400,7 +42475,7 @@
   },
   "com.samsung.android.themestore": {
     "appName": "Galaxy Themes",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -41436,6 +42511,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -41534,6 +42614,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -41628,6 +42713,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -41718,6 +42808,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -41867,6 +42962,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -41940,6 +43040,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -42058,6 +43163,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -42336,6 +43446,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -42512,6 +43627,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -42585,6 +43705,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -42763,6 +43888,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -42911,6 +44041,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -43327,6 +44462,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -43568,6 +44708,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -43743,6 +44888,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -43969,6 +45119,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -44202,6 +45357,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -44405,6 +45565,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -44725,6 +45890,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -44868,6 +46038,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -45059,6 +46234,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -45278,6 +46458,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -45548,6 +46733,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -45848,6 +47038,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -45967,6 +47162,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -46064,6 +47264,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -46137,6 +47342,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -46243,6 +47453,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -46431,6 +47646,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -46643,6 +47863,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -46866,6 +48091,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -47509,6 +48739,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -47622,6 +48857,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -47752,6 +48992,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -47899,6 +49144,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -47976,6 +49226,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -48049,6 +49304,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -48322,6 +49582,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -48577,6 +49842,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -48736,6 +50006,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -48759,6 +50034,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       }
     ]
@@ -48806,6 +50086,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -49159,6 +50444,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -49388,6 +50678,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -49465,6 +50760,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -49528,6 +50828,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -49614,6 +50919,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -49662,6 +50972,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -49723,6 +51038,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -49771,6 +51091,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -49842,6 +51167,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -49890,6 +51220,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -49961,6 +51296,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -50024,6 +51364,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -50101,6 +51446,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -50199,6 +51549,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -50507,6 +51862,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -50588,6 +51948,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -50740,6 +52105,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -50939,6 +52309,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -51022,6 +52397,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -51151,6 +52531,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -51476,6 +52861,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -51671,6 +53061,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -51844,6 +53239,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -52118,6 +53518,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -52332,6 +53737,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -52516,6 +53926,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -52882,6 +54297,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -53039,6 +54459,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -53179,6 +54604,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -53292,6 +54722,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -53460,6 +54895,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -53592,6 +55032,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -53685,6 +55130,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -53786,6 +55236,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -53867,6 +55322,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -53911,6 +55371,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -54469,6 +55934,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -54545,9 +56015,26 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.tmobile.dm.ms.services": {
+    "appName": "Mobile Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -54610,6 +56097,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -54658,6 +56150,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -54758,6 +56255,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -54840,6 +56342,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -55472,6 +56979,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -55676,6 +57188,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -55801,6 +57318,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -56107,6 +57629,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -56313,6 +57840,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -56407,6 +57939,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -56472,6 +58009,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -56530,6 +58072,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -56750,6 +58297,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -56913,6 +58465,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -56979,6 +58536,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -57161,6 +58723,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -57474,6 +59041,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -57766,6 +59338,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -58144,6 +59721,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -58276,6 +59858,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -58418,6 +60005,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -58630,6 +60222,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -58886,6 +60483,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -58971,6 +60573,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -59578,6 +61185,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -59930,6 +61542,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -60159,6 +61776,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -60315,6 +61937,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -60496,6 +62123,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -60738,6 +62370,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -60896,6 +62533,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -60995,6 +62637,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -61084,6 +62731,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -61248,6 +62900,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -61309,6 +62966,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -61398,6 +63060,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -61759,6 +63426,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -62003,6 +63675,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -62259,6 +63936,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -62483,6 +64165,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -62601,6 +64288,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -62679,6 +64371,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -62997,6 +64694,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -63710,6 +65412,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -63966,6 +65673,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -64194,6 +65906,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -64367,6 +66084,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -64705,6 +66427,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -64945,6 +66672,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -65054,6 +66786,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -65126,6 +66863,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -65186,6 +66928,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -65353,6 +67100,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -65439,6 +67191,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -65533,6 +67290,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -65842,6 +67604,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -66141,6 +67908,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -66532,6 +68304,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -66595,6 +68372,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -66812,6 +68594,18 @@
       }
     ]
   },
+  "com.sec.sprextension": {
+    "appName": "SAE",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.safetyregulatoryinfo": {
     "appName": "Safety & regulatory manual",
     "userFacing": false,
@@ -66914,6 +68708,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -67072,6 +68871,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -67115,6 +68919,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -67175,6 +68984,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -67230,6 +69044,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -67328,6 +69147,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -67405,6 +69229,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -67478,6 +69307,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -67572,6 +69406,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -67640,6 +69479,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -67721,6 +69565,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -67775,6 +69624,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -67833,6 +69687,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -67872,6 +69731,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -67946,6 +69810,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -68114,6 +69983,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -68141,6 +70015,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.android.app.sbrowser": {
+    "appName": "Samsung Internet",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -68204,6 +70090,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -68302,6 +70193,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -68345,6 +70241,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -68397,6 +70298,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -68483,6 +70389,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -68551,6 +70462,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -68651,6 +70567,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -68723,6 +70644,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -68800,6 +70726,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -68898,6 +70829,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -68953,6 +70889,18 @@
       {
         "make": "samsung",
         "model": "SM-S918B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.samsung.gamedriver.sm8650": {
+    "appName": "Samsung SM8650 GameDriver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       }
     ]
@@ -69043,6 +70991,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -69128,6 +71081,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -69153,6 +71111,18 @@
       }
     ]
   },
+  "com.samsung.android.wallpaper.magician": {
+    "appName": "Samsung Vision Core",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.vision.model": {
     "appName": "Samsung Vision Model",
     "userFacing": false,
@@ -69166,6 +71136,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -69213,6 +71188,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -69275,6 +71255,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -69358,6 +71343,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -69386,6 +71376,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -69424,6 +71419,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -69480,6 +71480,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -69561,6 +71566,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -69638,6 +71648,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -69686,6 +71701,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -70525,6 +72545,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -70552,6 +72577,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.SMT.lang_es_us_l01": {
+    "appName": "SamsungTTS US Español Voz 1",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -70776,6 +72813,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -70829,6 +72871,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -71293,6 +73340,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -71356,6 +73408,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -71457,6 +73514,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -71580,6 +73642,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -71746,6 +73813,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -71904,6 +73976,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -71973,6 +74050,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       }
@@ -72006,6 +74088,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -72164,6 +74251,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -72237,6 +74329,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -72342,6 +74439,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -72419,6 +74521,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -72492,6 +74599,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -72590,6 +74702,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -72799,6 +74916,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -73161,6 +75283,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -73384,6 +75511,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -73523,6 +75655,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -73574,6 +75711,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.sec.android.app.setupwizard": {
+    "appName": "Setup Wizard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -73647,6 +75796,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -73876,6 +76030,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -73993,6 +76152,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -74078,6 +76242,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -74253,6 +76422,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -74563,6 +76737,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -74696,6 +76875,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -74798,6 +76982,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -74959,6 +77148,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -75027,6 +77221,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -75104,6 +77303,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -75198,6 +77402,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -75389,6 +77598,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -75471,6 +77685,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -75559,6 +77778,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -75639,6 +77863,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -75771,6 +78000,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -75844,6 +78078,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -75951,6 +78190,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -76045,6 +78289,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -76135,6 +78384,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -76255,6 +78509,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -76438,6 +78697,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -76528,6 +78792,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -77026,6 +79295,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -77273,6 +79547,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -77443,6 +79722,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -77528,6 +79812,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -77574,7 +79863,7 @@
   },
   "com.sec.android.app.vepreload": {
     "appName": "Studio",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -77615,6 +79904,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -77829,6 +80123,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -77942,6 +80241,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -78291,6 +80595,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -78429,6 +80738,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -78675,6 +80989,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -78967,6 +81286,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -79194,6 +81518,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -79290,6 +81619,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.samsung.sdm": {
+    "appName": "System update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       }
     ]
   },
@@ -79424,6 +81765,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -79649,6 +81995,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -79825,6 +82176,18 @@
       }
     ]
   },
+  "com.tmobile.echolocate": {
+    "appName": "T-Mobile Diagnostics",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.service.tagservice": {
     "appName": "Tags",
     "userFacing": false,
@@ -79868,6 +82231,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -79963,6 +82331,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -80163,6 +82536,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -80340,6 +82718,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -80484,6 +82867,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -80806,6 +83194,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -80925,6 +83318,18 @@
       }
     ]
   },
+  "com.samsung.unifiedtp": {
+    "appName": "Tethering Provision",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.sec.automation": {
     "appName": "TetheringAutomation",
     "userFacing": false,
@@ -80968,6 +83373,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -81458,6 +83868,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -81743,6 +84158,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -81876,6 +84296,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       }
@@ -81905,6 +84330,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -82213,6 +84643,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -82401,6 +84836,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -82864,6 +85304,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -83029,6 +85474,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -83123,6 +85573,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -83180,12 +85635,29 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
       {
         "make": "samsung",
         "model": "SM-S918B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.samsung.vvm": {
+    "appName": "Visual Voicemail",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       }
     ]
@@ -83250,6 +85722,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -83366,6 +85843,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -83456,6 +85938,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -83650,6 +86137,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -83918,6 +86410,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -84008,6 +86505,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -84252,6 +86754,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -84364,6 +86871,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -84441,6 +86953,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -84473,7 +86990,7 @@
   },
   "com.sec.android.daemonapp": {
     "appName": "Weather",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "",
@@ -84531,6 +87048,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -84813,6 +87335,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -84948,6 +87475,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -84995,6 +87527,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       }
@@ -85013,6 +87550,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -85055,6 +87597,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -85291,6 +87838,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -85486,6 +88038,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -85698,6 +88255,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
@@ -86216,6 +88778,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
         "os": "35"
       },
       {
