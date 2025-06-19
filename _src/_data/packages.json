@@ -67,6 +67,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -187,12 +192,12 @@
         "name": "Eingabehilfe"
       },
       {
-        "locale": "it-it",
-        "name": "Accessibilità"
-      },
-      {
         "locale": "nl-nl",
         "name": "Toegankelijkheid"
+      },
+      {
+        "locale": "it-it",
+        "name": "Accessibilità"
       },
       {
         "locale": "es-es",
@@ -214,6 +219,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -351,6 +361,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -484,6 +499,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -575,6 +595,23 @@
       }
     ]
   },
+  "com.qualcomm.qti.gpudrivers.lahaina.api30": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.qualcomm.qti.gpudrivers.kalama.api33": {
     "appName": "Adreno Graphics Drivers",
     "userFacing": false,
@@ -584,18 +621,6 @@
         "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
-      }
-    ]
-  },
-  "com.qualcomm.qti.gpudrivers.lahaina.api30": {
-    "appName": "Adreno Graphics Drivers",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       }
     ]
   },
@@ -911,6 +936,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -1156,6 +1186,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -1375,6 +1410,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -1567,6 +1607,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -1788,6 +1833,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -1963,6 +2013,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2153,6 +2208,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2359,6 +2419,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2572,6 +2637,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -2742,6 +2812,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -3019,6 +3094,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -3139,6 +3219,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -3826,12 +3911,12 @@
         "name": "App-Schutz"
       },
       {
-        "locale": "it-it",
-        "name": "Protezione app"
-      },
-      {
         "locale": "nl-nl",
         "name": "App-beveiliging"
+      },
+      {
+        "locale": "it-it",
+        "name": "Protezione app"
       },
       {
         "locale": "es-es",
@@ -3857,6 +3942,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -3928,12 +4018,12 @@
         "name": "App-Update"
       },
       {
-        "locale": "it-it",
-        "name": "Aggiornamento app"
-      },
-      {
         "locale": "nl-nl",
         "name": "App-update"
+      },
+      {
+        "locale": "it-it",
+        "name": "Aggiornamento app"
       },
       {
         "locale": "es-es",
@@ -3955,6 +4045,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4026,6 +4121,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4143,12 +4243,12 @@
         "name": "Anwendungsempfehlungen"
       },
       {
-        "locale": "it-it",
-        "name": "Suggerimenti sull'applicazione"
-      },
-      {
         "locale": "nl-nl",
         "name": "Aanbevelingen voor applicaties"
+      },
+      {
+        "locale": "it-it",
+        "name": "Suggerimenti sull'applicazione"
       },
       {
         "locale": "es-es",
@@ -4170,6 +4270,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4212,6 +4317,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       }
     ]
   },
@@ -4229,6 +4339,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4296,11 +4411,21 @@
   "com.samsung.android.ardrawing": {
     "appName": "AR Doodle",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "AR-schets"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -4315,6 +4440,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "AR-zone"
+      },
+      {
         "locale": "es-es",
         "name": "Zona AR"
       }
@@ -4323,6 +4452,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -4611,6 +4745,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -4643,7 +4782,7 @@
   },
   "com.samsung.android.authfw": {
     "appName": "Authentication Framework",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -4655,6 +4794,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4778,12 +4922,12 @@
         "name": "Automatisch zeichnen"
       },
       {
-        "locale": "it-it",
-        "name": "Disegno automatico"
-      },
-      {
         "locale": "nl-nl",
         "name": "Automatisch schetsen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Disegno automatico"
       },
       {
         "locale": "es-es",
@@ -4805,6 +4949,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4847,12 +4996,12 @@
         "name": "Auto-Hotspot"
       },
       {
-        "locale": "it-it",
-        "name": "Hotspot automatico"
-      },
-      {
         "locale": "nl-nl",
         "name": "Auto-hotspot"
+      },
+      {
+        "locale": "it-it",
+        "name": "Hotspot automatico"
       },
       {
         "locale": "es-es",
@@ -4874,6 +5023,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4916,12 +5070,12 @@
         "name": "Formulare von Samsung Pass ausfüllen lassen"
       },
       {
-        "locale": "it-it",
-        "name": "Riempimento automatico di Samsung Pass"
-      },
-      {
         "locale": "nl-nl",
         "name": "Aanvullen met Samsung Pass"
+      },
+      {
+        "locale": "it-it",
+        "name": "Riempimento automatico di Samsung Pass"
       },
       {
         "locale": "es-es",
@@ -4938,6 +5092,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -5037,6 +5196,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -5085,16 +5249,16 @@
         "name": "Avatar-Editor"
       },
       {
+        "locale": "nl-nl",
+        "name": "Avatar-editor"
+      },
+      {
         "locale": "en-nl",
         "name": "AR Emoji Editor"
       },
       {
         "locale": "it-it",
         "name": "Editor avatar"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Avatar-editor"
       },
       {
         "locale": "es-es",
@@ -5111,6 +5275,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -5203,16 +5372,16 @@
         "name": "Avatar-Sticker"
       },
       {
+        "locale": "nl-nl",
+        "name": "Avatar-stickers"
+      },
+      {
         "locale": "en-nl",
         "name": "AR Emoji Stickers"
       },
       {
         "locale": "it-it",
         "name": "Adesivi avatar"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Avatar-stickers"
       },
       {
         "locale": "es-es",
@@ -5229,6 +5398,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -5377,6 +5551,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -5499,6 +5678,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -5670,6 +5854,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -5726,12 +5915,12 @@
         "name": "Biometrische Daten"
       },
       {
-        "locale": "it-it",
-        "name": "Dati biometrici"
-      },
-      {
         "locale": "nl-nl",
         "name": "Biometrie"
+      },
+      {
+        "locale": "it-it",
+        "name": "Dati biometrici"
       },
       {
         "locale": "es-es",
@@ -5757,6 +5946,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -5807,6 +6001,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -5849,6 +6048,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -5888,6 +6092,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -6029,6 +6238,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -6222,6 +6436,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -6387,6 +6606,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -6515,6 +6739,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -6721,6 +6950,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -6888,6 +7122,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -7002,6 +7241,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -7276,6 +7520,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "Agenda"
+      },
+      {
         "locale": "it-it",
         "name": "Calendario"
       },
@@ -7294,6 +7542,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -7459,6 +7712,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -7596,12 +7854,12 @@
         "name": "Anruf"
       },
       {
-        "locale": "it-it",
-        "name": "Chiama"
-      },
-      {
         "locale": "nl-nl",
         "name": "Bellen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Chiama"
       },
       {
         "locale": "es-es",
@@ -7623,6 +7881,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -7665,12 +7928,12 @@
         "name": "Anrufe/SMS auf anderen Geräten"
       },
       {
-        "locale": "it-it",
-        "name": "Chiamata e testo su altri dispositivi"
-      },
-      {
         "locale": "nl-nl",
         "name": "Bel/sms op andere apparaten"
+      },
+      {
+        "locale": "it-it",
+        "name": "Chiamata e testo su altri dispositivi"
       },
       {
         "locale": "es-es",
@@ -7687,6 +7950,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -7784,6 +8052,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -7983,12 +8256,12 @@
         "name": "Anrufeinstellungen"
       },
       {
-        "locale": "it-it",
-        "name": "Impostazioni chiamata"
-      },
-      {
         "locale": "nl-nl",
         "name": "Oproepinstellingen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Impostazioni chiamata"
       },
       {
         "locale": "es-es",
@@ -8010,6 +8283,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -8065,6 +8343,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -8114,6 +8397,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -8187,6 +8475,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -8571,6 +8864,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -8689,6 +8987,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -8735,6 +9038,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -8891,6 +9199,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -9210,6 +9523,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -9702,6 +10020,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -9780,6 +10103,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -10037,6 +10365,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -10277,6 +10610,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -10412,6 +10750,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -10658,12 +11001,12 @@
         "name": "Zwischenablage"
       },
       {
-        "locale": "it-it",
-        "name": "Appunti Tag edge"
-      },
-      {
         "locale": "nl-nl",
         "name": "Klembord-edge"
+      },
+      {
+        "locale": "it-it",
+        "name": "Appunti Tag edge"
       },
       {
         "locale": "es-es",
@@ -10680,6 +11023,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -10721,6 +11069,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       }
     ]
@@ -10859,6 +11212,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "Klok"
+      },
+      {
         "locale": "es-es",
         "name": "Reloj"
       }
@@ -10873,6 +11230,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -10976,6 +11338,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -10994,6 +11361,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       }
     ]
@@ -11017,6 +11389,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -11202,6 +11579,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -11442,6 +11824,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -12065,6 +12452,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -12245,6 +12637,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -12762,6 +13159,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -13066,6 +13468,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -13231,6 +13638,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -13963,6 +14375,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -14182,6 +14599,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -15294,6 +15716,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -16690,6 +17117,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -16855,6 +17287,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -17028,6 +17465,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -18593,6 +19035,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       }
     ]
   },
@@ -18696,6 +19143,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -18950,6 +19402,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -19080,6 +19537,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -19305,6 +19767,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -19430,6 +19897,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -19631,6 +20103,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -20023,6 +20500,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -20136,6 +20618,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -20185,6 +20672,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -20251,6 +20743,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -20383,6 +20880,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -20575,6 +21077,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -20719,6 +21226,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -20848,6 +21360,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -21364,6 +21881,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -24851,6 +25373,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24972,6 +25499,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25101,6 +25633,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -25153,6 +25690,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -25202,6 +25744,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25271,6 +25818,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25360,6 +25912,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25479,6 +26036,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -25528,6 +26090,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25646,6 +26213,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25781,6 +26353,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25951,6 +26528,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -26003,6 +26585,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -26052,6 +26639,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -27125,6 +27717,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -27409,6 +28006,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -27503,6 +28105,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -27630,12 +28237,12 @@
         "name": "Konfigurationsnachricht"
       },
       {
-        "locale": "it-it",
-        "name": "Messaggio di configurazione"
-      },
-      {
         "locale": "nl-nl",
         "name": "Configuratiebericht"
+      },
+      {
+        "locale": "it-it",
+        "name": "Messaggio di configurazione"
       },
       {
         "locale": "es-es",
@@ -27657,6 +28264,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -27699,12 +28311,12 @@
         "name": "Konfigurationsupdate"
       },
       {
-        "locale": "it-it",
-        "name": "Aggiornamento config."
-      },
-      {
         "locale": "nl-nl",
         "name": "Configuratie-update"
+      },
+      {
+        "locale": "it-it",
+        "name": "Aggiornamento config."
       },
       {
         "locale": "es-es",
@@ -27726,6 +28338,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -27825,6 +28442,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -27886,6 +28508,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -27969,12 +28596,12 @@
         "name": "Kontakte"
       },
       {
-        "locale": "it-it",
-        "name": "Rubrica"
-      },
-      {
         "locale": "nl-nl",
         "name": "Contacten"
+      },
+      {
+        "locale": "it-it",
+        "name": "Rubrica"
       },
       {
         "locale": "es-es",
@@ -27996,6 +28623,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -28211,12 +28843,12 @@
         "name": "Kontaktspeicher"
       },
       {
-        "locale": "it-it",
-        "name": "Spazio di archiviazione contatti"
-      },
-      {
         "locale": "nl-nl",
         "name": "Opgeslagen contactpersonen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Spazio di archiviazione contatti"
       },
       {
         "locale": "es-es",
@@ -28238,6 +28870,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -28529,6 +29166,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -28573,6 +29215,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -28697,6 +29344,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -29032,12 +29684,12 @@
         "name": "Crocro und Freunde"
       },
       {
-        "locale": "it-it",
-        "name": "Crocro e i suoi amici"
-      },
-      {
         "locale": "nl-nl",
         "name": "Crocro en vrienden"
+      },
+      {
+        "locale": "it-it",
+        "name": "Crocro e i suoi amici"
       }
     ],
     "devices": [
@@ -29050,6 +29702,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -29190,6 +29847,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -29269,16 +29931,16 @@
         "name": "Customisation Service"
       },
       {
+        "locale": "nl-nl",
+        "name": "Aangepaste service"
+      },
+      {
         "locale": "en-nl",
         "name": "Customisation Service"
       },
       {
         "locale": "it-it",
         "name": "Servizio di personalizzazione"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Aangepaste service"
       },
       {
         "locale": "es-es",
@@ -29295,6 +29957,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -29471,6 +30138,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       },
@@ -29639,6 +30311,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -29861,12 +30538,12 @@
         "name": "Gerätewartung"
       },
       {
-        "locale": "it-it",
-        "name": "Assistenza dispositivo"
-      },
-      {
         "locale": "nl-nl",
         "name": "Apparaatonderhoud"
+      },
+      {
+        "locale": "it-it",
+        "name": "Assistenza dispositivo"
       },
       {
         "locale": "es-es",
@@ -29888,6 +30565,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -30117,6 +30799,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -30396,6 +31083,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -30578,6 +31270,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -30846,6 +31543,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -30937,6 +31639,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "Woordenboek"
+      },
+      {
         "locale": "it-it",
         "name": "Dizionario"
       },
@@ -30949,6 +31655,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -31014,12 +31725,12 @@
         "name": "Digitales Wohlbefinden"
       },
       {
-        "locale": "it-it",
-        "name": "Benessere digitale"
-      },
-      {
         "locale": "nl-nl",
         "name": "Digitaal welzijn"
+      },
+      {
+        "locale": "it-it",
+        "name": "Benessere digitale"
       },
       {
         "locale": "es-es",
@@ -31041,6 +31752,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -31452,6 +32168,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -31647,6 +32368,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -31860,6 +32586,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -32035,6 +32766,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -32318,6 +33054,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -32379,6 +33120,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -32452,6 +33198,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -32590,6 +33341,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -32790,6 +33546,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -32837,6 +33598,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "Edge-vensters"
+      },
+      {
         "locale": "en-nl",
         "name": "com.samsung.android.app.cocktailbarservice"
       },
@@ -32849,6 +33614,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -32899,6 +33669,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -33166,12 +33941,12 @@
         "name": "Notfallfreigabe"
       },
       {
-        "locale": "it-it",
-        "name": "Condivisione di emergenza"
-      },
-      {
         "locale": "nl-nl",
         "name": "Delen in noodgeval"
+      },
+      {
+        "locale": "it-it",
+        "name": "Condivisione di emergenza"
       },
       {
         "locale": "es-es",
@@ -33193,6 +33968,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -33235,12 +34015,12 @@
         "name": "Notfall-SOS"
       },
       {
-        "locale": "it-it",
-        "name": "SOS di emergenza"
-      },
-      {
         "locale": "nl-nl",
         "name": "SOS noodgeval"
+      },
+      {
+        "locale": "it-it",
+        "name": "SOS di emergenza"
       },
       {
         "locale": "es-es",
@@ -33262,6 +34042,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -33315,6 +34100,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       }
     ]
@@ -33533,6 +34323,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -33601,6 +34396,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -33674,6 +34474,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -33900,6 +34705,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -34074,12 +34884,12 @@
         "name": "Augenkomfort"
       },
       {
-        "locale": "it-it",
-        "name": "Protezione occhi"
-      },
-      {
         "locale": "nl-nl",
         "name": "Comfortabel scherm voor uw ogen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Protezione occhi"
       },
       {
         "locale": "es-es",
@@ -34101,6 +34911,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34153,6 +34968,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34283,6 +35103,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -34332,6 +35157,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34455,6 +35285,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -34528,6 +35363,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34610,16 +35450,16 @@
         "name": "Favourite Contacts"
       },
       {
+        "locale": "nl-nl",
+        "name": "Favoriete contacten"
+      },
+      {
         "locale": "en-nl",
         "name": "Favourite Contacts"
       },
       {
         "locale": "it-it",
         "name": "Contatti preferiti"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Favoriete contacten"
       },
       {
         "locale": "es-es",
@@ -34636,6 +35476,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34844,6 +35689,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -35718,6 +36568,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -35782,12 +36637,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "it-it",
-        "name": "Trova dispositivo personale"
-      },
-      {
         "locale": "nl-nl",
         "name": "Zoek mijn mobiel"
+      },
+      {
+        "locale": "it-it",
+        "name": "Trova dispositivo personale"
       },
       {
         "locale": "es-es",
@@ -35809,6 +36664,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -35850,6 +36710,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       }
     ]
@@ -36079,6 +36944,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -36264,6 +37134,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -36427,6 +37302,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -36508,6 +37388,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -36627,6 +37512,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -36679,6 +37569,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -36718,12 +37613,12 @@
         "name": "Galaxy Themes-Dienst"
       },
       {
-        "locale": "it-it",
-        "name": "Servizio Galaxy Themes"
-      },
-      {
         "locale": "nl-nl",
         "name": "Service Galaxy Themes"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizio Galaxy Themes"
       },
       {
         "locale": "es-es",
@@ -36745,6 +37640,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -36787,12 +37687,12 @@
         "name": "Galerie"
       },
       {
-        "locale": "it-it",
-        "name": "Galleria"
-      },
-      {
         "locale": "nl-nl",
         "name": "Galerij"
+      },
+      {
+        "locale": "it-it",
+        "name": "Galleria"
       },
       {
         "locale": "es-es",
@@ -36814,6 +37714,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -36856,12 +37761,12 @@
         "name": "Galerie"
       },
       {
-        "locale": "it-it",
-        "name": "Galleria"
-      },
-      {
         "locale": "nl-nl",
         "name": "Galerij"
+      },
+      {
+        "locale": "it-it",
+        "name": "Galleria"
       },
       {
         "locale": "es-es",
@@ -36883,6 +37788,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -36976,12 +37886,12 @@
         "name": "Gallery-Storys"
       },
       {
-        "locale": "it-it",
-        "name": "Storie nella Galleria"
-      },
-      {
         "locale": "nl-nl",
         "name": "Galerijverhalen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Storie nella Galleria"
       },
       {
         "locale": "es-es",
@@ -37003,6 +37913,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -37055,6 +37970,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -37151,6 +38071,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -37208,11 +38133,21 @@
   "com.samsung.android.game.gamehome": {
     "appName": "Gaming Hub",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Game Launcher"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -37463,6 +38398,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -37536,6 +38476,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -37585,6 +38530,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -37647,6 +38597,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "OUKITEL",
@@ -37719,6 +38674,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -37806,6 +38766,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -37948,6 +38913,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "OUKITEL",
@@ -38166,6 +39136,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -38382,6 +39357,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -38533,12 +39513,12 @@
         "name": "Синхронизация Google Календаря"
       },
       {
-        "locale": "it-it",
-        "name": "Sinc. Google Calendar"
-      },
-      {
         "locale": "nl-nl",
         "name": "Google Agenda synchroniseren"
+      },
+      {
+        "locale": "it-it",
+        "name": "Sinc. Google Calendar"
       },
       {
         "locale": "zh-hant-uz",
@@ -38574,6 +39554,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -38745,6 +39730,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -38941,6 +39931,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -39121,6 +40116,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -39414,6 +40414,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -39571,6 +40576,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -39700,6 +40710,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -39903,6 +40918,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -40139,6 +41159,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -40442,6 +41467,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -40552,6 +41582,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -40624,6 +41659,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -40673,6 +41713,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -40754,6 +41799,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -41091,6 +42141,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -41307,6 +42362,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -41878,6 +42938,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -42016,6 +43081,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -42118,6 +43188,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -42239,6 +43314,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -42291,6 +43371,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -42340,6 +43425,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -42539,6 +43629,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -42998,6 +44093,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -43276,6 +44376,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -43421,6 +44526,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -43506,6 +44616,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -43555,6 +44670,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -43659,6 +44779,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -43825,6 +44950,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -43906,6 +45036,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -44008,6 +45143,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -44078,6 +45218,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -44335,12 +45480,12 @@
         "name": "Link zu Windows"
       },
       {
-        "locale": "it-it",
-        "name": "Collegamento a Windows"
-      },
-      {
         "locale": "nl-nl",
         "name": "Koppeling met Windows"
+      },
+      {
+        "locale": "it-it",
+        "name": "Collegamento a Windows"
       },
       {
         "locale": "zh-hant-uz",
@@ -44357,6 +45502,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -44399,12 +45549,12 @@
         "name": "Link zu Windows-Dienst"
       },
       {
-        "locale": "it-it",
-        "name": "Servizio Collegamento a Windows"
-      },
-      {
         "locale": "nl-nl",
         "name": "Koppeling met Windows Service"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizio Collegamento a Windows"
       }
     ],
     "devices": [
@@ -44417,6 +45567,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -44530,6 +45685,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -44672,6 +45832,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -44808,6 +45973,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       }
     ]
@@ -45160,12 +46330,12 @@
         "name": "Vergrößerung"
       },
       {
-        "locale": "it-it",
-        "name": "Lente"
-      },
-      {
         "locale": "nl-nl",
         "name": "Vergrootglas"
+      },
+      {
+        "locale": "it-it",
+        "name": "Lente"
       },
       {
         "locale": "es-es",
@@ -45187,6 +46357,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -45307,6 +46482,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -45464,6 +46644,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -45702,6 +46887,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -45889,6 +47079,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -46100,6 +47295,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -46270,6 +47470,10 @@
         "name": "Media and devices"
       },
       {
+        "locale": "nl-nl",
+        "name": "Media en apparaten"
+      },
+      {
         "locale": "es-es",
         "name": "Salida multimedia"
       }
@@ -46284,6 +47488,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -46374,6 +47583,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -46644,6 +47858,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -46747,12 +47966,12 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "it-it",
-        "name": "Messaggi"
-      },
-      {
         "locale": "nl-nl",
         "name": "Berichten"
+      },
+      {
+        "locale": "it-it",
+        "name": "Messaggi"
       },
       {
         "locale": "es-es",
@@ -46769,6 +47988,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -46868,6 +48092,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -47017,6 +48246,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47094,6 +48328,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47169,6 +48408,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -47730,6 +48974,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -47892,6 +49141,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -47975,12 +49229,12 @@
         "name": "Modi und Routinen"
       },
       {
-        "locale": "it-it",
-        "name": "Modalità e routine"
-      },
-      {
         "locale": "nl-nl",
         "name": "Standen en routines"
+      },
+      {
+        "locale": "it-it",
+        "name": "Modalità e routine"
       },
       {
         "locale": "es-es",
@@ -48002,6 +49256,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -48644,12 +49903,12 @@
         "name": "MTP-Anwendung"
       },
       {
-        "locale": "it-it",
-        "name": "Applicazione MTP"
-      },
-      {
         "locale": "nl-nl",
         "name": "MTP-applicatie"
+      },
+      {
+        "locale": "it-it",
+        "name": "Applicazione MTP"
       },
       {
         "locale": "es-es",
@@ -48671,6 +49930,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -48807,6 +50071,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -48932,12 +50201,12 @@
         "name": "Mehrfachsteuerung"
       },
       {
-        "locale": "it-it",
-        "name": "Controllo multiplo"
-      },
-      {
         "locale": "nl-nl",
         "name": "Multi-control"
+      },
+      {
+        "locale": "it-it",
+        "name": "Controllo multiplo"
       },
       {
         "locale": "es-es",
@@ -48954,6 +50223,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -49204,12 +50478,12 @@
         "name": "Eigene Dateien"
       },
       {
-        "locale": "it-it",
-        "name": "Archivio"
-      },
-      {
         "locale": "nl-nl",
         "name": "Mijn bestanden"
+      },
+      {
+        "locale": "it-it",
+        "name": "Archivio"
       },
       {
         "locale": "es-es",
@@ -49231,6 +50505,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -49385,12 +50664,12 @@
         "name": "Suche nach Geräten in der Nähe"
       },
       {
-        "locale": "it-it",
-        "name": "Ricerca dispositivi vicini"
-      },
-      {
         "locale": "nl-nl",
         "name": "Apparaten in de buurt"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ricerca dispositivi vicini"
       },
       {
         "locale": "es-es",
@@ -49412,6 +50691,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -49454,12 +50738,12 @@
         "name": "Geräte in der Nähe suchen"
       },
       {
-        "locale": "it-it",
-        "name": "Ricerca dispositivi vicini"
-      },
-      {
         "locale": "nl-nl",
         "name": "Apparaten in de buurt"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ricerca dispositivi vicini"
       },
       {
         "locale": "es-es",
@@ -49481,6 +50765,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -49573,6 +50862,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -49723,6 +51017,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -49904,6 +51203,10 @@
         "name": "Netzentsperrung"
       },
       {
+        "locale": "nl-nl",
+        "name": "Netwerkontgrendeling"
+      },
+      {
         "locale": "it-it",
         "name": "Sblocco della rete"
       }
@@ -49913,6 +51216,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -49930,12 +51238,12 @@
         "name": "Netzwerkdiagnose"
       },
       {
-        "locale": "it-it",
-        "name": "Diagnostica di rete"
-      },
-      {
         "locale": "nl-nl",
         "name": "Netwerkdiagnose"
+      },
+      {
+        "locale": "it-it",
+        "name": "Diagnostica di rete"
       }
     ],
     "devices": [
@@ -49953,6 +51261,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -50110,6 +51423,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -50359,6 +51677,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -50986,6 +52309,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -51133,6 +52461,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -51247,6 +52580,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -51414,6 +52752,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -51598,6 +52941,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -51646,6 +52994,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -51710,6 +53063,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -52275,6 +53633,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -52572,6 +53935,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -52774,6 +54142,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -53088,12 +54461,12 @@
         "name": "Personen"
       },
       {
-        "locale": "it-it",
-        "name": "Persone"
-      },
-      {
         "locale": "nl-nl",
         "name": "Personen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Persone"
       },
       {
         "locale": "es-es",
@@ -53115,6 +54488,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53185,6 +54563,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -53272,6 +54655,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -53419,12 +54807,12 @@
         "name": "Berechtigungsnutzung"
       },
       {
-        "locale": "it-it",
-        "name": "Uso autorizzazione"
-      },
-      {
         "locale": "nl-nl",
         "name": "Gebruik machtigingen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Uso autorizzazione"
       },
       {
         "locale": "es-es",
@@ -53446,6 +54834,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53523,6 +54916,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -53562,16 +54960,16 @@
         "name": "Persönliche Daten-Intelligenz"
       },
       {
+        "locale": "nl-nl",
+        "name": "Persoonlijke informatie"
+      },
+      {
         "locale": "en-nl",
         "name": "Smart suggestions"
       },
       {
         "locale": "it-it",
         "name": "Assistente dati personali"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Persoonlijke informatie"
       },
       {
         "locale": "es-es",
@@ -53588,6 +54986,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53760,12 +55163,12 @@
         "name": "Telefon"
       },
       {
-        "locale": "it-it",
-        "name": "Telefono"
-      },
-      {
         "locale": "nl-nl",
         "name": "Telefoon"
+      },
+      {
+        "locale": "it-it",
+        "name": "Telefono"
       }
     ],
     "devices": [
@@ -53778,6 +55181,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53815,12 +55223,12 @@
         "name": "Telefon"
       },
       {
-        "locale": "it-it",
-        "name": "Telefono"
-      },
-      {
         "locale": "nl-nl",
         "name": "Telefoon"
+      },
+      {
+        "locale": "it-it",
+        "name": "Telefono"
       },
       {
         "locale": "es-es",
@@ -53842,6 +55250,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -54131,6 +55544,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -54352,6 +55770,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -54581,6 +56004,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -54786,12 +56214,12 @@
         "name": "Foto-Editor"
       },
       {
-        "locale": "it-it",
-        "name": "Editor immagini"
-      },
-      {
         "locale": "nl-nl",
         "name": "Foto-editor"
+      },
+      {
+        "locale": "it-it",
+        "name": "Editor immagini"
       },
       {
         "locale": "es-es",
@@ -54813,6 +56241,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -54855,12 +56288,12 @@
         "name": "Foto-Bildschirmschoner"
       },
       {
-        "locale": "it-it",
-        "name": "Screensaver fotografici"
-      },
-      {
         "locale": "nl-nl",
         "name": "Fotoscreensavers"
+      },
+      {
+        "locale": "it-it",
+        "name": "Screensaver fotografici"
       },
       {
         "locale": "zh-hant-uz",
@@ -54901,6 +56334,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -54963,6 +56401,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -55913,12 +57356,12 @@
         "name": "Porträt"
       },
       {
-        "locale": "it-it",
-        "name": "Ritratto"
-      },
-      {
         "locale": "nl-nl",
         "name": "Portret"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritratto"
       },
       {
         "locale": "es-es",
@@ -55940,6 +57383,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -56126,6 +57574,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -56331,6 +57784,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -56493,6 +57951,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -56613,12 +58076,17 @@
   },
   "com.samsung.android.privateshare": {
     "appName": "Private Share",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       }
     ]
@@ -56785,6 +58253,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -57007,6 +58480,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -57181,6 +58659,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -57376,6 +58859,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -57411,12 +58899,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "it-it",
-        "name": "Agente di Quick Share"
-      },
-      {
         "locale": "nl-nl",
         "name": "Quick Share-agent"
+      },
+      {
+        "locale": "it-it",
+        "name": "Agente di Quick Share"
       },
       {
         "locale": "es-es",
@@ -57438,6 +58926,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -57480,12 +58973,12 @@
         "name": "Quick Share-Konnektivität"
       },
       {
-        "locale": "it-it",
-        "name": "Connettività Quick Share"
-      },
-      {
         "locale": "nl-nl",
         "name": "Connectiviteit van Quick Share"
+      },
+      {
+        "locale": "it-it",
+        "name": "Connettività Quick Share"
       },
       {
         "locale": "es-es",
@@ -57507,6 +59000,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -57699,6 +59197,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       }
     ]
   },
@@ -57755,12 +59258,12 @@
         "name": "Empfohlene Apps"
       },
       {
-        "locale": "it-it",
-        "name": "Applicazioni consigliate"
-      },
-      {
         "locale": "nl-nl",
         "name": "Aanbevolen apps"
+      },
+      {
+        "locale": "it-it",
+        "name": "Applicazioni consigliate"
       },
       {
         "locale": "es-es",
@@ -57782,6 +59285,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -57924,6 +59432,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -58390,12 +59903,12 @@
         "name": "Fehler"
       },
       {
-        "locale": "it-it",
-        "name": "Errore"
-      },
-      {
         "locale": "nl-nl",
         "name": "Fout"
+      },
+      {
+        "locale": "it-it",
+        "name": "Errore"
       },
       {
         "locale": "es-es",
@@ -58417,6 +59930,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -58731,12 +60249,12 @@
         "name": "Sicherheitsinformationen"
       },
       {
-        "locale": "it-it",
-        "name": "Informazioni di sicurezza"
-      },
-      {
         "locale": "nl-nl",
         "name": "Beveiligingsgegevens"
+      },
+      {
+        "locale": "it-it",
+        "name": "Informazioni di sicurezza"
       },
       {
         "locale": "es-es",
@@ -58758,6 +60276,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -58890,6 +60413,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -58940,6 +60468,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -59002,6 +60535,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -59041,12 +60579,12 @@
         "name": "Smart-Aufnahme"
       },
       {
-        "locale": "it-it",
-        "name": "Acquisizione Samsung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Samsung vastleggen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Acquisizione Samsung"
       },
       {
         "locale": "es-es",
@@ -59068,6 +60606,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -59123,6 +60666,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -59172,6 +60720,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -59240,6 +60793,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -59284,6 +60842,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -59336,6 +60899,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -59468,12 +61036,12 @@
         "name": "Samsung-Bearbeitungsressourcen"
       },
       {
-        "locale": "it-it",
-        "name": "Risorse di editing Samsung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Samsung-bewerkhulpmiddelen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Risorse di editing Samsung"
       }
     ],
     "devices": [
@@ -59491,6 +61059,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -59584,6 +61157,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -59607,6 +61185,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       }
     ]
@@ -59662,12 +61245,12 @@
         "name": "Samsung-Tastatur"
       },
       {
-        "locale": "it-it",
-        "name": "Tastiera Samsung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Samsung Toetsenbord"
+      },
+      {
+        "locale": "it-it",
+        "name": "Tastiera Samsung"
       },
       {
         "locale": "es-es",
@@ -59689,6 +61272,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -59731,12 +61319,12 @@
         "name": "Samsung Kids-Installationsprogramm"
       },
       {
-        "locale": "it-it",
-        "name": "Programma di installazione di Samsung Kids"
-      },
-      {
         "locale": "nl-nl",
         "name": "Installatieprogramma Samsung Kids"
+      },
+      {
+        "locale": "it-it",
+        "name": "Programma di installazione di Samsung Kids"
       },
       {
         "locale": "es-es",
@@ -59758,6 +61346,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -59825,6 +61418,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -59882,6 +61480,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -59926,6 +61529,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -60000,6 +61608,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -60056,6 +61669,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -60108,6 +61726,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -60147,12 +61770,12 @@
         "name": "Samsung Einrichtungsassistent"
       },
       {
-        "locale": "it-it",
-        "name": "Configurazione guidata Samsung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Samsung Instelwizard"
+      },
+      {
+        "locale": "it-it",
+        "name": "Configurazione guidata Samsung"
       },
       {
         "locale": "es-es",
@@ -60174,6 +61797,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -60240,12 +61868,12 @@
         "name": "Samsung Text-zu-Sprache-Engine"
       },
       {
-        "locale": "it-it",
-        "name": "Motore sintesi vocale Samsung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Samsung tekst naar spraak-engine"
+      },
+      {
+        "locale": "it-it",
+        "name": "Motore sintesi vocale Samsung"
       },
       {
         "locale": "es-es",
@@ -60267,6 +61895,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -60309,12 +61942,12 @@
         "name": "Samsung USB-C-Headset"
       },
       {
-        "locale": "it-it",
-        "name": "Auricolare Samsung USB-C"
-      },
-      {
         "locale": "nl-nl",
         "name": "Samsung USB-C-headset"
+      },
+      {
+        "locale": "it-it",
+        "name": "Auricolare Samsung USB-C"
       }
     ],
     "devices": [
@@ -60327,6 +61960,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -60386,6 +62024,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -60459,6 +62102,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -60613,6 +62261,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -60662,6 +62315,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -61474,6 +63132,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -61747,6 +63410,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -61884,6 +63552,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -61982,12 +63655,12 @@
         "name": "Sicherer Ordner"
       },
       {
-        "locale": "it-it",
-        "name": "Area Personale"
-      },
-      {
         "locale": "nl-nl",
         "name": "Veilige map"
+      },
+      {
+        "locale": "it-it",
+        "name": "Area Personale"
       },
       {
         "locale": "es-es",
@@ -62004,6 +63677,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -62075,12 +63753,12 @@
         "name": "Sicheres WLAN"
       },
       {
-        "locale": "it-it",
-        "name": "Wi-Fi protetto"
-      },
-      {
         "locale": "nl-nl",
         "name": "Veilige Wi-Fi"
+      },
+      {
+        "locale": "it-it",
+        "name": "Wi-Fi protetto"
       },
       {
         "locale": "es-es",
@@ -62102,6 +63780,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -62199,6 +63882,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -62372,6 +64060,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -62555,12 +64248,12 @@
         "name": "Separater App-Ton"
       },
       {
-        "locale": "it-it",
-        "name": "Separa audio applicazione"
-      },
-      {
         "locale": "nl-nl",
         "name": "Afzonderlijk app-geluid"
+      },
+      {
+        "locale": "it-it",
+        "name": "Separa audio applicazione"
       },
       {
         "locale": "es-es",
@@ -62582,6 +64275,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -62634,6 +64332,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -62713,6 +64416,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -62762,6 +64470,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -62817,6 +64530,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -62856,16 +64574,16 @@
         "name": "Dienstanbieter­einrichtung"
       },
       {
+        "locale": "nl-nl",
+        "name": "Serviceprovider instellen"
+      },
+      {
         "locale": "en-nl",
         "name": "Configuration update"
       },
       {
         "locale": "it-it",
         "name": "Configurazione gestore telefonico"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Serviceprovider instellen"
       },
       {
         "locale": "es-es",
@@ -62887,6 +64605,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -63026,6 +64749,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -63361,6 +65089,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -63521,12 +65254,12 @@
         "name": "Предложения Настроек"
       },
       {
-        "locale": "it-it",
-        "name": "Suggerimenti impostazioni"
-      },
-      {
         "locale": "nl-nl",
         "name": "Instellingen Suggesties"
+      },
+      {
+        "locale": "it-it",
+        "name": "Suggerimenti impostazioni"
       },
       {
         "locale": "es-es",
@@ -63572,6 +65305,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -63679,6 +65417,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -63809,6 +65552,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -63966,6 +65714,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -64104,6 +65857,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -64165,6 +65923,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -64280,6 +66043,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -64563,6 +66331,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -64677,12 +66450,12 @@
         "name": "SIM-Toolkit"
       },
       {
-        "locale": "it-it",
-        "name": "Servizi SIM"
-      },
-      {
         "locale": "nl-nl",
         "name": "SIM-toolkit"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi SIM"
       },
       {
         "locale": "es-es",
@@ -64704,6 +66477,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -64790,6 +66568,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -64925,6 +66708,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -64969,6 +66757,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65021,6 +66814,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65090,6 +66888,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65321,6 +67124,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -65385,6 +67193,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -65441,6 +67254,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65547,6 +67365,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -65596,6 +67419,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65677,6 +67505,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -65716,12 +67549,12 @@
         "name": "Software-Update"
       },
       {
-        "locale": "it-it",
-        "name": "Aggiornamento software"
-      },
-      {
         "locale": "nl-nl",
         "name": "Softwareupdate"
+      },
+      {
+        "locale": "it-it",
+        "name": "Aggiornamento software"
       },
       {
         "locale": "es-es",
@@ -65743,6 +67576,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65785,12 +67623,12 @@
         "name": "Software-Update"
       },
       {
-        "locale": "it-it",
-        "name": "Aggiornamento software"
-      },
-      {
         "locale": "nl-nl",
         "name": "Softwareupdate"
+      },
+      {
+        "locale": "it-it",
+        "name": "Aggiornamento software"
       },
       {
         "locale": "es-es",
@@ -65812,6 +67650,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -66044,12 +67887,12 @@
         "name": "Sound-Auswahl"
       },
       {
-        "locale": "it-it",
-        "name": "Selezionatore audio"
-      },
-      {
         "locale": "nl-nl",
         "name": "Geluid selecteren"
+      },
+      {
+        "locale": "it-it",
+        "name": "Selezionatore audio"
       },
       {
         "locale": "es-es",
@@ -66071,6 +67914,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -66113,12 +67961,12 @@
         "name": "Tonqualität und Effekte"
       },
       {
-        "locale": "it-it",
-        "name": "Qualità audio ed effetti"
-      },
-      {
         "locale": "nl-nl",
         "name": "Geluidskwaliteit en -effecten"
+      },
+      {
+        "locale": "it-it",
+        "name": "Qualità audio ed effetti"
       },
       {
         "locale": "es-es",
@@ -66140,6 +67988,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -66566,6 +68419,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -66834,6 +68692,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -66885,12 +68748,12 @@
         "name": "Менеджер Памяти"
       },
       {
-        "locale": "it-it",
-        "name": "Gestione archiviazione"
-      },
-      {
         "locale": "nl-nl",
         "name": "Opslagbeheer"
+      },
+      {
+        "locale": "it-it",
+        "name": "Gestione archiviazione"
       },
       {
         "locale": "es-es",
@@ -66941,6 +68804,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -67120,6 +68988,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -67177,6 +69050,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -67246,6 +69124,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -67379,6 +69262,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -67661,6 +69549,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -67815,6 +69708,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -68001,6 +69899,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
         "os": "33"
       },
       {
@@ -68262,6 +70165,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -68457,6 +70365,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -68698,6 +70611,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -68843,16 +70761,16 @@
         "name": "System Wi-Fi resources"
       },
       {
+        "locale": "nl-nl",
+        "name": "Wifi-bronnen systeem"
+      },
+      {
         "locale": "en-nl",
         "name": "System Wi-Fi resources"
       },
       {
         "locale": "it-it",
         "name": "Risorse Wi-Fi sistema"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Wifi-bronnen systeem"
       },
       {
         "locale": "zh-hant-uz",
@@ -68892,6 +70810,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -69108,6 +71031,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -69170,6 +71098,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -69354,6 +71287,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -69463,6 +71401,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -69604,12 +71547,12 @@
         "name": "Tätigkeiten"
       },
       {
-        "locale": "it-it",
-        "name": "Funzioni"
-      },
-      {
         "locale": "nl-nl",
         "name": "Taken"
+      },
+      {
+        "locale": "it-it",
+        "name": "Funzioni"
       },
       {
         "locale": "es-es",
@@ -69626,6 +71569,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -69881,6 +71829,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -70060,6 +72013,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -70499,12 +72457,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "it-it",
-        "name": "Strumenti"
-      },
-      {
         "locale": "nl-nl",
         "name": "Hulpmiddelen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Strumenti"
       },
       {
         "locale": "es-es",
@@ -70521,6 +72479,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -71114,6 +73077,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -71182,6 +73150,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -71304,6 +73277,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -71449,6 +73427,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "Gebruiksaanwijzing"
+      },
+      {
         "locale": "es-es",
         "name": "Guía de usuario"
       }
@@ -71463,6 +73445,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -71883,16 +73870,16 @@
         "name": "Videoeffekte"
       },
       {
+        "locale": "nl-nl",
+        "name": "Video-effecten"
+      },
+      {
         "locale": "en-nl",
         "name": "Video call effects"
       },
       {
         "locale": "it-it",
         "name": "Effetti video"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Video-effecten"
       },
       {
         "locale": "es-es",
@@ -71909,6 +73896,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -71951,12 +73943,12 @@
         "name": "Video-Player"
       },
       {
-        "locale": "it-it",
-        "name": "Lettore video"
-      },
-      {
         "locale": "nl-nl",
         "name": "Videospeler"
+      },
+      {
+        "locale": "it-it",
+        "name": "Lettore video"
       },
       {
         "locale": "es-es",
@@ -71978,6 +73970,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72138,12 +74135,12 @@
         "name": "Mit Sprache wecken"
       },
       {
-        "locale": "it-it",
-        "name": "Attivazione vocale"
-      },
-      {
         "locale": "nl-nl",
         "name": "Gesproken wake-upopdracht"
+      },
+      {
+        "locale": "it-it",
+        "name": "Attivazione vocale"
       }
     ],
     "devices": [
@@ -72156,6 +74153,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72354,6 +74356,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -72611,12 +74618,12 @@
         "name": "Hintergrundbild und Stil"
       },
       {
-        "locale": "it-it",
-        "name": "Sfondo e stile"
-      },
-      {
         "locale": "nl-nl",
         "name": "Achtergrond en stijl"
+      },
+      {
+        "locale": "it-it",
+        "name": "Sfondo e stile"
       },
       {
         "locale": "es-es",
@@ -72638,6 +74645,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72680,12 +74692,12 @@
         "name": "Hintergrundbilddienste"
       },
       {
-        "locale": "it-it",
-        "name": "Servizi per gli sfondi"
-      },
-      {
         "locale": "nl-nl",
         "name": "Achtergrondservices"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi per gli sfondi"
       },
       {
         "locale": "es-es",
@@ -72707,6 +74719,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72884,6 +74901,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -73012,6 +75034,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -73064,6 +75091,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -73103,12 +75135,12 @@
         "name": "Wetter"
       },
       {
-        "locale": "it-it",
-        "name": "Meteo"
-      },
-      {
         "locale": "nl-nl",
         "name": "Weer"
+      },
+      {
+        "locale": "it-it",
+        "name": "Meteo"
       },
       {
         "locale": "es-es",
@@ -73130,6 +75162,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -73356,12 +75393,12 @@
         "name": "WLAN-Anrufe"
       },
       {
-        "locale": "it-it",
-        "name": "Chiamata Wi-Fi"
-      },
-      {
         "locale": "nl-nl",
         "name": "Bellen via Wi-Fi"
+      },
+      {
+        "locale": "it-it",
+        "name": "Chiamata Wi-Fi"
       },
       {
         "locale": "es-es",
@@ -73383,6 +75420,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -73437,6 +75479,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       }
     ]
   },
@@ -73466,12 +75513,12 @@
         "name": "WLAN-Tipps"
       },
       {
-        "locale": "it-it",
-        "name": "Suggerimenti sul Wi-Fi"
-      },
-      {
         "locale": "nl-nl",
         "name": "Tips voor Wi-Fi"
+      },
+      {
+        "locale": "it-it",
+        "name": "Suggerimenti sul Wi-Fi"
       },
       {
         "locale": "es-es",
@@ -73488,6 +75535,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -73728,6 +75780,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -73943,6 +76000,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
       },
@@ -74082,6 +76144,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -74575,6 +76642,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
       },
       {
         "make": "Google",
