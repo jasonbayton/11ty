@@ -162,6 +162,21 @@ async function fetchAndSavePackages() {
     } catch (err) {
         console.error('Failed to fetch and save packages:', err);
     }
+
+    // Output latest device info for use in commit messages
+    if (rows.length > 0) {
+        const lastDevice = rows[rows.length - 1];
+        const latestDeviceInfo = [
+            lastDevice.make || 'UnknownMake',
+            lastDevice.model || 'UnknownModel',
+            lastDevice.os || 'UnknownOS'
+        ].join(' | ');
+        fs.writeFileSync(
+            path.join(__dirname, '../_src/_data', 'latest-device.txt'),
+            latestDeviceInfo
+        );
+        console.log(`Latest device: ${latestDeviceInfo}`);
+    }
 }
 
 fetchAndSavePackages();

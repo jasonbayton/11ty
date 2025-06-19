@@ -35,12 +35,19 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add ./_src/_data/packages.json
+          git add ./_src/_data/latest-device.txt
 
           # Check if there are any changes to commit
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          
-          git commit -m 'Update packages data'
+
+          DEVICE_FILE="./_src/_data/latest-device.txt"
+          if [ -f "$DEVICE_FILE" ]; then
+            DEVICE=$(cat "$DEVICE_FILE")
+            git commit -m "Update packages data (submitted by: $DEVICE)"
+          else
+            git commit -m 'Update packages data'
+          fi
           git push
