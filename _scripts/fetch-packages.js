@@ -159,23 +159,34 @@ async function fetchAndSavePackages() {
 
         fs.writeFileSync(outputPath, JSON.stringify(finalOutput, null, 2));
         console.log(`Data written to ${outputPath}`);
+
+        // Output latest device info for use in commit messages
+        if (rows.length > 0) {
+        // Find the row with the latest date_time
+        const latestDevice = rows.reduce((latest, row) => {
+            if (!row.date_time) return latest;
+            if (!latest) return row;
+            // Compare ISO timestamps
+            return new Date(row.date_time) > new Date(latest.date_time) ? row : latest;
+        }, null);
+
+        if (latestDevice) {
+            const latestDeviceInfo = [
+                latestDevice.make || 'UnknownMake',
+                latestDevice.model || 'UnknownModel',
+                latestDevice.os || 'UnknownOS'
+            ].join(' | ');
+            fs.writeFileSync(
+                path.join(__dirname, '../_src/_data', 'latest-device.txt'),
+                latestDeviceInfo
+            );
+            console.log(`Latest device: ${latestDeviceInfo}`);
+        } else {
+            console.log('No latest device found.');
+        }
+    }
     } catch (err) {
         console.error('Failed to fetch and save packages:', err);
-    }
-
-    // Output latest device info for use in commit messages
-    if (rows.length > 0) {
-        const lastDevice = rows[rows.length - 1];
-        const latestDeviceInfo = [
-            lastDevice.make || 'UnknownMake',
-            lastDevice.model || 'UnknownModel',
-            lastDevice.os || 'UnknownOS'
-        ].join(' | ');
-        fs.writeFileSync(
-            path.join(__dirname, '../_src/_data', 'latest-device.txt'),
-            latestDeviceInfo
-        );
-        console.log(`Latest device: ${latestDeviceInfo}`);
     }
 }
 
