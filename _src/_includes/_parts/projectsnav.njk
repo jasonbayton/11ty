@@ -3,18 +3,33 @@
 </div>
 
 {% macro renderNavListItem(entry) %}
-<li>
-  <a href="{{ entry.url }}" {% if entry.url == page.url %} class="active"{% endif %}>{{ entry.title }}</a>
-  {% if entry.children.length %}
-  <ul>
-    {% for child in entry.children %}
-      {% if not child.hidden %}
-        {{ renderNavListItem(child) }}
-      {% endif %}
-    {% endfor %}
-  </ul>
-  {% endif %}
-</li>
+  <li>
+    <a href="{{ entry.url }}" {% if entry.url == page.url %} class="active"{% endif %}>{{ entry.title }}</a>
+    {% if entry.children.length %}
+      <ul>
+        {% if entry.title == "Release notes" %}
+          {# Sort children by published (descending) #}
+          {% set sortedChildren = entry.children | sort(false, false, 'published') | reverse %}
+          {% set count = 0 %}
+          {% for child in sortedChildren %}
+            {% if count < 5 and not child.hidden %}
+              {{ renderNavListItem(child) }}
+              {% set count = count + 1 %}
+            {% endif %}
+          {% endfor %}
+          {% if entry.children.length > 5 %}
+            <li><a href="{{ entry.url }}"><em>…view older</em></a></li>
+          {% endif %}
+        {% else %}
+          {% for child in entry.children %}
+            {% if not child.hidden %}
+              {{ renderNavListItem(child) }}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    {% endif %}
+  </li>
 {% endmacro %}
 
 {% for project in projects %}
