@@ -79,22 +79,23 @@ val delegatedScopes = dpm.getDelegatedScopes(null, context.packageName)
 
 ## Disappearance of distributed applications
 
-After enrolment - once more in both company-owned work profile and personally-owned work profile deployment scenarios - applications appear to be vanishing:
+This appears to have resolved, but no precise timeline of when.
+
+~~After enrolment - once more in both company-owned work profile and personally-owned work profile deployment scenarios - applications appear to be vanishing:~~
 
 https://www.youtube.com/watch?v=TDFH6JC6WOQ
 
 https://www.youtube.com/watch?v=0pOyhODdSi4
 
+~~In my testing, the application _may_ return at a later point, but it risks disappearance once more when the policy updates.~~
 
-In my testing, the application _may_ return at a later point, but it risks disappearance once more when the policy updates.
+~~The replication steps, if the video isn't your cup of tea, are:~~
 
-The replication steps, if the video isn't your cup of tea, are:
+~~1. Enrol a device into a company-owned/personally-owned, work profile deployment scenario~~
+~~2. Apply a policy. Initiall I was replicating this with Play Store model under personal usage policies, but I can replicate it without this on personally-owned work profile also.~~
+~~3. Installed applications in the work profile vanish.~~
 
-1. Enrol a device into a company-owned/personally-owned, work profile deployment scenario
-2. Apply a policy. Initiall I was replicating this with Play Store model under personal usage policies, but I can replicate it without this on personally-owned work profile also.
-3. Installed applications in the work profile vanish.
-
-Here's the policy deployed, this is via AMAPI:
+~~Here's the policy deployed, this is via AMAPI:~~
 
 ```json
 {
@@ -144,23 +145,25 @@ Here's the policy deployed, this is via AMAPI:
 }
 ```
 
-Of 9 personally-owned work profile and 23 company-owned work profile deployments I've set up testing this, across two different, unique enterprise IDs, this has been consistently replicable.
+~~Of 9 personally-owned work profile and 23 company-owned work profile deployments I've set up testing this, across two different, unique enterprise IDs, this has been consistently replicable.~~
 
-### Workaround
+~~### Workaround~~
 
-None I'm aware of at the moment.
+~~None I'm aware of at the moment.~~
 
-This has been escalated to Android Engineering.
+~~This has been escalated to Android Engineering.~~
 
 ## Presence of dialler, messaging within the Private Space
 
-Not something I've been able to replicate reliably, but it does appear occasionally the above apps pop up in the Private Space, and they're not supposed to be there. Private Space has no inbuilt functionality for secure calls or messages (though that would be cool, perhaps via dedicated eSIM), and this is confirmed as the applications are mostly non-functional when interacted with.
+This is resolved.
 
-### Workaround
+~~Not something I've been able to replicate reliably, but it does appear occasionally the above apps pop up in the Private Space, and they're not supposed to be there. Private Space has no inbuilt functionality for secure calls or messages (though that would be cool, perhaps via dedicated eSIM), and this is confirmed as the applications are mostly non-functional when interacted with.~~
 
-None I'm aware of. 
+~~### Workaround~~
 
-This has been escalated to Android Engineering.
+~~None I'm aware of.~~
+
+~~This has been escalated to Android Engineering.~~
 
 ## Application of personal Play Store policies to the Private Space 
 
