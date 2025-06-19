@@ -5,9 +5,8 @@
   width: 1em;
 }
 
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation-duration: 0.5s;
+@view-transition {
+  navigation: auto;
 }
 
 :root, [data-theme='light'] {
