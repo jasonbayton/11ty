@@ -26,7 +26,7 @@ Below you'll find a table of system apps across various devices. [These devices]
 <a class="" href="/projects/package-search/support/system-apps-database">Learn how to contribute</a>.
 
 
-Packages are updated here within a few minutes for first-syncs, and daily after. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
+Packages are updated here within a few minutes following a first sync, and daily after. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
 
 _Tip: Hold **Shift** while scrolling with a mouse to move horizontally across the table, if it overflows. Cells with lots of data can be scrolled vertically, also._
 </div>
