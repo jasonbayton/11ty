@@ -197,6 +197,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -536,6 +541,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -808,6 +818,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.android.agingtest": {
+    "appName": "AgingTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -1340,6 +1362,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -1507,6 +1534,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -1773,6 +1805,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -2000,6 +2037,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -2246,6 +2288,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -2456,6 +2503,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -2671,6 +2723,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -2914,6 +2971,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -3145,6 +3207,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -3357,6 +3424,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -3461,6 +3533,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -3630,6 +3707,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -4895,11 +4977,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
       },
@@ -4995,11 +5072,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
       },
@@ -5028,11 +5100,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -5104,6 +5171,18 @@
       }
     ]
   },
+  "com.mediatek.mt6789.gamedriver": {
+    "appName": "Arm GPU Game Driver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      }
+    ]
+  },
   "com.fido.fido2client": {
     "appName": "asmsdk",
     "userFacing": false,
@@ -5119,22 +5198,12 @@
   "com.google.android.apps.googleassistant": {
     "appName": "Assistant",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "nl-nl",
-        "name": "Assistent"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -5170,6 +5239,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -5268,6 +5342,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
         "os": "35"
       }
     ]
@@ -5911,6 +5990,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -5965,11 +6049,6 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -6655,6 +6734,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -7377,6 +7461,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -7586,6 +7675,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -7953,6 +8047,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -8187,6 +8286,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -8396,6 +8500,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
       },
@@ -8550,6 +8659,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -8684,6 +8798,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -9022,6 +9141,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -9439,6 +9563,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -9944,6 +10073,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -10425,6 +10559,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -10793,6 +10932,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -11124,6 +11268,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -11779,6 +11928,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -12068,6 +12222,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -12336,6 +12495,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -12872,6 +13036,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -13423,6 +13592,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -13683,6 +13857,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -13941,6 +14120,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -14092,6 +14276,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -14155,6 +14344,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -14362,6 +14556,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -14574,6 +14773,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -14898,6 +15102,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -15116,6 +15325,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -15167,6 +15381,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
         "os": "35"
       }
     ]
@@ -15445,6 +15664,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -15645,6 +15869,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -15854,6 +16083,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -15917,6 +16151,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -16427,6 +16666,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -16683,6 +16927,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -16877,6 +17126,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -16940,6 +17194,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -17845,6 +18104,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -18007,11 +18271,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
-      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -18080,6 +18339,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -19087,6 +19351,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -19299,6 +19568,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -19481,6 +19755,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -19540,6 +19819,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -19747,6 +20031,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -19804,6 +20093,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -20051,6 +20345,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -20093,6 +20392,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -20286,6 +20590,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -20394,6 +20703,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -20773,6 +21087,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -21131,6 +21450,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -21406,6 +21730,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -21729,6 +22058,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -21896,6 +22230,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -21971,6 +22310,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -22137,6 +22481,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -22306,6 +22655,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -22388,6 +22742,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -22522,6 +22881,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -22572,6 +22936,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -22962,6 +23331,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -23288,6 +23662,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -23450,6 +23829,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -23469,6 +23853,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -23530,6 +23919,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -23687,6 +24081,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -23863,6 +24262,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -24023,6 +24427,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -24581,6 +24990,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -24620,6 +25034,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -24726,6 +25145,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -25153,6 +25577,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -25634,6 +26063,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -25703,6 +26137,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -25799,6 +26238,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -25887,6 +26331,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -25939,6 +26388,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -25986,67 +26440,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
-      }
-    ]
-  },
-  "com.mediatek.ims": {
-    "appName": "com.mediatek.ims.ImsApp",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "ru-ru",
-        "name": "ImsApp"
       },
       {
-        "locale": "en-gb",
-        "name": "ImsApp"
-      }
-    ],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "Sony",
-        "model": "I3312",
-        "os": "27"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
+        "make": "ALCommon",
+        "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
       }
     ]
   },
@@ -26111,6 +26509,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -26138,6 +26541,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -26214,6 +26622,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -26280,6 +26693,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -28119,6 +28537,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -28244,6 +28667,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -29674,11 +30102,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       }
     ]
   },
@@ -31187,6 +31610,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -31270,6 +31698,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
         "os": "35"
       }
     ]
@@ -31625,6 +32058,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -32332,6 +32770,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -32619,6 +33062,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -32645,6 +33093,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -32716,6 +33169,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -33113,6 +33571,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -33356,6 +33819,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -33539,6 +34007,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -33874,6 +34347,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
         "os": "35"
       }
     ]
@@ -34230,6 +34708,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34741,6 +35224,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -35096,6 +35584,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -35164,6 +35657,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -35355,6 +35853,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -35963,6 +36466,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -36031,6 +36539,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -36349,6 +36862,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -36584,6 +37102,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -36825,6 +37348,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -37166,6 +37694,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -37533,6 +38066,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -37734,6 +38272,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -37921,11 +38464,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -38265,6 +38803,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -38643,6 +39186,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -38807,11 +39355,6 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -39344,6 +39887,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -40000,6 +40548,18 @@
       }
     ]
   },
+  "com.along.factorytest": {
+    "appName": "FactoryTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.providers.factory": {
     "appName": "FactoryTestProvider",
     "userFacing": false,
@@ -40518,6 +41078,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -40645,6 +41210,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -41606,6 +42176,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -42068,6 +42643,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -43439,6 +44019,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -43462,6 +44047,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -43537,11 +44127,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -43793,11 +44378,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -44129,6 +44709,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -44164,11 +44749,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "OnePlus",
@@ -44531,6 +45111,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -44785,6 +45370,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -45202,6 +45792,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -45436,6 +46031,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -45646,6 +46246,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -45967,6 +46572,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -46317,6 +46927,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -46541,6 +47156,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -46591,6 +47211,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -46816,6 +47441,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -46941,6 +47571,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -47100,6 +47735,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -47722,6 +48362,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -48818,6 +49463,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -49276,6 +49926,68 @@
       }
     ]
   },
+  "com.mediatek.ims": {
+    "appName": "ImsApp",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "com.mediatek.ims.ImsApp"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      }
+    ]
+  },
   "com.sec.imslogger": {
     "appName": "ImsLogger",
     "userFacing": false,
@@ -49661,6 +50373,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -49921,6 +50638,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -50046,11 +50768,6 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
       {
         "make": "samsung",
         "model": "SM-S921U",
@@ -50286,6 +51003,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -50523,6 +51245,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -50563,11 +51290,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
       },
@@ -50604,11 +51326,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       }
     ]
   },
@@ -50976,6 +51693,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -51096,6 +51818,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -51230,6 +51957,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -52398,6 +53130,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -52417,6 +53154,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -52733,6 +53475,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -53155,6 +53902,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -53335,6 +54087,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -53602,6 +54359,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -53829,6 +54591,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -54156,11 +54923,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
       },
@@ -54384,6 +55146,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -54676,6 +55443,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -54982,6 +55754,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -55333,6 +56110,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -55720,6 +56502,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -56028,6 +56815,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -56170,6 +56962,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -56362,6 +57159,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -56810,6 +57612,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -56858,12 +57665,16 @@
     ]
   },
   "com.mediatek.gnss.nonframeworklbs": {
-    "appName": "MTK Non-Framework Location-Based Service",
+    "appName": "MTK Non-Framework LBS",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "ru-ru",
         "name": "MTK Non-Framework LBS (MTK не Фреймворк LBS)"
+      },
+      {
+        "locale": "en-gb",
+        "name": "MTK Non-Framework Location-Based Service"
       }
     ],
     "devices": [
@@ -56885,6 +57696,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
         "os": "35"
       }
     ]
@@ -57287,6 +58103,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -57573,6 +58394,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -58034,6 +58860,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -58401,6 +59232,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -58663,6 +59499,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -58684,6 +59525,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
         "os": "35"
       }
     ]
@@ -58717,6 +59563,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.networkstack.inprocess.overlay": {
+    "appName": "NetworkStackInProcessResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -58922,6 +59780,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
         "os": "35"
       }
     ]
@@ -59436,6 +60299,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -59813,6 +60681,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -60401,6 +61274,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -60430,11 +61308,6 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -61349,6 +62222,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -61641,6 +62519,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -61873,6 +62756,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -62238,11 +63126,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
       },
@@ -62462,6 +63345,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -62893,6 +63781,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -62916,6 +63809,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -63240,6 +64138,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -63520,6 +64423,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -63771,6 +64679,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -64030,6 +64943,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -64073,6 +64991,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -64596,6 +65519,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -64680,6 +65608,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -64790,6 +65723,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -65772,6 +66710,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -66005,6 +66948,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -66185,6 +67133,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -66526,6 +67479,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -66764,6 +67722,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -67423,6 +68386,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -67996,6 +68964,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -68240,6 +69213,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -68977,11 +69955,6 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -71725,6 +72698,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -73907,6 +74885,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -75014,6 +75997,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -75377,6 +76365,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -75595,6 +76588,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -75620,11 +76618,6 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -76119,6 +77112,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -76515,6 +77513,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -76821,6 +77824,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -77102,6 +78110,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -78161,6 +79174,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -78885,6 +79903,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -79055,6 +80078,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -79382,6 +80410,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -79796,6 +80829,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -80004,11 +81042,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
       },
@@ -80212,6 +81245,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -80389,6 +81427,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -80682,6 +81725,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81082,6 +82130,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -81370,6 +82423,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -81607,6 +82665,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -81707,6 +82770,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.jren.update": {
+    "appName": "System Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -81908,6 +82983,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -82166,6 +83246,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -82499,6 +83584,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -82802,6 +83892,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -83011,6 +84106,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -83048,6 +84148,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -83283,6 +84388,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -83490,6 +84600,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -83522,6 +84637,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -84237,6 +85357,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -84929,6 +86054,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -84985,11 +86115,6 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -85310,6 +86435,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
         "os": "35"
       },
       {
@@ -86230,6 +87360,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -86368,6 +87503,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -86838,6 +87978,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -87237,6 +88382,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -87702,6 +88852,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
@@ -87920,6 +89075,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -88346,6 +89506,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -88861,6 +90026,11 @@
         "os": "34"
       },
       {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -88981,6 +90151,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
       }
     ]
   },
