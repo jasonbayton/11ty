@@ -78,6 +78,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -664,6 +669,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -1301,6 +1311,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -1450,6 +1465,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -1626,12 +1646,12 @@
         "name": "Android R Easter Egg"
       },
       {
-        "locale": "en-za",
-        "name": "Android R Easter Egg"
+        "locale": "en",
+        "name": "Android S Easter Egg"
       },
       {
-        "locale": "",
-        "name": "Android S Easter Egg"
+        "locale": "en-za",
+        "name": "Android R Easter Egg"
       }
     ],
     "devices": [
@@ -1704,6 +1724,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -1933,6 +1958,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -2185,6 +2215,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -2395,6 +2430,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -2620,6 +2660,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -2856,6 +2901,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -3011,7 +3061,12 @@
   "com.android.angle": {
     "appName": "Android System Angle",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en",
+        "name": "com.android.angle"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -3027,6 +3082,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -3099,6 +3159,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -3306,6 +3371,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -3629,6 +3699,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -3783,6 +3858,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -4372,6 +4452,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -4799,6 +4884,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -6641,6 +6731,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -7352,6 +7447,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -7571,6 +7671,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -7934,6 +8039,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -8170,6 +8280,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -8595,6 +8710,11 @@
         "os": "30"
       },
       {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -8717,6 +8837,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -8909,6 +9034,10 @@
         "name": "Calendar Storage"
       },
       {
+        "locale": "en",
+        "name": "Calendar Storage"
+      },
+      {
         "locale": "it-it",
         "name": "Spazio di archiviazione in Calendario"
       },
@@ -8995,6 +9124,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -9417,6 +9551,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -10094,6 +10233,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -10438,6 +10582,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -10733,6 +10882,10 @@
         "name": "Inloggen via captive portal"
       },
       {
+        "locale": "en",
+        "name": "CaptivePortalLogin"
+      },
+      {
         "locale": "en-nl",
         "name": "Captive portal login"
       },
@@ -10804,6 +10957,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -10991,6 +11149,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -11047,6 +11210,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -11079,6 +11247,10 @@
       },
       {
         "locale": "en-be",
+        "name": "CarrierDefaultApp"
+      },
+      {
+        "locale": "en",
         "name": "CarrierDefaultApp"
       },
       {
@@ -11157,6 +11329,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -11315,6 +11492,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -11395,6 +11577,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -11437,6 +11624,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -11486,6 +11678,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "NUU",
@@ -11543,6 +11740,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -11592,6 +11794,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -11634,6 +11841,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -11800,6 +12012,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -11999,6 +12216,10 @@
         "name": "Certificate Installer"
       },
       {
+        "locale": "en",
+        "name": "Certificate Installer"
+      },
+      {
         "locale": "it-it",
         "name": "Installatore certificato"
       },
@@ -12089,6 +12310,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -12364,6 +12590,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -12978,6 +13209,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -13452,6 +13688,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -13611,6 +13852,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -14042,6 +14288,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -14168,6 +14419,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -14209,6 +14465,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -14415,6 +14676,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -14632,6 +14898,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -14943,6 +15214,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -14958,6 +15234,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6",
@@ -15026,6 +15307,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -15187,6 +15473,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -15371,6 +15662,30 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.nfc.auto_generated_rro_product__": {
+    "appName": "com.android.nfc.auto_generated_rro_product__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      }
+    ]
+  },
+  "com.android.nfc.auto_generated_rro_vendor__": {
+    "appName": "com.android.nfc.auto_generated_rro_vendor__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       }
     ]
   },
@@ -15728,6 +16043,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -16180,6 +16500,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -16229,6 +16554,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -16434,6 +16764,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -16523,6 +16858,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -16782,6 +17122,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -16990,6 +17335,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -17208,6 +17558,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -17320,6 +17675,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -17364,6 +17724,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -17382,6 +17747,11 @@
       {
         "make": "HONOR",
         "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "31"
       },
       {
@@ -17440,6 +17810,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -17467,6 +17842,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.server.telecom.auto_generated_rro_vendor__": {
+    "appName": "com.android.server.telecom.auto_generated_rro_vendor__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       }
     ]
   },
@@ -17541,6 +17928,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -17585,6 +17977,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -17717,6 +18114,11 @@
       {
         "make": "Google",
         "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       }
     ]
@@ -17783,6 +18185,18 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.settings.overlay.pixel2021": {
+    "appName": "com.android.settings.overlay.pixel2021",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       }
     ]
   },
@@ -17959,6 +18373,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -18118,6 +18537,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -18405,6 +18829,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -18459,6 +18888,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -19016,6 +19450,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -19121,6 +19560,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -19155,6 +19599,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -19420,6 +19869,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -20425,6 +20879,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -20454,6 +20913,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -20791,6 +21255,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -20843,6 +21312,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -21180,6 +21654,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -21224,6 +21703,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -21265,6 +21749,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -21464,6 +21953,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -21746,6 +22240,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -23076,6 +23575,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -23110,6 +23614,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -24446,6 +24955,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -24483,6 +24997,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -24512,6 +25031,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -24547,6 +25071,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -24579,6 +25108,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -24608,6 +25142,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -24675,6 +25214,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -24735,6 +25279,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.pixel.setupwizard.auto_generated_rro_product__": {
+    "appName": "com.google.android.pixel.setupwizard.auto_generated_rro_product__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       }
     ]
   },
@@ -25406,6 +25962,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -25620,6 +26181,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -25732,6 +26298,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -25796,6 +26367,18 @@
       }
     ]
   },
+  "com.google.pixel.dynamicwallpapers": {
+    "appName": "com.google.pixel.dynamicwallpapers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.pixel.iwlan": {
     "appName": "com.google.pixel.iwlan",
     "userFacing": false,
@@ -25837,6 +26420,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -30006,6 +30594,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -30982,6 +31575,18 @@
       }
     ]
   },
+  "com.verizon.llkagent": {
+    "appName": "com.verizon.llkagent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      }
+    ]
+  },
   "com.xiaomi.entitlement.o2": {
     "appName": "com.xiaomi.entitlement.o2",
     "userFacing": false,
@@ -31426,6 +32031,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -31891,6 +32501,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -32263,6 +32878,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -32480,6 +33100,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -32645,6 +33270,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -32919,6 +33549,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -33336,6 +33971,10 @@
         "name": "Hoek-cutout"
       },
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‏‎‎‎‎‏‎‏‏‏‎‏‎‎‏‏‏‏‎‎‏‏‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‎‏‏‏‎‎‏‎‏‎‏‎Corner cutout‎‏‎‎‏‎"
+      },
+      {
         "locale": "it-it",
         "name": "Ritaglio angolo"
       },
@@ -33408,6 +34047,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -34558,6 +35202,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -34938,6 +35587,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -35081,6 +35735,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -35209,6 +35868,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -35315,6 +35979,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -35483,6 +36152,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -36050,6 +36724,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -36332,6 +37011,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -36448,6 +37132,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -36616,6 +37305,10 @@
         "name": "Dubbele cutout"
       },
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‎‏‎‎‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‎Double cutout‎‏‎‎‏‎"
+      },
+      {
         "locale": "it-it",
         "name": "Ritaglio doppio"
       },
@@ -36688,6 +37381,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -36916,6 +37614,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -37158,6 +37861,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -37555,6 +38263,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -38081,6 +38794,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -38645,6 +39363,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -39679,6 +40402,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -39843,6 +40571,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -40331,6 +41064,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -40890,6 +41628,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -41076,6 +41819,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "LENOVO",
@@ -42451,6 +43199,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -43894,6 +44647,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -44089,6 +44847,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -44342,6 +45105,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -44542,6 +45310,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -44711,6 +45484,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -44946,6 +45724,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -45197,6 +45980,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -45485,6 +46273,18 @@
       }
     ]
   },
+  "com.google.android.apps.gcs": {
+    "appName": "Google Connectivity Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.syncadapters.contacts": {
     "appName": "Google Contacts Sync",
     "userFacing": false,
@@ -45509,6 +46309,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "NUU",
@@ -45549,6 +46354,10 @@
       {
         "locale": "nl-nl",
         "name": "Locatiegeschiedenis van Google"
+      },
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‏‎‏‏‎‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‏‎‎‎‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‏‎‎‎‎Google Location History‎‏‎‎‏‎"
       },
       {
         "locale": "it-it",
@@ -45619,6 +46428,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -45851,6 +46665,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -46068,6 +46887,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -46242,6 +47066,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en",
+        "name": "Android Device Security Module"
+      },
+      {
         "locale": "en-gb",
         "name": "Google Play Protect service"
       },
@@ -46269,6 +47097,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -46387,6 +47220,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -46535,7 +47373,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en",
         "name": "ARCore"
       }
     ],
@@ -46579,6 +47417,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -46736,6 +47579,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -47245,6 +48093,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -47385,10 +48238,27 @@
       }
     ]
   },
+  "com.google.android.apps.helprtc": {
+    "appName": "Google Support Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.videos": {
     "appName": "Google TV",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‏‏‏‎‏‏‏‎‎‎‎‏‎‏‏‏‏‎‏‎‎‏‏‎‎‏‎‏‏‏‎‎‏‎‎‎‎‎‏‎‎‏‏‏‏‏‎‎‎‎‏‏‏‏‎‏‎‎Google Play Movies & TV‎‏‎‎‏‎"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -47434,6 +48304,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -47529,6 +48404,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -47583,6 +48463,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "LENOVO",
@@ -48365,6 +49250,10 @@
         "name": "Google Assistant"
       },
       {
+        "locale": "en",
+        "name": "Google Assistant"
+      },
+      {
         "locale": "en-nl",
         "name": "Google Assistant"
       },
@@ -48413,6 +49302,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -48535,6 +49429,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‎‏‏‏‎‎‎‎‎‎‏‏‎‏‎‏‏‎‎‎‎‏‎‏‎‎‏‏‎‎‎‎‎‏‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‎‏‎‎Hide‎‏‎‎‏‎"
+      },
+      {
         "locale": "nl-nl",
         "name": "Verbergen"
       }
@@ -48544,6 +49442,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -49271,6 +50174,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -50022,6 +50930,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -50168,6 +51081,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -50376,6 +51294,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -51031,6 +51954,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -52799,6 +53727,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -52958,6 +53891,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -53740,6 +54678,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -54095,6 +55038,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -54195,6 +55143,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -54418,6 +55371,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -54561,7 +55519,12 @@
   "com.google.android.markup": {
     "appName": "Markup",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‏‏‏‎‏‎‎‏‏‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‎‎‏‏‏‎‎‎‎‎‎‎‏‎‏‎‏‏‎‏‏‏‏‎‎‎‎‎‎‏‎‎‏‎‏‎‎‏‏‎‏‎‎‎‏‏‎‎‎‎‏‏‏‎‎‎Markup‎‏‎‎‏‎"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -54577,6 +55540,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -54899,6 +55867,10 @@
         "name": "Mediakiezer"
       },
       {
+        "locale": "en",
+        "name": "Media Storage"
+      },
+      {
         "locale": "it-it",
         "name": "Selettore media"
       },
@@ -54966,6 +55938,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -55565,6 +56542,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -56632,6 +57614,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -57919,6 +58906,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -58306,6 +59298,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -58544,6 +59541,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -59055,6 +60057,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -59649,6 +60656,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -59750,6 +60762,10 @@
         "name": "Nfc Service"
       },
       {
+        "locale": "en",
+        "name": "Nfc Service"
+      },
+      {
         "locale": "en-de",
         "name": "NFC Migration"
       },
@@ -59823,6 +60839,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -60007,6 +61028,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‏‎‏‏‎‎‏‏‏‏‏‎‏‎‏‎‏‎‎‏‏‎‏‎‎‎‎‎‏‎‎‎‎‏‎‎‎‏‏‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‎‎‎‎‎‏‏‎‎‎‏‏‎‎‏‏‎‎‎‎‎SIM manager‎‏‎‎‏‎"
+      },
+      {
         "locale": "nl-nl",
         "name": "Firmware-updater NFC/eSE/e-simkaart"
       }
@@ -60026,6 +61051,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -60501,6 +61531,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -60940,6 +61975,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -60972,6 +62012,10 @@
       },
       {
         "locale": "ru-ru",
+        "name": "Google Assistant"
+      },
+      {
+        "locale": "en",
         "name": "Google Assistant"
       },
       {
@@ -61023,6 +62067,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -61235,6 +62284,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "LENOVO",
@@ -62102,6 +63156,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -62310,6 +63369,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -62549,6 +63613,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -63137,6 +64206,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -63606,6 +64680,10 @@
         "name": "Личная безопасность"
       },
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‎‏‏‏‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‎‎‎‏‏‎‏‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‎‎Personal Safety‎‏‎‎‏‎"
+      },
+      {
         "locale": "nl-nl",
         "name": "Persoonlijke veiligheid"
       }
@@ -63635,6 +64713,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -63990,6 +65073,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -64199,6 +65287,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -64364,6 +65457,10 @@
         "name": "Call Management"
       },
       {
+        "locale": "en",
+        "name": "Phone Calls"
+      },
+      {
         "locale": "it-it",
         "name": "Chiamate telefoniche"
       },
@@ -64374,10 +65471,6 @@
       {
         "locale": "es-es",
         "name": "Llamadas de teléfono"
-      },
-      {
-        "locale": "",
-        "name": "Phone Calls"
       },
       {
         "locale": "",
@@ -64454,6 +65547,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -64622,6 +65720,10 @@
         "name": "Phone Services"
       },
       {
+        "locale": "en",
+        "name": "Phone Services"
+      },
+      {
         "locale": "it-it",
         "name": "Servizi telefonici"
       },
@@ -64716,6 +65818,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -65329,6 +66436,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -65656,7 +66768,12 @@
   "com.google.android.apps.wearables.maestro.companion": {
     "appName": "Pixel Buds",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en",
+        "name": "com.google.android.apps.wearables.maestro.companion.MaestroApplication"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -65672,6 +66789,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -65713,6 +66835,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -65770,6 +66897,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -65789,6 +66921,10 @@
     "appName": "Pixel Live Wallpaper",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‎‏‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‏‎‎‏‎‏‎‎‏‏‎‎‎‎‎‎‏‎‎‏‎‏‎‏‎‎‎‎‎‎‏‏‏‎‏‏‎‏‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‏‏‎‎‏‎Pixel Live Wallpaper‎‏‎‎‏‎"
+      },
       {
         "locale": "en-gb",
         "name": "Pixel live wallpaper"
@@ -65813,6 +66949,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -65873,6 +67014,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -65902,6 +67048,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -65986,6 +67137,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -66025,6 +67181,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -66129,6 +67290,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -66136,6 +67302,30 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.pixel.setupwizard.overlay": {
+    "appName": "PixelSetupWizardOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      }
+    ]
+  },
+  "com.google.android.pixel.setupwizard.overlay2019": {
+    "appName": "PixelSetupWizardOverlay2019",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       }
     ]
   },
@@ -66474,6 +67664,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -66708,6 +67903,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -66902,6 +68102,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -67246,6 +68451,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -67423,6 +68633,10 @@
         "name": "Punch hole cutout"
       },
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‏‎‎‎‏‎‎‏‎‏‎‎‎‎‎‎‎‏‎‏‎‎‏‏‏‎‎‏‎‏‎‎‎‏‎‎‎‏‏‎‏‏‎‏‏‎‏‏‏‏‏‎‎‎‎Punch Hole cutout‎‏‎‎‏‎"
+      },
+      {
         "locale": "en-nl",
         "name": "Punch hole cutout"
       },
@@ -67498,6 +68712,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -67914,6 +69133,11 @@
       {
         "make": "Google",
         "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       }
     ]
@@ -68307,6 +69531,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -68360,6 +69589,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -68552,6 +69786,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -68875,6 +70114,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       }
     ]
   },
@@ -68882,6 +70126,10 @@
     "appName": "Render apps below cutout area",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‏‎‎‏‏‏‎‏‏‏‏‏‏‎‎‏‏‎‏‏‏‏‎‏‏‏‎‏‏‎‎‏‏‏‎‎‎‏‏‎‎‎‏‎‏‏‏‎‏‎‎‎‏‎‎‏‎‎‏‎Render apps below cutout area‎‏‎‎‏‎"
+      },
       {
         "locale": "nl-nl",
         "name": "Apps renderen onder display-cutout"
@@ -68892,6 +70140,11 @@
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -68959,6 +70212,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.customermobile.preload.vzw": {
+    "appName": "Retail Demo Mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       }
     ]
   },
@@ -69138,6 +70403,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -69546,6 +70816,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -74650,6 +75925,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -74811,6 +76091,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.apps.security.securityhub": {
+    "appName": "Security Hub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       }
     ]
   },
@@ -75748,6 +77040,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -75995,6 +77292,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -76105,6 +77407,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -76855,6 +78162,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -77266,6 +78578,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -77447,6 +78764,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -77500,6 +78822,10 @@
       {
         "locale": "en-be",
         "name": "SIM Tool Kit"
+      },
+      {
+        "locale": "en",
+        "name": "SIM Toolkit"
       },
       {
         "locale": "it-it",
@@ -77587,6 +78913,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -78444,6 +79775,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -79519,6 +80855,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -79803,6 +81144,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -79861,6 +81207,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -80040,6 +81391,10 @@
         "name": "Google Text-to-speech engine"
       },
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‏‏‎‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‏‏‏‎‎‎‏‎‏‏‏‎‎‏‏‏‎‎‏‎‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‎‏‏‎‏‏‎Speech Services by Google‎‏‎‎‏‎"
+      },
+      {
         "locale": "it-it",
         "name": "Riconoscimento e sintesi vocale di Google"
       },
@@ -80134,6 +81489,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -80987,6 +82347,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -81452,6 +82817,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -82143,6 +83513,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -82368,6 +83743,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -83030,6 +84410,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -83099,6 +84484,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -83353,6 +84743,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -83529,6 +84924,10 @@
         "name": "Hoge cutout"
       },
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‎‎‏‎‎‎‏‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‎‏‏‎‏‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‎‎‏‎‎Tall cutout‎‏‎‎‏‎"
+      },
+      {
         "locale": "it-it",
         "name": "Ritaglio alto"
       },
@@ -83601,6 +85000,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -84095,6 +85499,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -84261,6 +85670,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -85733,6 +87147,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -86654,6 +88073,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
       },
@@ -87029,6 +88453,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -87198,6 +88627,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‎‏‏‎‏‏‎‏‏‎‏‏‏‏‎‎‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‎‏‎‏‏‎‎‎‏‎‎‏‏‎‏‏‏‎‏‏‎‎‏‏‏‏‎‎‏‎Wallpaper & style‎‏‎‎‏‎"
+      },
+      {
         "locale": "en-gb",
         "name": "Wallpaper and style"
       },
@@ -87225,6 +88658,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -87591,6 +89029,10 @@
         "name": "Waterval-cutout"
       },
       {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‎‎‏‏‏‎‎‏‏‎‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‎‏‎‏‎‎‎‎‏‎‏‏‏‏‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‏‎Waterfall cutout‎‏‎‎‏‎"
+      },
+      {
         "locale": "it-it",
         "name": "Curvatura Waterfall"
       },
@@ -87654,6 +89096,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -88747,6 +90194,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -89156,6 +90608,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -89687,6 +91144,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -89861,6 +91323,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
       },
       {
         "make": "Google",
