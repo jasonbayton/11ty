@@ -362,10 +362,6 @@
         "name": "Ad privacy"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "廣告隱私權"
-      },
-      {
         "locale": "es-es",
         "name": "Privacidad en la publicidad"
       },
@@ -874,6 +870,23 @@
       }
     ]
   },
+  "com.hihonor.assistant": {
+    "appName": "AI Suggestions",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.apps.aiwallpapers": {
     "appName": "AI wallpaper",
     "userFacing": false,
@@ -1117,6 +1130,18 @@
       }
     ]
   },
+  "com.hihonor.aod": {
+    "appName": "Always On Display",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.aod": {
     "appName": "Always-On Display",
     "userFacing": false,
@@ -1236,10 +1261,6 @@
       {
         "locale": "nl-nl",
         "name": "Android Toegankelijkheidstools"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Android 無障礙套件"
       }
     ],
     "devices": [
@@ -2084,10 +2105,6 @@
         "name": "Configurazione Android"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "Android 設定"
-      },
-      {
         "locale": "es-es",
         "name": "Configuración de Android"
       },
@@ -2746,10 +2763,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Android system"
-      },
-      {
         "locale": "ru-ru",
         "name": "Система Android"
       },
@@ -2760,10 +2773,6 @@
       {
         "locale": "it-it",
         "name": "Sistema Android"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Android 系統"
       },
       {
         "locale": "es-es",
@@ -4467,6 +4476,18 @@
       }
     ]
   },
+  "com.hihonor.appmarket": {
+    "appName": "App Market",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.sm.devicesecurity": {
     "appName": "App protection",
     "userFacing": false,
@@ -5255,6 +5276,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.aipluginengine": {
+    "appName": "Assistant Basic Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -6377,12 +6410,7 @@
   "com.hihonor.awareness": {
     "appName": "Awareness",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "情境感知"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -6399,12 +6427,7 @@
   "com.hihonor.koBackup": {
     "appName": "Backup",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "備份"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -6544,10 +6567,6 @@
       {
         "locale": "it-it",
         "name": "Daydream di base"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "基本互動螢幕保護"
       },
       {
         "locale": "es-es",
@@ -7252,10 +7271,6 @@
         "name": "Archivio numeri bloccati"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "儲存已封鎖的號碼"
-      },
-      {
         "locale": "es-es",
         "name": "Almacenamiento de números bloqueados"
       },
@@ -7481,10 +7496,6 @@
     "appName": "Bluetooth",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "藍牙"
-      },
       {
         "locale": "",
         "name": "Bluetooth Legacy"
@@ -8314,28 +8325,6 @@
       }
     ]
   },
-  "com.hihonor.brain": {
-    "appName": "Brain",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "智慧決策"
-      }
-    ],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.samsung.android.brightnessbackupservice": {
     "appName": "BrightnessBNR",
     "userFacing": false,
@@ -8670,12 +8659,7 @@
   "com.hihonor.calculator": {
     "appName": "Calculator",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "計算機"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -8874,12 +8858,7 @@
   "com.hihonor.calendar": {
     "appName": "Calendar",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "日曆"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -8914,6 +8893,10 @@
         "name": "Calendar Storage"
       },
       {
+        "locale": "en-gb",
+        "name": "Calendar Storage"
+      },
+      {
         "locale": "ru-ru",
         "name": "Память календаря"
       },
@@ -8928,10 +8911,6 @@
       {
         "locale": "it-it",
         "name": "Spazio di archiviazione in Calendario"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "日曆儲存"
       },
       {
         "locale": "en-za",
@@ -9598,6 +9577,18 @@
       }
     ]
   },
+  "com.hihonor.phone.recorder": {
+    "appName": "Call Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.callassistant": {
     "appName": "Call Services",
     "userFacing": false,
@@ -10116,12 +10107,7 @@
   "com.hihonor.camera": {
     "appName": "Camera",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "相機"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -10266,6 +10252,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.cameraextension": {
+    "appName": "Camera service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -10745,10 +10743,6 @@
       {
         "locale": "en-de",
         "name": "Captive portal login"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "網頁認證入口登入"
       },
       {
         "locale": "es-es",
@@ -11989,6 +11983,10 @@
         "name": "Certificate Installer"
       },
       {
+        "locale": "en-gb",
+        "name": "Certificate Installer"
+      },
+      {
         "locale": "ru-ru",
         "name": "Программа установки сертификата"
       },
@@ -12007,10 +12005,6 @@
       {
         "locale": "en-de",
         "name": "Certificate Installer"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "憑證安裝程式"
       },
       {
         "locale": "en-za",
@@ -13098,12 +13092,7 @@
   "com.hihonor.deskclock": {
     "appName": "Clock",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "時鐘"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -13348,12 +13337,7 @@
   "com.hihonor.cooperatedconfig": {
     "appName": "Collaborative configuration",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "共同設定"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -15683,12 +15667,7 @@
   "com.android.ons": {
     "appName": "com.android.ons",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "com.android.ons.ONSApp"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -26760,38 +26739,6 @@
       }
     ]
   },
-  "com.microsoftsdk.crossdeviceservicebroker": {
-    "appName": "com.microsoftsdk.crossdeviceservicebroker",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "連結至 Windows 服務"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.miui.core.internal.services": {
     "appName": "com.miui.core.internal.services",
     "userFacing": false,
@@ -31401,10 +31348,6 @@
         "name": "Gestione dispositivi associati"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "隨附裝置管理工具"
-      },
-      {
         "locale": "es-es",
         "name": "Gestor de dispositivos complementario"
       },
@@ -31622,6 +31565,18 @@
       {
         "make": "samsung",
         "model": "SM-A236B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.compass": {
+    "appName": "Compass",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -32781,12 +32736,7 @@
   "com.hihonor.contacts": {
     "appName": "Contacts",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "聯絡人"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -32916,20 +32866,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Contacts storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Хранилище контактов"
       },
       {
         "locale": "nl-nl",
         "name": "Opslag contacten"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "聯絡人儲存"
       }
     ],
     "devices": [
@@ -33067,6 +33009,18 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.contacts.sync": {
+    "appName": "Contacts Sync",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -33664,10 +33618,6 @@
         "name": "Credential manager"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "憑證管理工具"
-      },
-      {
         "locale": "es-es",
         "name": "Gestor de credenciales"
       }
@@ -34247,6 +34197,23 @@
       }
     ]
   },
+  "com.hihonor.videoeditor": {
+    "appName": "Cut",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.homemode": {
     "appName": "Dagelijks overzicht",
     "userFacing": false,
@@ -34729,12 +34696,7 @@
   "com.hihonor.printservice": {
     "appName": "Default Print Service",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "預設列印服務"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -34807,12 +34769,7 @@
   "com.hihonor.trustcircle": {
     "appName": "Device authentication service",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "裝置驗證服務"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -34940,12 +34897,7 @@
   "com.hihonor.android.clone": {
     "appName": "Device Clone",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "換機複製"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -35023,12 +34975,7 @@
   "com.hihonor.iconnect": {
     "appName": "Device connection service",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "裝置連線服務"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -36340,10 +36287,6 @@
       {
         "locale": "nl-nl",
         "name": "Digitaal welzijn"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "數位健康"
       }
     ],
     "devices": [
@@ -36895,10 +36838,6 @@
         "name": "Gestione download"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "下載管理員"
-      },
-      {
         "locale": "es-es",
         "name": "Administrador de descargas"
       },
@@ -37143,10 +37082,6 @@
       {
         "locale": "it-it",
         "name": "Download"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "下載內容"
       },
       {
         "locale": "es-es",
@@ -37573,10 +37508,6 @@
       {
         "locale": "ru-ru",
         "name": "Диск"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "雲端硬碟"
       }
     ],
     "devices": [
@@ -38596,12 +38527,7 @@
   "com.hihonor.email": {
     "appName": "Email",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "電子郵件"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -38667,15 +38593,11 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
-        "name": "com.android.emergency"
+        "name": "Emergency"
       },
       {
         "locale": "ru-ru",
         "name": "com.android.emergency"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "緊急資訊"
       }
     ],
     "devices": [
@@ -39664,10 +39586,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "External storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Внешняя память"
       },
@@ -39678,10 +39596,6 @@
       {
         "locale": "it-it",
         "name": "Archivio esterno"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "外部儲存裝置"
       },
       {
         "locale": "es-es",
@@ -40775,6 +40689,18 @@
       }
     ]
   },
+  "com.hihonor.collectcenter": {
+    "appName": "Favourites Space",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.idea.questionnaire": {
     "appName": "Feedback",
     "userFacing": false,
@@ -41097,12 +41023,7 @@
   "com.hihonor.filemanager": {
     "appName": "Files",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "檔案"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -42193,6 +42114,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.android.fmradio": {
+    "appName": "FM Radio",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -43455,12 +43388,7 @@
   "com.hihonor.photos": {
     "appName": "Gallery",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "圖片庫"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -43698,6 +43626,30 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.gamecenter": {
+    "appName": "Game Centre",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.gameassistant": {
+    "appName": "Game Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -45431,10 +45383,6 @@
         "name": "Sinc. Google Calendar"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "Google 日曆同步處理"
-      },
-      {
         "locale": "es-es",
         "name": "Sincronización de Google Calendar"
       }
@@ -45605,10 +45553,6 @@
       {
         "locale": "it-it",
         "name": "Cronologia delle posizioni Google"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Google 定位記錄"
       },
       {
         "locale": "es-es",
@@ -46365,10 +46309,6 @@
         "name": "Google Play Services"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "Google Play 服務"
-      },
-      {
         "locale": "es-es",
         "name": "Servicios de Google Play"
       },
@@ -46595,7 +46535,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "nl-nl",
+        "locale": "",
         "name": "ARCore"
       }
     ],
@@ -46724,10 +46664,6 @@
       {
         "locale": "ru-ru",
         "name": "Google Play"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Google Play 商店"
       }
     ],
     "devices": [
@@ -46974,10 +46910,6 @@
       {
         "locale": "en-de",
         "name": "Google Safety Centre resources"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Google 安全中心資源"
       },
       {
         "locale": "es-es",
@@ -47235,10 +47167,6 @@
     "appName": "Google Services Framework",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "Google 服務架構"
-      },
       {
         "locale": "es-es",
         "name": "Framework de servicios de Google"
@@ -48209,10 +48137,6 @@
         "name": "Connessione Salute"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "健康資料同步"
-      },
-      {
         "locale": "es-es",
         "name": "Salud conectada"
       }
@@ -48662,6 +48586,23 @@
       }
     ]
   },
+  "com.hihonor.brain": {
+    "appName": "HihonorSmart",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.talpa.hiservice": {
     "appName": "HiLanguageService",
     "userFacing": false,
@@ -48800,6 +48741,30 @@
         "model": "HEY-W09",
         "os": "31"
       },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.assetsync": {
+    "appName": "HnAssetSync",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.assetsyncservice": {
+    "appName": "HnAssetSyncService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
       {
         "make": "HONOR",
         "model": "LLY-LX3",
@@ -49049,21 +49014,11 @@
       }
     ]
   },
-  "com.hihonor.android.launcher": {
-    "appName": "HONOR Home",
+  "com.hihonor.hncloud": {
+    "appName": "HONOR Data Sync",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "榮耀桌面"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
       {
         "make": "HONOR",
         "model": "LLY-LX3",
@@ -49071,15 +49026,34 @@
       }
     ]
   },
-  "com.hihonor.id": {
-    "appName": "HONOR ID",
-    "userFacing": false,
-    "additionalLocales": [
+  "com.hihonor.hnoffice": {
+    "appName": "HONOR Docs",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
       {
-        "locale": "zh-hant-uz",
-        "name": "榮耀基礎服務"
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
-    ],
+    ]
+  },
+  "com.hihonor.health": {
+    "appName": "HONOR Health",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.android.launcher": {
+    "appName": "HONOR Home",
+    "userFacing": false,
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -49094,14 +49068,9 @@
     ]
   },
   "com.hihonor.lens": {
-    "appName": "Honor Lens",
+    "appName": "HONOR Lens",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "HONOR Lens"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -49115,15 +49084,22 @@
       }
     ]
   },
+  "com.hihonor.mediamaterial": {
+    "appName": "HONOR Media Materials",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.hihonor.android.pushagent": {
     "appName": "HONOR Push",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "榮耀推播服務"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -49140,12 +49116,7 @@
   "com.hihonor.search": {
     "appName": "HONOR Search",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "榮耀搜尋"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -49162,12 +49133,7 @@
   "com.hihonor.android.instantshare": {
     "appName": "HONOR Share",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "榮耀分享"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -49182,36 +49148,9 @@
     ]
   },
   "com.hihonor.systemserver": {
-    "appName": "Honor System Services",
+    "appName": "HONOR System Services",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "系統服務"
-      }
-    ],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.pcassistant": {
-    "appName": "HonorConnect",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "Multi-Screen Collaboration"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -49252,10 +49191,6 @@
       {
         "locale": "it-it",
         "name": "Visualizzatore HTML"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "HTML檢視器"
       },
       {
         "locale": "es-es",
@@ -49743,12 +49678,7 @@
   "com.hihonor.bluetooth": {
     "appName": "Import via Bluetooth",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "透過藍牙匯入"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -50148,10 +50078,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Input devices"
-      },
-      {
         "locale": "ru-ru",
         "name": "Устройства ввода"
       },
@@ -50162,10 +50088,6 @@
       {
         "locale": "it-it",
         "name": "Dispositivi di immissione"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "輸入裝置"
       },
       {
         "locale": "es-es",
@@ -50404,12 +50326,7 @@
   "com.hihonor.detectrepair": {
     "appName": "Intelligent Diagnosis",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "智慧診斷"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -51038,10 +50955,6 @@
       {
         "locale": "it-it",
         "name": "Portachiavi"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "金鑰鏈"
       },
       {
         "locale": "",
@@ -52575,10 +52488,6 @@
       {
         "locale": "it-it",
         "name": "Collegamento a Windows"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "連結至 Windows"
       }
     ],
     "devices": [
@@ -52736,6 +52645,50 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.microsoftsdk.crossdeviceservicebroker": {
+    "appName": "Link to Windows Service",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "com.microsoftsdk.crossdeviceservicebroker"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.linktowindowsservice": {
+    "appName": "Link to Windows Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -52911,10 +52864,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Live wallpaper picker"
-      },
-      {
         "locale": "ru-ru",
         "name": "Каталог живых обоев"
       },
@@ -52925,10 +52874,6 @@
       {
         "locale": "it-it",
         "name": "Selettore sfondo animato"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "動態桌布挑選器"
       },
       {
         "locale": "es-es",
@@ -53522,15 +53467,27 @@
       }
     ]
   },
-  "com.hihonor.magazine": {
-    "appName": "Magazine Unlock",
+  "com.hihonor.id": {
+    "appName": "Magic Mobile Service",
     "userFacing": false,
-    "additionalLocales": [
+    "additionalLocales": [],
+    "devices": [
       {
-        "locale": "zh-hant-uz",
-        "name": "魔法畫報"
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
-    ],
+    ]
+  },
+  "com.hihonor.magazine": {
+    "appName": "Magic Pictorial",
+    "userFacing": false,
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -54166,10 +54123,6 @@
       {
         "locale": "ru-ru",
         "name": "Карты"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "地圖"
       }
     ],
     "devices": [
@@ -54386,10 +54339,6 @@
       {
         "locale": "nl-nl",
         "name": "Market-feedbackagent"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Market 意見回饋代理程式"
       },
       {
         "locale": "es-es",
@@ -54874,12 +54823,7 @@
   "com.hihonor.medialibrary": {
     "appName": "Media Library",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "媒體資料庫"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -54957,10 +54901,6 @@
       {
         "locale": "it-it",
         "name": "Selettore media"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "媒體選擇器"
       },
       {
         "locale": "es-es",
@@ -55564,10 +55504,6 @@
       {
         "locale": "it-it",
         "name": "Messaggi"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "訊息"
       },
       {
         "locale": "es-es",
@@ -56363,10 +56299,6 @@
       {
         "locale": "it-it",
         "name": "Tastiera Microsoft SwiftKey"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Microsoft SwiftKey 鍵盤"
       }
     ],
     "devices": [
@@ -56507,6 +56439,18 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.mirror": {
+    "appName": "Mirror",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -57894,10 +57838,6 @@
         "name": "Host MTP"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "媒體傳輸通訊協定主機"
-      },
-      {
         "locale": "es-es",
         "name": "Host de MTP"
       },
@@ -58213,6 +58153,23 @@
       }
     ]
   },
+  "com.hihonor.pcassistant": {
+    "appName": "Multi-Screen Collaboration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.hihonor.associateassistant": {
     "appName": "Multi-Screen Collaboration",
     "userFacing": false,
@@ -58228,12 +58185,7 @@
   "com.hihonor.hndockbar": {
     "appName": "Multi-Window",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "智慧多窗"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -58250,12 +58202,7 @@
   "com.hihonor.msdp": {
     "appName": "Multimodal Sensor Data Platform",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "整合感應資訊處理平台"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -58307,6 +58254,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.hnmusicplayer": {
+    "appName": "Music Player",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -58540,12 +58499,7 @@
   "com.hihonor.phoneservice": {
     "appName": "My HONOR",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "我的榮耀"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -58618,12 +58572,7 @@
   "com.hihonor.android.FloatTasks": {
     "appName": "Navigation Dock",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "懸浮導覽"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -59047,10 +58996,6 @@
         "name": "Netwerkbeheer"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "網路管理工具"
-      },
-      {
         "locale": "es-es",
         "name": "Administrador de redes"
       }
@@ -59275,12 +59220,7 @@
   "com.hihonor.carrierlocation": {
     "appName": "Network Provider Location Services",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "電信業者定位服務"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -59669,12 +59609,12 @@
         "name": "NetworkStackResOverlay"
       },
       {
-        "locale": "ru-ru",
-        "name": "NetworkStackResOverlay"
+        "locale": "en-gb",
+        "name": "com.android.networkstack.overlay"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "com.android.networkstack.overlay"
+        "locale": "ru-ru",
+        "name": "NetworkStackResOverlay"
       }
     ],
     "devices": [
@@ -59799,7 +59739,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "NFC service"
+        "name": "NFC Service"
       },
       {
         "locale": "ru-ru",
@@ -59814,16 +59754,8 @@
         "name": "NFC Migration"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "NFC 服務"
-      },
-      {
         "locale": "en-za",
         "name": "Nfc Service"
-      },
-      {
-        "locale": "",
-        "name": "NFC Service"
       }
     ],
     "devices": [
@@ -60119,15 +60051,22 @@
       }
     ]
   },
-  "com.hihonor.notepad": {
+  "com.zui.notes": {
     "appName": "Notepad",
-    "userFacing": true,
-    "additionalLocales": [
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
       {
-        "locale": "zh-hant-uz",
-        "name": "筆記"
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
       }
-    ],
+    ]
+  },
+  "com.hihonor.notepad": {
+    "appName": "Notes",
+    "userFacing": true,
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -60137,18 +60076,6 @@
       {
         "make": "HONOR",
         "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.zui.notes": {
-    "appName": "Notepad",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -60837,12 +60764,7 @@
   "com.hihonor.numberidentity": {
     "appName": "Number Identifier",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "號碼識別"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -62310,10 +62232,6 @@
         "name": "Installazione pacchetti"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "套件安裝程式"
-      },
-      {
         "locale": "es-es",
         "name": "Instalador de paquetes"
       },
@@ -62914,12 +62832,7 @@
   "com.hihonor.keychain": {
     "appName": "Password Vault",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "密碼保險箱"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -63160,10 +63073,6 @@
       {
         "locale": "it-it",
         "name": "App di controllo autorizzazioni"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "權限控制器"
       },
       {
         "locale": "es-es",
@@ -64149,12 +64058,7 @@
   "com.android.incallui": {
     "appName": "Phone",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "電話"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -64191,7 +64095,7 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
-        "name": "Phone and messaging storage"
+        "name": "Phone/Messaging Storage"
       },
       {
         "locale": "ru-ru",
@@ -64204,10 +64108,6 @@
       {
         "locale": "it-it",
         "name": "Memoria telefono/messaggi"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "通話/訊息儲存"
       },
       {
         "locale": "es-es",
@@ -64448,6 +64348,10 @@
         "name": "Call Management"
       },
       {
+        "locale": "en-gb",
+        "name": "Call Management"
+      },
+      {
         "locale": "ru-ru",
         "name": "Телефонные вызовы"
       },
@@ -64462,10 +64366,6 @@
       {
         "locale": "it-it",
         "name": "Chiamate telefoniche"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "通話管理"
       },
       {
         "locale": "en-za",
@@ -64706,6 +64606,10 @@
         "name": "Phone Services"
       },
       {
+        "locale": "en-gb",
+        "name": "Phone Services"
+      },
+      {
         "locale": "ru-ru",
         "name": "Телефон"
       },
@@ -64724,10 +64628,6 @@
       {
         "locale": "en-de",
         "name": "Phone Services"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "撥號服務"
       },
       {
         "locale": "en-za",
@@ -65175,10 +65075,6 @@
         "name": "Screensaver fotografici"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "相片螢幕保護程式"
-      },
-      {
         "locale": "es-es",
         "name": "Salvapantallas de fotos"
       }
@@ -65378,10 +65274,6 @@
       {
         "locale": "nl-nl",
         "name": "Foto's"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "相簿"
       }
     ],
     "devices": [
@@ -65558,10 +65450,6 @@
       {
         "locale": "en-de",
         "name": "Photos and videos"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "相片和影片"
       },
       {
         "locale": "es-es",
@@ -66739,10 +66627,6 @@
         "name": "Afdrukspooler"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "列印處理服務"
-      },
-      {
         "locale": "es-es",
         "name": "Cola de impresión"
       },
@@ -67242,12 +67126,7 @@
   "com.hihonor.android.projectmenu": {
     "appName": "ProjectMenu",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "工程菜单"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -67275,6 +67154,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.omacp": {
+    "appName": "Provisioning message",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -68677,12 +68568,7 @@
   "com.hihonor.soundrecorder": {
     "appName": "Recorder",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "錄音程式"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -69143,6 +69029,18 @@
       {
         "make": "RHINO",
         "model": "T8",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.ridemode": {
+    "appName": "Ride mode",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -73964,12 +73862,7 @@
   "com.hihonor.screenrecorder": {
     "appName": "Screen recording",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "螢幕錄影"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -74063,12 +73956,7 @@
   "com.hihonor.HnMultiScreenShot": {
     "appName": "Scrollshot",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "捲動截圖"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -74109,10 +73997,6 @@
       {
         "locale": "en-de",
         "name": "Search engine selector"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "搜尋引擎選取器"
       },
       {
         "locale": "es-es",
@@ -74694,7 +74578,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "zh-hant-uz",
+        "locale": "en-gb",
         "name": "SecureElementService"
       }
     ],
@@ -75027,12 +74911,7 @@
   "com.hihonor.securityserver": {
     "appName": "SecurityServer",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "安全公共服務"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -75788,10 +75667,6 @@
         "name": "Impostazioni"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "設定"
-      },
-      {
         "locale": "es-es",
         "name": "Ajustes"
       },
@@ -76140,10 +76015,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Settings storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Хранилище настроек"
       },
@@ -76154,10 +76025,6 @@
       {
         "locale": "it-it",
         "name": "Memoria impostazioni"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "設定儲存"
       },
       {
         "locale": "es-es",
@@ -77541,6 +77408,18 @@
       }
     ]
   },
+  "com.hihonor.dsdscardmanager": {
+    "appName": "SIM management",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.euicc": {
     "appName": "SIM Manager",
     "userFacing": false,
@@ -77629,10 +77508,6 @@
       {
         "locale": "en-de",
         "name": "SIM Toolkit"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "SIM 工具箱"
       },
       {
         "locale": "en-za",
@@ -77939,18 +77814,6 @@
       {
         "make": "samsung",
         "model": "SM-A236B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.dsdscardmanager": {
-    "appName": "SIM 卡管理",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -78523,12 +78386,7 @@
   "com.hihonor.smartshot": {
     "appName": "Smart screenshots",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "智慧擷取螢幕畫面"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -79469,12 +79327,7 @@
   "com.hihonor.ouc": {
     "appName": "Software update",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "軟體更新"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -80189,10 +80042,6 @@
       {
         "locale": "it-it",
         "name": "Riconoscimento e sintesi vocale di Google"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Google 語音辨識及合成"
       },
       {
         "locale": "en-za",
@@ -81006,6 +80855,18 @@
       }
     ]
   },
+  "com.hihonor.featurelayer.sharedfeature.stylus": {
+    "appName": "Stylus Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.rivotek.tblenovo.stylusui": {
     "appName": "StylusUI",
     "userFacing": false,
@@ -81438,12 +81299,7 @@
   "com.hihonor.imedia.sws": {
     "appName": "Switch audio",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "音訊切換"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -81494,12 +81350,7 @@
   "com.hihonor.systemappsupdater": {
     "appName": "System Apps Updater",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "系統應用程式更新器"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -81540,10 +81391,6 @@
       {
         "locale": "en-de",
         "name": "System connectivity resources"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "系統連線資源"
       },
       {
         "locale": "es-es",
@@ -81883,12 +81730,7 @@
   "com.hihonor.systemmanager": {
     "appName": "System Manager",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "系統管理員"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -81935,10 +81777,6 @@
         "name": "Jugendschutzeinstellungen"
       },
       {
-        "locale": "en-gb",
-        "name": "Family Link parental controls"
-      },
-      {
         "locale": "ru-ru",
         "name": "Родительский контроль Family Link"
       },
@@ -81953,10 +81791,6 @@
       {
         "locale": "it-it",
         "name": "Controllo genitori di sistema"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "系統家長監護功能"
       },
       {
         "locale": "es-es",
@@ -82454,10 +82288,6 @@
       {
         "locale": "it-it",
         "name": "UI sistema"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "系統使用者介面"
       },
       {
         "locale": "es-es",
@@ -83018,10 +82848,6 @@
       {
         "locale": "it-it",
         "name": "Risorse Wi-Fi sistema"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "系統 Wi-Fi 資源"
       },
       {
         "locale": "en-za",
@@ -84554,10 +84380,6 @@
       {
         "locale": "en-gb",
         "name": "com.android.networkstack.tethering.overlay"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "com.android.networkstack.tethering.overlay"
       }
     ],
     "devices": [
@@ -84745,12 +84567,7 @@
   "com.hihonor.android.thememanager": {
     "appName": "Themes",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "主題"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -84874,12 +84691,7 @@
   "com.hihonor.tips": {
     "appName": "Tips",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "玩機技巧"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -85410,12 +85222,7 @@
   "com.hihonor.deviceauth": {
     "appName": "TrustedDeviceAuth",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "信任裝置驗證服務"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -85843,10 +85650,6 @@
       {
         "locale": "it-it",
         "name": "Dizionario utente"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "使用者字典"
       },
       {
         "locale": "es-es",
@@ -86544,28 +86347,6 @@
       }
     ]
   },
-  "com.hihonor.videoeditor": {
-    "appName": "Video Editor",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "剪輯"
-      }
-    ],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.samsung.android.vtcamerasettings": {
     "appName": "Video effects",
     "userFacing": false,
@@ -86759,6 +86540,18 @@
       {
         "make": "samsung",
         "model": "SM-A236B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.hnvideoplayer": {
+    "appName": "Video Player",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -88260,12 +88053,7 @@
   "com.hihonor.android.totemweather": {
     "appName": "Weather",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "天氣"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -88893,10 +88681,6 @@
         "name": "Avvisi di emergenza wireless"
       },
       {
-        "locale": "zh-hant-uz",
-        "name": "無線緊急警報"
-      },
-      {
         "locale": "es-es",
         "name": "Alertas de emergencia inalámbricas"
       },
@@ -89120,12 +88904,7 @@
   "com.hihonor.android.mirrorshare": {
     "appName": "Wireless Projection",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "無線投影"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -89284,7 +89063,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "Device Setup"
+        "name": "Work profile setup"
       },
       {
         "locale": "ru-ru",
@@ -89297,10 +89076,6 @@
       {
         "locale": "it-it",
         "name": "Configurazione per il lavoro"
-      },
-      {
-        "locale": "zh-hant-uz",
-        "name": "Work 設定檔設定"
       },
       {
         "locale": "es-es",
@@ -90159,28 +89934,6 @@
       }
     ]
   },
-  "com.hihonor.assistant": {
-    "appName": "YOYO Suggestions",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "zh-hant-uz",
-        "name": "智慧建議"
-      }
-    ],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.google.android.apps.youtube.music.setupwizard": {
     "appName": "YT Music",
     "userFacing": false,
@@ -90890,66 +90643,6 @@
       }
     ]
   },
-  "com.hihonor.hnvideoplayer": {
-    "appName": "影片播放器",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.appmarket": {
-    "appName": "應用程式商店",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.collectcenter": {
-    "appName": "我的最愛空間",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.featurelayer.sharedfeature.stylus": {
-    "appName": "手寫筆服務",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.compass": {
-    "appName": "指南針",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.silead.factorytest": {
     "appName": "指纹测试",
     "userFacing": false,
@@ -90962,162 +90655,6 @@
       }
     ]
   },
-  "com.hihonor.android.fmradio": {
-    "appName": "收音機",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.aipluginengine": {
-    "appName": "智慧助手 · 基礎服務",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.mediamaterial": {
-    "appName": "榮耀媒體素材服務",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.hnoffice": {
-    "appName": "榮耀文件",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.hncloud": {
-    "appName": "榮耀資料同步",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.health": {
-    "appName": "榮耀運動健康",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.cameraextension": {
-    "appName": "相機服務",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.contacts.sync": {
-    "appName": "聯絡人同步",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.aod": {
-    "appName": "螢幕關閉顯示",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.phone.recorder": {
-    "appName": "通話錄音",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.linktowindowsservice": {
-    "appName": "連結至 Windows 服務",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.gamecenter": {
-    "appName": "遊戲中心",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.gameassistant": {
-    "appName": "遊戲管理員",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.fetself": {
     "appName": "遠傳心生活",
     "userFacing": false,
@@ -91127,78 +90664,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      }
-    ]
-  },
-  "com.hihonor.omacp": {
-    "appName": "配置資訊",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.mirror": {
-    "appName": "鏡子",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.assetsync": {
-    "appName": "關鍵資產同步",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.assetsyncservice": {
-    "appName": "關鍵資產同步管理服務",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.hnmusicplayer": {
-    "appName": "音樂播放器",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.ridemode": {
-    "appName": "騎車模式",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   }
