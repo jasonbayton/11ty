@@ -87,6 +87,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -267,6 +272,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -432,6 +442,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -592,6 +607,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -880,23 +900,6 @@
       }
     ]
   },
-  "com.hihonor.assistant": {
-    "appName": "AI Suggestions",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.google.android.apps.aiwallpapers": {
     "appName": "AI wallpaper",
     "userFacing": false,
@@ -937,6 +940,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -972,7 +980,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-nl",
         "name": "AI Core"
       }
     ],
@@ -995,6 +1003,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -1188,6 +1201,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -1477,6 +1495,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -1736,6 +1759,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -1968,6 +1996,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -2220,6 +2253,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -2440,6 +2478,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -2672,6 +2715,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -2808,6 +2856,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Android system"
+      },
+      {
         "locale": "ru-ru",
         "name": "Система Android"
       },
@@ -2908,6 +2960,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -3171,6 +3228,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -3381,6 +3443,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -3708,6 +3775,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -3868,6 +3940,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -4626,6 +4703,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -4746,6 +4828,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -5001,6 +5088,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -5559,6 +5651,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -5633,6 +5730,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -5721,6 +5823,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -5841,6 +5948,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -5940,6 +6052,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -6034,6 +6151,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -6097,6 +6219,10 @@
         "name": "Private Access Tokens"
       },
       {
+        "locale": "en-nl",
+        "name": "Private Access Tokens"
+      },
+      {
         "locale": "en-gb",
         "name": "Private Access Tokens"
       },
@@ -6114,6 +6240,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -6267,6 +6398,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -6322,6 +6458,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-nl",
+        "name": "Avatar picker"
+      },
+      {
         "locale": "en-gb",
         "name": "Avatar picker"
       },
@@ -6335,6 +6475,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -6412,6 +6557,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -6580,6 +6730,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -6738,6 +6893,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -6939,6 +7099,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -7059,6 +7224,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -7136,6 +7306,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -7208,6 +7383,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -7277,6 +7457,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -7454,6 +7639,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -7683,6 +7873,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -7878,6 +8073,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -8046,6 +8246,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -8292,6 +8497,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -8440,6 +8650,28 @@
       }
     ]
   },
+  "com.hihonor.brain": {
+    "appName": "Brain",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "HihonorSmart"
+      }
+    ],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.brightnessbackupservice": {
     "appName": "BrightnessBNR",
     "userFacing": false,
@@ -8464,6 +8696,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -9018,10 +9255,6 @@
         "name": "Calendar Storage"
       },
       {
-        "locale": "en-gb",
-        "name": "Calendar Storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Память календаря"
       },
@@ -9040,6 +9273,10 @@
       {
         "locale": "it-it",
         "name": "Spazio di archiviazione in Calendario"
+      },
+      {
+        "locale": "en-kr",
+        "name": "Calendar Storage"
       },
       {
         "locale": "en-za",
@@ -9134,6 +9371,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -9333,6 +9575,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -9424,6 +9671,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -9561,6 +9813,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -9763,6 +10020,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -9857,6 +10119,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -9939,6 +10206,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -10018,6 +10290,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -10121,6 +10398,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -10442,6 +10724,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -10589,6 +10876,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -10969,6 +11261,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -11339,6 +11636,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -11896,6 +12198,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -12022,6 +12329,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -12200,10 +12512,6 @@
         "name": "Certificate Installer"
       },
       {
-        "locale": "en-gb",
-        "name": "Certificate Installer"
-      },
-      {
         "locale": "ru-ru",
         "name": "Программа установки сертификата"
       },
@@ -12225,6 +12533,10 @@
       },
       {
         "locale": "en-de",
+        "name": "Certificate Installer"
+      },
+      {
+        "locale": "en-kr",
         "name": "Certificate Installer"
       },
       {
@@ -12320,6 +12632,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -12602,6 +12919,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -12767,6 +13089,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -13065,6 +13392,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -13478,6 +13810,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -13573,7 +13910,12 @@
   "com.hihonor.cooperatedconfig": {
     "appName": "Collaborative configuration",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Quick login"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -13695,6 +14037,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -13975,6 +14322,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -14531,6 +14883,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -14686,6 +15043,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -14908,6 +15270,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -15485,6 +15852,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -15853,6 +16225,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -15982,7 +16359,12 @@
   "com.android.ons": {
     "appName": "com.android.ons",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "com.android.ons.ONSApp"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -16053,6 +16435,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -16392,6 +16779,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -16507,6 +16899,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -16870,6 +17267,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -17131,6 +17533,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -17347,6 +17754,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -17463,6 +17875,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -17817,6 +18234,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -18382,6 +18804,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -18836,6 +19263,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -19684,6 +20116,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -19879,6 +20316,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -20081,6 +20523,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -20289,6 +20736,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -21043,6 +21495,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -21430,6 +21887,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -21813,6 +22275,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -22145,6 +22612,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -22436,6 +22908,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -22601,6 +23078,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -22866,6 +23348,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -23026,6 +23513,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -23269,6 +23761,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -23440,6 +23937,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -23719,6 +24221,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -23867,6 +24374,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -23946,6 +24458,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -24043,6 +24560,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -24212,6 +24734,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24349,6 +24876,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24464,6 +24996,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -24645,6 +25182,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24810,6 +25352,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -25415,6 +25962,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -25580,6 +26132,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -27324,6 +27881,38 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.microsoftsdk.crossdeviceservicebroker": {
+    "appName": "com.microsoftsdk.crossdeviceservicebroker",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Link to Windows Service"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -29077,6 +29666,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -29141,6 +29735,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -29211,6 +29810,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -29264,6 +29868,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -29342,6 +29951,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -29439,6 +30053,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -29518,6 +30137,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -29630,6 +30254,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -29698,6 +30327,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -29774,6 +30408,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -29841,6 +30480,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -29903,6 +30547,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -29957,6 +30606,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -30042,6 +30696,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -30109,6 +30768,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -30156,6 +30820,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -30199,6 +30868,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -30252,6 +30926,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -30322,6 +31001,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -30355,6 +31039,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -30397,6 +31086,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -30444,6 +31138,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -30507,6 +31206,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -30628,6 +31332,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
       }
@@ -30663,6 +31372,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -30749,6 +31463,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -30831,6 +31550,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -30910,6 +31634,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -32043,6 +32772,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -32374,6 +33108,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -32508,6 +33247,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -32695,6 +33439,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -32791,6 +33540,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -32925,6 +33679,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -33016,6 +33775,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -33161,6 +33925,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -33441,6 +34210,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -33495,6 +34269,10 @@
     "appName": "Contacts Storage",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Contacts storage"
+      },
       {
         "locale": "ru-ru",
         "name": "Хранилище контактов"
@@ -33695,6 +34473,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33803,6 +34586,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -33889,6 +34677,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34059,6 +34852,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34209,6 +35007,18 @@
       }
     ]
   },
+  "com.sec.cpagent": {
+    "appName": "CpAgent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      }
+    ]
+  },
   "com.motorola.motocit": {
     "appName": "CQATest",
     "userFacing": false,
@@ -34306,6 +35116,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -34466,6 +35281,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34641,6 +35461,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -34779,6 +35604,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -34838,23 +35668,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      }
-    ]
-  },
-  "com.hihonor.videoeditor": {
-    "appName": "Cut",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -35211,6 +36024,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -35481,6 +36299,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -35738,6 +36561,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -36073,6 +36901,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -36215,6 +37048,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -36323,6 +37161,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -36408,7 +37251,12 @@
   "com.android.devicelockcontroller": {
     "appName": "DeviceLockController",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‎‏‏‏‏‏‎‏‏‎‏‏‎‏‏‏‎‎‏‎‎‎‏‎‏‏‎‏‏‏‏‏‏‎‏‏‎‏‎‏‏‏‎‏‎‎‎‏‎‎‏‎‏‏‏‎‎DeviceLockController‎‏‎‎‏‎"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -36581,6 +37429,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -36625,6 +37478,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -36774,6 +37632,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
       },
@@ -36827,6 +37690,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -36902,6 +37770,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -37180,6 +38053,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -37391,6 +38269,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -37624,6 +38507,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -37873,6 +38761,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -38081,6 +38974,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -38148,6 +39046,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -38427,6 +39330,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -38518,6 +39426,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -38621,6 +39534,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -38804,6 +39722,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -39034,6 +39957,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -39180,6 +40108,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -39311,11 +40244,15 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
-        "name": "Emergency"
+        "name": "com.android.emergency"
       },
       {
         "locale": "ru-ru",
         "name": "com.android.emergency"
+      },
+      {
+        "locale": "en-kr",
+        "name": "Emergency"
       }
     ],
     "devices": [
@@ -39505,6 +40442,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -39601,6 +40543,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -39912,6 +40859,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -40059,6 +41011,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -40103,6 +41060,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -40178,6 +41140,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -40241,6 +41208,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -40309,6 +41281,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "External storage"
+      },
+      {
         "locale": "ru-ru",
         "name": "Внешняя память"
       },
@@ -40319,6 +41295,10 @@
       {
         "locale": "it-it",
         "name": "Archivio esterno"
+      },
+      {
+        "locale": "en-kr",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‎‏‎‏‎‎‏‏‎‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‎‏‎‏‏‎‎‏‏‏‎‎‎‎‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‏‎‏‏‏‎External Storage‎‏‎‎‏‎"
       },
       {
         "locale": "es-es",
@@ -40409,6 +41389,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -40650,6 +41635,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -40729,6 +41719,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -40889,6 +41884,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -40968,6 +41968,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -41126,6 +42131,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -41241,6 +42251,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -41379,6 +42394,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -41635,6 +42655,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -42543,6 +43568,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -42664,6 +43694,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -42986,6 +44021,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -43211,6 +44251,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -43404,6 +44449,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -43467,6 +44517,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -43540,6 +44595,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -43632,6 +44692,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -43714,6 +44779,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -43793,6 +44863,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -43887,6 +44962,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -43989,6 +45069,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -44085,6 +45170,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -44233,6 +45323,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -44315,6 +45410,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -44365,6 +45465,18 @@
       }
     ]
   },
+  "com.hihonor.gamecenter": {
+    "appName": "Game Center",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.xiaomi.glgm": {
     "appName": "Game Centre",
     "userFacing": true,
@@ -44379,18 +45491,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.gamecenter": {
-    "appName": "Game Centre",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -44459,6 +45559,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -44766,6 +45871,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -44937,6 +46047,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -45016,6 +46131,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -45193,6 +46313,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -45317,6 +46442,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -45736,6 +46866,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -45992,6 +47127,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -46210,6 +47350,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -46433,6 +47578,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -46674,6 +47824,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -46894,6 +48049,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -47232,6 +48392,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47424,6 +48589,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -47589,6 +48759,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -47824,6 +48999,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -48100,6 +49280,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -48470,6 +49655,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -48615,6 +49805,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -48717,6 +49912,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -48796,6 +49996,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -48907,6 +50112,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -49066,6 +50276,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -49309,6 +50524,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -49489,23 +50709,6 @@
       }
     ]
   },
-  "com.hihonor.brain": {
-    "appName": "HihonorSmart",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.talpa.hiservice": {
     "appName": "HiLanguageService",
     "userFacing": false,
@@ -49581,6 +50784,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -49970,10 +51178,37 @@
       }
     ]
   },
-  "com.hihonor.lens": {
-    "appName": "HONOR Lens",
+  "com.hihonor.id": {
+    "appName": "HONOR ID",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Magic Mobile Service"
+      }
+    ],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.lens": {
+    "appName": "Honor Lens",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "HONOR Lens"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -50002,7 +51237,12 @@
   "com.hihonor.android.pushagent": {
     "appName": "HONOR Push",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Honor Push"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -50019,7 +51259,12 @@
   "com.hihonor.search": {
     "appName": "HONOR Search",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Honor Search"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -50051,9 +51296,36 @@
     ]
   },
   "com.hihonor.systemserver": {
-    "appName": "HONOR System Services",
+    "appName": "Honor System Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "HONOR System Services"
+      }
+    ],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.pcassistant": {
+    "appName": "HonorConnect",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Multi-Screen Collaboration"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -50184,6 +51456,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -50354,6 +51631,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -50486,6 +51768,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -50632,6 +51919,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -50711,6 +52003,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -50858,6 +52155,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -50991,6 +52293,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Input devices"
+      },
+      {
         "locale": "ru-ru",
         "name": "Устройства ввода"
       },
@@ -51091,6 +52397,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -51373,6 +52684,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -51573,6 +52889,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -51644,6 +52965,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -51966,6 +53292,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -52231,6 +53562,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -52313,6 +53649,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -52381,6 +53722,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -52472,6 +53818,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -52539,6 +53890,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -52597,6 +53953,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -52664,6 +54025,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -52740,6 +54106,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -52803,6 +54174,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -52879,6 +54255,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -52947,6 +54328,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -53030,6 +54416,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -53133,6 +54524,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -53441,6 +54837,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -53531,6 +54932,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -53573,38 +54979,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      }
-    ]
-  },
-  "com.microsoftsdk.crossdeviceservicebroker": {
-    "appName": "Link to Windows Service",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "com.microsoftsdk.crossdeviceservicebroker"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -53731,6 +55105,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -53796,6 +55175,10 @@
     "appName": "Live Wallpaper Picker",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Live wallpaper picker"
+      },
       {
         "locale": "ru-ru",
         "name": "Каталог живых обоев"
@@ -53901,6 +55284,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -54042,6 +55430,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -54405,27 +55798,15 @@
       }
     ]
   },
-  "com.hihonor.id": {
-    "appName": "Magic Mobile Service",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.hihonor.magazine": {
-    "appName": "Magic Pictorial",
+    "appName": "Magazine Unlock",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Magic Pictorial"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -54520,6 +55901,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -54685,6 +56071,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -54877,6 +56268,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -55155,6 +56551,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -55378,6 +56779,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -55626,6 +57032,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -55950,6 +57361,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -56158,6 +57574,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -56265,6 +57686,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -56430,6 +57856,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
       },
@@ -56552,6 +57983,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -56731,6 +58167,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -56831,6 +58272,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -56935,6 +58381,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -57037,6 +58488,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -57090,6 +58546,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -57241,6 +58702,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -57308,6 +58774,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -57626,6 +59097,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -57835,6 +59311,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -57898,6 +59379,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -57998,6 +59484,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -58095,6 +59586,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -58746,6 +60242,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -58913,6 +60414,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -59095,6 +60601,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -59141,23 +60652,6 @@
       {
         "make": "samsung",
         "model": "SM-A236B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.pcassistant": {
-    "appName": "Multi-Screen Collaboration",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -59431,6 +60925,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -59637,6 +61136,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -59736,6 +61240,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -59816,6 +61325,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -59880,6 +61394,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -60069,6 +61588,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -60227,7 +61751,12 @@
   "com.hihonor.carrierlocation": {
     "appName": "Network Provider Location Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Carrier Location Services"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -60280,6 +61809,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -60345,6 +61879,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -60557,6 +62096,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -60616,12 +62160,12 @@
         "name": "NetworkStackResOverlay"
       },
       {
-        "locale": "en-gb",
-        "name": "com.android.networkstack.overlay"
-      },
-      {
         "locale": "ru-ru",
         "name": "NetworkStackResOverlay"
+      },
+      {
+        "locale": "en-kr",
+        "name": "com.android.networkstack.overlay"
       }
     ],
     "devices": [
@@ -60751,7 +62295,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "NFC Service"
+        "name": "NFC service"
       },
       {
         "locale": "ru-ru",
@@ -60768,6 +62312,10 @@
       {
         "locale": "en-de",
         "name": "NFC Migration"
+      },
+      {
+        "locale": "en-kr",
+        "name": "NFC Service"
       },
       {
         "locale": "en-za",
@@ -60849,6 +62397,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -61081,22 +62634,15 @@
       }
     ]
   },
-  "com.zui.notes": {
-    "appName": "Notepad",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "TB132FU",
-        "os": "34"
-      }
-    ]
-  },
   "com.hihonor.notepad": {
-    "appName": "Notes",
+    "appName": "Notepad",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Notes"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -61106,6 +62652,18 @@
       {
         "make": "HONOR",
         "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.zui.notes": {
+    "appName": "Notepad",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
         "os": "34"
       }
     ]
@@ -61154,6 +62712,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -61540,6 +63103,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -61685,6 +63253,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -61724,6 +63297,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -61861,6 +63439,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -62072,6 +63655,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -62352,6 +63940,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -62443,6 +64036,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -63038,6 +64636,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -63381,6 +64984,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -63625,6 +65233,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -63836,6 +65449,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -64014,6 +65632,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -64213,6 +65836,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -64419,6 +66047,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -64523,6 +66156,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -64618,6 +66256,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -64810,6 +66453,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -64877,6 +66525,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -64966,6 +66619,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -65183,7 +66841,7 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
-        "name": "Phone/Messaging Storage"
+        "name": "Phone and messaging storage"
       },
       {
         "locale": "ru-ru",
@@ -65196,6 +66854,10 @@
       {
         "locale": "it-it",
         "name": "Memoria telefono/messaggi"
+      },
+      {
+        "locale": "en-kr",
+        "name": "Phone/Messaging Storage"
       },
       {
         "locale": "es-es",
@@ -65294,6 +66956,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -65441,10 +67108,6 @@
         "name": "Call Management"
       },
       {
-        "locale": "en-gb",
-        "name": "Call Management"
-      },
-      {
         "locale": "ru-ru",
         "name": "Телефонные вызовы"
       },
@@ -65463,6 +67126,10 @@
       {
         "locale": "it-it",
         "name": "Chiamate telefoniche"
+      },
+      {
+        "locale": "en-kr",
+        "name": "Call Management"
       },
       {
         "locale": "en-za",
@@ -65557,6 +67224,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -65704,10 +67376,6 @@
         "name": "Phone Services"
       },
       {
-        "locale": "en-gb",
-        "name": "Phone Services"
-      },
-      {
         "locale": "ru-ru",
         "name": "Телефон"
       },
@@ -65729,6 +67397,10 @@
       },
       {
         "locale": "en-de",
+        "name": "Phone Services"
+      },
+      {
+        "locale": "en-kr",
         "name": "Phone Services"
       },
       {
@@ -65828,6 +67500,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -66007,6 +67684,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -66112,6 +67794,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -66228,6 +67915,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -66318,6 +68010,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -66618,6 +68315,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -67448,6 +69150,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -67671,6 +69378,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -67912,6 +69624,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -68112,6 +69829,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -68460,6 +70182,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -68722,6 +70449,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -69035,6 +70767,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -69198,6 +70935,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -69290,6 +71032,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -69389,6 +71136,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -69717,6 +71469,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -69996,6 +71753,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -70470,6 +72232,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -70538,6 +72305,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -70883,6 +72655,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71042,6 +72819,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71100,6 +72882,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -71209,6 +72996,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71308,6 +73100,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71390,6 +73187,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71469,6 +73271,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -71567,6 +73374,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71641,6 +73453,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -71726,6 +73543,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71793,6 +73615,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71853,6 +73680,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -71896,6 +73728,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -71972,6 +73809,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -72073,6 +73915,30 @@
       }
     ]
   },
+  "com.samsung.gamedriver.ex2400": {
+    "appName": "Samsung Exynos2400 GameDriver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.samsung.pregpudriver.ex2400": {
+    "appName": "Samsung Exynos2400 PreGPUDriver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.app.spage": {
     "appName": "Samsung Free",
     "userFacing": true,
@@ -72140,6 +74006,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -72255,6 +74126,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -72354,6 +74230,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -72416,6 +74297,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -72460,6 +74346,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -72550,6 +74441,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -72624,6 +74520,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -72728,6 +74629,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -72814,6 +74720,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -72888,6 +74799,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -72987,6 +74903,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -73152,6 +75073,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -73242,6 +75168,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -73294,6 +75225,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       }
@@ -73307,6 +75243,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -73355,6 +75296,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -73416,6 +75362,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -73514,6 +75465,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -73551,6 +75507,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -73584,6 +75545,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -73641,6 +75607,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -73727,6 +75698,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -73809,6 +75785,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -73876,6 +75857,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -73924,6 +75910,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -73988,6 +75979,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -74059,6 +76055,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -74117,6 +76118,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -74210,6 +76216,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -74284,6 +76295,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -74349,6 +76365,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -74429,6 +76450,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -74492,6 +76518,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -74570,6 +76601,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -74633,6 +76669,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -74707,6 +76748,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -74790,6 +76836,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -74848,6 +76899,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -74989,6 +77045,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -75038,6 +77099,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -75330,6 +77396,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -75492,6 +77563,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -75560,6 +77636,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -75667,6 +77748,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -75798,6 +77884,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -75853,7 +77944,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
+        "locale": "en-kr",
         "name": "SecureElementService"
       }
     ],
@@ -75932,6 +78023,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -76150,6 +78246,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -76229,6 +78330,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -76262,6 +78368,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -76420,6 +78531,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -76499,6 +78615,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -76608,6 +78729,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -76690,6 +78816,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -76769,6 +78900,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -76872,6 +79008,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -77047,6 +79188,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -77317,6 +79463,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Settings storage"
+      },
+      {
         "locale": "ru-ru",
         "name": "Хранилище настроек"
       },
@@ -77417,6 +79567,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -77662,6 +79817,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -77832,6 +79992,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -77974,6 +80139,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -78171,6 +80341,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -78339,6 +80514,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -78430,6 +80610,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -78585,6 +80770,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -78836,6 +81026,10 @@
         "name": "SIM Toolkit"
       },
       {
+        "locale": "en-kr",
+        "name": "SIM Toolkit"
+      },
+      {
         "locale": "en-za",
         "name": "SIM Tool Kit"
       },
@@ -78923,6 +81117,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -79099,6 +81298,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -79200,6 +81404,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -79365,6 +81574,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -79439,6 +81653,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -79521,6 +81740,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -79620,6 +81844,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -79815,6 +82044,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -79903,6 +82137,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80000,6 +82239,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -80081,6 +82325,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80217,6 +82466,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -80296,6 +82550,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80412,6 +82671,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -80511,6 +82775,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -80607,6 +82876,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80727,6 +83001,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80919,6 +83198,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -81015,6 +83299,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81501,6 +83790,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -81799,6 +84093,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -81943,6 +84242,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -82079,6 +84383,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -82167,6 +84476,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -82356,6 +84670,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -82516,6 +84835,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -82827,6 +85151,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -83147,6 +85476,10 @@
         "name": "Jugendschutzeinstellungen"
       },
       {
+        "locale": "en-gb",
+        "name": "Family Link parental controls"
+      },
+      {
         "locale": "ru-ru",
         "name": "Родительский контроль Family Link"
       },
@@ -83222,6 +85555,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -83522,6 +85860,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -83753,6 +86096,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -84048,6 +86396,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -84273,6 +86626,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -84546,6 +86904,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -84638,6 +87001,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -84857,6 +87225,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -85010,6 +87383,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -85206,6 +87584,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -85256,6 +87639,18 @@
       }
     ]
   },
+  "com.sec.tasmanager": {
+    "appName": "TasManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      }
+    ]
+  },
   "com.tc.keys": {
     "appName": "TcKeyService",
     "userFacing": false,
@@ -85294,6 +87689,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -85506,6 +87906,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -85737,6 +88142,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -85793,6 +88203,10 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
+        "name": "com.android.networkstack.tethering.overlay"
+      },
+      {
+        "locale": "en-kr",
         "name": "com.android.networkstack.tethering.overlay"
       }
     ],
@@ -86224,6 +88638,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -86481,6 +88900,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -86999,6 +89423,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -87154,6 +89583,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -87666,6 +90100,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -87766,6 +90205,28 @@
       }
     ]
   },
+  "com.hihonor.videoeditor": {
+    "appName": "Video Editor",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "Cut"
+      }
+    ],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.vtcamerasettings": {
     "appName": "Video effects",
     "userFacing": false,
@@ -87811,6 +90272,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -87913,6 +90379,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -87965,7 +90436,7 @@
   },
   "com.hihonor.hnvideoplayer": {
     "appName": "Video Player",
-    "userFacing": true,
+    "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
@@ -87988,6 +90459,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -88075,6 +90551,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -88200,6 +90681,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -88295,6 +90781,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -88460,6 +90951,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -88791,6 +91287,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -88887,6 +91388,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -89108,6 +91614,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -89266,6 +91777,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -89345,6 +91861,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -89444,6 +91965,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -89730,6 +92256,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -89870,6 +92401,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -89932,6 +92468,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -89955,6 +92496,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -89992,6 +92538,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
         "os": "35"
       },
       {
@@ -90201,6 +92752,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -90443,6 +92999,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -90515,7 +93076,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "Work profile setup"
+        "name": "Device Setup"
       },
       {
         "locale": "ru-ru",
@@ -90528,6 +93089,10 @@
       {
         "locale": "it-it",
         "name": "Configurazione per il lavoro"
+      },
+      {
+        "locale": "en-kr",
+        "name": "Work profile setup"
       },
       {
         "locale": "es-es",
@@ -90618,6 +93183,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -91153,6 +93723,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -91398,6 +93973,28 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.assistant": {
+    "appName": "YOYO Suggestions",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-kr",
+        "name": "AI Suggestions"
+      }
+    ],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
