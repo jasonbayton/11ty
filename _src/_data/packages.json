@@ -57199,34 +57199,17 @@
       }
     ]
   },
-  "com.hihonor.medialibrary": {
-    "appName": "Media Library",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.samsung.android.mdx.quickboard": {
-    "appName": "Media output",
+    "appName": "Media and devices",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Media and devices"
-      },
-      {
         "locale": "nl-nl",
         "name": "Media en apparaten"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Media output"
       },
       {
         "locale": "es-es",
@@ -57257,6 +57240,23 @@
       {
         "make": "samsung",
         "model": "SM-A236B",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.medialibrary": {
+    "appName": "Media Library",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -89749,12 +89749,16 @@
     ]
   },
   "com.sec.android.widgetapp.webmanual": {
-    "appName": "User guide",
+    "appName": "User manual",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "nl-nl",
         "name": "Gebruiksaanwijzing"
+      },
+      {
+        "locale": "en-nl",
+        "name": "User guide"
       },
       {
         "locale": "es-es",
