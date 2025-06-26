@@ -10,14 +10,14 @@
         "os": "36"
       },
       {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
         "make": "Google",
         "model": "sdk_gphone16k_arm64",
         "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
       }
     ]
   },
@@ -127,6 +127,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -224,11 +229,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -502,6 +502,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -594,11 +599,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -1440,6 +1440,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -1497,11 +1502,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -1612,6 +1612,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -1699,11 +1704,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -1896,6 +1896,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -1993,11 +1998,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -2172,6 +2172,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -2269,11 +2274,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -2679,6 +2679,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -2776,11 +2781,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -2924,6 +2924,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -3021,11 +3026,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -3191,6 +3191,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -3288,11 +3293,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -3472,6 +3472,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -3564,11 +3569,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -3709,6 +3709,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -3806,11 +3811,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -3916,17 +3916,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       },
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -4049,6 +4049,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -4126,11 +4131,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -4226,6 +4226,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -4268,11 +4273,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -7317,6 +7317,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -7404,11 +7409,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -8108,6 +8108,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -8208,11 +8213,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -8256,13 +8256,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -8558,6 +8558,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -8650,11 +8655,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -8800,6 +8800,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -8897,11 +8902,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -9064,6 +9064,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -9161,11 +9166,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -9663,6 +9663,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -9705,11 +9710,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -9977,6 +9977,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -10074,11 +10079,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -10444,6 +10444,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -10541,11 +10546,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -11547,6 +11547,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -11644,11 +11649,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -11950,6 +11950,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12047,11 +12052,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -12347,6 +12347,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12434,11 +12439,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -13090,6 +13090,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -13187,11 +13192,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -13397,6 +13397,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -13497,11 +13502,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -13566,13 +13566,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -13707,6 +13707,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -13804,11 +13809,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -14348,6 +14348,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -14385,11 +14390,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -14892,6 +14892,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -14992,11 +14997,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -15045,13 +15045,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -15197,6 +15197,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -15289,11 +15294,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -15522,6 +15522,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -15569,11 +15574,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -15796,6 +15796,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -15833,11 +15838,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -15973,6 +15973,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -16070,11 +16075,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -16215,6 +16215,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -16315,11 +16320,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -16363,13 +16363,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -16644,6 +16644,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -16686,11 +16691,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -16845,6 +16845,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -16942,11 +16947,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -17248,6 +17248,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -17340,11 +17345,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -17475,6 +17475,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -17572,11 +17577,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -17832,6 +17832,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -17869,11 +17874,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -17939,6 +17939,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -17956,11 +17961,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -18007,13 +18007,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -18234,13 +18234,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -18375,6 +18375,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -18467,11 +18472,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -18661,6 +18661,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -18758,11 +18763,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -18867,6 +18867,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -18889,11 +18894,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -19030,6 +19030,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -19067,11 +19072,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -19118,13 +19118,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -19399,6 +19399,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -19416,11 +19421,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -19528,6 +19528,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       },
@@ -19535,11 +19540,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -20032,6 +20032,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -20132,11 +20137,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -20185,13 +20185,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -20344,6 +20344,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -20394,11 +20399,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -20442,13 +20442,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -20513,6 +20513,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -20535,11 +20540,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -20586,6 +20586,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       },
@@ -20593,11 +20598,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -21194,6 +21194,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -21207,11 +21212,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -21320,13 +21320,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -21474,6 +21474,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -21551,11 +21556,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -21691,6 +21691,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -21788,11 +21793,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -21908,6 +21908,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -21995,11 +22000,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -22871,6 +22871,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -22958,11 +22963,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -23298,6 +23298,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -23385,11 +23390,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -23731,6 +23731,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -23813,11 +23818,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -25594,13 +25594,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -25646,13 +25646,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -27089,13 +27089,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -27309,13 +27309,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -27629,6 +27629,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -27724,11 +27729,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -27816,6 +27816,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -27893,11 +27898,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -28358,6 +28358,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -28390,11 +28395,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -34634,6 +34634,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -34731,11 +34736,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -35136,6 +35136,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -35233,11 +35238,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -35973,6 +35973,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -36025,11 +36030,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -36276,6 +36276,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -36333,11 +36338,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -36430,6 +36430,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -36472,11 +36477,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -36829,6 +36829,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -36921,11 +36926,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -37110,6 +37110,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -37192,11 +37197,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -38066,6 +38066,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -38158,11 +38163,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -39145,6 +39145,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -39187,11 +39192,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -40020,6 +40020,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -40077,11 +40082,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -40428,6 +40428,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -40520,11 +40525,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -40686,6 +40686,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -40783,11 +40788,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -40953,6 +40953,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -41050,11 +41055,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -41956,6 +41956,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -42053,11 +42058,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -42554,6 +42554,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -42611,11 +42616,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -43712,6 +43712,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -43809,11 +43814,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -45038,6 +45038,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -45130,11 +45135,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -46902,6 +46902,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -46999,11 +47004,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -48487,6 +48487,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -48539,11 +48544,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -49215,6 +49215,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -49312,11 +49317,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -49938,6 +49938,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -50035,11 +50040,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -50665,6 +50665,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -50762,11 +50767,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -50907,6 +50907,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -51007,11 +51012,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -51105,6 +51105,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -51113,11 +51118,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -51273,6 +51273,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -51370,11 +51375,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -51667,6 +51667,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -51764,11 +51769,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -51917,6 +51917,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -52009,11 +52014,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -52218,6 +52218,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -52315,11 +52320,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -53276,6 +53276,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -53358,11 +53363,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -54486,6 +54486,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -54583,11 +54588,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -55472,6 +55472,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -55569,11 +55574,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -55762,6 +55762,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -55854,11 +55859,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -56400,6 +56400,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -56497,11 +56502,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -58479,6 +58479,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -58571,11 +58576,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -59291,6 +59291,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -59388,11 +59393,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -59503,6 +59503,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -59595,11 +59600,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -59809,6 +59809,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -59896,11 +59901,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -60054,6 +60054,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -60154,11 +60159,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -60211,6 +60211,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -60219,11 +60224,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -60664,6 +60664,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -60761,11 +60766,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -61323,6 +61323,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -61415,11 +61420,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -62445,6 +62445,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -62542,11 +62547,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -63794,6 +63794,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -63891,11 +63896,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -64167,6 +64167,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -64194,11 +64199,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -65009,6 +65009,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -65106,11 +65111,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -65886,6 +65886,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -65968,11 +65973,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -66197,6 +66197,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -66274,11 +66279,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -66596,6 +66596,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -66683,11 +66688,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -68291,6 +68291,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -68323,11 +68328,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -68547,6 +68547,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -68644,11 +68649,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -68811,6 +68811,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -68908,11 +68913,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -69441,6 +69441,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -69538,11 +69543,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -69985,6 +69985,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -70022,11 +70027,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -70372,6 +70372,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -70414,11 +70419,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -70625,6 +70625,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -70722,11 +70727,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -70916,6 +70916,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -71013,11 +71018,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -71191,6 +71191,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -71288,11 +71293,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -71592,6 +71592,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -71639,11 +71644,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -72316,13 +72316,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -72591,13 +72591,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -73247,6 +73247,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -73344,11 +73349,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -73506,6 +73506,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -73603,11 +73608,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -73723,6 +73723,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -73815,11 +73820,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -74094,6 +74094,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -74191,11 +74196,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -74373,6 +74373,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -74465,11 +74470,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -75661,6 +75661,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -75669,11 +75674,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -82254,6 +82254,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -82351,11 +82356,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -83478,6 +83478,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -83575,11 +83580,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -83716,13 +83716,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -83882,6 +83882,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -83979,11 +83984,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -84684,6 +84684,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -84781,11 +84786,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -85130,6 +85130,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -85227,11 +85232,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -85599,6 +85599,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -85686,11 +85691,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -87889,13 +87889,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -87979,6 +87979,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -88026,11 +88031,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -88291,6 +88291,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -88388,11 +88393,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -88758,6 +88758,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -88835,11 +88840,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -89206,6 +89206,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -89303,11 +89308,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -89714,6 +89714,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -89811,11 +89816,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -90133,6 +90133,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -90225,11 +90230,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -90451,6 +90451,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -90543,11 +90548,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -90709,6 +90709,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -90806,11 +90811,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -91119,6 +91119,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -91141,11 +91146,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -91393,6 +91393,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -91425,11 +91430,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -91761,6 +91761,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -91803,11 +91808,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -92061,6 +92061,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -92153,11 +92158,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -92609,6 +92609,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -92706,11 +92711,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -93643,6 +93643,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -93720,11 +93725,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -94351,6 +94351,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -94448,11 +94453,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -95777,6 +95777,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -95877,11 +95882,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -95971,6 +95971,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       },
@@ -95978,11 +95983,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -96021,6 +96021,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -96043,11 +96048,6 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       }
     ]
@@ -96473,6 +96473,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -96565,11 +96570,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -96995,17 +96995,17 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       },
       {
         "make": "ALCommon",
         "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -97663,6 +97663,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -97755,11 +97760,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -98119,6 +98119,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -98216,11 +98221,6 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
