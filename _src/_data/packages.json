@@ -137,6 +137,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -294,6 +299,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -492,6 +502,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -637,6 +652,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -799,6 +819,18 @@
         "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
+      }
+    ]
+  },
+  "com.qualcomm.qti.gpudrivers.kona.api30": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -1088,6 +1120,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -1565,6 +1602,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -1844,6 +1886,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -2091,6 +2138,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -2353,6 +2405,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -2583,6 +2640,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -2818,6 +2880,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -3075,6 +3142,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -3343,6 +3415,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -3573,6 +3650,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -3900,6 +3982,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -4060,6 +4147,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4759,6 +4851,10 @@
         "name": "App-Schutz"
       },
       {
+        "locale": "en-gb",
+        "name": "Device security"
+      },
+      {
         "locale": "nl-nl",
         "name": "App-beveiliging"
       },
@@ -4769,10 +4865,6 @@
       {
         "locale": "es-es",
         "name": "Protección de aplicaciones"
-      },
-      {
-        "locale": "",
-        "name": "Device security"
       }
     ],
     "devices": [
@@ -4820,6 +4912,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -4948,6 +5045,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -5216,6 +5318,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -5265,6 +5372,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -5286,6 +5398,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       },
       {
@@ -5385,6 +5502,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       }
@@ -5412,6 +5534,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       },
       {
@@ -5776,6 +5903,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -5855,6 +5987,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -6073,6 +6210,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -6177,6 +6319,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -6273,6 +6420,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -6416,6 +6568,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -6462,6 +6619,10 @@
       {
         "locale": "",
         "name": "Avatar-Editor"
+      },
+      {
+        "locale": "en-gb",
+        "name": "AR Emoji Editor"
       },
       {
         "locale": "nl-nl",
@@ -6520,6 +6681,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -6622,6 +6788,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "AR Emoji Stickers"
+      },
+      {
         "locale": "",
         "name": "Avatar-Sticker"
       },
@@ -6682,6 +6852,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -6857,6 +7032,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -7060,6 +7240,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -7234,6 +7419,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -7295,6 +7485,10 @@
         "name": "Biometrische Daten"
       },
       {
+        "locale": "en-gb",
+        "name": "com.samsung.android.biometrics.app.setting"
+      },
+      {
         "locale": "nl-nl",
         "name": "Biometrie"
       },
@@ -7305,10 +7499,6 @@
       {
         "locale": "es-es",
         "name": "Datos biométricos"
-      },
-      {
-        "locale": "",
-        "name": "com.samsung.android.biometrics.app.setting"
       }
     ],
     "devices": [
@@ -7359,6 +7549,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -7397,7 +7592,12 @@
   "com.samsung.android.bixby.agent": {
     "appName": "Bixby",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Bixby Voice"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -7438,6 +7638,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -7518,6 +7723,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -7592,6 +7802,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -7811,6 +8026,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -7993,6 +8213,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -8241,6 +8466,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -8471,6 +8701,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -8727,6 +8962,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -8899,6 +9139,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -9043,6 +9288,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -9387,6 +9637,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -9610,6 +9865,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -9782,6 +10042,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -9878,6 +10143,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -10055,6 +10325,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -10331,6 +10606,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -10418,6 +10698,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -10502,6 +10787,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -10610,6 +10900,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -11125,6 +11420,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -11289,6 +11589,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -11511,6 +11816,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -11898,6 +12208,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -12633,6 +12948,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -12930,6 +13250,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -13225,6 +13550,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -13365,6 +13695,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -13676,6 +14011,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -13724,6 +14064,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       }
     ]
@@ -13913,6 +14258,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -13963,6 +14313,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -14041,6 +14396,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -14093,6 +14453,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -14358,6 +14723,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -14648,6 +15018,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -15396,6 +15771,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -15626,6 +16006,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -16228,6 +16613,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -16611,6 +17001,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -16831,6 +17226,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -17703,6 +18103,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -17977,6 +18382,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -19313,6 +19723,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -20919,6 +21334,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -21126,6 +21546,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -21317,6 +21742,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -22067,6 +22497,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -23166,10 +23601,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "TetheringResOverlay"
-      },
-      {
         "locale": "ru-ru",
         "name": "TetheringResOverlay"
       }
@@ -23239,6 +23670,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -23572,6 +24008,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -23747,6 +24188,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -24017,6 +24463,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -24182,6 +24633,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -24423,6 +24879,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -24895,6 +25356,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -25028,6 +25494,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -25112,6 +25583,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25239,6 +25715,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -25411,6 +25892,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -25677,6 +26163,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -25861,6 +26352,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -26031,6 +26527,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -26689,6 +27190,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -30349,6 +30855,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -30534,6 +31045,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -30753,6 +31269,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -30852,6 +31373,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -30936,6 +31462,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -31050,6 +31581,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -31408,6 +31944,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -31492,6 +32033,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -31725,6 +32271,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -32008,6 +32559,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -32267,6 +32823,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -32354,6 +32915,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -32438,6 +33004,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -33611,6 +34182,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -33922,6 +34498,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -34098,6 +34679,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -34258,6 +34844,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -34359,6 +34950,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34503,6 +35099,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -34599,6 +35200,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34754,6 +35360,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -35041,6 +35652,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -35430,6 +36046,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -35521,6 +36142,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -35724,6 +36350,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -36138,6 +36769,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -36320,6 +36956,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -36463,6 +37104,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -36511,14 +37157,24 @@
     ]
   },
   "com.samsung.android.homemode": {
-    "appName": "Dagelijks overzicht",
+    "appName": "Daily Board",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Dagelijks overzicht"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -36665,6 +37321,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -36918,6 +37579,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -37160,6 +37826,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -37455,6 +38126,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -37790,6 +38466,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -38057,6 +38738,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -38385,6 +39071,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -38536,6 +39227,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -38679,6 +39375,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -39220,6 +39921,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -39466,6 +40172,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -39725,6 +40436,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -39905,6 +40621,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -40274,6 +40995,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -40370,6 +41096,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -40478,6 +41209,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -40696,6 +41432,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -40978,6 +41719,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -41054,6 +41800,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -41396,6 +42147,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -41500,6 +42256,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -41560,6 +42321,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       }
     ]
@@ -41766,6 +42532,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Knox Enrollment Service"
+      },
+      {
         "locale": "en-nl",
         "name": "Knox Enrollment Service"
       }
@@ -41815,6 +42585,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -41895,6 +42670,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       },
       {
@@ -42019,6 +42799,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -42385,6 +43170,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -42604,6 +43394,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -42688,6 +43483,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -42858,6 +43658,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -42942,6 +43747,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -43110,6 +43920,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -43230,6 +44045,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -43669,6 +44489,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -44562,6 +45387,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -44691,6 +45521,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -44739,6 +45574,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       }
     ]
@@ -45015,6 +45855,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -45280,6 +46125,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -45393,6 +46243,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "AR Emoji"
+      },
+      {
         "locale": "",
         "name": "Galaxy-Avatar"
       },
@@ -45445,6 +46299,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -45594,6 +46453,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -45775,6 +46639,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -45964,6 +46833,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -46068,6 +46942,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -46169,6 +47048,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -46322,6 +47206,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -46406,6 +47295,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -46561,6 +47455,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -46625,6 +47524,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Game Launcher"
+      },
+      {
         "locale": "nl-nl",
         "name": "Game Launcher"
       }
@@ -46649,6 +47552,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -46959,6 +47867,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -47051,6 +47964,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -47138,6 +48056,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -47222,6 +48145,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -47314,6 +48242,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -47478,6 +48411,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -47621,6 +48559,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -47749,6 +48692,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -47908,6 +48856,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -48176,6 +49129,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -48374,6 +49332,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -48627,6 +49590,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -48883,6 +49851,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -49113,6 +50086,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -49466,6 +50444,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -49636,6 +50619,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -49843,6 +50831,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -50078,6 +51071,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -50374,6 +51372,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -50739,6 +51742,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -50884,6 +51892,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -50991,6 +52004,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -51075,6 +52093,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -51191,6 +52214,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -51623,6 +52651,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -51873,6 +52906,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -52582,6 +53620,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -52725,6 +53768,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -52862,6 +53910,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53013,6 +54066,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -53097,6 +54155,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53246,6 +54309,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53533,6 +54601,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -53808,6 +54881,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -54074,6 +55152,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -54436,6 +55519,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -54561,6 +55649,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -54676,6 +55769,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -54763,6 +55861,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -54801,7 +55904,12 @@
   "com.samsung.android.kmxservice": {
     "appName": "Knox Matrix",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "KmxService"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -54837,6 +55945,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -54880,7 +55993,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Work profile"
       }
     ],
@@ -54929,6 +56042,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -55220,6 +56338,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -55366,6 +56489,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -55533,6 +56661,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -55638,6 +56771,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -55951,6 +57089,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -56046,6 +57189,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -56111,6 +57259,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -56222,6 +57375,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -56430,6 +57588,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -56586,6 +57749,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       }
     ]
@@ -57084,6 +58252,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S918B",
         "os": "35"
       }
@@ -57225,6 +58398,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -57422,6 +58600,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -57725,6 +58908,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -57960,6 +59148,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -58189,6 +59382,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -58333,17 +59531,34 @@
       }
     ]
   },
+  "com.hihonor.medialibrary": {
+    "appName": "Media Library",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.mdx.quickboard": {
-    "appName": "Media and devices",
+    "appName": "Media output",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "nl-nl",
-        "name": "Media en apparaten"
+        "locale": "",
+        "name": "Media and devices"
       },
       {
-        "locale": "en-nl",
-        "name": "Media output"
+        "locale": "nl-nl",
+        "name": "Media en apparaten"
       },
       {
         "locale": "es-es",
@@ -58368,29 +59583,17 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
       {
         "make": "samsung",
         "model": "SM-A236B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.medialibrary": {
-    "appName": "Media Library",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -58543,6 +59746,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -58872,6 +60080,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -59012,6 +60225,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -60301,6 +61519,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -60485,6 +61708,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -60655,6 +61883,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -61416,6 +62649,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -61625,6 +62863,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -61777,6 +63020,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -62109,6 +63357,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -62325,6 +63578,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -62426,6 +63684,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -62586,6 +63849,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -62641,6 +63909,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       }
     ]
@@ -62805,6 +64078,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -63076,6 +64354,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -63287,6 +64570,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -64364,6 +65652,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -64678,6 +65971,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -64913,6 +66211,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -65111,6 +66414,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -65183,6 +66491,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65282,6 +66595,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65898,6 +67216,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -66270,6 +67593,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -66524,6 +67852,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -66754,6 +68087,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -66896,6 +68234,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -66973,6 +68316,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       },
       {
@@ -67127,6 +68475,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -67313,6 +68666,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -67422,6 +68780,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -67464,6 +68827,10 @@
       {
         "locale": "",
         "name": "Persönliche Daten-Intelligenz"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Smart suggestions"
       },
       {
         "locale": "nl-nl",
@@ -67522,6 +68889,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -67890,6 +69262,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -68269,6 +69646,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -68550,6 +69932,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -68813,6 +70200,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -69080,6 +70472,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -69204,6 +70601,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -69293,6 +70695,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -69628,6 +71035,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -70568,6 +71980,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -70833,6 +72250,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -71082,6 +72504,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -71282,6 +72709,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -71650,6 +73082,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -71919,6 +73356,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -72123,6 +73565,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72378,6 +73825,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -72475,6 +73927,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72579,6 +74036,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72922,6 +74384,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -73086,6 +74553,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -73710,6 +75182,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -74138,6 +75615,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -74302,6 +75784,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -74386,6 +75873,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -74422,6 +75914,10 @@
     "appName": "Samsung Call Media",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "SecVideoEngineService"
+      },
       {
         "locale": "en-nl",
         "name": "SecVideoEngineService"
@@ -74476,6 +75972,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -74583,6 +76084,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -74670,6 +76176,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -74754,6 +76265,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -74857,6 +76373,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -74936,6 +76457,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -75026,6 +76552,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -75090,6 +76621,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -75158,6 +76694,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -75207,6 +76748,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -75292,6 +76838,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -75426,6 +76977,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -75609,6 +77165,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -75710,6 +77271,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -75832,6 +77398,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -75872,7 +77443,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Sec Media Storage"
       }
     ],
@@ -75921,6 +77492,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -76006,6 +77582,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -76050,6 +77631,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -76061,6 +77647,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       }
     ]
@@ -76109,6 +77700,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -76285,6 +77881,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -76389,6 +77990,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -76421,6 +78027,30 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.gamedriver.sm8250": {
+    "appName": "Samsung SM8250 GameDriver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.samsung.vklayer.sm8250": {
+    "appName": "Samsung SM8250 VKLayer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -76556,6 +78186,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -76648,6 +78283,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -76898,6 +78538,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -77181,6 +78826,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -77265,6 +78915,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -78585,6 +80240,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -78904,6 +80564,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -79051,6 +80716,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -79180,6 +80850,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "SecureFolder"
+      },
+      {
         "locale": "",
         "name": "Sicherer Ordner"
       },
@@ -79236,6 +80910,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -79369,6 +81048,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -79541,6 +81225,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -79736,6 +81425,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -80024,6 +81718,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -80108,6 +81807,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -80222,6 +81926,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -80306,6 +82015,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -80396,6 +82110,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -80438,6 +82157,10 @@
       {
         "locale": "",
         "name": "Dienstanbieter­einrichtung"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Configuration update"
       },
       {
         "locale": "nl-nl",
@@ -80501,6 +82224,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -80716,6 +82444,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -81107,6 +82840,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -81350,6 +83088,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -81444,6 +83187,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       },
       {
@@ -81647,6 +83395,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -81884,6 +83637,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -82027,6 +83785,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -82123,6 +83886,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -82308,6 +84076,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -82565,6 +84338,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -82757,6 +84535,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -83086,6 +84869,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -83165,6 +84953,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -83252,6 +85045,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -83356,6 +85154,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -83561,6 +85364,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -83654,6 +85462,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -83751,6 +85564,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -83842,6 +85660,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -83983,6 +85806,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -84070,6 +85898,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -84137,6 +85970,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "SmartThings Framework"
+      },
+      {
         "locale": "en-nl",
         "name": "SmartThings Framework"
       },
@@ -84185,6 +86022,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -84292,6 +86134,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -84393,6 +86240,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -84720,6 +86572,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -84821,6 +86678,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -85357,6 +87219,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -85630,6 +87497,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -85804,6 +87676,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -85969,7 +87846,7 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-gb",
         "name": "Video Editor"
       }
     ],
@@ -86013,6 +87890,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -86095,6 +87977,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       },
       {
@@ -86237,6 +88124,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -86377,6 +88269,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -86728,6 +88625,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -87134,6 +89036,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -87447,6 +89354,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -87693,6 +89605,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -87973,6 +89890,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -88213,6 +90135,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -88483,6 +90410,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -88812,6 +90744,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -89002,6 +90939,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -89173,6 +91115,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -89535,6 +91482,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -89692,6 +91644,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       }
@@ -89746,6 +91703,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -90245,6 +92207,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -90435,6 +92402,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -90934,6 +92906,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -91032,6 +93009,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -91232,6 +93214,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -91376,6 +93363,11 @@
       {
         "make": "samsung",
         "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
         "os": "33"
       },
       {
@@ -91837,6 +93829,10 @@
         "name": "Videoeffekte"
       },
       {
+        "locale": "en-gb",
+        "name": "Video call effects"
+      },
+      {
         "locale": "nl-nl",
         "name": "Video-effecten"
       },
@@ -91893,6 +93889,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -91997,6 +93998,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -92307,6 +94313,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -92408,6 +94419,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -92617,6 +94633,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -92928,6 +94949,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -93029,6 +95055,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -93285,6 +95316,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -93423,6 +95459,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -93507,6 +95548,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -93611,6 +95657,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -93968,6 +96019,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -94049,6 +96105,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -94435,6 +96496,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -94652,6 +96718,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -94876,6 +96947,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -94988,6 +97064,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.samsung.android.spdfnote": {
+    "appName": "Write on PDF",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       }
     ]
   },
@@ -95417,6 +97505,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
       },
       {
         "make": "Nothing",
