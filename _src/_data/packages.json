@@ -13,6 +13,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -219,6 +224,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -584,6 +594,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -1486,6 +1501,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -1679,6 +1699,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -1971,6 +1996,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -2001,6 +2031,23 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.music": {
+    "appName": "Android Open Source Music Player",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -2222,6 +2269,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -2727,6 +2779,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -2964,6 +3021,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -3226,6 +3288,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -3500,6 +3567,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -3737,6 +3809,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -3845,6 +3922,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -4047,6 +4129,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -4181,6 +4268,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -7315,6 +7407,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -8111,6 +8208,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -8156,6 +8258,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -8546,6 +8653,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -8785,6 +8897,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -9044,6 +9161,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -9587,6 +9709,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -9947,6 +10074,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -10409,6 +10541,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -11058,6 +11195,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -11505,6 +11647,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -11903,6 +12050,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -12282,6 +12434,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -13033,6 +13190,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -13335,6 +13497,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -13401,6 +13568,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -13632,6 +13804,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -14208,6 +14385,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -14810,6 +14992,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -14860,6 +15047,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -15100,6 +15292,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -15115,6 +15312,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -15127,6 +15329,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -15362,6 +15569,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -15625,6 +15837,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -15853,6 +16070,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -16093,6 +16315,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -16138,6 +16365,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -16214,6 +16446,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -16453,6 +16690,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -16484,6 +16726,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -16698,6 +16945,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -16718,6 +16970,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -17086,6 +17343,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -17310,6 +17572,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -17606,6 +17873,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -17688,6 +17960,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -17732,6 +18009,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -17954,6 +18236,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -18180,6 +18467,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -18469,6 +18761,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -18592,6 +18889,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -18769,6 +19071,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -18813,6 +19120,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -19108,6 +19420,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -19218,6 +19535,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -19810,6 +20132,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -19860,6 +20187,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -19948,6 +20280,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -20057,6 +20394,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -20102,6 +20444,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -20192,6 +20539,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -20241,6 +20593,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -20853,6 +21210,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -20960,6 +21322,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -21184,6 +21551,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -21419,6 +21791,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -21618,6 +21995,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -22579,6 +22961,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -22657,6 +23044,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -22996,6 +23388,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -23144,6 +23541,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -23414,6 +23816,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -23476,6 +23883,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -23593,6 +24005,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -25182,6 +25599,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -25229,6 +25651,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -25260,6 +25687,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -25272,6 +25704,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -26657,6 +27094,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -26869,6 +27311,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -27277,6 +27724,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -27441,6 +27893,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -27734,6 +28191,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -27928,6 +28390,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -34267,6 +34734,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -34761,6 +35233,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -35552,6 +36029,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -35855,6 +36337,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -35985,6 +36472,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -36432,6 +36924,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -36695,6 +37192,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -37656,6 +38158,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -38684,6 +39191,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -38809,6 +39321,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -39564,6 +40081,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -40001,6 +40523,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -40256,6 +40783,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -40518,6 +41050,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -41519,6 +42056,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -42073,6 +42615,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -42376,6 +42923,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -42388,6 +42940,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -43252,6 +43809,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -44571,6 +45133,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -44780,6 +45347,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44792,6 +45364,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44804,6 +45381,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44816,6 +45398,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44828,6 +45415,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44840,6 +45432,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44852,6 +45449,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44864,6 +45466,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44876,6 +45483,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44888,6 +45500,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44900,6 +45517,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44912,6 +45534,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44924,6 +45551,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44948,6 +45580,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44960,6 +45597,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44972,6 +45614,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44984,6 +45631,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -44996,6 +45648,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45008,6 +45665,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45020,6 +45682,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45032,6 +45699,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45044,6 +45716,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45056,6 +45733,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45068,6 +45750,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45080,6 +45767,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45092,6 +45784,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45104,6 +45801,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45116,6 +45818,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45128,6 +45835,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45140,6 +45852,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45152,6 +45869,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45164,6 +45886,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45176,6 +45903,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45188,6 +45920,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45200,6 +45937,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45212,6 +45954,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45224,6 +45971,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45236,6 +45988,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45248,6 +46005,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45260,6 +46022,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45272,6 +46039,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45284,6 +46056,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45296,6 +46073,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45320,6 +46102,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -45332,6 +46119,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -46207,6 +46999,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -47108,6 +47905,23 @@
       }
     ]
   },
+  "com.android.gallery3d": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      }
+    ]
+  },
   "com.miui.gallery": {
     "appName": "Gallery",
     "userFacing": true,
@@ -47725,6 +48539,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -48496,6 +49315,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -49211,6 +50035,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -49936,6 +50765,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -50173,6 +51007,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -50274,6 +51113,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -50526,6 +51370,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -50918,6 +51767,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -51155,6 +52009,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -51459,6 +52318,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -51658,6 +52522,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.wallpaper.nexus": {
+    "appName": "Google Wallpaper Images",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       }
     ]
   },
@@ -52482,6 +53358,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -53705,6 +54586,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -54686,6 +55572,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -54963,6 +55854,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -55601,6 +56497,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -57673,6 +58574,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -58485,6 +59391,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -58684,6 +59595,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -58983,6 +59899,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -59233,6 +60154,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -59293,6 +60219,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -59830,6 +60761,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -60479,6 +61415,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -61601,6 +62542,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -62948,6 +63894,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -63109,18 +64060,6 @@
       }
     ]
   },
-  "com.android.music": {
-    "appName": "Music",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      }
-    ]
-  },
   "com.sonyericsson.music": {
     "appName": "Music",
     "userFacing": false,
@@ -63255,6 +64194,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -64165,6 +65109,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -65022,6 +65971,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -65320,6 +66274,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -65724,6 +66683,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -67363,6 +68327,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -67678,6 +68647,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -67934,6 +68908,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -68562,6 +69541,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -69042,6 +70026,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -69429,6 +70418,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -69731,6 +70725,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -70017,6 +71016,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -70287,6 +71291,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -70381,18 +71390,6 @@
   },
   "com.yk.phonetest": {
     "appName": "PhoneTest",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      }
-    ]
-  },
-  "com.android.gallery3d": {
-    "appName": "Photo Edit",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -70642,6 +71639,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -71319,6 +72321,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -71586,6 +72593,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -72335,6 +73347,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -72589,6 +73606,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -72793,6 +73815,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -73167,6 +74194,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -73433,6 +74465,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -74632,6 +75669,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -81312,6 +82354,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -82531,6 +83578,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -82666,6 +83718,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -82922,6 +83979,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -83722,6 +84784,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -84160,6 +85227,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -84614,6 +85686,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -86817,6 +87894,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -86944,6 +88026,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -87301,6 +88388,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -87743,6 +88835,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -88206,6 +89303,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -88712,6 +89814,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -89121,6 +90228,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -89434,6 +90546,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -89689,6 +90806,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -90023,6 +91145,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -90298,6 +91425,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -90675,6 +91807,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -91016,6 +92153,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -91564,6 +92706,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -92576,6 +93723,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -93296,6 +94448,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -94720,6 +95877,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -94819,6 +95981,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -94876,6 +96043,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       }
     ]
@@ -95396,6 +96568,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -95824,6 +97001,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
@@ -96576,6 +97758,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -97029,6 +98216,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "35"
       },
       {
