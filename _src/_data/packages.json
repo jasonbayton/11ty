@@ -245,11 +245,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -635,11 +630,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -788,11 +778,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -1094,11 +1079,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -1160,11 +1140,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -1573,11 +1548,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -1780,11 +1750,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -2084,11 +2049,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -2370,11 +2330,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -2645,11 +2600,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -2897,266 +2847,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
-      }
-    ]
-  },
-  "com.google.android.apps.restore": {
-    "appName": "Android Switch",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Android Setup"
-      },
-      {
-        "locale": "en-be",
-        "name": "Android Setup"
-      },
-      {
-        "locale": "en-za",
-        "name": "Android Setup"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "HONOR",
-        "model": "HEY-W09",
-        "os": "31"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S931B",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A135F",
-        "os": "34"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-F721B",
-        "os": "35"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A528B",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "31"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S921B",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "LENOVO",
-        "model": "TB570FU",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S936B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-X716B",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A536B",
-        "os": "35"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T976B",
-        "os": "33"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S921U",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A346B",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S937B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S918B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A556B",
-        "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "TB132FU",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "Fairphone",
-        "model": "FP4",
-        "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "ThinkPhone by motorola",
-        "os": "34"
-      },
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      },
-      {
-        "make": "ALCommon",
-        "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-X910",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S906B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A236B",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -3425,11 +3115,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -3488,11 +3173,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -3711,11 +3391,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -3963,11 +3638,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -4074,11 +3744,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -4293,11 +3958,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -4445,11 +4105,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -4991,11 +4646,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -5465,11 +5115,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -7327,11 +6972,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -7746,11 +7386,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -8602,11 +8237,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -8648,11 +8278,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -9067,11 +8692,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -9324,11 +8944,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -9598,11 +9213,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -10003,11 +9613,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -10152,11 +9757,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -10536,11 +10136,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -11033,11 +10628,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -11682,11 +11272,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -12210,11 +11795,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -12623,11 +12203,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -12692,11 +12267,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -12757,11 +12327,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -13020,11 +12585,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -13074,11 +12634,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -13165,11 +12720,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -13219,11 +12769,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -13343,11 +12888,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -13396,11 +12936,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -13457,11 +12992,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -13783,11 +13313,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -14096,11 +13621,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -14113,62 +13633,6 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
-      }
-    ]
-  },
-  "com.google.android.avatarpicker": {
-    "appName": "Choose a picture",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Google Pixel Avatar Picker"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Afbeelding kiezen"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -14416,11 +13880,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -14567,11 +14026,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -15012,11 +14466,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -15651,11 +15100,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -15702,11 +15146,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -16236,11 +15675,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -16312,11 +15746,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -16365,11 +15794,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -16505,11 +15929,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -16757,11 +16176,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -17009,11 +16423,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -17056,11 +16465,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -17092,11 +16496,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -17266,11 +16665,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -17378,11 +16772,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -17649,11 +17038,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -17798,11 +17182,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -17834,11 +17213,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -18057,11 +17431,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -18294,11 +17663,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -18591,11 +17955,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -18678,11 +18037,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -18729,11 +18083,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -18878,11 +18227,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -18900,11 +18244,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -18956,11 +18295,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -19204,11 +18538,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -19240,11 +18569,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -19505,11 +18829,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -19631,11 +18950,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -19658,11 +18972,6 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -19814,11 +19123,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -19865,11 +19169,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -19921,11 +19220,6 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -19988,11 +19282,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -20041,11 +19330,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -20163,11 +19447,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -20281,11 +19560,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -20327,11 +19601,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -20574,11 +19843,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -20627,11 +19891,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -20891,11 +20150,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -20942,11 +20196,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -21158,11 +20407,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -21204,11 +20448,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -21297,11 +20536,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -21354,11 +20588,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -21390,11 +20619,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -21428,11 +20652,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -21464,11 +20683,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -21502,11 +20716,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -21538,11 +20747,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -21576,11 +20780,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -21613,11 +20812,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -21649,11 +20843,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -21968,11 +21157,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -22014,11 +21198,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -22083,11 +21262,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -22124,11 +21298,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -22575,11 +21744,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -23502,11 +22666,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -23544,10 +22703,46 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.pixel.relationships": {
+    "appName": "com.google.android.apps.pixel.relationships",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Pixel VIPs"
+      },
+      {
+        "locale": "en-de",
+        "name": "Pixel VIPs"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       }
     ]
@@ -23775,11 +22970,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -23902,11 +23092,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -23956,11 +23141,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -24004,11 +23184,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -24212,11 +23387,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -24249,11 +23419,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -24285,11 +23450,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -24339,11 +23499,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -24399,11 +23554,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -24416,11 +23566,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -24457,11 +23602,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -24650,11 +23790,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -24691,11 +23826,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -24745,11 +23875,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -25015,11 +24140,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -25042,11 +24162,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -25068,11 +24183,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -25128,11 +24238,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -25150,11 +24255,6 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -25171,11 +24271,6 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -26497,11 +25592,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -26548,11 +25638,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -28077,11 +27162,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -28118,11 +27198,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -28161,11 +27236,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -28203,11 +27273,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -28244,11 +27309,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -28297,11 +27357,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -28328,11 +27383,6 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -28370,11 +27420,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -28472,11 +27517,6 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -28494,11 +27534,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -28723,11 +27758,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -28905,11 +27935,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -28943,11 +27968,6 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -28993,11 +28013,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -29030,11 +28045,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -29051,11 +28061,6 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -29089,11 +28094,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -29111,11 +28111,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -29137,11 +28132,6 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -29174,11 +28164,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -29233,11 +28218,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -29304,11 +28284,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -29397,11 +28372,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -29472,11 +28442,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -29558,11 +28523,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -29600,11 +28560,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -29636,11 +28591,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -29698,11 +28648,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -29739,11 +28684,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -34329,11 +33269,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -35989,11 +34924,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -36049,11 +34979,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -36511,11 +35436,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -36793,11 +35713,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -37049,11 +35964,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -37328,11 +36238,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -37646,11 +36551,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -37790,11 +36690,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -38274,11 +37169,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -38555,11 +37445,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -38760,11 +37645,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -39115,6 +37995,292 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.google.android.apps.restore": {
+    "appName": "Data Restore Tool",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Android Setup"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Android Switch"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Android Switch"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Android Switch"
+      },
+      {
+        "locale": "en-be",
+        "name": "Android Setup"
+      },
+      {
+        "locale": "en",
+        "name": "Android Switch"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Android Switch"
+      },
+      {
+        "locale": "it-it",
+        "name": "Android Switch"
+      },
+      {
+        "locale": "en-de",
+        "name": "Android Switch"
+      },
+      {
+        "locale": "en-kr",
+        "name": "Android Switch"
+      },
+      {
+        "locale": "en-za",
+        "name": "Android Setup"
+      },
+      {
+        "locale": "es-es",
+        "name": "Android Switch"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "HONOR",
+        "model": "HEY-W09",
+        "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A135F",
+        "os": "34"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S936B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-X716B",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A536B",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A346B",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S937B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S918B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A556B",
+        "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-X910",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
+        "os": "34"
       }
     ]
   },
@@ -39571,11 +38737,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -39856,11 +39017,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -39942,11 +39098,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -40130,11 +39281,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -40171,11 +39317,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -40295,11 +39436,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -40489,11 +39625,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -40630,11 +39761,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -40774,11 +39900,6 @@
         "make": "Google",
         "model": "sdk_gphone16k_arm64",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -41142,11 +40263,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -41560,11 +40676,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -41613,11 +40724,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -42023,11 +41129,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -42296,11 +41397,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -42573,11 +41669,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -42808,11 +41899,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -42950,11 +42036,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -43631,11 +42712,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -44149,11 +43225,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -44437,11 +43508,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -45373,11 +44439,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -45419,11 +44480,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -45691,11 +44747,6 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -46003,11 +45054,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -46284,11 +45330,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -46764,11 +45805,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -46893,11 +45929,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -48673,11 +47704,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -50318,11 +49344,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -51151,11 +50172,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -51613,11 +50629,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -51909,10 +50920,64 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.avatarpicker": {
+    "appName": "Google Avatar Picker",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Google Pixel Avatar Picker"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Choose a picture"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Afbeelding kiezen"
+      },
+      {
+        "locale": "en-de",
+        "name": "Choose a picture"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       },
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       }
     ]
@@ -52392,11 +51457,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -52666,11 +51726,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -52918,11 +51973,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -53020,11 +52070,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -53294,11 +52339,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -53451,11 +52491,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -53708,11 +52743,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -53963,11 +52993,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -54279,11 +53304,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -54428,11 +53448,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -54469,11 +53484,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -54654,11 +53664,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -55382,11 +54387,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -55618,11 +54618,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -56637,11 +55632,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -57365,11 +56355,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -57679,11 +56664,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -57974,11 +56954,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -58647,11 +57622,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -60615,11 +59585,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -60882,11 +59847,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -61734,11 +60694,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -61951,11 +60906,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -62014,11 +60964,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -62262,11 +61207,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -62527,11 +61467,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -62588,11 +61523,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -63162,11 +62092,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -63499,11 +62424,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -63856,11 +62776,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -64998,11 +63913,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -66392,11 +65302,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -66700,11 +65605,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -66925,11 +65825,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -67672,11 +66567,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -68219,11 +67109,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -68296,13 +67181,9 @@
     ]
   },
   "com.android.nfc": {
-    "appName": "NFC Migration",
+    "appName": "Nfc Service",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Nfc Service"
-      },
       {
         "locale": "en-gb",
         "name": "NFC service"
@@ -68316,14 +67197,6 @@
         "name": "NFC"
       },
       {
-        "locale": "en-be",
-        "name": "Nfc Service"
-      },
-      {
-        "locale": "en",
-        "name": "Nfc Service"
-      },
-      {
         "locale": "en-nl",
         "name": "NFC"
       },
@@ -68332,12 +67205,12 @@
         "name": "NFC"
       },
       {
-        "locale": "en-kr",
-        "name": "NFC Service"
+        "locale": "en-de",
+        "name": "NFC Migration"
       },
       {
-        "locale": "en-za",
-        "name": "Nfc Service"
+        "locale": "en-kr",
+        "name": "NFC Service"
       },
       {
         "locale": "es-es",
@@ -68549,11 +67422,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -68580,11 +67448,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -68631,11 +67494,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -68865,11 +67723,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -69284,11 +68137,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -69648,11 +68496,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -69848,11 +68691,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -70974,11 +69812,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -71310,11 +70143,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -71584,11 +70412,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -72249,11 +71072,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -72748,11 +71566,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -73160,11 +71973,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -73479,11 +72287,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -73780,11 +72583,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -74065,11 +72863,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -74693,11 +73486,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -74928,11 +73716,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -74999,11 +73782,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -75050,11 +73828,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -75076,11 +73849,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -75128,11 +73896,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -75183,11 +73946,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -75251,11 +74009,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -75293,11 +74046,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -75315,11 +74063,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -75351,11 +74094,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -75404,11 +74142,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -75451,11 +74184,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -75487,57 +74215,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
-      }
-    ]
-  },
-  "com.google.android.apps.pixel.relationships": {
-    "appName": "Pixel VIPs",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "com.google.android.apps.pixel.relationships"
-      },
-      {
-        "locale": "en-gb",
-        "name": "com.google.android.apps.pixel.relationships"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -75576,11 +74253,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -75617,11 +74289,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -75664,11 +74331,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -76177,11 +74839,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -76446,11 +75103,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -76668,11 +75320,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -77054,11 +75701,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -77338,11 +75980,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -78129,11 +76766,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -78194,11 +76826,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -78417,11 +77044,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -78595,11 +77217,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -78851,11 +77468,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -78914,11 +77526,6 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -79078,11 +77685,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -79521,11 +78123,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -85103,11 +83700,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -85837,11 +84429,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -87131,11 +85718,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -87267,11 +85849,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -87541,11 +86118,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -88388,11 +86960,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -88864,11 +87431,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -88955,11 +87517,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -89323,11 +87880,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -90056,11 +88608,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -91328,11 +89875,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -91672,11 +90214,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -91808,11 +90345,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -92185,11 +90717,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -93150,11 +91677,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -93349,11 +91871,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -93678,11 +92195,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -94112,11 +92624,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -94436,11 +92943,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -94709,11 +93211,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -95049,11 +93546,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -95343,11 +93835,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -95384,11 +93871,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -95731,11 +94213,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -96106,11 +94583,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -96435,11 +94907,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -96679,11 +95146,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -96737,11 +95199,6 @@
       {
         "make": "Google",
         "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
         "os": "36"
       }
     ]
@@ -97723,11 +96180,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -98491,11 +96943,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -99463,11 +97910,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -99741,11 +98183,6 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -99993,11 +98430,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -100091,11 +98523,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -100714,11 +99141,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -101175,11 +99597,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -101720,13 +100137,29 @@
       }
     ]
   },
-  "com.google.android.cellbroadcastreceiver": {
+  "com.android.cellbroadcastreceiver.module": {
     "appName": "Wireless emergency alerts",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      }
+    ]
+  },
+  "com.google.android.cellbroadcastreceiver": {
+    "appName": "Wireless Emergency Alerts",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "",
         "name": "Notfallbenachrichtigungen an Mobilgeräte"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Wireless emergency alerts"
       },
       {
         "locale": "ru-ru",
@@ -101737,8 +100170,24 @@
         "name": "Mobiele noodmeldingen"
       },
       {
+        "locale": "en",
+        "name": "Wireless emergency alerts"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Wireless emergency alerts"
+      },
+      {
         "locale": "it-it",
         "name": "Avvisi di emergenza wireless"
+      },
+      {
+        "locale": "en-de",
+        "name": "Wireless emergency alerts"
+      },
+      {
+        "locale": "en-kr",
+        "name": "Wireless emergency alerts"
       },
       {
         "locale": "es-es",
@@ -101964,23 +100413,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.cellbroadcastreceiver.module": {
-    "appName": "Wireless emergency alerts",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
       }
     ]
   },
@@ -102441,11 +100873,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -103001,11 +101428,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
@@ -103128,11 +101550,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
       }
     ]
   },
