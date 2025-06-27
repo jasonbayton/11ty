@@ -2350,6 +2350,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Android-Einrichtung"
+      },
+      {
         "locale": "ru-ru",
         "name": "Настройка устройства Android"
       },
@@ -2364,10 +2368,6 @@
       {
         "locale": "es-es",
         "name": "Configuración de Android"
-      },
-      {
-        "locale": "",
-        "name": "Android-Einrichtung"
       }
     ],
     "devices": [
@@ -2855,6 +2855,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Android-System"
+      },
+      {
         "locale": "ru-ru",
         "name": "Система Android"
       },
@@ -2869,10 +2873,6 @@
       {
         "locale": "es-es",
         "name": "Sistema Android"
-      },
-      {
-        "locale": "",
-        "name": "Android-System"
       }
     ],
     "devices": [
@@ -6498,10 +6498,6 @@
         "name": "Private Access Tokens"
       },
       {
-        "locale": "en-gb",
-        "name": "Private Access Tokens"
-      },
-      {
         "locale": "it-it",
         "name": "Verifica automatica"
       }
@@ -7977,6 +7973,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Speicher für blockierte Nummern"
+      },
+      {
         "locale": "ru-ru",
         "name": "Память Заблокированных номеров"
       },
@@ -7991,10 +7991,6 @@
       {
         "locale": "es-es",
         "name": "Almacenamiento de números bloqueados"
-      },
-      {
-        "locale": "",
-        "name": "Speicher für blockierte Nummern"
       }
     ],
     "devices": [
@@ -9864,6 +9860,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Kalenderspeicher"
+      },
+      {
         "locale": "en-gb",
         "name": "Calendar storage"
       },
@@ -9890,10 +9890,6 @@
       {
         "locale": "es-es",
         "name": "Almacenamiento de calendario"
-      },
-      {
-        "locale": "",
-        "name": "Kalenderspeicher"
       }
     ],
     "devices": [
@@ -13357,6 +13353,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Zertifikatsinstallationsprogramm"
+      },
+      {
         "locale": "ru-ru",
         "name": "Программа установки сертификата"
       },
@@ -13375,10 +13375,6 @@
       {
         "locale": "es-es",
         "name": "Instalador de certificados"
-      },
-      {
-        "locale": "",
-        "name": "Zertifikatsinstallationsprogramm"
       }
     ],
     "devices": [
@@ -18302,12 +18298,7 @@
   "com.android.providers.media": {
     "appName": "com.android.providers.media",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Media Storage"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -34668,6 +34659,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Begleitgerät-Manager"
+      },
+      {
         "locale": "ru-ru",
         "name": "Дополнительный Диспетчер Устройств"
       },
@@ -34678,10 +34673,6 @@
       {
         "locale": "es-es",
         "name": "Gestor de dispositivos complementario"
-      },
-      {
-        "locale": "",
-        "name": "Begleitgerät-Manager"
       }
     ],
     "devices": [
@@ -36922,7 +36913,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Corner display cutout"
+        "name": "Aussparung in der Ecke"
       },
       {
         "locale": "ru-ru",
@@ -36943,10 +36934,6 @@
       {
         "locale": "es-es",
         "name": "Recorte de la esquina"
-      },
-      {
-        "locale": "",
-        "name": "Aussparung in der Ecke"
       }
     ],
     "devices": [
@@ -38004,7 +37991,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Android Setup"
+        "name": "Android Switch"
       },
       {
         "locale": "en-gb",
@@ -38475,6 +38462,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Standarddruckdienst"
+      },
+      {
         "locale": "en-gb",
         "name": "Default print service"
       },
@@ -38501,10 +38492,6 @@
       {
         "locale": "es-es",
         "name": "Servicio de impresión predeterminado"
-      },
-      {
-        "locale": "",
-        "name": "Standarddruckdienst"
       }
     ],
     "devices": [
@@ -40882,7 +40869,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Double display cutout"
+        "name": "Doppelte Aussparung"
       },
       {
         "locale": "ru-ru",
@@ -40903,10 +40890,6 @@
       {
         "locale": "es-es",
         "name": "Recorte doble"
-      },
-      {
-        "locale": "",
-        "name": "Doppelte Aussparung"
       }
     ],
     "devices": [
@@ -41137,6 +41120,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Download-Manager"
+      },
+      {
         "locale": "ru-ru",
         "name": "Диспетчер загрузки"
       },
@@ -41151,10 +41138,6 @@
       {
         "locale": "es-es",
         "name": "Administrador de descargas"
-      },
-      {
-        "locale": "",
-        "name": "Download-Manager"
       }
     ],
     "devices": [
@@ -41682,6 +41665,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "Files"
+      },
+      {
+        "locale": "",
         "name": "Files"
       },
       {
@@ -43073,6 +43060,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "com.android.emergency"
+      },
+      {
         "locale": "en-gb",
         "name": "com.android.emergency"
       },
@@ -44175,6 +44166,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Externer Speicher"
+      },
+      {
         "locale": "ru-ru",
         "name": "Внешняя память"
       },
@@ -44193,10 +44188,6 @@
       {
         "locale": "es-es",
         "name": "Almacenamiento externo"
-      },
-      {
-        "locale": "",
-        "name": "Externer Speicher"
       }
     ],
     "devices": [
@@ -47448,6 +47439,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Kombinierte Standortbest."
+      },
+      {
         "locale": "ru-ru",
         "name": "Геоданные из нескольких источников"
       },
@@ -47458,10 +47453,6 @@
       {
         "locale": "es-es",
         "name": "Ubicación combinada"
-      },
-      {
-        "locale": "",
-        "name": "Kombinierte Standortbest."
       }
     ],
     "devices": [
@@ -52079,6 +52070,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Google Play-Dienste"
+      },
+      {
         "locale": "ru-ru",
         "name": "Сервисы Google Play"
       },
@@ -52093,10 +52088,6 @@
       {
         "locale": "es-es",
         "name": "Servicios de Google Play"
-      },
-      {
-        "locale": "",
-        "name": "Google Play-Dienste"
       }
     ],
     "devices": [
@@ -55372,6 +55363,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "HTML-Anzeige"
+      },
+      {
         "locale": "ru-ru",
         "name": "Средство просмотра HTML"
       },
@@ -55386,10 +55381,6 @@
       {
         "locale": "es-es",
         "name": "Visor de HTML"
-      },
-      {
-        "locale": "",
-        "name": "HTML-Anzeige"
       }
     ],
     "devices": [
@@ -56160,12 +56151,7 @@
   "com.mediatek.ims": {
     "appName": "ImsApp",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "com.mediatek.ims.ImsApp"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "A-gold",
@@ -56404,6 +56390,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Eingabegeräte"
+      },
+      {
         "locale": "ru-ru",
         "name": "Устройства ввода"
       },
@@ -56418,10 +56408,6 @@
       {
         "locale": "es-es",
         "name": "Dispositivos de introducción de datos"
-      },
-      {
-        "locale": "",
-        "name": "Eingabegeräte"
       }
     ],
     "devices": [
@@ -59593,6 +59579,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Live-Hintergrund-Auswahl"
+      },
+      {
         "locale": "ru-ru",
         "name": "Каталог живых обоев"
       },
@@ -59611,10 +59601,6 @@
       {
         "locale": "",
         "name": "Live wallpaper selector"
-      },
-      {
-        "locale": "",
-        "name": "Live-Hintergrund-Auswahl"
       }
     ],
     "devices": [
@@ -65042,6 +65028,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "MTP-Host"
+      },
+      {
         "locale": "ru-ru",
         "name": "Хост-система MTP"
       },
@@ -65056,10 +65046,6 @@
       {
         "locale": "es-es",
         "name": "Host de MTP"
-      },
-      {
-        "locale": "",
-        "name": "MTP-Host"
       }
     ],
     "devices": [
@@ -67184,6 +67170,10 @@
     "appName": "Nfc Service",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "NFC"
+      },
       {
         "locale": "en-gb",
         "name": "NFC service"
@@ -69883,6 +69873,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Paketinstallation"
+      },
+      {
         "locale": "ru-ru",
         "name": "Установщик пакетов"
       },
@@ -69897,10 +69891,6 @@
       {
         "locale": "es-es",
         "name": "Instalador de paquetes"
-      },
-      {
-        "locale": "",
-        "name": "Paketinstallation"
       }
     ],
     "devices": [
@@ -72015,6 +72005,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Telefon- und SMS-Speicher"
+      },
+      {
         "locale": "ru-ru",
         "name": "Память номеров/SMS/MMS"
       },
@@ -72041,10 +72035,6 @@
       {
         "locale": "",
         "name": "Phone Call/SMS Storage"
-      },
-      {
-        "locale": "",
-        "name": "Telefon- und SMS-Speicher"
       }
     ],
     "devices": [
@@ -72296,7 +72286,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Call Management"
+        "name": "Telefonanrufe"
       },
       {
         "locale": "en-gb",
@@ -72337,10 +72327,6 @@
       {
         "locale": "es-es",
         "name": "Llamadas de teléfono"
-      },
-      {
-        "locale": "",
-        "name": "Telefonanrufe"
       }
     ],
     "devices": [
@@ -72591,6 +72577,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Telefondienste"
+      },
+      {
         "locale": "en-gb",
         "name": "Phone services"
       },
@@ -72617,10 +72607,6 @@
       {
         "locale": "",
         "name": "Mobile Data"
-      },
-      {
-        "locale": "",
-        "name": "Telefondienste"
       }
     ],
     "devices": [
@@ -74847,6 +74833,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Druck-Spooler"
+      },
+      {
         "locale": "ru-ru",
         "name": "Спулер печати"
       },
@@ -74857,10 +74847,6 @@
       {
         "locale": "es-es",
         "name": "Cola de impresión"
-      },
-      {
-        "locale": "",
-        "name": "Druck-Spooler"
       }
     ],
     "devices": [
@@ -85458,6 +85444,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Einstellungen"
+      },
+      {
         "locale": "ru-ru",
         "name": "Настройки"
       },
@@ -85472,10 +85462,6 @@
       {
         "locale": "es-es",
         "name": "Ajustes"
-      },
-      {
-        "locale": "",
-        "name": "Einstellungen"
       }
     ],
     "devices": [
@@ -85858,6 +85844,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Einstellungsspeicher"
+      },
+      {
         "locale": "ru-ru",
         "name": "Хранилище настроек"
       },
@@ -85872,10 +85862,6 @@
       {
         "locale": "es-es",
         "name": "Almacenamiento de configuración"
-      },
-      {
-        "locale": "",
-        "name": "Einstellungsspeicher"
       }
     ],
     "devices": [
@@ -86157,6 +86143,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Einstellungsvorschläge"
+      },
+      {
         "locale": "ru-ru",
         "name": "Предложения Настроек"
       },
@@ -86175,10 +86165,6 @@
       {
         "locale": "",
         "name": "Settings suggestions"
-      },
-      {
-        "locale": "",
-        "name": "Einstellungsvorschläge"
       }
     ],
     "devices": [
@@ -87179,6 +87165,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "SIM-App-Dialogfeld"
+      },
+      {
         "locale": "en-gb",
         "name": "Sim app dialogue"
       },
@@ -87205,10 +87195,6 @@
       {
         "locale": "es-es",
         "name": "Cuadro de diálogo de la aplicación de SIM"
-      },
-      {
-        "locale": "",
-        "name": "SIM-App-Dialogfeld"
       }
     ],
     "devices": [
@@ -87638,6 +87624,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "SIM-Toolkit"
+      },
+      {
         "locale": "ru-ru",
         "name": "SIM-Меню"
       },
@@ -87664,10 +87654,6 @@
       {
         "locale": "es-es",
         "name": "Kit herramientas SIM"
-      },
-      {
-        "locale": "",
-        "name": "SIM-Toolkit"
       }
     ],
     "devices": [
@@ -90437,6 +90423,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Spracherkennung und -Synthese von Google"
+      },
+      {
         "locale": "ru-ru",
         "name": "Распознавание и синтез речи от Google"
       },
@@ -90471,10 +90461,6 @@
       {
         "locale": "",
         "name": "Google Text-to-speech Engine"
-      },
-      {
-        "locale": "",
-        "name": "Spracherkennung und -Synthese von Google"
       }
     ],
     "devices": [
@@ -90969,6 +90955,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Speichermanager"
+      },
+      {
         "locale": "ru-ru",
         "name": "Менеджер Памяти"
       },
@@ -90983,10 +90973,6 @@
       {
         "locale": "es-es",
         "name": "Administrador de almacenamiento"
-      },
-      {
-        "locale": "",
-        "name": "Speichermanager"
       }
     ],
     "devices": [
@@ -92707,6 +92693,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Ablaufverfolgung"
+      },
+      {
         "locale": "ru-ru",
         "name": "Трассировка системы"
       },
@@ -92717,10 +92707,6 @@
       {
         "locale": "es-es",
         "name": "Trazado del sistema"
-      },
-      {
-        "locale": "",
-        "name": "Ablaufverfolgung"
       }
     ],
     "devices": [
@@ -92951,6 +92937,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "System-UI"
+      },
+      {
         "locale": "ru-ru",
         "name": "Интерфейс системы"
       },
@@ -92965,10 +92955,6 @@
       {
         "locale": "es-es",
         "name": "IU sistema"
-      },
-      {
-        "locale": "",
-        "name": "System-UI"
       }
     ],
     "devices": [
@@ -94336,7 +94322,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Tall display cutout"
+        "name": "Hohe Aussparung"
       },
       {
         "locale": "ru-ru",
@@ -94357,10 +94343,6 @@
       {
         "locale": "es-es",
         "name": "Recorte alto"
-      },
-      {
-        "locale": "",
-        "name": "Hohe Aussparung"
       }
     ],
     "devices": [
@@ -96683,6 +96665,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Mein Wörterbuch"
+      },
+      {
         "locale": "ru-ru",
         "name": "Словарь пользователя"
       },
@@ -96697,10 +96683,6 @@
       {
         "locale": "es-es",
         "name": "Diccionario del usuario"
-      },
-      {
-        "locale": "",
-        "name": "Mein Wörterbuch"
       }
     ],
     "devices": [
@@ -100606,7 +100588,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Work profile setup"
+        "name": "Einrichtung des Arbeitsprofils"
       },
       {
         "locale": "ru-ru",
@@ -100627,10 +100609,6 @@
       {
         "locale": "es-es",
         "name": "Configuración de trabajo"
-      },
-      {
-        "locale": "",
-        "name": "Einrichtung des Arbeitsprofils"
       }
     ],
     "devices": [
