@@ -1262,18 +1262,6 @@
       }
     ]
   },
-  "com.hihonor.aod": {
-    "appName": "Always On Display",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.oplus.aod": {
     "appName": "Always-On Display",
     "userFacing": false,
@@ -1398,6 +1386,10 @@
       {
         "locale": "nl-nl",
         "name": "Android Toegankelijkheidstools"
+      },
+      {
+        "locale": "es-es",
+        "name": "Suite de Accesibilidad Android"
       }
     ],
     "devices": [
@@ -4717,18 +4709,6 @@
       }
     ]
   },
-  "com.hihonor.appmarket": {
-    "appName": "App Market",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.samsung.android.sm.devicesecurity": {
     "appName": "App protection",
     "userFacing": false,
@@ -6917,7 +6897,12 @@
   "com.hihonor.awareness": {
     "appName": "Awareness",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Atención"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -6934,7 +6919,12 @@
   "com.hihonor.koBackup": {
     "appName": "Backup",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Copia de seguridad"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -8381,15 +8371,11 @@
         "name": "Bluetooth"
       },
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "Bluetooth"
       },
       {
         "locale": "en-za",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "es-es",
         "name": "Bluetooth"
       }
     ],
@@ -9164,7 +9150,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "HihonorSmart"
       }
     ],
@@ -9287,6 +9273,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.hihonor.compass": {
+    "appName": "Brújula",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -9550,7 +9548,12 @@
   "com.hihonor.calculator": {
     "appName": "Calculator",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Calculadora"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -9764,7 +9767,12 @@
   "com.hihonor.calendar": {
     "appName": "Calendar",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Calendario"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -10571,18 +10579,6 @@
       }
     ]
   },
-  "com.hihonor.phone.recorder": {
-    "appName": "Call Recorder",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.samsung.android.callassistant": {
     "appName": "Call Services",
     "userFacing": false,
@@ -11189,7 +11185,12 @@
   "com.hihonor.camera": {
     "appName": "Camera",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Cámara"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -11339,18 +11340,6 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.cameraextension": {
-    "appName": "Camera service",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -13251,6 +13240,18 @@
       }
     ]
   },
+  "com.hihonor.gamecenter": {
+    "appName": "Centro de juegos",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.certinstaller": {
     "appName": "Certificate Installer",
     "userFacing": false,
@@ -14419,7 +14420,12 @@
   "com.hihonor.deskclock": {
     "appName": "Clock",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Reloj"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -14706,8 +14712,8 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
-        "name": "Quick login"
+        "locale": "es-es",
+        "name": "Configuración colaborativa"
       }
     ],
     "devices": [
@@ -29472,8 +29478,8 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
-        "name": "Link to Windows Service"
+        "locale": "es-es",
+        "name": "Servicio Conexión a Windows"
       }
     ],
     "devices": [
@@ -34813,18 +34819,6 @@
       }
     ]
   },
-  "com.hihonor.compass": {
-    "appName": "Compass",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.nbbsw.compatiblemark": {
     "appName": "CompatibleMark",
     "userFacing": false,
@@ -36118,7 +36112,12 @@
   "com.hihonor.contacts": {
     "appName": "Contacts",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Contactos"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -36274,6 +36273,10 @@
       {
         "locale": "nl-nl",
         "name": "Opslag contacten"
+      },
+      {
+        "locale": "es-es",
+        "name": "Información de contactos"
       }
     ],
     "devices": [
@@ -36421,18 +36424,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.contacts.sync": {
-    "appName": "Contacts Sync",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -37893,16 +37884,12 @@
         "name": "Android Switch"
       },
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "Android Switch"
       },
       {
         "locale": "en-za",
         "name": "Android Setup"
-      },
-      {
-        "locale": "es-es",
-        "name": "Android Switch"
       }
     ],
     "devices": [
@@ -38593,7 +38580,12 @@
   "com.hihonor.printservice": {
     "appName": "Default Print Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Servicio de impresión predeterminado"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -38666,7 +38658,12 @@
   "com.hihonor.trustcircle": {
     "appName": "Device authentication service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Servicio de autenticación del dispositivo"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -38810,7 +38807,12 @@
   "com.hihonor.android.clone": {
     "appName": "Device Clone",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Clonación de dispositivo"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -38893,7 +38895,12 @@
   "com.hihonor.iconnect": {
     "appName": "Device connection service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Servicio de conexión del dispositivo"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -39748,12 +39755,7 @@
   "com.android.devicelockcontroller": {
     "appName": "DeviceLockController",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-kr",
-        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‎‏‏‏‏‏‎‏‏‎‏‏‎‏‏‏‎‎‏‎‎‎‏‎‏‏‎‏‏‏‏‏‏‎‏‏‎‏‎‏‏‏‎‏‎‎‎‏‎‎‏‎‏‏‏‎‎DeviceLockController‎‏‎‎‏‎"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "Google",
@@ -40377,6 +40379,10 @@
       {
         "locale": "nl-nl",
         "name": "Digitaal welzijn"
+      },
+      {
+        "locale": "es-es",
+        "name": "Bienestar digital"
       }
     ],
     "devices": [
@@ -40639,6 +40645,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.hnoffice": {
+    "appName": "Documentos de HONOR",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -42830,7 +42848,12 @@
   "com.hihonor.email": {
     "appName": "Email",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Correo"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -42907,8 +42930,8 @@
         "name": "com.android.emergency"
       },
       {
-        "locale": "en-kr",
-        "name": "Emergency"
+        "locale": "es-es",
+        "name": "Emergencia"
       }
     ],
     "devices": [
@@ -43968,6 +43991,30 @@
       }
     ]
   },
+  "com.hihonor.collectcenter": {
+    "appName": "Espacio de Favoritos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.mirror": {
+    "appName": "Espejo",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.plum.EuiccOverlayApp": {
     "appName": "EuiccOverlayApp",
     "userFacing": false,
@@ -44007,10 +44054,6 @@
       {
         "locale": "it-it",
         "name": "Archivio esterno"
-      },
-      {
-        "locale": "en-kr",
-        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‎‏‎‏‎‎‏‏‎‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‎‏‎‏‏‎‎‏‏‏‎‎‎‎‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‏‎‏‏‏‎External Storage‎‏‎‎‏‎"
       },
       {
         "locale": "es-es",
@@ -45261,18 +45304,6 @@
       }
     ]
   },
-  "com.hihonor.collectcenter": {
-    "appName": "Favourites Space",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.idea.questionnaire": {
     "appName": "Feedback",
     "userFacing": false,
@@ -45621,7 +45652,12 @@
   "com.hihonor.filemanager": {
     "appName": "Files",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Archivos"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -46987,18 +47023,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.android.fmradio": {
-    "appName": "FM Radio",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -48446,7 +48470,12 @@
   "com.hihonor.photos": {
     "appName": "Gallery",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Galería"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -48723,18 +48752,6 @@
       }
     ]
   },
-  "com.hihonor.gamecenter": {
-    "appName": "Game Center",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.xiaomi.glgm": {
     "appName": "Game Centre",
     "userFacing": true,
@@ -48749,18 +48766,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.gameassistant": {
-    "appName": "Game Manager",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -49211,6 +49216,30 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.dsdscardmanager": {
+    "appName": "Gestión de SIM",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.gameassistant": {
+    "appName": "Gestor de juegos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -53547,6 +53576,18 @@
       }
     ]
   },
+  "com.hihonor.phone.recorder": {
+    "appName": "Grabadora de llamadas",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.theme.color.green": {
     "appName": "Green",
     "userFacing": false,
@@ -54903,46 +54944,15 @@
       }
     ]
   },
-  "com.hihonor.hncloud": {
-    "appName": "HONOR Data Sync",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.hnoffice": {
-    "appName": "HONOR Docs",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.health": {
-    "appName": "HONOR Health",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.hihonor.android.launcher": {
     "appName": "HONOR Home",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Inicio HONOR"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -54961,8 +54971,8 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
-        "name": "Magic Mobile Service"
+        "locale": "es-es",
+        "name": "Servicio móvil de Magic"
       }
     ],
     "devices": [
@@ -54983,7 +54993,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "HONOR Lens"
       }
     ],
@@ -55000,27 +55010,10 @@
       }
     ]
   },
-  "com.hihonor.mediamaterial": {
-    "appName": "HONOR Media Materials",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.hihonor.android.pushagent": {
     "appName": "HONOR Push",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-kr",
-        "name": "Honor Push"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "HONOR",
@@ -55034,13 +55027,25 @@
       }
     ]
   },
+  "com.hihonor.health": {
+    "appName": "HONOR Salud",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.hihonor.search": {
     "appName": "HONOR Search",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
-        "name": "Honor Search"
+        "locale": "es-es",
+        "name": "Búsqueda de Honor"
       }
     ],
     "devices": [
@@ -55078,8 +55083,8 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
-        "name": "HONOR System Services"
+        "locale": "es-es",
+        "name": "Servicios del sistema HONOR"
       }
     ],
     "devices": [
@@ -55100,7 +55105,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "Multi-Screen Collaboration"
       }
     ],
@@ -55697,7 +55702,12 @@
   "com.hihonor.bluetooth": {
     "appName": "Import via Bluetooth",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Importar por Bluetooth"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -56431,7 +56441,12 @@
   "com.hihonor.detectrepair": {
     "appName": "Intelligent Diagnosis",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Diagnóstico inteligente"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -58906,6 +58921,10 @@
       {
         "locale": "it-it",
         "name": "Collegamento a Windows"
+      },
+      {
+        "locale": "es-es",
+        "name": "Enlace a Windows"
       }
     ],
     "devices": [
@@ -59099,18 +59118,6 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.linktowindowsservice": {
-    "appName": "Link to Windows Service",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -59981,7 +59988,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "Magic Pictorial"
       }
     ],
@@ -61248,6 +61255,18 @@
       }
     ]
   },
+  "com.hihonor.mediamaterial": {
+    "appName": "Materiales multimedia de HONOR",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.miui.systemui.carriers.overlay": {
     "appName": "MccMncOverlay",
     "userFacing": false,
@@ -61491,7 +61510,12 @@
   "com.hihonor.medialibrary": {
     "appName": "Media Library",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Biblioteca multimedia"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -62157,6 +62181,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.hihonor.omacp": {
+    "appName": "Mensaje de aprovisionamiento",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -63122,6 +63158,10 @@
       {
         "locale": "it-it",
         "name": "Tastiera Microsoft SwiftKey"
+      },
+      {
+        "locale": "es-es",
+        "name": "Teclado Microsoft SwiftKey"
       }
     ],
     "devices": [
@@ -63267,18 +63307,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.mirror": {
-    "appName": "Mirror",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -63960,6 +63988,18 @@
       }
     ]
   },
+  "com.hihonor.ridemode": {
+    "appName": "Modo viaje",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.modulemetadata": {
     "appName": "Module Metadata",
     "userFacing": false,
@@ -63991,6 +64031,18 @@
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.aod": {
+    "appName": "Mostrar siempre en pantalla",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -64064,7 +64116,12 @@
   "com.hihonor.motionservice": {
     "appName": "Motions",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Movimientos"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -65135,7 +65192,12 @@
   "com.hihonor.hndockbar": {
     "appName": "Multi-Window",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Ventanas múltiples"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -65152,7 +65214,12 @@
   "com.hihonor.msdp": {
     "appName": "Multimodal Sensor Data Platform",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Plataforma de datos de sensores de múltiples modos"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -65192,18 +65259,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.hihonor.hnmusicplayer": {
-    "appName": "Music Player",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
       }
     ]
   },
@@ -65463,7 +65518,12 @@
   "com.hihonor.phoneservice": {
     "appName": "My HONOR",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "My Honor"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -65541,7 +65601,12 @@
   "com.hihonor.android.FloatTasks": {
     "appName": "Navigation Dock",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Dock de navegación"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -66280,8 +66345,8 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
-        "name": "Carrier Location Services"
+        "locale": "es-es",
+        "name": "Servicios de localización del operador"
       }
     ],
     "devices": [
@@ -66708,7 +66773,7 @@
         "name": "NetworkStackResOverlay"
       },
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "com.android.networkstack.overlay"
       }
     ],
@@ -66884,10 +66949,6 @@
       {
         "locale": "en-de",
         "name": "NFC Migration"
-      },
-      {
-        "locale": "en-kr",
-        "name": "NFC Service"
       },
       {
         "locale": "es-es",
@@ -67192,8 +67253,8 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "en-kr",
-        "name": "Notes"
+        "locale": "es-es",
+        "name": "Notas"
       }
     ],
     "devices": [
@@ -67965,7 +68026,12 @@
   "com.hihonor.numberidentity": {
     "appName": "Number Identifier",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Identificador de números"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -70244,7 +70310,12 @@
   "com.hihonor.keychain": {
     "appName": "Password Vault",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Gestor de contraseñas"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -71628,7 +71699,12 @@
   "com.android.incallui": {
     "appName": "Phone",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Teléfono"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -71678,10 +71754,6 @@
       {
         "locale": "it-it",
         "name": "Memoria telefono/messaggi"
-      },
-      {
-        "locale": "en-kr",
-        "name": "Phone/Messaging Storage"
       },
       {
         "locale": "es-es",
@@ -71972,16 +72044,12 @@
         "name": "Phone calls"
       },
       {
-        "locale": "en-kr",
-        "name": "Call Management"
+        "locale": "es-es",
+        "name": "Llamadas de teléfono"
       },
       {
         "locale": "en-za",
         "name": "Call Management"
-      },
-      {
-        "locale": "es-es",
-        "name": "Llamadas de teléfono"
       }
     ],
     "devices": [
@@ -72964,6 +73032,10 @@
       {
         "locale": "nl-nl",
         "name": "Foto's"
+      },
+      {
+        "locale": "es-es",
+        "name": "Fotos"
       }
     ],
     "devices": [
@@ -75058,18 +75130,6 @@
       }
     ]
   },
-  "com.hihonor.omacp": {
-    "appName": "Provisioning message",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.android.proxyhandler": {
     "appName": "ProxyHandler",
     "userFacing": false,
@@ -76337,6 +76397,18 @@
       }
     ]
   },
+  "com.hihonor.android.fmradio": {
+    "appName": "Radio FM",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.slsi.telephony.oem.oemrilhookservice": {
     "appName": "RadioConfigService",
     "userFacing": false,
@@ -76651,7 +76723,12 @@
   "com.hihonor.soundrecorder": {
     "appName": "Recorder",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Grabadora"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -77072,6 +77149,30 @@
       }
     ]
   },
+  "com.hihonor.hnmusicplayer": {
+    "appName": "Reproductor de música",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.hnvideoplayer": {
+    "appName": "Reproductor de vídeo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.sonymobile.retaildemo": {
     "appName": "Retail Demo",
     "userFacing": false,
@@ -77163,18 +77264,6 @@
       {
         "make": "RHINO",
         "model": "T8",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.ridemode": {
-    "appName": "Ride mode",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -82940,7 +83029,12 @@
   "com.hihonor.screenrecorder": {
     "appName": "Screen recording",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Grabación de pantalla"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -83034,7 +83128,12 @@
   "com.hihonor.HnMultiScreenShot": {
     "appName": "Scrollshot",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Captura con desplazamiento"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -83737,12 +83836,7 @@
   "com.android.se": {
     "appName": "SecureElementApplication",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-kr",
-        "name": "SecureElementService"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -84990,6 +85084,42 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.hihonor.linktowindowsservice": {
+    "appName": "Servicio Conexión a Windows",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.cameraextension": {
+    "appName": "Servicio de Cámara",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.featurelayer.sharedfeature.stylus": {
+    "appName": "Servicio de Stylus",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -86727,12 +86857,12 @@
         "name": "Sim app dialogue"
       },
       {
-        "locale": "en-za",
-        "name": "Sim app dialogue"
-      },
-      {
         "locale": "es-es",
         "name": "Cuadro de diálogo de la aplicación de SIM"
+      },
+      {
+        "locale": "en-za",
+        "name": "Sim app dialogue"
       }
     ],
     "devices": [
@@ -86970,18 +87100,6 @@
       }
     ]
   },
-  "com.hihonor.dsdscardmanager": {
-    "appName": "SIM management",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.google.android.euicc": {
     "appName": "SIM Manager",
     "userFacing": false,
@@ -87178,12 +87296,12 @@
         "name": "Servizi SIM"
       },
       {
-        "locale": "en-za",
-        "name": "SIM Tool Kit"
-      },
-      {
         "locale": "es-es",
         "name": "Kit herramientas SIM"
+      },
+      {
+        "locale": "en-za",
+        "name": "SIM Tool Kit"
       }
     ],
     "devices": [
@@ -87581,6 +87699,30 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.hihonor.contacts.sync": {
+    "appName": "Sincronización de contactos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.hihonor.hncloud": {
+    "appName": "Sincronización de datos de HONOR",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
       }
     ]
   },
@@ -88048,7 +88190,12 @@
   "com.hihonor.smartshot": {
     "appName": "Smart screenshots",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Capturas inteligentes"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -89164,7 +89311,12 @@
   "com.hihonor.ouc": {
     "appName": "Software update",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Actualización de software"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -89957,12 +90109,12 @@
         "name": "Riconoscimento e sintesi vocale di Google"
       },
       {
-        "locale": "en-za",
-        "name": "Google Text-to-speech engine"
-      },
-      {
         "locale": "es-es",
         "name": "Reconocimiento y síntesis de voz de Google"
+      },
+      {
+        "locale": "en-za",
+        "name": "Google Text-to-speech engine"
       },
       {
         "locale": "",
@@ -90861,18 +91013,6 @@
       }
     ]
   },
-  "com.hihonor.featurelayer.sharedfeature.stylus": {
-    "appName": "Stylus Service",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
-        "os": "34"
-      }
-    ]
-  },
   "com.rivotek.tblenovo.stylusui": {
     "appName": "StylusUI",
     "userFacing": false,
@@ -91365,7 +91505,12 @@
   "com.hihonor.imedia.sws": {
     "appName": "Switch audio",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Cambiar audio"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -91416,7 +91561,12 @@
   "com.hihonor.systemappsupdater": {
     "appName": "System Apps Updater",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Actualizador de aplicaciones del sistema"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -91832,7 +91982,12 @@
   "com.hihonor.systemmanager": {
     "appName": "System Manager",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Administrador del sistema"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -93050,12 +93205,12 @@
         "name": "Risorse Wi-Fi sistema"
       },
       {
-        "locale": "en-za",
-        "name": "System Wi-Fi resources"
-      },
-      {
         "locale": "es-es",
         "name": "Recursos Wi‑Fi del sistema"
+      },
+      {
+        "locale": "en-za",
+        "name": "System Wi-Fi resources"
       }
     ],
     "devices": [
@@ -94781,7 +94936,7 @@
         "name": "com.android.networkstack.tethering.overlay"
       },
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "com.android.networkstack.tethering.overlay"
       }
     ],
@@ -94970,7 +95125,12 @@
   "com.hihonor.android.thememanager": {
     "appName": "Themes",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Temas"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -95079,6 +95239,18 @@
       }
     ]
   },
+  "com.hihonor.appmarket": {
+    "appName": "Tienda de aplicaciones",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HONOR",
+        "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.timezone.updater": {
     "appName": "Time Zone Updater",
     "userFacing": false,
@@ -95094,7 +95266,12 @@
   "com.hihonor.tips": {
     "appName": "Tips",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Sugerencias"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -96901,7 +97078,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
+        "locale": "es-es",
         "name": "Cut"
       }
     ],
@@ -97151,18 +97328,6 @@
       {
         "make": "samsung",
         "model": "SM-A236B",
-        "os": "34"
-      }
-    ]
-  },
-  "com.hihonor.hnvideoplayer": {
-    "appName": "Video Player",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HONOR",
-        "model": "LLY-LX3",
         "os": "34"
       }
     ]
@@ -98902,7 +99067,12 @@
   "com.hihonor.android.totemweather": {
     "appName": "Weather",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "El tiempo"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -99225,7 +99395,12 @@
   "com.hihonor.android.wfdft": {
     "appName": "Wi-Fi Direct",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Wi-Fi Directo"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -99610,10 +99785,6 @@
         "name": "Wireless emergency alerts"
       },
       {
-        "locale": "en-kr",
-        "name": "Wireless emergency alerts"
-      },
-      {
         "locale": "es-es",
         "name": "Alertas de emergencia inalámbricas"
       },
@@ -99855,7 +100026,12 @@
   "com.hihonor.android.mirrorshare": {
     "appName": "Wireless Projection",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Proyección inalámbrica"
+      }
+    ],
     "devices": [
       {
         "make": "HONOR",
@@ -100039,10 +100215,6 @@
       {
         "locale": "it-it",
         "name": "Configurazione per il lavoro"
-      },
-      {
-        "locale": "en-kr",
-        "name": "Work profile setup"
       },
       {
         "locale": "es-es",
@@ -100974,8 +101146,8 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-kr",
-        "name": "AI Suggestions"
+        "locale": "es-es",
+        "name": "Sugerencias con IA"
       }
     ],
     "devices": [
