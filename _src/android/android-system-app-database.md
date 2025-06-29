@@ -45,9 +45,9 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 </div>
 </div>
 
-<div class="filters-grid" style=" padding-top:40px; display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-bottom: 1rem;">
-<input type="text" id="searchInput" placeholder="Search package, app name, OS, device, or model..." style="flex: 2 1 60%; min-width: 200px;" />
-<div style="display: flex; gap: 0.5rem; flex: 1 1 35%; justify-content: flex-end; flex-wrap: wrap;">
+<div class="filters-grid">
+<input type="text" id="searchInput" placeholder="Search package, app name, OS, device, or model..."/>
+<div class="app-db-filters">
 <select id="filterMake"><option value="">All OEMs</option></select>
 <select id="filterModel"><option value="">All Models</option></select>
 <select id="filterOS"><option value="">All OS</option></select>
@@ -55,7 +55,7 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 </div>
 
 <div class="responsive-table-wrapper">
-<table id="appTable" style="table-layout: fixed; width: 100%; min-width: 1000px; border-collapse: border">
+<table id="appTable" style="">
 <thead>
 <tr>
 <th>App Name</th>
@@ -120,7 +120,20 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 {% endfor %}
 </tbody>
 </table>
+
+<div class="pagination-controls">
+  <label for="itemsPerPage">Show per page:</label>
+  <select id="itemsPerPage">
+    <option value="100" selected>100</option>
+    <option value="200">200</option>
+    <option value="500">500</option>
+    <option value="1000">1000</option>
+    <option value="all">All</option>
+  </select>
+  <div id="pagination" class="pagination"></div>
 </div>
+</div>
+
 
 <span class="padding-tb-20"></span>
 

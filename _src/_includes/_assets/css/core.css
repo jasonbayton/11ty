@@ -2555,8 +2555,8 @@ position: relative;
 /* Search input spinner */
 #debouncing {
 position: absolute;
-top: 2.2rem;
-right: 1.2rem;
+top: 2.1rem;
+right: 2.5rem;
 width: 2rem;
 height: 2rem;
 border-radius: 50%;
@@ -2746,6 +2746,46 @@ section#note_overview {
     font-size: 30px;
   }
 }
+
+/* CSS for Android sysapp DB */
+
+.filters-grid {
+  padding-top:40px; 
+  display: flex; 
+  gap: 1rem; 
+  align-items: center; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  margin-bottom: 1rem;
+
+  & #searchInput {
+    flex: 2 1 60%; 
+    min-width: 200px;
+  }
+
+  & .app-db-filters {
+    display: flex; 
+    gap: 0.5rem; 
+    flex: 1 1 35%; 
+    justify-content: flex-end;
+
+    & select {
+      max-width: 200px;
+    }
+  }
+}
+
+#appTable {
+  table-layout: fixed; 
+  width: 100%; 
+  min-width: 1100px; 
+  border-collapse: border
+}
+
+.pagination a {
+  padding: 0 5px;
+}
+
 
 /* Added nested CSS block 
 html, body, [data-theme="light"], [data-theme="dark"] {

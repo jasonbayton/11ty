@@ -61,10 +61,56 @@ async function buildTable() {
     ['input', 'change', 'keyup'].forEach(evt => {
       el.addEventListener(evt, () => {
         updateFilters();
+        currentPage = 1; // Reset to page 1 on filter/search change
+        itemsPerPage = itemsPerPageSelect.value === 'all' ? Infinity : parseInt(itemsPerPageSelect.value);
         render();
       });
     });
   });
+
+  let currentPage = 1;
+  let itemsPerPageSelect = document.getElementById('itemsPerPage');
+  let itemsPerPage = itemsPerPageSelect?.value === 'all' ? Infinity : parseInt(itemsPerPageSelect?.value || '100');
+
+  const paginationContainer = document.getElementById('pagination');
+  // const itemsPerPageSelect = document.getElementById('itemsPerPage'); // Already declared above
+
+  function renderPagination(totalItems) {
+    const totalPages = Math.ceil(totalItems / itemsPerPage);
+    if (!paginationContainer) return;
+
+    let html = '';
+    if (totalPages > 1) {
+      html += `<a href="#" data-page="${currentPage - 1}" class="${currentPage === 1 ? 'disabled' : ''}">&lt;</a>`;
+      for (let i = 1; i <= totalPages; i++) {
+        if (i === 1 || i === totalPages || Math.abs(i - currentPage) <= 2) {
+          html += `<a href="#" data-page="${i}" class="${i === currentPage ? 'active' : ''}">${i}</a>`;
+        } else if (i === 2 && currentPage > 4) {
+          html += `<span>...</span>`;
+        } else if (i === totalPages - 1 && currentPage < totalPages - 3) {
+          html += `<span>...</span>`;
+        }
+      }
+      html += `<a href="#" data-page="${currentPage + 1}" class="${currentPage === totalPages ? 'disabled' : ''}">&gt;</a>`;
+    }
+
+    paginationContainer.innerHTML = html;
+    paginationContainer.querySelectorAll('a[data-page]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        currentPage = parseInt(btn.dataset.page);
+        render();
+      });
+    });
+  }
+
+  if (itemsPerPageSelect) {
+    itemsPerPageSelect.addEventListener('change', () => {
+      itemsPerPage = itemsPerPageSelect.value === 'all' ? Infinity : parseInt(itemsPerPageSelect.value);
+      currentPage = 1;
+      render();
+    });
+  }
 
   function render() {
     const q = searchInput.value.toLowerCase();
@@ -72,7 +118,7 @@ async function buildTable() {
     const selectedModel = filterModel.value;
     const selectedOS = filterOS.value;
 
-    rows.forEach(row => {
+    const filteredRows = rows.filter(row => {
       const matches =
         (!q ||
           row.packageName.toLowerCase().includes(q) ||
@@ -86,8 +132,22 @@ async function buildTable() {
         (!selectedModel || row.model.split(',').map(s => s.trim()).includes(selectedModel)) &&
         (!selectedOS || row.os.split(',').map(s => s.trim()).includes(selectedOS));
 
-      row.element.style.display = matches ? '' : 'none';
+      return matches;
     });
+
+    rows.forEach(row => {
+      row.element.style.display = 'none';
+    });
+
+    const visibleRows = itemsPerPage === Infinity
+      ? filteredRows
+      : filteredRows.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+
+    visibleRows.forEach(row => {
+      row.element.style.display = '';
+    });
+
+    renderPagination(filteredRows.length);
   }
 
   updateFilters();
