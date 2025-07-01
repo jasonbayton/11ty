@@ -844,7 +844,10 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
 <h3>Pricing</h3>
 <p>MANAGED INFO is available at no cost for standard info cards and support messaging. If you'd like to explore endless customisation, trials are available before committing to a licence, and bundled-pricing is available for MANAGED SETTINGS, also.</p>
 
-Just [get in touch](/contact).
+<div class="callout">
+Test all MANAGED INFO features with the trial licence: <span class="highlight">managedinfotrial100</span></div>
+
+Need help? Just [get in touch](/contact).
 
 <div class="pricing-table padding-top-40">
     <div class="pricing-item">
