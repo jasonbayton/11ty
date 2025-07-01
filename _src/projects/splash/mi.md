@@ -1,5 +1,5 @@
 ---
-title: MANAGED INFO
+title: MANAGED INFO & KIOSK
 date: '2025-05-17'
 status: publish
 author: 'Jason Bayton'
@@ -845,7 +845,8 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
 <p>MANAGED INFO is available at no cost for standard info cards and support messaging. If you'd like to explore endless customisation, trials are available before committing to a licence, and bundled-pricing is available for MANAGED SETTINGS, also.</p>
 
 <div class="callout">
-Test all MANAGED INFO features with the trial licence: <span class="highlight">managedinfotrial100</span></div>
+Test all MANAGED INFO features with the trial licence: <span class="highlight">managedinfotrial100</span>. Input this into the <b>Licensed organisation ID</b> field within managed configurations. Note this trial license rotates often.
+</div>
 
 Need help? Just [get in touch](/contact).
 
