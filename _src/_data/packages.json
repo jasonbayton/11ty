@@ -6127,12 +6127,7 @@
   "com.qualcomm.qtil.aptxui": {
     "appName": "aptxui",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "als"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "Elo Touch Solutions",
@@ -17187,7 +17182,12 @@
   "com.android.cellbroadcastreceiver": {
     "appName": "com.android.cellbroadcastreceiver",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Wireless emergency alerts"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -39887,10 +39887,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Contacts storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Хранилище контактов"
       },
@@ -57051,7 +57047,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "Google Safety Centre resources"
+        "name": "Safety Center Resources"
       },
       {
         "locale": "ru-ru",
@@ -72614,7 +72610,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "NFC service"
+        "name": "Nfc Service"
       },
       {
         "locale": "ru-ru",
@@ -78448,10 +78444,6 @@
     "appName": "Phone Services",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Phone services"
-      },
       {
         "locale": "ru-ru",
         "name": "Телефон"
@@ -93364,6 +93356,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "Settings suggestions"
+      },
+      {
         "locale": "ru-ru",
         "name": "Предложения Настроек"
       },
@@ -93382,10 +93378,6 @@
       {
         "locale": "es-es",
         "name": "Sugerencias de ajustes"
-      },
-      {
-        "locale": "",
-        "name": "Settings suggestions"
       }
     ],
     "devices": [
@@ -100190,10 +100182,6 @@
       {
         "locale": "",
         "name": "Jugendschutzeinstellungen"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Family Link parental controls"
       },
       {
         "locale": "ru-ru",
