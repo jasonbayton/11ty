@@ -3644,7 +3644,12 @@
   "com.android.adservices.api": {
     "appName": "Android System",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Android system"
+      }
+    ],
     "devices": [
       {
         "make": "Elo Touch Solutions",
@@ -99956,7 +99961,12 @@
   "com.android.connectivity.resources": {
     "appName": "System Connectivity Resources",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "System connectivity resources"
+      }
+    ],
     "devices": [
       {
         "make": "Elo Touch Solutions",
