@@ -82,6 +82,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -407,6 +412,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -518,6 +528,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -1385,6 +1400,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -1583,6 +1603,11 @@
         "os": "33"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -1748,6 +1773,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -2039,6 +2069,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -2328,6 +2363,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -2630,6 +2670,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -2890,6 +2935,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -3172,6 +3222,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -3448,6 +3503,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -3783,6 +3843,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -4033,6 +4098,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -4857,6 +4927,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -5038,6 +5113,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -5069,6 +5149,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -5163,14 +5248,28 @@
       }
     ]
   },
-  "com.dsi.ant.service.socket": {
-    "appName": "ANT Radio Service",
+  "com.dsi.ant.server": {
+    "appName": "ANT HAL Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "ANT+ HAL service"
+      },
+      {
+        "locale": "en-gb",
+        "name": "ANT+ HAL service"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
         "os": "33"
       },
       {
@@ -5180,15 +5279,10 @@
       }
     ]
   },
-  "com.dsi.ant.server": {
-    "appName": "ANT+ HAL service",
+  "com.dsi.ant.service.socket": {
+    "appName": "ANT Radio Service",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "de-de",
-        "name": "ANT HAL Service"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -6133,6 +6227,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -8110,6 +8209,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -9025,6 +9129,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -9520,6 +9629,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -9780,6 +9894,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -10069,6 +10188,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -10511,6 +10635,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -10636,6 +10765,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -10780,6 +10914,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -11093,6 +11232,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -11633,6 +11777,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -12310,6 +12459,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -12901,6 +13055,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -13343,6 +13502,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -13774,6 +13938,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -14173,6 +14342,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -14542,6 +14716,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -14877,6 +15056,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -15205,6 +15389,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -15947,6 +16136,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -16377,6 +16571,11 @@
         "os": "31"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -16533,6 +16732,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -16726,6 +16930,18 @@
       }
     ]
   },
+  "com.android.batteryinfo": {
+    "appName": "com.android.batteryinfo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.bips.auto_generated_rro_product__": {
     "appName": "com.android.bips.auto_generated_rro_product__",
     "userFacing": false,
@@ -16868,6 +17084,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -17083,6 +17304,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -17230,6 +17456,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -17347,6 +17578,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -17681,6 +17917,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -17946,6 +18187,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -18252,6 +18498,18 @@
       }
     ]
   },
+  "com.android.esimupdatechecker": {
+    "appName": "com.android.esimupdatechecker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.euicc.partner": {
     "appName": "com.android.euicc.partner",
     "userFacing": false,
@@ -18458,6 +18716,11 @@
         "os": "33"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -18637,6 +18900,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -19079,6 +19347,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -19331,6 +19604,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -19678,6 +19956,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -20007,6 +20290,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -20261,6 +20549,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -20572,6 +20865,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -21470,6 +21768,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -21686,6 +21989,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -22014,6 +22322,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -22270,6 +22583,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
         "os": "33"
       },
       {
@@ -23055,6 +23373,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -23728,6 +24051,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -23980,6 +24308,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -24176,6 +24509,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -24236,6 +24574,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -24522,6 +24865,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24557,6 +24905,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "isafemobile",
@@ -24704,6 +25057,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       }
     ]
   },
@@ -26162,6 +26520,18 @@
       }
     ]
   },
+  "com.google.android.hmdeuiccoverlayapp.partnercustomizer": {
+    "appName": "com.google.android.hmdeuiccoverlayapp.partnercustomizer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.iwlan": {
     "appName": "com.google.android.iwlan",
     "userFacing": false,
@@ -26261,6 +26631,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
         "os": "33"
       },
       {
@@ -26735,6 +27110,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -26942,6 +27322,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -27119,6 +27504,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -27253,6 +27643,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -27457,6 +27852,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -27646,6 +28046,11 @@
         "os": "33"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -27746,6 +28151,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -27965,6 +28375,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -28276,6 +28691,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -28704,6 +29124,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -28909,6 +29334,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -29225,6 +29655,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -29444,6 +29879,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -29649,6 +30089,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -30332,6 +30777,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -33478,6 +33928,11 @@
         "os": "31"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33525,6 +33980,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -33545,6 +34005,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -33582,6 +34047,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -33638,6 +34108,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33668,6 +34143,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -33739,6 +34219,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -33771,6 +34256,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -33837,6 +34327,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33879,6 +34374,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33916,6 +34416,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33948,6 +34453,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33978,6 +34488,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -34032,6 +34547,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -34098,6 +34618,11 @@
         "os": "31"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34145,6 +34670,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34180,6 +34710,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -34224,6 +34759,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34266,6 +34806,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -34306,6 +34851,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34405,6 +34955,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34435,6 +34990,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -38085,6 +38645,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -38378,6 +38943,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -38403,6 +38973,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -38638,6 +39213,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -39614,6 +40194,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -39944,6 +40529,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -40535,6 +41125,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -41232,6 +41827,30 @@
       }
     ]
   },
+  "com.crosscall.crosscallfetchagent": {
+    "appName": "Crosscall Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
+  "com.crosscall.lduweb": {
+    "appName": "Crosscall WebView",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.sec.android.application.csc": {
     "appName": "CSC",
     "userFacing": false,
@@ -41668,6 +42287,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -41926,6 +42550,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -42576,6 +43205,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -42785,6 +43419,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -44132,6 +44771,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -44556,6 +45200,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -44827,6 +45476,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -45119,6 +45773,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -45620,6 +46279,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -46266,6 +46930,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -46939,6 +47608,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -47512,6 +48186,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.engtest": {
+    "appName": "EngTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       }
     ]
   },
@@ -48179,6 +48865,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -49706,6 +50397,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -49947,6 +50643,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
         "os": "33"
       },
       {
@@ -51347,6 +52048,18 @@
       }
     ]
   },
+  "com.hmct.ftmode": {
+    "appName": "FTMode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.elo.display.fullsize": {
     "appName": "Full Display",
     "userFacing": false,
@@ -51450,6 +52163,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -53299,6 +54017,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -53554,6 +54277,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53892,6 +54620,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -54151,6 +54884,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -54366,6 +55104,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -54641,6 +55384,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -54942,6 +55690,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -55480,6 +56233,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -55754,6 +56512,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -56019,6 +56782,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -56405,6 +57173,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -56846,6 +57619,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -57140,6 +57918,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -57337,6 +58120,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -57459,6 +58247,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -57718,6 +58511,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -59908,6 +60706,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -61020,6 +61823,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -61363,6 +62171,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -61901,6 +62714,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -62045,6 +62863,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -62347,6 +63170,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.jaggosolutions.android.crosscall.kiosk": {
+    "appName": "Kiosk Mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       }
     ]
   },
@@ -63661,6 +64496,18 @@
       }
     ]
   },
+  "com.crosscall.ldu": {
+    "appName": "LDU Configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.sec.android.cover.ledcover": {
     "appName": "LED Cover Service",
     "userFacing": false,
@@ -64450,6 +65297,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -64805,6 +65657,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -64907,6 +65764,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.logsettings": {
+    "appName": "Log Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       }
     ]
   },
@@ -65027,6 +65896,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -65375,6 +66249,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -65615,6 +66494,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65933,6 +66817,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -66201,6 +67090,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -66923,6 +67817,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -67298,6 +68197,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -67654,6 +68558,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -68852,6 +69761,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -70345,6 +71259,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -70792,6 +71711,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -70865,6 +71789,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.crosscall.account": {
+    "appName": "My Account",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       }
     ]
   },
@@ -71764,6 +72700,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72720,6 +73661,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -73480,6 +74426,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -75149,6 +76100,11 @@
         "os": "31"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -75229,6 +76185,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -75445,10 +76406,20 @@
     ]
   },
   "com.wdstechnology.android.kryten": {
-    "appName": "OTA access point configuration",
+    "appName": "OTA Access Point Configuration",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "OTA access point configuration"
+      }
+    ],
     "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -75469,6 +76440,18 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      }
+    ]
+  },
+  "com.hmct.overlaylauncher3": {
+    "appName": "OverlayGoogleHomeLauncher3",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
         "os": "33"
       }
     ]
@@ -75602,6 +76585,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -75891,6 +76879,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -76486,6 +77479,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -76628,6 +77626,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -77272,6 +78275,11 @@
         "os": "33"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -77675,6 +78683,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -77935,6 +78948,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -78249,6 +79267,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -78543,6 +79566,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -79051,6 +80079,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -79324,6 +80357,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -80131,6 +81169,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -80638,6 +81681,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -80776,6 +81824,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -81062,6 +82115,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -81312,6 +82370,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -81693,6 +82756,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -81884,6 +82952,18 @@
       }
     ]
   },
+  "com.crosscall.proxylauncher": {
+    "appName": "proxyLauncher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.syntheticsoft.telecomm": {
     "appName": "PsychicMonkey",
     "userFacing": true,
@@ -82009,6 +83089,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -82329,6 +83414,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -82414,6 +83504,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -82509,6 +83604,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -82536,6 +83636,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -82551,6 +83656,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "isafemobile",
@@ -83014,6 +84124,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "NUU",
@@ -83792,6 +84907,11 @@
         "os": "33"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -84017,6 +85137,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -90534,6 +91659,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -90685,6 +91815,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
       {
         "make": "Fairphone",
         "model": "FP4",
@@ -91066,6 +92201,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -91284,6 +92424,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -92709,6 +93854,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -93129,6 +94279,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -93430,6 +94585,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -94031,6 +95191,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -94557,6 +95722,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -94769,6 +95939,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -95048,6 +96223,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -95223,6 +96403,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -96493,6 +97678,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -97719,6 +98909,11 @@
         "os": "33"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -97857,6 +99052,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -98149,6 +99349,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -98673,6 +99878,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -99183,6 +100393,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -99769,6 +100984,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -100022,6 +101242,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -100263,6 +101488,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -100599,6 +101829,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -100870,6 +102105,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -101225,6 +102465,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -101499,6 +102744,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -102053,6 +103303,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -102361,6 +103616,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -102958,6 +104218,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -104441,6 +105706,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -104673,6 +105943,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -104901,6 +106176,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -105361,6 +106641,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -105396,6 +106681,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -105443,6 +106733,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -106545,6 +107840,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -106796,6 +108096,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -107326,6 +108631,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -108027,6 +109337,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -108694,6 +110009,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -108939,6 +110259,11 @@
         "os": "28"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -109182,6 +110507,11 @@
         "os": "30"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -109409,6 +110739,90 @@
       }
     ]
   },
+  "com.crosscall.xcam": {
+    "appName": "X-CAM",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
+  "com.crosscall.xcamp": {
+    "appName": "X-CAMP",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
+  "com.hmct.sensorapp": {
+    "appName": "X-Sensors",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
+  "com.crosscall.desktop": {
+    "appName": "X-SPACE",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
+  "com.crosscall.desktop.trackpad": {
+    "appName": "X-SPACE Trackpad",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
+  "com.crosscall.xstory": {
+    "appName": "X-STORY",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
+  "com.crosscall.xtalk": {
+    "appName": "X-TALK",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.xui.xhide": {
     "appName": "XHide",
     "userFacing": false,
@@ -109594,6 +111008,11 @@
         "os": "34"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -109634,6 +111053,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -109802,6 +111226,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -110034,6 +111463,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       },
       {
         "make": "Google",
