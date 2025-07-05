@@ -6,6 +6,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       },
@@ -25,6 +30,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -1738,6 +1748,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -2019,6 +2034,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -2333,6 +2353,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -2638,6 +2663,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -2907,6 +2937,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -3200,6 +3235,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -3480,6 +3520,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -4083,6 +4128,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -4493,6 +4543,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -4692,6 +4747,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -8197,6 +8257,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -9122,6 +9187,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -9627,6 +9697,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -9896,6 +9971,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -10195,6 +10275,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -10983,6 +11068,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -11280,6 +11370,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -11847,6 +11942,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -12772,6 +12872,38 @@
       }
     ]
   },
+  "com.android.camera2": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      }
+    ]
+  },
   "com.google.android.GoogleCamera": {
     "appName": "Camera",
     "userFacing": true,
@@ -12833,33 +12965,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.camera2": {
-    "appName": "Camera",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
-        "make": "QEMU",
-        "model": "Standard PC (i440FX + PIIX, 1996)",
-        "os": "27"
       }
     ]
   },
@@ -13138,6 +13243,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -13583,6 +13693,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -14021,6 +14136,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -14812,6 +14932,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -15139,6 +15264,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -15479,6 +15609,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -16267,6 +16402,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -16835,6 +16975,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -17114,6 +17259,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -17209,6 +17359,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -17446,6 +17601,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       }
@@ -17589,6 +17749,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -18033,6 +18198,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -18307,6 +18477,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -18671,11 +18846,28 @@
       }
     ]
   },
+  "com.android.emergency.auto_generated_rro_product__": {
+    "appName": "com.android.emergency.auto_generated_rro_product__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.emulator.radio.config": {
     "appName": "com.android.emulator.radio.config",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
@@ -18872,6 +19064,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -19025,6 +19222,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -19280,6 +19482,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       }
@@ -19344,6 +19551,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6",
@@ -19729,6 +19941,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -20296,6 +20513,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -20376,6 +20598,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -20615,6 +20842,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -20679,6 +20911,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -20998,6 +21235,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -21304,6 +21546,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -21389,6 +21636,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
@@ -21577,6 +21829,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -21825,6 +22082,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -21862,6 +22124,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -22011,6 +22278,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -22458,6 +22730,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -22725,6 +23002,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -22856,6 +23138,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
@@ -23049,6 +23336,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -23134,6 +23426,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -23760,6 +24057,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -23878,6 +24180,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -24189,6 +24496,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -25619,6 +25931,18 @@
       }
     ]
   },
+  "com.google.android.apps.nexuslauncher.auto_generated_rro_vendor__": {
+    "appName": "com.google.android.apps.nexuslauncher.auto_generated_rro_vendor__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.apps.pixel.support.overlay.zumapro": {
     "appName": "com.google.android.apps.pixel.support.overlay.zumapro",
     "userFacing": false,
@@ -26923,6 +27247,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       }
@@ -27232,6 +27561,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.overlay.emulatorconfig": {
+    "appName": "com.google.android.overlay.emulatorconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       }
     ]
   },
@@ -28734,6 +29075,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -28779,6 +29125,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -30474,6 +30825,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -30687,6 +31043,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -31167,6 +31528,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.sdksetup": {
+    "appName": "com.google.android.sdksetup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       }
     ]
   },
@@ -38806,6 +39179,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -39378,6 +39756,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -40372,6 +40755,11 @@
         "os": "28"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -40719,6 +41107,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -41305,6 +41698,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -41954,6 +42352,18 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.pixel.exo": {
+    "appName": "Cross-Device Communication Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       }
     ]
   },
@@ -42735,6 +43145,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -44989,6 +45404,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -45403,6 +45823,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -45673,6 +46098,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -45975,6 +46405,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -46466,6 +46901,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -47097,6 +47537,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -47796,6 +48241,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -48280,6 +48730,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
       }
@@ -48290,6 +48745,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
@@ -49037,6 +49497,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -50580,6 +51045,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -51001,6 +51471,256 @@
       }
     ]
   },
+  "com.android.systemui.emulation.pixel_2_xl": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      }
+    ]
+  },
+  "com.android.systemui.emulation.pixel_3_xl": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.emulation.pixel_4_xl": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.internal.emulation.pixel_4a": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.emulation.pixel_3": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.emulation.pixel_4": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.emulation.pixel_5": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.internal.emulation.pixel_4": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.internal.emulation.pixel_5": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.emulation.pixel_3a_xl": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.internal.emulation.pixel_2_xl": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.internal.emulation.pixel_3_xl": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.internal.emulation.pixel_4_xl": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.emulation.pixel_3a": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.emulation.pixel_4a": {
+    "appName": "Filled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      }
+    ]
+  },
   "com.android.theme.icon_pack.filled.settings": {
     "appName": "Filled",
     "userFacing": false,
@@ -51058,30 +51778,6 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
-      }
-    ]
-  },
-  "com.android.systemui.emulation.pixel_3_xl": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.systemui.emulation.pixel_4_xl": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
       }
     ]
   },
@@ -51169,18 +51865,6 @@
       }
     ]
   },
-  "com.android.internal.emulation.pixel_4a": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
   "com.android.internal.emulation.pixel_6a": {
     "appName": "Filled",
     "userFacing": false,
@@ -51218,42 +51902,6 @@
     ]
   },
   "com.android.internal.emulation.pixel_9a": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.systemui.emulation.pixel_3": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.systemui.emulation.pixel_4": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.systemui.emulation.pixel_5": {
     "appName": "Filled",
     "userFacing": false,
     "additionalLocales": [],
@@ -51337,30 +51985,6 @@
       }
     ]
   },
-  "com.android.internal.emulation.pixel_4": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.internal.emulation.pixel_5": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
   "com.android.internal.emulation.pixel_6": {
     "appName": "Filled",
     "userFacing": false,
@@ -51398,18 +52022,6 @@
     ]
   },
   "com.android.internal.emulation.pixel_9": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.systemui.emulation.pixel_3a_xl": {
     "appName": "Filled",
     "userFacing": false,
     "additionalLocales": [],
@@ -51481,67 +52093,7 @@
       }
     ]
   },
-  "com.android.internal.emulation.pixel_2_xl": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.internal.emulation.pixel_3_xl": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.internal.emulation.pixel_4_xl": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
   "com.android.internal.emulation.pixel_fold": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.systemui.emulation.pixel_3a": {
-    "appName": "Filled",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      }
-    ]
-  },
-  "com.android.systemui.emulation.pixel_4a": {
     "appName": "Filled",
     "userFacing": false,
     "additionalLocales": [],
@@ -52377,6 +52929,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -54284,6 +54841,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -54548,6 +55110,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Elo Touch Solutions",
@@ -54891,6 +55458,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -55118,6 +55690,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -55377,6 +55954,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -55615,6 +56197,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -55931,6 +56518,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -56418,6 +57010,11 @@
         "os": "28"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -56786,6 +57383,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -57060,6 +57662,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -57456,6 +58063,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -57905,6 +58517,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -58543,6 +59160,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -58964,6 +59586,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.wallpaper.nexus": {
+    "appName": "Google Wallpaper Images",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       }
     ]
   },
@@ -61005,6 +61639,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -62127,6 +62766,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -63176,6 +63820,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -65616,6 +66265,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -66578,6 +67232,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -67136,6 +67795,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -67416,6 +68080,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -67686,6 +68355,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -68153,6 +68827,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -68901,6 +69580,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -70089,6 +70773,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -71593,6 +72282,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -72095,6 +72789,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -73063,6 +73762,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -74017,6 +74721,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -74793,6 +75502,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -75746,6 +76460,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -76737,6 +77456,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -76952,6 +77676,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -77251,6 +77980,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -78008,6 +78742,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -79115,6 +79854,11 @@
         "os": "28"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -79330,6 +80074,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -79655,6 +80404,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -79953,6 +80707,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -80755,6 +81514,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -81337,6 +82101,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -81782,6 +82551,18 @@
       }
     ]
   },
+  "com.breel.wallpapers18": {
+    "appName": "Pixel Wallpapers 18",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.apps.weather": {
     "appName": "Pixel Weather",
     "userFacing": true,
@@ -82219,6 +83000,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -82510,6 +83296,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -83159,6 +83950,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -83501,6 +84297,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -92851,6 +93652,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -94279,6 +95085,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -94631,6 +95442,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -94706,6 +95522,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -95626,6 +96447,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -96167,6 +96993,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -96665,6 +97496,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -99475,6 +100311,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -99529,6 +100370,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -99800,6 +100646,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -100349,6 +101200,11 @@
         "os": "28"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -100854,6 +101710,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -101448,6 +102309,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -102291,6 +103157,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -102561,6 +103432,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -103412,6 +104288,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -103795,6 +104676,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -104082,6 +104968,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -104713,6 +105604,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -106664,6 +107560,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -108331,6 +109232,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -108637,6 +109543,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -109131,6 +110042,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -110515,6 +111431,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -111000,6 +111921,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -111724,6 +112650,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
       },
@@ -111988,6 +112919,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
       },
       {
         "make": "Google",
