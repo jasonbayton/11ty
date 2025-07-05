@@ -6885,10 +6885,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Automatische Sperre"
-      },
-      {
         "locale": "nl-nl",
         "name": "Automatisch blokkeren"
       },
@@ -6903,6 +6899,10 @@
       {
         "locale": "es-es",
         "name": "Bloqueador automático"
+      },
+      {
+        "locale": "",
+        "name": "Automatische Sperre"
       }
     ],
     "devices": [
@@ -7409,10 +7409,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Automatische Bestätigung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Private Access Tokens"
       },
@@ -7426,6 +7422,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Automatische Bestätigung"
+      },
+      {
+        "locale": "",
         "name": "Automatische Bestätigung"
       }
     ],
@@ -7777,10 +7777,6 @@
         "name": "AR Emoji Stickers"
       },
       {
-        "locale": "",
-        "name": "Avatar-Sticker"
-      },
-      {
         "locale": "nl-nl",
         "name": "Avatar-stickers"
       },
@@ -7799,6 +7795,10 @@
       {
         "locale": "es-es",
         "name": "Stickers AR Emoji"
+      },
+      {
+        "locale": "",
+        "name": "Avatar-Sticker"
       }
     ],
     "devices": [
@@ -11997,10 +11997,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Anrufdienste"
-      },
-      {
         "locale": "nl-nl",
         "name": "Oproepservices"
       },
@@ -12010,6 +12006,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Anrufdienste"
+      },
+      {
+        "locale": "",
         "name": "Anrufdienste"
       }
     ],
@@ -12862,10 +12862,6 @@
         "name": "Camera sharing"
       },
       {
-        "locale": "",
-        "name": "Kamerafreigabe"
-      },
-      {
         "locale": "nl-nl",
         "name": "Camera delen"
       },
@@ -12875,6 +12871,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Kamerafreigabe"
+      },
+      {
+        "locale": "",
         "name": "Kamerafreigabe"
       }
     ],
@@ -35085,6 +35085,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -44936,10 +44941,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Dokumentenscanner"
-      },
-      {
         "locale": "nl-nl",
         "name": "Documentscanner"
       },
@@ -44949,6 +44950,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Dokumentenscanner"
+      },
+      {
+        "locale": "",
         "name": "Dokumentenscanner"
       }
     ],
@@ -46128,15 +46133,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Zeichnungs-Assistent"
-      },
-      {
         "locale": "it-it",
         "name": "Assistente al disegno"
       },
       {
         "locale": "de-de",
+        "name": "Zeichnungs-Assistent"
+      },
+      {
+        "locale": "",
         "name": "Zeichnungs-Assistent"
       }
     ],
@@ -52387,10 +52392,6 @@
         "name": "AR Emoji"
       },
       {
-        "locale": "",
-        "name": "Galaxy-Avatar"
-      },
-      {
         "locale": "en-nl",
         "name": "AR Emoji"
       },
@@ -52401,6 +52402,10 @@
       {
         "locale": "es-es",
         "name": "AR Emoji"
+      },
+      {
+        "locale": "",
+        "name": "Galaxy-Avatar"
       }
     ],
     "devices": [
@@ -52700,10 +52705,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Galaxy-Dienst-Einrichtung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Galaxy-service instellen"
       },
@@ -52718,6 +52719,10 @@
       {
         "locale": "es-es",
         "name": "Configuración de Servicio Galaxy"
+      },
+      {
+        "locale": "",
+        "name": "Galaxy-Dienst-Einrichtung"
       }
     ],
     "devices": [
@@ -53283,10 +53288,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Galerie"
-      },
-      {
         "locale": "nl-nl",
         "name": "Galerij"
       },
@@ -53301,6 +53302,10 @@
       {
         "locale": "es-es",
         "name": "Galería"
+      },
+      {
+        "locale": "",
+        "name": "Galerie"
       }
     ],
     "devices": [
@@ -62392,15 +62397,15 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Dolmetscher"
-      },
-      {
         "locale": "it-it",
         "name": "Interprete"
       },
       {
         "locale": "de-de",
+        "name": "Dolmetscher"
+      },
+      {
+        "locale": "",
         "name": "Dolmetscher"
       }
     ],
@@ -64728,10 +64733,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Link zu Windows"
-      },
-      {
         "locale": "nl-nl",
         "name": "Koppeling met Windows"
       },
@@ -64746,6 +64747,10 @@
       {
         "locale": "es-es",
         "name": "Enlace a Windows"
+      },
+      {
+        "locale": "",
+        "name": "Link zu Windows"
       }
     ],
     "devices": [
@@ -64856,10 +64861,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Link zu Windows-Dienst"
-      },
-      {
         "locale": "nl-nl",
         "name": "Koppeling met Windows Service"
       },
@@ -64869,6 +64870,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Link zu Windows-Dienst"
+      },
+      {
+        "locale": "",
         "name": "Link zu Windows-Dienst"
       }
     ],
@@ -66003,10 +66008,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Vergrößerung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Vergrootglas"
       },
@@ -66021,6 +66022,10 @@
       {
         "locale": "es-es",
         "name": "Lupa"
+      },
+      {
+        "locale": "",
+        "name": "Vergrößerung"
       }
     ],
     "devices": [
@@ -70191,10 +70196,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Modi und Routinen"
-      },
-      {
         "locale": "nl-nl",
         "name": "Standen en routines"
       },
@@ -70209,6 +70210,10 @@
       {
         "locale": "es-es",
         "name": "Modos y rutinas"
+      },
+      {
+        "locale": "",
+        "name": "Modi und Routinen"
       }
     ],
     "devices": [
@@ -72371,10 +72376,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Geräte in der Nähe"
-      },
-      {
         "locale": "nl-nl",
         "name": "Apparaten in de buurt"
       },
@@ -72384,6 +72385,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Geräte in der Nähe"
+      },
+      {
+        "locale": "",
         "name": "Geräte in der Nähe"
       }
     ],
@@ -72956,10 +72961,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Netzentsperrung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Netwerkontgrendeling"
       },
@@ -72969,6 +72970,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Netzentsperrung"
+      },
+      {
+        "locale": "",
         "name": "Netzentsperrung"
       }
     ],
@@ -77118,10 +77123,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Kindersicherungen"
-      },
-      {
         "locale": "nl-nl",
         "name": "Ouderlijk toezicht"
       },
@@ -77136,6 +77137,10 @@
       {
         "locale": "es-es",
         "name": "Controles parentales"
+      },
+      {
+        "locale": "",
+        "name": "Kindersicherungen"
       }
     ],
     "devices": [
@@ -84375,10 +84380,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Empfohlene Apps"
-      },
-      {
         "locale": "nl-nl",
         "name": "Aanbevolen apps"
       },
@@ -84393,6 +84394,10 @@
       {
         "locale": "es-es",
         "name": "Aplicaciones recomendadas"
+      },
+      {
+        "locale": "",
+        "name": "Empfohlene Apps"
       }
     ],
     "devices": [
@@ -87719,10 +87724,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Samsung Kids-Installationsprogramm"
-      },
-      {
         "locale": "nl-nl",
         "name": "Installatieprogramma Samsung Kids"
       },
@@ -87737,6 +87738,10 @@
       {
         "locale": "es-es",
         "name": "Instalador de Samsung Kids"
+      },
+      {
+        "locale": "",
+        "name": "Samsung Kids-Installationsprogramm"
       }
     ],
     "devices": [
@@ -92060,10 +92065,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Sicherer Ordner"
-      },
-      {
         "locale": "nl-nl",
         "name": "Veilige map"
       },
@@ -92078,6 +92079,10 @@
       {
         "locale": "es-es",
         "name": "Carpeta segura"
+      },
+      {
+        "locale": "",
+        "name": "Sicherer Ordner"
       }
     ],
     "devices": [
@@ -92222,10 +92227,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Sicheres WLAN"
-      },
-      {
         "locale": "nl-nl",
         "name": "Veilige Wi-Fi"
       },
@@ -92240,6 +92241,10 @@
       {
         "locale": "es-es",
         "name": "Wi-Fi segura"
+      },
+      {
+        "locale": "",
+        "name": "Sicheres WLAN"
       }
     ],
     "devices": [
@@ -96001,10 +96006,6 @@
         "name": "SIM Toolkit"
       },
       {
-        "locale": "",
-        "name": "SIM-Toolkit"
-      },
-      {
         "locale": "nl-nl",
         "name": "SIM-toolkit"
       },
@@ -96019,6 +96020,10 @@
       {
         "locale": "es-es",
         "name": "Kit herramientas SIM"
+      },
+      {
+        "locale": "",
+        "name": "SIM-Toolkit"
       }
     ],
     "devices": [
@@ -100044,10 +100049,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Speicherfreigabe"
-      },
-      {
         "locale": "nl-nl",
         "name": "Opslag delen"
       },
@@ -100057,6 +100058,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Speicherfreigabe"
+      },
+      {
+        "locale": "",
         "name": "Speicherfreigabe"
       }
     ],
@@ -107477,10 +107482,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Mit Sprache wecken"
-      },
-      {
         "locale": "nl-nl",
         "name": "Gesproken wake-upopdracht"
       },
@@ -107490,6 +107491,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Mit Sprache wecken"
+      },
+      {
+        "locale": "",
         "name": "Mit Sprache wecken"
       }
     ],
@@ -109043,10 +109048,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Wetter"
-      },
-      {
         "locale": "nl-nl",
         "name": "Weer"
       },
@@ -109061,6 +109062,10 @@
       {
         "locale": "es-es",
         "name": "Tiempo"
+      },
+      {
+        "locale": "",
+        "name": "Wetter"
       }
     ],
     "devices": [
