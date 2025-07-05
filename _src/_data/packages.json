@@ -1544,6 +1544,18 @@
       }
     ]
   },
+  "org.android_x86.analytics": {
+    "appName": "AnalyticsService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      }
+    ]
+  },
   "com.google.android.marvin.talkback": {
     "appName": "Android Accessibility Suite",
     "userFacing": false,
@@ -2229,6 +2241,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -2291,6 +2308,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -2528,6 +2550,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -2830,6 +2857,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -3100,6 +3132,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -3668,6 +3705,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -4263,6 +4305,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -8364,6 +8411,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -9294,6 +9346,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -9784,6 +9841,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -10059,6 +10121,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -10355,6 +10422,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -10383,6 +10455,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.books": {
+    "appName": "Books",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -10870,6 +10954,18 @@
       }
     ]
   },
+  "com.android.calculator2": {
+    "appName": "Calculator",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      }
+    ]
+  },
   "com.google.android.calendar": {
     "appName": "Calendar",
     "userFacing": true,
@@ -11122,6 +11218,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.calendar": {
+    "appName": "Calendar",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -11399,6 +11507,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -11427,6 +11540,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "org.zeroxlab.util.tscal": {
+    "appName": "Calibration",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -11942,6 +12067,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -12725,6 +12855,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -13712,6 +13847,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -14076,6 +14216,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -15221,6 +15366,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -15554,6 +15704,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -16092,6 +16247,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -16899,6 +17059,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -17231,6 +17396,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -17539,6 +17709,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -18082,6 +18257,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -18352,6 +18532,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -20711,6 +20896,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -21030,6 +21220,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -22485,6 +22680,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -24216,6 +24416,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -24453,6 +24658,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -24532,6 +24742,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -38815,6 +39030,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -40155,6 +40375,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -40639,6 +40864,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -42203,6 +42433,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -42717,6 +42952,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -42823,6 +43063,18 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.development": {
+    "appName": "Dev Tools",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -45648,6 +45900,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -45945,6 +46202,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -45973,46 +46235,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
-      }
-    ]
-  },
-  "com.android.documentsui": {
-    "appName": "Downloads",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "en-be",
-        "name": "Files"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Files"
-      },
-      {
-        "locale": "en-za",
-        "name": "Files"
-      }
-    ],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "Sony",
-        "model": "I3312",
-        "os": "27"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
       }
     ]
   },
@@ -47713,6 +47935,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -49035,6 +49262,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -50580,6 +50812,43 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.documentsui": {
+    "appName": "Files",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Downloads"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -52335,6 +52604,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -53435,6 +53709,23 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.gallery3d": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -55546,6 +55837,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -55862,6 +56158,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -55893,6 +56194,18 @@
       }
     ]
   },
+  "com.google.android.gsf.login": {
+    "appName": "Google Account Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      }
+    ]
+  },
   "com.google.android.backuptransport": {
     "appName": "Google Backup Transport",
     "userFacing": false,
@@ -55911,6 +56224,11 @@
       {
         "make": "NUU",
         "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
       }
     ]
@@ -56051,6 +56369,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -56123,6 +56446,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -56682,6 +57010,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -56952,6 +57285,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -57343,6 +57681,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -57787,6 +58130,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -58417,6 +58765,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -60876,6 +61229,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -61993,6 +62351,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -62124,6 +62487,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -63033,6 +63401,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -65457,6 +65830,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -67260,6 +67638,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -69933,6 +70316,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -71429,6 +71817,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -71682,6 +72075,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "org.lineageos.eleven": {
+    "appName": "Music",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -73970,6 +74375,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.example.android.notepad": {
+    "appName": "NotePad",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -76492,6 +76909,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -76755,6 +77177,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -77049,6 +77476,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -78696,6 +79128,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -79118,6 +79555,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -79738,6 +80180,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -79857,18 +80304,6 @@
   },
   "com.yk.phonetest": {
     "appName": "PhoneTest",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      }
-    ]
-  },
-  "com.android.gallery3d": {
-    "appName": "Photo Edit",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -80743,6 +81178,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.svox.pico": {
+    "appName": "Pico TTS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -81996,6 +82443,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -82283,6 +82735,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -82924,6 +83381,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -84169,6 +84631,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -85630,6 +86097,18 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.example.android.rssreader": {
+    "appName": "RSS Reader",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -94024,6 +94503,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -94447,6 +94931,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -95359,6 +95848,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -96520,6 +97014,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.basicsmsreceiver": {
+    "appName": "Simple message receiver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -100018,6 +100524,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -102277,6 +102788,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -103828,6 +104344,18 @@
       }
     ]
   },
+  "com.farmerbb.taskbar.androidx86": {
+    "appName": "Taskbar",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      }
+    ]
+  },
   "com.samsung.android.app.taskedge": {
     "appName": "Tasks",
     "userFacing": true,
@@ -104149,6 +104677,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.termoneplus": {
+    "appName": "Terminal Emulator",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       }
     ]
   },
@@ -106348,6 +106888,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -108008,6 +108553,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
@@ -110677,6 +111227,11 @@
         "os": "34"
       },
       {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -111386,6 +111941,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
       },
       {
         "make": "ALCommon",
