@@ -242,6 +242,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -418,6 +423,30 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.oplus.account": {
+    "appName": "Account Center",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.oplus.vip": {
+    "appName": "Account Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -687,6 +716,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -1114,6 +1148,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -1490,6 +1529,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -1770,6 +1814,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -1990,6 +2039,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -2336,6 +2390,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -2667,6 +2726,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -2987,6 +3051,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -3276,6 +3345,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -3571,6 +3645,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -3882,6 +3961,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -3959,6 +4043,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -4227,6 +4316,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -4514,6 +4608,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -4897,6 +4996,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -5114,6 +5218,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -5138,6 +5247,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -5150,6 +5264,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -5162,6 +5281,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -5785,6 +5909,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -5809,6 +5938,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -5820,6 +5954,18 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      }
+    ]
+  },
+  "com.heytap.market": {
+    "appName": "App Market",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -5987,6 +6133,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -6149,6 +6300,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -6764,6 +6920,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -6808,6 +6969,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -6833,6 +6999,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -6869,6 +7040,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -6880,6 +7056,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -6893,6 +7074,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -6905,6 +7091,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -6990,6 +7181,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -8460,6 +8656,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -8706,6 +8907,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -8766,6 +8972,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -8907,6 +9118,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.oplus.beaconlink": {
+    "appName": "BeaconLink",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -9656,6 +9879,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -9941,6 +10169,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "en-lk",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "es-es",
         "name": "Bluetooth"
       },
@@ -10168,6 +10400,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -10465,6 +10702,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -10779,6 +11021,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -11339,6 +11586,18 @@
       }
     ]
   },
+  "com.coloros.calculator": {
+    "appName": "Calculator",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.calculator2": {
     "appName": "Calculator",
     "userFacing": true,
@@ -11485,6 +11744,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -11663,6 +11927,10 @@
       },
       {
         "locale": "en-de",
+        "name": "Calendar storage"
+      },
+      {
+        "locale": "en-lk",
         "name": "Calendar storage"
       },
       {
@@ -11904,6 +12172,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -12484,6 +12757,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -12548,6 +12826,18 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.oplus.callrecorder": {
+    "appName": "Call recording",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -13375,13 +13665,18 @@
   },
   "com.oplus.camera": {
     "appName": "Camera",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -13430,6 +13725,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -13787,6 +14087,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -14249,6 +14554,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -14718,6 +15028,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -14862,6 +15177,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -15129,18 +15449,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
-      }
-    ]
-  },
-  "com.oplus.cota": {
-    "appName": "Carrier settings update",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
       }
     ]
   },
@@ -15586,6 +15894,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -15658,6 +15971,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -15670,6 +15988,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -15948,6 +16271,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -16316,6 +16644,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -16661,6 +16994,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.oplus.keyguard.clock.base": {
+    "appName": "Classic",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -17119,6 +17464,18 @@
       }
     ]
   },
+  "com.coloros.alarmclock": {
+    "appName": "Clock",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.app.clockpack": {
     "appName": "Clock style",
     "userFacing": false,
@@ -17444,6 +17801,18 @@
       }
     ]
   },
+  "com.heytap.colorfulengine": {
+    "appName": "Colorful Engine",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.adups.fota.overlay": {
     "appName": "com.adups.fota.overlay",
     "userFacing": false,
@@ -17709,6 +18078,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -17843,6 +18217,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -18066,6 +18445,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -18150,6 +18534,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -18221,6 +18610,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -18404,6 +18798,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -18992,6 +19391,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -19284,6 +19688,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -19431,28 +19840,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
-      }
-    ]
-  },
-  "com.android.email.partnerprovider": {
-    "appName": "com.android.email.partnerprovider.ContextApplication",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "EmailPartnerProvider"
-      }
-    ],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "Fairphone",
-        "model": "FP4",
-        "os": "33"
       }
     ]
   },
@@ -20069,6 +20456,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -20165,6 +20557,11 @@
       {
         "make": "Fairphone",
         "model": "Fairphone 6",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -20549,6 +20946,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -20830,6 +21232,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -21878,6 +22285,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -22221,6 +22633,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -22756,6 +23173,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -22768,6 +23190,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -23867,6 +24294,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -24197,6 +24629,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -24975,6 +25412,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -24987,6 +25429,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -24999,6 +25446,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -25011,6 +25463,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -25023,6 +25480,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -25035,6 +25497,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -25047,6 +25514,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -25403,6 +25875,18 @@
       }
     ]
   },
+  "com.android.vendors.bridge.softsim": {
+    "appName": "com.android.vendors.bridge.softsim",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.virtualmachine.res": {
     "appName": "com.android.virtualmachine.res",
     "userFacing": false,
@@ -25536,6 +26020,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -25813,6 +26302,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -26416,6 +26910,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -26471,6 +26970,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -26569,6 +27073,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -26777,6 +27286,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -26822,6 +27336,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -27266,6 +27785,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -27453,6 +27977,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -27745,6 +28274,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -28263,6 +28797,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -28502,6 +29041,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -29086,6 +29630,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -29303,6 +29852,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -29413,6 +29967,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -29830,6 +30389,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -30699,6 +31263,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -31135,6 +31704,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -31347,6 +31921,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -31471,6 +32050,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -31663,6 +32247,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -31890,6 +32479,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -32099,6 +32693,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -32619,6 +33218,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -32920,6 +33524,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -33131,6 +33740,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -33749,6 +34363,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -34388,6 +35007,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -34563,6 +35187,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -34656,6 +35285,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -34713,6 +35347,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -34763,6 +35402,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -34834,6 +35478,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -34864,6 +35513,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -34947,6 +35601,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -34982,6 +35641,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -35107,6 +35771,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -36006,6 +36675,18 @@
       }
     ]
   },
+  "com.oplus.android.overlay.aifunction.common": {
+    "appName": "com.oplus.android.overlay.aifunction.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.android.overlay.gmsconfig.common": {
     "appName": "com.oplus.android.overlay.gmsconfig.common",
     "userFacing": false,
@@ -36015,6 +36696,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -36051,6 +36737,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -36066,6 +36757,18 @@
       }
     ]
   },
+  "com.oplus.framework.rro.oppo": {
+    "appName": "com.oplus.framework.rro.oppo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.ocloud": {
     "appName": "com.oplus.ocloud",
     "userFacing": false,
@@ -36075,6 +36778,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.oplus.subsys.plugin": {
+    "appName": "com.oplus.subsys.plugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -39787,6 +40502,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -40764,6 +41484,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -41025,6 +41750,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -41073,6 +41803,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.coloros.compass2": {
+    "appName": "Compass",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -41168,6 +41910,11 @@
       {
         "make": "Fairphone",
         "model": "Fairphone 6",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -41625,6 +42372,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -41924,6 +42676,28 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.oplus.cota": {
+    "appName": "Configuration Update",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Carrier settings update"
+      }
+    ],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -42579,6 +43353,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -42936,6 +43715,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -43090,6 +43874,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -43612,6 +44401,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -43677,6 +44471,18 @@
       }
     ]
   },
+  "com.oplus.keyguard.clock.magazine": {
+    "appName": "Cover",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.sec.cpagent": {
     "appName": "CpAgent",
     "userFacing": false,
@@ -43710,6 +44516,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -43917,6 +44728,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -44089,6 +44905,18 @@
       }
     ]
   },
+  "com.oplus.dfs": {
+    "appName": "Cross-Device File Management",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.ambient.streaming": {
     "appName": "Cross-Device Services",
     "userFacing": false,
@@ -44186,6 +45014,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -44349,6 +45182,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -44616,6 +45454,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -44649,6 +45492,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -44803,6 +45651,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -45096,6 +45949,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -45490,6 +46348,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "android.autoinstalls.config.oppo": {
+    "appName": "Device configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -46599,6 +47469,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -46855,6 +47730,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -46867,6 +47747,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -47370,6 +48255,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -47405,6 +48295,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -47884,6 +48779,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -48184,6 +49084,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -48501,6 +49406,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -49126,6 +50036,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -49656,6 +50571,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -49723,6 +50643,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -50009,6 +50934,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -50091,6 +51021,33 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.android.email.partnerprovider": {
+    "appName": "EmailPartnerProvider",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "com.android.email.partnerprovider.ContextApplication"
+      }
+    ],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
       }
     ]
   },
@@ -50578,6 +51535,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -50710,6 +51672,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -50810,6 +51777,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -51656,6 +52628,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -51773,6 +52750,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -52908,6 +53890,18 @@
       }
     ]
   },
+  "com.oplus.logkit": {
+    "appName": "Feedback",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.tct.endusertest": {
     "appName": "Feedback",
     "userFacing": false,
@@ -52953,6 +53947,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -52965,6 +53964,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -53226,6 +54230,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -53450,6 +54459,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -54580,6 +55594,11 @@
         "os": "31"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -55150,6 +56169,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -56732,6 +57756,18 @@
       }
     ]
   },
+  "com.oplus.games": {
+    "appName": "Games",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.motorola.gamemode": {
     "appName": "Games",
     "userFacing": false,
@@ -56975,6 +58011,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -57924,6 +58965,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -58113,6 +59159,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -58125,6 +59176,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -58212,6 +59268,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -58446,6 +59507,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -58511,6 +59577,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -58779,6 +59850,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -59355,6 +60431,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -59664,6 +60745,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -59953,6 +61039,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -60377,6 +61468,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -60434,6 +61530,10 @@
     "additionalLocales": [
       {
         "locale": "en",
+        "name": "ARCore"
+      },
+      {
+        "locale": "en-lk",
         "name": "ARCore"
       }
     ],
@@ -60571,6 +61671,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -60848,6 +61953,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -61142,6 +62252,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -61511,6 +62626,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -61733,6 +62853,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.walletnfcrel": {
+    "appName": "Google Wallet",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -62538,6 +63670,10 @@
       {
         "locale": "en-de",
         "name": "Health Connect"
+      },
+      {
+        "locale": "en-lk",
+        "name": "Health Connect"
       }
     ],
     "devices": [
@@ -62565,6 +63701,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -62759,6 +63900,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -62821,6 +63967,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -62857,6 +64008,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -64055,6 +65211,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -64729,6 +65890,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -64896,6 +66062,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.coloros.karaoke": {
+    "appName": "In-ear monitoring",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -65202,6 +66380,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -65348,6 +66531,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -65537,6 +66725,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -65632,6 +66825,18 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.heytap.browser": {
+    "appName": "Internet",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -65998,6 +67203,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -66279,6 +67489,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -66410,6 +67625,18 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      }
+    ]
+  },
+  "com.coloros.childrenspace": {
+    "appName": "Kids mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -67970,13 +69197,18 @@
   },
   "com.google.ar.lens": {
     "appName": "Lens",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -68496,12 +69728,12 @@
         "name": "Live-Hintergrund-Auswahl"
       },
       {
-        "locale": "es-es",
-        "name": "Selector de fondo animado"
+        "locale": "en-lk",
+        "name": "Live wallpaper selector"
       },
       {
-        "locale": "",
-        "name": "Live wallpaper selector"
+        "locale": "es-es",
+        "name": "Selector de fondo animado"
       }
     ],
     "devices": [
@@ -68731,6 +69963,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -68888,6 +70125,28 @@
       }
     ]
   },
+  "com.oplus.location": {
+    "appName": "Location Service",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Network Location Service"
+      }
+    ],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.lbs.em2.ui": {
     "appName": "LocationEM2",
     "userFacing": false,
@@ -68926,6 +70185,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -69033,6 +70297,18 @@
       {
         "make": "samsung",
         "model": "SM-S938B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.heytap.pictorial": {
+    "appName": "Lock Screen Magazine",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -69178,6 +70454,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -69484,6 +70765,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -69705,6 +70991,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -69955,6 +71246,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -70010,6 +71306,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -70311,6 +71612,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -70608,6 +71914,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -71361,6 +72672,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -71513,6 +72829,18 @@
       {
         "make": "samsung",
         "model": "SM-S938B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.oplus.mediaturbo": {
+    "appName": "MediaTurbo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -72129,6 +73457,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -72172,6 +73505,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.mms": {
+    "appName": "Messages",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -72269,6 +73614,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -72388,6 +73738,11 @@
         "os": "33"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -72503,6 +73858,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -73001,6 +74361,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -73116,7 +74481,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
+        "locale": "en-lk",
         "name": "Information services"
       }
     ],
@@ -73357,6 +74722,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -73433,6 +74803,18 @@
       {
         "make": "samsung",
         "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
+  "com.heytap.htms": {
+    "appName": "Mobile Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -74873,6 +76255,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -75052,6 +76439,18 @@
       }
     ]
   },
+  "com.oplus.pscanvas": {
+    "appName": "Multi Windows",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.hihonor.associateassistant": {
     "appName": "Multi-Screen Collaboration",
     "userFacing": false,
@@ -75145,6 +76544,18 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.heytap.music": {
+    "appName": "Music",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -75471,6 +76882,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.coloros.filemanager": {
+    "appName": "My Files",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -76111,18 +77534,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      }
-    ]
-  },
-  "com.oplus.location": {
-    "appName": "Network Location Service",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
+      },
       {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -76363,6 +77779,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -76469,6 +77890,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -76710,6 +78136,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -76734,6 +78165,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -77042,6 +78478,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -77113,16 +78554,16 @@
         "name": "NFC"
       },
       {
+        "locale": "en-lk",
+        "name": "NFC Service"
+      },
+      {
         "locale": "es-es",
         "name": "NFC"
       },
       {
         "locale": "en-za",
         "name": "Nfc Service"
-      },
-      {
-        "locale": "",
-        "name": "NFC Service"
       }
     ],
     "devices": [
@@ -77335,6 +78776,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -77714,6 +79160,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -78168,6 +79619,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -78847,6 +80303,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -78920,6 +80381,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -78935,6 +80401,28 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.heytap.mcs": {
+    "appName": "oms-core",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "System Messages"
+      }
+    ],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -79346,6 +80834,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -79358,6 +80851,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -79418,6 +80916,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.coloros.ocs.opencapabilityservice": {
+    "appName": "OpenCapabilityService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -79615,6 +81125,23 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.oplus.mediacontroller": {
+    "appName": "OplusMediaController",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -79627,6 +81154,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -79639,6 +81171,23 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.coloros.oshare": {
+    "appName": "OPPO Share",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -79651,6 +81200,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -80032,6 +81586,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -80108,6 +81667,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -80397,6 +81961,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -80714,6 +82283,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -80955,6 +82529,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.coloros.securepay": {
+    "appName": "Payment protection",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -81471,6 +83057,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -81538,6 +83129,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -82518,6 +84114,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -82599,16 +84200,16 @@
         "name": "Telefon- und SMS-Speicher"
       },
       {
+        "locale": "en-lk",
+        "name": "Phone Call/SMS Storage"
+      },
+      {
         "locale": "es-es",
         "name": "Almacenamiento de mensajes y teléfono"
       },
       {
         "locale": "",
         "name": "Mobile Network Configuration"
-      },
-      {
-        "locale": "",
-        "name": "Phone Call/SMS Storage"
       }
     ],
     "devices": [
@@ -82848,6 +84449,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -82938,6 +84544,10 @@
       {
         "locale": "en-de",
         "name": "Phone calls"
+      },
+      {
+        "locale": "en-lk",
+        "name": "Call Management"
       },
       {
         "locale": "es-es",
@@ -83185,6 +84795,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -83228,6 +84843,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.coloros.phonemanager": {
+    "appName": "Phone Manager",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -83498,6 +85125,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -84240,6 +85872,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -84268,6 +85905,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.coloros.gallery3d": {
+    "appName": "Photos",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -84481,6 +86130,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -85488,6 +87142,18 @@
       }
     ]
   },
+  "com.oplus.keyguard.clock.graffiti": {
+    "appName": "Playful",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.app.dofviewer": {
     "appName": "Portrait",
     "userFacing": false,
@@ -85633,6 +87299,18 @@
       }
     ]
   },
+  "com.oplus.blur": {
+    "appName": "PostEffect",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.powermonitor": {
     "appName": "Power Monitor",
     "userFacing": false,
@@ -85642,6 +87320,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -85966,6 +87649,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -86275,6 +87963,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -86532,6 +88225,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -86587,6 +88285,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -86951,6 +88654,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -87293,6 +89001,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -87782,6 +89495,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -88679,6 +90397,18 @@
       }
     ]
   },
+  "com.coloros.soundrecorder": {
+    "appName": "Recorder",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.motorola.audiorecorder": {
     "appName": "Recorder",
     "userFacing": false,
@@ -88700,6 +90430,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -88836,6 +90571,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -89782,6 +91522,18 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      }
+    ]
+  },
+  "com.mediatek.rsu": {
+    "appName": "RsuService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -95411,6 +97163,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -95647,6 +97404,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -95659,6 +97421,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -95688,6 +97455,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -96369,6 +98141,23 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.oplus.pay": {
+    "appName": "Secure Payment",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -96758,6 +98547,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -96830,6 +98624,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -98211,6 +100010,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -98671,6 +100475,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -98951,6 +100760,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -99603,6 +101417,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -99651,6 +101470,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.daemon.shelper": {
+    "appName": "Shelper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -100136,6 +101967,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -100660,6 +102496,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -100846,6 +102687,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -101482,6 +103328,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -102059,6 +103910,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -102445,6 +104301,18 @@
       }
     ]
   },
+  "com.oplus.keyguard.clock.gallery": {
+    "appName": "Snapshot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.sec.android.soagent": {
     "appName": "Software update",
     "userFacing": false,
@@ -102754,6 +104622,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -102879,6 +104752,10 @@
       {
         "locale": "",
         "name": "aidlserverdemo"
+      },
+      {
+        "locale": "en-lk",
+        "name": "aidlserverdemo"
       }
     ],
     "devices": [
@@ -102900,6 +104777,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -103885,6 +105767,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -104022,6 +105909,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -104034,6 +105926,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -104046,6 +105943,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -104058,6 +105960,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -104392,6 +106299,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -104676,6 +106588,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -104944,6 +106861,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -105201,6 +107123,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -105558,6 +107485,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -105785,6 +107717,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -105818,18 +107755,6 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
-        "os": "34"
-      }
-    ]
-  },
-  "com.heytap.mcs": {
-    "appName": "System Messages",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
         "os": "34"
       }
     ]
@@ -106064,6 +107989,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -106153,6 +108083,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -106425,6 +108360,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -106731,6 +108671,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -106823,6 +108768,18 @@
       }
     ]
   },
+  "com.cota.notification": {
+    "appName": "System update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.doogee.update": {
     "appName": "System Update",
     "userFacing": false,
@@ -106895,6 +108852,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -107031,6 +108993,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -107469,6 +109436,11 @@
         "os": "36"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -107534,6 +109506,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.oplus.systemui.plugins": {
+    "appName": "SystemUIPlugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -107758,6 +109742,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -108302,6 +110291,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -108653,6 +110647,11 @@
         "os": "34"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -108950,6 +110949,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -109309,6 +111313,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -109330,6 +111339,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -109383,6 +111397,18 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      }
+    ]
+  },
+  "com.oplus.themestore": {
+    "appName": "Theme Store",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -110103,6 +112129,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -110451,6 +112482,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -110956,6 +112992,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -111248,6 +113289,18 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "vendor.mediatek.iwlanservice": {
+    "appName": "vendor.mediatek.iwlanservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -111860,6 +113913,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.coloros.video": {
+    "appName": "Videos (System)",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -112658,6 +114723,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -113163,6 +115233,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -113187,6 +115262,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -113210,6 +115290,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -113473,6 +115558,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -113908,6 +115998,18 @@
       }
     ]
   },
+  "com.coloros.weather2": {
+    "appName": "Weather",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.lenovo.weathercenter": {
     "appName": "Weather Service",
     "userFacing": false,
@@ -113934,6 +116036,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -114014,6 +116121,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -114580,6 +116692,23 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.oplus.tai.wifiqoe": {
+    "appName": "WifiQoe",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -114629,6 +116758,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -114876,6 +117010,11 @@
         "os": "35"
       },
       {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -114977,6 +117116,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -115401,6 +117545,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
@@ -116132,6 +118281,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
         "os": "35"
       },
       {
