@@ -28,7 +28,13 @@ Below you'll find a table of system apps across various devices. [These devices]
 
 Packages are updated here within a few minutes following a first sync, and daily after. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
 
+**Currently tracked system apps: <span class="highlight">**{{ packages | length }}**</span>**
+
+<small>
+
 _Tip: Hold **Shift** while scrolling with a mouse to move horizontally across the table, if it overflows. Cells with lots of data can be scrolled vertically, also._
+
+</small>
 </div>
 
 <div class="callout">
@@ -139,7 +145,7 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 
 ## Contributing devices
 
-Devices that have contributed system applications to this table: <span class="highlight"> **{{ deviceAppMatrix.length }}** </span>
+Unique devices that have contributed system applications to this table: <span class="highlight"> **{{ deviceAppMatrix.length }}** </span>
 
 <div class="responsive-table-wrapper">
 <table id="deviceTable" style="table-layout: fixed; width: 100%; min-width: 400px; border-collapse: border">
