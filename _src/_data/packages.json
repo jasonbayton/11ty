@@ -2501,6 +2501,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -3118,6 +3123,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -3731,6 +3741,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -4027,6 +4042,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
@@ -4378,6 +4398,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -6838,6 +6863,138 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "org.chromium.arc.applauncher": {
+    "appName": "ARC App Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.crash_collector": {
+    "appName": "ARC Crash Collector",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.default_intent": {
+    "appName": "ARC Default Intent Redirector",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.gms": {
+    "appName": "ARC GMS Proxy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.home": {
+    "appName": "ARC Home",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.media_session": {
+    "appName": "ARC Media Session Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.payment_app": {
+    "appName": "ARC payment app service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.printservice": {
+    "appName": "ARC Print Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.view_downloads_handler": {
+    "appName": "ARC View Downloads Handler",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.webapk": {
+    "appName": "ARC WebAPK service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.apkcacheprovider": {
+    "appName": "ArcApkCache",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
       }
     ]
   },
@@ -10188,6 +10345,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -10472,6 +10634,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -11942,6 +12109,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -14614,6 +14786,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -16044,6 +16221,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -16700,6 +16882,42 @@
       }
     ]
   },
+  "org.chromium.arc.intent_helper": {
+    "appName": "Chrome",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "com.google.android.apps.work.clouddpc.arc": {
+    "appName": "Chrome Device Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.ime": {
+    "appName": "Chrome OS Keyboard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
   "com.sec.android.app.chromecustomizations": {
     "appName": "ChromeCustomizations",
     "userFacing": false,
@@ -17198,43 +17416,6 @@
       }
     ]
   },
-  "com.android.deskclock": {
-    "appName": "Clock",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "QEMU",
-        "model": "Standard PC (i440FX + PIIX, 1996)",
-        "os": "27"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      }
-    ]
-  },
   "com.google.android.deskclock": {
     "appName": "Clock",
     "userFacing": true,
@@ -17245,6 +17426,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
@@ -17374,6 +17560,43 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.deskclock": {
+    "appName": "Clock",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
       }
     ]
   },
@@ -17845,6 +18068,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -19150,6 +19378,18 @@
       }
     ]
   },
+  "com.android.connectivity.resources.overlay.arc": {
+    "appName": "com.android.connectivity.resources.overlay.arc",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.cts.ctsshim": {
     "appName": "com.android.cts.ctsshim",
     "userFacing": false,
@@ -19158,6 +19398,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -19455,6 +19700,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -20242,6 +20492,11 @@
       },
       {
         "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
       },
@@ -21002,6 +21257,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
@@ -22057,6 +22317,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -23267,6 +23532,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
@@ -26075,6 +26345,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -26672,6 +26947,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -27518,6 +27798,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.chromeos.safetyservice": {
+    "appName": "com.google.android.apps.chromeos.safetyservice.MainApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
       }
     ]
   },
@@ -29687,6 +29979,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -31761,6 +32058,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -32747,6 +33049,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
@@ -41520,6 +41827,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -43185,38 +43497,6 @@
       }
     ]
   },
-  "com.android.contacts": {
-    "appName": "Contacts",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Contacts and dialer"
-      }
-    ],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_x86_64",
-        "os": "31"
-      },
-      {
-        "make": "QEMU",
-        "model": "Standard PC (i440FX + PIIX, 1996)",
-        "os": "27"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      }
-    ]
-  },
   "com.google.android.contacts": {
     "appName": "Contacts",
     "userFacing": true,
@@ -43227,6 +43507,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -43376,6 +43661,38 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.contacts": {
+    "appName": "Contacts",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Contacts and dialer"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -43564,6 +43881,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -46375,6 +46697,18 @@
       }
     ]
   },
+  "android.autoinstalls.config.google.cheets": {
+    "appName": "Device configuration for Brya",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
   "com.hihonor.iconnect": {
     "appName": "Device connection service",
     "userFacing": false,
@@ -48857,6 +49191,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -50353,6 +50692,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -52398,6 +52742,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -54292,6 +54641,11 @@
     ],
     "devices": [
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -54315,6 +54669,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "org.chromium.arc.share_files": {
+    "appName": "Files",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
       }
     ]
   },
@@ -55939,6 +56305,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -61238,6 +61609,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -61723,6 +62099,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -62393,6 +62774,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -64981,6 +65367,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -67256,6 +67647,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -71687,6 +72083,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -72325,6 +72726,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
@@ -75168,6 +75574,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -76579,6 +76990,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
+        "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
       },
@@ -76992,6 +77408,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.internal.display.cutout.emulation.narrow": {
+    "appName": "Narrow cutout",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
       }
     ]
   },
@@ -77827,6 +78255,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.networkstack.inprocess": {
+    "appName": "Network manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
       }
     ]
   },
@@ -80488,6 +80928,18 @@
       }
     ]
   },
+  "com.android.onetimeinitializer": {
+    "appName": "One Time Init",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
   "com.sec.android.app.launcher": {
     "appName": "One UI Home",
     "userFacing": false,
@@ -81266,6 +81718,78 @@
       }
     ]
   },
+  "org.chromium.arc.accessibilityhelper": {
+    "appName": "org.chromium.arc.accessibilityhelper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.cros_safety": {
+    "appName": "org.chromium.arc.cros_safety",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.data_device": {
+    "appName": "org.chromium.arc.data_device",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.hostvpn": {
+    "appName": "org.chromium.arc.hostvpn",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.overlay.config": {
+    "appName": "org.chromium.arc.overlay.config",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "org.chromium.arc.system.stub": {
+    "appName": "org.chromium.arc.system.stub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
   "org.codeaurora.ims": {
     "appName": "org.codeaurora.ims",
     "userFacing": false,
@@ -81331,6 +81855,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -81734,6 +82263,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -82050,6 +82584,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -82844,6 +83383,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -87419,6 +87963,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -87730,6 +88279,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -88421,6 +88975,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -90517,6 +91076,33 @@
       }
     ]
   },
+  "com.android.remoteprovisioner": {
+    "appName": "RemoteProvisioner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.rkpdapp": {
     "appName": "RemoteProvisioner",
     "userFacing": false,
@@ -90743,28 +91329,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.remoteprovisioner": {
-    "appName": "RemoteProvisioner",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "31"
       }
     ]
   },
@@ -91637,6 +92201,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.safetycenter.resources": {
+    "appName": "Safety Centre resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
       }
     ]
   },
@@ -98327,6 +98903,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -99780,6 +100361,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -100245,6 +100831,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -100595,6 +101186,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -101184,6 +101780,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -105173,73 +105774,6 @@
       }
     ]
   },
-  "com.google.android.soundpicker": {
-    "appName": "Sounds",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "nl-nl",
-        "name": "Geluiden"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_x86_64",
-        "os": "31"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "31"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_arm64",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 8a",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 8",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
-      }
-    ]
-  },
   "com.android.soundpicker": {
     "appName": "Sounds",
     "userFacing": false,
@@ -105254,6 +105788,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
       {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
@@ -105401,6 +105940,73 @@
       }
     ]
   },
+  "com.google.android.soundpicker": {
+    "appName": "Sounds",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Geluiden"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 8a",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 8",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9a",
+        "os": "36"
+      }
+    ]
+  },
   "com.transsion.connectx.mirror.source": {
     "appName": "source-service",
     "userFacing": false,
@@ -105534,6 +106140,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -106121,6 +106732,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -107547,6 +108163,11 @@
     ],
     "devices": [
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -107796,6 +108417,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -108441,6 +109067,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -108876,6 +109507,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -109164,6 +109800,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -110073,6 +110714,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -111000,6 +111646,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.networkstack.tethering.inprocess": {
+    "appName": "Tethering",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
       }
     ]
   },
@@ -112762,6 +113420,11 @@
         "os": "33"
       },
       {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -114490,6 +115153,11 @@
       {
         "make": "samsung",
         "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "brya",
         "os": "33"
       },
       {
@@ -116514,6 +117182,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.internal.display.cutout.emulation.wide": {
+    "appName": "Wide cutout",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
       }
     ]
   },
