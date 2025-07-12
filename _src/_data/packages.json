@@ -28147,6 +28147,23 @@
       }
     ]
   },
+  "com.google.android.apps.adm": {
+    "appName": "com.google.android.apps.adm",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.android.apps.cbrsnetworkmonitor": {
     "appName": "com.google.android.apps.cbrsnetworkmonitor",
     "userFacing": false,
@@ -28672,6 +28689,30 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.crossdeviceaccessservice.auto_generated_rro_product__": {
+    "appName": "com.google.android.crossdeviceaccessservice.auto_generated_rro_product__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
+  "com.google.android.crossdeviceaccessservice.auto_generated_rro_vendor__": {
+    "appName": "com.google.android.crossdeviceaccessservice.auto_generated_rro_vendor__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -45859,6 +45900,18 @@
       }
     ]
   },
+  "com.google.android.crossdeviceaccessservice": {
+    "appName": "Cross Device Access Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.pixel.exo": {
     "appName": "Cross-Device Communication Service",
     "userFacing": false,
@@ -56518,18 +56571,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.google.android.apps.adm": {
-    "appName": "Find My Device",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
       }
     ]
   },
@@ -115444,6 +115485,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.multiuser": {
+    "appName": "Users",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
