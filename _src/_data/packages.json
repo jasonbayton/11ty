@@ -282,6 +282,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -2081,6 +2086,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -2445,6 +2455,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -2791,6 +2806,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -3121,6 +3141,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -3428,6 +3453,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -3726,6 +3756,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -4054,6 +4089,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -4721,6 +4761,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -5096,6 +5141,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -5266,6 +5316,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -7194,6 +7249,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -7335,6 +7395,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -7728,6 +7793,18 @@
       }
     ]
   },
+  "com.mediatek.autobootcontroller": {
+    "appName": "Auto boot controller",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.example": {
     "appName": "Auto Dialer",
     "userFacing": false,
@@ -7747,6 +7824,18 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      }
+    ]
+  },
+  "com.mediatek.autodialer": {
+    "appName": "Auto Dialer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -9169,6 +9258,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -9819,6 +9913,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -10144,6 +10243,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -10680,6 +10784,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -10990,6 +11099,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -11314,6 +11428,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -11805,6 +11924,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -12021,6 +12145,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -12485,6 +12614,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -13072,6 +13206,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -13766,6 +13905,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -14874,6 +15018,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -15355,6 +15504,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -15672,6 +15826,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -16621,6 +16780,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -16996,6 +17160,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -17224,6 +17393,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -17248,6 +17422,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -17260,6 +17439,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -17272,6 +17456,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -17284,6 +17473,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -17296,6 +17490,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -17313,18 +17512,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.rhinomobility.eng": {
-    "appName": "CIT Test",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
       }
     ]
   },
@@ -17727,6 +17914,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -18486,6 +18678,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -18858,6 +19055,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -19196,6 +19398,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -19831,6 +20038,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -20136,6 +20348,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -20904,6 +21121,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -21688,6 +21910,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -22755,6 +22982,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -23114,6 +23346,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -23802,6 +24039,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -24784,6 +25026,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -24916,6 +25163,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -26810,6 +27062,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -27057,80 +27314,14 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.wallpaperpicker": {
-    "appName": "com.android.wallpaperpicker",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "ru-ru",
-        "name": "Обои"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Wallpapers"
-      }
-    ],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "33"
-      },
-      {
-        "make": "QEMU",
-        "model": "Standard PC (i440FX + PIIX, 1996)",
-        "os": "27"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "SMT_HK",
-        "model": "YUMPINGO_1",
-        "os": "28"
-      },
-      {
-        "make": "Fairphone",
-        "model": "FP4",
-        "os": "33"
-      },
-      {
-        "make": "ALCommon",
-        "model": "ALCommon",
-        "os": "35"
       }
     ]
   },
@@ -27845,6 +28036,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.elink.settingsproviderresoverlay": {
+    "appName": "com.elink.settingsproviderresoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -29961,6 +30164,18 @@
       }
     ]
   },
+  "com.google.android.overlay.gmsconfig": {
+    "appName": "com.google.android.overlay.gmsconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.google.android.overlay.gmsconfig.asi": {
     "appName": "com.google.android.overlay.gmsconfig.asi",
     "userFacing": false,
@@ -31434,6 +31649,18 @@
       }
     ]
   },
+  "com.google.android.overlay.gmsgsaconfig": {
+    "appName": "com.google.android.overlay.gmsgsaconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.google.android.overlay.googleconfig": {
     "appName": "com.google.android.overlay.googleconfig",
     "userFacing": false,
@@ -32241,6 +32468,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -32461,6 +32693,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -32792,6 +33029,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -33021,6 +33263,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -33236,6 +33483,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -33578,6 +33830,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.overlay.searchlauncherconfig": {
+    "appName": "com.google.android.overlay.searchlauncherconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -35527,6 +35791,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -35606,6 +35875,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -35815,6 +36089,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -35937,6 +36216,91 @@
       }
     ]
   },
+  "com.mediatek.ims": {
+    "appName": "com.mediatek.ims.ImsApp",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "ImsApp"
+      },
+      {
+        "locale": "en-gb",
+        "name": "ImsApp"
+      },
+      {
+        "locale": "en-lk",
+        "name": "ImsApp"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "YUMPINGO_1",
+        "os": "28"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.mediatek.mms.appservice": {
     "appName": "com.mediatek.mms.appservice.MmsAppService",
     "userFacing": false,
@@ -35951,6 +36315,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -42337,6 +42706,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -42957,6 +43331,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -43893,6 +44272,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -44310,6 +44694,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -45006,6 +45395,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -46579,6 +46973,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -47464,6 +47863,11 @@
         "os": "36"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -47680,6 +48084,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -48889,6 +49298,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -48961,6 +49375,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.docs.editors.docs": {
+    "appName": "Docs",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -49428,6 +49854,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -49756,6 +50187,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -50081,6 +50517,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -50487,6 +50928,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -51255,6 +51701,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -51714,6 +52165,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -51921,6 +52377,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -53335,6 +53796,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -54946,6 +55412,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -55177,6 +55648,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -55444,6 +55920,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -55456,6 +55937,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -55468,6 +55954,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -55480,6 +55971,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -55492,6 +55988,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -56933,6 +57434,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -58592,6 +59098,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -58759,6 +59270,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -59001,6 +59517,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -59347,6 +59868,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -59733,6 +60259,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -59858,6 +60389,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -60285,6 +60821,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -60315,6 +60856,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -60636,6 +61182,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -60919,6 +61470,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -61217,6 +61773,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -61543,6 +62104,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -61845,6 +62411,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -61865,6 +62436,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -62284,6 +62860,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -62784,6 +63365,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -63143,6 +63729,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -63464,6 +64055,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -63646,6 +64242,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -64072,6 +64673,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -64313,6 +64919,28 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.rhinomobility.eng": {
+    "appName": "Hardware Check",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "CIT Test"
+      }
+    ],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -65513,6 +66141,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -66067,6 +66700,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -66647,78 +67285,6 @@
       }
     ]
   },
-  "com.mediatek.ims": {
-    "appName": "ImsApp",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "com.mediatek.ims.ImsApp"
-      }
-    ],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "Sony",
-        "model": "I3312",
-        "os": "27"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "SMT_HK",
-        "model": "YUMPINGO_1",
-        "os": "28"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
-      },
-      {
-        "make": "ALCommon",
-        "model": "ALCommon",
-        "os": "35"
-      }
-    ]
-  },
   "com.sec.imslogger": {
     "appName": "ImsLogger",
     "userFacing": false,
@@ -67248,6 +67814,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -67374,6 +67945,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -68370,6 +68946,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -70851,6 +71432,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -71039,6 +71625,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -71317,6 +71908,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -71885,6 +72481,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -72510,6 +73111,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -72828,6 +73434,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -73977,6 +74588,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -74388,6 +75004,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -75663,6 +76284,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -77228,6 +77854,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -77634,6 +78265,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -78774,6 +79410,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -79780,6 +80421,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -80624,6 +81270,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -80850,6 +81501,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -81366,6 +82022,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -82221,6 +82882,18 @@
       }
     ]
   },
+  "android.autoinstalls.config.socialmobile.Rhino_C10": {
+    "appName": "OptionalAppSetup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.orange.aura.oobe": {
     "appName": "Orange Manual Selector",
     "userFacing": false,
@@ -82252,6 +82925,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -82673,6 +83351,18 @@
       }
     ]
   },
+  "com.android.hotspot2": {
+    "appName": "OsuLogin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.wdstechnology.android.kryten": {
     "appName": "OTA Access Point Configuration",
     "userFacing": false,
@@ -83090,6 +83780,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -83417,6 +84112,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -83902,6 +84602,30 @@
       }
     ]
   },
+  "com.mediatek.security": {
+    "appName": "Permission Control",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
+  "com.mediatek.security.service": {
+    "appName": "Permission Control Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.google.android.permissioncontroller": {
     "appName": "Permission controller",
     "userFacing": false,
@@ -84191,6 +84915,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -85111,6 +85840,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -85600,6 +86334,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -85946,6 +86685,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -86287,6 +87031,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -86703,6 +87452,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -87021,6 +87775,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
@@ -88825,6 +89584,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -89147,6 +89911,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -89850,6 +90619,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -90210,6 +90984,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -91113,6 +91892,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -92152,6 +92936,18 @@
       }
     ]
   },
+  "com.rhinomobility.oemconfig": {
+    "appName": "Rhino OEMConfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.rm.activation": {
     "appName": "RhinoMobility Activation",
     "userFacing": false,
@@ -92161,6 +92957,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -92250,6 +93051,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -92601,6 +93407,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -92613,6 +93424,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -92625,6 +93441,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -92649,6 +93470,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -92671,6 +93497,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -99770,6 +100601,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -100096,6 +100932,33 @@
       }
     ]
   },
+  "com.mediatek.sensorhub.ui": {
+    "appName": "Sensor Test",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "SensorHub"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.fingerprints.sensortesttool": {
     "appName": "Sensor Test Tool",
     "userFacing": false,
@@ -100122,23 +100985,6 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
-      }
-    ]
-  },
-  "com.mediatek.sensorhub.ui": {
-    "appName": "SensorHub",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Sony",
-        "model": "I3312",
-        "os": "27"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
       }
     ]
   },
@@ -101248,6 +102094,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -101723,6 +102574,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -102009,6 +102865,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -102372,6 +103233,18 @@
       }
     ]
   },
+  "com.google.android.apps.docs.editors.sheets": {
+    "appName": "Sheets",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.coloros.assistantscreen": {
     "appName": "Shelf",
     "userFacing": false,
@@ -102683,6 +103556,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -103238,6 +104116,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -103764,6 +104647,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -104250,6 +105138,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.apps.docs.editors.slides": {
+    "appName": "Slides",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -106401,6 +107301,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -106670,6 +107575,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -107065,6 +107975,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -107119,6 +108034,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -107131,6 +108051,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -107610,6 +108535,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -109698,6 +110628,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -110024,6 +110959,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -111661,6 +112601,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -111874,6 +112819,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -111990,6 +112940,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -114394,6 +115349,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -116135,6 +117095,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -116155,6 +117120,18 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.verizon.remoteSimlock": {
+    "appName": "VZWRemoteSimlockService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -116591,6 +117568,90 @@
       }
     ]
   },
+  "com.android.wallpaperpicker": {
+    "appName": "Wallpapers",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обои"
+      },
+      {
+        "locale": "en-be",
+        "name": "com.android.wallpaperpicker"
+      },
+      {
+        "locale": "",
+        "name": "com.android.wallpaperpicker"
+      },
+      {
+        "locale": "en-za",
+        "name": "com.android.wallpaperpicker"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "YUMPINGO_1",
+        "os": "28"
+      },
+      {
+        "make": "Fairphone",
+        "model": "FP4",
+        "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.oplus.wallpapers": {
     "appName": "Wallpapers",
     "userFacing": false,
@@ -116663,6 +117724,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -118977,6 +120043,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -119427,6 +120498,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       }
     ]
   },
@@ -119723,6 +120799,11 @@
         "os": "35"
       },
       {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -119888,6 +120969,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
       },
       {
         "make": "Google",
