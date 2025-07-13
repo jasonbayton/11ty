@@ -33,28 +33,42 @@ async function buildTable() {
     });
   }
 
-  function updateFilters() {
+  function updateFilters(activeFilter = null) {
     const selectedMake = filterMake.value;
     const selectedModel = filterModel.value;
     const selectedOS = filterOS.value;
 
-    // Start with all deviceAppMatrix, filter down as selections are made
-    let filteredDevices = window.deviceAppMatrix;
-    if (selectedMake) filteredDevices = filteredDevices.filter(d => d.make === selectedMake);
-    if (selectedModel) filteredDevices = filteredDevices.filter(d => d.model === selectedModel);
-    if (selectedOS) filteredDevices = filteredDevices.filter(d => d.os === selectedOS);
+    const baseDevices = window.deviceAppMatrix;
 
-    // Build valid dropdown options from filteredDevices
-    const makes = [...new Set(filteredDevices.map(d => d.make))].sort();
-    const models = [...new Set(filteredDevices.map(d => d.model))].sort();
-    const oses = [...new Set(filteredDevices.map(d => d.os))].sort();
+    const makeDevices = baseDevices.filter(d =>
+      (!selectedModel || d.model === selectedModel) &&
+      (!selectedOS || d.os === selectedOS)
+    );
+    const modelDevices = baseDevices.filter(d =>
+      (!selectedMake || d.make === selectedMake) &&
+      (!selectedOS || d.os === selectedOS)
+    );
+    const osDevices = baseDevices.filter(d =>
+      (!selectedMake || d.make === selectedMake) &&
+      (!selectedModel || d.model === selectedModel)
+    );
 
-    filterMake.innerHTML = `<option value="">All OEMs</option>` +
-      makes.map(m => `<option value="${m}" ${m === selectedMake ? 'selected' : ''}>${m}</option>`).join('');
-    filterModel.innerHTML = `<option value="">All Models</option>` +
-      models.map(m => `<option value="${m}" ${m === selectedModel ? 'selected' : ''}>${m}</option>`).join('');
-    filterOS.innerHTML = `<option value="">All OS</option>` +
-      oses.map(o => `<option value="${o}" ${o === selectedOS ? 'selected' : ''}>${o}</option>`).join('');
+    const makes = [...new Set(makeDevices.map(d => d.make))].sort();
+    const models = [...new Set(modelDevices.map(d => d.model))].sort();
+    const oses = [...new Set(osDevices.map(d => d.os))].sort();
+
+    if (activeFilter !== 'make') {
+      filterMake.innerHTML = `<option value="">All OEMs</option>` +
+        makes.map(m => `<option value="${m}" ${m === selectedMake ? 'selected' : ''}>${m}</option>`).join('');
+    }
+    if (activeFilter !== 'model') {
+      filterModel.innerHTML = `<option value="">All Models</option>` +
+        models.map(m => `<option value="${m}" ${m === selectedModel ? 'selected' : ''}>${m}</option>`).join('');
+    }
+    if (activeFilter !== 'os') {
+      filterOS.innerHTML = `<option value="">All OS</option>` +
+        oses.map(o => `<option value="${o}" ${o === selectedOS ? 'selected' : ''}>${o}</option>`).join('');
+    }
   }
 
   [filterMake, filterModel, filterOS, searchInput].forEach(el => {
@@ -121,12 +135,12 @@ async function buildTable() {
     const filteredRows = rows.filter(row => {
       const matches =
         (!q ||
-          row.packageName.toLowerCase().includes(q) ||
-          row.appName.toLowerCase().includes(q) ||
-          row.make.toLowerCase().includes(q) ||
-          row.model.toLowerCase().includes(q) ||
-          row.os.toLowerCase().includes(q) ||
-          row.alsoKnownBy.toLowerCase().includes(q) ||
+        row.packageName.toLowerCase().includes(q) ||
+        row.appName.toLowerCase().includes(q) ||
+        row.make.toLowerCase().includes(q) ||
+        row.model.toLowerCase().includes(q) ||
+        row.os.toLowerCase().includes(q) ||
+        row.alsoKnownBy.toLowerCase().includes(q) ||
           row.userFacing.toLowerCase().includes(q)) &&
         (!selectedMake || row.make.split(',').map(s => s.trim()).includes(selectedMake)) &&
         (!selectedModel || row.model.split(',').map(s => s.trim()).includes(selectedModel)) &&
