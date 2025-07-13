@@ -187,6 +187,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -1096,6 +1101,18 @@
       }
     ]
   },
+  "com.freemeimp.factory": {
+    "appName": "Aging test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.bhpme.AgingTest": {
     "appName": "Aging Test",
     "userFacing": false,
@@ -1789,6 +1806,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -2355,6 +2377,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -2706,6 +2733,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -3041,6 +3073,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -3353,6 +3390,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -3656,6 +3698,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -3989,6 +4036,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -4661,6 +4713,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -5069,6 +5126,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -7326,6 +7388,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -7832,6 +7899,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
       {
         "make": "RHINO",
         "model": "C10",
@@ -9168,6 +9240,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -10145,6 +10222,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -10689,6 +10771,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -10999,6 +11086,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -11328,6 +11420,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -11889,6 +11986,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -12100,6 +12202,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -12514,6 +12621,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -13106,6 +13218,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -13898,6 +14015,11 @@
       },
       {
         "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
       },
@@ -14454,6 +14576,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -15071,6 +15198,11 @@
       },
       {
         "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
       }
@@ -15417,6 +15549,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -15810,6 +15947,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
         "os": "31"
       },
       {
@@ -16410,6 +16552,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -16678,6 +16825,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -17058,6 +17210,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -17834,6 +17991,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -18578,6 +18740,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -18965,6 +19132,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -19348,6 +19520,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -19938,6 +20115,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -20248,6 +20430,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -20777,6 +20964,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -21026,6 +21218,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -21646,6 +21843,28 @@
       }
     ]
   },
+  "com.android.onetimeinitializer": {
+    "appName": "com.android.onetimeinitializer",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "One Time Init"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.ons": {
     "appName": "com.android.ons",
     "userFacing": false,
@@ -21815,6 +22034,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -22037,6 +22261,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.overlay.launcher3": {
+    "appName": "com.android.overlay.launcher3",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -22887,6 +23123,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -23246,6 +23487,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -24015,6 +24261,18 @@
       }
     ]
   },
+  "com.android.secretcode": {
+    "appName": "com.android.secretcode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.networkstack.permissionconfig": {
     "appName": "com.android.server.NetworkPermissionConfig",
     "userFacing": false,
@@ -24056,6 +24314,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -24924,6 +25187,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -26962,6 +27230,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -27227,6 +27500,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -27566,6 +27844,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -27626,6 +27909,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -28716,6 +29004,30 @@
       }
     ]
   },
+  "com.google.android.dialer.overlay.config": {
+    "appName": "com.google.android.dialer.overlay.config",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
+  "com.google.android.dialer.overlay.telecom": {
+    "appName": "com.google.android.dialer.overlay.telecom",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.documentsui.theme.pixel": {
     "appName": "com.google.android.documentsui.theme.pixel",
     "userFacing": false,
@@ -29162,6 +29474,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "SMT_HK",
@@ -29764,6 +30081,11 @@
         "os": "31"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -29891,6 +30213,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -30555,6 +30882,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -30702,6 +31034,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -30769,6 +31106,18 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.gallerygo": {
+    "appName": "com.google.android.overlay.gmsconfig.gallerygo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -30888,6 +31237,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -30966,6 +31320,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.go": {
+    "appName": "com.google.android.overlay.gmsconfig.go",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -31469,6 +31835,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.searchgo": {
+    "appName": "com.google.android.overlay.gmsconfig.searchgo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -32646,6 +33024,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -32980,6 +33363,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -33214,6 +33602,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -33434,6 +33827,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -35809,6 +36207,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -36019,6 +36422,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -36112,6 +36520,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -36179,6 +36592,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -36234,6 +36652,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -36314,6 +36737,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -36403,6 +36831,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -36528,6 +36961,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -36568,6 +37006,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -42647,6 +43090,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -43272,6 +43720,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -44263,6 +44716,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -44675,6 +45133,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -45341,6 +45804,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -46677,6 +47145,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
@@ -46929,6 +47402,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -49291,6 +49769,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -49812,6 +50295,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -50138,6 +50626,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -50470,6 +50963,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -50936,6 +51434,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -51465,6 +51968,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -51657,6 +52165,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -52382,6 +52895,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -52905,6 +53423,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
         "os": "31"
       },
       {
@@ -53749,6 +54272,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -54741,6 +55269,18 @@
       }
     ]
   },
+  "com.teksun.factorytest": {
+    "appName": "FactoryTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.along.factorytest": {
     "appName": "FactoryTest",
     "userFacing": false,
@@ -55523,6 +56063,11 @@
       },
       {
         "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
       }
@@ -55656,6 +56201,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -56840,6 +57390,11 @@
       },
       {
         "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
       },
@@ -57375,6 +57930,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -58611,6 +59171,18 @@
       }
     ]
   },
+  "com.google.android.apps.photosgo": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.storyservice": {
     "appName": "Gallery stories",
     "userFacing": false,
@@ -59258,6 +59830,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -59518,6 +60095,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "isafemobile",
@@ -59871,6 +60453,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -60205,6 +60792,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -60390,6 +60982,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "isafemobile",
@@ -60770,6 +61367,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -61251,6 +61853,18 @@
       }
     ]
   },
+  "com.google.android.apps.assistant": {
+    "appName": "Google Assistant Go",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.backuptransport": {
     "appName": "Google Backup Transport",
     "userFacing": false,
@@ -61509,6 +62123,11 @@
       },
       {
         "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
       },
@@ -61516,6 +62135,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.google.android.apps.searchlite": {
+    "appName": "Google Go",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -61719,6 +62350,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -62045,6 +62681,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -62350,6 +62991,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -62801,6 +63447,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -63306,6 +63957,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -63757,6 +64413,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -63994,6 +64655,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -64238,6 +64904,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -66643,6 +67314,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -67077,6 +67753,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.imeisettings": {
+    "appName": "ImeiSettings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -67755,6 +68443,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -67966,6 +68659,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -68887,6 +69585,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -71659,6 +72362,11 @@
       },
       {
         "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
       },
@@ -71924,6 +72632,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -72427,6 +73140,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -73062,6 +73780,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -73375,6 +74098,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -73869,6 +74597,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -74549,6 +75282,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -74950,6 +75688,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -76227,6 +76970,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -77361,6 +78109,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -77793,6 +78546,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -78283,6 +79041,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -78658,6 +79421,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.settings.navigationbar": {
+    "appName": "NavigationBar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -79476,6 +80251,11 @@
         "make": "Google",
         "model": "brya",
         "os": "33"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -79849,6 +80629,11 @@
         "os": "31"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -80061,6 +80846,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -80375,6 +81165,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -81224,6 +82019,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -82151,6 +82951,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
@@ -82164,18 +82969,6 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.onetimeinitializer": {
-    "appName": "One Time Init",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "brya",
-        "os": "33"
       }
     ]
   },
@@ -83209,6 +84002,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -83721,6 +84519,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -84053,6 +84856,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -84861,6 +85669,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -85965,6 +86778,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -86273,6 +87091,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -86626,6 +87449,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -86972,6 +87800,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -89525,6 +90358,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -89852,6 +90690,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -90560,6 +91403,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -90913,6 +91761,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -91902,6 +92755,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
         "os": "31"
       },
       {
@@ -93079,6 +93937,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -93815,6 +94678,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.sagatest": {
+    "appName": "SagaTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -99491,6 +100366,18 @@
       }
     ]
   },
+  "com.android.screenshot": {
+    "appName": "Screenshot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.oplus.screenshot": {
     "appName": "Screenshot",
     "userFacing": false,
@@ -100655,6 +101542,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.se.go": {
+    "appName": "SecureElementApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -102035,6 +102934,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -102515,6 +103419,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -102816,6 +103725,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -103499,6 +104413,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -104057,6 +104976,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -104603,6 +105527,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -104896,6 +105825,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -107324,6 +108258,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -107480,6 +108419,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -107914,6 +108858,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -109811,6 +110760,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -110574,6 +111528,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -110900,6 +111859,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -111558,6 +112522,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -112172,6 +113141,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -112545,6 +113519,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -112968,6 +113947,11 @@
         "os": "35"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -113343,6 +114327,11 @@
         "make": "Google",
         "model": "brya",
         "os": "33"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -113579,6 +114568,11 @@
         "os": "31"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -113618,6 +114612,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
         "os": "31"
       },
       {
@@ -115288,6 +116287,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -117048,6 +118052,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -117679,6 +118688,11 @@
         "os": "31"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -117992,6 +119006,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -118090,6 +119109,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.watermark": {
+    "appName": "Watermark",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
@@ -119996,6 +121027,11 @@
         "os": "34"
       },
       {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -120549,6 +121585,11 @@
       },
       {
         "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
       },
@@ -120760,6 +121801,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -120977,6 +122023,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       },
       {
         "make": "Fairphone",
