@@ -1309,7 +1309,7 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-nl",
+        "locale": "",
         "name": "AI Core"
       }
     ],
@@ -8314,10 +8314,6 @@
         "name": "Private Access Tokens"
       },
       {
-        "locale": "en-nl",
-        "name": "Private Access Tokens"
-      },
-      {
         "locale": "it-it",
         "name": "Verifica automatica"
       },
@@ -8489,10 +8485,6 @@
       {
         "locale": "nl-nl",
         "name": "Avatar-editor"
-      },
-      {
-        "locale": "en-nl",
-        "name": "AR Emoji Editor"
       },
       {
         "locale": "it-it",
@@ -8680,10 +8672,6 @@
       {
         "locale": "nl-nl",
         "name": "Avatar-stickers"
-      },
-      {
-        "locale": "en-nl",
-        "name": "AR Emoji Stickers"
       },
       {
         "locale": "it-it",
@@ -53507,10 +53495,6 @@
       {
         "locale": "en-gb",
         "name": "Knox Enrollment Service"
-      },
-      {
-        "locale": "en-nl",
-        "name": "Knox Enrollment Service"
       }
     ],
     "devices": [
@@ -58076,10 +58060,6 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
-        "name": "AR Emoji"
-      },
-      {
-        "locale": "en-nl",
         "name": "AR Emoji"
       },
       {
@@ -66168,10 +66148,6 @@
       },
       {
         "locale": "en",
-        "name": "Google Assistant"
-      },
-      {
-        "locale": "en-nl",
         "name": "Google Assistant"
       },
       {
@@ -82577,10 +82553,6 @@
         "name": "Google Assistant"
       },
       {
-        "locale": "en-nl",
-        "name": "Google Assistant"
-      },
-      {
         "locale": "es-es",
         "name": "Google Assistant"
       }
@@ -86088,10 +86060,6 @@
       {
         "locale": "nl-nl",
         "name": "Persoonlijke informatie"
-      },
-      {
-        "locale": "en-nl",
-        "name": "Smart suggestions"
       },
       {
         "locale": "it-it",
@@ -95001,10 +94969,6 @@
         "name": "SecVideoEngineService"
       },
       {
-        "locale": "en-nl",
-        "name": "SecVideoEngineService"
-      },
-      {
         "locale": "es-es",
         "name": "SecVideoEngineService"
       }
@@ -97209,6 +97173,10 @@
         "name": "Samsung Pay Framework"
       },
       {
+        "locale": "en-nl",
+        "name": "Samsung Pay Framework"
+      },
+      {
         "locale": "it-it",
         "name": "Samsung Pay Framework"
       },
@@ -99371,10 +99339,6 @@
     "appName": "SamsungTTS Russian Voice 1",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "en-nl",
-        "name": "SamsungTTS Russian Default voice 1 - Classic"
-      },
       {
         "locale": "es-es",
         "name": "SamsungTTS Russian Default voice 1 - Classic"
@@ -102538,10 +102502,6 @@
       {
         "locale": "nl-nl",
         "name": "Serviceprovider instellen"
-      },
-      {
-        "locale": "en-nl",
-        "name": "Configuration update"
       },
       {
         "locale": "it-it",
@@ -107291,10 +107251,6 @@
         "name": "SmartThings Framework"
       },
       {
-        "locale": "en-nl",
-        "name": "SmartThings Framework"
-      },
-      {
         "locale": "es-es",
         "name": "SmartThings Framework"
       }
@@ -110991,10 +110947,6 @@
         "name": "Ouderlijk toezicht van systeem"
       },
       {
-        "locale": "en-nl",
-        "name": "Family Link parental controls"
-      },
-      {
         "locale": "it-it",
         "name": "Controllo genitori di sistema"
       },
@@ -111005,6 +110957,10 @@
       {
         "locale": "es-es",
         "name": "Controles parentales de Family Link"
+      },
+      {
+        "locale": "",
+        "name": "Family Link parental controls"
       }
     ],
     "devices": [
@@ -117041,10 +116997,6 @@
       {
         "locale": "nl-nl",
         "name": "Video-effecten"
-      },
-      {
-        "locale": "en-nl",
-        "name": "Video call effects"
       },
       {
         "locale": "it-it",
