@@ -81254,6 +81254,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "NFC-service"
+      },
+      {
         "locale": "en-de",
         "name": "NFC service"
       }
