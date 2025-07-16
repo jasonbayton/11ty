@@ -28425,7 +28425,7 @@
   },
   "com.google.android.apps.adm": {
     "appName": "com.google.android.apps.adm",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
