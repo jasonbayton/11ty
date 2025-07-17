@@ -39083,6 +39083,18 @@
       }
     ]
   },
+  "com.qualcomm.qtil.aptxalsOverlay": {
+    "appName": "com.qualcomm.qtil.aptxalsOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      }
+    ]
+  },
   "com.qualcomm.qtil.btdsda": {
     "appName": "com.qualcomm.qtil.btdsda",
     "userFacing": false,
@@ -120611,7 +120623,7 @@
   },
   "com.adups.fota": {
     "appName": "Wireless Update",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
