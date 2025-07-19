@@ -16,6 +16,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
       }
@@ -115,6 +120,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -1781,6 +1791,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -2332,6 +2347,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -2688,6 +2708,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -3033,6 +3058,11 @@
         "os": "31"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -3353,6 +3383,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -3678,6 +3713,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -4011,6 +4051,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -4698,6 +4743,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -5134,6 +5184,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -5358,6 +5413,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Google",
@@ -6693,6 +6753,18 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.huaqin.apphide": {
+    "appName": "AppHideService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       }
     ]
   },
@@ -9238,6 +9310,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -10075,6 +10152,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -10223,6 +10305,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -10789,6 +10876,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -11099,6 +11191,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -11440,6 +11537,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -11649,8 +11751,18 @@
   "com.google.android.apps.books": {
     "appName": "Books",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Google Play Books"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
@@ -12060,6 +12172,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -12275,6 +12392,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -12659,6 +12781,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -13261,6 +13388,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -14409,6 +14541,18 @@
       }
     ]
   },
+  "com.google.android.apps.cameralite": {
+    "appName": "Camera Go",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.samsung.android.hwresourceshare": {
     "appName": "Camera Share",
     "userFacing": false,
@@ -14981,6 +15125,18 @@
       }
     ]
   },
+  "com.lenovo.capsensortest": {
+    "appName": "CapSensorTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.captiveportallogin": {
     "appName": "Captive Portal Login",
     "userFacing": false,
@@ -15330,6 +15486,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -15622,6 +15783,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -16086,6 +16252,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "NUU",
@@ -16707,6 +16878,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -16898,6 +17074,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -17288,6 +17469,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -17715,6 +17901,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -17744,6 +17935,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -17758,6 +17954,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -17778,6 +17979,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -17795,6 +18001,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -17809,6 +18020,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -18122,6 +18338,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -18833,6 +19054,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -19248,6 +19474,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -19673,6 +19904,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -20238,6 +20474,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -20558,6 +20799,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -21385,6 +21631,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -22091,17 +22342,17 @@
   "com.android.onetimeinitializer": {
     "appName": "com.android.onetimeinitializer",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "One Time Init"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "Google",
         "model": "brya",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "SMT_HK",
@@ -22209,6 +22460,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -23303,6 +23559,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -23674,6 +23935,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -23897,6 +24163,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -24583,6 +24854,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -25387,6 +25663,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -27455,6 +27736,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -27745,6 +28031,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -28199,6 +28490,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -29794,6 +30090,11 @@
         "os": "28"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -30400,6 +30701,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -30501,6 +30807,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -31084,6 +31395,18 @@
       }
     ]
   },
+  "com.google.android.overlay.gmsconfig.assistantgo": {
+    "appName": "com.google.android.overlay.gmsconfig.assistantgo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.overlay.gmsconfig.common": {
     "appName": "com.google.android.overlay.gmsconfig.common",
     "userFacing": false,
@@ -31158,6 +31481,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -31352,6 +31680,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -31457,6 +31790,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
@@ -31676,6 +32014,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
@@ -33352,6 +33695,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33696,6 +34044,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33940,6 +34293,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34170,6 +34528,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -36511,6 +36874,42 @@
       }
     ]
   },
+  "com.huaqin.factoryservice": {
+    "appName": "com.huaqin.factoryservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
+  "com.huaqin.lenovoprivacy": {
+    "appName": "com.huaqin.lenovoprivacy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
+  "com.huaqin.NvService": {
+    "appName": "com.huaqin.NvService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.infinix": {
     "appName": "com.infinix",
     "userFacing": false,
@@ -36588,6 +36987,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -36767,6 +37171,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -36906,6 +37315,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -37132,6 +37546,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -37350,6 +37769,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -37410,6 +37834,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
@@ -43570,6 +43999,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -44220,6 +44654,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -45251,6 +45690,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -45668,6 +46112,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -46326,6 +46775,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -46538,6 +46992,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.huaqin.countrylist": {
+    "appName": "countrylist-V2.0",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       }
     ]
   },
@@ -47736,6 +48202,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -47937,6 +48408,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -48172,6 +48648,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -48473,6 +48954,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "android.autoinstalls.config.Lenovo.TB7306": {
+    "appName": "Device configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       }
     ]
   },
@@ -49042,6 +49535,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -49220,6 +49718,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Google",
@@ -50364,6 +50867,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -50482,6 +50990,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.huaqin.displayChargeAnimation": {
+    "appName": "DisplayChargeAnimation",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       }
     ]
   },
@@ -50674,6 +51194,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -50711,6 +51236,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
@@ -50863,6 +51393,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -51191,6 +51726,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -51533,6 +52073,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -52049,6 +52594,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -52755,6 +53305,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -53510,6 +54065,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -54076,6 +54636,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -54363,6 +54928,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -54858,6 +55428,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -56728,6 +57303,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -56842,6 +57422,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -57206,6 +57791,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -57220,6 +57810,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -57240,6 +57835,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -57257,6 +57857,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -57271,6 +57876,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -58089,6 +58699,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -58398,6 +59013,18 @@
       }
     ]
   },
+  "jp.co.fsi.fskaren.lenovo": {
+    "appName": "FSKAREN",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.focaltech.ft_terminal_test": {
     "appName": "FT Terminal Test",
     "userFacing": false,
@@ -58570,6 +59197,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -59863,6 +60495,28 @@
       }
     ]
   },
+  "com.google.android.apps.photosgo": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Gallery Go"
+      }
+    ],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.miui.gallery": {
     "appName": "Gallery",
     "userFacing": true,
@@ -59889,18 +60543,6 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
-      }
-    ]
-  },
-  "com.google.android.apps.photosgo": {
-    "appName": "Gallery",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "SMT_HK",
-        "model": "Helium Pro",
-        "os": "31"
       }
     ]
   },
@@ -60424,6 +61066,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -60504,6 +61151,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -60806,6 +61458,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "OUKITEL",
@@ -61169,6 +61826,11 @@
         "os": "31"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -61458,6 +62120,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -61708,6 +62375,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "OUKITEL",
@@ -62033,6 +62705,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -62612,8 +63289,18 @@
   "com.google.android.apps.assistant": {
     "appName": "Google Assistant",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Google Assistant Go"
+      }
+    ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
@@ -62863,6 +63550,11 @@
         "os": "31"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -62899,6 +63591,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
@@ -63036,6 +63733,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -63235,6 +63937,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -63360,6 +64067,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -63679,6 +64391,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -63899,6 +64616,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.google.android.play.games": {
+    "appName": "Google Play Games",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       }
     ]
   },
@@ -64138,6 +64867,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -64651,6 +65385,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -65194,6 +65933,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -65366,6 +66110,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -65574,6 +66323,18 @@
       }
     ]
   },
+  "com.google.android.apps.speechservices": {
+    "appName": "Google Speech Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.apps.helprtc": {
     "appName": "Google Support Services",
     "userFacing": false,
@@ -65660,6 +66421,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -66185,6 +66951,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -68036,6 +68807,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -69170,6 +69946,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -69451,6 +70232,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -70329,6 +71115,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -70635,6 +71426,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -72052,6 +72848,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -72120,11 +72921,33 @@
       }
     ]
   },
-  "com.tblenovo.center": {
-    "appName": "Lenovo Vantage",
+  "com.lenovo.tab_m7": {
+    "appName": "Lenovo Tab M7 (3rd Gen)",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tblenovo.center": {
+    "appName": "Lenovo Vantage",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Tablet Center"
+      }
+    ],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -73184,6 +74007,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -73462,6 +74290,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -73571,6 +74404,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -73622,7 +74460,7 @@
       },
       {
         "locale": "en-de",
-        "name": "Magic portrait"
+        "name": "Live effects"
       }
     ],
     "devices": [
@@ -73932,6 +74770,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -74577,6 +75420,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -74895,6 +75743,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -75483,6 +76336,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -76107,6 +76965,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -77618,6 +78481,18 @@
       }
     ]
   },
+  "com.yha.factory": {
+    "appName": "MMI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.factory.mmigroup": {
     "appName": "MMIGroup",
     "userFacing": true,
@@ -77790,6 +78665,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -79375,6 +80255,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -79906,6 +80791,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -81170,6 +82060,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -81537,6 +82432,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -81738,6 +82638,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -82022,6 +82927,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -82882,6 +83792,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -83277,6 +84192,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -84693,6 +85613,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -84892,6 +85817,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -85391,6 +86321,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -85733,6 +86668,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -86176,6 +87116,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -86590,6 +87535,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -88015,6 +88965,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -88381,6 +89336,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -88732,6 +89692,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -91315,6 +92280,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -91652,6 +92622,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -92375,6 +93350,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -92755,6 +93735,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -92944,6 +93929,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -93838,6 +94828,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -95025,6 +96020,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -95425,6 +96425,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -95439,6 +96444,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -95459,6 +96469,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -95474,6 +96489,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       }
     ]
   },
@@ -95485,6 +96505,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -95507,6 +96532,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -101653,6 +102683,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -102668,6 +103703,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
@@ -103968,6 +105008,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -104458,6 +105503,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -104794,6 +105844,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -105137,6 +106192,18 @@
       }
     ]
   },
+  "com.android.setupwizardext": {
+    "appName": "SetupWizardExt",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.tblenovo.setup": {
     "appName": "SetupWizardExt",
     "userFacing": false,
@@ -105460,6 +106527,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -106043,6 +107115,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -106954,6 +108031,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -109553,6 +110635,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -109736,6 +110823,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -109960,6 +111052,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -110222,6 +111319,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -110562,6 +111664,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "QEMU",
@@ -112670,6 +113777,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -112998,6 +114110,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -113279,6 +114396,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -113702,6 +114824,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -114344,6 +115471,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -114688,6 +115820,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -114900,6 +116037,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       }
     ]
   },
@@ -115075,6 +116217,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       },
       {
@@ -115576,6 +116723,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -115806,6 +116958,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -115850,6 +117007,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -116987,6 +118149,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -117471,6 +118638,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -117682,6 +118854,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -118150,6 +119327,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
         "os": "30"
       }
     ]
@@ -119255,6 +120437,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -119971,6 +121158,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -120232,6 +121424,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -122265,6 +123462,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -123105,6 +124307,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -123377,6 +124584,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -123500,11 +124712,28 @@
       }
     ]
   },
+  "com.google.android.apps.youtube.kids": {
+    "appName": "YT Kids",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.apps.youtube.music.setupwizard": {
     "appName": "YT Music",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
