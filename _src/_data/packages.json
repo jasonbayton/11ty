@@ -118668,7 +118668,7 @@
   },
   "com.google.android.apps.accessibility.voiceaccess": {
     "appName": "Voice Access",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
