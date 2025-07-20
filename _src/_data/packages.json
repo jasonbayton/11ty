@@ -25187,18 +25187,6 @@
       }
     ]
   },
-  "com.android.settings.future.overlay.cheetah": {
-    "appName": "com.android.settings.future.overlay.cheetah",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      }
-    ]
-  },
   "com.android.settings.komodo": {
     "appName": "com.android.settings.komodo",
     "userFacing": false,
@@ -74456,7 +74444,7 @@
       },
       {
         "locale": "nl-nl",
-        "name": "Magisch portret"
+        "name": "Live effecten"
       },
       {
         "locale": "en-de",
