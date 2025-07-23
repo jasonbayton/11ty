@@ -127,6 +127,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -496,6 +501,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -627,6 +637,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -1511,6 +1526,18 @@
       }
     ]
   },
+  "com.zui.ai.aiservice": {
+    "appName": "AIService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.transsion.aisettings": {
     "appName": "AiSettings",
     "userFacing": false,
@@ -1554,6 +1581,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -1794,6 +1826,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -2718,6 +2755,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -3068,6 +3110,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -3395,6 +3442,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -3718,6 +3770,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -4061,6 +4118,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -4451,6 +4513,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -4753,6 +4820,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -5017,6 +5089,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -5690,6 +5767,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -5879,6 +5961,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -7071,6 +7158,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -7418,6 +7510,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -8787,6 +8884,11 @@
         "os": "35"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -9318,6 +9420,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -10317,6 +10424,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -10886,6 +10998,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -11201,6 +11318,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -11545,6 +11667,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -12034,6 +12161,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -12174,6 +12306,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -12397,6 +12534,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -12791,6 +12933,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -13398,6 +13545,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -14406,6 +14558,23 @@
       }
     ]
   },
+  "com.zui.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -14419,18 +14588,6 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
-        "os": "35"
-      }
-    ]
-  },
-  "com.zui.camera": {
-    "appName": "Camera",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "TB570FU",
         "os": "35"
       }
     ]
@@ -14783,6 +14940,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -15272,6 +15434,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -15793,6 +15960,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -16681,6 +16853,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -17086,6 +17263,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -17479,6 +17661,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -18346,6 +18533,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -18844,6 +19036,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -19062,6 +19259,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -19486,6 +19688,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -19724,6 +19931,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -19916,6 +20128,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -20058,6 +20275,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -20243,6 +20465,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -20482,6 +20709,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -20809,6 +21041,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -21636,6 +21873,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -22146,6 +22388,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -22465,6 +22712,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -22896,6 +23148,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -23226,6 +23483,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -23567,6 +23829,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -23945,6 +24212,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -24170,6 +24442,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -24392,6 +24669,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -25003,6 +25285,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -25266,6 +25553,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -25663,6 +25955,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -25962,6 +26259,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -26088,6 +26390,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -26904,6 +27211,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -27391,6 +27703,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -27470,6 +27787,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -27732,6 +28054,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -28029,6 +28356,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -28562,6 +28894,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -28649,6 +28986,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -28938,6 +29280,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.bcm.bluetooth.overlay": {
+    "appName": "com.bcm.bluetooth.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       }
     ]
   },
@@ -29262,6 +29616,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -29522,6 +29881,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -29805,6 +30169,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -30347,6 +30716,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -30691,6 +31065,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -31232,6 +31611,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -31474,6 +31858,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -31751,6 +32140,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -31849,6 +32243,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -32085,6 +32484,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -32284,6 +32688,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -32399,6 +32808,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -32640,6 +33054,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -33008,6 +33427,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -33451,6 +33875,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33688,6 +34117,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -33875,6 +34309,11 @@
         "os": "35"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34035,6 +34474,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -34286,6 +34730,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -34521,6 +34970,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -35368,6 +35822,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -35600,6 +36059,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -36290,6 +36754,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -36381,6 +36850,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -36917,6 +37391,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -36927,11 +37406,28 @@
       }
     ]
   },
+  "com.lgsi.android.overlay.qssi": {
+    "appName": "com.lgsi.android.overlay.qssi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.lgsi.android.overlay.special.framework": {
     "appName": "com.lgsi.android.overlay.special.framework",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -39078,6 +39574,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -39276,6 +39777,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -39569,6 +40075,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -39658,6 +40169,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -39700,6 +40216,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -39725,6 +40246,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -39804,6 +40330,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -39905,6 +40436,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -39950,6 +40486,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -40002,6 +40543,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -40128,6 +40674,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -43650,6 +44201,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -43679,6 +44235,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       }
@@ -43689,6 +44250,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -43708,6 +44274,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -43725,6 +44296,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -43732,6 +44308,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.interstellartravel": {
+    "appName": "com.zui.theme.settings.overlay.interstellartravel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       }
     ]
   },
@@ -43742,6 +44330,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -43749,6 +44342,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.magiccolortimemirror": {
+    "appName": "com.zui.theme.settings.overlay.magiccolortimemirror",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       }
     ]
   },
@@ -43759,6 +44364,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -43766,6 +44376,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.zui.theme.settings.overlay.paintingr": {
+    "appName": "com.zui.theme.settings.overlay.paintingr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       }
     ]
   },
@@ -43776,6 +44398,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -43786,11 +44413,28 @@
       }
     ]
   },
+  "com.zui.theme.settings.overlay.softlighttransparency": {
+    "appName": "com.zui.theme.settings.overlay.softlighttransparency",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.zui.theme.settings.overlay.tabui": {
     "appName": "com.zui.theme.settings.overlay.tabui",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -43810,6 +44454,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -43825,6 +44474,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -43995,6 +44649,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -44416,6 +45075,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       }
@@ -44647,6 +45311,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -45683,6 +46352,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -46112,6 +46786,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -46277,6 +46956,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -46768,6 +47452,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47142,6 +47831,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47494,6 +48188,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
         "os": "35"
       },
       {
@@ -48088,6 +48787,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -48408,6 +49112,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -48640,6 +49349,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -49160,6 +49874,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -49528,6 +50247,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -49548,6 +50272,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -49801,6 +50530,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -50082,6 +50816,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -50860,6 +51599,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -51187,6 +51931,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -51386,6 +52135,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -51724,6 +52478,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -52071,6 +52830,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -52587,6 +53351,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -53298,6 +54067,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -54063,6 +54837,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -54586,6 +55365,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -54920,6 +55704,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -55426,6 +56215,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -56014,6 +56808,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -57079,6 +57878,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -57415,6 +58219,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -58613,6 +59422,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -58628,6 +59442,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -59195,6 +60014,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -61146,6 +61970,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -62113,6 +62942,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -62705,6 +63539,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -63064,6 +63903,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -63728,6 +64572,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -64067,6 +64916,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -64387,6 +65241,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -64865,6 +65724,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -65385,6 +66249,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -65707,6 +66576,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -66110,6 +66984,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -66416,6 +67295,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -66657,6 +67541,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -67488,6 +68377,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -67790,6 +68684,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -68446,6 +69345,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -68803,6 +69707,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -69944,6 +70853,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -70515,6 +71429,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -71113,6 +72032,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -71418,6 +72342,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -72841,6 +73770,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -72868,6 +73802,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -72909,6 +73848,18 @@
       }
     ]
   },
+  "com.lenovo.tab_k11_plus": {
+    "appName": "Lenovo Tab K11 Plus",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.lenovo.tab_m7": {
     "appName": "Lenovo Tab M7 (3rd Gen)",
     "userFacing": false,
@@ -72923,7 +73874,7 @@
   },
   "com.tblenovo.center": {
     "appName": "Lenovo Vantage",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "en-gb",
@@ -72935,6 +73886,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -72958,6 +73914,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -73664,6 +74625,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -74081,6 +75047,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -74369,6 +75340,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -74394,6 +75370,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -74765,6 +75746,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -75035,6 +76021,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -75413,6 +76404,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -75741,6 +76737,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -76548,6 +77549,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -76960,6 +77966,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -77366,6 +78377,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -78481,6 +79497,18 @@
       }
     ]
   },
+  "com.tpcdroid.mmitest": {
+    "appName": "MMI Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.factory.mmigroup": {
     "appName": "MMIGroup",
     "userFacing": true,
@@ -78663,6 +79691,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -80251,6 +81284,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -81851,6 +82889,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -82922,6 +83965,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -83329,6 +84377,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -83785,6 +84838,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -84132,6 +85190,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -84303,6 +85366,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -84323,6 +85391,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -84475,6 +85548,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -85980,6 +87058,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -86317,6 +87400,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -86666,6 +87754,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -87146,6 +88239,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -87528,6 +88626,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -88201,6 +89304,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -88963,6 +90071,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -89329,6 +90442,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -89690,6 +90808,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -90211,6 +91334,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -90516,6 +91644,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -90750,6 +91883,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -92088,6 +93226,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -92276,6 +93419,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -92622,6 +93770,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -92907,6 +94060,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -93348,6 +94506,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -93728,6 +94891,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -93952,6 +95120,11 @@
         "os": "35"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -94042,6 +95215,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       }
     ]
   },
@@ -94173,6 +95351,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -94276,6 +95459,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -94319,6 +95507,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.voiceai.speech": {
+    "appName": "Qualcomm Speech Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.quicinc.voice.activation": {
     "appName": "Qualcomm Voice Assist",
     "userFacing": false,
@@ -94338,6 +95538,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "isafemobile",
@@ -95070,6 +96275,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -95090,6 +96300,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -95578,6 +96793,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
         "os": "35"
       },
       {
@@ -102166,6 +103386,18 @@
       }
     ]
   },
+  "com.sar.main": {
+    "appName": "SarReduce",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      }
+    ]
+  },
   "com.longcheertel.sarauth": {
     "appName": "SarUI",
     "userFacing": false,
@@ -102378,6 +103610,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -103493,6 +104730,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -105006,6 +106248,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -105219,23 +106466,6 @@
       }
     ]
   },
-  "com.xiaomi.misettings": {
-    "appName": "Settings",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      }
-    ]
-  },
   "com.lenovo.lenovoprivacy": {
     "appName": "Settings",
     "userFacing": false,
@@ -105246,6 +106476,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -105260,6 +106495,23 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.xiaomi.misettings": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
       }
     ]
   },
@@ -105501,6 +106753,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -105718,6 +106975,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -105837,6 +107099,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -106204,6 +107471,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -106525,6 +107797,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -108471,6 +109748,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -108598,6 +109880,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -110628,6 +111915,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -111047,6 +112339,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -111272,6 +112569,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -111338,6 +112640,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -111662,6 +112969,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -112223,6 +113535,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -112552,6 +113869,11 @@
         "os": "34"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -112857,6 +114179,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -113135,6 +114462,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -113218,6 +114550,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -113389,6 +114726,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -113770,6 +115112,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -114108,6 +115455,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -114391,6 +115743,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -114658,6 +116015,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -115004,6 +116366,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -115146,6 +116513,18 @@
       {
         "make": "samsung",
         "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
+  "com.lenovo.rt": {
+    "appName": "Tabtop Picks",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
         "os": "35"
       }
     ]
@@ -115461,6 +116840,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -115811,6 +117195,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -116519,6 +117908,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -117216,6 +118610,28 @@
       }
     ]
   },
+  "com.zui.theme.settings": {
+    "appName": "Themes",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.thememanager": {
     "appName": "Themes",
     "userFacing": true,
@@ -117233,28 +118649,16 @@
       }
     ]
   },
-  "com.zui.theme.settings": {
-    "appName": "Themes",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "TB570FU",
-        "os": "35"
-      },
-      {
-        "make": "LENOVO",
-        "model": "TB132FU",
-        "os": "34"
-      }
-    ]
-  },
   "com.zui.themes.provider": {
     "appName": "Themes Provider",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -117330,6 +118734,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -117758,6 +119167,11 @@
         "os": "36"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -118008,6 +119422,11 @@
         "os": "35"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -118104,6 +119523,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -118139,6 +119563,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -118354,6 +119783,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -118636,6 +120070,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -118846,6 +120285,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -119143,6 +120587,11 @@
         "os": "33"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -119188,6 +120637,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -119245,6 +120699,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -120435,6 +121894,11 @@
         "os": "27"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -120665,6 +122129,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -121419,6 +122888,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -122022,6 +123496,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -122086,6 +123565,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -122175,6 +123659,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -122746,6 +124235,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -122910,6 +124404,11 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -123309,6 +124808,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       }
@@ -123458,6 +124962,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -123998,6 +125507,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -124023,6 +125537,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -124075,6 +125594,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -124303,6 +125827,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -124577,6 +126106,11 @@
         "os": "30"
       },
       {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -124724,6 +126258,11 @@
       },
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -124763,6 +126302,11 @@
     "devices": [
       {
         "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
       },
@@ -124778,6 +126322,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "LENOVO",
+        "model": "TB352FU",
+        "os": "35"
+      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
