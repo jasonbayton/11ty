@@ -72,6 +72,23 @@ Useful in multi-app kiosk deployments for quick access to corporate assistance, 
 
 <div class="project-image">
 
+{% include "../_includes/_assets/img/bayton_logos/managed_archiver_hero.svg" %}
+
+</div>
+<div class="project-description">
+
+## MANAGED ARCHIVER
+
+Archiver is a messaging backup utility for managed Android Enterprise estates. In combination with Google Messages (configured separately), archiver will fetch SMS/MMS/RCS records, as well as attachments, on demand.
+
+<a class="button" href="#">Check it out</a>
+
+</div>
+
+<!--  -->
+
+<div class="project-image">
+
 {% include "../_includes/_assets/img/bayton_logos/qr_code_hero.svg" %}
 
 </div>
