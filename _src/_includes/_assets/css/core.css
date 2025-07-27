@@ -825,6 +825,14 @@ content#page, content#search, content#archive, content#generator {
   grid-template-columns: 2fr 1fr;
   grid-gap: 30px;
   padding-top: 40px;
+
+  & .project-grid-right {
+    max-width: 400px;
+
+    @media screen and (max-width: 900px) {
+      max-width: 100%;
+    }
+  }
 }
 .projects-overview {
   display: grid;
