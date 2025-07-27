@@ -81,7 +81,7 @@ Useful in multi-app kiosk deployments for quick access to corporate assistance, 
 
 Archiver is a messaging backup utility for managed Android Enterprise estates. In combination with Google Messages (configured separately), archiver will fetch SMS/MMS/RCS records, as well as attachments, on demand.
 
-<a class="button" href="#">Check it out</a>
+<a class="button" href="managed-archiver">Check it out</a>
 
 </div>
 
