@@ -5,13 +5,11 @@ As an administrator, you have several configuration options available to ensure 
 **Wi-Fi security type**
 
 **Options**:
+
 - **WPA/WPA2 PSK**: This option uses WPA or WPA2 with a pre-shared key, providing robust security suitable for most enterprise environments.
 - **WEP**: This option uses WEP, an older and less secure standard, and is generally not recommended due to its vulnerabilities.
+- **EAP**: If your network uses EAP and/or certificate auth, this option is provided in beta. Please test it and provide feedback!
 - **None**: This option configures the device to connect to open networks without any encryption. Ideal for staging networks with client isolation.
-
-EAP options will be added at a later date. QR code complexity limits can make scanning unreliable, so it has been omitted pending a suitable solution.
-
-(If you're feeling clever, you may be able to enable the fields via dev tools, since they're in the source of this page..)
 
 **Wi-Fi SSID**  
 : Enter the name of the Wi-Fi network you want the device to connect to.
