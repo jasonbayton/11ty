@@ -22,6 +22,8 @@
                     {% include "./_assets/img/bayton_logos/package_search_hero_animated.svg" %}
                     {% elif page.url.includes("managed-info") %}
                     {% include "./_assets/img/bayton_logos/managed_info_hero.svg" %}
+                    {% elif page.url.includes("managed-archiver") %}
+                    {% include "./_assets/img/bayton_logos/managed_archiver_hero.svg" %}
                     {% else %}
                     {% include "./_assets/img/bayton_logos/project_placeholder.svg" %}
                     {% endif %}
@@ -44,7 +46,7 @@
                         </div>
                         <div class="project-grid-right">
                             {% if page.url.includes("managed-settings") %}
-                            <section class="funding-bar">
+                            <!--section class="funding-bar">
                                 <div class="funding-bar-inner">
                                     <div class="funding-bar-content">
                                     <div class="aside-title"><h2>Funding goal</h2></div>
@@ -58,7 +60,7 @@
                                     </div>
                                     </div>
                                 </div>
-                            </section>
+                            </section-->
                             {% renderFile "./_src/_includes/_parts/projects/ms-grid-right.md" %}
                             {% include "./_parts/projects/project-ms-data-right.njk" %}
                             {% elif page.url.includes("package-search") %}
@@ -67,6 +69,9 @@
                             {% elif page.url.includes("managed-info") %}
                             {% renderFile "./_src/_includes/_parts/projects/mi-grid-right.md" %}
                             {% include "./_parts/projects/project-mi-data-right.njk" %}
+                            {% elif page.url.includes("managed-archiver") %}
+                            {% renderFile "./_src/_includes/_parts/projects/ma-grid-right.md" %}
+                            {% include "./_parts/projects/project-ma-data-right.njk" %}
                             {% elif page.url.includes("beam") %}
                             {% renderFile "./_src/_includes/_parts/projects/beam-grid-right.md" %}
                             {% endif %}
