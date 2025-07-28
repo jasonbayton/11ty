@@ -46,7 +46,7 @@ Please [get in touch](/contact) to discuss requirements and deployment strategy.
 
 ## Help & support
 
-Documentation will be provided in due course.
+Documentation can be accessed [here](support).
 
 Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [Discord community](https://discord.gg/7VzRZWVkht), or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
 
