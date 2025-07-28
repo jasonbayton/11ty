@@ -1,5 +1,5 @@
 ---
-title: MANAGED ARCHIVER use cases
+title: Get started with MANAGED ARCHIVER
 parent: MANAGED ARCHIVER support
 published: '2025-07-28'
 status: publish
@@ -14,7 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 4
-    title: Use cases
+    title: Get started
 ---
 
 ## Requirements for use
