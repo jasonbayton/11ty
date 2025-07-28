@@ -12,7 +12,7 @@ excerpt: ''
 type: page
 layout: project.njk
 ---
-**MANAGED ARCHIVER is a utility for backing up Android messages, including SMS, MMS, and RCS. In combination with Google Messages as the default messaging application, Archiver will immediately capture, and sync, every message a device sends or receives as it happens**
+**MANAGED ARCHIVER is a utility for backing up Android messages, including SMS, MMS, and RCS. In combination with Google Messages as the default messaging application, Archiver will immediately capture, and sync, every message a device sends or receives as it happens**.
 
 ## What does Archiver do?
 
