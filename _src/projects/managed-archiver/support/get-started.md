@@ -23,6 +23,7 @@ Currently, the only requirements are:
 
 - Google Messages as the default SMS application. Other SMS applications may be possible to integrate with, but they must [offer integration](https://developer.android.com/work/dpc/rcs-messages-archival#notification-to-archival-app) in a similar fashion to Google Messages.
 - Firewall access to `*.bayton.org` from devices.
+- Android devices managed as company-owned, fully managed or dedicated. Work profile is not supported.
 
 ## Install the application
 
