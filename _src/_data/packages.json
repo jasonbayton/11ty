@@ -45825,6 +45825,18 @@
       }
     ]
   },
+  "com.google.android.crossdeviceaccessservice": {
+    "appName": "Connected Phone & Watch services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.android.connectivitythermalpowermanager": {
     "appName": "Connectivity Thermal Power Manager",
     "userFacing": false,
@@ -48129,18 +48141,6 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
-      }
-    ]
-  },
-  "com.google.android.crossdeviceaccessservice": {
-    "appName": "Cross Device Access Service",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
       }
     ]
   },
@@ -85065,6 +85065,18 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.apps.pixel.nowplaying": {
+    "appName": "Now Playing",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
