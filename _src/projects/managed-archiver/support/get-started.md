@@ -33,7 +33,9 @@ Simply log in to your EMM platform, navigate to the area where applications are 
 
 ## Configure the application
 
-Archiver currently does not have managed configuration support. It is designed to immediately initiate a sync on installation to the PING API. An API key will be provided to securely fetch message and attachment archives into your own systems. Alternatively it can be possible to directly integrate with your own API, please reach out to discuss requirements.
+Add Google Messages to the applications list in the EMM, then in the managed configuration of Google Messages, input the package name `org.bayton.managedarchiver`. This instructs Google Messages to broadcast message events to Archiver as they happen.
+
+Archiver itself currently does not have managed configuration support. It is designed to immediately initiate a sync on installation to the PING API. An API key will be provided to securely fetch message and attachment archives into your own systems. Alternatively it can be possible to directly integrate with your own API, please reach out to discuss requirements.
 
 ## Support
 
