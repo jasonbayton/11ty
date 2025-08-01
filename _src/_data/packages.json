@@ -323,6 +323,18 @@
       }
     ]
   },
+  "com.sec.android.mimage.gear360editor": {
+    "appName": "360° Photo Editor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.accessibility": {
     "appName": "Accessibility",
     "userFacing": true,
@@ -428,6 +440,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -913,6 +930,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -1470,6 +1492,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -1685,6 +1712,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -2498,6 +2530,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -2869,6 +2906,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -3224,6 +3266,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -3556,6 +3603,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -3883,6 +3935,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -4236,6 +4293,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -4936,6 +4998,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -6101,6 +6168,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       }
@@ -6132,6 +6204,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       }
@@ -6149,6 +6226,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       }
@@ -6163,6 +6245,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -6258,6 +6345,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "Google",
@@ -6496,6 +6588,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -6894,6 +6991,18 @@
       }
     ]
   },
+  "com.sec.android.preloadinstaller": {
+    "appName": "Application Installer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.android.mapsagent": {
     "appName": "Application recommendations",
     "userFacing": false,
@@ -7049,6 +7158,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -7065,9 +7179,34 @@
     ]
   },
   "com.samsung.android.app.appsedge": {
-    "appName": "Apps",
+    "appName": "Apps edge",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Apps"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Apps"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Apps"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Apps"
+      },
+      {
+        "locale": "de-de",
+        "name": "Apps"
+      },
+      {
+        "locale": "es-es",
+        "name": "Apps"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -7093,6 +7232,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -7610,6 +7754,18 @@
       }
     ]
   },
+  "com.samsung.android.app.assistantmenu": {
+    "appName": "Assistant menu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.sec.providers.assisteddialing": {
     "appName": "Assisted Dialing",
     "userFacing": false,
@@ -7619,6 +7775,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -7981,6 +8142,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -8542,6 +8708,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -8688,6 +8859,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -8711,6 +8887,18 @@
       {
         "make": "A-gold",
         "model": "Titan",
+        "os": "28"
+      }
+    ]
+  },
+  "com.sec.android.AutoPreconfig": {
+    "appName": "AutoPreconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
         "os": "28"
       }
     ]
@@ -9255,6 +9443,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -9545,6 +9738,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -9756,6 +9954,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -10032,6 +10235,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -10049,6 +10257,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.bixby.service": {
+    "appName": "Bixby Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -10134,6 +10354,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -10151,6 +10376,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.bixby.agent.dummy": {
+    "appName": "Bixby Voice Stub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -10545,6 +10782,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -11115,6 +11357,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -11447,6 +11694,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -11535,6 +11787,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.sec.android.app.bluetoothtest": {
+    "appName": "BluetoothTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -11796,6 +12060,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -11909,6 +12178,18 @@
       }
     ]
   },
+  "com.samsung.ucs.agent.boot": {
+    "appName": "bootagent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.dti.bouyguestelecom": {
     "appName": "Bouygues AppCloud",
     "userFacing": false,
@@ -11940,6 +12221,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "flipboard.boxer.app": {
+    "appName": "Briefing",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -12022,6 +12315,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -12709,6 +13007,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -13048,6 +13351,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -13271,6 +13579,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -13396,6 +13709,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -13658,6 +13976,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -13989,6 +14312,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -14368,6 +14696,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -14700,6 +15033,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      }
+    ]
+  },
+  "com.sec.factory.iris.usercamera": {
+    "appName": "Camera Iris User Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -15666,6 +16011,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
@@ -16062,6 +16412,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -17375,6 +17730,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -17475,6 +17835,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.monotype.android.font.chococooky": {
+    "appName": "ChocoEUKor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -17775,6 +18147,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -17986,6 +18363,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -18396,6 +18778,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -18443,8 +18830,25 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.clipboarduiservice": {
+    "appName": "ClipboardUIService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -18709,6 +19113,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -18982,6 +19391,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -19071,6 +19485,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.cnn.mobile.android.phone.edgepanel": {
+    "appName": "CNN for Edge Panel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -19371,6 +19797,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -19778,6 +20209,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -20823,6 +21259,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -21153,6 +21594,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -23953,6 +24399,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -24332,6 +24783,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -26085,6 +26541,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -28193,6 +28654,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -28478,6 +28944,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -30477,6 +30948,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "SMT_HK",
@@ -39853,6 +40329,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -40370,6 +40851,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.smcinvokepkgmgr": {
+    "appName": "com.qualcomm.qti.smcinvokepkgmgr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.qualcomm.qti.telephonyservice": {
     "appName": "com.qualcomm.qti.telephonyservice",
     "userFacing": false,
@@ -40738,6 +41231,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -40855,61 +41353,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      }
-    ]
-  },
-  "com.samsung.android.app.cocktailbarservice": {
-    "appName": "com.samsung.android.app.cocktailbarservice",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Edge panels"
-      },
-      {
-        "locale": "nl-nl",
-        "name": "Edge-vensters"
-      },
-      {
-        "locale": "de-de",
-        "name": "Seiten-Paneele"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A528B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T976B",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A346B",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A515F",
-        "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-X910",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A236B",
-        "os": "34"
       }
     ]
   },
@@ -41571,6 +42014,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -41707,6 +42155,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -42917,6 +43370,18 @@
       }
     ]
   },
+  "com.samsung.daydream.customization": {
+    "appName": "com.samsung.daydream.customization",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.InputEventApp": {
     "appName": "com.samsung.InputEventApp",
     "userFacing": false,
@@ -42926,6 +43391,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -43012,18 +43482,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      }
-    ]
-  },
-  "com.samsung.ucs.agent.ese": {
-    "appName": "com.samsung.ucs.agent.ese",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
       }
     ]
   },
@@ -43206,6 +43664,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -43228,6 +43691,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.enterprise.knox.attestation": {
+    "appName": "com.sec.enterprise.knox.attestation",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -43318,6 +43793,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -43330,6 +43810,30 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.ims": {
+    "appName": "com.sec.ims",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.sec.vsimservice": {
+    "appName": "com.sec.internal.vsim.VSimServiceApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -43417,6 +43921,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -43773,6 +44282,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -44795,6 +45309,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -45067,6 +45586,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -45203,6 +45727,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -45462,6 +45991,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -45658,6 +46192,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -46590,6 +47129,18 @@
       }
     ]
   },
+  "com.samsung.android.contacts": {
+    "appName": "Contacts",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.android.providers.contacts": {
     "appName": "Contacts Storage",
     "userFacing": false,
@@ -46695,6 +47246,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -47244,6 +47800,18 @@
       }
     ]
   },
+  "com.samsung.android.providers.context": {
+    "appName": "Context Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.android.mcfds": {
     "appName": "Continuity Service",
     "userFacing": false,
@@ -47360,6 +47928,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.monotype.android.font.cooljazz": {
+    "appName": "CoolEUKor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -47606,6 +48186,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -48437,6 +49022,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -48614,6 +49204,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -48707,6 +49302,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "SMT_HK",
@@ -48997,6 +49597,30 @@
       }
     ]
   },
+  "com.samsung.android.app.camera.sticker.facear3d.preload": {
+    "appName": "Default 3D live sticker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.samsung.android.app.camera.sticker.facear.preload": {
+    "appName": "Default live sticker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.android.bips": {
     "appName": "Default Print Service",
     "userFacing": false,
@@ -49259,6 +49883,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -49574,6 +50203,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -49997,6 +50631,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -50410,6 +51049,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -50759,6 +51403,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -51015,6 +51664,30 @@
       }
     ]
   },
+  "com.sec.factory": {
+    "appName": "DeviceTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.sec.android.desktopcommunity": {
+    "appName": "DeX community",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.sec.android.app.dexonpc": {
     "appName": "DeX for PC",
     "userFacing": false,
@@ -51126,6 +51799,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -51302,6 +51980,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -52262,6 +52945,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -52608,6 +53296,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -52962,6 +53655,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -53137,6 +53835,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -53642,6 +54345,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -53768,6 +54476,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -53901,6 +54614,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -54444,6 +55162,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -54467,6 +55190,78 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.app.cocktailbarservice": {
+    "appName": "Edge screen",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Edge panels"
+      },
+      {
+        "locale": "en-gb",
+        "name": "com.samsung.android.app.cocktailbarservice"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Edge-vensters"
+      },
+      {
+        "locale": "en-nl",
+        "name": "com.samsung.android.app.cocktailbarservice"
+      },
+      {
+        "locale": "de-de",
+        "name": "Seiten-Paneele"
+      },
+      {
+        "locale": "es-es",
+        "name": "com.samsung.android.app.cocktailbarservice"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A346B",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A515F",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-X910",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A236B",
         "os": "34"
       }
     ]
@@ -54572,6 +55367,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -54696,6 +55496,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.samsung.android.email.provider": {
+    "appName": "Email",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -54934,6 +55746,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -55098,6 +55915,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -55253,6 +56075,18 @@
       }
     ]
   },
+  "com.sec.android.emergencymode.service": {
+    "appName": "EmergencyManagerService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.sec.android.provider.emergencymode": {
     "appName": "EmergencyProvider",
     "userFacing": false,
@@ -55272,6 +56106,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -55324,6 +56163,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.samsung.android.emojiupdater": {
+    "appName": "emojiupdater",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -55631,6 +56482,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -55709,6 +56565,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -55895,6 +56756,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -55907,6 +56773,32 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.ucs.agent.ese": {
+    "appName": "eSE UCS Plugin",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "com.samsung.ucs.agent.ese"
+      },
+      {
+        "locale": "en-gb",
+        "name": "com.samsung.ucs.agent.ese"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -56369,6 +57261,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -56642,6 +57539,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -56779,6 +57681,18 @@
       }
     ]
   },
+  "com.samsung.android.bio.face.service": {
+    "appName": "Face",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.lenovo.tablet.facedetect": {
     "appName": "Face Detector",
     "userFacing": false,
@@ -56874,6 +57788,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       }
@@ -56963,6 +57882,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -57275,6 +58199,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -57636,6 +58565,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -58150,6 +59084,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "SMT_HK",
@@ -59207,6 +60146,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -59229,6 +60173,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.widgetapp.yahooedge.finance": {
+    "appName": "Finance",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -59371,6 +60327,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -59415,6 +60376,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -59769,6 +60735,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -60168,6 +61139,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -60489,6 +61465,30 @@
       }
     ]
   },
+  "com.sec.android.widgetapp.samsungapps": {
+    "appName": "Galaxy Essentials Widget",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.samsung.gpudriver.N8Adreno540_90": {
+    "appName": "Galaxy Graphics Driver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.android.gru": {
     "appName": "Galaxy Resource Updater",
     "userFacing": true,
@@ -60801,6 +61801,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -60900,6 +61905,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -61023,6 +62033,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -61292,6 +62307,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -61515,6 +62535,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -61624,6 +62649,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -61780,6 +62810,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -61888,6 +62923,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -62149,6 +63189,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.samsung.android.hmt.vrsvc": {
+    "appName": "Gear VR Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -63426,6 +64478,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -63687,6 +64744,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -64050,6 +65112,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -64201,6 +65268,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
@@ -64339,6 +65411,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -64440,6 +65517,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "SMT_HK",
@@ -65066,6 +66148,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -65391,6 +66478,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -65876,6 +66968,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -66100,6 +67197,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "OnePlus",
@@ -66397,6 +67499,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -67134,6 +68241,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -67441,6 +68553,18 @@
       }
     ]
   },
+  "com.google.vr.vrcore": {
+    "appName": "Google VR Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.google.android.apps.walletnfcrel": {
     "appName": "Google Wallet",
     "userFacing": false,
@@ -67719,6 +68843,18 @@
       }
     ]
   },
+  "com.enhance.gameservice": {
+    "appName": "GOS Legacy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.xiaomi.ugd": {
     "appName": "GPU Driver Updater",
     "userFacing": false,
@@ -67981,6 +69117,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -68003,6 +69144,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.hancom.office.editor.hidden": {
+    "appName": "Hancom Office Editor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -68090,6 +69243,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -68590,6 +69748,18 @@
       }
     ]
   },
+  "com.sec.android.service.health": {
+    "appName": "Health Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.oplus.healthservice": {
     "appName": "healthservice",
     "userFacing": false,
@@ -68806,6 +69976,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -68946,6 +70121,18 @@
       }
     ]
   },
+  "com.samsung.systemui.hidenotch": {
+    "appName": "HideNotch",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.talpa.hiservice": {
     "appName": "HiLanguageService",
     "userFacing": false,
@@ -69076,6 +70263,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -69859,6 +71051,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -70034,6 +71231,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -70392,6 +71594,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -70504,6 +71711,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -70613,6 +71825,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -71003,6 +72220,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -71211,6 +72433,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "OnePlus",
@@ -71630,6 +72857,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -71720,6 +72952,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -71742,6 +72979,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.server.iris": {
+    "appName": "Iris",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -72198,6 +73447,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -72345,6 +73599,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.keyguardwallpaperupdator": {
+    "appName": "Keyguard Wallpaper Updator",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -72527,6 +73793,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -72636,6 +73907,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -72761,6 +74037,18 @@
       }
     ]
   },
+  "com.samsung.android.knox.containerdesktop": {
+    "appName": "KnoxContainerDesktop",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.android.knox.containercore": {
     "appName": "KnoxCore",
     "userFacing": false,
@@ -72850,6 +74138,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -73385,6 +74678,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -73726,6 +75024,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -73780,8 +75083,25 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.app.ledcoverdream": {
+    "appName": "LED icon editor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -74059,6 +75379,18 @@
       }
     ]
   },
+  "com.samsung.android.app.simplesharing": {
+    "appName": "Link Sharing",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.microsoft.appmanager": {
     "appName": "Link to Windows",
     "userFacing": true,
@@ -74307,9 +75639,17 @@
     ]
   },
   "com.samsung.android.service.livedrawing": {
-    "appName": "Live messages",
+    "appName": "Live message",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Live messages"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Live messages"
+      },
       {
         "locale": "nl-nl",
         "name": "Live berichten"
@@ -74330,6 +75670,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -74779,6 +76124,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -75139,6 +76489,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -75602,6 +76957,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -75654,6 +77014,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -76563,6 +77928,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -76898,6 +78268,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -77191,6 +78566,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -78293,6 +79673,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -78727,6 +80112,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -78849,6 +80239,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -78968,6 +80363,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -79525,6 +80925,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -79849,6 +81254,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -80396,6 +81806,30 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.app.motionpanoramaviewer": {
+    "appName": "Motion panorama viewer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.samsung.android.app.selfmotionpanoramaviewer": {
+    "appName": "Motion wide-angle selfie viewer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -81192,6 +82626,18 @@
       }
     ]
   },
+  "com.samsung.android.MtpApplication": {
+    "appName": "MTP application",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.sonyericsson.mtp": {
     "appName": "MTP extension service",
     "userFacing": false,
@@ -81459,6 +82905,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -82131,6 +83582,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -82432,6 +83888,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -82562,6 +84023,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -82758,6 +84224,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -83390,6 +84861,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -84136,6 +85612,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -84803,6 +86284,18 @@
       }
     ]
   },
+  "com.samsung.android.rlc": {
+    "appName": "Notification",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.miui.notification": {
     "appName": "Notifications",
     "userFacing": false,
@@ -85245,6 +86738,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -85354,6 +86852,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.sec.android.app.ocrservice": {
+    "appName": "OCR Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -85747,6 +87257,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -86103,6 +87618,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -87361,6 +88881,11 @@
         "os": "27"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
@@ -87627,6 +89152,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -87981,6 +89511,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -88471,6 +90006,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -89207,6 +90747,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -89785,6 +91330,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -90298,6 +91848,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -90673,6 +92228,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -91041,6 +92601,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -91338,6 +92903,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -91513,6 +93083,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -93264,6 +94839,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -93661,6 +95241,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -94008,6 +95593,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -94744,6 +96334,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -96743,6 +98338,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -97557,6 +99157,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -97569,6 +99174,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.android.app.ringtoneBR": {
+    "appName": "ringtonebackup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -97697,6 +99314,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -97709,6 +99331,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.monotype.android.font.rosemary": {
+    "appName": "RoseEUKor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -98120,6 +99754,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -98325,6 +99964,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -98416,6 +100060,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -98557,6 +100206,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -98690,6 +100344,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -98802,6 +100461,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -98911,6 +100575,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -99258,6 +100927,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -99332,6 +101006,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -99419,6 +101098,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -99498,6 +101182,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.desktopsystemui": {
+    "appName": "Samsung DeX System UI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -99758,6 +101454,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -99787,6 +101488,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -99891,6 +101597,23 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.samsung.android.app.sbrowseredge": {
+    "appName": "Samsung Internet panel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -100027,6 +101750,30 @@
       }
     ]
   },
+  "com.sec.android.inputmethod": {
+    "appName": "Samsung Keyboard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.sec.android.inputmethod.beta": {
+    "appName": "Samsung Keyboard Neural Beta",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.android.kidsinstaller": {
     "appName": "Samsung Kids Installer",
     "userFacing": false,
@@ -100132,6 +101879,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -100286,6 +102038,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -100540,7 +102297,7 @@
   },
   "com.samsung.android.app.notes": {
     "appName": "Samsung Notes",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -100552,6 +102309,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -100651,6 +102413,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -100768,6 +102535,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -100867,6 +102639,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -101000,6 +102777,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -101233,6 +103015,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -101255,6 +103042,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.timezone.data_P": {
+    "appName": "Samsung Time Zone Data",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -101513,6 +103312,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -101634,6 +103438,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -102096,6 +103905,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -103792,6 +105606,18 @@
       }
     ]
   },
+  "com.samsung.android.sm.policy": {
+    "appName": "SCPM Client",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.coloros.colordirectservice": {
     "appName": "Screen Recognition",
     "userFacing": false,
@@ -104560,6 +106386,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -104623,6 +106454,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "Fairphone",
@@ -104741,6 +106577,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -104985,6 +106826,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -105139,6 +106985,30 @@
       }
     ]
   },
+  "com.sec.android.providers.security": {
+    "appName": "Security storage",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.samsung.android.securitylogagent": {
+    "appName": "SecurityLogAgent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.scorpio.securitycom": {
     "appName": "SecurityPlugin",
     "userFacing": false,
@@ -105238,6 +107108,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -105277,6 +107152,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.android.ofviewer": {
+    "appName": "Selective focus",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -105381,6 +107268,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -105574,6 +107466,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -105825,6 +107722,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -105934,6 +107836,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -106516,6 +108423,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -106665,6 +108577,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.SettingsReceiver": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -107021,6 +108945,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -107349,6 +109278,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -107454,6 +109388,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -107597,6 +109536,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -107731,6 +109675,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -107794,6 +109743,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.sec.enterprise.knox.shareddevice.keyguard": {
+    "appName": "SharedDeviceKeyguard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -108067,6 +110028,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -108257,6 +110223,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -108373,6 +110344,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -108656,6 +110632,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -108744,6 +110725,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.sec.android.app.simsettingmgr": {
+    "appName": "SIM card manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -109221,6 +111214,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -109403,6 +111401,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -109760,6 +111763,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -109884,6 +111892,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -109906,6 +111919,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.app.slowmotion": {
+    "appName": "Slow motion editor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -110015,6 +112040,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -110386,6 +112416,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -110614,6 +112649,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -110802,6 +112842,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -110824,6 +112869,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.smartfitting": {
+    "appName": "SmartFittingService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -111214,6 +113271,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -111344,6 +113406,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -111648,6 +113715,18 @@
       }
     ]
   },
+  "com.samsung.android.app.advsounddetector": {
+    "appName": "Sound detectors",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.android.app.soundpicker": {
     "appName": "Sound picker",
     "userFacing": false,
@@ -111753,6 +113832,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -111886,6 +113970,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -112626,6 +114715,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -112756,6 +114850,30 @@
       }
     ]
   },
+  "com.sec.android.splitsound": {
+    "appName": "SplitSoundService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.samsung.android.widgetapp.yahooedge.sport": {
+    "appName": "Sports",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.android.theme.icon.square": {
     "appName": "Square",
     "userFacing": false,
@@ -112804,6 +114922,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.app.camera.sticker.stamp.preload": {
+    "appName": "Stamps",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -112979,6 +115109,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -113001,6 +115136,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.provider.stickerprovider": {
+    "appName": "StickerProvider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -113233,6 +115380,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -113383,6 +115535,18 @@
       }
     ]
   },
+  "com.samsung.app.highlightplayer": {
+    "appName": "Story Video Editor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.wtk.stresstest": {
     "appName": "StressTest",
     "userFacing": false,
@@ -113515,6 +115679,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -113893,6 +116062,30 @@
       }
     ]
   },
+  "com.sec.android.gallery3d.panorama360view": {
+    "appName": "Surround shot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.sec.android.app.suwscriptplayer": {
+    "appName": "SuwScriptPlayer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.samsung.android.svcagent": {
     "appName": "SVC Agent",
     "userFacing": false,
@@ -113977,6 +116170,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -115389,6 +117587,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -115735,6 +117938,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -116612,6 +118820,18 @@
       }
     ]
   },
+  "com.samsung.systemui.bixby2": {
+    "appName": "SystemUIBixby2",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.google.android.systemui.gxoverlay": {
     "appName": "SystemUIGX",
     "userFacing": false,
@@ -116904,6 +119124,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "OnePlus",
@@ -117478,6 +119703,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -117708,6 +119938,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -117855,6 +120090,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "ALCommon",
@@ -118390,6 +120630,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -118477,6 +120722,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -118893,6 +121143,18 @@
       }
     ]
   },
+  "com.samsung.android.timezone.updater": {
+    "appName": "Time Zone Updater",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.hihonor.tips": {
     "appName": "Tips",
     "userFacing": true,
@@ -119077,6 +121339,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -119274,6 +121541,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -119774,6 +122046,18 @@
       }
     ]
   },
+  "com.sec.android.uibcvirtualsoftkey": {
+    "appName": "UIBCVirtualSoftkey",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "org.simalliance.openmobileapi.uicc1terminal": {
     "appName": "Uicc1TerminalService",
     "userFacing": false,
@@ -119817,6 +122101,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.universalswitch": {
+    "appName": "Universal switch",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -120066,6 +122362,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -120354,6 +122655,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -121338,6 +123644,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -121434,6 +123745,30 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.app.interactivepanoramaviewer": {
+    "appName": "Virtual shot viewer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
+  "com.samsung.visionprovider": {
+    "appName": "VisionProvider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -121615,6 +123950,18 @@
       }
     ]
   },
+  "com.samsung.android.app.talkback": {
+    "appName": "Voice Assistant",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.miui.audiomonitor": {
     "appName": "Voice Call Recorder",
     "userFacing": false,
@@ -121629,6 +123976,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.svoice.sync": {
+    "appName": "Voice Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -121731,6 +124090,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -121792,6 +124156,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.vvm.se": {
+    "appName": "Voicemail",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -122173,6 +124549,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
@@ -122836,6 +125217,18 @@
       }
     ]
   },
+  "com.sec.android.wallpapercropper2": {
+    "appName": "Wallpapers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.oplus.wallpapers": {
     "appName": "Wallpapers",
     "userFacing": false,
@@ -123455,6 +125848,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -123585,6 +125983,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -123867,6 +126270,18 @@
       }
     ]
   },
+  "com.samsung.android.app.social": {
+    "appName": "What's new",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.sonymobile.wifi": {
     "appName": "Wi-Fi",
     "userFacing": false,
@@ -123982,6 +126397,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -124028,6 +126448,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -124158,6 +126583,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -124958,6 +127388,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -125261,6 +127696,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -125352,6 +127792,18 @@
       }
     ]
   },
+  "com.samsung.android.knox.containeragent": {
+    "appName": "Workspace",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.transsion.fmradio": {
     "appName": "WOW FM",
     "userFacing": false,
@@ -125385,6 +127837,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -125826,6 +128283,18 @@
       }
     ]
   },
+  "com.yelp.android.samsungedge": {
+    "appName": "Yelp Edge Panel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      }
+    ]
+  },
   "com.mediatek.ygps": {
     "appName": "YGPS",
     "userFacing": false,
@@ -126124,6 +128593,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       },
       {
         "make": "isafemobile",
