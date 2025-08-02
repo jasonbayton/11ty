@@ -36,7 +36,7 @@ Whether you need a simple backup solution, or have strict requirements to adhere
 
 Archiver starts from as little as £0.10 per device, per month. Custom endpoint support and additional development requirements may increase this.
 
-For fully whitelabeled options, costs remain in-line with other projects, £3000.
+For fully whitelabeled options, costs remain in-line with other projects.
 
 ## Get started
 
