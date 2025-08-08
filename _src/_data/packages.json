@@ -113,6 +113,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -408,6 +413,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -677,6 +687,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -923,6 +938,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -1114,6 +1134,23 @@
       }
     ]
   },
+  "com.qualcomm.qti.gpudrivers.pineapple.api34": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S921U",
+        "os": "35"
+      }
+    ]
+  },
   "com.qualcomm.qti.gpudrivers.taro.api32": {
     "appName": "Adreno Graphics Drivers",
     "userFacing": false,
@@ -1174,18 +1211,6 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
-      }
-    ]
-  },
-  "com.qualcomm.qti.gpudrivers.pineapple.api34": {
-    "appName": "Adreno Graphics Drivers",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-S921U",
-        "os": "35"
       }
     ]
   },
@@ -1356,6 +1381,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -1462,6 +1492,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -1539,6 +1574,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -1731,6 +1771,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -2138,6 +2183,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -2488,6 +2538,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -2872,6 +2927,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -3252,6 +3312,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -3596,6 +3661,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -3963,6 +4033,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -4318,6 +4393,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -4749,6 +4829,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -5053,6 +5138,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -5543,6 +5633,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -6801,6 +6896,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -6979,6 +7079,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -7350,6 +7455,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -8085,6 +8195,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -8329,6 +8444,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -8442,6 +8562,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -8585,6 +8710,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -8768,6 +8898,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -8911,6 +9046,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -9049,6 +9189,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -9179,6 +9324,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -9384,6 +9534,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -9614,6 +9769,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -9839,6 +9999,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -10052,6 +10217,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -10390,6 +10560,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -10571,6 +10746,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -10679,6 +10859,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -10812,6 +10997,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -10937,6 +11127,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -11170,6 +11365,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -11512,6 +11712,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -11783,6 +11988,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -12125,6 +12335,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -12509,6 +12724,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -12871,6 +13091,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -13072,6 +13297,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -13840,6 +14070,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -14172,6 +14407,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -14311,6 +14551,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -14499,6 +14744,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -14830,6 +15080,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -14949,6 +15204,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -15080,6 +15340,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -15198,6 +15463,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -15360,6 +15630,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -15824,6 +16099,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -16018,6 +16298,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -16532,6 +16817,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -17072,6 +17362,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -17877,6 +18172,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -18038,6 +18338,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -18448,6 +18753,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -18883,6 +19193,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -19202,6 +19517,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -19624,6 +19944,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -20261,6 +20586,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -20592,6 +20922,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -21044,6 +21379,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -21886,6 +22226,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -22112,6 +22457,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -22464,6 +22814,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -23344,6 +23699,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -23901,6 +24261,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -24229,6 +24594,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -24697,6 +25067,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -25411,6 +25786,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -25809,6 +26189,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -26337,6 +26722,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -27632,6 +28022,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -29559,6 +29954,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -29808,6 +30208,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -30138,6 +30543,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -30391,6 +30801,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -31461,6 +31876,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -32031,6 +32451,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -32596,6 +33021,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -33066,6 +33496,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -33516,6 +33951,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -33772,6 +34212,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34185,6 +34630,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -34436,6 +34886,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34777,6 +35232,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -35419,6 +35879,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -35626,6 +36091,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -35744,6 +36214,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -35897,6 +36372,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -36152,6 +36632,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -36374,6 +36859,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -36538,6 +37028,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -36810,6 +37305,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -37064,6 +37564,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -37932,6 +38437,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -38192,6 +38702,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -42440,6 +42955,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       }
@@ -43236,6 +43756,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -43447,6 +43972,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -43530,6 +44060,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -43646,6 +44181,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -43724,6 +44264,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -43816,6 +44361,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -43929,6 +44479,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       }
@@ -43967,6 +44522,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -44093,6 +44653,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -44190,6 +44755,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -44243,6 +44813,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -44369,6 +44944,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -44462,6 +45042,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -44568,6 +45153,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -44660,6 +45250,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -44733,6 +45328,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -44859,6 +45459,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -44966,6 +45571,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -45034,6 +45644,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -45132,6 +45747,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -45195,6 +45815,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -45306,6 +45931,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -45363,6 +45993,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -45411,6 +46046,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -45492,6 +46132,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -45560,6 +46205,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -45654,6 +46304,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -45796,6 +46451,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -45899,6 +46559,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -46042,6 +46707,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -46179,6 +46849,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -46600,6 +47275,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -47494,6 +48174,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -48019,6 +48704,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -48203,6 +48893,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -48509,6 +49204,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -48643,6 +49343,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -48867,6 +49572,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -48987,6 +49697,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -49191,6 +49906,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -49618,6 +50338,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -50000,6 +50725,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -50162,6 +50892,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -50299,6 +51034,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -50530,6 +51270,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -50967,6 +51712,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -51187,6 +51937,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -51496,6 +52251,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -51684,6 +52444,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -52013,6 +52778,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
       },
@@ -52287,6 +53057,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -52725,6 +53500,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -53123,6 +53903,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -53625,6 +54410,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -53852,6 +54642,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -54000,6 +54795,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -54376,6 +55176,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -54419,6 +55224,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -54629,6 +55439,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -54717,6 +55532,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -54810,6 +55630,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -55280,6 +56105,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -55558,6 +56388,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -55911,6 +56746,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -56286,6 +57126,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -56573,6 +57418,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -56694,6 +57544,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -57100,6 +57955,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -57240,6 +58100,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -57388,6 +58253,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -57659,6 +58529,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -57999,6 +58874,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -58203,6 +59083,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -58767,6 +59652,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -58901,6 +59791,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -59354,6 +60249,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -59586,6 +60486,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -59644,6 +60549,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -59786,6 +60696,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -59869,6 +60784,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -60091,6 +61011,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -60476,6 +61401,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -60599,6 +61529,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -60842,6 +61777,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -60965,6 +61905,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -61179,6 +62124,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -61362,6 +62312,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -61576,6 +62531,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -61899,6 +62859,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -63178,6 +64143,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -63365,6 +64335,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -63824,6 +64799,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -64131,6 +65111,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -64450,6 +65435,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -64574,6 +65564,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -64691,6 +65686,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -64833,6 +65833,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -64936,6 +65941,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -65067,6 +66077,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -65191,6 +66206,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -65343,6 +66363,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -65482,6 +66507,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -65724,6 +66754,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -65847,6 +66882,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -66015,6 +67055,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -66510,6 +67555,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -66780,6 +67830,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -66898,6 +67953,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -67166,6 +68226,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -67340,6 +68405,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -67951,6 +69021,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -68342,6 +69417,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -68725,6 +69805,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -69066,6 +70151,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -69413,6 +70503,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -69757,6 +70852,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -70263,6 +71363,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -70579,6 +71684,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -70823,6 +71933,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -71192,6 +72307,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -71593,6 +72713,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -72217,6 +73342,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -72438,6 +73568,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -72606,6 +73741,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -72741,6 +73881,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -72919,6 +74064,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -73142,6 +74292,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -73472,6 +74627,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -73826,6 +74986,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -74536,6 +75701,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -74823,6 +75993,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -74999,6 +76174,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -75203,6 +76383,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -75330,6 +76515,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -75453,6 +76643,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -75767,6 +76962,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -76237,6 +77437,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -76527,6 +77732,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -76589,6 +77799,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -76632,6 +77847,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -77049,6 +78269,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -77502,6 +78727,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -77629,6 +78859,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -77747,6 +78982,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -77880,6 +79120,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -77997,6 +79242,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -78080,6 +79330,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -78181,6 +79436,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -78269,6 +79529,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -78385,6 +79650,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -78473,6 +79743,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -78599,6 +79874,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -78702,6 +79982,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -78849,6 +80134,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -79338,6 +80628,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -79468,6 +80763,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -79701,6 +81001,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -79938,6 +81243,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80193,6 +81503,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -80400,6 +81715,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80878,6 +82198,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -80970,6 +82295,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81109,6 +82439,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81411,6 +82746,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81795,6 +83135,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -82142,6 +83487,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -82546,6 +83896,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -83009,6 +84364,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -83294,6 +84654,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -83447,6 +84812,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -83709,6 +85079,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -83866,6 +85241,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -84153,6 +85533,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -84295,6 +85680,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -84429,6 +85819,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -84578,6 +85973,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -84651,6 +86051,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -85263,6 +86668,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -85649,6 +87059,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -85752,6 +87167,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -85872,6 +87292,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -86081,6 +87506,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -86971,6 +88401,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -87195,6 +88630,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -87497,6 +88937,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -87992,6 +89437,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -88318,6 +89768,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -88466,6 +89921,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -88600,6 +90060,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -88683,6 +90148,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -88928,6 +90398,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -89354,6 +90829,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -89619,6 +91099,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -90050,6 +91535,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -90524,6 +92014,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -90985,6 +92480,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -91298,6 +92798,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -91510,6 +93015,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -91794,6 +93304,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -92226,6 +93741,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -92361,6 +93881,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -93193,6 +94718,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -93710,6 +95240,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -94081,6 +95616,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -94457,6 +95997,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -94727,6 +96272,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -95053,6 +96603,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -95365,6 +96920,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -95509,6 +97069,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -95642,6 +97207,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -95925,6 +97495,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -96138,6 +97713,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -96586,6 +98166,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -96986,6 +98571,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -97366,6 +98956,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -97780,6 +99375,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -97953,6 +99553,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -98106,6 +99711,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -98555,6 +100165,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -99771,6 +101386,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -100096,6 +101716,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -100468,6 +102093,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -100792,6 +102422,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -101239,6 +102874,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -101658,6 +103298,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -101917,6 +103562,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -102038,6 +103688,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -102186,6 +103841,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -102445,6 +104105,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -102576,6 +104241,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -102719,6 +104389,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -103216,6 +104891,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -103588,6 +105268,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -104269,6 +105954,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -104389,6 +106079,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -104906,6 +106601,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -105126,6 +106826,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -105238,6 +106943,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -105332,6 +107042,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -105384,6 +107099,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -105536,6 +107256,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -105663,6 +107388,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -105786,6 +107516,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -105930,6 +107665,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -106043,6 +107783,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -106169,6 +107914,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -106286,6 +108036,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -106380,6 +108135,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -106453,6 +108213,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -106564,6 +108329,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -106855,6 +108625,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -106937,6 +108712,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -107013,6 +108793,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -107184,6 +108969,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -107296,6 +109086,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -107354,6 +109149,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -107490,6 +109290,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -107603,6 +109408,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -107763,6 +109573,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -107902,6 +109717,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -108005,6 +109825,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -108153,6 +109978,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -108312,6 +110142,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       }
@@ -108398,6 +110233,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -108553,6 +110393,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -108650,6 +110495,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       }
@@ -108673,6 +110523,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -108735,6 +110590,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -108832,6 +110692,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -108970,6 +110835,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -109027,6 +110897,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -109075,6 +110950,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -109152,6 +111032,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -109254,6 +111139,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -109380,6 +111270,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -109483,6 +111378,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -110072,6 +111972,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -110238,6 +112143,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.SMT.lang_pt_br_l01": {
+    "appName": "SamsungTTS Português do Brasil Voz 1",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       }
     ]
   },
@@ -110670,6 +112587,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -110748,6 +112670,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -111045,6 +112972,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -111103,6 +113035,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -111741,6 +113678,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -111854,6 +113796,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -111994,6 +113941,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -112197,6 +114149,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -112386,6 +114343,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -112750,6 +114712,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -112891,6 +114858,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -112939,6 +114911,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -113131,6 +115108,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -113254,6 +115236,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -113404,6 +115391,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -113531,6 +115523,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -113644,6 +115641,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -113791,6 +115793,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -114053,6 +116060,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -114598,6 +116610,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -114991,6 +117008,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -115270,6 +117292,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -115381,6 +117408,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -115468,6 +117500,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -115743,6 +117780,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -116045,6 +118087,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -116202,6 +118249,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -116429,6 +118481,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -116840,6 +118897,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -117041,6 +119103,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -117328,6 +119395,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -117575,6 +119647,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -117688,6 +119765,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -117827,6 +119909,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -117988,6 +120075,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -118279,6 +120371,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -118396,6 +120493,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -118539,6 +120641,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -118649,6 +120756,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -118856,6 +120968,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -118991,6 +121108,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -119144,6 +121266,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -119315,6 +121442,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -119459,6 +121591,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -119666,6 +121803,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -119919,6 +122061,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -120063,6 +122210,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -120750,6 +122902,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -121243,6 +123400,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -121462,6 +123624,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -121704,6 +123871,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -121842,6 +124014,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -122088,6 +124265,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -122358,6 +124540,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -122794,6 +124981,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -123087,6 +125279,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -123355,6 +125552,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -123747,6 +125949,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -124100,6 +126307,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -124391,6 +126603,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       }
@@ -124562,6 +126779,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -124882,6 +127104,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -125306,6 +127533,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -125432,6 +127664,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -125752,6 +127989,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -125960,6 +128202,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -126283,6 +128530,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -126749,6 +129001,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -127067,6 +129324,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
       },
@@ -127115,6 +129377,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -127746,6 +130013,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -127993,6 +130265,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
       },
@@ -128087,6 +130364,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -128328,6 +130610,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -128356,6 +130643,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -128804,6 +131096,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -129014,6 +131311,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -129392,6 +131694,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -129831,6 +132138,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -130025,6 +132337,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -130163,6 +132480,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -130287,6 +132609,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -130368,6 +132695,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       }
@@ -130429,6 +132761,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -130634,6 +132971,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -130803,6 +133145,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -131023,6 +133370,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -131540,6 +133892,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -131679,6 +134036,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -132091,6 +134453,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -132355,6 +134722,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -132473,6 +134845,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -132621,6 +134998,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -133061,6 +135443,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -133260,6 +135647,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -133379,6 +135771,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
       },
@@ -133412,6 +135809,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -133464,6 +135866,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
         "os": "35"
       },
       {
@@ -133750,6 +136157,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -134097,6 +136509,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -134323,6 +136740,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -135247,6 +137669,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S928U1",
+        "os": "35"
       },
       {
         "make": "samsung",
