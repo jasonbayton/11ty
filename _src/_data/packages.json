@@ -33800,6 +33800,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -82116,7 +82121,7 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
-        "name": "Magic portrait"
+        "name": "Live effects"
       },
       {
         "locale": "nl-nl",
@@ -91773,6 +91778,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "en-gb",
+        "name": "NFC service"
+      },
+      {
         "locale": "nl-nl",
         "name": "NFC-service"
       },
@@ -101061,10 +101070,6 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "com.google.android.apps.pixel.relationships"
-      },
-      {
-        "locale": "en-gb",
         "name": "com.google.android.apps.pixel.relationships"
       }
     ],
