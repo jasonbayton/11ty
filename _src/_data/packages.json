@@ -84129,55 +84129,6 @@
       }
     ]
   },
-  "com.android.providers.media.module": {
-    "appName": "Media",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-au",
-        "name": "Media Storage"
-      },
-      {
-        "locale": "en-be",
-        "name": "Media Storage"
-      },
-      {
-        "locale": "",
-        "name": "Media Storage"
-      },
-      {
-        "locale": "en-za",
-        "name": "Media Storage"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "brya",
-        "os": "33"
-      },
-      {
-        "make": "Elo Touch Solutions",
-        "model": "15in-I-Series-5",
-        "os": "34"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-7306F",
-        "os": "30"
-      },
-      {
-        "make": "SMT_HK",
-        "model": "Helium Pro",
-        "os": "31"
-      }
-    ]
-  },
   "com.hihonor.medialibrary": {
     "appName": "Media Library",
     "userFacing": false,
@@ -84603,6 +84554,43 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.providers.media.module": {
+    "appName": "Media Storage",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Media"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
+        "make": "Elo Touch Solutions",
+        "model": "15in-I-Series-5",
+        "os": "34"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
       }
     ]
   },
