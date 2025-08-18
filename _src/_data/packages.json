@@ -2444,6 +2444,10 @@
         "name": "Android S Easter Egg"
       },
       {
+        "locale": "en-sg",
+        "name": "Android R Easter Egg"
+      },
+      {
         "locale": "en-za",
         "name": "Android R Easter Egg"
       }
@@ -3933,6 +3937,10 @@
       },
       {
         "locale": "en-be",
+        "name": "Android Setup"
+      },
+      {
+        "locale": "en-sg",
         "name": "Android Setup"
       },
       {
@@ -11873,6 +11881,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "en-sg",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "it-it",
         "name": "Bluetooth"
       },
@@ -17265,6 +17277,10 @@
       {
         "locale": "en-nl",
         "name": "Operator communications"
+      },
+      {
+        "locale": "en-sg",
+        "name": "CarrierDefaultApp"
       },
       {
         "locale": "it-it",
@@ -78070,6 +78086,10 @@
         "name": "Keep notes"
       },
       {
+        "locale": "en-sg",
+        "name": "Keep notes"
+      },
+      {
         "locale": "en-gb",
         "name": "Keep notes"
       },
@@ -84724,6 +84744,10 @@
       },
       {
         "locale": "en-be",
+        "name": "Duo"
+      },
+      {
+        "locale": "en-sg",
         "name": "Duo"
       },
       {
@@ -91431,6 +91455,10 @@
       {
         "locale": "en-nl",
         "name": "NFC"
+      },
+      {
+        "locale": "en-sg",
+        "name": "Nfc Service"
       },
       {
         "locale": "it-it",
@@ -98461,6 +98489,10 @@
         "name": "Phone calls"
       },
       {
+        "locale": "en-sg",
+        "name": "Call Management"
+      },
+      {
         "locale": "it-it",
         "name": "Chiamate telefoniche"
       },
@@ -103195,6 +103227,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "Punch hole cutout"
+      },
+      {
+        "locale": "en-sg",
         "name": "Punch hole cutout"
       },
       {
@@ -118383,6 +118419,10 @@
         "name": "Sim app dialogue"
       },
       {
+        "locale": "en-sg",
+        "name": "Sim app dialogue"
+      },
+      {
         "locale": "de-de",
         "name": "SIM-App-Dialogfeld"
       },
@@ -119003,6 +119043,10 @@
       {
         "locale": "en-nl",
         "name": "SIM toolkit"
+      },
+      {
+        "locale": "en-sg",
+        "name": "SIM Tool Kit"
       },
       {
         "locale": "it-it",
@@ -122781,6 +122825,10 @@
       {
         "locale": "en",
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‏‏‎‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‏‏‏‎‎‎‏‎‏‏‏‎‎‏‏‏‎‎‏‎‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‎‏‏‎‏‏‎Speech Services by Google‎‏‎‎‏‎"
+      },
+      {
+        "locale": "en-sg",
+        "name": "Google Text-to-speech engine"
       },
       {
         "locale": "it-it",
@@ -127038,6 +127086,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "System Wi-Fi resources"
+      },
+      {
+        "locale": "en-sg",
         "name": "System Wi-Fi resources"
       },
       {
@@ -134151,6 +134203,10 @@
       },
       {
         "locale": "",
+        "name": "com.android.wallpaperpicker"
+      },
+      {
+        "locale": "en-sg",
         "name": "com.android.wallpaperpicker"
       },
       {
