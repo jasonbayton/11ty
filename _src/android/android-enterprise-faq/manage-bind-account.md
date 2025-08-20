@@ -14,7 +14,7 @@ eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   order: 6999
 --- 
-## Customer signup bind management
+**Customer signup bind management**
 
 When a bind is associated to the customer signup flow introduced in 2024, it is permanently associated with the Google Workspace environment/domain used during the bind setup process. 
 
@@ -22,7 +22,7 @@ While bind migration between Google Workspace environments is not currently docu
 
 Information on user role management in Google Workspace can be found [here](https://support.google.com/a/answer/7519580?hl=en), while managing users can be found [here](https://support.google.com/a/answer/33310?hl=en).
 
-## Legacy bind management
+**Legacy bind management**
 
 Yes, it is more recently possible to configure the accounts responsible for managing the Android Enterprise organisation (enterprise) ID
 
