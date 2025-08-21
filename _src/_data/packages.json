@@ -117,6 +117,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -520,6 +525,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.heytap.usercenter": {
+    "appName": "Account Center",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -1275,6 +1292,18 @@
       }
     ]
   },
+  "com.oppoex.afterservice": {
+    "appName": "After-Sales Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.transsion.aftersalecalibrationtool": {
     "appName": "AfterSaleCalibrationTool",
     "userFacing": false,
@@ -2018,6 +2047,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -2253,6 +2287,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -2625,6 +2664,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -3021,6 +3065,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -3422,6 +3471,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -3782,6 +3836,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -4167,6 +4226,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -4544,6 +4608,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -4824,23 +4893,6 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
-      }
-    ]
-  },
-  "oplus": {
-    "appName": "Android System",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
       }
     ]
   },
@@ -5312,6 +5364,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -5824,6 +5881,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -6246,6 +6308,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -7000,6 +7067,18 @@
       }
     ]
   },
+  "com.coloros.oppomultiapp": {
+    "appName": "App cloner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.multiapp": {
     "appName": "App Cloner",
     "userFacing": false,
@@ -7051,6 +7130,18 @@
       }
     ]
   },
+  "com.coloros.gamespace": {
+    "appName": "APP Enhancement Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.nothing.applocker": {
     "appName": "App locker",
     "userFacing": false,
@@ -7075,9 +7166,14 @@
   },
   "com.heytap.market": {
     "appName": "App Market",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -7856,6 +7952,18 @@
       }
     ]
   },
+  "com.heytap.appplatform": {
+    "appName": "AppPlatform",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.samsung.android.app.appsedge": {
     "appName": "Apps edge",
     "userFacing": false,
@@ -8419,6 +8527,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -8487,6 +8600,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -8532,6 +8650,18 @@
       }
     ]
   },
+  "com.coloros.athena": {
+    "appName": "Athena",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.athena": {
     "appName": "Athena",
     "userFacing": false,
@@ -8546,6 +8676,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.oppo.atlas": {
+    "appName": "atlasService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -10409,6 +10551,18 @@
       }
     ]
   },
+  "com.nearme.statistics.rom": {
+    "appName": "Basic Data Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.statistics.rom": {
     "appName": "Basic Data Services",
     "userFacing": false,
@@ -10791,6 +10945,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.coloros.oppoguardelf": {
+    "appName": "Battery",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -11581,6 +11747,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -11589,6 +11760,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.coloros.blacklistapp": {
+    "appName": "Block & filter",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -11728,6 +11911,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -12376,6 +12564,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -12736,6 +12929,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -13132,6 +13330,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -14024,6 +14227,23 @@
       }
     ]
   },
+  "com.coloros.calculator": {
+    "appName": "Calculator",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.calculator2": {
     "appName": "Calculator",
     "userFacing": true,
@@ -14038,18 +14258,6 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
-      }
-    ]
-  },
-  "com.coloros.calculator": {
-    "appName": "Calculator",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
       }
     ]
   },
@@ -14116,6 +14324,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -14532,6 +14745,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -14790,6 +15008,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.oppo.tzupdate": {
+    "appName": "Calibrate Time Zone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -15227,6 +15457,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -16422,6 +16657,18 @@
       }
     ]
   },
+  "com.oppo.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.zui.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -17371,6 +17618,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -17930,6 +18182,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -18257,6 +18514,18 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.coloros.locationproxy": {
+    "appName": "Carrier Location Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -18916,6 +19185,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -19170,6 +19444,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -19186,6 +19465,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -19343,6 +19627,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -19790,6 +20079,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -20297,6 +20591,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -20331,6 +20630,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -20350,6 +20654,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -20375,6 +20684,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -20397,6 +20711,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -20416,6 +20735,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -21033,6 +21357,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -21104,6 +21433,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.coloros.backuprestore": {
+    "appName": "Clone Phone",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -21437,6 +21778,42 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "oplus": {
+    "appName": "ColorOS System",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Android System"
+      },
+      {
+        "locale": "en-lk",
+        "name": "Android System"
+      }
+    ],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -21571,6 +21948,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -22040,6 +22422,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -22312,6 +22699,18 @@
       }
     ]
   },
+  "com.android.carrierconfig.overlay": {
+    "appName": "com.android.carrierconfig.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.carrierconfig.overlay.common": {
     "appName": "com.android.carrierconfig.overlay.common",
     "userFacing": false,
@@ -22523,6 +22922,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -23170,6 +23574,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -23535,6 +23944,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -24437,6 +24851,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -25355,6 +25774,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -26571,6 +26995,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -26985,6 +27414,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -28002,6 +28436,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -28863,6 +29302,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -30275,6 +30719,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -30291,6 +30740,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -30309,6 +30763,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -30325,6 +30784,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -30343,6 +30807,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -30360,6 +30829,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -30376,6 +30850,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -30779,6 +31258,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -31106,6 +31590,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -31448,6 +31937,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -31996,6 +32490,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -32163,6 +32662,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -34361,6 +34865,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -34478,6 +34987,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -34872,6 +35386,18 @@
       }
     ]
   },
+  "com.google.android.overlay.gms": {
+    "appName": "com.google.android.overlay.gms",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.overlay.gmsconfig": {
     "appName": "com.google.android.overlay.gmsconfig",
     "userFacing": false,
@@ -35224,6 +35750,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -35449,6 +35980,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -35921,6 +36457,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -37474,6 +38015,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -37739,6 +38285,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -38160,6 +38711,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -38444,6 +39000,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -38714,6 +39275,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -39432,6 +39998,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.permissioncontroller.overlay.oppo": {
+    "appName": "com.google.android.permissioncontroller.overlay.oppo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -41329,6 +41907,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -41436,6 +42019,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -41662,6 +42250,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -41884,6 +42477,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -42113,6 +42711,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -42179,6 +42782,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
@@ -42269,6 +42877,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -49526,6 +50139,18 @@
       }
     ]
   },
+  "com.realme.movieshot": {
+    "appName": "Combine captions",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.engineermode": {
     "appName": "CommercialEngineerMode",
     "userFacing": false,
@@ -49664,6 +50289,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -49932,6 +50562,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -50401,6 +51036,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -51765,6 +52405,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -52071,6 +52716,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -53196,6 +53846,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -53971,6 +54626,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -54475,6 +55135,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -54518,6 +55183,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.coloros.deepthinker": {
+    "appName": "DeepThinker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -54700,6 +55377,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -55361,6 +56043,23 @@
       }
     ]
   },
+  "android.autoinstalls.config.oppo": {
+    "appName": "Device configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "android.autoinstalls.config.Lenovo.TB7306": {
     "appName": "Device configuration",
     "userFacing": false,
@@ -55382,18 +56081,6 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
-      }
-    ]
-  },
-  "android.autoinstalls.config.oppo": {
-    "appName": "Device configuration",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
       }
     ]
   },
@@ -56197,6 +56884,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -57020,28 +57712,16 @@
       }
     ]
   },
-  "com.oplus.postmanservice": {
-    "appName": "Diagnostic Tool",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
-      }
-    ]
-  },
   "com.coloros.healthcheck": {
     "appName": "Diagnostics",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -57514,6 +58194,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -57677,6 +58362,18 @@
       }
     ]
   },
+  "se.dirac.acs": {
+    "appName": "Dirac Control Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.aura.jet.att": {
     "appName": "Discovery Hub",
     "userFacing": true,
@@ -57701,6 +58398,18 @@
       }
     ]
   },
+  "com.color.uiengine": {
+    "appName": "Diverse engine",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.uiengine": {
     "appName": "Diverse engine",
     "userFacing": false,
@@ -57715,6 +58424,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.heytap.datamigration": {
+    "appName": "DMApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -58487,6 +59208,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -59136,6 +59862,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.coloros.providers.downloads.ui": {
+    "appName": "Downloads",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -60319,6 +61057,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -60572,6 +61315,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -61102,6 +61850,11 @@
     ],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -61127,6 +61880,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -61692,6 +62450,18 @@
       }
     ]
   },
+  "com.oppo.sos": {
+    "appName": "Emergency SOS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.sos": {
     "appName": "Emergency SOS",
     "userFacing": false,
@@ -61858,6 +62628,18 @@
       }
     ]
   },
+  "com.oppo.engineermode.camera": {
+    "appName": "EngineerCamera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.engineercamera": {
     "appName": "EngineerCamera",
     "userFacing": false,
@@ -61937,6 +62719,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -61992,6 +62779,30 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.oppo.engineermode": {
+    "appName": "EngineerMode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
+  "com.oppo.engineermode.network": {
+    "appName": "EngineerNetwork",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -62866,6 +63677,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -63181,6 +63997,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.coloros.eyeprotect": {
+    "appName": "Eye comfort",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -64510,6 +65338,18 @@
       }
     ]
   },
+  "com.coloros.logkit": {
+    "appName": "Feedback",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.miui.bugreport": {
     "appName": "Feedback",
     "userFacing": false,
@@ -64593,6 +65433,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -64609,6 +65454,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -64756,6 +65606,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -65518,6 +66373,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -65537,6 +66397,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -65562,6 +66427,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -65584,6 +66454,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -65603,6 +66478,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -66412,6 +67292,18 @@
       }
     ]
   },
+  "com.finshell.fin": {
+    "appName": "FinShell Pay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.zui.keyboardupdate": {
     "appName": "Firmware update",
     "userFacing": false,
@@ -66501,6 +67393,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -66599,6 +67496,18 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      }
+    ]
+  },
+  "com.coloros.focusmode": {
+    "appName": "Focus mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -67038,6 +67947,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -68958,6 +69872,18 @@
       }
     ]
   },
+  "com.nearme.gamecenter": {
+    "appName": "Game Center",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.xiaomi.glgm": {
     "appName": "Game Centre",
     "userFacing": true,
@@ -69258,6 +70184,11 @@
         "os": "28"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -69338,6 +70269,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Google",
@@ -69687,6 +70623,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -70095,6 +71036,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -70419,6 +71365,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -70701,6 +71652,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -70819,6 +71775,18 @@
       }
     ]
   },
+  "com.coloros.exserviceui": {
+    "appName": "Gesture_Motion Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.exserviceui": {
     "appName": "Gesture_Motion Services",
     "userFacing": false,
@@ -70833,6 +71801,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.coloros.gesture": {
+    "appName": "Gestures & motions",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -70929,11 +71909,28 @@
       }
     ]
   },
+  "com.glance.internet": {
+    "appName": "Glance for realme",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oppo.quicksearchbox": {
     "appName": "Global Search",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -71057,6 +72054,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -71472,6 +72474,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -72021,6 +73028,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -72228,6 +73240,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -72587,6 +73604,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -72949,6 +73971,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -73482,6 +74509,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -73813,6 +74845,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -74077,6 +75114,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -74465,6 +75507,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -74881,6 +75928,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -75702,6 +76754,18 @@
       }
     ]
   },
+  "com.google.android.apps.nbu.paisa.user": {
+    "appName": "GPay",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.xiaomi.ugd": {
     "appName": "GPU Driver Updater",
     "userFacing": false,
@@ -75866,6 +76930,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -76726,6 +77795,18 @@
       }
     ]
   },
+  "com.coloros.healthservice": {
+    "appName": "healthservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.healthservice": {
     "appName": "healthservice",
     "userFacing": false,
@@ -77036,6 +78117,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.heytap.cloud": {
+    "appName": "HeyTap Cloud",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -77955,6 +79048,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -78555,6 +79653,18 @@
       }
     ]
   },
+  "com.ted.number": {
+    "appName": "Identification of Unknown Numbers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "org.ifaa.aidl.manager": {
     "appName": "IFAAService",
     "userFacing": false,
@@ -79085,6 +80195,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -79256,6 +80371,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -79595,6 +80715,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -79996,9 +81121,14 @@
   },
   "com.heytap.browser": {
     "appName": "Internet",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -80412,6 +81542,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -80610,6 +81745,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -80969,10 +82109,20 @@
     ]
   },
   "com.coloros.childrenspace": {
-    "appName": "Kids mode",
+    "appName": "Kid Space",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-lk",
+        "name": "Kids mode"
+      }
+    ],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -83685,6 +84835,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -84075,6 +85230,11 @@
         "os": "28"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -84269,6 +85429,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -84386,6 +85551,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -84909,6 +86079,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -85439,6 +86614,18 @@
       }
     ]
   },
+  "com.coloros.notificationmanager": {
+    "appName": "Manage notifications",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.notificationmanager": {
     "appName": "Manage notifications",
     "userFacing": false,
@@ -85622,6 +86809,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -85991,6 +87183,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -86530,6 +87727,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -86585,6 +87787,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Sony",
@@ -86835,6 +88042,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -88030,6 +89242,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -88085,6 +89302,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -88234,6 +89456,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -88374,6 +89601,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -89222,6 +90454,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -89504,6 +90741,18 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      }
+    ]
+  },
+  "com.coloros.simsettings": {
+    "appName": "Mobile data",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -89800,6 +91049,37 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.coloros.scenemode": {
+    "appName": "Modes",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Simple mode"
+      },
+      {
+        "locale": "en-lk",
+        "name": "Simple mode"
+      }
+    ],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
       }
     ]
   },
@@ -91221,6 +92501,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -91715,6 +93000,23 @@
       }
     ]
   },
+  "com.heytap.music": {
+    "appName": "Music",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.sonyericsson.music": {
     "appName": "Music",
     "userFacing": false,
@@ -91752,18 +93054,6 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
-        "os": "35"
-      }
-    ]
-  },
-  "com.heytap.music": {
-    "appName": "Music",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -92141,6 +93431,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -92905,6 +94200,18 @@
       }
     ]
   },
+  "com.oppo.nhs": {
+    "appName": "Network Health Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.nhs": {
     "appName": "Network Health Service",
     "userFacing": false,
@@ -93031,6 +94338,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -93666,6 +94978,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -93888,6 +95205,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Google",
@@ -94196,6 +95518,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -95266,6 +96593,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -95748,6 +97080,18 @@
       }
     ]
   },
+  "com.coloros.phonenoareainquire": {
+    "appName": "Number Origin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.tct.iris": {
     "appName": "NXTVISION",
     "userFacing": true,
@@ -95768,6 +97112,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -95916,6 +97265,18 @@
       }
     ]
   },
+  "com.coloros.ocrservice": {
+    "appName": "OcrService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.lenovo.ocpl": {
     "appName": "OCZ_ClientDownloader",
     "userFacing": false,
@@ -96046,6 +97407,37 @@
       }
     ]
   },
+  "com.oplus.postmanservice": {
+    "appName": "OIDT Service",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Diagnostic Tool"
+      },
+      {
+        "locale": "en-lk",
+        "name": "Diagnostic Tool"
+      }
+    ],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
+        "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.hotwordenrollment.okgoogle": {
     "appName": "OK Google Hotword",
     "userFacing": false,
@@ -96126,6 +97518,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -96356,6 +97753,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -96434,6 +97836,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -96865,6 +98272,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
@@ -96977,6 +98389,23 @@
       }
     ]
   },
+  "com.coloros.ocs.opencapabilityservice": {
+    "appName": "OpenCapabilityService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.ocs": {
     "appName": "OpenCapabilityService",
     "userFacing": false,
@@ -96989,15 +98418,15 @@
       }
     ]
   },
-  "com.coloros.ocs.opencapabilityservice": {
-    "appName": "OpenCapabilityService",
+  "com.heytap.openid": {
+    "appName": "OpenID",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -97186,6 +98615,18 @@
       }
     ]
   },
+  "com.coloros.exsystemservice": {
+    "appName": "OplusExSystemService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.lfeh": {
     "appName": "OplusLFEHer",
     "userFacing": false,
@@ -97249,15 +98690,27 @@
       }
     ]
   },
-  "com.coloros.oshare": {
-    "appName": "OPPO Share",
+  "com.oppo.multimedia.dirac": {
+    "appName": "OppoDiracService",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
+  "com.oppo.lfeh": {
+    "appName": "OppoLFEHer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -97344,6 +98797,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -97502,6 +98960,18 @@
       }
     ]
   },
+  "com.oplus.oscenter": {
+    "appName": "OsCenter",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.hotspot2.osulogin": {
     "appName": "OsuLogin",
     "userFacing": false,
@@ -97561,6 +99031,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -98099,6 +99574,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -98486,6 +99966,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -99002,6 +100487,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -99039,6 +100529,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -99496,6 +100991,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -99740,6 +101240,18 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      }
+    ]
+  },
+  "com.coloros.securitypermission": {
+    "appName": "Permission manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       }
     ]
@@ -100374,6 +101886,18 @@
       }
     ]
   },
+  "com.coloros.uxdesign": {
+    "appName": "Personalizations",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.motorola.personalize": {
     "appName": "Personalize",
     "userFacing": false,
@@ -100954,6 +102478,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -101109,6 +102638,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -101534,6 +103068,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -101934,6 +103473,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -103065,6 +104609,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -103181,6 +104730,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -104527,6 +106081,18 @@
       }
     ]
   },
+  "com.oppo.oppopowermonitor": {
+    "appName": "Power monitor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.powermonitor": {
     "appName": "Power Monitor",
     "userFacing": false,
@@ -104748,6 +106314,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -105136,6 +106707,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -105696,6 +107272,18 @@
       }
     ]
   },
+  "com.coloros.encryption": {
+    "appName": "Private Safe",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.encryption": {
     "appName": "Private Safe",
     "userFacing": false,
@@ -105937,6 +107525,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -106381,6 +107974,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -106615,6 +108213,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -107957,6 +109560,28 @@
       }
     ]
   },
+  "com.coloros.oshare": {
+    "appName": "realme Share",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-lk",
+        "name": "OPPO Share"
+      }
+    ],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.app.omcagent": {
     "appName": "Recommended apps",
     "userFacing": false,
@@ -108201,6 +109826,23 @@
       }
     ]
   },
+  "com.coloros.soundrecorder": {
+    "appName": "Recorder",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.nothing.soundrecorder": {
     "appName": "Recorder",
     "userFacing": true,
@@ -108223,18 +109865,6 @@
       }
     ]
   },
-  "com.coloros.soundrecorder": {
-    "appName": "Recorder",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
-      }
-    ]
-  },
   "com.oplus.apprecover": {
     "appName": "Recover system apps",
     "userFacing": false,
@@ -108249,6 +109879,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.coloros.apprecover": {
+    "appName": "Recover Uninstalled System Apps",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -108947,6 +110589,11 @@
         "os": "34"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -109442,6 +111089,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -109461,6 +111113,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -109486,6 +111143,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -109508,6 +111170,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -109522,6 +111189,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -109554,6 +111226,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -116302,6 +117979,18 @@
       }
     ]
   },
+  "com.coloros.sauhelper": {
+    "appName": "SAUHelper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.sauhelper": {
     "appName": "SAUHelper",
     "userFacing": false,
@@ -116580,6 +118269,18 @@
       }
     ]
   },
+  "com.coloros.screenrecorder": {
+    "appName": "Screen recording",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.screenrecorder": {
     "appName": "Screen recording",
     "userFacing": false,
@@ -116597,6 +118298,18 @@
       }
     ]
   },
+  "com.heytap.cast": {
+    "appName": "Screencast",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.cast": {
     "appName": "Screencast",
     "userFacing": false,
@@ -116611,6 +118324,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.coloros.screenshot": {
+    "appName": "Screenshot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -116713,6 +118438,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.oppo.qualityprotect": {
+    "appName": "sdk",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -117443,6 +119180,18 @@
       }
     ]
   },
+  "com.coloros.securitykeyboard": {
+    "appName": "Secure Keyboard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.securitykeyboard": {
     "appName": "Secure Keyboard",
     "userFacing": false,
@@ -117457,6 +119206,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.nearme.atlas": {
+    "appName": "Secure Payment",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -117756,6 +119517,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -118066,6 +119832,18 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.realme.securitycheck": {
+    "appName": "SecurityAnalysis",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -119529,6 +121307,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -120090,6 +121873,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -120500,6 +122288,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -121179,18 +122972,6 @@
       }
     ]
   },
-  "com.coloros.assistantscreen": {
-    "appName": "Shelf",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      }
-    ]
-  },
   "com.android.shell": {
     "appName": "Shell",
     "userFacing": false,
@@ -121304,6 +123085,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -121572,6 +123358,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -122029,6 +123820,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -122680,6 +124476,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -123062,23 +124863,6 @@
       }
     ]
   },
-  "com.coloros.scenemode": {
-    "appName": "Simple mode",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OnePlus",
-        "model": "CPH2465",
-        "os": "34"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
-      }
-    ]
-  },
   "com.mediatek.simprocessor": {
     "appName": "SimProcessor",
     "userFacing": false,
@@ -123454,6 +125238,18 @@
       }
     ]
   },
+  "com.realme.wellbeing": {
+    "appName": "Sleep Capsule",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.apps.docs.editors.slides": {
     "appName": "Slides",
     "userFacing": true,
@@ -123633,6 +125429,28 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.coloros.assistantscreen": {
+    "appName": "Smart Assistant",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Shelf"
+      }
+    ],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "CPH2465",
         "os": "34"
       }
     ]
@@ -123823,6 +125641,18 @@
       }
     ]
   },
+  "com.coloros.smartdrive": {
+    "appName": "Smart Driving",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.tblenovo.launcher": {
     "appName": "Smart Launcher",
     "userFacing": false,
@@ -123832,6 +125662,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.coloros.ocrscanner": {
+    "appName": "Smart Scan",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -123857,11 +125699,28 @@
       }
     ]
   },
+  "com.coloros.sceneservice": {
+    "appName": "Smart services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.coloros.smartsidebar": {
     "appName": "Smart Sidebar",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -124833,6 +126692,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -125352,6 +127216,18 @@
       }
     ]
   },
+  "com.oppo.ota": {
+    "appName": "Software update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.sonyericsson.updatecenter": {
     "appName": "Software update",
     "userFacing": false,
@@ -125553,6 +127429,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -125598,6 +127479,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Google",
@@ -126117,6 +128003,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -126330,6 +128221,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -126571,6 +128467,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -126920,6 +128821,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -126977,6 +128883,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -127315,6 +129226,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -127973,6 +129889,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -128591,6 +130512,18 @@
       }
     ]
   },
+  "com.coloros.systemclone": {
+    "appName": "System cloner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.connectivity.resources": {
     "appName": "System Connectivity Resources",
     "userFacing": false,
@@ -128712,6 +130645,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -129122,6 +131060,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.oppo.launcher": {
+    "appName": "System Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -129730,6 +131680,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -130100,6 +132055,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -130496,6 +132456,18 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      }
+    ]
+  },
+  "com.coloros.sau": {
+    "appName": "System Upgrade Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -130928,6 +132900,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -131663,6 +133640,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -132326,6 +134308,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -132542,6 +134529,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -132661,6 +134653,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "Xiaomi",
@@ -132871,6 +134868,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -133384,6 +135386,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -133434,6 +135441,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -133576,6 +135588,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.heytap.themestore": {
+    "appName": "Theme Store",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -134208,6 +136232,18 @@
       }
     ]
   },
+  "com.coloros.translate.engine": {
+    "appName": "TranslationService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.internal.systemui.navbar.transparent": {
     "appName": "Transparent navigation bar",
     "userFacing": false,
@@ -134832,6 +136868,18 @@
       }
     ]
   },
+  "com.nearme.romupdate": {
+    "appName": "Update Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.romupdate": {
     "appName": "Update Service",
     "userFacing": false,
@@ -135255,6 +137303,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
@@ -135605,6 +137658,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.oppo.operationManual": {
+    "appName": "User Guide",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -136054,6 +138119,11 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
         "os": "30"
       },
       {
@@ -136537,6 +138607,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -137046,6 +139121,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -137347,6 +139427,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -138173,6 +140258,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -138226,6 +140316,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.coloros.wallpapers": {
+    "appName": "Wallpapers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -138304,6 +140406,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "Nothing",
         "model": "A015",
@@ -138455,6 +140562,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -139144,6 +141256,23 @@
       }
     ]
   },
+  "com.coloros.weather2": {
+    "appName": "Weather",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.nothing.weather": {
     "appName": "Weather",
     "userFacing": true,
@@ -139162,18 +141291,6 @@
       {
         "make": "Nothing",
         "model": "A063",
-        "os": "35"
-      }
-    ]
-  },
-  "com.coloros.weather2": {
-    "appName": "Weather",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -139205,6 +141322,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -140000,6 +142122,18 @@
       }
     ]
   },
+  "com.coloros.wifibackuprestore": {
+    "appName": "WifiBackupRestore",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      }
+    ]
+  },
   "com.oplus.wifibackuprestore": {
     "appName": "WifiBackupRestore",
     "userFacing": false,
@@ -140221,6 +142355,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -140482,6 +142621,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.coloros.wirelesssettings": {
+    "appName": "Wireless Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -140823,6 +142974,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -141777,6 +143933,11 @@
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       },
       {
         "make": "samsung",
