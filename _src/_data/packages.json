@@ -13964,6 +13964,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       }
@@ -98462,6 +98467,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
       }
@@ -139687,8 +139697,18 @@
   "com.android.multiuser": {
     "appName": "Users",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Gebruikers"
+      }
+    ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
