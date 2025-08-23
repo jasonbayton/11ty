@@ -13971,6 +13971,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
       }
     ]
   },
@@ -35780,6 +35785,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -98474,6 +98484,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
       }
     ]
   },
@@ -107273,7 +107288,7 @@
     "additionalLocales": [
       {
         "locale": "nl-nl",
-        "name": "Pixel-tips"
+        "name": "Mijn Pixel"
       }
     ],
     "devices": [
@@ -139712,6 +139727,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       }
     ]
