@@ -204,6 +204,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -806,6 +811,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -2134,6 +2144,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -2783,6 +2798,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -3199,6 +3219,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -3603,6 +3628,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -3977,6 +4007,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -4355,6 +4390,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -4757,6 +4797,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -5176,6 +5221,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -5525,6 +5575,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -6835,6 +6890,54 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "android.rro_perf": {
+    "appName": "android.rro_perf",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "android.rro_product": {
+    "appName": "android.rro_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "android.rro_tcl": {
+    "appName": "android.rro_tcl",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "android.tct_backlight": {
+    "appName": "android.tct_backlight",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -8518,6 +8621,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -8574,6 +8682,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -8744,6 +8857,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "SMT_HK",
@@ -10894,6 +11012,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -11137,6 +11260,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.tct.batterywarning": {
+    "appName": "Battery warning",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -12125,6 +12260,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -12781,6 +12921,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -13155,6 +13300,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -13564,6 +13714,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -13764,6 +13919,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -14303,6 +14463,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -14562,6 +14727,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -15016,6 +15186,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -15735,6 +15910,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -16902,6 +17082,18 @@
       }
     ]
   },
+  "com.tcl.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.nothing.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -17346,6 +17538,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -17894,6 +18091,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -19499,6 +19701,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -19968,6 +20175,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -20422,6 +20634,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -21054,6 +21271,18 @@
       }
     ]
   },
+  "com.smartmanager.cleanup": {
+    "appName": "Clean up",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.miui.cleaner": {
     "appName": "Cleaner",
     "userFacing": false,
@@ -21393,6 +21622,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -22321,6 +22555,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -22792,6 +23031,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -23982,6 +24226,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -24356,6 +24605,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -25266,6 +25520,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -25838,6 +26097,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -26201,6 +26465,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -27463,6 +27732,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -27889,6 +28163,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -28309,6 +28588,30 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.providers.settings.rro_common": {
+    "appName": "com.android.providers.settings.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.providers.settings.rro_product": {
+    "appName": "com.android.providers.settings.rro_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -29257,6 +29560,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -29802,6 +30110,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -30151,6 +30464,18 @@
       }
     ]
   },
+  "com.android.stk.rro_common": {
+    "appName": "com.android.stk.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.storagemanager.auto_generated_rro_product__": {
     "appName": "com.android.storagemanager.auto_generated_rro_product__",
     "userFacing": false,
@@ -30251,6 +30576,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -31060,6 +31390,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay_hera": {
+    "appName": "com.android.systemui.overlay_hera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.systemui.overlay.all_devices": {
     "appName": "com.android.systemui.overlay.all_devices",
     "userFacing": false,
@@ -31464,6 +31806,18 @@
       }
     ]
   },
+  "com.android.systemui.rro_perf": {
+    "appName": "com.android.systemui.rro_perf",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.systemui.signal.overlay": {
     "appName": "com.android.systemui.signal.overlay",
     "userFacing": false,
@@ -31808,6 +32162,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -32122,6 +32481,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -32459,6 +32823,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -32879,6 +33248,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -32965,6 +33339,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -33285,6 +33664,18 @@
       }
     ]
   },
+  "com.android.wifi.resources.rro_perf": {
+    "appName": "com.android.wifi.resources.rro_perf",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.wifi.resources.uni_marlin3": {
     "appName": "com.android.wifi.resources.uni_marlin3",
     "userFacing": false,
@@ -33352,6 +33743,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -33401,6 +33797,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -33852,6 +34253,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -34022,6 +34428,18 @@
       }
     ]
   },
+  "com.google.android.cellbroadcastreceiver.rro_common": {
+    "appName": "com.google.android.cellbroadcastreceiver.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.cellbroadcastservice.overlay.miui": {
     "appName": "com.google.android.cellbroadcastservice.overlay.miui",
     "userFacing": false,
@@ -34036,6 +34454,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.cellbroadcastservice.rro_common": {
+    "appName": "com.google.android.cellbroadcastservice.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -34192,6 +34622,18 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      }
+    ]
+  },
+  "com.google.android.dialer.rro_common": {
+    "appName": "com.google.android.dialer.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -34439,6 +34881,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -35027,6 +35474,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -35363,6 +35815,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -35500,6 +35957,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -36004,6 +36466,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -36290,6 +36757,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -36733,6 +37205,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -37009,6 +37486,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -37383,6 +37865,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -37646,6 +38133,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -38064,6 +38556,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -38593,6 +39090,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -38872,6 +39374,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -39304,6 +39811,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -39598,6 +40110,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -39877,6 +40394,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -40804,6 +41326,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -41080,6 +41607,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -41775,6 +42307,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -41946,6 +42483,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.wifi.resources.rro_common": {
+    "appName": "com.google.android.wifi.resources.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -42391,6 +42940,54 @@
       }
     ]
   },
+  "com.jrdcom.Elabel.overlay_hera": {
+    "appName": "com.jrdcom.Elabel.overlay_hera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.jrdcom.Elabel.overlay_hera_9491G": {
+    "appName": "com.jrdcom.Elabel.overlay_hera_9491G",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.jrdcom.Elabel.overlay_hera_9491GCE": {
+    "appName": "com.jrdcom.Elabel.overlay_hera_9491GCE",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.jrdcom.Elabel.rro_common": {
+    "appName": "com.jrdcom.Elabel.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.lgsi.android.overlay.common": {
     "appName": "com.lgsi.android.overlay.common",
     "userFacing": false,
@@ -42507,6 +43104,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -42735,6 +43337,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -42843,6 +43450,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -42915,6 +43527,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -42979,6 +43596,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -43166,6 +43788,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -43304,6 +43931,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -43418,6 +44050,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -50370,6 +51007,234 @@
       }
     ]
   },
+  "com.tcl": {
+    "appName": "com.tcl",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.android.launcher.a_overlay": {
+    "appName": "com.tcl.android.launcher.a_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.android.launcher.overlay_vendor": {
+    "appName": "com.tcl.android.launcher.overlay_vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.android.networkstack.rro": {
+    "appName": "com.tcl.android.networkstack.rro",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.camera.overlay": {
+    "appName": "com.tcl.camera.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.camera.resources": {
+    "appName": "com.tcl.camera.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.google.networkstack.rro": {
+    "appName": "com.tcl.google.networkstack.rro",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.tclmsgproxy": {
+    "appName": "com.tcl.tclmsgproxy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.display.resources": {
+    "appName": "com.tct.display.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.display.resources.rro_product": {
+    "appName": "com.tct.display.resources.rro_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.dsse.resources": {
+    "appName": "com.tct.dsse.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.iris.overlay_product": {
+    "appName": "com.tct.iris.overlay_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.node.resources": {
+    "appName": "com.tct.node.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.pcmode.resources": {
+    "appName": "com.tct.pcmode.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.reducesar": {
+    "appName": "com.tct.reducesar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.reducesar.rro_CE": {
+    "appName": "com.tct.reducesar.rro_CE",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.tcltheme.resources": {
+    "appName": "com.tct.tcltheme.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.widget.resources": {
+    "appName": "com.tct.widget.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tctApp.serviceEntitlement": {
+    "appName": "com.tctApp.serviceEntitlement",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.test.LTEfunctionality": {
     "appName": "com.test.LTEfunctionality",
     "userFacing": false,
@@ -51388,6 +52253,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -52137,6 +53007,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -53315,6 +54190,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -53815,6 +54695,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -54240,6 +55125,18 @@
       }
     ]
   },
+  "com.tct.contentcenter.hd": {
+    "appName": "Content centre",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.tmobile.dm.cm": {
     "appName": "Content Manager",
     "userFacing": false,
@@ -54611,6 +55508,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -55063,6 +55965,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -55433,6 +56340,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -56212,6 +57124,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -56521,6 +57438,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -56767,6 +57689,18 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.retaildemo": {
+    "appName": "Demo Mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       }
     ]
@@ -57149,6 +58083,18 @@
       }
     ]
   },
+  "android.autoinstalls.config.TCL.PAI": {
+    "appName": "Device configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "android.autoinstalls.config.oneplus": {
     "appName": "Device configuration",
     "userFacing": false,
@@ -57379,6 +58325,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -58463,6 +59414,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -59346,6 +60302,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -60018,6 +60979,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -60415,6 +61381,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -60808,6 +61779,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -61386,6 +62362,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -62269,6 +63250,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -63000,6 +63986,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -63896,6 +64887,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -63984,6 +64980,18 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      }
+    ]
+  },
+  "com.tct.phone": {
+    "appName": "Enhanced Phone Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -64713,6 +65721,18 @@
       }
     ]
   },
+  "com.tcl.miracast": {
+    "appName": "Extend mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.externalstorage": {
     "appName": "External Storage",
     "userFacing": false,
@@ -64931,6 +65951,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -65169,6 +66194,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.tcl.healthcare": {
+    "appName": "Eye care",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -66503,6 +67540,18 @@
       }
     ]
   },
+  "com.tct.aio": {
+    "appName": "FCM Config Agent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.idea.questionnaire": {
     "appName": "Feedback",
     "userFacing": false,
@@ -66852,6 +67901,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -67205,6 +68259,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -68265,6 +69324,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -68657,6 +69721,18 @@
       }
     ]
   },
+  "com.android.mmifm": {
+    "appName": "FM Radio_wrh",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.motorola.android.fmradio": {
     "appName": "FMRadioService",
     "userFacing": false,
@@ -68934,6 +70010,18 @@
       }
     ]
   },
+  "com.tct.freeform.resources": {
+    "appName": "Freeform",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "net.fetnet.fetvod": {
     "appName": "friDay Video",
     "userFacing": false,
@@ -69019,6 +70107,18 @@
       {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.secretCode": {
+    "appName": "FunctionSys",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       }
     ]
@@ -69233,6 +70333,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -71538,6 +72643,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -71648,6 +72758,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.tct.gdpr": {
+    "appName": "GDPR",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -71859,6 +72981,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -72278,6 +73405,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -72662,6 +73794,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -72901,6 +74038,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -73383,6 +74525,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -73800,6 +74947,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -74564,6 +75716,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -74953,6 +76110,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -75322,6 +76484,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -75863,6 +77030,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -76483,6 +77655,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -76853,6 +78030,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -77307,6 +78489,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -77733,9 +78920,14 @@
   },
   "com.google.android.apps.walletnfcrel": {
     "appName": "Google Wallet",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -77916,6 +79108,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -78939,6 +80136,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -79966,6 +81168,18 @@
       }
     ]
   },
+  "com.google.android.apps.chromecast.app": {
+    "appName": "Home",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.protips": {
     "appName": "Home screen tips",
     "userFacing": false,
@@ -80462,6 +81676,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -81795,6 +83014,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -82244,6 +83468,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -83184,6 +84413,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -83484,7 +84718,7 @@
   },
   "com.google.android.apps.kids.home": {
     "appName": "Kids Space",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -83501,6 +84735,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -85146,6 +86385,18 @@
       }
     ]
   },
+  "com.tcl.android.launcher": {
+    "appName": "Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.crosscall.ldu": {
     "appName": "LDU Configuration",
     "userFacing": false,
@@ -86282,6 +87533,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -86632,6 +87888,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -86962,6 +88223,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -87533,6 +88799,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -87842,6 +89113,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -88283,6 +89559,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -88664,6 +89945,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -89511,6 +90797,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -90018,6 +91309,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -90482,6 +91778,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -90751,6 +92052,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -90908,6 +92214,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -91058,6 +92369,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -91616,6 +92932,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -91755,6 +93076,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.android.mmitest": {
+    "appName": "MMITest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -91968,6 +93301,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -93715,6 +95053,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -94197,6 +95540,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -94760,6 +96108,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -96029,6 +97382,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -96617,6 +97975,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -96861,6 +98224,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -96948,6 +98316,18 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      }
+    ]
+  },
+  "com.tct.news.hd": {
+    "appName": "News",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -97711,6 +99091,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -98302,6 +99687,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -98489,6 +99879,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.tct.smart.nps": {
+    "appName": "NPS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -98742,9 +100144,26 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.tct.nxtvision_ui": {
+    "appName": "NXTVISION",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -100934,6 +102353,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -101031,6 +102455,18 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.otaprovisioningclient": {
+    "appName": "OTA Access Point Configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -101335,6 +102771,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -101734,6 +103175,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -102784,6 +104230,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -104471,6 +105922,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -104899,6 +106355,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -105313,6 +106774,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -106258,6 +107724,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -106550,6 +108021,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -108181,6 +109657,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -108579,6 +110060,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -108903,6 +110389,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -109407,6 +110898,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -109841,6 +111337,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -111719,6 +113220,18 @@
       }
     ]
   },
+  "com.jrdcom.Elabel": {
+    "appName": "Regulatory & safety",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.app.reminder": {
     "appName": "Reminder",
     "userFacing": true,
@@ -111923,6 +113436,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -112446,6 +113964,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -120090,6 +121613,18 @@
       }
     ]
   },
+  "com.tct.smart.miracastcontrol": {
+    "appName": "Screen cast",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.coloros.colordirectservice": {
     "appName": "Screen Recognition",
     "userFacing": false,
@@ -120098,6 +121633,18 @@
       {
         "make": "OnePlus",
         "model": "CPH2465",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.screenrecorder": {
+    "appName": "Screen Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       }
     ]
@@ -120463,6 +122010,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -121451,6 +123003,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -123267,6 +124824,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -123528,6 +125090,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.tcl.tctapn": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -123843,6 +125417,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -124070,6 +125649,18 @@
       }
     ]
   },
+  "com.tcl.providers.config": {
+    "appName": "Settings Storage",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.settings.intelligence": {
     "appName": "Settings Suggestions",
     "userFacing": false,
@@ -124232,6 +125823,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -124618,6 +126214,18 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.tct.setupwizard": {
+    "appName": "Setup Wizard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -125074,6 +126682,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -125797,6 +127410,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -126463,6 +128081,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -127596,6 +129219,18 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.onetouchbooster": {
+    "appName": "Smart Manager",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       }
     ]
@@ -129998,6 +131633,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -130506,6 +132146,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -131258,6 +132903,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -131763,6 +133413,18 @@
       }
     ]
   },
+  "com.tcl.usercare": {
+    "appName": "Support Centre",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.mainline.telemetry": {
     "appName": "Support components",
     "userFacing": false,
@@ -131921,6 +133583,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -132326,6 +133993,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -132428,6 +134100,18 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      }
+    ]
+  },
+  "com.tct.smart.switchphone": {
+    "appName": "Switch Tablet",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -132689,6 +134373,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -133302,6 +134991,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -133740,6 +135434,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -134137,6 +135836,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -134442,6 +136146,18 @@
       }
     ]
   },
+  "com.tcl.fota.system": {
+    "appName": "System Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.jren.update": {
     "appName": "System Update",
     "userFacing": false,
@@ -134582,6 +136298,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -135151,6 +136872,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -135292,6 +137018,18 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      }
+    ]
+  },
+  "com.tct.smart.stylus": {
+    "appName": "T-Pen",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -135697,6 +137435,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -136124,6 +137867,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -136528,6 +138276,66 @@
       }
     ]
   },
+  "com.tcl.systemui.op": {
+    "appName": "TclSystemUIOp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.ttvs": {
+    "appName": "TCSCore",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.aio.resources": {
+    "appName": "Tct Component Aio",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.heraeye.resources": {
+    "appName": "Tct Component Heraeye",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tct.systemservice": {
+    "appName": "TctSystemService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.theme.icon.teardrop": {
     "appName": "Teardrop",
     "userFacing": false,
@@ -136718,6 +138526,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.tct.telephony.resources": {
+    "appName": "Telephony resource",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -136957,6 +138777,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -137426,6 +139251,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -137481,6 +139311,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -137613,6 +139448,30 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.tcl.guard": {
+    "appName": "TGuard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
+  "com.tcl.themehelper": {
+    "appName": "Theme Helper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -137888,6 +139747,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.tcl.token": {
+    "appName": "Token",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
@@ -138392,6 +140263,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -138949,6 +140825,18 @@
       }
     ]
   },
+  "com.tct.smart.aota": {
+    "appName": "Updates",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "de.axelspringer.yana.zeropage": {
     "appName": "upday",
     "userFacing": false,
@@ -139425,6 +141313,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -141614,6 +143507,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -141977,6 +143875,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -142741,6 +144644,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -144328,6 +146236,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -144556,6 +146469,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -145200,6 +147118,11 @@
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
         "os": "34"
       },
       {
@@ -146177,6 +148100,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
@@ -146574,13 +148502,18 @@
   },
   "com.google.android.apps.youtube.kids": {
     "appName": "YT Kids",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
       }
     ]
   },
