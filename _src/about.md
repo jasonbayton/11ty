@@ -7,23 +7,21 @@ excerpt: ''
 type: page
 layout: base.njk
 ---
-_Interested in what I'm up to right now? [Check out my Now page](/now)._
-
 ## Hi 👋 I’m Jason
 
 If you've stumbled here from the wider internet you may know me for my ramblings about Android and enterprise, but since you've landed here let's dive a little deeper!
 
-I come from an industrial city in Wales and live here with my other half and son. I've been here most of my life, but have spent time living abroad also. When I'm not waffling on about Android I enjoy cycling the Welsh hills, learning how to snowboard, and flying my drones. I do play lower brass also - Tuba and Bass Trombone - but haven't made a lot of time for that in recent years.
+I'm based in Newport, Wales and live here with my other half and son. I've been here most of my life, but have spent time living abroad also. When I'm not waffling on about Android I enjoy cycling the Welsh hills, learning how to snowboard, and flying my drones. I do play lower brass also - Tuba and Bass Trombone - but haven't made a lot of time for that in recent years.
 
 I also enjoy writing reviews & guides, building websites [like this one](https://github.com/jasonbayton/11ty), and keeping tabs on new and upcoming tech. 
 
 ## I’m a certified Android SME and product guy.
 
-I spend my time working on interesting products and services for the Android ecosystem. I like solving existing problems, and finding opportunities to preempt others through product development & innovation.
+I spend my time working on interesting products and services for the Android ecosystem. I enjoy solving existing problems, and finding opportunities to pre-empt others through product development & innovation.
 
-Despite supporting iOS and Windows for years, my subject matter expertise and *passion* resides with Android; I’ve been an Android user since the first HTC G1 (Dream) hit the shelves back in 2008 and have never looked back. It was inevitable that I’d carry the interest and enthusiasm towards the platform into the enterprise space. Today, I specialise in Android management both for [device administrator](/docs/enterprise-mobility/android/android-enterprise-vs-device-administrator-legacy-enrolment/) and [Android Enterprise](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) deployments, while fully understanding where the platform excels and falls short. 
+Despite supporting iOS and Windows for years, my subject matter expertise and *passion* resides with Android; I’ve been an Android user since the first HTC G1 (Dream) hit the shelves back in 2008 and have never looked back. It was inevitable that I’d carry the interest and enthusiasm towards the platform into the enterprise space. Today, I specialise in Android management both for AOSP (Android Open Source Project) and [Android Enterprise](/docs/enterprise-mobility/android/what-is-android-enterprise-and-why-is-it-used/) deployments, while fully understanding where the platform excels and falls short. 
 
-Around 2016 I started my journey with Android Enterprise, and have worked immeasurably hard to become a recognised voice in the ecosystem today. More than just achieving Certified Android Enterprise accreditation, I'm also proud to have a fab relationship with Google and many Enterprise Mobility vendors in the ecosystem.
+Around 2016 I started my journey with Android Enterprise, and have worked immeasurably hard to become a recognised voice in the ecosystem today. More than just achieving the Certified Android Enterprise accreditation, I'm also proud to have a fab relationship with Google and many vendors in the ecosystem.
 
 I enjoy actively [exploring the limits](/docs/enterprise-mobility/android/android-enterprise-device-support/) of Android and EMM [management capabilities](/2017/08/mobileiron-supports-qr-provisioning-for-android-enterprise-work-managed-devices-this-is-how-i-found-it/) both within and outside of the traditional enterprise context. A lot of this exploration is [documented here](/android/) on the website, allowing me to maintain an objectivity on my own published material that isn’t always possible when publishing elsewhere.
 
