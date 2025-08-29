@@ -414,10 +414,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Eingabehilfe"
-      },
-      {
         "locale": "nl-nl",
         "name": "Toegankelijkheid"
       },
@@ -663,10 +659,6 @@
     "appName": "Ad Privacy",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Datenschutz bei Werbung"
-      },
       {
         "locale": "en-gb",
         "name": "Ad privacy"
@@ -1014,10 +1006,6 @@
     "appName": "Adapt sound",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Adapt Sound"
-      },
       {
         "locale": "de-de",
         "name": "Adapt Sound"
@@ -1498,10 +1486,6 @@
     "appName": "AI wallpaper",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "KI-Hintergrund"
-      },
       {
         "locale": "nl-nl",
         "name": "AI-achtergrond"
@@ -7572,7 +7556,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "App-Schutz"
+        "name": "Device security"
       },
       {
         "locale": "nl-nl",
@@ -7593,10 +7577,6 @@
       {
         "locale": "es-es",
         "name": "Protección de aplicaciones"
-      },
-      {
-        "locale": "",
-        "name": "Device security"
       }
     ],
     "devices": [
@@ -7770,10 +7750,6 @@
     "appName": "App update",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "App-Update"
-      },
       {
         "locale": "nl-nl",
         "name": "App-update"
@@ -8181,10 +8157,6 @@
     "appName": "Application recommendations",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Anwendungsempfehlungen"
-      },
       {
         "locale": "nl-nl",
         "name": "Aanbevelingen voor applicaties"
@@ -9587,10 +9559,6 @@
       {
         "locale": "es-es",
         "name": "Bloqueador automático"
-      },
-      {
-        "locale": "",
-        "name": "Automatische Sperre"
       }
     ],
     "devices": [
@@ -9762,10 +9730,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Automatisch zeichnen"
-      },
-      {
         "locale": "nl-nl",
         "name": "Automatisch schetsen"
       },
@@ -9924,10 +9888,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Auto-Hotspot"
-      },
-      {
         "locale": "nl-nl",
         "name": "Auto-hotspot"
       },
@@ -10085,10 +10045,6 @@
     "appName": "Autofill with Samsung Pass",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Formulare von Samsung Pass ausfüllen lassen"
-      },
       {
         "locale": "nl-nl",
         "name": "Aanvullen met Samsung Pass"
@@ -10252,10 +10208,6 @@
       },
       {
         "locale": "de-de",
-        "name": "Automatische Bestätigung"
-      },
-      {
-        "locale": "",
         "name": "Automatische Bestätigung"
       }
     ],
@@ -10451,7 +10403,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Avatar-Editor"
+        "name": "AR Emoji Editor"
       },
       {
         "locale": "en-gb",
@@ -10699,10 +10651,6 @@
       {
         "locale": "es-es",
         "name": "Stickers AR Emoji"
-      },
-      {
-        "locale": "",
-        "name": "Avatar-Sticker"
       }
     ],
     "devices": [
@@ -11789,7 +11737,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Biometrische Daten"
+        "name": "com.samsung.android.biometrics.app.setting"
       },
       {
         "locale": "nl-nl",
@@ -11810,10 +11758,6 @@
       {
         "locale": "es-es",
         "name": "Datos biométricos"
-      },
-      {
-        "locale": "",
-        "name": "com.samsung.android.biometrics.app.setting"
       }
     ],
     "devices": [
@@ -15872,10 +15816,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Anruf"
-      },
-      {
         "locale": "nl-nl",
         "name": "Bellen"
       },
@@ -16038,10 +15978,6 @@
     "appName": "Call & text on other devices",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Anrufe/SMS auf anderen Geräten"
-      },
       {
         "locale": "nl-nl",
         "name": "Bel/sms op andere apparaten"
@@ -16627,10 +16563,6 @@
       {
         "locale": "de-de",
         "name": "Anrufdienste"
-      },
-      {
-        "locale": "",
-        "name": "Anrufdienste"
       }
     ],
     "devices": [
@@ -16740,10 +16672,6 @@
     "appName": "Call settings",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Anrufeinstellungen"
-      },
       {
         "locale": "nl-nl",
         "name": "Oproepinstellingen"
@@ -17225,10 +17153,6 @@
     "appName": "Camera",
     "userFacing": true,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Kamera"
-      },
       {
         "locale": "es-us",
         "name": "Cámara"
@@ -17764,10 +17688,6 @@
       },
       {
         "locale": "de-de",
-        "name": "Kamerafreigabe"
-      },
-      {
-        "locale": "",
         "name": "Kamerafreigabe"
       }
     ],
@@ -18422,10 +18342,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Anmeldung über Captive Portal"
-      },
-      {
         "locale": "en-gb",
         "name": "Captive portal login"
       },
@@ -18997,10 +18913,6 @@
     "appName": "Carrier Communications",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Kommunikation mit Mobilfunkanbieter"
-      },
       {
         "locale": "en-gb",
         "name": "Operator communications"
@@ -21960,10 +21872,6 @@
     "appName": "Clipboard edge",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Zwischenablage"
-      },
       {
         "locale": "nl-nl",
         "name": "Klembord-edge"
@@ -36770,6 +36678,10 @@
     "appName": "com.google.android.networkstack.tethering.overlay",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "TetheringResOverlay"
+      },
       {
         "locale": "ru-ru",
         "name": "TetheringResOverlay"
@@ -54464,10 +54376,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Konfigurationsnachricht"
-      },
-      {
         "locale": "nl-nl",
         "name": "Configuratiebericht"
       },
@@ -54611,10 +54519,6 @@
     "appName": "Configuration update",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Konfigurationsupdate"
-      },
       {
         "locale": "nl-nl",
         "name": "Configuratie-update"
@@ -55204,10 +55108,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Kontakte"
-      },
-      {
         "locale": "nl-nl",
         "name": "Contacten"
       },
@@ -55674,10 +55574,6 @@
     "appName": "Contacts Storage",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Kontaktspeicher"
-      },
       {
         "locale": "nl-nl",
         "name": "Opgeslagen contactpersonen"
@@ -57144,10 +57040,6 @@
         "name": "Credential manager"
       },
       {
-        "locale": "",
-        "name": "Anmeldedaten-Manager"
-      },
-      {
         "locale": "ru-ru",
         "name": "Менеджер учетных данных"
       },
@@ -57444,10 +57336,6 @@
     "appName": "Crocro and friends",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Crocro und Freunde"
-      },
       {
         "locale": "nl-nl",
         "name": "Crocro en vrienden"
@@ -57975,7 +57863,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Personalisierter Dienst"
+        "name": "Customisation Service"
       },
       {
         "locale": "en-gb",
@@ -59144,10 +59032,6 @@
     "appName": "Device care",
     "userFacing": true,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Gerätewartung"
-      },
       {
         "locale": "nl-nl",
         "name": "Apparaatonderhoud"
@@ -60398,10 +60282,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Gerätediagnose"
-      },
-      {
         "locale": "sv-se",
         "name": "Enhetsdiagnostik"
       },
@@ -61434,10 +61314,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Digitales Wohlbefinden"
-      },
-      {
         "locale": "nl-nl",
         "name": "Digitaal welzijn"
       },
@@ -62024,10 +61900,6 @@
       },
       {
         "locale": "de-de",
-        "name": "Dokumentenscanner"
-      },
-      {
-        "locale": "",
         "name": "Dokumentenscanner"
       }
     ],
@@ -63618,10 +63490,6 @@
       },
       {
         "locale": "de-de",
-        "name": "Zeichnungs-Assistent"
-      },
-      {
-        "locale": "",
         "name": "Zeichnungs-Assistent"
       }
     ],
@@ -65832,10 +65700,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Notfallfreigabe"
-      },
-      {
         "locale": "nl-nl",
         "name": "Delen in noodgeval"
       },
@@ -65979,10 +65843,6 @@
     "appName": "Emergency SOS",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Notfall-SOS"
-      },
       {
         "locale": "nl-nl",
         "name": "SOS noodgeval"
@@ -66548,6 +66408,10 @@
     "appName": "Enrollment Service",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Knox Enrollment Service"
+      },
       {
         "locale": "en-gb",
         "name": "Knox Enrollment Service"
@@ -67844,10 +67708,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Augenkomfort"
-      },
-      {
         "locale": "nl-nl",
         "name": "Comfortabel scherm voor uw ogen"
       },
@@ -69044,7 +68904,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Bevorzugte Kontakte"
+        "name": "Favourite Contacts"
       },
       {
         "locale": "en-gb",
@@ -69364,10 +69224,6 @@
     "appName": "Files",
     "userFacing": true,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Dateien"
-      },
       {
         "locale": "ru-ru",
         "name": "Файлы"
@@ -72242,10 +72098,6 @@
       {
         "locale": "es-es",
         "name": "AR Emoji"
-      },
-      {
-        "locale": "",
-        "name": "Galaxy-Avatar"
       }
     ],
     "devices": [
@@ -72654,10 +72506,6 @@
       {
         "locale": "es-es",
         "name": "Configuración de Servicio Galaxy"
-      },
-      {
-        "locale": "",
-        "name": "Galaxy-Dienst-Einrichtung"
       }
     ],
     "devices": [
@@ -73032,10 +72880,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Galaxy Themes-Dienst"
-      },
-      {
         "locale": "nl-nl",
         "name": "Service Galaxy Themes"
       },
@@ -73198,10 +73042,6 @@
     "appName": "Gallery",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Galerie"
-      },
       {
         "locale": "nl-nl",
         "name": "Galerij"
@@ -73379,10 +73219,6 @@
       {
         "locale": "es-es",
         "name": "Galería"
-      },
-      {
-        "locale": "",
-        "name": "Galerie"
       }
     ],
     "devices": [
@@ -73639,10 +73475,6 @@
     "appName": "Gallery stories",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Gallery-Storys"
-      },
       {
         "locale": "nl-nl",
         "name": "Galerijverhalen"
@@ -77037,10 +76869,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Google Kalender-Synchronisierung"
-      },
-      {
         "locale": "ru-ru",
         "name": "Синхронизация Google Календаря"
       },
@@ -77375,10 +77203,6 @@
     "appName": "Google Location History",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Google-Standortverlauf"
-      },
       {
         "locale": "ru-ru",
         "name": "История местоположений"
@@ -79752,10 +79576,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Google Sicherheitscenter-Ressourcen"
-      },
-      {
         "locale": "en-gb",
         "name": "Safety Center Resources"
       },
@@ -81397,10 +81217,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Gruppenfreigabe"
-      },
-      {
         "locale": "nl-nl",
         "name": "Delen in groep"
       },
@@ -81956,10 +81772,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Health Connect"
-      },
-      {
         "locale": "ru-ru",
         "name": "Здоровье и спорт"
       },
@@ -82341,6 +82153,10 @@
     "appName": "Hey Google Hotword",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Google Assistant"
+      },
       {
         "locale": "en-gb",
         "name": "Google Assistant"
@@ -85766,10 +85582,6 @@
       {
         "locale": "de-de",
         "name": "Dolmetscher"
-      },
-      {
-        "locale": "",
-        "name": "Dolmetscher"
       }
     ],
     "devices": [
@@ -88340,10 +88152,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Startprogramm"
-      },
-      {
         "locale": "it-it",
         "name": "Menu di avvio"
       },
@@ -88873,10 +88681,6 @@
       {
         "locale": "es-es",
         "name": "Enlace a Windows"
-      },
-      {
-        "locale": "",
-        "name": "Link zu Windows"
       }
     ],
     "devices": [
@@ -89016,10 +88820,6 @@
       },
       {
         "locale": "de-de",
-        "name": "Link zu Windows-Dienst"
-      },
-      {
-        "locale": "",
         "name": "Link zu Windows-Dienst"
       }
     ],
@@ -89223,7 +89023,7 @@
       },
       {
         "locale": "",
-        "name": "Automatische Transkription & Geräusch­­­­­benachrichtigungen"
+        "name": "Live Transcribe and Sound Notifications"
       },
       {
         "locale": "nl-nl",
@@ -90597,10 +90397,6 @@
       {
         "locale": "es-es",
         "name": "Lupa"
-      },
-      {
-        "locale": "",
-        "name": "Vergrößerung"
       }
     ],
     "devices": [
@@ -92817,10 +92613,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Media-Auswahl"
-      },
-      {
         "locale": "ru-ru",
         "name": "Инструмент выбора медиа"
       },
@@ -93358,6 +93150,10 @@
     "appName": "Meet",
     "userFacing": true,
     "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Duo"
+      },
       {
         "locale": "en-au",
         "name": "Duo"
@@ -95027,10 +94823,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Microsoft SwiftKey-Tastatur"
-      },
-      {
         "locale": "nl-nl",
         "name": "Microsoft SwiftKey-toetsenbord"
       },
@@ -96146,10 +95938,6 @@
       {
         "locale": "es-es",
         "name": "Modos y rutinas"
-      },
-      {
-        "locale": "",
-        "name": "Modi und Routinen"
       }
     ],
     "devices": [
@@ -97419,10 +97207,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "MTP-Anwendung"
-      },
-      {
         "locale": "nl-nl",
         "name": "MTP-applicatie"
       },
@@ -98021,10 +97805,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Mehrfachsteuerung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Multi-control"
       },
@@ -98537,10 +98317,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Eigene Dateien"
-      },
-      {
         "locale": "nl-nl",
         "name": "Mijn bestanden"
       },
@@ -98892,10 +98668,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Suche nach Geräten in der Nähe"
-      },
-      {
         "locale": "nl-nl",
         "name": "Apparaten in de buurt"
       },
@@ -99058,10 +98830,6 @@
     "appName": "Nearby device scanning",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Geräte in der Nähe suchen"
-      },
       {
         "locale": "nl-nl",
         "name": "Apparaten in de buurt"
@@ -99235,10 +99003,6 @@
       },
       {
         "locale": "de-de",
-        "name": "Geräte in der Nähe"
-      },
-      {
-        "locale": "",
         "name": "Geräte in der Nähe"
       }
     ],
@@ -99534,10 +99298,6 @@
     "appName": "Network manager",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Netzwerkmanager"
-      },
       {
         "locale": "ru-ru",
         "name": "Менеджер сетей"
@@ -99996,10 +99756,6 @@
       {
         "locale": "de-de",
         "name": "Netzentsperrung"
-      },
-      {
-        "locale": "",
-        "name": "Netzentsperrung"
       }
     ],
     "devices": [
@@ -100049,10 +99805,6 @@
     "appName": "NetworkDiagnostic",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Netzwerkdiagnose"
-      },
       {
         "locale": "nl-nl",
         "name": "Netwerkdiagnose"
@@ -102876,6 +102628,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Google Assistant"
+      },
+      {
         "locale": "en-gb",
         "name": "Google Assistant"
       },
@@ -103377,10 +103133,6 @@
     "appName": "One UI Home",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "One UI-Startbildschirm"
-      },
       {
         "locale": "nl-nl",
         "name": "Startpagina One UI"
@@ -105931,10 +105683,6 @@
       {
         "locale": "es-es",
         "name": "Controles parentales"
-      },
-      {
-        "locale": "",
-        "name": "Kindersicherungen"
       }
     ],
     "devices": [
@@ -106233,10 +105981,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Personen"
-      },
-      {
         "locale": "nl-nl",
         "name": "Personen"
       },
@@ -106524,10 +106268,6 @@
     "appName": "Permission controller",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Berechtigungssteuerung"
-      },
       {
         "locale": "ru-ru",
         "name": "Контролер разрешений"
@@ -106951,10 +106691,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Berechtigungsnutzung"
-      },
-      {
         "locale": "nl-nl",
         "name": "Gebruik machtigingen"
       },
@@ -107263,7 +106999,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Persönliche Daten-Intelligenz"
+        "name": "Smart suggestions"
       },
       {
         "locale": "en-gb",
@@ -107694,10 +107430,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Telefon"
-      },
-      {
         "locale": "nl-nl",
         "name": "Telefoon"
       },
@@ -107802,10 +107534,6 @@
     "appName": "Phone",
     "userFacing": true,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Telefon"
-      },
       {
         "locale": "nl-nl",
         "name": "Telefoon"
@@ -109632,10 +109360,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Foto-Editor"
-      },
-      {
         "locale": "nl-nl",
         "name": "Foto-editor"
       },
@@ -109798,10 +109522,6 @@
     "appName": "Photo Screensavers",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Foto-Bildschirmschoner"
-      },
       {
         "locale": "nl-nl",
         "name": "Fotoscreensavers"
@@ -110143,10 +109863,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Fotos"
-      },
-      {
         "locale": "ru-ru",
         "name": "Фото"
       },
@@ -110443,10 +110159,6 @@
       {
         "locale": "en-gb",
         "name": "Photos and videos"
-      },
-      {
-        "locale": "",
-        "name": "Fotos & Videos"
       },
       {
         "locale": "ru-ru",
@@ -111754,10 +111466,6 @@
     "appName": "Portrait",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Porträt"
-      },
       {
         "locale": "nl-nl",
         "name": "Portret"
@@ -113767,10 +113475,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Ausschnitt für Punch-Hole-Display"
-      },
-      {
         "locale": "en-gb",
         "name": "Punch hole cutout"
       },
@@ -115086,10 +114790,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Quick Share-Konnektivität"
-      },
-      {
         "locale": "nl-nl",
         "name": "Connectiviteit van Quick Share"
       },
@@ -115689,10 +115389,6 @@
       {
         "locale": "es-es",
         "name": "Aplicaciones recomendadas"
-      },
-      {
-        "locale": "",
-        "name": "Empfohlene Apps"
       }
     ],
     "devices": [
@@ -116842,10 +116538,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Fehler"
-      },
-      {
         "locale": "nl-nl",
         "name": "Fout"
       },
@@ -117566,10 +117258,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Sicherheitsinformationen"
-      },
-      {
         "locale": "nl-nl",
         "name": "Beveiligingsgegevens"
       },
@@ -117816,10 +117504,6 @@
     "appName": "Samsung account",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Samsung Account"
-      },
       {
         "locale": "de-de",
         "name": "Samsung Account"
@@ -118104,6 +117788,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "SecVideoEngineService"
+      },
+      {
         "locale": "en-gb",
         "name": "SecVideoEngineService"
       },
@@ -118258,10 +117946,6 @@
     "appName": "Samsung capture",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Smart-Aufnahme"
-      },
       {
         "locale": "nl-nl",
         "name": "Samsung vastleggen"
@@ -118710,6 +118394,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "Samsung Cloud Platform Manager"
+      },
+      {
         "locale": "es-us",
         "name": "Asistente de Samsung Cloud"
       },
@@ -118720,10 +118408,6 @@
       {
         "locale": "es-es",
         "name": "Asistente de Samsung Cloud"
-      },
-      {
-        "locale": "",
-        "name": "Samsung Cloud Platform Manager"
       }
     ],
     "devices": [
@@ -119225,10 +118909,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Samsung DeX Home"
-      },
-      {
         "locale": "nl-nl",
         "name": "Startscherm Samsung DeX"
       },
@@ -119422,10 +119102,6 @@
     "appName": "Samsung Editing Assets",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Samsung-Bearbeitungsressourcen"
-      },
       {
         "locale": "nl-nl",
         "name": "Samsung-bewerkhulpmiddelen"
@@ -119925,10 +119601,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Samsung-Tastatur"
-      },
-      {
         "locale": "nl-nl",
         "name": "Samsung Toetsenbord"
       },
@@ -120129,10 +119801,6 @@
       {
         "locale": "es-es",
         "name": "Instalador de Samsung Kids"
-      },
-      {
-        "locale": "",
-        "name": "Samsung Kids-Installationsprogramm"
       }
     ],
     "devices": [
@@ -120912,10 +120580,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Samsung Pay Framework"
-      },
-      {
         "locale": "en-nl",
         "name": "Samsung Pay Framework"
       },
@@ -121177,10 +120841,6 @@
     "appName": "Samsung setup wizard",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Samsung Einrichtungsassistent"
-      },
       {
         "locale": "nl-nl",
         "name": "Samsung Instelwizard"
@@ -121447,10 +121107,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Samsung Text-zu-Sprache-Engine"
-      },
-      {
         "locale": "nl-nl",
         "name": "Samsung tekst naar spraak-engine"
       },
@@ -121625,10 +121281,6 @@
     "appName": "Samsung USB-C headset",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Samsung USB-C-Headset"
-      },
       {
         "locale": "nl-nl",
         "name": "Samsung USB-C-headset"
@@ -124847,10 +124499,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Suchmaschinenauswahl"
-      },
-      {
         "locale": "en-gb",
         "name": "Search engine selector"
       },
@@ -125460,10 +125108,6 @@
       {
         "locale": "es-es",
         "name": "Carpeta segura"
-      },
-      {
-        "locale": "",
-        "name": "Sicherer Ordner"
       }
     ],
     "devices": [
@@ -125698,10 +125342,6 @@
       {
         "locale": "es-es",
         "name": "Wi-Fi segura"
-      },
-      {
-        "locale": "",
-        "name": "Sicheres WLAN"
       }
     ],
     "devices": [
@@ -126722,10 +126362,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Separater App-Ton"
-      },
-      {
         "locale": "nl-nl",
         "name": "Afzonderlijk app-geluid"
       },
@@ -127457,7 +127093,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Dienstanbieter­einrichtung"
+        "name": "Configuration update"
       },
       {
         "locale": "en-gb",
@@ -130894,7 +130530,7 @@
   },
   "com.android.stk2": {
     "appName": "SIM toolkit",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "en-gb",
@@ -130915,10 +130551,6 @@
       {
         "locale": "es-es",
         "name": "Kit herramientas SIM"
-      },
-      {
-        "locale": "",
-        "name": "SIM-Toolkit"
       }
     ],
     "devices": [
@@ -131696,10 +131328,6 @@
     "appName": "Single take",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Single Take"
-      },
       {
         "locale": "it-it",
         "name": "Scatto singolo"
@@ -133534,6 +133162,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "",
+        "name": "SmartThings Framework"
+      },
+      {
         "locale": "en-gb",
         "name": "SmartThings Framework"
       },
@@ -133699,10 +133331,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Software-Update"
-      },
-      {
         "locale": "nl-nl",
         "name": "Softwareupdate"
       },
@@ -133865,10 +133493,6 @@
     "appName": "Software update",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Software-Update"
-      },
       {
         "locale": "nl-nl",
         "name": "Softwareupdate"
@@ -134397,10 +134021,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Sound-Auswahl"
-      },
-      {
         "locale": "nl-nl",
         "name": "Geluid selecteren"
       },
@@ -134563,10 +134183,6 @@
     "appName": "Sound quality and effects",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Tonqualität und Effekte"
-      },
       {
         "locale": "nl-nl",
         "name": "Geluidskwaliteit en -effecten"
@@ -136418,10 +136034,6 @@
       {
         "locale": "de-de",
         "name": "Speicherfreigabe"
-      },
-      {
-        "locale": "",
-        "name": "Speicherfreigabe"
       }
     ],
     "devices": [
@@ -137537,10 +137149,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Systemverbindungsressourcen"
-      },
-      {
         "locale": "en-gb",
         "name": "System connectivity resources"
       },
@@ -138176,7 +137784,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Jugendschutzeinstellungen"
+        "name": "Family Link parental controls"
       },
       {
         "locale": "ru-ru",
@@ -138205,10 +137813,6 @@
       {
         "locale": "es-es",
         "name": "Controles parentales de Family Link"
-      },
-      {
-        "locale": "",
-        "name": "Family Link parental controls"
       }
     ],
     "devices": [
@@ -139930,10 +139534,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "System-WLAN-Ressourcen"
-      },
-      {
         "locale": "en-gb",
         "name": "System Wi-Fi resources"
       },
@@ -141543,10 +141143,6 @@
     "appName": "Tasks",
     "userFacing": true,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Tätigkeiten"
-      },
       {
         "locale": "nl-nl",
         "name": "Taken"
@@ -145862,7 +145458,7 @@
     "additionalLocales": [
       {
         "locale": "",
-        "name": "Videoeffekte"
+        "name": "Video call effects"
       },
       {
         "locale": "en-gb",
@@ -146002,10 +145598,6 @@
     "appName": "Video Player",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Video-Player"
-      },
       {
         "locale": "nl-nl",
         "name": "Videospeler"
@@ -146546,10 +146138,6 @@
       },
       {
         "locale": "de-de",
-        "name": "Mit Sprache wecken"
-      },
-      {
-        "locale": "",
         "name": "Mit Sprache wecken"
       }
     ],
@@ -147504,10 +147092,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "Hintergrundbild und Stil"
-      },
-      {
         "locale": "nl-nl",
         "name": "Achtergrond en stijl"
       },
@@ -147665,10 +147249,6 @@
     "appName": "Wallpaper services",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Hintergrundbilddienste"
-      },
       {
         "locale": "nl-nl",
         "name": "Achtergrondservices"
@@ -148065,10 +147645,6 @@
     "appName": "Waterfall cutout",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Aussparung für Wasserfall-Display"
-      },
       {
         "locale": "ru-ru",
         "name": "Вырез на экране Waterfall"
@@ -148744,10 +148320,6 @@
       {
         "locale": "es-es",
         "name": "Tiempo"
-      },
-      {
-        "locale": "",
-        "name": "Wetter"
       }
     ],
     "devices": [
@@ -149228,10 +148800,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "WLAN-Anrufe"
-      },
-      {
         "locale": "nl-nl",
         "name": "Bellen via Wi-Fi"
       },
@@ -149446,10 +149014,6 @@
     "appName": "Wi-Fi tips",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "WLAN-Tipps"
-      },
       {
         "locale": "nl-nl",
         "name": "Tips voor Wi-Fi"
@@ -149924,10 +149488,6 @@
     "appName": "Wireless emergency alerts",
     "userFacing": false,
     "additionalLocales": [
-      {
-        "locale": "",
-        "name": "Notfallbenachrichtigungen an Mobilgeräte"
-      },
       {
         "locale": "ru-ru",
         "name": "Экстренные оповещения по беспроводным сетям"
