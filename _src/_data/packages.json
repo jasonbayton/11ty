@@ -34761,6 +34761,38 @@
       }
     ]
   },
+  "com.google.android.apps.adm": {
+    "appName": "com.google.android.apps.adm",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Find Hub"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.apps.cbrsnetworkmonitor": {
     "appName": "com.google.android.apps.cbrsnetworkmonitor",
     "userFacing": false,
@@ -70818,33 +70850,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.google.android.apps.adm": {
-    "appName": "Find Hub",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "34"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "TCL",
-        "model": "9491G",
-        "os": "34"
       }
     ]
   },
