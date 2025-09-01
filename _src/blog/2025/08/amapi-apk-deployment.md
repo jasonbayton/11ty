@@ -16,7 +16,7 @@ The content below is very much a stream of consciousness in some places, and wil
 
 </div>
 
-With the release of AMAPI SDK 1.6.0-rc01, Google has introduced long-awaited support for direct APK installation via the Android Management API (AMAPI). This new capability allows EMM solutions leveraging Google's Android Device Policy (ADP) to install and update apps on managed devices without relying on Google Play or other third-party mechanisms.
+With the release of [AMAPI SDK 1.6.0-rc01](https://developers.google.com/android/management/sdk-release-notes), Google has introduced long-awaited support for direct APK installation via the Android Management API (AMAPI). This new capability allows EMM solutions leveraging Google's Android Device Policy (ADP) to install and update apps on managed devices without relying on Google Play or other third-party mechanisms.
 
 Up to now, direct APK deployment was only possible through custom DPCs*, giving more mature EMM vendors graced with the permission to use them a significant advantage in scenarios where Play distribution was impractical or unavailable. Now, with native package manager support in AMAPI, organisations can streamline app delivery, enforce version control, and maintain security standards - all within the AMAPI framework.
 
@@ -251,7 +251,7 @@ When a package is pulled down and passes known verifications, it remains cached 
 
 ## Testing the app yourself
 
-MANAGED INFO version 1.0.8.1 is rolling out on Google Play at the time of writing. Once available, it'll be possible to replicate everything described above in other AMAPI environments.
+[MANAGED INFO version 1.0.8.1](https://play.google.com/store/apps/details?id=org.bayton.managedinfo) is rolling out on Google Play at the time of writing. Once available, it'll be possible to replicate everything described above in other AMAPI environments.
 
 I'd welcome feedback, both on the experience, and the design choices/implementation. How would you handle it differently for your project/product? 
 
