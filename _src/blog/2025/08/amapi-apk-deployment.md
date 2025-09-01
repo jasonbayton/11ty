@@ -253,4 +253,6 @@ When a package is pulled down and passes known verifications, it remains cached 
 
 MANAGED INFO version 1.0.8.1 is rolling out on Google Play at the time of writing. Once available, it'll be possible to replicate everything described above in other AMAPI environments.
 
-I'd welcome feedback, and if this is something you'd like to see in your own platform, get in touch to discuss :) 
+I'd welcome feedback, both on the experience, and the design choices/implementation. How would you handle it differently for your project/product? 
+
+Finally, if this is something you'd like to see in your own platform, get in touch to discuss 😁
