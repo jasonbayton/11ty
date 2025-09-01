@@ -87,7 +87,7 @@ The managed configuration consists of 5 keys:
 
 **Package name** is clear. Without that things would be difficult to manage.  
 **Version code** is used for update management. Every time the worker runs, it will validate the version code of the application installed, compare it with the APK, and if the APK is newer, it'll push an update. It is also used to validate the APK cached is most-recent, and re-downloads the file if not. This is a backup for when file hashes aren't defined.  
-**Download URL** is again clear. Remote location from which to fetch the file.
+**Download URL** is again clear. Remote location from which to fetch the file.  
 **Package Admin SHA** is a base 64 validation of the admin certificate SHA256. It is used to validate the downloaded package matches expectations. AMAPI also validates this before installing the APK with the same input used in the AMAPI policy.  
 **Package hash** same as above, if this is configured, MANAGED INFO will validate the hash of the file matches that provided in the managed configuration. It'll do this on download, before passing to AMAPI, and before downloading a new copy of the package from the remote source to avoid data use.
 
