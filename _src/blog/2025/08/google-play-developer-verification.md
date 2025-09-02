@@ -9,9 +9,11 @@
      - Enterprise
 ---
 
-Google's August 2025 announcement of developer verification has shaken the Android community. 
+Google's August 2025 announcement of developer verification has caught quite a bit of attention in the Android community. Why?
 
-From September 2026, all apps installed on certified Android devices will have to come from a verified developer in several regions, with a global rollout the following year. Google frames the move as an “ID check at the airport”, it will confirm developer details at install time in an attempt to avoid fraudulent copies of a legitimate app from being installed, and it will also make it much harder for bad actors to disappear and re-emerge under a new name. As someone who spends a lot of time working at the intersection of product management and engineering across the enterprise ecosystem, here's my take on why this matters and what it means for consumers, developers and organisations.
+From September 2026, all apps installed on certified Android devices will have to come from a verified developer across several regions, with a global rollout the following year. Google frames the change as implementing an “ID check at the airport”, it will confirm developer details at install time in an attempt to avoid fraudulent copies of a legitimate app from being installed, and it will also make it much harder for bad actors to disappear and re-emerge under a new name.
+
+As someone who spends a lot of time working at the intersection of product management and engineering across the enterprise ecosystem, here's my take on why this matters and what it means for consumers, developers and organisations.
 
 ## Why Google introduced verification
 
