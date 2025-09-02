@@ -86,7 +86,7 @@ As these things tend to be, it's is a classic trade-off: an increase in friction
 | Verification opens          | Mar 2026              | Verification opens for all developers.                      |
 | Enforcement begins          | Sep 2026              | Requirements go into effect in Brazil, Indonesia, Singapore, and Thailand. At this point, any app installed on a certified Android device in these regions must be registered by a verified developer. |
 | Global rollout              | 2027 & beyond         | Requirements roll out globally.   |
-| Enterprise extension        | To Sep 2027           | Fully managed & Work Profile devices temporarily exempt from installing unvalidated developer applications via Google Play |
+| Enterprise extension        | To Sep 2027           | Fully managed & Work Profile devices temporarily exempt from installing unverified developer applications via Google Play |
 | DPC & private app exemption | Indefinite            | Apps installed via EMM DPC or Managed Google Play never require verification                    |
 
 ## Frequently Asked Questions (FAQ)
