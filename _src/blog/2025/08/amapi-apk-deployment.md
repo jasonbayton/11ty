@@ -24,6 +24,15 @@ Up to now, direct APK deployment was only possible through custom DPCs*, giving 
 
 This update marks a major shift in how private apps (as in, _truly private_ apps) are managed on Android Enterprise devices, levelling the playing field for AMAPI EMM vendors and simplifying workflows for IT admins. The following article details how this new feature works in practice (or, rather, how I chose to implement it) and how you can leverage it for robust, reliable app deployment.
 
+<div class="callout">
+<div class="callout-heading callout-heading-small">APK installation and developer verification requirements</div>
+
+The timing of this feature is uncanny as we have recently equally grappled with the notion of all applications from next year requiring developer verification. 
+
+I've penned a whole article [here](/blog/2025/08/google-play-developer-verification/), but in a nutshell.. DPC-installed applications are exempt!
+
+</div>
+
 ## Setting the environment
 
 APK deployment is enabled through the AMAPI SDK, a library Android applications can import in order to communicate with Android Device Policy locally on-device, and benefits from support for commands, some administrative delegation (managed config management!), and so forth. 
@@ -189,7 +198,7 @@ If there are no packages defined, everything stops there, the worker will also d
 
 ### Step 2: Figure out, and filter out, packages to process
 
-![Decision tree](https://cdn.bayton.org/uploads/2025/decision_tree.png)
+![Decision tree](https://cdn.bayton.org/uploads/2025/managed-install-flow.png)
 
 The goal here is not to unnecessarily undertake actions when there's no justification for it, so the worker only hits the network when it's deemed necessary.
 
