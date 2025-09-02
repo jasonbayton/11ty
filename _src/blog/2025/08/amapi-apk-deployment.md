@@ -390,7 +390,7 @@ When a package is pulled down and passes known verifications, it remains cached 
 }
 ```
 
-Alternatively, scan this QR code to immediately enrol into my test environment:
+Alternatively, scan this QR code to immediately enrol into my test environment (factory reset is permitted):
 
 ![APK install policy demo QR code](https://cdn.bayton.org/uploads/2025/apk_installer_policy_demo.png)
 
