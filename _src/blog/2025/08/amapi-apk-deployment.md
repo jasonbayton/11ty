@@ -377,7 +377,7 @@ When a package is pulled down and passes known verifications, it remains cached 
                 "packageName": "org.bayton.managedinfo"
             },
             "title": {
-                "defaultMessage": "Launch Managed Info"
+                "defaultMessage": "Launch MANAGED INFO"
             },
             "description": {
                 "defaultMessage": "For new enrolments, this ensures MI is launched as soon as possible in order to fetch and install defined APKs"
