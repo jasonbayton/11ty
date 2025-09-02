@@ -144,6 +144,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -677,12 +682,12 @@
         "name": "Advertentieprivacy"
       },
       {
-        "locale": "en-nl",
-        "name": "Ad privacy"
-      },
-      {
         "locale": "es-us",
         "name": "Privacidad en los anuncios"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Ad privacy"
       },
       {
         "locale": "sv-se",
@@ -784,6 +789,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -1209,12 +1219,22 @@
   "com.motorola.dynamicvolume": {
     "appName": "Adaptive volume",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Volumen adaptable"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -2056,6 +2076,10 @@
         "name": "Специальные возможности"
       },
       {
+        "locale": "es-us",
+        "name": "Suite de Accesibilidad Android"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android Toegankelijkheidstools"
       },
@@ -2128,6 +2152,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -2390,6 +2419,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -2777,6 +2811,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -3203,6 +3242,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -3638,6 +3682,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -4028,6 +4077,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -4447,6 +4501,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -4856,6 +4915,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -5314,6 +5378,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -5659,6 +5728,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -6201,6 +6275,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -6466,6 +6545,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -7447,6 +7531,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -7462,6 +7551,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -8120,6 +8214,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -8434,6 +8533,18 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      }
+    ]
+  },
+  "com.dti.amx": {
+    "appName": "Apps",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       }
     ]
   },
@@ -8929,7 +9040,12 @@
   "com.google.android.apps.googleassistant": {
     "appName": "Assistant",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Asistente"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
@@ -8945,6 +9061,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -9255,12 +9376,22 @@
   "com.motorola.att.phone.extensions": {
     "appName": "ATT Phone Extension",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Extensión telefónica ATT"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -11265,6 +11396,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -11580,12 +11716,22 @@
   "com.motorola.batterycare": {
     "appName": "Battery care",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Cuidado de la batería"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -12559,6 +12705,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -13022,12 +13173,22 @@
   "com.bluetooth.aptxmode": {
     "appName": "Bluetooth audio",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Audio Bluetooth"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -13087,15 +13248,15 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "es-us",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "en",
         "name": "Bluetooth"
       },
       {
         "locale": "en-nl",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "es-us",
         "name": "Bluetooth"
       },
       {
@@ -13242,6 +13403,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -13634,6 +13800,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -14060,6 +14231,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -14724,6 +14900,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -14835,6 +15016,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Calculadora"
+      },
+      {
         "locale": "nl-nl",
         "name": "Rekenmachine"
       },
@@ -14883,6 +15068,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -15082,6 +15272,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Calendario"
+      },
+      {
         "locale": "nl-nl",
         "name": "Agenda"
       },
@@ -15150,6 +15344,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -15460,12 +15659,12 @@
         "name": "Agenda opslaan"
       },
       {
-        "locale": "en-nl",
-        "name": "Calendar storage"
-      },
-      {
         "locale": "es-us",
         "name": "Almacenamiento de calendario"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Calendar storage"
       },
       {
         "locale": "sv-se",
@@ -15607,6 +15806,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -16356,6 +16560,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -17563,12 +17772,22 @@
   "com.motorola.camera3": {
     "appName": "Camera",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Cámara"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -17899,8 +18118,18 @@
   "com.motorola.imagertuning_u": {
     "appName": "Camera Tuner",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Optimizador de cámara"
+      }
+    ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "motorola",
         "model": "moto g85 5G",
@@ -18043,6 +18272,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -18474,16 +18708,16 @@
         "name": "Inloggen via captive portal"
       },
       {
+        "locale": "es-us",
+        "name": "Acceso a portal cautivo"
+      },
+      {
         "locale": "en",
         "name": "CaptivePortalLogin"
       },
       {
         "locale": "en-nl",
         "name": "Captive portal login"
-      },
-      {
-        "locale": "es-us",
-        "name": "Acceso a portal cautivo"
       },
       {
         "locale": "sv-se",
@@ -18606,6 +18840,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19059,16 +19298,16 @@
         "name": "CarrierDefaultApp"
       },
       {
+        "locale": "es-us",
+        "name": "Comunicaciones de operadores"
+      },
+      {
         "locale": "en",
         "name": "CarrierDefaultApp"
       },
       {
         "locale": "en-nl",
         "name": "Operator communications"
-      },
-      {
-        "locale": "es-us",
-        "name": "Comunicaciones de operadores"
       },
       {
         "locale": "en-sg",
@@ -19195,6 +19434,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -19703,12 +19947,22 @@
   "com.motorola.omadm.service": {
     "appName": "Carrier Provisioning Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Servicio de aprovisionamiento de operador"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -19807,12 +20061,22 @@
   "com.motorola.carrierconfig": {
     "appName": "Carrier Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Servicios del operador"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -19850,6 +20114,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -19950,6 +20219,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Configuración del proveedor"
+      },
+      {
         "locale": "en-gb",
         "name": "Operator setup"
       },
@@ -19982,6 +20255,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -20248,6 +20526,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -20577,12 +20860,12 @@
         "name": "Certificaat installeren"
       },
       {
-        "locale": "en-nl",
-        "name": "Certificate installer"
-      },
-      {
         "locale": "es-us",
         "name": "Instalador de certificados"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Certificate installer"
       },
       {
         "locale": "sv-se",
@@ -20716,6 +20999,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -21193,6 +21481,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -21990,6 +22283,18 @@
       }
     ]
   },
+  "com.claroColombia.contenedor": {
+    "appName": "Claro",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      }
+    ]
+  },
   "com.oplus.keyguard.clock.base": {
     "appName": "Classic",
     "userFacing": false,
@@ -22255,6 +22560,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Reloj"
+      },
+      {
         "locale": "nl-nl",
         "name": "Klok"
       },
@@ -22318,6 +22627,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -22954,6 +23268,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -23247,6 +23566,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -23758,6 +24082,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -24199,6 +24528,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -24283,6 +24617,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -24566,6 +24905,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -24958,6 +25302,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -25355,6 +25704,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -26043,6 +26397,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -26297,6 +26656,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26915,6 +27279,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -27284,6 +27653,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -28136,6 +28510,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -28164,6 +28543,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -28244,6 +28628,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -28548,6 +28937,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -28996,6 +29390,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -29375,6 +29774,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -29786,6 +30190,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -30362,6 +30771,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -30975,6 +31389,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -31499,6 +31918,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -31758,6 +32182,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -31858,6 +32287,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -32732,6 +33166,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
@@ -33111,6 +33550,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -33401,6 +33845,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -33773,6 +34222,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -34518,6 +34972,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -34663,6 +35122,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -35283,6 +35747,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -35922,6 +36391,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -36520,6 +36994,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -37548,6 +38027,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -37847,6 +38331,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -38094,6 +38583,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -38305,6 +38799,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -38601,6 +39100,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -38845,6 +39349,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -38990,6 +39499,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -39276,6 +39790,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -39694,6 +40213,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40247,6 +40771,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -40537,6 +41066,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40983,6 +41517,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -41292,6 +41831,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -41587,6 +42131,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -42513,6 +43062,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -42809,6 +43363,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -43532,6 +44091,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -45740,6 +46304,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -45803,12 +46372,29 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.coresettingsext.overlay.fogos": {
+    "appName": "com.motorola.android.coresettingsext.overlay.fogos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       }
     ]
@@ -45832,6 +46418,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -45846,6 +46437,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -45880,6 +46476,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -45929,6 +46530,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -45958,6 +46564,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -45980,6 +46591,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -45994,6 +46610,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46016,6 +46637,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46053,6 +46679,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -46072,6 +46703,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46097,6 +46733,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -46114,6 +46755,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46128,6 +46774,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46153,6 +46804,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -46172,6 +46828,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46197,12 +46858,29 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.android.providers.settings.overlay.batterycare.all": {
+    "appName": "com.motorola.android.providers.settings.overlay.batterycare.all",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       }
     ]
@@ -46216,6 +46894,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46238,6 +46921,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46309,6 +46997,18 @@
       }
     ]
   },
+  "com.motorola.android.settings.overlay.fps.side": {
+    "appName": "com.motorola.android.settings.overlay.fps.side",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      }
+    ]
+  },
   "com.motorola.android.settings.overlay.global": {
     "appName": "com.motorola.android.settings.overlay.global",
     "userFacing": false,
@@ -46318,6 +47018,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46355,6 +47060,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46384,6 +47094,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46401,6 +47116,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46415,6 +47135,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46440,6 +47165,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -46462,12 +47192,29 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.motorola.dynamicvolumeoverlay": {
+    "appName": "com.motorola.dynamicvolumeoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       }
     ]
@@ -46503,6 +47250,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46513,6 +47265,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "motorola",
         "model": "moto g85 5G",
@@ -46527,6 +47284,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46537,6 +47299,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "motorola",
         "model": "moto g85 5G",
@@ -46551,6 +47318,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46561,6 +47333,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "motorola",
         "model": "moto g85 5G",
@@ -46577,6 +47354,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46602,6 +47384,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -46621,6 +47408,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46658,6 +47450,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -46680,6 +47477,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46694,6 +47496,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46719,6 +47526,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -46738,6 +47550,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46947,6 +47764,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -46969,6 +47791,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -46983,6 +47810,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -47008,6 +47840,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -47027,6 +47864,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -47052,12 +47894,29 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.oem.euiccpartnerapp.overlay.switchable": {
+    "appName": "com.oem.euiccpartnerapp.overlay.switchable",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       }
     ]
@@ -47086,6 +47945,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -47103,6 +47967,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
       }
@@ -47117,6 +47986,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -47318,6 +48192,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -47437,6 +48316,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47496,6 +48380,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -47635,6 +48524,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47704,6 +48598,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -47808,6 +48707,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47902,6 +48806,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -47961,6 +48870,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -48287,6 +49201,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -48425,6 +49344,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -48502,6 +49426,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -48574,6 +49503,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -48643,6 +49577,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -48736,6 +49675,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -48800,6 +49744,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -52912,6 +53861,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -53729,6 +54683,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -54519,6 +55478,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -55687,6 +56651,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Contactos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Contacten"
       },
@@ -55745,6 +56713,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -56168,6 +57141,10 @@
         "name": "Хранилище контактов"
       },
       {
+        "locale": "es-us",
+        "name": "Almacenamiento para contactos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag contacten"
       },
@@ -56255,6 +57232,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -56971,12 +57953,12 @@
         "name": "Hoek-cutout"
       },
       {
-        "locale": "en",
-        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‏‎‎‎‎‏‎‏‏‏‎‏‎‎‏‏‏‏‎‎‏‏‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‎‏‏‏‎‎‏‎‏‎‏‎Corner cutout‎‏‎‎‏‎"
-      },
-      {
         "locale": "es-us",
         "name": "Corte de la esquina"
+      },
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‏‎‎‎‎‏‎‏‏‏‎‏‎‎‏‏‏‏‎‎‏‏‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‎‏‏‏‎‎‏‎‏‎‏‎Corner cutout‎‏‎‎‏‎"
       },
       {
         "locale": "sv-se",
@@ -57095,6 +58077,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -57435,6 +58422,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -57570,6 +58562,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -57927,6 +58924,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Servicios multidispositivo"
+      },
+      {
         "locale": "en-gb",
         "name": "Cross-device services"
       },
@@ -57968,6 +58969,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -58914,12 +59920,12 @@
         "name": "Standaard afdrukservice"
       },
       {
-        "locale": "en-nl",
-        "name": "Default print service"
-      },
-      {
         "locale": "es-us",
         "name": "Servicio de impresión predeterminado"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Default print service"
       },
       {
         "locale": "sv-se",
@@ -59047,6 +60053,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -59347,6 +60358,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Modo de tienda"
+      },
+      {
         "locale": "en-gb",
         "name": "Retail mode"
       }
@@ -59356,6 +60371,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -59427,6 +60447,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -59649,6 +60674,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -59747,6 +60777,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -59994,6 +61029,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -60247,12 +61287,22 @@
   "com.motorola.genie": {
     "appName": "Device Help",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Ayuda del dispositivo"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -60335,12 +61385,22 @@
   "com.motorola.ccc.devicemanagement": {
     "appName": "Device Management",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Administración del dispositivo"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -61120,6 +62180,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -61922,6 +62987,10 @@
         "name": "Цифровое благополучие"
       },
       {
+        "locale": "es-us",
+        "name": "Bienestar digital"
+      },
+      {
         "locale": "nl-nl",
         "name": "Digitaal welzijn"
       },
@@ -62004,6 +63073,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -62455,6 +63529,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -62500,6 +63579,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -62564,12 +63648,12 @@
         "name": "Dubbele cutout"
       },
       {
-        "locale": "en",
-        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‎‏‎‎‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‎Double cutout‎‏‎‎‏‎"
-      },
-      {
         "locale": "es-us",
         "name": "Corte doble"
+      },
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‎‏‎‎‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‎Double cutout‎‏‎‎‏‎"
       },
       {
         "locale": "sv-se",
@@ -62688,6 +63772,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -63094,6 +64183,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -63514,6 +64608,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -64150,6 +65249,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -64843,6 +65947,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Ajustes de SIM dual"
+      },
+      {
         "locale": "en-gb",
         "name": "Dual SIM settings"
       }
@@ -64852,6 +65960,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -65045,6 +66158,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -65359,12 +66477,22 @@
   "com.motorola.easyprefix": {
     "appName": "Easy Prefix",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Prefijo fácil"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -65947,6 +67075,10 @@
         "name": "com.android.emergency"
       },
       {
+        "locale": "es-us",
+        "name": "com.android.emergency"
+      },
+      {
         "locale": "sv-se",
         "name": "com.android.emergency"
       },
@@ -66020,6 +67152,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -67074,6 +68211,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -67219,12 +68361,22 @@
   "com.motorola.entitlement": {
     "appName": "Entitlement",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Derecho"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -67665,6 +68817,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -67835,6 +68992,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -69379,6 +70541,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -69868,6 +71035,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -70207,6 +71379,10 @@
       {
         "locale": "ru-ru",
         "name": "Google Files"
+      },
+      {
+        "locale": "es-us",
+        "name": "Files de Google"
       }
     ],
     "devices": [
@@ -70259,6 +71435,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -71799,12 +72980,22 @@
   "com.motorola.android.fmradio": {
     "appName": "FMRadioService",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Servicio de radio FM"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -71851,6 +73042,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -72331,6 +73527,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -74519,12 +75720,22 @@
   "com.motorola.gamemode": {
     "appName": "Games",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Juegos"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -74736,6 +75947,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -75122,6 +76338,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -75565,6 +76786,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -75924,6 +77150,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -76226,6 +77457,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -76342,6 +77578,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Tutorial de navegación por gestos"
+      },
+      {
         "locale": "en-gb",
         "name": "Gesture navigation tutorial"
       }
@@ -76351,6 +77591,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -76658,6 +77903,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -77108,6 +78358,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -77773,12 +79028,22 @@
   "com.motorola.launcherconfig": {
     "appName": "Google Launcher Config",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Configuración del iniciador de Google"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -77805,12 +79070,12 @@
         "name": "Locatiegeschiedenis van Google"
       },
       {
-        "locale": "en",
-        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‏‎‏‏‎‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‏‎‎‎‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‏‎‎‎‎Google Location History‎‏‎‎‏‎"
-      },
-      {
         "locale": "es-us",
         "name": "Historial de ubicaciones de Google"
+      },
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‏‎‏‏‎‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‏‎‎‎‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‏‎‎‎‎Google Location History‎‏‎‎‏‎"
       },
       {
         "locale": "sv-se",
@@ -77929,6 +79194,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -78313,6 +79583,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -78705,6 +79980,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -79272,6 +80552,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -79553,6 +80838,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "ARCore"
+      },
+      {
         "locale": "en",
         "name": "ARCore"
       },
@@ -79626,6 +80915,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -79911,6 +81205,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -80206,12 +81505,12 @@
         "name": "Google Veiligheidscentrum-bronnen"
       },
       {
-        "locale": "en-nl",
-        "name": "Google Safety Centre resources"
-      },
-      {
         "locale": "es-us",
         "name": "Recursos del Centro de seg. de Google"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Google Safety Centre resources"
       },
       {
         "locale": "sv-se",
@@ -80324,6 +81623,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -80781,6 +82085,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -81086,6 +82395,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Google TV"
+      },
+      {
         "locale": "en",
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‏‏‏‎‏‏‏‎‎‎‎‏‎‏‏‏‏‎‏‎‎‏‏‎‎‏‎‏‏‏‎‎‏‎‎‎‎‎‏‎‎‏‏‏‏‏‎‎‎‎‏‏‏‏‎‏‎‎Google Play Movies & TV‎‏‎‎‏‎"
       }
@@ -81150,6 +82463,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -81460,6 +82778,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -82497,6 +83820,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -82804,6 +84132,10 @@
         "name": "Google Assistant"
       },
       {
+        "locale": "es-us",
+        "name": "Asistente de Google"
+      },
+      {
         "locale": "en",
         "name": "Google Assistant"
       },
@@ -82876,6 +84208,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -83087,6 +84424,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -83101,6 +84443,10 @@
     "appName": "Hide",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Ocultar"
+      },
       {
         "locale": "en",
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‎‏‏‏‎‎‎‎‎‎‏‏‎‏‎‏‏‎‎‎‎‏‎‏‎‎‏‏‎‎‎‎‎‏‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‎‏‎‎Hide‎‏‎‎‏‎"
@@ -83120,6 +84466,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -83162,6 +84513,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -84045,6 +85401,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -85421,6 +86782,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -85938,6 +87304,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -86159,12 +87530,22 @@
   "com.motorola.livewallpaper3": {
     "appName": "Interactive wallpapers",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Fondos interactivos"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -86844,6 +88225,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -89298,6 +90684,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -89602,12 +90993,22 @@
   "com.taboola.mip": {
     "appName": "Live lock screen",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Pantalla de bloqueo activa"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -90028,6 +91429,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -90545,6 +91951,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -91363,6 +92774,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -91693,6 +93109,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -92128,6 +93549,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -92529,6 +93955,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -93304,12 +94735,12 @@
         "name": "Mediakiezer"
       },
       {
-        "locale": "en",
-        "name": "Media Storage"
-      },
-      {
         "locale": "es-us",
         "name": "Selector de medios"
+      },
+      {
+        "locale": "en",
+        "name": "Media Storage"
       },
       {
         "locale": "sv-se",
@@ -93427,6 +94858,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -93960,6 +95396,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -94442,6 +95883,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -94766,6 +96212,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -94928,6 +96379,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -95083,6 +96539,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -95964,6 +97425,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -96255,12 +97721,22 @@
   "com.inmobi.installer": {
     "appName": "Mobile Applications Manager",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Gestor de aplicaciones móviles"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -96295,6 +97771,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -96574,6 +98055,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -96999,6 +98485,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -97026,6 +98517,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Acciones Moto y Gestos"
+      },
+      {
         "locale": "en-gb",
         "name": "Moto Actions & Gestures"
       }
@@ -97035,6 +98530,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97051,12 +98551,22 @@
   "com.motorola.aiservices": {
     "appName": "Moto AI Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Servicios de Moto AI"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97082,6 +98592,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -97104,6 +98619,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -97112,12 +98632,22 @@
   "com.motorola.camera3.content.ai": {
     "appName": "Moto Camera Content 3",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Contenido de la Cámara Moto 3"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97143,6 +98673,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -97156,8 +98691,18 @@
   "com.motorola.discovery": {
     "appName": "Moto Discovery",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Detección de Moto"
+      }
+    ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
@@ -97168,8 +98713,18 @@
   "com.motorola.leanbacklauncher": {
     "appName": "Moto Experience Hub",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Centro de experiencias Moto"
+      }
+    ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "motorola",
         "model": "moto g85 5G",
@@ -97187,6 +98742,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Comentarios sobre Moto"
+      },
+      {
         "locale": "en-gb",
         "name": "Moto feedback"
       }
@@ -97196,6 +98755,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97218,6 +98782,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97294,6 +98863,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -97313,6 +98887,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97338,6 +98917,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -97351,8 +98935,18 @@
   "com.motorola.mototour": {
     "appName": "Moto Tour",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Tutorial Moto"
+      }
+    ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
@@ -97372,6 +98966,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -97380,12 +98979,22 @@
   "com.motorola.timeweatherwidget": {
     "appName": "Moto Widget",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Widget Moto"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97411,6 +99020,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -97421,6 +99035,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
       {
         "make": "motorola",
         "model": "moto g85 5G",
@@ -97436,12 +99055,22 @@
   "com.motorola.faceunlock": {
     "appName": "Motorola face unlock",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Desbloqueo facial de Motorola"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97467,6 +99096,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -97480,12 +99114,22 @@
   "com.motorola.ccc.notification": {
     "appName": "Motorola Notifications",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Hello You"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97514,12 +99158,22 @@
   "com.motorola.coresettingsext": {
     "appName": "Motorola Settings",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Ajustes de Motorola"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97536,12 +99190,22 @@
   "com.motorola.slpc_sys": {
     "appName": "Motorola Slpc System",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Sistema Motorola Slpc"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97560,6 +99224,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Actualización de software de Motorola"
+      },
+      {
         "locale": "en-gb",
         "name": "Motorola software update"
       }
@@ -97569,6 +99237,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97585,12 +99258,22 @@
   "com.motorola.thermalservice": {
     "appName": "Motorola Thermal Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Servicio térmico de Motorola"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -97616,6 +99299,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -97638,6 +99326,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -97657,6 +99350,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -98235,6 +99933,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -99337,6 +101040,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -100136,6 +101844,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -101224,6 +102937,10 @@
         "name": "Nfc Service"
       },
       {
+        "locale": "es-us",
+        "name": "Servicio NFC"
+      },
+      {
         "locale": "en",
         "name": "Nfc Service"
       },
@@ -101365,6 +103082,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -101877,6 +103599,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -103388,6 +105115,10 @@
         "name": "Google Assistant"
       },
       {
+        "locale": "es-us",
+        "name": "Asistente de Google"
+      },
+      {
         "locale": "en",
         "name": "Google Assistant"
       },
@@ -103465,6 +105196,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -103650,6 +105386,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Aprovisionamiento de cliente OMA"
+      },
+      {
         "locale": "en-gb",
         "name": "OMA client provisioning"
       }
@@ -103659,6 +105399,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -103770,6 +105515,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -104745,6 +106495,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -104905,6 +106660,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -105242,6 +107002,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -105656,6 +107421,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -106077,6 +107847,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -106356,12 +108131,22 @@
   "com.motorola.paks": {
     "appName": "PAKS",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Menú oculto de PAKS"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -106384,6 +108169,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -106622,6 +108412,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       }
@@ -106661,6 +108456,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -106690,6 +108490,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -106920,12 +108725,22 @@
   "com.motorola.appforecast": {
     "appName": "Performance",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Desempeño"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -107180,6 +108995,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -107937,6 +109757,10 @@
         "name": "Личная безопасность"
       },
       {
+        "locale": "es-us",
+        "name": "Seguridad personal"
+      },
+      {
         "locale": "en",
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‎‏‏‏‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‎‎‎‏‏‎‏‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‎‎Personal Safety‎‏‎‎‏‎"
       },
@@ -107984,6 +109808,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -108109,6 +109938,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Personalizar"
+      },
+      {
         "locale": "en-gb",
         "name": "Personalise"
       }
@@ -108118,6 +109951,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -108533,6 +110371,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Teléfono"
+      },
+      {
         "locale": "nl-nl",
         "name": "Telefoon"
       },
@@ -108571,6 +110413,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -108881,6 +110728,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -109186,12 +111038,12 @@
         "name": "Call Management"
       },
       {
-        "locale": "en-nl",
-        "name": "Phone calls"
-      },
-      {
         "locale": "es-us",
         "name": "Llamadas telefónicas"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Phone calls"
       },
       {
         "locale": "en-sg",
@@ -109336,6 +111188,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -109634,12 +111491,12 @@
         "name": "Telefoonservices"
       },
       {
-        "locale": "en-nl",
-        "name": "Phone services"
-      },
-      {
         "locale": "es-us",
         "name": "Servicios telefónicos"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Phone services"
       },
       {
         "locale": "sv-se",
@@ -109772,6 +111629,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -110670,6 +112532,10 @@
         "name": "Фото"
       },
       {
+        "locale": "es-us",
+        "name": "Fotos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Foto's"
       },
@@ -110765,6 +112631,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -110977,12 +112848,12 @@
         "name": "Foto's en video's"
       },
       {
-        "locale": "en-nl",
-        "name": "Photos and videos"
-      },
-      {
         "locale": "es-us",
         "name": "Fotos y videos"
+      },
+      {
+        "locale": "en-nl",
+        "name": "Photos and videos"
       },
       {
         "locale": "sv-se",
@@ -111084,6 +112955,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -112561,12 +114437,22 @@
   "com.motorola.contacts.preloadcontacts": {
     "appName": "Preloaded Contacts Loader",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Cargador de contactos precargados"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -112711,6 +114597,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -113135,6 +115026,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -113495,6 +115391,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -113993,6 +115894,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -114323,16 +116229,16 @@
         "name": "Punch hole cutout"
       },
       {
+        "locale": "es-us",
+        "name": "Corte de perforadora"
+      },
+      {
         "locale": "en",
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‏‎‎‎‏‎‎‏‎‏‎‎‎‎‎‎‎‏‎‏‎‎‏‏‏‎‎‏‎‏‎‎‎‏‎‎‎‏‏‎‏‏‎‏‏‎‏‏‏‏‏‎‎‎‎Punch Hole cutout‎‏‎‎‏‎"
       },
       {
         "locale": "en-nl",
         "name": "Punch hole cutout"
-      },
-      {
-        "locale": "es-us",
-        "name": "Corte de perforadora"
       },
       {
         "locale": "en-sg",
@@ -114463,6 +116369,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -115915,6 +117826,18 @@
       }
     ]
   },
+  "com.motorola.fmplayer": {
+    "appName": "Radio FM",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      }
+    ]
+  },
   "com.hihonor.android.fmradio": {
     "appName": "Radio FM",
     "userFacing": true,
@@ -116000,6 +117923,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -116116,6 +118044,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Motor de Ready For"
+      },
+      {
         "locale": "",
         "name": "Smart Connect Engine"
       }
@@ -116125,6 +118057,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -116422,12 +118359,22 @@
   "com.motorola.audiorecorder": {
     "appName": "Recorder",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Grabadora"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -116713,6 +118660,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -117137,6 +119089,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Servicios de suspensión"
+      },
+      {
         "locale": "en-gb",
         "name": "Revoker services"
       }
@@ -117146,6 +119102,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -117678,6 +119639,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -117697,6 +119663,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -117772,6 +119743,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -117945,6 +119921,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Rectángulo redondeado"
+      },
+      {
         "locale": "en-gb",
         "name": "Rounded rectangle"
       }
@@ -117969,6 +119949,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -125316,6 +127301,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Editor de capturas de pantalla"
+      },
+      {
         "locale": "en-gb",
         "name": "Screenshot editor"
       }
@@ -125325,6 +127314,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -125953,12 +127947,22 @@
   "com.motorola.securevault": {
     "appName": "Secure folder",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Carpeta segura"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -126474,6 +128478,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -128344,6 +130353,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -128623,12 +130637,22 @@
   "com.motorola.carriersettingsext": {
     "appName": "Settings",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Ajustes"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -128956,6 +130980,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -129237,6 +131266,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Almacenamiento de ajustes"
+      },
+      {
         "locale": "",
         "name": "Settings storage"
       },
@@ -129250,6 +131283,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -129417,6 +131455,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -129817,12 +131860,22 @@
   "com.motorola.setup": {
     "appName": "Setup",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Configurar"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -130273,6 +132326,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -130713,6 +132771,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Forma libre"
+      },
+      {
         "locale": "en-gb",
         "name": "Freeform"
       }
@@ -130722,6 +132784,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -131055,6 +133122,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -131335,6 +133407,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Administrador de SIM"
+      },
+      {
         "locale": "nl-nl",
         "name": "Sim-manager"
       },
@@ -131367,6 +133443,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -131600,6 +133681,10 @@
         "name": "SIM Tool Kit"
       },
       {
+        "locale": "es-us",
+        "name": "Mundo TIGO"
+      },
+      {
         "locale": "en-nl",
         "name": "SIM toolkit"
       },
@@ -131733,6 +133818,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -132906,12 +134996,22 @@
   "com.motorola.mobiledesktop": {
     "appName": "Smart Connect",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Ready For"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -132940,6 +135040,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Ready For Video"
+      },
+      {
         "locale": "en-gb",
         "name": "Smart Connect video"
       }
@@ -132949,6 +135053,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -134648,6 +136757,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Actualización de software"
+      },
+      {
         "locale": "en-gb",
         "name": "Software update"
       }
@@ -134657,6 +136770,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -135373,6 +137491,10 @@
         "name": "Звуки"
       },
       {
+        "locale": "es-us",
+        "name": "Sonidos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Geluiden"
       },
@@ -135446,6 +137568,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -135731,6 +137858,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -135756,12 +137888,22 @@
   "com.motorola.spectrum.setup.extensions": {
     "appName": "Spectrum Setup",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Configuración de Spectrum"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -135796,12 +137938,12 @@
         "name": "Google Text-to-speech engine"
       },
       {
-        "locale": "en",
-        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‏‏‎‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‏‏‏‎‎‎‏‎‏‏‏‎‎‏‏‏‎‎‏‎‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‎‏‏‎‏‏‎Speech Services by Google‎‏‎‎‏‎"
-      },
-      {
         "locale": "es-us",
         "name": "Reconocimiento y síntesis de voz de Google"
+      },
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‏‏‎‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‏‏‏‎‎‎‏‎‏‏‏‎‎‏‏‏‎‎‏‎‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‎‏‏‎‏‏‎Speech Services by Google‎‏‎‎‏‎"
       },
       {
         "locale": "en-sg",
@@ -135951,6 +138093,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -136768,6 +138915,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -137479,6 +139631,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -137876,6 +140033,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Accesibilidad con interruptores"
+      },
+      {
         "locale": "nl-nl",
         "name": "Toegang via schakelaar"
       },
@@ -137913,6 +140074,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -138090,6 +140256,18 @@
       }
     ]
   },
+  "co.sitic.pp": {
+    "appName": "sysDLL",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      }
+    ]
+  },
   "com.xiaomi.discover": {
     "appName": "System apps updater",
     "userFacing": false,
@@ -138154,12 +140332,12 @@
         "name": "Resources voor systeemconnectiviteit"
       },
       {
-        "locale": "en-nl",
-        "name": "System connectivity resources"
-      },
-      {
         "locale": "es-us",
         "name": "Recursos de conectividad del sistema"
+      },
+      {
+        "locale": "en-nl",
+        "name": "System connectivity resources"
       },
       {
         "locale": "sv-se",
@@ -138272,6 +140450,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -138899,6 +141082,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -139346,6 +141534,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -139750,6 +141943,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -140293,6 +142491,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
@@ -140816,6 +143019,10 @@
         "name": "Системные ресурсы Wi-Fi"
       },
       {
+        "locale": "es-us",
+        "name": "Recursos Wi‑Fi del sistema"
+      },
+      {
         "locale": "en-gb",
         "name": "System Wi-Fi resources"
       },
@@ -140868,6 +143075,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -141370,6 +143582,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Etiquetas"
+      },
+      {
         "locale": "sv-se",
         "name": "Etiketter"
       }
@@ -141429,6 +143645,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -141728,12 +143949,12 @@
         "name": "Hoge cutout"
       },
       {
-        "locale": "en",
-        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‎‎‏‎‎‎‏‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‎‏‏‎‏‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‎‎‏‎‎Tall cutout‎‏‎‎‏‎"
-      },
-      {
         "locale": "es-us",
         "name": "Corte alto"
+      },
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‎‎‏‎‎‎‏‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‎‏‏‎‏‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‎‎‏‎‎Tall cutout‎‏‎‎‏‎"
       },
       {
         "locale": "sv-se",
@@ -141857,6 +144078,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -142428,7 +144654,12 @@
   "com.android.theme.icon.teardrop": {
     "appName": "Teardrop",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Gota"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
@@ -142449,6 +144680,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -142834,6 +145070,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -144380,6 +146621,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -144778,6 +147024,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -145424,6 +147675,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -145966,6 +148222,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -145985,6 +148246,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -146010,6 +148276,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -146029,6 +148300,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -146054,6 +148330,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -146073,6 +148354,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -146178,6 +148464,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -146247,6 +148538,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -147662,6 +149958,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -147984,6 +150285,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Fondo de pantalla y estilo"
+      },
+      {
         "locale": "en",
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‎‏‏‎‏‏‎‏‏‎‏‏‏‏‎‎‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‎‏‎‏‏‎‎‎‏‎‎‏‏‎‏‏‏‎‏‏‎‎‏‏‏‏‎‎‏‎Wallpaper & style‎‏‎‎‏‎"
       },
@@ -148029,6 +150334,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -148731,12 +151041,12 @@
         "name": "Waterval-cutout"
       },
       {
-        "locale": "en",
-        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‎‎‏‏‏‎‎‏‏‎‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‎‏‎‏‎‎‎‎‏‎‏‏‏‏‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‏‎Waterfall cutout‎‏‎‎‏‎"
-      },
-      {
         "locale": "es-us",
         "name": "Corte de cascada"
+      },
+      {
+        "locale": "en",
+        "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‎‎‏‏‏‎‎‏‏‎‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‎‏‎‏‎‎‎‎‏‎‏‏‏‏‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‏‎Waterfall cutout‎‏‎‎‏‎"
       },
       {
         "locale": "sv-se",
@@ -148855,6 +151165,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -149797,6 +152112,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -150019,12 +152339,22 @@
   "com.motorola.attvowifi": {
     "appName": "Wi-Fi Calling",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Llamadas por Wi-Fi"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -150702,6 +153032,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -151383,6 +153718,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -152050,6 +154390,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -152119,6 +154464,11 @@
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
         "os": "34"
       },
       {
@@ -152380,6 +154730,11 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Sony",
@@ -152717,6 +155072,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
       },
       {
         "make": "Google",
