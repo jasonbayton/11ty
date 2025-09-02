@@ -37,13 +37,13 @@ The immediate community response has been mixed. Privacy-conscious developers wo
 
 However, framing verification as an oppressive burden misses some nuance. Developers who distribute via Google Play have been subject to similar verification since 2023, so many already comply. For students and hobbyists, Google is offering a lighter-weight console. And crucially, local development isn't affected. You can still build, install and debug your app on a device using the Android Debug Bridge (ADB) and Android Studio, meaning hobby projects, corporate prototypes and test builds remain free from the new requirement.
 
-Google has publicly emphasised that **“sideloading is fundamental to Android, and it's not going anywhere,”** assuring developers that this change simply adds traceability—not outright removal of sideloading capabilities:
+Google has publicly emphasised that **“sideloading is fundamental to Android, and it's not going anywhere,”** assuring developers that this change simply adds traceability, not outright removal of sideloading capabilities.
 
 > Sideloading is fundamental to Android, and it's not going anywhere.
 >
 > _[Sameer Samat, President, Android Ecosystem, Google](https://x.com/ssamat/status/1961089905842598190)_
 
-Of course, registering as a verified developer will take some time and potentially some paperwork. For large enterprises this could be a footnote (or it could be a nightmare, if existing challenges with Android Enterprise organisation ID management is anything to go by historically..); for smaller teams it will be an extra administrative task. But when weighed against the financial harm caused by fraudulent apps or stolen data, having to provide proof of identity feels like a reasonable ask. The requirement doesn't restrict where apps come from or force developers into Google Play, and it shouldn't hinder legitimate distribution by third-party app stores.
+Of course, registering as a verified developer will take some time and potentially overhead. For large enterprises this could be a footnote (or it could be a nightmare, if existing challenges with Android Enterprise organisation ID management are anything to go by historically..); for smaller teams it will be an extra administrative task. But when weighed against the financial and/or reputational harm caused by fraudulent apps or stolen data, having to provide proof of identity feels like a reasonable ask. The requirement doesn't restrict where apps come from or force developers into Google Play, and it shouldn't hinder legitimate distribution by third-party app stores.
 
 ## What it means for consumer safety
 
@@ -55,7 +55,7 @@ Oh, and just to point it out, this verification is on the developer, _not_ the u
 
 ## Enterprise implications: initial alarm, then relief
 
-While consumer benefits are clear, the enterprise reaction has been more sceptical. Corporate IT departments can rely heavily on APK deployment to distribute in-house applications, supply-chain tools and partner apps. Many organisations sideload apps using the custom DPCs, (and more recently now [via the Android Management API (AMAPI](/blog/2025/08/amapi-apk-deployment/)) or their own app catalogue because Managed Google Play does not support every scenario. In [community discussions](https://www.androidenterprise.community/discussions/Conversations/android-developer-verification-requirements-in-ae/12559), administrators worried that Google was inserting itself into their internal deployment: long-time advocate for enterprise freedom, Matt, called for [“the same blanket exception that was applied to Google Play Protect”](https://www.androidenterprise.community/discussions/conversations/android-developer-verification-requirements-in-ae/12559/replies/12582) so that fully managed devices wouldn't need to verify their own in-house apps. I've seen first-hand there is a lot of APK sideloading, particularly with smaller companies using AMAPI because they cannot distribute via an EMM platform. The notion of having to register every internal tool with Google felt intrusive and potentially expensive.
+While consumer benefits are clear, the enterprise reaction has been more sceptical. Corporate IT departments can rely heavily on APK deployment to distribute in-house applications, supply-chain tools and partner apps. Many organisations sideload apps using the custom DPCs, (and more recently now [via the Android Management API (AMAPI](/blog/2025/08/amapi-apk-deployment/)) or their own app catalogue because Managed Google Play does not fit every use case or requirement. In [community discussions](https://www.androidenterprise.community/discussions/Conversations/android-developer-verification-requirements-in-ae/12559), administrators worried that Google was inserting itself into their internal deployment: long-time advocate for enterprise freedom, Matt, called for [“the same blanket exception that was applied to Google Play Protect”](https://www.androidenterprise.community/discussions/conversations/android-developer-verification-requirements-in-ae/12559/replies/12582) so that fully managed devices wouldn't need to verify their own in-house apps. I've seen first-hand the amount of APK sideloading that happens, particularly with smaller companies using AMAPI, because they cannot (or couldn't, as of a week before this article was published) distribute via an EMM platform. The notion of having to register every internal tool with Google felt intrusive and potentially expensive.
 
 These concerns gained traction until Google clarified its position. In a [follow-up post](https://www.androidenterprise.community/blog/news/google-play-update-new-layer-of-security-coming-in-2026/12588/) on the Android Enterprise community, the Google announced three key exemptions:
 
@@ -89,7 +89,6 @@ As these things tend to be, it's is a classic trade-off: an increase in friction
 | Enterprise extension        | To Sep 2027           | Fully managed & Work Profile devices temporarily exempt from installing unvalidated developer applications via Google Play |
 | DPC & private app exemption | Indefinite            | Apps installed via EMM DPC or Managed Google Play never require verification                    |
 
-
 ## Frequently Asked Questions (FAQ)
 
 **Does this mean I need Google's permission to run my own apps?**  
@@ -102,10 +101,10 @@ No. Google has explicitly stated that sideloading is "fundamental to Android, an
 Yes. ADB installations for local development remain unaffected.
 
 **Does this affect enterprise app deployment?**  
-Enterprises have exemptions. Apps installed through an EMM Device Policy Controller (DPC) or published as private apps in Managed Google Play are exempt indefinitely. Fully managed and Work Profile devices have an extension until September 2027.
+Enterprises have exemptions. Apps installed through an EMM Device Policy Controller (DPC) or published as private apps in Managed Google Play are exempt indefinitely. Fully managed and Work Profile devices installing public apps from Google Play have an extension on permitting installation without developer verification until September 2027.
 
 **Is this just a revenue grab?**  
-No. Developer verification uses the same $25 one-time registration fee already in place for Play Console accounts. Student and hobbyist developers will have access to lighter-weight options with no fees (as currently documented)
+No. Developer verification uses the same $25 one-time registration fee already in place for Play Console accounts. Student and hobbyist developers will have access to lighter-weight options with no fees (as currently documented).
 
 **Does this change anything for non-certified devices?**  
 No. The requirements only apply to certified Android devices with Google Play services. Non-certified devices are unaffected.
