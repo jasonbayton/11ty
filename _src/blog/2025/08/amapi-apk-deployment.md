@@ -106,72 +106,72 @@ Here's a snippet of the full AMAPI policy I'm testing with:
 
 ```json
 {
-  "applications": [
-    {
-      "packageName": "org.bayton.managedinfo.dev",
-      "installType": "REQUIRED_FOR_SETUP",
-      "managedConfiguration": {
-        "packagemanager_install_applications": [
-          {
-            "packagemanager_application_settings": {
-              "packagemanager_download_url": "https://cdn.bayton.org/download/buttonManager.apk",
-              "packagemanager_package_name": "org.bayton.ffswitchlauncher",
-              "packagemanager_package_admin_sha": "Gsk-H2KnwZs9BeKS8a2hCdpFGhQeFXAn1DLDhE7UfKw=",
-              "packagemanager_package_hash": "",
-              "packagemanager_package_versioncode": "1"
-            }
-          },
-          {
-            "packagemanager_application_settings": {
-              "packagemanager_download_url": "https://cdn.bayton.org/download/kissLauncher.apk",
-              "packagemanager_package_name": "fr.neamar.kiss"
-            }
-          }
-        ],
-      }
-      "extensionConfig": {
-        "notificationReceiver": "org.bayton.managedinfo.receivers.NRSAMAPI"
-      },
-      "autoUpdateMode": "AUTO_UPDATE_HIGH_PRIORITY"
-    },
-    {
-      "packageName": "org.bayton.ffswitchlauncher",
-      "installType": "CUSTOM",
-      "customAppConfig": {
-        "userUninstallSettings": "ALLOW_UNINSTALL_BY_USER"
-      },
-      "signingKeyCerts": [
+    "applications": [
         {
-          "signingKeyCertFingerprintSha256": "Gsk-H2KnwZs9BeKS8a2hCdpFGhQeFXAn1DLDhE7UfKw"
-        }
-      ]
-    },
-    {
-      "packageName": "fr.neamar.kiss",
-      "installType": "CUSTOM",
-      "customAppConfig": {
-        "userUninstallSettings": "DISALLOW_UNINSTALL_BY_USER"
-      },
-      "signingKeyCerts": [
+            "packageName": "org.bayton.managedinfo.dev",
+            "installType": "REQUIRED_FOR_SETUP",
+            "managedConfiguration": {
+                "packagemanager_install_applications": [
+                    {
+                        "packagemanager_application_settings": {
+                            "packagemanager_download_url": "https://cdn.bayton.org/download/buttonManager.apk",
+                            "packagemanager_package_name": "org.bayton.ffswitchlauncher",
+                            "packagemanager_package_admin_sha": "Gsk-H2KnwZs9BeKS8a2hCdpFGhQeFXAn1DLDhE7UfKw=",
+                            "packagemanager_package_hash": "",
+                            "packagemanager_package_versioncode": "1"
+                        }
+                    },
+                    {
+                        "packagemanager_application_settings": {
+                            "packagemanager_download_url": "https://cdn.bayton.org/download/kissLauncher.apk",
+                            "packagemanager_package_name": "fr.neamar.kiss"
+                        }
+                    }
+                ]
+            },
+            "extensionConfig": {
+                "notificationReceiver": "org.bayton.managedinfo.receivers.NRSAMAPI"
+            },
+            "autoUpdateMode": "AUTO_UPDATE_HIGH_PRIORITY"
+        },
         {
-          "signingKeyCertFingerprintSha256": "7AOOWxLJ+43yO17MH3HdJRvFA7MM7I1YoAz64sMavxs="
+            "packageName": "org.bayton.ffswitchlauncher",
+            "installType": "CUSTOM",
+            "customAppConfig": {
+                "userUninstallSettings": "ALLOW_UNINSTALL_BY_USER"
+            },
+            "signingKeyCerts": [
+                {
+                    "signingKeyCertFingerprintSha256": "Gsk-H2KnwZs9BeKS8a2hCdpFGhQeFXAn1DLDhE7UfKw"
+                }
+            ]
+        },
+        {
+            "packageName": "fr.neamar.kiss",
+            "installType": "CUSTOM",
+            "customAppConfig": {
+                "userUninstallSettings": "DISALLOW_UNINSTALL_BY_USER"
+            },
+            "signingKeyCerts": [
+                {
+                    "signingKeyCertFingerprintSha256": "7AOOWxLJ+43yO17MH3HdJRvFA7MM7I1YoAz64sMavxs="
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "setupActions": [
-    {
-      "launchApp": {
-        "packageName": "org.bayton.managedinfo.dev"
-      },
-      "title": {
-        "defaultMessage": "Let's get started"
-      },
-      "description": {
-        "defaultMessage": "You're just a few steps from completing enrolment"
-      }
-    }
-  ]
+    ],
+    "setupActions": [
+        {
+            "launchApp": {
+                "packageName": "org.bayton.managedinfo.dev"
+            },
+            "title": {
+                "defaultMessage": "Let's get started"
+            },
+            "description": {
+                "defaultMessage": "You're just a few steps from completing enrolment"
+            }
+        }
+    ]
 }
 ```
 
@@ -264,129 +264,129 @@ When a package is pulled down and passes known verifications, it remains cached 
 
 ```json
 {
-  "applications": [
-    {
-      "packageName": "org.bayton.managedinfo",
-      "installType": "REQUIRED_FOR_SETUP",
-      "managedConfiguration": {
-        "packagemanager_install_applications": [
-          {
-            "packagemanager_application_settings": {
-              "packagemanager_download_url": "https://cdn.bayton.org/download/buttonManager.apk",
-              "packagemanager_package_name": "org.bayton.ffswitchlauncher",
-              "packagemanager_package_admin_sha": "Gsk-H2KnwZs9BeKS8a2hCdpFGhQeFXAn1DLDhE7UfKw=",
-              "packagemanager_package_hash": "",
-              "packagemanager_package_versioncode": "1"
+    "applications": [
+        {
+            "packageName": "org.bayton.managedinfo",
+            "installType": "REQUIRED_FOR_SETUP",
+            "managedConfiguration": {
+                "packagemanager_install_applications": [
+                    {
+                        "packagemanager_application_settings": {
+                            "packagemanager_download_url": "https://cdn.bayton.org/download/buttonManager.apk",
+                            "packagemanager_package_name": "org.bayton.ffswitchlauncher",
+                            "packagemanager_package_admin_sha": "Gsk-H2KnwZs9BeKS8a2hCdpFGhQeFXAn1DLDhE7UfKw=",
+                            "packagemanager_package_hash": "",
+                            "packagemanager_package_versioncode": "1"
+                        }
+                    },
+                    {
+                        "packagemanager_application_settings": {
+                            "packagemanager_download_url": "https://cdn.bayton.org/download/kissLauncher.apk",
+                            "packagemanager_package_name": "fr.neamar.kiss"
+                        }
+                    },
+                    {
+                        "packagemanager_application_settings": {
+                            "packagemanager_download_url": "https://cdn.bayton.org/download/org.privacymatters.safespace.apk",
+                            "packagemanager_package_name": "org.privacymatters.safespace",
+                            "packagemanager_package_admin_sha": "lEFprXu0adq99f+wlQPOdF69ZzCha4WYaAjEUjp97mM="
+                        }
+                    }
+                ],
+                "enable_intro_card": "0x0",
+                "enable_org_message": false,
+                "enable_quick_actions": false,
+                "enable_device_details": true,
+                "customisation_settings": {
+                    "enable_device_identifiers": false
+                },
+                "enable_contact_details": false,
+                "device_details_settings": {
+                    "device_details_enable_basic": true,
+                    "device_details_enable_radio": true,
+                    "device_details_enable_network": true,
+                    "device_details_enable_hardware": true,
+                    "device_details_enable_software": false,
+                    "device_details_enable_connectivity_check": true
+                }
+            },
+            "delegatedScopes": [
+                "CERT_INSTALL"
+            ],
+            "autoUpdateMode": "AUTO_UPDATE_HIGH_PRIORITY",
+            "extensionConfig": {
+                "notificationReceiver": "org.bayton.managedinfo.receivers.NRSAMAPI"
             }
-          },
-          {
-            "packagemanager_application_settings": {
-              "packagemanager_download_url": "https://cdn.bayton.org/download/kissLauncher.apk",
-              "packagemanager_package_name": "fr.neamar.kiss"
-            }
-          },
-          {
-            "packagemanager_application_settings": {
-              "packagemanager_download_url": "https://cdn.bayton.org/download/org.privacymatters.safespace.apk",
-              "packagemanager_package_name": "org.privacymatters.safespace",
-              "packagemanager_package_admin_sha": "lEFprXu0adq99f+wlQPOdF69ZzCha4WYaAjEUjp97mM="
-            }
-          }
-        ],
-        "enable_intro_card": "0x0",
-        "enable_org_message": false,
-        "enable_quick_actions": false,
-        "enable_device_details": true,
-        "customisation_settings": {
-          "enable_device_identifiers": false
         },
-        "enable_contact_details": false,
-        "device_details_settings": {
-          "device_details_enable_basic": true,
-          "device_details_enable_radio": true,
-          "device_details_enable_network": true,
-          "device_details_enable_hardware": true,
-          "device_details_enable_software": false,
-          "device_details_enable_connectivity_check": true
+        {
+            "packageName": "org.bayton.packagesearch",
+            "installType": "FORCE_INSTALLED",
+            "defaultPermissionPolicy": "GRANT",
+            "managedConfiguration": {
+                "enable_package_version_sync": false,
+                "enable_system_apps_database_sync": true
+            },
+            "delegatedScopes": [
+                "CERT_INSTALL",
+                "MANAGED_CONFIGURATIONS"
+            ]
         },
-      },
-      "delegatedScopes": [
-        "CERT_INSTALL"
-      ],
-      "autoUpdateMode": "AUTO_UPDATE_HIGH_PRIORITY",
-      "extensionConfig": {
-        "notificationReceiver": "org.bayton.managedinfo.receivers.NRSAMAPI"
-      }
-    },
-    {
-      "packageName": "org.bayton.packagesearch",
-      "installType": "FORCE_INSTALLED",
-      "defaultPermissionPolicy": "GRANT",
-      "managedConfiguration": {
-        "enable_package_version_sync": false,
-        "enable_system_apps_database_sync": true
-      },
-      "delegatedScopes": [
-        "CERT_INSTALL",
-        "MANAGED_CONFIGURATIONS"
-      ]
-    },
-    {
-      "packageName": "org.bayton.ffswitchlauncher",
-      "installType": "CUSTOM",
-      "customAppConfig": {
-        "userUninstallSettings": "ALLOW_UNINSTALL_BY_USER"
-      },
-      "signingKeyCerts": [
         {
-          "signingKeyCertFingerprintSha256": "Gsk+H2KnwZs9BeKS8a2hCdpFGhQeFXAn1DLDhE7UfKw="
-        }
-      ]
-    },
-    {
-      "packageName": "org.privacymatters.safespace",
-      "installType": "CUSTOM",
-      "customAppConfig": {
-        "userUninstallSettings": "ALLOW_UNINSTALL_BY_USER"
-      },
-      "signingKeyCerts": [
+            "packageName": "org.bayton.ffswitchlauncher",
+            "installType": "CUSTOM",
+            "customAppConfig": {
+                "userUninstallSettings": "ALLOW_UNINSTALL_BY_USER"
+            },
+            "signingKeyCerts": [
+                {
+                    "signingKeyCertFingerprintSha256": "Gsk+H2KnwZs9BeKS8a2hCdpFGhQeFXAn1DLDhE7UfKw="
+                }
+            ]
+        },
         {
-          "signingKeyCertFingerprintSha256": "lEFprXu0adq99f+wlQPOdF69ZzCha4WYaAjEUjp97mM="
-        }
-      ]
-    },
-    {
-      "packageName": "fr.neamar.kiss",
-      "installType": "CUSTOM",
-      "customAppConfig": {
-        "userUninstallSettings": "DISALLOW_UNINSTALL_BY_USER"
-      },
-      "signingKeyCerts": [
+            "packageName": "org.privacymatters.safespace",
+            "installType": "CUSTOM",
+            "customAppConfig": {
+                "userUninstallSettings": "ALLOW_UNINSTALL_BY_USER"
+            },
+            "signingKeyCerts": [
+                {
+                    "signingKeyCertFingerprintSha256": "lEFprXu0adq99f+wlQPOdF69ZzCha4WYaAjEUjp97mM="
+                }
+            ]
+        },
         {
-          "signingKeyCertFingerprintSha256": "7AOOWxLJ+43yO17MH3HdJRvFA7MM7I1YoAz64sMavxs="
+            "packageName": "fr.neamar.kiss",
+            "installType": "CUSTOM",
+            "customAppConfig": {
+                "userUninstallSettings": "DISALLOW_UNINSTALL_BY_USER"
+            },
+            "signingKeyCerts": [
+                {
+                    "signingKeyCertFingerprintSha256": "7AOOWxLJ+43yO17MH3HdJRvFA7MM7I1YoAz64sMavxs="
+                }
+            ]
         }
-      ]
+    ],
+    "defaultPermissionPolicy": "GRANT",
+    "appAutoUpdatePolicy": "ALWAYS",
+    "playStoreMode": "WHITELIST",
+    "setupActions": [
+        {
+            "launchApp": {
+                "packageName": "org.bayton.managedinfo"
+            },
+            "title": {
+                "defaultMessage": "Launch Managed Info"
+            },
+            "description": {
+                "defaultMessage": "For new enrolments, this ensures MI is launched as soon as possible in order to fetch and install defined APKs"
+            }
+        }
+    ],
+    "advancedSecurityOverrides": {
+        "developerSettings": "DEVELOPER_SETTINGS_ALLOWED"
     }
-  ],
-  "defaultPermissionPolicy": "GRANT",
-  "appAutoUpdatePolicy": "ALWAYS",
-  "playStoreMode": "WHITELIST",
-  "setupActions": [
-    {
-      "launchApp": {
-        "packageName": "org.bayton.managedinfo"
-      },
-      "title": {
-        "defaultMessage": "Launch Managed Info"
-      },
-      "description": {
-        "defaultMessage": "For new enrolments, this ensures MI is launched as soon as possible in order to fetch and install defined APKs"
-      }
-    }
-  ],
-  "advancedSecurityOverrides": {
-    "developerSettings": "DEVELOPER_SETTINGS_ALLOWED"
-  }
 }
 ```
 
