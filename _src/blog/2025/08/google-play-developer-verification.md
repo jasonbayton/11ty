@@ -23,7 +23,13 @@ Potentially Harmful Applications (PHAs) are rife within the ecosystem, just last
 
 So real, in fact, Kaspersky claims just over 50,000 malicious apps were detected in Q1 of this year running on Android devices [according to this report](https://securelist.com/malware-report-q1-2025-mobile-statistics/116676/).
 
-To tackle this, Google will require developers who distribute apps on certified devices - whether through Play, alternative stores or direct downloads — to register and verify their identity. The process involves two main steps: verifying the developer's identity and then registering apps using the package name and signing keys; student and hobbyist developers will have a separate portal with fewer requirements. Importantly, Google emphasises that developers remain free to sideload apps or use any store they prefer, preserving Android's open nature.
+<div class="callout callout-small callout-green">
+
+👋 Oh hey, if you're an enterprise with EMM-enrolled Android devices using managed Google Play as your application distribution method, the Potentially Harmful Application (PHA) installation rate is only around 0.009%, per the [2024 Android Security Paper]() (page 32, ref: Google security services). Just in case the above figures were starting to brew some perceptions.. 
+
+</div>
+
+To tackle this, Google will require developers who distribute apps on certified devices - whether through Play, alternative stores or direct downloads - to register and verify their identity. The process involves two main steps: verifying the developer's identity and then registering apps using the package name and signing keys; student and hobbyist developers will have a separate portal with fewer requirements. Importantly, Google emphasises that developers remain free to sideload apps or use any store they prefer, preserving Android's open nature.
 
 >  Our recent analysis found over 50 times more malware from internet-sideloaded sources than on apps available through Google Play.
 >
@@ -49,7 +55,7 @@ Of course, registering as a verified developer will take some time and potential
 
 ## What it means for consumer safety
 
-From a user perspective, developer verification has clear benefits. When a developer must prove who they are, it becomes significantly harder to spin up a new account after a scam app gets taken down. Users will know that every app on a certified device comes from someone traceable, and regulators will find it easier to investigate and prosecute fraud. That doesn't mean all malware will vanish — verification doesn't vet an app's code — but it does raise the bar for attackers.
+From a user perspective, developer verification has clear benefits. When a developer must prove who they are, it becomes significantly harder to spin up a new account after a scam app gets taken down. Users will know that every app on a certified device comes from someone traceable, and regulators will find it easier to investigate and prosecute fraud. That doesn't mean all malware will vanish - verification doesn't vet an app's code - but it does raise the bar for attackers.
 
 Critics have argued that requiring verification might discourage open-source or independent developers. Yet, history suggests that anonymous distribution channels are where malware thrives. Google is not closing those channels; it is adding a basic accountability layer akin to "showing ID at the airport". You can still carry your own bags through security, but you must show that you are who you say you are. That's hardly draconian. 
 
@@ -73,11 +79,11 @@ With this clarification from the Android Enterprise team, I feel like the enterp
 
 ## So, is developer verification a good thing?
 
-On balance, yes. The policy addresses a real problem — anonymous actors using sideloaded apps to commit fraud — while preserving Android's _openness_. Consumers stand to benefit from a more trustworthy ecosystem, and legitimate developers gain a stronger reputation. The identity-verification process may feel like an administrative overhead, but most developers distributing widely will already have processes in place for Play or other app stores. Hobbyists and local development remain unaffected; ADB sideloading still works.
+On balance, yes. The policy addresses a real problem - anonymous actors using sideloaded apps to commit fraud - while preserving Android's _openness_. Consumers stand to benefit from a more trustworthy ecosystem, and legitimate developers gain a stronger reputation. The identity-verification process may feel like an administrative overhead, but most developers distributing widely will already have processes in place for Play or other app stores. Hobbyists and local development remain unaffected; ADB sideloading still works.
 
 For enterprises, the initial fear that Google would insert itself into corporate app management has been allayed by the DPC and Managed Play exemptions. Organisations should still pay attention to the long-term direction: by 2027, apps installed outside of DPC and Managed Play channels will require verification on managed devices. That's a gentle nudge towards using the official tools that provide better visibility and control.
 
-As these things tend to be, it's is a classic trade-off: an increase in friction for developers in exchange for a substantial reduction in harm to users. As with any new policy, implementation details need further clarity and ongoing discussion, but with the enterprise concessions now on the table, the pendulum swings decisively towards developer verification being a good thing for the Android ecosystem.
+As these things tend to be, it's a classic trade-off: an increase in friction for developers in exchange for a substantial reduction in harm to users. As with any new policy, implementation details need further clarity and ongoing discussion, but with the enterprise concessions now on the table, the pendulum swings decisively towards developer verification being a good thing for the Android ecosystem.
 
 ## Timeline at a glance
 
