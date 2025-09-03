@@ -111,4 +111,10 @@ No. Developer verification uses the same $25 one-time registration fee already i
 **Does this change anything for non-certified devices?**  
 No. The requirements only apply to certified Android devices with Google Play services. Non-certified devices are unaffected.
 
+**What do you mean _an extra year to prepare_ for Play Store apps in enterprise?**  
+It means eventually some of the applications an organisation relies on may not be possible to install on new devices from 2027 - exactly the same consideration for consumers in 2026. If an organisation _needs_ an application, now is the time (yes, in 2025) to reach out to the developer(s) of the required apps to ensure they are aware of, and willing to comply with, these requirements.
+
+**Will installed applications be removed after the deadlines?**  
+No. It will not be possible to push updates to the apps for developers without verification though, so that poses its own risks.
+
 *Note: All information reflects publicly available sources as of 2 September 2025 and may evolve as Google refines the programme.*
