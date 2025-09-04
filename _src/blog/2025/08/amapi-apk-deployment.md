@@ -49,7 +49,7 @@ Given the time it's taken to land in AMAPI, I very much assumed it'd be a highly
 
 I assumed extremely incorrectly.
 
-On the contrary, from my understanding and interactions with it so far, the SDK offers a couple of commands the EMM companion app can fire to install an APK delivered through the companion itself.
+On the contrary, from my understanding and interactions with it so far, the SDK offers a couple of commands the EMM companion app can fire to install & uninstall an APK delivered through the companion itself.
 
 How does the APK get to the device? Your problem.  
 How does it handle retries, network issues, compatibility issues, data usage.. etc., etc., etc.? Again.. all you. 
@@ -61,6 +61,7 @@ In fact, working through building a proof of concept almost the entirety of the 
 - Defining a caching strategy
 - Handling the logic, marred by directly-lived horror-scenes of yester-decade when old Device Admin deployments were causing £1000's in data charges due to extremely poor handling of constantly pulling APKs down to devices not compatible with the package being installed.
 - Ensuring the APK is valid, complete, and matches what has been uploaded when it's downloaded to the companion app.
+- Handling local issues, such as compatibility
 
 .. and more. You get the picture here. Google, from my understanding of the documentation and experience this weekend, leaves _everything_ to the EMM vendor to figure out, including how to even know the policy has been updated with new `CUSTOM` applications to trigger the companion into life.
 
@@ -179,7 +180,7 @@ You'll note:
 
 - Two defined custom applications are present
 - The managed config used by MANAGED INFO also referencing the two apps
-- SetupActions to have MANAGED INFO launch on enrolment, and 
+- `SetupActions` to have MANAGED INFO launch on enrolment, and 
 - The relevant settings required to ensure AMAPI doesn't reject the calls from the SDK.
 
 Again, this is a very _open_ approach to this type of feature. I'd imagine vendors will have companions pull packages from internal repositories or API endpoints and completely forego the requirement for a managed configuration.
@@ -221,6 +222,12 @@ After the third time, the worker will end, and will try again after a managed co
 
 MANAGED INFO doesn't have a means of surfacing the errors AMAPI might respond with currently (there's no UI), so if applications don't appear within a reasonable time after policy assignment, local debugging (where `logcat` logs are plentiful) would be required.
 
+### If a package is removed from managed config
+
+At present, when a package is no longer detected in MC, the app triggers an uninstall custom app command to remove it from the device. Even if the policy hasn't been updated to remove the same package. I opted for this approach - for now - in the spirit of ensuring the managed configuration is the source of truth, and no package actions are run (which could invoke network usage) without explicit definition.
+
+There's a brief period of time (~1s) where the config is updated but the package hasn't yet uninstalled: here the app will report "unmanaged" until the command is successfully processed.
+
 ## Implementation considerations
 
 Some of the other considerations that emerged during the brainstorming of this implementation.
@@ -247,16 +254,23 @@ If these are omitted, it's more likely the APK file(s) will be downloaded more o
 
 Unfortunately, in testing I found some older/non-mainstream devices are unable to validate the signature/hash of the APK locally. In cases like this I don't yet have a solution; I spent more than a few hours trying to get around this.. but alas. TODO. For the moment the application simply won't install unless the file hash/sig cert hash is removed; this is a design choice I made to respect the requirement for explicitly opting to verify the package before install. If an app isn't installing and these are configured for testing, whip them out and try again. I'd [appreciate](/contact) makes/models of problem devices if you're happy to provide them.
 
-### Install, update, or skip decision logic
+### Install, update, remove, or skip decision logic
 
 - **Not installed** > **install**.
 - **Installed and staged is newer** > **update**.
 - **Same version** > **skip** (with log).
 - **Installed newer** > **skip** (with log).
+- **Installed and config removed** > **remove**
 
 ### Retaining APKs on-disk
 
 When a package is pulled down and passes known verifications, it remains cached for up to 60 hours in order to avoid burdening network (or increasing cellular data fees) during periods where the app may be reinstalled for any reason. Longer caching is a consideration, but there's a balance between filling up storage and ensuring network usage is always minimal. I'd probably be inclined to add more managed configuration options to allow for flexible management of this (including caching forever, until verification drives a re-download).
+
+## Points of feedback
+
+1. The SDK calls on firebase quite often, and I would like to disable this (that's not limited to custom apps, but a general SDK thing it appears)
+2. Initial approaches sent all pending packages to Android Device Policy in one go, and ADP didn't like that. While implementing the receiver for confirmation of installed apps, this approach saw ADP return only one response against multiple install requests
+   1. Further development saw the worker wait on a response from ADP before processing the next, but this is quite a bit slower.
 
 ## Testing the app yourself
 
