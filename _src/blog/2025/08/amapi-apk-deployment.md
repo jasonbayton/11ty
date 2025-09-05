@@ -91,7 +91,7 @@ I leaned into AMAPI's companion policies, specifically [`SetupActions`](https://
 
 Here's the enrolment splash screen, which automatically closes at the moment as there are no other requirements beyond opening:
 
-<img src="https://cdn.bayton.org/uploads/2025/setupactions_managedinfo.png" width="300px" />
+<a href="https://cdn.bayton.org/uploads/2025/setupactions_managedinfo.png"><img src="https://cdn.bayton.org/uploads/2025/setupactions_managedinfo.png" width="300px" /></a>
 
 ### Managed configuration definition
 
@@ -207,7 +207,7 @@ If there are no packages defined, everything stops there, the worker will also d
 
 ### Step 2: Figure out, and filter out, packages to process
 
-![Decision tree](https://cdn.bayton.org/uploads/2025/managed-install-flow.png)
+[![Decision tree](https://cdn.bayton.org/uploads/2025/managed-install-flow.png)](https://cdn.bayton.org/uploads/2025/managed-install-flow.png)
 
 The goal here is not to unnecessarily undertake actions when there's no justification for it, so the worker only hits the network when it's deemed necessary.
 
@@ -234,7 +234,7 @@ After the third time, the worker will end, and will try again after a managed co
 
 The app catalogue screen within MANAGED INFO will surface any installation errors, and allow a user locally to try again.. otherwise, it will try again with the cached APK on the next scheduled run (time based or on configuration update)
 
-<img src="https://cdn.bayton.org/uploads/2025/appcatalogue_managedinfo.png" width="300px" />
+<a href="https://cdn.bayton.org/uploads/2025/appcatalogue_managedinfo.png"><img src="https://cdn.bayton.org/uploads/2025/appcatalogue_managedinfo.png" width="300px" /></a>
 
 ### If a package is removed from managed config
 
