@@ -59,7 +59,7 @@ In fact, working through building a proof of concept almost the entirety of the 
 - Uploading and storing APKs somewhere accessible
 - Delivering APKs to the device (my app)
 - Defining a caching strategy
-- Handling the logic, marred by directly-lived horror-scenes of yester-decade when old Device Admin deployments were causing £1000's in data charges due to extremely poor handling of constantly pulling APKs down to devices not compatible with the package being installed.
+- Handling the logic, marred by directly-lived nightmares of yester-decade when old Device Admin deployments were causing £1000's in data charges due to extremely poor handling of constantly pulling APKs down to devices not compatible with the package being installed.
 - Ensuring the APK is valid, complete, and matches what has been uploaded when it's downloaded to the companion app.
 - Handling local issues, such as compatibility
 
@@ -67,7 +67,7 @@ In fact, working through building a proof of concept almost the entirety of the 
 
 That's bittersweet. I'd expect most vendors - particularly those that have been around for a while - will have their own implementation of package deliveries used for other platforms, other scenarios, etc. In that case this feature can simply _plug and play_. On the other hand, for the newer platforms embracing AMAPI in the last few years, it's a big shift to need to build this on the back of a service that does most-everything else directly. 
 
-Thankfully, the actual main event of installing APKs is documented, includes samples, and isn't complex. There's a nice guide [here](https://developers.google.com/android/management/manage-custom-apps)
+Thankfully, the actual main event of installing APKs is documented, includes samples, and isn't complex. There's a useful guide [here](https://developers.google.com/android/management/manage-custom-apps).
 
 ## Planning the approach
 
@@ -75,15 +75,23 @@ I used [MANAGED INFO](/projects/splash/mi/) as my base. Given I need to support 
 
 Pulling in the SDK was simple, and I used the guide above to get the basics in place.
 
-From there, I opted for a simplistic managed configuration approach for the proof of concept; I don't have a big, robust EMM solution to automate all the desired `if/then` logic, nor do I support FCM in MANAGED INFO (because it hasn't been necessary up to now), so a fully-manual approach that could be quite easily scripted for automation later appealed to me. Right now, that means defining the application policy with the custom install type, and then following up with a MANAGED INFO managed configuration entry with the details of the package to be installed (because MI is never aware of the policy).
+From there, I opted for a simplistic managed configuration approach for the proof of concept; I don't have a big, robust EMM solution to automate all the desired `if/then` logic, nor do I support FCM in MANAGED INFO (because it hasn't been necessary up to now), so a fully-manual approach that could be quite easily scripted for automation later appealed to me. Right now, that means defining the application policy with the custom install type, and then following up with a MANAGED INFO managed configuration entry with the details of the package to be installed (because MI is never aware of the AMAPI policy).
 
 For the proof of concept, I host packages such that they are accessible to MANAGED INFO. In my case that was in my CDN, though I've ensured JWT support for minimal auth, and it should support things like AWS' timed URLs as well without modification. An API definition could be implemented later.
 
-Since MANAGED INFO already supports managed config, it was quite easy to hook a unique worker into the startup / receiver flow that allows a ViewModel (this handles the "business" logic of an app) to check for the presence of packages in the managed configuration payload, and initiate the worker any time the application starts, or the managed configuration changes. I opted to also run it on a schedule, checking for any changes that may have been missed in an MC update due to any unforeseen OEM battery/memory optimisation quirks.
+Since MANAGED INFO already supports managed config, it was quite easy to hook a unique worker into the startup / receiver flow that allows a ViewModel (this handles the "business" logic of an app) to check for the presence of packages in the managed configuration payload, and initiate the worker any time the application starts, or the managed configuration changes. I opted to also run it on a schedule, checking for any changes that may have been missed in an MC update due to any unforeseen OEM battery/memory optimisation quirks (this is an edge-case, but one never knows).
 
-Of course all of this requires MANAGED INFO to be launched at least once. That's absolutely fine if you were already leveraging it as a support application or kiosk, but I wanted to guarantee MI is launched during enrolment to ensure this functionality is effective. 
+I also opted to build an index in datastore for packages defined in managed configuration. While not entirely necessary for installation, this allowed for the tracking of existing apps when the managed config changed, allowing me in turn to handle uninstall events, as if the package is removed from managed config, it can be assumed it's no longer intended for installation. I plan to add another option later to retain packages removed from managed config, but under normal circumstances they would only remain on the device if the policy retains them, or when removed from policy if Google Play is set to Blocklist rather than the default of Allowlist. Things start to get a bit complex when overthinking the options here; for now if it's in config install, if removed, uninstall.
+
+I want a simple UI that offers a status screen for custom applications. This is a preference, not a mandate. First-runs with the APIs had everything working in the background with no UI and it was fine, but I like a nice UI.
+
+Of course all of this requires MANAGED INFO to be launched at least once in order for the managed config to be read, the workers to be scheduled, etc. It's likely to already be the case if you were leveraging MANAGED INFO as a support application or kiosk before this functionality landed, but I wanted to guarantee MI is launched during enrolment to ensure this covers all use cases. 
 
 I leaned into AMAPI's companion policies, specifically [`SetupActions`](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#SetupAction), and then combined this with [`ExtensionConfig`](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#ExtensionConfig) (as the latter is required for the SDK features to function, and prevents user/OS interference of the app running). This alone won't work for devices already in-life, but it's fine for this exercise.
+
+Here's the enrolment splash screen, which automatically closes at the moment as there are no other requirements beyond opening:
+
+<img src="https://cdn.bayton.org/uploads/2025/setupactions_managedinfo.png" width="300px" />
 
 ### Managed configuration definition
 
@@ -203,6 +211,10 @@ If there are no packages defined, everything stops there, the worker will also d
 
 The goal here is not to unnecessarily undertake actions when there's no justification for it, so the worker only hits the network when it's deemed necessary.
 
+- Determine and read from the managed configuration
+- If the configuration differs from the index, are packages added or removed?
+  - If added, the index is updated and continues
+  - If removed, the index is updated and an uninstall job is queued
 - If managed configuration specifies a **target version code** for a package, and the device already has **that version or newer**, it moves to the next package with no further processing
 - For packages that aren't installed, it'll see if a version of the package file has been downloaded to disk previously. If it hasn't, it'll be downloaded at this point on any available network (network types are a TODO)
 - When packages exist on-disk, the worker will check for any optional hashes provided in the managed configuration to validate all packages are the version(s) expected.
@@ -220,13 +232,17 @@ Should AMAPI reject the package, it'll be logged and retried up to three times. 
 
 After the third time, the worker will end, and will try again after a managed configuration change, or within an hour.
 
-MANAGED INFO doesn't have a means of surfacing the errors AMAPI might respond with currently (there's no UI), so if applications don't appear within a reasonable time after policy assignment, local debugging (where `logcat` logs are plentiful) would be required.
+The app catalogue screen within MANAGED INFO will surface any installation errors, and allow a user locally to try again.. otherwise, it will try again with the cached APK on the next scheduled run (time based or on configuration update)
+
+<img src="https://cdn.bayton.org/uploads/2025/appcatalogue_managedinfo.png" width="300px" />
 
 ### If a package is removed from managed config
 
-At present, when a package is no longer detected in MC, the app triggers an uninstall custom app command to remove it from the device. Even if the policy hasn't been updated to remove the same package. I opted for this approach - for now - in the spirit of ensuring the managed configuration is the source of truth, and no package actions are run (which could invoke network usage) without explicit definition.
+After the uninstall job is queued by the initial package processing step (because the package is no longer detected in managed configuration), the app triggers an uninstall custom app command to remove it from the device. Even if the policy hasn't been updated to remove the same package. I opted for this approach - for now - in the spirit of ensuring the managed configuration is the source of truth, and no package actions are run (which could invoke network usage) without explicit definition. Do remember the aim here is for either scripting or some form of automation that has the EMM keep the policy and managed config in sync, so the likelihood of the policy and managed config diverging _should_ be low. This is a _just in case_.
 
-There's a brief period of time (~1s) where the config is updated but the package hasn't yet uninstalled: here the app will report "unmanaged" until the command is successfully processed.
+This also takes into account the Play Store Mode limitations I referenced in planning the approach; this way even if the Play Store is in Blocklist, it will still remove an app when the package is removed from the managed config. 
+
+There's a brief period of time (~1s) where the config is updated, but the package hasn't yet uninstalled: here the app will report "unmanaged" until the command is successfully processed.
 
 ## Implementation considerations
 
@@ -237,6 +253,8 @@ Some of the other considerations that emerged during the brainstorming of this i
 - Sensible timeouts (15s) 
 - **4xx** (permanent) failures. The worker throws a dedicated exception and **fails** (doesn't waste retries).  
 - **5xx/timeouts** (transient) failures. The worker **retries** up to 3 total attempts before failing, until the next invocation.
+
+The application install worker will only progress when a network connection is present, so logs won't fill with failed attempts.
 
 ### Integrity validation (optional, recommended)
 
@@ -271,10 +289,25 @@ When a package is pulled down and passes known verifications, it remains cached 
 1. The SDK calls on firebase quite often, and I would like to disable this (that's not limited to custom apps, but a general SDK thing it appears)
 2. Initial approaches sent all pending packages to Android Device Policy in one go, and ADP didn't like that. While implementing the receiver for confirmation of installed apps, this approach saw ADP return only one response against multiple install requests
    1. Further development saw the worker wait on a response from ADP before processing the next, but this is quite a bit slower.
+3. ADP doesn't inform MANAGED INFO of policy updates, which would be my preferred trigger for the worker logic
 
 ## Testing the app yourself
 
-[MANAGED INFO version 1.0.8.1](https://play.google.com/store/apps/details?id=org.bayton.managedinfo) is available on Google Play at the time of writing. Feel free to replicate everything described above in other AMAPI environments, here's a starter-policy:
+[MANAGED INFO version 1.0.8.1](https://play.google.com/store/apps/details?id=org.bayton.managedinfo) is available on Google Play at the time of writing. Feel free to replicate everything described above in other AMAPI environments, there's a starter-policy below that covers everything above, in summary:
+
+MANAGED INFO notification receiver: `org.bayton.managedinfo.receivers.NRSAMAPI`
+
+Most platforms on the market won't support the customisation required to launch MI on enrolment, but if yours does:
+
+1. Import the app into the enterprise (with or without an EMM), set it to `REQURED_FOR_SETUP` under install type
+2. Configure setup actions, if the EMM supports it
+3. Configure extension config
+4. Define the applications in the AMAPI policy under `CUSTOM` install type
+5. Fill in the relevant details of MANAGED INFO's managed configuration, package installation is rendered at the bottom of the MC list.
+
+**Note**: setup actions can be skipped, but you'll need to open the app directly at least once. Nothing else can be skipped above, otherwise it'll error.
+
+If you're interacting with AMAPI directly, either via the explorer or something like Postman, here you go:
 
 ```json
 {
