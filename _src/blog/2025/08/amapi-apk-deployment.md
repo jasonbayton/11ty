@@ -305,7 +305,7 @@ Most platforms on the market won't support the customisation required to launch 
 4. Define the applications in the AMAPI policy under `CUSTOM` install type
 5. Fill in the relevant details of MANAGED INFO's managed configuration, package installation is rendered at the bottom of the MC list.
 
-**Note**: setup actions can be skipped, but you'll need to open the app directly at least once. Nothing else can be skipped above, otherwise it'll error.
+**Note**: setup actions can be omitted, but you'll need to open the app directly at least once. Nothing else can be skipped above, otherwise it'll error.
 
 If you're interacting with AMAPI directly, either via the explorer or something like Postman, here you go:
 
