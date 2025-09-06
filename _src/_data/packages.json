@@ -119,6 +119,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -683,6 +688,10 @@
         "name": "Конфиденциальность в рекламе"
       },
       {
+        "locale": "es-es",
+        "name": "Privacidad en la publicidad"
+      },
+      {
         "locale": "nl-nl",
         "name": "Advertentieprivacy"
       },
@@ -709,10 +718,6 @@
       {
         "locale": "en-de",
         "name": "Ad privacy"
-      },
-      {
-        "locale": "es-es",
-        "name": "Privacidad en la publicidad"
       },
       {
         "locale": "",
@@ -779,6 +784,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -2105,6 +2115,10 @@
         "name": "Специальные возможности"
       },
       {
+        "locale": "es-es",
+        "name": "Suite de Accesibilidad Android"
+      },
+      {
         "locale": "es-us",
         "name": "Suite de Accesibilidad Android"
       },
@@ -2115,10 +2129,6 @@
       {
         "locale": "sv-se",
         "name": "Android Tillgänglighet"
-      },
-      {
-        "locale": "es-es",
-        "name": "Suite de Accesibilidad Android"
       }
     ],
     "devices": [
@@ -2171,6 +2181,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -2428,6 +2443,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -2820,6 +2840,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -3268,6 +3293,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -3595,6 +3625,10 @@
         "name": "Настройка устройства Android"
       },
       {
+        "locale": "es-es",
+        "name": "Configuración de Android"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android Set-up"
       },
@@ -3613,10 +3647,6 @@
       {
         "locale": "de-de",
         "name": "Android-Einrichtung"
-      },
-      {
-        "locale": "es-es",
-        "name": "Configuración de Android"
       }
     ],
     "devices": [
@@ -3704,6 +3734,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -4106,6 +4141,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -4535,6 +4575,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -4840,6 +4885,10 @@
         "name": "Система Android"
       },
       {
+        "locale": "es-es",
+        "name": "Sistema Android"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android-systeem"
       },
@@ -4858,10 +4907,6 @@
       {
         "locale": "de-de",
         "name": "Android-System"
-      },
-      {
-        "locale": "es-es",
-        "name": "Sistema Android"
       }
     ],
     "devices": [
@@ -4954,6 +4999,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -5437,6 +5487,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -5782,6 +5837,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -6337,6 +6397,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -9136,6 +9201,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Asistente"
+      },
+      {
         "locale": "es-us",
         "name": "Asistente"
       }
@@ -9150,6 +9219,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -12704,6 +12778,10 @@
         "name": "Память Заблокированных номеров"
       },
       {
+        "locale": "es-es",
+        "name": "Almacenamiento de números bloqueados"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag voor geblokkeerde nummers"
       },
@@ -12722,10 +12800,6 @@
       {
         "locale": "de-de",
         "name": "Speicher für blockierte Nummern"
-      },
-      {
-        "locale": "es-es",
-        "name": "Almacenamiento de números bloqueados"
       }
     ],
     "devices": [
@@ -12813,6 +12887,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -13376,6 +13455,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "es-es",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "en-au",
         "name": "Bluetooth"
       },
@@ -13417,10 +13500,6 @@
       },
       {
         "locale": "en-lk",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "es-es",
         "name": "Bluetooth"
       },
       {
@@ -13518,6 +13597,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -13920,6 +14004,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -14368,6 +14457,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -15188,6 +15282,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Calculadora"
+      },
+      {
         "locale": "es-us",
         "name": "Calculadora"
       },
@@ -15230,6 +15328,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -15506,6 +15609,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -15837,6 +15945,10 @@
         "name": "Память календаря"
       },
       {
+        "locale": "es-es",
+        "name": "Almacenamiento de calendario"
+      },
+      {
         "locale": "nl-nl",
         "name": "Agenda opslaan"
       },
@@ -15867,10 +15979,6 @@
       {
         "locale": "en-lk",
         "name": "Calendar storage"
-      },
-      {
-        "locale": "es-es",
-        "name": "Almacenamiento de calendario"
       }
     ],
     "devices": [
@@ -15963,6 +16071,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -16722,6 +16835,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -17823,7 +17941,12 @@
   "com.mediatek.camera": {
     "appName": "Camera",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Cámara"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -17834,6 +17957,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "Sony",
@@ -18451,6 +18579,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -18901,6 +19034,10 @@
         "name": "Авторизация на странице входа"
       },
       {
+        "locale": "es-es",
+        "name": "Inicio de sesión en portal cautivo"
+      },
+      {
         "locale": "nl-nl",
         "name": "Inloggen via captive portal"
       },
@@ -18931,10 +19068,6 @@
       {
         "locale": "en-de",
         "name": "Captive portal login"
-      },
-      {
-        "locale": "es-es",
-        "name": "Inicio de sesión en portal cautivo"
       }
     ],
     "devices": [
@@ -19017,6 +19150,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -19488,6 +19626,10 @@
         "name": "Уведомления оператора связи"
       },
       {
+        "locale": "es-es",
+        "name": "Comunicaciones del operador"
+      },
+      {
         "locale": "en-au",
         "name": "CarrierDefaultApp"
       },
@@ -19530,10 +19672,6 @@
       {
         "locale": "en-za",
         "name": "CarrierDefaultApp"
-      },
-      {
-        "locale": "es-es",
-        "name": "Comunicaciones del operador"
       }
     ],
     "devices": [
@@ -19611,6 +19749,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -20199,6 +20342,11 @@
         "os": "30"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -20720,6 +20868,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -21085,6 +21238,10 @@
         "name": "Программа установки сертификата"
       },
       {
+        "locale": "es-es",
+        "name": "Instalador de certificados"
+      },
+      {
         "locale": "nl-nl",
         "name": "Certificaat installeren"
       },
@@ -21107,10 +21264,6 @@
       {
         "locale": "de-de",
         "name": "Zertifikatsinstallationsprogramm"
-      },
-      {
-        "locale": "es-es",
-        "name": "Instalador de certificados"
       }
     ],
     "devices": [
@@ -21203,6 +21356,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -21690,6 +21848,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -22799,6 +22962,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Reloj"
+      },
+      {
         "locale": "es-us",
         "name": "Reloj"
       },
@@ -22856,6 +23023,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -23792,6 +23964,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -24309,6 +24486,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -24856,6 +25038,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -25533,6 +25720,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -25938,6 +26130,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -26656,6 +26853,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -26900,6 +27102,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -27538,6 +27745,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -27907,6 +28119,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -29210,6 +29427,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -29664,6 +29886,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -30763,6 +30990,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -31702,6 +31934,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -34177,6 +34414,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -34557,6 +34799,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -35086,6 +35333,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -35173,6 +35425,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -35601,6 +35858,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -35656,6 +35918,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -35865,6 +36132,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Encontrar mi dispositivo"
+      },
+      {
         "locale": "en-gb",
         "name": "Find Hub"
       }
@@ -35874,6 +36145,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -36103,6 +36379,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -36749,6 +37030,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -37885,6 +38171,11 @@
         "os": "35"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -38387,6 +38678,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -38686,6 +38982,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -38953,6 +39254,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -39174,6 +39480,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -39470,6 +39781,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -39744,6 +40060,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -39879,6 +40200,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -40110,6 +40436,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -40190,6 +40521,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -40603,6 +40939,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -41161,6 +41502,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -41461,6 +41807,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -41917,6 +42268,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -42236,6 +42592,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -42541,6 +42902,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -43480,6 +43846,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -44523,6 +44894,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -44776,6 +45152,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -45328,6 +45709,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -45450,6 +45836,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -45691,6 +46082,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -45778,6 +46174,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -45850,6 +46251,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -45915,6 +46321,10 @@
         "name": "ImsApp"
       },
       {
+        "locale": "es-es",
+        "name": "ImsApp"
+      },
+      {
         "locale": "en-gb",
         "name": "ImsApp"
       },
@@ -45938,6 +46348,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -46042,6 +46457,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -46182,6 +46602,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -46262,6 +46687,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -46363,6 +46793,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -55365,6 +55800,10 @@
         "name": "Дополнительный Диспетчер Устройств"
       },
       {
+        "locale": "es-es",
+        "name": "Gestor de dispositivos complementario"
+      },
+      {
         "locale": "es-us",
         "name": "Administrador de dispositivo complementario"
       },
@@ -55375,10 +55814,6 @@
       {
         "locale": "de-de",
         "name": "Begleitgerät-Manager"
-      },
-      {
-        "locale": "es-es",
-        "name": "Gestor de dispositivos complementario"
       }
     ],
     "devices": [
@@ -55471,6 +55906,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -56278,6 +56718,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -57481,6 +57926,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Contactos"
+      },
+      {
         "locale": "es-us",
         "name": "Contactos"
       },
@@ -57533,6 +57982,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -57976,6 +58430,10 @@
         "name": "Хранилище контактов"
       },
       {
+        "locale": "es-es",
+        "name": "Información de contactos"
+      },
+      {
         "locale": "es-us",
         "name": "Almacenamiento para contactos"
       },
@@ -57986,10 +58444,6 @@
       {
         "locale": "sv-se",
         "name": "Kontakter"
-      },
-      {
-        "locale": "es-es",
-        "name": "Información de contactos"
       }
     ],
     "devices": [
@@ -58052,6 +58506,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -58789,6 +59248,10 @@
         "name": "В правом углу"
       },
       {
+        "locale": "es-es",
+        "name": "Recorte de la esquina"
+      },
+      {
         "locale": "nl-nl",
         "name": "Hoek-cutout"
       },
@@ -58811,10 +59274,6 @@
       {
         "locale": "de-de",
         "name": "Aussparung in der Ecke"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recorte de la esquina"
       }
     ],
     "devices": [
@@ -58897,6 +59356,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -60656,6 +61120,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -60785,6 +61254,10 @@
         "name": "Служба Печати по умолчанию"
       },
       {
+        "locale": "es-es",
+        "name": "Servicio de impresión predeterminado"
+      },
+      {
         "locale": "nl-nl",
         "name": "Standaard afdrukservice"
       },
@@ -60811,10 +61284,6 @@
       {
         "locale": "en-de",
         "name": "Default print service"
-      },
-      {
-        "locale": "es-es",
-        "name": "Servicio de impresión predeterminado"
       }
     ],
     "devices": [
@@ -60897,6 +61366,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -61888,6 +62362,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -63883,6 +64362,10 @@
         "name": "Цифровое благополучие"
       },
       {
+        "locale": "es-es",
+        "name": "Bienestar digital"
+      },
+      {
         "locale": "es-us",
         "name": "Bienestar digital"
       },
@@ -63893,10 +64376,6 @@
       {
         "locale": "sv-se",
         "name": "Digitalt välmående"
-      },
-      {
-        "locale": "es-es",
-        "name": "Bienestar digital"
       }
     ],
     "devices": [
@@ -63954,6 +64433,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -64557,6 +65041,10 @@
         "name": "Сверху и снизу"
       },
       {
+        "locale": "es-es",
+        "name": "Recorte doble"
+      },
+      {
         "locale": "nl-nl",
         "name": "Dubbele cutout"
       },
@@ -64579,10 +65067,6 @@
       {
         "locale": "de-de",
         "name": "Doppelte Aussparung"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recorte doble"
       }
     ],
     "devices": [
@@ -64665,6 +65149,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -64962,6 +65451,10 @@
         "name": "Диспетчер загрузки"
       },
       {
+        "locale": "es-es",
+        "name": "Administrador de descargas"
+      },
+      {
         "locale": "nl-nl",
         "name": "Downloadbeheer"
       },
@@ -64980,10 +65473,6 @@
       {
         "locale": "de-de",
         "name": "Download-Manager"
-      },
-      {
-        "locale": "es-es",
-        "name": "Administrador de descargas"
       }
     ],
     "devices": [
@@ -65076,6 +65565,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -65410,6 +65904,10 @@
         "name": "Загрузки"
       },
       {
+        "locale": "es-es",
+        "name": "Descargas"
+      },
+      {
         "locale": "es-us",
         "name": "Descargas"
       },
@@ -65420,10 +65918,6 @@
       {
         "locale": "it-it",
         "name": "Download"
-      },
-      {
-        "locale": "es-es",
-        "name": "Descargas"
       }
     ],
     "devices": [
@@ -65511,6 +66005,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -66167,6 +66666,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -66939,6 +67443,11 @@
         "os": "30"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -67066,6 +67575,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -68025,16 +68539,16 @@
         "name": "com.android.emergency"
       },
       {
+        "locale": "es-es",
+        "name": "Emergencia"
+      },
+      {
         "locale": "es-us",
         "name": "com.android.emergency"
       },
       {
         "locale": "sv-se",
         "name": "com.android.emergency"
-      },
-      {
-        "locale": "es-es",
-        "name": "Emergencia"
       }
     ],
     "devices": [
@@ -68092,6 +68606,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -68864,6 +69383,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -69904,6 +70428,10 @@
         "name": "Внешняя память"
       },
       {
+        "locale": "es-es",
+        "name": "Almacenamiento externo"
+      },
+      {
         "locale": "nl-nl",
         "name": "Externe opslag"
       },
@@ -69922,10 +70450,6 @@
       {
         "locale": "de-de",
         "name": "Externer Speicher"
-      },
-      {
-        "locale": "es-es",
-        "name": "Almacenamiento externo"
       }
     ],
     "devices": [
@@ -70018,6 +70542,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -71388,6 +71917,23 @@
       }
     ]
   },
+  "com.teksun.factorytest": {
+    "appName": "FactoryTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.nbbsw.factory_test": {
     "appName": "FactoryTest",
     "userFacing": false,
@@ -71397,18 +71943,6 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
-      }
-    ]
-  },
-  "com.teksun.factorytest": {
-    "appName": "FactoryTest",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "SMT_HK",
-        "model": "Helium Pro",
-        "os": "31"
       }
     ]
   },
@@ -71965,6 +72499,10 @@
         "name": "Файлы"
       },
       {
+        "locale": "es-es",
+        "name": "Archivos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Bestanden"
       },
@@ -71983,10 +72521,6 @@
       {
         "locale": "de-de",
         "name": "Dateien"
-      },
-      {
-        "locale": "es-es",
-        "name": "Archivos"
       }
     ],
     "devices": [
@@ -72069,6 +72603,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -72491,6 +73030,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -74469,6 +75013,10 @@
         "name": "Геоданные из нескольких источников"
       },
       {
+        "locale": "es-es",
+        "name": "Ubicación combinada"
+      },
+      {
         "locale": "nl-nl",
         "name": "Samengestelde locatie"
       },
@@ -74479,10 +75027,6 @@
       {
         "locale": "de-de",
         "name": "Kombinierte Standortbest."
-      },
-      {
-        "locale": "es-es",
-        "name": "Ubicación combinada"
       }
     ],
     "devices": [
@@ -74575,6 +75119,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -77036,6 +77585,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -77430,6 +77984,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -77883,6 +78442,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -78242,6 +78806,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -78562,6 +79131,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -79005,6 +79579,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -79465,6 +80044,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -80203,6 +80787,10 @@
         "name": "История местоположений"
       },
       {
+        "locale": "es-es",
+        "name": "Historial de ubicaciones de Google"
+      },
+      {
         "locale": "nl-nl",
         "name": "Locatiegeschiedenis van Google"
       },
@@ -80225,10 +80813,6 @@
       {
         "locale": "de-de",
         "name": "Google-Standortverlauf"
-      },
-      {
-        "locale": "es-es",
-        "name": "Historial de ubicaciones de Google"
       }
     ],
     "devices": [
@@ -80306,6 +80890,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -80700,6 +81289,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -81102,6 +81696,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -81563,6 +82162,10 @@
         "name": "Сервисы Google Play"
       },
       {
+        "locale": "es-es",
+        "name": "Servicios de Google Play"
+      },
+      {
         "locale": "nl-nl",
         "name": "Google Play-services"
       },
@@ -81581,10 +82184,6 @@
       {
         "locale": "de-de",
         "name": "Google Play-Dienste"
-      },
-      {
-        "locale": "es-es",
-        "name": "Servicios de Google Play"
       }
     ],
     "devices": [
@@ -81677,6 +82276,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -82339,6 +82943,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -82663,6 +83272,10 @@
         "name": "Ресурсы Центра безопасности Google"
       },
       {
+        "locale": "es-es",
+        "name": "Recursos del Centro de Seguridad de Google"
+      },
+      {
         "locale": "nl-nl",
         "name": "Google Veiligheidscentrum-bronnen"
       },
@@ -82689,10 +83302,6 @@
       {
         "locale": "en-de",
         "name": "Google Safety Centre resources"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recursos del Centro de Seguridad de Google"
       }
     ],
     "devices": [
@@ -82765,6 +83374,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -83039,6 +83653,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -83122,12 +83741,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Marco de los servicios de Google"
-      },
-      {
         "locale": "es-es",
         "name": "Framework de servicios de Google"
+      },
+      {
+        "locale": "es-us",
+        "name": "Marco de los servicios de Google"
       }
     ],
     "devices": [
@@ -83220,6 +83839,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -83620,6 +84244,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -86458,6 +87087,10 @@
         "name": "Средство просмотра HTML"
       },
       {
+        "locale": "es-es",
+        "name": "Visor de HTML"
+      },
+      {
         "locale": "nl-nl",
         "name": "HTML-viewer"
       },
@@ -86476,10 +87109,6 @@
       {
         "locale": "de-de",
         "name": "HTML-Anzeige"
-      },
-      {
-        "locale": "es-es",
-        "name": "Visor de HTML"
       }
     ],
     "devices": [
@@ -86572,6 +87201,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -87274,6 +87908,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -87847,6 +88486,10 @@
         "name": "Устройства ввода"
       },
       {
+        "locale": "es-es",
+        "name": "Dispositivos de introducción de datos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Invoerapparaten"
       },
@@ -87865,10 +88508,6 @@
       {
         "locale": "de-de",
         "name": "Eingabegeräte"
-      },
-      {
-        "locale": "es-es",
-        "name": "Dispositivos de introducción de datos"
       }
     ],
     "devices": [
@@ -87956,6 +88595,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -89167,6 +89811,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Keep (notas)"
+      },
+      {
         "locale": "en-au",
         "name": "Keep notes"
       },
@@ -89206,6 +89854,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -89411,6 +90064,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -92560,6 +93218,10 @@
         "name": "Каталог живых обоев"
       },
       {
+        "locale": "es-es",
+        "name": "Selector de fondo animado"
+      },
+      {
         "locale": "nl-nl",
         "name": "Interactieve achtergrondkiezer"
       },
@@ -92582,10 +93244,6 @@
       {
         "locale": "en-lk",
         "name": "Live wallpaper selector"
-      },
-      {
-        "locale": "es-es",
-        "name": "Selector de fondo animado"
       }
     ],
     "devices": [
@@ -92668,6 +93326,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -93115,6 +93778,11 @@
         "os": "30"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -93509,6 +94177,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -94040,6 +94713,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -94385,6 +95063,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -94820,6 +95503,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -95125,6 +95813,10 @@
         "name": "Отзывы о Маркете"
       },
       {
+        "locale": "es-es",
+        "name": "Agente comentarios Market"
+      },
+      {
         "locale": "nl-nl",
         "name": "Market-feedbackagent"
       },
@@ -95135,10 +95827,6 @@
       {
         "locale": "sv-se",
         "name": "Feedbackagent för Market"
-      },
-      {
-        "locale": "es-es",
-        "name": "Agente comentarios Market"
       }
     ],
     "devices": [
@@ -95231,6 +95919,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -95837,6 +96530,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -95897,6 +96595,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -96049,6 +96752,10 @@
         "name": "Инструмент выбора медиа"
       },
       {
+        "locale": "es-es",
+        "name": "Selector de medios"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mediakiezer"
       },
@@ -96071,10 +96778,6 @@
       {
         "locale": "de-de",
         "name": "Media-Auswahl"
-      },
-      {
-        "locale": "es-es",
-        "name": "Selector de medios"
       },
       {
         "locale": "",
@@ -96156,6 +96859,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -96699,6 +97407,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -97108,6 +97821,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Mensajes"
+      },
+      {
         "locale": "nl-nl",
         "name": "Berichten"
       },
@@ -97118,10 +97835,6 @@
       {
         "locale": "it-it",
         "name": "Messaggi"
-      },
-      {
-        "locale": "es-es",
-        "name": "Mensajes"
       }
     ],
     "devices": [
@@ -97189,6 +97902,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -98726,6 +99444,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -100724,6 +101447,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -100818,6 +101546,10 @@
         "name": "MTK Non-Framework LBS (MTK не Фреймворк LBS)"
       },
       {
+        "locale": "es-es",
+        "name": "Servicio basado en ubicación (LBS) sin marco MTK"
+      },
+      {
         "locale": "en-gb",
         "name": "MTK Non-Framework Location-Based Service"
       }
@@ -100832,6 +101564,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OUKITEL",
@@ -101127,6 +101864,10 @@
         "name": "Хост-система MTP"
       },
       {
+        "locale": "es-es",
+        "name": "Host de MTP"
+      },
+      {
         "locale": "nl-nl",
         "name": "MTP-host"
       },
@@ -101145,10 +101886,6 @@
       {
         "locale": "de-de",
         "name": "MTP-Host"
-      },
-      {
-        "locale": "es-es",
-        "name": "Host de MTP"
       }
     ],
     "devices": [
@@ -101236,6 +101973,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -102430,8 +103172,18 @@
   "com.android.settings.navigationbar": {
     "appName": "NavigationBar",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Barra de navegación"
+      }
+    ],
     "devices": [
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
@@ -103091,6 +103843,10 @@
         "name": "Менеджер сетей"
       },
       {
+        "locale": "es-es",
+        "name": "Administrador de redes"
+      },
+      {
         "locale": "nl-nl",
         "name": "Netwerkbeheer"
       },
@@ -103105,10 +103861,6 @@
       {
         "locale": "de-de",
         "name": "Netzwerkmanager"
-      },
-      {
-        "locale": "es-es",
-        "name": "Administrador de redes"
       }
     ],
     "devices": [
@@ -103186,6 +103938,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -103858,6 +104615,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -104097,6 +104859,11 @@
         "os": "35"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -104304,6 +105071,10 @@
         "name": "Служба NFC"
       },
       {
+        "locale": "es-es",
+        "name": "NFC"
+      },
+      {
         "locale": "en-au",
         "name": "Nfc Service"
       },
@@ -104346,10 +105117,6 @@
       {
         "locale": "en-lk",
         "name": "NFC Service"
-      },
-      {
-        "locale": "es-es",
-        "name": "NFC"
       },
       {
         "locale": "en-za",
@@ -104436,6 +105203,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -105566,6 +106338,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -106873,6 +107650,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -108429,6 +109211,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -108724,6 +109511,10 @@
         "name": "Установщик пакетов"
       },
       {
+        "locale": "es-es",
+        "name": "Instalador de paquetes"
+      },
+      {
         "locale": "nl-nl",
         "name": "Pakket-installatie"
       },
@@ -108742,10 +109533,6 @@
       {
         "locale": "de-de",
         "name": "Paketinstallation"
-      },
-      {
-        "locale": "es-es",
-        "name": "Instalador de paquetes"
       }
     ],
     "devices": [
@@ -108838,6 +109625,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -109267,6 +110059,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -110318,6 +111115,10 @@
         "name": "Контролер разрешений"
       },
       {
+        "locale": "es-es",
+        "name": "Controlador de permisos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Rechtenbeheer"
       },
@@ -110336,10 +111137,6 @@
       {
         "locale": "de-de",
         "name": "Berechtigungssteuerung"
-      },
-      {
-        "locale": "es-es",
-        "name": "Controlador de permisos"
       }
     ],
     "devices": [
@@ -110427,6 +111224,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -111214,6 +112016,10 @@
         "name": "Личная безопасность"
       },
       {
+        "locale": "es-es",
+        "name": "Emergencias"
+      },
+      {
         "locale": "es-us",
         "name": "Seguridad personal"
       },
@@ -111260,6 +112066,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -111828,6 +112639,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Teléfono"
+      },
+      {
         "locale": "es-us",
         "name": "Teléfono"
       },
@@ -111865,6 +112680,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -112053,6 +112873,10 @@
         "name": "Память номеров/SMS/MMS"
       },
       {
+        "locale": "es-es",
+        "name": "Almacenamiento de mensajes y teléfono"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag telefoon/berichten"
       },
@@ -112075,10 +112899,6 @@
       {
         "locale": "en-lk",
         "name": "Phone Call/SMS Storage"
-      },
-      {
-        "locale": "es-es",
-        "name": "Almacenamiento de mensajes y teléfono"
       },
       {
         "locale": "",
@@ -112170,6 +112990,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -112500,6 +113325,10 @@
         "name": "Телефонные вызовы"
       },
       {
+        "locale": "es-es",
+        "name": "Llamadas de teléfono"
+      },
+      {
         "locale": "en-au",
         "name": "Call Management"
       },
@@ -112542,10 +113371,6 @@
       {
         "locale": "en-lk",
         "name": "Call Management"
-      },
-      {
-        "locale": "es-es",
-        "name": "Llamadas de teléfono"
       },
       {
         "locale": "en-za",
@@ -112637,6 +113462,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -112966,6 +113796,10 @@
         "name": "Телефон"
       },
       {
+        "locale": "es-es",
+        "name": "Servicios telefónicos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Telefoonservices"
       },
@@ -112988,10 +113822,6 @@
       {
         "locale": "de-de",
         "name": "Telefondienste"
-      },
-      {
-        "locale": "es-es",
-        "name": "Servicios telefónicos"
       },
       {
         "locale": "",
@@ -113083,6 +113913,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -114021,6 +114856,10 @@
         "name": "Фото"
       },
       {
+        "locale": "es-es",
+        "name": "Fotos"
+      },
+      {
         "locale": "es-us",
         "name": "Fotos"
       },
@@ -114035,10 +114874,6 @@
       {
         "locale": "it-it",
         "name": "Foto"
-      },
-      {
-        "locale": "es-es",
-        "name": "Fotos"
       },
       {
         "locale": "de-de",
@@ -114110,6 +114945,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -114338,6 +115178,10 @@
         "name": "Фото и видео"
       },
       {
+        "locale": "es-es",
+        "name": "Fotos y vídeos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Foto's en video's"
       },
@@ -114360,10 +115204,6 @@
       {
         "locale": "en-de",
         "name": "Photos and videos"
-      },
-      {
-        "locale": "es-es",
-        "name": "Fotos y vídeos"
       },
       {
         "locale": "de-de",
@@ -114425,6 +115265,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -116085,6 +116930,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -116405,6 +117255,10 @@
         "name": "Спулер печати"
       },
       {
+        "locale": "es-es",
+        "name": "Cola de impresión"
+      },
+      {
         "locale": "nl-nl",
         "name": "Afdrukspooler"
       },
@@ -116419,10 +117273,6 @@
       {
         "locale": "de-de",
         "name": "Druck-Spooler"
-      },
-      {
-        "locale": "es-es",
-        "name": "Cola de impresión"
       }
     ],
     "devices": [
@@ -116515,6 +117365,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -116897,6 +117752,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -117407,6 +118267,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -117760,6 +118625,10 @@
         "name": "Вырез Punch Hole"
       },
       {
+        "locale": "es-es",
+        "name": "Recorte redondo"
+      },
+      {
         "locale": "en-au",
         "name": "Punch hole cutout"
       },
@@ -117806,10 +118675,6 @@
       {
         "locale": "en-za",
         "name": "Punch hole cutout"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recorte redondo"
       }
     ],
     "devices": [
@@ -117887,6 +118752,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -119281,6 +120151,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -120150,6 +121025,11 @@
         "os": "33"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -120797,6 +121677,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -128871,6 +129756,28 @@
       }
     ]
   },
+  "com.android.screenshot": {
+    "appName": "Screenshot",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Captura de pantalla"
+      }
+    ],
+    "devices": [
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.coloros.screenshot": {
     "appName": "Screenshot",
     "userFacing": false,
@@ -128897,18 +129804,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.android.screenshot": {
-    "appName": "Screenshot",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "SMT_HK",
-        "model": "Helium Pro",
-        "os": "31"
       }
     ]
   },
@@ -129020,6 +129915,10 @@
         "name": "Search engine selector"
       },
       {
+        "locale": "es-es",
+        "name": "Selector de motor de búsqueda"
+      },
+      {
         "locale": "nl-nl",
         "name": "Kiezer voor zoekmachine"
       },
@@ -129042,10 +129941,6 @@
       {
         "locale": "en-de",
         "name": "Search engine selector"
-      },
-      {
-        "locale": "es-es",
-        "name": "Selector de motor de búsqueda"
       }
     ],
     "devices": [
@@ -129108,6 +130003,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -130120,6 +131020,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -131896,6 +132801,10 @@
         "name": "Настройки"
       },
       {
+        "locale": "es-es",
+        "name": "Ajustes"
+      },
+      {
         "locale": "nl-nl",
         "name": "Instellingen"
       },
@@ -131914,10 +132823,6 @@
       {
         "locale": "de-de",
         "name": "Einstellungen"
-      },
-      {
-        "locale": "es-es",
-        "name": "Ajustes"
       }
     ],
     "devices": [
@@ -132010,6 +132915,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -132528,6 +133438,10 @@
         "name": "Хранилище настроек"
       },
       {
+        "locale": "es-es",
+        "name": "Almacenamiento de configuración"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslagruimte voor instellingen"
       },
@@ -132546,10 +133460,6 @@
       {
         "locale": "de-de",
         "name": "Einstellungsspeicher"
-      },
-      {
-        "locale": "es-es",
-        "name": "Almacenamiento de configuración"
       }
     ],
     "devices": [
@@ -132642,6 +133552,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -133035,6 +133950,10 @@
         "name": "Предложения Настроек"
       },
       {
+        "locale": "es-es",
+        "name": "Sugerencias de ajustes"
+      },
+      {
         "locale": "nl-nl",
         "name": "Instellingen Suggesties"
       },
@@ -133053,10 +133972,6 @@
       {
         "locale": "de-de",
         "name": "Einstellungsvorschläge"
-      },
-      {
-        "locale": "es-es",
-        "name": "Sugerencias de ajustes"
       }
     ],
     "devices": [
@@ -133124,6 +134039,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -134000,6 +134920,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -134687,6 +135612,10 @@
         "name": "Диалог Sim Приложения"
       },
       {
+        "locale": "es-es",
+        "name": "Cuadro de diálogo de la aplicación de SIM"
+      },
+      {
         "locale": "en-au",
         "name": "Sim app dialogue"
       },
@@ -134709,10 +135638,6 @@
       {
         "locale": "en-de",
         "name": "Sim app dialogue"
-      },
-      {
-        "locale": "es-es",
-        "name": "Cuadro de diálogo de la aplicación de SIM"
       },
       {
         "locale": "en-za",
@@ -134799,6 +135724,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -135373,6 +136303,10 @@
         "name": "SIM-Меню"
       },
       {
+        "locale": "es-es",
+        "name": "Kit herramientas SIM"
+      },
+      {
         "locale": "en-au",
         "name": "SIM Tool Kit"
       },
@@ -135407,10 +136341,6 @@
       {
         "locale": "de-de",
         "name": "SIM-Toolkit"
-      },
-      {
-        "locale": "es-es",
-        "name": "Kit herramientas SIM"
       },
       {
         "locale": "en-za",
@@ -135497,6 +136427,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -135947,6 +136882,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -139105,7 +140045,12 @@
   "com.android.soundrecorder": {
     "appName": "Sound Recorder",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Grabadora de sonidos"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -139126,6 +140071,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -139205,6 +140155,10 @@
         "name": "Звуки"
       },
       {
+        "locale": "es-es",
+        "name": "Sonidos"
+      },
+      {
         "locale": "es-us",
         "name": "Sonidos"
       },
@@ -139267,6 +140221,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -139645,6 +140604,10 @@
         "name": "Распознавание и синтез речи от Google"
       },
       {
+        "locale": "es-es",
+        "name": "Reconocimiento y síntesis de voz de Google"
+      },
+      {
         "locale": "en-au",
         "name": "Google Text-to-speech engine"
       },
@@ -139679,10 +140642,6 @@
       {
         "locale": "de-de",
         "name": "Spracherkennung und -Synthese von Google"
-      },
-      {
-        "locale": "es-es",
-        "name": "Reconocimiento y síntesis de voz de Google"
       },
       {
         "locale": "en-za",
@@ -139787,6 +140746,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -141364,6 +142328,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -142098,6 +143067,10 @@
         "name": "System connectivity resources"
       },
       {
+        "locale": "es-es",
+        "name": "Recursos de conectividad del sistema"
+      },
+      {
         "locale": "nl-nl",
         "name": "Resources voor systeemconnectiviteit"
       },
@@ -142124,10 +143097,6 @@
       {
         "locale": "en-de",
         "name": "System connectivity resources"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recursos de conectividad del sistema"
       }
     ],
     "devices": [
@@ -142200,6 +143169,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -142751,6 +143725,10 @@
         "name": "Родительский контроль Family Link"
       },
       {
+        "locale": "es-es",
+        "name": "Controles parentales de Family Link"
+      },
+      {
         "locale": "nl-nl",
         "name": "Ouderlijk toezicht van systeem"
       },
@@ -142769,10 +143747,6 @@
       {
         "locale": "de-de",
         "name": "Jugendschutzeinstellungen"
-      },
-      {
-        "locale": "es-es",
-        "name": "Controles parentales de Family Link"
       }
     ],
     "devices": [
@@ -142845,6 +143819,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -143192,6 +144171,10 @@
         "name": "Трассировка системы"
       },
       {
+        "locale": "es-es",
+        "name": "Trazado del sistema"
+      },
+      {
         "locale": "es-us",
         "name": "Registro del sistema"
       },
@@ -143206,10 +144189,6 @@
       {
         "locale": "de-de",
         "name": "Ablaufverfolgung"
-      },
-      {
-        "locale": "es-es",
-        "name": "Trazado del sistema"
       }
     ],
     "devices": [
@@ -143292,6 +144271,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -143594,6 +144578,10 @@
         "name": "Интерфейс системы"
       },
       {
+        "locale": "es-es",
+        "name": "IU sistema"
+      },
+      {
         "locale": "nl-nl",
         "name": "Systeem-UI"
       },
@@ -143612,10 +144600,6 @@
       {
         "locale": "de-de",
         "name": "System-UI"
-      },
-      {
-        "locale": "es-es",
-        "name": "IU sistema"
       }
     ],
     "devices": [
@@ -143708,6 +144692,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -144480,6 +145469,11 @@
         "os": "35"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -144836,6 +145830,10 @@
         "name": "Системные ресурсы Wi-Fi"
       },
       {
+        "locale": "es-es",
+        "name": "Recursos Wi‑Fi del sistema"
+      },
+      {
         "locale": "es-us",
         "name": "Recursos Wi‑Fi del sistema"
       },
@@ -144887,6 +145885,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -145411,6 +146414,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Etiquetas"
+      },
+      {
         "locale": "es-us",
         "name": "Etiquetas"
       },
@@ -145459,6 +146466,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -145779,6 +146791,10 @@
         "name": "Сверху"
       },
       {
+        "locale": "es-es",
+        "name": "Recorte alto"
+      },
+      {
         "locale": "nl-nl",
         "name": "Hoge cutout"
       },
@@ -145801,10 +146817,6 @@
       {
         "locale": "de-de",
         "name": "Hohe Aussparung"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recorte alto"
       }
     ],
     "devices": [
@@ -145892,6 +146904,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -146657,6 +147674,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -146889,6 +147911,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -147442,6 +148469,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -147512,6 +148544,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "realme",
@@ -149431,6 +150468,10 @@
         "name": "Словарь пользователя"
       },
       {
+        "locale": "es-es",
+        "name": "Diccionario del usuario"
+      },
+      {
         "locale": "nl-nl",
         "name": "Gebruikerswoordenboek"
       },
@@ -149449,10 +150490,6 @@
       {
         "locale": "de-de",
         "name": "Mein Wörterbuch"
-      },
-      {
-        "locale": "es-es",
-        "name": "Diccionario del usuario"
       }
     ],
     "devices": [
@@ -149545,6 +150582,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -151561,8 +152603,18 @@
   "com.mediatek.voicecommand": {
     "appName": "VoiceCommand",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Comando de voz"
+      }
+    ],
     "devices": [
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
       {
         "make": "realme",
         "model": "RMX2001",
@@ -151860,6 +152912,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -152353,6 +153410,10 @@
         "name": "Обои и стиль"
       },
       {
+        "locale": "es-es",
+        "name": "Fondo de pantalla y estilo"
+      },
+      {
         "locale": "en-gb",
         "name": "Wallpaper and style"
       }
@@ -152367,6 +153428,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -152740,6 +153806,10 @@
         "name": "Обои"
       },
       {
+        "locale": "es-es",
+        "name": "com.android.wallpaperpicker"
+      },
+      {
         "locale": "en-au",
         "name": "com.android.wallpaperpicker"
       },
@@ -152780,6 +153850,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -152988,6 +154063,10 @@
         "name": "Вырез на экране Waterfall"
       },
       {
+        "locale": "es-es",
+        "name": "Recorte de cascada"
+      },
+      {
         "locale": "nl-nl",
         "name": "Waterval-cutout"
       },
@@ -153010,10 +154089,6 @@
       {
         "locale": "de-de",
         "name": "Aussparung für Wasserfall-Display"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recorte de cascada"
       }
     ],
     "devices": [
@@ -153091,6 +154166,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -153369,6 +154449,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
@@ -154805,6 +155890,18 @@
       }
     ]
   },
+  "com.android.wifimacsettings": {
+    "appName": "WifiMacSettings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.tai.wifiqoe": {
     "appName": "WifiQoe",
     "userFacing": false,
@@ -154827,6 +155924,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
       {
         "make": "LENOVO",
         "model": "TB352FU",
@@ -154902,6 +156004,10 @@
         "name": "Экстренные оповещения по беспроводным сетям"
       },
       {
+        "locale": "es-es",
+        "name": "Alertas de emergencia inalámbricas"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mobiele noodmeldingen"
       },
@@ -154924,10 +156030,6 @@
       {
         "locale": "de-de",
         "name": "Notfallbenachrichtigungen an Mobilgeräte"
-      },
-      {
-        "locale": "es-es",
-        "name": "Alertas de emergencia inalámbricas"
       },
       {
         "locale": "",
@@ -155009,6 +156111,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "DOOGEE",
@@ -155579,6 +156686,10 @@
         "name": "Рабочий профиль"
       },
       {
+        "locale": "es-es",
+        "name": "Configuración de trabajo"
+      },
+      {
         "locale": "nl-nl",
         "name": "Werkinstelling"
       },
@@ -155597,10 +156708,6 @@
       {
         "locale": "de-de",
         "name": "Einrichtung des Arbeitsprofils"
-      },
-      {
-        "locale": "es-es",
-        "name": "Configuración de trabajo"
       }
     ],
     "devices": [
@@ -155688,6 +156795,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -156594,6 +157706,11 @@
         "os": "34"
       },
       {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -156731,6 +157848,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -157093,6 +158215,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
       },
       {
         "make": "OnePlus",
