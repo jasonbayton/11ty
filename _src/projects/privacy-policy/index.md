@@ -13,7 +13,7 @@ eleventyNavigation:
     order: 3
     title: Privacy policy
 ---
-_Version 1.1, 11th December, 2024_
+_Version 1.2, 6th September, 2025_
 
 ## Introduction
 
@@ -26,8 +26,8 @@ Welcome to BAYTON projects. This privacy policy explains how I collect, use, dis
 
 ## Application Details
 
-**Application Name(s)**: PACKAGE SEARCH, MANAGED SETTINGS, MANAGED INFO, QR CODE  
-**Purpose**: Application information and package name extraction, settings management, information management, device provisioning.
+**Application Name(s)**: PACKAGE SEARCH, MANAGED SETTINGS, MANAGED INFO, MANAGED ARCHIVER, QR CODE  
+**Purpose**: Application information and package name extraction, settings management, information management, data backup, device provisioning.
 
 ## Definitions
 
@@ -39,13 +39,17 @@ Welcome to BAYTON projects. This privacy policy explains how I collect, use, dis
 
 ### Types of Data Collected
 
-- **Basic Device Details**: Non-identifiable information including Android device make, model, OS version, the application in use (PS/MI/MS), the country a device resides in, and the licence key used may be collected.
+- **Basic Device Details**: Non-identifiable information including Android device make, model, OS version, the application in use, the country a device resides in, and the licence key used may be collected.
 - **Application information**: Upon opt-in of [application version tracking](/projects/package-search/support/enable-package-sync) in PACKAGE SEARCH: application names, package names, and versions installed.
+- **Feature use**: Analytics and configuration data of the application(s) in use.
+- **Messages sent/received**: Upon use of the MANAGED ARCHIVER project, and when choosing to use the default PING infrastructure for message backup. 
 
 ### Collection Methods
 
 - **Basic Device Details**: Collected on application/project engagement and sent to the BAYTON application activation (PING) server.
 - **Application information**: Upon opt-in of [application version tracking](/projects/package-search/support/enable-package-sync) in PACKAGE SEARCH, the user-installed applications of the device in-use will be sent to the PING service for the purpose of application version monitoring with Google Play.
+- **Feature use**: Collected when devices check in with PING infrastructure
+- **Messages sent/received**: Direct upload when the application is configured to do so
 
 ### Cookies and Tracking Technologies
 
@@ -55,9 +59,10 @@ I do not use cookies or similar tracking technologies in-app.
 
 ### Purposes of Data Usage
 
-- Aggregated application use.
-- Troubleshooting.
+- Aggregated application use
+- Troubleshooting
 - Enhanced functionality
+- To perform services
 
 ### Automated Decision-Making
 
@@ -76,6 +81,7 @@ I do not use cookies or similar tracking technologies in-app.
 
 - **Anonymised Device Information**: Retained for 90 days.
 - **Business and Contact Information**: Not retained.
+- **Messaging data**: Defined by contractual SLA
 
 ## User Rights
 
@@ -88,6 +94,8 @@ I do not use cookies or similar tracking technologies in-app.
 - **Objection**: Users have the right to object to data processing.
 - **Data Portability**: Users have the right to request transfer of their data to another service.
 
+**Note**: In business context, individual user requests may be redirected to internal IT/stakeholders with the respective organisation.
+
 ### Exercising Rights
 
 - Users can exercise their rights by contacting [project-support@bayton.org](mailto:project-support@bayton.org).
@@ -98,7 +106,7 @@ I do not use cookies or similar tracking technologies in-app.
 
 ## Data Breach Procedures
 
-- In the event of a data breach, no personally identifiable data would be available. There is no risk to users of PACKAGE SEARCH.
+- In the event of a data breach, all known parties using BAYTON projects will be alerted where PII is in scope.
 
 ## Children's Privacy
 
