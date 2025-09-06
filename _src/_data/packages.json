@@ -129,6 +129,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -1389,6 +1394,18 @@
       }
     ]
   },
+  "com.symbol.fusionsettings": {
+    "appName": "Advanced",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.oppoex.afterservice": {
     "appName": "After-Sales Service",
     "userFacing": false,
@@ -2055,6 +2072,18 @@
       }
     ]
   },
+  "com.symbol.mxmf.csp.analyticsmgr": {
+    "appName": "AnalyticsMgr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "org.android_x86.analytics": {
     "appName": "AnalyticsService",
     "userFacing": false,
@@ -2146,6 +2175,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -2798,6 +2832,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -3122,6 +3161,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -3226,6 +3270,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -3667,6 +3716,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -4061,6 +4115,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -4486,6 +4545,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -4902,6 +4966,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -5217,6 +5286,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -5365,6 +5439,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -5712,6 +5791,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -6857,6 +6941,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -7140,6 +7229,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -10576,6 +10670,18 @@
       }
     ]
   },
+  "com.zebra.autoserviceselection": {
+    "appName": "AutoServiceSelection",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.longcheertel.AutoTest": {
     "appName": "Autotest",
     "userFacing": false,
@@ -11386,6 +11492,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -11740,6 +11851,18 @@
       }
     ]
   },
+  "com.symbol.batterymanager": {
+    "appName": "Battery Manager",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.sw.battery_notification": {
     "appName": "Battery Notification",
     "userFacing": false,
@@ -11773,6 +11896,18 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      }
+    ]
+  },
+  "com.zebra.valueadd.batterymgr": {
+    "appName": "BatteryMgr_CSP",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -12690,6 +12825,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -13390,6 +13530,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -13787,6 +13932,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -14083,6 +14233,18 @@
       }
     ]
   },
+  "com.zebra.bluetoothsystem": {
+    "appName": "BluetoothSystem",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.sec.android.app.bluetoothtest": {
     "appName": "BluetoothTest",
     "userFacing": false,
@@ -14215,6 +14377,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -14890,6 +15057,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -15067,6 +15239,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -15338,6 +15515,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -15790,6 +15972,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -16544,6 +16731,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -18264,6 +18456,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -18824,6 +19021,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -19421,6 +19623,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -19999,6 +20206,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -20780,6 +20992,11 @@
         "os": "30"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -20832,6 +21049,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.zebra.csp.cellularmgr": {
+    "appName": "CellularMgr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -20983,6 +21212,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -21465,6 +21699,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -22776,6 +23015,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -23268,6 +23512,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -23550,6 +23799,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -25289,6 +25543,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -25688,6 +25947,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -26397,6 +26661,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -26640,6 +26909,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -27519,6 +27793,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -27637,6 +27916,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -28751,6 +29035,18 @@
       }
     ]
   },
+  "com.android.powermenu": {
+    "appName": "com.android.powermenu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.providers.contacts.auto_generated_rro_product__": {
     "appName": "com.android.providers.contacts.auto_generated_rro_product__",
     "userFacing": false,
@@ -28921,6 +29217,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -29372,6 +29673,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -30374,6 +30680,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -30881,6 +31192,18 @@
       }
     ]
   },
+  "com.android.settings.bluetooth.rro": {
+    "appName": "com.android.settings.bluetooth.rro",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.settings.komodo": {
     "appName": "com.android.settings.komodo",
     "userFacing": false,
@@ -30972,6 +31295,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -31261,6 +31589,18 @@
       }
     ]
   },
+  "com.android.SettingsNoVibrationString": {
+    "appName": "com.android.SettingsNoVibrationString",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.setupwizardoverlay.overlay.tetris_base": {
     "appName": "com.android.setupwizardoverlay.overlay.tetris_base",
     "userFacing": false,
@@ -31371,6 +31711,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -31755,6 +32100,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -32846,6 +33196,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -33832,6 +34187,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -34209,6 +34569,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -34509,6 +34874,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34890,6 +35260,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -38017,6 +38392,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -38316,6 +38696,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -38578,6 +38963,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -38788,6 +39178,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -39082,6 +39477,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -39488,6 +39888,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -40205,6 +40610,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -40756,6 +41166,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -41050,6 +41465,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -41502,6 +41922,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -41816,6 +42241,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -42115,6 +42545,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -48192,6 +48627,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -48316,6 +48756,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -48383,6 +48828,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -48445,6 +48895,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -48465,6 +48920,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -48522,6 +48982,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "motorola",
@@ -48707,6 +49172,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -48873,6 +49343,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -48945,6 +49420,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -48990,6 +49470,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -49083,6 +49568,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -49344,6 +49834,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -49426,6 +49921,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -49501,6 +50001,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "motorola",
@@ -49674,6 +50179,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -49734,6 +50244,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53419,6 +53934,162 @@
       }
     ]
   },
+  "com.symbol.batteryswapserv": {
+    "appName": "com.symbol.batteryswapserv",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.csp.audiomgr": {
+    "appName": "com.symbol.csp.audiomgr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.csp.audiovoluimgr": {
+    "appName": "com.symbol.csp.audiovoluimgr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.cu": {
+    "appName": "com.symbol.cu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.dd": {
+    "appName": "com.symbol.dd.DDServiceApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.mxmf.proxyframework": {
+    "appName": "com.symbol.mxmf.proxyframework",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.osx.appinstallerservice": {
+    "appName": "com.symbol.osx.appinstallerservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.osx.rootdetection": {
+    "appName": "com.symbol.osx.rootdetection",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.osx.threatdetectionservice": {
+    "appName": "com.symbol.osx.threatdetectionservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.projectmediaservice": {
+    "appName": "com.symbol.projectmediaservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.scannerfirmwareupdate": {
+    "appName": "com.symbol.scannerfirmwareupdate",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.zebraeula": {
+    "appName": "com.symbol.zebraeula",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.zremotekey": {
+    "appName": "com.symbol.zremotekey",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.t2m.euiccoverlay": {
     "appName": "com.t2m.euiccoverlay",
     "userFacing": false,
@@ -54191,6 +54862,138 @@
       }
     ]
   },
+  "com.zebra.dhcpoptionmgr": {
+    "appName": "com.zebra.dhcpoptionmgr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.ethtracker": {
+    "appName": "com.zebra.ethtracker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.files": {
+    "appName": "com.zebra.files",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.keyeventservice": {
+    "appName": "com.zebra.keyeventservice.KeyMapEventApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.lifeguardotamanager": {
+    "appName": "com.zebra.lifeguardotamanager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.osx.powermenu": {
+    "appName": "com.zebra.osx.powermenu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.popupcontrol": {
+    "appName": "com.zebra.popupcontrol",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.timecacher": {
+    "appName": "com.zebra.timecacher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.valueadd.autoscan": {
+    "appName": "com.zebra.valueadd.autoscan",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.wfc.service": {
+    "appName": "com.zebra.wfc.service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.zcm": {
+    "appName": "com.zebra.zcm",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.zui.android.overlay.common": {
     "appName": "com.zui.android.overlay.common",
     "userFacing": false,
@@ -54541,6 +55344,18 @@
       }
     ]
   },
+  "com.zebra.commontransportlayer": {
+    "appName": "Common Transport Layer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.companiondevicemanager": {
     "appName": "Companion Device Manager",
     "userFacing": false,
@@ -54665,6 +55480,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -55155,6 +55975,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -55462,6 +56287,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -56897,6 +57727,11 @@
         "os": "31"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -57226,6 +58061,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -58066,6 +58906,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -59650,6 +60495,18 @@
       }
     ]
   },
+  "com.symbol.datawedge": {
+    "appName": "DataWedge",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.qti.dcf": {
     "appName": "dcf",
     "userFacing": false,
@@ -59756,6 +60613,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.zebra.datacapturevision": {
+    "appName": "DCVisionService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -60037,6 +60906,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -61021,6 +61895,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -61342,6 +62221,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -61780,6 +62664,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.zebra.mdna.devicetrackercloud": {
+    "appName": "Device Tracker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -63070,6 +63966,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -63303,6 +64204,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      }
+    ]
+  },
+  "com.displaylink.desktop.oem": {
+    "appName": "DisplayLink Desktop (OEM)",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -63764,6 +64677,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -64167,6 +65085,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -64597,6 +65520,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -65248,6 +66176,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -66142,6 +67075,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -67050,6 +67988,18 @@
       }
     ]
   },
+  "com.symbol.emdk.emdkservice": {
+    "appName": "EMDK Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.mediatek.cellbroadcastreceiver": {
     "appName": "Emergency alerts",
     "userFacing": false,
@@ -67151,6 +68101,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -67686,6 +68641,18 @@
       }
     ]
   },
+  "com.symbol.service": {
+    "appName": "eMMC Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.emojiwallpaper": {
     "appName": "Emoji Workshop Wallpaper",
     "userFacing": false,
@@ -68020,6 +68987,18 @@
       }
     ]
   },
+  "com.zebra.engtools": {
+    "appName": "EngTools",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.tct.phone": {
     "appName": "Enhanced Phone Services",
     "userFacing": false,
@@ -68199,6 +69178,18 @@
       }
     ]
   },
+  "com.zebra.enrollmentmgr": {
+    "appName": "EnrollmentMgr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.motorola.enterprise.adapter.service": {
     "appName": "Enterprise Adapter Service",
     "userFacing": false,
@@ -68223,6 +69214,30 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.symbol.mxmf.csp.enterprisekeyboard": {
+    "appName": "Enterprise Keyboard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.enterprisenfcsettings": {
+    "appName": "Enterprise NFC Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -68316,6 +69331,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.zebra.valueadd.enfc": {
+    "appName": "EnterpriseNFCManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -68793,6 +69820,18 @@
       }
     ]
   },
+  "com.symbol.ethernetsettings": {
+    "appName": "Ethernet",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.plum.EuiccOverlayApp": {
     "appName": "EuiccOverlayApp",
     "userFacing": false,
@@ -68829,6 +69868,18 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.zebra.eventinjectionservice": {
+    "appName": "EventInjectionService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -68976,6 +70027,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -71017,6 +72073,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -73322,6 +74383,18 @@
       }
     ]
   },
+  "com.friendly.foda": {
+    "appName": "Friendly OMA-DM",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "jp.co.fsi.fskaren.lenovo": {
     "appName": "FSKAREN",
     "userFacing": false,
@@ -73511,6 +74584,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -73824,6 +74902,30 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.symbol.fusionlogger": {
+    "appName": "FusionLogger",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.fusionservice": {
+    "appName": "FusionService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -75944,6 +77046,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -76332,6 +77439,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -76781,6 +77893,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -77135,6 +78252,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -77449,6 +78571,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -77887,6 +79014,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -78342,6 +79474,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -79181,6 +80318,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -79567,6 +80709,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -79964,6 +81111,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -80534,6 +81686,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -81189,6 +82346,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -82070,6 +83232,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -82462,6 +83629,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -82982,6 +84154,18 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      }
+    ]
+  },
+  "com.zebra.csp.gprsmgr": {
+    "appName": "GprsMgr",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -84555,6 +85739,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.notificationservice": {
+    "appName": "High Battery Temperature",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.talpa.hiservice": {
     "appName": "HiLanguageService",
     "userFacing": false,
@@ -85385,6 +86581,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -86767,6 +87968,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -87292,6 +88498,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -88212,6 +89423,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -88508,6 +89724,18 @@
       }
     ]
   },
+  "com.zebra.zkeymapper": {
+    "appName": "Key Programmer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.agui.keyboard": {
     "appName": "Keyboard shortcuts",
     "userFacing": false,
@@ -88605,6 +89833,18 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      }
+    ]
+  },
+  "com.zebra.valueadd.keymappingservice": {
+    "appName": "KeymappingService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -90672,6 +91912,30 @@
       }
     ]
   },
+  "com.zebra.licenseuiapp": {
+    "appName": "License Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.licensemgrservice": {
+    "appName": "LicenseMgrService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.motorola.lifetimedata": {
     "appName": "LifetimeData",
     "userFacing": false,
@@ -91416,6 +92680,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -91912,6 +93181,18 @@
       }
     ]
   },
+  "com.zebra.locationprerun": {
+    "appName": "LocationPreRun",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.qualcomm.location": {
     "appName": "LocationServices",
     "userFacing": false,
@@ -92330,6 +93611,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "LENOVO",
@@ -92759,6 +94045,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -93098,6 +94389,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -93534,6 +94830,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -93942,6 +95243,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -94324,6 +95630,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.qualcomm.qti.modemtestmode": {
+    "appName": "MBN Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -95139,6 +96457,11 @@
         "os": "30"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -95383,6 +96706,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -99920,6 +101248,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -100549,6 +101882,11 @@
         "os": "30"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -100667,6 +102005,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.symbol.mxmf": {
+    "appName": "MXMF",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -101691,6 +103041,18 @@
       }
     ]
   },
+  "com.zebra.networkconnectionmgr": {
+    "appName": "Network Connection Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.oppo.nhs": {
     "appName": "Network Health Service",
     "userFacing": false,
@@ -101828,6 +103190,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -102872,6 +104239,18 @@
       }
     ]
   },
+  "com.zebra.nfcquicksettings": {
+    "appName": "NFC",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.nfc": {
     "appName": "NFC",
     "userFacing": false,
@@ -103066,6 +104445,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -104079,6 +105463,18 @@
       }
     ]
   },
+  "com.symbol.ledbrightness": {
+    "appName": "Notification LED brightness level",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.miui.notification": {
     "appName": "Notifications",
     "userFacing": false,
@@ -104179,6 +105575,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -104684,6 +106085,18 @@
       }
     ]
   },
+  "com.symbol.ntp": {
+    "appName": "NTP Server",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.cipherlab.nullkeyboard": {
     "appName": "NullKeyboard",
     "userFacing": false,
@@ -105052,6 +106465,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.zebra.oeminfo": {
+    "appName": "OemInfo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -106797,6 +108222,11 @@
         "os": "30"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -107129,6 +108559,18 @@
       }
     ]
   },
+  "com.symbol.osx.osxprovisionservice": {
+    "appName": "OSXProvisionService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.wdstechnology.android.kryten": {
     "appName": "OTA Access Point Configuration",
     "userFacing": false,
@@ -107405,6 +108847,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -107829,6 +109276,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -108979,6 +110431,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -110563,6 +112020,18 @@
       }
     ]
   },
+  "org.codeaurora.dialer": {
+    "appName": "Phone",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.sonymobile.android.dialer": {
     "appName": "Phone",
     "userFacing": true,
@@ -110710,6 +112179,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -111175,6 +112649,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -111613,6 +113092,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -112265,6 +113749,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -112630,6 +114119,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -114151,6 +115645,18 @@
       }
     ]
   },
+  "com.zebra.plmn": {
+    "appName": "PLMN Lock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.app.dofviewer": {
     "appName": "Portrait",
     "userFacing": false,
@@ -114374,6 +115880,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -114581,6 +116092,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -115011,6 +116527,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -115380,6 +116901,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -115773,6 +117299,18 @@
       }
     ]
   },
+  "com.symbol.osx.proxyframework": {
+    "appName": "Proxy Framework",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.proxyhandler": {
     "appName": "ProxyHandler",
     "userFacing": false,
@@ -115876,6 +117414,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -116356,6 +117899,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -116802,6 +118350,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -117738,6 +119291,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -118478,6 +120036,18 @@
       }
     ]
   },
+  "com.zebra.regulatory": {
+    "appName": "Regulatory",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.jrdcom.Elabel": {
     "appName": "Regulatory & safety",
     "userFacing": false,
@@ -119175,6 +120745,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -119977,6 +121552,30 @@
       }
     ]
   },
+  "com.zebra.overlay.roundedsq": {
+    "appName": "RoundedSquare",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.valueadd.rsmservice": {
+    "appName": "RSMZVA",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.example.android.rssreader": {
     "appName": "RSS Reader",
     "userFacing": true,
@@ -120015,6 +121614,30 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.symbol.rxlogger": {
+    "appName": "RxLogger",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.rxloggerutility": {
+    "appName": "RxLoggerUtility",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -120105,13 +121728,23 @@
     ]
   },
   "com.android.safetycenter.resources": {
-    "appName": "Safety Centre resources",
+    "appName": "Safety Center Resources",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Safety Centre resources"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
         "model": "brya",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       }
     ]
@@ -127076,6 +128709,18 @@
       }
     ]
   },
+  "com.symbol.scanning.scanningframework": {
+    "appName": "ScanningFrameworkAPK",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.mediatek.schpwronoff": {
     "appName": "Schedule power on & off",
     "userFacing": false,
@@ -127662,6 +129307,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -128178,11 +129828,28 @@
       }
     ]
   },
+  "com.symbol.osx.securestorage": {
+    "appName": "Secure Storage Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.qualcomm.qti.services.secureui": {
     "appName": "Secure UI Service",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
       {
         "make": "CipherLab",
         "model": "RK95",
@@ -128462,6 +130129,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -128750,6 +130422,18 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      }
+    ]
+  },
+  "com.zebra.securestoragemanager": {
+    "appName": "SecureStorageManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -130338,6 +132022,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -130965,6 +132654,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -131439,6 +133133,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -132308,6 +134007,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -135806,6 +137510,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -136343,6 +138052,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "CipherLab",
@@ -137565,6 +139279,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -138080,6 +139799,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -138495,6 +140219,18 @@
       }
     ]
   },
+  "com.symbol.tool.stagenow": {
+    "appName": "StageNow",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.app.camera.sticker.stamp.preload": {
     "appName": "Stamps",
     "userFacing": false,
@@ -138897,6 +140633,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -139452,6 +141193,18 @@
       }
     ]
   },
+  "com.zebra.subsidylockservice": {
+    "appName": "Subsidylock Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.subsys": {
     "appName": "Subsystem Service",
     "userFacing": false,
@@ -139613,6 +141366,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -140025,6 +141783,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.symbol.swcomponents": {
+    "appName": "SW Components",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -140709,6 +142479,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -140768,6 +142543,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -141069,6 +142849,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -141519,6 +143304,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -141930,6 +143720,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -142277,6 +144072,18 @@
       }
     ]
   },
+  "com.symbol.fota": {
+    "appName": "System update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.cota.notification": {
     "appName": "System update",
     "userFacing": false,
@@ -142479,6 +144286,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -142849,6 +144661,11 @@
         "os": "30"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -143175,6 +144992,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.symbol.dataanalytics.systemhelper": {
+    "appName": "SystemHelper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -143642,6 +145471,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -144067,6 +145901,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -145319,6 +147158,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -146336,6 +148180,18 @@
       }
     ]
   },
+  "com.zebra.touchpanelui": {
+    "appName": "Touch panel mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.settings.display": {
     "appName": "Touch screen calibration",
     "userFacing": false,
@@ -146345,6 +148201,42 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      }
+    ]
+  },
+  "com.zebra.overlay.touchConfigRROEeti": {
+    "appName": "touchConfigRROEeti",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.overlay.touchConfigRROSynaptics": {
+    "appName": "touchConfigRROSynaptics",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.valueadd.touchservice": {
+    "appName": "TouchService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -147027,6 +148919,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -147657,6 +149554,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -148407,6 +150309,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -148462,6 +150369,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "motorola",
@@ -148539,6 +150451,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "motorola",
@@ -149250,6 +151167,18 @@
       }
     ]
   },
+  "com.symbol.vod": {
+    "appName": "VoD",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.aura.oobe.vodafone": {
     "appName": "Vodafone AppBox",
     "userFacing": false,
@@ -149943,6 +151872,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -150263,6 +152197,18 @@
       }
     ]
   },
+  "com.symbol.WakeupSources": {
+    "appName": "Wake-Up Sources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.zui.wallpapersetting": {
     "appName": "Wallpaper",
     "userFacing": false,
@@ -150335,6 +152281,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       },
       {
         "make": "motorola",
@@ -151149,6 +153100,11 @@
       {
         "make": "DOOGEE",
         "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
         "os": "33"
       },
       {
@@ -152112,6 +154068,11 @@
         "os": "34"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -152170,6 +154131,18 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.zebra.smartmu.wfwsupportservice": {
+    "appName": "WFWSupportService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -152808,6 +154781,18 @@
       }
     ]
   },
+  "com.zebra.zva.wificonfig": {
+    "appName": "WiFiConfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.wifi.intelligence": {
     "appName": "WifiIntelligence",
     "userFacing": false,
@@ -152876,6 +154861,18 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      }
+    ]
+  },
+  "com.zebra.smartmu.app": {
+    "appName": "Wireless Analyzer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -153703,6 +155700,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -154008,6 +156010,30 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.zebra.zva.worryfreewificonfig": {
+    "appName": "WorryFreeWiFiConfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.smartmu.service": {
+    "appName": "WorryFreeWiFiService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
@@ -154717,6 +156743,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -155074,6 +157105,11 @@
         "os": "33"
       },
       {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -155305,6 +157341,198 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.zebra.bluetooth": {
+    "appName": "Zebra Bluetooth",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.bluetooth.settings": {
+    "appName": "Zebra Bluetooth Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.dataanalytics": {
+    "appName": "Zebra Data Service",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.dataanalytics.dca": {
+    "appName": "Zebra Data Service Plugin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.zebradna": {
+    "appName": "Zebra DNA Client",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.phone": {
+    "appName": "Zebra Phone",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.showcaseapp": {
+    "appName": "Zebra Showcase",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.server": {
+    "appName": "Zebra System Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.zcarrierconfig": {
+    "appName": "ZebraCarrierConfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.zebracontentprovider": {
+    "appName": "ZebraContentProvider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.devicemanager": {
+    "appName": "ZebraDeviceManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.zebrafolders": {
+    "appName": "ZebraFolders",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.zvahelper": {
+    "appName": "ZebraHelper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.location": {
+    "appName": "ZebraRttLocation",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.symbol.zebravolumecontrol": {
+    "appName": "ZebraVolumeControl",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.zebra.zebravolumecontrol3": {
+    "appName": "ZebraVolumeControl3",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Zebra Technologies",
+        "model": "TC21",
+        "os": "33"
       }
     ]
   },
