@@ -9,13 +9,6 @@
      - Enterprise
 ---
 
-<div class="callout callout-blue">
-<div class="callout-heading callout-heading-small">This is a work in progress</div>
-
-The content below is very much a stream of consciousness in some places, and will be iterated on through the week. If something doesn't make sense, either reach out or come back later once I've had the time to fully compose my thoughts and results!
-
-</div>
-
 With the release of [AMAPI SDK 1.6.0-rc01](https://developers.google.com/android/management/sdk-release-notes), Google has introduced long-awaited support for direct APK installation via the Android Management API (AMAPI). This new capability allows EMM solutions leveraging Google's Android Device Policy (ADP) to install and update apps on managed devices without relying on Google Play or other third-party mechanisms.
 
 Up to now, direct APK deployment was only possible through custom DPCs*, giving more mature EMM vendors graced with the permission to use them a significant advantage in scenarios where Play distribution was impractical or unavailable. Now, with native package manager support in AMAPI, organisations can streamline app delivery, enforce version control, and maintain security standards - all within the AMAPI framework.
