@@ -204,6 +204,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -704,16 +709,16 @@
         "name": "Ad privacy"
       },
       {
+        "locale": "de-de",
+        "name": "Datenschutz bei Werbung"
+      },
+      {
         "locale": "sv-se",
         "name": "Annonsintegritet"
       },
       {
         "locale": "it-it",
         "name": "Privacy per gli annunci"
-      },
-      {
-        "locale": "de-de",
-        "name": "Datenschutz bei Werbung"
       },
       {
         "locale": "en-de",
@@ -844,6 +849,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -1758,6 +1768,18 @@
       }
     ]
   },
+  "com.seewo.airclass": {
+    "appName": "Air Class",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.service.aircommand": {
     "appName": "Air command",
     "userFacing": false,
@@ -2123,6 +2145,10 @@
         "name": "Suite de Accesibilidad Android"
       },
       {
+        "locale": "de-de",
+        "name": "Android für Barrierefreiheit"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android Toegankelijkheidstools"
       },
@@ -2246,6 +2272,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -2932,6 +2963,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -3178,7 +3214,12 @@
   "com.android.inputmethod.latin": {
     "appName": "Android Keyboard (AOSP)",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-de",
+        "name": "Android-Tastatur (AOSP)"
+      }
+    ],
     "devices": [
       {
         "make": "Elo Touch Solutions",
@@ -3194,6 +3235,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -3386,6 +3432,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -3637,16 +3688,16 @@
         "name": "Configuración de Android"
       },
       {
+        "locale": "de-de",
+        "name": "Android-Einrichtung"
+      },
+      {
         "locale": "sv-se",
         "name": "Konfiguration av Android"
       },
       {
         "locale": "it-it",
         "name": "Configurazione Android"
-      },
-      {
-        "locale": "de-de",
-        "name": "Android-Einrichtung"
       }
     ],
     "devices": [
@@ -3829,6 +3880,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -4241,6 +4297,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -4660,6 +4721,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -4897,16 +4963,16 @@
         "name": "Sistema Android"
       },
       {
+        "locale": "de-de",
+        "name": "Android-System"
+      },
+      {
         "locale": "sv-se",
         "name": "Android-system"
       },
       {
         "locale": "it-it",
         "name": "Sistema Android"
-      },
-      {
-        "locale": "de-de",
-        "name": "Android-System"
       }
     ],
     "devices": [
@@ -5099,6 +5165,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -5557,6 +5628,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -5937,6 +6013,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -6464,6 +6545,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -6729,6 +6815,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -7427,6 +7518,30 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.ifpdos.androidremoters232": {
+    "appName": "AndroidRemoteRs232",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.seewo.mcuservice": {
+    "appName": "AndroidUdiService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -9768,6 +9883,18 @@
       }
     ]
   },
+  "com.ifpdos.osrecord": {
+    "appName": "Aufzeichnung",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.authfw": {
     "appName": "Authentication Framework",
     "userFacing": true,
@@ -11646,6 +11773,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -12790,16 +12922,16 @@
         "name": "Almacenamiento de números bloqueados"
       },
       {
+        "locale": "de-de",
+        "name": "Speicher für blockierte Nummern"
+      },
+      {
         "locale": "sv-se",
         "name": "Lagring av blockerade nummer"
       },
       {
         "locale": "it-it",
         "name": "Archivio numeri bloccati"
-      },
-      {
-        "locale": "de-de",
-        "name": "Speicher für blockierte Nummern"
       }
     ],
     "devices": [
@@ -12987,6 +13119,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -13487,15 +13624,15 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "de-de",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "sv-se",
         "name": "Bluetooth"
       },
       {
         "locale": "it-it",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "de-de",
         "name": "Bluetooth"
       },
       {
@@ -13697,6 +13834,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -14104,6 +14246,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -14557,6 +14704,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -15290,6 +15442,10 @@
         "name": "Calculadora"
       },
       {
+        "locale": "de-de",
+        "name": "Rechner"
+      },
+      {
         "locale": "nl-nl",
         "name": "Rekenmachine"
       },
@@ -15383,6 +15539,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -15556,6 +15717,10 @@
         "name": "Calendario"
       },
       {
+        "locale": "de-de",
+        "name": "Kalender"
+      },
+      {
         "locale": "nl-nl",
         "name": "Agenda"
       },
@@ -15684,6 +15849,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -15961,16 +16131,16 @@
         "name": "Calendar storage"
       },
       {
+        "locale": "de-de",
+        "name": "Kalenderspeicher"
+      },
+      {
         "locale": "sv-se",
         "name": "Kalender"
       },
       {
         "locale": "it-it",
         "name": "Spazio di archiviazione in Calendario"
-      },
-      {
-        "locale": "de-de",
-        "name": "Kalenderspeicher"
       },
       {
         "locale": "en-de",
@@ -16171,6 +16341,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -18008,7 +18183,12 @@
   "com.android.camera2": {
     "appName": "Camera",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-de",
+        "name": "Kamera"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -18034,6 +18214,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -18186,6 +18371,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.ifpdos.camera": {
+    "appName": "Camera",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -18649,6 +18846,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -19054,16 +19256,16 @@
         "name": "Captive portal login"
       },
       {
+        "locale": "de-de",
+        "name": "Anmeldung über Captive Portal"
+      },
+      {
         "locale": "sv-se",
         "name": "Inloggning i infångstportal"
       },
       {
         "locale": "it-it",
         "name": "Accesso a captive portal"
-      },
-      {
-        "locale": "de-de",
-        "name": "Anmeldung über Captive Portal"
       },
       {
         "locale": "en-de",
@@ -19225,6 +19427,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -20938,6 +21145,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -21254,16 +21466,16 @@
         "name": "Certificate installer"
       },
       {
+        "locale": "de-de",
+        "name": "Zertifikatsinstallationsprogramm"
+      },
+      {
         "locale": "sv-se",
         "name": "Installationsprogram för certifikat"
       },
       {
         "locale": "it-it",
         "name": "Installatore certificato"
-      },
-      {
-        "locale": "de-de",
-        "name": "Zertifikatsinstallationsprogramm"
       }
     ],
     "devices": [
@@ -21456,6 +21668,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -21948,6 +22165,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -22970,6 +23192,10 @@
         "name": "Reloj"
       },
       {
+        "locale": "de-de",
+        "name": "Uhr"
+      },
+      {
         "locale": "nl-nl",
         "name": "Klok"
       },
@@ -23083,6 +23309,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -23454,6 +23685,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.seewo.gdupload": {
+    "appName": "Cloud Speicher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -24062,6 +24305,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -25820,6 +26068,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -26230,6 +26483,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -27189,6 +27447,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -27803,6 +28066,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -29527,6 +29795,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -29986,6 +30259,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -31804,6 +32082,18 @@
       }
     ]
   },
+  "com.android.settings.static_overlay": {
+    "appName": "com.android.settings.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.settings.tegu": {
     "appName": "com.android.settings.tegu",
     "userFacing": false,
@@ -32034,6 +32324,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -32363,6 +32658,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "CipherLab",
@@ -34514,6 +34814,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -34891,6 +35196,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -35151,6 +35461,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -36019,6 +36334,54 @@
       }
     ]
   },
+  "com.cvte.tv.api.impl": {
+    "appName": "com.cvte.tv.api.HotkeyApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.cvte.tv.setting": {
+    "appName": "com.cvte.tv.setting.TvApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.cvte.wifi.resources.rro": {
+    "appName": "com.cvte.wifi.resources.rro",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.dss.tpservice": {
+    "appName": "com.dss.tpservice.TPApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.elink.settingsproviderresoverlay": {
     "appName": "com.elink.settingsproviderresoverlay",
     "userFacing": false,
@@ -36439,6 +36802,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -37085,6 +37453,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -38733,6 +39106,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -39050,6 +39428,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -39537,6 +39920,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -39846,6 +40234,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -40085,6 +40478,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -40260,6 +40658,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -40996,6 +41399,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -41562,6 +41970,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -41872,6 +42285,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -42333,6 +42751,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -42657,6 +43080,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -42967,6 +43395,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -43906,6 +44339,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -45562,6 +46000,78 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      }
+    ]
+  },
+  "com.ifpdos.camera.static_overlay": {
+    "appName": "com.ifpdos.camera.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.edlaguide.static_overlay": {
+    "appName": "com.ifpdos.edlaguide.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.osrecord.static_overlay": {
+    "appName": "com.ifpdos.osrecord.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.oswidgets.static_overlay": {
+    "appName": "com.ifpdos.oswidgets.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.photos.static_overlay": {
+    "appName": "com.ifpdos.photos.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.player.static_overlay": {
+    "appName": "com.ifpdos.player.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -50923,6 +51433,66 @@
       }
     ]
   },
+  "com.rockchip.networkstack.prebuilt.overlay": {
+    "appName": "com.rockchip.networkstack.prebuilt.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.rockchip.networkstack.tethering.mainlinenokeepalive.overlay": {
+    "appName": "com.rockchip.networkstack.tethering.mainlinenokeepalive.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.rockchip.networkstack.tethering.nokeepalive.overlay": {
+    "appName": "com.rockchip.networkstack.tethering.nokeepalive.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.rockchip.networkstack.tethering.overlay": {
+    "appName": "com.rockchip.networkstack.tethering.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.rockchip.overlay.pinnerservice": {
+    "appName": "com.rockchip.overlay.pinnerservice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.internal.overlay.config.default_contextual_search": {
     "appName": "com.samsung.android.internal.overlay.config.default_contextual_search",
     "userFacing": false,
@@ -54088,6 +54658,42 @@
       }
     ]
   },
+  "com.seo.easifinder.static_overlay": {
+    "appName": "com.seo.easifinder.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.seo.gdupload.static_overlay": {
+    "appName": "com.seo.gdupload.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.seo.osservice.static_overlay": {
+    "appName": "com.seo.osservice.static_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.ses.entitlement.o2": {
     "appName": "com.ses.entitlement.o2.EntitlementApp",
     "userFacing": false,
@@ -55808,12 +56414,12 @@
         "name": "Administrador de dispositivo complementario"
       },
       {
-        "locale": "it-it",
-        "name": "Gestione dispositivi associati"
-      },
-      {
         "locale": "de-de",
         "name": "Begleitgerät-Manager"
+      },
+      {
+        "locale": "it-it",
+        "name": "Gestione dispositivi associati"
       }
     ],
     "devices": [
@@ -56006,6 +56612,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -56813,6 +57424,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -58165,6 +58781,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "de-de",
+        "name": "Kontakte"
+      },
+      {
         "locale": "en-gb",
         "name": "Contacts and dialer"
       }
@@ -58194,6 +58814,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -58438,6 +59063,10 @@
         "name": "Almacenamiento para contactos"
       },
       {
+        "locale": "de-de",
+        "name": "Kontakte-Speicher"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag contacten"
       },
@@ -58586,6 +59215,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -59264,16 +59898,16 @@
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‏‎‎‎‎‏‎‏‏‏‎‏‎‎‏‏‏‏‎‎‏‏‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‎‏‏‏‎‎‏‎‏‎‏‎Corner cutout‎‏‎‎‏‎"
       },
       {
+        "locale": "de-de",
+        "name": "Aussparung in der Ecke"
+      },
+      {
         "locale": "sv-se",
         "name": "Kantutskärning"
       },
       {
         "locale": "it-it",
         "name": "Ritaglio angolo"
-      },
-      {
-        "locale": "de-de",
-        "name": "Aussparung in der Ecke"
       }
     ],
     "devices": [
@@ -59436,6 +60070,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -60790,6 +61429,30 @@
       }
     ]
   },
+  "com.cvte.fac.menu": {
+    "appName": "cvte-ui-factorymenu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.daemonserver.silence": {
+    "appName": "DaemonServer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.homemode": {
     "appName": "Daily Board",
     "userFacing": false,
@@ -61104,6 +61767,18 @@
       }
     ]
   },
+  "com.ifpdos.debugmenu": {
+    "appName": "DEBUG MENU",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.debug.loggerui": {
     "appName": "DebugLoggerUI",
     "userFacing": false,
@@ -61270,16 +61945,16 @@
         "name": "Default print service"
       },
       {
+        "locale": "de-de",
+        "name": "Standarddruckdienst"
+      },
+      {
         "locale": "sv-se",
         "name": "Utskrift - standardtjänst"
       },
       {
         "locale": "it-it",
         "name": "Servizio di stampa predefinito"
-      },
-      {
-        "locale": "de-de",
-        "name": "Standarddruckdienst"
       },
       {
         "locale": "en-de",
@@ -61466,6 +62141,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -64500,6 +65180,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -65057,16 +65742,16 @@
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‎‏‎‎‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‎Double cutout‎‏‎‎‏‎"
       },
       {
+        "locale": "de-de",
+        "name": "Doppelte Aussparung"
+      },
+      {
         "locale": "sv-se",
         "name": "Dubbel utskärning"
       },
       {
         "locale": "it-it",
         "name": "Ritaglio doppio"
-      },
-      {
-        "locale": "de-de",
-        "name": "Doppelte Aussparung"
       }
     ],
     "devices": [
@@ -65229,6 +65914,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -65463,16 +66153,16 @@
         "name": "Administrador de descargas"
       },
       {
+        "locale": "de-de",
+        "name": "Download-Manager"
+      },
+      {
         "locale": "sv-se",
         "name": "Nedladdningshanterare"
       },
       {
         "locale": "it-it",
         "name": "Gestione download"
-      },
-      {
-        "locale": "de-de",
-        "name": "Download-Manager"
       }
     ],
     "devices": [
@@ -65665,6 +66355,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -66100,6 +66795,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -66736,6 +67436,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -67415,6 +68120,18 @@
       }
     ]
   },
+  "com.ifpdos.dudi.midleware": {
+    "appName": "DUDISdkServer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.carrier.logcollector": {
     "appName": "DumpCollector",
     "userFacing": false,
@@ -67660,6 +68377,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -68322,6 +69044,18 @@
       }
     ]
   },
+  "com.ifpdos.edlaguide": {
+    "appName": "EDLAGuide",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.eid": {
     "appName": "Eid-Service",
     "userFacing": false,
@@ -68336,6 +69070,30 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.dahua.whiteboard.settings": {
+    "appName": "Einstellungen",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.seewo.electricshelf": {
+    "appName": "Elektrisches Regal",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -68547,6 +69305,10 @@
         "name": "com.android.emergency"
       },
       {
+        "locale": "de-de",
+        "name": "com.android.emergency"
+      },
+      {
         "locale": "sv-se",
         "name": "com.android.emergency"
       }
@@ -68676,6 +69438,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -70440,16 +71207,16 @@
         "name": "Almacenamiento externo"
       },
       {
+        "locale": "de-de",
+        "name": "Externer Speicher"
+      },
+      {
         "locale": "sv-se",
         "name": "Extern lagring"
       },
       {
         "locale": "it-it",
         "name": "Archivio esterno"
-      },
-      {
-        "locale": "de-de",
-        "name": "Externer Speicher"
       }
     ],
     "devices": [
@@ -70642,6 +71409,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -71739,6 +72511,18 @@
       }
     ]
   },
+  "com.seewo.factoryaging": {
+    "appName": "FactoryAging",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.val.hardware": {
     "appName": "FactoryAPP",
     "userFacing": false,
@@ -71943,6 +72727,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.ifpdos.factorytest": {
+    "appName": "FactoryTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -72511,16 +73307,16 @@
         "name": "Archivos"
       },
       {
+        "locale": "de-de",
+        "name": "Dateien"
+      },
+      {
         "locale": "sv-se",
         "name": "Filer"
       },
       {
         "locale": "it-it",
         "name": "File"
-      },
-      {
-        "locale": "de-de",
-        "name": "Dateien"
       }
     ],
     "devices": [
@@ -72678,6 +73474,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -74346,6 +75147,18 @@
       }
     ]
   },
+  "com.seewo.easifinder": {
+    "appName": "Finder",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.goodix.gftest": {
     "appName": "Fingerpirnt test",
     "userFacing": false,
@@ -74722,6 +75535,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.ifpdos.photos": {
+    "appName": "Fotos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -75219,6 +76044,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -78036,6 +78866,11 @@
         "os": "34"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -78492,6 +79327,11 @@
         "os": "34"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -78891,6 +79731,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -79181,6 +80026,11 @@
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "OUKITEL",
@@ -79681,6 +80531,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -80139,6 +80994,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -80803,16 +81663,16 @@
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‏‎‏‏‎‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‏‎‎‎‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‏‎‎‎‎Google Location History‎‏‎‎‏‎"
       },
       {
+        "locale": "de-de",
+        "name": "Google-Standortverlauf"
+      },
+      {
         "locale": "sv-se",
         "name": "Google Platshistorik"
       },
       {
         "locale": "it-it",
         "name": "Cronologia delle posizioni Google"
-      },
-      {
-        "locale": "de-de",
-        "name": "Google-Standortverlauf"
       }
     ],
     "devices": [
@@ -80970,6 +81830,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -81391,6 +82256,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -81798,6 +82668,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -82031,6 +82906,18 @@
       }
     ]
   },
+  "com.android.inputmethod.pinyin": {
+    "appName": "Google Pinyin Tastatur",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.play.games": {
     "appName": "Google Play Games",
     "userFacing": false,
@@ -82174,16 +83061,16 @@
         "name": "Servicios de Google Play"
       },
       {
+        "locale": "de-de",
+        "name": "Google Play-Dienste"
+      },
+      {
         "locale": "sv-se",
         "name": "Google Play-tjänster"
       },
       {
         "locale": "it-it",
         "name": "Google Play Services"
-      },
-      {
-        "locale": "de-de",
-        "name": "Google Play-Dienste"
       }
     ],
     "devices": [
@@ -82376,6 +83263,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -83043,6 +83935,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -83288,16 +84185,16 @@
         "name": "Google Safety Centre resources"
       },
       {
+        "locale": "de-de",
+        "name": "Google Sicherheitscenter-Ressourcen"
+      },
+      {
         "locale": "sv-se",
         "name": "Resurser för Googles säkerhetscenter"
       },
       {
         "locale": "it-it",
         "name": "Risorse Centro sicurezza online Google"
-      },
-      {
-        "locale": "de-de",
-        "name": "Google Sicherheitscenter-Ressourcen"
       },
       {
         "locale": "en-de",
@@ -83439,6 +84336,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -83676,6 +84578,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "OUKITEL",
@@ -83939,6 +84846,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -84309,6 +85221,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -85142,6 +86059,30 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.dahua.whiteboard.guarddog": {
+    "appName": "Guard Dog",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.guideext": {
+    "appName": "Guide Ext",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -87099,16 +88040,16 @@
         "name": "Visualizador de HTML"
       },
       {
+        "locale": "de-de",
+        "name": "HTML-Anzeige"
+      },
+      {
         "locale": "sv-se",
         "name": "HTML-visningsprogram"
       },
       {
         "locale": "it-it",
         "name": "Visualizzatore HTML"
-      },
-      {
-        "locale": "de-de",
-        "name": "HTML-Anzeige"
       }
     ],
     "devices": [
@@ -87301,6 +88242,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -88498,16 +89444,16 @@
         "name": "Dispositivos de entrada"
       },
       {
+        "locale": "de-de",
+        "name": "Eingabegeräte"
+      },
+      {
         "locale": "sv-se",
         "name": "Indataenheter"
       },
       {
         "locale": "it-it",
         "name": "Dispositivi di immissione"
-      },
-      {
-        "locale": "de-de",
-        "name": "Eingabegeräte"
       }
     ],
     "devices": [
@@ -88695,6 +89641,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -89734,6 +90685,18 @@
       }
     ]
   },
+  "jp.co.omronsoft.openwnn": {
+    "appName": "Japanische IME",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.xiaomi.joyose": {
     "appName": "Joyose",
     "userFacing": false,
@@ -89827,6 +90790,10 @@
         "name": "Keep notes"
       },
       {
+        "locale": "de-de",
+        "name": "Notizen"
+      },
+      {
         "locale": "en-gb",
         "name": "Keep notes"
       },
@@ -89879,6 +90846,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "OUKITEL",
@@ -90164,6 +91136,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -93230,16 +94207,16 @@
         "name": "Seleccionador de fondo animado"
       },
       {
+        "locale": "de-de",
+        "name": "Live-Hintergrund-Auswahl"
+      },
+      {
         "locale": "sv-se",
         "name": "Bakgrundsväljare"
       },
       {
         "locale": "it-it",
         "name": "Selettore sfondo animato"
-      },
-      {
-        "locale": "de-de",
-        "name": "Live-Hintergrund-Auswahl"
       },
       {
         "locale": "en-lk",
@@ -93416,6 +94393,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -94793,6 +95775,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -95128,6 +96115,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -95598,6 +96590,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -96021,6 +97018,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -96352,6 +97354,18 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      }
+    ]
+  },
+  "com.ifpdos.mcuservice": {
+    "appName": "McuService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -96768,16 +97782,16 @@
         "name": "Media Storage"
       },
       {
+        "locale": "de-de",
+        "name": "Media-Auswahl"
+      },
+      {
         "locale": "sv-se",
         "name": "Medieväljaren"
       },
       {
         "locale": "it-it",
         "name": "Selettore media"
-      },
-      {
-        "locale": "de-de",
-        "name": "Media-Auswahl"
       },
       {
         "locale": "",
@@ -96929,6 +97943,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -97485,6 +98504,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -99539,6 +100563,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -101876,16 +102905,16 @@
         "name": "Host MTP"
       },
       {
+        "locale": "de-de",
+        "name": "MTP-Host"
+      },
+      {
         "locale": "sv-se",
         "name": "MTP-värd"
       },
       {
         "locale": "it-it",
         "name": "Host MTP"
-      },
-      {
-        "locale": "de-de",
-        "name": "MTP-Host"
       }
     ],
     "devices": [
@@ -102073,6 +103102,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -102662,6 +103696,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -103855,12 +104894,12 @@
         "name": "Administrador de redes"
       },
       {
-        "locale": "sv-se",
-        "name": "Nätverksadministratör"
-      },
-      {
         "locale": "de-de",
         "name": "Netzwerkmanager"
+      },
+      {
+        "locale": "sv-se",
+        "name": "Nätverksadministratör"
       }
     ],
     "devices": [
@@ -104013,6 +105052,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -105103,15 +106147,15 @@
         "name": "Nfc Service"
       },
       {
+        "locale": "de-de",
+        "name": "NFC"
+      },
+      {
         "locale": "sv-se",
         "name": "Nfc Service"
       },
       {
         "locale": "it-it",
-        "name": "NFC"
-      },
-      {
-        "locale": "de-de",
         "name": "NFC"
       },
       {
@@ -105293,6 +106337,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -105620,6 +106669,18 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.internal.systemui.navbar.no_navbar": {
+    "appName": "No Navigation Bar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -106418,6 +107479,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -108943,6 +110009,18 @@
       }
     ]
   },
+  "com.seewo.osservice": {
+    "appName": "OSService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.hotspot2.osulogin": {
     "appName": "OsuLogin",
     "userFacing": false,
@@ -109042,6 +110120,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -109346,6 +110429,18 @@
       }
     ]
   },
+  "com.ifpdos.oswidgets": {
+    "appName": "OSWidgets",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.symbol.osx.osxprovisionservice": {
     "appName": "OSXProvisionService",
     "userFacing": false,
@@ -109354,6 +110449,18 @@
       {
         "make": "Zebra Technologies",
         "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.seewo.ota": {
+    "appName": "OTA",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
         "os": "33"
       }
     ]
@@ -109523,16 +110630,16 @@
         "name": "Instalador de paquetes"
       },
       {
+        "locale": "de-de",
+        "name": "Paketinstallation"
+      },
+      {
         "locale": "sv-se",
         "name": "Paketinstallationsprogram"
       },
       {
         "locale": "it-it",
         "name": "Installazione pacchetti"
-      },
-      {
-        "locale": "de-de",
-        "name": "Paketinstallation"
       }
     ],
     "devices": [
@@ -109725,6 +110832,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -110159,6 +111271,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -110607,6 +111724,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.example.partnersupportsampletvinput": {
+    "appName": "Partner Support Sample Tv Input",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -111127,16 +112256,16 @@
         "name": "Controlador de permisos"
       },
       {
+        "locale": "de-de",
+        "name": "Berechtigungssteuerung"
+      },
+      {
         "locale": "sv-se",
         "name": "Behörighetsinställning"
       },
       {
         "locale": "it-it",
         "name": "App di controllo autorizzazioni"
-      },
-      {
-        "locale": "de-de",
-        "name": "Berechtigungssteuerung"
       }
     ],
     "devices": [
@@ -111304,6 +112433,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -112028,6 +113162,10 @@
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‎‏‏‏‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‎‎‎‏‏‎‏‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‎‎Personal Safety‎‏‎‎‏‎"
       },
       {
+        "locale": "de-de",
+        "name": "Persönliche Sicherheit"
+      },
+      {
         "locale": "nl-nl",
         "name": "Persoonlijke veiligheid"
       },
@@ -112106,6 +113244,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -112885,16 +114028,16 @@
         "name": "Alm. mensajes y teléfono"
       },
       {
+        "locale": "de-de",
+        "name": "Telefon- und SMS-Speicher"
+      },
+      {
         "locale": "sv-se",
         "name": "Telefon-/meddelandelagr."
       },
       {
         "locale": "it-it",
         "name": "Memoria telefono/messaggi"
-      },
-      {
-        "locale": "de-de",
-        "name": "Telefon- und SMS-Speicher"
       },
       {
         "locale": "en-lk",
@@ -113090,6 +114233,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -113353,16 +114501,16 @@
         "name": "Call Management"
       },
       {
+        "locale": "de-de",
+        "name": "Telefonanrufe"
+      },
+      {
         "locale": "sv-se",
         "name": "Telefonsamtal"
       },
       {
         "locale": "it-it",
         "name": "Chiamate telefoniche"
-      },
-      {
-        "locale": "de-de",
-        "name": "Telefonanrufe"
       },
       {
         "locale": "en-de",
@@ -113557,6 +114705,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -113812,16 +114965,16 @@
         "name": "Phone services"
       },
       {
+        "locale": "de-de",
+        "name": "Telefondienste"
+      },
+      {
         "locale": "sv-se",
         "name": "Telefontjänster"
       },
       {
         "locale": "it-it",
         "name": "Servizi telefonici"
-      },
-      {
-        "locale": "de-de",
-        "name": "Telefondienste"
       },
       {
         "locale": "",
@@ -114013,6 +115166,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -114864,6 +116022,10 @@
         "name": "Fotos"
       },
       {
+        "locale": "de-de",
+        "name": "Fotos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Foto's"
       },
@@ -114874,10 +116036,6 @@
       {
         "locale": "it-it",
         "name": "Foto"
-      },
-      {
-        "locale": "de-de",
-        "name": "Fotos"
       }
     ],
     "devices": [
@@ -115010,6 +116168,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -115194,6 +116357,10 @@
         "name": "Photos and videos"
       },
       {
+        "locale": "de-de",
+        "name": "Fotos & Videos"
+      },
+      {
         "locale": "sv-se",
         "name": "Foton och videor"
       },
@@ -115204,10 +116371,6 @@
       {
         "locale": "en-de",
         "name": "Photos and videos"
-      },
-      {
-        "locale": "de-de",
-        "name": "Fotos & Videos"
       }
     ],
     "devices": [
@@ -115330,6 +116493,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -116478,6 +117646,18 @@
       }
     ]
   },
+  "com.ifpdos.player": {
+    "appName": "Player",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.oplus.keyguard.clock.graffiti": {
     "appName": "Playful",
     "userFacing": false,
@@ -117030,6 +118210,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -117267,12 +118452,12 @@
         "name": "Cola de impresión"
       },
       {
-        "locale": "sv-se",
-        "name": "Utskriftskö"
-      },
-      {
         "locale": "de-de",
         "name": "Druck-Spooler"
+      },
+      {
+        "locale": "sv-se",
+        "name": "Utskriftskö"
       }
     ],
     "devices": [
@@ -117465,6 +118650,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -117822,6 +119012,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -118367,6 +119562,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -118657,16 +119857,16 @@
         "name": "Punch hole cutout"
       },
       {
+        "locale": "de-de",
+        "name": "Ausschnitt für Punch-Hole-Display"
+      },
+      {
         "locale": "sv-se",
         "name": "Kamerahål"
       },
       {
         "locale": "it-it",
         "name": "Ritaglio per hole punch"
-      },
-      {
-        "locale": "de-de",
-        "name": "Ausschnitt für Punch-Hole-Display"
       },
       {
         "locale": "en-de",
@@ -118837,6 +120037,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -120122,6 +121327,10 @@
       {
         "locale": "ru-ru",
         "name": "com.android.launcher3"
+      },
+      {
+        "locale": "de-de",
+        "name": "Launcher3"
       }
     ],
     "devices": [
@@ -120184,6 +121393,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "OUKITEL",
@@ -121038,6 +122252,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -129401,6 +130620,18 @@
       }
     ]
   },
+  "com.usc.scmanager.v378": {
+    "appName": "SC Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.camerasdkservice": {
     "appName": "SCameraService",
     "userFacing": false,
@@ -129753,6 +130984,30 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.ifpdos.screenrecorder": {
+    "appName": "ScreenRecorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ecloud.eshare.server": {
+    "appName": "ScreenSharing",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -131102,6 +132357,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -131616,6 +132876,18 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.dahua.whiteboard.selfcheck": {
+    "appName": "Self Check",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -132813,16 +134085,16 @@
         "name": "Ajustes"
       },
       {
+        "locale": "de-de",
+        "name": "Einstellungen"
+      },
+      {
         "locale": "sv-se",
         "name": "Inställningar"
       },
       {
         "locale": "it-it",
         "name": "Impostazioni"
-      },
-      {
-        "locale": "de-de",
-        "name": "Einstellungen"
       }
     ],
     "devices": [
@@ -133015,6 +134287,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -133450,16 +134727,16 @@
         "name": "Almacenamiento de configuración"
       },
       {
+        "locale": "de-de",
+        "name": "Einstellungsspeicher"
+      },
+      {
         "locale": "sv-se",
         "name": "Lagring av inställningar"
       },
       {
         "locale": "it-it",
         "name": "Memoria impostazioni"
-      },
-      {
-        "locale": "de-de",
-        "name": "Einstellungsspeicher"
       }
     ],
     "devices": [
@@ -133652,6 +134929,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -133962,16 +135244,16 @@
         "name": "Sugerencias de ajustes"
       },
       {
+        "locale": "de-de",
+        "name": "Einstellungsvorschläge"
+      },
+      {
         "locale": "sv-se",
         "name": "Inställningsförslag"
       },
       {
         "locale": "it-it",
         "name": "Suggerimenti impostazioni"
-      },
-      {
-        "locale": "de-de",
-        "name": "Einstellungsvorschläge"
       }
     ],
     "devices": [
@@ -134109,6 +135391,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -135020,6 +136307,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -135794,6 +137086,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -140163,6 +141460,10 @@
         "name": "Sonidos"
       },
       {
+        "locale": "de-de",
+        "name": "Töne"
+      },
+      {
         "locale": "nl-nl",
         "name": "Geluiden"
       },
@@ -140286,6 +141587,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -140632,16 +141938,16 @@
         "name": "Google Text-to-speech engine"
       },
       {
+        "locale": "de-de",
+        "name": "Spracherkennung und -Synthese von Google"
+      },
+      {
         "locale": "sv-se",
         "name": "Taligenkänning och talsyntes från Google"
       },
       {
         "locale": "it-it",
         "name": "Riconoscimento e sintesi vocale di Google"
-      },
-      {
-        "locale": "de-de",
-        "name": "Spracherkennung und -Synthese von Google"
       },
       {
         "locale": "en-za",
@@ -140841,6 +142147,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -141502,16 +142813,16 @@
         "name": "Administrador de almacenamiento"
       },
       {
+        "locale": "de-de",
+        "name": "Speichermanager"
+      },
+      {
         "locale": "sv-se",
         "name": "Lagringshanteraren"
       },
       {
         "locale": "it-it",
         "name": "Gestione archiviazione"
-      },
-      {
-        "locale": "de-de",
-        "name": "Speichermanager"
       },
       {
         "locale": "es-es",
@@ -141673,6 +142984,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -142403,6 +143719,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -143083,16 +144404,16 @@
         "name": "System connectivity resources"
       },
       {
+        "locale": "de-de",
+        "name": "Systemverbindungsressourcen"
+      },
+      {
         "locale": "sv-se",
         "name": "Resurser för systemanslutning"
       },
       {
         "locale": "it-it",
         "name": "Risorse per connettività di sistema"
-      },
-      {
-        "locale": "de-de",
-        "name": "Systemverbindungsressourcen"
       },
       {
         "locale": "en-de",
@@ -143239,6 +144560,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -143737,16 +145063,16 @@
         "name": "Controles parentales del sistema"
       },
       {
+        "locale": "de-de",
+        "name": "Jugendschutzeinstellungen"
+      },
+      {
         "locale": "sv-se",
         "name": "Family Link-föräldrakontroller"
       },
       {
         "locale": "it-it",
         "name": "Controllo genitori di sistema"
-      },
-      {
-        "locale": "de-de",
-        "name": "Jugendschutzeinstellungen"
       }
     ],
     "devices": [
@@ -143884,6 +145210,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -144179,16 +145510,16 @@
         "name": "Registro del sistema"
       },
       {
+        "locale": "de-de",
+        "name": "Ablaufverfolgung"
+      },
+      {
         "locale": "sv-se",
         "name": "Systemspårning"
       },
       {
         "locale": "it-it",
         "name": "Tracciamento del sistema"
-      },
-      {
-        "locale": "de-de",
-        "name": "Ablaufverfolgung"
       }
     ],
     "devices": [
@@ -144356,6 +145687,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -144590,16 +145926,16 @@
         "name": "UI sistema"
       },
       {
+        "locale": "de-de",
+        "name": "System-UI"
+      },
+      {
         "locale": "sv-se",
         "name": "Gränssnitt"
       },
       {
         "locale": "it-it",
         "name": "UI sistema"
-      },
-      {
-        "locale": "de-de",
-        "name": "System-UI"
       }
     ],
     "devices": [
@@ -144792,6 +146128,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -145312,6 +146653,11 @@
         "os": "35"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
@@ -145578,16 +146924,16 @@
         "name": "System Wi-Fi resources"
       },
       {
+        "locale": "de-de",
+        "name": "System-WLAN-Ressourcen"
+      },
+      {
         "locale": "sv-se",
         "name": "Resurser för wifi-system"
       },
       {
         "locale": "it-it",
         "name": "Risorse Wi-Fi sistema"
-      },
-      {
-        "locale": "de-de",
-        "name": "System-WLAN-Ressourcen"
       },
       {
         "locale": "es-es",
@@ -145693,6 +147039,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -146538,6 +147889,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -146807,16 +148163,16 @@
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‎‎‏‎‎‎‏‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‎‏‏‎‏‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‎‏‏‎‎‏‎‎Tall cutout‎‏‎‎‏‎"
       },
       {
+        "locale": "de-de",
+        "name": "Hohe Aussparung"
+      },
+      {
         "locale": "sv-se",
         "name": "Avlång utskärning"
       },
       {
         "locale": "it-it",
         "name": "Ritaglio alto"
-      },
-      {
-        "locale": "de-de",
-        "name": "Hohe Aussparung"
       }
     ],
     "devices": [
@@ -146984,6 +148340,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -147820,6 +149181,18 @@
       }
     ]
   },
+  "com.ifpdos.autotest": {
+    "appName": "Test Server",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.sonyericsson.tetherentitlementcheck": {
     "appName": "Tether Entitlement Check",
     "userFacing": false,
@@ -147981,6 +149354,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -149241,6 +150619,18 @@
       }
     ]
   },
+  "com.ifpdos.touchpanel": {
+    "appName": "Touch-Panel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.zebra.overlay.touchConfigRROEeti": {
     "appName": "touchConfigRROEeti",
     "userFacing": false,
@@ -149273,6 +150663,18 @@
       {
         "make": "Zebra Technologies",
         "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.seewo.touchservice": {
+    "appName": "TouchService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
         "os": "33"
       }
     ]
@@ -149844,6 +151246,18 @@
       }
     ]
   },
+  "com.android.providers.tv": {
+    "appName": "TV Storage",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "vendor.qti.data.txpwradmin": {
     "appName": "TxPwrAdmin",
     "userFacing": false,
@@ -150009,6 +151423,42 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.cvte.udi.service.core": {
+    "appName": "UdiServiceCore",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.factory": {
+    "appName": "UdiServiceCore",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
+  "com.ifpdos.udi.service.core.pc": {
+    "appName": "UdiServiceCore-PC",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -150480,16 +151930,16 @@
         "name": "Diccionario del usuario"
       },
       {
+        "locale": "de-de",
+        "name": "Mein Wörterbuch"
+      },
+      {
         "locale": "sv-se",
         "name": "Egen ordlista"
       },
       {
         "locale": "it-it",
         "name": "Dizionario utente"
-      },
-      {
-        "locale": "de-de",
-        "name": "Mein Wörterbuch"
       }
     ],
     "devices": [
@@ -150682,6 +152132,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -152187,6 +153642,18 @@
       }
     ]
   },
+  "com.viso.mdm": {
+    "appName": "Viso",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.vvm": {
     "appName": "Visual Voicemail",
     "userFacing": true,
@@ -152206,6 +153673,18 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      }
+    ]
+  },
+  "com.ifpdos.udi.service.vman": {
+    "appName": "VManUdiService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -153014,6 +154493,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -153300,6 +154784,10 @@
         "name": "Wallpaper and style"
       },
       {
+        "locale": "de-de",
+        "name": "Hintergrund & Stil"
+      },
+      {
         "locale": "nl-nl",
         "name": "Achtergrond en stijl"
       },
@@ -153363,6 +154851,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -154079,16 +155572,16 @@
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‎‎‏‏‏‎‎‏‏‎‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‎‏‎‏‎‎‎‎‏‎‏‏‏‏‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‏‎Waterfall cutout‎‏‎‎‏‎"
       },
       {
+        "locale": "de-de",
+        "name": "Aussparung für Wasserfall-Display"
+      },
+      {
         "locale": "sv-se",
         "name": "Vattenfall med skärmutskärning"
       },
       {
         "locale": "it-it",
         "name": "Curvatura Waterfall"
-      },
-      {
-        "locale": "de-de",
-        "name": "Aussparung für Wasserfall-Display"
       }
     ],
     "devices": [
@@ -154251,6 +155744,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -154458,6 +155956,18 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      }
+    ]
+  },
+  "com.dahua.whiteboard.systemui": {
+    "appName": "WBSystemUI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
@@ -155243,6 +156753,18 @@
       }
     ]
   },
+  "com.dahua.whiteboard": {
+    "appName": "Whiteboard",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.sonymobile.wifi": {
     "appName": "Wi-Fi",
     "userFacing": false,
@@ -155966,6 +157488,18 @@
       }
     ]
   },
+  "com.dahua.whiteboard.welcome": {
+    "appName": "Willkommen",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      }
+    ]
+  },
   "com.zebra.smartmu.app": {
     "appName": "Wireless Analyzer",
     "userFacing": false,
@@ -156016,6 +157550,10 @@
         "name": "Alertas de emergencia inalámbricas"
       },
       {
+        "locale": "de-de",
+        "name": "Notfallbenachrichtigungen an Mobilgeräte"
+      },
+      {
         "locale": "en-us-u-fw-mon-ms-ussystem-mu-fahrenhe",
         "name": "Wireless Emergency Alerts"
       },
@@ -156026,10 +157564,6 @@
       {
         "locale": "it-it",
         "name": "Avvisi di emergenza wireless"
-      },
-      {
-        "locale": "de-de",
-        "name": "Notfallbenachrichtigungen an Mobilgeräte"
       },
       {
         "locale": "",
@@ -156181,6 +157715,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -156698,16 +158237,16 @@
         "name": "Configuración de trabajo"
       },
       {
+        "locale": "de-de",
+        "name": "Einrichtung des Arbeitsprofils"
+      },
+      {
         "locale": "sv-se",
         "name": "Jobbkonfiguration"
       },
       {
         "locale": "it-it",
         "name": "Configurazione per il lavoro"
-      },
-      {
-        "locale": "de-de",
-        "name": "Einrichtung des Arbeitsprofils"
       }
     ],
     "devices": [
@@ -156895,6 +158434,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -157950,6 +159494,11 @@
         "os": "36"
       },
       {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
@@ -158275,6 +159824,11 @@
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -159340,6 +160894,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "org.kandroid.app.hangulkeyboard": {
+    "appName": "한글입력기",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
       }
     ]
   },
