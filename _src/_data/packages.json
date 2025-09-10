@@ -274,6 +274,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -1416,6 +1421,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.gpudrivers.msmnile.api30": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.qualcomm.qti.gpudrivers.lito.api30": {
     "appName": "Adreno Graphics Drivers",
     "userFacing": false,
@@ -1978,8 +1995,18 @@
   "com.oplus.aod": {
     "appName": "Always-On Display",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Aod"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -2174,6 +2201,10 @@
       {
         "locale": "sv-se",
         "name": "Android Tillgänglighet"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Outils d'accessibilité Android"
       }
     ],
     "devices": [
@@ -2336,6 +2367,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "SMT_HK",
@@ -2615,6 +2651,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -2809,6 +2850,10 @@
       {
         "locale": "en-sg",
         "name": "Android R Easter Egg"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Android S Easter Egg"
       },
       {
         "locale": "en-in",
@@ -3064,6 +3109,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -3542,6 +3592,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -3737,6 +3792,10 @@
       {
         "locale": "sv-se",
         "name": "Konfiguration av Android"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Configuration d'Android"
       },
       {
         "locale": "it-it",
@@ -3993,6 +4052,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -4417,6 +4481,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -4596,6 +4665,10 @@
       {
         "locale": "en-sg",
         "name": "Android Setup"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Android Switch"
       },
       {
         "locale": "en-za",
@@ -4844,6 +4917,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -5027,6 +5105,10 @@
       {
         "locale": "sv-se",
         "name": "Android-system"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Système Android"
       },
       {
         "locale": "it-it",
@@ -5295,6 +5377,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -5552,6 +5639,10 @@
       {
         "locale": "es-us",
         "name": "Android System Intelligence"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Android System Intelligence"
       }
     ],
     "devices": [
@@ -5754,6 +5845,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -6151,6 +6247,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -7035,6 +7136,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       }
@@ -7052,6 +7158,11 @@
       },
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -7062,11 +7173,28 @@
       }
     ]
   },
+  "android.frameworkres.overlay.captions.product": {
+    "appName": "android.frameworkres.overlay.captions.product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "android.frameworkres.overlay.display.product": {
     "appName": "android.frameworkres.overlay.display.product",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -7084,6 +7212,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -7203,6 +7336,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -7438,6 +7576,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -7541,6 +7684,18 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      }
+    ]
+  },
+  "android.systemuithreekey.overlay.product": {
+    "appName": "android.systemuithreekey.overlay.product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -7955,8 +8110,18 @@
   "com.oplus.multiapp": {
     "appName": "App Cloner",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Clonage d'applis"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -7989,8 +8154,18 @@
   "com.oplus.cosa": {
     "appName": "App Enhancement Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Services d'optimisation des applications"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -8248,8 +8423,18 @@
   "com.oplus.appplatform": {
     "appName": "App Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Services d'applis"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -9678,6 +9863,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -9705,6 +9895,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -9798,6 +9993,30 @@
       }
     ]
   },
+  "com.oplus.phonenoareainquire": {
+    "appName": "Attribution du numéro",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.fingerprint.anim.none": {
+    "appName": "Aucun",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.transsion.audiosmartconnect": {
     "appName": "Audio Link",
     "userFacing": false,
@@ -9832,6 +10051,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -11661,8 +11885,18 @@
   "com.oplus.statistics.rom": {
     "appName": "Basic Data Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Programme d'expérience utilisateur"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -11694,6 +11928,10 @@
       {
         "locale": "sv-se",
         "name": "Grund för dagdrömmar"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Écrans de veille interactifs basiques"
       },
       {
         "locale": "it-it",
@@ -11946,6 +12184,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -12107,8 +12350,18 @@
   "com.oplus.battery": {
     "appName": "Battery",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Batterie"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -13053,6 +13306,10 @@
         "name": "Lagring av blockerade nummer"
       },
       {
+        "locale": "fr-fr",
+        "name": "Enregistrer les numéros bloqués"
+      },
+      {
         "locale": "it-it",
         "name": "Archivio numeri bloccati"
       }
@@ -13314,6 +13571,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -13467,6 +13729,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.oplus.blacklistapp": {
+    "appName": "Bloquer et filtrer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -13765,6 +14039,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "fr-fr",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "it-it",
         "name": "Bluetooth"
       },
@@ -14036,6 +14314,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -14458,6 +14741,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -14928,6 +15216,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -15395,6 +15688,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       }
@@ -15518,6 +15816,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -15870,6 +16173,18 @@
       }
     ]
   },
+  "com.oneplus.calculator": {
+    "appName": "Calculatrice",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.calendar": {
     "appName": "Calendar",
     "userFacing": true,
@@ -15889,6 +16204,10 @@
       {
         "locale": "sv-se",
         "name": "Kalender"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Agenda"
       }
     ],
     "devices": [
@@ -16051,6 +16370,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "SMT_HK",
@@ -16304,6 +16628,10 @@
       {
         "locale": "sv-se",
         "name": "Kalender"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Stockage du calendrier"
       },
       {
         "locale": "it-it",
@@ -16582,6 +16910,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -17351,6 +17684,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -18123,6 +18461,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -18676,6 +19019,18 @@
       }
     ]
   },
+  "com.oneplus.camera": {
+    "appName": "Caméra",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.oemextensions": {
     "appName": "Camera Extensions Service",
     "userFacing": false,
@@ -19107,6 +19462,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -19410,8 +19770,18 @@
   "com.oplus.portrait": {
     "appName": "Canvas",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Silhouette de portrait"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -19470,6 +19840,10 @@
       {
         "locale": "sv-se",
         "name": "Inloggning i infångstportal"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Connexion au portail captif"
       },
       {
         "locale": "it-it",
@@ -19709,6 +20083,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -20082,6 +20461,10 @@
         "name": "CarrierDefaultApp"
       },
       {
+        "locale": "fr-fr",
+        "name": "CarrierDefaultApp"
+      },
+      {
         "locale": "it-it",
         "name": "Comunicazioni con l'operatore"
       },
@@ -20322,6 +20705,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -20584,8 +20972,18 @@
   "com.oplus.locationproxy": {
     "appName": "Carrier Location Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Services de localisation de l'opérateur"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -21101,6 +21499,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay.fingerprint.anim.ripple": {
+    "appName": "Cascade",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.sec.android.CcInfo": {
     "appName": "CcInfo",
     "userFacing": false,
@@ -21446,6 +21856,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -21621,6 +22036,11 @@
       },
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -21640,6 +22060,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -21708,6 +22133,10 @@
       {
         "locale": "sv-se",
         "name": "Installationsprogram för certifikat"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Installation du certificat"
       },
       {
         "locale": "it-it",
@@ -21974,6 +22403,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -22476,6 +22910,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -24235,6 +24674,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -24332,6 +24776,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-fr",
+        "name": "Système Android"
+      },
+      {
         "locale": "",
         "name": "Android System"
       },
@@ -24345,6 +24793,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -24660,6 +25113,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -24912,6 +25370,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -25169,6 +25632,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -25346,6 +25814,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -25365,6 +25838,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -25397,6 +25875,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "isafemobile",
@@ -25691,6 +26174,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -25823,6 +26311,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -26446,6 +26939,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -26866,6 +27364,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -27855,6 +28358,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -28889,6 +29397,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -29720,6 +30233,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -29819,6 +30337,18 @@
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.phone.overlay.oplus": {
+    "appName": "com.android.phone.overlay.oplus",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -30253,6 +30783,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -30724,6 +31259,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -31732,6 +32272,11 @@
         "os": "31"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -31918,6 +32463,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -32242,6 +32792,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -32830,6 +33385,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -33102,6 +33662,11 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -34166,6 +34731,54 @@
       }
     ]
   },
+  "com.android.systemui.overlay.charging.anim.wave_normal": {
+    "appName": "com.android.systemui.overlay.charging.anim.wave_normal",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.charging.anim.wave_supervooc": {
+    "appName": "com.android.systemui.overlay.charging.anim.wave_supervooc",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.charging.anim.wave_supervooc2": {
+    "appName": "com.android.systemui.overlay.charging.anim.wave_supervooc2",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.charging.anim.wave_vooc": {
+    "appName": "com.android.systemui.overlay.charging.anim.wave_vooc",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.systemui.overlay.cmcc": {
     "appName": "com.android.systemui.overlay.cmcc",
     "userFacing": false,
@@ -34212,6 +34825,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -34552,6 +35170,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -35360,6 +35983,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -36352,6 +36980,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -36444,6 +37077,11 @@
       },
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -36473,6 +37111,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -38983,6 +39626,11 @@
         "os": "31"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -40046,6 +40694,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -40261,6 +40914,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "SMT_HK",
@@ -40863,6 +41521,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -42616,6 +43279,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -42936,6 +43604,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -43407,6 +44080,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -43741,6 +44419,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -44061,6 +44744,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -44700,6 +45388,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -50196,6 +50889,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -50211,6 +50909,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -50237,6 +50940,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -50252,6 +50960,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -50390,6 +51103,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -50476,7 +51194,12 @@
   "com.qti.phone": {
     "appName": "com.qti.phone",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "com.qti.phone.QtiPhoneApp"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
@@ -50512,6 +51235,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -50584,6 +51312,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -50680,6 +51413,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -50740,6 +51478,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -50851,6 +51594,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -50928,6 +51676,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -51029,6 +51782,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -51106,6 +51864,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -51142,6 +51905,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.improvetouch.service": {
+    "appName": "com.qualcomm.qti.improvetouch.service.ImproveTouchApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.qualcomm.qti.ims": {
     "appName": "com.qualcomm.qti.ims",
     "userFacing": false,
@@ -51166,6 +51941,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -51228,6 +52008,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -51444,6 +52229,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -51592,6 +52382,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -51684,6 +52479,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -51766,6 +52566,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -51841,6 +52646,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -52039,6 +52849,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -52146,6 +52961,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -52191,6 +53011,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -55494,6 +56319,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -57181,8 +58011,18 @@
   "com.oplus.engineermode": {
     "appName": "CommercialEngineerMode",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "EngineerMode"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -57226,6 +58066,10 @@
       {
         "locale": "de-de",
         "name": "Begleitgerät-Manager"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Gestionnaire d'appareils associés"
       },
       {
         "locale": "it-it",
@@ -57492,6 +58336,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -57804,6 +58653,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -57844,6 +58698,11 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -58311,6 +59170,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -58774,11 +59638,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-fr",
+        "name": "Mise à jour des paramètres de l'opérateur"
+      },
+      {
         "locale": "",
         "name": "Carrier settings update"
       }
     ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -59651,6 +60524,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -59898,6 +60776,10 @@
       {
         "locale": "sv-se",
         "name": "Kontakter"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Liste des contacts"
       }
     ],
     "devices": [
@@ -60085,6 +60967,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -60736,6 +61623,10 @@
         "name": "Kantutskärning"
       },
       {
+        "locale": "fr-fr",
+        "name": "Encoche d'angle"
+      },
+      {
         "locale": "it-it",
         "name": "Ritaglio angolo"
       }
@@ -60970,6 +61861,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -61229,6 +62125,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -62399,8 +63300,18 @@
   "com.oplus.trafficmonitor": {
     "appName": "Data usage",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Consommation des données"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -62793,6 +63704,10 @@
         "name": "Utskrift - standardtjänst"
       },
       {
+        "locale": "fr-fr",
+        "name": "Service d'impression par défaut"
+      },
+      {
         "locale": "it-it",
         "name": "Servizio di stampa predefinito"
       },
@@ -63055,6 +63970,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -63720,6 +64640,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       }
@@ -64244,6 +65169,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -65920,6 +66850,10 @@
       {
         "locale": "sv-se",
         "name": "Digitalt välmående"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Bien-être numérique"
       }
     ],
     "devices": [
@@ -66087,6 +67021,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -66272,8 +67211,18 @@
   "com.oplus.uiengine": {
     "appName": "Diverse engine",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Divers moteur"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -66619,6 +67568,10 @@
         "name": "Dubbel utskärning"
       },
       {
+        "locale": "fr-fr",
+        "name": "Encoche double"
+      },
+      {
         "locale": "it-it",
         "name": "Ritaglio doppio"
       }
@@ -66855,6 +67808,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -67033,6 +67991,10 @@
       {
         "locale": "sv-se",
         "name": "Nedladdningshanterare"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Gestionnaire de téléchargement"
       },
       {
         "locale": "it-it",
@@ -67305,6 +68267,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -67492,6 +68459,10 @@
       {
         "locale": "sv-se",
         "name": "Nedladdningar"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Téléchargements"
       },
       {
         "locale": "it-it",
@@ -67748,6 +68719,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -69337,6 +70313,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -70121,6 +71102,11 @@
       },
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -70786,8 +71772,18 @@
   "com.oplus.sos": {
     "appName": "Emergency SOS",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "SOS urgence"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -70961,6 +71957,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay.fingerprint.anim.energy": {
+    "appName": "Énergie",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.validation": {
     "appName": "Engineer Mode",
     "userFacing": false,
@@ -70990,6 +71998,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -71176,6 +72189,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -72137,6 +73155,10 @@
         "name": "Extern lagring"
       },
       {
+        "locale": "fr-fr",
+        "name": "Stockage externe"
+      },
+      {
         "locale": "it-it",
         "name": "Archivio esterno"
       }
@@ -72403,6 +73425,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -72643,8 +73670,18 @@
   "com.oplus.eyeprotect": {
     "appName": "Eye Comfort",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Confort des yeux"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -73034,6 +74071,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.oneplus.faceunlock": {
+    "appName": "Face Unlock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -74085,6 +75134,28 @@
       }
     ]
   },
+  "com.oplus.logkit": {
+    "appName": "Feedback",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Avis"
+      }
+    ],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
   "com.fp.endusertest": {
     "appName": "Feedback",
     "userFacing": false,
@@ -74093,18 +75164,6 @@
       {
         "make": "Fairphone",
         "model": "Fairphone 6",
-        "os": "35"
-      }
-    ]
-  },
-  "com.oplus.logkit": {
-    "appName": "Feedback",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
         "os": "35"
       }
     ]
@@ -74118,6 +75177,18 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.fingerprint.anim.fireworks": {
+    "appName": "Feux d'artifice",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -74156,6 +75227,11 @@
         "os": "30"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
@@ -74181,6 +75257,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -74255,6 +75336,10 @@
       {
         "locale": "sv-se",
         "name": "Filer"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Fichiers"
       },
       {
         "locale": "it-it",
@@ -74486,6 +75571,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -77095,6 +78185,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -79239,8 +80334,18 @@
   "com.oplus.games": {
     "appName": "Games",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Jeux"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -79529,6 +80634,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -79900,6 +81010,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -80368,6 +81483,11 @@
         "os": "33"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
@@ -80822,6 +81942,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -81079,6 +82204,11 @@
         "os": "33"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
@@ -81206,8 +82336,18 @@
   "com.oplus.exserviceui": {
     "appName": "Gesture_Motion Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Services Gestes_mouvements"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -81235,8 +82375,18 @@
   "com.oplus.gesture": {
     "appName": "Gestures & motions",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Gestes et mouvements"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -81640,6 +82790,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -82112,6 +83267,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -82556,7 +83716,12 @@
   "com.google.android.syncadapters.contacts": {
     "appName": "Google Contacts Sync",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Synchronisation de Google Contacts"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -82616,6 +83781,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
         "os": "31"
       },
       {
@@ -82725,6 +83895,10 @@
       {
         "locale": "sv-se",
         "name": "Google Platshistorik"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Historique des positions Google"
       },
       {
         "locale": "it-it",
@@ -82956,6 +84130,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -83392,6 +84571,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -83809,6 +84993,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -84145,6 +85334,10 @@
         "name": "Google Play-tjänster"
       },
       {
+        "locale": "fr-fr",
+        "name": "Services Google Play"
+      },
+      {
         "locale": "it-it",
         "name": "Google Play Services"
       }
@@ -84409,6 +85602,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -84716,6 +85914,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -84822,6 +86025,10 @@
       {
         "locale": "sv-se",
         "name": "Google Play Butik"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Google Play Store"
       }
     ],
     "devices": [
@@ -85086,6 +86293,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -85277,6 +86489,10 @@
       {
         "locale": "sv-se",
         "name": "Resurser för Googles säkerhetscenter"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Ressources du Centre de sécurité Google"
       },
       {
         "locale": "it-it",
@@ -85491,6 +86707,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -85749,6 +86970,10 @@
       {
         "locale": "es-us",
         "name": "Marco de los servicios de Google"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Framework des services Google"
       }
     ],
     "devices": [
@@ -86011,6 +87236,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -87928,6 +89158,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -88010,6 +89245,10 @@
       },
       {
         "locale": "sv-se",
+        "name": "Google Assistant"
+      },
+      {
+        "locale": "fr-fr",
         "name": "Google Assistant"
       },
       {
@@ -88163,6 +89402,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -88259,6 +89503,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -89136,6 +90385,18 @@
       }
     ]
   },
+  "com.oneplus.deskclock": {
+    "appName": "Horloge",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.agui.hotspotlimit": {
     "appName": "Hotspotlimit",
     "userFacing": false,
@@ -89175,6 +90436,10 @@
       {
         "locale": "sv-se",
         "name": "HTML-visningsprogram"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Visionneuse HTML"
       },
       {
         "locale": "it-it",
@@ -89441,6 +90706,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -90852,6 +92122,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -91069,8 +92344,18 @@
   "com.oplus.deepthinker": {
     "appName": "Intelligent Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Services intelligents"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -91142,6 +92427,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -91531,6 +92821,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -92109,6 +93404,10 @@
         "name": "Nyckelknippa"
       },
       {
+        "locale": "fr-fr",
+        "name": "Porte-clés"
+      },
+      {
         "locale": "it-it",
         "name": "Portachiavi"
       },
@@ -92377,6 +93676,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -94405,6 +95709,18 @@
       }
     ]
   },
+  "net.oneplus.launcher": {
+    "appName": "Launcher Data Provider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.crosscall.ldu": {
     "appName": "LDU Configuration",
     "userFacing": false,
@@ -95391,6 +96707,10 @@
         "name": "Bakgrundsväljare"
       },
       {
+        "locale": "fr-fr",
+        "name": "Sélecteur de fond d'écran animé"
+      },
+      {
         "locale": "it-it",
         "name": "Selettore sfondo animato"
       },
@@ -95634,6 +96954,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -95908,11 +97233,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-fr",
+        "name": "Network Location Service"
+      },
+      {
         "locale": "",
         "name": "Network Location Service"
       }
     ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -96098,6 +97432,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -96486,6 +97825,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -96598,6 +97942,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.fingerprint.anim.magic": {
+    "appName": "Magie",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -97046,6 +98402,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -97536,8 +98897,18 @@
   "com.oplus.notificationmanager": {
     "appName": "Manage notifications",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Gérer les notifications"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -97881,6 +99252,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -98316,6 +99692,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -98570,6 +99951,11 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -99038,6 +100424,10 @@
         "name": "Medieväljaren"
       },
       {
+        "locale": "fr-fr",
+        "name": "Sélecteur de fichiers multimédias"
+      },
+      {
         "locale": "it-it",
         "name": "Selettore media"
       },
@@ -99261,6 +100651,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -99969,6 +101364,18 @@
       }
     ]
   },
+  "com.oneplus.filemanager": {
+    "appName": "Mes fichiers",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.messaging": {
     "appName": "Messages",
     "userFacing": true,
@@ -100476,6 +101883,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -101692,6 +103104,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-fr",
+        "name": "Services d'information"
+      },
+      {
         "locale": "en-lk",
         "name": "Information services"
       }
@@ -101946,6 +103362,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -104241,6 +105662,10 @@
         "name": "MTP-värd"
       },
       {
+        "locale": "fr-fr",
+        "name": "Hôte MTP"
+      },
+      {
         "locale": "it-it",
         "name": "Host MTP"
       }
@@ -104500,6 +105925,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -106248,6 +107678,10 @@
       {
         "locale": "sv-se",
         "name": "Nätverksadministratör"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Gestionnaire de réseaux"
       }
     ],
     "devices": [
@@ -106470,6 +107904,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -107518,6 +108957,10 @@
         "name": "Nfc Service"
       },
       {
+        "locale": "fr-fr",
+        "name": "Service NFC"
+      },
+      {
         "locale": "it-it",
         "name": "NFC"
       },
@@ -107754,6 +109197,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -108928,6 +110376,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -109738,6 +111191,11 @@
       },
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -109774,6 +111232,10 @@
       },
       {
         "locale": "sv-se",
+        "name": "Google Assistant"
+      },
+      {
+        "locale": "fr-fr",
         "name": "Google Assistant"
       },
       {
@@ -109930,6 +111392,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -110139,6 +111606,11 @@
         "os": "31"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "T8",
         "os": "34"
@@ -110202,6 +111674,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-fr",
+        "name": "System Messages"
+      },
+      {
         "locale": "",
         "name": "System Messages"
       }
@@ -110211,6 +111687,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -110268,6 +111749,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -110619,8 +112105,18 @@
   "com.oneplus.account": {
     "appName": "OnePlus Account",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Compte OnePlus"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -110628,15 +112124,49 @@
       }
     ]
   },
-  "com.oneplus.membership": {
-    "appName": "OnePlus Membership",
+  "com.oneplus.camera.service": {
+    "appName": "OnePlus Camera Service",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
+  "com.oneplus.membership": {
+    "appName": "OnePlus Membership",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Adhésion OnePlus"
+      }
+    ],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "com.oneplus.wallpaper": {
+    "appName": "OnePlus Wallpaper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -110645,6 +112175,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -110833,6 +112368,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -111037,11 +112577,28 @@
       }
     ]
   },
+  "oplus.frameworkres.overlay.camera.product": {
+    "appName": "oplus.frameworkres.overlay.camera.product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "oplus.frameworkres.overlay.display.product": {
     "appName": "oplus.frameworkres.overlay.display.product",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -111066,6 +112623,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -111095,6 +112657,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -111151,8 +112718,18 @@
   "com.oplus.linker": {
     "appName": "OPSynergy",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "PC Connect"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -111198,6 +112775,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "net.oneplus.wallpaperresources": {
+    "appName": "OPWallpaperResources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -111354,6 +112943,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-fr",
+        "name": "org.codeaurora.ims.ImsApp"
+      },
+      {
         "locale": "",
         "name": "org.codeaurora.ims.ImsApp"
       }
@@ -111388,6 +112981,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -111604,6 +113202,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -112087,6 +113690,10 @@
         "name": "Paketinstallationsprogram"
       },
       {
+        "locale": "fr-fr",
+        "name": "Programme installation kit"
+      },
+      {
         "locale": "it-it",
         "name": "Installazione pacchetti"
       }
@@ -112351,6 +113958,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -112800,6 +114412,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -113612,6 +115229,11 @@
         "os": "34"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -113726,6 +115348,10 @@
       {
         "locale": "sv-se",
         "name": "Behörighetsinställning"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Contrôleur d'autorisations"
       },
       {
         "locale": "it-it",
@@ -113969,6 +115595,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -114137,8 +115768,18 @@
   "com.oplus.securitypermission": {
     "appName": "Permission manager",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Gestionnaire d'autorisations"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -115440,6 +117081,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-fr",
+        "name": "Téléphone"
+      },
+      {
         "locale": "es-es",
         "name": "Teléfono"
       }
@@ -115459,6 +117104,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "HONOR",
@@ -115518,6 +117168,10 @@
       {
         "locale": "sv-se",
         "name": "Telefon-/meddelandelagr."
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Stock. appels/SMS tél."
       },
       {
         "locale": "it-it",
@@ -115789,6 +117443,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -115996,6 +117655,10 @@
       {
         "locale": "sv-se",
         "name": "Telefonsamtal"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Gestion des appels"
       },
       {
         "locale": "it-it",
@@ -116270,6 +117933,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -116469,6 +118137,10 @@
       {
         "locale": "sv-se",
         "name": "Telefontjänster"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Services téléphoniques"
       },
       {
         "locale": "it-it",
@@ -116734,6 +118406,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -117831,6 +119508,18 @@
       }
     ]
   },
+  "com.oneplus.gallery": {
+    "appName": "Photos",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.photopicker": {
     "appName": "Photos & videos",
     "userFacing": false,
@@ -117866,6 +119555,10 @@
       {
         "locale": "sv-se",
         "name": "Foton och videor"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Photos et vidéos"
       },
       {
         "locale": "it-it",
@@ -118065,6 +119758,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -119392,8 +121090,18 @@
   "com.oplus.powermonitor": {
     "appName": "Power Monitor",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Power monitor"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -119440,6 +121148,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -119797,6 +121510,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -119980,6 +121698,10 @@
       {
         "locale": "sv-se",
         "name": "Utskriftskö"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Service de traitement de l'impression"
       }
     ],
     "devices": [
@@ -120242,6 +121964,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -120606,6 +122333,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -120752,8 +122484,18 @@
   "com.oplus.encryption": {
     "appName": "Private Safe",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Coffre-fort"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -121169,6 +122911,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -121405,6 +123152,10 @@
       {
         "locale": "sv-se",
         "name": "Kamerahål"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Encoche en forme de poinçon"
       },
       {
         "locale": "it-it",
@@ -121655,6 +123406,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -121818,6 +123574,18 @@
       }
     ]
   },
+  "net.oneplus.push": {
+    "appName": "Push",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.qti.qcc": {
     "appName": "QCC",
     "userFacing": false,
@@ -121935,6 +123703,18 @@
       }
     ]
   },
+  "com.qualcomm.qti.qccauthmgr": {
+    "appName": "QCC-AUTHMGR",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.qualcomm.qti.qcolor": {
     "appName": "QColor",
     "userFacing": false,
@@ -121954,6 +123734,11 @@
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -122023,6 +123808,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -122082,8 +123872,18 @@
   "com.qualcomm.qti.qdma": {
     "appName": "QDMA",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "QCC"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "CipherLab",
         "model": "RK95",
@@ -122115,6 +123915,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -122282,6 +124087,11 @@
         "os": "34"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -122420,8 +124230,18 @@
   "com.heytap.accessory": {
     "appName": "Quick Connect",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Connex. rapide appareils"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -123121,6 +124941,18 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.fingerprint.anim.stripe": {
+    "appName": "Rayure",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -124427,6 +126259,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -132442,6 +134279,18 @@
       }
     ]
   },
+  "com.oneplus.opscout": {
+    "appName": "Scout",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.sm.policy": {
     "appName": "SCPM Client",
     "userFacing": false,
@@ -132527,8 +134376,18 @@
   "com.oplus.screenrecorder": {
     "appName": "Screen recording",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Capture vidéo de l'écran"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -132556,8 +134415,18 @@
   "com.oplus.cast": {
     "appName": "Screencast",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Vidéocapture d'écran"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -132653,8 +134522,18 @@
   "com.oplus.screenshot": {
     "appName": "Screenshot",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Capture d'écran"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -133053,6 +134932,11 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "CipherLab",
@@ -133533,8 +135417,18 @@
   "com.oplus.securitykeyboard": {
     "appName": "Secure Keyboard",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Sécuriser le clavier"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -134015,6 +135909,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -134220,8 +136119,18 @@
   "com.oplus.safecenter": {
     "appName": "Security Center",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Centre de sécurité"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -135701,6 +137610,10 @@
         "name": "Inställningar"
       },
       {
+        "locale": "fr-fr",
+        "name": "Paramètres"
+      },
+      {
         "locale": "it-it",
         "name": "Impostazioni"
       }
@@ -135965,6 +137878,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -136353,6 +138271,10 @@
         "name": "Lagring av inställningar"
       },
       {
+        "locale": "fr-fr",
+        "name": "Stockage des paramètres"
+      },
+      {
         "locale": "it-it",
         "name": "Memoria impostazioni"
       }
@@ -136617,6 +138539,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -137080,6 +139007,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -137478,6 +139410,18 @@
       }
     ]
   },
+  "com.oneplus.setupwizard": {
+    "appName": "Setup Wizard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.setupwizardext": {
     "appName": "SetupWizardExt",
     "userFacing": false,
@@ -137731,6 +139675,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.oneplus.opshelf": {
+    "appName": "Shelf",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -138007,6 +139963,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -138565,6 +140526,10 @@
         "name": "SIM-App-Dialogfeld"
       },
       {
+        "locale": "fr-fr",
+        "name": "Sim App Dialog"
+      },
+      {
         "locale": "en-in",
         "name": "Sim app dialogue"
       },
@@ -138797,6 +140762,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -139278,6 +141248,10 @@
         "name": "SIM-verktyg"
       },
       {
+        "locale": "fr-fr",
+        "name": "Boîte à outils carte SIM"
+      },
+      {
         "locale": "it-it",
         "name": "Servizi SIM"
       },
@@ -139506,6 +141480,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -139666,6 +141645,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Crosscall",
@@ -141412,6 +143396,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -141460,6 +143449,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -142349,8 +144343,18 @@
   "com.oplus.ota": {
     "appName": "Software update",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Mise à jour logicielle"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -143620,6 +145624,10 @@
         "name": "Taligenkänning och talsyntes från Google"
       },
       {
+        "locale": "fr-fr",
+        "name": "Reconnaissance et synthèse vocales de Google"
+      },
+      {
         "locale": "it-it",
         "name": "Riconoscimento e sintesi vocale di Google"
       },
@@ -143891,6 +145899,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -144272,6 +146285,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -144500,6 +146518,10 @@
         "name": "Lagringshanteraren"
       },
       {
+        "locale": "fr-fr",
+        "name": "Gestionnaire d'espace de stockage"
+      },
+      {
         "locale": "it-it",
         "name": "Gestione archiviazione"
       },
@@ -144718,6 +146740,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -145172,8 +147199,18 @@
   "com.oplus.subsys": {
     "appName": "Subsystem Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "com.oplus.subsys.SubsystemApplication"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -145471,6 +147508,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -146106,6 +148148,10 @@
         "name": "Resurser för systemanslutning"
       },
       {
+        "locale": "fr-fr",
+        "name": "Ressources de connectivité système"
+      },
+      {
         "locale": "it-it",
         "name": "Risorse per connettività di sistema"
       },
@@ -146328,6 +148374,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -146718,8 +148769,18 @@
   "com.android.launcher": {
     "appName": "System Launcher",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Lanceur système"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -147187,8 +149248,18 @@
   "com.oplus.exsystemservice": {
     "appName": "System Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Service système"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -147268,6 +149339,10 @@
       {
         "locale": "sv-se",
         "name": "Systemspårning"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Traçage système"
       },
       {
         "locale": "it-it",
@@ -147511,6 +149586,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -147689,6 +149769,10 @@
       {
         "locale": "sv-se",
         "name": "Gränssnitt"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Interface"
       },
       {
         "locale": "it-it",
@@ -147955,6 +150039,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -148305,8 +150394,18 @@
   "com.oplus.sau": {
     "appName": "System Upgrade Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Services de mise à niveau du système"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -148704,6 +150803,10 @@
         "name": "Resurser för wifi-system"
       },
       {
+        "locale": "fr-fr",
+        "name": "Ressources Wi-Fi du système"
+      },
+      {
         "locale": "it-it",
         "name": "Risorse Wi-Fi sistema"
       },
@@ -148860,6 +150963,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -149470,6 +151578,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -149957,6 +152070,10 @@
         "name": "Avlång utskärning"
       },
       {
+        "locale": "fr-fr",
+        "name": "Encoche haute"
+      },
+      {
         "locale": "it-it",
         "name": "Ritaglio alto"
       }
@@ -150196,6 +152313,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -151225,6 +153347,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -152991,6 +155118,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay.fingerprint.anim.wormhole": {
+    "appName": "Trou de ver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.facelock": {
     "appName": "Trusted Face",
     "userFacing": false,
@@ -153216,6 +155355,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -153429,8 +155573,18 @@
   "com.oplus.romupdate": {
     "appName": "Update Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Mise à jour du service"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -153769,6 +155923,10 @@
         "name": "Egen ordlista"
       },
       {
+        "locale": "fr-fr",
+        "name": "Dictionnaire personnel"
+      },
+      {
         "locale": "it-it",
         "name": "Dizionario utente"
       }
@@ -154033,6 +156191,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -154301,6 +156464,18 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      }
+    ]
+  },
+  "com.oplus.opusermanual": {
+    "appName": "UserManual",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -154724,6 +156899,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -154809,6 +156989,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "Fairphone",
@@ -156414,6 +158599,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -157298,23 +159488,21 @@
       }
     ]
   },
-  "com.sec.android.wallpapercropper2": {
-    "appName": "Wallpapers",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N950U1",
-        "os": "28"
-      }
-    ]
-  },
   "com.oplus.wallpapers": {
     "appName": "Wallpapers",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Fonds d'écran"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -157324,6 +159512,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.sec.android.wallpapercropper2": {
+    "appName": "Wallpapers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
       }
     ]
   },
@@ -157342,8 +159542,18 @@
   "com.oplus.uxdesign": {
     "appName": "Wallpapers & style",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Personnalisations"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -157407,6 +159617,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       }
@@ -157443,6 +159658,10 @@
       {
         "locale": "sv-se",
         "name": "Vattenfall med skärmutskärning"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Encoche en cascade"
       },
       {
         "locale": "it-it",
@@ -157679,6 +159898,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -158558,6 +160782,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -159248,6 +161477,11 @@
     "devices": [
       {
         "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
       },
@@ -159358,6 +161592,18 @@
       }
     ]
   },
+  "com.oplus.wifitest": {
+    "appName": "wifitest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      }
+    ]
+  },
   "com.dahua.whiteboard.welcome": {
     "appName": "Willkommen",
     "userFacing": true,
@@ -159430,6 +161676,10 @@
       {
         "locale": "sv-se",
         "name": "Trådlösa varningar vid nödsituationer"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Alertes d'urgence sans fil"
       },
       {
         "locale": "it-it",
@@ -159657,6 +161907,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -159856,8 +162111,18 @@
   "com.oplus.wirelesssettings": {
     "appName": "Wireless Settings",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Paramètres sans fil"
+      }
+    ],
     "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
       {
         "make": "OnePlus",
         "model": "CPH2465",
@@ -160118,6 +162383,10 @@
       {
         "locale": "sv-se",
         "name": "Jobbkonfiguration"
+      },
+      {
+        "locale": "fr-fr",
+        "name": "Configuration du profil professionnel"
       },
       {
         "locale": "it-it",
@@ -160381,6 +162650,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -160534,6 +162808,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.oneplus.opwlb": {
+    "appName": "Work-Life Balance",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       }
     ]
   },
@@ -161019,6 +163305,11 @@
         "os": "35"
       },
       {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -161499,6 +163790,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "OnePlus",
+        "model": "HD1903",
+        "os": "31"
       },
       {
         "make": "samsung",
