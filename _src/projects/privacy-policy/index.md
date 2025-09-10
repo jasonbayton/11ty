@@ -13,7 +13,7 @@ eleventyNavigation:
     order: 3
     title: Privacy policy
 ---
-_Version 1.2, 6th September, 2025_
+_Version 1.3, 10th September, 2025_
 
 ## Introduction
 
@@ -83,6 +83,22 @@ I do not use cookies or similar tracking technologies in-app.
 - **Business and Contact Information**: Not retained.
 - **Messaging data**: Defined by contractual SLA
 
+## Data Removal
+
+The majority of BAYTON projects data is non-identifiable, and used for analytics & support, the following exceptions apply:
+
+- MANAGED ARCHIVER may be configured to back up messaging data to PING servers if an organisation chooses to avoid setting up their own infrastructure.
+- Managed configuration data (e.g licensed organisation ID) applied across all projects is used for licensing & support, which may identify an organisation.
+- MANAGED INFO may be configured to store device location reports in PING servers if an organisation chooses to avoid setting up their own infrastructure.
+
+Should you wish to remove data associated with your use of BAYTON project applications, please:
+
+1. Make a copy of the PING UUID in application settings (typically by tapping the menu icon and scrolling to the bottom of the Settings page)
+2. Submit your request to [project-support@bayton.org](mailto:project-support@bayton.org) with the UUID of your device.
+3. Data will be expunged within 24 hours of acknowledgement
+
+**Note**: If data is known to be associated with the services provided to organisations, commercially or voluntarily, any requests from individuals may be redirected to organisation IT representitives for approval. This will delay deletion.
+
 ## User Rights
 
 ### Rights of Users
@@ -94,7 +110,7 @@ I do not use cookies or similar tracking technologies in-app.
 - **Objection**: Users have the right to object to data processing.
 - **Data Portability**: Users have the right to request transfer of their data to another service.
 
-**Note**: In business context, individual user requests may be redirected to internal IT/stakeholders with the respective organisation.
+**Note**: In business context, individual user requests may be redirected to internal IT/stakeholders within the respective organisation.
 
 ### Exercising Rights
 
