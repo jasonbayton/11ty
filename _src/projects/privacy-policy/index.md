@@ -13,7 +13,7 @@ eleventyNavigation:
     order: 3
     title: Privacy policy
 ---
-_Version 1.3, 10th September, 2025_
+_Version 1.5, 11th September, 2025_
 
 ## Introduction
 
@@ -42,7 +42,8 @@ Welcome to BAYTON projects. This privacy policy explains how I collect, use, dis
 - **Basic Device Details**: Non-identifiable information including Android device make, model, OS version, the application in use, the country a device resides in, and the licence key used may be collected.
 - **Application information**: Upon opt-in of [application version tracking](/projects/package-search/support/enable-package-sync) in PACKAGE SEARCH: application names, package names, and versions installed.
 - **Feature use**: Analytics and configuration data of the application(s) in use.
-- **Messages sent/received**: Upon use of the MANAGED ARCHIVER project, and when choosing to use the default PING infrastructure for message backup. 
+- **Messages sent/received**: Upon use of the MANAGED ARCHIVER project, and when choosing to use the default PING infrastructure for message backup.
+- **Precise location**: MANAGED INFO 1.0.9.0 introduces EMM companion functionality, expanding on package (APK) installation and setup actions in 1.0.8.x. From 1.0.9.0 an administrator can request periodic location from MANAGED INFO when used as the EMM companion app. All location data is sent to the organisation of the Android Enterprise-managed device. No location data is uploaded or stored to PING or any other BAYTON infrastructure.
 
 ### Collection Methods
 
@@ -50,6 +51,7 @@ Welcome to BAYTON projects. This privacy policy explains how I collect, use, dis
 - **Application information**: Upon opt-in of [application version tracking](/projects/package-search/support/enable-package-sync) in PACKAGE SEARCH, the user-installed applications of the device in-use will be sent to the PING service for the purpose of application version monitoring with Google Play.
 - **Feature use**: Collected when devices check in with PING infrastructure
 - **Messages sent/received**: Direct upload when the application is configured to do so
+- **Precise location**: Direct upload to organisation-configured endpoint
 
 ### Cookies and Tracking Technologies
 
@@ -82,14 +84,14 @@ I do not use cookies or similar tracking technologies in-app.
 - **Anonymised Device Information**: Retained for 90 days.
 - **Business and Contact Information**: Not retained.
 - **Messaging data**: Defined by contractual SLA
+- **Location data**: Not retained, not uploaded to BAYTON infrastructure
 
 ## Data Removal
 
 The majority of BAYTON projects data is non-identifiable, and used for analytics & support, the following exceptions apply:
 
 - MANAGED ARCHIVER may be configured to back up messaging data to PING servers if an organisation chooses to avoid setting up their own infrastructure.
-- Managed configuration data (e.g licensed organisation ID) applied across all projects is used for licensing & support, which may identify an organisation.
-- MANAGED INFO may be configured to store device location reports in PING servers if an organisation chooses to avoid setting up their own infrastructure.
+- Managed configuration data (e.g. licensed organisation ID) applied across all projects is used for licensing & support, which may identify an organisation.
 
 Should you wish to remove data associated with your use of BAYTON project applications, please:
 
@@ -97,7 +99,7 @@ Should you wish to remove data associated with your use of BAYTON project applic
 2. Submit your request to [project-support@bayton.org](mailto:project-support@bayton.org) with the UUID of your device.
 3. Data will be expunged within 24 hours of acknowledgement
 
-**Note**: If data is known to be associated with the services provided to organisations, commercially or voluntarily, any requests from individuals may be redirected to organisation IT representitives for approval. This will delay deletion.
+**Note**: If data is known to be associated with the services provided to organisations, commercially or voluntarily, any requests from individuals may be redirected to organisation IT representatives for approval. This will delay deletion.
 
 ## User Rights
 
