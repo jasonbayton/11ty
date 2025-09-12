@@ -719,6 +719,10 @@
         "name": "Ad privacy"
       },
       {
+        "locale": "en-mt",
+        "name": "Ad privacy"
+      },
+      {
         "locale": "de-de",
         "name": "Datenschutz bei Werbung"
       },
@@ -5097,6 +5101,10 @@
       {
         "locale": "es-us",
         "name": "Sistema Android"
+      },
+      {
+        "locale": "en-mt",
+        "name": "Android system"
       },
       {
         "locale": "de-de",
@@ -11377,6 +11385,10 @@
         "name": "Avatar picker"
       },
       {
+        "locale": "en-mt",
+        "name": "Avatar picker"
+      },
+      {
         "locale": "",
         "name": "Avatar picker"
       },
@@ -14027,6 +14039,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "en-mt",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "en-sg",
         "name": "Bluetooth"
       },
@@ -16619,6 +16635,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "Calendar storage"
+      },
+      {
+        "locale": "en-mt",
         "name": "Calendar storage"
       },
       {
@@ -19834,6 +19854,10 @@
         "name": "Captive portal login"
       },
       {
+        "locale": "en-mt",
+        "name": "Captive portal login"
+      },
+      {
         "locale": "de-de",
         "name": "Anmeldung über Captive Portal"
       },
@@ -20457,6 +20481,10 @@
         "name": "Operator communications"
       },
       {
+        "locale": "en-mt",
+        "name": "Operator communications"
+      },
+      {
         "locale": "en-sg",
         "name": "CarrierDefaultApp"
       },
@@ -20934,6 +20962,10 @@
     "appName": "Carrier Location Access",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "en-mt",
+        "name": "Carrier location access"
+      },
       {
         "locale": "en-gb",
         "name": "Carrier location access"
@@ -21420,6 +21452,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "Operator setup"
+      },
+      {
+        "locale": "en-mt",
         "name": "Operator setup"
       },
       {
@@ -22124,6 +22160,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "Certificate installer"
+      },
+      {
+        "locale": "en-mt",
         "name": "Certificate installer"
       },
       {
@@ -60766,6 +60806,10 @@
         "name": "Almacenamiento para contactos"
       },
       {
+        "locale": "en-mt",
+        "name": "Contacts storage"
+      },
+      {
         "locale": "de-de",
         "name": "Kontakte-Speicher"
       },
@@ -62160,6 +62204,10 @@
         "name": "Credential manager"
       },
       {
+        "locale": "en-mt",
+        "name": "Credential manager"
+      },
+      {
         "locale": "it-it",
         "name": "Gestore delle credenziali"
       },
@@ -62613,6 +62661,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "Cross-device services"
+      },
+      {
+        "locale": "en-mt",
         "name": "Cross-device services"
       },
       {
@@ -63696,6 +63748,10 @@
         "name": "Default print service"
       },
       {
+        "locale": "en-mt",
+        "name": "Default print service"
+      },
+      {
         "locale": "de-de",
         "name": "Standarddruckdienst"
       },
@@ -64160,6 +64216,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "Retail mode"
+      },
+      {
+        "locale": "en-mt",
         "name": "Retail mode"
       }
     ],
@@ -69957,6 +70017,10 @@
         "name": "Ajustes de SIM dual"
       },
       {
+        "locale": "en-mt",
+        "name": "Dual SIM settings"
+      },
+      {
         "locale": "en-gb",
         "name": "Dual SIM settings"
       }
@@ -71196,6 +71260,10 @@
       },
       {
         "locale": "es-us",
+        "name": "com.android.emergency"
+      },
+      {
+        "locale": "en-mt",
         "name": "com.android.emergency"
       },
       {
@@ -73145,6 +73213,10 @@
       {
         "locale": "es-us",
         "name": "Almacenamiento externo"
+      },
+      {
+        "locale": "en-mt",
+        "name": "External storage"
       },
       {
         "locale": "de-de",
@@ -82294,6 +82366,10 @@
         "name": "Tutorial de navegación por gestos"
       },
       {
+        "locale": "en-mt",
+        "name": "Gesture navigation tutorial"
+      },
+      {
         "locale": "en-gb",
         "name": "Gesture navigation tutorial"
       }
@@ -86483,6 +86559,10 @@
         "name": "Google Safety Centre resources"
       },
       {
+        "locale": "en-mt",
+        "name": "Google Safety Centre resources"
+      },
+      {
         "locale": "de-de",
         "name": "Google Sicherheitscenter-Ressourcen"
       },
@@ -89244,6 +89324,10 @@
         "name": "Google Assistant"
       },
       {
+        "locale": "en-mt",
+        "name": "Google Assistant"
+      },
+      {
         "locale": "sv-se",
         "name": "Google Assistant"
       },
@@ -91851,6 +91935,10 @@
       {
         "locale": "es-us",
         "name": "Dispositivos de entrada"
+      },
+      {
+        "locale": "en-mt",
+        "name": "Input devices"
       },
       {
         "locale": "de-de",
@@ -96697,6 +96785,10 @@
       {
         "locale": "es-us",
         "name": "Seleccionador de fondo animado"
+      },
+      {
+        "locale": "en-mt",
+        "name": "Live wallpaper picker"
       },
       {
         "locale": "de-de",
@@ -104340,6 +104432,10 @@
         "name": "Acciones Moto y Gestos"
       },
       {
+        "locale": "en-mt",
+        "name": "Moto Actions & Gestures"
+      },
+      {
         "locale": "en-gb",
         "name": "Moto Actions & Gestures"
       }
@@ -104563,6 +104659,10 @@
       {
         "locale": "es-us",
         "name": "Comentarios sobre Moto"
+      },
+      {
+        "locale": "en-mt",
+        "name": "Moto feedback"
       },
       {
         "locale": "en-gb",
@@ -105045,6 +105145,10 @@
       {
         "locale": "es-us",
         "name": "Actualización de software de Motorola"
+      },
+      {
+        "locale": "en-mt",
+        "name": "Motorola software update"
       },
       {
         "locale": "en-gb",
@@ -108945,6 +109049,10 @@
         "name": "NFC"
       },
       {
+        "locale": "en-mt",
+        "name": "NFC service"
+      },
+      {
         "locale": "en-sg",
         "name": "Nfc Service"
       },
@@ -111231,6 +111339,10 @@
         "name": "Google Assistant"
       },
       {
+        "locale": "en-mt",
+        "name": "Google Assistant"
+      },
+      {
         "locale": "sv-se",
         "name": "Google Assistant"
       },
@@ -111514,6 +111626,10 @@
       {
         "locale": "es-us",
         "name": "Aprovisionamiento de cliente OMA"
+      },
+      {
+        "locale": "en-mt",
+        "name": "OMA client provisioning"
       },
       {
         "locale": "en-gb",
@@ -116473,6 +116589,10 @@
         "name": "Personalizar"
       },
       {
+        "locale": "en-mt",
+        "name": "Personalise"
+      },
+      {
         "locale": "en-gb",
         "name": "Personalise"
       }
@@ -117162,6 +117282,10 @@
         "name": "Alm. mensajes y teléfono"
       },
       {
+        "locale": "en-mt",
+        "name": "Phone and messaging storage"
+      },
+      {
         "locale": "de-de",
         "name": "Telefon- und SMS-Speicher"
       },
@@ -117642,6 +117766,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "Phone calls"
+      },
+      {
+        "locale": "en-mt",
         "name": "Phone calls"
       },
       {
@@ -118128,6 +118256,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "Phone services"
+      },
+      {
+        "locale": "en-mt",
         "name": "Phone services"
       },
       {
@@ -119546,6 +119678,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "Photos and videos"
+      },
+      {
+        "locale": "en-mt",
         "name": "Photos and videos"
       },
       {
@@ -123142,6 +123278,10 @@
         "name": "Punch hole cutout"
       },
       {
+        "locale": "en-mt",
+        "name": "Punch hole cutout"
+      },
+      {
         "locale": "en-sg",
         "name": "Punch hole cutout"
       },
@@ -125090,6 +125230,10 @@
         "name": "Motor de Ready For"
       },
       {
+        "locale": "en-mt",
+        "name": "Smart Connect Engine"
+      },
+      {
         "locale": "",
         "name": "Smart Connect Engine"
       }
@@ -126162,6 +126306,10 @@
         "name": "Servicios de suspensión"
       },
       {
+        "locale": "en-mt",
+        "name": "Revoker services"
+      },
+      {
         "locale": "en-gb",
         "name": "Revoker services"
       }
@@ -127015,6 +127163,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "Rounded rectangle"
+      },
+      {
+        "locale": "en-mt",
         "name": "Rounded rectangle"
       }
     ],
@@ -134567,6 +134719,10 @@
         "name": "Editor de capturas de pantalla"
       },
       {
+        "locale": "en-mt",
+        "name": "Screenshot editor"
+      },
+      {
         "locale": "en-gb",
         "name": "Screenshot editor"
       }
@@ -134646,6 +134802,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "Search engine selector"
+      },
+      {
+        "locale": "en-mt",
         "name": "Search engine selector"
       },
       {
@@ -138263,6 +138423,10 @@
         "name": "Almacenamiento de configuración"
       },
       {
+        "locale": "en-mt",
+        "name": "Settings storage"
+      },
+      {
         "locale": "de-de",
         "name": "Einstellungsspeicher"
       },
@@ -138711,6 +138875,10 @@
         "name": "Almacenamiento de ajustes"
       },
       {
+        "locale": "en-mt",
+        "name": "Settings storage"
+      },
+      {
         "locale": "",
         "name": "Settings storage"
       },
@@ -138792,6 +138960,10 @@
       {
         "locale": "es-us",
         "name": "Sugerencias de ajustes"
+      },
+      {
+        "locale": "en-mt",
+        "name": "Settings suggestions"
       },
       {
         "locale": "de-de",
@@ -140515,6 +140687,10 @@
       },
       {
         "locale": "en-nl",
+        "name": "Sim app dialogue"
+      },
+      {
+        "locale": "en-mt",
         "name": "Sim app dialogue"
       },
       {
@@ -142624,6 +142800,10 @@
         "name": "Ready For Video"
       },
       {
+        "locale": "en-mt",
+        "name": "Smart Connect video"
+      },
+      {
         "locale": "en-gb",
         "name": "Smart Connect video"
       }
@@ -144374,6 +144554,10 @@
       {
         "locale": "es-us",
         "name": "Actualización de software"
+      },
+      {
+        "locale": "en-mt",
+        "name": "Software update"
       },
       {
         "locale": "en-gb",
@@ -148140,6 +148324,10 @@
         "name": "System connectivity resources"
       },
       {
+        "locale": "en-mt",
+        "name": "System connectivity resources"
+      },
+      {
         "locale": "de-de",
         "name": "Systemverbindungsressourcen"
       },
@@ -149331,6 +149519,10 @@
       {
         "locale": "es-us",
         "name": "Registro del sistema"
+      },
+      {
+        "locale": "en-mt",
+        "name": "System tracing"
       },
       {
         "locale": "de-de",
@@ -151079,6 +151271,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "System Wi-Fi resources"
+      },
+      {
+        "locale": "en-mt",
         "name": "System Wi-Fi resources"
       },
       {
@@ -158827,6 +159023,10 @@
       },
       {
         "locale": "en-gb",
+        "name": "Wallpaper and style"
+      },
+      {
+        "locale": "en-mt",
         "name": "Wallpaper and style"
       },
       {
