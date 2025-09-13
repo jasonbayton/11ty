@@ -129620,7 +129620,12 @@
   "com.samsung.android.intellivoiceservice": {
     "appName": "Samsung Intelligence Voice Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-de",
+        "name": "Samsung Intelligence Service"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
