@@ -219,6 +219,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -2338,6 +2343,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -2608,6 +2618,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -3058,6 +3073,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -3541,6 +3561,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -4003,6 +4028,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -4428,6 +4458,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -4864,6 +4899,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -5328,6 +5368,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -6202,6 +6247,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -6745,6 +6795,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -9652,6 +9707,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -12141,6 +12201,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -12432,6 +12497,18 @@
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
+      }
+    ]
+  },
+  "com.pri.widget.battery": {
+    "appName": "Battery level",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -13528,6 +13605,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -14277,6 +14359,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -14702,6 +14789,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -15175,6 +15267,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -15653,6 +15750,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.bst.face.service": {
+    "appName": "BstFaceService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -16189,6 +16298,18 @@
       }
     ]
   },
+  "com.android.pri.calculator": {
+    "appName": "Calculator",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.oneplus.calculator": {
     "appName": "Calculatrice",
     "userFacing": true,
@@ -16356,6 +16477,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -16875,6 +17001,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -17649,6 +17780,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -18698,6 +18834,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -19427,6 +19568,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -20052,6 +20198,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -20685,6 +20836,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -21243,6 +21399,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "LENOVO",
@@ -21837,6 +21998,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -22390,6 +22556,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -22615,6 +22786,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.pri.childrenspace": {
+    "appName": "Children Space",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -22895,6 +23078,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -23702,6 +23890,18 @@
       }
     ]
   },
+  "com.pri.memoryclean.appwidget": {
+    "appName": "Cleanup acceleration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.miui.phrase": {
     "appName": "Clipboard and frequent phrases",
     "userFacing": false,
@@ -24183,6 +24383,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -25098,6 +25303,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -25620,6 +25830,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -26182,6 +26397,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -26924,6 +27144,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -27349,6 +27574,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -28017,6 +28247,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -28343,6 +28578,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -29380,6 +29620,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -30770,6 +31015,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -31244,6 +31494,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -32304,6 +32559,11 @@
       {
         "make": "Google",
         "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
         "os": "31"
       },
       {
@@ -33368,6 +33628,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -35970,6 +36235,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -36355,6 +36625,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -36817,6 +37092,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -39656,6 +39936,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
@@ -39826,6 +40111,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -40684,6 +40974,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -41022,6 +41317,42 @@
       }
     ]
   },
+  "com.google.android.overlay.gmsconfig.comms.contact": {
+    "appName": "com.google.android.overlay.gmsconfig.comms.contact",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.comms.dialer": {
+    "appName": "com.google.android.overlay.gmsconfig.comms.dialer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
+  "com.google.android.overlay.gmsconfig.comms.mms": {
+    "appName": "com.google.android.overlay.gmsconfig.comms.mms",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.overlay.gmsconfig.comms.wifi": {
     "appName": "com.google.android.overlay.gmsconfig.comms.wifi",
     "userFacing": false,
@@ -41192,6 +41523,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -41511,6 +41847,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -41947,6 +42288,11 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -43269,6 +43615,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -43594,6 +43945,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -44070,6 +44426,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -44409,6 +44770,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -44734,6 +45100,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -46721,6 +47092,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -46943,6 +47319,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -47610,6 +47991,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -47737,6 +48123,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -47993,6 +48384,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -48080,6 +48476,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -48160,6 +48561,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -48285,6 +48691,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -48382,6 +48793,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -48537,6 +48953,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -48622,6 +49043,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -48735,6 +49161,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -48785,6 +49216,18 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      }
+    ]
+  },
+  "com.mediatek.wifi.resources.overlay": {
+    "appName": "com.mediatek.wifi.resources.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -58323,6 +58766,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -59153,6 +59601,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -60398,6 +60851,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -60976,6 +61434,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -61850,6 +62313,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -63432,6 +63900,18 @@
       }
     ]
   },
+  "com.pri.datetimewidget": {
+    "appName": "DateTimeWidget",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.qti.dcf": {
     "appName": "dcf",
     "userFacing": false,
@@ -63611,6 +64091,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -63971,6 +64456,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -67048,6 +67538,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -67813,6 +68308,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -68272,6 +68772,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -68724,6 +69229,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -69370,6 +69880,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -70098,6 +70613,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -70320,6 +70840,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -70576,6 +71101,18 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      }
+    ]
+  },
+  "com.pri.easylauncher": {
+    "appName": "Easy launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -71416,6 +71953,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -72168,6 +72710,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -73442,6 +73989,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -74559,6 +75111,18 @@
       }
     ]
   },
+  "com.pri.factorytest": {
+    "appName": "factory testing",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.seewo.factoryaging": {
     "appName": "FactoryAging",
     "userFacing": false,
@@ -75590,6 +76154,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -75990,6 +76559,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -77319,6 +77893,18 @@
       }
     ]
   },
+  "com.pri.applock": {
+    "appName": "FingerprintApplock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.finshell.fin": {
     "appName": "FinShell Pay",
     "userFacing": false,
@@ -77452,6 +78038,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -78200,6 +78791,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -80425,6 +81021,18 @@
       }
     ]
   },
+  "com.pri.gamespace": {
+    "appName": "GameSpace",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.game.gamehome": {
     "appName": "Gaming Hub",
     "userFacing": true,
@@ -80549,7 +81157,7 @@
   },
   "com.google.android.inputmethod.latin": {
     "appName": "Gboard",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -80671,6 +81279,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -80932,6 +81545,18 @@
       }
     ]
   },
+  "com.pri.smart": {
+    "appName": "Gene",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.geniex.vsimhelper": {
     "appName": "GENIEX Service",
     "userFacing": false,
@@ -81062,6 +81687,11 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -81535,6 +82165,11 @@
         "os": "33"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -81959,6 +82594,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -82254,6 +82894,11 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -82813,6 +83458,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -83286,6 +83936,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -83855,6 +84510,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -84151,6 +84811,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -84592,6 +85257,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -85012,6 +85682,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -85623,6 +86298,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -86314,6 +86994,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -86739,6 +87424,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -86979,6 +87669,11 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -87261,6 +87956,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -87641,6 +88341,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -88515,6 +89220,18 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.magiear.handsfree.assistant": {
+    "appName": "Hands-Free Assistant",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -90469,6 +91186,18 @@
       }
     ]
   },
+  "com.android.HorCali": {
+    "appName": "HorCali",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.oneplus.deskclock": {
     "appName": "Horloge",
     "userFacing": true,
@@ -90735,6 +91464,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -92153,6 +92887,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -93709,6 +94448,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -96998,6 +97742,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -97204,6 +97953,18 @@
       }
     ]
   },
+  "com.android.pri.wallpaper": {
+    "appName": "Live Wallpaper Picker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.liveeffectservice": {
     "appName": "LiveEffectService",
     "userFacing": false,
@@ -97395,6 +98156,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -97818,6 +98584,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -98439,6 +99210,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -99291,6 +100067,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -99727,6 +100508,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -100280,6 +101066,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -100350,6 +101141,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -100688,6 +101484,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -101256,6 +102057,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -101768,6 +102574,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -103399,6 +104210,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -105453,6 +106269,11 @@
         "os": "33"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -105974,6 +106795,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -106583,6 +107409,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -107955,6 +108786,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -108575,6 +109411,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
@@ -108842,6 +109683,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "TCL",
@@ -109272,6 +110118,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -109609,6 +110460,30 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      }
+    ]
+  },
+  "com.pri.soundmeter": {
+    "appName": "Noise test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
+  "com.android.notepads": {
+    "appName": "Note",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -110427,6 +111302,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -111712,6 +112592,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -111855,6 +112740,11 @@
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "LENOVO",
@@ -113502,6 +114392,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -113698,6 +114593,18 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      }
+    ]
+  },
+  "com.pri.toolbox": {
+    "appName": "OutDoor Toolbox",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -114019,6 +114926,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -114473,6 +115385,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -115100,6 +116017,18 @@
       }
     ]
   },
+  "com.pri.pedometer": {
+    "appName": "Pedometer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.yft.stepcount": {
     "appName": "Pedometer",
     "userFacing": false,
@@ -115654,6 +116583,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -117105,6 +118039,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -117510,6 +118449,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -118006,6 +118950,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -118483,6 +119432,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -119497,6 +120451,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -119844,6 +120803,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -121591,6 +122555,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -122045,6 +123014,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -122992,6 +123966,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -123489,6 +124468,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -124921,6 +125905,11 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -126469,6 +127458,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -134557,6 +135551,18 @@
       }
     ]
   },
+  "com.pri.widget.screenusage": {
+    "appName": "Screen usage time",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.heytap.cast": {
     "appName": "Screencast",
     "userFacing": false,
@@ -134940,6 +135946,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -136019,6 +137030,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -136752,6 +137768,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -137097,6 +138118,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
       {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
@@ -137990,6 +139016,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -138655,6 +139686,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -139132,6 +140168,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -140087,6 +141128,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -140890,6 +141936,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -141611,6 +142662,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -142019,6 +143075,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -143282,6 +144343,18 @@
       }
     ]
   },
+  "com.pri.smartfloatball": {
+    "appName": "Smart Touch",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.yft.smarttouch": {
     "appName": "Smart Touch",
     "userFacing": false,
@@ -143956,6 +145029,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
@@ -145247,6 +146325,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -145459,6 +146542,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -146033,6 +147121,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -146886,6 +147979,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -147444,6 +148542,18 @@
       }
     ]
   },
+  "com.pri.longshotscreen": {
+    "appName": "Super screenshot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.sonymobile.support": {
     "appName": "Support",
     "userFacing": false,
@@ -147642,6 +148752,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -148512,6 +149627,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -149728,6 +150848,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -150183,6 +151308,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -150525,6 +151655,18 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.gotron.uota": {
+    "appName": "System Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       }
     ]
   },
@@ -150959,6 +152101,18 @@
       }
     ]
   },
+  "com.pri.themecenter": {
+    "appName": "System Wallpaper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.wifi.resources": {
     "appName": "System Wi-Fi Resources",
     "userFacing": false,
@@ -151373,6 +152527,11 @@
         "os": "36"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
@@ -151762,6 +152921,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "Xiaomi",
@@ -152459,6 +153623,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -153164,6 +154333,11 @@
         "os": "30"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -153493,6 +154667,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -154006,6 +155185,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
@@ -154081,6 +155265,11 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "TCL",
@@ -156339,6 +157528,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -158337,6 +159531,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -158743,6 +159942,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -159630,6 +160834,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -160048,6 +161257,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -162057,6 +163271,11 @@
         "os": "35"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
@@ -162798,6 +164017,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -163693,6 +164917,11 @@
         "os": "27"
       },
       {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -163940,6 +165169,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "35"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -164277,6 +165511,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
       },
       {
         "make": "OUKITEL",
