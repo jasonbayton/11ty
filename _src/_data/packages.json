@@ -399,6 +399,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -1805,6 +1810,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -2466,6 +2476,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -3270,6 +3285,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -3756,6 +3776,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -4223,6 +4248,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -4653,6 +4683,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -5094,6 +5129,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -5563,6 +5603,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -6442,6 +6487,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -6922,6 +6972,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -7147,6 +7202,11 @@
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -7526,6 +7586,18 @@
       }
     ]
   },
+  "android.overlay.dynamicNavBar": {
+    "appName": "android.overlay.dynamicNavBar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "android.overlay.framework": {
     "appName": "android.overlay.framework",
     "userFacing": false,
@@ -7535,6 +7607,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -7593,6 +7670,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -7605,6 +7687,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -9275,6 +9362,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -9560,6 +9652,18 @@
       }
     ]
   },
+  "com.lct.face.service": {
+    "appName": "ArcsoftFaceService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "com.arkamys.audio": {
     "appName": "ArkamysAudio",
     "userFacing": false,
@@ -9765,6 +9869,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -12386,6 +12495,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -12723,6 +12837,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.theme.icon.big.roundedrect": {
+    "appName": "Big Rounded Rectangle",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -13800,6 +13926,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -14549,6 +14680,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -14984,6 +15120,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -15464,6 +15605,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -15514,6 +15660,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -16221,6 +16372,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -16577,6 +16733,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -17196,6 +17357,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -17977,6 +18143,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -18643,6 +18814,23 @@
       }
     ]
   },
+  "com.google.android.apps.cameralite": {
+    "appName": "camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "com.sec.android.app.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -19206,18 +19394,6 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
-      }
-    ]
-  },
-  "com.google.android.apps.cameralite": {
-    "appName": "Camera Go",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-7306F",
-        "os": "30"
       }
     ]
   },
@@ -20375,6 +20551,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -21011,6 +21192,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -21111,6 +21297,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -21439,6 +21630,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -22173,6 +22369,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -22751,6 +22952,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -23273,6 +23479,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -24346,6 +24557,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -25498,6 +25714,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -26012,6 +26233,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -26512,6 +26738,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -27339,6 +27570,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -27769,6 +28005,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -28337,6 +28578,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -28758,6 +29004,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -29802,6 +30053,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -29847,6 +30103,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.overlay.dynamiciconconfig": {
+    "appName": "com.android.overlay.dynamiciconconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -29996,6 +30264,18 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.overlay.tabletOverlay": {
+    "appName": "com.android.overlay.tabletOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -30343,6 +30623,11 @@
         "os": "36"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -30415,6 +30700,11 @@
         "os": "36"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -30447,6 +30737,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -31205,6 +31500,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -31691,6 +31991,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -31758,6 +32063,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -31887,6 +32197,11 @@
         "os": "34"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -31922,6 +32237,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -32577,6 +32897,11 @@
         "os": "31"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -32709,6 +33034,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -32904,6 +33234,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -33825,6 +34160,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -34002,6 +34342,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -34443,6 +34788,11 @@
         "os": "34"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -34533,6 +34883,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -36430,6 +36785,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -36795,6 +37155,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -37606,6 +37971,30 @@
       }
     ]
   },
+  "com.android.wifi.resources.unisoc": {
+    "appName": "com.android.wifi.resources.unisoc",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
+  "com.android.wifi.resources.unisoc.marlin3": {
+    "appName": "com.android.wifi.resources.unisoc.marlin3",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.wifi.resources.xiaomi": {
     "appName": "com.android.wifi.resources.xiaomi",
     "userFacing": false,
@@ -37783,6 +38172,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.wifi.unisoc.resources.marlin3": {
+    "appName": "com.android.wifi.unisoc.resources.marlin3",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -39258,6 +39659,18 @@
       }
     ]
   },
+  "com.google.android.googlecamera.overlay": {
+    "appName": "com.google.android.googlecamera.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.googlequicksearchbox.nga_resources": {
     "appName": "com.google.android.googlequicksearchbox.nga_resources",
     "userFacing": false,
@@ -39803,6 +40216,18 @@
       }
     ]
   },
+  "com.google.android.messaging.overlay": {
+    "appName": "com.google.android.messaging.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.microdroid.empty_payload": {
     "appName": "com.google.android.microdroid.empty_payload",
     "userFacing": false,
@@ -39892,7 +40317,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "GoogleNetworkStackResOverlay"
+        "name": "NetworkStackOverlay"
       },
       {
         "locale": "en-in",
@@ -39984,6 +40409,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -40211,6 +40641,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -41144,6 +41579,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -41314,6 +41754,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -42014,6 +42459,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -42420,6 +42870,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -42517,6 +42972,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -43780,6 +44240,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -44115,6 +44580,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -44596,6 +45066,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -44940,6 +45415,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -45270,6 +45750,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -46575,6 +47060,18 @@
       }
     ]
   },
+  "com.google.android.setupservices.overlay": {
+    "appName": "com.google.android.setupservices.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.setupwizard.overlay": {
     "appName": "com.google.android.setupwizard.overlay",
     "userFacing": false,
@@ -46589,6 +47086,30 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.google.android.setupwizardstrings.overlay": {
+    "appName": "com.google.android.setupwizardstrings.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
+  "com.google.android.speechservices.overlay": {
+    "appName": "com.google.android.speechservices.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -46824,6 +47345,18 @@
       }
     ]
   },
+  "com.google.android.talkback.overlay": {
+    "appName": "com.google.android.talkback.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.telephony": {
     "appName": "com.google.android.telephony",
     "userFacing": false,
@@ -47013,6 +47546,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.wellbingstring.overlay": {
+    "appName": "com.google.android.wellbingstring.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -57042,6 +57587,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -57838,6 +58388,18 @@
       }
     ]
   },
+  "com.unisoc.android.overlay.wifionly": {
+    "appName": "com.unisoc.android.overlay.wifionly",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      }
+    ]
+  },
   "com.unisoc.auto_generated_rro_product__": {
     "appName": "com.unisoc.auto_generated_rro_product__",
     "userFacing": false,
@@ -57847,6 +58409,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -57859,6 +58426,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -58961,6 +59533,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -59796,6 +60373,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -60961,6 +61543,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -61564,6 +62151,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -62503,6 +63095,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -64648,6 +65245,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -64705,10 +65307,6 @@
         "name": "Modo de tienda"
       },
       {
-        "locale": "en-gb",
-        "name": "Retail mode"
-      },
-      {
         "locale": "en-mt",
         "name": "Retail mode"
       }
@@ -64758,6 +65356,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -65197,6 +65800,18 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      }
+    ]
+  },
+  "android.autoinstalls.config.lenovo.p513": {
+    "appName": "Device configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -65906,6 +66521,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -67668,6 +68288,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -68022,6 +68647,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -68498,6 +69128,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -68967,6 +69602,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -69424,6 +70064,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -69980,6 +70625,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -71020,6 +71670,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -72772,6 +73427,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -73228,6 +73888,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -74182,6 +74847,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -76324,6 +76994,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -76654,6 +77329,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -78988,6 +79668,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -80356,7 +81041,12 @@
   "com.android.gallery3d": {
     "appName": "Gallery",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Photo Edit"
+      }
+    ],
     "devices": [
       {
         "make": "DOOGEE",
@@ -80367,6 +81057,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -81406,6 +82101,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -81777,6 +82477,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -82253,6 +82958,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -82774,6 +83484,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -82984,6 +83699,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -83643,6 +84363,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -84128,6 +84853,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -84543,6 +85273,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -84991,6 +85726,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -85452,6 +86192,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -85879,6 +86624,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -85902,6 +86652,33 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.walletnfcrel": {
+    "appName": "Google Pay",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "en-lk",
+        "name": "Google Wallet"
+      }
+    ],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -85943,6 +86720,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -86493,6 +87275,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -87189,6 +87976,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -87592,6 +88384,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -88153,6 +88950,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -88438,6 +89240,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -88458,23 +89265,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      }
-    ]
-  },
-  "com.google.android.apps.walletnfcrel": {
-    "appName": "Google Wallet",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "TCL",
-        "model": "9491G",
-        "os": "34"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
       }
     ]
   },
@@ -91661,6 +92451,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -93082,6 +93877,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -94645,6 +95445,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -94858,6 +95663,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -96664,6 +97474,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -96788,6 +97603,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -96839,6 +97659,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -96851,6 +97676,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -97927,6 +98757,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -98743,6 +99578,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -99390,6 +100230,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -100252,6 +101097,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -100703,6 +101553,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -101661,6 +102516,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -102212,6 +103072,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -102744,6 +103609,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -103748,6 +104618,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -104405,6 +105280,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -106992,6 +107872,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -107489,6 +108374,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -108961,6 +109851,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -109605,6 +110500,10 @@
         "name": "NetworkStackResOverlay"
       },
       {
+        "locale": "en-gb",
+        "name": "NetworkStackOverlayGsi"
+      },
+      {
         "locale": "ru-ru",
         "name": "NetworkStackResOverlay"
       },
@@ -109733,6 +110632,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -110281,6 +111185,11 @@
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -111469,6 +112378,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -112040,6 +112954,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -112067,6 +112986,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -112777,6 +113701,11 @@
         "os": "33"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -113412,6 +114341,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -114290,6 +115224,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -114581,6 +115520,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -115123,6 +116067,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -115582,6 +116531,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -116002,6 +116956,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -116763,6 +117722,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -118646,6 +119610,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -119145,6 +120114,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -119627,6 +120601,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -120138,6 +121117,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -120571,6 +121555,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -120960,6 +121949,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -120990,6 +121984,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -122285,6 +123284,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -122750,6 +123754,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -123209,6 +124218,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -124161,6 +125175,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -124643,6 +125662,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -127938,6 +128962,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -128156,10 +129185,6 @@
         "name": "Rectángulo redondeado"
       },
       {
-        "locale": "en-gb",
-        "name": "Rounded rectangle"
-      },
-      {
         "locale": "en-mt",
         "name": "Rounded rectangle"
       }
@@ -128204,6 +129229,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -135147,6 +136177,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -136076,6 +137111,11 @@
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -137218,6 +138258,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -139211,6 +140256,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -139881,6 +140931,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -140350,6 +141405,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -140681,6 +141741,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -140852,6 +141917,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -141321,6 +142391,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -142131,6 +143206,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -142835,6 +143915,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -143912,12 +144997,22 @@
   "com.tblenovo.launcher": {
     "appName": "Smart Launcher",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Quickstep"
+      }
+    ],
     "devices": [
       {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -146644,6 +147739,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -147318,6 +148418,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -147448,6 +148553,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -148142,6 +149252,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -148927,6 +150042,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -149802,6 +150922,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -151038,6 +152163,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -151503,6 +152633,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -151560,6 +152695,18 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.wifi.unisoc.resources": {
+    "appName": "System Unisoc WLAN Resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -151655,6 +152802,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -152396,6 +153548,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -152719,6 +153876,11 @@
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -153241,6 +154403,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -153815,6 +154982,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -153877,6 +155049,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -154200,6 +155377,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "RHINO",
@@ -154844,6 +156026,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -155136,7 +156323,7 @@
     "additionalLocales": [
       {
         "locale": "en-gb",
-        "name": "com.android.networkstack.tethering.overlay"
+        "name": "TetheringConfigOverlayGsi"
       },
       {
         "locale": "es-es",
@@ -155228,6 +156415,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -155683,7 +156875,12 @@
   "com.tblenovo.lenovowhatsnew": {
     "appName": "Tips",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "LenovoWhatsnew"
+      }
+    ],
     "devices": [
       {
         "make": "LENOVO",
@@ -155699,6 +156896,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -156689,6 +157891,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -156851,6 +158058,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -156921,6 +158133,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -157723,6 +158940,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -157778,6 +159000,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -157971,6 +159198,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -158468,6 +159700,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -160139,6 +161376,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -160950,6 +162192,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -161432,6 +162679,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -163441,6 +164693,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -164214,6 +165471,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -164962,6 +166224,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -165356,6 +166623,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
@@ -165608,6 +166880,11 @@
         "os": "35"
       },
       {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -165655,6 +166932,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
@@ -165692,6 +166974,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "Lenovo",
+        "model": "TB328FU",
+        "os": "31"
       }
     ]
   },
