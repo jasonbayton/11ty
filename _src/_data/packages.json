@@ -299,6 +299,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -456,6 +461,18 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      }
+    ]
+  },
+  "com.tcl.keyguardshortcut": {
+    "appName": "Acceso directo del teclado",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -962,6 +979,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -2408,6 +2430,11 @@
         "os": "31"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -2713,6 +2740,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -3188,6 +3220,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -3691,6 +3728,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -4168,6 +4210,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -4608,6 +4655,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -5054,6 +5106,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -5535,6 +5592,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -6005,6 +6067,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -6420,6 +6487,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -7860,6 +7932,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -7872,6 +7949,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -7884,6 +7966,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -7908,6 +7995,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -9884,6 +9976,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "motorola",
@@ -12165,12 +12262,12 @@
         "name": "Écrans de veille interactifs basiques"
       },
       {
-        "locale": "it-it",
-        "name": "Daydream di base"
-      },
-      {
         "locale": "es-es",
         "name": "Salvapantallas básico"
+      },
+      {
+        "locale": "it-it",
+        "name": "Daydream di base"
       }
     ],
     "devices": [
@@ -12443,6 +12540,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -12720,12 +12822,22 @@
   "com.tct.batterywarning": {
     "appName": "Battery warning",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Aviso de la batería"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -13871,6 +13983,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -14640,6 +14757,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -15080,6 +15202,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -15568,6 +15695,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -16407,6 +16539,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -16758,6 +16895,11 @@
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -17337,6 +17479,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -18126,6 +18273,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -19377,12 +19529,22 @@
   "com.tcl.camera": {
     "appName": "Camera",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Cámara"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -19927,6 +20089,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -20566,6 +20733,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -20808,6 +20980,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.tcl.screenshotex": {
+    "appName": "Captura de pantalla",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -21210,6 +21394,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -21720,6 +21909,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -22394,6 +22588,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -22967,6 +23166,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -23499,6 +23703,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -24708,7 +24917,12 @@
   "com.android.deskclock": {
     "appName": "Clock",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Reloj"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -24759,6 +24973,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -24974,6 +25193,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.tct.appclone.resources": {
+    "appName": "Clonador de aplicaciones",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -25749,6 +25980,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -26281,6 +26517,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -26828,6 +27069,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -27620,6 +27866,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -28060,6 +28311,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -28693,6 +28949,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -29079,6 +29340,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -29712,6 +29978,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -30136,6 +30407,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -31146,6 +31422,18 @@
       }
     ]
   },
+  "com.android.phone.rro_6165H": {
+    "appName": "com.android.phone.rro_6165H",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.pixeldisplayservice": {
     "appName": "com.android.pixeldisplayservice",
     "userFacing": false,
@@ -31583,6 +31871,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -32076,6 +32369,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -32498,6 +32796,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -33542,6 +33845,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -34250,6 +34558,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -34598,6 +34911,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -36059,6 +36377,11 @@
         "os": "31"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -36106,6 +36429,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -36902,6 +37230,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -37294,6 +37627,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -37546,6 +37884,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -37726,6 +38069,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -37828,6 +38176,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -38172,6 +38525,18 @@
       }
     ]
   },
+  "com.android.wifi.resources.rro_common": {
+    "appName": "com.android.wifi.resources.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.wifi.resources.rro_perf": {
     "appName": "com.android.wifi.resources.rro_perf",
     "userFacing": false,
@@ -38181,6 +38546,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -38295,6 +38665,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
@@ -38360,6 +38735,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -38993,6 +39373,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -39142,6 +39527,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -39176,6 +39566,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -39344,6 +39739,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -39657,6 +40057,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -40572,6 +40977,10 @@
         "name": "NetworkStackOverlay"
       },
       {
+        "locale": "es-es",
+        "name": "GoogleNetworkStackResOverlay"
+      },
+      {
         "locale": "en-in",
         "name": "GoogleNetworkStackResOverlay"
       }
@@ -40631,6 +41040,11 @@
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -40838,6 +41252,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -41387,6 +41806,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -41731,6 +42155,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -41946,6 +42375,11 @@
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -42287,6 +42721,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -42616,6 +43055,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -42823,6 +43267,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -43050,6 +43499,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -43346,6 +43800,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -43814,6 +44273,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -44407,6 +44871,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -44742,6 +45211,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -45228,6 +45702,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -45577,6 +46056,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -45912,6 +46396,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -46881,6 +47370,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -48634,6 +49128,18 @@
       }
     ]
   },
+  "com.jrdcom.Elabel.overlay_6165H": {
+    "appName": "com.jrdcom.Elabel.overlay_6165H",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.jrdcom.Elabel.overlay_hera": {
     "appName": "com.jrdcom.Elabel.overlay_hera",
     "userFacing": false,
@@ -48679,6 +49185,23 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
+  "com.jrdcom.Elabel.rro_product": {
+    "appName": "com.jrdcom.Elabel.rro_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -48841,6 +49364,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -49103,6 +49631,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -49236,6 +49769,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -49328,6 +49866,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -49408,6 +49951,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -49533,6 +50081,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -49645,6 +50198,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -49805,6 +50363,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -49880,6 +50443,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -58148,6 +58716,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58160,6 +58733,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58172,6 +58750,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58184,6 +58767,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58208,6 +58796,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58220,6 +58813,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58232,6 +58830,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58244,6 +58847,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58256,6 +58864,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58292,6 +58905,23 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
+  "com.tct.nxtvision_ui.overlay_product": {
+    "appName": "com.tct.nxtvision_ui.overlay_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58316,6 +58946,23 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
+  "com.tct.reducesar.rro_6165H": {
+    "appName": "com.tct.reducesar.rro_6165H",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58340,6 +58987,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58352,6 +59004,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -58364,6 +59021,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -59715,6 +60377,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -60560,6 +61227,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -61775,6 +62447,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -62383,6 +63060,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -63302,6 +63984,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -65042,6 +65729,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -65462,6 +66154,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -65700,6 +66397,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -66110,6 +66812,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -66438,6 +67145,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -68545,6 +69257,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -69360,6 +70077,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -69834,6 +70556,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -70301,6 +71028,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -71570,6 +72302,18 @@
       }
     ]
   },
+  "com.tclcamera.aftersalecalitool": {
+    "appName": "DualCamVerifyTool",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.ifpdos.dudi.midleware": {
     "appName": "DUDISdkServer",
     "userFacing": false,
@@ -71927,6 +72671,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -72592,6 +73341,18 @@
       }
     ]
   },
+  "com.tcl.tct.weather": {
+    "appName": "El tiempo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.seewo.electricshelf": {
     "appName": "Elektrisches Regal",
     "userFacing": false,
@@ -72705,6 +73466,10 @@
       {
         "locale": "en-gb",
         "name": "com.android.email.partnerprovider.ContextApplication"
+      },
+      {
+        "locale": "es-es",
+        "name": "com.android.email.partnerprovider.ContextApplication"
       }
     ],
     "devices": [
@@ -72722,6 +73487,11 @@
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "OnePlus",
@@ -73018,6 +73788,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -73759,6 +74534,11 @@
         "os": "31"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -73875,12 +74655,22 @@
   "com.tct.phone": {
     "appName": "Enhanced Phone Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Servicios del teléfono mejorados"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -75106,6 +75896,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -75783,6 +76578,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -76763,6 +77563,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -77276,6 +78081,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -77646,6 +78456,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -78935,6 +79750,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -79181,6 +80001,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -79216,6 +80041,18 @@
       }
     ]
   },
+  "com.focaltech.fingerprint": {
+    "appName": "FocalFingerprintmmitest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.focaltech.focalnfpmmitest": {
     "appName": "Focalnfpmmitest",
     "userFacing": false,
@@ -79237,6 +80074,30 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      }
+    ]
+  },
+  "com.tcl.android.wallpaper.livepicker": {
+    "appName": "Fondo de pantalla animado",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
+  "com.tct.fontstyle.resources": {
+    "appName": "Font Style",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -79496,12 +80357,22 @@
   "com.tct.freeform.resources": {
     "appName": "Freeform",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Formato libre"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -79615,6 +80486,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -79933,6 +80809,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -81074,6 +81955,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.tclhz.gallery": {
+    "appName": "Galería",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -82408,6 +83301,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -82520,6 +83418,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -82809,6 +83712,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -83297,6 +84205,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -83776,6 +84689,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -84046,6 +84964,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -84665,6 +85588,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -85153,6 +86081,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -86045,6 +86978,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -86504,6 +87442,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -86941,6 +87884,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -87092,6 +88040,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Google Wallet"
+      },
+      {
         "locale": "en-lk",
         "name": "Google Wallet"
       }
@@ -87101,6 +88053,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "OPPO",
@@ -87597,6 +88554,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -88303,6 +89265,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -88731,6 +89698,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -89285,6 +90257,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -92159,6 +93136,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -92801,6 +93783,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -94236,6 +95223,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -94390,6 +95382,18 @@
       {
         "make": "Xiaomi",
         "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
+  "com.instagram.android": {
+    "appName": "Instagram",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
         "os": "33"
       }
     ]
@@ -95438,6 +96442,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -95810,6 +96819,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -97824,12 +98838,22 @@
   "com.tcl.android.launcher": {
     "appName": "Launcher",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Pantalla de aplicaciones"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -99134,6 +100158,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -99359,6 +100388,18 @@
       }
     ]
   },
+  "com.tct.gcs.wfcmanager": {
+    "appName": "Llamadas Wi-Fi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.localeoverlaymanager": {
     "appName": "Locale Overlay Manager",
     "userFacing": false,
@@ -99503,6 +100544,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -99936,6 +100982,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -100614,6 +101665,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -100959,6 +102015,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -101484,6 +102545,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -101935,6 +103001,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -102443,6 +103514,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
@@ -102523,6 +103599,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Xiaomi",
@@ -102916,6 +103997,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -103494,6 +104580,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -104013,6 +105104,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -104309,6 +105405,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -104481,6 +105582,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -104646,6 +105752,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -105220,6 +106331,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
@@ -105376,6 +106492,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -105689,6 +106810,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -107569,6 +108695,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
@@ -107701,6 +108832,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -108289,6 +109425,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -110295,6 +111436,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -110865,6 +112011,11 @@
         "os": "31"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -111146,6 +112297,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -111631,6 +112787,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -111930,6 +113091,18 @@
         "make": "Ulefone",
         "model": "Power Armor X11 Pro",
         "os": "31"
+      }
+    ]
+  },
+  "com.tct.smart.notes": {
+    "appName": "Notas",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -112847,6 +114020,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -113011,6 +114189,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -113293,6 +114476,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -113308,6 +114496,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -115718,6 +116911,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -116066,12 +117264,22 @@
   "com.android.otaprovisioningclient": {
     "appName": "OTA Access Point Configuration",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Configuración punto de acceso OTA"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -116519,6 +117727,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -116990,6 +118203,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -117204,6 +118422,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.tct.fullscreen.resources": {
+    "appName": "Pantalla completa",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -118198,6 +119428,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -118989,6 +120224,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -119617,6 +120857,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -120082,6 +121327,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -120593,6 +121843,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -121085,6 +122340,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -122089,6 +123349,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -122466,6 +123731,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -124248,6 +125518,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -124719,6 +125994,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -125084,6 +126364,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -125679,6 +126964,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -126188,6 +127478,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -126355,6 +127650,18 @@
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
+      }
+    ]
+  },
+  "com.tct.smart.push": {
+    "appName": "Push inteligente",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -128132,6 +129439,18 @@
       }
     ]
   },
+  "com.tcl.faceunlock": {
+    "appName": "Reconocimiento facial",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.recorder": {
     "appName": "Recorder",
     "userFacing": true,
@@ -128321,12 +129640,22 @@
   "com.jrdcom.Elabel": {
     "appName": "Regulatory & safety",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Normativa y seguridad"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -129146,6 +130475,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -137126,12 +138460,22 @@
   "com.tct.smart.miracastcontrol": {
     "appName": "Screen cast",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Transmisión de pantalla"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -137150,12 +138494,22 @@
   "com.tcl.screenrecorder": {
     "appName": "Screen Recorder",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Grabación de Pantalla"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -137675,6 +139029,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -138787,6 +140146,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -140785,6 +142149,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -141465,6 +142834,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -141673,12 +143047,22 @@
   "com.tcl.providers.config": {
     "appName": "Settings Storage",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Almacenamiento de configuración"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -141952,6 +143336,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -142333,12 +143722,22 @@
   "com.tct.setupwizard": {
     "appName": "Setup Wizard",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Asistente instalación"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -142935,6 +144334,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -143755,6 +145159,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -144479,6 +145888,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -148358,6 +149772,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -148987,6 +150406,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -149598,12 +151022,12 @@
         "name": "Gestionnaire d'espace de stockage"
       },
       {
-        "locale": "it-it",
-        "name": "Gestione archiviazione"
-      },
-      {
         "locale": "es-es",
         "name": "Administrador de almacenamiento"
+      },
+      {
+        "locale": "it-it",
+        "name": "Gestione archiviazione"
       }
     ],
     "devices": [
@@ -149846,6 +151270,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -150373,12 +151802,22 @@
   "com.tcl.usercare": {
     "appName": "Support Centre",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Centro de ayuda"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -150631,6 +152070,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -151134,12 +152578,22 @@
   "com.tct.smart.switchphone": {
     "appName": "Switch Tablet",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Cambio de teléfono"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -151516,6 +152970,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -152212,6 +153671,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -152752,6 +154216,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -153222,6 +154691,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -153541,12 +155015,22 @@
   "com.tcl.fota.system": {
     "appName": "System Update",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Actualización del sistema"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -153772,6 +155256,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -154019,16 +155508,16 @@
         "name": "Ressources Wi-Fi du système"
       },
       {
+        "locale": "es-es",
+        "name": "Recursos Wi‑Fi del sistema"
+      },
+      {
         "locale": "it-it",
         "name": "Risorse Wi-Fi sistema"
       },
       {
         "locale": "en-in",
         "name": "System Wi-Fi resources"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recursos Wi‑Fi del sistema"
       },
       {
         "locale": "en-za",
@@ -154190,6 +155679,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -155069,6 +156563,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -155596,6 +157095,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -156013,6 +157517,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -156025,6 +157534,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -156049,6 +157563,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -156259,6 +157778,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -156299,6 +157823,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -156653,6 +158182,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -157116,6 +158650,11 @@
         "os": "31"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -157201,6 +158740,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -157356,12 +158900,22 @@
   "com.tcl.guard": {
     "appName": "TGuard",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Smart Manager"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -157676,6 +159230,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -158963,12 +160522,22 @@
   "com.tct.smart.aota": {
     "appName": "Updates",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Actualizaciones del sistema"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -159564,6 +161133,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -159959,6 +161533,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -161100,12 +162679,22 @@
   "com.aura.oobe.vodafone": {
     "appName": "Vodafone AppBox",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "AppBox"
+      }
+    ],
     "devices": [
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       }
     ]
   },
@@ -162010,6 +163599,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -162392,6 +163986,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -163338,6 +164937,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -164482,6 +166086,18 @@
       }
     ]
   },
+  "com.tct.wfcsettingsext": {
+    "appName": "Wi-fi Calling EXT",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.android.allshare.service.fileshare": {
     "appName": "Wi-Fi Direct",
     "userFacing": false,
@@ -165367,6 +166983,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -166128,6 +167749,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -167295,6 +168921,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
