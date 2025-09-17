@@ -259,6 +259,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -469,6 +474,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
       {
         "make": "TCL",
         "model": "6165H",
@@ -2405,6 +2415,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -2705,6 +2720,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "Google",
@@ -3175,6 +3195,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -3683,6 +3708,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -4165,6 +4195,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -4610,6 +4645,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -5061,6 +5101,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -5545,6 +5590,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -6442,6 +6492,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -7374,6 +7429,18 @@
       }
     ]
   },
+  "android.default_dialer": {
+    "appName": "android.default_dialer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "android.framework.res.rro.oneplus": {
     "appName": "android.framework.res.rro.oneplus",
     "userFacing": false,
@@ -7949,6 +8016,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -10257,6 +10329,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -12254,16 +12331,16 @@
         "name": "Protector de pantalla interactivo básico"
       },
       {
+        "locale": "es-es",
+        "name": "Salvapantallas básico"
+      },
+      {
         "locale": "sv-se",
         "name": "Grund för dagdrömmar"
       },
       {
         "locale": "fr-fr",
         "name": "Écrans de veille interactifs basiques"
-      },
-      {
-        "locale": "es-es",
-        "name": "Salvapantallas básico"
       },
       {
         "locale": "it-it",
@@ -12495,6 +12572,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -12833,6 +12915,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -13629,6 +13716,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -13938,6 +14030,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -14131,6 +14228,30 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.tct.applock": {
+    "appName": "Bloqueo de aplicación",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tct.smart.lostmode": {
+    "appName": "Bloqueo remoto",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -14712,6 +14833,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -15157,6 +15283,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -15652,6 +15783,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -16104,6 +16240,18 @@
       }
     ]
   },
+  "com.tcl.compass": {
+    "appName": "Brújula",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.hihonor.compass": {
     "appName": "Brújula",
     "userFacing": true,
@@ -16384,6 +16532,30 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.gamemode": {
+    "appName": "Caja de Juego",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tct.calculator": {
+    "appName": "Calculadora",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -16870,6 +17042,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -17434,6 +17611,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -18228,6 +18410,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -19543,6 +19730,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -20693,6 +20885,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -20988,6 +21185,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
       {
         "make": "TCL",
         "model": "6165H",
@@ -21349,6 +21551,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -21904,6 +22111,11 @@
         "make": "Ulefone",
         "model": "Power Armor X11 Pro",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -22548,6 +22760,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -23121,6 +23338,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -23660,6 +23882,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -24120,6 +24347,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -24200,6 +24432,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -24229,6 +24466,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -24264,6 +24506,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -24296,6 +24543,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -24325,6 +24577,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -24968,6 +25225,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "CipherLab",
@@ -25935,6 +26197,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -26479,6 +26746,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -26858,6 +27130,18 @@
       }
     ]
   },
+  "com.android.carrierconfig.rro_product": {
+    "appName": "com.android.carrierconfig.rro_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.cellbroadcast.overlay": {
     "appName": "com.android.cellbroadcast.overlay",
     "userFacing": false,
@@ -27039,6 +27323,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -27821,6 +28110,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -28266,6 +28560,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -29300,6 +29599,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -30369,6 +30673,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -30708,6 +31017,30 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      }
+    ]
+  },
+  "com.android.overlay.modules.permissioncontroller.tctui": {
+    "appName": "com.android.overlay.modules.permissioncontroller.tctui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.android.overlay.modules.permissioncontroller.tctui.cts": {
+    "appName": "com.android.overlay.modules.permissioncontroller.tctui.cts",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -31211,6 +31544,18 @@
       }
     ]
   },
+  "com.android.phone.overlay_6025D": {
+    "appName": "com.android.phone.overlay_6025D",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.phone.overlay.carriersettings": {
     "appName": "com.android.phone.overlay.carriersettings",
     "userFacing": false,
@@ -31431,6 +31776,30 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.phone.rro_product": {
+    "appName": "com.android.phone.rro_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.android.phone.rro_vendor": {
+    "appName": "com.android.phone.rro_vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -31826,6 +32195,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -32324,6 +32698,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -32569,6 +32948,18 @@
       }
     ]
   },
+  "com.android.providers.privacyprotection": {
+    "appName": "com.android.providers.privacyprotection",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.providers.settings.auto_generated_rro_product__": {
     "appName": "com.android.providers.settings.auto_generated_rro_product__",
     "userFacing": false,
@@ -32799,6 +33190,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -32813,6 +33209,18 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      }
+    ]
+  },
+  "com.android.providers.settings.rro_vendor": {
+    "appName": "com.android.providers.settings.rro_vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -33390,6 +33798,11 @@
         "os": "31"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -33626,6 +34039,18 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.server.telecom.rro_common": {
+    "appName": "com.android.server.telecom.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -34513,6 +34938,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -34911,6 +35341,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -36367,6 +36802,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -37185,6 +37625,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -37590,6 +38035,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -38166,6 +38616,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -38984,6 +39439,18 @@
       }
     ]
   },
+  "com.fpsensor.fpSensorExtensionSvc2": {
+    "appName": "com.fpsensor.fpSensorExtensionSvc2",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.google.android.apps.adm": {
     "appName": "com.google.android.apps.adm",
     "userFacing": true,
@@ -39530,6 +39997,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -39566,6 +40038,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -39742,8 +40219,25 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
+      }
+    ]
+  },
+  "com.google.android.documentsui.icon_overlay": {
+    "appName": "com.google.android.documentsui.icon_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -41032,6 +41526,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -41232,6 +41731,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -42120,6 +42624,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -42355,6 +42864,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -43020,6 +43534,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -43469,6 +43988,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -45178,6 +45702,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -45667,6 +46196,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -46021,6 +46555,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -46363,6 +46902,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -46526,6 +47070,30 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.overlay.modules.permissioncontroller.tctui": {
+    "appName": "com.google.android.overlay.modules.permissioncontroller.tctui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.google.android.overlay.modules.permissioncontroller.tctui.cts": {
+    "appName": "com.google.android.overlay.modules.permissioncontroller.tctui.cts",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -49128,6 +49696,30 @@
       }
     ]
   },
+  "com.jrdcom.Elabel.a_overlay": {
+    "appName": "com.jrdcom.Elabel.a_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.jrdcom.Elabel.overlay_6025D": {
+    "appName": "com.jrdcom.Elabel.overlay_6025D",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.jrdcom.Elabel.overlay_6165H": {
     "appName": "com.jrdcom.Elabel.overlay_6165H",
     "userFacing": false,
@@ -49349,6 +49941,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -49754,6 +50351,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -50071,6 +50673,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -50348,6 +50955,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -50433,6 +51045,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -58736,8 +59353,25 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
+      }
+    ]
+  },
+  "com.tcl.android.launcher.overlay_HONG_KONG": {
+    "appName": "com.tcl.android.launcher.overlay_HONG_KONG",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -58775,6 +59409,18 @@
       }
     ]
   },
+  "com.tcl.camera.a_overlay": {
+    "appName": "com.tcl.camera.a_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.tcl.camera.overlay": {
     "appName": "com.tcl.camera.overlay",
     "userFacing": false,
@@ -58804,6 +59450,30 @@
       }
     ]
   },
+  "com.tcl.entitlement": {
+    "appName": "com.tcl.entitlement.ImsplugApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tcl.fmradio.a_overlay": {
+    "appName": "com.tcl.fmradio.a_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.tcl.google.networkstack.rro": {
     "appName": "com.tcl.google.networkstack.rro",
     "userFacing": false,
@@ -58821,6 +59491,42 @@
       }
     ]
   },
+  "com.tcl.logger.a_overlay": {
+    "appName": "com.tcl.logger.a_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tcl.reducesar": {
+    "appName": "com.tcl.reducesar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tcl.reducesar.rro_6025D": {
+    "appName": "com.tcl.reducesar.rro_6025D",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.tcl.tclmsgproxy": {
     "appName": "com.tcl.tclmsgproxy",
     "userFacing": false,
@@ -58835,6 +59541,30 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      }
+    ]
+  },
+  "com.tcl.usercare.a_overlay": {
+    "appName": "com.tcl.usercare.a_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tct": {
+    "appName": "com.tct",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -58884,6 +59614,30 @@
       }
     ]
   },
+  "com.tct.iris.overlay_alcatel": {
+    "appName": "com.tct.iris.overlay_alcatel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tct.iris.overlay_hongkong": {
+    "appName": "com.tct.iris.overlay_hongkong",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.tct.iris.overlay_product": {
     "appName": "com.tct.iris.overlay_product",
     "userFacing": false,
@@ -58893,6 +59647,18 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.iris.overlay_vendor": {
+    "appName": "com.tct.iris.overlay_vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -58937,6 +59703,18 @@
       }
     ]
   },
+  "com.tct.phone.rro_product": {
+    "appName": "com.tct.phone.rro_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.tct.reducesar": {
     "appName": "com.tct.reducesar",
     "userFacing": false,
@@ -58975,6 +59753,18 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.rro_brand": {
+    "appName": "com.tct.rro_brand",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -59026,6 +59816,18 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      }
+    ]
+  },
+  "com.tctui": {
+    "appName": "com.tctui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -60332,6 +61134,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -61182,6 +61989,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -62427,6 +63239,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -63030,6 +63847,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -63939,6 +64761,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -65719,6 +66546,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -66109,6 +66941,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -66397,6 +67234,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -66812,6 +67654,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -67739,6 +68586,10 @@
       {
         "locale": "nl-nl",
         "name": "Apparaatinstallatie"
+      },
+      {
+        "locale": "es-es",
+        "name": "Ajustes del dispositivo"
       }
     ],
     "devices": [
@@ -67786,6 +68637,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "Google",
@@ -69227,6 +70083,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -70032,6 +70893,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -70511,6 +71377,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -70983,6 +71854,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -72302,6 +73178,18 @@
       }
     ]
   },
+  "com.tcl.camera.verifytool": {
+    "appName": "DualCamVerifyTool",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.tclcamera.aftersalecalitool": {
     "appName": "DualCamVerifyTool",
     "userFacing": false,
@@ -72631,6 +73519,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -73348,6 +74241,11 @@
     "devices": [
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -73482,6 +74380,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "OnePlus",
@@ -73758,6 +74661,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -74529,6 +75437,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -74666,6 +75579,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -75476,6 +76394,18 @@
       }
     ]
   },
+  "com.tct.privatespace": {
+    "appName": "Espacio privado",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.hihonor.mirror": {
     "appName": "Espejo",
     "userFacing": true,
@@ -75849,6 +76779,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -76581,6 +77516,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       },
@@ -76950,6 +77890,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "ma.android.com.mafactory": {
+    "appName": "Factory Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -77566,6 +78518,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -78039,6 +78996,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -78815,6 +79777,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -78844,6 +79811,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -78879,6 +79851,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -78911,6 +79888,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -78940,6 +79922,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -79753,6 +80740,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -80004,6 +80996,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -80046,6 +81043,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
       {
         "make": "TCL",
         "model": "6165H",
@@ -80489,6 +81491,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -80764,6 +81771,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -81965,6 +82977,11 @@
     "devices": [
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -83114,6 +84131,11 @@
         "os": "27"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
@@ -83271,6 +84293,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -83421,6 +84448,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -83551,6 +84583,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.tcl.tct.filemanager": {
+    "appName": "Gestión archivos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -83692,6 +84736,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -84185,6 +85234,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -84649,6 +85703,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -84944,6 +86003,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -85543,6 +86607,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -85748,6 +86817,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "OPPO",
@@ -86036,6 +87110,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -86529,6 +87608,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-es",
+        "name": "Sincronización de contactos de Google"
+      },
+      {
         "locale": "fr-fr",
         "name": "Synchronisation de Google Contacts"
       }
@@ -86593,6 +87676,11 @@
         "make": "Ulefone",
         "model": "Power Armor X11 Pro",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -86936,6 +88024,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -87397,6 +88490,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -87839,6 +88937,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -88053,6 +89156,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -88509,6 +89617,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -89218,6 +90331,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -90214,6 +91332,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -91208,6 +92331,18 @@
       }
     ]
   },
+  "com.tct.soundrecorder": {
+    "appName": "Grabador de sonido",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.hihonor.phone.recorder": {
     "appName": "Grabadora de llamadas",
     "userFacing": false,
@@ -91243,6 +92378,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -93139,6 +94279,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -93738,6 +94883,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -95178,6 +96328,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -95393,6 +96548,11 @@
     "devices": [
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -95530,6 +96690,11 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "OnePlus",
@@ -96774,6 +97939,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -98852,6 +100022,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -100118,6 +101293,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -100534,6 +101714,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -100972,6 +102157,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -101623,6 +102813,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -102500,6 +103695,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -102956,6 +104156,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -103504,6 +104709,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -103584,6 +104794,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -103957,6 +105172,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -105074,6 +106294,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -105395,6 +106620,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -105572,6 +106802,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
@@ -105742,6 +106977,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "samsung",
@@ -106454,6 +107694,18 @@
       }
     ]
   },
+  "com.android.mmisubtest": {
+    "appName": "MMISubTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.hihonor.mmitest": {
     "appName": "MMITest",
     "userFacing": false,
@@ -106492,6 +107744,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -106765,6 +108022,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -107516,6 +108778,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.simplelauncher": {
+    "appName": "Modo Simple",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -108824,6 +110098,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -109382,6 +110661,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -109870,6 +111154,18 @@
       }
     ]
   },
+  "com.tct.music": {
+    "appName": "Música",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.musicfx": {
     "appName": "MusicFX",
     "userFacing": false,
@@ -110110,6 +111406,18 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      }
+    ]
+  },
+  "com.tct.faceunlock": {
+    "appName": "My Application",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -111396,6 +112704,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -112006,6 +113319,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -112287,6 +113605,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -113980,6 +115303,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -114477,6 +115805,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       },
@@ -114527,6 +115860,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -116540,6 +117878,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -116879,6 +118222,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -117275,6 +118623,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -117682,6 +119035,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -118156,6 +119514,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -118749,6 +120112,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -119386,6 +120754,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -120842,6 +122215,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -121282,6 +122660,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -121798,6 +123181,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -122295,6 +123683,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -123322,6 +124715,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -125473,6 +126871,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -125947,6 +127350,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -126634,6 +128042,18 @@
       }
     ]
   },
+  "com.tct.privacyprotect": {
+    "appName": "Protección de privacidad",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.provision": {
     "appName": "Provision",
     "userFacing": false,
@@ -126917,6 +128337,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -127438,6 +128863,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -127635,6 +129065,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -127658,6 +129093,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
       {
         "make": "TCL",
         "model": "6165H",
@@ -129027,6 +130467,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -129281,6 +130726,18 @@
       }
     ]
   },
+  "com.tct.tctsmartapprecommend": {
+    "appName": "Recomendaciones de Smart App",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.samsung.android.app.omcagent": {
     "appName": "Recommended apps",
     "userFacing": false,
@@ -129444,6 +130901,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
       {
         "make": "TCL",
         "model": "6165H",
@@ -129625,6 +131087,18 @@
       }
     ]
   },
+  "com.tcl.android.launchertheme.res": {
+    "appName": "Recursos de temas de la pantalla de aplicaciones",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.zebra.regulatory": {
     "appName": "Regulatory",
     "userFacing": false,
@@ -129651,6 +131125,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -130467,6 +131946,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -131015,6 +132499,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -131044,6 +132533,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -131079,6 +132573,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -131109,6 +132608,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -131135,6 +132639,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -131186,6 +132695,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -138508,6 +140022,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -138999,6 +140518,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -140103,6 +141627,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -140308,6 +141837,18 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      }
+    ]
+  },
+  "com.tct.android.secureinput": {
+    "appName": "SecureInput",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -140780,6 +142321,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.chsc.semitouchtester": {
+    "appName": "SemiTouchTester",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -142104,6 +143657,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -142789,6 +144347,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -143298,6 +144861,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -143733,6 +145301,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -144289,6 +145862,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -145114,6 +146692,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -145853,6 +147436,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "Google",
@@ -147108,6 +148696,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -149752,6 +151345,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -149950,6 +151548,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -150361,6 +151964,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -150660,6 +152268,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -151014,16 +152627,16 @@
         "name": "Speichermanager"
       },
       {
+        "locale": "es-es",
+        "name": "Administrador de almacenamiento"
+      },
+      {
         "locale": "sv-se",
         "name": "Lagringshanteraren"
       },
       {
         "locale": "fr-fr",
         "name": "Gestionnaire d'espace de stockage"
-      },
-      {
-        "locale": "es-es",
-        "name": "Administrador de almacenamiento"
       },
       {
         "locale": "it-it",
@@ -151230,6 +152843,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -151816,6 +153434,11 @@
       },
       {
         "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
         "model": "6165H",
         "os": "33"
       }
@@ -152030,6 +153653,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -152589,6 +154217,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -154171,6 +155804,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -154646,6 +156284,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -155026,6 +156669,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -155500,16 +157148,16 @@
         "name": "System-WLAN-Ressourcen"
       },
       {
+        "locale": "es-es",
+        "name": "Recursos Wi‑Fi del sistema"
+      },
+      {
         "locale": "sv-se",
         "name": "Resurser för wifi-system"
       },
       {
         "locale": "fr-fr",
         "name": "Ressources Wi-Fi du système"
-      },
-      {
-        "locale": "es-es",
-        "name": "Recursos Wi‑Fi del sistema"
       },
       {
         "locale": "it-it",
@@ -155649,6 +157297,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -156548,6 +158201,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -157050,6 +158708,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -157276,6 +158939,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -157554,6 +159222,18 @@
       }
     ]
   },
+  "com.android.providers.tctdatahubprovider": {
+    "appName": "TctDataHubProvider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.tct.systemservice": {
     "appName": "TctSystemService",
     "userFacing": false,
@@ -157563,6 +159243,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -157609,6 +159294,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -157711,6 +159401,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
@@ -157771,6 +159466,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "Nothing",
@@ -158142,6 +159842,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -158645,6 +160350,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -158735,6 +160445,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -159230,6 +160945,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -160096,6 +161816,18 @@
       }
     ]
   },
+  "com.android.launcher3.tv": {
+    "appName": "TV",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      }
+    ]
+  },
   "com.android.providers.tv": {
     "appName": "TV Storage",
     "userFacing": false,
@@ -160533,6 +162265,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -161088,6 +162825,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -161516,6 +163258,18 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.tct.multipleuser": {
+    "appName": "Varios usuarios",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -162025,6 +163779,11 @@
         "os": "30"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -162174,6 +163933,18 @@
       {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
+        "os": "30"
+      }
+    ]
+  },
+  "com.tcl.android.video": {
+    "appName": "Video",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       }
     ]
@@ -162690,6 +164461,11 @@
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "TCL",
@@ -163552,6 +165328,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -164595,7 +166376,12 @@
   "com.wapi.wapicertmanager": {
     "appName": "WAPI certificate",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Certificado WAPI"
+      }
+    ],
     "devices": [
       {
         "make": "Blackview",
@@ -164605,6 +166391,11 @@
       {
         "make": "realme",
         "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
         "os": "30"
       },
       {
@@ -164897,6 +166688,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -165772,6 +167568,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.wfcwebiew": {
+    "appName": "WfcWebView",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -166943,6 +168751,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -167704,6 +169517,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -168594,6 +170412,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -168876,6 +170699,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       },
       {
         "make": "LENOVO",
@@ -170290,6 +172118,18 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      }
+    ]
+  },
+  "com.tcl.android.SaleCalib": {
+    "appName": "售后标定",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
