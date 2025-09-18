@@ -134,6 +134,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -754,6 +759,10 @@
         "name": "Privacidad en la publicidad"
       },
       {
+        "locale": "it-it",
+        "name": "Privacy per gli annunci"
+      },
+      {
         "locale": "nl-nl",
         "name": "Advertentieprivacy"
       },
@@ -776,10 +785,6 @@
       {
         "locale": "sv-se",
         "name": "Annonsintegritet"
-      },
-      {
-        "locale": "it-it",
-        "name": "Privacy per gli annunci"
       },
       {
         "locale": "en-in",
@@ -868,6 +873,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -1556,6 +1566,18 @@
       }
     ]
   },
+  "com.hotwav.update": {
+    "appName": "Aggiornamento firmware",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
   "com.freemeimp.factory": {
     "appName": "Aging test",
     "userFacing": false,
@@ -1872,6 +1894,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -2277,6 +2304,10 @@
         "name": "Suite de Accesibilidad Android"
       },
       {
+        "locale": "it-it",
+        "name": "Accessibilità di Android"
+      },
+      {
         "locale": "es-us",
         "name": "Suite de Accesibilidad Android"
       },
@@ -2352,6 +2383,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -2664,6 +2700,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -3104,6 +3145,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -3612,6 +3658,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -3983,6 +4034,10 @@
         "name": "Configuración de Android"
       },
       {
+        "locale": "it-it",
+        "name": "Configurazione Android"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android Set-up"
       },
@@ -4001,10 +4056,6 @@
       {
         "locale": "fr-fr",
         "name": "Configuration d'Android"
-      },
-      {
-        "locale": "it-it",
-        "name": "Configurazione Android"
       }
     ],
     "devices": [
@@ -4107,6 +4158,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -4559,6 +4615,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -5037,6 +5098,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -5381,6 +5447,10 @@
         "name": "Sistema Android"
       },
       {
+        "locale": "it-it",
+        "name": "Sistema Android"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android-systeem"
       },
@@ -5403,10 +5473,6 @@
       {
         "locale": "fr-fr",
         "name": "Système Android"
-      },
-      {
-        "locale": "it-it",
-        "name": "Sistema Android"
       }
     ],
     "devices": [
@@ -5514,6 +5580,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -6041,6 +6112,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -6426,6 +6502,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -7026,6 +7107,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -7712,6 +7798,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -7902,6 +7993,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -7964,6 +8060,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -8227,6 +8328,126 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "android.unisoc.color_display.overlay": {
+    "appName": "android.unisoc.color_display.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.core.overlay": {
+    "appName": "android.unisoc.core.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.core.pinner_service.overlay": {
+    "appName": "android.unisoc.core.pinner_service.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.core.wifi_display.overlay": {
+    "appName": "android.unisoc.core.wifi_display.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.cpu_T606.overlay": {
+    "appName": "android.unisoc.cpu_T606.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.display_doze.overlay": {
+    "appName": "android.unisoc.display_doze.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.display_vrr.overlay": {
+    "appName": "android.unisoc.display_vrr.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.navbar.overlay": {
+    "appName": "android.unisoc.navbar.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.phone_core.overlay": {
+    "appName": "android.unisoc.phone_core.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "android.unisoc.power_qogirl6.overlay": {
+    "appName": "android.unisoc.power_qogirl6.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       }
     ]
   },
@@ -10123,6 +10344,10 @@
         "name": "Asistente"
       },
       {
+        "locale": "it-it",
+        "name": "Assistente"
+      },
+      {
         "locale": "es-us",
         "name": "Asistente"
       }
@@ -10142,6 +10367,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -12490,6 +12720,10 @@
         "name": "Стандартные заставки"
       },
       {
+        "locale": "it-it",
+        "name": "Daydream di base"
+      },
+      {
         "locale": "nl-nl",
         "name": "Algemene dagdromen"
       },
@@ -12508,10 +12742,6 @@
       {
         "locale": "fr-fr",
         "name": "Écrans de veille interactifs basiques"
-      },
-      {
-        "locale": "it-it",
-        "name": "Daydream di base"
       }
     ],
     "devices": [
@@ -12604,6 +12834,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -13941,6 +14176,10 @@
         "name": "Almacenamiento de números bloqueados"
       },
       {
+        "locale": "it-it",
+        "name": "Archivio numeri bloccati"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag voor geblokkeerde nummers"
       },
@@ -13959,10 +14198,6 @@
       {
         "locale": "fr-fr",
         "name": "Enregistrer les numéros bloqués"
-      },
-      {
-        "locale": "it-it",
-        "name": "Archivio numeri bloccati"
       }
     ],
     "devices": [
@@ -14065,6 +14300,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -14713,6 +14953,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "it-it",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "en-au",
         "name": "Bluetooth"
       },
@@ -14754,10 +14998,6 @@
       },
       {
         "locale": "fr-fr",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "it-it",
         "name": "Bluetooth"
       },
       {
@@ -14882,6 +15122,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -15334,6 +15579,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -15839,6 +16089,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -16190,11 +16445,20 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "it-it",
+        "name": "Google Play Libri"
+      },
+      {
         "locale": "en-gb",
         "name": "Google Play Books"
       }
     ],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
@@ -16791,6 +17055,10 @@
         "name": "Calculadora"
       },
       {
+        "locale": "it-it",
+        "name": "Calcolatrice"
+      },
+      {
         "locale": "es-us",
         "name": "Calculadora"
       },
@@ -16847,6 +17115,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -17185,6 +17458,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -17560,6 +17838,10 @@
         "name": "Almacenamiento de calendario"
       },
       {
+        "locale": "it-it",
+        "name": "Spazio di archiviazione in Calendario"
+      },
+      {
         "locale": "nl-nl",
         "name": "Agenda opslaan"
       },
@@ -17586,10 +17868,6 @@
       {
         "locale": "fr-fr",
         "name": "Stockage du calendrier"
-      },
-      {
-        "locale": "it-it",
-        "name": "Spazio di archiviazione in Calendario"
       },
       {
         "locale": "en-in",
@@ -17713,6 +17991,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -18522,6 +18805,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -19754,6 +20042,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "it-it",
+        "name": "Fotocamera"
+      },
+      {
         "locale": "de-de",
         "name": "Kamera"
       }
@@ -19773,6 +20065,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -20286,6 +20583,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -20393,6 +20695,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -20826,6 +21133,18 @@
       }
     ]
   },
+  "com.gftk.lamp": {
+    "appName": "camping lights",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
   "com.yft.lamp": {
     "appName": "Camping lights",
     "userFacing": false,
@@ -20843,6 +21162,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -20906,6 +21230,10 @@
         "name": "Inicio de sesión en portal cautivo"
       },
       {
+        "locale": "it-it",
+        "name": "Accesso a captive portal"
+      },
+      {
         "locale": "nl-nl",
         "name": "Inloggen via captive portal"
       },
@@ -20936,10 +21264,6 @@
       {
         "locale": "fr-fr",
         "name": "Connexion au portail captif"
-      },
-      {
-        "locale": "it-it",
-        "name": "Accesso a captive portal"
       },
       {
         "locale": "en-in",
@@ -21044,6 +21368,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -21576,6 +21905,10 @@
         "name": "Comunicaciones del operador"
       },
       {
+        "locale": "it-it",
+        "name": "Comunicazioni con l'operatore"
+      },
+      {
         "locale": "en-au",
         "name": "CarrierDefaultApp"
       },
@@ -21610,10 +21943,6 @@
       {
         "locale": "fr-fr",
         "name": "CarrierDefaultApp"
-      },
-      {
-        "locale": "it-it",
-        "name": "Comunicazioni con l'operatore"
       },
       {
         "locale": "en-in",
@@ -21726,6 +22055,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -22102,8 +22436,18 @@
   "com.spreadtrum.proxy.nfwlocation": {
     "appName": "Carrier Location",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Posizione operatore"
+      }
+    ],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -22718,6 +23062,18 @@
       }
     ]
   },
+  "com.android.toolbox": {
+    "appName": "Cassetta degli attrezzi",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
   "com.sec.android.CcInfo": {
     "appName": "CcInfo",
     "userFacing": false,
@@ -22931,6 +23287,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -23362,6 +23723,10 @@
         "name": "Instalador de certificados"
       },
       {
+        "locale": "it-it",
+        "name": "Installatore certificato"
+      },
+      {
         "locale": "nl-nl",
         "name": "Certificaat installeren"
       },
@@ -23388,10 +23753,6 @@
       {
         "locale": "fr-fr",
         "name": "Installation du certificat"
-      },
-      {
-        "locale": "it-it",
-        "name": "Installatore certificato"
       },
       {
         "locale": "en-pk",
@@ -23503,6 +23864,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -24052,6 +24418,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -25269,6 +25640,10 @@
         "name": "Reloj"
       },
       {
+        "locale": "it-it",
+        "name": "Orologio"
+      },
+      {
         "locale": "es-us",
         "name": "Reloj"
       },
@@ -25340,6 +25715,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -26415,6 +26795,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -26997,6 +27382,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -27643,6 +28033,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -28375,6 +28770,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -28830,6 +29230,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -29593,6 +29998,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -29889,6 +30299,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -30572,6 +30987,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -30976,6 +31396,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -31514,6 +31939,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -31797,6 +32227,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -31962,6 +32397,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -32492,6 +32932,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -32998,6 +33443,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -33461,6 +33911,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -33589,6 +34044,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -34203,12 +34663,22 @@
   "com.android.secretcode": {
     "appName": "com.android.secretcode",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "SecureCode"
+      }
+    ],
     "devices": [
       {
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "SMT_HK",
@@ -34350,6 +34820,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -34572,6 +35047,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -35263,6 +35743,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -35692,6 +36177,11 @@
         "os": "34"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -35889,6 +36379,11 @@
       {
         "make": "Google",
         "model": "GMS on ARM64",
+        "os": "34"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
         "os": "34"
       },
       {
@@ -36154,6 +36649,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -37549,11 +38049,40 @@
       }
     ]
   },
+  "com.android.unisoc.phone_hac.overlay": {
+    "appName": "com.android.unisoc.phone_hac.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.unisoc.phone.overlay": {
+    "appName": "com.android.unisoc.phone.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.unisoc.telephony.server": {
     "appName": "com.android.unisoc.telephony.server.RadioInteractorApp",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -37670,6 +38199,11 @@
       {
         "make": "Google",
         "model": "GMS on ARM64",
+        "os": "34"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
         "os": "34"
       },
       {
@@ -37973,6 +38507,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -38405,6 +38944,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -39525,6 +40069,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -39536,6 +40085,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -39750,6 +40304,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -39970,6 +40529,10 @@
         "name": "Encontrar mi dispositivo"
       },
       {
+        "locale": "it-it",
+        "name": "Trova il mio dispositivo"
+      },
+      {
         "locale": "en-gb",
         "name": "Find Hub"
       }
@@ -39984,6 +40547,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -40218,6 +40786,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -40953,6 +41526,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -41600,6 +42178,11 @@
         "os": "34"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -41997,6 +42580,10 @@
         "name": "NetworkStackGoogleResOverlay"
       },
       {
+        "locale": "it-it",
+        "name": "NetworkStackOverlay"
+      },
+      {
         "locale": "en-gb",
         "name": "NetworkStackOverlay"
       },
@@ -42018,6 +42605,11 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
         "os": "34"
       },
       {
@@ -42196,6 +42788,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -42730,6 +43327,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -43059,6 +43661,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -43371,6 +43978,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -43582,6 +44194,18 @@
       }
     ]
   },
+  "com.google.android.overlay.gmsconfig.deskclock": {
+    "appName": "com.google.android.overlay.gmsconfig.deskclock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
   "com.google.android.overlay.gmsconfig.gallerygo": {
     "appName": "com.google.android.overlay.gmsconfig.gallerygo",
     "userFacing": false,
@@ -43658,6 +44282,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -43984,6 +44613,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -44298,6 +44932,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -44458,6 +45097,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -44719,6 +45363,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -44804,6 +45453,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -44984,6 +45638,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -45237,6 +45896,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -45820,6 +46484,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -46160,6 +46829,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -46661,6 +47335,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -47025,6 +47704,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -47375,6 +48059,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -48400,6 +49089,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -48722,6 +49416,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -49534,6 +50233,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -50660,6 +51364,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "realme",
@@ -59813,6 +60522,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -59853,6 +60567,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -60925,11 +61644,28 @@
       }
     ]
   },
+  "com.unisoc.color_display.overlay": {
+    "appName": "com.unisoc.color_display.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
   "com.unisoc.phone": {
     "appName": "com.unisoc.phone.UniTelephonyApp",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -60939,6 +61675,30 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.unisoc.power_qogirl6.overlay": {
+    "appName": "com.unisoc.power_qogirl6.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "com.unisoc.wifi": {
+    "appName": "com.unisoc.wifi.UniWifiApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       }
     ]
   },
@@ -61628,6 +62388,10 @@
         "name": "Gestor de dispositivos complementario"
       },
       {
+        "locale": "it-it",
+        "name": "Gestione dispositivi associati"
+      },
+      {
         "locale": "es-us",
         "name": "Administrador de dispositivo complementario"
       },
@@ -61638,10 +62402,6 @@
       {
         "locale": "fr-fr",
         "name": "Gestionnaire d'appareils associés"
-      },
-      {
-        "locale": "it-it",
-        "name": "Gestione dispositivi associati"
       }
     ],
     "devices": [
@@ -61749,6 +62509,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -62621,6 +63386,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -63841,6 +64611,10 @@
         "name": "Contactos"
       },
       {
+        "locale": "it-it",
+        "name": "Contatti"
+      },
+      {
         "locale": "es-us",
         "name": "Contactos"
       },
@@ -63903,6 +64677,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -64394,6 +65173,10 @@
         "name": "Información de contactos"
       },
       {
+        "locale": "it-it",
+        "name": "Archiviazione contatti"
+      },
+      {
         "locale": "es-us",
         "name": "Almacenamiento para contactos"
       },
@@ -64493,6 +65276,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -65269,6 +66057,10 @@
         "name": "Recorte de la esquina"
       },
       {
+        "locale": "it-it",
+        "name": "Ritaglio angolo"
+      },
+      {
         "locale": "nl-nl",
         "name": "Hoek-cutout"
       },
@@ -65291,10 +66083,6 @@
       {
         "locale": "fr-fr",
         "name": "Encoche d'angle"
-      },
-      {
-        "locale": "it-it",
-        "name": "Ritaglio angolo"
       }
     ],
     "devices": [
@@ -65392,6 +66180,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -65869,16 +66662,16 @@
         "name": "Менеджер учетных данных"
       },
       {
+        "locale": "it-it",
+        "name": "Gestore delle credenziali"
+      },
+      {
         "locale": "en-nl",
         "name": "Credential manager"
       },
       {
         "locale": "en-mt",
         "name": "Credential manager"
-      },
-      {
-        "locale": "it-it",
-        "name": "Gestore delle credenziali"
       },
       {
         "locale": "en-pk",
@@ -65961,6 +66754,11 @@
       {
         "make": "Google",
         "model": "GMS on ARM64",
+        "os": "34"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
         "os": "34"
       },
       {
@@ -66339,6 +67137,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "it-it",
+        "name": "Servizi cross-device"
+      },
+      {
         "locale": "es-us",
         "name": "Servicios multidispositivo"
       },
@@ -66388,6 +67190,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -67461,6 +68268,10 @@
         "name": "Servicio de impresión predeterminado"
       },
       {
+        "locale": "it-it",
+        "name": "Servizio di stampa predefinito"
+      },
+      {
         "locale": "nl-nl",
         "name": "Standaard afdrukservice"
       },
@@ -67487,10 +68298,6 @@
       {
         "locale": "fr-fr",
         "name": "Service d'impression par défaut"
-      },
-      {
-        "locale": "it-it",
-        "name": "Servizio di stampa predefinito"
       },
       {
         "locale": "en-in",
@@ -67596,6 +68403,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -68674,6 +69486,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -69904,6 +70721,11 @@
         "os": "34"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -70732,6 +71554,10 @@
         "name": "Bienestar digital"
       },
       {
+        "locale": "it-it",
+        "name": "Benessere digitale"
+      },
+      {
         "locale": "es-us",
         "name": "Bienestar digital"
       },
@@ -70818,6 +71644,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -71480,6 +72311,10 @@
         "name": "Recorte doble"
       },
       {
+        "locale": "it-it",
+        "name": "Ritaglio doppio"
+      },
+      {
         "locale": "nl-nl",
         "name": "Dubbele cutout"
       },
@@ -71502,10 +72337,6 @@
       {
         "locale": "fr-fr",
         "name": "Encoche double"
-      },
-      {
-        "locale": "it-it",
-        "name": "Ritaglio doppio"
       }
     ],
     "devices": [
@@ -71603,6 +72434,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -71939,6 +72775,10 @@
         "name": "Administrador de descargas"
       },
       {
+        "locale": "it-it",
+        "name": "Gestione download"
+      },
+      {
         "locale": "nl-nl",
         "name": "Downloadbeheer"
       },
@@ -71957,10 +72797,6 @@
       {
         "locale": "fr-fr",
         "name": "Gestionnaire de téléchargement"
-      },
-      {
-        "locale": "it-it",
-        "name": "Gestione download"
       },
       {
         "locale": "en-in",
@@ -72072,6 +72908,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -72445,6 +73286,10 @@
         "name": "Descargas"
       },
       {
+        "locale": "it-it",
+        "name": "Download"
+      },
+      {
         "locale": "es-us",
         "name": "Descargas"
       },
@@ -72455,10 +73300,6 @@
       {
         "locale": "fr-fr",
         "name": "Téléchargements"
-      },
-      {
-        "locale": "it-it",
-        "name": "Download"
       }
     ],
     "devices": [
@@ -72561,6 +73402,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -73267,6 +74113,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -74253,6 +75104,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -74622,6 +75478,18 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.easylauncher": {
+    "appName": "Easy launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       }
     ]
   },
@@ -75358,6 +76226,10 @@
         "name": "Emergencia"
       },
       {
+        "locale": "it-it",
+        "name": "com.android.emergency"
+      },
+      {
         "locale": "es-us",
         "name": "com.android.emergency"
       },
@@ -75448,6 +76320,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -76365,6 +77242,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -77393,6 +78275,10 @@
         "name": "Almacenamiento externo"
       },
       {
+        "locale": "it-it",
+        "name": "Archivio esterno"
+      },
+      {
         "locale": "nl-nl",
         "name": "Externe opslag"
       },
@@ -77415,10 +78301,6 @@
       {
         "locale": "fr-fr",
         "name": "Stockage externe"
-      },
-      {
-        "locale": "it-it",
-        "name": "Archivio esterno"
       }
     ],
     "devices": [
@@ -77526,6 +78408,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -79020,6 +79907,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -79667,6 +80559,10 @@
         "name": "Archivos"
       },
       {
+        "locale": "it-it",
+        "name": "File"
+      },
+      {
         "locale": "nl-nl",
         "name": "Bestanden"
       },
@@ -79685,10 +80581,6 @@
       {
         "locale": "fr-fr",
         "name": "Fichiers"
-      },
-      {
-        "locale": "it-it",
-        "name": "File"
       }
     ],
     "devices": [
@@ -79781,6 +80673,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -80248,6 +81145,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -81813,7 +82715,12 @@
   "com.android.fmradio": {
     "appName": "FM Radio",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Radio FM"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -81824,6 +82731,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -82568,6 +83480,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -84277,11 +85194,20 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "it-it",
+        "name": "Modifica album"
+      },
+      {
         "locale": "en-gb",
         "name": "Photo Edit"
       }
     ],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -85155,6 +86081,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -85628,6 +86559,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -86131,6 +87067,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -86540,6 +87481,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -86910,6 +87856,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -87454,6 +88405,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -87967,6 +88923,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -88783,6 +89744,10 @@
         "name": "Historial de ubicaciones de Google"
       },
       {
+        "locale": "it-it",
+        "name": "Cronologia delle posizioni Google"
+      },
+      {
         "locale": "nl-nl",
         "name": "Locatiegeschiedenis van Google"
       },
@@ -88805,10 +89770,6 @@
       {
         "locale": "fr-fr",
         "name": "Historique des positions Google"
-      },
-      {
-        "locale": "it-it",
-        "name": "Cronologia delle posizioni Google"
       }
     ],
     "devices": [
@@ -88901,6 +89862,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -89350,6 +90316,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -89804,6 +90775,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -90232,8 +91208,18 @@
   "com.google.android.play.games": {
     "appName": "Google Play Games",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Google Play Giochi"
+      }
+    ],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
@@ -90369,6 +91355,10 @@
         "name": "Servicios de Google Play"
       },
       {
+        "locale": "it-it",
+        "name": "Google Play Services"
+      },
+      {
         "locale": "nl-nl",
         "name": "Google Play-services"
       },
@@ -90387,10 +91377,6 @@
       {
         "locale": "fr-fr",
         "name": "Services Google Play"
-      },
-      {
-        "locale": "it-it",
-        "name": "Google Play Services"
       }
     ],
     "devices": [
@@ -90498,6 +91484,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -91224,6 +92215,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -91587,6 +92583,10 @@
         "name": "Recursos del Centro de Seguridad de Google"
       },
       {
+        "locale": "it-it",
+        "name": "Risorse Centro sicurezza online Google"
+      },
+      {
         "locale": "nl-nl",
         "name": "Google Veiligheidscentrum-bronnen"
       },
@@ -91613,10 +92613,6 @@
       {
         "locale": "fr-fr",
         "name": "Ressources du Centre de sécurité Google"
-      },
-      {
-        "locale": "it-it",
-        "name": "Risorse Centro sicurezza online Google"
       },
       {
         "locale": "en-in",
@@ -91711,6 +92707,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -92030,6 +93031,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -92235,6 +93241,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -92687,6 +93698,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -93003,6 +94019,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -94047,12 +95068,12 @@
         "name": "Здоровье и спорт"
       },
       {
-        "locale": "nl-nl",
-        "name": "Health Connect"
-      },
-      {
         "locale": "it-it",
         "name": "Connessione Salute"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Health Connect"
       },
       {
         "locale": "es-es",
@@ -94122,6 +95143,11 @@
       {
         "make": "Google",
         "model": "GMS on ARM64",
+        "os": "34"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
         "os": "34"
       },
       {
@@ -95686,6 +96712,10 @@
         "name": "Visor de HTML"
       },
       {
+        "locale": "it-it",
+        "name": "Visualizzatore HTML"
+      },
+      {
         "locale": "nl-nl",
         "name": "HTML-viewer"
       },
@@ -95704,10 +96734,6 @@
       {
         "locale": "fr-fr",
         "name": "Visionneuse HTML"
-      },
-      {
-        "locale": "it-it",
-        "name": "Visualizzatore HTML"
       }
     ],
     "devices": [
@@ -95815,6 +96841,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -96524,11 +97555,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "it-it",
+        "name": "ifaa_manager_service"
+      },
+      {
         "locale": "",
         "name": "IFAAManagerApp"
       }
     ],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -97139,6 +98179,10 @@
         "name": "Dispositivos de introducción de datos"
       },
       {
+        "locale": "it-it",
+        "name": "Dispositivi di immissione"
+      },
+      {
         "locale": "nl-nl",
         "name": "Invoerapparaten"
       },
@@ -97157,10 +98201,6 @@
       {
         "locale": "sv-se",
         "name": "Indataenheter"
-      },
-      {
-        "locale": "it-it",
-        "name": "Dispositivi di immissione"
       }
     ],
     "devices": [
@@ -97263,6 +98303,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -97908,6 +98953,11 @@
       {
         "make": "Google",
         "model": "GMS on ARM64",
+        "os": "34"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
         "os": "34"
       },
       {
@@ -98619,6 +99669,10 @@
         "name": "Keep (notas)"
       },
       {
+        "locale": "it-it",
+        "name": "Note di Keep"
+      },
+      {
         "locale": "en-au",
         "name": "Keep notes"
       },
@@ -98672,6 +99726,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -98776,6 +99835,10 @@
         "name": "Брелок"
       },
       {
+        "locale": "it-it",
+        "name": "Portachiavi"
+      },
+      {
         "locale": "nl-nl",
         "name": "Sleutelhanger"
       },
@@ -98786,10 +99849,6 @@
       {
         "locale": "fr-fr",
         "name": "Porte-clés"
-      },
-      {
-        "locale": "it-it",
-        "name": "Portachiavi"
       },
       {
         "locale": "en-pk",
@@ -98901,6 +99960,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -99421,6 +100485,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
@@ -102160,6 +103229,10 @@
         "name": "Selector de fondo animado"
       },
       {
+        "locale": "it-it",
+        "name": "Selettore sfondo animato"
+      },
+      {
         "locale": "nl-nl",
         "name": "Interactieve achtergrondkiezer"
       },
@@ -102182,10 +103255,6 @@
       {
         "locale": "fr-fr",
         "name": "Sélecteur de fond d'écran animé"
-      },
-      {
-        "locale": "it-it",
-        "name": "Selettore sfondo animato"
       },
       {
         "locale": "en-pk",
@@ -102291,6 +103360,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -103799,6 +104873,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -104189,6 +105268,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -104684,6 +105768,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -105145,6 +106234,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -106074,6 +107168,10 @@
         "name": "Selector de medios"
       },
       {
+        "locale": "it-it",
+        "name": "Selettore media"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mediakiezer"
       },
@@ -106096,10 +107194,6 @@
       {
         "locale": "fr-fr",
         "name": "Sélecteur de fichiers multimédias"
-      },
-      {
-        "locale": "it-it",
-        "name": "Selettore media"
       },
       {
         "locale": "",
@@ -106191,6 +107285,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -106789,6 +107888,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -107222,16 +108326,16 @@
         "name": "Mensajes"
       },
       {
+        "locale": "it-it",
+        "name": "Messaggi"
+      },
+      {
         "locale": "nl-nl",
         "name": "Berichten"
       },
       {
         "locale": "es-us",
         "name": "Mensajes"
-      },
-      {
-        "locale": "it-it",
-        "name": "Messaggi"
       }
     ],
     "devices": [
@@ -107309,6 +108413,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -109033,6 +110142,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -111555,6 +112669,10 @@
         "name": "Host de MTP"
       },
       {
+        "locale": "it-it",
+        "name": "Host MTP"
+      },
+      {
         "locale": "nl-nl",
         "name": "MTP-host"
       },
@@ -111573,10 +112691,6 @@
       {
         "locale": "fr-fr",
         "name": "Hôte MTP"
-      },
-      {
-        "locale": "it-it",
-        "name": "Host MTP"
       }
     ],
     "devices": [
@@ -111679,6 +112793,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -112385,6 +113504,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "Zebra Technologies",
@@ -113791,6 +114915,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -114771,6 +115900,10 @@
       {
         "locale": "es-es",
         "name": "com.android.networkstack.overlay"
+      },
+      {
+        "locale": "it-it",
+        "name": "NetworkStackOverlayGsi"
       }
     ],
     "devices": [
@@ -114808,6 +115941,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -115046,6 +116184,10 @@
         "name": "NFC"
       },
       {
+        "locale": "it-it",
+        "name": "NFC"
+      },
+      {
         "locale": "en-au",
         "name": "Nfc Service"
       },
@@ -115088,10 +116230,6 @@
       {
         "locale": "fr-fr",
         "name": "Service NFC"
-      },
-      {
-        "locale": "it-it",
-        "name": "NFC"
       },
       {
         "locale": "en-in",
@@ -115205,6 +116343,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -115849,6 +116992,11 @@
         "os": "34"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -116465,6 +117613,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -119882,6 +121035,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -120128,6 +121286,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -120257,6 +121420,10 @@
         "name": "Instalador de paquetes"
       },
       {
+        "locale": "it-it",
+        "name": "Installazione pacchetti"
+      },
+      {
         "locale": "nl-nl",
         "name": "Pakket-installatie"
       },
@@ -120275,10 +121442,6 @@
       {
         "locale": "fr-fr",
         "name": "Programme installation kit"
-      },
-      {
-        "locale": "it-it",
-        "name": "Installazione pacchetti"
       }
     ],
     "devices": [
@@ -120386,6 +121549,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -120870,6 +122038,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -122021,6 +123194,10 @@
         "name": "Controlador de permisos"
       },
       {
+        "locale": "it-it",
+        "name": "App di controllo autorizzazioni"
+      },
+      {
         "locale": "nl-nl",
         "name": "Rechtenbeheer"
       },
@@ -122039,10 +123216,6 @@
       {
         "locale": "fr-fr",
         "name": "Contrôleur d'autorisations"
-      },
-      {
-        "locale": "it-it",
-        "name": "App di controllo autorizzazioni"
       }
     ],
     "devices": [
@@ -122140,6 +123313,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -122991,6 +124169,10 @@
         "name": "Emergencias"
       },
       {
+        "locale": "it-it",
+        "name": "Emergenze Personali"
+      },
+      {
         "locale": "es-us",
         "name": "Seguridad personal"
       },
@@ -123046,6 +124228,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -123642,6 +124829,10 @@
         "name": "Teléfono"
       },
       {
+        "locale": "it-it",
+        "name": "Telefono"
+      },
+      {
         "locale": "es-us",
         "name": "Teléfono"
       },
@@ -123684,6 +124875,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -123910,6 +125106,10 @@
         "name": "Almacenamiento de mensajes y teléfono"
       },
       {
+        "locale": "it-it",
+        "name": "Memoria telefono/messaggi"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag telefoon/berichten"
       },
@@ -123932,10 +125132,6 @@
       {
         "locale": "fr-fr",
         "name": "Stock. appels/SMS tél."
-      },
-      {
-        "locale": "it-it",
-        "name": "Memoria telefono/messaggi"
       },
       {
         "locale": "en-pk",
@@ -124050,6 +125246,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -124419,6 +125620,10 @@
         "name": "Llamadas de teléfono"
       },
       {
+        "locale": "it-it",
+        "name": "Chiamate telefoniche"
+      },
+      {
         "locale": "en-au",
         "name": "Call Management"
       },
@@ -124457,10 +125662,6 @@
       {
         "locale": "fr-fr",
         "name": "Gestion des appels"
-      },
-      {
-        "locale": "it-it",
-        "name": "Chiamate telefoniche"
       },
       {
         "locale": "en-in",
@@ -124583,6 +125784,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -124951,6 +126157,10 @@
         "name": "Servicios telefónicos"
       },
       {
+        "locale": "it-it",
+        "name": "Servizi telefonici"
+      },
+      {
         "locale": "nl-nl",
         "name": "Telefoonservices"
       },
@@ -124977,10 +126187,6 @@
       {
         "locale": "fr-fr",
         "name": "Services téléphoniques"
-      },
-      {
-        "locale": "it-it",
-        "name": "Servizi telefonici"
       },
       {
         "locale": "",
@@ -125087,6 +126293,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -125711,16 +126922,16 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "it-it",
+        "name": "Screensaver fotografici"
+      },
+      {
         "locale": "nl-nl",
         "name": "Fotoscreensavers"
       },
       {
         "locale": "es-us",
         "name": "Protectores de pantalla de fotos"
-      },
-      {
-        "locale": "it-it",
-        "name": "Screensaver fotografici"
       },
       {
         "locale": "de-de",
@@ -125781,6 +126992,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -126069,6 +127285,10 @@
         "name": "Fotos"
       },
       {
+        "locale": "it-it",
+        "name": "Foto"
+      },
+      {
         "locale": "es-us",
         "name": "Fotos"
       },
@@ -126082,10 +127302,6 @@
       },
       {
         "locale": "sv-se",
-        "name": "Foto"
-      },
-      {
-        "locale": "it-it",
         "name": "Foto"
       }
     ],
@@ -126169,6 +127385,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -126443,6 +127664,10 @@
         "name": "Fotos y vídeos"
       },
       {
+        "locale": "it-it",
+        "name": "Foto e video"
+      },
+      {
         "locale": "nl-nl",
         "name": "Foto's en video's"
       },
@@ -126469,10 +127694,6 @@
       {
         "locale": "fr-fr",
         "name": "Photos et vidéos"
-      },
-      {
-        "locale": "it-it",
-        "name": "Foto e video"
       },
       {
         "locale": "en-in",
@@ -126547,6 +127768,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -126818,8 +128044,18 @@
   "com.sprd.providers.photos": {
     "appName": "Photos Types Storage",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Memoria tipi di foto"
+      }
+    ],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -128126,6 +129362,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -128302,6 +129543,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -128794,6 +130040,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -129214,6 +130465,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -129796,6 +131052,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -130188,6 +131449,10 @@
         "name": "Recorte redondo"
       },
       {
+        "locale": "it-it",
+        "name": "Ritaglio per hole punch"
+      },
+      {
         "locale": "en-au",
         "name": "Punch hole cutout"
       },
@@ -130230,10 +131495,6 @@
       {
         "locale": "fr-fr",
         "name": "Encoche en forme de poinçon"
-      },
-      {
-        "locale": "it-it",
-        "name": "Ritaglio per hole punch"
       },
       {
         "locale": "en-in",
@@ -130342,6 +131603,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -131903,6 +133169,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -132934,6 +134205,11 @@
         "os": "34"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -133454,6 +134730,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.unisoc.gesturerecognition": {
+    "appName": "Riconoscimento ​dei ​gesti",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       }
     ]
   },
@@ -134056,6 +135344,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -141836,11 +143129,15 @@
   },
   "com.android.screenshot": {
     "appName": "Screenshot",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "es-es",
         "name": "Captura de pantalla"
+      },
+      {
+        "locale": "it-it",
+        "name": "Immagine dello schermo"
       }
     ],
     "devices": [
@@ -141848,6 +143145,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "SMT_HK",
@@ -142021,6 +143323,10 @@
         "name": "Selector de motor de búsqueda"
       },
       {
+        "locale": "it-it",
+        "name": "Selettore motore di ricerca"
+      },
+      {
         "locale": "nl-nl",
         "name": "Kiezer voor zoekmachine"
       },
@@ -142035,10 +143341,6 @@
       {
         "locale": "sv-se",
         "name": "Val av sökmotor"
-      },
-      {
-        "locale": "it-it",
-        "name": "Selettore motore di ricerca"
       },
       {
         "locale": "de-de",
@@ -142114,6 +143416,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -143181,6 +144488,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -145080,6 +146392,10 @@
         "name": "Ajustes"
       },
       {
+        "locale": "it-it",
+        "name": "Impostazioni"
+      },
+      {
         "locale": "nl-nl",
         "name": "Instellingen"
       },
@@ -145098,10 +146414,6 @@
       {
         "locale": "fr-fr",
         "name": "Paramètres"
-      },
-      {
-        "locale": "it-it",
-        "name": "Impostazioni"
       }
     ],
     "devices": [
@@ -145209,6 +146521,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -145771,6 +147088,10 @@
         "name": "Almacenamiento de configuración"
       },
       {
+        "locale": "it-it",
+        "name": "Memoria impostazioni"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslagruimte voor instellingen"
       },
@@ -145793,10 +147114,6 @@
       {
         "locale": "fr-fr",
         "name": "Stockage des paramètres"
-      },
-      {
-        "locale": "it-it",
-        "name": "Memoria impostazioni"
       }
     ],
     "devices": [
@@ -145904,6 +147221,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -146350,6 +147672,10 @@
         "name": "Sugerencias de ajustes"
       },
       {
+        "locale": "it-it",
+        "name": "Suggerimenti impostazioni"
+      },
+      {
         "locale": "nl-nl",
         "name": "Instellingen Suggesties"
       },
@@ -146368,10 +147694,6 @@
       {
         "locale": "sv-se",
         "name": "Inställningsförslag"
-      },
-      {
-        "locale": "it-it",
-        "name": "Suggerimenti impostazioni"
       },
       {
         "locale": "en-in",
@@ -146458,6 +147780,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -147249,6 +148576,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -147431,6 +148763,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -148300,6 +149637,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -148911,6 +150253,10 @@
         "name": "Kit herramientas SIM"
       },
       {
+        "locale": "it-it",
+        "name": "Servizi SIM"
+      },
+      {
         "locale": "en-au",
         "name": "SIM Tool Kit"
       },
@@ -148941,10 +150287,6 @@
       {
         "locale": "fr-fr",
         "name": "Boîte à outils carte SIM"
-      },
-      {
-        "locale": "it-it",
-        "name": "Servizi SIM"
       },
       {
         "locale": "en-in",
@@ -149054,6 +150396,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -152376,6 +153723,11 @@
     ],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -152819,6 +154171,10 @@
       {
         "locale": "es-es",
         "name": "Grabadora de sonidos"
+      },
+      {
+        "locale": "it-it",
+        "name": "Registratore suoni"
       }
     ],
     "devices": [
@@ -152846,6 +154202,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -153015,6 +154376,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -153427,6 +154793,10 @@
         "name": "Reconocimiento y síntesis de voz de Google"
       },
       {
+        "locale": "it-it",
+        "name": "Riconoscimento e sintesi vocale di Google"
+      },
+      {
         "locale": "en-au",
         "name": "Google Text-to-speech engine"
       },
@@ -153461,10 +154831,6 @@
       {
         "locale": "fr-fr",
         "name": "Reconnaissance et synthèse vocales de Google"
-      },
-      {
-        "locale": "it-it",
-        "name": "Riconoscimento e sintesi vocale di Google"
       },
       {
         "locale": "en-za",
@@ -153584,6 +154950,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -155356,6 +156727,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -155879,6 +157255,11 @@
         "os": "34"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
@@ -156169,6 +157550,10 @@
         "name": "Recursos de conectividad del sistema"
       },
       {
+        "locale": "it-it",
+        "name": "Risorse per connettività di sistema"
+      },
+      {
         "locale": "nl-nl",
         "name": "Resources voor systeemconnectiviteit"
       },
@@ -156195,10 +157580,6 @@
       {
         "locale": "fr-fr",
         "name": "Ressources de connectivité système"
-      },
-      {
-        "locale": "it-it",
-        "name": "Risorse per connettività di sistema"
       },
       {
         "locale": "en-in",
@@ -156293,6 +157674,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -156923,6 +158309,10 @@
         "name": "Controles parentales de Family Link"
       },
       {
+        "locale": "it-it",
+        "name": "Controllo genitori di sistema"
+      },
+      {
         "locale": "nl-nl",
         "name": "Ouderlijk toezicht van systeem"
       },
@@ -156937,10 +158327,6 @@
       {
         "locale": "sv-se",
         "name": "Family Link-föräldrakontroller"
-      },
-      {
-        "locale": "it-it",
-        "name": "Controllo genitori di sistema"
       },
       {
         "locale": "en-in",
@@ -157026,6 +158412,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -157427,6 +158818,10 @@
         "name": "Trazado del sistema"
       },
       {
+        "locale": "it-it",
+        "name": "Tracciamento del sistema"
+      },
+      {
         "locale": "es-us",
         "name": "Registro del sistema"
       },
@@ -157445,10 +158840,6 @@
       {
         "locale": "fr-fr",
         "name": "Traçage système"
-      },
-      {
-        "locale": "it-it",
-        "name": "Tracciamento del sistema"
       }
     ],
     "devices": [
@@ -157546,6 +158937,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -157887,6 +159283,10 @@
         "name": "IU sistema"
       },
       {
+        "locale": "it-it",
+        "name": "UI sistema"
+      },
+      {
         "locale": "nl-nl",
         "name": "Systeem-UI"
       },
@@ -157905,10 +159305,6 @@
       {
         "locale": "fr-fr",
         "name": "Interface"
-      },
-      {
-        "locale": "it-it",
-        "name": "UI sistema"
       }
     ],
     "devices": [
@@ -158016,6 +159412,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -158917,6 +160318,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -159327,6 +160733,10 @@
         "name": "Recursos Wi‑Fi del sistema"
       },
       {
+        "locale": "it-it",
+        "name": "Risorse Wi-Fi sistema"
+      },
+      {
         "locale": "es-us",
         "name": "Recursos Wi‑Fi del sistema"
       },
@@ -159396,6 +160806,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -159959,6 +161374,10 @@
         "name": "Etiquetas"
       },
       {
+        "locale": "it-it",
+        "name": "Tag"
+      },
+      {
         "locale": "es-us",
         "name": "Etiquetas"
       },
@@ -160022,6 +161441,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -160361,6 +161785,10 @@
         "name": "Recorte alto"
       },
       {
+        "locale": "it-it",
+        "name": "Ritaglio alto"
+      },
+      {
         "locale": "nl-nl",
         "name": "Hoge cutout"
       },
@@ -160383,10 +161811,6 @@
       {
         "locale": "fr-fr",
         "name": "Encoche haute"
-      },
-      {
-        "locale": "it-it",
-        "name": "Ritaglio alto"
       }
     ],
     "devices": [
@@ -160489,6 +161913,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -161637,6 +163066,11 @@
         "os": "33"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -162209,6 +163643,10 @@
       {
         "locale": "es-es",
         "name": "com.android.networkstack.tethering.overlay"
+      },
+      {
+        "locale": "it-it",
+        "name": "TetheringConfigOverlayGsi"
       }
     ],
     "devices": [
@@ -162231,6 +163669,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -162596,6 +164039,11 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
         "os": "34"
       },
       {
@@ -163413,6 +164861,11 @@
         "os": "34"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -163734,6 +165187,18 @@
       }
     ]
   },
+  "com.unisoc.tui": {
+    "appName": "tuiAuxi_server",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.launcher3.tv": {
     "appName": "TV",
     "userFacing": false,
@@ -163830,6 +165295,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -164083,6 +165553,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -164091,6 +165566,42 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.unisoc.android.networkstack.overlay": {
+    "appName": "UnisocNetworkStackOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "com.unisoc.android.go.networkstack.overlay": {
+    "appName": "UnisocNetworkStackOverlayGo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      }
+    ]
+  },
+  "com.sprd.android.networkstack.overlay": {
+    "appName": "UnisocNetworkStackOverlayGsi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       }
     ]
   },
@@ -164492,6 +166003,10 @@
         "name": "Diccionario del usuario"
       },
       {
+        "locale": "it-it",
+        "name": "Dizionario utente"
+      },
+      {
         "locale": "nl-nl",
         "name": "Gebruikerswoordenboek"
       },
@@ -164510,10 +166025,6 @@
       {
         "locale": "fr-fr",
         "name": "Dictionnaire personnel"
-      },
-      {
-        "locale": "it-it",
-        "name": "Dizionario utente"
       }
     ],
     "devices": [
@@ -164621,6 +166132,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -165192,6 +166708,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "DOOGEE",
         "model": "S41 Max",
@@ -167153,6 +168674,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -167708,6 +169234,10 @@
         "name": "Fondo de pantalla y estilo"
       },
       {
+        "locale": "it-it",
+        "name": "Sfondo e stile"
+      },
+      {
         "locale": "en-gb",
         "name": "Wallpaper and style"
       }
@@ -167727,6 +169257,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -168440,6 +169975,10 @@
         "name": "Recorte de cascada"
       },
       {
+        "locale": "it-it",
+        "name": "Curvatura Waterfall"
+      },
+      {
         "locale": "nl-nl",
         "name": "Waterval-cutout"
       },
@@ -168462,10 +170001,6 @@
       {
         "locale": "fr-fr",
         "name": "Encoche en cascade"
-      },
-      {
-        "locale": "it-it",
-        "name": "Curvatura Waterfall"
       }
     ],
     "devices": [
@@ -168558,6 +170093,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -170411,6 +171951,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       }
     ]
   },
@@ -170549,6 +172094,10 @@
         "name": "Alertas de emergencia inalámbricas"
       },
       {
+        "locale": "it-it",
+        "name": "Avvisi di emergenza wireless"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mobiele noodmeldingen"
       },
@@ -170571,10 +172120,6 @@
       {
         "locale": "fr-fr",
         "name": "Alertes d'urgence sans fil"
-      },
-      {
-        "locale": "it-it",
-        "name": "Avvisi di emergenza wireless"
       },
       {
         "locale": "",
@@ -170666,6 +172211,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -171295,6 +172845,10 @@
         "name": "Configuración de trabajo"
       },
       {
+        "locale": "it-it",
+        "name": "Configurazione per il lavoro"
+      },
+      {
         "locale": "nl-nl",
         "name": "Werkinstelling"
       },
@@ -171313,10 +172867,6 @@
       {
         "locale": "fr-fr",
         "name": "Configuration du profil professionnel"
-      },
-      {
-        "locale": "it-it",
-        "name": "Configurazione per il lavoro"
       }
     ],
     "devices": [
@@ -171419,6 +172969,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -172501,6 +174056,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -172616,6 +174176,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -173030,6 +174595,11 @@
         "os": "30"
       },
       {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -173233,6 +174803,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
       {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
