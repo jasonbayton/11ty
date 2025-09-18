@@ -17,7 +17,7 @@ eleventyNavigation:
     title: Troubleshooting issues
 ---
 
-## MAMAGED ARCHIVER is not on the Play Store
+## MANAGED ARCHIVER is not on the Play Store
 
 Presently Archiver is not hosted publicly in Google Play, this is because it's designed to start backing up to the PING API on installation. Through feedback the application's default behaviour may be adjusted and hosted publicly, but until further notice it will only be shared privately as a managed Google Play iFrame application made available to individual organisation IDs. 
 
