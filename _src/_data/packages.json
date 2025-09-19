@@ -1997,6 +1997,18 @@
       }
     ]
   },
+  "com.outcoder.ibrowser": {
+    "appName": "Airlock Browser",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "CipherLab",
+        "model": "RK95",
+        "os": "28"
+      }
+    ]
+  },
   "com.hihonor.hisight": {
     "appName": "AirSharingClient",
     "userFacing": false,
@@ -3017,6 +3029,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
       {
         "make": "Google",
         "model": "Pixel 6",
@@ -36967,11 +36984,6 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
       },
@@ -43259,6 +43271,18 @@
       }
     ]
   },
+  "com.google.android.overlay.glanceablehubsettings2022": {
+    "appName": "com.google.android.overlay.glanceablehubsettings2022",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.android.overlay.gms": {
     "appName": "com.google.android.overlay.gms",
     "userFacing": false,
@@ -48474,6 +48498,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       }
@@ -50169,6 +50198,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
       {
         "make": "Google",
         "model": "Pixel 6",
@@ -109625,6 +109659,18 @@
       }
     ]
   },
+  "com.example.micrecordingtoolstatus": {
+    "appName": "MicRecordingToolStatus",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "CipherLab",
+        "model": "RK95",
+        "os": "28"
+      }
+    ]
+  },
   "com.swiftkey.swiftkeyconfigurator": {
     "appName": "Microsoft SwiftKey Factory Settings",
     "userFacing": false,
@@ -128561,6 +128607,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "com.google.android.apps.pixel.creativeassistant"
+      },
+      {
         "locale": "en-de",
         "name": "com.google.android.apps.pixel.creativeassistant"
       }
@@ -128579,6 +128629,11 @@
       {
         "make": "Google",
         "model": "Pixel 8",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
         "os": "36"
       },
       {
@@ -129039,6 +129094,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
       {
         "make": "Google",
         "model": "Pixel 6",
@@ -143375,6 +143435,18 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      }
+    ]
+  },
+  "com.zebra.sdl": {
+    "appName": "SDLgui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "CipherLab",
+        "model": "RK95",
+        "os": "28"
       }
     ]
   },
