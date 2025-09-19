@@ -3012,6 +3012,18 @@
       }
     ]
   },
+  "com.google.android.verifier": {
+    "appName": "Android Developer ID Verifier",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      }
+    ]
+  },
   "com.android.egg": {
     "appName": "Android Easter Egg",
     "userFacing": false,
@@ -36965,11 +36977,6 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      },
-      {
-        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -43210,6 +43217,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -43233,6 +43245,11 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       },
       {
@@ -48450,6 +48467,18 @@
       }
     ]
   },
+  "com.google.android.overlay.permissioncontroller.safetycenter": {
+    "appName": "com.google.android.overlay.permissioncontroller.safetycenter",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.android.overlay.pixelconfig2018": {
     "appName": "com.google.android.overlay.pixelconfig2018",
     "userFacing": false,
@@ -49857,6 +49886,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
       }
@@ -50126,6 +50160,18 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
+        "os": "36"
+      }
+    ]
+  },
+  "com.google.android.verifier.overlay": {
+    "appName": "com.google.android.verifier.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       }
     ]
@@ -128513,7 +128559,12 @@
   "com.google.android.apps.pixel.creativeassistant": {
     "appName": "Pixel Studio",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-de",
+        "name": "com.google.android.apps.pixel.creativeassistant"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -128534,6 +128585,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -128974,6 +129030,18 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "36"
+      }
+    ]
+  },
+  "com.google.android.pixel.setupwizard.overlay.expressive": {
+    "appName": "PixelSetupWizardOverlayExpressive",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6",
         "os": "36"
       }
     ]
