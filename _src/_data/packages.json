@@ -289,6 +289,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -509,6 +514,10 @@
         "name": "Accesibilidad"
       },
       {
+        "locale": "fr-dz",
+        "name": "Accessibilité"
+      },
+      {
         "locale": "it-it",
         "name": "Accessibilità"
       },
@@ -596,6 +605,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -1146,6 +1160,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-dz",
+        "name": "Adapt Sound"
+      },
+      {
         "locale": "de-de",
         "name": "Adapt Sound"
       }
@@ -1220,6 +1238,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -2205,6 +2228,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -2829,6 +2857,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -3036,6 +3069,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       }
@@ -3060,6 +3098,10 @@
       {
         "locale": "en-sg",
         "name": "Android R Easter Egg"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Android S Easter Egg"
       },
       {
         "locale": "fr-fr",
@@ -3334,6 +3376,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -3857,6 +3904,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -4077,6 +4129,10 @@
       {
         "locale": "de-de",
         "name": "Android-Einrichtung"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Configuration d'Android"
       },
       {
         "locale": "sv-se",
@@ -4352,6 +4408,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -4816,6 +4877,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -5020,6 +5086,10 @@
       {
         "locale": "en-sg",
         "name": "Android Setup"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Data Restore Tool"
       },
       {
         "locale": "fr-fr",
@@ -5282,6 +5352,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -5494,6 +5569,10 @@
       {
         "locale": "de-de",
         "name": "Android-System"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Système Android"
       },
       {
         "locale": "sv-se",
@@ -5781,6 +5860,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -6065,6 +6149,10 @@
         "name": "Android System Intelligence"
       },
       {
+        "locale": "fr-dz",
+        "name": "Android System Intelligence"
+      },
+      {
         "locale": "fr-fr",
         "name": "Android System Intelligence"
       }
@@ -6269,6 +6357,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -6701,6 +6794,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -7264,6 +7362,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -7528,6 +7631,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -8933,6 +9041,18 @@
       }
     ]
   },
+  "com.samsung.android.applock": {
+    "appName": "App Lock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.nothing.applocker": {
     "appName": "App locker",
     "userFacing": false,
@@ -8999,6 +9119,10 @@
       {
         "locale": "es-us",
         "name": "Protección de aplicaciones"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Protection"
       },
       {
         "locale": "it-it",
@@ -9083,6 +9207,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -9208,6 +9337,10 @@
         "name": "Actualización de aplicaciones"
       },
       {
+        "locale": "fr-dz",
+        "name": "Mise à jour des applications"
+      },
+      {
         "locale": "it-it",
         "name": "Aggiornamento app"
       },
@@ -9295,6 +9428,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -9453,6 +9591,18 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      }
+    ]
+  },
+  "com.aura.oobe.samsung": {
+    "appName": "AppCloud",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       }
     ]
   },
@@ -9630,6 +9780,10 @@
         "name": "Recomendaciones de la aplicación"
       },
       {
+        "locale": "fr-dz",
+        "name": "Recommandations d'applications"
+      },
+      {
         "locale": "it-it",
         "name": "Suggerimenti sull'applicazione"
       },
@@ -9712,6 +9866,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -9874,6 +10033,10 @@
         "name": "Apps"
       },
       {
+        "locale": "fr-dz",
+        "name": "Applications"
+      },
+      {
         "locale": "en-nl",
         "name": "Apps"
       },
@@ -9911,6 +10074,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -10063,6 +10231,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -10110,6 +10283,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -10822,6 +11000,18 @@
       }
     ]
   },
+  "com.samsung.attribution": {
+    "appName": "Attribution",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.oplus.phonenoareainquire": {
     "appName": "Attribution du numéro",
     "userFacing": false,
@@ -11373,6 +11563,10 @@
         "name": "Dibujo automático"
       },
       {
+        "locale": "fr-dz",
+        "name": "AutoDoodle"
+      },
+      {
         "locale": "it-it",
         "name": "Disegno automatico"
       },
@@ -11463,6 +11657,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -11529,6 +11728,10 @@
       {
         "locale": "es-us",
         "name": "Hotspot automático"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Point d'accès automatique"
       },
       {
         "locale": "it-it",
@@ -11618,6 +11821,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -11966,6 +12174,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "34"
       },
@@ -12292,6 +12505,10 @@
         "name": "Avatar-stickers"
       },
       {
+        "locale": "fr-dz",
+        "name": "Autocoll. AR Emoji"
+      },
+      {
         "locale": "it-it",
         "name": "Adesivi avatar"
       },
@@ -12369,6 +12586,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -12624,6 +12846,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -12763,6 +12990,10 @@
       {
         "locale": "es-es",
         "name": "Salvapantallas básico"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Écrans de veille interactifs basiques"
       },
       {
         "locale": "sv-se",
@@ -13028,6 +13259,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -13591,6 +13827,10 @@
         "name": "Datos biométricos"
       },
       {
+        "locale": "fr-dz",
+        "name": "com.samsung.android.biometrics.app.setting"
+      },
+      {
         "locale": "it-it",
         "name": "Dati biometrici"
       },
@@ -13678,6 +13918,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -13942,6 +14187,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -14078,6 +14328,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -14219,6 +14474,10 @@
       {
         "locale": "de-de",
         "name": "Speicher für blockierte Nummern"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Stockage des numéros bloqués"
       },
       {
         "locale": "sv-se",
@@ -14499,6 +14758,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -15022,6 +15286,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "fr-dz",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "sv-se",
         "name": "Bluetooth"
       },
@@ -15316,6 +15584,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -15780,6 +16053,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -15978,6 +16256,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
       {
         "make": "samsung",
         "model": "SM-N950U1",
@@ -16286,6 +16569,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -16637,6 +16925,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -17713,6 +18006,10 @@
         "name": "Calendario"
       },
       {
+        "locale": "fr-dz",
+        "name": "Calendrier"
+      },
+      {
         "locale": "de-de",
         "name": "Kalender"
       },
@@ -17756,6 +18053,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -17889,6 +18191,10 @@
       {
         "locale": "de-de",
         "name": "Kalenderspeicher"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Stockage calendrier"
       },
       {
         "locale": "sv-se",
@@ -18192,6 +18498,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -18422,6 +18733,10 @@
         "name": "Llamar"
       },
       {
+        "locale": "fr-dz",
+        "name": "Appel"
+      },
+      {
         "locale": "it-it",
         "name": "Chiama"
       },
@@ -18509,6 +18824,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -19001,6 +19321,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -19349,6 +19674,10 @@
         "name": "Ajustes de llamada"
       },
       {
+        "locale": "fr-dz",
+        "name": "Paramètres d'appel"
+      },
+      {
         "locale": "it-it",
         "name": "Impostazioni chiamata"
       },
@@ -19436,6 +19765,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -19581,6 +19915,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -19705,6 +20044,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -19848,6 +20192,10 @@
         "name": "Cámara"
       },
       {
+        "locale": "fr-dz",
+        "name": "Appareil photo"
+      },
+      {
         "locale": "de-de",
         "name": "Kamera"
       },
@@ -19931,6 +20279,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -20866,6 +21219,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -21066,6 +21424,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -21110,6 +21473,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -21285,6 +21653,10 @@
       {
         "locale": "de-de",
         "name": "Anmeldung über Captive Portal"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Connexion au portail captif"
       },
       {
         "locale": "sv-se",
@@ -21547,6 +21919,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -21970,6 +22347,10 @@
         "name": "CarrierDefaultApp"
       },
       {
+        "locale": "fr-dz",
+        "name": "CarrierDefaultApp"
+      },
+      {
         "locale": "fr-fr",
         "name": "CarrierDefaultApp"
       },
@@ -22229,6 +22610,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -23463,6 +23849,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -23776,6 +24167,10 @@
         "name": "Zertifikatsinstallationsprogramm"
       },
       {
+        "locale": "fr-dz",
+        "name": "Programme d'installation du certificat"
+      },
+      {
         "locale": "sv-se",
         "name": "Installationsprogram för certifikat"
       },
@@ -24063,6 +24458,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -24619,6 +25019,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -24915,6 +25320,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -25471,6 +25881,10 @@
         "name": "Portapapeles edge"
       },
       {
+        "locale": "fr-dz",
+        "name": "Presse-papiers latéral"
+      },
+      {
         "locale": "it-it",
         "name": "Appunti Tag edge"
       },
@@ -25556,6 +25970,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -25635,6 +26054,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -25997,6 +26421,10 @@
         "name": "Reloj"
       },
       {
+        "locale": "fr-dz",
+        "name": "Horloge"
+      },
+      {
         "locale": "de-de",
         "name": "Uhr"
       },
@@ -26040,6 +26468,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -26402,6 +26835,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -26994,6 +27432,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -27551,6 +27994,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -28969,6 +29417,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -29429,6 +29882,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -30483,6 +30941,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -31577,6 +32040,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -32302,6 +32770,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
       },
@@ -32381,6 +32854,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -33131,6 +33609,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -33642,6 +34125,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -33988,6 +34476,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -34762,6 +35255,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -34894,6 +35392,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -35942,6 +36445,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -36730,6 +37238,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -36830,6 +37343,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -38698,6 +39216,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -39113,6 +39636,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -42900,6 +43428,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -43279,6 +43812,11 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
         "os": "36"
       }
     ]
@@ -43830,6 +44368,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -44440,6 +44983,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -44777,6 +45325,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -45248,6 +45801,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -46262,6 +46820,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -46396,6 +46959,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -46643,6 +47211,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -47000,6 +47573,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -47506,6 +48084,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -47875,6 +48458,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -48232,6 +48820,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -48499,6 +49092,11 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
@@ -50201,6 +50799,11 @@
       {
         "make": "Google",
         "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
         "os": "36"
       },
       {
@@ -57637,6 +58240,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -57940,6 +58548,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -58111,6 +58724,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -58664,6 +59282,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -58798,6 +59421,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -59039,6 +59667,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       }
@@ -59185,6 +59818,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -59672,6 +60310,18 @@
       }
     ]
   },
+  "com.samsung.phone.overlay.common": {
+    "appName": "com.samsung.phone.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.slsi.telephony.oemril": {
     "appName": "com.samsung.slsi.telephony.oemril.OemRilApp",
     "userFacing": false,
@@ -59967,6 +60617,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -60113,6 +60768,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -60264,6 +60924,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -62480,6 +63145,10 @@
         "name": "Begleitgerät-Manager"
       },
       {
+        "locale": "fr-dz",
+        "name": "Gestionnaire d'appareils associés"
+      },
+      {
         "locale": "fr-fr",
         "name": "Gestionnaire d'appareils associés"
       }
@@ -62759,6 +63428,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -63302,6 +63976,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -63633,6 +64312,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -63823,6 +64507,10 @@
         "name": "Configuratiebericht"
       },
       {
+        "locale": "fr-dz",
+        "name": "Message de configuration"
+      },
+      {
         "locale": "it-it",
         "name": "Messaggio di configurazione"
       },
@@ -63908,6 +64596,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -63969,6 +64662,10 @@
       {
         "locale": "es-us",
         "name": "Actualizar configuración"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Mise à jour configuration"
       },
       {
         "locale": "it-it",
@@ -64058,6 +64755,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -64269,6 +64971,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -64405,6 +65112,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -64624,6 +65336,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -65090,6 +65807,10 @@
         "name": "Almacenamiento de contactos"
       },
       {
+        "locale": "fr-dz",
+        "name": "Enregistrement des contacts"
+      },
+      {
         "locale": "it-it",
         "name": "Spazio di archiviazione contatti"
       },
@@ -65177,6 +65898,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -65873,6 +66599,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -66157,6 +66888,10 @@
         "name": "Aussparung in der Ecke"
       },
       {
+        "locale": "fr-dz",
+        "name": "Encoche d'angle"
+      },
+      {
         "locale": "sv-se",
         "name": "Kantutskärning"
       },
@@ -66410,6 +67145,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -67067,6 +67807,10 @@
         "name": "Crocro en vrienden"
       },
       {
+        "locale": "fr-dz",
+        "name": "Crocro et ses amis"
+      },
+      {
         "locale": "it-it",
         "name": "Crocro e i suoi amici"
       },
@@ -67140,6 +67884,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -67499,6 +68248,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -67635,6 +68389,10 @@
         "name": "Servicio de personalización"
       },
       {
+        "locale": "fr-dz",
+        "name": "Service de personnalisation"
+      },
+      {
         "locale": "it-it",
         "name": "Servizio di personalizzazione"
       },
@@ -67717,6 +68475,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -68271,6 +69034,18 @@
       }
     ]
   },
+  "com.samsung.android.livestickers": {
+    "appName": "DECO PIC",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.coloros.deepthinker": {
     "appName": "DeepThinker",
     "userFacing": false,
@@ -68370,6 +69145,10 @@
       {
         "locale": "de-de",
         "name": "Standarddruckdienst"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Service d'impression par défaut"
       },
       {
         "locale": "sv-se",
@@ -68653,6 +69432,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -69027,6 +69811,10 @@
         "name": "Cuidado del dispositivo"
       },
       {
+        "locale": "fr-dz",
+        "name": "Maintenance de l'appareil"
+      },
+      {
         "locale": "it-it",
         "name": "Assistenza dispositivo"
       },
@@ -69114,6 +69902,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -69683,6 +70476,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -70228,6 +71026,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -70668,6 +71471,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -71016,6 +71824,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
       }
@@ -71149,6 +71962,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -71476,6 +72294,10 @@
         "name": "Bienestar digital"
       },
       {
+        "locale": "fr-dz",
+        "name": "Bien-être numérique"
+      },
+      {
         "locale": "it-it",
         "name": "Benessere digitale"
       },
@@ -71563,6 +72385,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -71993,6 +72820,18 @@
       }
     ]
   },
+  "com.samsung.discover": {
+    "appName": "Discover",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.aura.jet.att": {
     "appName": "Discovery Hub",
     "userFacing": true,
@@ -72411,6 +73250,10 @@
         "name": "Doppelte Aussparung"
       },
       {
+        "locale": "fr-dz",
+        "name": "Encoche double"
+      },
+      {
         "locale": "sv-se",
         "name": "Dubbel utskärning"
       },
@@ -72666,6 +73509,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -72869,6 +73717,10 @@
       {
         "locale": "de-de",
         "name": "Download-Manager"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Gestionnaire de téléchargement"
       },
       {
         "locale": "sv-se",
@@ -73160,6 +74012,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -73372,6 +74229,10 @@
       {
         "locale": "es-us",
         "name": "Descargas"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Téléchargements"
       },
       {
         "locale": "sv-se",
@@ -73649,6 +74510,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -73921,6 +74787,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -74549,6 +75420,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -74708,6 +75584,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -74784,6 +75665,10 @@
     "appName": "Dual Messenger",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "fr-dz",
+        "name": "Messagerie double"
+      },
       {
         "locale": "it-it",
         "name": "Doppio Account"
@@ -74863,6 +75748,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -75339,6 +76229,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -75696,6 +76591,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -75774,6 +76674,10 @@
         "name": "com.samsung.android.app.cocktailbarservice"
       },
       {
+        "locale": "fr-dz",
+        "name": "Volets latéraux"
+      },
+      {
         "locale": "en-nl",
         "name": "com.samsung.android.app.cocktailbarservice"
       },
@@ -75806,6 +76710,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -75940,6 +76849,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -76627,6 +77541,10 @@
         "name": "Delen in noodgeval"
       },
       {
+        "locale": "fr-dz",
+        "name": "Envoi de messages SOS"
+      },
+      {
         "locale": "it-it",
         "name": "Condivisione di emergenza"
       },
@@ -76712,6 +77630,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -76769,6 +77692,10 @@
       {
         "locale": "nl-nl",
         "name": "SOS noodgeval"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "SOS d'urgence"
       },
       {
         "locale": "it-it",
@@ -76853,6 +77780,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -76952,6 +77884,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
       }
@@ -76976,6 +77913,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -77468,6 +78410,10 @@
       {
         "locale": "es-us",
         "name": "Knox Enrollment Service"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Knox Enrollment Service"
       }
     ],
     "devices": [
@@ -77545,6 +78491,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -77736,6 +78687,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -77973,6 +78929,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -78375,6 +79336,10 @@
         "name": "Externer Speicher"
       },
       {
+        "locale": "fr-dz",
+        "name": "Stockage externe"
+      },
+      {
         "locale": "sv-se",
         "name": "Extern lagring"
       },
@@ -78658,6 +79623,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -78967,6 +79937,10 @@
         "name": "Protector de la vista"
       },
       {
+        "locale": "fr-dz",
+        "name": "Confort visuel"
+      },
+      {
         "locale": "it-it",
         "name": "Protezione occhi"
       },
@@ -79054,6 +80028,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -79389,6 +80368,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "TCL",
         "model": "6165H",
         "os": "33"
@@ -79479,6 +80463,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -79616,6 +80605,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -79887,6 +80881,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -80108,6 +81107,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -80655,6 +81659,10 @@
         "name": "Dateien"
       },
       {
+        "locale": "fr-dz",
+        "name": "Fichiers"
+      },
+      {
         "locale": "sv-se",
         "name": "Filer"
       },
@@ -80903,6 +81911,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -82306,6 +83319,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -82413,6 +83431,10 @@
         "name": "Localizar mi móvil"
       },
       {
+        "locale": "fr-dz",
+        "name": "Traçage du mobile"
+      },
+      {
         "locale": "it-it",
         "name": "Trova dispositivo personale"
       },
@@ -82499,6 +83521,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -82578,6 +83605,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -83213,6 +84245,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -83732,6 +84769,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -83963,6 +85005,10 @@
         "name": "AR Emoji"
       },
       {
+        "locale": "fr-dz",
+        "name": "AR Emoji"
+      },
+      {
         "locale": "de-de",
         "name": "Galaxy-Avatar"
       },
@@ -84036,6 +85082,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -84296,6 +85347,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -84574,6 +85630,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -84701,6 +85762,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -84757,6 +85823,10 @@
       {
         "locale": "es-us",
         "name": "Servicio de Galaxy Themes"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Service Galaxy Themes"
       },
       {
         "locale": "it-it",
@@ -84846,6 +85916,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -85097,6 +86172,10 @@
         "name": "Galería"
       },
       {
+        "locale": "fr-dz",
+        "name": "Galerie"
+      },
+      {
         "locale": "it-it",
         "name": "Galleria"
       },
@@ -85184,6 +86263,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -85396,6 +86480,10 @@
         "name": "Historias de Galería"
       },
       {
+        "locale": "fr-dz",
+        "name": "Histoires de la Galerie"
+      },
+      {
         "locale": "it-it",
         "name": "Storie nella Galleria"
       },
@@ -85483,6 +86571,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -85632,6 +86725,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -85830,6 +86928,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -86020,6 +87123,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -86721,6 +87829,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -86899,6 +88012,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -87033,6 +88151,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -87227,6 +88350,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -87402,6 +88530,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -87716,6 +88849,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -88016,6 +89154,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -88655,6 +89798,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -89170,6 +90318,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -89439,6 +90592,10 @@
         "name": "Sincronización del Calendario de Google"
       },
       {
+        "locale": "fr-dz",
+        "name": "Synchronisation de Google Agenda"
+      },
+      {
         "locale": "it-it",
         "name": "Sinc. Google Calendar"
       },
@@ -89554,6 +90711,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -89650,6 +90812,10 @@
         "name": "Sincronización de contactos de Google"
       },
       {
+        "locale": "fr-dz",
+        "name": "Synchronisation de Google Contacts"
+      },
+      {
         "locale": "fr-fr",
         "name": "Synchronisation de Google Contacts"
       }
@@ -89723,6 +90889,11 @@
       {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
         "os": "31"
       },
       {
@@ -89842,6 +91013,10 @@
       {
         "locale": "de-de",
         "name": "Google-Standortverlauf"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Historique des positions Google"
       },
       {
         "locale": "sv-se",
@@ -90092,6 +91267,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -90568,6 +91748,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -91025,6 +92210,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -91451,6 +92641,10 @@
         "name": "Google Play-Dienste"
       },
       {
+        "locale": "fr-dz",
+        "name": "Services Google Play"
+      },
+      {
         "locale": "sv-se",
         "name": "Google Play-tjänster"
       },
@@ -91734,6 +92928,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -92061,6 +93260,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -92178,6 +93382,10 @@
       {
         "locale": "es-us",
         "name": "Google Play Store"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Google Play Store"
       },
       {
         "locale": "sv-se",
@@ -92465,6 +93673,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -92685,6 +93898,10 @@
       {
         "locale": "de-de",
         "name": "Google Sicherheitscenter-Ressourcen"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Ressources du Centre de sécurité Google"
       },
       {
         "locale": "sv-se",
@@ -92917,6 +94134,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -93212,6 +94434,10 @@
         "name": "Marco de los servicios de Google"
       },
       {
+        "locale": "fr-dz",
+        "name": "Framework des services Google"
+      },
+      {
         "locale": "fr-fr",
         "name": "Framework des services Google"
       }
@@ -93491,6 +94717,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -94196,6 +95427,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -94437,6 +95673,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -94647,6 +95888,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -94834,6 +96080,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -96182,6 +97433,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -96808,6 +98064,10 @@
         "name": "HTML-Anzeige"
       },
       {
+        "locale": "fr-dz",
+        "name": "Visionneuse HTML"
+      },
+      {
         "locale": "sv-se",
         "name": "HTML-visningsprogram"
       },
@@ -97093,6 +98353,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -97348,6 +98613,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -97792,6 +99062,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -97934,6 +99209,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -98073,6 +99353,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -98553,6 +99838,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -99567,6 +100857,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -99923,6 +101218,10 @@
         "name": "Sleutelhanger"
       },
       {
+        "locale": "fr-dz",
+        "name": "Trousseau"
+      },
+      {
         "locale": "sv-se",
         "name": "Nyckelknippa"
       },
@@ -100210,6 +101509,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -100710,6 +102014,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -102124,6 +103433,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-dz",
+        "name": "Module de lancement"
+      },
+      {
         "locale": "it-it",
         "name": "Menu di avvio"
       },
@@ -102207,6 +103520,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -103102,6 +104420,10 @@
         "name": "Live Transcribe and Sound Notifications"
       },
       {
+        "locale": "fr-dz",
+        "name": "Transcription instantanée et Notifications de sons"
+      },
+      {
         "locale": "it-it",
         "name": "Trascrizione Istantanea e Notifiche di Suoni"
       },
@@ -103231,6 +104553,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -103327,6 +104654,10 @@
       {
         "locale": "de-de",
         "name": "Live-Hintergrund-Auswahl"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Sélecteur de fond d'écran animé"
       },
       {
         "locale": "sv-se",
@@ -103595,6 +104926,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -103888,6 +105224,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -104334,6 +105675,18 @@
       }
     ]
   },
+  "com.samsung.logwriter": {
+    "appName": "LogWriter",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.sonyericsson.xhs": {
     "appName": "Lounge",
     "userFacing": false,
@@ -104660,6 +106013,10 @@
         "name": "Vergrootglas"
       },
       {
+        "locale": "fr-dz",
+        "name": "Loupe"
+      },
+      {
         "locale": "it-it",
         "name": "Lente"
       },
@@ -104732,6 +106089,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -105106,6 +106468,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -106013,6 +107380,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -106486,6 +107858,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -106901,6 +108278,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -107179,6 +108561,10 @@
         "name": "Salida multimedia"
       },
       {
+        "locale": "fr-dz",
+        "name": "Médias et appareils"
+      },
+      {
         "locale": "de-de",
         "name": "Medien und Geräte"
       },
@@ -107212,6 +108598,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -107266,6 +108657,10 @@
       {
         "locale": "de-de",
         "name": "Media-Auswahl"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Sélecteur de fichiers multimédias"
       },
       {
         "locale": "sv-se",
@@ -107510,6 +108905,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -108103,6 +109503,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -108344,6 +109749,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -108952,6 +110362,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -109134,6 +110549,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -109308,6 +110728,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -109996,6 +111421,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
       }
@@ -110401,6 +111831,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -110795,6 +112230,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -110919,6 +112359,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.uds": {
+    "appName": "Mode Ultra économie des données",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       }
     ]
   },
@@ -112579,6 +114031,10 @@
         "name": "Aplicación MTP"
       },
       {
+        "locale": "fr-dz",
+        "name": "Application MTP"
+      },
+      {
         "locale": "it-it",
         "name": "Applicazione MTP"
       },
@@ -112666,6 +114122,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -112775,6 +114236,10 @@
       {
         "locale": "de-de",
         "name": "MTP-Host"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Hôte MTP"
       },
       {
         "locale": "sv-se",
@@ -113055,6 +114520,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -113849,6 +115319,10 @@
         "name": "Mis archivos"
       },
       {
+        "locale": "fr-dz",
+        "name": "Mes fichiers"
+      },
+      {
         "locale": "it-it",
         "name": "Archivio"
       },
@@ -113936,6 +115410,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -114035,6 +115514,18 @@
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
+      }
+    ]
+  },
+  "com.mygalaxy": {
+    "appName": "My Galaxy",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       }
     ]
   },
@@ -114237,6 +115728,10 @@
         "name": "Búsqueda de dispositivos cercanos"
       },
       {
+        "locale": "fr-dz",
+        "name": "Recherche d'appareils à proximité"
+      },
+      {
         "locale": "it-it",
         "name": "Ricerca dispositivi vicini"
       },
@@ -114327,6 +115822,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -114398,6 +115898,10 @@
       {
         "locale": "es-us",
         "name": "Búsqueda de dispositivos"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Rech. appareils à proximité"
       },
       {
         "locale": "it-it",
@@ -114487,6 +115991,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -114732,6 +116241,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -114818,6 +116332,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -114910,6 +116429,10 @@
       {
         "locale": "de-de",
         "name": "Netzwerkmanager"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Gestionnaire de réseaux"
       },
       {
         "locale": "sv-se",
@@ -115155,6 +116678,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -115563,6 +117091,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -115915,6 +117448,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -117857,6 +119395,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -118160,6 +119703,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -119366,6 +120914,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -119413,6 +120966,10 @@
       {
         "locale": "es-us",
         "name": "Inicio de One UI"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Écran d'accueil One UI"
       },
       {
         "locale": "de-de",
@@ -119498,6 +121055,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -119652,6 +121214,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -120965,6 +122532,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -121528,6 +123100,10 @@
         "name": "Paketinstallation"
       },
       {
+        "locale": "fr-dz",
+        "name": "Programme installation kit"
+      },
+      {
         "locale": "sv-se",
         "name": "Paketinstallationsprogram"
       },
@@ -121811,6 +123387,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -122302,6 +123883,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -122756,6 +124342,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -122978,6 +124569,10 @@
         "name": "Personas"
       },
       {
+        "locale": "fr-dz",
+        "name": "Personnes"
+      },
+      {
         "locale": "it-it",
         "name": "Persone"
       },
@@ -123065,6 +124660,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -123300,6 +124900,10 @@
       {
         "locale": "de-de",
         "name": "Berechtigungssteuerung"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Contrôleur d'autorisations"
       },
       {
         "locale": "sv-se",
@@ -123562,6 +125166,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -123797,6 +125406,10 @@
         "name": "Uso de permisos"
       },
       {
+        "locale": "fr-dz",
+        "name": "Utilisation d'autorisations"
+      },
+      {
         "locale": "it-it",
         "name": "Uso autorizzazione"
       },
@@ -123884,6 +125497,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -124043,6 +125661,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -124596,6 +126219,10 @@
         "name": "Telefoon"
       },
       {
+        "locale": "fr-dz",
+        "name": "Téléphone"
+      },
+      {
         "locale": "it-it",
         "name": "Telefono"
       },
@@ -124657,6 +126284,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -124703,6 +126335,10 @@
       {
         "locale": "es-us",
         "name": "Teléfono"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Téléphone"
       },
       {
         "locale": "it-it",
@@ -124792,6 +126428,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -125218,6 +126859,10 @@
         "name": "Telefon- und SMS-Speicher"
       },
       {
+        "locale": "fr-dz",
+        "name": "Téléphone et stockage des messages"
+      },
+      {
         "locale": "sv-se",
         "name": "Telefon-/meddelandelagr."
       },
@@ -125510,6 +127155,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -125746,6 +127396,10 @@
       {
         "locale": "de-de",
         "name": "Telefonanrufe"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Appels téléphoniques"
       },
       {
         "locale": "sv-se",
@@ -126043,6 +127697,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -126271,6 +127930,10 @@
       {
         "locale": "de-de",
         "name": "Telefondienste"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Services téléphoniques"
       },
       {
         "locale": "sv-se",
@@ -126555,6 +128218,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -126859,6 +128527,10 @@
         "name": "Editor de imágenes"
       },
       {
+        "locale": "fr-dz",
+        "name": "Editeur de photos"
+      },
+      {
         "locale": "it-it",
         "name": "Editor immagini"
       },
@@ -126949,6 +128621,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -127024,6 +128701,10 @@
       {
         "locale": "es-us",
         "name": "Protectores de pantalla de fotos"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Écrans de veille photos"
       },
       {
         "locale": "de-de",
@@ -127154,6 +128835,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -127780,6 +129466,10 @@
         "name": "Fotos & Videos"
       },
       {
+        "locale": "fr-dz",
+        "name": "Photos et vidéos"
+      },
+      {
         "locale": "sv-se",
         "name": "Foton och videor"
       },
@@ -127990,6 +129680,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -129101,6 +130796,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       }
@@ -129291,6 +130991,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -129843,6 +131548,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -130047,6 +131757,10 @@
       {
         "locale": "de-de",
         "name": "Druck-Spooler"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Spouleur d'impression"
       },
       {
         "locale": "sv-se",
@@ -130336,6 +132050,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -130725,6 +132444,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -130934,6 +132658,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -131350,6 +133079,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -131615,6 +133349,10 @@
       {
         "locale": "de-de",
         "name": "Ausschnitt für Punch-Hole-Display"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Encoche en forme de poinçon"
       },
       {
         "locale": "sv-se",
@@ -131886,6 +133624,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -132875,6 +134618,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -132941,6 +134689,10 @@
       {
         "locale": "es-us",
         "name": "Agente de Quick Share"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Agent Quick Share"
       },
       {
         "locale": "it-it",
@@ -133029,6 +134781,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -133095,6 +134852,10 @@
       {
         "locale": "es-us",
         "name": "Conectividad de Quick Share"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Connectivité Quick Share"
       },
       {
         "locale": "it-it",
@@ -133184,6 +134945,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -133405,6 +135171,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       }
@@ -133599,6 +135370,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       }
@@ -133764,6 +135540,10 @@
         "name": "Aplicaciones recomendadas"
       },
       {
+        "locale": "fr-dz",
+        "name": "Applications recommandées"
+      },
+      {
         "locale": "it-it",
         "name": "Applicazioni consigliate"
       },
@@ -133851,6 +135631,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -135098,6 +136883,10 @@
         "name": "Fout"
       },
       {
+        "locale": "fr-dz",
+        "name": "Erreur"
+      },
+      {
         "locale": "it-it",
         "name": "Errore"
       },
@@ -135180,6 +136969,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -136011,6 +137805,10 @@
         "name": "Información de seguridad"
       },
       {
+        "locale": "fr-dz",
+        "name": "Consignes de sécurité"
+      },
+      {
         "locale": "it-it",
         "name": "Informazioni di sicurezza"
       },
@@ -136098,6 +137896,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -136250,6 +138053,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "fr-dz",
+        "name": "Compte Samsung"
+      },
+      {
         "locale": "de-de",
         "name": "Samsung Account"
       }
@@ -136329,6 +138136,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -136545,6 +138357,10 @@
         "name": "SecVideoEngineService"
       },
       {
+        "locale": "fr-dz",
+        "name": "SecVideoEngineService"
+      },
+      {
         "locale": "es-es",
         "name": "SecVideoEngineService"
       }
@@ -136627,6 +138443,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -136698,6 +138519,10 @@
       {
         "locale": "es-us",
         "name": "Captura de Samsung"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Capture Samsung"
       },
       {
         "locale": "it-it",
@@ -136787,6 +138612,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -136932,6 +138762,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -137071,6 +138906,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -137365,6 +139205,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -137499,6 +139344,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -137938,6 +139788,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -138359,6 +140214,10 @@
         "name": "Teclado Samsung"
       },
       {
+        "locale": "fr-dz",
+        "name": "Clavier Samsung"
+      },
+      {
         "locale": "it-it",
         "name": "Tastiera Samsung"
       },
@@ -138446,6 +140305,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -138541,6 +140405,10 @@
         "name": "Instalador de Samsung Kids"
       },
       {
+        "locale": "fr-dz",
+        "name": "Programme d’installation de Samsung Kids"
+      },
+      {
         "locale": "it-it",
         "name": "Programma di installazione di Samsung Kids"
       },
@@ -138628,6 +140496,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -138820,6 +140693,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -138880,12 +140758,28 @@
       }
     ]
   },
+  "com.opera.max.oem": {
+    "appName": "Samsung Max",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.providers.media": {
     "appName": "Samsung Media Storage",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "",
+        "name": "Sec Media Storage"
+      },
+      {
+        "locale": "fr-dz",
         "name": "Sec Media Storage"
       }
     ],
@@ -138964,6 +140858,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -139527,6 +141426,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -139587,6 +141491,18 @@
       }
     ]
   },
+  "com.samsung.android.setupindiaservicestnc": {
+    "appName": "Samsung Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.sec.android.app.SecSetupWizard": {
     "appName": "Samsung setup wizard",
     "userFacing": false,
@@ -139598,6 +141514,10 @@
       {
         "locale": "es-us",
         "name": "Asistente de configuración de Samsung"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Assistant de configuration Samsung"
       },
       {
         "locale": "it-it",
@@ -139687,6 +141607,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -139865,6 +141790,10 @@
         "name": "Motor de texto a voz de Samsung"
       },
       {
+        "locale": "fr-dz",
+        "name": "Moteur de synthèse vocale Samsung"
+      },
+      {
         "locale": "it-it",
         "name": "Motore sintesi vocale Samsung"
       },
@@ -139952,6 +141881,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -140308,6 +142242,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -140499,6 +142438,18 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.spaymini": {
+    "appName": "Samsung Wallet",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       }
     ]
   },
@@ -140887,6 +142838,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -141016,6 +142972,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -143038,6 +144999,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
       }
@@ -143897,6 +145863,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -144780,6 +146751,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -145122,7 +147098,12 @@
   "com.samsung.aasaservice": {
     "appName": "SecurityPolicy",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "fr-dz",
+        "name": "AASAservice"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -145198,6 +147179,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -145573,6 +147559,10 @@
         "name": "Sonido de aplicación independiente"
       },
       {
+        "locale": "fr-dz",
+        "name": "Son d'application séparé"
+      },
+      {
         "locale": "it-it",
         "name": "Separa audio applicazione"
       },
@@ -145660,6 +147650,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -145971,6 +147966,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -146108,6 +148108,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -146240,6 +148245,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -146314,6 +148324,10 @@
       {
         "locale": "es-us",
         "name": "Actualizar configuración"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Mise à jour configuration"
       },
       {
         "locale": "it-it",
@@ -146406,6 +148420,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -146458,6 +148477,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.alive.service": {
+    "appName": "Service Suggestions de contenu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       }
     ]
   },
@@ -146546,6 +148577,10 @@
       {
         "locale": "de-de",
         "name": "Einstellungen"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Paramètres"
       },
       {
         "locale": "sv-se",
@@ -146831,6 +148866,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -147248,6 +149288,10 @@
         "name": "Einstellungsspeicher"
       },
       {
+        "locale": "fr-dz",
+        "name": "Stockage des paramètres"
+      },
+      {
         "locale": "sv-se",
         "name": "Lagring av inställningar"
       },
@@ -147531,6 +149575,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -147832,6 +149881,10 @@
         "name": "Einstellungsvorschläge"
       },
       {
+        "locale": "fr-dz",
+        "name": "Suggestions de paramètres"
+      },
+      {
         "locale": "sv-se",
         "name": "Inställningsförslag"
       },
@@ -148052,6 +150105,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -148247,6 +150305,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -148630,6 +150693,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -149075,6 +151143,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -149355,6 +151428,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -149552,6 +151630,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -149658,6 +151741,10 @@
       {
         "locale": "de-de",
         "name": "SIM-App-Dialogfeld"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Sim App Dialog"
       },
       {
         "locale": "fr-fr",
@@ -149915,6 +152002,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -150255,6 +152347,10 @@
         "name": "SIM-toolkit"
       },
       {
+        "locale": "fr-dz",
+        "name": "Djezzy Plus"
+      },
+      {
         "locale": "it-it",
         "name": "Servizi SIM"
       },
@@ -150340,6 +152436,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -150419,6 +152520,10 @@
       {
         "locale": "en-sg",
         "name": "SIM Tool Kit"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Outils SIM"
       },
       {
         "locale": "sv-se",
@@ -150666,6 +152771,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -150955,6 +153065,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -151213,6 +153328,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -151533,6 +153653,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -151737,6 +153862,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -152202,6 +154332,10 @@
         "name": "Agente de Smart Switch"
       },
       {
+        "locale": "fr-dz",
+        "name": "Agent Smart Switch"
+      },
+      {
         "locale": "it-it",
         "name": "Agente Smart Switch"
       },
@@ -152285,6 +154419,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -152444,6 +154583,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -152570,6 +154714,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -152811,6 +154960,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -152965,6 +155119,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -153080,6 +155239,10 @@
         "name": "SmartThings Framework"
       },
       {
+        "locale": "fr-dz",
+        "name": "SmartThings Framework"
+      },
+      {
         "locale": "es-es",
         "name": "SmartThings Framework"
       }
@@ -153149,6 +155312,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -153259,6 +155427,10 @@
         "name": "Actualización de software"
       },
       {
+        "locale": "fr-dz",
+        "name": "Mise à jour logicielle"
+      },
+      {
         "locale": "it-it",
         "name": "Aggiornamento software"
       },
@@ -153346,6 +155518,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -153422,6 +155599,10 @@
         "name": "Actualización de software"
       },
       {
+        "locale": "fr-dz",
+        "name": "Mise à jour du logiciel"
+      },
+      {
         "locale": "it-it",
         "name": "Aggiornamento software"
       },
@@ -153509,6 +155690,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -153991,6 +156177,10 @@
         "name": "Seleccionar sonido"
       },
       {
+        "locale": "fr-dz",
+        "name": "Sélection de sons"
+      },
+      {
         "locale": "it-it",
         "name": "Selezionatore audio"
       },
@@ -154081,6 +156271,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -154152,6 +156347,10 @@
       {
         "locale": "es-us",
         "name": "Calidad y efectos de sonido"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Qualité et effets sonores"
       },
       {
         "locale": "it-it",
@@ -154241,6 +156440,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -154965,6 +157169,10 @@
         "name": "Spracherkennung und -Synthese von Google"
       },
       {
+        "locale": "fr-dz",
+        "name": "Reconnaissance et synthèse vocales de Google"
+      },
+      {
         "locale": "sv-se",
         "name": "Taligenkänning och talsyntes från Google"
       },
@@ -155255,6 +157463,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -155812,6 +158025,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -155906,6 +158124,18 @@
       }
     ]
   },
+  "com.samsung.memorysaver": {
+    "appName": "Storage booster",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.storagemanager": {
     "appName": "Storage Manager",
     "userFacing": false,
@@ -155929,6 +158159,10 @@
       {
         "locale": "es-es",
         "name": "Administrador de almacenamiento"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Gestionnaire d'espace de stockage"
       },
       {
         "locale": "sv-se",
@@ -156163,6 +158397,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -157017,6 +159256,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -157271,6 +159515,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -157714,6 +159963,10 @@
         "name": "Systemverbindungsressourcen"
       },
       {
+        "locale": "fr-dz",
+        "name": "Ressources de connectivité système"
+      },
+      {
         "locale": "sv-se",
         "name": "Resurser för systemanslutning"
       },
@@ -157954,6 +160207,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -158974,6 +161232,10 @@
         "name": "Ablaufverfolgung"
       },
       {
+        "locale": "fr-dz",
+        "name": "Traçage système"
+      },
+      {
         "locale": "sv-se",
         "name": "Systemspårning"
       },
@@ -159234,6 +161496,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -159437,6 +161704,10 @@
       {
         "locale": "de-de",
         "name": "System-UI"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "IU syst."
       },
       {
         "locale": "sv-se",
@@ -159722,6 +161993,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -160587,6 +162863,10 @@
         "name": "Recursos Wi‑Fi del sistema"
       },
       {
+        "locale": "fr-dz",
+        "name": "Ressources Wi-Fi du système"
+      },
+      {
         "locale": "sv-se",
         "name": "Resurser för wifi-system"
       },
@@ -160747,6 +163027,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -161853,6 +164138,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -161943,6 +164233,10 @@
       {
         "locale": "de-de",
         "name": "Hohe Aussparung"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Encoche haute"
       },
       {
         "locale": "sv-se",
@@ -162205,6 +164499,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -162455,6 +164754,10 @@
         "name": "Tareas"
       },
       {
+        "locale": "fr-dz",
+        "name": "Actions"
+      },
+      {
         "locale": "it-it",
         "name": "Funzioni"
       },
@@ -162537,6 +164840,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -163351,6 +165659,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -163719,6 +166032,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -164496,6 +166814,10 @@
         "name": "Herramientas"
       },
       {
+        "locale": "fr-dz",
+        "name": "Outils"
+      },
+      {
         "locale": "it-it",
         "name": "Strumenti"
       },
@@ -164574,6 +166896,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -166070,6 +168397,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -166157,6 +168489,10 @@
       {
         "locale": "de-de",
         "name": "Mein Wörterbuch"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Dictionnaire personnel"
       },
       {
         "locale": "sv-se",
@@ -166444,6 +168780,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -166675,6 +169016,10 @@
         "name": "Guía de usuario"
       },
       {
+        "locale": "fr-dz",
+        "name": "Mode d'emploi"
+      },
+      {
         "locale": "de-de",
         "name": "Benutzerhandbuch"
       },
@@ -166708,6 +169053,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -167750,6 +170100,10 @@
         "name": "Reproductor de video"
       },
       {
+        "locale": "fr-dz",
+        "name": "Lecteur vidéo"
+      },
+      {
         "locale": "it-it",
         "name": "Lettore video"
       },
@@ -167837,6 +170191,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -168984,6 +171343,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -169468,6 +171832,10 @@
         "name": "Fondo de pantalla y estilo"
       },
       {
+        "locale": "fr-dz",
+        "name": "Fond d'écran et style"
+      },
+      {
         "locale": "it-it",
         "name": "Sfondo e stile"
       },
@@ -169558,6 +171926,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -169624,6 +171997,10 @@
       {
         "locale": "es-us",
         "name": "Servicios de fondos de pantalla"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Services de fond d'écran"
       },
       {
         "locale": "it-it",
@@ -169713,6 +172090,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -170135,6 +172517,10 @@
         "name": "Aussparung für Wasserfall-Display"
       },
       {
+        "locale": "fr-dz",
+        "name": "Encoche en cascade"
+      },
+      {
         "locale": "sv-se",
         "name": "Vattenfall med skärmutskärning"
       },
@@ -170388,6 +172774,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -170657,6 +173048,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -170789,6 +173185,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -170860,6 +173261,10 @@
       {
         "locale": "es-us",
         "name": "Clima"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Météo"
       },
       {
         "locale": "it-it",
@@ -170949,6 +173354,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -171434,6 +173844,10 @@
         "name": "Bellen via Wi-Fi"
       },
       {
+        "locale": "fr-dz",
+        "name": "Appels Wi-Fi"
+      },
+      {
         "locale": "it-it",
         "name": "Chiamata Wi-Fi"
       },
@@ -171511,6 +173925,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -171627,6 +174046,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -171820,6 +174244,18 @@
         "make": "Google",
         "model": "brya",
         "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.mfi": {
+    "appName": "Widget Galaxy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       }
     ]
   },
@@ -172254,6 +174690,10 @@
         "name": "Wireless Emergency Alerts"
       },
       {
+        "locale": "fr-dz",
+        "name": "Alertes d'urgence sans fil"
+      },
+      {
         "locale": "sv-se",
         "name": "Trådlösa varningar vid nödsituationer"
       },
@@ -172496,6 +174936,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -172867,6 +175312,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -172999,6 +175449,10 @@
       {
         "locale": "de-de",
         "name": "Einrichtung des Arbeitsprofils"
+      },
+      {
+        "locale": "fr-dz",
+        "name": "Configuration du profil professionnel"
       },
       {
         "locale": "sv-se",
@@ -173279,6 +175733,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
@@ -174486,6 +176945,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-M315F",
+        "os": "31"
       },
       {
         "make": "Nothing",
