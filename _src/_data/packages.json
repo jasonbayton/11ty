@@ -329,6 +329,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -1568,12 +1573,22 @@
   "com.oppoex.afterservice": {
     "appName": "After-Sales Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Послепродажное обслуживание"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -1926,6 +1941,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -2565,6 +2585,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -2892,6 +2917,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -3083,6 +3113,10 @@
     "appName": "Android Easter Egg",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Android S Easter Egg"
+      },
       {
         "locale": "en-au",
         "name": "Android R Easter Egg"
@@ -3421,6 +3455,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -3949,6 +3988,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -4455,6 +4499,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -4920,6 +4969,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -5395,6 +5449,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -5903,6 +5962,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -6841,6 +6905,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -7381,6 +7450,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -7635,6 +7709,11 @@
       {
         "make": "samsung",
         "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -8118,6 +8197,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -8138,6 +8222,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -8208,6 +8297,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -8223,6 +8317,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -9098,6 +9197,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -9728,6 +9832,18 @@
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
+      }
+    ]
+  },
+  "com.applovin.array.apphub.vincere": {
+    "appName": "AppHub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -10557,6 +10673,10 @@
       {
         "locale": "es-us",
         "name": "Asistente"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Ассистент"
       }
     ],
     "devices": [
@@ -10634,6 +10754,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -12926,12 +13051,22 @@
   "com.nearme.statistics.rom": {
     "appName": "Basic Data Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Программа пользовательского тестирования"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -13304,6 +13439,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -14453,7 +14593,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Память Заблокированных номеров"
+        "name": "Хранилище заблокир. номеров"
       },
       {
         "locale": "es-es",
@@ -14803,6 +14943,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -15631,6 +15776,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -15770,12 +15920,7 @@
   "com.android.bluetoothmidiservice": {
     "appName": "Bluetooth MIDI Service",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "ru-ru",
-        "name": "Bluetooth-сервис интерфейса электронных музыкальных инструментов"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -16098,6 +16243,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -16293,12 +16443,7 @@
   "com.android.bookmarkprovider": {
     "appName": "Bookmark Provider",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "ru-ru",
-        "name": "Проводник закладок"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -16614,6 +16759,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -17395,6 +17545,10 @@
       {
         "locale": "sv-se",
         "name": "Kalkylator"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Калькулятор"
       }
     ],
     "devices": [
@@ -17542,6 +17696,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -17723,6 +17882,10 @@
       {
         "locale": "fr-fr",
         "name": "Agenda"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Календарь"
       }
     ],
     "devices": [
@@ -17920,6 +18083,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -18543,6 +18711,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -19053,12 +19226,7 @@
   "com.android.calllogbackup": {
     "appName": "Call Log Backup/Restore",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "ru-ru",
-        "name": "Резервная копия журнала вызовов/Восстановить"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -19364,6 +19532,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -20430,6 +20603,10 @@
       {
         "locale": "de-de",
         "name": "Kamera"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Камера"
       }
     ],
     "devices": [
@@ -20472,6 +20649,11 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -20991,12 +21173,7 @@
   "com.android.cameraextensions": {
     "appName": "CameraExtensionsProxy",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "ru-ru",
-        "name": "Прокси расширений камеры"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -21257,6 +21434,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -21956,6 +22138,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -22304,7 +22491,7 @@
       },
       {
         "locale": "ru-ru",
-        "name": "Уведомления оператора связи"
+        "name": "CarrierDefaultApp"
       },
       {
         "locale": "es-es",
@@ -22657,6 +22844,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -22855,6 +23047,10 @@
       {
         "locale": "it-it",
         "name": "Posizione operatore"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Геоданные для оператора"
       }
     ],
     "devices": [
@@ -22867,6 +23063,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -23189,6 +23390,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -23884,6 +24090,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -24136,7 +24347,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Программа установки сертификата"
+        "name": "Установщик сертификатов"
       },
       {
         "locale": "es-es",
@@ -24503,6 +24714,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -25064,6 +25280,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -25530,6 +25751,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -26111,6 +26337,10 @@
       {
         "locale": "sv-se",
         "name": "Klocka"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Часы"
       }
     ],
     "devices": [
@@ -26268,6 +26498,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -27477,6 +27712,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -28033,6 +28273,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -28640,6 +28885,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -29462,6 +29712,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -29927,6 +30182,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -30575,6 +30835,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -30981,6 +31246,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -32080,6 +32350,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -32239,6 +32514,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -32396,6 +32676,18 @@
       }
     ]
   },
+  "com.android.overlay.setupwizard": {
+    "appName": "com.android.overlay.setupwizard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      }
+    ]
+  },
   "com.android.overlay.systemui": {
     "appName": "com.android.overlay.systemui",
     "userFacing": false,
@@ -32449,6 +32741,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -32483,6 +32780,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Crosscall",
@@ -32774,6 +33076,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
@@ -32861,6 +33168,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
@@ -32913,6 +33225,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -33654,6 +33971,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -34170,6 +34492,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -34483,6 +34810,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -34548,6 +34880,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -35265,6 +35602,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -35396,6 +35738,11 @@
       {
         "make": "samsung",
         "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -35621,6 +35968,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -35691,6 +36043,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Google",
@@ -36490,6 +36847,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -36767,6 +37129,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "isafemobile",
@@ -37240,6 +37607,11 @@
       {
         "make": "samsung",
         "model": "SM-M315F",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -38339,6 +38711,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -38624,6 +39001,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -39261,6 +39643,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -39676,6 +40063,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -40650,6 +41042,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -40661,6 +41058,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
       {
         "make": "Lenovo",
         "model": "TB328FU",
@@ -40868,6 +41270,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
       {
         "make": "Lenovo",
         "model": "TB328FU",
@@ -43124,7 +43531,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "NetworkStackGoogleResOverlay"
+        "name": "NetworkStackOverlay"
       },
       {
         "locale": "it-it",
@@ -43220,6 +43627,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
@@ -43283,7 +43695,7 @@
       },
       {
         "locale": "ru-ru",
-        "name": "TetheringResOverlay"
+        "name": "TetheringConfigOverlay"
       },
       {
         "locale": "en-in",
@@ -43449,6 +43861,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -44410,6 +44827,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -44645,6 +45067,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -45018,6 +45445,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -45360,6 +45792,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -45833,6 +46270,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -45985,6 +46427,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "isafemobile",
@@ -47248,6 +47695,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -47613,6 +48065,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -48124,6 +48581,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -48498,6 +48960,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -48858,6 +49325,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -61292,6 +61764,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -61321,6 +61798,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -62383,6 +62865,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -62404,7 +62891,12 @@
   "com.unisoc.phone": {
     "appName": "com.unisoc.phone.UniTelephonyApp",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "LockAssistant"
+      }
+    ],
     "devices": [
       {
         "make": "HOTWAV",
@@ -62415,6 +62907,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -62468,6 +62965,18 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      }
+    ]
+  },
+  "com.wing.wtsarcontrol": {
+    "appName": "com.wing.wtsarcontrol",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -63126,7 +63635,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Дополнительный Диспетчер Устройств"
+        "name": "Управление подключенными устройствами"
       },
       {
         "locale": "es-es",
@@ -63473,6 +63982,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -64355,6 +64869,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -65422,6 +65941,10 @@
       {
         "locale": "sv-se",
         "name": "Kontakter"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Контакты"
       }
     ],
     "devices": [
@@ -65594,6 +66117,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -66237,6 +66765,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -67190,6 +67723,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -69094,6 +69632,18 @@
       }
     ]
   },
+  "com.android.overlay.default.browser": {
+    "appName": "default browser",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.app.camera.sticker.facear.preload": {
     "appName": "Default live sticker",
     "userFacing": false,
@@ -69116,7 +69666,7 @@
       },
       {
         "locale": "ru-ru",
-        "name": "Служба Печати по умолчанию"
+        "name": "Служба печати по умолчанию"
       },
       {
         "locale": "es-es",
@@ -69477,6 +70027,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -70106,12 +70661,22 @@
   "android.autoinstalls.config.oppo": {
     "appName": "Device configuration",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "PAIStub"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OPPO",
@@ -72693,6 +73258,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -72817,6 +73387,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -73554,6 +74129,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -74057,6 +74637,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -74216,7 +74801,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Загрузки"
+        "name": "Скачанное"
       },
       {
         "locale": "es-es",
@@ -74553,6 +75138,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -76269,6 +76859,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -76415,12 +77010,22 @@
   "com.coloros.activation": {
     "appName": "E-warranty card",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Электронная гарантия"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -77097,6 +77702,10 @@
       {
         "locale": "es-es",
         "name": "com.android.email.partnerprovider.ContextApplication"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "com.android.email.partnerprovider"
       }
     ],
     "devices": [
@@ -77124,6 +77733,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -77213,7 +77827,7 @@
       },
       {
         "locale": "ru-ru",
-        "name": "com.android.emergency"
+        "name": "Данные для экстренных случаев"
       },
       {
         "locale": "es-es",
@@ -77454,6 +78068,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -77943,6 +78562,18 @@
       }
     ]
   },
+  "com.preff.kb.op": {
+    "appName": "Emoji Keyboard",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      }
+    ]
+  },
   "com.google.android.apps.emojiwallpaper": {
     "appName": "Emoji Workshop Wallpaper",
     "userFacing": false,
@@ -78081,6 +78712,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -78275,6 +78911,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -78290,6 +78931,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -78302,6 +78948,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -79309,7 +79960,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Внешняя память"
+        "name": "Внешний накопитель"
       },
       {
         "locale": "es-es",
@@ -79668,6 +80319,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -81948,6 +82604,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -82338,6 +82999,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -84812,6 +85478,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -87409,6 +88080,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -87851,6 +88527,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -88375,6 +89056,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
@@ -88889,6 +89575,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -89178,6 +89869,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -89486,12 +90182,22 @@
   "com.oppo.quicksearchbox": {
     "appName": "Global Search",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Глобальный поиск"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -89841,6 +90547,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -90358,6 +91069,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -90818,6 +91534,10 @@
       {
         "locale": "fr-fr",
         "name": "Synchronisation de Google Contacts"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Синхронизация Контактов Google"
       }
     ],
     "devices": [
@@ -90909,6 +91629,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -91307,6 +92032,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -91793,6 +92523,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -92253,6 +92988,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -92973,6 +93713,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -93718,6 +94463,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -94171,6 +94921,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -94375,6 +95130,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -94762,6 +95522,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -97150,6 +97915,18 @@
       }
     ]
   },
+  "com.oplus.leftscreen": {
+    "appName": "Hi Assistant",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      }
+    ]
+  },
   "com.motorola.hiddenmenuapp": {
     "appName": "HiddenMenu",
     "userFacing": false,
@@ -98396,6 +99173,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -99885,6 +100667,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -100661,6 +101448,11 @@
         "os": "30"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
@@ -101072,6 +101864,10 @@
         "name": "Keep- anteckningar"
       },
       {
+        "locale": "ru-ru",
+        "name": "Заметки Google Keep"
+      },
+      {
         "locale": "en-za",
         "name": "Keep notes"
       }
@@ -101153,6 +101949,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -101207,7 +102008,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Брелок"
+        "name": "Менеджер ключей"
       },
       {
         "locale": "it-it",
@@ -101554,6 +102355,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -104629,7 +105435,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Каталог живых обоев"
+        "name": "Выбор живых обоев"
       },
       {
         "locale": "es-es",
@@ -104966,6 +105772,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -105533,12 +106344,22 @@
   "com.heytap.pictorial": {
     "appName": "Lock Screen Magazine",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обложка экрана блокировки"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OPPO",
@@ -106510,6 +107331,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -107425,6 +108251,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -107901,6 +108732,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -108942,6 +109778,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -109826,6 +110667,10 @@
       {
         "locale": "es-us",
         "name": "Mensajes"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Сообщения"
       }
     ],
     "devices": [
@@ -110075,6 +110920,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -110253,7 +111103,12 @@
   "com.facebook.system": {
     "appName": "Meta App Installer",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Facebook App Installer"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -110379,6 +111234,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -110440,7 +111300,12 @@
   "com.facebook.appmanager": {
     "appName": "Meta App Manager",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Facebook App Manager"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -110568,6 +111433,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -110627,7 +111497,12 @@
   "com.facebook.services": {
     "appName": "Meta Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Facebook Services"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -110748,6 +111623,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -111464,6 +112344,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -111874,6 +112759,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -114215,7 +115105,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Хост-система MTP"
+        "name": "MTP-хост"
       },
       {
         "locale": "es-es",
@@ -114565,6 +115455,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -115173,6 +116068,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
@@ -115481,12 +116381,22 @@
   "com.coloros.filemanager": {
     "appName": "My Files",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Мои файлы"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OPPO",
@@ -116715,6 +117625,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -117525,7 +118440,7 @@
       },
       {
         "locale": "ru-ru",
-        "name": "NetworkStackResOverlay"
+        "name": "NetworkStackOverlayGsi"
       },
       {
         "locale": "es-es",
@@ -117645,6 +118560,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -118148,6 +119068,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -119433,6 +120358,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -121883,6 +122813,18 @@
       }
     ]
   },
+  "com.oplus.multimedia.dirac": {
+    "appName": "OplusDiracService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      }
+    ]
+  },
   "com.coloros.exsystemservice": {
     "appName": "OplusExSystemService",
     "userFacing": false,
@@ -121915,6 +122857,11 @@
       {
         "make": "OnePlus",
         "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -122567,6 +123514,11 @@
         "os": "31"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -122958,6 +123910,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -123434,6 +124391,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -123600,12 +124562,7 @@
   "com.android.pacprocessor": {
     "appName": "PacProcessor",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "ru-ru",
-        "name": "Процессор Pac"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "samsung",
@@ -123926,6 +124883,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -125204,6 +126166,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -126576,6 +127543,10 @@
       {
         "locale": "sv-se",
         "name": "Telefon"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Телефон"
       }
     ],
     "devices": [
@@ -126698,6 +127669,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -126832,7 +127808,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Память номеров/SMS/MMS"
+        "name": "Память – звонки и SMS/MMS"
       },
       {
         "locale": "es-es",
@@ -127200,6 +128176,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -127355,7 +128336,7 @@
       },
       {
         "locale": "ru-ru",
-        "name": "Телефонные вызовы"
+        "name": "Телефонные звонки"
       },
       {
         "locale": "es-es",
@@ -127742,6 +128723,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -127886,8 +128872,18 @@
   "com.coloros.phonemanager": {
     "appName": "Phone Manager",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Диспетчер телефона"
+      }
+    ],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
       {
         "make": "OPPO",
         "model": "CPH2591",
@@ -127901,7 +128897,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Телефон"
+        "name": "Телефон – сервисы"
       },
       {
         "locale": "es-es",
@@ -128263,6 +129259,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -128707,6 +129708,10 @@
         "name": "Écrans de veille photos"
       },
       {
+        "locale": "ru-ru",
+        "name": "Заставки"
+      },
+      {
         "locale": "de-de",
         "name": "Foto-Bildschirmschoner"
       },
@@ -128860,6 +129865,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -129305,6 +130315,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -129717,6 +130732,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -129835,6 +130855,10 @@
       {
         "locale": "it-it",
         "name": "Memoria tipi di foto"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Хранилище фотографий"
       }
     ],
     "devices": [
@@ -129847,6 +130871,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -131205,6 +132234,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -131591,6 +132625,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -132095,6 +133134,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -133124,6 +134168,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -133664,6 +134713,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -135013,10 +136067,6 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "ru-ru",
-        "name": "com.android.launcher3"
-      },
-      {
         "locale": "de-de",
         "name": "Launcher3"
       }
@@ -135126,6 +136176,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "isafemobile",
@@ -137277,6 +138332,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -137657,6 +138717,18 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      }
+    ]
+  },
+  "com.factory.runintestii": {
+    "appName": "RunInTestII",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -146791,6 +147863,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -148913,6 +149990,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -149622,6 +150704,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -149854,7 +150941,7 @@
       },
       {
         "locale": "ru-ru",
-        "name": "Предложения Настроек"
+        "name": "Рекомендованные настройки"
       },
       {
         "locale": "es-es",
@@ -150148,6 +151235,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -150794,6 +151886,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -151186,6 +152283,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -151690,6 +152792,18 @@
       }
     ]
   },
+  "com.oplus.silentreboot": {
+    "appName": "SilentReboot",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      }
+    ]
+  },
   "com.samsung.android.simagent": {
     "appName": "Sim Agent",
     "userFacing": false,
@@ -151712,7 +152826,7 @@
       },
       {
         "locale": "ru-ru",
-        "name": "Диалог Sim Приложения"
+        "name": "Приложение для SIM-карты"
       },
       {
         "locale": "es-es",
@@ -152047,6 +153161,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -152487,7 +153606,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "SIM-Меню"
+        "name": "SIM-меню"
       },
       {
         "locale": "es-es",
@@ -152811,6 +153930,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -155783,12 +156907,22 @@
   "com.oppo.ota": {
     "appName": "Software update",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обновление программного обеспечения"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -156519,6 +157653,10 @@
       {
         "locale": "it-it",
         "name": "Registratore suoni"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Диктофон"
       }
     ],
     "devices": [
@@ -156586,6 +157724,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Crosscall",
@@ -156850,6 +157993,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -157510,6 +158658,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -157853,12 +159006,22 @@
   "com.coloros.bootreg": {
     "appName": "Startup Wizard",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Регистрироваться при запуске"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -157902,6 +159065,11 @@
       {
         "make": "OnePlus",
         "model": "HD1903",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -158142,7 +159310,7 @@
     "additionalLocales": [
       {
         "locale": "ru-ru",
-        "name": "Менеджер Памяти"
+        "name": "Менеджер хранилища"
       },
       {
         "locale": "nl-nl",
@@ -158437,6 +159605,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -159289,6 +160462,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -160242,6 +161420,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -161541,6 +162724,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -162040,6 +163228,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -162218,8 +163411,18 @@
   "com.android.wifi.unisoc.resources": {
     "appName": "System Unisoc WLAN Resources",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "System Unisoc Wi-Fi Resources"
+      }
+    ],
     "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
       {
         "make": "Lenovo",
         "model": "TB328FU",
@@ -162875,6 +164078,10 @@
         "name": "Ressources Wi-Fi du système"
       },
       {
+        "locale": "ru-ru",
+        "name": "Системные ресурсы Wi-Fi"
+      },
+      {
         "locale": "it-it",
         "name": "Risorse Wi-Fi sistema"
       },
@@ -163061,6 +164268,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -163809,6 +165021,10 @@
       {
         "locale": "sv-se",
         "name": "Etiketter"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Теги"
       }
     ],
     "devices": [
@@ -163986,6 +165202,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "motorola",
@@ -164542,6 +165763,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -165694,6 +166920,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -166099,6 +167330,10 @@
         "name": "TetheringConfigOverlayGsi"
       },
       {
+        "locale": "ru-ru",
+        "name": "TetheringConfigOverlayGsi"
+      },
+      {
         "locale": "es-es",
         "name": "com.android.networkstack.tethering.overlay"
       },
@@ -166181,6 +167416,11 @@
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
         "os": "31"
       },
       {
@@ -167773,6 +169013,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -168030,6 +169275,11 @@
         "os": "33"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -168099,12 +169349,22 @@
   "com.nearme.romupdate": {
     "appName": "Update Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Служба обновлений"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -168825,6 +170085,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -169084,12 +170349,22 @@
   "com.oppo.operationManual": {
     "appName": "User Guide",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Руководство пользователя"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
@@ -169207,6 +170482,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -170262,12 +171542,22 @@
   "com.coloros.video": {
     "appName": "Videos (System)",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Видео (система)"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OPPO",
@@ -171388,6 +172678,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -171796,6 +173091,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "isafemobile",
@@ -172816,6 +174116,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -173447,12 +174752,22 @@
   "com.coloros.weather2": {
     "appName": "Weather",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Погода"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OPPO",
@@ -173532,12 +174847,22 @@
   "com.coloros.weather.service": {
     "appName": "Weather Services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Прогноз погоды"
+      }
+    ],
     "devices": [
       {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "OnePlus",
@@ -174973,6 +176298,11 @@
         "os": "35"
       },
       {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
+      },
+      {
         "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
@@ -175778,6 +177108,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -176652,7 +177987,12 @@
   "com.sprd.logmanager": {
     "appName": "YLog",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обратная связь"
+      }
+    ],
     "devices": [
       {
         "make": "HOTWAV",
@@ -176663,6 +178003,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "Lenovo",
@@ -176990,6 +178335,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       },
       {
         "make": "samsung",
@@ -178040,6 +179390,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.realme.as.music": {
+    "appName": "Музыка",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX3627",
+        "os": "31"
       }
     ]
   },
