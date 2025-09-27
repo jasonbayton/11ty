@@ -109,6 +109,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -874,6 +879,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -1439,6 +1449,28 @@
       }
     ]
   },
+  "com.qualcomm.qti.gpudrivers.kona.api30": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "OnePlus",
+        "model": "KB2005",
+        "os": "34"
+      }
+    ]
+  },
   "com.qualcomm.qti.gpudrivers.pineapple.api34": {
     "appName": "Adreno Graphics Drivers",
     "userFacing": false,
@@ -1513,23 +1545,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "34"
-      }
-    ]
-  },
-  "com.qualcomm.qti.gpudrivers.kona.api30": {
-    "appName": "Adreno Graphics Drivers",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-T976B",
-        "os": "33"
-      },
-      {
-        "make": "OnePlus",
-        "model": "KB2005",
         "os": "34"
       }
     ]
@@ -2312,6 +2327,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -2433,6 +2453,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -2740,6 +2765,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -3225,6 +3255,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -3753,6 +3788,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -4264,6 +4304,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -4729,6 +4774,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -5231,6 +5281,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -5722,6 +5777,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -6278,6 +6338,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -6663,6 +6728,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -7056,6 +7126,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -7976,6 +8051,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -8008,6 +8088,18 @@
       }
     ]
   },
+  "android.miui.poco.launcher.res": {
+    "appName": "android.miui.poco.launcher.res",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      }
+    ]
+  },
   "android.overlay.bluetoothres": {
     "appName": "android.overlay.bluetoothres",
     "userFacing": false,
@@ -8034,6 +8126,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -8341,6 +8438,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -8402,6 +8504,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Crosscall",
         "model": "Stellar-X5",
@@ -9598,8 +9705,18 @@
   "com.mi.globalminusscreen": {
     "appName": "App vault",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Лента виджетов"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -11175,6 +11292,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.miui.audioeffect": {
+    "appName": "AudioEffect",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       }
     ]
   },
@@ -12858,8 +12987,18 @@
   "com.miui.backup": {
     "appName": "Backup",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Резервирование"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -13209,6 +13348,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -13624,8 +13768,18 @@
   "com.miui.powerkeeper": {
     "appName": "Battery and performance",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Питание и производительность"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -13928,11 +14082,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "MiuiBiometric"
+      },
+      {
         "locale": "en-in",
         "name": "MiuiBiometric"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -14705,6 +14868,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -15351,8 +15519,18 @@
   "com.xiaomi.bluetooth": {
     "appName": "Bluetooth Extension",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Расширение Bluetooth"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -15539,6 +15717,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -16003,6 +16186,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -16425,6 +16613,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -16519,6 +16712,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -17295,6 +17493,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -17346,6 +17549,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -18281,6 +18489,33 @@
       }
     ]
   },
+  "com.xiaomi.calendar": {
+    "appName": "Calendar",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Календарь"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.calendar": {
     "appName": "Calendar",
     "userFacing": true,
@@ -18300,23 +18535,6 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
-      }
-    ]
-  },
-  "com.xiaomi.calendar": {
-    "appName": "Calendar",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
       }
     ]
   },
@@ -18469,6 +18687,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -19299,6 +19522,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -19683,8 +19911,18 @@
   "com.android.server.telecom.overlay.miui": {
     "appName": "Call Management",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Управление звонками"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -20763,6 +21001,38 @@
       }
     ]
   },
+  "com.android.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Камера"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
   "com.oppo.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -20789,28 +21059,6 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
-      }
-    ]
-  },
-  "com.android.camera": {
-    "appName": "Camera",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
       }
     ]
   },
@@ -21234,6 +21482,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -21707,6 +21960,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
       }
@@ -21931,6 +22189,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -22627,6 +22890,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -23328,6 +23596,11 @@
         "os": "30"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
@@ -23888,6 +24161,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -24476,6 +24754,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -25038,6 +25321,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -25951,6 +26239,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
       }
@@ -26036,8 +26329,18 @@
   "com.miui.cleaner": {
     "appName": "Cleaner",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Очистка"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -26072,11 +26375,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Частые фразы"
+      },
+      {
         "locale": "en-in",
         "name": "Frequent phrases"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -26561,6 +26873,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Часы"
+      },
+      {
         "locale": "es-es",
         "name": "Reloj"
       }
@@ -26570,6 +26886,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -26901,8 +27222,18 @@
   "com.miui.cloudbackup": {
     "appName": "Cloud backup",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Облачное резервирование"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -27157,6 +27488,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -27470,6 +27806,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -27983,6 +28324,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -28069,6 +28415,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -28496,6 +28847,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -28552,6 +28908,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -28735,6 +29096,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -28999,6 +29365,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -29472,6 +29843,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -29942,6 +30318,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -30908,6 +31289,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
       }
@@ -30918,6 +31304,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -31026,6 +31417,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -31729,6 +32125,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -32135,6 +32536,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -32532,6 +32938,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -32552,6 +32963,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -32581,6 +32997,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -32603,6 +33024,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -32623,6 +33049,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -32693,6 +33124,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -33293,6 +33729,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -33369,6 +33810,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -33729,6 +34175,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34250,6 +34701,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -34904,6 +35360,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
@@ -35276,6 +35737,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "21091116UI",
@@ -35800,6 +36266,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -36166,6 +36637,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -36297,6 +36773,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -36442,6 +36923,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "21091116UI",
@@ -36605,6 +37091,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -37069,6 +37560,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -38138,6 +38634,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -38170,6 +38671,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -38319,6 +38825,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -38584,6 +39095,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -38842,6 +39358,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "21091116UI",
@@ -39403,6 +39924,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -39850,6 +40376,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -40225,6 +40756,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -40663,6 +41199,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -40815,6 +41356,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "LENOVO",
         "model": "TB352FU",
@@ -41075,6 +41621,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -41732,6 +42283,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -42012,6 +42568,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -42054,6 +42615,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -42458,6 +43024,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -43739,6 +44310,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -44308,6 +44884,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -44635,6 +45216,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -44969,6 +45555,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -45278,6 +45869,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -45612,6 +46208,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -45951,6 +46552,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -46929,6 +47535,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -47525,6 +48136,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -47880,6 +48496,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -48396,6 +49017,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -48775,6 +49401,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -49140,6 +49771,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -50195,6 +50831,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53761,6 +54402,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -53783,6 +54429,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
       }
@@ -53793,6 +54444,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -53834,6 +54490,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -53856,6 +54517,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -53871,11 +54537,28 @@
       }
     ]
   },
+  "com.miui.miwallpaper.wallpaperoverlay.config.overlay": {
+    "appName": "com.miui.miwallpaper.wallpaperoverlay.config.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      }
+    ]
+  },
   "com.miui.permissioncontroller.overlay": {
     "appName": "com.miui.permissioncontroller.overlay",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -53900,6 +54583,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -53920,6 +54608,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -53944,6 +54637,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -53964,6 +54662,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -53988,6 +54691,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
       }
@@ -53998,6 +54706,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -54034,6 +54747,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -54054,6 +54772,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -54078,6 +54801,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -54100,6 +54828,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -54120,6 +54853,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "21091116UI",
@@ -56079,6 +56817,11 @@
         "os": "31"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -56223,6 +56966,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -56298,6 +57046,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -56404,6 +57157,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -56474,6 +57232,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -56625,6 +57388,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -56682,6 +57450,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -56803,6 +57576,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -56878,6 +57656,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -57034,6 +57817,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -57275,6 +58063,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -57428,6 +58221,11 @@
         "os": "31"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -57525,6 +58323,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -57617,6 +58420,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -57707,6 +58515,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -57813,6 +58626,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -57883,6 +58701,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -58052,6 +58875,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -58107,6 +58935,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -62987,6 +63820,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
       }
@@ -63009,6 +63847,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -63744,6 +64587,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -64274,6 +65122,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -64634,6 +65487,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -65923,6 +66781,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Контакты"
+      },
+      {
         "locale": "es-es",
         "name": "Contactos"
       },
@@ -65941,10 +66803,6 @@
       {
         "locale": "sv-se",
         "name": "Kontakter"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "Контакты"
       }
     ],
     "devices": [
@@ -65982,6 +66840,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -66590,6 +67453,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -67503,6 +68371,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -69336,6 +70209,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -69787,6 +70665,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -70328,6 +71211,18 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      }
+    ]
+  },
+  "com.xiaomi.devauth": {
+    "appName": "devauth",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       }
     ]
   },
@@ -70911,6 +71806,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -71272,6 +72172,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -72321,6 +73226,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -72341,6 +73251,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -73096,6 +74011,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -73909,6 +74829,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -74395,6 +75320,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -74903,6 +75833,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -76639,6 +77574,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -77042,8 +77982,18 @@
   "com.miui.misound": {
     "appName": "Earphones",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Наушники"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -77353,11 +78303,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Редактор Активного экрана и экрана блокировки"
+      },
+      {
         "locale": "en-in",
         "name": "Always-on display and Lock screen editor"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -77908,6 +78867,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -80081,6 +81045,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -82074,23 +83043,21 @@
       }
     ]
   },
-  "com.coloros.logkit": {
-    "appName": "Feedback",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "realme",
-        "model": "RMX2001",
-        "os": "30"
-      }
-    ]
-  },
   "com.miui.bugreport": {
     "appName": "Feedback",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Отчет"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -82105,6 +83072,18 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      }
+    ]
+  },
+  "com.coloros.logkit": {
+    "appName": "Feedback",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
       }
     ]
   },
@@ -82189,6 +83168,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -82267,8 +83251,18 @@
   "com.mi.android.globalFileexplorer": {
     "appName": "File Manager",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Проводник"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -82397,6 +83391,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -84065,8 +85064,18 @@
   "com.xiaomi.finddevice": {
     "appName": "Find device",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Поиск устройства"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -84469,8 +85478,18 @@
   "com.miui.freeform": {
     "appName": "Floating windows",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Плавающие окна"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "21091116UI",
@@ -85238,6 +86257,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -87024,6 +88048,38 @@
       }
     ]
   },
+  "com.miui.gallery": {
+    "appName": "Gallery",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Галерея"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
   "org.codeaurora.gallery": {
     "appName": "Gallery",
     "userFacing": true,
@@ -87091,28 +88147,6 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
-      }
-    ]
-  },
-  "com.miui.gallery": {
-    "appName": "Gallery",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
       }
     ]
   },
@@ -87474,8 +88508,18 @@
   "com.xiaomi.glgm": {
     "appName": "Game Centre",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Игровой центр"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -87923,6 +88967,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -88403,6 +89452,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -88931,6 +89985,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -89355,6 +90414,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -89747,6 +90811,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -90093,6 +91162,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -90307,6 +91381,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -90839,6 +91918,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -91361,6 +92445,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -91817,6 +92906,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -92281,6 +93375,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -92748,6 +93847,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -93473,6 +94577,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -94223,6 +95332,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -94734,6 +95848,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -95282,6 +96401,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -96344,6 +97468,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -97673,6 +98802,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -98561,6 +99695,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -98933,6 +100072,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -99697,6 +100841,11 @@
     ],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
@@ -100427,6 +101576,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -100816,8 +101970,18 @@
   "com.miui.miinput": {
     "appName": "Input settings",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Настройки ввода"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "21091116UI",
@@ -100934,6 +102098,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "CipherLab",
@@ -101418,8 +102587,18 @@
   "com.milink.service": {
     "appName": "Interconnectivity services",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Службы взаимосвязанности"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -101755,6 +102934,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -102115,6 +103299,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -105554,6 +106743,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -106210,6 +107404,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -106380,6 +107579,28 @@
       }
     ]
   },
+  "com.bsp.catchlog": {
+    "appName": "Log generator",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Генератор журналов"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
   "com.bsp.logmanager": {
     "appName": "Log generator",
     "userFacing": false,
@@ -106394,18 +107615,6 @@
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
-      }
-    ]
-  },
-  "com.bsp.catchlog": {
-    "appName": "Log generator",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
       }
     ]
   },
@@ -107121,6 +108330,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -107528,6 +108742,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -107863,6 +109082,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "com.android.managedprovisioning.overlay"
+      },
+      {
         "locale": "en-in",
         "name": "com.android.managedprovisioning.overlay"
       }
@@ -107882,6 +109105,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Google",
@@ -108014,6 +109242,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -108492,6 +109725,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -108991,6 +110229,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -109576,6 +110819,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -110653,6 +111901,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Сообщения"
+      },
+      {
         "locale": "es-es",
         "name": "Mensajes"
       },
@@ -110667,10 +111919,6 @@
       {
         "locale": "es-us",
         "name": "Mensajes"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "Сообщения"
       }
     ],
     "devices": [
@@ -110728,6 +111976,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -111061,11 +112314,20 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Сообщения"
+      },
+      {
         "locale": "en-in",
         "name": "Messaging"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "realme",
         "model": "RMX2001",
@@ -111144,6 +112406,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -111343,6 +112610,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -111538,6 +112810,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -111872,8 +113149,18 @@
   "com.mi.globalbrowser": {
     "appName": "Mi Browser",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Mi Браузер"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -111891,6 +113178,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -111925,11 +113217,33 @@
       }
     ]
   },
+  "com.xiaomi.mircs": {
+    "appName": "Mi RCS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      }
+    ]
+  },
   "com.miui.videoplayer": {
     "appName": "Mi Video",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Mi Видео"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -111947,6 +113261,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -112163,6 +113482,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
       },
@@ -112252,6 +113576,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -112272,6 +113601,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -112524,6 +113858,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -114631,6 +115970,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -115215,6 +116559,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -115832,6 +117181,38 @@
       }
     ]
   },
+  "com.miui.player": {
+    "appName": "Music",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Музыка"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
   "com.heytap.music": {
     "appName": "Music",
     "userFacing": true,
@@ -115870,28 +117251,6 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
-      }
-    ]
-  },
-  "com.miui.player": {
-    "appName": "Music",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
       }
     ]
   },
@@ -117420,6 +118779,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -118483,6 +119847,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
@@ -118868,6 +120237,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -120060,8 +121434,18 @@
   "com.miui.notification": {
     "appName": "Notifications",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Уведомления"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -120143,6 +121527,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -121335,6 +122724,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -123233,6 +124627,11 @@
         "os": "31"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -123382,6 +124781,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -123843,6 +125247,11 @@
     ],
     "devices": [
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -124149,6 +125558,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -124544,6 +125958,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -124643,6 +126062,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -125733,6 +127157,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -125951,6 +127380,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -126530,8 +127964,18 @@
   "com.lbe.security.miui": {
     "appName": "Permissions",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Разрешения"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -126900,6 +128344,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -127525,6 +128974,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Телефон"
+      },
+      {
         "locale": "es-es",
         "name": "Teléfono"
       },
@@ -127543,10 +128996,6 @@
       {
         "locale": "sv-se",
         "name": "Telefon"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "Телефон"
       }
     ],
     "devices": [
@@ -127574,6 +129023,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "CUBOT",
@@ -127934,6 +129388,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -128488,6 +129947,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -129019,6 +130483,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -129692,6 +131161,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Заставки"
+      },
+      {
         "locale": "it-it",
         "name": "Screensaver fotografici"
       },
@@ -129706,10 +131179,6 @@
       {
         "locale": "fr-dz",
         "name": "Écrans de veille photos"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "Заставки"
       },
       {
         "locale": "de-de",
@@ -129755,6 +131224,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -130555,6 +132029,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -131878,6 +133357,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -131925,6 +133409,18 @@
       {
         "make": "Zebra Technologies",
         "model": "TC21",
+        "os": "33"
+      }
+    ]
+  },
+  "com.mi.android.globallauncher": {
+    "appName": "POCO Launcher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
         "os": "33"
       }
     ]
@@ -132167,6 +133663,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -132385,6 +133886,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -132896,6 +134402,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -133341,6 +134852,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -133811,8 +135327,18 @@
   "com.android.provision": {
     "appName": "Provision",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Начальная настройка"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -133926,6 +135452,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -134495,6 +136026,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -134928,6 +136464,11 @@
         "os": "35"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -135050,6 +136591,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -135366,6 +136912,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -135481,6 +137032,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -135549,8 +137105,18 @@
   "com.miui.touchassistant": {
     "appName": "Quick ball",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Сенсорный помощник"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "21091116UI",
@@ -137086,6 +138652,11 @@
         "os": "33"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
@@ -137722,6 +139293,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -138698,11 +140274,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Rueban(MTB)V6.6.20231111"
+      },
+      {
         "locale": "en-in",
         "name": "Rueban(MTB)V6.6.20231111"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -146293,6 +147878,38 @@
       }
     ]
   },
+  "com.miui.screenshot": {
+    "appName": "Screenshot",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Снимок экрана"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.screenshot": {
     "appName": "Screenshot",
     "userFacing": true,
@@ -146333,28 +147950,6 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
-      }
-    ]
-  },
-  "com.miui.screenshot": {
-    "appName": "Screenshot",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
       }
     ]
   },
@@ -147648,6 +149243,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -148053,8 +149653,18 @@
   "com.miui.securitycenter": {
     "appName": "Security",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Безопасность"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -148594,6 +150204,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -149572,8 +151187,18 @@
   "com.miui.miservice": {
     "appName": "Services & feedback",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обратная связь"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -149748,6 +151373,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -150168,6 +151798,38 @@
       }
     ]
   },
+  "com.xiaomi.misettings": {
+    "appName": "Settings",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Настройки"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
   "com.sonyericsson.settings": {
     "appName": "Settings",
     "userFacing": false,
@@ -150209,28 +151871,6 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
-      }
-    ]
-  },
-  "com.xiaomi.misettings": {
-    "appName": "Settings",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
       }
     ]
   },
@@ -150462,6 +152102,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -151035,6 +152680,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -151926,6 +153576,18 @@
       }
     ]
   },
+  "com.xiaomi.midrop": {
+    "appName": "ShareMe",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.docs.editors.sheets": {
     "appName": "Sheets",
     "userFacing": true,
@@ -152043,6 +153705,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -152953,6 +154620,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -153735,6 +155407,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -155917,6 +157594,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -157165,6 +158847,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "SoterService"
+      },
+      {
         "locale": "en-gb",
         "name": "SoterService"
       },
@@ -157182,6 +158868,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
@@ -157647,16 +159338,16 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Диктофон"
+      },
+      {
         "locale": "es-es",
         "name": "Grabadora de sonidos"
       },
       {
         "locale": "it-it",
         "name": "Registratore suoni"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "Диктофон"
       }
     ],
     "devices": [
@@ -157674,6 +159365,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -157843,6 +159539,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -158421,6 +160122,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -159407,6 +161113,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -160264,6 +161975,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -161041,8 +162757,18 @@
   "com.xiaomi.discover": {
     "appName": "System apps updater",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обновление компонентов"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -161225,6 +162951,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -161590,11 +163321,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "MIUI Daemon"
+      },
+      {
         "locale": "en-in",
         "name": "MIUI Daemon"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -161617,11 +163357,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Ядро системы безопасности"
+      },
+      {
         "locale": "en-in",
         "name": "Security Core Component"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -161980,6 +163729,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -162269,8 +164023,18 @@
   "com.miui.core": {
     "appName": "System SDK",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Системный SDK"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -162291,8 +164055,18 @@
   "com.miui.guardprovider": {
     "appName": "System security components",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Компоненты безопасности системы"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -162345,8 +164119,18 @@
   "com.miui.securityadd": {
     "appName": "System service plugin",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Плагин системной службы"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -162497,6 +164281,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -162988,6 +164777,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -163377,8 +165171,18 @@
   "miui.systemui.plugin": {
     "appName": "System UI Plug-in",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Плагин пользовательского интерфейса системы"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -164034,6 +165838,10 @@
         "name": "System Wi-Fi resources"
       },
       {
+        "locale": "ru-ru",
+        "name": "Системные ресурсы Wi-Fi"
+      },
+      {
         "locale": "en-au",
         "name": "System Wi-Fi resources"
       },
@@ -164076,10 +165884,6 @@
       {
         "locale": "fr-fr",
         "name": "Ressources Wi-Fi du système"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "Системные ресурсы Wi-Fi"
       },
       {
         "locale": "it-it",
@@ -164139,6 +165943,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -164866,6 +166675,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -165543,6 +167357,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -166720,6 +168539,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -167458,7 +169282,12 @@
   "com.android.networkstack.tethering.inprocess.overlay": {
     "appName": "TetheringResOverlay",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "com.android.networkstack.tethering.inprocess.overlay"
+      }
+    ],
     "devices": [
       {
         "make": "Blackview",
@@ -167469,6 +169298,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "CUBOT",
@@ -167651,6 +169485,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -167793,6 +169632,38 @@
       }
     ]
   },
+  "com.android.thememanager": {
+    "appName": "Themes",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Темы"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
   "com.zui.theme.settings": {
     "appName": "Themes",
     "userFacing": false,
@@ -167812,28 +169683,6 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
-      }
-    ]
-  },
-  "com.android.thememanager": {
-    "appName": "Themes",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
       }
     ]
   },
@@ -169057,6 +170906,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -169403,8 +171257,18 @@
   "com.android.updater": {
     "appName": "Updater",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обновление"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -169532,6 +171396,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -169843,6 +171712,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -170750,6 +172624,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -170815,6 +172694,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -170907,6 +172791,11 @@
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -171943,11 +173832,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Помощник записи"
+      },
+      {
         "locale": "en-in",
         "name": "Recording assistant"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -172436,6 +174334,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -173896,6 +175799,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -175031,6 +176939,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -176098,6 +178011,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -176870,6 +178788,11 @@
         "os": "34"
       },
       {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
@@ -177493,8 +179416,18 @@
   "com.xiaomi.account": {
     "appName": "Xiaomi Account",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Аккаунт Xiaomi"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -177519,6 +179452,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -177539,11 +179477,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Mi AI Engine"
+      },
+      {
         "locale": "en-in",
         "name": "Mi AI Engine"
       }
     ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -177564,8 +179511,18 @@
   "com.xiaomi.xmsf": {
     "appName": "Xiaomi service framework",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Xiaomi Service Framework"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -177590,6 +179547,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
       },
@@ -177612,6 +179574,11 @@
     "devices": [
       {
         "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
       }
@@ -177620,8 +179587,18 @@
   "com.xiaomi.simactivate.service": {
     "appName": "Xiaomi SIM Activation Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Сервис активации Xiaomi SIM"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -177723,6 +179700,11 @@
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "Crosscall",
@@ -177876,8 +179858,18 @@
   "com.miui.yellowpage": {
     "appName": "Yellow pages",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Справочник"
+      }
+    ],
     "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
@@ -178095,6 +180087,11 @@
         "make": "samsung",
         "model": "SM-A135F",
         "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -179213,6 +181210,18 @@
       }
     ]
   },
+  "com.miui.notes": {
+    "appName": "Заметки",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      }
+    ]
+  },
   "com.transsion.screenrecorder": {
     "appName": "Запись экрана",
     "userFacing": false,
@@ -179222,6 +181231,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.miui.screenrecorder": {
+    "appName": "Запись экрана",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       }
     ]
   },
@@ -179297,6 +181318,18 @@
       }
     ]
   },
+  "com.miui.calculator": {
+    "appName": "Калькулятор",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      }
+    ]
+  },
   "com.transsion.camera": {
     "appName": "Камера",
     "userFacing": true,
@@ -179342,6 +181375,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.miui.compass": {
+    "appName": "Компас",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       }
     ]
   },
@@ -179501,6 +181546,18 @@
       }
     ]
   },
+  "com.miui.weather2": {
+    "appName": "Погода",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      }
+    ]
+  },
   "com.transsion.faceid": {
     "appName": "Разблокировка по лицу",
     "userFacing": false,
@@ -179522,6 +181579,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.xiaomi.scanner": {
+    "appName": "Сканер",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
       }
     ]
   },
