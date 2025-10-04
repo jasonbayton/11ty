@@ -110566,6 +110566,10 @@
       {
         "locale": "en-de",
         "name": "Live effects"
+      },
+      {
+        "locale": "en-ca-u-fw-mon-mu-celsius",
+        "name": "Live effects"
       }
     ],
     "devices": [
@@ -136010,6 +136014,10 @@
       {
         "locale": "en-de",
         "name": "com.google.android.apps.pixel.creativeassistant"
+      },
+      {
+        "locale": "en-ca-u-fw-mon-mu-celsius",
+        "name": "com.google.android.apps.pixel.creativeassistant"
       }
     ],
     "devices": [
@@ -136174,6 +136182,10 @@
       },
       {
         "locale": "en-de",
+        "name": "My Pixel"
+      },
+      {
+        "locale": "en-ca-u-fw-mon-mu-celsius",
         "name": "My Pixel"
       }
     ],
@@ -160774,6 +160786,10 @@
       {
         "locale": "en-de",
         "name": "Storage Manager"
+      },
+      {
+        "locale": "en-ca-u-fw-mon-mu-celsius",
+        "name": "Storage Manager"
       }
     ],
     "devices": [
@@ -179028,6 +179044,10 @@
       },
       {
         "locale": "en-de",
+        "name": "Wallpaper and style"
+      },
+      {
+        "locale": "en-ca-u-fw-mon-mu-celsius",
         "name": "Wallpaper and style"
       }
     ],
