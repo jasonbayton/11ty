@@ -434,6 +434,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -731,6 +736,28 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.microintelligence": {
+    "appName": "Actions and Gestures",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Действия и жесты"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -1690,6 +1717,28 @@
       }
     ]
   },
+  "com.transsion.agingfunction": {
+    "appName": "AgingFunction",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Функция старения"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.nuumobile.agingtest": {
     "appName": "AgingTest",
     "userFacing": false,
@@ -1714,6 +1763,18 @@
       }
     ]
   },
+  "net.bat.store": {
+    "appName": "AHA Games",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.aiqi.dazhiai": {
     "appName": "AI Album",
     "userFacing": false,
@@ -1723,6 +1784,28 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.gallery20": {
+    "appName": "AI Gallery",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Галерея AI"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -2725,6 +2808,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -3657,6 +3745,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -4203,6 +4296,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -4729,6 +4827,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -5214,6 +5317,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -5709,6 +5817,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -6241,6 +6354,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -7214,6 +7332,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -7732,6 +7855,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -9891,6 +10019,28 @@
       }
     ]
   },
+  "com.transsion.plat.appupdate": {
+    "appName": "App Update",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обновление приложений"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.mi.globalminusscreen": {
     "appName": "App vault",
     "userFacing": true,
@@ -10179,6 +10329,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -13954,6 +14109,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -15527,6 +15687,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -16388,6 +16553,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -16873,6 +17043,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -17411,6 +17586,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -18385,6 +18565,28 @@
       }
     ]
   },
+  "com.transsion.calculator": {
+    "appName": "Calculator",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Калькулятор"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.coloros.calculator": {
     "appName": "Calculator",
     "userFacing": true,
@@ -18715,6 +18917,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -19416,6 +19623,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -20266,6 +20478,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -20340,6 +20557,72 @@
       {
         "make": "Xiaomi",
         "model": "21091116UI",
+        "os": "33"
+      }
+    ]
+  },
+  "com.mediatek.callrecorder": {
+    "appName": "Call Recorder",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "com.mediatek.callrecorder"
+      },
+      {
+        "locale": "",
+        "name": "com.mediatek.callrecorder"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "YUMPINGO_1",
+        "os": "28"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
         "os": "33"
       }
     ]
@@ -21430,6 +21713,28 @@
       }
     ]
   },
+  "com.transsion.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Камера"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -22223,6 +22528,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -22996,6 +23306,18 @@
       }
     ]
   },
+  "com.google.android.go.captiveportallogin": {
+    "appName": "Captive Portal Login",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.captiveportallogin": {
     "appName": "CaptivePortalLogin",
     "userFacing": false,
@@ -23148,6 +23470,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -23664,6 +23991,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -24967,6 +25299,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -25622,6 +25959,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -26201,6 +26543,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -26255,6 +26602,18 @@
       {
         "make": "Google",
         "model": "brya",
+        "os": "33"
+      }
+    ]
+  },
+  "com.transsion.chromecustomization": {
+    "appName": "Chrome Assistant",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
         "os": "33"
       }
     ]
@@ -27627,6 +27986,28 @@
       }
     ]
   },
+  "com.transsion.deskclock": {
+    "appName": "Clock",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Часы"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.coloros.alarmclock": {
     "appName": "Clock",
     "userFacing": true,
@@ -28721,6 +29102,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -29298,6 +29684,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -30796,6 +31187,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -31281,6 +31677,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -31884,6 +32285,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -32365,6 +32771,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -33028,6 +33439,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -33105,6 +33521,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -33502,6 +33923,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -35215,6 +35641,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -35756,6 +36187,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -36007,6 +36443,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "Lenovo",
@@ -37299,6 +37740,18 @@
       }
     ]
   },
+  "com.android.settings.os.overlay": {
+    "appName": "com.android.settings.os.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.settings.overlay": {
     "appName": "com.android.settings.overlay",
     "userFacing": false,
@@ -37687,6 +38140,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -38189,6 +38647,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -39480,6 +39943,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -41072,6 +41540,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -41489,6 +41962,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -41726,6 +42204,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -41876,6 +42359,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -41998,6 +42486,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -42579,6 +43072,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -42649,6 +43147,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -42892,6 +43395,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -43391,6 +43899,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -44149,6 +44662,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -45390,6 +45908,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -46428,6 +46951,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -46757,6 +47285,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -47051,6 +47584,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -47096,6 +47634,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -47624,6 +48167,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -47941,6 +48489,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -49401,6 +49954,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -49786,6 +50344,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -50327,6 +50890,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -50377,6 +50945,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -50719,6 +51292,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -51101,6 +51679,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -52151,6 +52734,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -53888,6 +54476,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -54193,6 +54786,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -54307,6 +54905,11 @@
         "os": "28"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -54315,63 +54918,6 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
-      }
-    ]
-  },
-  "com.mediatek.callrecorder": {
-    "appName": "com.mediatek.callrecorder",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-in",
-        "name": "Call Recorder"
-      }
-    ],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "Sony",
-        "model": "I3312",
-        "os": "27"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-7306F",
-        "os": "30"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      },
-      {
-        "make": "LENOVO",
-        "model": "TB570FU",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
-      },
-      {
-        "make": "SMT_HK",
-        "model": "YUMPINGO_1",
-        "os": "28"
       }
     ]
   },
@@ -54451,6 +54997,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -54601,6 +55152,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -54698,6 +55254,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -54783,6 +55344,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -54918,6 +55484,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -55032,6 +55603,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -55067,6 +55643,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -55205,6 +55786,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -55290,6 +55876,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -64937,6 +65528,23 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_a79": {
+    "appName": "com.theme.icondefaultshape_a79",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -64952,6 +65560,18 @@
       }
     ]
   },
+  "com.theme.icondefaultshape_b86": {
+    "appName": "com.theme.icondefaultshape_b86",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.theme.icondefaultshape_color": {
     "appName": "com.theme.icondefaultshape_color",
     "userFacing": false,
@@ -64964,6 +65584,30 @@
       }
     ]
   },
+  "com.theme.icondefaultshape_colorfulcrystals": {
+    "appName": "com.theme.icondefaultshape_colorfulcrystals",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_d47": {
+    "appName": "com.theme.icondefaultshape_d47",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.theme.icondefaultshape_e23": {
     "appName": "com.theme.icondefaultshape_e23",
     "userFacing": false,
@@ -64973,6 +65617,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.theme.icondefaultshape_h36": {
+    "appName": "com.theme.icondefaultshape_h36",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -65091,6 +65747,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -65139,6 +65800,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -65163,6 +65829,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -65175,6 +65846,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -66481,6 +67157,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -67398,6 +68079,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -67991,6 +68677,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -69318,6 +70009,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -70334,6 +71030,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -72130,6 +72831,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -72698,6 +73404,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -73761,6 +74472,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -76035,6 +76751,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -76961,6 +77682,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -77489,6 +78215,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -78005,6 +78736,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -78603,6 +79339,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -79031,6 +79772,28 @@
       }
     ]
   },
+  "com.transsion.dtsaudio": {
+    "appName": "DTS Sound",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Технология DTS"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.dts.dtsxultra": {
     "appName": "DTS:X Ultra",
     "userFacing": false,
@@ -79345,18 +80108,6 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
-      }
-    ]
-  },
-  "com.transsion.dynamicbar": {
-    "appName": "Dynamic Bar",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
       }
     ]
   },
@@ -79766,6 +80517,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -79853,6 +80609,28 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.repaircard": {
+    "appName": "E-warranty Card",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Электронный гарантийный талон"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -80991,6 +81769,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -81758,6 +82541,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -83351,6 +84139,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -83909,6 +84702,28 @@
       }
     ]
   },
+  "com.transsion.faceid": {
+    "appName": "Face Unlock",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Разблокировка по лицу"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oneplus.faceunlock": {
     "appName": "Face Unlock",
     "userFacing": false,
@@ -84271,6 +85086,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.transsion.odm.apeftm": {
+    "appName": "Factory",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -85032,18 +85859,6 @@
       }
     ]
   },
-  "com.idea.questionnaire": {
-    "appName": "Feedback",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.miui.bugreport": {
     "appName": "Feedback",
     "userFacing": false,
@@ -85246,6 +86061,28 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      }
+    ]
+  },
+  "com.transsion.filemanagerx": {
+    "appName": "File Manager",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Диспетчер файлов"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -85846,6 +86683,18 @@
       }
     ]
   },
+  "com.google.android.go.documentsui": {
+    "appName": "Files",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.nbu.files": {
     "appName": "Files by Google",
     "userFacing": true,
@@ -86064,6 +86913,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -87355,6 +88209,11 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -87389,6 +88248,28 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      }
+    ]
+  },
+  "com.silead.factorytest": {
+    "appName": "Fingerprint Test",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "指纹测试"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -87821,6 +88702,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -88673,6 +89559,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -90268,6 +91159,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -91340,6 +92236,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -91530,6 +92431,18 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      }
+    ]
+  },
+  "com.skyroam.silverhelper": {
+    "appName": "GENIEX Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -91793,6 +92706,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "Lenovo",
@@ -92334,6 +93252,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "Lenovo",
@@ -92905,6 +93828,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -93175,6 +94103,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "Lenovo",
@@ -93909,6 +94842,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -94531,6 +95469,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -94967,6 +95910,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -95437,6 +96385,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -95958,6 +96911,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -96438,6 +97396,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -97178,6 +98141,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -97953,6 +98921,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -98414,6 +99387,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -99042,6 +100020,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -101995,6 +102978,18 @@
       }
     ]
   },
+  "com.talpa.hibrowser": {
+    "appName": "Hola Browser",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.google.android.apps.chromecast.app": {
     "appName": "Home",
     "userFacing": true,
@@ -102798,6 +103793,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -103836,6 +104836,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -104341,6 +105346,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -104628,6 +105638,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "RHINO",
@@ -106099,6 +107114,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -109924,6 +110944,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -110424,6 +111449,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -110592,6 +111622,28 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.transsion.dynamicbar": {
+    "appName": "Magic Ring",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Dynamic Bar"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -111631,6 +112683,18 @@
       }
     ]
   },
+  "com.google.mainline.go.primary": {
+    "appName": "Main components",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.coloros.notificationmanager": {
     "appName": "Manage notifications",
     "userFacing": false,
@@ -111753,6 +112817,28 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.transsion.manualguide": {
+    "appName": "Manual Guide",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Руководство пользователя"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -112180,6 +113266,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -112688,6 +113779,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -113754,6 +114850,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -114345,6 +115446,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -114921,6 +116027,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -115216,6 +116327,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -115423,6 +116539,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
@@ -115623,6 +116744,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -116239,6 +117365,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -116888,6 +118019,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -116970,6 +118106,28 @@
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
+      }
+    ]
+  },
+  "com.transsion.letswitch": {
+    "appName": "Mobile Cloner",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Клонирование телефона"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -119018,6 +120176,11 @@
         "os": "31"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -119764,6 +120927,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -120318,6 +121486,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -121494,6 +122667,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -122096,6 +123274,18 @@
       }
     ]
   },
+  "com.google.android.go.networkstack": {
+    "appName": "Network manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.hihonor.carrierlocation": {
     "appName": "Network Provider Location Services",
     "userFacing": false,
@@ -122441,6 +123631,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -122471,6 +123666,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -122566,6 +123766,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
       {
         "make": "ALCommon",
         "model": "ALCommon",
@@ -122944,6 +124149,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -123768,6 +124978,28 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.transsion.notebook": {
+    "appName": "Notepad",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Блокнот"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -124786,6 +126018,11 @@
       {
         "make": "Fairphone",
         "model": "FP4",
+        "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
         "os": "33"
       },
       {
@@ -126759,6 +127996,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -127742,6 +128984,28 @@
       }
     ]
   },
+  "com.transsion.ossettingsext": {
+    "appName": "OSSettings",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Звонки"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.hotspot2.osulogin": {
     "appName": "OsuLogin",
     "userFacing": false,
@@ -127991,6 +129255,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -128935,6 +130204,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -129449,6 +130723,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -129573,6 +130852,18 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      }
+    ]
+  },
+  "com.transsnet.store": {
+    "appName": "Palm Store",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -130772,6 +132063,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -131581,6 +132877,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -132352,6 +133653,28 @@
       }
     ]
   },
+  "com.sh.smart.caller": {
+    "appName": "Phone",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Телефон"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "org.codeaurora.dialer": {
     "appName": "Phone",
     "userFacing": true,
@@ -132867,6 +134190,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -133431,6 +134759,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -133496,6 +134829,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.phonemaster": {
+    "appName": "Phone Master",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -133988,6 +135333,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -134055,6 +135405,18 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      }
+    ]
+  },
+  "com.transsion.phonemanager": {
+    "appName": "PhoneMaster Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -135484,6 +136846,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -136553,6 +137920,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -136819,6 +138191,28 @@
       }
     ]
   },
+  "com.transsion.batterylab": {
+    "appName": "Power Marathon",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Экономия заряда аккумулятора и энергопотребления"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.oppo.oppopowermonitor": {
     "appName": "Power monitor",
     "userFacing": false,
@@ -136860,6 +138254,18 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.powerdata": {
+    "appName": "PowerData",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -137459,6 +138865,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -137981,6 +139392,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -139053,6 +140469,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -140378,6 +141799,28 @@
       }
     ]
   },
+  "com.idea.questionnaire": {
+    "appName": "Questionnaire",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Feedback"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.miui.touchassistant": {
     "appName": "Quick ball",
     "userFacing": false,
@@ -141062,6 +142505,11 @@
       {
         "make": "Fairphone",
         "model": "FP4",
+        "os": "33"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
         "os": "33"
       },
       {
@@ -142772,6 +144220,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -144011,6 +145464,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -151215,12 +152673,16 @@
     ]
   },
   "com.mediatek.schpwronoff": {
-    "appName": "Schedule power on & off",
+    "appName": "Scheduled power on/off and restart",
     "userFacing": false,
     "additionalLocales": [
       {
         "locale": "ru-ru",
         "name": "Включение/выключение по расписанию и перезагрузка"
+      },
+      {
+        "locale": "",
+        "name": "Schedule power on & off"
       }
     ],
     "devices": [
@@ -151233,6 +152695,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -153272,6 +154739,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -153428,6 +154900,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -153799,6 +155276,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -155419,6 +156901,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -156172,6 +157659,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -156713,6 +158205,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -157815,6 +159312,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -158724,6 +160226,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -159503,6 +161010,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -159806,6 +161318,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -160707,6 +162224,28 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      }
+    ]
+  },
+  "com.transsion.scanningrecharger": {
+    "appName": "Smart Scanner",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Умное сканирование"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -163356,6 +164895,28 @@
       }
     ]
   },
+  "com.transsion.soundrecorder": {
+    "appName": "Sound Recorder",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Диктофон"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.tblenovo.soundrecorder": {
     "appName": "Sound Recorder",
     "userFacing": true,
@@ -163647,6 +165208,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -164395,6 +165961,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -165351,6 +166922,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -166279,6 +167855,18 @@
       }
     ]
   },
+  "com.google.mainline.go.telemetry": {
+    "appName": "Support components",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.sec.android.gallery3d.panorama360view": {
     "appName": "Surround shot",
     "userFacing": false,
@@ -166729,6 +168317,18 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      }
+    ]
+  },
+  "com.transsion.guideservice": {
+    "appName": "System",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -167229,6 +168829,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -167982,6 +169587,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -168620,6 +170230,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -169144,6 +170759,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -169253,6 +170873,28 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.transsion.systemupdate": {
+    "appName": "System update",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Обновление системы"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -169716,6 +171358,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -170175,6 +171822,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "samsung",
@@ -171751,6 +173403,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -172420,6 +174077,11 @@
         "os": "35"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -172457,6 +174119,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -172936,6 +174603,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -173375,6 +175047,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -173475,6 +175152,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -173860,6 +175542,18 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.transsion.odm.productInfo": {
+    "appName": "TinnoProductInfo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -174270,6 +175964,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -174306,6 +176005,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -174318,6 +176022,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -174342,6 +176051,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -174378,6 +176092,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -174769,6 +176488,18 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      }
+    ]
+  },
+  "com.transsion.system.navigation": {
+    "appName": "TranSystemNavigation",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -176201,6 +177932,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -176481,6 +178217,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -177736,6 +179477,18 @@
       }
     ]
   },
+  "com.transsion.magicshow": {
+    "appName": "Visha Player",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
   "com.samsung.visionprovider": {
     "appName": "VisionProvider",
     "userFacing": false,
@@ -178903,6 +180656,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -179736,6 +181494,11 @@
         "os": "33"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -180360,6 +182123,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -180920,6 +182688,28 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.rlk.weathers": {
+    "appName": "Weather",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Погода"
+      }
+    ],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -182603,6 +184393,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -183450,6 +185245,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -183553,6 +185353,23 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      }
+    ]
+  },
+  "com.funbase.xradio": {
+    "appName": "WOW FM",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -183715,6 +185532,18 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      }
+    ]
+  },
+  "com.trassion.infinix.xclub": {
+    "appName": "XClub",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -183942,6 +185771,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       }
     ]
   },
@@ -184295,6 +186129,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "RHINO",
@@ -184761,6 +186600,11 @@
         "os": "34"
       },
       {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -185041,6 +186885,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
       },
       {
         "make": "ALCommon",
@@ -185425,18 +187274,6 @@
       }
     ]
   },
-  "com.transsion.notebook": {
-    "appName": "Блокнот",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.transsion.quicktools": {
     "appName": "Быстрая блокировка",
     "userFacing": false,
@@ -185473,57 +187310,9 @@
       }
     ]
   },
-  "com.gallery20": {
-    "appName": "Галерея AI",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.microintelligence": {
-    "appName": "Действия и жесты",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.transsion.childmode": {
     "appName": "Детский режим",
     "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.soundrecorder": {
-    "appName": "Диктофон",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.filemanagerx": {
-    "appName": "Диспетчер файлов",
-    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -185605,18 +187394,6 @@
       }
     ]
   },
-  "com.transsion.ossettingsext": {
-    "appName": "Звонки",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.transsion.irremote": {
     "appName": "ИК-пульт дистанционного управления",
     "userFacing": false,
@@ -185653,18 +187430,6 @@
       }
     ]
   },
-  "com.transsion.calculator": {
-    "appName": "Калькулятор",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.miui.calculator": {
     "appName": "Калькулятор",
     "userFacing": true,
@@ -185677,32 +187442,8 @@
       }
     ]
   },
-  "com.transsion.camera": {
-    "appName": "Камера",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.transsion.dualapp": {
     "appName": "Клонирование приложений",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.letswitch": {
-    "appName": "Клонирование телефона",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -185821,30 +187562,6 @@
       }
     ]
   },
-  "com.transsion.plat.appupdate": {
-    "appName": "Обновление приложений",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.systemupdate": {
-    "appName": "Обновление системы",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.transsion.keyguardtheme": {
     "appName": "Обои",
     "userFacing": false,
@@ -185881,18 +187598,6 @@
       }
     ]
   },
-  "com.rlk.weathers": {
-    "appName": "Погода",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.miui.weather2": {
     "appName": "Погода",
     "userFacing": true,
@@ -185902,30 +187607,6 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
-      }
-    ]
-  },
-  "com.transsion.faceid": {
-    "appName": "Разблокировка по лицу",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.manualguide": {
-    "appName": "Руководство пользователя",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
       }
     ]
   },
@@ -185977,69 +187658,9 @@
       }
     ]
   },
-  "com.sh.smart.caller": {
-    "appName": "Телефон",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.dtsaudio": {
-    "appName": "Технология DTS",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.scanningrecharger": {
-    "appName": "Умное сканирование",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.transsion.mediapipefilters": {
     "appName": "Устройство для изменения фона",
     "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.agingfunction": {
-    "appName": "Функция старения",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.deskclock": {
-    "appName": "Часы",
-    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -186061,32 +187682,8 @@
       }
     ]
   },
-  "com.transsion.batterylab": {
-    "appName": "Экономия заряда аккумулятора и энергопотребления",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
   "com.transsion.magazineservice.xos": {
     "appName": "Экран блокировки с динамическими обоями",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      }
-    ]
-  },
-  "com.transsion.repaircard": {
-    "appName": "Электронный гарантийный талон",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -186154,18 +187751,6 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
-      }
-    ]
-  },
-  "com.silead.factorytest": {
-    "appName": "指纹测试",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
       }
     ]
   },
