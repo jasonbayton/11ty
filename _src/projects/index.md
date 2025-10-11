@@ -63,7 +63,7 @@ MANAGED INFO & Kiosk is a flexible kiosk launcher, support tool, and device comp
 
 It adapts to whatever role your fleet needs - from a full home-screen replacement with infinitely-customisable layouts that anchors kiosk deployments, to a lightweight device overview/support tool that keeps essential information and contact details within easy reach. 
 
-In addition, MANAGED INFO & Kiosk builds in deep, config-driven MDM companion integration, such as APK deployment capabilities, location tracking services, Device Trust from Android Enterprise, and more.. it surfaces tailored support, status, and actions right where administrators and users expect them.
+In addition, MANAGED INFO & Kiosk builds in deep, config-driven MDM companion integration, such as APK deployment capabilities, location tracking services, Device Trust from Android Enterprise, and more through AMAPI SDK integration.. it surfaces tailored support, status, and actions right where administrators and users expect them.
 
 <a class="button" href="/projects/splash/mi">Check it out</a>
 
