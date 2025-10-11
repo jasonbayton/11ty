@@ -1,1 +1,1 @@
-Don't become a statistic: Offering training & consultancy on mobility strategy, product selection & validation, implementation, deployment, GMS certification, product support, and more, I help organisations around the world succeed with Android in enterprise.
+Don't become a statistic: I help organisations around the world succeed with Android in enterprise through training & consultancy, mobility strategy, product selection & validation, implementation, deployment, GMS certification, product support, and [more](/support).
