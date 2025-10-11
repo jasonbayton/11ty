@@ -419,6 +419,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -1168,6 +1173,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -1960,6 +1970,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.tcl.ai.ability": {
+    "appName": "AIAbility",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -2793,6 +2815,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -3152,6 +3179,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -3730,6 +3762,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -4281,6 +4318,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -4812,6 +4854,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -5301,6 +5348,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -5801,6 +5853,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -6341,6 +6398,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -6840,6 +6902,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -7314,6 +7381,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -8859,6 +8931,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -8881,6 +8958,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -8898,6 +8980,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -8932,6 +9019,18 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      }
+    ]
+  },
+  "android.tct_googlefiles.overlay": {
+    "appName": "android.tct_googlefiles.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -9306,6 +9405,18 @@
       }
     ]
   },
+  "com.tcl.apnhotfix": {
+    "appName": "ApnHotfixLib",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.vzw.apnlib": {
     "appName": "apnlib",
     "userFacing": false,
@@ -9443,6 +9554,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -9506,6 +9622,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       }
     ]
@@ -9809,6 +9930,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -10091,6 +10217,33 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.aura.oobe.vodafone": {
+    "appName": "AppBox",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Xiaomi",
+        "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       }
     ]
@@ -11087,6 +11240,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -11434,6 +11592,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -11543,6 +11706,11 @@
       {
         "make": "Nothing",
         "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -14094,6 +14262,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -14335,6 +14508,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -15672,6 +15850,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -16538,6 +16721,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -17030,6 +17218,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -17149,6 +17342,18 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      }
+    ]
+  },
+  "com.tct.book": {
+    "appName": "Book",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -17573,6 +17778,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -17700,6 +17910,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       }
     ]
@@ -18480,6 +18695,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -18906,6 +19126,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -19607,6 +19832,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -20460,6 +20690,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -21832,6 +22067,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -22510,6 +22750,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -23242,6 +23487,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -23980,6 +24230,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -25284,6 +25539,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -25944,6 +26204,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -26525,6 +26790,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -27220,6 +27490,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -27742,6 +28017,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -29087,6 +29367,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -29671,6 +29956,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -29976,6 +30266,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -30274,6 +30569,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -31172,6 +31472,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -31661,6 +31966,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -32270,6 +32580,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -32758,6 +33073,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -32894,6 +33214,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -33424,6 +33749,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -33907,6 +34237,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -35050,6 +35385,18 @@
       }
     ]
   },
+  "com.android.phone.rro_T951K": {
+    "appName": "com.android.phone.rro_T951K",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.phone.rro_vendor": {
     "appName": "com.android.phone.rro_vendor",
     "userFacing": false,
@@ -35631,6 +35978,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -36172,6 +36524,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -36581,6 +36938,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -37771,6 +38133,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -38634,6 +39001,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -38927,6 +39299,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -39120,6 +39497,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -39967,6 +40349,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -40498,6 +40885,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -40526,6 +40918,18 @@
       }
     ]
   },
+  "com.android.systemui.rro_common": {
+    "appName": "com.android.systemui.rro_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.systemui.rro_perf": {
     "appName": "com.android.systemui.rro_perf",
     "userFacing": false,
@@ -40540,6 +40944,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -41058,6 +41467,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -41525,6 +41939,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -41947,6 +42366,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -42359,6 +42783,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -42480,6 +42909,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -42908,6 +43342,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -43072,6 +43511,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -43146,6 +43590,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -43417,7 +43866,7 @@
       },
       {
         "locale": "en-gb",
-        "name": "Find Hub"
+        "name": "Find My Device"
       }
     ],
     "devices": [
@@ -43450,6 +43899,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -43883,6 +44337,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -44649,6 +45108,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -45293,6 +45757,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -46138,6 +46607,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -46542,6 +47016,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -46936,6 +47415,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -47259,6 +47743,18 @@
       }
     ]
   },
+  "com.google.android.overlay.gmsconfig.ctsearch.enabled": {
+    "appName": "com.google.android.overlay.gmsconfig.ctsearch.enabled",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.overlay.gmsconfig.deskclock": {
     "appName": "com.google.android.overlay.gmsconfig.deskclock",
     "userFacing": false,
@@ -47571,6 +48067,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -47963,6 +48464,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -48155,6 +48661,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -48426,6 +48937,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -48757,6 +49273,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -49285,6 +49806,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -49939,6 +50465,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -50331,6 +50862,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -50520,6 +51056,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -50872,6 +51413,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -51279,6 +51825,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -51663,6 +52214,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -52721,6 +53277,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -53022,6 +53583,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -53794,6 +54360,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -53952,6 +54523,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -54556,6 +55132,30 @@
       }
     ]
   },
+  "com.jrdcom.Elabel.overlay_monalisa": {
+    "appName": "com.jrdcom.Elabel.overlay_monalisa",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.jrdcom.Elabel.overlay_monalisa_T951K": {
+    "appName": "com.jrdcom.Elabel.overlay_monalisa_T951K",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.jrdcom.Elabel.rro_common": {
     "appName": "com.jrdcom.Elabel.rro_common",
     "userFacing": false,
@@ -54570,6 +55170,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -54786,6 +55391,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -54930,6 +55540,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -54996,6 +55611,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -55152,6 +55772,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -55254,6 +55879,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -55343,6 +55973,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -55484,6 +56119,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -55603,6 +56243,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -55665,6 +56310,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -55677,6 +56327,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -55783,6 +56438,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -64999,6 +65659,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65021,6 +65686,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65050,6 +65720,23 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tcl.android.livewallpaper.overlay_vendor": {
+    "appName": "com.tcl.android.livewallpaper.overlay_vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65067,6 +65754,18 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      }
+    ]
+  },
+  "com.tcl.android.nfc.rro": {
+    "appName": "com.tcl.android.nfc.rro",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65108,6 +65807,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65149,6 +65853,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65202,6 +65911,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65229,6 +65943,18 @@
       }
     ]
   },
+  "com.tct.bootloaderunlock.resources": {
+    "appName": "com.tct.bootloaderunlock.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.tct.display.resources": {
     "appName": "com.tct.display.resources",
     "userFacing": false,
@@ -65243,6 +65969,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65260,6 +65991,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65272,6 +66008,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65337,6 +66078,23 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tct.nxturbo.resources": {
+    "appName": "com.tct.nxturbo.resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65349,6 +66107,30 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      }
+    ]
+  },
+  "com.tct.onetouchbooster.monalisa_SmartManager_Overlay": {
+    "appName": "com.tct.onetouchbooster.monalisa_SmartManager_Overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tct.onetouchbooster.monalisa_SMCleanUp_Overlay": {
+    "appName": "com.tct.onetouchbooster.monalisa_SMCleanUp_Overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65373,23 +66155,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
-      }
-    ]
-  },
-  "com.tct.reducesar": {
-    "appName": "com.tct.reducesar",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "TCL",
-        "model": "9491G",
-        "os": "34"
       },
       {
         "make": "TCL",
-        "model": "6165H",
-        "os": "33"
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65414,6 +66184,45 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.reducesar.rro_product": {
+    "appName": "com.tct.reducesar.rro_product",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tct.reducesar": {
+    "appName": "com.tct.reducesar.SarApplication",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "com.tct.reducesar"
+      }
+    ],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65443,6 +66252,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65460,6 +66274,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -65477,6 +66296,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -67142,6 +67966,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -67337,6 +68166,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -68064,6 +68898,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -68457,6 +69296,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.smart.cota": {
+    "appName": "Configuration update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -69322,6 +70173,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -69994,6 +70850,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -70211,6 +71072,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -70393,6 +71259,18 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.contentcenter": {
+    "appName": "Content centre",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -71022,6 +71900,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -71527,6 +72410,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -71893,6 +72781,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -72552,6 +73445,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -72830,6 +73728,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -73396,6 +74299,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -73573,6 +74481,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -74044,6 +74957,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -74466,6 +75384,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -75306,6 +76229,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -75527,6 +76455,11 @@
       {
         "make": "Google",
         "model": "Pixel 8a",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -76736,6 +77669,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -77672,6 +78610,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -78200,6 +79143,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -78720,6 +79668,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -80502,6 +81455,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -81384,6 +82342,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -81752,6 +82715,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -82543,6 +83511,11 @@
         "os": "28"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -82690,6 +83663,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -84124,6 +85102,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -84256,6 +85239,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -85856,6 +86844,23 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tct.fcm": {
+    "appName": "FCMHelper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -86521,6 +87526,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -86907,6 +87917,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -88254,16 +89269,16 @@
   "com.silead.factorytest": {
     "appName": "Fingerprint Test",
     "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "指纹测试"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -88556,6 +89571,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -88973,6 +89993,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -89077,6 +90102,28 @@
       }
     ]
   },
+  "com.tct.fullscreen.resources": {
+    "appName": "Fullscreen",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Pantalla completa"
+      }
+    ],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.tct.secretCode": {
     "appName": "FunctionSys",
     "userFacing": false,
@@ -89096,6 +90143,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -89543,6 +90595,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -92226,6 +93283,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -92298,6 +93360,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -92401,6 +93468,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -93813,6 +94885,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -94827,6 +95904,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -95374,6 +96456,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -96372,6 +97459,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -96896,6 +97988,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -97380,6 +98477,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -98125,6 +99227,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -98906,6 +100013,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -99371,6 +100483,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -100004,6 +101121,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -100672,6 +101794,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -101870,6 +102997,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -103009,6 +104141,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -103302,6 +104439,18 @@
         "make": "Ulefone",
         "model": "Power Armor X11 Pro",
         "os": "31"
+      }
+    ]
+  },
+  "com.tcl.android.launcher.hotapp": {
+    "appName": "Hot Apps",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -103777,6 +104926,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -105331,6 +106485,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -105912,6 +107071,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -106350,6 +107514,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.tct.smart.ircontrol": {
+    "appName": "IR Remote",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -107098,6 +108274,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -109147,6 +110328,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -110183,6 +111369,18 @@
       }
     ]
   },
+  "com.tcl.android.livewallpaper": {
+    "appName": "Live Wallpaper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.wallpaper.livepicker": {
     "appName": "Live Wallpaper Picker",
     "userFacing": false,
@@ -110632,6 +111830,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -110782,18 +111985,6 @@
       }
     ]
   },
-  "com.tct.gcs.wfcmanager": {
-    "appName": "Llamadas Wi-Fi",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "TCL",
-        "model": "6165H",
-        "os": "33"
-      }
-    ]
-  },
   "com.samsung.android.localeoverlaymanager": {
     "appName": "Locale Overlay Manager",
     "userFacing": false,
@@ -110941,6 +112132,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -111446,6 +112642,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -112260,6 +113461,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -112629,6 +113835,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -113253,6 +114464,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -113766,6 +114982,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -114230,6 +115451,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -114322,6 +115548,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -114832,6 +116063,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -115431,6 +116667,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -116012,6 +117253,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -116322,6 +117568,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -116534,6 +117785,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -116738,6 +117994,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -117367,6 +118628,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -117555,6 +118821,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -118001,6 +119272,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -120042,6 +121318,11 @@
         "os": "34"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -120174,6 +121455,11 @@
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -120909,6 +122195,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -123162,6 +124453,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -124174,6 +125470,18 @@
       }
     ]
   },
+  "com.tct.news": {
+    "appName": "News",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.zebra.nfcquicksettings": {
     "appName": "NFC",
     "userFacing": false,
@@ -124679,6 +125987,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -125027,6 +126340,18 @@
       }
     ]
   },
+  "com.tcl.ai.note": {
+    "appName": "Notes",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.role.notes.enabled": {
     "appName": "Notes Role enabled",
     "userFacing": false,
@@ -125280,6 +126605,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -126016,6 +127346,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -126115,6 +127450,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -126422,6 +127762,11 @@
         "os": "33"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -126442,6 +127787,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128025,6 +129375,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128042,6 +129397,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128058,6 +129418,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       }
     ]
@@ -128095,6 +129460,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128107,6 +129477,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128256,6 +129631,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128268,6 +129648,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128280,6 +129665,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128316,6 +129706,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128328,6 +129723,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128340,6 +129740,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128352,6 +129757,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128364,6 +129774,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128376,6 +129791,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128388,6 +129808,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128400,6 +129825,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -128716,6 +130146,11 @@
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -129444,6 +130879,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -129591,6 +131031,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -130189,6 +131634,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -130708,6 +132158,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -130863,18 +132318,6 @@
       {
         "make": "INFINIX",
         "model": "Infinix X6525B",
-        "os": "33"
-      }
-    ]
-  },
-  "com.tct.fullscreen.resources": {
-    "appName": "Pantalla completa",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "TCL",
-        "model": "6165H",
         "os": "33"
       }
     ]
@@ -132048,6 +133491,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -132867,6 +134315,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -133586,6 +135039,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -134177,6 +135635,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -134741,6 +136204,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -135315,6 +136783,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -136389,6 +137862,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -136828,6 +138306,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -138850,6 +140333,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -139379,6 +140867,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -139768,6 +141261,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -140456,6 +141954,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -141010,6 +142513,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -142855,6 +144363,18 @@
       }
     ]
   },
+  "com.tcl.ai.subtitles": {
+    "appName": "Real-time Subtitles",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.coloros.oshare": {
     "appName": "realme Share",
     "userFacing": false,
@@ -143322,6 +144842,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -143634,6 +145159,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -144218,6 +145748,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -152643,6 +154178,18 @@
       }
     ]
   },
+  "com.tcl.camassistant": {
+    "appName": "SCAN",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.zui.camera.qr": {
     "appName": "Scan QR code",
     "userFacing": false,
@@ -152751,6 +154298,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -152795,6 +154347,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -153434,6 +154991,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -154661,6 +156223,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -156886,6 +158453,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -157074,6 +158646,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -157644,6 +159221,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -157793,6 +159375,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -158197,6 +159784,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -158537,6 +160129,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -159297,6 +160894,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -159565,6 +161167,18 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tct.smart.sidebar": {
+    "appName": "Sidebar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       }
     ]
@@ -160208,6 +161822,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -160992,6 +162611,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -162212,6 +163836,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -162833,6 +164462,18 @@
       }
     ]
   },
+  "com.tcl.ai.interpret": {
+    "appName": "Smart Translator",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.smartmirroring": {
     "appName": "Smart View",
     "userFacing": false,
@@ -162977,6 +164618,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.tcl.ai.recorder": {
+    "appName": "Smart Voice Memo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -165200,6 +166853,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -165945,6 +167603,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -166912,6 +168575,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -167430,6 +169098,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -167796,6 +169469,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -168209,6 +169887,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -168265,7 +169948,7 @@
     ]
   },
   "com.tct.smart.switchphone": {
-    "appName": "Switch Tablet",
+    "appName": "Switch Phone",
     "userFacing": true,
     "additionalLocales": [
       {
@@ -168288,6 +169971,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -168813,6 +170501,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -169572,6 +171265,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -170220,6 +171918,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -170744,6 +172447,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -171046,6 +172754,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -171345,6 +173058,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -172045,6 +173763,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -172757,6 +174480,11 @@
         "os": "36"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -173393,6 +175121,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -173716,6 +175449,42 @@
       }
     ]
   },
+  "com.tcl.demopage": {
+    "appName": "TCL 60 SE NXTPAPER 5G",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tcl.ai.app": {
+    "appName": "TCL AI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tct.aigc.resources": {
+    "appName": "Tcl Component Aigc",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.tcl.systemui.op": {
     "appName": "TclSystemUIOp",
     "userFacing": false,
@@ -173725,6 +175494,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -173754,6 +175528,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -173771,6 +175550,23 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tct.cota.resources": {
+    "appName": "Tct Component Cota",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -173783,6 +175579,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -173817,6 +175618,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -174077,6 +175883,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -174107,6 +175918,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -174585,6 +176401,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -175189,6 +177010,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -175215,6 +177041,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       }
     ]
@@ -175313,6 +177144,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -175325,6 +177161,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -175664,6 +177505,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -176433,6 +178279,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -177168,6 +179019,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -177914,6 +179770,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -178816,6 +180677,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -179555,33 +181421,6 @@
       {
         "make": "Zebra Technologies",
         "model": "TC21",
-        "os": "33"
-      }
-    ]
-  },
-  "com.aura.oobe.vodafone": {
-    "appName": "Vodafone AppBox",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "es-es",
-        "name": "AppBox"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Xiaomi",
-        "model": "23124RA7EO",
-        "os": "35"
-      },
-      {
-        "make": "TCL",
-        "model": "6025D_EEA",
-        "os": "30"
-      },
-      {
-        "make": "TCL",
-        "model": "6165H",
         "os": "33"
       }
     ]
@@ -180641,6 +182480,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -180768,6 +182612,18 @@
       {
         "make": "LENOVO",
         "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tcl.android.wallpaper": {
+    "appName": "Wallpaper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       }
     ]
@@ -180998,6 +182854,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -181663,6 +183524,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -182110,6 +183976,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -183325,6 +185196,28 @@
       }
     ]
   },
+  "com.tct.gcs.wfcmanager": {
+    "appName": "Wi-Fi Calling",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Llamadas Wi-Fi"
+      }
+    ],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.tct.wfcsettingsext": {
     "appName": "Wi-fi Calling EXT",
     "userFacing": false,
@@ -183334,6 +185227,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -184378,6 +186276,11 @@
         "os": "35"
       },
       {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
@@ -185227,6 +187130,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
@@ -186582,6 +188490,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
         "os": "35"
       },
       {
