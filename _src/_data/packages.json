@@ -144,6 +144,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -444,11 +449,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -593,6 +593,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -684,11 +689,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -956,6 +956,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -1196,11 +1201,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -1274,6 +1274,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -1364,11 +1369,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -1543,6 +1543,33 @@
       }
     ]
   },
+  "com.qualcomm.qti.gpudrivers.lahaina.api30": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "Nothing",
+        "model": "A063",
+        "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.qualcomm.qti.gpudrivers.pineapple.api34": {
     "appName": "Adreno Graphics Drivers",
     "userFacing": false,
@@ -1568,33 +1595,6 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
-        "os": "35"
-      }
-    ]
-  },
-  "com.qualcomm.qti.gpudrivers.lahaina.api30": {
-    "appName": "Adreno Graphics Drivers",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-A528B",
-        "os": "33"
-      },
-      {
-        "make": "Nothing",
-        "model": "A063",
-        "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       }
     ]
@@ -2138,6 +2138,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -2164,11 +2169,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -2962,6 +2962,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -3200,11 +3205,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -3472,6 +3472,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -3785,11 +3790,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -4018,6 +4018,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -4341,11 +4346,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -4559,6 +4559,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -4879,11 +4884,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -5049,6 +5049,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -5374,11 +5379,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -5571,6 +5571,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -5879,11 +5884,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -6098,6 +6098,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -6421,11 +6426,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -6662,6 +6662,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -6922,11 +6927,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -7082,6 +7082,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -7407,11 +7412,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -7724,6 +7724,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -7934,11 +7939,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -8048,6 +8048,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -8189,11 +8194,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -9804,6 +9804,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -9890,11 +9895,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -10035,6 +10035,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -10121,11 +10126,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -10559,6 +10559,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -10644,11 +10649,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -10673,6 +10673,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -10702,11 +10707,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -11903,6 +11903,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -11988,11 +11993,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -12048,6 +12048,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -12137,11 +12142,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -12206,6 +12206,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -12276,11 +12281,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -12413,6 +12413,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -12499,11 +12504,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -12585,6 +12585,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -12675,11 +12680,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -12740,6 +12740,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -12829,11 +12834,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -12889,6 +12889,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -12949,11 +12954,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -13652,6 +13652,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -13743,11 +13748,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -13975,6 +13975,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -14287,11 +14292,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -14565,6 +14565,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -14651,11 +14656,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -14801,6 +14801,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -14891,11 +14896,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -14934,6 +14934,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -15019,11 +15024,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -15082,6 +15082,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -15168,11 +15173,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -15231,6 +15231,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -15312,11 +15317,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -15548,6 +15548,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -15875,11 +15880,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -16051,6 +16051,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -16127,11 +16132,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -16431,6 +16431,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -16746,11 +16751,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -16916,6 +16916,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -17241,11 +17246,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -17478,6 +17478,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -17803,11 +17808,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -17985,6 +17985,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -18071,11 +18076,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -18320,6 +18320,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
@@ -18443,11 +18448,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -19213,6 +19213,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -19255,11 +19260,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -19533,6 +19533,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -19860,11 +19865,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -20004,6 +20004,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -20099,11 +20104,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -20168,6 +20168,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -20258,11 +20263,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -20396,6 +20396,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -20718,11 +20723,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -20919,6 +20919,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -20980,11 +20985,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -21057,6 +21057,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -21156,11 +21161,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -21209,6 +21209,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -21303,11 +21308,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -21356,6 +21356,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -21431,11 +21436,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -21585,6 +21585,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -21676,11 +21681,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -22493,6 +22493,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -22778,11 +22783,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -22895,6 +22895,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -22922,11 +22927,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -23225,6 +23225,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -23508,11 +23513,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -23968,6 +23968,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -24251,11 +24256,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -25279,6 +25279,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -25562,11 +25567,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -25904,6 +25904,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -26227,11 +26232,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -26493,6 +26493,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -26818,11 +26823,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -26949,6 +26949,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -27040,11 +27045,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -27635,6 +27635,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -27726,11 +27731,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -28189,6 +28189,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -28226,11 +28231,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -28357,6 +28357,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X200",
         "os": "34"
       },
@@ -28373,11 +28378,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -28568,6 +28568,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -28659,11 +28664,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -29067,6 +29067,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -29392,11 +29397,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -29696,6 +29696,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -29979,11 +29984,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -30887,6 +30887,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -30993,11 +30998,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -31172,6 +31172,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -31495,11 +31500,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -31669,6 +31669,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -31992,11 +31997,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -32798,6 +32798,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -33096,11 +33101,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -33529,6 +33529,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -33774,11 +33779,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -33968,6 +33968,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -34263,11 +34268,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -34700,6 +34700,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -34811,11 +34816,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -35678,6 +35678,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -35998,11 +36003,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -36222,6 +36222,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -36547,11 +36552,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -37017,6 +37017,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -37128,11 +37133,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -38701,6 +38701,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -39024,11 +39029,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -41308,6 +41308,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -41482,11 +41487,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -41637,6 +41637,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -41964,11 +41969,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -42109,6 +42109,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -42391,11 +42396,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -42480,6 +42480,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -42631,11 +42636,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -44135,6 +44135,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -44363,11 +44368,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -44908,6 +44908,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -45131,11 +45136,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -45581,6 +45581,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -45773,11 +45778,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -46217,6 +46217,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -46380,11 +46385,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -46816,6 +46816,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -47036,11 +47041,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -47168,6 +47168,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -47438,11 +47443,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -47860,6 +47860,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -48090,11 +48095,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -48227,6 +48227,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -48482,11 +48487,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -48760,6 +48760,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -48960,11 +48965,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -49147,6 +49147,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -49289,11 +49294,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -49609,6 +49609,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -49829,11 +49834,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -49897,6 +49897,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -49983,11 +49988,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -50044,6 +50044,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -50130,11 +50135,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -50233,6 +50233,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -50488,11 +50493,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -50617,6 +50617,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -50887,11 +50892,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -50956,6 +50956,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -51067,11 +51072,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -51171,6 +51171,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -51439,11 +51444,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -51580,6 +51580,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -51848,11 +51853,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -51972,6 +51972,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -52240,11 +52245,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -53057,6 +53057,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -53302,11 +53307,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -53404,6 +53404,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -53599,11 +53604,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -61388,6 +61388,11 @@
         "os": "28"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
@@ -61511,11 +61516,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -61854,6 +61854,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -61939,11 +61944,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -61982,6 +61982,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -62046,11 +62051,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -62079,6 +62079,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -62138,11 +62143,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -62186,6 +62186,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -62276,11 +62281,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -62376,6 +62376,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -62456,11 +62461,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -62509,6 +62509,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -62604,11 +62609,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -62697,6 +62697,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -62792,11 +62797,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -62840,6 +62840,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -62914,11 +62919,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -62957,6 +62957,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -63031,11 +63036,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -63074,6 +63074,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -63144,11 +63149,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -63277,6 +63277,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -63363,11 +63368,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -63424,6 +63424,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -63514,11 +63519,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -63568,6 +63568,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -63609,11 +63614,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -63836,6 +63836,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -63922,11 +63927,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -64087,6 +64087,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -64128,11 +64133,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -64251,6 +64251,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -64323,11 +64328,6 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -64525,6 +64525,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -64595,11 +64600,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -64648,6 +64648,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -64743,11 +64748,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -64816,6 +64816,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -64898,11 +64903,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -64977,6 +64977,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -65059,11 +65064,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -67666,6 +67666,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -67989,11 +67994,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -68367,6 +68367,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -68458,11 +68463,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -68601,6 +68601,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -68923,11 +68928,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -69027,6 +69027,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -69112,11 +69117,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -69185,6 +69185,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -69275,11 +69280,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -69424,6 +69424,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -69504,11 +69509,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -69569,6 +69569,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -69659,11 +69664,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -69802,6 +69802,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -69888,11 +69893,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -70393,6 +70393,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -70484,11 +70489,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -70948,6 +70948,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -71077,11 +71082,6 @@
         "os": "35"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -71136,6 +71136,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -71226,11 +71231,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -71330,6 +71330,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -71411,11 +71416,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -71618,6 +71618,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -71918,11 +71923,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -72231,6 +72231,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -72423,11 +72428,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -72881,6 +72881,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -72972,11 +72977,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -73116,6 +73116,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -73211,11 +73216,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -73279,6 +73279,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
       },
@@ -73290,11 +73295,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -73999,6 +73999,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -74319,11 +74324,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -74641,6 +74641,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -74732,11 +74737,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -75182,6 +75182,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -75400,11 +75405,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -75832,6 +75832,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -75923,11 +75928,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -76115,6 +76115,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -76234,11 +76239,6 @@
         "os": "35"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -76293,6 +76293,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -76388,11 +76393,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -76816,6 +76816,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -76907,11 +76912,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -77040,6 +77040,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -77091,11 +77096,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -77249,6 +77249,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -77335,11 +77340,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -78330,6 +78330,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -78628,11 +78633,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -78843,6 +78843,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -79166,11 +79171,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -79376,6 +79376,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -79696,11 +79701,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -79787,6 +79787,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -79882,11 +79887,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -80441,6 +80441,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -80536,11 +80541,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -80611,6 +80611,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -80701,11 +80706,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -80809,6 +80809,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -80895,11 +80900,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -81178,6 +81178,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -81478,11 +81483,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -81994,6 +81994,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -82085,11 +82090,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -82821,6 +82821,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -82906,11 +82911,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -82975,6 +82975,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -83056,11 +83061,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -83742,6 +83742,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -83833,11 +83838,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -84200,6 +84200,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -84285,11 +84290,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -84358,6 +84358,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -84420,11 +84425,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -84802,6 +84802,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -85127,11 +85132,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -85353,6 +85353,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -85448,11 +85453,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -85513,6 +85513,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -85593,11 +85598,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -85825,6 +85825,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -85915,11 +85920,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -85968,6 +85968,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -86053,11 +86058,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -86262,6 +86262,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -86348,11 +86353,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -86496,6 +86496,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -86577,11 +86582,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -87266,6 +87266,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -87544,11 +87549,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -88829,6 +88829,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -88915,11 +88920,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -89041,6 +89041,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -89132,11 +89137,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -89847,6 +89847,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -89938,11 +89943,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -90298,6 +90298,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -90621,11 +90626,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -91034,6 +91034,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -91124,11 +91129,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -91193,6 +91193,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -91267,11 +91272,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -91320,6 +91320,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -91415,11 +91420,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -91623,6 +91623,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -91714,11 +91719,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -91813,6 +91813,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -91898,11 +91903,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -91976,6 +91976,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -92071,11 +92076,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -92308,6 +92308,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -92399,11 +92404,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -92682,6 +92682,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -92773,11 +92778,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -93843,6 +93843,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -93929,11 +93934,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -93990,6 +93990,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -94076,11 +94081,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -94389,6 +94389,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -94475,11 +94480,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -94608,6 +94608,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -94908,11 +94913,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -95402,6 +95402,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
       },
@@ -95418,11 +95423,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -95612,6 +95612,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -95929,11 +95934,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -96167,6 +96167,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -96479,11 +96484,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -96697,6 +96697,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -96809,11 +96814,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -97189,6 +97189,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -97482,11 +97487,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -97688,6 +97688,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -98011,11 +98016,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -98180,6 +98180,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -98503,11 +98508,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -98930,6 +98930,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -99255,11 +99260,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -99367,6 +99367,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -99533,11 +99538,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -99713,6 +99713,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -100036,11 +100041,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -100241,6 +100241,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -100509,11 +100514,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -100824,6 +100824,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -101147,11 +101152,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -101633,6 +101633,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -101807,11 +101812,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -101948,6 +101948,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -102024,11 +102029,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -102163,6 +102163,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -102254,11 +102259,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -102363,6 +102363,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -102454,11 +102459,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -102566,6 +102566,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -102642,11 +102647,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -102815,6 +102815,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -103010,11 +103015,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -103269,6 +103269,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -103436,11 +103441,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -103780,6 +103780,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -103871,11 +103876,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -104629,6 +104629,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -104954,11 +104959,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -105033,6 +105033,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -105123,11 +105128,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -105237,6 +105237,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -105318,11 +105323,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -105493,6 +105493,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -105584,11 +105589,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -105645,6 +105645,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -105736,11 +105741,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -105797,6 +105797,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -105888,11 +105893,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -106185,6 +106185,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -106508,11 +106513,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -106886,6 +106886,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
@@ -107089,11 +107094,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -107407,6 +107407,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -107493,11 +107498,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -107977,6 +107977,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -108302,11 +108307,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -108623,6 +108623,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -108718,11 +108723,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -108771,6 +108771,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -108865,11 +108870,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -108913,6 +108913,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -108983,11 +108988,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -109061,6 +109061,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -109147,11 +109152,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -109198,6 +109198,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -109258,11 +109263,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -109296,6 +109296,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -109370,11 +109375,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -109413,6 +109413,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -109477,11 +109482,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -109520,6 +109520,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -109604,11 +109609,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -109647,6 +109647,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -109711,11 +109716,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -109754,6 +109754,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -109844,11 +109849,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -109900,6 +109900,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -109961,11 +109966,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -110022,6 +110022,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -110103,11 +110108,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -110189,6 +110189,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -110280,11 +110285,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -110813,6 +110813,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -110903,11 +110908,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -110959,6 +110959,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -111043,11 +111048,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -111110,6 +111110,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
       },
@@ -111126,11 +111131,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -111231,6 +111231,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -111340,11 +111345,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -111548,6 +111548,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -111848,11 +111853,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -113186,6 +113186,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -113481,11 +113486,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -113611,6 +113611,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -113856,11 +113861,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -114179,6 +114179,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -114489,11 +114494,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -114680,6 +114680,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -115007,11 +115012,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -115252,6 +115252,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -115343,11 +115348,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -115806,6 +115806,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -116089,11 +116094,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -116442,6 +116442,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -116692,11 +116697,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -116801,6 +116801,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -116867,11 +116872,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -117001,6 +117001,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -117276,11 +117281,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -118980,6 +118980,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -119300,11 +119305,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -119546,6 +119546,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -119627,11 +119632,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -119870,6 +119870,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -119951,11 +119956,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -120116,6 +120116,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -120172,11 +120177,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -121606,6 +121606,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -121692,11 +121697,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -121896,6 +121896,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -122223,11 +122228,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -122318,6 +122318,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -122394,11 +122399,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -122954,6 +122954,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -123045,11 +123050,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -123400,6 +123400,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -123491,11 +123496,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -123577,6 +123577,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -123668,11 +123673,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -123732,6 +123732,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -123792,11 +123797,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -123830,6 +123830,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -123925,11 +123930,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -124186,6 +124186,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -124473,11 +124478,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -124736,6 +124736,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -124818,11 +124823,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -125111,6 +125111,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -125197,11 +125202,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -125732,6 +125732,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -126005,11 +126010,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -126429,6 +126429,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -126616,11 +126621,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -127081,6 +127081,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -127359,11 +127364,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -127888,6 +127888,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -127964,11 +127969,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -128299,6 +128299,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -128471,11 +128476,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -128919,6 +128919,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -129014,11 +129019,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -129079,6 +129079,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -129169,11 +129174,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -130507,6 +130507,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
@@ -130695,11 +130700,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -131334,6 +131334,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -131657,11 +131662,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -131858,6 +131858,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -132181,11 +132186,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -132399,6 +132399,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -132465,11 +132470,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -132798,6 +132798,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -132889,11 +132894,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -133216,6 +133216,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -133516,11 +133521,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -133680,6 +133680,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -133766,11 +133771,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -133864,6 +133864,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -133949,11 +133954,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -134017,6 +134017,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -134097,11 +134102,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -134666,6 +134666,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -134757,11 +134762,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -135335,6 +135335,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -135660,11 +135665,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -135910,6 +135910,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -136230,11 +136235,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -136486,6 +136486,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -136811,11 +136816,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -136915,6 +136915,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -136957,11 +136962,6 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -137040,6 +137040,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -137135,11 +137140,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -137257,6 +137257,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -137397,11 +137402,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -138079,6 +138079,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -138332,11 +138337,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -139540,6 +139540,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -139626,11 +139631,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -140033,6 +140033,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -140356,11 +140361,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -140567,6 +140567,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -140892,11 +140897,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -141022,6 +141022,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -141282,11 +141287,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -141654,6 +141654,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -141979,11 +141984,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -142239,6 +142239,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -142529,11 +142534,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -142835,6 +142835,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
@@ -142923,11 +142928,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -143420,6 +143420,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -143506,11 +143511,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -143588,6 +143588,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -143674,11 +143679,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -143760,6 +143760,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -143846,11 +143851,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -144483,6 +144483,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -144569,11 +144574,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -144867,6 +144867,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -144899,11 +144904,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -145035,6 +145035,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -145175,11 +145180,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -145881,6 +145881,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -145963,11 +145968,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -146059,6 +146059,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -146125,11 +146130,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -146863,6 +146863,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -146954,11 +146959,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -147113,6 +147113,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -147204,11 +147209,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -147422,6 +147422,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -147513,11 +147518,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -147599,6 +147599,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -147690,11 +147695,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -147751,6 +147751,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -147842,11 +147847,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -147903,6 +147903,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -147994,11 +147999,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -148072,6 +148072,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -148157,11 +148162,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -148205,6 +148205,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -148295,11 +148300,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -148356,6 +148356,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -148451,11 +148456,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -148494,6 +148494,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -148539,11 +148544,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -148598,6 +148598,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -148643,11 +148648,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -148681,6 +148681,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -148721,11 +148726,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -148802,6 +148802,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -148888,11 +148893,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -149032,6 +149032,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -149064,11 +149069,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -149141,6 +149141,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -149207,11 +149212,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -149332,6 +149332,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -149418,11 +149423,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -149528,6 +149528,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -149619,11 +149624,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -149732,6 +149732,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -149822,11 +149827,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -149896,6 +149896,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -149990,11 +149995,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -150038,6 +150038,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -150122,11 +150127,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -150154,6 +150154,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
       },
@@ -150161,11 +150166,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       }
     ]
   },
@@ -150218,6 +150218,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -150299,11 +150304,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -150485,6 +150485,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -150576,11 +150581,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -150674,6 +150674,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -150765,11 +150770,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -150953,6 +150953,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -151048,11 +151053,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -151121,6 +151121,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -151201,11 +151206,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -151448,6 +151448,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -151508,11 +151513,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -151532,6 +151532,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -151562,11 +151567,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -151830,6 +151830,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -151895,11 +151900,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -151943,6 +151943,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -152037,11 +152042,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -152090,6 +152090,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -152179,11 +152184,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -152217,6 +152217,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -152271,11 +152276,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -152294,6 +152294,11 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -152339,11 +152344,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -152412,6 +152412,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -152468,11 +152473,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -152519,6 +152519,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -152575,11 +152580,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -152755,6 +152755,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -152811,11 +152816,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -152891,6 +152891,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -152937,11 +152942,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -153138,6 +153138,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -153194,11 +153199,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -153245,6 +153245,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -153301,11 +153306,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -153466,6 +153466,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -153522,11 +153527,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -154824,6 +154824,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -155014,11 +155019,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -155131,6 +155131,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -155221,11 +155226,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -155269,6 +155269,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -155339,11 +155344,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -155449,6 +155449,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -155530,11 +155535,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -155720,6 +155720,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -155801,11 +155806,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -155949,6 +155949,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -156246,11 +156251,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -156517,6 +156517,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -156608,11 +156613,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -156764,6 +156764,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -156821,11 +156826,6 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -157008,6 +157008,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -157103,11 +157108,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -157156,6 +157156,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -157241,11 +157246,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -157331,6 +157331,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -157422,11 +157427,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -157483,6 +157483,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -157568,11 +157573,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -157616,6 +157616,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -157706,11 +157711,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -157800,6 +157800,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -157886,11 +157891,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -158151,6 +158151,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -158476,11 +158481,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -158921,6 +158921,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -159244,11 +159249,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -159529,6 +159529,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -159804,11 +159809,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -159939,6 +159939,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -160005,11 +160010,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -160235,6 +160235,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -160326,11 +160331,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -160592,6 +160592,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -160919,11 +160924,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -161019,6 +161019,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -161110,11 +161115,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -161244,6 +161244,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -161325,11 +161330,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -161553,6 +161553,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -161848,11 +161853,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -162364,6 +162364,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -162637,11 +162642,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -163193,6 +163193,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -163283,11 +163288,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -163360,6 +163360,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -163455,11 +163460,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -163581,6 +163581,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -163672,11 +163677,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -164040,6 +164040,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -164115,11 +164120,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -164185,6 +164185,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -164280,11 +164285,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -164506,6 +164506,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -164597,11 +164602,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -164776,6 +164776,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -164866,11 +164871,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -164931,6 +164931,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -165021,11 +165026,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -165141,6 +165141,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -165222,11 +165227,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -165347,6 +165347,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -165438,11 +165443,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -165524,6 +165524,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -165615,11 +165620,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -166136,6 +166136,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -166227,11 +166232,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -166313,6 +166313,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -166404,11 +166409,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -167311,6 +167311,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -167629,11 +167634,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -168021,6 +168021,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -168112,11 +168117,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -168313,6 +168313,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -168595,11 +168600,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -168862,6 +168862,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -168943,11 +168948,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -169205,6 +169205,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -169492,11 +169497,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -169606,6 +169606,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -169692,11 +169697,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -170249,6 +170249,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -170529,11 +170534,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -170695,6 +170695,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
@@ -170778,11 +170783,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -171040,6 +171040,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -171288,11 +171293,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -171633,6 +171633,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -171938,11 +171943,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -172145,6 +172145,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -172470,11 +172475,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -172896,6 +172896,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
@@ -173079,11 +173084,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -173357,6 +173357,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
@@ -173545,11 +173550,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -174113,6 +174113,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -174224,11 +174229,6 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -174565,6 +174565,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -174651,11 +174656,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -174839,6 +174839,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -175141,11 +175146,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -175305,6 +175305,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -175396,11 +175401,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -176144,6 +176144,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -176429,11 +176434,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -176645,6 +176645,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -176727,11 +176732,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -177590,6 +177590,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -177681,11 +177686,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -177971,6 +177971,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -177997,11 +178002,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -178097,6 +178097,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -178287,11 +178292,6 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -179039,6 +179039,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
       },
@@ -179070,11 +179075,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -179195,6 +179195,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -179286,11 +179291,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -179471,6 +179471,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -179796,11 +179801,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -181117,6 +181117,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -181208,11 +181213,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -181472,6 +181472,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -181564,11 +181569,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -181709,6 +181709,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -181790,11 +181795,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -181922,6 +181922,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -181988,11 +181993,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -182178,6 +182178,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -182503,11 +182508,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -182934,6 +182934,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -183020,11 +183025,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -183106,6 +183106,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -183192,11 +183197,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -183704,6 +183704,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -183999,11 +184004,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -184106,6 +184106,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -184196,11 +184201,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -184249,6 +184249,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -184339,11 +184344,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -184425,6 +184425,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -184516,11 +184521,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -185064,6 +185064,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -185141,11 +185146,6 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -185343,6 +185343,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -185424,11 +185429,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -185588,6 +185588,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -185649,11 +185654,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -186021,6 +186021,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -186301,11 +186306,6 @@
         "os": "33"
       },
       {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -186520,6 +186520,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
       },
@@ -186606,11 +186611,6 @@
       {
         "make": "samsung",
         "model": "SM-X910",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
         "os": "35"
       },
       {
@@ -186831,6 +186831,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -187156,11 +187161,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -188203,6 +188203,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -188516,11 +188521,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
       },
       {
         "make": "ALCommon",
