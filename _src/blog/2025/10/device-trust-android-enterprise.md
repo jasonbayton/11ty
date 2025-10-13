@@ -21,7 +21,7 @@ To reiterate - because this can't be understated - with Device Trust, it's no lo
 
 Google frequently, and rightly, points out that many data breaches in organisations stem from inappropriate access on mobile devices; reasons can include weak device posture, outdated software/security patching, or unsecure networks (amongst others). Device Trust aims to surface these signals for vendors, providing the ability to make in-the-moment decisions based on real signals, not assumptions.
 
-## What Device Trust is — and isn’t
+## What Device Trust is - and isn’t
 
 Although Device Trust requires the Android Device Policy application to fetch and return a snapshot, there's no _management_ involved. Android Device Policy sits in a privileged position on-device, granted the appropriate roles to always be able to fetch a mix of public and restricted (typically to DPC) signals immediately on request.
 
@@ -124,7 +124,7 @@ It doesn't. Device Trust itself doesn’t enforce policy - it’s passive. That 
 
 Policies should handle missing signals gracefully and decide whether to fail open or closed, depending on context, to avoid blocking legitimate users unnecessarily.
 
-Google recommends layering Device Trust over attestation and Play Integrity for stronger guarantees — if attestation fails, the snapshot likely can't be trusted. Unfortunately, though SDK integration exists for Play Integrity, today Device Trust and the AMAPI SDK it relies on has no in-built support. This means vendors have to integrate this separately. To be fair, many services will already have an integration in place given the historic requirements mentioned earlier, but for newer apps & services, it's an extra step. 
+Google recommends layering Device Trust over attestation and Play Integrity for stronger guarantees - if attestation fails, the snapshot likely can't be trusted. Unfortunately, though SDK integration exists for Play Integrity, today Device Trust and the AMAPI SDK it relies on has no in-built support. This means vendors have to integrate this separately. To be fair, many services will already have an integration in place given the historic requirements mentioned earlier, but for newer apps & services, it's an extra step. 
 
 ## Challenges, trade-offs, and privacy
 
