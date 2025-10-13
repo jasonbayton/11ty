@@ -132,11 +132,11 @@ Handling these gracefully and communicating clearly with users helps keep frustr
 
 Following on from the [APK support](/blog/2025/08/amapi-apk-deployment/) work I did some time back, I turned once again to my kitchen sink of an application: [MANAGED INFO](/projects/splash/mi). In this case it made sense to revisit as I _already_ provide device information as part of the support tools it offers out of the box. 
 
-For this particular project, I opted to initially spin up a Managed Device Dashboard so it only enables when MANAGED INFO is EMM-configured, it sits alongside APK, location services,. This clearly defeats the purpose of Device Trust - I'm aware - though once it's at a point I'm happy to provide it as part of the existing card configuration system, it will become generally available for unmanaged devices, without the need for any elaborate access measures.
+For this particular project, I opted to initially spin up a Managed Device Dashboard that only shows when MANAGED INFO is EMM-configured, it combines APK, location services, and now a device status screen. This clearly defeats the purpose of Device Trust - I'm aware - though once it's at a point I'm happy to provide it as part of the existing card configuration system, it will become generally available for unmanaged devices, without the need for any elaborate access measures.
 
 There were a few preparatory requirements to get things going. 
 
-First, I had already integrated the AMAPI SDK to enable APK deployment, I bumped it up to 1.7.0-rc01 to include all of the latest signals, including business information to help identify AMAPI-based EMMs.
+First, I had already integrated the AMAPI SDK to enable APK deployment, I bumped it up to `1.7.0-rc01` to include all of the latest signals, including business information to help identify AMAPI-based EMMs.
 
 Next, I had to add new permissions for Device Trust to fetch network information and password complexity in use:
 
@@ -151,12 +151,12 @@ Finally, I needed to adjust my notification receiver to include a callback for m
 override fun getPrepareEnvironmentListener(): EnvironmentListener {
     return object : EnvironmentListener {
         override fun onEnvironmentEvent(event: EnvironmentEvent) {
-            val kind = runCatching { event.event.kind.name }.getOrDefault("<unknown>")
+            val kind = event.event.kind.name
             val human = when (event.event.kind) {
-                EnvironmentEvent.EventCase.Kind.ANDROID_DEVICE_POLICY_INSTALL_CONSENT_ACCEPTED -> "User provided install consent"
+                EnvironmentEvent.EventCase.Kind.ANDROID_DEVICE_POLICY_INSTALL_CONSENT_ACCEPTED ->
+                    "User provided install consent"
                 else -> "Event: $kind"
             }
-            val ts = System.currentTimeMillis()
             Log.i("NRSAMAPI", "DT PrepareEnvironment: $human")
         }
 
@@ -191,7 +191,7 @@ For EMM-enrolled devices, the Managed Device Dashboard is my opinionated view of
 The information grid at the top of this page is a mixture of managed configuration, and Device Trust signals.
 
 - FrontDoor-01 is managed config, falling back to device model provided by Trust
-- Management provider is Trust, provided in SDK version 1.7.0-rc01
+- Management provider is Trust, provided in SDK version `1.7.0-rc01`
 - Policy, Group, are managed config
 - SPL, Ownership, Mode is Trust
 - Role actually comes from the AMAPI SDK, but outside of Trust. When an application role is assigned (added in September 2025) it will send a notification to any configured receiver an application may make available. While I was working on Device Trust, I also added full role support to be able to receive these role notifications, save the assigned role to datastore, and make it available in the Managed Device Dashboard. I think it's nifty.
