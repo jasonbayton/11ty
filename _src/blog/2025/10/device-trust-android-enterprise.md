@@ -33,7 +33,6 @@ It stops short of enforcing policy, remediating issues, or replacing Android att
 
 You can find the official overview [here](https://support.google.com/work/android/answer/16166663?hl=en). The developer docs explain how to register and pull these snapshots.
 
-
 ## So.. how does it work?
 
 First and foremost, as above this platform is for approved partners only, and gated by an application process. It doesn't mean anyone with any app will suddenly be pulling signals of devices for their own uses. 
@@ -62,7 +61,7 @@ Device Trust currently provides over 20 device signals, closely tied alongside t
 - Encryption and screen lock complexity  
 - Play Protect status and network security  
 
-These are provided as a _snapshot_ to the calling, approved application on-device, and can be called as often as required in order to ensure access is granted/denied based on a current, in-the-moment state. It makes for an extremely dynamic solution, with ongoing verification helping organisations enforce policies that adapt as conditions change.
+These are provided as a _snapshot_ to the calling application on-device, and can be called as often as required in order to ensure access is granted/denied based on a current, in-the-moment state. It makes for an extremely dynamic solution, with ongoing verification helping organisations enforce policies that adapt as conditions change.
 
 What does that mean? To pick a simple data point - access to resources may be granted under normal conditions, but should a user join an open Wi-Fi network? Immediate revocation. If that's too obvious an example, how about if a device hasn't updated its security patch level within 30/60/90 days? Access revoked.
 
@@ -72,16 +71,20 @@ Certainly, but if we ignore the scenario where an organisation doesn't use an EM
 
 If you're a Mobile Threat Defence vendor, an Identity Provider, or a security solution for example, to gain access to some of the signals provided by Device Trust historically you would:
 
-1. Need to integrate or partner with an EMM to deploy to estates
-2. Build out the capabilities to fetch much of this information from scratch
+- Need to integrate or partner with an EMM to deploy to estates
+- Build out the capabilities to fetch much of this information from scratch
 
 If you're one of several vendors on a device - a device could easily have an IDP, an EMM, and an MTD solution in play across an estate today - your solution along with several others could be polling for this data constantly, and potentially fetching dissimilar results based on how and when data is fetched. 
 
-Device Trust by comparison feeds consistent, high-level posture signals all approved applications in a structured and consistent way. It means all of these vendors can play nicely together without the historical tether to management. No longer would an MTD solution require API access into an EMM to understand the current (or last-received, at least) posture of a device. No longer would security tools _have_ to integrate with other solutions to get the same - all approved vendors can call their own snapshot and receive it in milliseconds. 
+Device Trust by comparison feeds consistent, high-level posture signals to all approved applications in a structured and consistent way. It means all of these vendors can play nicely together without the historical tether to management. No longer would an MTD solution require API access into an EMM to understand the current (or last-received, at least) posture of a device. No longer would security tools _have_ to integrate with other solutions to get the same - all approved vendors can call their own snapshot and receive it in milliseconds. 
 
 Coming at it from another angle.. no longer do non-EMM solutions require a customer has an EMM (or build one themselves) to get information from a device historically tied to either a Device Administrator or a Device Policy Controller (MDM agent). 
 
 This in itself is a big deal.
+
+For the EMMs themselves, Device Trust offers a route to "managing" devices without a DPC, without enrolment, without wiping data or potentially even clashing with another EMM already on a device. It requires minimal work to adopt devices en-masse, and can still enable a hybrid asset management/access policy solution that gates internal resources. 
+
+In fact, I imagine this will become a popular option within the ecosystem, purely from the sheer number of organisations I speak to who _will not_ reset existing devices to gain a level of management today (and Google won't enable DPC migration, despite Apple [introducing equivalent in iOS 26](https://support.apple.com/en-gb/guide/deployment/dep4acb2aa44/web)), at least until the next hardware refresh cycle. Allowing an EMM to offer something of value for these devices is considerable.
 
 ### Key signals and how to interpret them
 
