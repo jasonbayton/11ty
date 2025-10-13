@@ -214,7 +214,7 @@ Not dissimilar to the Managed Device Dashboard, the SetupActions screen here sim
 
 As an EMM-managed device, _all_ of this could be provided through managed configuration; that's how I would have done this previously, but I really quite like the idea that this information is local to the device - no matter what an MDM could _want_ to provide, what the device is experiencing directly is what's shown here. It's a nice little piece of validation.
 
-## Challenges
+### Challenges
 
 **Play Integrity**  
 As above, the primary omission is Play Integrity. I _will_ get to this, but I'd have preferred to see this provided by the SDK as part of the Trust snapshot.
@@ -227,7 +227,7 @@ Currently on some devices in the last week or so, critical apps shown go far bey
 
 <a href="https://cdn.bayton.org/uploads/2025/device_trust_critical_apps_bug.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_critical_apps_bug.png" alt="Critical apps bug" style="max-width:400px;"></a>
 
-## TODO
+### TODO
 
 I mentioned a few pending items in the above, but to summarise everything coming to this feature in due course:
 
