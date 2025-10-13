@@ -140,14 +140,14 @@ First, I had already integrated the AMAPI SDK to enable APK deployment, I bumped
 
 Next, I had to add new permissions for Device Trust to fetch network information and password complexity in use:
 
-```
+```xml
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 <uses-permission android:name="android.permission.REQUEST_PASSWORD_COMPLEXITY"/>
 ```
 
 Finally, I needed to adjust my notification receiver to include a callback for monitoring when a device user accepted, or declined, to install the Android Device Policy app on devices where it is not pre-installed:
  
-```
+```kotlin
 override fun getPrepareEnvironmentListener(): EnvironmentListener {
     return object : EnvironmentListener {
         override fun onEnvironmentEvent(event: EnvironmentEvent) {
