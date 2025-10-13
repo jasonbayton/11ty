@@ -17,13 +17,19 @@ With the launch of [Device Trust](https://blog.google/products/android-enterpris
 
 Far from being *just another management API*, Device Trust is positioned as a core component in Android's Zero Trust architecture. Enabling continuous device verification across all modern Android devices, it offers a practical way to understand device security and posture in real time, irrespective of management.
 
-To reiterate - because this can't be understated - with Device Trust, it's no longer about **managing the device**, instead choosing to make use of the device signals offered to ensure even without heavy, restrictive device management policies, access can be granted to corporate resources. 
+To reiterate - because this can't be understated - with Device Trust, it's no longer about **managing the device**, instead choosing to make use of the device signals offered to ensure even without heavy, restrictive, or invasive device management policies, access can be granted to corporate resources. 
 
-Google frequently, and rightly, points out that many data breaches in organisations stem from inappropriate access on mobile devices; reasons can include weak device posture, outdated software/security patching, or unsecure networks (amongst others). Device Trust aims to surface these signals for vendors, providing the ability to make runtime decisions about access, based on real signals, not assumptions.
+Google frequently, and rightly, points out that many data breaches in organisations stem from inappropriate access on mobile devices; reasons can include weak device posture, outdated software/security patching, or unsecure networks (amongst others). Device Trust aims to surface these signals for vendors, providing the ability to make in-the-moment decisions based on real signals, not assumptions.
 
 ## What Device Trust is — and isn’t
 
-Think of Device Trust as a smart context layer. It gives a clear snapshot of a device’s management status, ownership, security posture, and policy hints. It’s not a full device control or attestation replacement but fills the gap between no visibility and full MDM.
+Although Device Trust requires the Android Device Policy application to fetch and return a snapshot, there's no _management_ involved. Android Device Policy sits in a privileged position on-device, granted the appropriate roles to always be able to fetch a mix of public and restricted (typically to DPC) signals immediately on request.
+
+Of course if the device _is_ managed, be that on the Android Management API or another platform, it makes no meaningful difference. If anything it takes some of the permission management out of the setup process when pre-granted by policy.
+
+Device Trust surfaces a verified snapshot of the specific device it's running on: who manages it, how it’s configured, what security controls are present, and whether anything looks risky, so downstream services can base decisions on current telemetry instead of guesswork. 
+
+It stops short of enforcing policy, remediating issues, or replacing Android attestation; it’s simply the context layer that turns raw device signals into something IdPs, EMMs, and other vendor types can act upon.
 
 You can find the official overview [here](https://support.google.com/work/android/answer/16166663?hl=en). The developer docs explain how to register and pull these snapshots.
 
