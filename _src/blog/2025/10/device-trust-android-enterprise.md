@@ -208,7 +208,7 @@ _Typically_ shortly after completing this, the support for application roles inc
 
 Not dissimilar to the Managed Device Dashboard, the SetupActions screen here simply exposes a few pertinent details of enrolment; a mixture again of managed configuration information, and Trust signals.
 
-- Management provider (not shown) is provided by Trust
+- Management provider is provided by Trust
 - Ownership, Mode are provided by Trust
 - Policy, Group are provided by managed configuration.
 
