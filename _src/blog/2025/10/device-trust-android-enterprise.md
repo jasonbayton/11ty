@@ -114,7 +114,7 @@ Policies should handle missing signals gracefully and decide whether to fail ope
 
 Google recommends layering Device Trust over attestation and Play Integrity for stronger guarantees — if attestation fails, the snapshot likely can't be trusted. Unfortunately, though SDK integration exists for Play Integrity, today Device Trust and the AMAPI SDK it relies on has no in-built support. This means vendors have to integrate this separately. To be fair, many services will already have an integration in place given the historic requirements mentioned earlier, but for newer apps & services, it's an extra step. 
 
-## Challenges, tradeoffs, and privacy
+## Challenges, trade-offs, and privacy
 
 There are some things to keep in mind:
 
@@ -127,10 +127,116 @@ Handling these gracefully and communicating clearly with users helps keep frustr
 
 ## How I've implemented it
 
-<< All of this needs properly writing up >>
+Following on from the [APK support](/blog/2025/08/amapi-apk-deployment/) work I did some time back, I turned once again to my kitchen sink of an application: [MANAGED INFO](/projects/splash/mi). In this case it made sense to revisit as I _already_ provide device information as part of the support tools it offers out of the box. 
+
+For this particular project, I opted to initially spin up a Managed Device Dashboard so it only enables when MANAGED INFO is EMM-configured, it sits alongside APK, location services,. This clearly defeats the purpose of Device Trust - I'm aware - though once it's at a point I'm happy to provide it as part of the existing card configuration system, it will become generally available for unmanaged devices, without the need for any elaborate access measures.
+
+There were a few preparatory requirements to get things going. 
+
+First, I had already integrated the AMAPI SDK to enable APK deployment, I bumped it up to 1.7.0-rc01 to include all of the latest signals, including business information to help identify AMAPI-based EMMs.
+
+Next, I had to add new permissions for Device Trust to fetch network information and password complexity in use:
+
+```
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.REQUEST_PASSWORD_COMPLEXITY"/>
+```
+
+Finally, I needed to adjust my notification receiver to include a callback for monitoring when a device user accepted, or declined, to install the Android Device Policy app on devices where it is not pre-installed:
+ 
+```
+override fun getPrepareEnvironmentListener(): EnvironmentListener {
+    return object : EnvironmentListener {
+        override fun onEnvironmentEvent(event: EnvironmentEvent) {
+            val kind = runCatching { event.event.kind.name }.getOrDefault("<unknown>")
+            val human = when (event.event.kind) {
+                EnvironmentEvent.EventCase.Kind.ANDROID_DEVICE_POLICY_INSTALL_CONSENT_ACCEPTED -> "User provided install consent"
+                else -> "Event: $kind"
+            }
+            val ts = System.currentTimeMillis()
+            Log.i("NRSAMAPI", "DT PrepareEnvironment: $human")
+        }
+
+        [...]
+    }
+}
+```
+
+These steps don't include general organisation and prep for fetching, caching, and using Device Trust data within MANAGED INFO, but as that's somewhat subjective from project to project I've left it out. What I will say is rather than storing the snapshot to datastore, I cache it to classes when pulled through a ViewModel, as the data can (and is expected to) change often; sitting on stale info when it takes moments to refresh seemed unnecessary. This also applies when I finish implementing the ability to export the data to a remote endpoint; workers will fetch the state on-run and always return the freshest data possible. What _does_ go to datastore are things like permission decisions, consent for install, and other items that determine the user experience presented.
+
+Basically everything above is already presented in the [integration guide for Device Trust](https://developers.google.com/android/management/device-trust-api), which I'd recommend reviewing as the source of truth, _not_ my examples above. Once implemented, I was able to build up a relatively straight-forward dashboard in a bottom sheet:
+
+<a href="https://cdn.bayton.org/uploads/2025/device_trust_bottomsheet_pixel.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_bottomsheet_pixel.png" alt="Pixel bottom sheet"></a>
+
+Based on the above, here are the highlights:
+
+- The topmost card is an amalgamation of device details, ownership, management state, and security patch level. The gradient reacts to the freshness of the security patch level, as a primary indicator of overall device software support. It moves between green, orange, and red respectfully. 
+- The device posture card is actually currently based on a risk assessment, where all items are given a score based on their significance. I previously showed this device score out of 100, but have since opted to show Critical/At risk/All good statuses. I'll likely deprecate the score and pick up more explicitly based on the items and their impact directly.
+- The card grid captures most of the available data points offered by Device Trust, and each card will show a state according to risk. These are again green, orange, red respectfully.
+- Finally, critical apps are presented with their versions and installation source.
+
+What I don't currently have implemented is Google Play Integrity, and that's because - as above - the AMAPI SDK doesn't offer it as part of the trust snapshot. I'd _like it to_ rather than doing the integration myself, but I'll likely end up adding it in later.
+
+So that's the bottom sheet. As I considered the available signals further, I considered the EMM use case and where they could be of further value. I added them to two distinct locations within the EMM-managed experience I've been building: 
+
+**The Managed Device Dashboard**
+
+For EMM-enrolled devices, the Managed Device Dashboard is my opinionated view of a central experience for all EMM-related information and services. For those following along at home with an installed version of MANAGED INFO (1.1.1.0 at time of writing), on EMM-managed devices this is available via Settings (<span class="material-symbols-outlined">menu</span>) > Managed device dashboard.
+
+<a href="https://cdn.bayton.org/uploads/2025/device_trust_managed_device_dashboard.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_managed_device_dashboard.png" alt="Managed device dashboard" style="max-width:400px;"></a>
+
+The information grid at the top of this page is a mixture of managed configuration, and Device Trust signals.
+
+- FrontDoor-01 is managed config, falling back to device model provided by Trust
+- Management provider is Trust, provided in SDK version 1.7.0-rc01
+- Policy, Group, are managed config
+- SPL, Ownership, Mode is Trust
+- Role actually comes from the AMAPI SDK, but outside of Trust. When an application role is assigned (added in September 2025) it will send a notification to any configured receiver an application may make available. While I was working on Device Trust, I also added full role support to be able to receive these role notifications, save the assigned role to datastore, and make it available in the Managed Device Dashboard. I think it's nifty.
+
+The rest of the screen make up various projects I'm working on, and aren't wholly relevant here. More docs on anything of interest can be found on the [MANAGED INFO documentation](/projects/managed-info/support).
+
+**SetupActions during enrolment**
+
+Again for EMM-enrolled devices, MANAGED INFO can offer a customisable (when I enable it, likely 1.1.2) enrolment screen typically provided by companion applications. Since I'd integrated the SDK and have completed a few projects that required MANAGED INFO to be opened on enrolment, I figured a SetupActions flow would make sense to ensure it happens.
+
+_Typically_ shortly after completing this, the support for application roles included the ability to silently awaken installed applications when a role is assigned, rendering this somewhat redundant now, but still, I have it, and Trust signals here felt like a nice addition:
+
+<a href="https://cdn.bayton.org/uploads/2025/device_trust_setupactions.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_setupactions.png" alt="Setup Actions screen" style="max-width:400px;"></a>
+
+Not dissimilar to the Managed Device Dashboard, the SetupActions screen here simply exposes a few pertinent details of enrolment; a mixture again of managed configuration information, and Trust signals.
+
+- Management provider (not shown) is provided by Trust
+- Ownership, Mode are provided by Trust
+- Policy, Group are provided by managed configuration.
+
+As an EMM-managed device, _all_ of this could be provided through managed configuration; that's how I would have done this previously, but I really quite like the idea that this information is local to the device - no matter what an MDM could _want_ to provide, what the device is experiencing directly is what's shown here. It's a nice little piece of validation.
+
+## Challenges
+
+**Play Integrity**  
+As above, the primary omission is Play Integrity. I _will_ get to this, but I'd have preferred to see this provided by the SDK as part of the Trust snapshot.
+
+**Application sources**  
+If you paid close attention to the screenshots of the bottom sheet above, you may have noticed all critical apps are showing up "Unspecified". This _appears_ to be a Device Trust bug/issue, as it's returned this way in the snapshot. I know I can override this, I've pulled this data myself in [Package Search](/projects/package-search/) however I'd prefer it if I could show data from DT unmodified.
+
+**Critical apps**  
+Currently on some devices in the last week or so, critical apps shown go far beyond the five or so Device Trust typically provides, and returns in the snapshot _every_ system app available on the device. I assume this is a bug, so hopefully this will revert soon.
+
+<a href="https://cdn.bayton.org/uploads/2025/device_trust_critical_apps_bug.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_critical_apps_bug.png" alt="Critical apps bug" style="max-width:400px;"></a>
+
+## TODO
+
+I mentioned a few pending items in the above, but to summarise everything coming to this feature in due course:
+
+- Play Integrity integration
+- Tap actions: It's fine showing developer options are enabled, but with tap actions I'll allow device users (where enabled) to tap to the relevant location in Settings to rectify the ongoing issue, this could be disabling developer options, checking for an update, turning on Play Protect, and so on.
+- Remote endpoint exports: Similar to the location feature, I'll add in basic API exports. Currently this requires a bearer, I'm considering webhook support amongst others. If you're interested in exploring this and have ideas, get in touch!
+- General improvements and fixes: Having done a pretty solid first-pass, I'll spin around from the beginning and do a bit of cleanup, likely starting with the score-based state card.
 
 ## Final thoughts
 
-Device Trust adds a strategic posture layer to Android’s security foundation, helping organisations align with modern cybersecurity and Zero Trust principles. It’s not a replacement for MDM or attestation but a smart bridge between them, enabling any approved app or service to reason about trust — even on unmanaged devices — making conditional access smarter, more responsive, and user-friendly.
+Device Trust adds an important layer to Android’s security foundation, helping organisations align with modern cybersecurity and Zero Trust principles, irrespective of device management, and allows more of the partner ecosystem to build smarter, faster solutions leveraging signals not previously easily available to them. It’s not a replacement for MDM, nor should it be, but adds a brilliant middle-ground that fills a gap left vacant for a long time.
+
+I think it'll equally be a solid stepping stone into full device management for many over the coming years, and I look forward to driving its adoption where I can over time.
 
 If you’re working with IdPs, EMMs, MTDs, or developing real-time device hygiene and access decisions, Device Trust deserves a serious look.
