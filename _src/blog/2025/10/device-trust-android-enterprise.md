@@ -184,7 +184,7 @@ So that's the bottom sheet. As I considered the available signals further, I con
 
 **The Managed Device Dashboard**
 
-For EMM-enrolled devices, the Managed Device Dashboard is my opinionated view of a central experience for all EMM-related information and services. For those following along at home with an installed version of MANAGED INFO (1.1.1.0 at time of writing), on EMM-managed devices this is available via Settings (<span class="material-symbols-outlined">menu</span>) > Managed device dashboard.
+For EMM-enrolled devices, the Managed Device Dashboard is my opinionated view of a central experience for all EMM-related information and services. For those following along at home with an installed version of MANAGED INFO (1.1.1.1 at time of writing), on EMM-managed devices this is available via Settings (<span class="material-symbols-outlined">menu</span>) > Managed device dashboard.
 
 <a href="https://cdn.bayton.org/uploads/2025/device_trust_managed_device_dashboard.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_managed_device_dashboard.png" alt="Managed device dashboard" style="max-width:400px;"></a>
 
@@ -231,10 +231,10 @@ Currently on some devices in the last week or so, critical apps shown go far bey
 
 I mentioned a few pending items in the above, but to summarise everything coming to this feature in due course:
 
-- Play Integrity integration
-- Tap actions: It's fine showing developer options are enabled, but with tap actions I'll allow device users (where enabled) to tap to the relevant location in Settings to rectify the ongoing issue, this could be disabling developer options, checking for an update, turning on Play Protect, and so on.
-- Remote endpoint exports: Similar to the location feature, I'll add in basic API exports. Currently this requires a bearer, I'm considering webhook support amongst others. If you're interested in exploring this and have ideas, get in touch!
-- General improvements and fixes: Having done a pretty solid first-pass, I'll spin around from the beginning and do a bit of cleanup, likely starting with the score-based state card.
+- **Play Integrity integration**
+- **Tap actions**: It's fine showing developer options are enabled, but with tap actions I'll allow device users (where enabled) to tap to the relevant location in Settings to rectify the ongoing issue, this could be disabling developer options, checking for an update, turning on Play Protect, and so on.
+- **Remote endpoint exports**: Similar to the location feature, I'll add in basic API exports. Currently this requires a bearer, I'm considering webhook support amongst others. If you're interested in exploring this and have ideas, get in touch!
+- **General improvements and fixes**: Having done a pretty solid first-pass, I'll spin around from the beginning and do a bit of cleanup, likely starting with the score-based state card.
 
 ## Final thoughts
 
