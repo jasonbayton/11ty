@@ -95,8 +95,11 @@ These help map device posture to meaningful states, either locally or back in yo
 Device Trust is most powerful when different roles in the stack use it in concert. Here are some examples:
 
 **EMMs / UEMs**: Much of the data already exists for EMMs with managed devices, but a companion application could, in theory, be far more reactive to immediate state changes; triggering policy changes the moment a device returns poor posture, blocking devices that no longer meet posture requirements in the moment rather than on the next interaction with the AMAPI services/MDM backend. The bigger opportunity, for me, comes with the value EMMs can offer for unmanaged devices; tracking assets and their posture without full control of a device will make the prospect of posture-gated resource access far more palatable.
+
 **Identity Providers (IdPs)**: Gate login or data access based on posture (for example, disallow sign-in if device exceeds patch tolerance). This one is a clear and obvious use. 
+
 **MTDs / Threat Tools**: Correlate threat signals with verified posture to refine risk scoring, build stronger threat profiles based on device information, and influence EMM policy actions where a management platform is detected.
+
 **Security Tools**: Surface posture locally in the app, explain compliance to users, and offer integration into remote SIEM, access, or security logging systems. Independent tools I feel offer the strongest opportunity for the most flexible integrations, and is the route I'm testing currently.
 
 ### Policy, decisioning, and layering
