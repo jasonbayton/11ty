@@ -19,17 +19,17 @@ Far from being *just another management API*, Device Trust is positioned as a co
 
 To reiterate - because this can't be understated - with Device Trust, it's no longer about **managing the device**, instead choosing to make use of the device signals offered to ensure even without heavy, restrictive, or invasive device management policies, access can be granted to corporate resources. 
 
-Google frequently, and rightly, points out that many data breaches in organisations stem from inappropriate access on mobile devices; reasons can include weak device posture, outdated software/security patching, or unsecure networks (amongst others). Device Trust aims to surface these signals for vendors, providing the ability to make in-the-moment decisions based on real signals, not assumptions.
+Google frequently, and rightly, points out that many data breaches in organisations stem from inappropriate access on mobile devices; reasons can include weak device posture, outdated software/security patching, or unsecure networks (amongst others). Device Trust aims to surface signals that highlight these risks for vendors, providing the ability to make in-the-moment decisions based on real signals, not assumptions.
 
 ## What Device Trust is - and isn’t
 
-Although Device Trust requires the Android Device Policy application to fetch and return a snapshot, there's no _management_ involved. Android Device Policy sits in a privileged position on-device, granted the appropriate roles to always be able to fetch a mix of public and restricted (typically to DPC) signals immediately on request.
+Although Device Trust requires the Android Device Policy application to fetch and return a snapshot, there's no _management_ required. Android Device Policy sits in a privileged position on-device, granted the appropriate roles to always be able to fetch a mix of public and restricted (typically to DPC) signals immediately on request.
 
 Of course if the device _is_ managed, be that on the Android Management API or another platform, it makes no meaningful difference. If anything it takes some of the permission management out of the setup process when pre-granted by policy.
 
-Device Trust surfaces a verified snapshot of the specific device it's running on: who manages it, how it’s configured, what security controls are present, and whether anything looks risky, so downstream services can base decisions on current telemetry instead of guesswork. 
+Whatever the environment, Device Trust surfaces a verified snapshot of the specific device it's running on: who manages it, how it’s configured, what security controls are present, and whether anything looks risky, so downstream services can base decisions on current telemetry. 
 
-It stops short of enforcing policy, remediating issues, or replacing Android attestation; it’s simply the context layer that turns raw device signals into something IdPs, EMMs, and other vendor types can act upon.
+It stops short of enforcing policy, remediating issues, or replacing Android attestation; it’s simply the context layer that turns raw device signals into something IdPs, EMMs, and other vendor types can act upon, and that's the whole point.
 
 You can find the official overview [here](https://support.google.com/work/android/answer/16166663?hl=en). The developer docs explain how to register and pull these snapshots.
 
@@ -39,7 +39,7 @@ First and foremost, as above this platform is for approved partners only, and ga
 
 Additionally, support is provided for Android 10 and above. Even on Android 10 the likelihood is strong devices would fall foul of any desired posture states in use across most organisations (in other words, if you're running < Android 10, you don't need Device Trust to tell you you're running an outdated and likely unsecured estate).
 
-In a nutshell, because I'll go into this in more detail later, there are two approaches I see that would look to lean on Device Trust:
+In a nutshell, there are two approaches I see that would look to lean on Device Trust:
 
 - You're a vendor wishing to integrate trust-based policies/data points for Android devices into your solution
 - You're an organisation looking to adopt access/monitoring without full device management
@@ -51,7 +51,7 @@ Why would an organisation opt out of full management? There may be several reaso
 - No desire for full device management, but a requirement to ensure devices are secure
 - Roaming or temporary access requirements for contractors, seasonal workers, etc.
 
-Are the more reasons? Absolutely. Could you challenge the reasons above with counterarguments and education to the benefits of full management? Also yes. Ultimately however this is about flexibility; if I'm engaging with a customer whose employee base echoes a persistent (incorrect) perception that an MDM can see what you're doing, track your app usage, view your files, so on.. and no justification is working, I'd sooner see them implement a middle-ground like Device Trust over nothing at all. 
+Are the more reasons? Absolutely. Could you challenge the reasons above with counterarguments and education to the benefits of full management? Also yes. Ultimately however this is about flexibility; if I'm engaging with a customer whose employee base echoes a persistent (incorrect) perception that an MDM can watch what you're doing, track your app usage, view your files, so on.. and no justification is working, I'd sooner see them implement a middle-ground like Device Trust over nothing at all. 
 
 Device Trust currently provides over 20 device signals, closely tied alongside the Play Integrity API (integrated separately), covering things like:
 
@@ -76,13 +76,13 @@ If you're a Mobile Threat Defence vendor, an Identity Provider, or a security so
 
 If you're one of several vendors on a device - a device could easily have an IDP, an EMM, and an MTD solution in play across an estate today - your solution along with several others could be polling for this data constantly, and potentially fetching dissimilar results based on how and when data is fetched. 
 
-Device Trust by comparison feeds consistent, high-level posture signals to all approved applications in a structured and consistent way. It means all of these vendors can play nicely together without the historical tether to management. No longer would an MTD solution require API access into an EMM to understand the current (or last-received, at least) posture of a device. No longer would security tools _have_ to integrate with other solutions to get the same - all approved vendors can call their own snapshot and receive it in milliseconds. 
+Device Trust by comparison feeds consistent, high-level posture signals to all approved applications in a structured and reliable way. It means all of these vendors can play nicely together without the historical tether to management. No longer would an MTD solution require API access into an EMM to understand the current (or last-received, at least) posture of a device. No longer would security tools _have_ to integrate with other solutions to get the same - all approved vendors can call their own snapshot and receive it in milliseconds. 
 
-Coming at it from another angle.. no longer do non-EMM solutions require a customer has an EMM (or build one themselves) to get information from a device historically tied to either a Device Administrator or a Device Policy Controller (MDM agent). 
+Coming at it from another angle.. no longer do non-EMM solutions require a customer has an EMM (or build/bundle one themselves) to get information from a device historically tied to either a Device Administrator or a Device Policy Controller (MDM agent). 
 
 This in itself is a big deal.
 
-For the EMMs themselves, Device Trust offers a route to "managing" devices without a DPC, without enrolment, without wiping data or potentially even clashing with another EMM already on a device. It requires minimal work to adopt devices en-masse, and can still enable a hybrid asset management/access policy solution that gates internal resources. 
+For the EMMs themselves, Device Trust offers a route to "managing" (quoted to mean more asset inventory) devices without a DPC, without enrolment, without wiping data or potentially even clashing with another EMM already on a device. It requires minimal work to adopt devices en-masse, and can still enable a hybrid asset management/access policy solution that gates internal resources. 
 
 In fact, I imagine this will become a popular option within the ecosystem, purely from the sheer number of organisations I speak to who _will not_ reset existing devices to gain a level of management today (and Google won't enable DPC migration, despite Apple [introducing equivalent in iOS 26](https://support.apple.com/en-gb/guide/deployment/dep4acb2aa44/web)), at least until the next hardware refresh cycle. Allowing an EMM to offer something of value for these devices is considerable.
 
@@ -176,14 +176,14 @@ override fun getPrepareEnvironmentListener(): EnvironmentListener {
 
 These steps don't include general organisation and prep for fetching, caching, and using Device Trust data within MANAGED INFO, but as that's somewhat subjective from project to project I've left it out. What I will say is rather than storing the snapshot to datastore, I cache it to classes when pulled through a ViewModel, as the data can (and is expected to) change often; sitting on stale info when it takes moments to refresh seemed unnecessary. This also applies when I finish implementing the ability to export the data to a remote endpoint; workers will fetch the state on-run and always return the freshest data possible. What _does_ go to datastore are things like permission decisions, consent for install, and other items that determine the user experience presented.
 
-Basically everything above is already presented in the [integration guide for Device Trust](https://developers.google.com/android/management/device-trust-api), which I'd recommend reviewing as the source of truth, _not_ my examples above. Once implemented, I was able to build up a relatively straight-forward dashboard in a bottom sheet:
+Basically everything above is already explained in the [integration guide for Device Trust](https://developers.google.com/android/management/device-trust-api), which I'd recommend reviewing as the source of truth, _not_ my examples above. Once implemented, I was able to build up a relatively straight-forward dashboard in a bottom sheet:
 
 <a href="https://cdn.bayton.org/uploads/2025/device_trust_bottomsheet_pixel.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_bottomsheet_pixel.png" alt="Pixel bottom sheet"></a>
 
 Based on the above, here are the highlights:
 
 - The topmost card is an amalgamation of device details, ownership, management state, and security patch level. The gradient reacts to the freshness of the security patch level, as a primary indicator of overall device software support. It moves between green, orange, and red respectfully. 
-- The device posture card is actually currently based on a risk assessment, where all items are given a score based on their significance. I previously showed this device score out of 100, but have since opted to show Critical/At risk/All good statuses. I'll likely deprecate the score and pick up more explicitly based on the items and their impact directly.
+- The device posture card is actually currently based on a risk assessment, where all items are given a score based on their significance. I previously showed this device score out of 100, but have since opted to show Critical/At risk/All good statuses. I'll likely deprecate the score and instead more explicitly highlight individual items based on their impact directly.
 - The card grid captures most of the available data points offered by Device Trust, and each card will show a state according to risk. These are again green, orange, red respectfully.
 - Finally, critical apps are presented with their versions and installation source.
 
@@ -199,11 +199,11 @@ For EMM-enrolled devices, the Managed Device Dashboard is my opinionated view of
 
 The information grid at the top of this page is a mixture of managed configuration, and Device Trust signals.
 
-- FrontDoor-01 is managed config, falling back to device model provided by Trust
-- Management provider is Trust, provided in SDK version `1.7.0-rc01`
-- Policy, Group, are managed config
-- SPL, Ownership, Mode is Trust
-- Role actually comes from the AMAPI SDK, but outside of Trust. When an application role is assigned (added in September 2025) it will send a notification to any configured receiver an application may make available. While I was working on Device Trust, I also added full role support to be able to receive these role notifications, save the assigned role to datastore, and make it available in the Managed Device Dashboard. I think it's nifty.
+- **FrontDoor-01** is managed config, falling back to device model provided by Trust
+- **Management provider** is Trust, provided in SDK version `1.7.0-rc01`
+- **Policy**, **Group**, are managed config
+- **SPL**, **Ownership**, **Mode** is Trust
+- **Role** actually comes from the AMAPI SDK, but outside of Trust. When an application role is assigned ([added in September 2025](https://developers.google.com/android/management/app-roles)) it will send a notification to any configured receiver an application may make available. While I was working on Device Trust, I also added full role support to be able to receive these role notifications, save the assigned role to datastore, and make it available in the Managed Device Dashboard. I think it's nifty.
 
 The rest of the screen make up various projects I'm working on, and aren't wholly relevant here. More docs on anything of interest can be found on the [MANAGED INFO documentation](/projects/managed-info/support).
 
@@ -228,6 +228,8 @@ As an EMM-managed device, _all_ of this could be provided through managed config
 **Play Integrity**  
 As above, the primary omission is Play Integrity. I _will_ get to this, but I'd have preferred to see this provided by the SDK as part of the Trust snapshot.
 
+Understanding Google may consider it redundant to provide it when an existing partner already has it, perhaps making it available as a separate call (rather than the default device) or with a flag would seem like a nice middle ground to me.
+
 **Application sources**  
 If you paid close attention to the screenshots of the bottom sheet above, you may have noticed all critical apps are showing up "Unspecified". This _appears_ to be a Device Trust bug/issue, as it's returned this way in the snapshot. I know I can override this, I've pulled this data myself in [Package Search](/projects/package-search/) however I'd prefer it if I could show data from DT unmodified.
 
@@ -241,8 +243,8 @@ Currently on some devices in the last week or so, critical apps shown go far bey
 I mentioned a few pending items in the above, but to summarise everything coming to this feature in due course:
 
 - **Play Integrity integration**
-- **Tap actions**: It's fine showing developer options are enabled, but with tap actions I'll allow device users (where enabled) to tap to the relevant location in Settings to rectify the ongoing issue, this could be disabling developer options, checking for an update, turning on Play Protect, and so on.
-- **Remote endpoint exports**: Similar to the location feature, I'll add in basic API exports. Currently this requires a bearer, I'm considering webhook support amongst others. If you're interested in exploring this and have ideas, get in touch!
+- **Tap actions**: It's fine showing developer options are enabled, but with tap actions I'll allow device users (where enabled) to tap to the relevant location in Settings to rectify the ongoing issue, this could be disabling developer options, checking for an update, turning on Play Protect, and so on. Whenever I add tap actions to things, I always consider the impact it may have on an organisation - for example tapping something that will open Settings may then unexpectedly give end users full Settings access on a device, even when this is disabled by policy (some tablets are notorious for this with their split-screen Settings view) - so make a restriction available in managed configs to turn it off.
+- **Remote endpoint exports**: Similar to the location feature, I'll add in basic API exports. Currently this requires a bearer, I'm considering webhook support amongst alternatives. If you're interested in exploring this and have ideas, get in touch!
 - **General improvements and fixes**: Having done a pretty solid first-pass, I'll spin around from the beginning and do a bit of cleanup, likely starting with the score-based state card.
 
 ## Final thoughts
