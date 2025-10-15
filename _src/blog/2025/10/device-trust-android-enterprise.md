@@ -1,6 +1,6 @@
 ---
 title: "Device Trust from Android Enterprise: What it is and how it works (hands-on)"
-date: '2025-10-12'
+date: '2025-10-15'
 status: publish
 author: 'Jason Bayton'
 excerpt: "Some of the benefits of enterprise management without the management. Learn why Device Trust is significant"
