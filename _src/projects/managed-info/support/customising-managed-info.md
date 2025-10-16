@@ -21,7 +21,7 @@ eleventyNavigation:
 Licence required
 </div>
 
-To set customisation options, your organisation must be licensed. If you do not have a valid licence, please contact [project-support@bayton.org](mailto:project-support@bayton.org) to obtain one. Pricing is defined on the [project page](/projects/managed-settings/#what-does-managed-settings-cost). 
+To set customisation options, your organisation must be licensed. If you do not have a valid licence, please contact [project-support@bayton.org](mailto:project-support@bayton.org) to obtain one. Pricing is defined on the [project page](/projects/managed-info/pricing/). 
 
 </div>
 
