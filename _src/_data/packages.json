@@ -50,6 +50,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -541,6 +546,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Специальные возможности"
+      },
+      {
         "locale": "nl-nl",
         "name": "Toegankelijkheid"
       },
@@ -570,6 +579,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -823,12 +837,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Ad privacy"
-      },
-      {
         "locale": "ru-ru",
         "name": "Конфиденциальность в рекламе"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Ad privacy"
       },
       {
         "locale": "es-es",
@@ -884,6 +898,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -1247,6 +1266,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Адаптивный звук"
+      },
+      {
         "locale": "fr-dz",
         "name": "Adapt Sound"
       },
@@ -1260,6 +1283,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -2893,6 +2921,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -3385,6 +3418,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -3938,6 +3976,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -4485,6 +4528,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -4974,6 +5022,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -5508,6 +5561,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -5978,12 +6036,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Android system"
-      },
-      {
         "locale": "ru-ru",
         "name": "Система Android"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Android system"
       },
       {
         "locale": "es-es",
@@ -6027,6 +6085,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -6635,6 +6698,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -7019,6 +7087,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -7717,6 +7790,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -8056,6 +8134,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -9829,6 +9912,10 @@
         "name": "Device security"
       },
       {
+        "locale": "ru-ru",
+        "name": "Защита приложений"
+      },
+      {
         "locale": "nl-nl",
         "name": "App-beveiliging"
       },
@@ -9858,6 +9945,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -10060,6 +10152,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Обновление приложения"
+      },
+      {
         "locale": "nl-nl",
         "name": "App-update"
       },
@@ -10089,6 +10185,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -10594,6 +10695,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Рекомендуемые приложения"
+      },
+      {
         "locale": "nl-nl",
         "name": "Aanbevelingen voor applicaties"
       },
@@ -10623,6 +10728,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -11975,6 +12085,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -12129,6 +12244,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -12259,6 +12379,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Автоблокировщик"
+      },
+      {
         "locale": "nl-nl",
         "name": "Automatisch blokkeren"
       },
@@ -12280,6 +12404,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -12453,6 +12582,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Автоматический рисунок"
+      },
+      {
         "locale": "nl-nl",
         "name": "Automatisch schetsen"
       },
@@ -12482,6 +12615,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -12625,6 +12763,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Автоматический режим точки доступа"
+      },
+      {
         "locale": "nl-nl",
         "name": "Auto-hotspot"
       },
@@ -12654,6 +12796,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -12797,6 +12944,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Автозаполнение с Samsung Pass"
+      },
+      {
         "locale": "nl-nl",
         "name": "Aanvullen met Samsung Pass"
       },
@@ -12818,6 +12969,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -12951,6 +13107,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Автоматическая проверка"
+      },
+      {
         "locale": "en-gb",
         "name": "Private Access Tokens"
       },
@@ -12968,6 +13128,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -13184,6 +13349,10 @@
         "name": "AR Emoji Editor"
       },
       {
+        "locale": "ru-ru",
+        "name": "Редактор аватара"
+      },
+      {
         "locale": "en-gb",
         "name": "AR Emoji Editor"
       },
@@ -13209,6 +13378,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -13439,6 +13613,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Стикеры аватара"
+      },
+      {
         "locale": "en-gb",
         "name": "AR Emoji Stickers"
       },
@@ -13464,6 +13642,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -13733,6 +13916,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -13981,6 +14169,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -14656,6 +14849,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -14860,6 +15058,10 @@
         "name": "com.samsung.android.biometrics.app.setting"
       },
       {
+        "locale": "ru-ru",
+        "name": "Биометрические данные"
+      },
+      {
         "locale": "nl-nl",
         "name": "Biometrie"
       },
@@ -14889,6 +15091,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -15034,6 +15241,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -15171,6 +15383,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -15324,6 +15541,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -15554,6 +15776,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -16159,6 +16386,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -16367,11 +16599,11 @@
         "name": "Bluetooth"
       },
       {
-        "locale": "en-gb",
+        "locale": "ru-ru",
         "name": "Bluetooth"
       },
       {
-        "locale": "ru-ru",
+        "locale": "en-gb",
         "name": "Bluetooth"
       },
       {
@@ -16452,6 +16684,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -16944,6 +17181,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -17514,6 +17756,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -18118,6 +18365,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -18437,6 +18689,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -19517,12 +19774,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Calendar storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Память календаря"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Calendar storage"
       },
       {
         "locale": "es-es",
@@ -19586,6 +19843,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -20120,6 +20382,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Вызов"
+      },
+      {
         "locale": "nl-nl",
         "name": "Bellen"
       },
@@ -20149,6 +20415,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -20469,6 +20740,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -21062,6 +21338,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Сервисы вызовов"
+      },
+      {
         "locale": "nl-nl",
         "name": "Oproepservices"
       },
@@ -21075,6 +21355,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -21187,6 +21472,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Настройки вызовов"
+      },
+      {
         "locale": "nl-nl",
         "name": "Oproepinstellingen"
       },
@@ -21216,6 +21505,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -21371,6 +21665,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -21515,6 +21814,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -21719,6 +22023,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Камера"
+      },
+      {
         "locale": "es-us",
         "name": "Cámara"
       },
@@ -21740,6 +22048,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -22597,6 +22910,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -23014,6 +23332,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -23264,12 +23587,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Captive portal login"
-      },
-      {
         "locale": "ru-ru",
         "name": "Авторизация на странице входа"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Captive portal login"
       },
       {
         "locale": "es-es",
@@ -23333,6 +23656,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -23995,12 +24323,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Operator communications"
-      },
-      {
         "locale": "ru-ru",
         "name": "CarrierDefaultApp"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Operator communications"
       },
       {
         "locale": "es-es",
@@ -24076,6 +24404,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -25305,6 +25638,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -25431,6 +25769,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -25979,12 +26322,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Certificate installer"
-      },
-      {
         "locale": "ru-ru",
         "name": "Установщик сертификатов"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Certificate installer"
       },
       {
         "locale": "es-es",
@@ -26036,6 +26379,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -26638,6 +26986,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -27180,6 +27533,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -27842,6 +28200,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Буфер обмена бокового экрана"
+      },
+      {
         "locale": "nl-nl",
         "name": "Klembord-edge"
       },
@@ -27871,6 +28233,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -28596,6 +28963,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Стиль часов"
+      },
+      {
         "locale": "es-us",
         "name": "Estilo de reloj"
       },
@@ -28609,6 +28980,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -28804,6 +29180,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -29219,6 +29600,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -29878,6 +30264,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -31141,6 +31532,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -31354,6 +31750,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -31856,6 +32257,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -33012,6 +33418,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -33796,6 +34207,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -34214,6 +34630,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -35009,6 +35430,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -35944,6 +36370,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -36493,6 +36924,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -37366,6 +37802,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -38990,6 +39431,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -41684,6 +42130,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -41958,6 +42409,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -42463,6 +42919,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -42887,6 +43348,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -44527,6 +44993,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -45290,6 +45761,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -45982,6 +46458,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -46639,6 +47120,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -47228,6 +47714,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -47564,6 +48055,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -48299,6 +48795,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -48655,6 +49156,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -49625,6 +50131,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -50073,6 +50584,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -50400,6 +50916,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -50547,6 +51068,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -50691,6 +51217,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -51073,6 +51604,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -51473,6 +52009,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -51642,6 +52183,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -52059,6 +52605,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -52453,6 +53004,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -53541,6 +54097,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -53918,6 +54479,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -62294,6 +62860,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
@@ -62683,6 +63254,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -62772,6 +63348,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -62912,6 +63493,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -63007,6 +63593,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -63108,6 +63699,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -63297,6 +63893,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -63427,6 +64028,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -63618,6 +64224,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -63765,6 +64376,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -63887,6 +64503,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -63997,6 +64618,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -64198,6 +64824,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -64342,6 +64973,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -64581,6 +65217,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -64685,6 +65326,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -64754,6 +65400,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -64961,6 +65612,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -65016,6 +65672,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-S921B",
@@ -65105,6 +65766,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -65169,6 +65835,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -65446,6 +66117,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -65570,6 +66246,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -65737,6 +66418,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -65895,6 +66581,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -68497,6 +69188,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -69293,6 +69989,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -69442,6 +70143,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -69930,6 +70636,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Сообщение конфигурации"
+      },
+      {
         "locale": "nl-nl",
         "name": "Configuratiebericht"
       },
@@ -69955,6 +70665,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -70088,6 +70803,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Обновление конфигурации"
+      },
+      {
         "locale": "nl-nl",
         "name": "Configuratie-update"
       },
@@ -70117,6 +70836,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -70355,6 +71079,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -70501,6 +71230,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -70705,6 +71439,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Контакты"
+      },
+      {
         "locale": "nl-nl",
         "name": "Contacten"
       },
@@ -70730,6 +71468,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -71297,6 +72040,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Хранилище контактов"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opgeslagen contactpersonen"
       },
@@ -71326,6 +72073,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -71874,6 +72626,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -72086,6 +72843,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -72272,12 +73034,22 @@
   "com.samsung.android.mcfds": {
     "appName": "Continuity Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Служба Continuity Service"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -72484,6 +73256,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -73103,12 +73880,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Credential manager"
-      },
-      {
         "locale": "ru-ru",
         "name": "Менеджер учетных данных"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Credential manager"
       },
       {
         "locale": "it-it",
@@ -73140,6 +73917,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -73452,6 +74234,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Крокро и его друзья"
+      },
+      {
         "locale": "nl-nl",
         "name": "Crocro en vrienden"
       },
@@ -73473,6 +74259,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -73847,6 +74638,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -74047,6 +74843,10 @@
         "name": "Customisation Service"
       },
       {
+        "locale": "ru-ru",
+        "name": "Служба персонализации"
+      },
+      {
         "locale": "en-gb",
         "name": "Customisation Service"
       },
@@ -74084,6 +74884,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -74822,12 +75627,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Default print service"
-      },
-      {
         "locale": "ru-ru",
         "name": "Служба печати по умолчанию"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Default print service"
       },
       {
         "locale": "es-es",
@@ -74883,6 +75688,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -75590,6 +76400,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Обслуживание устройства"
+      },
+      {
         "locale": "nl-nl",
         "name": "Apparaatonderhoud"
       },
@@ -75619,6 +76433,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -76126,6 +76945,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -76838,6 +77662,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -77091,6 +77920,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Диагностика устройства"
+      },
+      {
         "locale": "sv-se",
         "name": "Enhetsdiagnostik"
       },
@@ -77104,6 +77937,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -77305,6 +78143,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -77832,6 +78675,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -78168,6 +79016,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -78233,6 +79086,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Использование устройства"
+      },
+      {
         "locale": "nl-nl",
         "name": "Digitaal welzijn"
       },
@@ -78262,6 +79119,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -79287,6 +80149,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -79792,6 +80659,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -80338,6 +81210,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -80839,6 +81716,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81497,6 +82379,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -81668,6 +82555,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81845,6 +82737,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Двойной профиль приложений"
+      },
+      {
         "locale": "fr-dz",
         "name": "Messagerie double"
       },
@@ -81862,6 +82758,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -82159,6 +83060,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -82805,6 +83711,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -83056,12 +83967,22 @@
   "com.samsung.app.newtrim": {
     "appName": "Editor Lite",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Базовый видеоредактор"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -83869,6 +84790,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Экстренная связь"
+      },
+      {
         "locale": "nl-nl",
         "name": "Delen in noodgeval"
       },
@@ -83894,6 +84819,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -84027,6 +84957,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Экстренная помощь"
+      },
+      {
         "locale": "nl-nl",
         "name": "SOS noodgeval"
       },
@@ -84052,6 +84986,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -84818,6 +85757,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -85286,6 +86230,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -85449,6 +86398,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -85554,6 +86508,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-S921B",
@@ -85752,12 +86711,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "External storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Внешний накопитель"
+      },
+      {
+        "locale": "en-gb",
+        "name": "External storage"
       },
       {
         "locale": "es-es",
@@ -85801,6 +86760,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -86417,6 +87381,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Комфорт для глаз"
+      },
+      {
         "locale": "nl-nl",
         "name": "Comfortabel scherm voor uw ogen"
       },
@@ -86446,6 +87414,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -86610,6 +87583,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -86921,6 +87899,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -87065,6 +88048,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -87358,6 +88346,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -87592,6 +88585,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -87819,6 +88817,10 @@
         "name": "Favourite Contacts"
       },
       {
+        "locale": "ru-ru",
+        "name": "Избранные контакты"
+      },
+      {
         "locale": "en-gb",
         "name": "Favourite Contacts"
       },
@@ -87848,6 +88850,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -88295,6 +89302,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -89940,6 +90952,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -90124,6 +91141,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Поиск устройства"
+      },
+      {
         "locale": "nl-nl",
         "name": "Zoek mijn mobiel"
       },
@@ -90149,6 +91170,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -90986,6 +92012,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -91353,6 +92384,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -91892,6 +92928,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Аватар Galaxy"
+      },
+      {
         "locale": "en-gb",
         "name": "AR Emoji"
       },
@@ -91909,6 +92949,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -92060,6 +93105,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -92183,6 +93233,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -92326,6 +93381,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Настройка сервиса Galaxy"
+      },
+      {
         "locale": "nl-nl",
         "name": "Galaxy-service instellen"
       },
@@ -92347,6 +93406,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -92469,6 +93533,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -92628,6 +93697,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -92743,6 +93817,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Служба Galaxy Themes"
+      },
+      {
         "locale": "nl-nl",
         "name": "Service Galaxy Themes"
       },
@@ -92772,6 +93850,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -92937,6 +94020,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Галерея"
+      },
+      {
         "locale": "nl-nl",
         "name": "Galerij"
       },
@@ -92962,6 +94049,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -93100,6 +94192,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Галерея"
+      },
+      {
         "locale": "nl-nl",
         "name": "Galerij"
       },
@@ -93125,6 +94221,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -93428,6 +94529,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Истории “Галереи”"
+      },
+      {
         "locale": "nl-nl",
         "name": "Galerijverhalen"
       },
@@ -93457,6 +94562,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -93617,6 +94727,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -93831,6 +94946,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -94574,6 +95694,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -95005,6 +96130,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -95149,6 +96279,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -95551,6 +96686,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -95695,6 +96835,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -96697,6 +97842,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -97259,6 +98409,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -97854,6 +99009,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -98304,6 +99464,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -98793,6 +99958,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -99290,6 +100460,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -100042,6 +101217,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -100554,6 +101734,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -100829,6 +102014,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -101327,12 +102517,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Google Safety Centre resources"
-      },
-      {
         "locale": "ru-ru",
         "name": "Ресурсы Центра безопасности Google"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Google Safety Centre resources"
       },
       {
         "locale": "es-es",
@@ -101392,6 +102582,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -101950,6 +103145,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -102831,6 +104031,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -103181,6 +104386,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -103396,6 +104606,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -103593,6 +104808,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -103796,6 +105016,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -104009,6 +105234,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -104434,11 +105664,11 @@
         "name": "Google Assistant"
       },
       {
-        "locale": "en-gb",
+        "locale": "ru-ru",
         "name": "Google Assistant"
       },
       {
-        "locale": "ru-ru",
+        "locale": "en-gb",
         "name": "Google Assistant"
       },
       {
@@ -104479,6 +105709,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -105035,6 +106270,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -105797,6 +107037,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -106300,6 +107545,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -106497,6 +107747,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -106756,6 +108011,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -106908,6 +108168,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -107057,6 +108322,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -107320,12 +108590,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Input devices"
-      },
-      {
         "locale": "ru-ru",
         "name": "Устройства ввода"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Input devices"
       },
       {
         "locale": "es-es",
@@ -107361,6 +108631,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -108110,6 +109385,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -108685,6 +109965,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -109167,6 +110452,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -109910,6 +111200,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -110062,6 +111357,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -110202,6 +111502,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -110348,6 +111653,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -110490,6 +111800,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -110585,6 +111900,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -110709,6 +112029,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -110808,6 +112133,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -110943,6 +112273,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -111042,6 +112377,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -111187,6 +112527,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -111306,6 +112651,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -111456,6 +112806,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Средство запуска"
+      },
+      {
         "locale": "fr-dz",
         "name": "Module de lancement"
       },
@@ -111473,6 +112827,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -112086,6 +113445,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Связь с Windows"
+      },
+      {
         "locale": "nl-nl",
         "name": "Koppeling met Windows"
       },
@@ -112103,6 +113466,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -112240,6 +113608,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Служба “Связь с Windows”"
+      },
+      {
         "locale": "nl-nl",
         "name": "Koppeling met Windows Service"
       },
@@ -112253,6 +113625,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -112467,6 +113844,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Прямая расшифровка и уведомления о звуках"
+      },
+      {
         "locale": "en-gb",
         "name": "Live Transcribe and Sound Notifications"
       },
@@ -112504,6 +113885,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -112708,12 +114094,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Live wallpaper picker"
-      },
-      {
         "locale": "ru-ru",
         "name": "Выбор живых обоев"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Live wallpaper picker"
       },
       {
         "locale": "es-es",
@@ -112765,6 +114151,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -113496,6 +114887,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
@@ -114197,6 +115593,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Лупа"
+      },
+      {
         "locale": "nl-nl",
         "name": "Vergrootglas"
       },
@@ -114218,6 +115618,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -114426,6 +115831,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -114873,6 +116283,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -115407,6 +116822,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -115912,6 +117332,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -116579,6 +118004,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -117066,6 +118496,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -117705,6 +119140,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -118279,6 +119719,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -119441,6 +120886,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -120253,6 +121703,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -120913,6 +122368,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -121214,6 +122674,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Режимы и сценарии"
+      },
+      {
         "locale": "nl-nl",
         "name": "Standen en routines"
       },
@@ -121235,6 +122699,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -121491,6 +122960,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -123113,6 +124587,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Приложение для передачи медиафайлов (MTP)"
+      },
+      {
         "locale": "nl-nl",
         "name": "MTP-applicatie"
       },
@@ -123142,6 +124620,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -123350,6 +124833,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -123843,6 +125331,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Несколько устройств"
+      },
+      {
         "locale": "nl-nl",
         "name": "Multi-control"
       },
@@ -123864,6 +125356,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -124466,6 +125963,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Мои файлы"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mijn bestanden"
       },
@@ -124495,6 +125996,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -124927,6 +126433,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Поиск устройств поблизости"
+      },
+      {
         "locale": "nl-nl",
         "name": "Apparaten in de buurt"
       },
@@ -124956,6 +126466,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -125104,6 +126619,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Поиск устройств"
+      },
+      {
         "locale": "nl-nl",
         "name": "Apparaten in de buurt"
       },
@@ -125133,6 +126652,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -125281,6 +126805,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Устройства поблизости"
+      },
+      {
         "locale": "nl-nl",
         "name": "Apparaten in de buurt"
       },
@@ -125294,6 +126822,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -125395,6 +126928,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -125680,6 +127218,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -126300,6 +127843,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -126672,6 +128220,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -127133,12 +128686,12 @@
         "name": "Nfc Service"
       },
       {
-        "locale": "en-gb",
-        "name": "NFC service"
-      },
-      {
         "locale": "ru-ru",
         "name": "Служба NFC"
+      },
+      {
+        "locale": "en-gb",
+        "name": "NFC service"
       },
       {
         "locale": "es-es",
@@ -127214,6 +128767,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -127953,6 +129511,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -128591,6 +130154,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -129106,6 +130674,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -129472,6 +131045,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -129805,11 +131383,11 @@
         "name": "Google Assistant"
       },
       {
-        "locale": "en-gb",
+        "locale": "ru-ru",
         "name": "Google Assistant"
       },
       {
-        "locale": "ru-ru",
+        "locale": "en-gb",
         "name": "Google Assistant"
       },
       {
@@ -129850,6 +131428,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -130485,6 +132068,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Главный экран One UI"
+      },
+      {
         "locale": "nl-nl",
         "name": "Startpagina One UI"
       },
@@ -130510,6 +132097,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -130670,6 +132262,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -132076,6 +133673,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -132848,6 +134450,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -133380,6 +134987,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -134000,6 +135612,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Родительский контроль"
+      },
+      {
         "locale": "nl-nl",
         "name": "Ouderlijk toezicht"
       },
@@ -134021,6 +135637,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -134405,6 +136026,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Люди"
+      },
+      {
         "locale": "nl-nl",
         "name": "Personen"
       },
@@ -134434,6 +136059,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -134783,6 +136413,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -135297,6 +136932,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Использование разрешений"
+      },
+      {
         "locale": "nl-nl",
         "name": "Gebruik machtigingen"
       },
@@ -135326,6 +136965,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -135513,6 +137157,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -135647,6 +137296,10 @@
         "name": "Smart suggestions"
       },
       {
+        "locale": "ru-ru",
+        "name": "Аналитика личных данных"
+      },
+      {
         "locale": "en-gb",
         "name": "Smart suggestions"
       },
@@ -135672,6 +137325,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -136293,6 +137951,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Телефон"
+      },
+      {
         "locale": "nl-nl",
         "name": "Telefoon"
       },
@@ -136322,6 +137984,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -136851,12 +138518,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Phone and messaging storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Память – звонки и SMS/MMS"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Phone and messaging storage"
       },
       {
         "locale": "es-es",
@@ -136912,6 +138579,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -137409,12 +139081,12 @@
         "name": "Call Management"
       },
       {
-        "locale": "en-gb",
-        "name": "Phone calls"
-      },
-      {
         "locale": "ru-ru",
         "name": "Телефонные звонки"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Phone calls"
       },
       {
         "locale": "es-es",
@@ -137494,6 +139166,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -138016,12 +139693,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Phone services"
-      },
-      {
         "locale": "ru-ru",
         "name": "Телефон – сервисы"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Phone services"
       },
       {
         "locale": "es-es",
@@ -138073,6 +139750,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -138604,6 +140286,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -138691,6 +140378,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Фоторедактор"
+      },
+      {
         "locale": "nl-nl",
         "name": "Foto-editor"
       },
@@ -138720,6 +140411,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -138901,6 +140597,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -139146,6 +140847,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -139285,6 +140991,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -139656,12 +141367,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Photos and videos"
-      },
-      {
         "locale": "ru-ru",
         "name": "Фото и видео"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Photos and videos"
       },
       {
         "locale": "es-es",
@@ -139717,6 +141428,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -141217,6 +142933,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Портрет"
+      },
+      {
         "locale": "nl-nl",
         "name": "Portret"
       },
@@ -141238,6 +142958,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -141647,6 +143372,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -142188,6 +143918,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -142688,6 +144423,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -143290,6 +145030,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -143815,12 +145560,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Punch hole cutout"
-      },
-      {
         "locale": "ru-ru",
         "name": "Вырез Punch Hole"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Punch hole cutout"
       },
       {
         "locale": "es-es",
@@ -143900,6 +145645,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -144405,6 +146155,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
@@ -144585,6 +146340,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
@@ -145152,8 +146912,18 @@
   "com.samsung.android.app.sharelive": {
     "appName": "Quick Share",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "ru-ru",
+        "name": "Быстрая отправка"
+      }
+    ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -145301,6 +147071,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Агент функции “Быстрая отправка”"
+      },
+      {
         "locale": "nl-nl",
         "name": "Quick Share-agent"
       },
@@ -145326,6 +147100,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -145469,6 +147248,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Подключение функции “Быстрая отправка”"
+      },
+      {
         "locale": "nl-nl",
         "name": "Connectiviteit van Quick Share"
       },
@@ -145498,6 +147281,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -146202,6 +147990,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Рекомендуемые приложения"
+      },
+      {
         "locale": "nl-nl",
         "name": "Aanbevolen apps"
       },
@@ -146227,6 +148019,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -146710,53 +148507,6 @@
       }
     ]
   },
-  "com.android.remoteprovisioner": {
-    "appName": "RemoteProvisioner",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "brya",
-        "os": "33"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "M2012K11AG",
-        "os": "33"
-      },
-      {
-        "make": "CUBOT",
-        "model": "P80",
-        "os": "33"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "31"
-      },
-      {
-        "make": "Dahua",
-        "model": "MC480-U",
-        "os": "33"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
-      },
-      {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "33"
-      }
-    ]
-  },
   "com.android.rkpdapp": {
     "appName": "RemoteProvisioner",
     "userFacing": false,
@@ -146767,6 +148517,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -146986,6 +148741,53 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.remoteprovisioner": {
+    "appName": "RemoteProvisioner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "M2012K11AG",
+        "os": "33"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "31"
+      },
+      {
+        "make": "Dahua",
+        "model": "MC480-U",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
       }
     ]
   },
@@ -147619,6 +149421,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Ошибка"
+      },
+      {
         "locale": "nl-nl",
         "name": "Fout"
       },
@@ -147644,6 +149450,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -147823,6 +149634,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -148617,6 +150433,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Сведения о безопасности"
+      },
+      {
         "locale": "nl-nl",
         "name": "Beveiligingsgegevens"
       },
@@ -148646,6 +150466,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -148896,6 +150721,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -149208,6 +151038,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -149353,6 +151188,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Съемка Samsung"
+      },
+      {
         "locale": "nl-nl",
         "name": "Samsung vastleggen"
       },
@@ -149382,6 +151221,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -149537,6 +151381,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -149682,6 +151531,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -149858,6 +151712,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -150000,6 +151859,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -150139,6 +152003,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -150294,6 +152163,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -150374,6 +152248,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Главный экран Samsung DeX"
+      },
+      {
         "locale": "nl-nl",
         "name": "Startscherm Samsung DeX"
       },
@@ -150391,6 +152269,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -150478,6 +152361,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -150585,6 +152473,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -150932,6 +152825,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -151086,6 +152984,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Клавиатура Samsung"
+      },
+      {
         "locale": "nl-nl",
         "name": "Samsung Toetsenbord"
       },
@@ -151115,6 +153017,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -151282,6 +153189,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Установщик Samsung Kids"
+      },
+      {
         "locale": "nl-nl",
         "name": "Installatieprogramma Samsung Kids"
       },
@@ -151307,6 +153218,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -151523,6 +153439,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -151686,6 +153607,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -151830,6 +153756,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -152009,6 +153940,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -152159,6 +154095,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -152268,6 +154209,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -152428,6 +154374,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Мастер настройки Samsung"
+      },
+      {
         "locale": "nl-nl",
         "name": "Samsung Instelwizard"
       },
@@ -152457,6 +154407,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -152707,6 +154662,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Модуль TTS Samsung"
+      },
+      {
         "locale": "nl-nl",
         "name": "Samsung tekst naar spraak-engine"
       },
@@ -152736,6 +154695,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -152896,6 +154860,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Гарнитура USB-C от Samsung"
+      },
+      {
         "locale": "nl-nl",
         "name": "Samsung USB-C-headset"
       },
@@ -152913,6 +154881,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -153117,6 +155090,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -153237,6 +155215,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -153410,6 +155393,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -153539,6 +155527,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -153618,6 +155611,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -153730,6 +155728,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -153880,6 +155883,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -154017,6 +156025,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -154097,6 +156110,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-S921B",
@@ -154201,6 +156219,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -154310,6 +156333,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -154415,6 +156443,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -154544,6 +156577,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -154692,6 +156730,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -154816,6 +156859,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -154929,6 +156977,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -155034,6 +157087,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -155165,6 +157223,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -155255,6 +157318,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -155379,6 +157447,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -155515,6 +157588,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -155605,6 +157683,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -156922,6 +159005,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -157062,6 +159150,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -157226,6 +159319,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Папка Knox"
+      },
+      {
         "locale": "nl-nl",
         "name": "Veilige map"
       },
@@ -157243,6 +159340,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -157655,6 +159757,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -158318,6 +160425,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -158575,6 +160687,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
       },
@@ -158777,6 +160894,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Раздельный вывод звука"
+      },
+      {
         "locale": "nl-nl",
         "name": "Afzonderlijk app-geluid"
       },
@@ -158806,6 +160927,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -158958,6 +161084,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -159132,6 +161263,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -159284,6 +161420,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -159418,6 +161559,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -159565,6 +161711,10 @@
         "name": "Configuration update"
       },
       {
+        "locale": "ru-ru",
+        "name": "Настройка поставщика услуг"
+      },
+      {
         "locale": "en-gb",
         "name": "Configuration update"
       },
@@ -159598,6 +161748,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -159862,6 +162017,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -160591,12 +162751,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Settings storage"
-      },
-      {
         "locale": "ru-ru",
         "name": "Хранилище настроек"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Settings storage"
       },
       {
         "locale": "es-es",
@@ -160640,6 +162800,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -161234,12 +163399,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Settings suggestions"
-      },
-      {
         "locale": "ru-ru",
         "name": "Рекомендованные настройки"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Settings suggestions"
       },
       {
         "locale": "es-es",
@@ -161283,6 +163448,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -161765,6 +163935,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -162066,6 +164241,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -162333,6 +164513,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -162855,6 +165040,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -163085,6 +165275,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -163249,12 +165444,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Sim app dialogue"
-      },
-      {
         "locale": "ru-ru",
         "name": "Приложение для SIM-карты"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Sim app dialogue"
       },
       {
         "locale": "es-es",
@@ -163314,6 +165509,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -163921,6 +166121,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "SIM-меню"
+      },
+      {
         "locale": "en-gb",
         "name": "SIM Toolkit"
       },
@@ -163946,6 +166150,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -164138,6 +166347,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -164637,6 +166851,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -164882,6 +167101,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Мультикадр"
+      },
+      {
         "locale": "it-it",
         "name": "Scatto singolo"
       },
@@ -164895,6 +167118,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -165046,6 +167274,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -165217,6 +167450,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -165434,6 +167672,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -165897,6 +168140,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -166043,6 +168291,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -166222,6 +168475,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -166365,6 +168623,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -166633,6 +168896,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -166789,6 +169057,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -167003,6 +169276,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -167172,6 +169450,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Обновление ПО"
+      },
+      {
         "locale": "nl-nl",
         "name": "Softwareupdate"
       },
@@ -167201,6 +169483,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -167349,6 +169636,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Обновление ПО"
+      },
+      {
         "locale": "nl-nl",
         "name": "Softwareupdate"
       },
@@ -167378,6 +169669,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -167961,6 +170257,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Выбор звука"
+      },
+      {
         "locale": "nl-nl",
         "name": "Geluid selecteren"
       },
@@ -167990,6 +170290,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -168138,6 +170443,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Качество звука и эффекты"
+      },
+      {
         "locale": "nl-nl",
         "name": "Geluidskwaliteit en -effecten"
       },
@@ -168167,6 +170476,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -169093,6 +171407,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -169898,6 +172217,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -170130,6 +172454,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -170560,6 +172889,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Совместный доступ к хранилищу"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag delen"
       },
@@ -170573,6 +172906,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-S921B",
@@ -170739,6 +173077,10 @@
       {
         "locale": "",
         "name": "Video Editor"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Студия"
       }
     ],
     "devices": [
@@ -170746,6 +173088,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -171022,6 +173369,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -171490,6 +173842,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -172082,6 +174439,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -172602,6 +174964,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -172880,6 +175247,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -173408,12 +175780,12 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "System tracing"
-      },
-      {
         "locale": "ru-ru",
         "name": "Трассировка системы"
+      },
+      {
+        "locale": "en-gb",
+        "name": "System tracing"
       },
       {
         "locale": "es-es",
@@ -173453,6 +175825,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -173962,6 +176339,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -174783,6 +177165,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "brya",
         "os": "33"
@@ -175173,12 +177560,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "System Wi-Fi resources"
-      },
-      {
         "locale": "ru-ru",
         "name": "Системные ресурсы Wi-Fi"
+      },
+      {
+        "locale": "en-gb",
+        "name": "System Wi-Fi resources"
       },
       {
         "locale": "en-au",
@@ -175242,6 +177629,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -175873,6 +178265,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Теги"
+      },
+      {
         "locale": "it-it",
         "name": "Tag"
       }
@@ -175882,6 +178278,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -176012,6 +178413,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -176492,6 +178898,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -176681,6 +179092,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -177239,6 +179655,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -178017,6 +180438,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -178584,6 +181010,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -179509,6 +181940,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Инструменты"
+      },
+      {
         "locale": "nl-nl",
         "name": "Hulpmiddelen"
       },
@@ -179534,6 +181969,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -179995,6 +182435,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -181147,6 +183592,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -181333,6 +183783,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -182775,6 +185230,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -182963,6 +185423,10 @@
         "name": "Video call effects"
       },
       {
+        "locale": "ru-ru",
+        "name": "Видеоэффекты"
+      },
+      {
         "locale": "en-gb",
         "name": "Video call effects"
       },
@@ -182988,6 +185452,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -183106,6 +185575,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Видеоплеер"
+      },
+      {
         "locale": "nl-nl",
         "name": "Videospeler"
       },
@@ -183135,6 +185608,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -183478,6 +185956,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -183720,6 +186203,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Включение голосом"
+      },
+      {
         "locale": "nl-nl",
         "name": "Gesproken wake-upopdracht"
       },
@@ -183733,6 +186220,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-S921B",
@@ -183948,6 +186440,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -184109,6 +186606,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -184933,6 +187435,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Обои и стиль"
+      },
+      {
         "locale": "nl-nl",
         "name": "Achtergrond en stijl"
       },
@@ -184962,6 +187468,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -185105,6 +187616,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Динамическая заставка"
+      },
+      {
         "locale": "nl-nl",
         "name": "Achtergrondservices"
       },
@@ -185134,6 +187649,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -185666,6 +188186,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -186142,6 +188667,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -186289,6 +188819,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -186429,6 +188964,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Погода"
+      },
+      {
         "locale": "nl-nl",
         "name": "Weer"
       },
@@ -186454,6 +188993,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -187086,6 +189630,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Вызовы по Wi-Fi"
+      },
+      {
         "locale": "nl-nl",
         "name": "Bellen via Wi-Fi"
       },
@@ -187111,6 +189659,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -187379,6 +189932,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "ru-ru",
+        "name": "Советы по использованию Wi-Fi"
+      },
+      {
         "locale": "nl-nl",
         "name": "Tips voor Wi-Fi"
       },
@@ -187400,6 +189957,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -187641,6 +190203,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
@@ -188009,6 +190576,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -188580,6 +191152,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A266B",
         "os": "35"
       },
@@ -188806,6 +191383,11 @@
         "make": "samsung",
         "model": "SM-N986B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -190187,6 +192769,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-G766B",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A266B",
