@@ -35,7 +35,7 @@ After entering the admin override password, a bottom sheet appears listing all a
 
 ### AMAPI kiosk mode
 
-For admin override to work in AMAPI kiosk mode, only apps that are allowlisted in your AMAPI policy can be launched. Even if an app is visible, it cannot be opened unless it is included in the allowlist. To ensure the desired apps are accessible via admin override, update your AMAPI policy to include all relevant applications.
+For admin override to work in AMAPI kiosk mode, only apps that are allowlisted in your AMAPI policy can be launched. Even if an app is visible, it cannot be opened unless it is included in the allowlist. To ensure the desired apps are accessible via admin override, update your AMAPI policy to include all relevant applications. They will not be shown in any app cards by default by doing this (unlike the baked-in Android kiosk).
 
 ### Custom DPC
 
@@ -45,6 +45,7 @@ For custom DPC deployments, ensure your LockTask policy includes all apps you wa
 ## Example policy configuration
 
 **AMAPI example:**
+
 ```json
 "applications": [
     {
@@ -59,6 +60,7 @@ For custom DPC deployments, ensure your LockTask policy includes all apps you wa
 ```
 
 **Custom DPC example:**
+
 ```json
 "lockTaskAllowedPackages": [
     "com.example.app1",

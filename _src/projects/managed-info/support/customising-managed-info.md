@@ -98,6 +98,17 @@ MANAGED INFO offers the following customisations:
 **Additional colour options** _-1.0.5.0_
 : It is possible to set unique text colours based on whether the text is in a card, or on the background of the app (e.g., card titles vs card content).
 
+**Restrict connectivity card** _1.0.5.1_
+: Show or hide the Android Enterprise connectivity check card.
+
+**Deploy applications via APK file** _1.0.8.1_
+: Deploy any device-accessible APK file to an Android device, as long as MANAGED INFO is configured as a companion app.
+
+**Support EMM data configuration** _1.0.9.0_
+: Supports providing endpoints for EMM sync, policy/group/etc data shown within MANAGED INFO, metadata, location policy support.
+
+**Support Device Trust** _1.1.0.0_
+: Used for determining state of Device Trust on the device.
 
 ### In future
 
