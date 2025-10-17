@@ -238,6 +238,9 @@ Currently on some devices in the last week or so, critical apps shown go far bey
 
 <a href="https://cdn.bayton.org/uploads/2025/device_trust_critical_apps_bug.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_critical_apps_bug.png" alt="Critical apps bug" style="max-width:400px;"></a>
 
+**Unreliable system update state**  
+This isn't unique to Device Trust, as this also happens for AMAPI-based EMMs also. Some OEMs utilising custom OTA services (for system updates) don't appear to communicate well with Android Device Policy, and so pending updates aren't reflected in synced states.
+
 ### TODO
 
 I mentioned a few pending items in the above, but to summarise everything coming to this feature in due course:
