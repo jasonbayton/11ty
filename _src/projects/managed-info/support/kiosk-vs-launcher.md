@@ -21,7 +21,7 @@ This document explains the differences between **kiosk mode** (LockTask) and **l
 
 ## Kiosk mode (LockTask)
 
-Kiosk mode is a highly restrictive environment designed for single-purpose devices. It uses Android's LockTask APIs to lock the device to specific apps, restricts access to system UI elements (such as the status bar, navigation bar, and power menu), and enforces strict policy controls. Breaking out of kiosk mode typically requires admin intervention or device reprovisioning, making it ideal for secure, dedicated-use deployments.
+Kiosk mode is a highly restrictive environment designed for single-purpose devices. It uses Android's LockTask APIs to restrict the device to specific apps, restrict access to system UI elements (such as the status bar, navigation bar, and power menu), and enforces strict policy controls. Breaking out of kiosk mode typically requires admin intervention or device reprovisioning, making it ideal for secure, dedicated-use deployments.
 
 - **Security:** High; users cannot access system settings or other apps unless explicitly allowed.
 - **Configuration:** Requires more EMM-side policy management (allowlists, LockTask policies).
@@ -40,8 +40,8 @@ Launcher mode configures a custom home screen experience using persistent prefer
 The main differences in policy configuration between kiosk mode and launcher mode are:
 
 - **Kiosk mode (LockTask):**
-    - Requires explicit allowlisting of apps.
-    - Uses `installType: KIOSK` for the target app.
+    - Requires explicit allowlisting of all apps.
+    - Uses `installType: KIOSK` for the target app in AMAPI.
     - LockTask policies restrict access to system UI and other apps.
     - More granular control via EMM policies.
 

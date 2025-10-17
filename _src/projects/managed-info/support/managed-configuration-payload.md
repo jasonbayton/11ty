@@ -19,7 +19,7 @@ eleventyNavigation:
 
 The managed configuration payload, for offline/custom DPC use.
 
-Version: `1.0.5.0`
+Version: `1.1.1.1`
 
 ```json
 {
@@ -127,14 +127,14 @@ Version: `1.0.5.0`
       "key": "enable_contact_details",
       "type": "BOOL",
       "title": "Show contact details card",
-      "description": "This enables the contact details card. Nothing here is interactive, it's just for display and useful when devices aren't expected to directly interact with details (via quick settings, for instance).",
+      "description": "This enables the contact details card. Nothing here is interactive, it's just for display and useful when devices aren't expected to directly interact with details (via quick actions, for instance).",
       "defaultValue": true
     },
     {
       "key": "enable_device_details_button",
       "type": "BOOL",
       "title": "Show device details button",
-      "description": "Show device details in an overlay accessible via a button in the top bar. Useful for enticing end users to share a little more about the device they're using, if needed. This will be hidden if both top bar and MANAGED SETTINGS integration are disabled.",
+      "description": "Show device details in an overlay accessible via a button in the top bar. Useful for enticing end-users to share a little more about the device they're using, if needed. This will be hidden if both top bar and MANAGED SETTINGS integration are disabled.",
       "defaultValue": false
     },
     {
@@ -189,6 +189,13 @@ Version: `1.0.5.0`
           "type": "BOOL",
           "title": "Show Android Enterprise connectivity information",
           "description": "Runs a network test on all Android Enterprise hosts to validate connectivity, and displays a report.",
+          "defaultValue": true
+        },
+        {
+          "key": "device_details_enable_device_trust",
+          "type": "BOOL",
+          "title": "Show device security posture",
+          "description": "Runs a scan on the device to determine its security posture, and displays a report.",
           "defaultValue": true
         }
       ]
@@ -314,7 +321,7 @@ Version: `1.0.5.0`
               "name": "Light"
             }
           ],
-          "defaultValue": "Automatic"
+          "defaultValue": "automatic"
         },
         {
           "key": "kiosk_custom_background_image",
@@ -398,7 +405,7 @@ Version: `1.0.5.0`
           "key": "stack_bundle",
           "type": "BUNDLE",
           "title": "Create a stack",
-          "description": "Stacks offer layout options and card settings.",
+          "description": "Stacks are a collection of individual cards grouped together. A stack can be horizontal, or vertical, and the card types within it will render in the appropriate direction automatically. A stack can contain one card, or several, and the stack order defines where in the global card list the entire stack of custom cards will sit. For further guidance, read the documentation on bayton.org.",
           "nestedProperties": [
             {
               "key": "stack_id",
@@ -427,12 +434,6 @@ Version: `1.0.5.0`
                 {
                   "value": "horizontal",
                   "name": "Horizontal"
-                },
-                {
-                  "value": "single_app"
-                },
-                {
-                  "value": "multi_app"
                 }
               ],
               "defaultValue": "vertical"
@@ -489,7 +490,7 @@ Version: `1.0.5.0`
                           "name": "XXL"
                         }
                       ],
-                      "defaultValue": "Default"
+                      "defaultValue": "default"
                     },
                     {
                       "key": "enable_stack_heading",
@@ -647,6 +648,57 @@ Version: `1.0.5.0`
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "packagemanager_install_applications",
+      "type": "BUNDLE_ARRAY",
+      "title": "Package installation settings",
+      "description": "When configured as a companion application in AMAPI, allows MANAGED INFO to install APKs from remote locations. Review AMAPI documentation before using this setting, as corresponding application policy settings must be defined.",
+      "nestedProperties": [
+        {
+          "key": "packagemanager_application_settings",
+          "type": "BUNDLE",
+          "title": "Application settings",
+          "description": "Define settings for each application to be installed.",
+          "nestedProperties": [
+            {
+              "key": "packagemanager_package_name",
+              "type": "STRING",
+              "title": "Package name of the application",
+              "description": "This is the universally unique name of the package, e.g. org.bayton.managedinfo.",
+              "defaultValue": ""
+            },
+            {
+              "key": "packagemanager_package_versioncode",
+              "type": "STRING",
+              "title": "Version code of the application",
+              "description": "This is the version code of the application, not the version name, e.g. 1010 and not 1.0.1.0. It must always be higher than a previous version. If any existing cached APK is lower than this version, it will be redownloaded. This input is primarily used for managing updates to existing apps.",
+              "defaultValue": ""
+            },
+            {
+              "key": "packagemanager_download_url",
+              "type": "STRING",
+              "title": "Download location",
+              "description": "URL must be accessible to MANAGED INFO. Supports JWT, reach out for more options.",
+              "defaultValue": ""
+            },
+            {
+              "key": "packagemanager_package_admin_sha",
+              "type": "STRING",
+              "title": "Application signature SHA256",
+              "description": "Optional SHA256 of the application admin signature in base64. This allows the signing certificate to be verified against the input here, and re-downloaded if it fails validation. BAYTON Package Search provides this for all installed APKs, otherwise apksigner can be used to retrieve it.",
+              "defaultValue": ""
+            },
+            {
+              "key": "packagemanager_package_hash",
+              "type": "STRING",
+              "title": "Application file SHA256",
+              "description": "Optional SHA256 of the application file in base64. This allows the APK file to be verified against the input here, and re-downloaded if it fails validation.",
+              "defaultValue": ""
             }
           ]
         }

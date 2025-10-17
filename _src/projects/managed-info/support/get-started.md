@@ -41,7 +41,7 @@ Without a configuration, a welcome card is displayed. When a managed config payl
    1. Quick settings
    2. Organisation message
    3. Contact details
-   4. Device devices
+   4. Device details
 
 Quick settings and contact details are reliant on filling out the contact information. If the default entries are blanked with no additional data provided:
 

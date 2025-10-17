@@ -78,6 +78,8 @@ The full managed configuration payload can be seen [here](/projects/managed-info
 | Hardware features | `device_details_enable_hardware` | `bool` | `true` | Shows hardware features. |
 | Connectivity radios | `device_details_enable_radio` | `bool` | `true` | Shows connectivity radios. |
 | Network details | `device_details_enable_network` | `bool` | `true` | Shows active network details. |
+| Android Enterprise connectivity | `device_details_enable_connectivity_check` | `bool` | `true` | Runs a network test on Android Enterprise hosts to validate connectivity, and displays a report. |
+| Device security posture | `device_details_enable_device_trust` | `bool` | `true` | Runs a scan on the device to determine its security posture, and displays a report. |
 
 </div>
 
@@ -223,9 +225,26 @@ Each stack (`stack_bundle`) may contain:
 
 </div>
 
+## Package Installation Settings
+
+When configured as a companion application in AMAPI, MANAGED INFO can install APKs from remote locations. Review AMAPI documentation before using this feature, as corresponding application policy settings must be defined.
+
+<div class="responsive-table-wrapper">
+
+| Setting | Key | Type | Default | Description |
+|---------|-----|------|---------|-------------|
+| Package name of the application | `packagemanager_package_name` | `string` | - | This is the universally unique name of the package, e.g. org.bayton.managedinfo. |
+| Version code of the application | `packagemanager_package_versioncode` | `string` | - | This is the version code of the application, not the version name, e.g. 1010 and not 1.0.1.0. It must always be higher than a previous version. If any existing cached APK is lower than this version, it will be redownloaded. Primarily used for managing updates to existing apps. |
+| Download location | `packagemanager_download_url` | `string` | - | URL must be accessible to MANAGED INFO. Supports JWT. |
+| Application signature SHA256 | `packagemanager_package_admin_sha` | `string` | - | Optional SHA256 of the application admin signature in base64 for certificate verification before install or update. |
+| Application file SHA256 | `packagemanager_package_hash` | `string` | - | Optional SHA256 of the application file in base64 for APK integrity verification before install or update. |
+
+</div>
+
 ## Limitations
 
 - Apps must be installed for icons/names to appear.
 - HTML and Markdown rendering is basic (e.g., no tables/lists).
 - Blocklist mode works only in multi-app cards. <span class="label label-green">#soon</span>
 - Embedded videos and web URLs require network access.
+- Package installation requires MI to be set as a companion app, and have a corresponding AMAPI policy defining applications in order to function.
