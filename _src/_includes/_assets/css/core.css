@@ -288,6 +288,10 @@ a:hover {
   color: var(--blue);
 }
 
+.text-green {
+  color: var(--main-green);
+}
+
 .text-red {
   color: var(--main-red);
 }

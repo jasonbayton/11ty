@@ -46,11 +46,11 @@ eleventyNavigation:
       <td>
         {% set s = (item.status or '') | lower %}
         {% if s == 'maintained' %}
-          <span class="material-icons" aria-hidden="true">check</span> {{ item.status | capitalize }}
+          {{ item.status | capitalize }}
         {% elif s in ['end-of-life','eol','end of life'] %}
-          <span class="material-icons" aria-hidden="true">cancel</span> {{ item.status | capitalize }}
+          <span class="text-red">{{ item.status | capitalize }}</span>
         {% elif s == 'latest' %}
-          <span class="material-icons" aria-hidden="true">check_circle</span> {{ item.status | capitalize }}
+          <span class="text-green">{{ item.status | capitalize }}</span>
         {% elif item.status %}
           {{ item.status | capitalize }}
         {% else %}
