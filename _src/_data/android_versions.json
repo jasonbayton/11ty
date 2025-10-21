@@ -1,5 +1,6 @@
 {
   "lastReviewed": "2025-10-21",
+  "description": "A list of Android versions, their API levels, codenames, release dates, support status, and end-of-life dates. This is maintained primarily for referencing Android OS versions in my projects as an external resource I can update without app updates, bit it also provides a stable API for others to reference. The user-friendly table is available here: (https://bayton.org/android/android-versions).",
   "schema": {
     "version": "string",
     "apiLevel": "number",
