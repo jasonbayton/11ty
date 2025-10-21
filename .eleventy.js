@@ -39,12 +39,12 @@ module.exports = function (eleventyConfig) {
     "_src/_includes/_redirects": "_redirects",
     "_src/_includes/_headers": "_headers",
     "_src/_includes/robots.txt": "robots.txt",
-    "_src/_includes/entID.xml": "projects/managed-settings/entID.xml",
     "_src/_includes/assetlinks.json": ".well-known/assetlinks.json",
     "_src/favicon.ico": "favicon.ico",
     "_src/manifest.json": "manifest.json",
     "_src/pwabuilder-sw.js": "pwabuilder-sw.js",
-    "_src/image": "image"
+    "_src/image": "image",
+    "_src/_data/android_versions.json": "api/android_versions.json",
   });
 
   eleventyConfig.addFilter("dateYear", dates.dateYear);

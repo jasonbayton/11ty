@@ -1,0 +1,80 @@
+---
+title: 'Android versions matrix'
+published: '2025-10-21'
+status: publish
+author: 'Jason Bayton'
+excerpt: ''
+type: documentation
+tags: 
+    - General
+layout: base.njk
+eleventyNavigation:
+  order: 1
+---
+
+{% if androidVersions is not defined and android_versions is defined %}
+  {% set androidVersions = android_versions %}
+{% endif %}
+
+<p>The below provides a table of Android versions and their respective API levels, release dates, and end-of-life dates.</p>
+<p>Android versions are typically supported for an average of 3 years after their initial release, though this can vary based on manufacturer and device. </p>
+<div class="callout">
+  Note that Google does not provide official end-of-life dates for Android versions, so the dates listed are based on when Google typically ends security update backporting. OEMs may choose to support their devices on an Android release after the EOL date listed. True EOL usually comes with the last supported version of Google Play Services for an Android release, which isn't captured here (yet).</div>
+<p>There's a stable API for this table provided as a JSON schema <a href="/api/android_versions.json">here</a>.</p>
+<small>Last updated: {{ androidVersions.lastReviewed }}</small>
+
+<div class="responsive-table-wrapper">
+  <table>
+  <thead>
+    <tr>
+    <th>Version</th>
+    <th>Codename</th>
+    <th>API version</th>
+    <th>Release date</th>
+    <th>Status</th>
+    <th>EOL date</th>
+    <th>Minor versions</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in androidVersions.items %}
+    <tr>
+      <td>{{ item.version }}</td>
+      <td>{{ item.codename }}</td>
+      <td>{{ item.apiLevel }}</td>
+      <td>{{ item.releaseDate }}</td>
+      <td>
+        {% set s = (item.status or '') | lower %}
+        {% if s == 'maintained' %}
+          <span class="material-icons" aria-hidden="true">check</span> {{ item.status | capitalize }}
+        {% elif s in ['end-of-life','eol','end of life'] %}
+          <span class="material-icons" aria-hidden="true">cancel</span> {{ item.status | capitalize }}
+        {% elif s == 'latest' %}
+          <span class="material-icons" aria-hidden="true">check_circle</span> {{ item.status | capitalize }}
+        {% elif item.status %}
+          {{ item.status | capitalize }}
+        {% else %}
+          &mdash;
+        {% endif %}
+      </td>
+      <td>
+        {% if item.eolDate %}
+          {{ item.eolDate }}
+        {% else %}
+          &mdash;
+        {% endif %}
+      </td>
+      <td>
+        {% if item.minorVersions %}
+          {{ item.minorVersions | join(", ") }}
+        {% else %}
+          &mdash;
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+</div>
+
+<p>Data sourced from <a href="https://developer.android.com/about/versions" target="_blank" rel="noopener">Android Developers</a>, <a href="https://en.wikipedia.org/wiki/Android_version_history" target="_blank" rel="noopener">Wikipedia (Android version history)</a>, and other public resources.</p>
