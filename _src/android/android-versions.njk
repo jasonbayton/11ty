@@ -54,21 +54,21 @@ eleventyNavigation:
         {% elif item.status %}
           {{ item.status | capitalize }}
         {% else %}
-          &mdash;
+          -
         {% endif %}
       </td>
       <td>
         {% if item.eolDate %}
           {{ item.eolDate }}
         {% else %}
-          &mdash;
+          -
         {% endif %}
       </td>
       <td>
         {% if item.minorVersions %}
           {{ item.minorVersions | join(", ") }}
         {% else %}
-          &mdash;
+          -
         {% endif %}
       </td>
     </tr>
