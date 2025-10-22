@@ -233,10 +233,46 @@ Understanding Google may consider it redundant to provide it when an existing pa
 **Application sources**  
 If you paid close attention to the screenshots of the bottom sheet above, you may have noticed all critical apps are showing up "Unspecified". This _appears_ to be a Device Trust bug/issue, as it's returned this way in the snapshot. I know I can override this, I've pulled this data myself in [Package Search](/projects/package-search/) however I'd prefer it if I could show data from DT unmodified.
 
-**Critical apps**  
-Currently on some devices in the last week or so, critical apps shown go far beyond the five or so Device Trust typically provides, and returns in the snapshot _every_ system app available on the device. I assume this is a bug, so hopefully this will revert soon.
+~~**Critical apps**~~
+~~Currently on some devices in the last week or so, critical apps shown go far beyond the five or so Device Trust typically provides, and returns in the snapshot _every_ system app available on the device. I assume this is a bug, so hopefully this will revert soon.~~
 
-<a href="https://cdn.bayton.org/uploads/2025/device_trust_critical_apps_bug.png"><img src="https://cdn.bayton.org/uploads/2025/device_trust_critical_apps_bug.png" alt="Critical apps bug" style="max-width:400px;"></a>
+<div class="callout">
+
+**Oct 22**: After working with Google, this was determined to be working as intended, and not strictly a Device Trust issue, but a behaviourial change when an application using Device Trust also has the companion application role via EMM policy. Google's docs have been updated:
+
+_New:_
+```
+Device#getApplicationReports() returns details on all installed 
+applications to extensibility apps and calling application with 
+role COMPANION_APP on a managed device. For all other use cases 
+Device#getApplicationReports() returns details on the following 
+critical apps:
+* com.android.chrome
+* com.google.android.gms
+* com.google.android.apps.work.clouddpc
+* com.android.vending
+* com.google.android.webview 
+```
+
+_Old:_
+```
+Details on:
+* com.android.chrome
+* com.google.android.gms
+* com.google.android.apps.work.clouddpc
+* com.android.vending
+* com.google.android.webview
+Provides:
+* packageName
+* versionName
+* longVersionCode
+* signingKeyCertSha256Fingerprints
+* lastUpdateTime
+* installerPackageName
+* applicationSource
+```
+
+</div>
 
 **Unreliable system update state**  
 This isn't unique to Device Trust, as this also happens for AMAPI-based EMMs also. Some OEMs utilising custom OTA services (for system updates) don't appear to communicate well with Android Device Policy, and so pending updates aren't reflected in synced states.
