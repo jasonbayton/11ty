@@ -247,6 +247,7 @@ applications to extensibility apps and calling application with
 role COMPANION_APP on a managed device. For all other use cases 
 Device#getApplicationReports() returns details on the following 
 critical apps:
+
 * com.android.chrome
 * com.google.android.gms
 * com.google.android.apps.work.clouddpc
@@ -257,12 +258,15 @@ critical apps:
 _Old:_
 ```
 Details on:
+
 * com.android.chrome
 * com.google.android.gms
 * com.google.android.apps.work.clouddpc
 * com.android.vending
 * com.google.android.webview
+
 Provides:
+
 * packageName
 * versionName
 * longVersionCode
