@@ -67653,6 +67653,18 @@
       }
     ]
   },
+  "com.tct.euiccoverlay": {
+    "appName": "com.tct.euiccoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
   "com.tct.iris.overlay_alcatel": {
     "appName": "com.tct.iris.overlay_alcatel",
     "userFacing": false,
@@ -166078,6 +166090,11 @@
         "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       },
       {
         "make": "isafemobile",
