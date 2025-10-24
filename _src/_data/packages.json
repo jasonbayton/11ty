@@ -3353,7 +3353,12 @@
   "com.google.android.verifier": {
     "appName": "Android Developer ID Verifier",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Android Developer Verifier"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -18512,11 +18517,6 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
         "model": "Pixel 6",
         "os": "36"
       }
@@ -26923,7 +26923,7 @@
       },
       {
         "locale": "nl-nl",
-        "name": "Afbeelding kiezen"
+        "name": "Kies een afbeelding"
       }
     ],
     "devices": [
