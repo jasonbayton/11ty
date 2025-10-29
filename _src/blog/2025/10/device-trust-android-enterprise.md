@@ -285,10 +285,10 @@ This isn't unique to Device Trust, as this also happens for AMAPI-based EMMs als
 
 I mentioned a few pending items in the above, but to summarise everything coming to this feature in due course:
 
-- **Play Integrity integration**
+- ~~**Play Integrity integration**~~ - 1.1.2.0
 - **Tap actions**: It's fine showing developer options are enabled, but with tap actions I'll allow device users (where enabled) to tap to the relevant location in Settings to rectify the ongoing issue, this could be disabling developer options, checking for an update, turning on Play Protect, and so on. Whenever I add tap actions to things, I always consider the impact it may have on an organisation - for example tapping something that will open Settings may then unexpectedly give end users full Settings access on a device, even when this is disabled by policy (some tablets are notorious for this with their split-screen Settings view) - so make a restriction available in managed configs to turn it off.
 - **Remote endpoint exports**: Similar to the location feature, I'll add in basic API exports. Currently this requires a bearer, I'm considering webhook support amongst alternatives. If you're interested in exploring this and have ideas, get in touch!
-- **General improvements and fixes**: Having done a pretty solid first-pass, I'll spin around from the beginning and do a bit of cleanup, likely starting with the score-based state card.
+- **General improvements and fixes**: Having done a pretty solid first-pass, I'll spin around from the beginning and do a bit of clean-up, likely starting with the score-based state card.
 - **Additional data points**: Those provided by Device Trust don't cover off every possible check an application can run on-device - plenty are generally available within Android gated by standard or special permissions. I'll spend some time determining what adds value (e.g. Wi-Fi network SSID can be handy).
 
 ## Final thoughts
