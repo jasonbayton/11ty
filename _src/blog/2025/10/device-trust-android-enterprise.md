@@ -209,7 +209,7 @@ The rest of the screen make up various projects I'm working on, and aren't wholl
 
 **SetupActions during enrolment**
 
-Again for EMM-enrolled devices, MANAGED INFO can offer a customisable (when I enable it, likely 1.1.2) enrolment screen typically provided by companion applications. Since I'd integrated the SDK and have completed a few projects that required MANAGED INFO to be opened on enrolment, I figured a SetupActions flow would make sense to ensure it happens.
+Again for EMM-enrolled devices, MANAGED INFO can offer a customisable (~~when I enable it, likely 1.1.2~~ available from version 1.1.2.0) enrolment screen typically provided by companion applications. Since I'd integrated the SDK and have completed a few projects that required MANAGED INFO to be opened on enrolment, I figured a SetupActions flow would make sense to ensure it happens.
 
 _Typically_ shortly after completing this, the support for application roles included the ability to silently awaken installed applications when a role is assigned, rendering this somewhat redundant now, but still, I have it, and Trust signals here felt like a nice addition:
 
