@@ -38244,6 +38244,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -69176,6 +69181,18 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      }
+    ]
+  },
+  "com.tct.setupwizard.overlay": {
+    "appName": "com.tct.setupwizard.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
@@ -150224,6 +150241,11 @@
         "make": "TCL",
         "model": "T610K",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
       }
     ]
   },
