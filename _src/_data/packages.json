@@ -89412,6 +89412,18 @@
       }
     ]
   },
+  "com.android.eyedropper": {
+    "appName": "EyeDropper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
   "com.cipherlab.self_testing": {
     "appName": "EZCheck",
     "userFacing": false,
