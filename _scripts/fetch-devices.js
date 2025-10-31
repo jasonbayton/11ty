@@ -30,6 +30,9 @@ async function fetchAndSaveDevices() {
         const responseData = await devicesResponse.json();
 
         // Extract devices array from the data wrapper
+        if (!responseData || !responseData.data) {
+            throw new Error('Devices response is missing data property');
+        }
         const devicesData = responseData.data;
 
         // Ensure the response contains an array
@@ -122,7 +125,7 @@ async function fetchAndSaveDevices() {
             return {
                 totalNonStaleRecentDevices,
                 totalRecent24hDevices,
-                totalLicensedDevices: 0,
+                totalLicensedDevices: 0, // License validation removed - always 0
                 devicesByOS: sortedDevicesByOS,
                 devicesByMake: sortedDevicesByMake,
                 devicesByCountry: sortedDevicesByCountry,
