@@ -4,10 +4,8 @@ const path = require('path');
 require('dotenv').config(); // Load environment variables from .env file
 
 async function fetchAndSaveDevices() {
-    const devicesUrl = 'https://ping.projects.bayton.org/api/devices';
-    const licensesUrl = 'https://ping.projects.bayton.org/api/licenses/org.bayton.managedsettings';
-    const managedInfoLicensesUrl = 'https://ping.projects.bayton.org/api/licenses/org.bayton.managedinfo';
-    const token = process.env.PING_API;
+    const devicesUrl = 'https://ping.bayton.org/items/devices?limit=-1';
+    const token = process.env.PINGDIR_API;
     const outputPath = path.join(__dirname, '../_src/_data', 'devices.json');
 
     try {
@@ -20,42 +18,24 @@ async function fetchAndSaveDevices() {
             }
         };
 
-        // Fetch devices and licenses in parallel
-        const [devicesResponse, licensesResponse, managedInfoLicensesResponse] = await Promise.all([
-            fetch(devicesUrl, fetchOptions),
-            fetch(licensesUrl, fetchOptions),
-            fetch(managedInfoLicensesUrl, fetchOptions)
-        ]);
+        // Fetch devices
+        const devicesResponse = await fetch(devicesUrl, fetchOptions);
 
-        // Check if all responses are successful
+        // Check if response is successful
         if (!devicesResponse.ok) {
             throw new Error(`Failed to fetch devices: ${devicesResponse.status} ${devicesResponse.statusText}`);
         }
-        if (!licensesResponse.ok) {
-            throw new Error(`Failed to fetch licenses: ${licensesResponse.status} ${licensesResponse.statusText}`);
-        }
-        if (!managedInfoLicensesResponse.ok) {
-            throw new Error(`Failed to fetch managed info licenses: ${managedInfoLicensesResponse.status} ${managedInfoLicensesResponse.statusText}`);
-        }
 
-        // Parse JSON responses in parallel
-        const [devicesData, licensesData, managedInfoLicensesData] = await Promise.all([
-            devicesResponse.json(),
-            licensesResponse.json(),
-            managedInfoLicensesResponse.json()
-        ]);
+        // Parse JSON response
+        const responseData = await devicesResponse.json();
 
-        // Ensure the responses are arrays
+        // Extract devices array from the data wrapper
+        const devicesData = responseData.data;
+
+        // Ensure the response contains an array
         if (!Array.isArray(devicesData)) {
-            throw new Error('Devices response is not an array');
+            throw new Error('Devices response data is not an array');
         }
-        if (!Array.isArray(licensesData) || !Array.isArray(managedInfoLicensesData)) {
-            throw new Error('Licenses response is not an array');
-        }
-
-        // Extract valid license orgIds
-        const validLicenseOrgs = new Set(licensesData);
-        const validManagedInfoLicenseOrgs = new Set(managedInfoLicensesData);
 
         // Get the current date
         const currentDate = new Date();
@@ -91,41 +71,37 @@ async function fetchAndSaveDevices() {
         };
 
         // Function to process devices by service
-        function processDevices(devices, validLicenses) {
+        function processDevices(devices) {
             // Create a Map to track unique device IDs
             const uniqueDevices = new Map();
 
-            // Filter out stale devices, those not updated within 90 days, and exclude duplicates
+            // Filter out devices not updated within 90 days and exclude duplicates
             const nonStaleRecentDevices = devices.filter(device => {
-                const updatedAt = new Date(device.updated_at);
+                const updatedAt = new Date(device.date_updated);
                 // Validate required device fields
-                if (!device.id || !device.updated_at || typeof device.stale !== 'boolean') {
+                if (!device.id || !device.date_updated) {
                     return false;
                 }
-                // Check if the device is non-stale and updated within the last 90 days
-                if (!device.stale && daysDifference(updatedAt, currentDate) <= 90) {
+                // Check if device is updated within the last 90 days
+                if (daysDifference(updatedAt, currentDate) <= 90) {
                     // Check if the device ID is unique
                     if (!uniqueDevices.has(device.id)) {
                         uniqueDevices.set(device.id, device);
                         return true; // Include the device
                     }
                 }
-                return false; // Exclude the device if it's stale, too old, or a duplicate
+                return false; // Exclude the device if it's too old or a duplicate
             });
 
             // Filter devices updated within the last 24 hours
             const recent24hDevices = nonStaleRecentDevices.filter(device => {
-                const updatedAt = new Date(device.updated_at);
+                const updatedAt = new Date(device.date_updated);
                 return hoursDifference(updatedAt, currentDate) <= 24;
             });
 
             // Get the total counts
             const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
             const totalRecent24hDevices = recent24hDevices.length;
-
-            // Count devices with valid licenses
-            const licensedDevices = nonStaleRecentDevices.filter(device => validLicenses.has(device.orgId));
-            const totalLicensedDevices = licensedDevices.length;
 
             // Count devices by OS, make, and country
             const devicesByOS = countByField(nonStaleRecentDevices, 'os');
@@ -146,7 +122,7 @@ async function fetchAndSaveDevices() {
             return {
                 totalNonStaleRecentDevices,
                 totalRecent24hDevices,
-                totalLicensedDevices,
+                totalLicensedDevices: 0,
                 devicesByOS: sortedDevicesByOS,
                 devicesByMake: sortedDevicesByMake,
                 devicesByCountry: sortedDevicesByCountry,
@@ -161,9 +137,9 @@ async function fetchAndSaveDevices() {
         const packageSearchDevices = devicesData.filter(device => device.service === 'package-search');
         const managedInfoDevices = devicesData.filter(device => device.service === 'managed-info');
 
-        const managedSettingsResult = processDevices(managedSettingsDevices, validLicenseOrgs);
-        const packageSearchResult = processDevices(packageSearchDevices, validLicenseOrgs);
-        const managedInfoResult = processDevices(managedInfoDevices, validManagedInfoLicenseOrgs);
+        const managedSettingsResult = processDevices(managedSettingsDevices);
+        const packageSearchResult = processDevices(packageSearchDevices);
+        const managedInfoResult = processDevices(managedInfoDevices);
 
         // Read the previous day's data
         let previousData = null;
