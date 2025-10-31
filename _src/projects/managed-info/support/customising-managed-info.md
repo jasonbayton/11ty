@@ -107,8 +107,14 @@ MANAGED INFO offers the following customisations:
 **Support EMM data configuration** _1.0.9.0_
 : Supports providing endpoints for EMM sync, policy/group/etc data shown within MANAGED INFO, metadata, location policy support.
 
-**Support Device Trust** _1.1.0.0_
+**Support Device Trust** _1.1.2.0_
 : Used for determining state of Device Trust on the device.
+
+**Setup Actions customisation** _1.1.2.0_
+: Allows setting the title, subtitle, visibility of the EMM summary card, and preventing factory reset.
+
+**Vertical & horizontal YouTube cards**
+: Embed required YouTube videos within the card stack layout. Beta feature.
 
 ### In future
 
