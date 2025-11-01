@@ -1,7 +1,7 @@
 {
   "managedSettings": {
     "totalNonStaleRecentDevices": 5944,
-    "totalRecent24hDevices": 1269,
+    "totalRecent24hDevices": 1274,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 15,
@@ -261,13 +261,13 @@
       "31": 0,
       "32": 0,
       "33": 0,
-      "34": 1,
+      "34": 0,
       "35": 0,
       "36": 0
     },
     "numberChangeByMake": {
       "samsung": 0,
-      "motorola": 1,
+      "motorola": 0,
       "Zebra Technologies": 0,
       "Xiaomi": 0,
       "Google": 0,
@@ -378,7 +378,7 @@
       "EL": 0
     },
     "numberChangeByCountry": {
-      "BR": 1,
+      "BR": 0,
       "UNKNOWN": 0,
       "US": 0,
       "DE": 0,
@@ -695,7 +695,7 @@
   },
   "managedInfo": {
     "totalNonStaleRecentDevices": 323,
-    "totalRecent24hDevices": 8,
+    "totalRecent24hDevices": 9,
     "totalLicensedDevices": 0,
     "devicesByOS": {
       "25": 10,
