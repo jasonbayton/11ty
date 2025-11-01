@@ -78,15 +78,21 @@ async function fetchAndSaveDevices() {
             // Create a Map to track unique device IDs
             const uniqueDevices = new Map();
 
-            // Filter out devices not updated within 90 days and exclude duplicates
+            // Filter devices updated or created within 90 days and exclude duplicates
             const nonStaleRecentDevices = devices.filter(device => {
-                const updatedAt = new Date(device.date_updated);
                 // Validate required device fields
-                if (!device.id || !device.date_updated) {
+                if (!device.id || (!device.date_updated && !device.date_created)) {
                     return false;
                 }
-                // Check if device is updated within the last 90 days
-                if (daysDifference(updatedAt, currentDate) <= 90) {
+                
+                // Check if device is updated OR created within the last 90 days
+                const updatedAt = device.date_updated ? new Date(device.date_updated) : null;
+                const createdAt = device.date_created ? new Date(device.date_created) : null;
+                
+                const isRecentlyUpdated = updatedAt && daysDifference(updatedAt, currentDate) <= 90;
+                const isRecentlyCreated = createdAt && daysDifference(createdAt, currentDate) <= 90;
+                
+                if (isRecentlyUpdated || isRecentlyCreated) {
                     // Check if the device ID is unique
                     if (!uniqueDevices.has(device.id)) {
                         uniqueDevices.set(device.id, device);
