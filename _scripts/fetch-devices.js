@@ -4,221 +4,212 @@ const path = require('path');
 require('dotenv').config(); // Load environment variables from .env file
 
 async function fetchAndSaveDevices() {
-    const devicesUrl = 'https://ping.bayton.org/items/devices?limit=-1';
-    const token = process.env.PINGDIR_API;
-    const outputPath = path.join(__dirname, '../_src/_data', 'devices.json');
+  const devicesUrl = 'https://ping.bayton.org/items/devices?limit=-1';
+  const token = process.env.PINGDIR_API;
+  const outputPath = path.join(__dirname, '../_src/_data', 'devices.json');
 
-    try {
-        const fetchOptions = {
-            method: 'GET',
-            headers: {
-                'Authorization': `Bearer ${token}`,
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            }
-        };
+  try {
+    const fetchOptions = {
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    };
 
-        // Fetch devices
-        const devicesResponse = await fetch(devicesUrl, fetchOptions);
+    // Fetch devices
+    const devicesResponse = await fetch(devicesUrl, fetchOptions);
 
-        // Check if response is successful
-        if (!devicesResponse.ok) {
-            throw new Error(`Failed to fetch devices: ${devicesResponse.status} ${devicesResponse.statusText}`);
-        }
-
-        // Parse JSON response
-        const responseData = await devicesResponse.json();
-
-        // Extract devices array from the data wrapper
-        if (!responseData || !responseData.data) {
-            throw new Error('Devices response is missing data property');
-        }
-        const devicesData = responseData.data;
-
-        // Ensure the response contains an array
-        if (!Array.isArray(devicesData)) {
-            throw new Error('Devices response data is not an array');
-        }
-
-        // Get the current date
-        const currentDate = new Date();
-
-        // Function to calculate the difference in hours
-        const hoursDifference = (date1, date2) => {
-            const timeDifference = date2.getTime() - date1.getTime();
-            return timeDifference / (1000 * 3600);
-        };
-
-        // Function to calculate the difference in days
-        const daysDifference = (date1, date2) => {
-            const timeDifference = date2.getTime() - date1.getTime();
-            return timeDifference / (1000 * 3600 * 24);
-        };
-
-        // Count devices by a specific field
-        const countByField = (devices, field) => {
-            return devices.reduce((acc, device) => {
-                const key = device[field] || 'Unknown';
-                acc[key] = (acc[key] || 0) + 1;
-                return acc;
-            }, {});
-        };
-
-        // Count devices by country (case-insensitive)
-        const countByCountry = (devices) => {
-            return devices.reduce((acc, device) => {
-                const country = (device.countryCode || 'Unknown').toUpperCase(); // Normalize to uppercase
-                acc[country] = (acc[country] || 0) + 1;
-                return acc;
-            }, {});
-        };
-
-        // Function to process devices by service
-        function processDevices(devices) {
-            // Create a Map to track unique device IDs
-            const uniqueDevices = new Map();
-
-            // Filter devices updated or created within 90 days and exclude duplicates
-            const nonStaleRecentDevices = devices.filter(device => {
-                // Validate required device fields
-                if (!device.id || (!device.date_updated && !device.date_created)) {
-                    return false;
-                }
-                
-                // Check if device is updated OR created within the last 90 days
-                const updatedAt = device.date_updated ? new Date(device.date_updated) : null;
-                const createdAt = device.date_created ? new Date(device.date_created) : null;
-                
-                const isRecentlyUpdated = updatedAt && daysDifference(updatedAt, currentDate) <= 90;
-                const isRecentlyCreated = createdAt && daysDifference(createdAt, currentDate) <= 90;
-                
-                if (isRecentlyUpdated || isRecentlyCreated) {
-                    // Check if the device ID is unique
-                    if (!uniqueDevices.has(device.id)) {
-                        uniqueDevices.set(device.id, device);
-                        return true; // Include the device
-                    }
-                }
-                return false; // Exclude the device if it's too old or a duplicate
-            });
-
-            // Filter devices updated within the last 24 hours
-            const recent24hDevices = nonStaleRecentDevices.filter(device => {
-                const updatedAt = new Date(device.date_updated);
-                return hoursDifference(updatedAt, currentDate) <= 24;
-            });
-
-            // Get the total counts
-            const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
-            const totalRecent24hDevices = recent24hDevices.length;
-
-            // Count devices by OS, make, and country
-            const devicesByOS = countByField(nonStaleRecentDevices, 'os');
-            const devicesByMake = countByField(nonStaleRecentDevices, 'make');
-            const devicesByCountry = countByCountry(nonStaleRecentDevices);
-
-            // Sort counts in descending order
-            const sortCountsDesc = counts => {
-                return Object.fromEntries(
-                    Object.entries(counts).sort(([, a], [, b]) => b - a)
-                );
-            };
-
-            const sortedDevicesByOS = sortCountsDesc(devicesByOS);
-            const sortedDevicesByMake = sortCountsDesc(devicesByMake);
-            const sortedDevicesByCountry = sortCountsDesc(devicesByCountry);
-
-            return {
-                totalNonStaleRecentDevices,
-                totalRecent24hDevices,
-                totalLicensedDevices: 0, // License validation removed - always 0
-                devicesByOS: sortedDevicesByOS,
-                devicesByMake: sortedDevicesByMake,
-                devicesByCountry: sortedDevicesByCountry,
-                numberChangeByOS: {},
-                numberChangeByMake: {},
-                numberChangeByCountry: {}
-            };
-        }
-
-        // Process devices for each service
-        const managedSettingsDevices = devicesData.filter(device => device.service === 'managed-settings');
-        const packageSearchDevices = devicesData.filter(device => device.service === 'package-search');
-        const managedInfoDevices = devicesData.filter(device => device.service === 'managed-info');
-
-        const managedSettingsResult = processDevices(managedSettingsDevices);
-        const packageSearchResult = processDevices(packageSearchDevices);
-        const managedInfoResult = processDevices(managedInfoDevices);
-
-        // Read the previous day's data
-        let previousData = null;
-        if (fs.existsSync(outputPath)) {
-            previousData = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
-        }
-
-        // Calculate number change for OS, make, and country
-        if (previousData) {
-            ['managedSettings', 'packageSearch', 'managedInfo'].forEach(service => {
-                const currentData = service === 'managedSettings' ? managedSettingsResult
-                    : service === 'packageSearch' ? packageSearchResult
-                        : managedInfoResult;
-                const prevData = previousData[service] || {};
-                const prevOS = prevData.devicesByOS || {};
-                const prevMake = prevData.devicesByMake || {};
-                const prevCountry = prevData.devicesByCountry || {};
-
-                // Combine all OS keys
-                const allOS = new Set([...Object.keys(currentData.devicesByOS), ...Object.keys(prevOS)]);
-                for (const os of allOS) {
-                    const previousCount = prevOS[os] || 0;
-                    const currentCount = currentData.devicesByOS[os] || 0;
-                    const numberChange = currentCount - previousCount;
-                    currentData.numberChangeByOS[os] = numberChange;
-                }
-
-                // Combine all make keys
-                const allMakes = new Set([...Object.keys(currentData.devicesByMake), ...Object.keys(prevMake)]);
-                for (const make of allMakes) {
-                    const previousCount = prevMake[make] || 0;
-                    const currentCount = currentData.devicesByMake[make] || 0;
-                    const numberChange = currentCount - previousCount;
-                    currentData.numberChangeByMake[make] = numberChange;
-                }
-
-                // Combine all country keys
-                const allCountries = new Set([...Object.keys(currentData.devicesByCountry), ...Object.keys(prevCountry)]);
-                for (const country of allCountries) {
-                    const previousCount = prevCountry[country] || 0;
-                    const currentCount = currentData.devicesByCountry[country] || 0;
-                    const numberChange = currentCount - previousCount;
-                    currentData.numberChangeByCountry[country] = numberChange;
-                }
-            });
-        }
-
-        // Write the result to a JSON file
-        const result = {
-            managedSettings: managedSettingsResult,
-            packageSearch: packageSearchResult,
-            managedInfo: managedInfoResult
-        };
-        fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
-
-        console.log('Data fetched and saved to', outputPath);
-
-        // Compare with previous data and output the difference
-        if (previousData) {
-            const managedSettingsDiff = managedSettingsResult.totalNonStaleRecentDevices - previousData.managedSettings.totalNonStaleRecentDevices;
-            const packageSearchDiff = packageSearchResult.totalNonStaleRecentDevices - previousData.packageSearch.totalNonStaleRecentDevices;
-            const managedInfoDiff = managedInfoResult.totalNonStaleRecentDevices - previousData.managedInfo.totalNonStaleRecentDevices;
-
-            console.log(`Managed Settings device count changed by ${managedSettingsDiff} compared to the previous day.`);
-            console.log(`Package Search device count changed by ${packageSearchDiff} compared to the previous day.`);
-            console.log(`Managed Info device count changed by ${managedInfoDiff} compared to the previous day.`);
-        }
-    } catch (error) {
-        console.error('Error fetching devices:', error);
+    // Check if response is successful
+    if (!devicesResponse.ok) {
+      throw new Error(`Failed to fetch devices: ${devicesResponse.status} ${devicesResponse.statusText}`);
     }
+
+    // Parse JSON response
+    const responseData = await devicesResponse.json();
+
+    // Extract devices array from the data wrapper
+    if (!responseData || !responseData.data) {
+      throw new Error('Devices response is missing data property');
+    }
+    const devicesData = responseData.data;
+
+    // Ensure the response contains an array
+    if (!Array.isArray(devicesData)) {
+      throw new Error('Devices response data is not an array');
+    }
+
+    // Get the current time (ms) and thresholds
+    const now = new Date();
+    const NOW_MS = now.getTime();
+    const DAY_MS = 24 * 60 * 60 * 1000;
+    const NINETY_DAYS_MS = 90 * DAY_MS;
+
+    // ---- helpers ----
+    const getTime = (s) => {
+      if (!s) return null;
+      const d = new Date(s);
+      const t = d.getTime();
+      return Number.isNaN(t) ? null : t;
+    };
+
+    const mostRecentActivityMs = (device) => {
+      const u = getTime(device.date_updated);
+      const c = getTime(device.date_created);
+      const t = Math.max(u ?? -Infinity, c ?? -Infinity);
+      return Number.isFinite(t) ? t : null;
+    };
+
+    const withinMs = (timestampMs, windowMs) => {
+      if (timestampMs == null) return false;
+      // Clamp future timestamps to 'now'
+      const ageMs = Math.max(0, NOW_MS - timestampMs);
+      return ageMs <= windowMs;
+    };
+
+    const countByField = (devices, field) =>
+      devices.reduce((acc, device) => {
+        const key = device[field] || 'Unknown';
+        acc[key] = (acc[key] || 0) + 1;
+        return acc;
+      }, {});
+
+    const countByCountry = (devices) =>
+      devices.reduce((acc, device) => {
+        const country = (device.countryCode || 'Unknown').toUpperCase();
+        acc[country] = (acc[country] || 0) + 1;
+        return acc;
+      }, {});
+
+    const sortCountsDesc = (counts) =>
+      Object.fromEntries(
+        Object.entries(counts).sort(([, a], [, b]) => b - a)
+      );
+
+    // ---- core processor (patched) ----
+    function processDevices(devices) {
+      // De-dupe by device.id while building 90-day set
+      const seenIds = new Set();
+
+      const nonStaleRecentDevices = devices.filter((device) => {
+        if (!device?.id) return false;
+
+        const t = mostRecentActivityMs(device);
+        if (t == null) return false;
+
+        const isWithin90 = withinMs(t, NINETY_DAYS_MS);
+        if (!isWithin90) return false;
+
+        if (seenIds.has(device.id)) return false;
+        seenIds.add(device.id);
+        return true;
+      });
+
+      // 24h set: based on the most recent of created/updated (as requested)
+      const recent24hDevices = nonStaleRecentDevices.filter((device) => {
+        const t = mostRecentActivityMs(device);
+        return withinMs(t, DAY_MS);
+      });
+
+      // Aggregations
+      const totalNonStaleRecentDevices = nonStaleRecentDevices.length;
+      const totalRecent24hDevices = recent24hDevices.length;
+
+      const devicesByOS = sortCountsDesc(countByField(nonStaleRecentDevices, 'os'));
+      const devicesByMake = sortCountsDesc(countByField(nonStaleRecentDevices, 'make'));
+      const devicesByCountry = sortCountsDesc(countByCountry(nonStaleRecentDevices));
+
+      return {
+        totalNonStaleRecentDevices,
+        totalRecent24hDevices,
+        totalLicensedDevices: 0, // License validation removed - always 0
+        devicesByOS,
+        devicesByMake,
+        devicesByCountry,
+        numberChangeByOS: {},
+        numberChangeByMake: {},
+        numberChangeByCountry: {}
+      };
+    }
+
+    // Process devices for each service
+    const managedSettingsDevices = devicesData.filter(d => d.service === 'managed-settings');
+    const packageSearchDevices = devicesData.filter(d => d.service === 'package-search');
+    const managedInfoDevices = devicesData.filter(d => d.service === 'managed-info');
+
+    const managedSettingsResult = processDevices(managedSettingsDevices);
+    const packageSearchResult = processDevices(packageSearchDevices);
+    const managedInfoResult = processDevices(managedInfoDevices);
+
+    // Read the previous day's data (if present)
+    let previousData = null;
+    if (fs.existsSync(outputPath)) {
+      previousData = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+    }
+
+    // Calculate number change for OS, make, and country against previous snapshot
+    if (previousData) {
+      ['managedSettings', 'packageSearch', 'managedInfo'].forEach((service) => {
+        const currentData =
+          service === 'managedSettings' ? managedSettingsResult
+            : service === 'packageSearch' ? packageSearchResult
+              : managedInfoResult;
+
+        const prevData = previousData[service] || {};
+        const prevOS = prevData.devicesByOS || {};
+        const prevMake = prevData.devicesByMake || {};
+        const prevCountry = prevData.devicesByCountry || {};
+
+        const allOS = new Set([...Object.keys(currentData.devicesByOS), ...Object.keys(prevOS)]);
+        for (const os of allOS) {
+          const previousCount = prevOS[os] || 0;
+          const currentCount = currentData.devicesByOS[os] || 0;
+          currentData.numberChangeByOS[os] = currentCount - previousCount;
+        }
+
+        const allMakes = new Set([...Object.keys(currentData.devicesByMake), ...Object.keys(prevMake)]);
+        for (const make of allMakes) {
+          const previousCount = prevMake[make] || 0;
+          const currentCount = currentData.devicesByMake[make] || 0;
+          currentData.numberChangeByMake[make] = currentCount - previousCount;
+        }
+
+        const allCountries = new Set([...Object.keys(currentData.devicesByCountry), ...Object.keys(prevCountry)]);
+        for (const country of allCountries) {
+          const previousCount = prevCountry[country] || 0;
+          const currentCount = currentData.devicesByCountry[country] || 0;
+          currentData.numberChangeByCountry[country] = currentCount - previousCount;
+        }
+      });
+    }
+
+    // Write the result to a JSON file
+    const result = {
+      managedSettings: managedSettingsResult,
+      packageSearch: packageSearchResult,
+      managedInfo: managedInfoResult
+    };
+    fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
+
+    console.log('Data fetched and saved to', outputPath);
+
+    // Compare with previous data and output the difference
+    if (previousData) {
+      const managedSettingsDiff =
+        managedSettingsResult.totalNonStaleRecentDevices - (previousData.managedSettings?.totalNonStaleRecentDevices || 0);
+      const packageSearchDiff =
+        packageSearchResult.totalNonStaleRecentDevices - (previousData.packageSearch?.totalNonStaleRecentDevices || 0);
+      const managedInfoDiff =
+        managedInfoResult.totalNonStaleRecentDevices - (previousData.managedInfo?.totalNonStaleRecentDevices || 0);
+
+      console.log(`Managed Settings device count changed by ${managedSettingsDiff} compared to the previous day.`);
+      console.log(`Package Search device count changed by ${packageSearchDiff} compared to the previous day.`);
+      console.log(`Managed Info device count changed by ${managedInfoDiff} compared to the previous day.`);
+    }
+  } catch (error) {
+    console.error('Error fetching devices:', error);
+  }
 }
 
 // Run the fetch function
