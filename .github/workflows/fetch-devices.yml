@@ -23,7 +23,7 @@ jobs:
 
       - name: Run fetch-devices script
         env:
-          PING_API: ${{ secrets.PING_API }}
+          PINGDIR_API: ${{ secrets.PINGDIR_API }}
         run: node _scripts/fetch-devices.js
 
       - name: Commit and push changes
